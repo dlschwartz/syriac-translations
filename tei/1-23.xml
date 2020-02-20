@@ -4,6 +4,10 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+		 <respStmt>
+			 <resp>proofreading and metadata added by</resp>
+			 <name type="person" ref="http://syriaca.org/person.xml#kDmitrijev">Kaisson Dmitrijev</name>
+		 </respStmt>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/3052">To Solon, Bishop of Seleucia in
