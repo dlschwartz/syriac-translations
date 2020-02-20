@@ -10,10 +10,12 @@
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
-            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
             <respStmt>
                <resp>XML created by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>Based on the work of</resp>
@@ -21,7 +23,13 @@
             </respStmt>
             <respStmt>
                <resp>OCR corrected by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Ryan A. M.
+                  Randle</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -29,10 +37,13 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -49,11 +60,10 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title type="main" xml:lang="en" level="m">
-                     The Sixth Book of the Select Letters of
-                     <persName ref="http://syriaca.org/person/51">Severus Patriarch of Antioch</persName>
-                     in the Syriac Version of
-                     <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                  <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
+                     of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
+                        Antioch</persName> in the Syriac Version of <persName
+                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part II</title>
                   <idno type="URI">http://syriaca.org/bibl/669</idno>
@@ -71,28 +81,41 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+            <!-- FILL IN -->
          </editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <category ana="http://syriaca.org/keyword/apostasy"></category>
+            </taxonomy> 
+         </classDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
    </teiHeader>
-  <text>
+   <text>
       <body>
          <div type="letter" n="4.6">
-            <head type="main" resp="#compiler">Of the same to John the count from Antaradus.</head>
+            <head type="main" resp="#compiler">Of the same to <persName
+                  ref="http://syriaca.org/person/2424">John the count from <placeName
+                     ref="http://syriaca.org/place/1471">Antaradus</placeName></persName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 3rd book the
                390th letter.</head>
             <p> Your magnificent and believing consort did not need a letter of recommendation. For
-               we will say both to you and to her in the words of the Apostle, "Ye are our epistle,
-               written in our heart, and known and read by all men." However your actions seem
-               gratifying, even those which are thought superfluous. As to the prelate of Arca,
+               we will say both to you and to her in the words of the <persName
+                  ref="http://syriaca.org/person/1983">Apostle</persName>, "Ye are our epistle,
+               written in our heart, and known and read by all men." <note
+                  resp="http://syriaca.org/person.xml#ewbrooks" rend="footer">2 Co. iii 2.</note>
+               However your actions seem gratifying, even those which are thought superfluous. As to
+                  <persName>the prelate of
+               Arca</persName><!-- I searched in the Syriac Biographical Dictionary and could not find a URI for this person -->,
                whereas you said in your letter that he reckons it an intolerable thing to do
                anything that annoys us, and this though he and those with him who are trying to
                bring him to this are making many prayers and entreaties, what was written seemed to
@@ -103,42 +126,54 @@
                fitly thought by me to be worth tens of thousands of talents of gold: or, to speak
                more justly, even worth all the pomp? and theatrical display in this world, But that
                you have rather bestowed a gift upon yourself, not upon me, by doing this is easy to
-               show from the God-inspired scripture. For John the speaker of divine things in an
-               epistle to certain believers says as follows: "If any man cometh unto you and
+               show from the God-inspired scripture. For <persName
+                  ref="http://syriaca.org/person/1826">John</persName> the speaker of divine things
+               in an epistle to certain believers says as follows: "If any man cometh unto you and
                bringeth not this sound teaching, receive him not in the house, and say not to him,
-               'Hail.' For he that saith to him 'Hail' is partaker of his evil deeds." And Paul the
-               wise in writing to Titus expressed himself thus: "A man that is an heretic after one
-               admonition and two avoid: knowing that such a man is perverted and sinneth, being
-               self-condemned." And the words written by him to the Corinthians also lead to this
-               sense: for he says, "Therefore 'come out from among them and be separate,' saith the
-               Lord, 'and approach not an unclean man.'" However, not to spin out the letter by
-               using many words, know that the great Basil also, the teacher of all that is under
-               heaven, wrote this in his letters as a kind of rule and canon, in this manner: [Here
-               follows the citation <pb n="265"/> given on p. 259]. These sacred commands therefore
-               you have followed, in that you would not at all consent to come to the communion of
-               those who profess opinions contrary to the orthodox faith. So that, if your firmness
-               had slackened (as I pray may not happen), how great repentance would you have needed
-               for transgressing the strictness of such a law! Wherefore keep the gift that was
-               given you by God, I mean that of the pure and unadulterated communion: for truly this
-               is a gift of God. In fact Paul also somewhere speaks thus: "And this was not of you.
-               For it is a gift of God: not of works, lest any man should boast." The saying also of
-               one of the wise men without seems to be in a way suited to the present topic; "It is
-               harder for us to keep good things than to get them." This too it is good to consider:
-               if he who eats with the king's adversaries is thought to sin beyond forgiveness,
-               where ought we to place him who eats the mysterious and heavenly bread with those who
-               hold opinions adverse to God? Let these words that we have written concerning your
-               salvation which is highly regarded by us suffice: words few compared with the need,
-               but too many for the compass of the letter. But that the ruler of Arca, whom I
-               mentioned a short time ago, is exactly like a beast of burden and a pack-ass, and
-               that he belongs to those who lead him rather than to himself, experience showed even
-               before your words. You were wise and very intelligent in considering that <pb n="266"
-               /> that letter which exposes the false profession ought to be sent to those who
-               conduct our <foreign>apokriseis</foreign> in the royal city: a thing which I have in
-               fact done. But let it not be unknown to your greatness that he spoke the truth when
-               he said that he had received a letter from his brother which hindered him from making
-               the journey to us, or rather which led him to death, </p>
+               'Hail.' For he that saith to him 'Hail' is partaker of his evil deeds." And <persName
+                  ref="http://syriaca.org/person/1983">Paul</persName> the wise in writing to
+                  <persName>Titus</persName><!-- I searched in the Syriac Biographical Dictionary and could not find a URI for this person -->
+               expressed himself thus: "A man that is an heretic after one admonition and two avoid:
+               knowing that such a man is perverted and sinneth, being self-condemned." And the
+               words written by him to the
+               <placeName>Corinthians</placeName><!-- I searched in the Syriac Biographical Dictionary and could not find a URI for this place -->
+               also lead to this sense: for he says, "Therefore 'come out from among them and be
+               separate,' saith the <persName ref="http://syriaca.org/person/2245">Lord</persName>,
+               'and approach not an unclean man.'" However, not to spin out the letter by using many
+               words, know that <persName ref="http://syriaca.org/person/376">the great
+                  Basil</persName> also, the teacher of all that is under heaven, wrote this in his
+               letters as a kind of rule and canon, in this manner: [Here follows the citation <pb
+                  n="265"/> given on p. 259]. These sacred commands therefore you have followed, in
+               that you would not at all consent to come to the communion of those who profess
+               opinions contrary to the orthodox faith. So that, if your firmness had slackened (as
+               I pray may not happen), how great repentance would you have needed for transgressing
+               the strictness of such a law! Wherefore keep the gift that was given you by <persName
+                  ref="http://syriaca.org/person/2245">God</persName>, I mean that of the pure and
+               unadulterated communion: for truly this is a gift of <persName
+                  ref="http://syriaca.org/person/2245">God</persName>. In fact <persName
+                  ref="http://syriaca.org/person/1983">Paul</persName> also somewhere speaks thus:
+               "And this was not of you. For it is a gift of <persName
+                  ref="http://syriaca.org/person/2245">God</persName>: not of works, lest any man
+               should boast." The saying also of one of the wise men without seems to be in a way
+               suited to the present topic; "It is harder for us to keep good things than to get
+               them." This too it is good to consider: if he who eats with the king's adversaries is
+               thought to sin beyond forgiveness, where ought we to place him who eats the
+               mysterious and heavenly bread with those who hold opinions adverse to <persName
+                  ref="http://syriaca.org/person/2245">God</persName>? Let these words that we have
+               written concerning your salvation which is highly regarded by us suffice: words few
+               compared with the need, but too many for the compass of the letter. But that
+                  <persName>the ruler of
+               Arca</persName><!-- I searched in the Syriac Biographical Dictionary and could not find a URI for this person -->,
+               whom I mentioned a short time ago, is exactly like a beast of burden and a pack-ass,
+               and that he belongs to those who lead him rather than to himself, experience showed
+               even before your words. You were wise and very intelligent in considering that <pb
+                  n="266"/> that letter which exposes the false profession ought to be sent to those
+               who conduct our <foreign>apokriseis</foreign> in the royal city: a thing which I have
+               in fact done. But let it not be unknown to your greatness that he spoke the truth
+               when he said that he had received a letter from his brother which hindered him from
+               making the journey to us, or rather which led him to death, </p>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>
