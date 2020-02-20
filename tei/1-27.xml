@@ -4,6 +4,10 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+		  <respStmt>
+			 	 <resp>proofreading and metadata added by</resp>
+			   <name type="person" ref="http://syriaca.org/person.xml#kDmitrijev">Kaisson Dmitrijev</name>
+		  </respStmt>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/3057">To Musonius and Alexander
@@ -87,8 +91,8 @@
   <text>
       <body>
          <div type="letter" n="1.27">
-            <head type="main" resp="#compiler">Of the same to Musonius and Alexander
-               <foreign>vindices</foreign> of Anazarba.</head>
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2571">Musonius</persName> and <persName ref="http://syriaca.org/person/2570">Alexander</persName>
+               <foreign>vindices</foreign> of <placeName ref="http://syriaca.org/place/9">Anazarba</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 5th book the 74th
                letter.</head>
             <p> It would have been best if you had both come to us and also gladdened our eyes by
@@ -99,19 +103,19 @@
                this one letter to both of you: in which I make known to <pb n="88"/> you that the
                whole synod of the God-loving bishops of the East is united in the right doctrines
                and anathematizes all the heresies: among which are included those who divide our one
-               Lord and God Jesus Christ after the union into a duality of natures, and the vain
-               concourse of those who assembled at Chalcedon, the stronghold of this evil heresy,
+               Lord and God <persName ref="http://syriaca.org/person/2245">Jesus Christ</persName> after the union into a duality of natures, and the vain
+               concourse of those who assembled at <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName>, the stronghold of this evil heresy,
                and the impious Tome of Leo (if one called him a cleaver of peace, the expression
                would be a fitting one). These things having thus passed in order (to speak with the
                permission of God), we have now drawn up a synodal letter addressed to the God-loving
-               archbishop of the city of the Alexandrines John, inviting him to unanimity and pure
+               archbishop of the city of the <placeName ref="http://syriaca.org/place/572">Alexandrines</placeName> <persName ref="http://syriaca.org/person/2581">John</persName>, inviting him to unanimity and pure
                communion. And we will write epistles in the same way to the others also, keeping
                everywhere to the royal road, and not turning aside to the right or to the left,"
                guided as we are by the great love of Him who is the guide and leader along this
                road. Concerning the faith and communion with the others, as far as it was possible
                to give information in a letter, let this much suffice. If we ever meet together, you
                will know everything in greater detail and with greater clearness from actual
-               experience. As to Martyrius the poet, whom you made the occasion of the letter, I
+               experience. As to <persName ref="http://syriaca.org/person/2573">Martyrius</persName> the poet, whom you made the occasion of the letter, I
                wish you to know that he is a trouble to me, and a nuisance. Indeed in the case of
                the others also who follow the same profession, and were enrolled in the holy clergy
                of the church that is with us, I have <pb n="89"/> debarred them from practising such
