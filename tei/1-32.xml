@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp> proofreading and metadata added by </resp>
+               <name type="person" ref="http://syriaca.org/person.xml#aenfield">Ambrose Enfield</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -86,8 +90,8 @@
   <text>
       <body>
          <div type="letter" n="1.32">
-            <head type="main" resp="#compiler">Of the same to John, bishop of Alexandria the
-               less.</head>
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2581">John, bishop of Alexandria the
+               less</persName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 6th book the
                154th letter.</head>
             <p> The devout subdeacons of your church have made a complaint to the apostolic see,
@@ -102,7 +106,8 @@
                occupations owing to not receiving sustenance, your love of God should acquiesce in
                all these things, and not disturb that which is the custom by any innovation, unless
                perhaps some relief be given them as a counterpoise to the loss that falls upon them.
-               That a man ought not to serve at his own charges Paul also who had Christ speaking in
+               That a man ought not to serve at his own charges <persName ref="http://syriaca.org/person/1983">Paul</persName> 
+               also who had <persName ref="http://syriaca.org/person/2245">Christ</persName> speaking in
                him enacted: and to this he further added a saying that resembles it, I mean that a
                man who devotes himself to the altar should be supported by the altar; and hence he
                gives the same decision in parallel cases also, and teaches that a man who is engaged
@@ -115,3 +120,5 @@
       </body>
   </text>
 </TEI>
+
+

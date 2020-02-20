@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp> proofreading and metadata added by </resp>
+               <name type="person" ref="http://syriaca.org/person.xml#aenfield">Ambrose Enfield</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -88,13 +92,13 @@
          <div type="letter" n="1.34">
             <pb n="101"/>
             <head type="main" resp="#compiler">Of the same a letter of summons to the bishops under
-               Apamea.</head>
+               <placeName ref="http://syriaca.org/place/11">Apamea</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, From the 7th book the
                127th letter.</head>
             <p> Though we are weak and in deeds fail to keep to the way of the fathers, in that we
                are inclined to sloth and negligence, yet still as regards the orthodox faith, in
                accordance with the apostolic command, we prove ourselves to see if we are in the
-               faith, and examine ourselves to see if Christ is in us: and we know that in this we
+               faith, and examine ourselves to see if <persName>Christ</persName> is in us: and we know that in this we
                are not reprobate through grace from above. Whereas it is written in the holy canons
                of the fathers that the God-loving bishops in each administrative district ought to
                assemble together twice a year to deal with urgent matters that occur, in due season

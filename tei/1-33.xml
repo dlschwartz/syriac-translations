@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp> proofreading and metadata added by </resp>
+               <name type="person" ref="http://syriaca.org/person.xml#aenfield">Ambrose Enfield</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -87,13 +91,13 @@
       <body>
          <div type="letter" n="1.33">
             <pb n="100"/>
-            <head type="main" resp="#compiler">Of the same to Dionysius, bishop of Tarsus.</head>
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2520">Dionysius</persName>, bishop of Tarsus.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 6th book the
                186th letter.</head>
             <p> Time has, it seems, brought a new thing, I mean a military force demanding as if it
                were part of its pay that ordination be conferred by high-priests upon certain
                persons; for such is the unreasonable treatment which the God-loving bishop of
-               Pompeiupolis has informed the apostolic see that he has received; and he says that
+               <placeName ref=>Pompeiupolis</placeName> has informed the apostolic see that he has received; and he says that
                soldiers with their swords held above his head almost threatened to take his head
                off, unless he laid his hand on the head of such-and-such a man. This illegal act
                therefore must by all means be annulled, and be considered as if it had never been
