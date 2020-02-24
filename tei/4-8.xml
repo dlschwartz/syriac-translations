@@ -10,10 +10,12 @@
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
-            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
             <respStmt>
                <resp>XML created by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>Based on the work of</resp>
@@ -21,7 +23,12 @@
             </respStmt>
             <respStmt>
                <resp>OCR corrected by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#rrandle">Ryan A. Randle</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -29,10 +36,13 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -49,11 +59,10 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title type="main" xml:lang="en" level="m">
-                     The Sixth Book of the Select Letters of
-                     <persName ref="http://syriaca.org/person/51">Severus Patriarch of Antioch</persName>
-                     in the Syriac Version of
-                     <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                  <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
+                     of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
+                        Antioch</persName> in the Syriac Version of <persName
+                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part II</title>
                   <idno type="URI">http://syriaca.org/bibl/669</idno>
@@ -71,61 +80,88 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+            <!-- FILL IN -->
          </editorialDecl>
+      </encodingDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="Arianism - http://syriaca.org/keyword/arianism"/>
+               <category ana="Faith - http://syriaca.org/keyword/faith"/>
+            </taxonomy>
+         </classDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
    </teiHeader>
-  <text>
+   <text>
       <body>
          <div type="letter" n="4.8">
-            <head type="main" resp="#compiler">Of the same to the believers in Antioch.</head>
+            <head type="main" resp="#compiler">Of the same to the believers in <placeName
+                  ref="http://syriaca.org/place/10">Antioch</placeName>.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 2nd book the 9th
                letter.</head>
-            <p> To the holy church of God in Antioch, the devout clergymen and those that are among
-               the people, Severus greeting in the Lord. Neither at an earlier time when I left your
-               Christ-loving city did you omit——. <add><emph>And after other things.</emph></add>
-               And to others again, showing how great are the benefits of sufferings for Christ's
-               sake, he wrote in an epistle, "Unto you it was given not only to believe on Christ,
-               but also to suffer for His sake," calling it a gift given by God that they should
-               suffer in the cause of piety. Fitly therefore and as beseems your intelligence and
-               the earnestness of your character you are searching and inquiring both as to the
-               exact nature of the right faith, and as to the way to observe this with carefulness.
-               For a man to be polluted by the communion of heretics ruins all the labours and <pb
-                  n="269"/> toils even of the solitary life, and leads to hell and final
-               destruction: from which the divine John the Evangelist also tried to hinder men,
-               writing thus: [Here follows the citation given on p. 263] The God-clad Basil too, the
-               great doctor of the church, wrote in an epistle to a certain monk named Urbicius,
-               saying: [Here follows the citation given on p. 259] In the letter to count Terence
-               also he speaks thus: "But, even if a man come from heaven itself, but is not in
-               accord with the sound word of faith, I cannot reckon him a communicator in the
-               sacraments." And in writing to the same Terence's daughters who were deaconesses he
-               repeats the same things in a terrifying form, because the Arians and Fighters against
-               the Spirit were disturbing the churches of God and were surging against them
-               tyrannically: "But they who speak of either the Son or the Spirit as a creature, or
-               reduce Him in any way to a subsidiary and servile office, are far from the truth:
+            <p> To the holy church of <persName ref="http://syriaca.org/person/2245">God</persName>
+               in <placeName ref="http://syriaca.org/place/10">Antioch</placeName>, the devout
+               clergymen and those that are among the people, <persName
+                  ref="http://syriaca.org/person/51">Severus</persName> greeting in the <persName
+                  ref="http://syriaca.org/person/2245">Lord</persName>. Neither at an earlier time
+               when I left your <persName ref="http://syriaca.org/person/2245"
+               >Christ</persName>-loving city did you omit——. <add><emph>And after other
+                     things.</emph></add> And to others again, showing how great are the benefits of
+               sufferings for <persName ref="http://syriaca.org/person/2245">Christ's</persName>
+               sake, he wrote in an epistle, "Unto you it was given not only to believe on <persName
+                  ref="http://syriaca.org/person/2245">Christ</persName>, but also to suffer for His
+               sake," calling it a gift given by <persName ref="http://syriaca.org/person/2245"
+                  >God</persName> that they should suffer in the cause of piety. Fitly therefore and
+               as beseems your intelligence and the earnestness of your character you are searching
+               and inquiring both as to the exact nature of the right faith, and as to the way to
+               observe this with carefulness. For a man to be polluted by the communion of heretics
+               ruins all the labours and <pb n="269"/> toils even of the solitary life, and leads to
+               hell and final destruction: from which the divine <persName
+                  ref="http://syriaca.org/person/1826">John the Evangelist</persName> also tried to
+               hinder men, writing thus: [Here follows the citation given on p. 263] The God-clad
+                  <persName ref="http://syriaca.org/person/376">Basil</persName> too, the great
+               doctor of the church, wrote in an epistle to a certain monk named <persName
+                  ref="http://syriaca.org/person/2778">Urbicius</persName>, saying: [Here follows
+               the citation given on p. 259] In the letter to <persName
+                  ref="http://syriaca.org/person/2711">count Terence</persName> also he speaks thus:
+               "But, even if a man come from heaven itself, but is not in accord with the sound word
+               of faith, I cannot reckon him a communicator in the sacraments." And in writing to
+               the same <persName ref="http://syriaca.org/person/2711">Terence's</persName>
+               daughters who were deaconesses he repeats the same things in a terrifying form,
+               because the <placeName ref="http://syriaca.org/person/2486">Arians</placeName> and
+               Fighters against the Spirit were disturbing the churches of <persName
+                  ref="http://syriaca.org/person/2245">God</persName> and were surging against them
+               tyrannically: "But they who speak of either the <persName
+                  ref="http://syriaca.org/person/2245">Son</persName> or the Spirit as a creature,
+               or reduce Him in any way to a subsidiary and servile office, are far from the truth:
                whose communion one should shun and from whose words one should turn away as being
-               destructive of souls." And to Patrophilus the bishop he wrote thus: "If these things
-               seem to you a fit subject for grief, impute the separation to those who were the
-               cause. But, if you judge them indifferent, pardon us when we do not consent to be of
-               the leaven of those who teach other things." Gregory also the Theologian wrote thus
-               about the Arians who were in power at that time, as <pb n="270"/> I said, and
-               compelled the orthodox to communicate with them against their will: "Having made this
-               one charge only, that they did not assent to the impiety and were not polluted by the
-               communion; which we shun as serpent's poison, that does not hurt the body but
-               blackens the depths of the soul." Let no one therefore cause you to depart from that
-               which is right. For "in a very little while He that cometh will come and will not
-               tarry": and "He will render to every man according to his deeds." For it is in very
-               truth "a fearful thing to fall into the hands of the living God." </p>
+               destructive of souls." And to <persName ref="http://syriaca.org/person/2781"
+                  >Patrophilus the bishop</persName> he wrote thus: "If these things seem to you a
+               fit subject for grief, impute the separation to those who were the cause. But, if you
+               judge them indifferent, pardon us when we do not consent to be of the leaven of those
+               who teach other things." <persName ref="http://syriaca.org/person/511"
+                  >Gregory</persName> also the Theologian wrote thus about the <persName
+                  ref="http://syriaca.org/person/2486">Arians</persName> who were in power at that
+               time, as <pb n="270"/> I said, and compelled the orthodox to communicate with them
+               against their will: "Having made this one charge only, that they did not assent to
+               the impiety and were not polluted by the communion; which we shun as serpent's
+               poison, that does not hurt the body but blackens the depths of the soul." Let no one
+               therefore cause you to depart from that which is right. For "in a very little while
+               He that cometh will come and will not tarry": and "He will render to every man
+               according to his deeds." For it is in very truth "a fearful thing to fall into the
+               hands of the living <persName ref="http://syriaca.org/person/2245">God</persName>." </p>
             <trailer>Not the end.</trailer>
-         </div>      
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>
