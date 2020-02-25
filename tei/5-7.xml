@@ -10,10 +10,12 @@
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
-            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
             <respStmt>
                <resp>XML created by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>Based on the work of</resp>
@@ -21,7 +23,12 @@
             </respStmt>
             <respStmt>
                <resp>OCR corrected by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ariddle">Ashlyn Riddle</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -29,10 +36,13 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -49,11 +59,10 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title type="main" xml:lang="en" level="m">
-                     The Sixth Book of the Select Letters of
-                     <persName ref="http://syriaca.org/person/51">Severus Patriarch of Antioch</persName>
-                     in the Syriac Version of
-                     <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                  <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
+                     of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
+                        Antioch</persName> in the Syriac Version of <persName
+                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part II</title>
                   <idno type="URI">http://syriaca.org/bibl/669</idno>
@@ -70,20 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="http://syriaca.org/keyword/resurrection"/>
+               <category ana="http://syriaca.org/keyword/passion"/>
+               <category ana="http://syriaca.org/keyword/anathema"/>
+            </taxonomy>
+         </classDecl>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+            <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
    </teiHeader>
-  <text>
+   <text>
       <body>
          <div type="letter" n="5.7">
             <pb n="318"/>
@@ -94,28 +112,32 @@
                they can, and must lead the sheep to a "place of grass," and pasture them by "the
                waters of stillness," and must watch lest anywhere any hurtful root and muddy
                perturbed drink corrupt the healthy conscience of those that are fed is already known
-               to your love of God also. How is it therefore that those in Isauria and in the other
-               provinces are very justly blaming you for having incautiously received Indacus, who
-               presides over Corycus, when he has not agreed in confessing the same faith as we, nor
-               acquiesced in the common resolutions of the whole holy Synod of the God-loving
-               bishops in the East First, such a man ought not to have been received to communion
-               without the judgment of the apostolic see: and, even if by reason of the pressure of
-               the days of the saving Passion and of the Resurrection it had been right for him to
-               be received, the rule as to the lawful mode of reception ought on no account to have
-               been neglected. This is that all who hold to the same communion should think and say
-               the same things. Hasten accordingly to bring the matter that you have neglected to
-               correction: for you see that, if for a little <pb n="319"/> moment we close the eye
-               of watchfulness, we kindle by this small spark a great flame of separation. But the
-               course of healing is not difficult for you. In fact we hear that the whole honourable
-               clergy of the holy church of God in Corycus have already with one accord removed the
-               offences by a certain written renunciation and anathema, and that they readily hold
-               to the orthodox faith and confession. Or, if you like, only make him satisfy the
+               to your love of God also. How is it therefore that those in <placeName
+                  ref="http://syriaca.org/place/99">Isauria</placeName> and in the other provinces
+               are very justly blaming you for having incautiously received <persName
+                  ref="http://syriaca.org/person/2660">Indacus</persName>, who presides over
+                  <placeName>Corycus</placeName><!-- Corycus is not in the Syriaca system -->, when
+               he has not agreed in confessing the same faith as we, nor acquiesced in the common
+               resolutions of the whole holy Synod of the God-loving bishops in the East First, such
+               a man ought not to have been received to communion without the judgment of the
+               apostolic see: and, even if by reason of the pressure of the days of the saving
+               Passion and of the Resurrection it had been right for him to be received, the rule as
+               to the lawful mode of reception ought on no account to have been neglected. This is
+               that all who hold to the same communion should think and say the same things. Hasten
+               accordingly to bring the matter that you have neglected to correction: for you see
+               that, if for a little <pb n="319"/> moment we close the eye of watchfulness, we
+               kindle by this small spark a great flame of separation. But the course of healing is
+               not difficult for you. In fact we hear that the whole honourable clergy of the holy
+               church of God in <placeName>Corycus</placeName> have already with one accord removed
+               the offences by a certain written renunciation and anathema, and that they readily
+               hold to the orthodox faith and confession. Or, if you like, only make him satisfy the
                proper requirements and come according to custom to greet us, and leave the course of
                cure to us and to God. For we are able to bring him near to us by healing words. "Is
-               there no balm in Gilead?" as Jeremiah says, or is it troubled by absence of
-               physicians? </p>
+               there no balm in <placeName>Gilead</placeName>?" as <persName
+                  ref="http://syriaca.org/person/1628">Jeremiah</persName> says, or is it troubled
+               by absence of physicians? </p>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>
