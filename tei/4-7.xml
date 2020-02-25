@@ -84,12 +84,14 @@
             <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
-      <encodingDesc><classDecl>
-         <taxonomy>
-            <category ana="Eucharist - http://syriaca.org/keyword/eucharist/tei"></category>
-            <category ana="Greek-Orthodox - http://syriaca.org/keyword/greek-orthodox/tei"></category>
-         </taxonomy>
-      </classDecl></encodingDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="Eucharist - http://syriaca.org/keyword/eucharist/tei"/>
+               <category ana="Greek-Orthodox - http://syriaca.org/keyword/greek-orthodox/tei"/>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
       <profileDesc>
          <creation>
             <origDate type="composition"
@@ -104,15 +106,18 @@
       <body>
          <div type="letter" n="4.7">
             <head type="main" resp="#compiler">Of the same to father <persName
-                  ref="http://syriaca.org/person/2438">John Canopites</persName>.</head>
+                  ref="http://syriaca.org/person/2438">John Canopites<note
+                     resp="http://syriaca.org/person.xml#ewbrooks" rend="footer">Cf. Vit. Sev. p.
+                     23; Vit. Pet. Ib. p. 132.</note></persName>.</head>
             <head type="sub" resp="#compiler">From those that were found outside the 23 books, the
                4th letter.</head>
             <p> We for our part, feeble although we are, write everything written by your holiness
-               upon the tablets of our heart, as it is written, and do not, as a man might think,
-               read it over hastily. And we pray, as sinners, that your words may with <persName
-                  ref="http://syriaca.org/person/2245">God's</persName> help be continued to us in
-               the time of trial. For I am in the habit of mentioning <persName
-                  ref="http://syriaca.org/person/1629">Basil</persName> and <persName
+               upon the tablets of our heart, as it is written,<note
+                  resp="http://syriaca.org/person.xml#ewbrooks" rend="footer">2 Co. iii. 3.</note>
+               and do not, as a man might think, read it over hastily. And we pray, as sinners, that
+               your words may with <persName ref="http://syriaca.org/person/2245">God's</persName>
+               help be continued to us in the time of trial. For I am in the habit of mentioning
+                  <persName ref="http://syriaca.org/person/1629">Basil</persName> and <persName
                   ref="http://syriaca.org/person/511">Gregory</persName>, and having their names
                constantly upon my tongue: but there is nothing resembling their virtue in me, seeing
                that I have passed all my life in negligence. As for those who, as your holiness
@@ -121,10 +126,12 @@
                and all my capacity for <pb n="267"/> teaching, and said that want of carefulness in
                these things is great wickedness; whence I did not shrink from giving personal
                demonstration and proof even to women, when need called, that there is a great gulf,
-               as in the passage in the Gospels, between the orthodox communion and that of the
+               as in the passage in the Gospels<note resp="http://syriaca.org/person.xml#ewbrooks"
+                  rend="footer">Lu. xvi. 26.</note>, between the orthodox communion and that of the
                adversaries, and that we have no communion or association with those of p. 301.
                adverse opinions. But, if some men associate secretly in so great a number of cities
-               and of provinces," your sanctity knows that this reflects no blame on us. So far was
+               and of provinces,<note resp="http://syriaca.org/person.xml#ewbrooks" rend="footer"
+                  >επaρχíaς</note> your sanctity knows that this reflects no blame on us. So far was
                I from being satisfied with the matter that I even wrote an epistle to some of our
                brothers in <placeName ref="http://syriaca.org/place/572">Alexandria</placeName> to
                say that they ought not, on the pretext of worshipping in the holy places, to
@@ -132,17 +139,19 @@
                this is the position in which they stand. However matters are placed as in a balance
                and a scale of a balance, and we do not know what will be the result of the things
                that are being stirred in the royal city and the things reported concerning the synod
-               that is to be held, seeing that they are variously told and differently at different
-               times. But of this one thing we for our part are assured, that, while <persName
-                  ref="http://syriaca.org/person/2245">God</persName> extends His hand, no one will
-               be able to lead us away from the right faith, From places and from sees removal by
-               force is possible: but from belief it is wholly impossible, unless we ourselves <pb
-                  n="268"/> desire it, and the fear of <persName
-                  ref="http://syriaca.org/person/2245">God</persName> be lacking in our souls. For
-               "the <persName ref="http://syriaca.org/person/2245">Lord</persName> taketh pleasure
-               in them that fear Him and in those that hope for His grace," as the singing prophet
-               somewhere says. But you, father, help us with all the power that is in you by
-               stretching forth your saintly hands. </p>
+               that is to be held<note resp="http://syriaca.org/person.xml#ewbrooks" rend="footer"
+                  >Perhaps the conference of 532 (see Intr. p. viii).</note>, seeing that they are
+               variously told and differently at different times. But of this one thing we for our
+               part are assured, that, while <persName ref="http://syriaca.org/person/2245"
+                  >God</persName> extends His hand, no one will be able to lead us away from the
+               right faith, From places and from sees removal by force is possible: but from belief
+               it is wholly impossible, unless we ourselves <pb n="268"/> desire it, and the fear of
+                  <persName ref="http://syriaca.org/person/2245">God</persName> be lacking in our
+               souls. For "the <persName ref="http://syriaca.org/person/2245">Lord</persName> taketh
+               pleasure in them that fear Him and in those that hope for His grace,"<note
+                  resp="http://syriaca.org/person.xml#ewbrooks" rend="footer">Ps. cxlvi. 11.</note>
+               as the singing prophet somewhere says. But you, father, help us with all the power
+               that is in you by stretching forth your saintly hands. </p>
             <trailer>The end.</trailer>
          </div>
       </body>
