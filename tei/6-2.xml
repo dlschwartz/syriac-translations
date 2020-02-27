@@ -10,12 +10,10 @@
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
-            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
-               Schwartz</editor>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
             <respStmt>
                <resp>XML created by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
-                  Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>Based on the work of</resp>
@@ -23,13 +21,7 @@
             </respStmt>
             <respStmt>
                <resp>OCR corrected by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
-                  Schwartz</name>
-            </respStmt>
-            <respStmt>
-               <resp>proofreading and metadata added by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
-                  Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -37,13 +29,10 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <placeName>Center of Digital Humanities Research, College Station, TX,
-                  USA</placeName>
+               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/>
-            <!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/>
-            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -60,10 +49,11 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
-                     of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
-                        Antioch</persName> in the Syriac Version of <persName
-                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                  <title type="main" xml:lang="en" level="m">
+                     The Sixth Book of the Select Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus Patriarch of Antioch</persName>
+                     in the Syriac Version of
+                     <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part II</title>
                   <idno type="URI">http://syriaca.org/bibl/669</idno>
@@ -81,43 +71,38 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/>
-            <!-- FILL IN -->
+            <p/><!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+  <text>
       <body>
          <div type="letter" n="6.2">
             <head type="main" resp="#compiler">Of the same to Archelaus the reader of Tyre.</head>
             <head type="sub" resp="#compiler">from those during episcopacy, from the 1st book the
                141st letter.</head>
-            <p> Our Christ-loving brothers the lord <persName ref="http://syriaca.org/person/2705"
-                  >Menas</persName> and <persName>Isidore</persName> informed us that some of the
+            <p> Our Christ-loving brothers the lord Menas and Isidore informed us that some of the
                readers, moved <pb n="364"/> by divine zeal, recoiled from communion with that wicked
-                  man,<note resp="http://syriaca.org/person.xml#ewbrooks" rend="footer">Epiphanius;
-                  cf. p. 97</note> and he laid upon them, as he thought, a ban of excommunication;
-               and that it is necessary for this to be removed by us. For my part I was surprised if
-               they considered a ban laid upon them by a man repudiated for his faith to be a ban at
-               all. Indeed the holy Cyril also in writing to Nestorius says this; "Those who spoke
+               man, and he laid upon them, as he thought, a ban of excommunication; and that it is
+               necessary for this to be removed by us. For my part I was surprised if they
+               considered a ban laid upon them by a man repudiated for his faith to be a ban at all.
+               Indeed the holy Cyril also in writing to Nestorius says this; "Those who spoke
                against you on account of the faith and have been separated by you are in communion
-               with us. For it is not right that such men should be injured by your sentences."<note
-                  resp="http://syriaca.org/person.xml#ewbrooks" rend="footer"/> If therefore it is
-               on account of the orthodox faith only, and not for any other sin, that these too have
-               received such a ban and have seceded from him, they are released. How could men who,
-               as we said before, were never even placed under a ban at the beginning be under a
-               ban? </p>
+               with us. For it is not right that such men should be injured by your sentences." If
+               therefore it is on account of the orthodox faith only, and not for any other sin,
+               that these too have received such a ban and have seceded from him, they are released.
+               How could men who, as we said before, were never even placed under a ban at the
+               beginning be under a ban? </p>
             <trailer>The end.</trailer>
-         </div>
+         </div>      
       </body>
-   </text>
+  </text>
 </TEI>
