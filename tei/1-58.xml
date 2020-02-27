@@ -23,6 +23,11 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz"> Trainor M. Gray</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -90,8 +95,9 @@
             <head type="main" resp="#compiler">Of the same to Didymus the bishop.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 3rd book the 90th
                letter.</head>
-            <p> I have learned with accuracy the whole story of the devout deacon Sannus: and how
-               before coming to the see where your love of God is priest he lived an indiscriminate
+            <p> I have learned with accuracy the whole story of the devout deacon <persName 
+               ref="http://syriaca.org/person/3118">Sannus</persName>: and how
+               before coming to the see where your love of <persName>God</persName> is priest he lived an indiscriminate
                or disordered life, and how you brought him back to devout habits, and how you laid
                down an injunction for him to keep. Now after examining the whole matter I have found
                that, because he appropriated to himself some small sum which formed part of the
@@ -100,26 +106,31 @@
                in the same rank, without any difference whatever. If by careful observance he
                observed all the other points on which reform was difficult, and gave up the
                long-standing practice of disorderly habits, which is like a necessity of nature, and
-               was converted to a devout life, and took upon him the character proper to deacons,
+               was converted to a devout life, and took upon him the character proper to <roleName>
+               deacons</roleName><!-- There is no entry for 'deacons' in Syriaca. A deacon is an 
+               elder of the Church tasked with implementing Church laws and living by example to
+               the congregation. -->,
                let us not upset everything on account of a sin in one single point: for it is
                impossible for everything to be reformed at once. This is the practice of teachers
                also, gently to bear with pupils once and twice and many times, when they are at
                fault and do not repeat without mistake, until they attain to perfection. Physicians
                also after the same fashion, when they warn patients to abstain from things <pb
-                  n="177"/> that are pleasant and harmful, are often defeated and grant them
+               n="177"/> that are pleasant and harmful, are often defeated and grant them
                indulgences, allowing them to taste some of the things that they like: and they do
                not in every point insist upon strict observance of the irksome methods demanded by
                science, but they treat the patient in accordance with what is possible. This method
-               of gradual treatment and cure was shown in a figurative manner by our Lord and God
-               Jesus Christ also in the Gospels. When He might have healed, one of the blind men who
+               of gradual treatment and cure was shown in a figurative manner by our <persName>Lord
+               </persName> and <persName>God</persName>
+               <persName ref="http://syriaca.org/person/2245">Jesus Christ</persName> also in the 
+               <bibl>Gospels</bibl>. When He might have healed, one of the blind men who
                were brought to Him by word only, as He did in the case of that leper, saying in a
-               manner befitting God, "I will be thou clean," and immediately upon the word completed
+               manner befitting <persName>God</persName>, "I will be thou clean," and immediately upon the word completed
                the cure, He cured him with a certain delay and procrastination. For "He led him," he
                says, "out of the village. And, when He had spat on his eyes, He put His hands upon
                him and was asking him if he saw aught. And, his eyes having been opened, he said, 'I
                see the men walking like trees.' Then He put His hands again upon his eyes and his
                sight was restored and his eyes were opened, and he saw everything clearly."
-               Therefore He that is our God and the instructor of our souls by working this cure
+               Therefore He that is our <persName>God</persName> and the instructor of our souls by working this cure
                with a certain wise delay instructs us that the bishops in His holy churches, who are
                His representatives, ought to make use of gradual modes of treatment in order to
                bring those whose minds are blinded to the light, until their eyes are gradually
