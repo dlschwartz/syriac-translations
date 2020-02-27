@@ -23,6 +23,11 @@
             <respStmt>
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt> <respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#">T. Lapaglia</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -71,6 +76,14 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+            <classDecl>
+               <taxonomy>
+                  <category ana="http://syriaca.org/keyword/jews"/>
+                  <category ana="http://syriaca.org/keyword/bishops"/>
+                  <category ana="http://syriaca.org/keyword/greek-orthodox"/>
+                  <category ana="http://syriaca.org/keyword/apostolic-succession"/>
+                  <category></category></taxonomy>
+            </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>
@@ -98,7 +111,7 @@
                in asceticism are pure in your minds, in the same manner burn in the spirit, and
                carry the flame of zeal blazing in you: knowing as you do that all zeal is not
                praiseworthy, but that which is according to knowledge. <pb n="180"/> For you listen
-               to <persName ref="http://syriaca.org/person/1983">Paul</persName> accusing the <persName>Jews</persName> and saying, "For I bear record of them that there is a zeal
+               to <persName ref="http://syriaca.org/person/1983">Paul</persName> accusing the Jews and saying, "For I bear record of them that there is a zeal
                of God in them: but not according to knowledge": and you have restrained the ardour
                of zeal with the cords of devoutness: for "blessed is the man that feareth all things
                on account of devoutness." The case of the man who was received by you to communion
@@ -124,13 +137,13 @@
                those who flee from] the Nestorian and Diphysite heresy, and have taken
                refuge in the church, of the orthodox. <persName ref="http://syriaca.org/person/1507">Timothy</persName> also of saintly memory, archbishop of
                the city of the Alexandrines, who wrote in more severe terms from exile owing to the
-               extreme ardour of the people, which would not consent even to cast a glance at those
+–               extreme ardour of the people, which would not consent even to cast a glance at those
                who derived ordination from the Diphysite error, which Proterius introduced there,
                after his return both communicated with <persName ref="http://syriaca.org/person/1983">Paul</persName> of God-loving memory, high-priest of the
                city of the Ephesians and head of the holy churches in Asia, in the Encyclical
                formula, upon his anathematizing with the bishops under him the Chalcedonian impiety:
                and also, after he had reached <placeName ref="http://syriaca.org/place/2734">Alexandria</placeName>, received those who came from the heresy of
-               the Diphysites in the rank in which they were, bishops I mean and presbyters and
+               the Diphysites in the rank in which they were,bishops I mean and presbyters and
                deacons, upon their anathematizing the heresy itself in writing, and accepting such a
                period of separation for peni<pb n="182"/>tence only as he judged and determined to
                be good. In such cases in fact it is in the discretion of high-priests to shorten and
@@ -141,16 +154,16 @@
                from unreasonable fervour and inconsiderate zeal dared to do, at the beginning
                immediately after the synod at Chalcedon had been held, and became a cause of schisms
                and of divisions. For this reason also, after the holy <persName ref="http://syriaca.org/person/2129">Timothy</persName> of whom we are now
-               speaking had thus received those who came from the error of Proterius and of the
+               speaking had thus received those who came from the error of <persName ref="http://syriaca.org/person/2471">Proterius</persName> and of the
                Diphysite heresy in accordance with the laws of the apostolic church, many men, fired
                as it were by some disorderly madness and self-willed ardour, separated from
                communion with him, while they did their best to inflame others also among those who
                were more than ordinarily weak, like those who said, "We have no part in David,
-               neither inheritance in the son of Jesse," and divided <placeName>Israel</placeName> into two. Hence also
+               neither inheritance in the son of Jesse," and divided Israel into two. Hence also
                they ascribed to them the name of the Novatians who do not accept penitence for sins
                committed; and for a long time they disturbed the church, although they gradually
                melted away, and as the book of the Acts says "were scattered and <pb n="183"/> came
-               to naught," like the rebellious band and seditious flock of Theudas and of Judas the
+               to naught," like the rebellious band and seditious flock of Theudas and of <persName ref="http://syriaca.org/person/3125">Judas</persName> the
                Galilean. These things we have related, not because we would reckon acts done by
                heretics valid (they are in fact invalid and without foundation and unsubstantial),
                but because we would explain that healing is not applied to converts from heresy in
@@ -196,11 +209,11 @@
                set over the Christ-loving city of the Antiochenes, and immediately, so to speak,
                upon my being raised to the episcopal throne (unworthily indeed, but still by God's
                mercy), certain men who were infected with the self-created religion of the
-               Re-anointers, following a certain deceiver named Theodotus, who unlawfully
+               Re-anointers, following a certain deceiver named <persName ref="http://syriaca.org/person/2472">Theodotus</persName>, who unlawfully
                re-anointed converts from the Nestorian heresy to the orthodox faith, composed a
                petition consisting of uncanonical propositions, and had this given to me as I was
                going out into the street by a certain man who was himself also a victim of their
-               disease; and ] have composed a certain short treatise against it. Accordingly out of
+               disease; and ] have composed j a certain short treatise against it. Accordingly out of
                respect for the love of teaching and the strictness of your religiousnesses I have
                thought it necessary to look <pb n="186"/> for this and copy it out and send it you,
                in order that nothing bearing upon this subject may remain unknown to you, so far
@@ -233,9 +246,9 @@
                there should be a petition on behalf of the catechumens, one of the deacons
                proclaiming the names, and the presbyter thereupon offering a prayer applying to
                those whose names have been proclaimed, in order that they may receive the laver of
-               regeneration and the <!-- Note communion --> of the holy mysteries, and that immediately afterwards
+               regeneration and the of the holy mysteries, and that immediately afterwards
                another proclamation and prayer should follow on behalf of those that are possessed,
-               in order that they also <note>may</note> be freed from the. possession of evil spirits, and may
+               in order that they also may be freed from the. possession of evil spirits, and may
                receive the communion of the all-holy body and blood. Further, when the holy symbols
                that are consecrated in the mysterious sacrifice are about to be brought out into the
                church, and to be placed on the holy altar, the first of the deacons, looking out of
@@ -273,11 +286,11 @@
                devoutness, and take upon him thoughts and expressions of thanksgiving and make
                confession to the Lord and say, "I have submitted to the Lord and made supplication
                to him": and He will assuredly have pity upon him (for "He is one that loveth mercy,"
-               as the prophet Micah says), and will <pb n="190"/> rebuke the operation of the evil
+               as the prophet <persName ref="http://syriaca.org/person/1379">Micah</persName> says), and will <pb n="190"/> rebuke the operation of the evil
                spirit, and will deliver His creature. For a man to be contemptuously disposed, and
                to communicate in the sacraments or take part in the sacred ministry contrary to what
                is commanded makes the assault of man-hating spirits yet more fierce. This is also
-               confirmed by the wise John who was bishop of Constantinople, in the sermon entitled
+               confirmed by the wise <persName ref="http://syriaca.org/person/573">John</persName> who was bishop of <placeName ref="http://syriaca.org/place/586">Constantinople</placeName>, in the sermon entitled
                "On the treason of Judas and on the Passover and on the institution of the mysteries,
                and concerning the principle that we should not retain anger," in that he wrote as
                follows: "For then also it was after Judas had received the oblation that the devil

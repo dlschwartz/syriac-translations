@@ -22,6 +22,9 @@
             <respStmt>
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt><respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">T. Lapaglia</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -74,6 +77,9 @@
             <p/><!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
+      <encodingDesc><classDecl>
+         <taxonomy><category ana="http://syriaca.org/keyword/bishops"/><category ana="http://syriaca.org/keyword/myron"></category></taxonomy>
+      </classDecl></encodingDesc>
       <profileDesc>
          <creation>
             <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
@@ -96,8 +102,8 @@
                brightly than the brilliancy of the sun, and are as much better than those of men who
                have just been baptized as a high-priest is greater than one who is among the people,
                and as a shepherd is higher than a sheep. <add><emph>And again after other
-                  things.</emph></add> But you say that the devout brother Joseph told you
-               such-and-such a thing about the devout brother John, and the devout father Zacharias
+                  things.</emph></add> But you say that the <persName ref="http://syriaca.org/person/1326">devout brother Joseph</persName> told you
+               such-and-such a thing about the <persName ref="http://syriaca.org/person/1808">devout brother John</persName>, and the <persName ref="http://syriaca.org/person/2155">devout father Zacharias</persName>
                such-and-such a thing about another topic. But know that in every matter it is not
                the word of one man that is needed, but that of two or three witnesses. For the
                sacred law says of everyone soever who is tried, whether he be good or whether he be
@@ -112,18 +118,18 @@
                report pronounce a sentence of censure or of condemnation against anyone, while I am
                far away. Your love of God ought therefore to have devoted that evening to thoughts
                of patience: and on the next day taken with you in the morning the saintly bishops
-               the lord Constantine and the lord Victor, as in fact you actually did, and [with] all
+               the lord <persName ref="http://syriaca.org/person/1655">Constantine</persName> and the lord <persName ref="http://syriaca.org/person/2433">Victor</persName>, as in fact you actually did, and [with] all
                gentleness and humility, [and with] God....also present....at the discussion [first
                described] the circumstances of the annoyance that the deaconess and archimandritess
-               Heracliana inflicted upon you, and the insults which, as you write, were levelled
-               against you by brother John; and thus your sanctity would have judged, with the awful
-               tribunal of Christ, before which we shall all stand, before your eyes, whether it was
+               <persName ref="http://syriaca.org/person/2478">Heracliana</persName> inflicted uarchimandritesspon you, and the insults which, as you write, were levelled
+               against you by brother <persName ref="http://syriaca.org/person/1808">John</persName>; and thus your sanctity would have judged, with the awful
+               tribunal of <persName ref="http://syriaca.org/person/2245">Christ</persName>, before which we shall all stand, before your eyes, whether it was
                right for your love of God on account of the annoyance that you justly felt to remove
-               those sisters from the monastery of the religious Heracliana as persons who were
+               those sisters from the monastery of the religious <persName ref="http://syriaca.org/person/2478">Heracliana</persName> as persons who were
                suffer<pb n="193"/>ing injury or not, and what method of treatment ought to be
                devised (?) for the affair in order to remedy the injury; and the use of this method
                would have been decreed; and besides this fitting punishment would also have fallen
-               upon brother John, inasmuch as he would have been shown by proofs to be an utterer of
+               upon brother <persName ref="http://syriaca.org/person/1808">John</persName>, inasmuch as he would have been shown by proofs to be an utterer of
                insults, and a man who is living an unchaste and indiscriminate life. If these things
                had been thus decided by discussion, and made known to my meanness, would without any
                hesitation have confirmed them, seeing that they would have been carried out in
