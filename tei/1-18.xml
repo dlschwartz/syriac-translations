@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#bbrown">Bryce J. Brown</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -86,10 +90,10 @@
   <text>
       <body>
          <div type="letter" n="1.18">
-            <head type="main" resp="#compiler">Of the same to Entrechius the bishop.</head>
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2546">Entrechius</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 4th book the
                123rd letter.</head>
-            <p> The devout clergymen of the holy church in the city of Rhosus and the other
+            <p> The devout clergymen of the holy church in the city of <placeName> <!-- Cant find this in the database -->Rhosus</placeName> and the other
                inhabitants of it have presented a petition to us in which they beg that that man may
                be instituted their bishop by grace from above and the ministration of your sanctity,
                in whose favour they shall themselves according to the legal custom make a
@@ -97,7 +101,7 @@
                petition: but their vote applied to one man: and they received from us a notice that
                they were to include three men well-known for virtue in the vote, and so present the
                <foreign>psephisma</foreign> to you, and hold your judgment in this matter final.
-               This is in other ways pleasing to God, and is also the proper course. In fact we
+               This is in other ways pleasing to <persName>God</persName>, and is also the proper course. In fact we
                argued with them and said that on no other terms but these would your piety, whose
                endeavour it is in everything to follow after blamelessness as it is written, be
                ready to comply. Wherefore also we immediately determined to draw up this letter of
