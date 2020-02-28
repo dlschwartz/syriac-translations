@@ -24,6 +24,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp>Proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#pfeatherston">Patrick H. Featherston </name>   
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -71,6 +75,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="http:syriaca.org/keyword/canon"/>
+             <category ana="http:syriaca.org/keyword/canon-law"/>
+            </taxonomy>
+         </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>
@@ -124,8 +134,8 @@
                troubled thoughts, let him be so directed and controlled as not to rouse any storm or
                tempest against the great ships. Let not your sanctities think that this is the first
                time that I have been moved to this action. Even while I was living in Antiochus'
-               city, I used to hear it said of the presbyter <persName>father Theodore</persName> of saintly memory that,
-               when many came to <placeName>Egypt</placeName> and asked him whether they ought to communicate, he would
+               city, I used to hear it said of the presbyter <persName>father Theodore</persName> of saintly memory that,<!-- Could not find Theodore -->
+               when many came to <placeName>Egypt</placeName> and asked him whether they ought to communicate, he would <!-- Could not locate Egypt as a region in the syriaca system, many specific settlements but not Egypt as a region -->
                answer and say plainly to them, "If you have been satisfied, communicate": and other
                things that are like this and resemble it, And I endured because it was a time of
                endurance, and because none of the bishops in the East heard anything of the kind,
@@ -133,9 +143,9 @@
                doing anything in accordance with God's purpose never halts and hesitates in his
                action: but he stands firm and steadfast, and increases what he has begun; like the
                gift of the talents in the gospels. <add><emph>And after other things.</emph></add>
-               As to the devout and beloved brother <persName>Epimachus</persName>, you know how distinct the apostolic
+               As to the devout and beloved brother <persName ref="http://syriaca.org/person/2431">Epimachus</persName>, you know how distinct the apostolic <!-- surely this is not the Epimachus who married twice? The kind language makes me think it is the other Epimachus in the system so I have inserted his ref tag. Also, the names that are tagged with no syriaca link I simply could not distinguish between one "Timothy" or "Paul" and another in the system.  -->
                statute is through which I also was prevented from laying my hands upon this man,
-               when he came to <placeName>Antiochus' city</placeName>, in order that he might conduct my
+               when he came to <placeName ref="http://syriaca.org/place/10">Antiochus' city</placeName>, in order that he might conduct my
                <foreign>apokriseis</foreign> in the royal among cities, in conjunction <pb
                   n="135"/> with the presbyter <persName>Peter</persName> of blessed memory, my brother. And, being
                afraid of the strictness of the canon, I restrained my desire: and this though I
@@ -143,16 +153,16 @@
                of his devout and modest conduct in the monastic. life, and his venerable age and
                old-fashioned mind. For I saw that the canon of the church everywhere "requires
                blamelessness"; and at the same time also I was in the habit of proclaiming to
-               everyone in <placeName>Antiochus' city</placeName>, "No man who has been twice married or labours under any
+               everyone in <placeName ref="http://syriaca.org/place/10">Antiochus' city</placeName>, "No man who has been twice married or labours under any
                disqualification similar [to this] can [receive] ordination from me." [...] Therefore
                take the course of which our Lord shall satisfy you." Accordingly it would not have
                been right for us, when the thing has been made public, to advance him now to
-               ordination, and let him be a blot in our ministry, as the very wise <persName>Paul</persName> says, us who
+               ordination, and let him be a blot in our ministry, as the very wise <persName>Paul</persName> says, us who 
                endeavour with God's help to do everything as far as we can without cause for blame.
                For we cannot in fact say that the man by his monastic habit and the long life that
                he has passed in this is able to mitigate the strictness of the canon, seeing that it
                nowhere in actual words makes any such further provision about the twice-married, and
-               seeing that "what is rare is not a law of the church," as the Theologian <persName>Gregory</persName>
+               seeing that "what is rare is not a law of the church," as the Theologian <persName>Gregory</persName> <!-- Could not distinguish between the Gregory's in Syriaca -->
                somewhere says. The ninth canon of the three hundred and <pb n="136"/> eighteen holy
                fathers also plainly says that presbyters who have been put forward without
                examination shall be set aside, even though it is after ordination that their sin
@@ -175,13 +185,13 @@
                many have said that they are remitted by the mere fact of the laying on of hands.
                But, if he do not himself confess, and it is not possible for him to be manifestly
                convicted, the discretion shall rest with himself." Consider therefore whether the
-               devout <persName>Epimachus</persName> also ought to communicate in the prayers and other things only. But
+               devout <persName ref="http://syriaca.org/person/2643">Epimachus</persName> also ought to communicate in the prayers and other things only. But
                even this I say as an indulgence, not as a command. For the principles laid down by
                the canon do not refer to an open and notorious second marriage, but to other bodily
                sins that are secret. But for your part, since it is upon you that the burden of
                judgment is laid, choose the course that seems to you good: my feebleness cannot
                write about this: in fact for my part whatever have given if I have given anything I
-               have given for your sakes as the representative of <persName>Christ</persName>. However it is with much
+               have given for your sakes as the representative of <persName ref="http://syriaca.org/person/2245">Christ</persName>. However it is with much
                sorrow and sighing that I have written this (I speak with God as witness), seeing
                that even to the devout <persName>Epimachus</persName> himself that which is thought an honour is being
                turned into a shame, and I too am being driven by the divine precepts to break out
@@ -190,7 +200,7 @@
                consideration appears to my meanness, would have been just and proper, I mean if you
                had asked me first and taken my advice, especially since it is now a kind of
                beginning of our state of banishment. You are not unaware that in <pb n="138"/> the
-               case of the <persName>man of holy memory</persName> also, I mean <persName>Peter the bishop</persName>, even when he was not
+               case of the <persName ref="http://syriaca.org/person/1413">man of holy memory</persName> also, I mean <persName ref="http://syriaca.org/person/1413">Peter the bishop</persName>, even when he was not
                ordaining anyone, those who were ordaining took his advice. <persName>Timothy</persName> too, who bravely
                endured in the contests of piety, when he was at a distance and was living somewhere
                far away beyond the boundaries, used to regulate all these things by epistle, and
@@ -202,7 +212,7 @@
                those who are living with them for ordination, so that they are led astray from the
                very fact of living with them. Fora boy who is admitted to an honour which passes his
                measure exposes himself to shame, while he has for the time brought no small blame on
-               the community. Your remark that the God-loving <persName>Isidore</persName> the bishop ought not on
+               the community. Your remark that the God-loving <persName ref="http://syriaca.org/person/1283">Isidore</persName> the bishop ought not on
                account of the persecution to have again laid his hand on those who were ordained
                deacons by me is lukewarm and cold: for these regulations apply to deacons enrolled
                in the churches: and to monasteries round about that parish. But to extend this to
@@ -210,13 +220,13 @@
                of the right faith it is not <pb n="139"/> a fitting season. In the same fashion also
                the practice of devout women living in their houses being ordained deaconesses is
                very usual and is diffused, if may so say, over the whole world. Again the fact that
-               in previous times <placeName>Palestine</placeName> also was subject to the apostolic see of the <placeName>city of the
-               Antiochenes</placeName> is in no doubt. However I and the God-loving bishop <persName>Isidore</persName> make up one
+               in previous times <placeName ref="http://syriaca.org/place/2700">Palestine</placeName> also was subject to the apostolic see of the <placeName ref="http://syriaca.org/place/10">city of the
+                  Antiochenes</placeName> is in no doubt. However I and the God-loving bishop <persName ref="http://syriaca.org/person/1283">Isidore</persName> make up one
                person, and I myself say that his love of God performed the ordination on my behalf;
                therefore let all question and dispute cease. The quality of the person who ordained
                causes no detriment whatever, such that the ordination that has been performed should
                be thought to be uncanonical. But you, who are wise in the Lord, ought not to have
-               dropped the religious presbyter <persName>Victor</persName> out of your consideration: seeing that he
+               dropped the religious presbyter <persName ref="http://syriaca.org/person/2433">Victor</persName> out of your consideration: seeing that he
                would often introduce some useful action before the event itself, or that after
                consenting to what you did he was thenceforward ashamed to go against his own
                consent; and seeing that many find it hard to endure neglect. But that he was your
@@ -229,7 +239,7 @@
                less to. rebuke them, as you write. I know my measure, even though the fact of the
                office and the spiritual honour that has been given me through the benignance of God
                tends to exaltation, a thing that to the unintelligent and foolish gives occasion for
-               vanity and pride, but in those who do not deceive themselves and know that they are
+               vanity and pride, but in those who do not deceive themselves and know that they are<!-- Dr. Schwartz, I hope my completed product was up top you standards, close to it, or at the very least a small help in this project. I know this process was somewhat time consuming and difficult to set up unfamiliar students with as myself, but I think being made aware of this technology and it's utility was a real value added for students in your class. -->
                sinners implants endurance in contests and fear of the judgment, in which we shall
                give account even for honours that are so high, when the Judge shall give judgment,
                as is threatened in the prophets, against those that are "clothed in other men's

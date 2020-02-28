@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp>Proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#pfeatherston>">Patrick H. Featherston</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -70,6 +74,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="http://syriaca.org/keyword/monks"/>
+               <category ana="http://syriaca.org/keyword/deacons"/>
+            </taxonomy>
+         </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>
@@ -110,7 +120,7 @@
                a great blessing, and you may be sure that I would have bought this at a high price;
                and I have incurred a debt of thanks to <persName ref="http://syriaca.org/person/2245">Christ our Saviour</persName> and God in that I received
                this pleasure for nothing through your saintly prayers. The sum of gold that was
-               spent by him upon the well, I mean the sum of fifty darics, we paid to him out of a
+               spent by him upon the well, I mean the sum of fifty darics, we paid to him out of a 
                certain God-loving loan. For, believe me, we have not a <foreign>mina</foreign>: and
                this is the only way in which we are relieved in poverty: while in our other pursuits
                we distress God and do nothing at all that is pleasing to Him. </p>

@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp>Proofreading amd metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#pfeatherston">Patrick H. Featherston </name>
+         </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -70,6 +74,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="http://syriaca.org/keyword/bishops"/>
+               <category ana="https://syriaca.org/keyword/clergy">               
+               </category>
+            </taxonomy>
+         </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>
@@ -101,7 +112,7 @@
                committed by him are of such a nature, this man must be corrected by canonical
                reproofs: with moderation however on account of the difficulty of the time, and
                because the man has now "grown old in evil days," as the sacred scripture says, and
-               has already come near to being reckoned with those that are in <placeName>Hades</placeName>. For "God is
+               has already come near to being reckoned with those that are in <placeName>Hades</placeName>. For "God is <!-- no Hades in the stsyem -->
                faithful, who will not suffer" those that are not rightly disposed towards Him to
                outrage the sacred prelacy for a great length of time, so that through them His name
                should be "blasphemed among the nations," as it is written. </p>

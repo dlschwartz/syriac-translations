@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp>Proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#pfeatherston">Patrick H. Featherston</name> 
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -70,6 +74,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="https://syriaca.org/keyword/canon"/>
+               <category ana="https://syriaca.org/keyword/canon-law">
+               </category>   
+            </taxonomy>
+         </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>

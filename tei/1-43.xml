@@ -24,6 +24,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+            <resp>proofreading and metadate added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#pfeatherston">Patrick H. Featherston </name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -71,6 +75,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="http://syriaca.org/keyword/occupations"/>
+               <category ana="http://syriaca.org/keyword/bishops"/>
+              </taxonomy>
+         </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>
@@ -91,7 +101,7 @@
                the holy lord Simeon.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 8th book the
                134th letter.</head>
-            <p> Whereas Nonnus even before entering the holy Simeon's flock was often summoned to
+            <p> Whereas <persName ref="http://syriaca.org/person/2418">Nonnus</persName> even before entering the holy <persName>Simeon</persName>'s flock was often summoned to <!-- could not distinguish proper Simeon -->
                answer the charges and accusations that were being brought against him and did not
                obey, but, even when placed under an injunction by the God-loving
                <foreign>ekklesiekdikoi</foreign>, trampled upon this with similar impudence, like

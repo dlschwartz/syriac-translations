@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#pfeatherston">Patrick H. Featherston</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -70,6 +74,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="syriaca.org/keyword/churches"/>
+               <category ana="syriaca.org/keywords/female"></category>
+            </taxonomy>
+         </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>
@@ -86,7 +96,7 @@
   <text>
       <body>
          <div type="letter" n="1.45">
-            <head type="main" resp="#compiler">Of the same to Conon the brigand-chaser.</head>
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2421">Conon</persName> the brigand-chaser.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 8th book the
                237th letter.</head>
             <p> Concerning the unholy woman who in an unhallowed manner thrust herself into the
