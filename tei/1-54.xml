@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Trainor M. Gray</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -70,6 +74,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="http://syriaca.org/keyword/liturgy"/>
+               <category ana="http://syriaca.org/keyword/memory"/>
+               <category ana="http://syriaca.org/keyword/prayer"/>
+            </taxonomy>
+         </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>
@@ -88,27 +99,37 @@
          <div type="letter" n="1.54">
             <p> [...] in truth that the mouth should be silent which never grows weary and seems as
                if it had been set apart for prayers, the mouth which in very deed says "I will bless
-               the Lord at all times," and at all times circulates His praises. You did well and
+               the <persName>Lord</persName> at all times," and at all times circulates His praises. You did well and
                conferred a great service upon us by relating in the course of your letter how you
-               celebrated the memories of the holy fathers, and which of you have departed to God,
-               one among whom is the religious presbyter Patrick. We are much profited <pb n="163"/>
+               celebrated the memories of the <persName ref="http://syriaca.org/person/3131">holy fathers</persName>, 
+               and which of you have departed to <persName>God</persName>,
+               one among whom is the religious presbyter <persName ref="http://syriaca.org/person/2453">
+               Patrick</persName>. We are much profited <pb n="163"/>
                when we learn the names of these in order that we may remember them in our prayers,
                and as far as possible, cast from us the weariness that dominates us, and prepare
                ourselves for the final departure from this world. As to the events that have
-               happened in the East, and the way in which the believers in Antioch have girded
+               happened in the East, and the way in which the believers in
+               <placeName ref="http://syriaca.org/place/995">Antioch</placeName>have girded
                themselves for a second and third contest, as if they had never been tried by any
                tribulation, it is superfluous for us to write to you, since these are things which
                you learn also from report. Only we ask you to keep those who are thus combating in
-               more earnest remembrance, and to ask that endurance may be granted them all by God.
+               more earnest remembrance, and to ask that endurance may be granted them all by <persName>God</persName>.
                In trials which are so unendurable it is in fact impossible to be steadfast without
-               help from that source. Wherefore Jeremiah also said to God over all, "Lord, the
-               endurance of Israel! Thou savest in the time of evils." But I beg your holinesses to
+               help from that source. Wherefore <persName>Jeremiah</persName><!-- searched in Syriac Biographical 
+               Dictionary and could not find a URI for this person, however Severus is referencing the Biblical prophet
+               Jeremiah--> also said to God over all, "Lord, the
+               endurance of <placeName>Israel</placeName><!-- Searched for in Syriac Biographical Dictionary and 
+               could not find a URI for these people, however Severus is referencing God's Chosen 
+               people, the Israelites. -->! Thou savest in the time of evils." But I beg your holinesses to
                grant a place among those who are remembered by you over the rational sacrifice and
-               have already gone to God to Eustochius of God-loving memory, deacon of the holy
-               church in Alexandria, who has now put off his life in much zeal for the orthodox
-               faith, with all accuracy and in knowledge as the divine Apostle says, so that he
-               often longed for the bodily sight of your love of God also. Of him the religious
-               presbyter Philip also made trial to a moderate extent. </p>
+               have already gone to <persName>God</persName> to <persName ref="http://syriaca.org/person/2454">
+               Eustochius</persName> <roleName>of <persName>God</persName>-loving memory, deacon of the holy
+               church in <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
+               </roleName>, who has now put off his life in much zeal for the orthodox
+               faith, with all accuracy and in knowledge as the <persName ref="http://syriaca.org/person/1983"
+               >divine Apostle</persName> says, so that he
+               often longed for the bodily sight of your love of <persName>God</persName> also. Of him the <roleName>religious
+               presbyter</roleName> <persName ref="http://syriaca.org/person/1998">Philip</persName> also made trial to a moderate extent. </p>
             <trailer>The end.</trailer>
          </div>
       </body>

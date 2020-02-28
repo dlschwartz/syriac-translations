@@ -23,6 +23,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp> proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz"> Trainor M. Gray</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -70,6 +74,14 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="http://syriaca.org/keyword/law"/>
+               <category ana="http://syriaca.org/keyword/old-age"/>
+               <category ana="http://syriaca.org/keyword/armies"/>
+               <category ana="http://syriaca.org/keyword/sin"/>
+            </taxonomy>
+         </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>
@@ -96,16 +108,19 @@
                increased by thinking of your religiousness, who have had to endure such an
                unexpected attack at the very beginning of your episcopate: since men who have been
                admitted to feed rational souls reckon common and public? calamities as their own.
-               Wherefore David also the great among prophets and kings, when he saw his subjects
+               Wherefore <persName>David</persName><!-- No entry is included in the Syriaca database,
+               however Severus is referring to King David from the Biblical books of first and
+               second Samuel, Kings, Chronicles, and Psalms. --> also the great among prophets 
+               and kings, when he saw his subjects
                being destroyed in the death-dealing plague by the divine wrath, being unable to
                endure the sight, begged that he might suffer instead of those under his rule, saying
-               to the Lord, "It is I who have sinned, and I the shepherd have done wickedly: and
+               to the <persName>Lord</persName>, "It is I who have sinned, and I the shepherd have done wickedly: and
                these the sheep what have they done? Let thine hand be upon me, and upon my father's
                house." <pb n="172"/> And by so saying he changed the wrath to mercy, and stayed the
                plague. Therefore you also must know that such events are fraught with no small
                hardship: but, when men consider things in the right spirit, and accept the
                chastisement as a help, they bring them great profit, and lead them into close
-               relationship with God. Therefore we also, looking at what has happened, believe that
+               relationship with <persName>God</persName>. Therefore we also, looking at what has happened, believe that
                it is by divine providence that you have been raised to a sacred headship of this
                kind, in order that you may show yourself a man capable of comforting the flock that
                has been entrusted to you. As to the question that you ask about presbyters who have
@@ -117,15 +132,25 @@
                reach old age, receive higher stipends, inasmuch as they have previously toiled and
                laboured in wars, how is it anything but abominable that men who have served in the
                sacred military service should not only not receive higher honour in their old age,
-               but even be deprived of the customary emoluments? David's soldiers also once thought
+               but even be deprived of the customary emoluments? <persName>David's</persName><!-- 
+               No entry is included in the Syriaca database,
+               however Severus is referring to King David from the Biblical books of first and
+               second Samuel, Kings, Chronicles, and Psalms. --> soldiers also once thought
                something like this, when they went down with him to fight against the barbarians who
                had come against them, and mightily overcame them, and stripped them of all the booty
-               <pb n="173"/> that had been carried off by them from the wars with Israel. For,
+               <pb n="173"/> that had been carried off by them from the wars with <placeName>Israel
+               </placeName><!-- There is no entry for 'Israel' in the Syriaca database, However Severus
+               is referring to the lands of the Israelites, the borders of Israel change dramatically 
+               throughout time however it is generally located in the Heart of the Middle East to the
+               north east of Egypt and west of Iran. -->. For,
                when they returned from the war and their minds were somewhat uplifted on account of
                their victory, they claimed that they alone should take all the things that they had
                captured from the barbarians, and not give an equal portion to those who stayed in
                the camp and guarded their baggage, on the ground that they had not taken part with
-               them in the fight in exactly the same fashion. And upon this the just David was
+               them in the fight in exactly the same fashion. And upon this the just <persName>David
+               </persName><!-- No entry is included in the Syriaca database,
+               however Severus is referring to King David from the Biblical books of first and
+               second Samuel, Kings, Chronicles, and Psalms. --> was
                indignant, saying that those also who remained to guard the baggage ought to get a
                portion equal to that of those who formed part of the array in war. Moreover also he
                repressed their greed and said to them in rebuke, "And who will hearken to these
@@ -134,43 +159,72 @@
                alike." Knowing therefore from the divine writings that these things are laid down as
                law, give greater gratification, if possible, to those who have grown old, both in
                stipends and in honour. For honour is the due of. elders, and the enjoyment of the
-               good things that: come after war. The great governor Moses also wrote in Numbers that
-               he said to Hobab his wife's brother, who was journeying with Israel in the way in the
+               good things that: come after war. The great governor <persName>Moses</persName><!-- 
+               There is no entry for the Biblical Moses that Severus is mentioning here, Severus 
+               is referring in this instance to Moses from the book of Exodus, and God's 
+               instrument in the delivery of the ten commandments. --> also wrote in <bibl>Numbers</bibl> that
+               he said to <persName>Hobab</persName><!-- The Syriaca database does not include an entry
+               for this man. However Severus is referencing Moses's brother in law from his wife 
+               Zipporah. --> his wife's brother, who was journeying with <persName>Israel</persName>
+               <!-- Severus is making a reference to the people of Israel, the Israelites in 
+               this case.  --> in the way in the
                wilderness, "Leave us not, forasmuch as thou wast with us in the wilderness. And thou
                shalt be an <pb n="174"/> elder among us. And it shall be, if thou go with us, we
-               will do thee good out of all the good things which the Lord shall do unto us." But I
-               beg your love of God not to associate indiscriminately with those who unreasonably
+               will do thee good out of all the good things which the <persName>Lord</persName> shall do unto us." But I
+               beg your love of <persName>God</persName> not to associate indiscriminately with those who unreasonably
                cut themselves off from our communion, men who magnify with lips only an orthodoxy
                that is inactive and runs no risk, while they take no part in the sufferings of the
                persecuted church which it has suffered for the sake of the sound word of faith and
                is still even now suffering, but justify themselves in vain. Lack of discrimination
                towards them confirms them yet more in the evil itself, and they think to themselves
                that we blame ourselves as if there had been something wanting in our conduct, and
-               honour and praise them as men of strictness. We listen also to our Saviour in the
-               Gospels crying, "He that is not with me is against me: and he that. gathereth not
-               with me scattereth." Ignatius also the great bishop and martyr, who fed the church of
-               the Antiochenes after Peter the captain of the apostles, and, because he was full of
-               the Holy Spirit, was called "the God-clad," says in his letter to the men of Smyrna,
+               honour and praise them as men of strictness. We listen also to our <persName 
+               ref="http://syriaca.org/person/2245">Saviour</persName> in the
+               <bibl>Gospels</bibl> crying, "He that is not with me is against me: and he that. gathereth not
+               with me scattereth." <persName ref="http://syriaca.org/person/544">Ignatius</persName>
+               also the great bishop and martyr, who fed the church of
+               the <persName ref="http://syriaca.org/place/995">Antiochenes</persName>
+               after <persName ref="http://syriaca.org/person/2008">Peter</persName> 
+               the captain of the <roleName ref="http://syriaca.org/person/1607">apostles</roleName>, and, because he was full of
+               the <persName>Holy Spirit</persName>, was called "the <persName>God</persName>-clad," 
+               says in his letter to the men of <placeName>Smyrna</placeName><!-- Syriaca does 
+               not include an entry for 'Smyrna'. Yet it is apparent that Severus is referencing
+               the Greek city on the Aegean coast of Anatolia. -->,
                "Shun divisions, as the beginning of evils." Further also in another letter of his to
-               those at Philadelphia he says thus: "If anyone follows a man who makes a schism, he
-               does not inherit the kingdom of God." Again in writing to the Ephesians he
+               those at <placeName ref="http://syriaca.org/place/1476">Philadelphia</placeName>
+               he says thus: "If anyone follows a man who makes a schism, he
+               does not inherit the <placeName>kingdom of <persName>God</persName></placeName>
+               <!-- This is a reference to Heaven. -->." Again in writing to the <persName 
+               ref="http://syriaca.org/place/623">Ephesians</persName> he
                expresses the same thing in a more fearful form, saying, "He therefore that <pb
-                  n="175"/> does not join in the assembly has already behaved proudly, and separated
-               himself. For it is written, 'The proud God resisteth." Irenaeus also a man of ancient
-               times, bishop of the city of Lyons (this is one of the cities of the men called
-               Gauls), who was a hearer of Polycarp bishop of Smyrna and martyr, who was a disciple
-               of John the Evangelist, wrote thus, in his fourth book against heresies, about the
-               Lord who will judge every breathing thing, and as it is written the whole "world in
+               n="175"/> does not join in the assembly has already behaved proudly, and separated
+               himself. For it is written, 'The proud <persName>God</persName> resisteth." <persName
+               ref="http://syriaca.org/person/2463">Irenaeus</persName> also a man of ancient
+               times, bishop of the city of <placeName>Lyons</placeName><!-- The Syriaca database 
+               has no entry for Lyon or Lyons. However Severus is referencing the city of 
+               Lyons which was controlled by the Gauls and then propered under 
+               Christian influence of the Arch Bishops. --> (this is one of the cities of the men called
+               <persName>Gauls</persName><!-- The Syriaca database makes no entry concerning the 
+               'Gauls'. However Severus is referencing the Celtic Gauls who inhabitted varying 
+               portions of northern Europe during the Iron Age.  -->), who 
+               was a hearer of <persName ref="http://syriaca.org/person/2020">
+               Polycarp</persName> bishop of <placeName>Smyrna</placeName><!-- Syriaca does 
+               not include an entry for 'Smyrna'. Yet it is apparent that Severus is referencing
+               the Greek city on the Aegean coast of Anatolia. --> and martyr, who was a disciple
+               of <persName ref="http://syriaca.org/person/1826">John the Evangelist</persName>,
+               wrote thus, in his fourth book against heresies, about the
+               <persName>Lord</persName> who will judge every breathing thing, and as it is written the whole "world in
                righteousness": "But he will also judge those who create schisms, who are men void of
-               the love of God, and seek that which is for their profit but not the union of the
+               the love of <persName>God</persName>, and seek that which is for their profit but not the union of the
                church, and for small and contemptible reasons cleave and divide the great and
-               glorious body of Christ and, as far as in them lies, destroy it, men who speak peace
+               glorious body of <persName ref="http://syriaca.org/person/2245">Christ</persName> 
+               and, as far as in them lies, destroy it, men who speak peace
                and make war, who truly strain out the gnat, but swallow the camel. For it is
                impossible that any benefit can spring from them of the same kind as is the injury
                that springs from their schism." To these things therefore direct your mind, and
                beware of the obstructive forces everywhere: especially of those that arise from
                thoughts on the right side, which lead astray from the "royal road": and, looking to
-               heaven and making God your guide in all things, cry, "Direct my paths according to
+               heaven and making <persName>God</persName> your guide in all things, cry, "Direct my paths according to
                thy word"; and you will surely go straight, and not fail to do what is right. </p>
             <trailer>The end.</trailer>
          </div>

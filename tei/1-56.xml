@@ -22,6 +22,10 @@
             <respStmt>
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt> 
+            <respStmt>
+               <resp> proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz"> Trainor M. Gray</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -70,6 +74,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category ana="http://syriaca.org/keyword/saints"/>
+               <category ana="http://syriaca.org/keyword/marriage"/>
+               <category ana="http://syriaca.org/keyword/apostles"/>
+            </taxonomy>
+         </classDecl>
          <editorialDecl>
             <p/><!-- FILL IN -->
          </editorialDecl>
@@ -91,7 +102,10 @@
                letter.</head>
             <p> The words that I wrote to the two of you in common were enough to show your love of
                God my opinion, since you thought me at all competent to give advice. For my part,
-               since "I have boldness of speech towards you," as Paul says to the Corinthians, I
+               since "I have boldness of speech towards you," as <persName ref="http://syriaca.org/person/1983"
+               >Paul</persName> says to the <persName>Corinthians</persName><!-- Syriaca does not have an entry 
+               for the Corinthians. Severus is referencing the people of Corinth addressed by Paul 
+               in book of the Bible, Corinthians. -->, I
                thought that, inasmuch as you have been brought up from the earliest times in works
                of piety, and have stood with us from the beginning, and borne the assaults of many
                waves, that you are competent to give advice and direction to others also in what is
@@ -107,12 +121,15 @@
                the tie of nature that arises from the marriage connexion and the birth of children,
                will give you impassioned advice from beyond the boundaries, and will speak as from
                some exalted height with those that creep upon the earth." Therefore in answer to
-               these things also we must use introductory words and say what is the truth. Paul the
-               wise man and chosen vessel, who had Christ so firmly established in him that in
-               giving ecclesiastical commandments he would sometimes appeal to the laws of Christ,
+               these things also we must use introductory words and say what is the truth. <persName
+               ref="http://syriaca.org/person/1983">Paul</persName> the
+               wise man and chosen vessel, who had <persName ref="http://syriaca.org/person/2245"
+               >Christ</persName> so firmly established in him that in
+               giving ecclesiastical commandments he would sometimes appeal to the laws of <persName 
+               ref="http://syriaca.org/person/2245">Christ</persName>,
                and draw his admonitions from them, and at another put forward his own thoughts in
-               place of a law and say, "I have no commandment of the Lord; but I give counsel;
-               inasmuch as I have obtained mercy of the Lord to be a believer," when appointing
+               place of a law and say, "I have no commandment of the <persName>Lord</persName>; but I give counsel;
+               inasmuch as I have obtained mercy of the <persName>Lord</persName> to be a believer," when appointing
                bishops, did not take men from the training-school of the solitary life and set them
                over the churches, nor men of philosophic habits, free from wives, and without
                children, but he said, "The bishop ought to be the husband of one wife," and, "one
@@ -123,8 +140,9 @@
                Himself crying and saying, "The good shepherd layeth down his life for his sheep." If
                therefore we have been called by Him to so great a height of Spiritual authority, it
                is absolutely necessary that we should rise to the same height, and that we should
-               "mind high things" and "seek the things which are above, where Christ is, sitting on
-               the right hand of God": so that, when He "is revealed," then we "also may be revealed
+               "mind high things" and "seek the things which are above, where <persName 
+               ref="http://syriaca.org/person/2245">Christ</persName> is, sitting on
+               the right hand of <persName>God</persName>": so that, when He "is revealed," then we "also may be revealed
                with Him in glory," and share with Him in splendour. But, that you may not think to
                yourself that you alone among bishops have had a wife and children, and are required
                to "resist sin even to blood," as it is written, and to distinguish yourself in
@@ -133,10 +151,19 @@
                themselves have been sufficient answer to such a fancy: but I will quote to you from
                actual experience also an example worthy of consideration, which shows that in times
                of martyrdom the women also who were joined in marriage to those who held the rank of
-               the episcopate contested and strove in the same contests. Here it is. Dionysius, who
-               was bishop of the great Christ-loving city of the Alexandrines, in an epistle to
-               Flavian bishop of <pb n="170"/> Antioch, in which he describes the combats of those
-               who were martyred in the neighbourhood of Alexander's city in the days of Decius,
+               the episcopate contested and strove in the same contests. Here it is. <persName 
+               ref="http://syriaca.org/person/2635">Dionysius</persName>, who
+               was bishop of the great <persName ref="http://syriaca.org/person/2245"
+               >Christ</persName>-loving city of the <placeName 
+               ref="http://syriaca.org/place/572">Alexandrines</placeName><!-- Severus is referring
+               to the people of Alexandria in this instance. -->, in an epistle to
+               <persName ref="http://syriaca.org/person/2530">Flavian bishop of <pb n="170"/> 
+               <placeName ref="http://syriaca.org/place/10">Antioch</placeName></persName>, in which he describes the combats of those
+               who were martyred in the neighbourhood of <placeName ref="http://syriaca.org/place/572">
+               <persName>Alexander's</persName><!-- Severus 
+               is referring to Alexander the Great who named Alexandria after his conquests. 
+               Alexander the Great is not included in Syriaca's databases. --> city</placeName> in 
+               the days of <persName ref="http://syriaca.org/person/2461">Decius</persName>,
                after describing the other events introduces this statement also: [...] in sin, and
                utterly refuses to turn her eyes upwards while there is time. For for you, who bear
                with patience that which has happened in this matter also, a worthy reward will
@@ -146,13 +173,16 @@
                doubly a father to her, insomuch as to be able to say, "Behold! I and the children
                whom God has given me." For you must do all these things to the best of your power,
                in order that you may not have your conscience accusing you, as if you ought to have
-               done something and had neglected it. You know well from the sacred writings what Eli
+               done something and had neglected it. You know well from the sacred writings what 
+               <persName> Eli</persName><!-- Severus is referring to Eli, the high priest of Shiloh.
+               Whose sufferings are recorded in the Biblical book of Samuel.  -->
                suffered, because, though he spoke reprovingly to his sons and chid their folly in
                the unhallowed deeds which they committed, yet he did not deal with them as a ruler.
-               But the Lord will, I know well, grant your sanctity understanding, so that with
+               But the <persName>Lord</persName> will, I know well, grant your sanctity understanding, so that with
                fatherly admonitions you may mingle such censures as are likely to produce conversion
                and are suited to a ruler, and that you may take the sheep upon your shoulders, and
-               present it to the chief shepherd Christ, <pb n="171"/> and reckon it among those that
+               present it to the chief shepherd <persName ref="http://syriaca.org/person/2245">
+               Christ</persName>, <pb n="171"/> and reckon it among those that
                are saved. For indeed He alone is able by His almighty power and His grace to make
                things possible that with men are impossible. </p>
             <trailer>The end.</trailer>
