@@ -24,6 +24,10 @@
                <resp>OCR corrected by</resp>
                <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
             </respStmt>
+            <respStmt>
+               <resp>proofreading and metadata added by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#sgonzalez">Sandy E. Gonzalez</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1"/>
@@ -87,12 +91,12 @@
   <text>
       <body>
          <div type="letter" n="1.53">
-            <head type="main" resp="#compiler">Of the same to the bishops from Syria in
-               Alexandria.</head>
+            <head type="main" resp="#compiler">Of the same to the bishops from <placeName ref="http://syriaca.org/place/175">Syria</placeName> in
+               <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName>.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 2nd book the 64th
                letter.</head>
             <p> To the saintly God-loving brothers and fellow-ministers, the bishops who are under
-               the apostolic see of the city of the Antiochenes, and are now settled in the great
+               the apostolic see of the city of the <persName>Antiochenes</persName>, and are now settled in the great
                Christ-loving city of the Alexandrines, Cassian, Constantine, Antoninus, and the
                rest, Severus greeting in the Lord. Though I am with your love of God in the spirit,
                I should have wished to be present in the flesh also, or, while absent in the body,
