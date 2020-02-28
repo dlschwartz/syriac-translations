@@ -4,6 +4,10 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+		 <respStmt>
+				<resp>proofreading and metadata added by</resp>
+				<name type="person" ref="http://syriaca.org/person.xml#kDmitrijev">Kaisson Dmitrijev</name>
+		 </respStmt>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/3062">To John, Bishop of Alexandria Minor</title>
@@ -86,12 +90,12 @@
   <text>
       <body>
          <div type="letter" n="1.32">
-            <head type="main" resp="#compiler">Of the same to John, bishop of Alexandria the
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2581">John</persName>, bishop of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName> the
                less.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 6th book the
                154th letter.</head>
             <p> The devout subdeacons of your church have made a complaint to the apostolic see,
-               alleging that an old . custom prevails in the holy church of the Alexandrines, which
+               alleging that an old . custom prevails in the holy church of the <placeName ref="http://syriaca.org/place/572">Alexandrines</placeName>, which
                allows their order freedom from the obligation <pb n="99"/> of serving what are
                called 'weeks' in your venerated bishop's house. And we considered the statement in
                no way surprising if it is absolutely true, since in other holy churches also an
@@ -102,7 +106,7 @@
                occupations owing to not receiving sustenance, your love of God should acquiesce in
                all these things, and not disturb that which is the custom by any innovation, unless
                perhaps some relief be given them as a counterpoise to the loss that falls upon them.
-               That a man ought not to serve at his own charges Paul also who had Christ speaking in
+               That a man ought not to serve at his own charges <persName>Paul</persName><!--Paul the apostle--> also who had Christ speaking in
                him enacted: and to this he further added a saying that resembles it, I mean that a
                man who devotes himself to the altar should be supported by the altar; and hence he
                gives the same decision in parallel cases also, and teaches that a man who is engaged

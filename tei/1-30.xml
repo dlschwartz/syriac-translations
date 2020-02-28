@@ -4,6 +4,10 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+		 <respStmt>
+				<resp>proofreading and metadata added by</resp>
+				<name type="person" ref="http://syriaca.org/person.xml#kDmitrijev">Kaisson Dmitrijev</name>
+		 </respStmt>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/3059">To the Clergy of Apamea</title>
@@ -87,7 +91,7 @@
       <body>
          <div type="letter" n="1.30">
             <head type="main" resp="#compiler">Of the same to the clergy of the metropolis of
-               Apamea.</head>
+               <placeName ref="http://syriaca.org/place/11">Apamea</placeName>.</head>
             <head type="sub" resp="#compiler">from those during episcopacy, from the 5th book the
                135th letter.</head>
             <p> Your love of God, marked out as you are by the orders of the holy clergy of the
@@ -102,13 +106,13 @@
                says, "Our days pass away like a shadow." And the divine Job, while playing the
                philosopher during the grievous trial caused by his suffering, said, "For we are of
                yesterday, and we know not": and again, "My life was swifter than a runner." We are
-               not unaware that the wise Paul also often quoted the words of poets in speaking to
+               not unaware that the wise <persName>Paul</persName><!--Paul the apostle--> also often quoted the words of poets in speaking to
                certain persons. But the character of the hearers, who had not been instructed out of
                the God-inspired words, in itself made the use of testimony from these seemly in his
                case. The divine scripture should therefore have been enough for you, and you should
                not have started by making the beginning spurious and false. We therefore (for we
                must now return to that which is more useful and more urgent) have been grieved at
-               the decease of Isaac of religious <pb n="94"/> memory, your bishop; and we have been
+               the decease of <persName ref="http://syriaca.org/person/2663">Isaac</persName> of religious <pb n="94"/> memory, your bishop; and we have been
                distressed because he left the present life before he had maintained a contest on
                behalf of the doctrines of orthodoxy, which he proclaimed in writing and otherwise in
                this great Christ-loving city. However we submit to God, the orderer of such deep
@@ -141,7 +145,7 @@
                our counsels, or rather according as the sacred ordinances and laws provide, let
                there come according to custom devout men, men modest in their conduct and earnest in
                character, such as are fitted to approach the apostolic throne and receive its
-               judgment. We learn that, while Isaac of saintly memory was breathing his last,
+               judgment. We learn that, while <persName ref="http://syriaca.org/person/2663">Isaac</persName> of saintly memory was breathing his last,
                certain persons, wishing to hide their own faults, by an evil action dared to remove
                from his office the man who was entrusted with the stewardship of the church
                property, and to put forward <pb n="96"/> others in his place, having unlawfully and

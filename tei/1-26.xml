@@ -4,6 +4,10 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+		 <respStmt>
+			 <resp>proofreading and metadata added by</resp>
+			 <name type="person" ref="http://syriaca.org/person.xml#kDmitrijev">Kaisson Dmitrijev</name>
+		 </respStmt>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/3055">To Solon, Bishop of Seleucia in
@@ -87,19 +91,19 @@
   <text>
       <body>
          <div type="letter" n="1.26">
-            <head type="main" resp="#compiler">Of the same to Solon, bishop of Seleucia in
-               Isauria.</head>
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2417">Solon</persName>, bishop of <placeName ref="http://syriaca.org/place/182">Seleucia</placeName> in
+               <placeName ref="http://syriaca.org/place/99">Isauria</placeName>.</head>
             <head type="sub" resp="#compiler">from those during episcopacy, from the 4th book the
                338th letter.</head>
-            <p> Paul the bishop of Olba, as may be inferred from his so long and protracted absence,
+            <p> <persName ref="http://syriaca.org/person/2468">Paul</persName> the bishop of <placeName ref="http://syriaca.org/place/146">Olba</placeName>, as may be inferred from his so long and protracted absence,
                has done the work of a hireling and not of a shepherd, one who, when he sees the wolf
                coming, as the sacred book of the gospels says, "leaveth the sheep and fleeth: and
                the wolf catcheth and scattereth them; and he careth not for the sheep because he is
                an hireling and not the shepherd." Henceforth therefore we also ought no longer to
                wait for a man of such unstable character as his (it is right for us to speak in this
                gentle language), but to settle the things that lie before us on a good basis, and in
-               accordance with the purpose of the laws of the Spirit. The same Paul charged the
-               God-loving Hilarian bishop of Diocaesarea with having performed an ordination,
+               accordance with the purpose of the laws of the Spirit. The same <persName ref="http://syriaca.org/person/2468">Paul</persName> charged the
+               God-loving <placeName>Hilarian</placeName> <!--This is not in the Syriaca database--> bishop of <placeName ref="http://syriaca.org/place/74">Diocaesarea</placeName> with having performed an ordination,
                contrary to the holy canons, in a monastery which is not in his jurisdiction; and we
                thought it right to prohibit those who were ordained from exercising the sacred
                ministry until the details of the case should be examined; for the matter was not

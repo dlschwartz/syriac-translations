@@ -4,6 +4,10 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+		 <respStmt>
+				<resp>proofreading and metadata added by</resp>
+				<name type="person" ref="http://syriaca.org/person.xml#kDmitrijev">Kaisson Dmitrijev</name>
+		 </respStmt>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/3060">To the Bishops of Phoenice</title>
@@ -87,11 +91,11 @@
       <body>
          <div type="letter" n="1.31">
             <head type="main" resp="#compiler">Of the same a <foreign>hypomnestikon</foreign> to the
-               bishops of Phoenice.</head>
+               bishops of <placeName ref="http://syriaca.org/place/152">Phoenice</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 5th book the
                236th, 237th letter.</head>
             <p> How great account I take of the judgments of God I cannot explain in words. But, to
-               speak after the manner of Paul, I call God to witness that I pass the nights without
+               speak after the manner of <persName>Paul</persName><!--Paul the apostle-->, I call God to witness that I pass the nights without
                sleep, and never cease being worn away by the cares of the days. And I tremble lest I
                administer the business of the apostolic see negligently, and have to bear the
                punishments that my negligence deserves, and be sent to the torments that are for
@@ -103,8 +107,8 @@
                feed them any more, and will deliver my sheep from their mouth and they shall not
                again serve them for food.'" Thinking upon these words and such as these, and hearing
                God saying over and over again 'my sheep,' I mingle many tears with my thoughts, when
-               I remember the religious Epiphanius, who stealthily established himself in the
-               Christ-loving metropolis of the Tyrians and stirred up many commotions there, when he
+               I remember the religious <persName ref="http://syriaca.org/person/2580">Epiphanius</persName>, who stealthily established himself in the
+               Christ-loving <placeName ref="http://syriaca.org/place/195">metropolis of the Tyrians</placeName> and stirred up many commotions there, when he
                should have betaken himself to this apostolic see and chosen things pleasing in the
                eyes of peace and done them, and so come back to the said city in brotherly and
                fatherly concord and agreement. Since therefore this duty has been neglected by him,
@@ -115,17 +119,17 @@
                canons; and then after that one of those who have been duly selected will be chosen,
                who is able to rule the bishopric blamelessly and in accordance with the judgment of
                God. This also I was desirous of bringing to the knowledge of your holinesses, and I
-               charged the religious Thomas and Basil deacons of the apostolic see to have in their
+               charged the religious <persName ref="http://syriaca.org/person/57">Thomas</persName> and <persName ref="http://syriaca.org/person/2579">Basil</persName> deacons of the apostolic see to have in their
                <pb n="98"/> hands this order in writing, and read it to each of you; that you are
                not to make a <foreign>psephismata</foreign> in company with the said religious
-               Epiphanius for the nomination of any bishop, unless all things have first been
-               carried out "with decency and with order," as Paul commands us who consecrated the
+               <persName ref="http://syriaca.org/person/2580">Epiphanius</persName> for the nomination of any bishop, unless all things have first been
+               carried out "with decency and with order," as <persName>Paul</persName><!--Paul the apostle--> commands us who consecrated the
                Gospel among the nations as he wrote." We have concluded it to be a superfluous task
                to address each of the God-loving bishops, seeing that the urgency of the matter will
                not brook delay. Let no one among you therefore dare to transgress against this our
                warning in writing in any way whatever, knowing that he will incur an accusation of
                presumption and arrogance, and will be laid under bans of excommunication. This is in
-               fact the reason why we resolved to send the God-loving Thomas and Basil deacons of
+               fact the reason why we resolved to send the God-loving <persName ref="http://syriaca.org/person/57">Thomas</persName> and <persName ref="http://syriaca.org/person/2580">Epiphanius</persName> deacons of
                the apostolic see, because it is our intention and prayer that all things may be
                carried out and performed in order. </p>
             <trailer>The end.</trailer>
