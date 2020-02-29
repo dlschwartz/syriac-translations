@@ -11,10 +11,12 @@
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
-            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
             <respStmt>
                <resp>XML created by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>Based on the work of</resp>
@@ -22,7 +24,8 @@
             </respStmt>
             <respStmt>
                <resp>OCR corrected by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>proofreading and metadata added by</resp>
@@ -34,10 +37,13 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -54,11 +60,10 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title type="main" xml:lang="en" level="m">
-                     The Sixth Book of the Select Letters of
-                     <persName ref="http://syriaca.org/person/51">Severus Patriarch of Antioch</persName>
-                     in the Syriac Version of
-                     <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                  <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
+                     of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
+                        Antioch</persName> in the Syriac Version of <persName
+                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part II</title>
                   <idno type="URI">http://syriaca.org/bibl/669</idno>
@@ -77,41 +82,45 @@
       <encodingDesc>
          <classDecl>
             <taxonomy>
-               <category ana="http://syriaca.org/keyword/orthodoxy"></category>
-               <category ana="http://syriaca.org/keyword/mercy"></category>
+               <category ana="http://syriaca.org/keyword/orthodoxy"/>
+               <category ana="http://syriaca.org/keyword/mercy"/>
             </taxonomy>
          </classDecl>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+            <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
    </teiHeader>
-  <text>
+   <text>
       <body>
          <div type="letter" n="5.10">
             <head type="main" resp="#compiler">Of the same to the monastery of Isaac of blessed
                memory.</head>
-            <head type="sub" resp="#compiler">from those after banishment, from the 2nd book the 29th
-               letter.</head>
-            <p> I have been informed that Samuel of saintly and holy memory and presbyter and
-               archimandrite of your holy cloister has departed from the life here, and gone to God.
-               <add><emph>And after other things.</emph></add> Only I beg that he will not on
-               the repentance of those who have fallen and wish to come to the orthodox faith put
-               forward the untempered cup of strictness, but besides this will take the cup of
-               merciful discretion, and show the mercy of pity towards those who share our weakness,
-               and are bought with the same blood of Christ, and have received the same "Spirit of
-               adoption," and will imitate <pb n="325"/> the Father in heaven, who does not pour out
-               His wrath according to our sins, but tempers it with mercy. </p>
+            <head type="sub" resp="#compiler">from those after banishment, from the 2nd book the
+               29th letter.</head>
+            <p> I have been informed that <persName ref="http://syriaca.org/person/29"
+                  >Samuel</persName> of saintly and holy memory and presbyter and archimandrite of
+               your holy cloister has departed from the life here, and gone to God. <add><emph>And
+                     after other things.</emph></add> Only I beg that he will not on the repentance
+               of those who have fallen and wish to come to the orthodox faith put forward the
+               untempered cup of strictness, but besides this will take the cup of merciful
+               discretion, and show the mercy of pity towards those who share our weakness, and are
+               bought with the same blood of <persName ref="http://syriaca.org/person/2245"
+                  >Christ</persName>, and have received the same "Spirit of adoption," and will
+               imitate <pb n="325"/> the Father in heaven, who does not pour out His wrath according
+               to our sins, but tempers it with mercy. </p>
             <trailer>Not the end.</trailer>
-         </div>      
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>
