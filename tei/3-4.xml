@@ -4,6 +4,10 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+	<respStmt>
+		<resp> proofreading and metadata added by</resp>
+		<name type="person" ref="http://syriaca.org/person.xml[DMora]">[Daniel Mora]</name>
+	   </respStmt>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/3137">To Caesaria the Patrician</title>
@@ -164,7 +168,7 @@
                been defeated by the long continuance of the illness. Look therefore at the pattern
                of the praiseworthy woman in the Gospels who was troubled by an issue of blood for
                twelve years, and had spent all her wealth on physicians, and like her draw near to
-               Jesus, and, as Mark the Evangelist says, tell Him as God the whole case and the
+               Jesus, and, as <persName ref=http://syriaca.org/place/388> Mark the Evangelist </persName> says, tell Him as God the whole case and the
                truth. If you do this in a pure fashion He will assuredly say to you, "My daughter,
                thy faith hath saved thee: go in peace, and be whole of thy plague." Such illnesses
                need only the divine working in order to be healed, and this right-minded souls draw
