@@ -10,10 +10,12 @@
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
-            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
             <respStmt>
                <resp>XML created by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>Based on the work of</resp>
@@ -21,11 +23,13 @@
             </respStmt>
             <respStmt>
                <resp>OCR corrected by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp> proofreading and metadata added by </resp>
-               <name type="person" ref="http://syriaca.org/person.xml#aenfield">Ambrose Enfield</name>
+               <name type="person" ref="http://syriaca.org/person.xml#aenfield">Ambrose
+                  Enfield</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -33,10 +37,13 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -53,11 +60,10 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title type="main" xml:lang="en" level="m">
-                     The Sixth Book of the Select Letters of
-                     <persName ref="http://syriaca.org/person/51">Severus Patriarch of Antioch</persName>
-                     in the Syriac Version of
-                     <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                  <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
+                     of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
+                        Antioch</persName> in the Syriac Version of <persName
+                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part I</title>
                   <idno type="URI">http://syriaca.org/bibl/668</idno>
@@ -75,23 +81,26 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+            <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
    </teiHeader>
-  <text>
+   <text>
       <body>
          <div type="letter" n="1.32">
-            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2581">John, bishop of Alexandria the
-               less</persName>.</head>
+            <head type="main" resp="#compiler">Of the same to <persName
+                  ref="http://syriaca.org/person/2581">John, bishop of Alexandria the
+                  less</persName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 6th book the
                154th letter.</head>
             <p> The devout subdeacons of your church have made a complaint to the apostolic see,
@@ -106,19 +115,18 @@
                occupations owing to not receiving sustenance, your love of God should acquiesce in
                all these things, and not disturb that which is the custom by any innovation, unless
                perhaps some relief be given them as a counterpoise to the loss that falls upon them.
-               That a man ought not to serve at his own charges <persName ref="http://syriaca.org/person/1983">Paul</persName> 
-               also who had <persName ref="http://syriaca.org/person/2245">Christ</persName> speaking in
-               him enacted: and to this he further added a saying that resembles it, I mean that a
-               man who devotes himself to the altar should be supported by the altar; and hence he
-               gives the same decision in parallel cases also, and teaches that a man who is engaged
-               in any work should also receive the means of life out of the very same business in
-               which he is engaged. Therefore let the injunction also that has been laid upon them
-               be removed, and the cells of their poverty opened, and the harsh acts that have been
+               That a man ought not to serve at his own charges <persName
+                  ref="http://syriaca.org/person/1983">Paul</persName> also who had <persName
+                  ref="http://syriaca.org/person/2245">Christ</persName> speaking in him enacted:
+               and to this he further added a saying that resembles it, I mean that a man who
+               devotes himself to the altar should be supported by the altar; and hence he gives the
+               same decision in parallel cases also, and teaches that a man who is engaged in any
+               work should also receive the means of life out of the very same business in which he
+               is engaged. Therefore let the injunction also that has been laid upon them be
+               removed, and the cells of their poverty opened, and the harsh acts that have been
                done obliterated by means of mildness in all things. </p>
             <trailer>The end.</trailer>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>
-
-

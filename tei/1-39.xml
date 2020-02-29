@@ -6,15 +6,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://syriaca.org/work/3073">To the Clergy and Notables of
-               Apamea</title>
+            <title ref="http://syriaca.org/work/3073">To the Clergy and Notables of Apamea</title>
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
-            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
             <respStmt>
                <resp>XML created by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>Based on the work of</resp>
@@ -22,11 +23,13 @@
             </respStmt>
             <respStmt>
                <resp>OCR corrected by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp> proofreading and metadata added by </resp>
-               <name type="person" ref="http://syriaca.org/person.xml#aenfield">Ambrose Enfield</name>
+               <name type="person" ref="http://syriaca.org/person.xml#aenfield">Ambrose
+                  Enfield</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -34,10 +37,13 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -54,11 +60,10 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title type="main" xml:lang="en" level="m">
-                     The Sixth Book of the Select Letters of
-                     <persName ref="http://syriaca.org/person/51">Severus Patriarch of Antioch</persName>
-                     in the Syriac Version of
-                     <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                  <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
+                     of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
+                        Antioch</persName> in the Syriac Version of <persName
+                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part I</title>
                   <idno type="URI">http://syriaca.org/bibl/668</idno>
@@ -76,23 +81,25 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+            <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
    </teiHeader>
-  <text>
+   <text>
       <body>
          <div type="letter" n="1.39">
-            <head type="main" resp="#compiler">Of the same to the clergy and notables of
-               <placeName>Apamea</placeName>.</head>
+            <head type="main" resp="#compiler">Of the same to the clergy and notables of <placeName
+                  ref="http://syriaca.org/place/11">Apamea</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 7th book the
                289th letter.</head>
             <p> The name and fact of concord is pleasing even in God's sight, for He himself said in
@@ -104,22 +111,23 @@
                notables; a principle which our pious Christ-loving king also ratified. Wherefore we
                urge you again, as we have also already done, and that many times, to come to a
                united election of him to whom the bishopric of the illustrious metropolis of the
-               <placeName>Apamenes</placeName> is to be entrusted. When you were divided, we, who were not under the
-               influence of passion, were obliged ourselves to choose by a judgment that did not
-               respect persons and to nominate for you the devout presbyter <persName>Cosmas</persName>, a man who was
-               reputed to be fitted for this, according to the prevailing opinion of many respecting
-               him. But, considering also the greatness of the thing, he would not consent. And
-               therefore I have determined again to urge you, as I have said, to a united vote,
-               since those whom some of you chose by name did not seem to us to be fit men: and to
-               send this letter to you the religious clergymen, and to the eloquent and magnificent
-               <foreign>ktetores</foreign> and to the men of repute at the same time, in order
-               that I may be the first. to give you an example of concord by not writing to you
-               separately, but as to <pb n="112"/> one church which is the body of the one and only
-               and undivided Christ. You will agree, I know well, if, free from all prejudice and
-               cavilling and favour, and from other such influences, you will put in your
-               <foreign>psephisma</foreign> three men who are in the first place sound in the
-               orthodox faith and show this by holding firmly to communion with us, and secondly are
-               in character free from avarice, and will not approach the high-priesthood with
+                  <placeName ref="http://syriaca.org/place/11">Apamenes</placeName> is to be
+               entrusted. When you were divided, we, who were not under the influence of passion,
+               were obliged ourselves to choose by a judgment that did not respect persons and to
+               nominate for you the devout presbyter <persName ref="http://syriaca.org/person/2629"
+                  >Cosmas</persName>, a man who was reputed to be fitted for this, according to the
+               prevailing opinion of many respecting him. But, considering also the greatness of the
+               thing, he would not consent. And therefore I have determined again to urge you, as I
+               have said, to a united vote, since those whom some of you chose by name did not seem
+               to us to be fit men: and to send this letter to you the religious clergymen, and to
+               the eloquent and magnificent <foreign>ktetores</foreign> and to the men of repute at
+               the same time, in order that I may be the first. to give you an example of concord by
+               not writing to you separately, but as to <pb n="112"/> one church which is the body
+               of the one and only and undivided Christ. You will agree, I know well, if, free from
+               all prejudice and cavilling and favour, and from other such influences, you will put
+               in your <foreign>psephisma</foreign> three men who are in the first place sound in
+               the orthodox faith and show this by holding firmly to communion with us, and secondly
+               are in character free from avarice, and will not approach the high-priesthood with
                unwashen feet, as it is said, but men who have been trained, if only to a moderate
                degree, in exercises of virtue, and able to rule, and who besides humility possess
                also a practised intelligence, in order that they may rather rule those that are
@@ -134,5 +142,5 @@
             <trailer>The end.</trailer>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>
