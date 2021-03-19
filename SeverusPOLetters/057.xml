@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://syriaca.org/work/3015">To Isidore the Count</title>
+            <title ref="http://syriaca.org/work/3201">Concerning Ordination</title>
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
@@ -59,7 +59,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+                  <title xml:lang="en" level="a">Letters I to LXI</title>
                </analytic>
                <monogr>
                   <editor ref="http://syriaca.org/person/403">
@@ -68,11 +68,9 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m">
-                     A Collection of Letters of
-                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
-                     , from Numerous Syriac Manuscripts
-                  </title>
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
+                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                     Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
                      <publisher xml:lang="en">Firmin-Didot et cie</publisher>
@@ -80,31 +78,8 @@
                      <date>1919-1920</date>
                   </imprint>
                   <extent>2 fasc</extent>
-                  <biblScope unit="fasc">II</biblScope>
-               </monogr>
-               <monogr>
-                  <editor ref="http://syriaca.org/person/509">
-                     <persName xml:lang="en">
-                        <forename>R.</forename>
-                        <surname>Graffin</surname>
-                     </persName>
-                  </editor>
-                  <editor ref="http://syriaca.org/person/652">
-                     <persName xml:lang="en">
-                        <forename>F.</forename>
-                        <surname>Nau</surname>
-                     </persName>
-                  </editor>
-                  <!--  What should we use for the title?  -->
-                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
-                  <idno type="URI">http://syriaca.org/bibl/680</idno>
-                  <imprint>
-                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
-                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
-                     <date>1920</date>
-                  </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">3 [174]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">338 [166]</biblScope><!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -120,7 +95,7 @@
                      </persName>
                   </editor>
                   <title xml:lang="la" level="s">Patrologia Orientalis</title>
-                  <biblScope unit="tomus">14</biblScope>
+                  <biblScope unit="tomus">12</biblScope>
                </series>
             </biblStruct>
             <bibl>
@@ -147,27 +122,13 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="62">
-            <head type="number">LXII. (XIX)<note type="footnote" n="469" resp="#ebrooks">See p. 41, n.
-               2.</note></head>
-            <head type="main" resp="#compiler">OUR GOD-INSPIRED FATHER SEVERUS SAYS IN THE LETTER TO ISIDORE
-               THE COUNT, THE BEGINNING OF WHICH IS, "I rejoiced greatly when I received the letter of your
-               Christ-loving illustriousness".<note type="footnote" resp="#ebrooks">From the work of Peter of
-                  Callinicus against Damian.</note></head>
-            <note type="date" resp="#ebrooks">
-               <date notBefore="0508" notAfter="0511(?)">508-511(?)</date>
-            </note>
-            <p> As regards these things therefore I think that we ought to avoid this composite term, that we
-               should call the Holy Trinity or the Father uni-essential, both because it is not found among the
-               accurate fathers, and<note type="footnote" n="470" resp="#ebrooks">Sic Syr.</note> it gives
-               occasions for the evil deviations of the heretics: but they called the Trinity co-essential, in
-               order that by means of this word so plainly and very excellently stated there might be expressed
-               in the same phrase both the oneness of the essence<note type="footnote" n="471" resp="#ebrooks"
-                  ><foreign xml:lang="grc">οὐσία</foreign>.</note> and the separation of the hypostases, and by
-               means of this one word unity and division: for by being called co-essential with the Father and
-               the Holy Spirit the Son claims to share essence<note type="footnote" n="3" resp="#ebrooks"
-                  > </note> with those who are reckoned with him, but to be distinct in hypostasis; for a man is
-               not co-essential with himself, but one man with another.</p>
+         <div type="letter" n="57">
+            <head type="number">LVII</head>
+            <head type="main" resp="#compiler">OF THE BLESSED MAR SEVERUS, CONCERNING ORDINATION <note
+               type="footnote" n="455" resp="#ebrooks"><foreign xml:lang="grc">χειροτονία</foreign>.</note>. </head>
+            <p>The test of true ordination<note type="footnote" n="3" resp="#ebrooks"><foreign xml:lang="grc"
+               >χειροτονία</foreign>.</note> is not the matter of the see, but holding the right faith in
+               God. </p>
          </div>
       </body>
    </text>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3171">To John the Christ-loving Roman</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a">Letters I to LXI</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
+                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                     Numerous Syriac Manuscripts </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">218 [46]-222 [50]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">12</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="24">
+            <head type="number">XXIV</head>
+            <head type="main" resp="#compiler">OF THE HOLY MAR SEVERUS, FROM THE LETTER WHICH HE WROTE TO
+               JOHN THE CHRIST-LOVING ROMAN<note type="footnote" n="111" resp="#ebrooks">I. e. soldier, in
+                  Greek <foreign xml:lang="grc">στρατιώτην</foreign> (p. 50, n. 1).</note>, SHOWING WHAT IS
+               SIGNIFIED BY A PERSON BEING DIPPED THREE TIMES, AND WHY CHRIST CAME TO BAPTISM WHEN HE WAS <note
+                  type="footnote" n="30" resp="#ebrooks"> </note> YEARS OLD; AND HE SHOWS FURTHER WHAT IS THE
+               NATURE <pb n="47"/> OF THE CONFIRMATION BY OINTMENT<note type="footnote" n="112" resp="#ebrooks"
+                  ><foreign xml:lang="grc">μύρον</foreign>.</note> WITH WHICH THOSE WHO HAVE BEEN BAPTIZED ARE
+               CONFIRMED AFTER BAPTISM. </head>
+            <div type="excerpt">
+               <p>For the same baptism is both performed in the name of the Holy Trinity, and by the triple
+                  dipping it is further signified that the man who is baptized is buried with Christ.</p>
+            </div>
+            <div type="excerpt">
+               <head type="excerpt" resp="#compiler">Of the same to John the Roman on the fact that holy
+                  baptism is performed in the name of the Trinity, and by the person being immersed three times
+                  within the water it is signified that he is buried with Christ, and why Christ came came to
+                  baptism when he was 30 years old.</head>
+               <p>For that the Father and the Son and the Holy Spirit should be named on the occasion of
+                  baptism <ab type="ellipsis">.........</ab> For how [can] they who have not participated in
+                  flesh nor been humanized <ab type="ellipsis">.........</ab> the only Son and Word who was
+                  begotten by the Father? For there are indeed many rites that are performed, and <ab
+                     type="ellipsis">.........</ab> look to the same origin. <pb n="48"/> But each <ab
+                        type="ellipsis">.........</ab>, so that even the understandings are confused. Of this I <ab
+                           type="ellipsis">.....</ab> in one of my treatises which I wrote <ab type="ellipsis">...</ab>
+                  about interpretations. There after examining the question why the Lord came to baptism when he
+                  was 30 years of age in the flesh I said at one time that it was in order to show that the new
+                  birth begets men full-grown in reasonable age, for so also the first man was created
+                  full-grown, and immediately as full-grown received a commandment and a law, and was given
+                  permission to till and keep Paradise, and the words which follow<note type="footnote" n="113"
+                     resp="#ebrooks">Mai, Class. Auct., X, 415. The 2nd reason is not in the printed text.</note>;
+                  and at another that by means of three periods comprised in three decads which make 30 years he
+                  signified the mystery that was revealed on the Jordan, that one Godhead is made known in three
+                  complete hypostases, by which holy baptism in the Father and the Son and the Holy Spirit was to
+                  be performed. That these things introduce no confusion Gregory the Theologian in the sermon on
+                  the Passover states as follows: "The Lord's passion<note type="footnote" resp="#ebrooks">Greg.
+                     <foreign xml:lang="grc">πάσχα</foreign>, which the translator has misunderstood.</note>, the
+                  passion<note type="footnote" resp="#ebrooks">Greg. <foreign xml:lang="grc">πάσχα</foreign>,
+                     which the translator has misunderstood.</note>, and again I say the passion<note
+                        type="footnote" n="114">Greg. <foreign xml:lang="grc">πάσχα</foreign>, which the translator
+                        has misunderstood.</note>, in honour of the Holy Trinity"<note type="footnote" n="115"
+                           resp="#ebrooks">Or. XLV, 2.</note>; though I know that no other <pb n="49"/> undertook the
+                  saving passion on our behalf in the flesh except God the Word, who became incarnate for our
+                  race. For the whole of the saving Humanization has this effect, that the mystery of the Holy
+                  Trinity is revealed to us, although you speak of the birth in flesh, or of the Gross or of the
+                  burial, or of the Resurrection from among the dead, dividing the Humanization into many
+                  elements. For indeed in each of these we confess that we know the Trinity, in that we indicate
+                  upon our faces that the sign of the revered Cross is a dissolver of every evil influence; and,
+                  when therefore we sign ourselves, we sign three times, and we show that it is through the Gross
+                  that we have obtained knowledge in the Trinity. And this sign is a thing which makes known and
+                  completes all things that are done among Christians; and it is everywhere adopted, at the
+                  performance of baptism, at the consecration of water, at the celebration of the rational,
+                  spiritual sacrifice, and at the symbolic and ineffable ordinations to the priesthood of those
+                  who are duly appointed to the sacred ministry, though in all these things we do not call upon
+                  one of the hypostases only, that is God the Word who <pb n="50"/> was humanized, but on the
+                  three together, the Father, the Son, and the Holy Spirit, indicating that it is by the power of
+                  the Cross that we have partaken of all these things and have obtained knowledge in them<note
+                     type="footnote" n="116" resp="#ebrooks">A Greek extract from a letter to John the soldier is
+                     published in Cramer, Cat. in Act. Apost., p. 136, which from the subject seems to belong to
+                     this letter. </note>.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

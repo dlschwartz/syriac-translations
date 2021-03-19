@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3180">To the Monks of the East</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a">Letters I to LXI</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
+                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                     Numerous Syriac Manuscripts </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">279 [107]-291 [119]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">12</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="35">
+            <pb n="107"/>
+            <head type="number">XXXV</head>
+            <head type="main" resp="#compiler">OF THE PATRIARCH SEVERUS TO THE MONKS OF THE EAST<note
+               type="footnote" n="280" resp="#ebrooks">This letter is prefixed to the correspondence with
+               Julian of Halicarnassus in the Roman mss., but is absent in Add. 17000, which contains that
+               correspondence. It was clearly written at the time of the expulsion of the monks (Land, Anecd.
+               Syr., II, 289; Zach. Rh., viii, 5).</note>. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0520" notAfter="0525">520-5</date>
+            </note>
+            <p>To the holy fathers and archimandrites of the holy cloisters in the East and the presbyters
+               and deacons, and all the brothers who are practising the God-loved life of monasticism Severus
+               greeting in our Lord.</p>
+            <p>I have heard that the great convents of the holy monasteries in the East, who are honoured for
+               eminence in life and in asceticism and for age, have withdrawn, and that to this same thing they
+               have been driven by compulsion, by those who without fear stretch out their hands against every
+               man: and I groaned deeply; and I continued weeping till there was no strength left in me to weep
+               more, as the Holy Scripture somewhere says<note type="footnote" n="281" resp="#ebrooks">1 Sam.
+                  xxx, 4.</note>. For I sorrowed not for you (no tears are needed for you) but for the countries
+               which have been deprived of you, and for those who live a religious life in them, and to speak
+               generally for all that district<note type="footnote" n="282" resp="#ebrooks"><foreign
+                  xml:lang="grc">χώρα</foreign>.</note>. If there were not universal wrath, and the face of God
+               were not averted, you at least would <pb n="108"/> have remained, as pillars of the great house
+               who would have prevented the ruin that was threatening it. So also, when Jerusalem was being
+               chastised for her sins, and was being delivered to various chastisements, the God of mercy, 'he
+               that taketh pleasure in mercy'<note type="footnote" n="283" resp="#ebrooks">Mich., vii,
+                  18.</note> (for so the divine Scriptures term him), again spared her on account of his great
+               mercifulness, and, because he did not wish to bring a complete destruction, is seen to address,
+               those who administered such chastisements as were to come, things which Jeremiah saw and heard
+               by prophetic perception, in this way: "Go up to her walls and pull down; but make not a full
+               end. Leave her foundations because they are of the Lord"<note type="footnote" n="284"
+                  resp="#ebrooks">Jer. v, 10.</note>. If then you, who are the foundations of the Lord which
+               stave off destruction, have now been disturbed and shaken, what is there to expect, save sore
+               stripes from God, and great evils that cannot be assuaged and wrath that is poured out, which he
+               who in just judgment brings it declares in such words as these: "Behold! my wrath and mine anger
+               is poured out upon this country and upon men and upon cattle and upon all things that are in the
+               field, and upon all the fruits of the earth, and they shall be burnt up and shall not be
+               extinguished"<note type="footnote" n="285" resp="#ebrooks">Id., vii, 20.</note>? </p>
+            <pb n="109"/>
+            <p>For these reasons I sorrowed, and I perceived not the number of my groans, while I
+               contemplated the desolation of the ways that led to your convents and sent to you those who had
+               a zealous desire to delight their souls by the remembrance of divine things, and to whom
+               constant standing and angelic singing were a festival, and the upward-pressing life, which
+               reminds rational souls of the imitation of God. For thus Jeremiah also made lament after the
+               destruction of Jerusalem, and said as in a figure: "The ways of Zion mourn because there is none
+               to come to the feast. All the gates in her are desolate"<note type="footnote" n="286"
+                  resp="#ebrooks">Lam. i. 4.</note>. (And he himself clearly said that her produce is given to
+               destruction). "Whose priests shall go into captivity groaning, and they that have taken upon
+               them the virgin life shall be led away. And she that was abandoned by them hath bitterness for
+               these things". For, in order that none might think that the lamentation that was made was not
+               right, on account of beams and stones and great buildings that were razed to the earth and the
+               dust, exalting plainly by words the greatness of the disaster, he made proclamation and said:
+               "Her priests groan and her virgins <pb n="110"/> are carried away, and she herself within
+               herself hath bitterness"<note type="footnote" n="287" resp="#ebrooks">Lam. i, 4.</note>. And
+               Elisha the great, who received a double portion of the spirit that was in Elijah, the man of
+               many visions and miracles, foreseeing that which was future like the present, and how many evils
+               the people of Israel was to endure, inasmuch as Hazael, King of Syria, was to come against them
+               to war, wept bitterly when he .considered the incurability of the evils that were coming, and
+               under stress of these things he could not refrain, and abstain from tears, and from pity, though
+               they were about to endure these chastisements as they deserved. And therefore also the divine
+               Scripture says as in wonder: "And the man of God wept"<note type="footnote" n="288"
+                  resp="#ebrooks">2 Kings viii, 11.</note>. But I beg and entreat your sanctities (for you are my
+               affection no less than he<note type="footnote" n="289" resp="#ebrooks">Sic Syr.</note>), you who
+               also suffer with your kindred, and, to speak in the words of the apostle, "have a heart of mercy
+               and of grace"<note type="footnote" n="290" resp="#ebrooks">Col. iii, 12.</note>, pray for the
+               sheep and avert the wrath, and cease not holding up your saintly hands to your Jesus, saying to
+               him from the divine Scriptures, "These sheep what have they done? Have pity, Lord, upon thy
+               people, and give not thine inheritance to shame"<note type="footnote" n="291" resp="#ebrooks">2
+                  Sam. xxiv, 17; Joel, ii, 17.</note>. Perhaps he will be turned by these prayers and repent, and
+               will leave in his country a blessing, <pb n="111"/> a sacrifice and a libation to the Lord our
+               God. For on your account I have no weight of care and no anxiety: for well I know that
+               everything is easy to you, and there is no impediment or difficulty of walking for your feet,
+               which are adorned in apostolic fashion with bareness, and by their steps are able to bless even
+               the uninhabited deserts and make them habitable; . and that the lack of money in your girdles is
+               a fulness of all abundance, so that it provides a superfluity for others also, and the staff in
+               your hands is a symbol of the very fixity and firmness of the faith that is in you, so that it
+               supports those who are shaken also and they do not fall; but the earth and the heaven and the
+               air<note type="footnote" n="292" resp="#ebrooks"><foreign xml:lang="grc">ἀήρ</foreign>.</note>
+               are your purse, and all the elements supply food in diverse forms and coming of itself, and make
+               it known to everyone that "man liveth not by bread alone, but also by every word that proceedeth
+               out of the mouth of God"<note type="footnote" n="293" resp="#ebrooks">Matth. iv, 4.</note>: I
+               forbear to say, what is a great thing and very true, that, since you have a spiritual rock going
+               before you (and Paul said that Christ is a rock<note type="footnote" n="294" resp="#ebrooks">1
+                  Cor. x, 4.</note>), that is to you food and drink; for you were persecuted with this same rock
+               when it was persecuted. For in the case of the sons of Israel of old, who saw little, and had
+               their eye blinded by Egyptian <pb n="112"/> darkness, and could scarcely see the writing of the
+               law and could not contemplate the depth of hidden mysteries, the apostle justly wrote that "that
+               rock followed them"<note type="footnote" n="295" resp="#ebrooks">1 Cor. x, 4.</note>: for it was
+               right that they who were so-imperfect should be first exercised in the law, and afterwards see
+               Christ following them. Wherefore also in waterless countries he gave them water in tangible
+               form, assuaging the thirst of the flesh; and, whenever they desired flesh, he invisibly brought
+               birds like rain from the air<note type="footnote" n="296" resp="#ebrooks"><foreign
+                  xml:lang="grc">ἀήρ</foreign>.</note>, and other things like these and resembling them. But
+               before your own perfections, who can contemplate the very glory of the Lord 'with open face', as
+               again Paul said<note type="footnote" n="297" resp="#ebrooks">2 Cor. iii, 18.</note>, that rock
+               continually goes in front, giving suprasensual food and drink, and showing everyone that through
+               the things which you have endured you cry and say, "Who shall separate me from the love of
+               Christ? Tribulation, or distress, or persecution, or hunger or nakedness or clanger or the
+               sword, as it is written, 'For thy sake we die every day; we have been reckoned as sheep for
+               slaughter'; but in all these things we are victorious through him who loved us"<note
+                  type="footnote" n="298" resp="#ebrooks">Rom. viii, 35-37.</note>. For the results of your
+               victory are not only <pb n="113"/> in this evil present world, in which you showed
+               invincibility, but all of them are more truly in the future world. Then all who have been
+               exercised in the life of virginity, and have prevailed over shameful passions and are honoured
+               for white-haired old age of the intellect, and for the holy order, and deceive the accompanying
+               honour, shall be gratified with such joy that their soul shall be made drunk with good things,
+               as to which Jeremiah the prophet, depicting them beforehand, spoke thus: "Then shall virgins
+               rejoice in gatherings of young men and old men shall rejoice: and I will turn their mourning
+               into joy, and I will make them rejoice: and I will make great and make drunken the soul of the
+               priests the sons of Levi, and my people shall be filled with my good things"<note
+                  type="footnote" n="299" resp="#ebrooks">Jer. xxxviii, 13, 14.</note>; and these things that
+               fail not and are as they are, and are never destroyed. Such as these are the blessed homes and
+               mansions. But, if there is yet an extension and we have not been brought to the end of time,
+               assuredly 'he who scattered Israel he will gather him, and he will keep him as a shepherd who
+               feedeth his flock' and will say, "With weeping went they out, and with consolation will I bring
+               them: and I will make them to dwell by streams of waters in a right way and they shall not again
+               go astray"<note type="footnote" n="300" resp="#ebrooks">Ibid., 9, 10.</note>. </p>
+            <pb n="114"/>
+            <p>But pray that we also may hold to the right and unerring way, and our foot may not turn aside
+               to the right hand or to the left from the king's highway<note type="footnote" n="301"
+                  resp="#ebrooks">Num. xx, 17.</note> which was rightly traversed by those seers and ministers of
+               the word. For, inasmuch as you exercise yourselves in the law of the Lord by night as well as by
+               day, you know well that, even if a man contend, he is not crowned unless he contends lawfully.
+               For certain men have come in upon us, wishing to put a blemish on the 'good confession' to which
+               we were called and which we confessed 'before many witnesses'<note type="footnote" n="302"
+                  resp="#ebrooks">1 Tim. vi, 12.</note> as the apostle said, that is, before the whole church and
+               'the elect angels'<note type="footnote" n="303" resp="#ebrooks"> Id., v, 21.</note>, never
+               having yielded to remissness. For that 'we are not of remissness which leads to perdition'<note
+                  type="footnote" n="304" resp="#ebrooks">Hebr., x, 39.</note> you also well know: for you are
+               the first who testify. For, 'having no sound knowledge of what they say or the things about
+               which they strive'<note type="footnote" n="305" resp="#ebrooks"> 1 Tim. i, 7.</note>, they do
+               not consent to confess that the true flesh of God and the Word which is from the holy God-bearer
+               and ever-virgin Mary and from the Holy Spirit, which was hypostatically united to him, so that
+               from the fact that he came to be with us as God who became man he was named Emmanuel, and that
+               he was made like unto us in all things except sin, suffers <pb n="115"/> like us and is
+               susceptible of innocent passions, but say that he suffered in semblance, and that the flesh was
+               impassible and immortal at the time of the voluntary and saving Cross; and besides other
+               impossible things the wretched men foolishly speak of false passions, and in false words they
+               name phantasy<note type="footnote" n="306" resp="#ebrooks"><foreign xml:lang="grc"
+                  >φαντασία</foreign>.</note> incorruptibility, and deny the true incorruptibility, and they
+               fail to notice the wisdom of the dispensation whereby the impassible God united to himself those
+               of our passions which do not fall under the description of sin, wishing in it to taste our death
+               voluntarily, destroy its dominion over us, and by means of the Resurrection to set us free in
+               incorruptibility, that is in impassibility and immortality, and raise us to our first state in
+               which also we were created. If the Word of God desired to display passions and death in unreal
+               form, the Incarnation is quite superfluous. He had the divine impassibility and immortality, and
+               so also he might have suffered as in semblance and shown himself after the fashion of former
+               appearances, as he appeared as a man who wrestled with Jacob and was received in Abraham's
+               house, and was represented in many forms through the prophets: for this he himself is seen to
+               have said in Hosea the prophet<note type="footnote" n="307" resp="#ebrooks">Hos. XII,
+                  10.</note>. But this was not <pb n="116"/> what he desired, but that by means of a real death he
+               might save the man who had died through the deceit of the serpent, and make his own Resurrection
+               the gate and way of return to everlasting life. For this reason Paul cries louder than all
+               trumpets in the ears of men who will not hear: "For, since by man came death, by man also cometh
+               the resurrection of the dead. For, as in Adam all died, so also in Christ shall all live"<note
+                  type="footnote" n="308" resp="#ebrooks">1 Cor. XV, 21, 22.</note>. But<ab type="ellipsis"
+                     >...</ab> with<ab type="ellipsis">...</ab> the Scriptures and<ab type="ellipsis">...</ab> these
+               hasty and presumptuous men presumed blasphemously to say against the divine Scriptures and
+               against the holy fathers who interpreted them in approved fashion, who at various times fed the
+               holy churches. From these things you see clearly how much difference and distinction there is
+               between truth and error even as the heaven is far from the earth, and that out of the thought of
+               their heart they have 'devised words of iniquity' and that 'truth has perished in their ways,
+               and they could not walk in the right way', and also that 'they have removed their thoughts from
+               understanding'<note type="footnote" n="309" resp="#ebrooks">Is. LIX, 13-15.</note>. For well
+               did Isaiah the prophet expose them beforehand by these words. <pb n="117"/>
+            </p>
+            <p>Pray therefore, saintly ones (for indeed I say the same thing many times) that we may be
+               delivered from evil and unjust men. For they have been unable not only to endure reproof on
+               account of their wickedness, but even to give drink to them that thirst: for, besides their
+               thoughts that blaspheme against God, 'their counsels<note type="footnote" n="1" resp="#ebrooks"
+                  > </note> also 'are counsels of murder'<note type="footnote" n="310" resp="#ebrooks">Is. LIX,
+                     7.</note>. For this very thing Isaiah says with me concerning them. But that these same men may
+               be changed to what is right make the subject of your own prayers. For we on our part look to him
+               who willeth not the death of a sinner so much as that he be converted and live<note
+                  type="footnote" n="311" resp="#ebrooks">Ez. xxxiii, 11.</note>. Indeed at first on the entreaty
+               (and to speak the truth on the compulsion) of him who wrote unsoundly and rashly upon this same
+               matter<note type="footnote" n="312" resp="#ebrooks">Julian: see the correspondence in Zach.
+                  Rh., ix, 10-13.</note>, while far away and in hiding I wrote and admonished him in a brotherly
+               manner and urged him to have regard to the holy fathers and to the approved doctors and follow
+               them, and correct himself. And even upon this he attacked my meanness in a ferocious manner,
+               worse than any raging savage beast, and kept bitterly complaining because he did not find me a
+               partner of his error, and over the whole world, as far as he could, he sent out and scattered
+               abroad what he had <pb n="118"/> written, which came from his heart 'not from the mouth of the
+               Lord'<note type="footnote" n="313" resp="#ebrooks">Jer. XXIII, 16.</note>: and we were set
+               forth as a laughing-stock to those who contend for the Chalcedonian impiety; and in Palestine,
+               as I have learned, and in other provinces<note type="footnote" n="314"><foreign xml:lang="grc"
+                  >ἐπαρχίας</foreign>.</note> they were going about, and everywhere opening and extending their
+               capacious mouth and saying: "See! Those who pride themselves on being orthodox<note
+                  type="footnote" n="315"><foreign xml:lang="grc">ὀρθόδοξος</foreign>.</note> have been
+               manifestly seen to be zealous for the semblance of Eutyches, which is the error of the followers
+               of Mani". Then indeed, being pierced by the judgments of God after the manner of goads and
+               being<ab type="ellipsis">...</ab> in my soul because I could not endure the slander and the
+               blasphemy against the glory of the Most High and the fact that one man's error should be a stain
+               upon the whole body of the church, I made the true facts known to everyone, facts which are
+               known and familiar to you also, saying with courage as well as faith in accordance with the
+               truth (for Jesus is very God and Saviour), "If it be my lot to die with thee I will not deny
+               thee"<note type="footnote" n="316" resp="#ebrooks">Matth. XXVI, 35.</note>, but, "I will go up
+               upon the mountains, and will preach to Jerusalem"<note type="footnote" n="317" resp="#ebrooks"
+                  >Is. XL, 9.</note>. May I gain his boldness of speech<note type="footnote" n="318"
+                     resp="#ebrooks"><foreign xml:lang="grc">παρρησία</foreign>.</note>, and may I receive help from
+               him, through your saintly prayers and entreaties. </p>
+            <pb n="119"/>
+            <p resp="#compiler" rend="ital">The handwriting of the patriarch himself.</p>
+            <p>May the holy Unity in Trinity (for this is our God) keep your holinesses, and all the
+               brotherhood that is with you, illustrious in divine contests, in perfect concord and endurance
+               and praying for our meanness. My spirit greets you. "Greet one another with a holy kiss"<note
+                  type="footnote" n="319" resp="#ebrooks">1 Cor. xvi, 20; 2 Cor. xiii, 12.</note>. Grace be with
+               you.</p>
+            <p>Blessed be God for ever, and praised be his name to all generations.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
