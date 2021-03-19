@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3154">To Maron</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+            </distributor>
+            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a">Letters I to LXI</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">196 [24]-200 [28]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">12</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/><!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="6">
+            <head type="number">VI.</head>
+            <head type="main" resp="#compiler">OF THE HOLY SEVERUS, FROM THE LETTER TO MARON, OF WHICH THE
+               BEGINNING IS, "When Naaman the Syrian". </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0513" notAfter="0518 (?)">513-8 (?)</date>
+            </note>
+            <div type="excerpt">
+               <p>Enough has, I think, been said about essence<note type="footnote" n="63" resp="#ebrooks">
+                  οὐσία.</note> and hypostasis. But the name 'nature' is sometimes taken in place of essence',
+                  sometimes in place of hypostasis. For even the whole of mankind we call comprehensively
+                  'nature', as it is indeed written: "For all natures of beasts and of birds, and of reptiles and
+                  of things that are in the water are subjected and are made subject to human nature"<note
+                     type="footnote" n="64" resp="#ebrooks">James iii, 7.</note>: and again we speak of one nature
+                  in reference to a single man, Paul for example or Peter, or maybe James. Where therefore we
+                  name all mankind one nature, we use the name 'nature' generically in place of 'essence'<note
+                     type="footnote" n="63" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>; but,
+                  where we say that there is one nature of Paul, the name 'nature' is employed in place of
+                  'individual hypostasis'. So <pb n="25"/> also we call the Holy Trinity one nature, employing
+                  the term 'nature' in place of the general designation 'essence'<note type="footnote" n="65"
+                     resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>; as Gregory the Theologian the
+                  bishop of Nazianzus also said in the sermon on the Holy Pentecost: "Confess the Trinity to be
+                  of one Godhead, my friends; or, if you like, of one nature; and we will ask for you from the
+                  Spirit the expression 'God'"<note type="footnote" n="66">Or. XLI, 8.</note>. But, when we say
+                  'one incarnate nature of God the Word', as Athanasius the prop of the truth and the apostolic
+                  faith said in the books on the Incarnation of the Word<note type="footnote" n="67"
+                     resp="#ebrooks">P. G., XXVIII, 28.</note>, we use 'nature' in place of 'individual
+                  designation', denoting the one hypostasis of the Word himself, like that of Peter also or of
+                  Paul, or of any other single man. Wherefore also, when we say 'one nature which became
+                  incarnate', we do not say it absolutely, but by adding 'one nature of the Word himself clearly
+                  denote the one hypostasis. But the very men who blasphemously call the one Christ two natures
+                  use the name 'nature' in place of 'individual designation', saying that the Word of God is one
+                  nature, and the man as they say from Mary another. For they do not reach such a height of
+                  fatuity as to say that they are using the name 'natures' in place <pb n="26"/> of 'general
+                  designation', I mean in the same sense as essence<note type="footnote" n="68" resp="#ebrooks"
+                     ><foreign xml:lang="grc">οὐσία</foreign>.</note>: for, if the Holy Trinity is one nature, and
+                  all mankind one nature, in the same sense as anything which is shown to be so on this
+                  principle, the Holy Trinity will be found (to say a very absurd thing) to have become incarnate
+                  in all mankind, that is the human race.</p>
+            </div>
+            <div type="excerpt">
+               <head type="excerpt" resp="#compiler">Of the same, from the letter to Maron, which begins, "When
+                  Naaman the Syrian".</head>
+               <p>But the Holy Scriptures instruct<note type="footnote" n="69" resp="#ebrooks">Lit. 'initiate',
+                  rendering <foreign xml:lang="grc">μυοῦσι</foreign> or <foreign xml:lang="grc"
+                     >μυσταγωγοῦσι</foreign>.</note> us otherwise, teaching us that God the Word one only of the
+                  three hypostases became incarnate and humanized. For 'the Word became flesh, and dwelt in
+                  us'<note type="footnote" n="70" resp="#ebrooks">John i, 14.</note>.</p>
+            </div>
+            <div type="excerpt">
+               <head type="excerpt" resp="#compiler">Of the same, from the letter to Maron the reader, which
+                  begins, "When Naaman the Syrian".</head>
+               <p>But, when you hear these things, you will perhaps say that we ought not to have spoken of
+                  difference between the natures from which Emmanuel is, lest we ourselves be found to be
+                  repeating and using the same expression as these proud men. Accordingly, let us also refrain
+                  from confessing the union, <pb n="27"/> because they also profess to speak of a union which
+                  consists in an association of honour; and, because they speak of two natures after the union,
+                  let us also not say that the union was made from two natures, rejecting even the very mention
+                  of natures, like silly children, who tremble at terrifying alarms that are fictitious and
+                  invented, as if they were truth, and flee to their mothers' bosoms. If on account of the
+                  blasphemies contained in the opinions of those men we yield to them words and names which
+                  establish the truth, together with the sound of the words the great mystery of religion<note
+                     type="footnote" n="71" resp="#ebrooks">1 Tim., iii, 16.</note> goes from us. But, if we be
+                  right-minded, we shall both religiously hold to the words and cast out the foul opinions as
+                  evil speaking.</p>
+            </div>
+            <div type="excerpt">
+               <head type="excerpt" resp="#compiler">Of the same, from the letter to Maron, which begins, "When
+                  Naaman the Syrian ".</head>
+               <p>You see that we must also confess the difference between the natures from which the one
+                  Christ is, and avoid the cutting into two, and extol one Son and Christ, and one incarnate
+                  nature of God the Word.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3014">To Oecumenius the Count</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+            </distributor>
+            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a">Letters I to LXI</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">176 [3]-186 [14]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">12</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/><!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="1">
+            <head type="number">I.</head>
+            <head type="main" resp="#compiler">OF THE SAME<note type="footnote" n="1" resp="#ebrooks">The
+               letter to Anastasia (ep. 69) precedes in the ms.</note> A LETTER TO OECUMENIUS<note
+                  type="footnote" n="2" resp="#ebrooks">Text 'Oecumunius', and so in the subscription, and in the
+                  title of ep. 2.</note> THE COUNT<note type="footnote" n="3" resp="#ebrooks">Select Letters of
+                     Severus, p. 12, 38, 92.</note>, ABOUT PROPERTIES AND OPERATIONS, WHICH IS OF THOSE WRITTEN
+               BEFORE EPISCOPACY. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0508" notAfter="0512">508-12</date>
+            </note>
+            <p>We also have in the God-inspired Scripture supplies of humility, and no lack of arguments to
+               bring us down and help us to keep silence. If you, as if you were about to go up to Mt. Sinai,
+               shrink from writing 'to such a man' (referring to me), and think fit to use David's words which
+               he says to those who were urging him to take Saul's daughter in marriage, "Is it a small thing
+               in your eyes that I should be son-in-law to the king?"<note type="footnote" n="4"
+                  resp="#ebrooks">1 Sam. xviii, 18.</note>, while I am a poor man and inglorious, I also, when
+               required to make answer to your question, make use of these words: "I am not a prophet, nor the
+               son of prophets, but I am a shepherd, and a scraper of sycamore fruit"<note type="footnote"
+                  n="5" resp="#ebrooks">Amos, vii, 14.</note>, if it is not too much for me to say even this: for
+               I am not worthy to tell the righteousnesses of God, and to take his covenant in <pb n="4"/> my
+               mouth<note type="footnote" n="6">Ps. XLIX, 16.</note>. However, since the time of the present
+               struggles does not allow silence, I accept an honourable defeat from you, and turn to the
+               question. And in this I defeat you, since I show that you do not practise humility in a
+               philosophic spirit<note type="footnote" n="7">The word <foreign xml:lang="grc"
+                  >φιλοσοφῆσαι</foreign> is here transliterated.</note>. As to your statement that the holy old
+               men called bold speech<note type="footnote" n="8" resp="#ebrooks"><foreign xml:lang="grc"
+                  >παρρησία</foreign>.</note> fire or warmth, I say this, that we must not use this method of
+               speaking without discrimination, but there are occasions for using it and circumstances to which
+               to apply it. Our Lord in the Gospels in many parables teaches us in the case of spiritual
+               petitions to knock without ceasing and display a praiseworthy audacity. And the saying of the
+               Proverbs also instructs us that 'there is shame which brings sin, and there is shame which
+               brings glory and grace'<note type="footnote" n="9" resp="#ebrooks">Pr., xxvi, 11a.</note>. Know
+               then, mighty man, (for I now return to make answer) that for us to anathematize those who speak
+               of properties of natures (I mean the Godhead and the manhood of which the one Christ consists)
+               is not permissible. Flesh does not renounce its existence as flesh, even if it has become God's
+               flesh, nor has the Word departed from his nature, even if he has been hypostatically united to
+               flesh which possesses a rational and intelligent soul: but the difference also is <pb n="5"/>
+               preserved, and the propriety in the form of natural characteristics of the natures of which
+               Emmanuel consists, since the flesh was not converted into the nature of the Word, nor was the
+               Word changed into flesh. We mean in the matter of natural characteristics, and not that those
+               which were naturally united are singly and individually separated and divided from one another:
+               this is the assertion of those who cleave our one Lord Jesus Christ into two natures. For, since
+               the union in hypostasis is acknowledged, it follows that those which were united are not
+               separated from one another; but there is one Son, and one nature of God the Word incarnate
+               himself, as the holy Cyril also says in the work against Diodorus: "Let him know therefore that
+               the body which was born at Bethlehem, even if it is not the same as the Word from God and the
+               Father (I mean in natural characteristics), yet nevertheless became his, not anyone else's
+               separate from the Son: and there is recognised to be one Son and Christ and Lord and Word who
+               took flesh"<note type="footnote" n="10" resp="#ebrooks">Contr. Diod.,.fr. 17 (Cyr. in Jo. Ev.,
+                  ed. Pusey, III, p. 499).</note>. Those therefore who confess one incarnate nature of God the
+               Word, and do not confuse the elements of which he consists, recognise also the propriety of
+               those that were joined in union (and a property is that which <pb n="6"/> exists in the form of
+               a manifestation of natural differences), and not that we should ascribe the acts of the manhood
+               only to the human nature, and impute again those of the Godhead separately to God the Word, but
+               they recognise the difference only, not admitting a division: for the principle of union does
+               not admit of division. Hear what the holy and wise doctor Cyril says in the second volume<note
+                  type="footnote" n="11" resp="#ebrooks">
+                  <foreign xml:lang="grc">τόμος</foreign>.</note> of the work against the blasphemies of
+               Nestorius: "For between Godhead and manhood I also allow that there is great distinction and
+               distance. For the things which have been named on the principle of manner of existence are
+               clearly different, and in no point like one another. But, when the mystery in Christ is
+               introduced among us, the principle of union is not oblivious of difference", but rejects
+               division, not by mixing or commingling the natures with one another, but that, after the Word of
+               God has partaken of flesh and blood, he is even so understood and named as one Son"<note
+                  type="footnote" n="12" resp="#ebrooks">Adv. Nest., ii, 6 (ed. Pusey, VI, p. 113).</note>. But,
+               if Emmanuel is one, consisting of Godhead and manhood which have a perfect existence according
+               to their own principle, and the hypostatic union without confusion shows the difference of those
+               which have been joined in one in dispensatory union, but rejects division, both the elements <pb
+                  n="7"/> which naturally belong to the manhood have come to belong to the very Godhead of the
+               Word, and those which belong to the Word himself have come to belong to the very manhood which
+               he hypostatically united to him. On this subject we will again adduce the sacred words of Cyril.
+               In the prosphonetikon to the religious king Theodosius he spoke as follows: "As therefore it
+               came to belong to the humanity to be the Only one, because it had been united to the Word in a
+               dispensatory union, so it came to belong to the Word to be 'the first-born among many
+               brethren'<note type="footnote" n="13" resp="#ebrooks"> Rom., viii, 29.</note>, because of the
+               union with flesh"<note type="footnote" n="14" resp="#ebrooks">De rect. fide ad Theod. imp., 30
+                  (ed. Pusey, VII, p. 97).</note>. Gregory the Theologian<note type="footnote" n="15"
+                     resp="#ebrooks"><foreign xml:lang="grc">Θεολόγος</foreign>.</note> also in the letter to
+               Gledonius wrote words which agree with him as follows: "As the natures are mingled, so also are
+               the appellations; and they run into one another on the principle of coalescence"<note
+                  type="footnote" n="16" resp="#ebrooks">Ep. 51 (P. G., XXXVII, 181).</note>. Do not let the term
+               'mingle' disturb you: for he used it very clearly and without danger<note type="footnote" n="5"
+                  resp="#ebrooks"> </note> with the intention of denoting the primary union: for, where there is
+               a union of something incorporeal with a body, no danger<note type="footnote" n="17"
+                  resp="#ebrooks"><foreign xml:lang="grc">κίνδυνος</foreign>.</note> anywhere arises from
+               mingling. For this is manifestly a quality of fluid bodies, to be confounded together by
+               intertwining, and, so to speak, come out of their nature. We therefore anathematize not <pb
+                  n="8"/> those who confess the properties of the natures of which the one Christ consists, but
+               those who separate the properties, and apportion them to each nature apart. When the one Christ
+               has once been divided (and he is divided by the fact that they speak of two natures after the
+               union), with the natures which have been cut asunder into a duality and separated into a
+               distinct diversity go the operations and properties which are the offspring of this division, as
+               the words of Leo's impious letter state in what he said: "For each of the forms effects in
+               partnership with the other that which belongs to itself, the Word doing that which belongs to
+               the Word, and the body performing the things which belong to the body"<note type="footnote"
+                  n="18" resp="#ebrooks">Ep. 28, 4 (P. L., LIV, 768).</note>. Against these things it is well to
+               set the much-honoured words of the holy Cyril which refute impiety. In the Scholion about the
+               coal he speaks as follows: "Nevertheless we may see in the coal as in a figure that God the Word
+               was united to the manhood, but has not cast off being that which he is, but rather changed what
+               had been assumed or united into his glory and operation. For, as fire when it takes hold of wood
+               and is introduced into it, prevails over it, and does <pb n="9"/> not make it cease being wood,
+               but rather changes it into the appearance and force of fire, and performs all its own acts in
+               it, and is already reckoned as one with it, so understand in the case of Christ also. For, since
+               God was ineffably united with manhood, he has preserved it as what we say it is, and he himself
+               also has remained what he was. But, after he has once been united, he is reckoned as one with
+               it, appropriating its qualities to himself, but he himself also carried on the operation of his
+               nature in it"<note type="footnote" n="19" resp="#ebrooks">Schol. de Inc. Unig., 9 (ed. Pusey,
+                  VI, p. 51ff).</note>. If<note type="footnote" n="20" resp="#ebrooks">This passage as far as
+                     'operating' (p. 10, 1. 6) is cited in Mansi, XI, 444, where the letter is described as the 2nd
+                     to Oecumenius.</note> then the Word changed the manhood which he had hypostatically united to
+               him, not into his nature, for he remained that which he was, but into his glory and operation,
+               and things which manifestly belong to the flesh have come to belong to the Word himself, how
+               shall we allow that each of the forms performs its own acts? But we must anathematize those who
+               confine the one Christ in two natures and say that each of the natures performs its own acts.
+               Between the things performed and done by the one Christ the difference is great. Some of them
+               are acts befitting the divinity, while others are human. For example, to walk and travel in
+               bodily form upon <pb n="10"/> the earth is without contention human; but to bestow on those who
+               are maimed in the feet and cannot walk upon the ground at all the power of walking like sound
+               persons is God-befitting. Yet the one Word incarnate performed the latter and the former, and
+               the one nature did not perform the one, and the other the other; nor, because the things
+               performed are different, shall we on this account rightly define two natures or forms as
+               operating. Again the Tome of Leo says: "For each of the natures preserves its own property
+               without diminution"<note type="footnote" n="21" resp="#ebrooks">Ep. 28, 3 (P. L., LIV,
+                  766).</note>, distributing the properties to the two natures severally, as one who divides the
+               one and only Christ into two natures. For the property of the natures of which Emmanuel
+               consists, which is shown in the natural characteristics, continues constant and fixed, as the
+               holy Cyril also says in the second letter to Succensus: "But, while each of them both remains
+               and is perceived in the property which is. by nature, according to the principle which has just
+               been enunciated by us, the ineffable and incomprehensible union has shown us one nature of the
+               Son, yet, as I have said, an incarnate nature"<note type="footnote" n="22" resp="#ebrooks">Ep.
+                  46, 2 (P. G., LXXVII, 241).</note>. But God the Word did not permit his flesh in all things to
+               undergo the passions proper to it, in order that its <pb n="11"/> property might be preserved
+               undiminished, as the impious disputer said. For observe what the wise doctor Cyril says, in
+               answer to the objections made by Theodoret, in the defence of the tenth anathema: "When the
+               lowness arising from the exinanition seems hard to you, wonder greatly at the love of the Son
+               toward us. For, what you say is a mean thing, this he did voluntarily for your sake. He wept in
+               human fashion, that he might take away your weeping. He feared by dispensation, inasmuch as he
+               sometimes permitted his flesh to undergo the passions proper to it, that he might make us
+               valiant"<note type="footnote" n="23">Cyr., ed. Pusey, VI, p. 476.</note>. If he sometimes
+               permitted his flesh by dispensation to undergo the passions proper to it, he did not preserve
+               its property undiminished: for in many instances it is seen not to have undergone the things
+               which manifestly belong to its nature; for it was united to the Word, the Maker of nature. The
+               Word therefore who had become incarnate walked upon the sea, and after his death under the wound
+               of the lance caused a stream of salvation to well forth from his side: again, after the
+               Resurrection, he came in while the doors were shut, and appeared to the disciples in the house;
+               whom he also allowed to touch him, showing that his flesh was tangible and solid, and of one
+               essence<note type="footnote" n="24" resp="#ebrooks">
+                  <foreign xml:lang="grc">οὐσία</foreign>.</note> with us, and was also <pb n="12"/> superior to
+               corruption; and thereby he subverted the theory of phantasy. It belongs therefore to those who
+               part the one Christ into two natures and dissolve the unity to say, "For each of the natures
+               preserves its property unimpaired". But those who believe that, after God the Word had been
+               hypostatically united to flesh that possessed an intelligent soul, he performed all his own acts
+               in it, and changed it not into his nature (far be it!), but into his glory and operation, no
+               longer seek the things that manifestly belong to the flesh without diminution, to which flesh
+               the things that manifestly belong by nature to the Godhead have come to belong by reason of the
+               union. But, if they senselessly divide it from God the Word by speaking of two natures after the
+               union, it then walks in its own ways following its nature, and preserves its properties
+               undiminished on the principle of the impious men. But these things are not so (how could they
+               be?), but indeed very different: for union rejects division, as the holy Cyril said: "For,
+               though it is said that he hungered and thirsted, and slept and grew weary after a journey, and
+               wept and feared, these things did not happen to him just as they do to us in accordance with
+               compulsory ordinances of nature; but he <pb n="13"/> himself voluntarily permitted his flesh to
+               walk according to the laws of nature, for he sometimes allowed it even to undergo its own
+               passions"<note type="footnote" n="25" resp="#ebrooks">I cannot find the source of this
+                  citation.</note>. For from Cyril's words, as from a sacred anchor, I do not depart. And the
+               same statement is made by Gregory the Theologian<note type="footnote" n="26" resp="#ebrooks"
+                  ><foreign xml:lang="grc">Θεολόγος</foreign>.</note> of Nazianzus also in the sermon on
+               baptism: "For he is purity itself, and did not need purification; but he is purified for you;
+               just as for you he put on a garb of flesh, while he is fleshless: and he would have run no
+               danger at all from putting off baptism; for he himself was a warden of passion to himself"<note
+                  type="footnote" n="27" resp="#ebrooks">Or. XL, 29.</note>. Accordingly then<note
+                     type="footnote" n="28" resp="#ebrooks"><foreign xml:lang="grc">ἄρα</foreign>.</note> he was a
+               warden to himself of hungering as well as of being tired after a journey, and of accepting the
+               other human passions, such as do not fall under sin, in order to display the Humanization truly
+               and without phantasy<note type="footnote" n="29"><foreign xml:lang="grc"
+                  >φαντασία</foreign>.</note>. Of what we have said this is the sum; that we must anathematize
+               those who divide the one Christ: and they divide him by speaking of two natures after the union,
+               and consequently apportioning the operations and properties between the natures. Accordingly
+               good doctrine is contained in the<note type="footnote" n="30" resp="#ebrooks">I do not know what
+                  is hidden under <foreign xml:lang="syr">ܦܢܛܘܣ</foreign>: possibly it is a corruption of
+                  <foreign xml:lang="grc">τύπος</foreign>, since the only theological edict of Anastasius known
+                  is the <foreign xml:lang="grc">τύπος</foreign> or <foreign xml:lang="grc">πληροφορία</foreign>
+                  of Select Letters of Severus, p. 3. The word however rather suggests <foreign xml:lang="grc"
+                     >προσφωνητικός</foreign>.</note> ---- of the serene king: for it anathematizes those who
+               divide the one Son who was <pb n="14"/> hypostatically united to flesh into two natures, and the
+               operations and properties of the same two natures: for thus also says the impious Theodoret:
+               "How does he range under impiety those who divide the properties of the natures of God who is
+               before the ages and of the man who was assumed in the last days?"<note type="footnote" n="31"
+                  resp="#ebrooks">Cyr., ed. Pusey, VI, p. 410.</note> I have written these things though I am
+               poor in intellect and praise the greatness of your God-loving understanding; and because, as you
+               are wise, I give you an opportunity to attain wiser results. Forgive me that on account of the
+               lack of leisure caused by the present struggles I have been late in writing. Greet your honoured
+               consort, who is a partner and a helper in the affairs of God.</p>
+            <trailer resp="#compiler">The end of the first letter to Oecumenius the count.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
