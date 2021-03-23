@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3133">To Sergius the Count and Archiatros</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">146 [316]-148 [318]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="86">
+            <head type="number">LXXXVI.</head>
+            <head type="main" resp="#compiler">OF THE SAME FROM THE 70th LETTER OF THE 6th BOOK OF THOSE
+               WRITTEN AFTER BANISHMENT, WHICH WAS ADDRESSED TO SERGIUS THE COUNT AND archiatros<note
+                  type="footnote" n="856" resp="#ebrooks">This extract to 'honour' (317, I. ult.) is published in
+                  Greek in Cramer, Cat. in Luc. et Jo., p. 407, where it begins: <foreign xml:lang="grc">Σ. πρὸς
+                     Σεργ. ἀρχιεπίσκοπον <foreign xml:lang="en">(sic)</foreign> ἐπιστολῆς. Τὸ δὲ τοὺς περ #correct
+                     transcription still needed# μετὰ τὴν ἀνάστασιν ἐπιφανέντος αὐτοῖς τοῦ Θ. κ. Σωτῆρος ἡμῶν Ι. Χ.
+                     κ. προστεταχότος #check transcription# βαλεῖν</foreign>.</note>. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0619" notAfter="0638">619-38</date>
+            </note>
+            <p> As to the fact that our Lord and God Jesus Christ appeared after the Resurrection to Peter
+               and John and their companions, and commanded them to cast the net on the right side of the ship,
+               and to catch a multitude of great fish, making up the number of 153, I say in brief language
+               that its meaning <pb n="317"/> is this<note type="footnote" n="857" resp="#ebrooks">Gk. <foreign
+                  xml:lang="grc">ὡς ἐν βραχεῖ φρᾶσαι ταύτην ἔχει τὴν ἄπλωσιν</foreign> #check transcription#.
+               </note>. The gospel related that that night after toiling greatly they caught nothing whatever;
+               and this narrative, when transferred to spiritual and suprasensual sublimity, suggests to us
+               that before our Saviour's coming there was night in this world, for human affairs were devoid of
+               the knowledge of God, being devoted to the service of gods falsely so-called; but, when a kind
+               of rising and dawn of light took place, when our Saviour came and rose and shone upon those on
+               earth, like a 'Sun of righteousness' (this the divine Scripture says<note type="footnote"
+                  n="858">Mal. IV. 2.</note>), then the apostolic net was let down, and made a great catch of
+               men, and for this reason had the right side allotted to it. For Moses and the prophets, when
+               they let down the fishing-net, during the past night, caught the people of Israel only, while
+               these often jumped out of the net and served demons, and the present state is understood to be
+               the same as if they had not been caught<note type="footnote" n="859" resp="#ebrooks">Gr.
+                  <foreign xml:lang="grc">ἐν ἴσῳ τοῦ μηδὲ τεθηρᾶσθαι το παράπαν νοούμενον</foreign>.</note>.
+               Wherefore, also they<note type="footnote" n="860" resp="#ebrooks">Sc. Moses and the
+                  prophets.</note> left for the apostles the most honourable place on the right, while they
+               themselves occupied the left station, which according to our custom is inferior in honour. But
+               in respect of the fish which were caught the number 100 shows the great <pb n="318"/> multitude
+               from the nations who were caught by the proclamation of the gospel; and, when Israel did not
+               succeed, the teaching of the gospel seized that which is perfect;for the number 100 is perfect,
+               being composed of 10 times 10. Wherefore also our Saviour likened all rational creation to 100
+               sheep, saying that 99<note type="footnote" n="861" resp="#ebrooks">Matth. xviii, 12. Here the
+                  ms. breaks off.</note><ab type="ellipsis">............</ab></p>
+         </div>
+      </body>
+   </text>
+</TEI>

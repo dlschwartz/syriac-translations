@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3118">To Caesaria the Hypatissa</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">194 [364]-199 [369]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="97">
+            
+            <head type="number">XCVII.</head>
+            <head type="main" resp="#compiler">OF THE SAME FROM THE 74th LETTER. OF THE 3rd BOOK OF THOSE
+               AFTER EXILE WHICH WAS ADDRESSED TO CAESARIA THE HYPATISSA WHICH BEGINS, "The various
+               communications addressed to me by your highness". </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </note>
+            <p> And the other thing also which you ask is a question of the Phantasiasts<note type="footnote"
+               resp="#ebrooks"><foreign xml:lang="grc">φαντασιασταί</foreign></note> who hold the opinions of
+               the Manichees, since they think that they are propounding and saying something against which it
+               is impossible to argue: "If our Lord underwent the circumcision required by the law, 'when', as
+               the gospel says, 'eight days were accomplished for circumcising him, and his name was called
+               Jesus'<note type="footnote" n="965" resp="#ebrooks">Luke II, 21.</note>, what happened to his
+               foreskin?"; for those wretched men think that they are driving us into a corner, and do not
+               understand that it would be an act of their own godless lack of intelligence <pb n="365"/> for
+               us to refuse to acknowledge things that are written on account of things that are not written.
+               It is not the gospel only which testifies through these words which have been cited that Christ
+               was circumcised according to the law, but Paul also, who in writing to the Romans says, "For I
+               say that Christ became a minister of circumcision on behalf of the truth of God, that he might
+               confirm the promises made to the fathers"<note type="footnote" n="966" resp="#ebrooks">Rom. xv,
+                  8.</note>. For to Abraham and Isaac and Jacob our fathers both the covenant<note
+                     type="footnote" resp="#ebrooks"><foreign xml:lang="grc">διαθήκη</foreign>.</note> of
+               circumcision was given, and the promise was made, "In thy seed shall all the families of the
+               nations be blessed"<note type="footnote" n="967">Gen. xxii, 18; xxvi, 4; xxviii, 14.</note>; for
+               Christ was their seed. Therefore also in writing the epistle to the Galatians he says, "But to
+               Abraham were the promises made and to his seed; for he saith not 'and to seeds' as to many, but,
+               as to one, 'and to thy seed', which is Christ"<note type="footnote" n="968">Gal. iii,
+                  16.</note>. In order to carry out the accomplishment of those promises therefore Christ came,
+               and truly to endure <pb n="366"/> circumcision in the flesh, and to carry out the dispensation
+               that consists in this; for the whole principle of the dispensation is dispensation and service;
+               and so he caught all the nations by faith in him and made them Abraham's sons. Since therefore
+               the God-inspired Scripture says that he was circumcised in reality, who is he who presumes to
+               say that he did not undergo circumcision? a thing which those who teach the phantasy<note
+                  type="footnote" n="969" resp="#ebrooks"><foreign xml:lang="grc">φαντασία</foreign>.</note> seek
+               to deny along with the other things. Because nothing is written about the portion of himself
+               that was cut off (I refer to the foreskin), we will not therefore refrain from confessing that
+               he was circumcised in reality, he who said, "For so it becometh us to fulfil all justice"<note
+                  type="footnote" n="970" resp="#ebrooks">Matth. iii, 15.</note>, and was in everything made like
+               unto us except sin<note type="footnote" n="971" resp="#ebrooks">Heb. ii, 17; IV, 15.</note>.
+               Perhaps indeed some God-befitting miracle was performed with regard to the portion that was cut
+               off, which Scripture left unknown to us; and for us to guess about unknown matters is a thing of
+               great danger<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc"
+                  >κίνδυνος</foreign></note>. But what <pb n="367"/> is assuredly already known is this, that,
+               when he rose from the dead, he took that also, inasmuch as it is a portion of the whole body,
+               and he preserved it with this without corruption according to ineffable methods which he
+               understands. For we also shall receive our own body complete at the resurrection, not carrying
+               the diminution caused by sores or other injuries, but whole and perfect. It is a good thing to
+               ask the impious men, who think that by such questions they frighten those who believe rightly,
+               so as to reduce us not to acknowledge<note type="footnote" n="972" resp="#ebrooks">A.v. (K) 'and
+                  they will be caught not acknowledging'.</note> that our Lord suffered real sufferings in the
+               body, what they themselves say about the blood which came out from the pure rib mixed with
+               water. Did it reach the earth? For this also is <pb n="368"/> not declared by the holy Scripture
+               of the gospel. But let them themselves be frightened by the fear of loss; and it is consistent
+               for them to say that the blood was poured, out in semblance only, and did not flow in reality.
+               But John, who became bishop of Constantinople and was a preacher of the true dispensation with
+               boldness<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc"
+                  >παρρησία</foreign>.</note>, in the homily entitled 'Concerning the cross and concerning the
+               robber, and concerning the fact that we should frequently pray for enemies' was not frightened
+               by the fear of these impious men, but said that the blood dropped upon the earth and purified
+               the whole of it, inasmuch as he wrote thus: "But why is he slaughtered at the height of the
+               tree, and not under a roof? In order to purify the nature of the air, therefore it is done high
+               up, without a roof above him, but heaven. For <pb n="369"/> the air was purified by the sheep
+               being sacrificed high up. But the earth also was purified; for the blood dropped from the rib
+               upon it"<note type="footnote" n="973" resp="#ebrooks">Ed. Par. 2a, II. 477.</note>. Accordingly
+               therefore, if on this analogy the foreskin that was cut off touched the earth, it assuredly also
+               sanctified it, and by methods which he himself understands who was voluntarily circumcised, he
+               assuredly, as I said before, preserved it; and at the time of the Resurrection he rose with the
+               whole body complete and without corruption, having this portion also undiminished, although he
+               showed the scars of the nails and the lance; with which he will also appear to those who pierced
+               him, according to the unerring words of the God-inspired Scripture<note type="footnote" n="974"
+                  resp="#ebrooks"> John, xix, 37.</note>. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

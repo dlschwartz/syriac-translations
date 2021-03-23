@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3139">To Thomas, Bishop of Germanicea</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">264 [434]-272 [442]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="108">
+            <head type="number">CVIII.</head>
+            <head type="main" resp="#compiler">OF THE HOLY SEVERUS PATRIARCH OF ANTIOCH, FROM THE 27th LETTER
+               OF THE 9th BOOK AFTER EXILE WHICH WAS ADDRESSED TO THOMAS BISHOP OF GERMANICEA. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </note>
+            <p> "Thus saith the Lord: 'I found a hot one in the wilderness with the slain of the sword. Go
+               and destroy not Israel. The Lord shall be revealed upon him afar off. With perfect love I loved
+               thee; therefore I drew thee with mercy. Again I will build thee and thou shalt be built, virgin
+               Jerusalem'"<note type="footnote" n="1131" resp="#ebrooks">1131. 3. Jer., xxxviii, 2-4.</note>.
+               Certain men with experience of war say that generals<note type="footnote" resp="#ebrooks"
+                  ><foreign xml:lang="grc">στρατηγός</foreign>.</note> of <pb n="435"/> armies have a custom of
+               bringing besides the armed forces physicians also, and, after the hosts engage with one another
+               and the battle is joined, and the opposite side is defeated, they send the physicians to search
+               among the fallen, and examine carefully lest there be found a man among them who is warm and has
+               breath in him, and may by medical skill recover from the deadly wounds that are upon him.
+               Therefore also the purport of this figurative prophecy which we have cited is that, when Israel
+               was reckoned with the dead, he restored him to life; but some have not discovered the meaning
+               contained in this figure, or the explanation of the words, 'I found a hot one in the
+               wilderness', but have given a foolish interpretation. They changed the reading 'hot', and
+               instead of saying 'hot' said 'solitary', and supposed from this that there is some herb which
+               grows of itself in the wilderness, and signifies the solitariness of Israel. For it is not so.
+               The words of the following context refute and truly banish their supposition; and the words of
+               Scripture are as follows: "I found a hot one in the wilderness with the slain of the sword". So
+               therefore I also am in this manner lifted up, and am constrained to take courage and speak a few
+               words about the communications that have been addressed to me by your eloquent wisdom.</p>
+            <pb n="436"/>
+            <p type="ellipsis" resp="#compiler">(<emph rend="ital">And after other things.</emph>)</p>
+            <p>But that our Lord Jesus Christ our God was pierced in the side with a lance by that
+               soldier<note type="footnote" resp="#compiler"><foreign xml:lang="grc"
+                  >στρατιώτης</foreign>.</note> after he gave up the ghost, and blood and water came forth from
+               it in a miraculous manner, the divine John the Evangelist recorded, and no one else wrote about
+               this. But certain persons have clearly falsified the Gospel of Matthew and inserted this same
+               passage, when the contrary is the fact, in order to show that it was while he was alive that the
+               soldier<note type="footnote" resp="#compiler"><foreign xml:lang="grc"
+                  >στρατιώτης</foreign>.</note> pierced his side with the spear, and afterwards he gave up the
+               ghost<note type="footnote" n="1132" resp="#ebrooks">Matth. xxvii, 49. See Tischendorf ad loc.,
+                  where this passage of Sev. is cited from Assemani, Bibl. Or., II, 81.</note>. This question was
+               examined with great carefulness when my meanness was in the royal city, at the time when the
+               affair of Macedonius was being examined, who became archbishop of that city, and there was
+               produced the Gospel of Matthew, which was written in large letters, and was preserved with great
+               honour in the royal palace, which was said to have been found in the days of Zeno of honourable
+               memory in a city of the island of Cyprus buried with the holy Barnabas, who went about with Paul
+               and spread the divine preaching; and, when the Gospel of Matthew was opened, it was found to be
+               free from the falsification contained in this addition, <pb n="437"/> of the story of the
+               soldier<note type="footnote" resp="#compiler"><foreign xml:lang="grc"
+                  >στρατιώτης</foreign>.</note> and the spear. I do not know how and for what reason the holy
+               John who became bishop of the same royal city, and the admirable Cyril, bishop of Alexandria,
+               did not test this question, and allowed the two passages to stand, in the two evangelists,
+               neglecting the evidence to the contrary;<note type="footnote" n="1133" resp="#ebrooks">The
+                  passage is not in the extant fragments of Cyril's commentary on Matth. For Jo. Chrys. see
+                  below.</note> but perhaps in order that this also might be known, that, while they speak and
+               write everything under the operation of the Holy Spirit, and while these men are higher than we
+               (for we are men who creep along the earth), as the heaven is higher than the earth<note
+                  type="footnote" n="1134" resp="#ebrooks">The sentence is not completed.</note>, and that they
+               themselves also might be known to be men, and to leave omniscience to God only, and that there
+               is something in affairs which cannot be expressed, the complete revelation of which is not made
+               known. Thus Samuel also, who as one may say saw with the eye of prophecy everything that was
+               about to happen, did not know Saul when he was present and standing among all Israel, Because
+               God by means of these things was instructing his bondmen, and teaching them to pay regard to
+               humility. Wherefore also the divine Scripture is written thus: "And Samuel asked in the Lord and
+               said, 'Cometh that man hither?' And the Lord said, ' Lo! he is hidden among the vessels'. And
+               <pb n="438"/> he ran and took him thence"<note type="footnote" n="1135" resp="#ebrooks">1 Sam.
+                  x, 22, 23.</note>. And at the time when the Shilumite woman's son died, and she had come to
+               Elisha in great distress, as a mother who had been deprived of her beloved son, and, when she
+               had just fallen at the feet of the prophet of God, and Gehazi tried to prevent her, the bondman
+               of God, being moved by love and sorrow, said to Gehazi, "Let her alone, because her soul is
+               bitter in her, and the Lord hid it from me and showed it not to me"<note type="footnote"
+                  n="1136" resp="#ebrooks">2 Kings iv, 27.</note>. Accordingly you should know that Eusebius of
+               Caesarea also who is called 'Pamphili', who wrote the canons of the gospel, and imitated those
+               who wrote on this subject before him, and had more complete knowledge of this question than the
+               others, in the 10th canon, in which he recorded the places peculiar to one of the evangelists,
+               inserted this passage also about the soldier<note type="footnote" resp="#compiler"><foreign
+                  xml:lang="grc">στρατιώτης</foreign>.</note> and the lance, saying that John alone recorded
+               it<note type="footnote" n="1137" resp="#ebrooks">Novum Testamentam, ed. Lloyd and Sanday, p.
+                  xx; P. G,, XXII, 1292.</note>. And we also agree with this careful accuracy, not that we
+               contend against our fathers (far be it!), but that we place the evangelists at a greater height
+               than them, and assign to the evangelists only the intention which properly belongs to them, in
+               order that in everything Jesus, who is God, who spoke in the <pb n="439"/> evangelists, may be
+               glorified, 'in whom are all the treasures of wisdom and knowledge hidden'<note type="footnote"
+                  n="1138" resp="#ebrooks">Col. ii, 3.</note>, according to the saying of Paul. But for the rest
+               we find that the holy John himself also, the bishop of Constantinople, in the commentary on the
+               same Matthew the Evangelist with regard to this same addition which we are now discussing,
+               himself also said things that fit the truth; for he expressed himself thus: "'But another came
+               up and perforated his side with a lance'. And what could be more wicked than these men? And who
+               could be lawless like them? And who could be more savage than these same men, who showed their
+               madness to such an extent, that they attacked a dead body. But do you mark how their madness was
+               brought about for our salvation. For after the wound the fountain of life welled forth for
+               us"<note type="footnote" n="1139" resp="#ebrooks">In Matth. Hom. LXXXVIII, 1 (ed. Par. 2a, VII,
+                  932).</note>. But these are the words of a man who follows the footsteps of the narrative of
+               John the Evangelist and nothing else; for he called the body 'dead'; because it was after he
+               gave up the ghost that the soldier<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc"
+                  >στρατιώτης</foreign>.</note> pierced him, and gave occasion for the fountain of our salvation
+               to well forth thence, as the doctor John the bishop said. But this addition to the narrative of
+               Matthew the Evangelist has never been inserted by any of the earlier <pb n="440"/> commentators
+               who wrote, not by Origen, who examined such questions minutely, though he sinned<note
+                  type="footnote" n="1140" resp="#ebrooks">Perh. <foreign xml:lang="grc">ἥμαρτε</foreign>
+                  ('erred'); see p. 77, n. 3.</note> in matters that are necessary for the truth of the faith of
+               the church, nor by Didymus, nor by any other man who has written on this subject. But
+               Eusebius<note type="footnote" n="1141" resp="#ebrooks">This passage to 'letter' (p. 441,1.12)
+                  is published in Greek in Cramer, Cat. in Luc. et Jo., p. 389 (cf. Corderius, Cat. in Jo., p.
+                  436; P. G., XXII, 1009).</note> of Caesarea, who is called 'Pamphili', whom we mentioned a
+               little above, when writing to a man called Marinus about questions concerning the passions of
+               our Saviour and about his Resurrection, showed us nothing whatever about the said addition, as
+               being unknown and having no place in the books of the gospel. But in the same letters to
+               Marinus, who had asked him for an interpretation on the subject of our Saviour's passions and
+               his Resurrection, he inserted the following exposition also in his letters, that the divine Mark
+               the Evangelist said that it was the 3rd hour at the time when Christ who is God and our Saviour
+               was crucified, but the divine John (he said) wrote that it was at the 6th hour that Pilate sat
+               upon his judgment-seat at the place called 'the pavement', and judged Christ. And therefore
+               Eusebius said that this is an error of a scribe, who was inattentive when writing <pb n="441"/>
+               the Gospel<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc">παραγοραθὲν</foreign>
+                  (conj. Cr. <foreign xml:lang="grc">παραγραφθὲν</foreign>, P. G., <foreign xml:lang="grc"
+                     >παροραθὲν</foreign>) <foreign xml:lang="grc">παρὰ τῶν ἐξ ἀρχῆς ἀπογραψαμένων τὰ
+                        Εὐαγγέλια</foreign>.</note>. For it is the letter gamal that denotes 3 hours, while the letter
+               which is called in Greek episemon denotes the number of 6 hours, and these letters are like one
+               another in Greek, and, the scribe wishing to write '3' quickly, and having turned the letter a
+               little backwards, it was thereby found to be '6', because, since the letter had been turned
+               backwards, it was supposed to be the letter that denotes '6'. Since therefore the three other
+               evangelists Matthew, Mark, and Luke stated alike as with one mouth that from the 6th hour to the
+               9th there was darkness over all the land, it is plain that our Lord and God Jesus Christ was
+               crucified before the 6th hour, at which the darkness took place, that is from the 3rd hour,
+               as<note type="footnote" n="1142" resp="#ebrooks">Some words have perh. fallen out; Gr. <foreign
+                  xml:lang="grc">Μάρκος ἱστόρησε· κ. τοῦ Ἰωάννοι τὸν ὅμοιον τρόπον τὴν ὥραν τρίτην εἶναι
+                  ἐπισημανομένου</foreign>.</note> the blessed John himself wrote. Similarly we say that it is
+               the 3rd hour, because those who wrote before, as we have said, changed the letter. We must
+               insert also in this our letter upon this matter a part of what Eusebius himself stated at
+               length; and his words are as follows: "We agree not with any chance man, but with the evangelist
+               who gave this testimony, <pb n="442"/> Mark. For it happened that there was an error on the part
+               of the scribe so that he changed the letter by adding length to it, and it was thought that the
+               letter which represents '3' was '6', on account of the likeness of the two letters [of that
+               which denotes '3' and that which denotes '6'. If the refore it is stated by John that it was the
+               preparation of the day of unlevened bread, and it was about the 6th hour, and Pilate said to the
+               Jews "Behold! your king"<note type="footnote" n="1143" resp="#ebrooks">John xix, 14.</note>, and
+               so on, let there be read instead of '6th' '3rd', since the beginning of his trial took place at
+               that time, and in the middle of the hour or after it had been completed they crucified him, so
+               that the result is that they judged and crucified him at the same hour"<note type="footnote"
+                  n="1144" resp="#ebrooks">Not known ecc. from Sev.</note>; If you look for and find the volume
+               addressed to Marinus about the interpretation of these things, you will find the accuracy of the
+               writer as regards these matters. For our part we do not wish to write much on these subjects in
+               this our letter. May the industry of your holiness be preserved for us meditating on these
+               things and occupied with these things in priestly fashion, and rousing up the gloom of our
+               silence and urging it to speak<note type="footnote" n="1145" resp="#ebrooks">A Greek extract
+                  from a letter to Th. of Germanicea is published in Cramer, Cat. in Epp. Cath., p. 159.</note>.
+               <pb n="443"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

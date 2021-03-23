@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3080">To the Monks of the Monastery of Mar Isaac</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">138 [308]-140 [310]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="84">
+            <head type="number">LXXXIV.</head>
+            <head type="main" resp="#compiler">OF THE SAME FROM THE 20th LETTER OF THE 8th BOOK OF THOSE
+               WRITTEN DURING EPISCOPACY, WHICH WAS ADDRESSED TO THE MONKS OF THE HOUSE OF MAR ISAAC<note
+                  type="footnote" n="833" resp="#ebrooks">Select Letters of Severus, i, 29; v, 20; G. B. M., p.
+                  691.</note>. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0513" notAfter="0518">513-8</date>
+            </note>
+            <p> But the 'abomination of desolation' (for you asked this also as well) Daniel the prophet
+               mentions at the end of the 10th vision, saying thus: "And in the middle of the week the
+               sacrifice and the libation shall be taken away, and together with these things upon the temple
+               shall be the abomination of desolation"<note type="footnote" n="834" resp="#ebrooks">Dan. ix,
+                  27.</note>; and a mention of it was made also in the gospels<note type="footnote" n="835"
+                     resp="#ebrooks">Matth. xxiv, 15; Mark, xiii, 14.</note>. And John the holy and of renowned
+               memory, who adorned the throne<note type="footnote" n="836" resp="#ebrooks"><foreign
+                  xml:lang="grc">θρόνος</foreign>.</note> of <pb n="309"/> the church of Constantinople at that
+               time, said<note type="footnote" n="837" resp="#ebrooks">This passage to 'Jerusalem' (1. 16) is
+                  published in Greek with the heading <foreign xml:lang="grc">Σεβήρου</foreign> in Mai,
+                  Scriptorum Veterum Nova Collectio, I, 11, 213. Gr. <foreign xml:lang="grc"
+                     >φάμεν</foreign>.</note> that the abomination of desolation is the image which Hadrian, king of
+               the Romans, set up within the temple, when he encamped against Jerusalem<note type="footnote"
+                  n="838" resp="#ebrooks">Jo. Chrys., Adv. Jud. v. 10, 11 (ed. Par. 2a, I, 788). </note>: for it
+               is the habit of Scripture to say that likenesses made with hands, and the graven statues of the
+               demon-worship of the heathen, are an abomination, as Manasseh says in the song that he set up
+               abominations and multiplied pollutions<note type="footnote" n="839" resp="#ebrooks">Or Man.,
+                  10.</note>. For it is better for us to say that the abomination of desolation is Antichrist;
+               since it is impossible for us to interpret all the expressions contained in the gospel in the
+               same passage like a record of Scripture<note type="footnote" n="840" resp="#ebrooks">Or
+                  'literal'. Gr. <foreign xml:lang="grc">κατὰ τὴν τῆς ἱστ. ἀπόδοσιν</foreign>.</note> history. Of
+               him the apostle also in writing to the Thessalonians said, "In order that the man of sin may be
+               revealed, the son of perdition, who is opposed to and exalteth himself against everyone that is
+               called God or is an object of worship, so that he sits in the temple of God, declaring himself
+               to be God"<note type="footnote" n="841" resp="#ebrooks">2 Thess. 11, 4.</note>: for the temple
+               at Jerusalem is termed a ' holy place'. For it is possible for the same words of the gospel to
+               be taken both in a historical sense as referring to the desolation and devastation of Jerusalem,
+               and in a sublime sense to the complete <pb n="310"/> desolation and end of the world. But for
+               your assurance I have thought it to be necessary for us to cite also the words of the
+               interpretation of the man whom we have mentioned, the holy John, which are these: a But he said
+               that the image of him who came at that time, who also devastated the city, and set up the image
+               within the temple, is an abomination; wherefore also he called it a desolation"<note
+                  type="footnote" n="842" resp="#ebrooks">Jo. Chrys., op. cit., v, 10 (ed. Par. 2a, I, 788). The
+                  text differs widely.</note>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

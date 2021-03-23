@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3120">To Caesaria the Hypatissa</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">200 [370]-213 [383]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="98">
+            
+            <head type="number">XCVIII.</head>
+            <head type="main" resp="#compiler">OF MAR SEVERUS FROM THE 5th LETTER OF THE 4th BOOK OF THOSE
+               AFTER EXILE, WHICH WAS ADDRESSED TO CAESARIA THE HYPATISSA, WHICH BEGINS, "When I read the
+               letter of your magnificence's love of God, not once nor twice". </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </note>
+            <p> But to the question which your excellency's magnificence has asked me by letter I return an
+               easy answer, that for my part I have never accepted or expressed agreement with those who speak
+               of an apokatastasis, and an end to the judgment involved in the torments that are threatened us
+               in the future world, and the man who says that he has a letter of mine which proclaims this
+               opinion manifestly lies. Therefore I praised your God-loving magnificence for asking for such a
+               letter to be shown to you; a letter which the man who concocted it necessarily set himself
+               falsely to show to be my composition. Those who hold such an opinion, wishing to accomplish
+               their desires, as if forsooth on the basis of plausible suppositions, make use of arguments that
+               are gratifying to the hearers, saying that it is unbecomingto or unworthy <pb n="371"/> of God,
+               and far removed from his mercifulness, that the man who has sinned for 50 or 100 years in this
+               world should endure torments for unending ages, forgetting this, that God's laws and those
+               which, prevail among men think fit to requite sins according to the intention of the sinner, and
+               one may hear even wise men outside saying of certain persons who have done foul deeds and acts
+               that are not permitted, "This man deserves to die not once but many times"<note type="footnote"
+                  n="975" resp="#ebrooks">This seems to be a citation, but I do not know the source.</note>. But,
+               when a man hears as we do that God who became incarnate and was humanized without variation for
+               our salvation, and who for this reason came down from heaven and conversed with us plainly
+               threatens<note type="footnote" n="976" resp="#ebrooks"> (EKT) 'became <ab type="ellipsis"
+                  >...</ab> salvation, and that for <ab type="ellipsis">...</ab> reason he came <ab
+                     type="ellipsis">...</ab> heaven, plainly threatening'.</note> fire that is not quenched and an
+               undying worm<note type="footnote" n="977" resp="#ebrooks">Mark ix, 44.</note>, and<note
+                  type="footnote" n="978" resp="#ebrooks"> (EKT) ins. 'after all these things'. This version has
+                  many additions, which from a comparison with the originals of the citations contained in the
+                  extract I infer to be interpolations.</note> makes light of it, how does he not deserve, if it
+               is possible to say so, to be condemned <pb n="372"/> twice over to<note type="footnote" n="979"
+                  resp="#ebrooks"> (EKT) ins. 'eternal fire and'. </note> endless torment? If a man live 100
+               years or more in this present world and spend such a period in vanity, it is certain that this
+               man, if he were allowed to live this same temporal life<note type="footnote" n="980"
+                  resp="#ebrooks"> (EKT) om.</note> without end<note type="footnote" n="981" resp="#ebrooks">
+                     (EKT) ins. 'remaining without death'.</note>, would not cease from his eternal<note
+                        type="footnote" n="980" resp="#ebrooks"> (EKT) om.</note> greed and wantonness<note
+                           type="footnote" n="982" resp="#ebrooks"> (EKT) ins. 'and lasciviousness and a foul life in
+                           lusts'.</note>. How therefore will this man in accordance with his disposition not justly<note
+                              type="footnote" n="980" resp="#ebrooks"> </note> be tormented without end? Even the very men
+               who introduce an apokatastasis<note type="footnote" n="983"> (ET) ins. 'or end of
+                  judgment'.</note> say of sinners that they will be tormented for many<note type="footnote"
+                     n="984"> (ET) ins. 'years'.</note> and long periods so to speak<note type="footnote" n="985"
+                        resp="#ebrooks"> (ET) 'of such a kind and protracted future ages'.</note>, and then afterwards
+               will be purified and admitted to clemency and attain to the promised blessedness. But they<note
+                  type="footnote" n="986" resp="#ebrooks">In another version (ET) 'those who say these
+                  things'.</note> forget that their human reasonings <pb n="373"/> themselves show God to be
+               unrighteous in his judgments<note type="footnote" n="987" resp="#ebrooks">A.v. (ET) 'and
+                  unjust'.</note>. If a man lives<note type="footnote" n="988" resp="#ebrooks"> (ET) ins. 'up and
+                     down'.</note> in sin 50 or 80 years, but<note type="footnote" n="989" resp="#ebrooks"> (ET)
+                        ins. 'is requited with a severe sentence and'.</note> endures torments many long generations,
+               it is again apparent on their principle that this is not worthy of God's mercifulness<note
+                  type="footnote" n="990" resp="#ebrooks"> (E) ins. 'nor yet becoming to the kindness existing in
+                  him'.</note>, to extend the period of torment beyond the time of the life in sins, If God
+               agreed with the reasonings of those who think thus<note type="footnote" n="991" resp="#ebrooks"
+                  >A.v. (E) ins. 'and agreed and assented to their opinions'.</note>, the man who sins for 50
+               years should endure torment for 50 years, and it<note type="footnote" n="992" resp="#ebrooks">
+                  (E) 'only, and the judgment.' </note> should not be thus long extended over many generations,
+               as they say<note type="footnote" n="993" resp="#ebrooks">In another version (E) ins. 'and his
+                  torment endure for ages'. What follows to 'distinction' (p. 374 l. 4) isomitted in vers.
+                  F.</note>. For our Lord and Saviour Jesus Christ also, in the holy words of his preaching, when
+               <pb n="374"/> separating the righteous from the sinners, said, "These shall go to eternal
+               torment, and the righteous to eternal life"<note type="footnote" n="994" resp="#ebrooks">Matth.
+                  xxv, 46.</note>, and with regard to both the classes<note type="footnote" n="995"
+                     resp="#ebrooks"><foreign xml:lang="grc">τάγμα</foreign>.</note>, that of the former and that of
+               the latter, he spoke in exactly the same fashion of an equality without distinction, applying
+               the word ' eternal' to both without distinction. Basil the great among teachers of the truth
+               shows this clearly in the teaching composed by him in the form of question and answer addressed
+               to the brethren of the convents; and it is the 219th question, which is expressed as follows:
+               "The brethren say<note type="footnote" n="996" resp="#ebrooks"> (F) 'when be was asked by the
+                  brethren'</note>. 'If<note type="footnote" n="997" resp="#ebrooks">In another version (EKL)
+                     ins. 'it is said of the two slaves described in the gospel that'; Bas. om.</note> one shall be
+               beaten with many stripes and another with few, how <pb n="375"/> say some that there is no end
+               to the sentence of those who are tormented?'</p>
+            <p>Basil<note type="footnote" n="998" resp="#ebrooks"> (F) 'the great among doctors'.</note>
+               says.</p>
+            <p>Points which are matters of dispute and seen to be obscurely expressed m various places of the
+               Holy Scriptures are elucidated by clear statements in other places. Since therefore our Lord
+               says at one time, 'These shall go into eternal torment<note type="footnote" n="999"
+                  resp="#ebrooks"> (F) and EL ins. 'and the righteous into eternal life; Bas. om.</note>', and at
+               another dismisses some to 'the eternal fire prepared for the devil and his angels', and at
+               another mentions 'the gehenna of fire', uttering further the words,<note type="footnote"
+                  n="1000">A.v.(EKL) om.</note> 'Where their worm dieth not, and their fire is not quenched', and
+               again said before through the prophet about certain <pb n="376"/> men,<note type="footnote"
+                  n="1001" resp="#ebrooks"> (EKL); "Ye shall go out and see the corpses of them who have
+                  committed iniquity against me, for'.</note> 'Their worm shall not die, and their fire shall not
+               be quenched'; while these and similar expressions, are often<note type="footnote" n="1002"
+                  resp="#ebrooks"> (F) 'here and there'; Bas. <foreign xml:lang="grc">πολλαχοῦ</foreign>.</note>
+               used in the divine Scriptures, this also was brought about by the machination of the devil, in
+               order that men, forgetting these and similar decrees of our Lord, might presume to sin without
+               restraint, persuading themselves that there is an end to judgment. For, if it is possible for
+               there to be<note type="footnote" n="1003" resp="#ebrooks">A.v. EKL.) 'it is certain that the
+                  devil by his craft contrived to deceive the minds of many, in order that while they forget our
+                  Lord's sentences, he may sow this in their thoughts that there<ab type="ellipsis">....</ab>
+                  judgment, and make them yet more presume<ab type="ellipsis">...</ab> restraint in the evil
+                  deeds of hateful things. For, if there is'; Bas. <foreign xml:lang="grc">ἕν κ. τοῦτο τῆς
+                     μεθοδείασ τοῦ διαβ., τὸ τοὺς πολλοὐς τῶν ἀνθρώπων ὥσπερ ἐπιλαθομένους τῶν τοσούτων κ. τοιούτων
+                     τοῦ Κ. ῥημάτων κ. ἀποφάσενω τέλος κολάσεως εἰς τὸ μαλλόν κατατολμὰν τῆς ἁμαρτίας ἑαυτοῖς
+                     ὑπογράφειν. Εἰ γ. τῆς αἰςνίου κολάσεως ἔσται ποτέ</foreign>.</note> an end to eternal
+               judgment, there will assuredly also be an end to eternal life. But, if we do not consent to
+               think this with regard to<note type="footnote" n="1004" resp="#ebrooks"> (EKL) 'that there is an
+                  end to eternal'.</note> life, what plausibility is there in our assigning<note type="footnote"
+                     n="1005" resp="#ebrooks"> (EKL) 'room is there for the theory that there is'.</note> an end to
+               eternal judgment? For the addition of the word 'eternal' is made equally in both cases. 'These
+               shall go into eternal <pb n="377"/> judgment, and the righteous into eternal life'. These things
+               therefore being thus admitted, we must know that the words 'He shall be beaten with many
+               stripes' and 'shall be beaten with few' are not an end, but signify a difference of torment.
+               For, if God is an upright judge, not only to the good but also to the evil<note type="footnote"
+                  n="1006" resp="#ebrooks">A.v. (EK) om.</note>, and requites each according to his deeds, it is
+               possible for one to be in the fire that is not quenched<note type="footnote" n="1007">A.V. (EK)
+                  ins. 'and another to be in fire'.</note>, burning either less or more than the other, and
+               another in the worm that dies not, both one that hurts little and one that hurts much<note
+                  type="footnote" n="1008" resp="#ebrooks">In another version (EK) 'and another in bitter
+                  habitations, and one in milder torments, and one in torments more severe than they'.</note>,
+               each as he deserves, and another in gehenna that has a variety of torments, and another in outer
+               darkness, and that there <pb n="378"/> is a place where a man is found amidst weeping only, and
+               there is a place where he is amidst gnashing of teeth also from the severity of the pains<note
+                  type="footnote" n="1009" resp="#ebrooks">In another version(E) 'one may recognise moreover in
+                  gehenna a variety of torments of those who are being requited'.</note>. But the outer darkness
+               signifies that there is in truth an inner darkness also.<note type="footnote" n="1010"
+                  resp="#ebrooks"> A. v, (E) ins. 'And there is a place of requital where a man is in weeping
+                  only, and there is one again where he is in gnashing of teeth, from the severe torments of the
+                  bitter sentence'.</note> And the words used in the Proverbs<note type="footnote" n="1011"
+                     resp="#ebrooks">A.v. (F) ins. 'of Solomon'.</note> 'at the bottom of Sheol<note type="footnote"
+                        n="1012" resp="#ebrooks"> (E) 'bringeth down to the depths of Sheol and to the bottom of the
+                        pit'.</note>' signify that there are persons in Sheol and not at the bottom of it, because
+               their torment is smaller<note type="footnote" n="1013" resp="#ebrooks"> (E) ins. 'and there is
+                  one who is in the pit and not as it were at the bottom of it. By all which things the
+                  difference is signified of the retribution in the judgment of those who are requited as their
+                  deeds deserve, either by a severe sentence or by a vengeance with mitigation in it according to
+                  their acts'.</note>. And this is depicted now also in bodily afflictions. For there is aman who
+               is in a fever together with other pains, and another <pb n="379"/> who is in a fever only, and
+               the latter is not like the former, and another has no fever, but is troubled by pain in some
+               limb<note type="footnote" n="1014"> 1. A.v. (E) 'other pains of every kind'.</note>, and one
+               again either less or more than another. But this expression 'much' or 'little' is employed by
+               our Lord in accordance with customary usage, as are also many other similar phrases. For we know
+               that this form of speech is frequently adopted even with regard to those who are suffering from
+               one disease<note type="footnote" n="1015" resp="#ebrooks"> (E) ins. 'or illness'. </note>. For
+               example, in the case of a man who has a fever only, or has pain in the eye only<note
+                  type="footnote" n="1016"> (E) om.</note> we<note type="footnote" n="1017" resp="#ebrooks"> (F)
+                     'they'.</note> say in astonishment 'How much he has suffered!' or 'What anguish he has
+               endured!' Accordingly the expression 'shall be beaten with many' <pb n="380"/> and 'with few', I
+               say again, stands not in the extent of the time and the shortness<note type="footnote" n="1018"
+                  resp="#ebrooks"> (E)' which has received an end'; Bas. <foreign xml:lang="grc">ἢ
+                     συμπληρώσει</foreign>, which latter word the author of the E version has taken as a verb.
+                  <foreign xml:lang="syr">ܩܠܝܠܘܬܐ</foreign> must app. be rendered 'shortness', though this
+                  meaning is not otherwise known. </note>, but in the difference of the torment"<note
+                     type="footnote" n="1019" resp="#ebrooks">P. G., XXXI, 1264.</note>. These things this great
+               ruler and shepherd of rational souls Basil taught and stated with great completeness.<note
+                  type="footnote" n="1020" resp="#ebrooks"> (F) om.</note> And Gregory, who became bishop of
+               Nazianzus, himself in the homily of defence thinks that the future torment is endless, teaching
+               thus: "But for us, the salvation of whose blessed and immortal soul is in danger, which will be
+               undyingly tormented or glorified<note type="footnote" n="1021"> (EK) 'gratified in the eternal
+                  kingdom'. </note> by reason of wickedness or of virtue, how great do you think should the
+               contest be<note type="footnote" n="1022" resp="#ebrooks"> (EK) ins. 'concerning this'.
+               </note>?"<note type="footnote" n="1023" resp="#ebrooks">Or. ii, 28.</note> And John in the 66th
+               homily<note type="footnote" n="1024" resp="#ebrooks"> (EK) ins. 'delivered by him'.</note> of
+               the commentary on the Gospel of Matthew <pb n="381"/> states things consonant with these as
+               follows: "For all these reasons accordingly let us first pay the taxes; for it is indeed
+               very<note type="footnote" resp="#ebrooks"> (EK) 'Before all things let us have a struggle on
+                  behalf of good things; for labour for fair things is'.</note> easy, and the reward is greater,
+               and there is great abundance of<note type="footnote" resp="#ebrooks"> (F) om.</note> profit, and
+               worse is the torture if we do not understand, and<note type="footnote" resp="#ebrooks"> (EK)
+                  'which will be exacted from us, which is'.</note> a torture that has no end"<note
+                     type="footnote" n="4" resp="#ebrooks">In Matth. Hom. LXVI, 4 (ed. Par. 2a, VII, 742).</note>.
+               And the same again in the 79th exposition when speaking of the Passion referred to the kingdom,
+               and to the endless torment.<note type="footnote" resp="#ebrooks">A. v. (F) om.</note> And in the
+               82nd about the man who approaches<note type="footnote" resp="#ebrooks"> (E) ins. 'our Saviour's
+                  body and blood'.</note> the communion of the holy mysteries in a careless mood and without
+               caution he gives teaching in the following words: "He who approaches after he has sinned is
+               worse than a demoniac; for the: latter because they have a demon<note type="footnote"
+                  resp="#ebrooks"> (E) 'are involuntarily controlled by demons'.</note> do not receive
+               punishment<note type="footnote" resp="#ebrooks">In another version (E) ins. 'and are not
+                  judged'.</note>, but the <pb n="382"/> former, because they approach unworthily, are delivered
+               to undying torment<note type="footnote" n="1025" resp="#ebrooks">A. v. (E) 'judgment without
+                  mercy and torment that does not finish'; (F) 'undying torments; Jo. Chrys. <foreign
+                     xml:lang="grc">ἀθανάτῳ τιμωρίᾳ</foreign>.</note>"<note type="footnote" n="1026"
+                        resp="#ebrooks">Op. cit., LXXXII, 6 (ed. Par. 2a, VII, 890).</note>. And at the end of the
+               commentary on the epistle to the Ephesians he<note type="footnote" n="1027"> (E) ' the same
+                  blessed John again'.</note> expressed himself thus: "For a man to be burnt<note type="footnote"
+                     n="1028" resp="#ebrooks"> (EK) ins. 'in gehenna'.</note> and not consumed, and to be
+               perpetually gnawed by a<note type="footnote" n="1029" resp="#ebrooks">In another version (EK)
+                  'an undying'.</note> worm is indestructible<note type="footnote" n="1030" resp="#ebrooks"> (EK)
+                     ins. 'and unperishing'.</note> destruction, as happened to<note type="footnote" resp="#ebrooks"
+                        > (EK) 'we hear of'.</note> the blessed Job, who<note type="footnote" resp="#ebrooks"> (EK)
+                           'whose body'.</note> was in process of destruction and did not perish for a considerable time,
+               but was constantly suffering and wasting away<note type="footnote" resp="#ebrooks">A. v. (F)
+                  om.</note>, while he scraped off putrid matter from his body<note type="footnote" n="1031"
+                     resp="#ebrooks"> (EK) 'with a potsherd' (Job, n, 3). Neither is in Jo. Chrys.</note> for a long
+               time. Something similar will happen to the soul at that time, when the<note type="footnote"
+                  n="1032" resp="#ebrooks"> (EK) ins. 'undying'</note> worms surround and gnaw it, not for two
+               years<note type="footnote" n="1033" resp="#ebrooks">A. v, (EK) ins. 'only'.</note> nor for ten
+               nor for a hundred nor <pb n="383"/> for myriads<note type="footnote" n="1034" resp="#ebrooks"
+                  >Jo. Chr. <foreign xml:lang="grc">μυρίοις</foreign>.</note>, but for years without end; for
+               'their worm', he says, 'shall not die'"<note type="footnote" n="1035" resp="#ebrooks">In Ep. ad
+                  Eph. Hom. xxiv, 28, 29 (ed. Field).</note>. The wise Cyril<note type="footnote" n="1036"
+                     resp="#ebrooks"> (EK) 'blessed C. wise in divine things'.</note> also in the 1st book of the
+               commentary on the Gospel of John said: "We ought not to be ungrateful to God but on the
+               contrary<note type="footnote" n="1037" resp="#ebrooks"> (EK) 'the contrary, i.e.'</note> to
+               thank him because by means of the Resurrection from the dead he has appointed for us torment
+               that does not pass away<note type="footnote" n="1038" resp="#ebrooks">In another version (EK)
+                  ins. 'unless we repent completely'.</note>"<note type="footnote" n="1039" resp="#ebrooks">In
+                     Jo. Ev., ed. Pusey, I, 119; but our text differs widely.</note>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

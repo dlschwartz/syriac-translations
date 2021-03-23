@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3131">To Caesaria the Hypatissa</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">229 [399]-246 [416]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="100">
+            <head type="number">C.</head>
+            <head type="main" resp="#compiler">OF THE SAME FROM THE 3rd LETTER OF THE 6th BOOK OF THOSE AFTER
+               EXILE, WHICH WAS ADDRESSED TO THE GLORIOUS CAESARIA. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0519" notAfter="0533">519-33</date>
+            </note>
+            <p> You say therefore that it has been discovered by certain persons concerning Balaam the
+               soothsayer and seer and propitiator of falsely-named gods that it is testified by the divine
+               words that he had such power in his mouth <pb n="400"/> that those whom he blessed were
+               bles'sed, and those on the contrary whom he cursed were cursed. For this reason therefore the
+               man who bore such a character was then lifted up to bless Israel also the holy people, the
+               people which was named God's people; for you say that the same men who discovered this plainly
+               produce these words. And at this I am not surprised; for it is the peculiarity of those who
+               repeat the contents of divine Scripture cursorily and as it were from hearing, and not from
+               learning and accurate knowledge, to arrive at false and erring notions. Where did the divine
+               Scripture testify of the reprobate Balaam, as they said, that he had such a power? Moses who
+               wrote these things, being inspired<note type="footnote" n="1060" resp="#ebrooks">Ms. om.</note>
+               by the very excellent Spirit and being a minister of the truth, neither gave this testimony as
+               in his own person, nor said of God that he gave any such testimony concerning Balaam, but
+               recorded that Balak, King of the Moabites, being a demon-worshipper and a slave of foul fiends,
+               thought of Balaam the soothsayer that he could curse and bless authoritatively and not in a
+               worthless manner. And it is a simple thing to listen to the divine Scriptures manifestly
+               proclaiming this: "And Balak son of Zippor, King of Moab, was at that time, and he sent <pb
+                  n="401"/> ambassadors to Balaam son of Beor the interpreter of dreams, who was on the
+               river-land of the sons of his people, to call him. saying. 'Lo! a people hath come out of Egypt,
+               and lo! they have covered the face of the land, and this people hath encamped round me. And now
+               come, curse me this people, because this people is stronger than we, in case we may be able to
+               overthrow some of them, and cast them out of the land; because I know that they whom thou
+               blessest are blessed, and they whom thcu cursest are cursed'"<note type="footnote" n="1061"
+                  resp="#ebrooks">Num. xxii, 4-6.</note>. Since therefore Balak and the Moabites who were under
+               subjection to him, and the Midianites their neighbours, who were barbarians, held this belief,
+               God 'who wisheth that all men should live and come to the knowledge of the truth'<note
+                  type="footnote" n="1062" resp="#ebrooks">1 Tim. ii, 4. </note> according to the apostle's
+               saying, instructing our race, hard as it is to turn, by many various methods, first showed his
+               power with which none can contend, and displayed the kings round about them, Sihon, King of the
+               Amorites, and Og, King of Bashan, who were giants, and trusted to their strength, and were eager
+               to engage in battle, and met Israel in warlike guise, slain with the sword and dead together
+               with their followers; and <pb n="402"/> afterwards, when the same Balak, prince, of the
+               Moabites, as we have said, perceived the feebleness of his own power, and feared lest he also
+               should become the prey of the Israelite sword, and had recourse to the power of the
+               falsely-named gods, and thought that by means of the soothsayer's curse he was escaping from his
+               troubles, the wisdom that is higher than all understanding instructed the barbarian by the
+               instrumentality of the very soothsayer himself in whom he trusted that there is no other god
+               beside him, and that by the very demons and the very soothsayers who serve them witness is borne
+               that he alone is true God. For it is his habit to convert those who are in error to the truth by
+               the very paths of the error. And this we do not say out of our imagination, but because we learn
+               it from Scripture itself. It is recorded in the first book of Kingdoms that the Philistines who
+               dwelt in Ascalon and Gaza and the neighbouring cities took arms against Israel and won a great
+               victory over them in combat, insomuch that together with the rest of the spoil they took the ark
+               of God also and placed it in the sanctuaries and shrines of the idols, and every city to which
+               they carried it was smitten with the disease of emerods for which there was no cure, and the
+               land produced a multitude of mice, and they [deliberated]<note type="footnote" n="1063"
+                  resp="#ebrooks">This is the sense required.</note> and took counsel <pb n="403"/> what they
+               could do to escape from such distresses, and, having called upon the soothsayers, who were
+               accustomed to instigate their actions by making use of the deceit of demons, they begged them to
+               find a means of release from these calamities, and those men proposed to them the following
+               plan; to bring cows that were first-born<note type="footnote" n="1064" resp="#ebrooks">1 Sam.
+                  VI, 7. <foreign xml:lang="grc">πρωτοτοκούσας</foreign>.</note> and were unaccustomed to the
+               yoke, and to yoke these to a new cart bearing the ark and golden figures of the emerods and of
+               the mice, equal in number to the cities that had been smitten with a plague of this kind, and
+               upon this to shut up the calves that had been born in one house, that, if their mothers went on
+               drawing the cart to the land of Judah, where the ark was previously placed, they might know that
+               the God of Israel had laid the plagues upon them as a punishment, but, if hey turned towards the
+               cry of the calves and were affected in accordance with their own natural instincts, they might
+               learn that it was not on account of Israel that the punishment came upon them, but they happened
+               as men to suffer these things. And, when these things had been thus stated, those cows as if
+               very forcibly driven by the command of God, went of their own <pb n="404"/> accord to the land
+               of Judah and brought the ark with the propitiatory offerings, though it was not those words of
+               the soothsayers that were able to do these things, but God himself acted according to their
+               words, and by means of the soothsaying to which they were accustomed and which they loved led
+               the Philistines who were in error to the knowledge of the truth. So too Nebuchadnezzar also had
+               future things revealed to him beforehand by an ordinary vision seen in dreams, in order that by
+               Daniel's wise interpretation concerning the things seen in the dream the Babylonians might know
+               what the God of the Hebrews was; and Nebuchadnezzar must not on this account be placed among
+               religious men, as neither must the soothsayers who advised the Philistines to adopt the
+               above-mentioned plan; for even they themselves also could if they wished on the strength of such
+               signs have recognised God and not remained in error. For neither did God bring such things about
+               for any other purpose, condescending as he did at times to men who were not in the perfect
+               state, except that every man might be saved, because he is indeed the Creator of all. The
+               prophesyings and workings of miracles are not under all circumstances performed by men who are
+               worthy, but perhaps by men who are unworthy also for their own profit, because they are <pb
+                  n="405"/> barbarians, and cannot be brought to religion by teaching or by any other similar
+               method. This same thing our Lord and God Jesus Christ also said in the gospel: "Many shall say
+               in that day, 'Our Lord,] our Lord, did we not in [thy] name prophesy, and in [thy] name cast out
+               demons, and in thy name do many mighty works?' and then will I profess unto them, ' I never knew
+               you, depart ye from me, workers of iniquity'"<note type="footnote" n="1065" resp="#ebrooks"
+                  >Matth. vii, 22, 23.</note>. And Caiphas, being president and ruler of the assembly of the Jews
+               that contended with God, those who crucified our Lord, said prophetically that he should be
+               crucified for the people; and this John the Evangelist who was indeed the Theologian described
+               as follows: "But one of them, Caiaphas, who was the high-priest of that year, said to them, 'Ye
+               know nothing, and do not consider that it is expedient for us that one man die for the people,
+               and the whole people perish not'. But this he said not of himself, but, because he was the
+               high-priest of that year, he prophesied that Jesus should die for the people, and not for the
+               people only, but also that he might gather into one the sons of God who were scattered"<note
+                  type="footnote" n="1066" resp="#ebrooks">John XI, 49-52.</note>. Accordingly therefore neither
+               <pb n="406"/> Caiaphas nor Balaam are<note type="footnote" n="1067" resp="#ebrooks">Sic
+                  Syr.</note> religious men, but actually blasphemers and contenders against God, and remained in
+               the snares of impiety, although God, In order to show the truth, and in order to convert those
+               who were in error, made use of their words.</p>
+            <p><ab type="ellipsis" resp="#compiler">(<emph rend="ital">And after other things.</emph>)</ab>
+               The citations which we have made from the testimonies of the divine Scriptures are in themselves
+               sufficient; but I will show by means of a few instances that the genuine doctors of the church
+               also have taught us to think and say these things. The very wise John who became bishop of
+               Constantinople in the 6th homily of the commentary on the Gospel of Matthew, when he was
+               speaking about the Magi who by seeing the star were led to know our Lord and God Jesus, who was
+               in swaddling-clothes and was being nurtured on milk from his mother's breast in the flesh,
+               teaches as follows: "And wherefore did he attract them by such a sight? But how should he have
+               done so? Should he have sent prophets? but the Magi would not have submitted to the prophets.
+               But should he have emitted a voice from on high? but they would not have regarded this. But
+               should he have sent an angel? but him also they would accordingly have <pb n="407"/> neglected.
+               But on this account God, having set all these methods aside, calls them by means of things to
+               which they are accustomed, condescending greatly, and showing them a great and peculiar star, in
+               order by means of the size and the beauty of the appearance to make them astonished, and by the
+               method of movement. Imitating these things, Paul spoke to the heathen from the starting-point of
+               an altar, and cites testimonies from the poets, and he spoke with the Jews from the
+               starting-point of circumcision, and with those who lived according to the law he took the
+               beginning of teaching from sacrifices. For, since each man loves that to which he is accustomed,
+               both God and also the men who were sent by him for the salvation of the world used facts in this
+               way. Do not therefore think it an unworthy thing that he called them by means of a star; since,
+               if it is so, you will find fault with all the practices of the Jews also, their sacrifices and
+               their cleansings, and the beginnings of the months and the ark and the temple itself. For these
+               things also received their origin from heathen denseness. But nevertheless God for the sake of
+               the salvation of those who had gone astray consented to be worshipped by means of the very
+               things by which the demons outside were worshipped, changing them himself a little, in order
+               [that] he might <pb n="408"/> remove them gradually from the custom [and] bring them to the high
+               philosophy; a thing which he also does to the Magi, in that he consented to call them by means
+               of the appearance of the star, in order to make them thereafter higher. Since therefore he
+               brought and led them, and set them by the manger, he did not again thereafter speak with them
+               through a star, but through an angel, and so they gradually became better. The same thing he did
+               also to the men of Ascalon and Gaza. For these five cities also, since after the coming of the
+               ark they had been smitten with a regular plague, and found no escape from the plagues laid upon
+               them, having called the soothsayers and held an assembly, wished to find a release from the
+               plague which came from God. But the soothsayers said that they should yoke unbroken and
+               firstborn<note type="footnote" n="1068" resp="#ebrooks">Jo. Chrys. <foreign xml:lang="grc"
+                  >πρωτοτοκούσας</foreign>. </note> cows to the ark and let them go, no man leading them; 'for
+               so it will be plain whether the plague is from God, or from some chance or disease. For, if'
+               (they say) 'they either from inexperience break the yoke, or return to the calves when they low,
+               it is a chance or an accident that has happened. But, if they walk straight, and are in no way
+               affected by the lowing of their young, or by the ignorance of their error<note type="footnote"
+                  n="1069" resp="#ebrooks">The translator seems to have read <foreign xml:lang="grc"
+                     >πλάνης</foreign> for <foreign xml:lang="grc">πλανηθῶσι</foreign>.</note>
+               <pb n="409"/> in the way, it is very plain that it is God's hand that has touched these cities'.
+               Since therefore, after the soothsayers had said these things, those who dwelt in these cities
+               obeyed, and did as they commanded, God also followed the counsel of the soothsayers, again
+               condescending, and it did not seem to him to be a thing unworthy of him to carry into effect the
+               thing stated beforehand by the soothsayers, and make them appear to be truthful men in what they
+               spoke at that time. For indeed the success obtained was a great thing, that the adversaries
+               themselves should bear witness to the power of God, and their own teachers themselves should
+               pronounce a decision concerning him. And many other such things one may see that God performs by
+               dispensation"<note type="footnote" n="1070" resp="#ebrooks">In Matth. Hom. vi, 3 (ed. Par. 2a,
+                  VII, 105).</note>. And in the 24th homily of the same work, where he is expounding the passage
+               which we ourselves mentioned above, which says, "Many shall say to me on that day, 'Our Lord,
+               our Lord, did we not in thy name prophesy, and in thy name cast out demons, and in thy name do
+               many mighty works?' And then he will profess unto them, 'I never knew you. Depart ye from me, ye
+               who work iniquity'", he gave the same teaching in the following form: "Who therefore are these?"
+               (he says). <pb n="410"/> "Many of those who believed received gifts, as was<note type="footnote"
+                  n="1071" resp="#ebrooks">Sic Syr. and Jo. Chrys.</note> the man who was casting out demons and
+               was not with him; as was<note type="footnote" n="1071" resp="#ebrooks"> Sic Syr. and Jo.
+                  Chrys.</note> Judas, for even he also, being an evil man, had gifts. And in the Old Testament
+               one will accordingly find that the grace often worked in men who were unworthy, in order to
+               benefit others. For, since all had not readiness for all things, but some were pure in life, but
+               had not an equal amount of faith, while others were in the converse position, he both entices
+               the former by means of the latter in order that they may show great faith, and calls the latter
+               by means of this incomprehensible grace to become virtuous. Wherefore also he used to gave the
+               grace with great abundance, for '"We did many mighty works". But then will I profess unto them
+               "I know you not". For now they think they are my friends, but then they will know that I did not
+               give as to friends'. And why are you surprised if he gave his graces to men who had believed in
+               him but had not a life consonant to the faith, when he is in fact found to work even in men who
+               have fallen from both? For Balaam was an alien both to faith and to life; but nevertheless the
+               grace was effected in him for <pb n="411"/> the sake of influencing others. And Pharaoh
+               likewise; but nevertheless to him also as well he showed the future. And Nebuchadnezzar was a
+               great transgressor of the law; and to him again he revealed things that should happen later
+               after many generations. And to his son again who surpassed his father in transgression of the
+               law he showed the future, in that he brought wonderful and great things to pass. Since therefore
+               at that time also the proclamation was at its beginning, and it very was desirable that a
+               display of its power should be made, many even among the unworthy also received gifts. But
+               nevertheless those men gained nothing from these signs, but are even judged all the more.
+               Wherefore also he said to them those terrible words, 'I never knew you'. For many he already
+               hates even here, and before the judgment turns away from them"<note type="footnote" n="1072"
+                  resp="#ebrooks">Op. Cit., xxxv, l, 2 (ed. Par. 2a, VII, 340).</note>. By means of all these
+               things therefore he clearly establishes the fact that Balaam also and Nebuchadnezzar, and
+               Belteshazzar the latter's son, and all such men, did not profit by the grace of God, in that
+               they remained in the snares of demon-worship, but even endure the decrees of the sentences of
+               tortures all the more.<pb n="412"/><ab type="ellipsis" resp="#compiler">(<emph rend="ital">And
+                  after other things.</emph>)</ab> But, as to the tunic of God our Saviour Jesus, on which those
+               who performed the crucifixion cast lots, your mightiness' love of God should know that we should
+               understand the statement exactly according to the letter. In Palestine it is the custom for men
+               to make such tunics as are divided in the middle and not woven together throughout, but contain
+               the sections of the texture separately; so that even now we may see many such tunics, made of
+               wool and linen, in the city of Gaza; since afterwards, when it is about to be put on, and is
+               skilfully and becomingly folded, that division is concealed by the tailors. But some<note
+                  type="footnote" n="1073" resp="#ebrooks"> (V) 'all'.</note> of those who are of low station
+               have it all woven together from beginning to end, and these they <pb n="413"/> describe
+               according to custom as being woven from the top to the bottom, since there is no division in
+               them. But this indicates also a mystery which shows<note type="footnote" n="1074"
+                  resp="#ebrooks">A.v. (E) 'is further also shown by the mystery which appears in it'.</note>
+               that the Only Word who was born below in flesh is above from God and the Father. Since every
+               human soul has a body like some garment which springs up with it, as is said by Job the man of
+               mighty endurance to God: "With skin and flesh hast thou clothed me, and with bones and sinews
+               hast thou strengthened me"<note type="footnote" n="1075" resp="#ebrooks">Job, x, 11.</note>, so
+               also our Saviour's body, if one conceives of it as a kind of tunic that sprang up at the same
+               time, because it was united to the Word invariably by a natural union, was woven from the top,
+               that is by the coming of the Holy Spirit, and not by human seed. That these things are so the
+               genuine doctors of the holy church also show; for it is good that <pb n="414"/> we confirm every
+               statement and opinion by the expressions used by these. John who became bishop of Constantinople
+               in the 85th homily of the commentary on the Gospel of John wrote as follows: "But do you, I
+               pray, observe the prophet's accuracy; for the prophet did not say only that they divided, but
+               also that they did not divide. Some things they divided, but the tunic they did not divide, but
+               also committed the matter to lot. But the expression 'woven from the top' is not added casually;
+               but some say that by means of this expression one thing is indicated in place of another,
+               because he who was crucified was not mere man, but had also the Godhead from above; while others
+               say that the evangelist is depicting the actual pattern of the tunic, for, since in Palestine
+               they join two pieces of material together and so weave garments, John signifies that the tunic
+               was not<note type="footnote" n="1076" resp="#ebrooks">The negative, required by the sense, is
+                  not in the Greek.</note> of this kind, in that he says that it was woven from the top. And this
+               it seems to me that he says by way of signifying the meanness of the garments, and, as in all
+               other things, so also in raiment he followed a simple form"<note type="footnote" n="1077"
+                  resp="#ebrooks">In Jo. Hom. LXXXV, 1, 2 (ed. Par. 2a VIII, 576).</note>. And Athanasius the
+               great in the homily on the Cross says these things: "Together with these things <pb n="415"/> he
+               put on also an unsewn tunic that was woven from the top throughout, that from this also the Jews
+               might be able to believe who and whence he is who put on these things; that the Word is not from
+               the earth, but that he came from above, and he is not one divided, but is without division from
+               the Father; because, when he became man, he had not a body that was sewn together from a man and
+               a woman, but one that was woven from a virgin alone by the Spirit's workmanship"<note
+                  type="footnote" n="1078" resp="#ebrooks">De Pass. et Cruc., 21 (P. G., XXVIII,
+                  221).</note>.</p>
+            <p><ab type="ellipsis" resp="#compiler">(<emph rend="ital">And after other things.</emph>)</ab>
+               But, as to the passage about the sweat and the drops of blood, know that in the divine and
+               evangelical Scriptures that are at Alexandria it is not written. Wherefore also the holy Cyril
+               in the 12th of the books written by him on behalf of the religion of the Christians against the
+               impious demon-worshipper Julian plainly stated as follows: "But, since he said that the divine
+               Luke inserted among his own words the statement that an angel stood and strengthened Jesus, and
+               his sweat dripped like blood-drops or blood, let him learn from us that we have found nothing of
+               this kind inserted in Luke's work, unless perhaps<note type="footnote" n="1079" resp="#ebrooks"
+                  ><foreign xml:lang="grc">ἂρα</foreign>.</note> an interpolation has been made <pb n="416"/>
+               from outside which is not genuine. The books therefore that are among us contain nothing
+               whatever of this kind; and I therefore think it madness for us to say anything to him about
+               these things; and it is a superfluous thing to oppose him on things that are not stated at all,
+               and we shall be condemned to be laughed at and that very justly"<note type="footnote" n="1080"
+                  resp="#ebrooks">Not elsewhere extant, and not among the fragments published by Neumann.</note>.
+               In the books therefore that are at Antioch and in other countries it is written<note
+                  type="footnote" n="1081" resp="#ebrooks">Luke xxii, 43,44. </note>, and some of the fathers
+               mention it; among whom Gregory the Theologian made mention of this same passage in the 2nd
+               homily on the Son<note type="footnote" n="1082">Or. Theol. iv, 16.</note>; and John bishop of
+               Constantinople in the exposition composed by him about the passage, "My Father if possible let
+               this cup pass from me"<note type="footnote" n="1083" resp="#ebrooks">In Matth. Hom. i.xxxm, 1
+                  (ed. Par. 2a VII, 893).</note>. And I myself therefore in the 64th homily showed the religious
+               meaning of the things thus brought about<note type="footnote" n="1084" resp="#ebrooks">P. O.,
+                  VIII, 317 ff.</note>, according to the limited power that has been given to me from above.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

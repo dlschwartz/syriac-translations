@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3103">To Sergius the Count and Archiatros</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">140 [310]-146 [316]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="85">
+            <head type="number">LXXXV.</head>
+            <head type="main" resp="#compiler">Of THE SAME HOLY SEVERUS FHOM THE 27th LETTER OF THE 2nd BOOK
+               OF THOSE WRITTEN AFTER BANISHMENT, WHICH WAS ADDRESSED TO SERGIUS THE COUNT AND archiatros<note
+                  type="footnote" n="843" resp="#ebrooks">Perh. the physician of ep. 31.</note>. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </note>
+            <p> You ask why our Lord and God Jesus Christ took Peter and the sons of Zebedee, James that is
+               and John, apart from the other apostles and disciples, and this when he raised the daughter of
+               the president of the synagogue who was dead, and again when he took them up with him into the
+               mountain, and as the text of the gospel says ' was transfigured before them, and his face <pb
+                  n="311"/> shone like the sun, and his raiment Became bright like the light'<note
+                     type="footnote" n="844" resp="#ebrooks">Matth. xvii, 2. What follows to 'appellation' (p. 312,
+                     1. 5) is published in Greek in Mai, Class. Auct., X, 453 under the heading <foreign
+                        xml:lang="grc">Σ. εἰς τὸ κατὰ Λοθκᾶν</foreign>.</note>. My opinion is that he shows them such
+               honours beyond the others because they had a more specially acute mind, and one that rose with
+               the height of the Godhead of him who voluntarily humbled himself for us and condescended to
+               become incarnate and remained in the same and did not leave his most exalted glory and his
+               divine height<note type="footnote" n="845" resp="#ebrooks">Gr. <foreign xml:lang="grc">ἐν
+                  ταυτότητι μείναντος τῆς ὑπερτάτης δὀξης τε κ. λαμπρότητος</foreign>.</note>. For Peter after
+               he had confessed him and said, "Thou art the Christ the Son of the living God", heard the plain
+               words, "Blessed art thou, Simon Bar Jona, for flesh and blood revealed it not to thee but my
+               Father which is in heaven"<note type="footnote" n="846">Matth. xvi, 16, 17. In the Greek the
+                  citations are paraphrased.</note>. And James and John, as Mark the Evangelist related, being
+               brothers in the spirit more than in the body, were named by our Saviour Bnai ragsh, that is
+               'sons of thunder'<note type="footnote" n="847" resp="#ebrooks">Mark iii, 17.</note>. The reason
+               for which they merited such an appellation was that he who proclaimed, "In the beginning was the
+               Word, and the Word was with God, and the Word was God"<note type="footnote" n="848"
+                  resp="#ebrooks">John I, 1.</note>, loudly thundered the divine utterance from heaven <pb
+                     n="312"/> and the gift of the Spirit that in truth came down thence, and stirred the attention
+               of all nations by reason of the wonder, and tore up from its roots and as one might say from its
+               foundations every false and human opinion that creeps upon the earth<note type="footnote"
+                  n="849" resp="#ebrooks">Gr. <foreign xml:lang="grc">μεγαλοφώνως βροντῆσαι τὴν θεολογίαν ἐκείνην
+                     τὴν ἐξ οὐρανοῦ κ. τῆς ἐκεῖθεν ἐπιπνοίας κατενεχθεῖσαν, τὸ ἐν ἀρχῇ ἦν ὁ Λ. κ. τὰ
+                     ἑξῆς</foreign>.</note>. For it is manifest that James also was rich in the same grace as his
+               brother, according to the unerring testimony of him who honoured them by one comman appellation.
+               But some have said that the reason for which those three were peculiarly honoured beyond the
+               rest of the disciples was that they specially loved Jesus, and in the same way he also too loved
+               them, because of the virtues that were in them, as the very wise John bishop of Constantinople
+               also said in the 56th homily of the Commentary on the Gospel of Matthew, where he thus
+               interpreted the words concerning them: "Why did he take these? Because these excelled the
+               others. And Peter showed the superiority by the fact that he loved him much, and John by the
+               fact that he was much loved, and James by the answer which he returned saying, 'We can drink the
+               cup', and not by the answer only, but also by other actions, among them the fact that he carried
+               out what he said. For he was so troublesome and burdensome to the Jews that Herod <pb n="313"/>
+               thought this would be a great present to give to the Jews if he put him to death"<note
+                  type="footnote" n="850" resp="#ebrooks">In Matth. Hom. LVI, 1 (ed. Par. 2a, VII, 637). </note>.
+               The words used by our Lord to his disciples, "Greet no man by the way"<note type="footnote"
+                  n="851" resp="#ebrooks">Luke x, 5.</note> naturally cause perplexity among those who read the
+               divine Scriptures superficially: for greeting more especially becomes ministers of peace and
+               teachers of a humble disposition. But it is not possible for us to take the actual injunction as
+               bearing this meaning; for our Saviour is thereby shown to contradict himself and to be making
+               use of injunctions which do not agree with one another; for Matthew wrote of him that he said to
+               his disciples, "And, if ye greet your friends only, what special thing do ye? Do not the
+               tax-gatherers also the same?"<note type="footnote" n="852" resp="#ebrooks">Matth. v, 47.</note>.
+               How then can he who enjoins us to greet not only those who are friends but also enemies prohibit
+               us from greeting those who meet us on the way? Accordingly therefore it is manifest that we must
+               direct the purport of the injunction to another meaning. It is the habit of men to visit their
+               acquaintances who live at a distance from them, and whom they have not seen for a long time,
+               making this the occasion <pb n="314"/> of a journey, the greeting of those persons, as Luke
+               wrote of Mary the God-bearer that the reason for which she went to the hill-country was to greet
+               Elizabeth, saying thus: "And Mary arose in the same days, and went to the hill-country in haste,
+               to a city of Judah, and entered the house of Zacharias, and greeted Elizabeth"<note
+                  type="footnote" n="853" resp="#ebrooks">Luke I, 39, 40.</note>. Since therefore our Lord and
+               God wished his disciples to be unencumbered and self-reliant, and that they should be very
+               zealous for the preaching-journey, he prohibited such greeting, when they were setting out on
+               the apostolic and divine journey, lest they should give up the zeal for the journey set before
+               them and enter upon the journey that is called vain, which leads aside to another path. For he
+               wished the divine service of the gospel-message and of the saving preaching to be honoured
+               before fitting human affection and the love that creeps upon the earth. And the approved Cyril
+               also bishop of Alexandria wrote in agreement with these things in precise words and at length,
+               in the 62nd homily of the Commentary on the Gospel of Luke: "Again how could it not be incumbent
+               on men who were to enlighten those that were in darkness and to bring <pb n="315"/> them to the
+               knowledge of the truth above all others to adopt a gentle demeanour and great affability, and
+               not roughly shun intercourse with them, so as to refuse even to greet them? though it indeed
+               becomes saints together with other good qualities to have that also of approaching people in a
+               proper way and giving greeting. For perhaps it would happen that those who met them were not
+               under all circumstances unbelievers, but also some of those who shared their opinions, or of
+               those who had been already enlightened, so that for this reason it was necessary to give them a
+               message of love, I mean the word ' Hail! '. What therefore? And for this reason Christ does not
+               give the injunction in order that they may be misanthropes, nor does he give it in order to show
+               honour to<note type="footnote" n="854" resp="#ebrooks">The translator seems to h ave
+                  misunderstood the Greek. The Syr. version of Cyr. has "What therefore does Christ teach by this
+                  also? He did not ordain that they should be rude, nor that they should honour".</note> a
+               refusal to offer greeting, but rather he teaches them to avoid such refusal. It is not
+               unreasonable for us to understand that, when the disciples were going round the cities and
+               villages, and propounding the mysteries relating to the divine doctrines to those in every
+               place, they did not then wish to do this without distraction, but so to speak at leisure,
+               turning out of the way and making use of certain diversions, because someone perhaps wished to
+               see a man whom he knew <pb n="316"/> and his friend, and afterwards spend the time proper for
+               teaching in gluttony, not in urgent things. Accordingly he says that, showing unencumbered zeal
+               for the divine proclamation, they should be sure not to give attention that does not profit to
+               friendships (but rather that which pleases God is placed before every thing), and, while
+               employing acts of courtesy that cannot be impugned and do not occupy attention, to give close
+               attention to the apostolic business"<note type="footnote" n="855" resp="#ebrooks"> Comm. in Luc.
+                  (Syr.), éd. Chabot, p. 238. Not extant in Greek.</note>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

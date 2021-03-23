@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3242">To Soteric of Caesarea</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">290 [460]-292 [462]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="118">
+            <head type="number">CXVIII.</head>
+            <head type="main" resp="#compiler">FRAGMENT OF A LETTER OF SEVERUS TO SOTERIC OF CAESAREA, FROM
+               THE COPTIC.<note type="footnote" n="1190" resp="#ebrooks">I have, on account of its historical
+                  importance, included this Coptic fragment, supplied by Mr. W.E.Crum, by kind permission of the
+                  authorities of the MetropolitanMuseum of Art, New York, in whose volume on the "Monastery of
+                  Epiphanius" it will eventually appear. Mr. Crum states that it is written on a limestone
+                  ostrakon, found with many others in a ruined monastery in W. Thebes, during excavations carried
+                  out by the New York Museum, and that its date is about 600. The translation is Mr. Crum's, and
+                  the subject of the fragment is clearly the events which preceded the expulsion of Macedonius
+                  from the see of Constantinople.</note>
+            </head>
+            <p>Apa Severus to Soteric, [the] bishop of Cappadocia. But the Christ-loving and revered general
+               <note type="footnote" n="1191" resp="#ebrooks"><foreign xml:lang="grc">στρατηλάτης</foreign>
+                  [i. e. mag. militum]. For P. see Muller, Fragm. Hist. Gr., V, p. 32 b; Jo. Mai., p. 404; Zach.
+                  Rh., vii, 4, 5. 8; 'Josh. Styl., ' LIV-LVII, LXVI, LXIX-LXXI, LXXV, LXXXVII.</note> Patrick
+               rose and said to him in righteous anger, "A synod that everyone has rejected it does not befit
+               you to bring up afresh by the minute<note type="footnote" resp="#ebrooks"><foreign
+                  xml:lang="grc">πρᾶξις</foreign>.</note> which you have drawn up". He answered and <pb n="461"
+                  /> said, "But I for my part will bring up nothing that may prejudice<note type="footnote"
+                     resp="#ebrooks"><foreign xml:lang="grc">προκριξατίμειν</foreign>.</note> the synod. As for that
+               minute<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc">πρᾶξις</foreign>.</note>, I
+               drew it up at the bidding<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc"
+                  >κέλεθσις</foreign>.</note> of the devout<note type="footnote" resp="#ebrooks"><foreign
+                     xml:lang="grc">εὐσεβής</foreign>.</note> king, being desirous to bring certain monasteries
+               into the faith with us". But I answered and said, "His majesty<note type="footnote"
+                  resp="#ebrooks"><foreign xml:lang="grc">κράτος</foreign>.</note> did not know that you were
+               desirous of confirming<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc"
+                  >βεβαιοῦν</foreign>.</note> the synod by that minute<note type="footnote" resp="#ebrooks"
+                     ><foreign xml:lang="grc">πρᾶξις</foreign>.</note>. The revered and Christ-loving patrician
+               Paul the son of Vivian<note type="footnote" n="1192" resp="#ebrooks">[Probably the consul of 496
+                  or 512. A Vivian was consul in 463; see Muller, Fragm. Hist. Gr., IV, p. 126 a, 135 b].</note>
+               answered and said, "And in order to reconcile four or five monasteries to yourself you will
+               dissolve the whole unity of the churches". The bishop Julian<note type="footnote" n="1193"
+                  resp="#ebrooks"> [Of Halicarnassus?].</note> also said to him, "Must we needs draw up that
+               minute<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc">πρᾶξις</foreign>.</note>,
+               because you desire to reconcile the monasteries to yourself? And who constrained<note
+                  type="footnote" resp="#ebrooks"><foreign xml:lang="grc">ἀναγκάζειν</foreign>.</note> you to
+               receive oaths and signatures<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc"
+                  >ὑπογραφή</foreign>.</note> from the bishops whom you from time to time ordain,<note
+                     type="footnote" resp="#ebrooks"><foreign xml:lang="grc">χειροτονεῖν</foreign>.</note> that they
+               would accept the synod of Chalcedon?" </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3229">To Caesaria</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">253 [423]-255 [425]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="103">
+            <head type="number">CIII</head>
+            <head type="main" resp="#compiler">OF THE HOLY MAR SEVERUS FROM THE LETTER TO CAESARIA. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </note>
+            <p> For<note type="footnote" n="1103" resp="#ebrooks">This extract is published in Greek in Mai,
+               Class. Auct., X, 433, under the heading <foreign xml:lang="grc">Σ. εἰς τὸ κατά
+                  Λουκᾶν</foreign>, where it is shortened and the following precedes: <foreign xml:lang="grc">ἳνα
+                     δὲ περιελόντες τὸ μῆκος τοῦ λόγου διὰ βραχέως τὸ πᾶω εἴπομεν, ὁ τῶν Ἰοθδαίων παράνομος δῆμος
+                     κατά τὸ εἰρημένον ἐν ταῖς Πράξεσι Στεφ. τῷ πν. τῷ ἁγ. διηνεκῶς ἀντιπίπτοντες κ. τὴν ἐναωτίαν
+                     ἀεὶ τοῖς τοῦ Θ. νόμοις φερόμενοι πρὸς τὸ εὐτελές τε κ. τό δι' ἡμᾶς ταπεινόν τῆς τοῦ Θ. Λ. κ.
+                     Σωτ. ἐπανθρωπήσεως τυφλώττοντες· κ. ὡς ἐν σκότῳ περιπατοῦντες προσέπταιον, κ. γέγονεν αὐτοῖς ὁ
+                     λίθος ὁ ἀκρογωνιαῖος κ. ἐκλεκτός κ. ἔντιμος πέτρα σκανδάλου κ. λίθος προσκόμματος, κ. οὐδαμῶς
+                     ἐπενόουν αὐτοῦ τὴν προαιώνιον ὕπαρξιν, κ. τὴν ἐκ Πν. ἀσώματον γέννησιν, κ. τὸ πρὸς τὸν
+                     γεγεννηκότα ἴσον, κ. κατὰ πᾶω ὁτιοῦν ἀπαράλλακτον</foreign>.</note>, since they had a mind in
+               contact with earthly things, they said, <pb n="424"/> "Is not this the carpenter's son? Is not
+               his mother called Mary?"<note type="footnote" n="1104" resp="#ebrooks">Matth. xiii, 55.</note>;
+               and again, "Thou art a Samaritan and hast a demon"<note type="footnote" n="1105" resp="#ebrooks"
+                  >John viii, 48.</note>; and, "For good deeds we stone thee not, but for blasphemy, that, being
+               a man, thou makest thyself God"<note type="footnote" n="1106" resp="#ebrooks">Id., x,
+                  33.</note>. Since therefore it was because they stumbled at the dispensation in the flesh<note
+                     type="footnote" resp="#ebrooks">Gr. ins. <foreign xml:lang="grc">καθάπερ
+                        εἷπον</foreign>.</note> that they said these things, all the blasphemies that they uttered
+               against the Son of man, our Saviour said that they should be forgiven to them; for they have as
+               a defence ignorance of the mystery and the condescension as man <note type="footnote"
+                  resp="#ebrooks">Gr. <foreign xml:lang="grc">τῆς ἀγνοίας τοῦ μυστ. τὸ κατὰ ἄνθρωπον τοῦ Ἐμμ.
+                     χθαμαλόν κ. ὐποβεβηκος</foreign>.</note>. "Therefore it shall be forgiven to men and not to
+               you", as if he were saying, "I give forgiveness as to men who have not known the depth of the
+               dispensation". But the things which they said in blasphemy against the divine signs and mighty
+               works which he did and performed by the Spirit that was in him and of his nature (as he said, "I
+               by the Spirit of God cast out the demons"<note type="footnote" resp="#ebrooks">Matth. XII.
+                  28.</note>), "In Beelzebub<note type="footnote" resp="#ebrooks">Gr. ins. <foreign
+                     xml:lang="grc">ἄρχ. τῶν δαιμονίων</foreign>.</note>" (as they say) "he casts out the
+               demons"<note type="footnote" resp="#ebrooks">Ibid., 24.</note>, these things (he says) as
+               things which are concerned with blasphemy against the Holy Spirit and have from the acts <pb
+                  n="425"/> themselves the quality of God-befittingness<note type="footnote" n="1107"
+                     resp="#ebrooks"> This is clearly wrong; but the Greek is the same. The words should perh.
+                     follow the 1st parenthesis.</note> and have no room for defence Christ said should not be
+               forgiven<note type="footnote" n="1108" resp="#ebrooks">Gr. ins. <foreign xml:lang="grc">μήτε ἐν
+                  τῷ νῦν αἰῶνι μήτε ἐν τῷ μἐλλοντι</foreign>.</note>. But this blasphemy against the Son of man
+               shall be forgiven, and it is smaller than the blasphemy against the Holy Spirit, down to the
+               time of the Cross, we must understand, because down to that time Christ obscured the greatness
+               of his Godhead by means of the words and actions of the dispensation; but after the Cross and
+               the Resurrection<note type="footnote" n="1109" resp="#ebrooks">Gr. ins. <foreign xml:lang="grc"
+                  >ἐκ νεκρῶν</foreign>.</note> he did so no longer; since the dispensation had once for all
+               received an end<note type="footnote" n="1110" resp="#ebrooks">Gr. adds <foreign xml:lang="grc"
+                  >καθὰ φησὶν ὁ ἀποστ., εἰ δὲ κ. ἐγνώκαμεν κατὰ σάρκα Χ., ἀλλὰ νῦν οὐκέτι γινώσκομεν· κ. ὁ εἰς
+                  αὐτὸν βλασφημῶν ὤσπερ εἰς τὸ Πν. παροινῶν ὡς ἀσύγγνωστα ἁμαρτάνων ἄφεσιν οὐδεμίαν ἔχει τοῦ
+                  ἁμαρτήματος. ταῦτα δὲ φαμὲν εἴ γέ τις τῇ βλασφημίᾳ μέχρι τοῦ τῆς ζῶης ταύτης ἡμερῶν
+                  ἐνδαψιλευομένων αὐτῷ, πρόδηλον ὡς ἡ μετάνοια χρείττων ἐστὶν πάντος ἁμαρτήματος ἄφεσιν δηλαδὴ
+                  τοῖς μεταωοοῦσι παρέχουσα</foreign>. </note>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

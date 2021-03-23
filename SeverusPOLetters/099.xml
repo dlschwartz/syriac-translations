@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3122">To Caesaria the Hypatissa</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">213 [383]-229 [399]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="99">
+            <head type="number">XCIX.</head>
+            <head type="main" resp="#compiler">OF THE SAME FROM THE 57th LETTER OF THE 4th BOOK OF THOSE
+               WRITTEN AFTER EXILE, WHICH WAS ADDRESSED TO CAESARIA THE HYPATISSA<note type="footnote" n="1040"
+                  resp="#ebrooks">In the heading of the fragment in U 110vb (p. 394) it is called the 16th letter
+                  to Caesaria.</note>. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </note>
+            <p> "But in the fourth watch of the night Jesus came to them walking on the sea"<note
+               type="footnote" n="1041" resp="#ebrooks">Matth. xiv, 25.</note>. Know therefore that it is the
+               custom in a city for the sake of <pb n="384"/> precaution against housebreakers and thieves, as
+               well as in military camps for the sake of precaution against an attack upon them by their
+               enemies, to keep ward by night and watch in turns; and some watch during the first portion of
+               the night, and go round the city or the camp, and some during the second portion and some during
+               the<note type="footnote" n="1042" resp="#ebrooks">Ms. om.</note> third, and others during the
+               fourth, and others at the very appearance of dawn, those who follow in succession coming in in
+               order after the previous ones are tired. And this is recorded even in the Old Testament<note
+                  type="footnote" resp="#ebrooks"><foreign xml:lang="grc">διαθήκη</foreign>.</note> Scriptures
+               also. When Gideon was ordered to attack a city by night, I mean the camp of the Midianites, the
+               divine Scripture said: "And Gideon went in and the 100 men who were with him into a part of the
+               camp when they had begun the middle watch, when those who set the guards had just set them, and
+               they sounded the horns"<note type="footnote" n="1043">Jud. VII, 19.</note>. And in the 2nd book
+               of Ezra, when the walls of Jerusalem were being built, and the barbarians who lived near the
+               country wished to assail them and stop the work, it is written thus: "And I prayed to our God,
+               and we set guards over us day and night against them"; and again, "At that time I said to the
+               <pb n="385"/> people, 'Every man with his slave shall go up and down in the midst of Jerusalem,
+               and let us take night for the first watch, and day for the work'"<note type="footnote"
+                  resp="#ebrooks">Neh. XIV (IV), 9, 22.</note>. Accordingly therefore the evangelist desired to
+               signify the very time of night at which Jesus, who is God appeared to his disciples when
+               distressed in the boat walking on the sea<note type="footnote" resp="#ebrooks">The sentence is
+                  published in Greek in Cramer, Cat. in Matth. et Marc., p. 118.</note>.</p>
+            <p type="ellipsis" resp="#compiler">(<emph rend="ital">And after other things.</emph>)</p>
+            <p>But that which is written in the divine gospels about the cloak<note type="footnote"
+               resp="#ebrooks"><foreign xml:lang="grc">χλαμύς</foreign>.</note> with which the Romans at the
+               time of the Passion and of the voluntary saving Cross sought to clothe our Lord and God Jesus
+               Christ, and indeed did actually clothe him, for the purpose of mockery contains no discrepancy,
+               because Matthew related as follows: "And, when they had stripped him, they put on him a cloak of
+               scarlet"<note type="footnote" resp="#ebrooks">Matth. XXVII, 28.</note>, and Mark, "And they
+               clothe him in purple robes"<note type="footnote" resp="#ebrooks">Mark XV, 17.</note>, and John,
+               "And they covered him with a purple garment"<note type="footnote" resp="#ebrooks">John XIX,
+                  2.</note>. You should understand that the rascally company of soldiers<note type="footnote"
+                     resp="#ebrooks"><foreign xml:lang="grc">στρατιῶται</foreign>.</note>, by way of prolonging the
+               mockery and ridicule and derision for him, first clothed him with the cloak<note type="footnote"
+                  resp="#ebrooks"><foreign xml:lang="grc">χλαμύς</foreign>.</note> of scarlet, that is red, and
+               after this with the purple one, <pb n="386"/> thinking by the change of attire<note
+                  type="footnote" resp="#ebrooks"><foreign xml:lang="grc">σχῆμα</foreign>.</note> to increase the
+               mockery. That they did this for the sake of mockery is plainly signified by the story told by
+               Luke also, for he said that, when Pilate learned that Jesus was from Galilee, he sent him to
+               Herod, on the ground that the supremacy and authority was by right his, and he was glad to see
+               him; and when he did not hear any word from him, or see any sign done by him, but found him
+               silent, 'having set him at naught' (he says) 'with his soldiers and made fun of him, having clad
+               him in splendid robes, sent him to Pilate'<note type="footnote" resp="#ebrooks">Luke XXIII.
+                  11.</note>. But, if one considers the matter carefully and minutely, one may say that there is
+               one cloak<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc">χλαμύς</foreign>.</note>,
+               of purple, but of purple which contains some inferior dark tincture, so that it disavows the
+               true purple, and changes its appearance to one that is redder, and appears to hold a position
+               approximating to both colours, and to be each of them, and in strictness is neither of them.'
+               Accordingly the evangelists looked one at the one colour and the other at the other, so as to
+               mention each of them both with the same meaning and in different terms. Since it was the purpose
+               of those blasphemers against God to pile up the whole mass <pb n="387"/> of insult and increase
+               the mockery, for this reason they found even the very dress which, as they thought, would excite
+               much mockery; but the mystery contained in it which was hidden was shown by each of the colours,
+               in order that the purple colour might show the King of kings and Lord and God, who was of his
+               own will coming to the Passion, while the scarlet and red showed the fact that he himself took
+               the whole of our sin, so that he was clad in the crimson cloak of blood, and nailed this to the
+               saving Gross. For he suffered who knows not sin, not on his own behalf (may we never say this!),
+               but rather on behalf of our sins. This therefore John also the ambassador said: "Behold! the
+               Lamb of God who beareth the sin of the world"<note type="footnote" n="1044" resp="#ebrooks"
+                  >1044. 1. John, i, 29.</note>. And Peter the chief of the apostles wrote in his epistle: "He
+               took up our own sins in his body on to the tree, in order that being separated from the sins we
+               may live in righteousness"<note type="footnote" n="1045" resp="#ebrooks">1 Pet. ii, 24.</note>.
+               And the wise Paul wrote to the Corinthians about God and the Father, who wishes with him that he
+               should suffer for for the sake of the salvation of the race of all men: "Him who knew not sin he
+               made sin for our sake, that we in him may become righteousness unto God"<note type="footnote"
+                  n="1046" resp="#ebrooks">2 Cor. V, 21.</note>. </p>
+            <pb n="388"/>
+            <p>For there is also another further question which you ask, as to how we should understand the
+               statement made by Gregory the Theologian in the 2nd peace-making homily about the Holy Trinity
+               in the following words: "A perfect Trinity of three perfect ones, Unity having been moved on
+               account of wealthiness, while duality was passed over on account of the material and the form of
+               which bodies consist, and a Trinity was fixed on account of perfection, for it first passes the
+               composition of a duality, in order that the Godhead may not remain narrow, nor be diffused into
+               infinitude; for the one is mean, and the other disorderly, and the one is utterly Jewish, and
+               the other heathen and polytheistic"<note type="footnote" n="1047" resp="#ebrooks">Or. xxiii,
+                  8.</note>. This abominable notion must therefore first be removed from our mind, that we should
+               not<note type="footnote" n="1048">Sic all versions.</note> think that the Father first existed
+               in his own sole hypostasis, and was moved as if by some <pb n="389"/> afterthought to put forth
+               another hypostasis, that of the Son, and similarly further conceived the thought of putting
+               forth a third hypostasis also from himself, that of the Spirit, in order that he might exist in
+               a Trinity. On this theory it will result that the Son and the Holy Spirit are not ever-existing
+               but were afterwards added to the Father, and we shall give occasion for the blasphemy of Arius
+               who says, "There was once when the Son and the Holy Spirit were not". But this is abominable;
+               for one who was acquired later and came into being afterwards is not God; for the Holy Trinity
+               is of equal everlastingness, and it is therefore understood and acknowledged to be one God truly
+               in three hypostases. The words used by the doctor we should therefore understand in the same way
+               as that which is stated in Wisdom, "From the greatness and beauty of created things the causer
+               of their birth <pb n="390"/> is inferentially seen"<note type="footnote" n="1049"
+                  resp="#ebrooks">Sap., XIII, 5.</note>; and from formed creation and this visible world we may
+               conceive not only of the wisdom and power of him who created them, but also of the very
+               peerlessless of his Godhead in regard of creation, and its distance in all points and lack of
+               similarity. We see that all the bodies which make up the world are composed of material<note
+                  type="footnote" n="1050" resp="#ebrooks"><foreign xml:lang="grc">ὕλη</foreign>.</note> and
+               form, and arise from a duality; but what material<note type="footnote" n="1050" resp="#ebrooks"
+                  ><foreign xml:lang="grc">ὕλη</foreign>.</note> and form are we will state in the form of an
+               example. For instance the potter's material<note type="footnote" n="1050" resp="#ebrooks"
+                  ><foreign xml:lang="grc">ὕλη</foreign>.</note> for the craft is the clay, but he adds the form
+               to the material<note type="footnote" n="1050" resp="#ebrooks"><foreign xml:lang="grc"
+                  >ὕλη</foreign>.</note>, that is to say, that which belongs to the fashioning of the vessel
+               that is being manufactured, a jar or a pot or anything of the kind. But in this case the potter
+               is the maker of the form only, and he borrows the material<note type="footnote" n="1050"
+                  resp="#ebrooks"><foreign xml:lang="grc">ὕλη</foreign>.</note>. But God, the Maker of all and
+               perfect in craftsmanship, both brought the material<note type="footnote" n="1050"
+                  resp="#ebrooks"><foreign xml:lang="grc">ὕλη</foreign>.</note> of every body from that which did
+               not exist and added the form; and, if you speak of fire or of earth, or <pb n="391"/> of
+               air<note type="footnote" n="1051" resp="#ebrooks"><foreign xml:lang="grc">ἀήρ</foreign>.</note>
+               or of water, or of the sky and the sun and the moon and the other stars, he both formed the
+               material<note type="footnote" n="1052"><foreign xml:lang="grc">ὕλη</foreign>.</note> of all of
+               them out of non-existent things, and the form was devised for them in different ways at the
+               moment that they came into being, and he is both the Maker and the adorner of the shapeless
+               material<note type="footnote" n="1052" resp="#ebrooks"><foreign xml:lang="grc"
+                  >ὕλη</foreign>.</note> of the bodies, in that he differentiated it into the various forms of
+               the bodies. And this Wisdom also states, when it declares concerning Pharaoh and the Egyptians,
+               who were vexed by the serpent and the vile reptile: "For neither was thine almighty hand, which
+               created the world out of shapeless material, at a loss to send against them either a multitude
+               of wolves or fierce lions"<note type="footnote" n="1053" resp="#ebrooks">Sap., XI, 17.</note>.
+               Therefore our mind, seeing that the bodies in this tangible world consist as we have said of
+               material<note type="footnote" n="1052" resp="#ebrooks"><foreign xml:lang="grc"
+                  >ὕλη</foreign>.</note> and form, <pb n="392"/> and that they arise from a duality, and being
+               instructed by the sacred Scriptures that there is one Godhead in a Trinity, wonders and is
+               amazed at the profoundness of the theology<note type="footnote" resp="#ebrooks"><foreign
+                  xml:lang="grc">θεολογία</foreign>.</note>, since it sees a corresponding fact in creation, and
+               is as it were initiated into a mystery and learns from creation the inaccessibility of the
+               Trinity and its lack of likeness to and community with creation, and reflects in itself and
+               says: The reason then<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc"
+                  >ἄρα</foreign>.</note> why the Godhead does not exist in one hypostasis is that it may not be
+               inferior to the bodies, falling short in the restriction of number. And it does not again exist
+               in a duality, because it shuns similarity to the bodies, which arise from a duality, but it only
+               appears in a Trinity and as plural, which is admirable; for in the Trinity is completed the
+               unique number which follows two. Therefore also, when Moses said to him, "Show me thyself, let
+               me see thee plainly", he refused this, saying, "Thou wilt not be able to see my face, for a man
+               shall not see my face and live"; but he added, "Thou shalt see my back parts, <pb n="393"/> but
+               my face shall not be seen by thee"<note type="footnote" n="1054" resp="#ebrooks">Ex. XXXIII,
+                  18-23.</note>; signifying that by the very essence<note type="footnote" n="1055"><foreign
+                     xml:lang="grc">οὐσία</foreign>.</note> and by the sight, as one may say, of the face no man
+               can comprehend God, but from his back parts a man shall know the things that pertain to him. out
+               his back parts are created things which came into being afterwards, through which he is
+               inferentially seen as the causer of their birth, as our father the Theologian himself also said
+               in the 2nd theological homily: "These are God's back parts, all things which, being after him,
+               make him known, like the shadows and reflexions of the. sun upon waters, which show the sun to
+               weak eyes, because they cannot look at it, since by the purity of the light <pb n="394"/> it
+               overcomes the perception"<note type="footnote" n="1056" resp="#ebrooks">Or. Theol. ii,
+                  3.</note>. And therefore in the passage now before us for interpretation he applied the
+               expression 'movement of the Unity towards a duality' to the everlasting birth of the Son from
+               the Father, and 'passing over of the duality' to the procession of the Holy Spirit which is
+               timeless and thereby without beginning, and by means of the words used as we have said he gave a
+               philosophical<note type="footnote" n="1057" resp="#ebrooks">The word <foreign xml:lang="grc"
+                  >φιλοσοφῆσαι</foreign> is here included.</note> explanation in mysterious and divine fashion
+               of the lack of community in the Trinity towards bodies which exist in a duality. The passage
+               contained in the homily entitled 'of Lights' which says, "But where there is purification there
+               is shining, and shining is the completion of love, to those who desire things that are great, or
+               that which <pb n="395"/> is great, or beyond what is great"<note type="footnote" n="1058"
+                  resp="#ebrooks">Or. xxxix, 8.</note>, is plain and contains nothing difficult of comprehension.
+               What he said is, "Where there is purification of the soul by means of virtues, there is the
+               shining of knowledge, which raises and uplifts to the satisfaction of divine love". But the
+               satisfaction of love is the end of things delightful and pleasing, which is God, who exists and
+               is made known in things that are great, and in that which is. great, and beyond that which is
+               great; in things that are great in the three hypostases which are equal in power and of which
+               none is in anything inferior to the others in power and in equality in all things, except that
+               they are distinct in the matter of non-generation and generation and procession, in the
+               unconfused individualities which stamp each of the hypostases; in that which is great, <pb
+                  n="396"/> because he is one and the same and because of the Unity of the Godhead; and beyond
+               that which is great, because he is not limited by size and quantity. For, in. that we employ the
+               poverty of names that exists among us, we name God great, when he is more than great. Therefore
+               also the Psalmist said: "Great is the Lord and very admirable; and there is no end to his
+               greatness"<note type="footnote" n="1059" resp="#ebrooks">Ps. CXLIV, 3.</note>. For all
+               greatness is limited, but the Godhead cannot be limited, and is not limited by any boundary.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

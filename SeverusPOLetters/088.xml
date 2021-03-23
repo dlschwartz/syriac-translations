@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3123">To Sergius, Bishop of Cyrrhus</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">150 [320]-153 [323]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="88">
+            <head type="number">LXXXVIII.</head>
+            <head type="main" resp="#compiler">OF THE SAME FROM THE 69th LETTER OF THE 4th BOOK OF THOSE
+               APTER BANISHMENT, WHICH WAS ADDRESSED TO SERGIUS BISHOP OF CYRRHUS<note type="footnote" n="871"
+                  resp="#ebrooks">Select Letters of Severus, v, 15, p. 121, 198; Mansi, VIII, 817; Mich., p.
+                  267.</note>. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </note>
+            <p> But, since your saintliness asked with regard to Enoch and Elijah, of whom one was translated
+               that he should not see death, as the apostle said<note type="footnote" n="872" resp="#ebrooks"
+                  >Heb. XI, 5.</note>, <pb n="321"/> while the other was caught up towards heaven, if they will
+               undergo the common death, it is incumbent upon us to state, in proportion to the small capacity
+               which we possess, the things that have reached our comprehension from the teaching of the
+               fathers. It is believed therefore according to the testimonies of the divine words that Enoch
+               was translated, and Elijah was caught up towards heaven, and was carried by the air<note
+                  type="footnote" n="873" resp="#ebrooks"><foreign xml:lang="grc">ἀήρ</foreign>.</note>, and that
+               they are alive, and that they are in such places as God knows, and that he<note type="footnote"
+                  n="874" resp="#ebrooks">A. v. (M) 'Who'.</note> bestowed upon them such a marvellous
+               translation hence, and that they are in a mortal body, having not yet received the blessing of
+               immortality. For let us agree with Paul who says generally of all the holy men who pleased God,
+               "And all these to whom testimony was borne through faith received not the promises, God having
+               foreseen , some better thing for our sakes. that they might not be perfected without us"<note
+                  type="footnote" n="875" resp="#ebrooks">Heb. XI, 39, 40.</note>. And it is manifest that
+               perfection <pb n="322"/> is nothing else except a state of immortality and glory, and
+               impassibility, that does not grow old, in the kingdom of heaven. That this is so is confirmed by
+               John also the wise in the Spirit, who became bishop of Constantinople, in the 22nd homily of the
+               commentary on the Epistle to the Hebrews, where he gives the following teaching: "But many
+               inquire whither Enoch was translated, and why he was translated, and why he did not die, neither
+               he nor. Elijah, and, if they are still living, how they are living, and in what form. But it is
+               superfluous for us to inquire into these things. For that the one was translated and the other
+               was taken up the Scriptures stated; but where they exist or how they exist they did not go on to
+               say; for they do not say anything beyond what is necessary"<note type="footnote" n="876"
+                  resp="#ebrooks">In Ep. ad Heb. Hom, xxii, 8 (ed. Field).</note>. And the same doctor delivered
+               an expository discourse in Constantinople in the church of Marth Anastasia<note type="footnote"
+                  n="877" resp="#ebrooks"> In the Greek title it is called the church of S. Thomas, and the
+                  biblical citation and the mention of the martyrs are absent.</note> about the saying of the
+               apostle who says, "Henceforth, my brethren, be strong in our Lord and in the power of his
+               might"<note type="footnote" n="878" resp="#ebrooks">Eph. vi, 10.</note>, and, it being the day
+               of the actual commemoration of the martyrs, and the king <pb n="323"/> having come to the
+               martyrs' chapel and withdrawn before the sermon, he delivered a discourse after the king's
+               departure, of which the beginning is: "Blessed is God for the greatness of the power of the
+               martyrs, for yesterday they drew the whole city with the queen, and to-day the king with his
+               soldiers, with great reverence". And, when in this discourse he was explaining about death and
+               the resurrection, he gave this teaching: "Since therefore the fear had increased and had shaken
+               the mind, see how thereafter he introduces also the hope concerning the resurrection, a dark
+               hope indeed and not clear, but still he introduces it. For Enoch, who came into being after
+               these things, he did not allow to die; and Paul says that 'by faith Enoch was translated that he
+               might not see death; and he was not found, because God translated him'. For he translated him
+               and did not allow him to die. He did not yet make him immortal, in order that he might not do
+               away the fear, but he remains without dying. And he is not immortal; but he gave continuance of
+               life in the mortal body, opening up, as I said, obscurely the hope of the resurrection"<note
+                  type="footnote" n="879" resp="#ebrooks">Ed. Par. 2a, XII, 474, 477. </note>. <pb n="324"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

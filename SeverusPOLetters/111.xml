@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3235">To Simus the Scriniarius</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">274 [444]-276 [446]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="111">
+            <head type="number">CXI.</head>
+            <head type="main" resp="#compiler">OF THE HOLY MAR SEVERUS FROM THE LETTER TO SIMUS THE
+               SCRINIARIUS<note type="footnote" n="1150" resp="#ebrooks">Ep. 4.</note>, SHOWING THAT THE
+               DIVINE INFLATION IN ADAM IS THE HOLY SPIRIT, AND THE POWER WHICH MAKES THE SOUL OF MAN. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0513" notAfter="0518 (?)">513-8 (?)</date>
+            </note>
+            <p> For against that contention we must vigorously make answer, that in <pb n="445"/> the
+               composition or fashioning of man the rational soul of man is not created before the body, nor is
+               the body formed before the soul. Why do you drag the teaching of the holy fathers which says
+               that the divine inspiration is the Holy Spirit, an active and operative force, and is the power
+               which makes the soul of man, to an abominable objection by saying this, that they who say this
+               absolutely and by all means clearly hold that the body is created first, and after the formation
+               is complete receives a soul, in that the Holy Scripture says, "And God created man dust from the
+               earth, and breathed into his face the breath of life"<note type="footnote" n="1151"
+                  resp="#ebrooks">Gen. II, 7.</note>, as if the formation comes first, and the animation follows
+               afterwards, in the second place, according to the narrative of Scripture? But we shall not
+               arrive at this cold supposition, if we receive in our mind that God creates, not like some
+               feeble man. <ab type="ellipsis" resp="#compiler">(<emph rend="ital">A little farther
+                  on.</emph>)</ab> It would perhaps be possible for us to adduce other testimonies also that the
+               human soul was created by divine inflation; but indeed this stands clear, that the holy Cyril
+               taught all of them in his writings, showing that the soul of man came into being by divine
+               inflation, and again that we are to <pb n="446"/> understand that, man having been created and
+               possessing a soul, the inflation inserted only spiritual gifts and patterns of divine
+               association.</p>
+            <p>And the holy Basil in what he wrote about the Holy Spirit taught as follows: "For, when Adam
+               had lost the grace derived from the divine inflation, Christ gave it back again, when he
+               breathed into the face of his disciples and said, 'Receive the Holy Spirit'"<note
+                  type="footnote" n="1152" resp="#ebrooks">De Spir. Sancto, xxxix (P. G., XXXII, 139), a loose
+                  citation. I cannot find the citation which follows.</note>. And again he said, "When he
+               breathed in intellect, he is not another diifering from him who breathed at the beginning, but
+               the same through whom he gave the inflation, then giving it with the soul, but now giving the
+               soul". So much we have written as an abundant elucidation of the words, "Let us make man in our
+               image"<note type="footnote" n="1153" resp="#ebrooks">Gen. I, 26.</note>, and of the words,
+               "breathed into his face the breath of life".</p>
+         </div>
+      </body>
+   </text>
+</TEI>

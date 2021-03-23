@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3212">To Anastasia the Deaconess</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">104 [274]-107 [277]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="70">
+            <head type="number">LXX</head>
+            <head type="main" resp="#compiler">OF THE SAME CONCERNING DAVID'S SAYING, "AS ARROWS IN THE HAND
+               OF A MIGHTY MAN, SO ARE THE SONS OF THE SHAKEN"<note type="footnote" n="731" resp="#ebrooks">
+                  Ps. Cxxvi, 4.</note>, FROM THE LETTER TO ANASTASIA THE DEACONESS<note type="footnote" n="732"
+                     resp="#ebrooks">As it appears from the preface to ep. 69 that A. had already addressed
+                     questions to Sev., I place ep. 70-72 about the same time.</note>. </head>
+            <note type="date" resp="#ebrooks">
+               <date notBefore="0522" notAfter="0526">522-6</date>
+            </note>
+            <p> But the words used in the 126th<note type="footnote" n="733" resp="#ebrooks">Ms.
+               '120th'.</note> Psalm, which is the 8th of the Songs of Ascents, "As arrows in the hand of a
+               mighty man, so are the sons of the shaken", should receive this interpretation. But the words
+               contained in this statement apply also in a higher sense to each man's soul which by means of
+               deeds of repentance is built up and renovated to form a holy temple of God. Those who returned
+               from Babylon to this tangible and visible Jerusalem became sons of the shaken; who after
+               captivity came to repentance, and by means of many trials were driven this way and that and
+               shaken, and produced fruits of repentance, and thereby merited the return. But those who build
+               up their own soul are in another sense sons of the shaken. <pb n="275"/> Divine Scripture calls
+               the holy prophets and apostles, and all who conducted themselves like these, 'the shaken',
+               because they shook out of their own soul like ashes all earthliness, whether thought or action,
+               and all the likeness of the creature of dust and of the old man, and introduced into and
+               impressed upon themselves instead of these the likeness of the heavenly one<note type="footnote"
+                  n="734" resp="#ebrooks">1 Cor. xv, 47-49.</note> by means of a new life, as through the mouth
+               of Isaiah our Lord is introduced saying to Jerusalem, and raising her obediently (?) from
+               earthly deeds, "Shake the dust from thee and rise"<note type="footnote" n="735">Is. LII,
+                  2.</note>. And a garment that is shaken is not eaten by moth, and remains whole and uneaten. So
+               therefore also those who by means of earnestness that is not eaten by evil things have been
+               preserved for the adoption are understood to be and are called shaken. And again. Those who like
+               smooth rocks that cannot be broken receive without changing the waves of this world and the
+               assault of trials will therefore be understood and that very rightly to be shaken : and the sons
+               of those who are shaken are the teachers of the church, who are held like arrows in the hand of
+               a mighty man. For God the Lord of hosts is able to shoot those who through the same men learn
+               religion, and to send into their <pb n="276"/> hearts the arrow of wisdom, the arrow of
+               righteousness, the arrow of love in him, which comprises all the virtues; and through the same
+               men also he shoots those too who oppose the word of truth, sending shafts of reproofs to effect
+               a saving restoration if they will. To these sons of the shaken therefore, who are as arrows in
+               the hand of a mighty man, he next gives a blessing, and says, "Blessed is the man who shall fill
+               his desire from them"<note type="footnote" n="736" resp="#ebrooks">Ps. cxxvi, 5.</note>, for a
+               blessing is given to the teacher who fills his desire by means of such arrows. But what else is
+               the teacher's desire except the things that are for the profit of the souls of those that are
+               saved? And this therefore should be understood not of a teacher only, but also of every
+               Christian who lives virtuously, and through his own manner of life shoots everyone else as with
+               arrows, and draws them to his own pattern. For those who so teach, or live, 'shall not be
+               ashamed when they speak with their enemies in the gate'<note type="footnote" n="737"
+                  resp="#ebrooks">Ibid.</note>; and the gate is the exit from this world. For, even when they
+               depart from the world, and take the last journey, and are about to go to the actual presence of
+               their God himself, the demons the enemies of man's life are no longer able to encounter them;
+               because, when they take <pb n="277"/> the last departure, those holy ones are not silent, but
+               speak with the high voice of deeds, and in company with the rulers, I mean with the good and
+               angelic hosts, who come to receive them, sing songs of victory and thanksgiving, according to
+               what is said in the 67th Psalm, "Rulers went in front following singers, in the midst of damsels
+               beating tambourines"<note type="footnote" n="738" resp="#ebrooks">Ps. LXVII, 26.</note>. And he
+               applies the expression 'damsels beating tambourines' to the souls which show youthful prowess
+               over evil passions, and like tambourines have deadened the bodies and fleshly desires.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
