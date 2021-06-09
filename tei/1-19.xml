@@ -11,10 +11,12 @@
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
-            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
             <respStmt>
                <resp>XML created by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>Based on the work of</resp>
@@ -22,7 +24,8 @@
             </respStmt>
             <respStmt>
                <resp>OCR corrected by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -30,10 +33,13 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -50,11 +56,10 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title type="main" xml:lang="en" level="m">
-                     The Sixth Book of the Select Letters of
-                     <persName ref="http://syriaca.org/person/51">Severus Patriarch of Antioch</persName>
-                     in the Syriac Version of
-                     <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                  <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
+                     of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
+                        Antioch</persName> in the Syriac Version of <persName
+                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part I</title>
                   <idno type="URI">http://syriaca.org/bibl/668</idno>
@@ -72,13 +77,23 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+            <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://syriaca.org/person/"/>
+            </correspAction>
+         </correspDesc>
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
