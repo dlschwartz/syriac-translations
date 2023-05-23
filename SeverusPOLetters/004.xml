@@ -10,10 +10,12 @@
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
-            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
             <respStmt>
                <resp>XML created by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
             <respStmt>
                <resp>Based on the work of</resp>
@@ -25,7 +27,8 @@
             </respStmt>
             <respStmt>
                <resp>Transcription correction and TEI encoding performed by</resp>
-               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -33,10 +36,13 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -62,11 +68,9 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m">
-                     A Collection of Letters of
-                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
-                     , from Numerous Syriac Manuscripts
-                  </title>
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
+                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                     Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
                      <publisher xml:lang="en">Firmin-Didot et cie</publisher>
@@ -75,7 +79,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">194 [22]-195 [23]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">194 [22]-195 [23]</biblScope>
+                  <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,14 +107,24 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+            <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://syriaca.org/person/"/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -118,24 +133,27 @@
       <body>
          <div type="letter" n="4">
             <head type="number">IV.</head>
-            <head type="main" resp="#compiler">OF THE SAME FROM THE LETTER TO SIMUS THE SCRINIARIUS, WHICH
-               BEGINS, "Unless I had some great affection for your illustriousness". </head>
+            <head type="main" resp="#compiler">OF THE SAME FROM THE LETTER TO SIMUS THE SCRINIARIUS,
+               WHICH BEGINS, "Unless I had some great affection for your illustriousness". </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518(?)">513-8(?)</date>
             </dateline>
-            <note resp="#compiler">[After first citing the passage of Basil which says, "'Unbegotten' is a
-               characteristic of a form of being, not of essence<note type="footnote" n="59" resp="#ebrooks">
-                  <foreign xml:lang="grc">οὐσία</foreign>.</note> "<note type="footnote" n="60" resp="#ebrooks"
-                     >P. G,, XXIX, 680.</note>, he speaks as <pb n="23"/> follows]<note type="footnote" n="61"
-                        resp="#ebrooks">I place this and the two following letters during episcopacy, because they deal
-                        with the definition of 'essence', which is also discussed in ep. 2. Epp. 7-9 naturally go with
-                        ep. 6.</note>.</note>
-            <p>But, if we interpret the saying rightly from the clear teachings of the saints and of the
-               other fathers, the meaning becomes plain, and there is nothing contradictory or dime alt in it:
-               for 'being' here expresses the distinct hypostasis of the Father. For the fathers said that the
-               Holy Trinity exists both in one essence<note type="footnote" n="62" resp="#ebrooks">
-                  <foreign xml:lang="grc">οὐσία</foreign>.</note>, and in the being of each, that is, three
-               hypostases, existing severally, of the Father, the Son, and the Holy Spirit.</p>
+            <note resp="#compiler">[After first citing the passage of Basil which says,
+               "'Unbegotten' is a characteristic of a form of being, not of essence<note
+                  type="footnote" n="59" resp="#ebrooks">
+                  <foreign xml:lang="grc">οὐσία</foreign>.</note> "<note type="footnote" n="60"
+                  resp="#ebrooks">P. G,, XXIX, 680.</note>, he speaks as <pb n="23"/> follows]<note
+                  type="footnote" n="61" resp="#ebrooks">I place this and the two following letters
+                  during episcopacy, because they deal with the definition of 'essence', which is
+                  also discussed in ep. 2. Epp. 7-9 naturally go with ep. 6.</note>.</note>
+            <p>But, if we interpret the saying rightly from the clear teachings of the saints and of
+               the other fathers, the meaning becomes plain, and there is nothing contradictory or
+               dime alt in it: for 'being' here expresses the distinct hypostasis of the Father. For
+               the fathers said that the Holy Trinity exists both in one essence<note
+                  type="footnote" n="62" resp="#ebrooks">
+                  <foreign xml:lang="grc">οὐσία</foreign>.</note>, and in the being of each, that
+               is, three hypostases, existing severally, of the Father, the Son, and the Holy
+               Spirit.</p>
          </div>
       </body>
    </text>
