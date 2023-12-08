@@ -140,7 +140,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -148,7 +156,6 @@
    <text>
       <body>
          <div type="letter" n="81">
-            <head type="number">LXXXI.</head>
             <head type="main" resp="#compiler">OF THE SAME TO JOHN OF BOSTRA<note type="footnote" n="795"
                resp="#ebrooks">Select Letters of Severus, viii, 4.</note>, EXPLAINING WHY, WHEN THE GOSPELS
                AND THE OTHER DIVINE SCRIPTURES SAY THAT CHRIST DAWNED UPON US IN THE LAST DAY, WE SEE THAT MANY

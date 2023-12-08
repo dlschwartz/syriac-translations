@@ -117,7 +117,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -125,7 +133,6 @@
    <text>
       <body>
          <div type="letter" n="33">
-            <head type="number">XXXIII</head>
             <head type="main" resp="#compiler">OF THE HOLY SEVERUS, FROM THE LETTER TO NEON THE
                PRESBYTER AND ARCHIMANDRITE<note type="footnote" n="239" resp="#ebrooks">Of Tagais
                   (Select Letters of Severus, p. 318, 320).</note>, ABOUT THE RECEPTION OF EUTYCHES. </head>
@@ -163,7 +170,6 @@
                plainly contain this expression, which was confessed by Eutyches, and confirmed by
                him, in that he asked that synod, "Do we all also agree to these things?" and they
                said, "We agree"<note type="footnote" n="246" resp="#ebrooks">Ibid., 744.</note>?</p>
-
          </div>
       </body>
    </text>

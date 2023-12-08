@@ -140,7 +140,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -148,7 +156,6 @@
    <text>
       <body>
          <div type="letter" n="69">
-   <head type="number">LXIX</head>
    <head type="main" resp="#compiler">THE LETTER OF THE HOLY MAR SEVERUS, PATRIARCH OF ANTIOCH, TO
     ANASTASIA THE DEACONESS<note type="footnote" n="664" resp="#ebrooks">Ep. v, 1 after exile (see
      text, p. 249). A so-called life of Anastasia (there called 'patrician') exists in Add. 14649

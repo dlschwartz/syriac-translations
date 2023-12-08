@@ -109,7 +109,15 @@
          <creation>
             <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -117,7 +125,6 @@
    <text>
       <body>
          <div type="letter" n="3">
-            <head type="number">III.</head>
             <head type="main" resp="#compiler">OF THE SAME FROM THE 5th LETTER TO OECUMENIUS, WHICH BEGINS,
                "When I read the letter addressed to the God-loving Peter the presbyter<note type="footnote"
                   n="57">Select Letters of Severus, p. 11; perhaps Severus' brother (id., p. 150). </note>". </head>

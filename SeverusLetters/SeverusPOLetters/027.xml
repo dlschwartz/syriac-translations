@@ -117,7 +117,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -125,7 +133,6 @@
    <text>
       <body>
          <div type="letter" n="27">
-            <head type="number">XXVII</head>
             <head type="main" resp="#compiler">OF THE HOLY SEVERUS FROM THE LETTER TO JOHN AND
                THEODORE AND JOHN THE GOD-LOVING PRESBYTERS AND ARCHIMANDRITES, AGAINST THE
                   CODICILS<note type="footnote" n="190"><foreign xml:lang="grc">κωδικιλία</foreign>.
@@ -323,7 +330,6 @@
                   the grace of God through which he had immortality, to the original state, through
                   the resurrection of the bodies into incorruption, by which this world also shall
                   partake of the freedom and the glory, as we have written.</p>
-
                <div type="ellipsis">
                   <p resp="#compiler">(<emph rend="ital">And after other things.</emph>)</p>
                </div>

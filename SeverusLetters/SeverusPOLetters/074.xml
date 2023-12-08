@@ -140,7 +140,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -148,7 +156,6 @@
    <text>
       <body>
          <div type="letter" n="74">
-            <head type="number">LXXIV</head>
             <head type="main" resp="#compiler">OF THE SAME FROM THE LETTER TO VICTOR THE PRESBYTER<note
                type="footnote" n="773" resp="#ebrooks">See ep. 30.</note>, THE BEGINNING OF WHICH IS, "With
                great pleasure I received the letter of your God-loving wisdom". </head>

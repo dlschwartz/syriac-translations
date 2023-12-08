@@ -140,7 +140,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -148,7 +156,6 @@
    <text>
       <body>
          <div type="letter" n="118">
-            <head type="number">CXVIII.</head>
             <head type="main" resp="#compiler">FRAGMENT OF A LETTER OF SEVERUS TO SOTERIC OF CAESAREA, FROM
                THE COPTIC.<note type="footnote" n="1190" resp="#ebrooks">I have, on account of its historical
                   importance, included this Coptic fragment, supplied by Mr. W.E.Crum, by kind permission of the

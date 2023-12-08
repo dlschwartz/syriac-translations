@@ -140,7 +140,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -148,7 +156,6 @@
    <text>
       <body>
          <div type="letter" n="88">
-            <head type="number">LXXXVIII.</head>
             <head type="main" resp="#compiler">OF THE SAME FROM THE 69th LETTER OF THE 4th BOOK OF THOSE
                APTER BANISHMENT, WHICH WAS ADDRESSED TO SERGIUS BISHOP OF CYRRHUS<note type="footnote" n="871"
                   resp="#ebrooks">Select Letters of Severus, v, 15, p. 121, 198; Mansi, VIII, 817; Mich., p.

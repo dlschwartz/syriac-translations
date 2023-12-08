@@ -140,7 +140,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -148,7 +156,6 @@
    <text>
       <body>
          <div type="letter" n="90">
-            <head type="number">XC.</head>
             <head type="main" resp="#compiler">OF THE SAME, FROM THE LETTER TO CONSTANTINE BISHOP OF LAODICEA
                <note type="footnote" n="885" resp="#ebrooks">S.L., p. 167, 214; Marcell., aim. 510; Zach. Bh.,
                   VIII, v; Mich., p. 266; P. L., LXIX, 23; Mansi, X, 1117. He is perh. the G. of Josh. Styl.,

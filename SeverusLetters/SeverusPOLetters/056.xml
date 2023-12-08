@@ -115,7 +115,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -123,7 +131,6 @@
    <text>
       <body>
          <div type="letter" n="56">
-            <head type="number">LVI</head>
             <head type="main" resp="#compiler">OF MAR SEVERUS TO CAESARIA THE HYPATISSA, BY WAY OF DEFENCE
                FOR HIS OWN FEAR AND TIMIDITY, AND THAT TO FEAR WHEN IT HAS HAPPENED THAT TRIALS BESET US WORKS
                A REWARD AND IS A MARK OF LOVE OF GOD. </head>

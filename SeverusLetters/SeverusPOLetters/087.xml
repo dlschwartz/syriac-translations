@@ -140,7 +140,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -148,7 +156,6 @@
    <text>
       <body>
          <div type="letter" n="87">
-            <head type="number">LXXXVII.</head>
             <head type="main" resp="#compiler">OF THE SAME ON OUR LORD'S SAYING, " I WILL NOT DRINK WITH YOU
                HENCEFORTH OF THIS PRODUCT OF THE VINE TILL THE DAY ON WHICH I SHALL DRINK IT ANEW WITH YOU IN
                MY FATHER'S KINGDOM"<note type="footnote" n="862" resp="#ebrooks">Matth. XXVI, 20.</note>, FROM

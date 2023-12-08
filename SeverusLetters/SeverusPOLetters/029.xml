@@ -115,7 +115,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -123,7 +131,6 @@
    <text>
       <body>
          <div type="letter" n="29">
-            <head type="number">XXIX</head>
             <head type="main" resp="#compiler">OF THE HOLY SEVERUS FROM THE 63rd LETTER OF THE 2nd BOOK OF
                THOSE WRITTEN DURING EPISCOPACY, TO ANTONINUS BISHOP OF BERRHOEA<note type="footnote" n="213"
                   resp="#ebrooks">Select Letters of Severus. i, 14-16; p. 167; Zach. Rh., viii, 5; Wright,

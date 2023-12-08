@@ -140,7 +140,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -148,7 +156,6 @@
    <text>
       <body>
          <div type="letter" n="73">
-            <head type="number">LXXIII</head>
             <head type="main" resp="#compiler">OF THE SAME, AS TO WHAT IS THE MEANING OF THE SAYING THAT
                THOSE WHO HAVE RECEIVED THE HEAVENLY SEED WILL PRODUCE FRUIT A HUNDREDFOLD AND SIXTYFOLD AND
                THIRTYFOLD<note type="footnote" n="768" resp="#ebrooks">Matth. xiii, 23.</note>, FROM THE

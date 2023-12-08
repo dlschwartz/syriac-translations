@@ -115,7 +115,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -123,7 +131,6 @@
    <text>
       <body>
          <div type="letter" n="52">
-            <head type="number">LII</head>
             <head type="main" resp="#compiler">OF THE SAME FROM THE 2nd LETTER TO THE SAME PHILIP THE
                PRESBYTER AND MONK<note type="footnote" n="424" resp="#ebrooks">Select Letters of Severus, i, 51
                   (which precedes in our ms.); p. 181, 364; above, p. 104. It is most natural to suppose that

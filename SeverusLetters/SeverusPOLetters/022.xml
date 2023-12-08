@@ -117,7 +117,15 @@
             <origDate type="composition"
             /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc><correspAction type="sent"><persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></correspAction><correspAction type="received"><persName ref="http://syriaca.org/person/"></persName></correspAction></correspDesc></profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
       </revisionDesc>
@@ -125,7 +133,6 @@
    <text>
       <body>
          <div type="letter" n="22">
-            <head type="number">XXII</head>
             <head type="main" resp="#compiler">THE TEACHER OF THE TRUTH SAID THEREFORE IN THE LETTER
                TO JOHN AND JOHN PRESBYTERS AND ARCHIMANDRITES<note type="footnote" n="100"
                   resp="#ebrooks">Select Letters of Severus, i, 49,50; ii, 2; v, 11,12; p. 395. The
