@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3227">To Caesaria the Hypatissa</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">246 [416]-252 [422]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="101">
+            <head type="main" resp="#compiler">OF THE SAME FROM THE LETTER TO CAESARIA THE HYPATISSA.</head>
+            <dateline resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </dateline>
+            <p> But the Lord, when after the Resurrection he breathed upon the disciples <pb n="417"/> and
+               said, "Receive the Holy Spirit"<note type="footnote" n="1085" resp="#ebrooks">John xx.
+                  22.</note>, (since you ask this question also besides), gave them a beginning only of the gifts
+               of the Spirit, and, as one may say, one kind among the many gifts of the Spirit which Paul
+               enumerated in writing to the Corinthians<note type="footnote" n="1086" resp="#ebrooks">1 Corinthians
+                  xii, 7-10.</note>, I mean that of binding and loosing men's sins. This was signified by the
+               addition, in that that Giver of the gifts of the Spirit said, "If ye forgive any men's sins they
+               shall be forgiven to-them; and if ye bind any men's sins they shall be bound"<note
+                  type="footnote" n="1087" resp="#ebrooks">John xx, 23.</note>. And by means of the breathing he
+               taught them in very mysterious fashion that he is himself the Creator of Adam, whom he formed
+               out of earth and into whose face he breathed the Spirit of life, and that he made man 'a living
+               soul' as it is written<note type="footnote" n="1088" resp="#ebrooks">Genesis ii, 7.</note>, shining
+               in the spiritual image and the beauty that flashes from it, and sharing in the divine likeness.
+               And by breathing into the disciples he majestically shows that the Holy Spirit himself is of his
+               essence<note type="footnote" n="1089" resp="#ebrooks"><foreign xml:lang="grc"
+                  >οὐσία</foreign>.</note> and not alien.</p>
+            <p>And in addition to that you ask this other question, how then we are able to explain how it is
+               that our Lord Christ does not speak falsely who says, "As Jonah was three days and three nights
+               in the fish's belly, so shall the Son of man be three days and three nights in the heart of the
+               <pb n="418"/> earth<note type="footnote" n="1090" resp="#ebrooks">Ms. om.</note>"<note
+                  type="footnote" n="1091" resp="#ebrooks">Matthew XII, 40.</note>. Some say that we are to reckon
+               the time from the very evening of the 5th day of the week when our Saviour supped with the
+               disciples, and instituted the new Passover, causing the old to cease, since it was from that
+               time that our Lord was virtually sacrificed of his own accord on our behalf, and went down into
+               the lower parts of the earth, and they say that the one night and the six hours of the
+               preparation should be reckoned as one day and night, and the darkness from the 6th hour to the
+               9th and the light from the 9th hour till sunset as the 2nd day and night, so that
+               consequentially the following night and the sabbath-day make up the whole of the 3rd day and
+               night, and in this way it is to be believed that our Lord rose after three days and nights. But
+               others<note type="footnote" n="1092" resp="#ebrooks">Dionysius of Alexandria; see Conybeare in
+                  Journ. Theol. Stud., XV, 440.</note> have appeared to give another elucidation upon the
+               question<note type="footnote" n="1093" resp="#ebrooks"><foreign xml:lang="grc"
+                  >θεωρία</foreign>.</note> before us, which is subtle and very accurate. They said that
+               according to the custom and tradition contained in Scripture every day with the night preceding
+               it are<note type="footnote" n="1094" resp="#ebrooks">Sic Syr.</note> combined into one entity.
+               Thus in Exodus, when Moses was giving orders about the Passover and about the feast of
+               unleavened bread, he said, "When the 14th day of the 1st month beginneth, ye <pb n="419"/> shall
+               eat unleavened bread from the evening"<note type="footnote" n="1095" resp="#ebrooks">Exodus XII,
+                  18.</note>, and he counted the beginning of the following day from the preceding evening: and
+               the cessation of the sabbath he instituted the same way, so that they were to cease from work on
+               the preceding night and the following day; and the Jews are known to observe this down to this
+               day, and to honour not the night after the sabbath but the night before the sabbath by cessation
+               and- abstention from work; and we ourselves on the Ist day of the week honour the preceding
+               night as united with the honoured day, and not the night following. Accordingly therefore they
+               say that every night-and-day is as one may say one entity, and, what therefore anyone does
+               during one of these 24 hours, that act is said to have been performed on the whole of that day.
+               As for instance, when a man is sent on a long journey and returns to his own country or city
+               either on the 2nd or on the 3rd day of the week, this man entered the city during one hour or a
+               small portion of an hour, but everyone says, "So-and-so arrived on the 2nd day of the week" or
+               "on the 3rd", and they reckon the whole day which is one with the preceding night to his
+               arrival. <pb n="420"/> And therefore, they say, we should on this principle regard the period of
+               the three days' burial, and the descent of our God and Saviour who became incarnate into Sheol,
+               as beginning from the time when he truly entered the heart of the earth; and that he did after
+               he gave up his spirit, saying, "My Father, into thy hands I commit my spirit"<note
+                  type="footnote" n="1096" resp="#ebrooks">Luke xxiii, 46.</note>, and then his spirit departed,
+               and thus, though he was united in a perfect union, the soul and the body were separated from one
+               another, and through the burial of the body he does away corruption in graves, and through the
+               soul he is seen in the lower parts' of the earth, and he released those who were bound in
+               graves. Then it was therefore that he entered the heart of the earth, when 'he went down', as
+               Paul says, 'to the lower parts of the earth'<note type="footnote" n="1097" resp="#ebrooks">Ephesians
+                  iv, 9.</note>, that is to the lowest limits and to the gloomy crowns (?)<note type="footnote"
+                     n="1098" resp="#ebrooks">This word is probably corrupt.</note> in the earth; From the departure
+               of the spirit therefore the three day-and-nights are to be counted; and the departure took place
+               at the 9th hour of the preparation, when three hours of the day remained. Since therefore the
+               preparation is according to the custom handed down in Scripture united with the preceding night,
+               we reckon that our Lord spent the whole of the day and the night of the preparation in the heart
+               of the earth, and then after sunset the sabbath begins and its <pb n="421"/> night, the day
+               which the Jews honour by a cessation; and the whole of this together with the following day
+               which is joined to it our Lord spent in the lower parts of the earth. But, when the sabbath had
+               gone by, and had been completed by the, setting of the sun, then began the night of the 1st day
+               of the week; and the night again and the day following it are to be reckoned in order according
+               to that same custom of Scripture, and our Lord will be found to have risen from the place of the
+               dead on the 3rd day-and-night, that of the 1st day of the week; for in fact one who passed the
+               beginning of a day-and-night in the heart of the earth is to be reckoned as having spent the
+               whole of that day-and-night there. For this reason they say that Christ spent the preparation in
+               the lower parts of the earth as regards the last portion of the day-and-night, and the 1st day
+               of the week as regards the first portion, and the sabbath entirely through all the #twenty-four#
+               hours, keeping the day of the Jews' feast in mourning, that thereby also he might fulfil the
+               prophecy spoken through the prophet Amos, which threatens the Jews and says, "I will turn your
+               feasts into mourning, and all your songs into wailing"<note type="footnote" n="1099"
+                  resp="#ebrooks">Amos, viii, 10.</note>. But those men say also that the three hours' darkness
+               which took place is reckoned to be a night, and this is forced; for this darkness is not a
+               night, <pb n="422"/> but an affliction of day; and they say that they are prevented from holding
+               anything of the kind by the prophecy of Zechariah also, who prophesies about that day as
+               follows: "On that day there shall be no light, and cold and frost shall be one day, and that day
+               shall be known to the Lord, neither day nor night, and towards evening there shall be
+               light"<note type="footnote" n="1100" resp="#ebrooks">Zech. xiv, 6, 7.</note>. See! the prophet
+               plainly says, "On that day there shall be no light", and, having first plainly named the
+               darkness, he prevented such an affliction and the light which rose afterwards from being
+               reckoned a night and a day by saying "neither day nor night"; and this he says plainly, in order
+               that no one may reckon this a day and a night. As to the statement, "Cold and frost shall be one
+               day", it is not unreasonable for us to understand it to mean that there was actually sensible
+               cold and frost on that day; and supra-sensually that, because at a certain time fiery fervour
+               had grown cold among the Jews, the grace of the Holy Spirit ceased to work among them<note
+                  type="footnote" n="1101" resp="#ebrooks">Ms. om.</note>. This also besides we should know, that
+               our Lord in the gospels sometimes said that he was destined to rise on the 3rd day, and
+               sometimes that he would rise after three days, the expression signifying that even the beginning
+               of the 3rd day is reckoned a whole day. <pb n="423"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3170">To the Presbyters and Archimandrites, Jonathan and Samuel and John, Who Were Standing on Pillars</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a">Letters I to LXI</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
+                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                     Numerous Syriac Manuscripts </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">216 [44]-218 [46]</biblScope>
+                  <!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">12</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="23">
+            <head type="main" resp="#compiler">AGAIN OF THE SAME, FROM THE LETTER TO THE PRESBYTERS AND
+               ARCHIMANDRITES, JONATHAN AND SAMUEL AND JOHN, WHO WERE STANDING <pb n="45"/> ON PILLARS, AND ALL
+               THE REST OF THE ORTHODOX<note type="footnote" n="107" resp="#ebrooks"><foreign xml:lang="grc"
+                  >ὀρθόδοξοι</foreign>.</note> WHO ASSEMBLED IN THE CHURCH OF THE CITY OF AN BAR, AND IN THE
+               CHURCH OF HIRTHA DNU'MAN. </head>
+            <dateline resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538 (?)">519-38 (?)</date>
+            </dateline>
+            <p>For he said, "Go make disciples of all nations, baptizing them in the name of the Father and
+               the Son, and the Holy Spirit"<note type="footnote" n="108" resp="#ebrooks">Matthew xxviii,
+                  19.</note>; so that there is aHoly Trinity, divided and distinct in hypostases, but not divided
+               in one essence<note type="footnote" n="109" resp="#ebrooks"><foreign xml:lang="grc"
+                  >οὐσία</foreign>.</note> and Godhead, and kingship and glory and eternity and the other
+               attributes which God has by nature. For the Father has one thing hypostatically, fatherhood, and
+               the fact that he is unbegotten; and the Son again has one thing hypostatically, sonship, and the
+               fact that he was begotten by the Father; and the Holy Spirit again has one thing, the fact that
+               he was not begotten, but proceeds eternally without beginning from the Father: for in virtue of
+               these things distinctness of person belongs to each one of them, that is, is marked out and
+               defined for the hypostases, but all the other attributes are, as I have said, common, equal in
+               honour and undivided, and such as show that we for our part have believed in one God, and in one
+               <pb n="46"/> essence<note type="footnote" n="109" resp="#ebrooks"><foreign xml:lang="grc"
+                  >οὐσία</foreign>.</note>, and he exists and is made known in three hypostases. For the Son was
+               begotten by the Father, and the Spirit proceeds from the Father, although eternally and without
+               time, and their ascent is to him, as to a root and source, and from him they are, though they
+               are not after him. And for this reason, while we confess three hypostases, we do not believe in
+               three first causes, but one first cause, and one kingship. After pursuing the matter so far we
+               praise only and do not investigate what the unbegottenness of the Father is, or what the
+               generation of the Son is, or what the procession of the Holy Spirit is; for these things are
+               known only by the Father who begot and the Son who was begotten, and the Holy Spirit who
+               proceeds from the Father: but he requires us to know 'through these things that we are to
+               confess one essence<note type="footnote" n="110" resp="#ebrooks"><foreign xml:lang="grc"
+                  >οὐσία</foreign>.</note> and Godhead, made known in three distinct hypostases.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

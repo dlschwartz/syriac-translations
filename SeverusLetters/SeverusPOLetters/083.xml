@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3221">To John</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">132 [302]-138 [308]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="83">
+            <head type="main" resp="#compiler">OF MAR SEVERUS TO JOHN<note type="footnote" n="809"
+               resp="#ebrooks">John of Bostra (ep. 81) (?).</note>, THAT, ACCORDING TO THE LETTER, BOTH CHRIST
+               AND PAUL ABOLISHED THE LAW, BUT, ACCORDING TO THE SPIRIT, THEY CONFIRM IT. </head>
+            <dateline resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </dateline>
+            <p> We say that according to the letter the law was abolished through Christ, but that in the
+               spirit it was much more fully brought to confirmation. But what were the things of the letter?
+               Sacrifices, sprinklings, various temporary cleansings repeated at stated times, and other
+               similar things, which were different from heathen demon-worship, but prefigured the truth as in
+               a shadow, as Paul also says: "For the law contained a shadow of the future good things, not the
+               very image of the facts"<note type="footnote" n="810" resp="#ebrooks">Hebrews x, 1.</note>. In the
+               <pb n="303"/> same way Gregory the Theologian<note type="footnote" n="811" resp="#ebrooks"
+                  ><foreign xml:lang="grc">θεολόγος</foreign>.</note> also in the homily on the Holy Spirit
+               wrote thus: "The first, when it cut away idols conceded sacrifices: the second, when it caused
+               sacrifices to pass away, did not forbid circumcision. But afterwards, when they had once
+               accepted the suppression, they conceded even what had been conceded, the one sacrifices, the
+               other circumcision; and they became instead of Gentiles Jews, and instead of these Christians,
+               having by a gradual change of position been brought near to the gospel. Let Paul persuade you of
+               this, who from circumcising and being purified was brought to say: 'But as for me, my brethren,
+               if I still preach circumcision, why do I continue to be persecuted?' The one is a matter of the
+               dispensation, the other of perfection"<note type="footnote" n="812" resp="#ebrooks">Or. Theol.
+                  v, 25.</note>.</p>
+            <p>That God permitted sacrifices in order to lead men to shun idolatry, Moses also testifies,
+               since in Leviticus he wrote thus, after he had said that those of Israel were not allowed to
+               perform any kind of sacrifice in another place besides the tent of witness: "And they shall no
+               longer perform their own sacrifice to the vanities after whom they themselves go a whoring"
+               <note type="footnote" n="813" resp="#ebrooks">Leviticus XVII, 7.</note>. When therefore we say that
+               the enactments which were laid down for that infant people, who were incapable of rising to the
+               perfect service of God, <pb n="304"/> that I mean which is performed through the spirit, when
+               the perfection came, which is Christ, were in the bodily form done away, we do not sin<note
+                  type="footnote" n="814" resp="#ebrooks">Sc <foreign xml:lang="grc">ἁμαρτάνομεν</foreign> (err):
+                  cf. p. 77, n. 3.</note>. Let me, as if dealing with a hypothesis<note type="footnote" n="815"
+                     resp="#ebrooks"><foreign xml:lang="grc">ὑπόθεσις</foreign>.</note>, test the matter. Various
+               animals were formerly sacrificed for sin, and the blood of these was brought into the sanctuary
+               by the high-priest, while, their bodies were delivered to be burnt outside the camp. This kind
+               of sacrifices therefore symbolized beforehand the great sacrifice which balances the great sin
+               of the world, as Paul also says: "For, as for the animals whose blood was brought into the
+               sanctuary because of sins by the high-priest, the bodies of these were burnt outside the camp.
+               Therefore Jesus also, in order to sanctify the people by his own blood, suffered outside the
+               gate"<note type="footnote" n="816" resp="#ebrooks">Hebrews xiii, 11, 12.</note>. Since then Christ
+               the Saviour of all was sacrificed in the original model on the cross, and is also slaughtered so
+               to speak every day on the altar, and is distributed to the believers limb by limb by the hand of
+               the priests, who is so mad, and so exceedingly uninstructed in the greatest matters, as to dare
+               to deny that the type was abolished in the letter, that is according to the bodily form, and the
+               <pb n="305"/> sacrifice of animals ceased, but the intellectual meaning<note type="footnote"
+                  n="817"><foreign xml:lang="grc">θεωρία</foreign></note> was also preserved according to the
+               spirit, in which the truth was prefigured through it? After the same manner also the eating of
+               unleavened bread was abolished according to the letter, but according to the spirit it is still
+               maintained, in that we 'keep the feast not in the leaven of wickedness and bitterness, but in
+               the unleavened bread of purity and truth'<note type="footnote" n="818" resp="#ebrooks">1 Corinthians v,
+                  8.</note>. <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">A little farther
+                     on.</emph>)</supplied> But we will grant if you wish that the wax represents the letter, and the
+               bronze that has been melted is the perfection in the spirit. If then it is the fact that, when
+               the bronze is brought to the fire, it is reduced to non-existence, and the wax, when liquefied,
+               gives to the bronze the shape only of that which was fashioned, explain if you have any abundant
+               store of wisdom. But, if the wax has been dissolved and liquefied, the letter will be dissolved,
+               but the spiritual meaning<note type="footnote" n="819"><foreign xml:lang="grc"
+                  >θεωρία</foreign>.</note> of the law will remain, preserving the form<note type="footnote"
+                     n="820" resp="#ebrooks"><foreign xml:lang="grc">σχῆμα</foreign>.</note> of the letter. or Cyril
+               teaches and says: "We have not relegated the types to utter desolation(?), though certainly to
+               partial desolation, I mean since the letter of the bodily observances ceases"<note
+                  type="footnote" n="821" resp="#ebrooks">I do not know the source of this citation.</note>.
+               Listen to the expressions of Gregory <pb n="306"/> the Theologian<note type="footnote" n="822"
+                  resp="#ebrooks"><foreign xml:lang="grc">θεολόγος</foreign>.</note>, and let the words of that
+               man and his thoughts be a law to you, and a fixed ordinance, since they are indeed such to all
+               Christians. When in the homily on the Passover he discussed the meaning<note type="footnote"
+                  n="823">The word <foreign xml:lang="grc">θεωρία</foreign> is here preserved. </note> of all the
+               rites performed at the old Passover, he also caused the hearer to pass from the letter to the
+               spirit: for, when he came to the staff, and solved the riddle of this, he commanded the man who
+               eats this our Passover in truth to lean upon the staff of faith, using these words: "Stand
+               firmly, with feet strongly planted, being in no point shaken by the adversaries, nor carried
+               away by words of plausibility. These things Christ fulfilled, the subverter of the letter, the
+               fulfiller of the spirit"<note type="footnote" n="824" resp="#ebrooks">Or. XLV, 19, 21.</note>.
+               If 'the letter killeth, but the spirit giveth life'<note type="footnote" n="825" resp="#ebrooks"
+                  >2 Corinthians III, 6.</note>, and Christ is life as it is written, "When Christ our life shall be
+               revealed"<note type="footnote" n="826"> Colossians iii, 4.</note>, how can it be that when the life
+               came that which slew was not abolished? since, if you deny that the law was abolished in the
+               letter, but brought to confirmation in the spirit, Paul also will be seen to say contradictory
+               things, writing in one place that he 'annulled the law of commandments in teachings'<note
+                  type="footnote" n="827" resp="#ebrooks"> Ephesians ii, 15.</note>, and saying in another, "Do we
+               therefore annul the law through faith? For be it. Nay we establish the law"<note type="footnote"
+                  n="828" resp="#ebrooks">Romans iii, 31.</note>, recognising the <pb n="307"/> commandment as
+               'holy and just and good'<note type="footnote" n="829" resp="#ebrooks">Romans viii, 12.</note>, and
+               in another sorrowfully crying to those who chose after recognition of the truth to live by the
+               law, "Ye who are justified in the law have been annulled from Christ, ye have fallen from
+               grace"<note type="footnote" n="830" resp="#ebrooks">Galatians v, 4.</note>. It is a thing impossible
+               that of the same object he should say that it has been annulled and openly confess that it has
+               been established, and that he should admire it as just and good, while he rejects those who are
+               justified in this and asserts that they have fallen from the grace that is in Christ. For it
+               seems to some extent likely that we [shall remove] the enigma<damage><supplied resp="#ebrooks">.....</supplied></damage> from
+               doubt if we look carefully at the words of Gregory the Theologian<note type="footnote" n="831"
+                  resp="#ebrooks"><foreign xml:lang="grc">θεολόγος</foreign>.</note>; for he called Christ 'the
+               subverter of the letter, but the fulfiller of the spirit'. Let us therefore cleave to the law
+               inasmuch as it has been fulfilled, but let us neglect it, let us make haste to eradicate it with
+               the swift foot of the word inasmuch as it has been abolished, rightly treating its bodily
+               observances with contempt. Nay, you say, but that holy man says that the letter was abolished,
+               while you say the law, inasmuch as you said that Paul is a subverter of the law. Rather <damage><supplied resp="#ebrooks">.....</supplied></damage> from what we have said you have the certain truth which <pb n="308"
+                  /> was before likely. When Paul says that the law of commandments was annulled, we say that he
+               means that according to the letter it was annulled, trusting to the words of Gregory; and there
+               is therefore nothing that prevents me also from calling the letter the law. However<note
+                  type="footnote" n="832" resp="#ebrooks"><foreign xml:lang="syr">ܒܪܡ ܐܠܐ</foreign> here
+                  represents <foreign xml:lang="grc">πλὴν ἀλλά</foreign>.</note>, if you desire to hear one of
+               the fathers saying that the law was abolished when he should have said the letter, we will
+               readily produce this citation also for you.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

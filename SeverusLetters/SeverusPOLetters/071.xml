@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3100">To Anastasia the Deaconess</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">107 [277]-117 [287]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="71">
+            <head type="main" resp="#compiler">OF THE SAME FROM THE 8th LETTER OF THE 2nd BOOK OF THOSE AFTER
+               EXILE, WHICH WAS ADDRESSED TO ANASTASIA THE DEACONESS. </head>
+            <dateline resp="#ebrooks">
+               <date notBefore="0522" notAfter="0526">522-6</date>
+            </dateline>
+            <p> As to the words therefore which the Evangelist Matthew wrote that our Lord and God and
+               Saviour Jesus Christ used: "Pray that your flight be not in the winter nor on the sabbath"<note
+                  type="footnote" n="739" resp="#ebrooks">Matthew XXIV, 20.</note>, know that they have a double
+               meaning, and as a historical fact this has already happened to the Jews at the time <pb n="278"
+               /> of the captivity at the hands of the Romans<note type="footnote" n="740" resp="#ebrooks">In
+                  another version (EK) om.</note>, but in a higher sense it is expected to take place at the end
+               of the whole world. In fact after the outrage on the cross the judgment of God-slayers was
+               exacted from them when the Romans took arms against them, and encamped over all Judaea and over
+               the country round for whole years, and during the winter-seasons the evil consequences of war
+               prevailed, and these especially in the winter when the fighting-men were idle; and not so only,
+               but on the sabbath also they were slaughtered, because on account of the cessation of the
+               sabbath they could not take arms in their hands and exact vengeance from those who were fighting
+               with them. And this is often recorded by those who described the calamities of those men, that,
+               by reason of the distress of the calamities which came upon them, they disregarded even the
+               cessation of the sabbath, and took arms against their adversaries: nevertheless even so they
+               fell with a complete and lamentable fall, and endured utter ruin. But, when our Saviour's words
+               in respect of this prophecy are raised in meaning so as to refer to the time of the end and of
+               Antichrist, it induces believers <pb n="279"/> always to persevere in works of virtue, and
+               strive not to be caught by the winter or by the sabbath, at the time of the end, or the
+               departure of every soul and its separation from the body, the winter signifying absence of
+               fruit, and the sabbath cessation from virtue: for we know that the winter is unproductive as
+               regards the production of fruit, and that the sabbath signifies cessation. For the winter, in
+               which there is much rain and falls of snow, and gathering of clouds and a murky atmosphere<note
+                  type="footnote" n="741" resp="#ebrooks"><foreign xml:lang="grc">ἀήρ</foreign>.</note>, and
+               scarceness of pure air<note type="footnote" n="741" resp="#ebrooks"><foreign xml:lang="grc"
+                  >ἀήρ</foreign>.</note>, may denote confusion. The intention of the saying therefore is that
+               our souls should be active and fruitful, and free from confusion as regards readiness and
+               preparation for acts of religion, as in the words sung by David the prophet, "I was made ready
+               and was not confounded"<note type="footnote" n="742" resp="#ebrooks">Psalm CXVIII, 60.</note>. In
+               the same way should also be interpreted the saying, "Woe to them that are with child and to them
+               that suckle in those days"<note type="footnote" n="743" resp="#ebrooks">Matthew XXIV, 19.</note>.
+               For this also occurred as a historical fact throughout Judaea, when the hand of the Romans
+               fought with them, so that the women who were with child and those who were <pb n="280"/>
+               suckling were pitifully slain with their children themselves, either while they were yet in the
+               womb or while they were being nourished at the breast. And in a higher sense on the last day the
+               souls are to be reckoned as objects of pity which received in the mind the practice of virtue
+               and bear it as in a womb, and began to hold the seed of the word of religion, which was with
+               difficulty conceived in them, which bring forth to the light and as it were give birth, but
+               produce the thing itself in very imperfect form, like women who are unable to give perfect
+               nourishment to their babies. For those who cultivate virtue must according to the parable that
+               is in the gospel bear the full measure so as to rise to the number of 100, or produce fruit of
+               the measure of 60, or at least of 30; for what is less than this should like an
+               incompletely-formed and unnourished babe be reckoned as nothing.</p>
+            <p>But the saying "Where the corpse is, there will the eagles be gathered together"<note
+               type="footnote" n="744" resp="#ebrooks">Matthew xxiv, 28.</note> is spoken as a kind of simile
+               and proverb and illustration. As, when a dead body is found lying anywhere, both eagles and
+               other birds of <pb n="281"/> prey come from different quarters from very lofty heights, suddenly
+               and unexpectedly, in order to be fed, 'in the same way' (he says) 'shall be also the coming of
+               the Son of man' <note type="footnote" n="745" resp="#ebrooks">Matthew xxiv, 27.</note>, for, when
+               he shall again appear upon the earth, at the glorious second coming to judge the world, and
+               shall appear with armed ranks of angels, all the saints also, rising 'suddenly and in the
+               twinkling of an eye at the last trump'<note type="footnote" n="746" resp="#ebrooks">1 Corinthians xv,
+                  52.</note>, as the apostle said, shall suddenly all appear like some swift eagles of rapid
+               motion. And very rightly were they compared to eagles, because they had high and heavenly
+               thoughts, and lived in a manner worthy of the kingdom of heaven. But some have tried to
+               interpret this saying in the following way, and have said that at the Lord's second coming all
+               those who have lived a righteous life, and were like high and heavenly eagles in their mind,
+               shall receive Paradise, and shall be gathered in the same place where Adam's fall<note
+                  type="footnote" n="747" resp="#ebrooks">Sc. <foreign xml:lang="grc">πτῶμα</foreign>, the word
+                  which is used for 'corpse'.</note> was, and the disobedience through which he fell into sin. Of
+               the words, "Two men shall be at that time m the field, one is taken away and one left, two women
+               shall be grinding <pb n="282"/> in the mill, one is taken away and one left"<note
+                  type="footnote" n="748" resp="#ebrooks">Matthew 24:40, 41.</note> this is the explanation.
+               The field is the world, according to what was said by our Saviour, "He that soweth the good seed
+               is the Son of man; but the field is the world"<note type="footnote" n="749" resp="#ebrooks">Matthew 13:37, 38.</note>. Those therefore who have received the seed of the gospel, and the word of
+               religion, while they are in the field and at work, either are taken into the kingdom because
+               they are working and acting strenuously, or are left and remain as men who are indolent and
+               slothful and lax. And the mill after the same model is this world, in which we pass our<note
+                  type="footnote" n="750" resp="#ebrooks">In another version (V) 'men pass their'.</note> time as
+               at a mill, eating bread by labour and toil; and some strenuously undergo hardship and exertion
+               in works of righteousness, while others spend their time in vain acts which pass away like a
+               shadow. And on account of those things<note type="footnote" n="751" resp="#ebrooks"> (V) 'of
+                  these also'.</note> therefore it is <pb n="283"/> manifest that some are taken and others left.
+               But the very wise Luke the Evangelist wrote this passage in the following form: "In this night
+               there shall be two in one bed; the one shall be taken and the other left. There shall be two
+               women grinding together; the one shall be taken away but the other left"<note type="footnote"
+                  n="752" resp="#ebrooks">Luke xvii, 34, 35.</note>. And these things are brought about
+               beforehand by each act, of the rich that is and of the poor, some of whom because they have done
+               deeds worthy of the kingdom of heaven shall be taken, while others who have been negligent shall
+               be left. For indeed even those who are in bed, those that is to say who enjoy ease in this
+               world, and are in the portion of the rich, who<note type="footnote" n="753" resp="#ebrooks">Sic
+                  Syr.</note>, if they administer the riches well, shall earn the privilege <pb n="284"/> of the
+               kingdom of God, but those who spend this on vanities will justly be despised and put to
+               contempt. But by the work of the mill those again are denoted who live in poverty and contempt,
+               according to what is said in Exodus, "And all the firstborn shall die in the land of Egypt, from
+               the firstborn of Pharaoh who sitteth on his throne down to the firstborn of the bondwoman who is
+               in the mill-house"<note type="footnote" n="754">Exodus xi, 5.</note>; so that from this it is
+               manifest that the name of [mill-house or<note type="footnote" n="755" resp="#ebrooks">These
+                  words must have been inserted by the translator in ref. to Pesh. <foreign xml:lang="syr"
+                     ><foreign xml:lang="syr">ܒܝܬ ܪܚܝܐ</foreign></foreign>. LXX <foreign xml:lang="grc">παρὰ τὸν
+                        μὐλον</foreign>.</note>] mill signifies the utter contempt and poverty of those who continue
+               in such service for the sake of daily sustenance. Accordingly our Lord's saying in the gospel
+               signifies that both from among the rich who enjoy ease upon beds, and from among the utterly
+               poor who are occupied in contemptible employments on the last day some shall be found, of whom
+               <pb n="285"/> some will be saved, while others will perish, and neither poverty nor riches
+               are<note type="footnote" n="756" resp="#ebrooks">Sic Syr.</note> impediments to him who seeks
+               to live in the fear of God, in order to earn the kingdom of heaven. But some have said that the
+               words "Two women shall be grinding in the mill, one is taken and one is left" were meant by our
+               Saviour to refer to those who teach in the church. For those men grind the word of teaching as
+               in a mill for those who learn, and lay rational bread before them, suprasensually feeding the
+               souls. Wherefore also they say that what is written in Deuteronomy, "Thou shalt hot take a
+               millstone nor an upper millstone in pledge, because this man taketh a soul in pledge"<note
+                  type="footnote" n="757" resp="#ebrooks">Deuteronomy xxiv, 6.</note>, was meant to refer to teaching,
+               that a teacher must not lay them under any debt and bond of debt, since the souls of those who
+               are <pb n="286"/> taught are taken in pledge, and made void<note type="footnote" n="758"
+                  resp="#ebrooks">In another version (E) 'and pass away from the teaching which takes the
+                  souls<damage><supplied resp="#ebrooks">......</supplied></damage>taught in pledge, and fails'. </note> in respect of the
+               principles of religion and the hope that arises thence. And this holy Scripture signifies in
+               Koheleth also, saying of the time of the end, "And the grinding-women ceased because they had
+               became few"<note type="footnote" n="759" resp="#ebrooks">Eccl., xi, 3.</note>. Then accordingly
+               all teaching shall be silent, and labour and toil, when those who have previously performed
+               shall receive rewards: for neither is it time then for them to teach or perform. Therefore Paul
+               in writing to the Galatians said: "Therefore then while we have time let us work that which is
+               good"<note type="footnote" n="760">Galatians vi, 10.</note>. This then is what our Saviour said:
+               "Then shall there be two women grinding" (and that means souls occupied in teaching), "one is
+               taken and one is left": and he who has taught the things that belong to religion, and has set
+               the sound word without detraction and accurately before the rational sheep is taken <pb n="287"
+               /> into the kingdom, but he who has detracted from<note type="footnote" n="761" resp="#ebrooks">
+                  (V) ' debased'.</note> the teaching by heretical doctrines and deceived many, who by his own
+               deceit has injured some, shall be left and sent outside the kingdom, having extreme judgments
+               exacted from him on account of the wrong that he has done. Those again upon the roof they
+               interpreted as those who have stood at the height of eminence.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

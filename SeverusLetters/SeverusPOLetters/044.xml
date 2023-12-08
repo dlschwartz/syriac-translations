@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3188">To Urban the Grammarian</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a">Letters I to LXI</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
+                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                     Numerous Syriac Manuscripts </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">310 [138]-312 [140]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">12</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="44">
+            <head type="main" resp="#compiler">OF THE SAME FROM THE LETTER TO URBAN THE GRAMMARIAN, WHICH
+               BEGINS, "When I read the letter of your learning". </head>
+            <dateline resp="#ebrooks">
+               <date notBefore="0516" notAfter="0517">516-7</date>
+            </dateline>
+            <p>In dealing with abstentions with regard to names preserved in the sacred tablets we must in
+               fitness duly compare the things of which the sacred Scripture said that, when they fall into
+               water that is contained in small vessels, they pollute it, but, when into pools or wells or
+               cisterns containing many streams, they cause no stain or pollution. For the law of the divine
+               Spirit said thus: "And every drink that ye shall drink in any vessel shall be polluted; and
+               everything on which anything from a dead body falls is polluted. However fountains of water and
+               pools and cisterns of water shall be pure"<note type="footnote" n="380" resp="#ebrooks">Leviticus xi,
+                  25, 26.</note>. This principle then ought to be observed in the present case also. If a man
+               separates from many on the ground that they are infected with heresy, or that they communicate
+               with those who are infected, let him with all his power maintain abstention from the dead body,
+               and not mention even the name of those who are under suspicion and not genuine, lest it fall and
+               pollute the <pb n="139"/> purity of the communion. But, if the holding of the orthodox faith,
+               and an anathema of every heresy reigns in the churches, and whole countries and provinces<note
+                  type="footnote" n="381" resp="#ebrooks"><foreign xml:lang="grc">ὑπαρχίας</foreign> (for
+                  <foreign xml:lang="grc">ἐπαρχίας</foreign>).</note>, and populous churches, confess one
+               uncorrupted confession, then names which are thought to pollute are inundated by the multitude
+               of streams. It is good that no particle of a dead body should be introduced even into a large
+               quantity of water; but if perchance<note type="footnote" n="382"><foreign xml:lang="grc"
+                  >ἆρα</foreign>.</note> it in fact happen to be introduced, it is cleansed by the quantity of
+               streams, and swamped by the quantity of cleansing<note type="footnote" n="383" resp="#ebrooks"
+                  >Cf. Select Letters of Severus, p. 289.</note>. We find that in fact the holy fathers also who
+               were in former times upholders of the right word managed these things in this way. Show us from
+               the compositions of the doctors of the church that, after so large a number had found fault with
+               the faith of the 318 at Ariminus [sic], any question was raised about the names of those who had
+               died. And, not to make the letter tedious by using many words, let us pass on in mind to times
+               that are near and not far removed. We find that the holy Timothy, he who underwent long
+               exiles<note type="footnote" n="384" resp="#ebrooks"><foreign xml:lang="grc"
+                  >ἐξορίας</foreign>.</note>, united with everyone in the Encyclical, and communicated with Paul
+               bishop of the city of the Ephesians, and Peter who had become prelate of <pb n="140"/> this
+               great Christ-loving city of Antioch, while names under suspicion were preserved in the sacred
+               tablets; and the holy Cyril, when he united with the Easterns after the deprivation<note
+                  type="footnote" n="385" resp="#ebrooks"><foreign xml:lang="grc">καθαίρεσις</foreign>.</note> of
+               Nestorius, when many bishops had died, and had departed under the stain of the Nestorian heresy,
+               made no inquiry about names. If therefore those who set great store by strictness in respect of
+               such names say that the oblation is not pure, let them know that their strictness also draws its
+               origin and existence from such communion, and descends from that source as from a root. For the
+               saintly Timothy, as we have said, consented to hold communion with those of like opinions in
+               company with such names, he whose grandsons they are who now with a boastful front loudly
+               proclaim, "You shall not approach me because I am pure". And this we say superfluously, that
+               some of the bishops in the cities of the Easterns set even this also straight, and ceased to
+               mention all such names: for others found it impossible to set this same thing straight; and it
+               was not right for such a reason for them to enter on wrangles<note type="footnote" n="386"
+                  resp="#ebrooks"><foreign xml:lang="grc">ζυγομάχας</foreign>.</note>, and set themselves in
+               array against the enthusiasm of the people of the cities, in order that they might suffer
+               shipwreck in the most essential things. </p>
+         </div>
+      </body>
+   </text>
+</TEI>
