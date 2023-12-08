@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3174">To John, Theodore, and John</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+            <biblScope unit="page">281 [461]-284 [454]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="116">
+            <head type="main" resp="#compiler">CXVI. (XXVII) OF THE HOLY SEVERUS FROM THE TREATISE AGAINST
+               THE CODICILS<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc"
+                  >κωδικίλλοι</foreign>.</note> OF ALEXANDER; AFTER ITS TWO PARTS (?). (XXVII) (To John,
+               Theodore, and John) <note type="footnote" n="1165" resp="#ebrooks">This extract escaped my
+                  notice till after the appearance of fasc. 1; see ep. 27</note>.</head>
+            <dateline resp="#ebrooks">
+               <date notBefore="0519" notAfter="0538">519-38</date>
+            </dateline>
+            <p>But he<note type="footnote" n="1166" resp="#ebrooks">Possibly this is Severus not Alexander, and
+               the sentence the work of the compiler.</note> says concerning what is written in Matthew, "Many
+               bodies of the saints who slept arose"<note type="footnote" n="1167" resp="#ebrooks">Matthew 27:52.</note>: "For, if 'many', it is plain that all did not; and, if
+               'saints', it is beyond controversy that those of wicked men and. men who died in sins did not
+               also rise".</p>
+            <p><supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And a little farther on.</emph>)</supplied>
+               For this also is the reason for which he said that they 'appeared to many'<note type="footnote"
+                  resp="#ebrooks">Matthew 27:53.</note>, to show the object for which they rose, and through a thing
+               that is manifest to make known something that is not manifest, whom Christ's descent into Sheol
+               benefited, viz. the saints who had already purified their soul. For, when he went thither, he
+               made proclamation to the spirits in prison also who had aforetime been disobedient according to
+               the statement of the apostle Peter<note type="footnote" n="1168" resp="#ebrooks">1 Peter 3:19,
+                  20. </note>. And to all alike he appeared, having broken gates of bronze and shattered
+               bars<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc">μοχλοί</foreign>.</note> of
+               iron as it is written<note type="footnote" n="1169" resp="#ebrooks">Psalm cvi, 16.</note>. But all
+               did not know him, nor benefit by his appearance, but those <pb n="452"/> only who lived
+               uprightly, who also, if he had appeared to them while they were still living the life in the
+               flesh would certainly<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc"
+                  >πάντως</foreign>.</note> have believed on him.</p>
+            <p>
+               <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And lower down.</emph>)</supplied> But that
+               all did not rise at that time with Christ, nor all who had died benefit by his descent into
+               Sheol, although he himself appeared and made proclamation to all alike, but those who had
+               already purified their soul as we have said, and therefore knew him and believed, Gregory the
+               Theologian in the sermon on the Passover handed down, after expanding the question as is proper
+               in what he added, writing thus<note type="footnote" n="1170" resp="#ebrooks">This extract and
+                  the 2nd from Ignatius are edited in Gr. with heading <foreign xml:lang="grc">Σευήρου</foreign>
+                  in Cramer, Cat. in, Epp. Cath., p. 67 (Lightfoot Apost. Fathers, II, i, 178); but what precedes
+                  and follows, though similar to our text, differs widely from it.</note>: "If he go down to
+               Sheol go down with him. Know the mysteries there, what is the economy of the double descent<note
+                  type="footnote" n="1171" resp="#ebrooks">Marg. " He calls 'the double descent' to earth in the
+                  Incarnation, and to Sheol through the soul".</note>, what the principle. Does he simply save
+               all by appearing, or there also those who believe<note type="footnote" n="1172" resp="#ebrooks"
+                  >Or. xiv, 24.</note>?" And Ignatius the truly God-clad and martyr, who, or some other man<note
+                     type="footnote" n="1173" resp="#ebrooks">I cannot render this otherwise (see Lightfoot, p.
+                     192).</note>, saw ineffable mysteries, so that he was even careful to say of himself, and this
+               with humble mind, "For I also in that I am hound and am able to understand <pb n="453"/> the
+               heavenly things and the angelic locations, and the princely companies, visible and again
+               invisible, am not thereby a disciple"<note type="footnote" n="1174" resp="#ebrooks">Ad Trall.,
+                  v.</note>, in writing to those at Magnesia said thus: "For the divine prophets lived in Jesus
+               Christ; therefore also they were persecuted, being inspired by his grace in order that the
+               incredulous might be persuaded that there is one God who revealed himself through Jesus Christ
+               his Son"; and a little further on: "How shall we able to live without him? whom the prophets
+               also, being his disciples in the spirit, expected as a teacher, and therefore he whom they
+               rightly awaited, when he came, raised them from the place of the dead"<note type="footnote"
+                  n="1175">Ad Magn., viii, ix.</note>. You see that those who like the prophets lived in Jesus
+               Christ, that is in justice and saintly deeds, benefited by our Saviour's descent into Sheol;
+               many of whose bodies arose, and appeared for the confirmation only of the power of him who went
+               down into the lower parts of the earth as I said, not to give the recompense of the resurrection
+               that is promised to all together, on the day of the righteous recompensing.</p>
+            <p><supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And lower down.</emph>)</supplied> "For to
+               this end it was preached to the dead also, that <pb n="454"/> they may be judged in the flesh as
+               men, but live in God in the spirit"<note type="footnote" n="1176" resp="#ebrooks">1 Peter IV,
+                  6.</note>. For it was not to the just, but chiefly to sinners and those sunk in transgression
+               that the gospel was proclaimed, that they might judge themselves, humanly publishing a sentence
+               against themselves and judging the flesh, and bringing their soul into subjection by works of
+               repentance and urging it to escape from the divine judgment, since there is also fear of falling
+               into the hands of the living God<note type="footnote" n="1177" resp="#ebrooks">Hebrews x,
+                  31.</note>, in order that they might be judged in the flesh as men (that is, that a man in
+               mercy on his soul might judge himself), but live in God in the spirit.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

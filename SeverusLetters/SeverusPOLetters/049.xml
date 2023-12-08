@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3193">To Dioscorus, Patriarch of Alexandria</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a">Letters I to LXI</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
+                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                     Numerous Syriac Manuscripts </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">323 [151]-324 [152]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">12</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="49">
+            <head type="main" resp="#compiler">OF THE SAME FROM THE LETTER TO DIOSCORUS PATRIARCH OF
+               ALEXANDRIA. </head>
+            <dateline resp="#ebrooks">
+               <date notBefore="0516" notAfter="0517">516-7</date>
+            </dateline>
+            <p>But perhaps it is good to say, both to our people and to all strangers, <pb n="152"/> that, if
+               the time of concession call, to catch one who is separated and to gain him, I prescribe a
+               formula that does not exceed what is right, but goes in the middle of the king's highway<note
+                  type="footnote" n="421" resp="#ebrooks">Num. xx, 17; xxi, 22.</note>, a formula which
+               anathematizes by name the things done at Chalcedon against the orthodox faith, and against those
+               who contended on behalf of this, and the wicked Tome of Leo, who became chief of the church of
+               the Romans, and those who call our one Lord and God Jesus Christ two natures after the divine
+               and ineffable union, there being also expressly joined with these things the right confession
+               contained in the edict of Zeno of pious ending, for the rejection of the wicked synod at
+               Chalcedon. If the things blasphemously and unlawfully done at that synod, and the polluted Tome
+               of Leo, and those who after the union divide the one Christ into a duality of natures, are not
+               anathematized, though the edict or Henotikon is taken as a rejection of these things, I do not
+               consider this sufficient for persuasion, as was also declared in the proceedings<note
+                  type="footnote" n="422" resp="#ebrooks"><foreign xml:lang="grc">πρᾶξις</foreign>.</note> held
+               among you. <pb n="153"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

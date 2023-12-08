@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/3214">To Dorotheus the Count</title>
+            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
+            <principal>Daniel L. Schwartz</principal>
+            <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+               Schwartz</editor>
+            <respStmt>
+               <resp>XML created by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Based on the work of</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#ewbrooks">E. W. Brooks</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original transcription and HTML encoding performed by</resp>
+               <name type="person">Roger Pearse</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription correction and TEI encoding performed by</resp>
+               <name type="person" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                  Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"/>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <placeName>Center of Digital Humanities Research, College Station, TX,
+                  USA</placeName>
+            </distributor>
+            <authority/>
+            <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+            <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                  <p>https://creativecommons.org/licenses/by/4.0/</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="a" type="supplied">Letters LXII to CXVII</title>
+               </analytic>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/403">
+                     <persName xml:lang="en">
+                        <forename>E. W.</forename>
+                        <surname>Brooks</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="en" level="m">
+                     A Collection of Letters of
+                     <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                     , from Numerous Syriac Manuscripts
+                  </title>
+                  <idno type="URI">http://syriaca.org/bibl/677</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1919-1920</date>
+                  </imprint>
+                  <extent>2 fasc</extent>
+                  <biblScope unit="fasc">II</biblScope>
+               </monogr>
+               <monogr>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <!--  What should we use for the title?  -->
+                  <title xml:lang="la" level="m">Tomus Decimus Quartus</title>
+                  <idno type="URI">http://syriaca.org/bibl/680</idno>
+                  <imprint>
+                     <publisher xml:lang="en">Firmin-Didot et cie</publisher>
+                     <pubPlace ref="http://syriaca.org/place/863">Paris</pubPlace>
+                     <date>1920</date>
+                  </imprint>
+                  <biblScope unit="fasc">I</biblScope>
+                  <biblScope unit="page">118 [288]-119 [289]</biblScope><!-- FILL IN CORRECT PAGES -->
+               </monogr>
+               <series>
+                  <editor ref="http://syriaca.org/person/509">
+                     <persName xml:lang="en">
+                        <forename>R.</forename>
+                        <surname>Graffin</surname>
+                     </persName>
+                  </editor>
+                  <editor ref="http://syriaca.org/person/652">
+                     <persName xml:lang="en">
+                        <forename>F.</forename>
+                        <surname>Nau</surname>
+                     </persName>
+                  </editor>
+                  <title xml:lang="la" level="s">Patrologia Orientalis</title>
+                  <biblScope unit="tomus">14</biblScope>
+               </series>
+            </biblStruct>
+            <bibl>
+               <editor>Roger Pierce</editor>
+               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+            <!-- FILL IN -->
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <origDate type="composition"
+            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+         </creation>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="http://syriaca.org/person/"></persName>
+         </correspAction>
+      </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="73">
+            <head type="main" resp="#compiler">OF THE SAME, AS TO WHAT IS THE MEANING OF THE SAYING THAT
+               THOSE WHO HAVE RECEIVED THE HEAVENLY SEED WILL PRODUCE FRUIT A HUNDREDFOLD AND SIXTYFOLD AND
+               THIRTYFOLD<note type="footnote" n="768" resp="#ebrooks">Matthew 13:23.</note>, FROM THE
+               LETTER TO DOROTHEUS THE COUNT. </head>
+            <dateline resp="#ebrooks">
+               <date notBefore="0513" notAfter="0518 (?)">513-8 (?)</date>
+            </dateline>
+            <p> Those therefore who love the Lord as it is written with all their heart and with all their
+               soul<note type="footnote" n="769" resp="#ebrooks">Matthew 22:37.</note>, and observe the
+               commandments that were given <pb n="289"/> by him, and follow him as far as men can rise to the
+               height, are said to produce fruits to the number of a hundred; and to the number of sixty those
+               who hold a middle place; and after the same fashion those who produce thirtyfold also, who are
+               lower than these. Though all received the saving word with the very same faith, and therefore
+               all were with equal honour termed 'good soil', yet all had not the same capacity. Accordingly
+               therefore among the crowns that are provided in the future blessed life they will receive abodes
+               and honours on different scales, those which our Lord signified when he said in the gospel,
+               "Many are the abodes in my Father's house"<note type="footnote" n="770" resp="#ebrooks">John
+                  xiv, 2.</note>. And, when as in a parable he was about to go on a journey, he distributed
+               talents among his bondmen to use, for it is plainly written thus: "To one he gave five talents,
+               to another two, and to another one, to each of them according to his own capacity, and
+               immediately started on his journey"<note type="footnote" n="771">Matthew xxv, 15.</note>. Words
+               agreeing with these were spoken by Paul also in writing to the Corinthians, "Every man shall
+               receive his own reward, according to his own labour"<note type="footnote" n="772"
+                  resp="#ebrooks">1 Corinthians iii, 8.</note>. <pb n="290"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
