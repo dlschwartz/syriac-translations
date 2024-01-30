@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/3016">To Peter, Ammonius, and Olympiodorus</title>
-            <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
             <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -100,7 +99,7 @@
             </biblStruct>
             <bibl>
                <editor>Roger Pierce</editor>
-               <ptr target="http://tertullian.org/fathers/severus_coll_2_letters.htm"/>
+               <ptr target="http://tertullian.org/fathers/_coll_2_letters.htm"/>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -131,11 +130,11 @@
    <text>
       <body>
          <div type="letter" n="38">
-            <head type="main" resp="#compiler">OF THE HOLY MAR SEVERUS THE PATRIARCH FROM THE LETTER TO PETER
-               AND AMMONIUS<note type="footnote" n="326" resp="#ebrooks">Presb. of Alexandria, addressed also
-                  in Select Letters of Severus, iv, 2 on the same subject, from which I infer the date.</note>
-               AND OLYMPIODORUS, ABOUT THE NAMING OF PETER BISHOP OF ALEXANDRIA; WHICH IS THE 10th OF THE 1st
-               BOOK OF THE LETTERS WRITTEN DURING TENURE OF THE SEE. </head>
+            <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> the Patriarch From the Letter to Peter
+               And Ammonius<note type="footnote" n="326" resp="#ebrooks">Presb. of Alexandria, addressed also
+                  in Select Letters of , iv, 2 on the same subject, from which I infer the date.</note>
+               And Olympiodorus, About the Naming of Peter Bishop of Alexandria; Which Is the 10th of the 1st
+               Book of the Letters Written During Tenure of the See. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0516">513-6</date>
             </dateline>
