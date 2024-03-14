@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://syriaca.org/work/3045">To Entrechius, Bishop of Anazarba</title>
+            <title ref="http://syriaca.org/work/3045">To Entrechius, Bishop of <placeName ref="http://syriaca.org/place/2624">Anazarba </placeName></title>
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
@@ -83,7 +83,7 @@
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <persName ref="http://syriaca.org/person/2546">Entrechius</persName>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -94,11 +94,11 @@
   <text>
       <body>
          <div type="letter" n="1.18">
-            <head type="main" resp="#compiler">Of the same to Entrechius the bishop.</head>
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2546">Entrechius</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 4th book the
                123rd letter.</head>
-            <p> The devout clergymen of the holy church in the city of Rhosus and the other
-               inhabitants of it have presented a petition to us in which they beg that that man may
+            <p> The devout <ref n="http://syriaca.org/person/3062">clergymen</ref> of the holy church in the city of <placeName ref="http://syriaca.org/place/173">Rhosus</placeName> and the other
+               <ref n="http://syriaca.org/person/3063">inhabitants</ref> of it<note n="1">So B. Correct the text.</note> have presented a petition to us in which they beg that that man may
                be instituted their bishop by grace from above and the ministration of your sanctity,
                in whose favour they shall themselves according to the legal custom make a
                <foreign>psephisma</foreign>. These were the <pb n="67"/> contents of their
@@ -107,7 +107,7 @@
                <foreign>psephisma</foreign> to you, and hold your judgment in this matter final.
                This is in other ways pleasing to God, and is also the proper course. In fact we
                argued with them and said that on no other terms but these would your piety, whose
-               endeavour it is in everything to follow after blamelessness as it is written, be
+               endeavour it is in everything to follow after blamelessness as it is written,<note n="2">1 Timothy 3:2,6:11 (?).</note> be
                ready to comply. Wherefore also we immediately determined to draw up this letter of
                reminder to you. </p>
             <trailer>The end.</trailer>
