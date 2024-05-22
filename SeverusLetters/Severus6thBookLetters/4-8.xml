@@ -82,9 +82,6 @@
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
-         <correspAction type="received">
-            <persName ref="http://syriaca.org/person/10">Antioch</persName> <!-- eb, I believe this is referreing to the believers of Antioch. -->
-         </correspAction>
       </correspDesc>
       </profileDesc>
       <revisionDesc status="draft">
@@ -94,7 +91,7 @@
   <text>
       <body>
          <div type="letter" n="4.8">
-            <head type="main" resp="#compiler">Of the same to the believers in <persName ref="http://syriaca.org/person/10">Antioch</persName>.</head>
+            <head type="main" resp="#compiler">Of the same to the believers in <placeName ref="http://syriaca.org/place/10">Antioch</placeName>.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 2nd book the 9th
                letter.</head>
             <p> To the holy church of God in <persName ref="http://syriaca.org/person/10">Antioch</persName>, the devout clergymen and those that are among
