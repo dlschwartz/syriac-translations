@@ -84,7 +84,7 @@
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <placeName ref="http://syriaca.org/place/2690">the monastery of the blessed Bassus</placeName> <!-- eb, Is it ok that the receiver is a placeName? -->
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -95,12 +95,11 @@
   <text>
       <body>
          <div type="letter" n="10.6">
-            <head type="main" resp="#compiler">Of the same to the inmates of the monastery of the
-               blessed Bassus.</head>
+            <head type="main" resp="#compiler">Of the same to the inmates of <placeName ref="http://syriaca.org/place/2690">the monastery of the blessed Bassus</placeName>.</head>
             <head type="sub" resp="#compiler">from those during episcopacy: From the 7th book the
                354th letter.</head>
-            <p> Some respectable men have come to us, asking. me to write to your love of God, in
-               order that you. may, dismiss the man who has renounced the world, who is from the
+            <p> Some respectable men have come to us, asking me to write to your love of God, in
+               order that you may, dismiss the <persName ref="http://syriaca.org/person/3773">man</persName> who has renounced the world, who is from the
                village and has in unapproved fashion put on the garb of monasticism among you, so
                that he may continue to till the soil and not dishonour the holy profession of monks,
                since it was not in quest of virtue for its own sake that he came to this. I hear
@@ -109,7 +108,7 @@
                certainly seem a crime to you also, and a thing contrary to the divine laws. Either
                therefore explain what the truth of the matter is, or, if the case is as we have been
                informed, send the man to live in the world. We must provide "things honest," as it
-               is written, "not only before God, but also before men." </p>
+               is written, "not only before God, but also before men."<note n="1">Id. 8:21.</note> </p>
             <trailer>The end.</trailer>
          </div>      
       </body>
