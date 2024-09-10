@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/834">Abraham, Cyriacus, Barhadbeshabba and Sergius</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <!-- See spear/834 -->
+         <head>Next the Forty-Third History, of the Four Excellent Deacons, Earnest
+            in Religion, <persName ref="http://syriaca.org/person/1547">Abraham</persName>, <persName ref="http://syriaca.org/person/1664">Cyriac</persName>, <persName ref="http://syriaca.org/person/1625">Barhadbshabba</persName>, and <persName ref="http://syriaca.org/person/2069">Sergius</persName>.</head>
+         <p>
+            As for these four devout deacons therefore, strenuous workers and earnest
+            performers of the divine ministry which was carried out in the districts of
+            <placeName ref="http://syriaca.org/place/2747">Asia</placeName> for the sake of delivering from the error of paganism souls which from
+            the beginning from the foundations of the world had been sitting in the
+            darkness of idolatry, when each of them laboured earnestly with us down to
+            the end of the life that is derived from the body, so that these devout men also
+            were laid together in the sepulchre, while all of them were by birth (<foreign xml:lang="grc">γένος</foreign>)
+            <pb n="659"/><pb n="457"/>from <placeName ref="http://syriaca.org/place/486">Syria</placeName><ptr type="noteAnchor" target="#n457-1"/>, <persName ref="http://syriaca.org/person/1664">Cyriac</persName>, who laboured with us for some years before everyone
+            after these first old men<ptr type="noteAnchor" target="#n457-2"/>, was by his birth (<foreign xml:lang="grc">γένος</foreign>) from the city of <placeName ref="http://syriaca.org/place/134">Maiferkat</placeName><ptr type="noteAnchor" target="#n457-3"/>,
+            and the blessed <persName ref="http://syriaca.org/person/1547">Abraham</persName>, who was powerful in word and in deed, and
+            above all in body, was by birth (<foreign xml:lang="grc">γένος</foreign>) from the country of the Persians, and
+            gratified our spirit more than others by his earnestness, being adorned wtih
+            abstinence and with self-abnegation and with zeal and humility and obedience, 
+            and with all spiritual qualities, and as to <persName ref="http://syriaca.org/person/1625">Barhadbshabba</persName> too he was
+            by his birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/2798">Ingilene</placeName>, from a village called <placeName ref="http://syriaca.org/place/2745">Arʿa Rabtha</placeName><ptr type="noteAnchor" target="#n457-4"/>, who
+            also was adorned with earnestness and ready to show obedience, and very
+            zealous in reciting service, and the blessed <persName ref="http://syriaca.org/person/2069">Sergius</persName> moreover was by his
+            birth (<foreign xml:lang="grc">γένος</foreign>) an <persName>Armenian</persName>, who also underwent great conflicts (<foreign xml:lang="grc">άγών</foreign>) in the
+            work of the ministry of the house of God; and the four of them with all the
+            rest gained a blessed ending, since amid the same spiritual employment and
+            the tiring nature of the countries and the high rugged mountains of <placeName ref="http://syriaca.org/place/2747">Asia</placeName>
+            each one of them ran zealously and mightily in his time, and was strengthened 
+            to abolish paganism, and overthrow idolatry, and uproot altars and
+            destroy shrines (<foreign xml:lang="grc">ναός</foreign>) and cut down trees in ardent religious zeal; and<ptr type="noteAnchor" target="#n457-5"/> each
+            <pb n="660"/><pb n="458"/>one of them in his time together with the holy old men who were before
+            them worked earnestly, and all of them also toiled and laboured with us with
+            joy and great earnestness in building ninety-two churches and ten monasteries 
+            in four provinces (<foreign xml:lang="grc">ύπαρχίας</foreign>)<ptr type="noteAnchor" target="#n458-1"/>, which were erected by the help of the
+            heavenly power; a thing which justice also requires us to bring into the
+            record of memorials of blessed character for the sake of a future good remembrance 
+            for all these strenuous workers, in order that we may not be reproached
+            by righteousness for having seen and known their labours and troubles.
+            and done injustice to their memories, especially since we marvel and wonder
+            at the dispensation of God's mercy, and his just and inscrutable judgments, how
+            in a short time he led them all one after another to the end of this tumultuous
+            life and to the gathering together of their bodies, which he caused to lie
+            by one another, and all of them to his eternal rest from the vexation of the
+            body, while we on our part are still bound in the ropes of our sins and
+            involved in bodily temptations in this life of turmoil, and of vanity and vexation 
+            of spirit<ptr type="noteAnchor" target="#n458-2"/>.
+         </p>
+         <p>
+            The history of <persName ref="http://syriaca.org/person/1547">Abraham</persName> and <persName ref="http://syriaca.org/person/1664">Cyriac</persName> and <persName ref="http://syriaca.org/person/1625">Barhadbshabba</persName> and <persName ref="http://syriaca.org/person/2069">Sergius</persName>
+            the deacons is ended.
+         </p>
+         <noteGrp>
+            <note xml:id="n457-1">I cannot reconcile this with the statements following.</note>
+            <note xml:id="n457-2">Leontinus and Kashish (?); see ch. 39.</note>
+            <note xml:id="n457-3">Martyropolis.</note>
+            <note xml:id="n457-4">See p. 56. It was perhaps the author's native place (p. 61).</note>
+            <note xml:id="n457-5">Ms. om.</note>
+            <note xml:id="n458-1">See p. 416, n. 3.</note>
+            <note xml:id="n458-2">Eccl., I, 14; 11, 17, 26; IV, 4, 16.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

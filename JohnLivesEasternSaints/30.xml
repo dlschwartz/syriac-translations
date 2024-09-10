@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/822">Elijah of Dara</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <!-- See spear/822 -->
+         <head>Next the Thirtieth History, of a Man of God Whose Name Was <persName ref="http://syriaca.org/person/1704">Elijah</persName>, Who Was in the City of <placeName>Dara</placeName><ptr type="noteAnchor" target="#n373-1"/>.</head>
+         <p>
+            [....] we arrived, in whose house we were with many others for some days, being
+            amazed at the keenness of the man's enthusiasm, as he stood and uttered
+            anathemas and called the bishops as well as those who wielded the authority
+            of the crown to their faces impious men, renegades, and new <persName>Jews</persName>, insomuch
+            that they wrote to the king about him, and he was driven into exile (<foreign xml:base="grc">έξορία</foreign>).
+            And he left his employment and his mansion<ptr type="noteAnchor" target="#n373-2"/> and all that he possessed,
+            saying, <quote>Let the impious men take<ptr type="noteAnchor" target="#n373-3"/> them; for my part I seek my Lord
+               <persName>Jesus</persName> only</quote>; and so he departed. And he completed fifteen years in
+            banishment, without diminishing the kindness to strangers and poor men;
+            and thus he ended his life [in] great distinction which surpasses description,
+            his distinction not being one only. And out of his practices I have briefly
+            <pb n="576"/><pb n="374"/>set down these, while fearing to be accused on account of those which I
+            have omitted.
+         </p>
+         <p>
+            The history of a man of God whose name was <persName ref="http://syriaca.org/person/1704">Elijah</persName>, who was in the
+            city of <placeName>Dara</placeName>, is finished.
+         </p>
+         <noteGrp>
+            <note xml:id="n373-1">The beginning is missing.</note>
+            <note xml:id="n373-2">He was therefore not a monk or hermit, but a rich man living in his own house and employing himself in asceticism and chrity like the heroes of ch. 31.</note>
+            <note xml:id="n373-3">Acc. to the correction in the ms. <hi rend="singleQuote">be sated with</hi>.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

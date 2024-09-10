@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/820">Mary the Mourner</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <!-- See spear/820 -->
+         <head>Next the Twenty-Eighth<ptr type="noteAnchor" target="#n357-1"/> History, of the Blessed <persName ref="http://syriaca.org/person/1881">Mary</persName> the Anchorite.</head>
+         <p>
+            Therefore neither was the history of this holy <persName ref="http://syriaca.org/person/1881">Mary</persName> unworthy of admiration, 
+            a woman who by nature only bore the form of females, but herself
+            also too bore in herself the character and soul and will not only of ordinary
+            men, but of mighty and valiant men.
+         </p>
+         <p>
+            This blessed woman therefore also was the daughter of distinguished
+            persons and a high family (<foreign xml:lang="grc">γένος</foreign>) in the world. Now there was a great old
+            man of God who was living as a recluse in a village bordering on their village,
+            a man far advanced in years; and to this saint the blessed woman's people
+            used frequently to come, she being with them, when she was ten years
+            old. And, when the damsel saw the serious character of the old man,
+            solemn feeling was stirred in her mind, and she despised all the world with
+            all that is in it, meditating in herself and saying: <quote>Lo! they are rich who
+               <pb n="560"/><pb n="358"/>possess the world that passes not away for ever and ever, not we wretched
+               persons among whom, as soon as a man has become rich and proud<ptr type="noteAnchor" target="#n358-1"/> and
+               boastful, and believed himself to be lord of his own riches, death has come and
+               cast him down into <foreign>sheol</foreign>, and others have taken away his toil in which he
+               toiled from his childhood even to his death, and which has perhaps been
+               amassed by sin, and the sin has remained with him, and the riches have
+               become the property of others. Lo! then the things that are in this world
+               are all deceit and vanity. For what reason do we not voluntarily leave a
+               thing which we must in any case leave even if we do not desire it? and for
+               what reason do we not become as this old man? Is not this<ptr type="noteAnchor" target="#n358-2"/> a human being?
+               Far be it from me henceforth to let the world deceive me, and refrain from
+               following the course of life of this old man</quote>. And from that time the
+            damsel's mind became inflamed, and she cut herself off completely from eating
+            flesh and from drinking wine; and she began to fast and pray, and to run
+            in the road of excellence. But her people, when they saw these things,
+            used to reprove her, and to press her to continue eating flesh and drinking
+            wine; and she would not obey, having cast her body, and<ptr type="noteAnchor" target="#n358-3"/> all the enticements.
+            of youth, and the adornment of childhood behind her, and begun to walk
+            <pb n="561"/><pb n="359"/>soundly in the lofty road of anchoritism and asceticism. Since she had been
+            betrothed by them to a certain rich man, they began as people of the world
+            to be distressed and to think thoughts which were not theirs only but those
+            of the hater of good things also as well, <quote>Let us rise and make a wedding-feast 
+               for her, lest she run away and go to a monastery, and we lose the man
+               who was to take her to wife</quote>. And, when they on their side had begun to
+            prepare and make ready the things required for the wedding, the blessed
+            woman became aware of it and said to them: <quote>Do not toil<ptr type="noteAnchor" target="#n359-1"/> to no purpose
+               and lose your money; for my part I hope in him who invited the pure and holy
+               and virgin to recline at his eternal wedding-feast that ceases not that I shall
+               make no bodily partnership, nor corrupt the purity of my soul by fleshly
+               conjunction with a mortal man</quote>. But, when this incited these people all
+            the more, so that they met together (?)<ptr type="noteAnchor" target="#n359-2"/> in order to constrain her, she left
+            them and went to a monastery; and she shaved her head and took the habit
+            (<foreign xml:lang="grc">σχήμα</foreign>). And from that time she took that holy old man as her model (<foreign xml:lang="grc">τύπος</foreign>)
+            in all things, in standing and abstinence and vigils and eating once in three
+            days, while she also made for herself a hair-shirt and sandals (<foreign xml:lang="grc">σανδάλια</foreign>), and
+            <pb n="562"/><pb n="360"/>moreover from the first day on which she received the mark never again cut
+            her hair, so that it became long and abundant, until it was wound round
+            her four times up and down, so that at last (it is said) it became<ptr type="noteAnchor" target="#n360-1"/> a great
+            weight. And she also distinguished herself in the conflict (<foreign xml:lang="grc">άγών</foreign>) of persecution
+            for fifteen years, no longer passing night-vigils, but vigils lasting even a
+            week, and ten days, and then she would taste something. And, when she
+            had walked strongly and heroically in the road of righteousness for
+            thirty years, she finished her course and received the crown<ptr type="noteAnchor" target="#n360-2"/> earned by her
+            life, and fell asleep in peace.
+         </p>
+         <p>
+            The history of the blessed <persName ref="http://syriaca.org/person/1881">Mary</persName> the anchorite<ptr type="noteAnchor" target="#n360-1"/> is ended.
+         </p>
+         <noteGrp>
+            <note xml:id="n357-1">Ms. om.; see Introd., p. IX.</note>
+            <note xml:id="n358-1">Ms. om.</note>
+            <note xml:id="n358-2">Or <hi rend="singleQuote">This man is not</hi>.</note>
+            <note xml:id="n358-3">Ms. om.</note>
+            <note xml:id="n359-1">Ms. <hi rend="singleQuote">lament</hi>.</note>
+            <note xml:id="n359-2">This is perh. corrupt.</note>
+            <note xml:id="n360-1">Ms. om.</note>
+            <note xml:id="n360-2">II Tim., IV, 7,8.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

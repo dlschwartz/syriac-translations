@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/831">Abraham the Priest</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <!-- See spear/831 -->
+         <head>Next the Fortieth History Concerning the Blessed <persName ref="http://syriaca.org/person/1554">Abraham</persName> the Old Man
+            the Presbyter, and <persName ref="http://syriaca.org/person/3270">Zwtʾ</persName> Moreover the Presbyter His Bodily Son, and
+            <persName ref="http://syriaca.org/person/3204">Daniel</persName> the Deacon Sister's Son.<ptr type="noteAnchor" target="#n445-1"/></head>
+         <p>
+            This blessed <persName ref="http://syriaca.org/person/1554">Abraham</persName> therefore, the old man, was by birth (<foreign xml:lang="grc">γένος</foreign>) from
+            the district of <placeName ref="http://syriaca.org/place/493">Sophanene</placeName>, from a village called such-and-such<ptr type="noteAnchor" target="#n445-2"/>. This man,
+            <pb n="648"/><pb n="446"/>having at a certain time come to the royal city, betook himself to us; and,
+            having been received by us as a stranger, on the second day he cast himself
+            down weeping and entreating to be received by us, and admitted to the
+            monastic order (<foreign xml:lang="grc">τάγμα</foreign>). And we on our side, observing the burden of his
+            old age, thought that his request was a pretext and not genuine, and<ptr type="noteAnchor" target="#n446-1"/> we
+            continued closely examining him, that he might let us know the true reason
+            of his coming to the royal city, and if he had any fact to tell us about his
+            intention, and we would not fail in anything that we could do to help him.
+            And he, having cast himself upon his face and weeping, continued swearing
+            to us <quote>I have no concern in this world, except to repent for my sins, and if
+               may be admitted to the monastic habit (<foreign xml:lang="grc">σχήμα</foreign>), that in it I may serve and
+               please God during this remnant of life which he has appointed for me</quote>.
+            And, after much conversation had been held with him concerning these
+            things, we allowed him to make trial of his own self, while we also on our
+            part observed his perseverance. And, when he had thus completed two
+            years, being constant in fasting and prayer and constant vigil by night, and
+            humility and obedience, while he was also always entreating to be admitted to
+            <pb n="649"/><pb n="447"/>the order and the beloved habit (<foreign xml:lang="grc">σχήμα</foreign>) of monasticism, so also upon many
+            testimonies and admonitions he was admitted to the monastic habit (<foreign xml:lang="grc">σχήμα</foreign>).
+            And, while he was accomplishing the labour of his practices every day with
+            many tears and much earnestness and humility, and when he had reached the
+            period of five years after his training, he was on account of his marvellous
+            modes of life by constraint and much compulsion admitted to ordination to
+            the presbyterate. But after a short time his bodily son also whose name was
+            <persName ref="http://syriaca.org/person/3270">Zwtʾ</persName>, and his brother's son whose name was <persName ref="http://syriaca.org/person/3204">Daniel</persName> from <placeName>Syria</placeName> came to
+            him, having learned about his modes of life, and that he had been admitted
+            to the monastic habit (<foreign xml:lang="grc">σχήμα</foreign>). And, when they saw him thus lahouring in
+            the practices of religion, God opened their own heart also as well, and they
+            began to request that they also as well might be admitted to the honoured
+            monastic habit (<foreign xml:lang="grc">σχήμα</foreign>). And while he himself from that time continued giving
+            them much admonition and correction and teaching, he was presenting a
+            petition on their behalf that they might be received. And, this having also
+            been done in order to gratify him, they also as well were taught<ptr type="noteAnchor" target="#n447-1"/> the devout
+            monastic habit (<foreign xml:lang="grc">σχήμα</foreign>), living a whole-heartod and obedient life, with all
+            earnestness and religion. After a period of some years they also were
+            <pb n="650"/><pb n="448"/>admitted to the rank of the diaconate; and thenceforth for many years they
+            earnestly and whole-heartedly and obediently occupied themselves with
+            us in the work of the ministry in the district of <placeName ref="http://syriaca.org/place/2747">Asia</placeName> in converting men from
+            the deceitfulness of paganism, gratifying our soul every day by their
+            earnestness and whole-heartedness and diligence, with the old man <persName ref="http://syriaca.org/person/1554">Abraham</persName>
+            and the devout <persName ref="http://syriaca.org/person/1533">Aaron</persName> and <persName ref="http://syriaca.org/person/1853">Leontius</persName> the presbyters, with all the other
+            strenuous workers their other brothers, of whom also too we shall one after
+            another make record, each one of whom worked and laboured strenuously
+            in his time without weariness in the householder's vineyard<ptr type="noteAnchor" target="#n448-1"/>, that is in the
+            great salvation which God's grace wrought in our times, consisting in the
+            conversion of many thousands from the worship of fiends and the ceremonies
+            of idolatry to the fear of God. While then we were engaged in the same
+            ministry in the districts of <placeName>Caria</placeName>, <persName ref="http://syriaca.org/person/3204">Daniel</persName> the deacon ended his course in the
+            same ministry, seeing wonderful visions, and it having been revealed to
+            him that he would be carried away to the blissful country; and, having fallen
+            asleep, he was laid in the monastery called that of <placeName ref="http://syriaca.org/place/2782">Gordiana</placeName> hard by <placeName>the
+            city of Antioch</placeName> in <placeName>Caria</placeName>. And, when we returned to the royal city, the
+            blessed <persName ref="http://syriaca.org/person/1554">Abraham</persName> himself also ended the course of his life-practices in a
+            <pb n="651"/><pb n="449"/>good old age; and he was laid with his blessed spiritual brothers <persName ref="http://syriaca.org/person/1533">Aaron</persName>
+            and <persName ref="http://syriaca.org/person/1853">Leontius</persName>. And the blessed <persName ref="http://syriaca.org/person/3270">Zwtʾ</persName> was afterwards admitted to the honour
+            of the presbyterate, and he took over the charge of the whole convent and
+            all its belongings with great diligence and much single-mindedness, insomuch
+            that he laboured at the completion and restoration of the building of the
+            martyrs' chapel of this monastery<ptr type="noteAnchor" target="#n449-1"/> and wearied himself excessively beyond
+            his strength, together with all the rest of our brothers, and by their means
+            it was completed, when we ourselves had gone back again, and were engaged
+            in the work of the ministry in the same districts of <placeName ref="http://syriaca.org/place/2747">Asia</placeName>. And, when after
+            the space of a year and a half we came back, and saw the product of
+            his labours and his industry, we were astonished and gave thanks to God,
+            though for fear of pride we did not tell him openly (?)<ptr type="noteAnchor" target="#n449-2"/>. At the same time he
+            also too was brought to the consummation of death, and gained the privilege
+            of being laid by the bones of his father the holy old man.
+         </p>
+         <p>
+            It is ended.
+         </p>
+         <noteGrp>
+            <note xml:id="n445-1">Below he is called brother's son.</note>
+            <note xml:id="n445-2">Or <hi rend="singleQuote">Flht</hi>. The reading is doubtful.</note>
+            <note xml:id="n446-1">Ms. om.</note>
+            <note xml:id="n447-1">Sic syr.</note>
+            <note xml:id="n448-1">Matth., XX, 1-16. It is not stated in ch. 38 that Aaron took part in the conversion of the pagans.</note>
+            <note xml:id="n449-1">Probably that built by Mare (p. 438).</note>
+            <note xml:id="n449-2">The ms. is unintelligible, but a change of one letter gives the above sense.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

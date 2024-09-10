@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/801">Mare of Beth Urtaye</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <!-- See spear/801.xml -->
+         <head>Next the Ninth History, of the Blessed <persName ref="http://syriaca.org/person/1866">Mare</persName><ptr type="noteAnchor" target="#n135-1"/> of Beth <persName>Urtaye</persName><ptr type="noteAnchor" target="#n135-2"/></head>
+         <p>
+            This blessed <persName ref="http://syriaca.org/person/1866">Mare</persName> was a clergyman (<foreign xml:lang="grc">κληριχός</foreign>) in the church of a certain
+            large village in the district of <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName><ptr type="noteAnchor" target="#n135-3"/> called the village of <placeName ref="http://syriaca.org/place/2794">Hula</placeName> (<foreign xml:lang="grc">ύλη</foreign>?).
+            This man then, when he was a member of the clergy (<foreign xml:lang="grc">κληριχός</foreign>), used to behave
+            with great and measureless arrogance, and he was haughty and a good
+            speaker and teacher, and very well-informed on every subject. And, grace
+            having at a certain time arisen in his mind, suddenly he began to form the
+            plan of taking upon him the yoke of monasticism; and he disposed of ands
+            distributed all that he had among the needy; and he withdrew to a certain
+            mountainous spot about three miles from the village; and he bound himself
+            never to taste bread or wine or oil, or cheese or fish, or anything whatever
+            except pulse and herbs and water; and thus he exercised himself
+            severely.
+         </p>
+         <pb n="136"/><pb n="136"/>
+         <p>
+            Then <persName ref="http://syriaca.org/person/3651">Satan </persName> again, who wishes to restrain men from good actions, did
+            not neglect to stir up against the blessed man the trial of persecution; and so
+            the assaults of persecutions often attacked him, and he was arrested and
+            imprisoned and ill-treated, and he did not give way and allow his rule (<foreign xml:lang="grc">κανών</foreign>)
+            to be relaxed, while the adversaries kept him in prison a week and two
+            weeks and as much as a month; and he determined in his mind that even
+            the very food that he was in the habit of eating he would not taste at all
+            as long as he was under their power. And so they by <persName ref="http://syriaca.org/person/3651">Satan </persName>’s machination
+            would leave him until his life was approaching dissolution, saying, <quote>This
+               man defeats us</quote>. But the valiant man was so determined in his soul that
+            down to the end he tasted nothing that came from the renegades. And thus
+            they were continually defeated in him and left him, not being able to weaken
+            his fortitude in God. While he was occupied with such severe asceticism,
+            and moreover with persecution, he built an admirable, substantial, large
+            monastery, with many excellent details of construction; since he was also a
+            craftsman with intellectual skill in all crafts. And he built and finished it,
+            and twelve years were completed by him in such labours. Then he departed
+            from the body, bearing good testimony, nothing whatever having been found
+            <pb n="137"/><pb n="137"/>to weaken him, or to make him remit what he had originally undertaken,
+            not sicknesses nor persecutions, nor any other distresses.
+         </p>
+         <p>
+            The history of the blessed <persName ref="http://syriaca.org/person/1866">Mare</persName> is ended.
+         </p>
+         <noteGrp>
+            <note xml:id="n135-1">See p. 187, n. 1.</note>
+            <note xml:id="n135-2">Cf. ch. 31 and 58. Beth Urtaye seems it be almost, if not quite, identical with Anzetene; cf. ch. 58 (f.131. v'a).</note>
+            <note xml:id="n135-3">Syr. <hi rend="singleQuote">Hanzit</hi></note>
+            
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

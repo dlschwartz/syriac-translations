@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/824">A Monk</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <!-- See spear/824 -->
+         <head>Next the Thirty-Second History, of a Certain Brother Who Was Caught
+            By the Enticement of Temptation to Theft and Afterwards Came To Repentance.</head>
+         <p>
+            A certain blessed man had been settled for a considerable time as a solitary
+            in a cell in the <placeName ref="http://syriaca.org/place/473">Ennaton</placeName> of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName><ptr type="noteAnchor" target="#n384-1"/> with two disciples; and, when we
+            ourselves arrived at that place<ptr type="noteAnchor" target="#n384-2"/> and went in to him and received his blessing,
+            three days after we had departed from his presence a brother from one of
+            the well-known convents of the place came to him under the plea of desiring
+            to live with him, even as I had myself made the acquaintance of that brother
+            in his convent; and, when he had come in and passed about one week with
+            him, <persName ref="http://syriaca.org/person/3651">Satan</persName> put it into his heart to take the contents of that solitary's cell
+            and flee. And, having looked and learned everything, and devised in his
+            mind a plan of action, he rose by night and collected everything that he
+            could (since that blessed man had indeed no small number of saints<ptr type="noteAnchor" target="#n384-3"/> and
+            books), and he took them, a great load, and fled. And he went and found
+            camel-drivers going into the desert above <placeName ref="http://syriaca.org/place/2810">Libya</placeName> that is called <placeName ref="http://syriaca.org/place/2766">Cellia</placeName><ptr type="noteAnchor" target="#n384-4"/>; and
+            he gave them a fee, leading them to think that he was carrying his own
+            <pb n="587"/><pb n="385"/>belongings in order to go thither. And they took him, and he went into
+            the desert with them; and he went in to a certain man there, and made
+            search for a cell for himself in which to live and be a solitary. And, when
+            he had passed one week there, his thoughts began to pass judgment upon
+            him, and his heart to smite him, and he would say to himself, as he himself
+            would inform us about everything, weeping: <quote><quote>In what way, O wretched
+               man, did you wish to become a solitary? To <persName>Christ</persName>, pray, or to <persName ref="http://syriaca.org/person/3651">Satan</persName>?
+               Lo! you have performed the service of <persName ref="http://syriaca.org/person/3651">Satan</persName>, and executed and fulfilled the
+               will of a demon, and afflicted a soul fashioned in the divine likeness, and
+               carried off the toil and sweat of that holy old man's labour; and he is
+               sobbing and crying before God on your account at all times. And how
+               have I hope of life and salvation?</quote> Then</quote>!-- This is really awkward. It seems like the previous quote within a quote should just be a quote and Then he said should not be in quotations at all. --> (he would say) <quote>I passed one
+                  week in penitence and horror and tears, weeping for myself, and meditating
+                  upon these things and saying, <quote>What has befallen me? Who led me astray?
+                     What shall I do? How shall I weep for myself? Alas for me! since my
+                     companions are secretly stealing a kingdom, and I stole eternal torment for
+                     myself. What will happen to me when I am about to go to God? What
+                     defence (<foreign xml:lang="grc">άπολογία</foreign>) have I to give for this wickedness?</quote> And, while I on my
+                  <pb n="588"/><pb n="386"/>side was weeping for myself, my hearers were wondering, and were desirous
+                  of learning the cause of the lamentation and weeping on my part. Then
+                  I revealed it to them, and they marvelled. And I said to them: <quote>What do
+                     you advise me to do? because my meditation is inciting me to strangle
+                     myself and perish out of this life, which deceived me and incited me to this
+                     crime</quote>. And these saints advised me to return the stolen goods to their
+                  owners, saying to me, <quote>If you listen to us and make restitution and humble
+                     yourself and ask mercy for this your offence, God will be merciful to you
+                     and men also will forgive you; and even they themselves will be merciful
+                     to you and forgive you, and will also make petition for you</quote>. And, while
+                  they pressed me, I on my part was restrained by my shamefacedness and
+                  hindered from doing this, saying to them: <quote>My face is ashamed to do this.
+                     With what face, or with what colour (<foreign xml:lang="grc">χρώμα</foreign>), or with what brazen front can
+                     this be carried out?</quote> But the blessed men went on saying to me, <quote>Which
+                        is better for you, to endure reproach and transitory shame here, and repent
+                        and live while you have opportunity, while you further relieve the souls to
+                        which you have given sorrow and bitterness, or to be consumed in the
+                        <pb n="589"/><pb n="387"/>eternal torment, where shame and reproach and torment are not finished
+                        and brought to an end for ever and ever?</quote> When these words had been
+                  spoken to me by many men, I rose and left all the utensils and the books
+                  and the martyrs under seal, and I came in shame; and lo! I am settled
+                  here till intercessors are found for me</quote>. All these things about himself
+            that brother was relating by word of mouth in my presence with great
+            humility and copious tears; since, while I was going round the districts to
+            be blessed by the saints, I found him in a monastery called that of father
+            <placeName ref="http://syriaca.org/place/2738">Andrew</placeName><ptr type="noteAnchor" target="#n387-1"/>, on the farther side<ptr type="noteAnchor" target="#n387-2"/> where the holy Mar <placeName ref="http://syriaca.org/place/2819">Menas</placeName><ptr type="noteAnchor" target="#n387-3"/> is, which is
+            called the desert of <placeName ref="http://syriaca.org/place/2821">Mendia</placeName><ptr type="noteAnchor" target="#n387-4"/>; and, when I saw him, I was astonished in
+            his presence, and I greeted him, having no knowledge of what had happened;
+            and he on his side was bowed down, and was melancholy and wretched. And
+            on my inquiring of him about his sorrow he sat down and accused himself
+            and told the story of his crime at a length many times greater than what
+            I have put in writing. And, when I heard it, I admired the man's penitence;
+            and I comforted him by saying to him: <quote>You have done a great deed and
+               one that deserves admiration, in that for the sake of your soul's healing
+               you have despised shame<ptr type="noteAnchor" target="#n387-5"/>, and have taken upon yourself that, be it igno<pb n="590"/><pb n="388"/>miny 
+               or reproach, or chastisements and everything that comes here, you will
+               submit to them, they being things that are transitory, in order to escape
+               from the severe and terrible chastisement in hell which lasts for ever. And
+               now fear not. You did well in that you did not carry out the work of
+               <persName ref="http://syriaca.org/person/3651">Satan</persName> and his will to the uttermost, though he caused you a fall inasmuch 
+               as you are a man</quote><!-- This close quotation is missing in Brooks but these requires it. -->. He on hearing these things was comforted; and
+            he went on entreating us to return with him to the owner of the stolen
+            property, in order to entreat him to receive his own in full and forgive the
+            transgression. When we saw that it was a labour of profit to gain our
+            brother<ptr type="noteAnchor" target="#n388-1"/>, we did not refuse; and further also we were required to fulfil the
+            precept given in the command, <quote>If thy brother shall force thee to go one
+               mile, go with him two</quote><ptr type="noteAnchor" target="#n388-2"/>. And so we returned with him, and went in to
+            that blessed man, having left him some distance away. And we found him
+            agitated with great grief and much distress on account of the martyrs and on
+            account of the books especially; and, when we began to speak before him,
+            <quote>Indeed we can find your property for you</quote>, he was astonished, and began
+            to make inquiries. Then we on our part asked him to perform a request
+            for us, and all his belongings would be found complete; and he on his side
+            <pb n="591"/><pb n="389"/>answered <quote>Everything that you command I for my part am ready to carry
+               out even without that</quote>. Then we offered him repentance, having taken it
+            upon ourself, and we said: <quote>Since <persName ref="http://syriaca.org/person/3651">Satan</persName>, father, caused us to fall like men,
+               and we sinned against God and your holiness, receive your own, and forgive
+               the crime, and remain without ill-feeling, in order that you may be a fulfiller
+               of the command which said <quote>Forgive and it shall be forgiven unto you</quote><ptr type="noteAnchor" target="#n389-1"/></quote>.
+            But the blessed man was much grieved over him and was distressed, saying:
+            <quote>Even if he does not restore me anything and you command, all the days
+               of my life I will consent that he shall live with me without ill-feeling, and
+               I will never remind him of this matter</quote>. And so that brother came, repenting 
+            and weeping and with his face bowed down to the ground, and bitterly
+            accusing himself, in such a way as he could not have been accused by one
+            who hated him. When that blessed man saw his penitence, and all of us<ptr type="noteAnchor" target="#n389-2"/>
+            alike greatly wondered and marvelled at the grace which had opened his
+            heart and caused him thus to repent and to act in this way (and all who
+            heard the story wondered and marvelled at it), then he in this way received
+            thanks from everyone in place of punishment. And the blessed man received
+            <pb n="592"/><pb n="390"/>him, and laid a penance upon him, and absolved him. And he hired an ass
+            for him; and that brother set out, and so he went and brought all the articles,
+            not having forgotten anything. And thenceforth he continued to repent
+            of his offence like a guilty man, and he was diligent in showing repentance
+            for it, insomuch that we on our part left him in this condition, admiring
+            what he had done and thanking God.
+         </p>
+         <p>
+            The history of a certain brother who was caught by the enticement of temptation
+            to theft and afterwards came to repentance is ended.
+         </p>
+         <noteGrp>
+            <note xml:id="n384-1">See p. 325 and ch. 56.</note>
+            <note xml:id="n384-2">In 534 or 541; see Introd., p. IV, V.</note>
+            <note xml:id="n384-3">Sc. relics; cf. p. 114.</note>
+            <note xml:id="n384-4">Ruf. <title>Hist. Mon.</title>, XXII; Soz. VI, 31. Acc. to Rufinus it was 70 stades from Nitris.</note>
+            <note xml:id="n387-1">Andrew the soldier is commemorated with Menas on 12 July (V. D. and L.; see Acta Sanct., XXX, p. 289).</note>
+            <note xml:id="n387-2">Sc. of the Nile. The meaning of <!-- eb, Syriac --> in our author is as here given, not <hi rend="singleQuote">exadversum as V. D. and L. See p. 289, n. 2, and Dyakonov, p. 84.</hi></note>
+            <note xml:id="n387-3">See p. 209, n. 2.</note>
+            <note xml:id="n387-4">See p. 190.</note>
+            <note xml:id="n387-5">Hebr., XII, 2.</note>
+            <note xml:id="n388-1">Matth., XVIII, 15.</note>
+            <note xml:id="n388-2">Id., V, 41.</note>
+            <note xml:id="n389-1">Luke, VI, 37.</note>
+            <note xml:id="n389-2">The other persons present were perh. the hermit's disciples.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

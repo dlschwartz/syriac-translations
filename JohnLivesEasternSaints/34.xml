@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/826">Simeon the Scribe</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <!-- See spear/826 -->
+         <head>Next the Thirty-Fourth History, of <persName ref="http://syriaca.org/person/2098">Simeon</persName> the Old, the Scribe of <placeName ref="http://syriaca.org/place/8">Amida</placeName>.</head>
+         <p>
+            [....]<note>The beginning is lost.</note>
+            he used to expend upon them, until for many days nothing succeeded in
+            <pb n="602"/><pb n="400"/>reaching his own particular table and those with him, while everyone was
+            overpowered with great astonishment at the abounding willingness of this
+            man of God, how he was not wearied or annoyed and vexed by all that great
+            number of poor who were constantly with him, though often both we and
+            other lazy persons like me felt weariness, and we were annoyed by the
+            clamour and turmoil of many persons when we were present with him, and
+            we said, <quote>How is it, our father, that you endure all this turmoil from morning
+               even to evening, and do not tell them fixed times at which they may come?</quote>
+            But he on his side would say: <quote>Do you tell me, my brethren, have we a
+               time at which we knock at God's door and are not received? has he someone
+               at his door who is vexed with us or makes announcement to us and says, <quote>Go
+                  now and come at another time</quote>? Lo! is not his door open before us at every
+               [time] if we on our side wish to knock at it? and how then do you advise me
+               that, when he himself comes to my door, I should turn him away, or, when
+               he knocks, I should not answer him, or that I should fix a time for him? Is
+               it not enough that <persName>Christ</persName> comes on his feet to my door, but that<ptr type="noteAnchor" target="#n400-1"/> I, a vile
+               piece of dust of his formation, should open my mouth to him in insult? or do
+               we not believe what he told us in his preaching, saying, <quote>To me ye did it</quote><ptr type="noteAnchor" target="#n400-2"/>;
+               <pb n="603"/><pb n="401"/>whether it be what is good or what is evil? And he said not <quote>To vile and feeble
+                  men</quote>, but <quote>To me ye did it</quote>.</quote>
+         </p>
+         <p>
+            And these things this true bondman of God would say with sorrow and
+            tears besides many others. But at first he was indeed actually in great
+            straits, because he had not supplies sufficient for his abounding willingness;
+            but at last, when he had continued for several years, and the fame of his
+            practices had been reported all over the city, God also who had seen his love
+            used to send him what he needed in abundance, and thenceforth the holy
+            old man would contrive not merely to plant his foot in one footprint (<foreign xml:lang="grc">τύπος</foreign>)
+            of the patriarch whom he was desirous of imitating and remain there, but
+            would<ptr type="noteAnchor" target="#n401-1"/> enlarge his steps<ptr type="noteAnchor" target="#n401-2"/> to run and reach many of his footprints; so that,
+            besides the love and alacrity and hospitality which he possessed like him, in
+            this also as well he did not fall behind him, that he personally and with his
+            own hands performed all the service; and, as the patriarch, when he possessed 
+            all that host of bondmen and servants, when he saw the men who
+            were received by him as guests, did not order someone else to run to the
+            herd to fetch the calf, but ran himself in his old age that he might be the
+            receiver of the blessing and not another, so this man with all that advanced
+            <pb n="604"/><pb n="402"/>old age used himself to perform all the service of the whole day, though
+            many were then living with him in the cell, and he did not allow them to
+            wait either upon him or upon anyone, but he himself would wait upon them,
+            and often, whenever any necessary service was required, he would himself
+            rise from table, and fulfil it; and (a great thing which astonishes many) that<ptr type="noteAnchor" target="#n402-1"/>
+            he would actually himself stand before the cooking-stand every day and
+            cook without tiring, having laid down the following law (<foreign xml:lang="grc">νόμος</foreign>) for himself,
+            that, as soon as they had finished nocturns, he would dismiss his companions
+            to their bodily rest, and would himself direct his steps to the kitchen, and
+            himself begin and cook until morning on account of the poor people who were
+            in the habit of coming early, and would put the food together, and make it ready;
+            and so he would go out and wake them, and they<ptr type="noteAnchor" target="#n402-2"/> would rise to matins; and
+            as soon as the service was finished they would place tables both within and
+            without. Moreover, as if greedy for his great spiritual trade, he did not
+            stop at<ptr type="noteAnchor" target="#n402-3"/> waiting on those who came and went, but he brought <persName ref="http://syriaca.org/person/3685">four blind men</persName>,
+            and placed them in his cell at his table; and thenceforth he was not
+            to be seen except distributing the food and placing it in the mouth of each
+            <pb n="605"/><pb n="403"/>one of them by his name<ptr type="noteAnchor" target="#n403-1"/>; and, if it were a portion of bread (?)<ptr type="noteAnchor" target="#n403-2"/>, or some herbs,
+            or a cup, he would grasp each of them with his hand, calling them by their
+            names, and entreating and pressing them to eat, while he also grasped the
+            hand of each one of them and made it feel the dish; and again that<ptr type="noteAnchor" target="#n403-1"/>, if anyone
+            soever great or small came to him, there was no possibility of his separating
+            his food from theirs, so that many great and distinguished men who used to
+            visit him on account of his extreme old age and his extraordinary practices
+            and were possessed by friendship for him did not like this that he used to
+            make them sit among these <persName ref="http://syriaca.org/person/3685">blind men</persName>; and he on his side paid no heed to
+            these men, but these <persName ref="http://syriaca.org/person/3685">blind men</persName> were greater in his eyes than anyone, and
+            he used to wait on them as if they were <persName>Jesus Christ</persName>, and there was no
+            means of distinguishing either his own proper food or that of anyone who
+            visited him from them<ptr type="noteAnchor" target="#n403-3"/> or from all the other guests, but he himself would
+            wait both on them and on everyone, and would pour out wine and bring
+            hot water, and himself mix it, everyone disliking this on account of his
+            venerable old age; and, if anyone made any answer to him or wished to do
+            anything instead of him, this is what he would say to him: <quote>I, my brother,
+               <pb n="606"/><pb n="404"/>have not insulted you or done you any harm. Wherefore do you insult me?</quote>.
+            When then this saint had completed about ten years in the royal city itself,
+            since, inasmuch as he had found material for his trade in it, and inasmuch
+            moreover as the persecution which was always everywhere did not cease, he
+            had now chosen to continue to remain in the city occupied in this labour, we
+            ourselves having been in intercourse with him for about twelve years while
+            he was following these practices, so then this extraordinary man ended his
+            life<ptr type="noteAnchor" target="#n404-1"/>, having strenuously completed all his days in these great labours, so that,
+            when he had become very infirm, and God wished to take him to his abode in
+            heaven, and he felt that he was dying, he gave each of his companions a
+            present out of his cell as he knew to be suited to him, as well as the furniture
+            of the altar, since indeed besides these things his cell was actually a church
+            also, and an altar was continuously set ready in it, and a large congregation
+            used to assemble before it. And he ordered all that he had to be sold and
+            given to the poor; and so it was done. And he departed from this world
+            according to the commandment of God.
+         </p>
+         <p>
+            The history of <persName ref="http://syriaca.org/person/2098">Simeon</persName> the old, the scribe of <placeName ref="http://syriaca.org/place/8">Amida</placeName>, is ended.
+         </p>
+         <noteGrp>
+            <note xml:id="n399-2">The beginning is lost.</note>
+            <note xml:id="n400-1">Sic syr.</note>
+            <note xml:id="n400-2">Matth., XXV, 40.</note>
+            <note xml:id="n401-1">Sic syr.</note>
+            <note xml:id="n401-2">Ps. XVIII, 37.</note>
+            <note xml:id="n402-1">Sic syr.</note>
+            <note xml:id="n402-2">Sc. the monks.</note>
+            <note xml:id="n402-3">This must be the meaning of <foreign xml:lang="syr">ܐܬܟܠܝ ܥܠ</foreign>. The lexicons do not give the phrase.</note>
+            <note xml:id="n403-1">Sic syr.</note>
+            <note xml:id="n403-2">Ms. <hi rend="singleQuote">portion</hi> only. Perh. a word has fallen out. but cf. p. 393, l. 10.l</note>
+            <note xml:id="n403-3">Sic syr.</note>
+            <note xml:id="n404-1">Ms. om. Since he lived 10 years in CP. and was in intercourse with J. for 12 years, he probably came to CP at the same time as J. (540) and died in 550.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
