@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div n="1">
+            <head>An Epistle of Constantine the King summoning the Bishops from Ancyra to Nice.<ptr type="noteAnchor" target="1"/></head>
+            <p>That there is nothing more honourable in my sight than religion, is, I believe,
+               manifest to every man. Now because the Synod of Bishops at Ancyra, of Galatia,
+               consented formerly that it should be so<ptr type="noteAnchor" target="2"/>, it hath seemed to us now on many accounts,
+               that it would be well for it to be assembled at Nice, a city of Bithynia, because the
+               Bishops of Italy, and of the rest of the countries of Europe are coming, and because of
+               the excellent temperature of the air<ptr type="noteAnchor" target="3"/>, and because I shall be at hand as a spectator and
+               participator of what is done. Wherefore, I signify to you, my beloved brethren, that ye
+               all of you promptly assemble at the city I spoke of, that is at Nice. Let every one of
+               you, therefore, diligently inquire into that which is profitable, in order that, as I before
+               said, without any delay we may speedily come to be a present spectator of those things
+               which are done by the same. God keep you, my beloved brethren.</p>
+         </div>
+         <div n="2">
+            <head>Injunction of the same Constantine, against the Arians.
+               Constantine the King to the Bishops and nations everywhere.<ptr type="noteAnchor" target="4"/></head>
+            <p>Inasmuch as Arius imitates the evil and the wicked, it is justice that like them he
+               should be rebuked and rejected. As therefore, Porphyry, who was an enemy of religion,
+               and wrote wicked and lawless writings against the religion of Christians, found the
+               reward which was meet for him, that he might be a reproach in all generations after,
+               because he fully and insatiably used base fame; so that on this account even his writings
+               may be justly destroyed: so also now it hath seemed fit that Arius and the holders of
+               his opinion, should be all called Porphyrians, that he may bear the name of those whose
+               evil ways he imitates: and not only this, but also that all the writings of Arius, wherever
+               found, should be delivered up to be burnt with fire, in order that not only his wicked and
+               evil doctrine may perish, but also that the memorial of himself and of his doctrine may
+               be blotted out, that by no means there may remain to him any remembrance in the
+               <pb n="22"/>world. And this also I ordain, that if any one should be detected secreting any writing
+               composed by Arius, and should not straightway deliver up and burn it with fire, his
+               punishment shall be death; for as soon as he is caught in this, he shall suffer capital
+               punishment by beheading, without delay.</p>
+         </div>
+         <div n="3">
+            <head>A confession of faith which was made at Nicea, a city of Bithynia, in the consulate 
+               of Paulinus and Julianus, in the year 373 of the reckoning of the Antiochians, 
+               after Antiochus; and in the year 636 of the reckoning of the Macedonians,
+               after Alexander, in the month Haziran, on the 19th of it; and on the 13th of
+               the reckoning of the Romans, which is called the calends of June, July.<ptr type="noteAnchor" target="5"/></head>
+            <p>I believe in one God the Father Almighty, Maker of all things, visible and invisible:
+               And in one Lord Jesus Christ<ptr type="noteAnchor" target="6"/> the Son of God, who was begotten of the Father, only
+               begotten. Now he is of the substance of the Father, God of God, Light of Light, very
+               God of very God, who was begotten and not made; of the same substance as the Father;
+               by whose hand all things were made which are in heaven and in earth; who for us men
+               and for our salvation, came down and became incarnate, and was made man, and suffered,
+               and rose the third day, and ascended to heaven, and cometh to judge the living and the
+               dead And in the Holy Ghost.</p>
+            <p>Now those who say that once he was not, and that he was not before he was begotten, 
+               or that he was from nothing, or say that he was of another substance or essence,
+               or think the Son of God changeable or mutable, these the Catholic and Apostolic Church
+               anathematizes.</p>
+         </div>
+         <div n="4">
+            <head>Confession of Faith of 150 Bishops who were at Constantinople.<ptr type="noteAnchor" target="7"/></head>
+            <p>I believe in one God the Father Almighty, Maker of heaven and earth, of all things
+               visible and invisible: And in one Lord Jesus Christ, the only Son of God, who was
+               begotten of the Father, before all worlds, very God of very God, who was begotten and
+               not made; of the same essence as the Father; by whose hands everything was made; who
+               for us men, and for our salvation, came down, and became incarnate of the Holy Ghost,
+               and of Mary the Virgin, and became man, and was crucified for us, in the days of Pontius
+               Pilate; and suffered, and was buried, and rose the third day according as the Scriptures
+               say; and ascended to heaven, and sitteth at the right hand of his Father; and cometh
+               again in glory to judge the living and the dead; of whose kingdom there is no end; And
+               in the Holy Ghost, the Lord and Lifegiver, who proceedeth from the Father; who with
+               the Father and the Son, is to be worshipped and glorified; who spake by the prophets:
+               <pb n="23"/>And in one Holy, Apostolic and Catholic Church: And I confess one baptism for the
+               remission of sins: And I hope for the resurrection of the dead, and the life of the world
+               to come.</p>
+         </div>
+         <div n="5">
+            <head>Names of the Bishops</head>
+            <list>
+               <head>Of Italy, Three.</head>
+               <item>Hosius, Bishop of Corduba, a city of Italy.<ptr type="noteAnchor" target="8"/> Thus I believe as is above written.</item>
+               <item>Vito and Vicentius, presbyters<ptr type="noteAnchor" target="9"/> of Rome, for our bishop (papa) we subscribe, for
+                  we thus believe as is above written.</item>
+            </list>
+            <list>
+               <head>Of Egypt, Eleven.</head>
+               <item>Alexander of Alexandria.<ptr type="noteAnchor" target="10"/></item>
+               <item>Alpocration of Alphocranum.<ptr type="noteAnchor" target="11"/></item>
+               <item>Adamantius of Canon.<ptr type="noteAnchor" target="12"/></item>
+               <item>Arbetion of Barathu.<ptr type="noteAnchor" target="13"/></item>
+               <item>Philip of Panephysus.</item>
+               <item>Potamon of Heraclea.</item>
+               <item>Secundus of Ptolemais.</item>
+               <item>Dorotheus of Pelusium.</item>
+               <item>Gaius of Thmuis.<ptr type="noteAnchor" target="14"/></item>
+               <item>Antiochus of Memphis.</item>
+               <item>Tiberius of Tythatis.<ptr type="noteAnchor" target="15"/></item>
+            </list>
+            <list>
+               <head>Of Thebais, Three.</head>
+               <item>Atthas of Ascedia.<ptr type="noteAnchor" target="16"/></item>
+               <item>Tyrannus of Antinoë.</item>
+               <item>Volusianus of Lycon.<ptr type="noteAnchor" target="17"/></item>
+            </list>
+            <list>
+               <head>Of Upper Libya, Five.</head>
+               <item>Daces of Berenice.</item>
+               <item>Zopyrus of Barce.</item>
+               <item>Serapion of Antipurgos.</item>
+               <item>Secundus of Teuchilibya.<ptr type="noteAnchor" target="18"/></item>
+               <item>Titus of Paraetonium.</item>
+            </list>
+            <list>
+               <head>Of Palestine, Nineteen.</head>
+               <item>Macarius of Jerusalem.</item>
+               <item>Germanus of Samaria.<ptr type="noteAnchor" target="20"/></item>
+               <item>Marinus of Sebastiana.<ptr type="noteAnchor" target="21"/></item>
+               <item>Gajanus of Sebaste.<ptr type="noteAnchor" target="22"/></item>
+               <item>Eusebius of Caesarea.</item>
+               <item>Sabinus<ptr type="noteAnchor" target="23"/> of Gadara.</item>
+               <item>Longinus of Ascalon.</item>
+               <item>Peter of Nicopolis.</item>
+               <item>Macrinus of Jamnia.</item>
+               <item>Maximus of Eleutheropolis.</item>
+               <item>Paul of Maximianopolis.</item>
+               <item>Januarius of Jericho.</item>
+               <item>Heliodorus of Zabulon.<ptr type="noteAnchor" target="24"/></item>
+               <item>Aetius of Lydda.<ptr type="noteAnchor" target="25"/></item>
+               <item>Silvanus of Azotus.</item>
+               <item>Patrophilus of Beishan.<ptr type="noteAnchor" target="26"/></item>
+               <item>Asclepias of Gaza.</item>
+               <item>Peter of Aila.<ptr type="noteAnchor" target="27"/></item>
+               <item>Antiochus of Capitolias.</item>
+            </list>
+            <pb n="24"/>
+            <list>
+               <head>Of Phoenicia, Ten.</head>
+               <item>Zeno of Tyre.</item>
+               <item>Aeneas<ptr type="noteAnchor" target="28"/> of Accho.</item>
+               <item>Magnus of Damascus.</item>
+               <item>Theodorus of Sidon.</item>
+               <item>Hellanicus<ptr type="noteAnchor" target="29"/> of Tripolis.</item>
+               <item>Philocles of Paneas.</item>
+               <item>Gregory of Berytus.<ptr type="noteAnchor" target="30"/></item>
+               <item>Marinus of Thadmor.<ptr type="noteAnchor" target="31"/></item>
+               <item>Anatolius<ptr type="noteAnchor" target="32"/> of Emesa .</item>
+               <item>Badonius of Alaso.<ptr type="noteAnchor" target="33"/></item>
+            </list>
+            <list>
+               <head>Of Coele Syria, Twenty-two.</head>
+               <item>Eustathius of Antioch.</item>
+               <item>Zenobius of Seleucia.</item>
+               <item>Theodotus<ptr type="noteAnchor" target="34"/> of Laodicea.</item>
+               <item>Ulpius<ptr type="noteAnchor" target="35"/> of Apamea.</item>
+               <item>Bassianus<ptr type="noteAnchor" target="36"/> of Raphanea.</item>
+               <item>Philoxenus of Mabug.<ptr type="noteAnchor" target="37"/></item>
+               <item>Solomon<ptr type="noteAnchor" target="38"/> of Germanicia.</item>
+               <item>Papirius<ptr type="noteAnchor" target="39"/> of Samosata.</item>
+               <item>Archelaus of Doliche.<ptr type="noteAnchor" target="40"/></item>
+               <item>Euphrantius of Balanea.<ptr type="noteAnchor" target="41"/></item>
+               <item>Palladius<ptr type="noteAnchor" target="42"/>, Chorepiscopus.</item>
+               <item>Zoilus of Gabala.</item>
+               <item>Bassus of Zeugma.</item>
+               <item>Gerontius<ptr type="noteAnchor" target="43"/> of Larissa.</item>
+               <item>Manicius<ptr type="noteAnchor" target="44"/> of Hamath.</item>
+               <item>Eustathius of Aresthan.<ptr type="noteAnchor" target="45"/></item>
+               <item>Paul of Neocaesarea.</item>
+               <item>Siricius of Cyrrhus.<ptr type="noteAnchor" target="46"/></item>
+               <item>Seleucus, Chorepiscopus.</item>
+               <item>Peter of Gindara.<ptr type="noteAnchor" target="47"/></item>
+               <item>Pegasius of Harba-Kedem.<ptr type="noteAnchor" target="48"/></item>
+               <item>Bassonius<ptr type="noteAnchor" target="49"/> of Gabala.</item>
+            </list>
+            <list>
+               <head>Of Arabia, Six.</head>
+               <item>Nicomachus of Bostra.</item>
+               <item>Cyrnon<ptr type="noteAnchor" target="50"/> of Philadelphia.</item>
+               <item>Gennadius of Asbyntum.<ptr type="noteAnchor" target="51"/></item>
+               <item>Severus of Sodoma.</item>
+               <item>Sopater of Barathena.<ptr type="noteAnchor" target="52"/></item>
+               <item>Severus of Dionysias.</item>
+            </list>
+            <list>
+               <head>Of Mesopotamia, Five.</head>
+               <item>Ethilhas of Edessa.</item>
+               <item>Jacob of Nisibis.<ptr type="noteAnchor" target="53"/></item>
+               <item>Antiochus of Resaina.</item>
+               <item>Mareas of Birtha.<ptr type="noteAnchor" target="54"/></item>
+               <item>John of Persia.<ptr type="noteAnchor" target="55"/></item>
+            </list>
+            <list>
+               <head>Of Cilicia, Eleven.</head>
+               <item>Theodorus of Tarsus.</item>
+               <item>Amphion of Epiphaneia.</item>
+               <item>Narcissus of Neronias.<ptr type="noteAnchor" target="56"/></item>
+               <item>Moses of Castabala.<ptr type="noteAnchor" target="57"/></item>
+               <item>Nicetas of Flavias.<ptr type="noteAnchor" target="58"/></item>
+               <item>Eudaemon, Chorepiscopus.</item>
+               <item>Paulinus of Adana.</item>
+               <item>Macedonius of Mopsuestia.<ptr type="noteAnchor" target="59"/></item>
+               <item>Taracondimantus of Aegae.</item>
+               <item>Hesychius of Alexandria Minor.</item>
+               <item>Narcissus of Irenopolis.<ptr type="noteAnchor" target="60"/></item>
+            </list>
+            <pb n="25"/>
+            <list>
+               <head>Of Cappadocia, Ten.</head>
+               <item>Leontius of Caesarea.</item>
+               <item>Eupsychius<ptr type="noteAnchor" target="61"/> of Tyana.</item>
+               <item>Erythrius<ptr type="noteAnchor" target="62"/> of Colonia.</item>
+               <item>Timothy of Cybistra.<ptr type="noteAnchor" target="63"/></item>
+               <item>Helpidius of Comana.<ptr type="noteAnchor" target="64"/></item>
+               <item>Gorgonius, Chorepiscopus.</item>
+               <item>Stephen, Chorepiscopus.</item>
+               <item>Eudrames, Chorepiscopus.</item>
+               <item>Doron<ptr type="noteAnchor" target="65"/>, Chorepiscopus.</item>
+               <item>Theophanes, Chorepiscopus.</item>
+            </list>
+            <list>
+               <head>Of Armenia Minor, Two.</head>
+               <item>Eulalius<ptr type="noteAnchor" target="66"/> of Sebaste.</item>
+               <item>Euhethius of Satala.<ptr type="noteAnchor" target="67"/></item>
+            </list>
+            <list>
+               <head>Of Armenia Major, Five.</head>
+               <item>Aristacius of Armenia.<ptr type="noteAnchor" target="68"/></item>
+               <item>Acrites of Diospontum.<ptr type="noteAnchor" target="69"/></item>
+               <item>Eutychianus of Amasea.</item>
+               <item>Helpidius of Comana.<ptr type="noteAnchor" target="70"/></item>
+               <item>Heraclius of Zela.</item>
+            </list>
+            <list>
+               <head>Of Pontus Polemicus, Three.</head>
+               <item>Longinus of Neocaesarea.</item>
+               <item>Domnus of Trapezus.<ptr type="noteAnchor" target="71"/></item>
+               <item>Stratophilus of Pityus.<ptr type="noteAnchor" target="72"/></item>
+            </list>
+            <list>
+               <head>Of Paphlagonia, Three.</head>
+               <item>Philadelphus of Pompeiopolis.</item>
+               <item>Petronius of Junopolis.<ptr type="noteAnchor" target="73"/></item>
+               <item>Eupsychius of Amastris.</item>
+            </list>
+            <list>
+               <head>Of Galatia, Five.</head>
+               <item>Marcellus<ptr type="noteAnchor" target="74"/> of Ancyra.</item>
+               <item>Dicasius of Tyana.<ptr type="noteAnchor" target="75"/></item>
+               <item>Arcathius of Gadmeausia.<ptr type="noteAnchor" target="76"/></item>
+               <item>Gorgonius of Ciaena.<ptr type="noteAnchor" target="77"/></item>
+               <item>Philadelphus of Juliopolis.<ptr type="noteAnchor" target="78"/></item>
+            </list>
+            <list>
+               <head>Of Asia, Six.</head>
+               <item>Theonas of Corycus.<ptr type="noteAnchor" target="79"/></item>
+               <item>Menophantes<ptr type="noteAnchor" target="80"/> of Ephesus.</item>
+               <item>Eudion<ptr type="noteAnchor" target="81"/> of Ilium.</item>
+               <item>Eutychius of Smyrna.</item>
+               <item>Mithras of Hypaepa.<ptr type="noteAnchor" target="82"/></item>
+               <item>Macrinus of Julium.<ptr type="noteAnchor" target="83"/></item>
+            </list>
+            <list>
+               <head>Of Hellespont, One.</head>
+               <item>Paul of Anaea.</item>
+            </list>
+            <list>
+               <head>Of Lydia, Nine.</head>
+               <item>Artemidorus of Sardes.</item>
+               <item>Sares<ptr type="noteAnchor" target="84"/> of Thyatira.</item>
+               <item>Tomasius<ptr type="noteAnchor" target="85"/> of Philadelphia.</item>
+               <item>Pollio of Baris.<ptr type="noteAnchor" target="86"/></item>
+               <item>Agogius of Tripolis.</item>
+               <item>Florentius<ptr type="noteAnchor" target="87"/> of Ancyra Ferrea.</item>
+               <item>Antiochus of Aurelianopolis.</item>
+               <item>Marcus of Standum.<ptr type="noteAnchor" target="88"/></item>
+               <item>Antiochus of Hierocaesarea.</item>
+            </list>
+            <list>
+               <head>Of Phrygia, Eight.</head>
+               <item>Nunechius of Laodicea.</item>
+               <item>Flaccus of Sanis.<ptr type="noteAnchor" target="89"/></item>
+               <item>Procopius of Synnada<ptr type="noteAnchor" target="90"/></item>
+               <item>Pisticius of Azani.<ptr type="noteAnchor" target="91"/></item>
+               <item>Athenodorus of Dorylaeum.<ptr type="noteAnchor" target="92"/></item>
+               <item>Paul of Apamea.</item>
+               <item>Eugenius of Eucarpia.</item>
+               <item>Flaccus of Hierapolis.</item>
+            </list>
+            <list>
+               <head>Of Pisidia, Ten.</head>
+               <item>Eulalius of Iconium.</item>
+               <item>Telemachus of Adrianopolis.<ptr type="noteAnchor" target="93"/></item>
+               <item>Hesychius of Neapolis.</item>
+               <item>Eutychius of Seleucia.<ptr type="noteAnchor" target="94"/></item>
+               <item>Uranicus<ptr type="noteAnchor" target="95"/> of Limen.</item>
+               <item>Tarsicius<ptr type="noteAnchor" target="96"/> of Apamea.</item>
+               <item>Patricius of Ampelada.<ptr type="noteAnchor" target="97"/></item>
+               <item>Polycarpus of Metropolis.</item>
+               <item>Academius of Papha.<ptr type="noteAnchor" target="98"/></item>
+               <item>Heraclius of Baris.<ptr type="noteAnchor" target="99"/></item>
+            </list>
+            <list>
+               <head>Of Lycia, One.</head>
+               <item>Eudemus of Patara.<ptr type="noteAnchor" target="100"/></item>
+            </list>
+            <list>
+               <head>Of Pamphylia, Seven.</head>
+               <item>Callicles of Perga.</item>
+               <item>Eurasius of Termessus.</item>
+               <item>Zeuxes of Verabon.<ptr type="noteAnchor" target="101"/></item>
+               <item>Domnus of Aspendus.</item>
+               <item>Contianus of Seleucia.</item>
+               <item>Patricius of Maximianopolis.</item>
+               <item>Aphrodisias of Magidis.</item>
+            </list>
+            <list>
+               <head>Of the Islands, Four.</head>
+               <item>Euphrosynus of Rhodes.</item>
+               <item>Meliphron of Coos.</item>
+               <item>Strateges of Lemnos.</item>
+               <item>Aletodorus of Corcyra.</item>
+            </list>
+            <list>
+               <head>Of Caria, Five.</head>
+               <item>Eusebius of Antioch.</item>
+               <item>Ammonius of Aphrodisias.</item>
+               <item>Eugenes of Apollonias.</item>
+               <item>Letodorus of Cibyra.<ptr type="noteAnchor" target="102"/></item>
+               <item>Eusebius of Miletus.</item>
+            </list>
+            <list>
+               <head>Of Isauria, Seventeen.</head><!-- Interesting, there are only 16 names listed. -->
+               <item>Stephen of Barata.</item>
+               <item>Athenaeus of Coracesium.</item>
+               <item>Hedesius of Claudiopolis.</item>
+               <item>Agapius of Seleucia.</item>
+               <item>Silvanus of Isauropolis.</item>
+               <item>Postus of Panaemon.</item>
+               <item>Antoninus of Antioch.</item>
+               <item>Nestor of Syedra.<ptr type="noteAnchor" target="103"/></item>
+               <item>Hesychius, Chorepiscopus.</item>
+               <item>Cyrillus of Thaumanadon.</item>
+               <item>Theodorus of Vesada.<ptr type="noteAnchor" target="104"/></item>
+               <item>Anatolius, Chorepiscopus.</item>
+               <item>Paul of Laranda.</item>
+               <item>Conatus, Chorepiscopus.</item>
+               <item>Tiberius of Lystra.</item>
+               <item>Eusebius of the <hi rend="italics">Parochia</hi> of Isauropolis.<ptr type="noteAnchor" target="105"/></item>
+            </list>
+            <pb n="27"/>
+            <list>
+               <head>Of Cyprus, Two.</head>
+               <item>Cyrillus of Paphos.</item>
+               <item>Gelasius of Salamis.</item>
+            </list>
+            <list>
+               <head>Of Bithynia, Eleven.</head>
+               <item>Eusebius of Nicomedia.</item>
+               <item>Theognis of Nicea.</item>
+               <item>Maris of Chalcedon.</item>
+               <item>Cyrillus of Cium.<ptr type="noteAnchor" target="106"/></item>
+               <item>Hesychius of Prusa.<ptr type="noteAnchor" target="107"/></item>
+               <item>Gorgonius of Apollonias.</item>
+               <item>Georgius of Aprusas.</item>
+               <item>Euhethius of Adrianopolis.</item>
+               <item>Theophanes, Chorepiscopus.</item>
+               <item>Rufus of Caesarea.</item>
+               <item>Eulalius, Chorepiscopus.</item>
+            </list>
+            <list>
+               <head>Of Europe, One.</head>
+               <item>Phaedrus of Heraclea.</item>
+            </list>
+            <list>
+               <head>Of Dacia, Two.</head>
+               <item>Protogenes of Serdica.</item>
+               <item>Marcus of Calabria.</item>
+            </list>
+            <list>
+               <head>Of Moesia, One.</head>
+               <item>Festus of Marcianopolis.</item>
+            </list>
+            <list>
+               <head>Of Carthage, One.</head>
+               <item>Cecilianus of Carthage.</item>
+            </list>
+            <list>
+               <head>Of Macedonia, One.</head>
+               <item>Alexander of Thessalonica.</item>
+            </list>
+            <list>
+               <head>Of Dardania, Two.</head>
+               <item>Dacus of Macedonia.</item>
+               <item>Budiaeus of Trobon.<ptr type="noteAnchor" target="108"/></item>
+            </list>
+            <list>
+               <head>Of Achaia, Three.</head>
+               <item>Festus of Athens.</item>
+               <item>Marsyas of Euboea.</item>
+               <item>Strateges of Ephestia.</item>
+            </list>
+            <list>
+               <head>Of Thessaly, One.</head>
+               <item>Claudianus of Thessaly.</item>
+            </list>
+            <list>
+               <head>Of Pannonia, One.</head>
+               <item>Domnus of Pannonia.</item>
+            </list>
+            <list>
+               <head>Of Gallia, One.</head>
+               <item>Nicasius of Divio.<ptr type="noteAnchor" target="109"/></item>
+            </list>
+            <list>
+               <head>Of Gothia, One.</head>
+               <item>Theophilus of Gothia.</item>
+            </list>
+            <list>
+               <head>Of Bosphorus, One.</head>
+               <item>Cadmus of Bosphorus.</item>
+            </list>
+            <p>The names of the Bishops and of their cities end, which are in all 220, because
+               the names of the western Bishops were not written.<ptr type="noteAnchor" target="110"/></p>
+         </div>
+         <pb n="28"/>
+         <div n="6">
+            <head>Title of the Canons of Nice, from fol. 16.</head>
+            <p>Ecclesiastical Canons of the great and holy Synod of 318 Bishops, which was
+               assembled at Nicea, a city of Bithynia, and constituted those things which are written
+               below.</p>
+            <p>(Here follow the Twenty Canons.)</p>
+         </div>
+         <div n="7">
+            <head>Colophon, from 150, a.</head>
+            <p>There are contained in this book 193 canons which were drawn up in eight different
+               Synods, and were translated from Greek into Syriac, carefully and clearly, in the city of
+               Mabug, in the year 812 of Alexander.</p>
+         </div>
+         <div n="8">
+            <head>Fragments from No. 14526, fol. 38.<ptr type="noteAnchor" target="111"/></head>
+            <p>Again, a history of these Synods. Now the Synod of Nicea was assembled in the
+               days of Constantine the Great; and its chiefs were Alexander, Archbishop of Alexandria ;
+               and in the place of the papa of Rome, Vinto and Vicentius, presbyters of Rome.</p>
+         </div>
+         <div n="9">
+            <head>Fragments from No. 14526, fol. 38.<ptr type="noteAnchor" target="111"/></head>
+            <p>Again: Now the Synod of Nicea was assembled because of the affairs of wicked
+               Arius, who alienated the Son from the nature of the Father; and in that he was begotten
+               of the Father, they called him 'made,' and ' a creature,' and (said) that he was not of
+               the same nature as the Father.</p>
+         </div>
+         <div n="10">
+            <head>Canon 6 of Nice.<ptr type="noteAnchor" target="112"/>—On the primacy which belongs to distinguished cities.</head>
+            <p>Let the ancient customs be kept in Egypt, and in Libya, and in Pentapolis, that the
+               Bishop of Alexandria should have power over all these; because to him of Rome also,
+               this custom obtains. And so also in Antioch, and in the other provinces, let the primacy
+               be maintained in the churches. Now let this be everywhere known, that if a man should
+               be made a bishop without the consent or permission of the Metropolitan, the great Synod
+               determines, that he shall not be a bishop. But if two or three for their contentiousness
+               should oppose an election common to all of them, when it is orderly, and according to
+               the ecclesiastical canon, let the opinion of the majority obtain and stand.</p>
+         </div>
+         <div n="11">
+            <head>Canon 7 of Nice.-On the Bishop of Aelia: that is, Jerusalem.</head>
+            <p>Because the custom and ancient tradition holds, that the Bishop of Jerusalem
+               should be honoured; let him have the degree of his honour. Let there be also maintained 
+               for the Metropolitan his distinction.</p>
+         </div>
+         <div n="12">
+            <head>Colophon, 149 b.</head>
+            <p>The end. Given in the month Thammuz, in the Consulship of Herculanus.<ptr type="noteAnchor" target="113"/></p>
+         </div>
+         <div><!-- Ethan, don't worry about the notes in the following sections. Just wrap names in persName and places in placeName -->
+            <head>Supplement</head>
+            <p>The lists here printed are curious, and derived from the same MS. as the catalogue
+               of the Nicene Fathers.</p>
+            <div>
+               <list>
+                  <head>Bishops who were Assembled at the Synod of Ancyra.</head>
+                  <item>Vitalius of Antioch of Syria.</item>
+                  <item>Marcellus of Ancyra, Galatia.*</item>
+                  <item>Agricolas of Caesarea, Cappadocia.</item>
+                  <item>Lupus of Tarsus of Cilicia.</item>
+                  <item>Basilius of Amasea grmn Major (i. e. Amasea, what the letters g. r. m. n. are meant for, I cannot divine.)</item>
+                  <item>Philadelphus of Loliopolis of Galatia.* (Loliopolis, is called Juliopolis in the Nicene List.)</item>
+                  <item>Eusiteles of Nicomedia of Bithynia.</item>
+                  <item>Heraclius of Zela of Armenia Major.*</item>
+                  <item>Peter of Iconium.</item>
+                  <item>Nunechius of Laodicea of Phrygia.*</item>
+                  <item>Sergianus of Antioch of Pisidia.</item>
+                  <item>Epidaurus of Perga of Pamphylia.</item>
+                  <item>Narcissus of Neronias.*</item>
+               </list>
+            </div>
+            <div>
+               <list>
+                  <head>Those who were at Caesara. (i.e. Neocaesarea, as it is called afterwards.)</head>
+                  <item>Vitalius of Antioch.</item>
+                  <item>Sanctus.</item>
+                  <item>Lupus of Tarsus.</item>
+                  <item>Valentinus.</item>
+                  <item>Leontius.*</item>
+                  <item>Narcissus of Neronias.*</item>
+                  <item>Basilius of Amasea.</item>
+                  <item>Dicasius.*</item>
+                  <item>Gregorius.*</item>
+                  <item>Alphius (comp. Ulpius.)*</item>
+                  <item>Longinus.*</item>
+                  <item>Germanus.*</item>
+                  <item>Heraclius of Zela.*</item>
+                  <item>Gerontius.*</item>
+                  <item>Amphion.*</item>
+                  <item>Stephanus.*</item>
+                  <item>Saadus.</item>
+                  <item>Salaminius.</item>
+                  <item>Erythraeus.*</item>
+                  <item>Leontius.*</item>
+               </list>
+            </div>
+            <div>
+               <list>
+                  <head>Those who were at Gangara.</head>
+                  <item>Eusebius.*</item>
+                  <item>Aelianus.</item>
+                  <item>Eugenius.*</item>
+                  <item>Olympius.</item>
+                  <pb n="36"/>
+                  <item>Eulalius.*</item>
+                  <item>Hypatius.</item>
+                  <item>Bassus.*</item>
+                  <item>Proaeresius.</item>
+                  <item>Bithynicus.</item>
+                  <item>Gregorius.*</item>
+                  <item>Philetus.</item>
+                  <item>Pappus.</item>
+                  <item>Eugenius.*</item>
+                  <item>Heraclius.*</item>
+                  <item>Basilius.</item>
+               </list>
+            </div>
+            <div>
+               <list>
+                  <head>Those who were at Laodicea.</head><!-- There is a lot going on here that I don't understand. Check mss. -->
+                  <item>Moses of Castabala* of Cilicia.</item>
+                  <item>Manicius of Hamath of Syria.*</item>
+                  <item>Patricius.</item>
+                  <item>Aetherius.</item>
+                  <item>Jacob of Nisibis of Syria.*</item>
+                  <item>Agapius of Seleucia* of Isauria.</item>
+                  <item>Magnus of Damascus* of Phoenicia.</item>
+                  <item>Aeneas of Accho of Phoenicia.*</item>
+                  <item>Anatolius of Emesa* of Phoenicia.</item>
+                  <item>Macedon of Mopsuestia* of Cilicia.</item>
+                  <item>Peter of Gindara of Syria.*</item>
+                  <item>Corion(*) of Philadelphia.*</item>
+                  <item>Theodotus,* (Theodotus?)</item>
+               </list>
+            </div>
+            <div>
+               <list>
+                  <head>Those who were at Antioch.</head>
+                  <item>Eusebius.*</item>
+                  <item>Theodorus.</item>
+                  <item>Theodorus.*</item>
+                  <item>Nicetas.*</item>
+                  <item>Macedonius.*</item>
+                  <item>Anatolius.*</item>
+                  <item>Taracondamantus.*</item>
+                  <item>Aetherius.*</item>
+                  <item>Alphius (comp. Ulpius)</item>
+                  <item>Mauricius.</item>
+                  <item>Hesychius.*</item>
+                  <item>Manicius.*</item>
+                  <item>Theodotus.*</item>
+                  <item>Musaeus.</item>
+                  <item>Mucianus.</item>
+                  <item>Magnus.*</item>
+                  <item>Agapius.*</item>
+                  <item>Archelaus.*</item>
+                  <item>Bassus.*</item>
+                  <item>Siricius.*</item>
+               </list>
+            </div>
+         </div>
+         <pb n="37"/>
+         <div>
+            <head>Addenda: Pseudo-Athanasian and Nicene Creeds.</head>
+            <p>It may not be uninteresting to some, if we append here a translation of two Creeds,
+               the former professing to be by Athanasius, and the latter given as the Nicene Creed. They are
+               from a Syriac MS. in the British Museum, No. 12,156, which was written in A.D. 562, and is
+               the depository of many curious relics. The volume contains among other things the treatise of
+               Timothy of Alexandria against the Council of Chalcedon,' which includes a large number of
+               extracts from the Fathers. The so-called Creed of Athanasius bears evident marks of a Monophysite 
+               origin, and the so-called Nicene Creed is made out of the true Nicene and Constantinopolitan. 
+               As I am not aware of their existence elsewhere, I give them a place here, among
+               the very few Syriac fragments which I have been able to discover referring to the Council of
+               Nice.</p>
+            <div>
+               <head>Creed of the blessed Athanasius, head of the bishops (Archbishop) of Alexandria, upon the
+                  divine incarnation of God the Word, which consents† to that of the holy Synod which was
+                  in Nice.</head>
+               <p>We confess the Son of God, who before the worlds was eternally begotten; who in the
+                  end of the worlds was (born) of Mary in the flesh for our redemption, as the divine Apostle
+                  teacheth, saying, <quote>Now when the fulness of the time was come, God sent his Son who was (born)
+                     of a woman,</quote> and he was Son of God and God in the Spirit, but Son of Man in the flesh. The one
+                  Son was not two natures, one which is to be worshipped, and another not to be worshipped, but
+                  one nature of God the Word, who became incarnate, and is with his flesh, to be worshipped
+                  with one worship: nor are there two Sons, one who is the Son of the true God and to be
+                  worshipped, but the other from Mary, the Son of Man, and not to be worshipped, being Son
+                  of God by grace as men also are: but he who was of God, and God as I said, is at once
+                  Son of God and God; and he was not another who was also born of Mary in the flesh in the
+                  last days. As also the angel said to Mary mother of God, when she asked, <quote>How shall this
+                     be, for I know not a man?</quote>-<quote>The Holy Ghost shall come upon thee, and the power of the
+                  Highest shall overshadow thee, and therefore that Holy One who shall be born of thee
+                  shall be called the Son of God.</quote> He therefore that was born of the Virgin Mary was
+                  by nature Son of God and the true God, and not by grace and communication. In the flesh
+                  alone, he that was of Mary was Son of Man, but in the Spirit he was both Son of God
+                  and God, who bore our sufferings, as it is written, <quote>Christ suffered for us in the flesh;</quote> and
+                  again, <quote>For he that spared not his own Son, but gave him up for us all.</quote> For he continued
+                  impassible and immutable in the divinity, as it is said by the prophet, <quote>I am God and I change
+                  not,</quote> who died our death in the flesh for our sins, that he might remove death by death for us,
+                  as the Apostle saith, <quote>Death is swallowed up in victory. O Death, where is thy victory? O
+                  Grave, where is thy sting?</quote> And again, <quote>Christ died for our sins according to the Scriptures.</quote>
+                  Now he continued incomprehensible and immortal in death, in the divinity, according to the
+                  impassible power of the Father, as Peter saith, <quote>It was not possible that he should be holden
+                  of death.</quote> And he ascended to heaven and sitteth at the right hand of the Father, according
+                  to his flesh (viz.), that of the Word, which went up from earth, as was said by David, <quote>The
+                  Lord said unto my Lord, Sit thou on my right hand,</quote> which is affirmed of our Lord both by
+                  him and by the Apostles. Now in the Divinity he is infinite, and every place is limited by him
+                  <pb n="38"/>With the Father who is eternal he is a son of eternity (=eternal), according to the paternal
+                  power which is ineffable, according to the teacher Paul, <quote>Christ the power of God, and Christ
+                  the wisdom of God.</quote> And he cometh, being Son of God and God as is confessed, that he may
+                  judge the living and the dead, as the Apostle saith, <quote>Who shall judge the hidden things of
+                  darkness, and reveal the thoughts of the hearts: and he shall render glory and contempt to
+                  every man as becometh him.</quote></p>
+               <p>Now if a man teach other than these things from the divine Scriptures, saying that the
+                  Son of God is one, and the Son of Man who was of Mary is another who was made a son by
+                  grace as we are; so that there are two Sons, one by nature Son of God, who was of God, and
+                  one by grace, the Son of Man who was of Mary; or if a man say that the flesh of our Lord is
+                  from above, and not of the Virgin Mary; or that the Divinity partook of the flesh, or was confounded 
+                  or commuted with it; or that the divinity of the Son was passible; or that the flesh of
+                  our Lord is not to be worshipped, inasmuch as it is that of the Son of Man, and is not to be
+                  worshipped as being the flesh of our Lord and our God: such a one the Holy and Catholic
+                  church anathematizes, since the divine Apostle enjoins it, saying, <quote>If a man preach to you other
+                  than ye have received, let him be anathema.</quote></p>
+            </div>
+            <div>
+               <head>Confession of Faith of the great and holy Synod of 318 blessed Fathers at Nice.</head>
+               <p>We believe in one God the Father Almighty, Maker of heaven and of earth, and of all things
+                  visible and invisible:</p>
+               <p>And in one Lord Jesus Christ the Son of God, who was begotten of the Father, the only
+                  begotten. Now he is of the Substance of the Father; God of God; Light of Light; Very
+                  God of Very God; who was begotten and not made; of the same substance as the Father; by
+                  whom all things were made which are in heaven and which are on earth; who for us men and
+                  for our redemption, came down and became incarnate, and became man, and suffered, and rose
+                  the third day and he ascended to heaven, and shall come to judge the living and the dead:</p>
+               <p>And in the Holy Ghost.</p>
+               <p>Now those who say that once he was not, and that he was not before he was begotten, or
+                  that he was from nothing, or say that he was of another substance or essence, or that the Son of
+                  God was mutable or changeable; these the Catholic and Apostolic Church anathematizes.</p>
+               <p>This which is one and alone was constituted against the Arians.</p>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
