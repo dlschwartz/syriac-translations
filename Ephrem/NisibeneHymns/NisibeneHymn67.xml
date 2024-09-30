@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8800">Nisibis 67</title>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
+               Hymns on Nisibis -
+               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            </title>
+            <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
+               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXVII">
+                  https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXVII
+               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>

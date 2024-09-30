@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8502" n="0">Prefatory
+               Letter</title>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The
+               Demonstrations</title>
+            <author ref="http://syriaca.org/person/10">Aphrahat</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
+               <ref target="https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Select_Demonstrations_of_Aphrahat/Letter_of_an_Inquirer">
+               https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Select_Demonstrations_of_Aphrahat/Letter_of_an_Inquirer
+               </ref>. This transcription available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="section" n="1">
+            <head type="editorial">1</head>
+            <p> Beloved, I send thee inquiries and questions, for I am compelled to seek further
+               instruction of thee on many points. Do not thou refuse to hear me. My spirit urges me
+               to warn thee about many topics<ptr type="noteAnchor" target="#n1"/> that thou mayest unfold for me the spiritual
+               perceptions of thy mind, and mayest show me of all that thou hast apprehended from
+               the holy books, that so my deficiency may be supplied by thee and my hunger satisfied
+               by thy doctrine, and that thou mayest assuage my thirst from the fountain of thine
+               instruction. Yet though many things are set in my thought to ask thee, they all are
+               notwithstanding reserved with me, that when I come to thee, thou mayest instruct me
+               on all subjects. </p>
+         </div>
+         <div type="section" n="2">
+            <head type="editorial">2</head>
+            <p> But before all things I desire that thou wouldst write and instruct me concerning
+               this that straitens me, namely, concerning our faith; how it is, and what its
+               foundation is, and on what structure it rises, on what it rests, and in what way is
+               its fulfilment and consummation, and what are the works required for it. For I of
+               myself firmly believe that God is one, Who made the heavens and the earth from the
+               beginning; that He adorned the world by His handiwork; that He made man in His image;
+               He it is that accepted the offering of Abel. He translated Enoch because of his
+               excellence. He preserved Noah because of his righteousness. He chose Abraham because
+               of his faith. He spake with Moses on account of his meekness. He it is that spake in
+               all the prophets, and furthermore He sent His Christ into the world. Since then, my
+               brother, I thus believe in these things that so they are, I therefore, brother,
+               request of thee that thou wouldest write and show me what are the works required for
+               this our faith, that so thou mayest set me at rest. </p>
+         </div>
+         <noteGrp>
+            <note xml:id="n1">The beginning to this point is lost in the Syriac but has been
+               preserved in the Armenian translation. We have borrowed it thence through the Latin
+               translation of Graffin (Patrologia Syriaca, Tom. I.).</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
