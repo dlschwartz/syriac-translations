@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8791">Nisibis 58</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,119 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LVIII">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LVIII"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LVIII
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 58</head>
+         <div type="section" n="1">
+            <ab>Lo! Death was prompt beforehand, to mock Satan: him who was doomed to become a
+               mockery at the last.</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Response: Glory to Thee Who by Thy crucifixion, didst conquer the Evil One: and by Thy
+               resurrection gain victory, likewise over Death!</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>And for our Lord’s sake Death spake curses on him: who was the cause of His shame,
+               and crucifixion.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Death: The fiery pit be thy grave, O Satan: who blasphemedst the Voice from the grave,
+               that rent the graves</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>My Lord I know, and the Son of my Lord, O thou Satan! thou hast denied thy Lord, and
+               crucified the Son of thy Lord.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>This is the name that fits thee, “Slayer of thy Lord”: when He appears Whom thou
+               slewest, He shall slay thee.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>At thee shall every one shake the head, for by thee the chiefs: shook their heads at
+               Him, the Lord of life.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>A bruised reed under the feet, of the just shalt thou be: for through thee they put a
+               reed in His hand, Who upholds all.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>With a crown of thorns was He crowned, to signify: that He took the diadem of the
+               kingdom, of the house of David.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>With a crown of thorns was He crowned, the King of kings: but He took the diadem of
+               the king, of those that shamed him.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>In the robes of mockery that they gave him, in those He mocked them: for He took the
+               raiment of glory, of priests and kings.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>To vinegar is thy memory akin, O thou Satan: who didst offer vinegar for the thirst,
+               of the Fount of Life.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>The hand shall every man lift against thee who strengthenedst the hand that smote Him
+               by Whose hand, all creatures stand.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>He was smitten by the hand and He cut off the hand, of Caiaphas: the hand of the
+               priesthood is cut off, in the cutting off of the unction.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>On the pillar again they stretched Him, as for scourging: Him Whose pillar went
+               before, to guide their tribes.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>The pillar on the pillar, He was scourged: He removed Himself from out of Zion, and
+               its fall came.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>When they put two beams together, to form the Cross: He broke them, even the two
+               staves, the guardians of them.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>Ezekiel put together the sticks, the two in one: in the two beams of the Cross, their
+               staves have ceased.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>The two sticks, as it were wings, bore the people: lo! his two staves were broken,
+               even as his wings.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>The bosom and wings of the Cross, He opened in mercy: its pinions bowed and bore the
+               nations, to go to Eden.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>It is akin to the Tree of Life, and unto the son of its stock: it leads its beloved
+               that on its boughs, they may feed on its fruits.</ab>
+         </div>
+         <div type="section" n="22">
+            <ab>Go howl and weep, Evil One, for me and for you: for not one of us shall enter the
+               “Garden of Life.”</ab>
+         </div>
+         <div type="section" n="23">
+            <ab>Death: Now that thou hast confessed O Death, come let me tell thee: that all this
+               discourse of thine, to me is idle talk.</ab>
+         </div>
+         <div type="section" n="24">
+            <ab>I will go and watch the snares, which I have set: thou too, Death, fly and look
+               after, all that are sick.</ab>
+         </div>
+         <div type="section" n="25">
+            <ab>Our Lord has brought both to nought, on either hand: the Evil One shall be brought to
+               nought here, and Death hereafter there.</ab>
+         </div>
       </body>
    </text>
 </TEI>

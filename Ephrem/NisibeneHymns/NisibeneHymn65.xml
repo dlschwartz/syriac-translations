@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8798">Nisibis 65</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,115 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXV">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXV"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXV
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 65</head>
+         <div type="section" n="1">
+            <ab>Man: O Death, despise thou it not, that image of Adam: which like a seed is committed
+               to earth, till the Resurrection.</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Response: To thee be glory Who didst descend and plunge, after Adam: and draw him out from
+               the depths of Sheol, and bring him into Eden!</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>Death: I marvel at this seed, and at your words: for lo! after five thousand years,
+               it springs not yet.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Man Its present state passes away, as winter does: and as a handful of corn it comes
+               in the resurrection, to the garner of life.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>Death: That there is vintage-time, lo! I know, but I have not seen: the dead at any time
+               sown, or yet reaped.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>Man There is coming a reaping, O Death, that will leave thee bare: and the Watchers
+               shall go forth as reapers, and make thee desolate.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>Death: When did I become husbandman, instead of vine-dresser? who has turned Sheol the
+               wine-press, into a tilled field?</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>Man Does not the seed then teach thee, which decays and dies: and is cut off from
+               hope, yet from the rain, recovers hope?</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>Death: A dream have ye seen ye feeble ones, of life from the dead: for in waking time
+               the resurrection, ye do not see.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>Man Thy drowsiness hinders thee, that thou seest not: the multitudes of mysteries
+               which cry aloud, of the resurrection.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>Death: I know that seeds come to life, but I have not seen: bones that grew in Sheol,
+               and sprang and came up.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>Man All thy discourse is like thyself, for lo! Ezekiel: has taught thee how in the
+               valley, the dead come to life.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>Death: Trees have I seen how in summer, they put on their garments: but bones in their
+               nakedness, are cast into Sheol.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Man Moses broke by his splendour, thy heart, O Death: the son of Adam has regained
+               and put on, the glory of Adam.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>Death: Our law in Sheol is this, to keep silence: for you are words and for me deeds, O
+               feeble ones.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>Man How are the aged passed over if thou be vinedresser? He Who hindered thee from
+               taking their lives, the same quickens all.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>The babe in the womb confutes thee, which is as buried there: to me it proclaims life
+               from the dead, but to thee despoiling.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>The despised flower despises thee, for it is shut up and passed over: yet though lost
+               it is not lost, but blossoms again.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>The chick cries out from the egg, wherein it is buried: and the graves are rent by a
+               Voice, and the body arises.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>For a body too is the chick, that is in the egg: lo! its body to our body proclaims,
+               the life from the dead.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>With the locust thy plea is overthrown, and ended, O Death: for in coming forth from
+               the dust it teaches, the life from the dead.</ab>
+         </div>
+         <div type="section" n="22">
+            <ab>Death: I had been content if already, the resurrection had been: for the day of
+               resurrection had disturbed me less, than your judgments.</ab>
+         </div>
+         <div type="section" n="23">
+            <ab>Merciful is the Son of the Highest, yea good and just: and will not harshly avenge on
+               me, the death of Adam.</ab>
+         </div>
+         <div type="section" n="24">
+            <ab>Have ye then no understanding, to perceive this: that your father laid on you, this
+               retribution?</ab>
+         </div>
       </body>
    </text>
 </TEI>

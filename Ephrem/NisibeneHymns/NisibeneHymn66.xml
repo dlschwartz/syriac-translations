@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8799">Nisibis 66</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,103 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXVI">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXVI"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXVI
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 66</head>
+         <div type="section" n="1">
+            <ab>Hold your peace, O mortals (said Death), a little while: and be like me who am so
+               silent, in the midst of Sheol.</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Response: To Thee be glory, Watcher, that didst come down, after them that slept: and utter
+               the voice from the Tree, and waken them!</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>Ye are grieving, yea, weeping, for him that has gone: as though he came to grind for
+               me, the mill in Sheol.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Great is the peace I give, unto the wearied: I wax not weary as you, nor weary
+               them.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>I hear all manner of curses, from thankless men: the sons of Adam are like Adam, who
+               was thankless to his Lord.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>Contrary one to the other are your voices, and your doings: with your voices ye weep
+               and in your doings, ye fight daily.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>I heard weeping and I thought to myself, that none labours: I saw toiling and I
+               thought to myself, that no man dies.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>The struggles of man made me think, that he is not mortal: his great weeping made me
+               think, that to-morrow he is not.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>Hear and let me be your counsellor, if ye be willing: for these two, these burdens,
+               are very bitter.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>Cease a little while from this toil, and from this weeping: toil ye and weep as
+               mortals, who to-morrow vanish.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>Ye are frantic with weeping, for your departed: and ye struggle in toiling, for your
+               possessions.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>It is well with the infants that die, and blessed are they: for they are freed from
+               the misery, whereunto ye are cast.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>Suffer me to go to Sheol, and there to say: “Happy are ye silent dead, how tranquil
+               are ye!”</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Hear the conclusion of our own words, If there be a resurrection: weep not ye,
+               neither labour as though strangers.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>Ye straggle as one who was to live, here forever: and ye weep as one who never,
+               should rise again.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>Hear my words, if there be with you place for hearing: and prepare you provision that
+               when I call ye may answer.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>For I hearken even I, to Him that calls me: and will restore your bodies, with your
+               treasures.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>Let there be peace between us, until that day: and when ye come forth I will cry and
+               say, “Depart in peace!”</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>Come ye, you and I even now, shall give glory: to Him that brings to death and to
+               life, that He may give aid.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>Praise from us all be to thee, O Lord, the living Sacrifice! Who by the sacrifice of
+               Thy Body hast given life to quick and dead.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>Praise to Him Who clothed Himself in our body, and died and rose again: He died in us
+               and we live in Him, blessed be He Who sent Him!</ab>
+         </div>
       </body>
    </text>
 </TEI>
