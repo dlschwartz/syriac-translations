@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 53</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 53, pp. 261-262.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="54">
+            <head>LIV</head>
+            <p>Other explanations concerning Maggenanutha[#n261-1]</p>
+            <p>Although we have already spoken on this subject in an other context in the foregoing
+               disquisitions[#n261-2], when an opportunity offered itself, yet we do not object to
+               elucidating the subject further here.</p>
+            <p>Maggenanutha denotes help and guardianship and also the receiving of the heavenly
+               gift. As for instance: The Holy Ghost shall come and the Power of the Highest shall
+               overshadow thee[#n261-3]. And: Thy right hand shall save me[#n261-4] which is a
+               prayer for help. And: I will defend this city to save it[#n261-5].</p>
+            <p>So we understand two kinds of action in the maggenanutha granted by God unto mankind;
+               one is symbolical and intelligible; the other practical. The former is connected with
+               the holiness which is received through divine grace; this means: by the influence of
+               the Holy Ghost a man is made holy in body and soul, as is the case of Elisha and John
+               and Mary the blessed among women. But because this is incomparable <pb n="262"/>and
+               above that which happens to the rank-and-file of creatures we have to come to that
+               partial [holiness] which is granted unto the other saints, in the relation between
+               the limbs and the body.</p>
+            <p>The mysterious kind of maggenanutha — as the [gifts] <pb type="external" n="391"
+               />imparted unto each of the saints — is a kind of influence which possesses the mind.
+               And when man is deemed worthy of this maggenanutha, the mind is snatched away in
+               ecstasy and expanded by some divine revelation. And as long as the influence
+               possesses the mind, man is exalted above the emotions of psychic deliberations, on
+               account of his communion with the Holy Ghost.</p>
+            <p>And this is what was said by the Apostle in the form of a prayer unto the Ephesians,
+               when he desired to explain to them this mystery: May the God of our Lord Jesus
+               Christ, the Father of glory, give unto you the spirit of wisdom and revelation in the
+               knowledge of Him: the eyes of your hearts being enlightened[#n262-1]. What is the
+               result of this? That ye may know what is the hope of His calling and what the riches
+               of the glory of His inheritance in the saints, and what is the exceeding greatness of
+               His power to us-ward who believe[#n262-2].</p>
+            <p>This is one symbolical kind of maggenanutha, that when this power overshadows a man,
+               he is deemed worthy of the glory of the new world, by revelation. And this is the
+               part that has fallen to the lot of the saints by light concerning which the blessed
+               Paul says, that those are deemed worthy of it who have received sanctification of the
+               mind from the Spirit, on account of their holy and excellent behaviour[#n262-3].</p>
+            <p>Another kind of maggenanutha is that whose action manifests itself practically. It is
+               the intelligible power which constantly covers a man and broods over him, removing
+               from him any injury or accident that threatens to approach his body or soul,
+               something not to be perceived visibly by the mind, but <pb type="external" n="392"
+               />clear and evident to the eye of faith, such as was frequently experienced by the
+               saints; as is written: The angels of the Lord encamp round about them that fear Him
+               and deliver them[#n262-4]. And: Many are the afflictions of the righteous but the
+               Lord delivers them out of them all[#n262-5].</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n261-1">Inspiration, revelation, incarnation a. s. o.</note>
+            <note xml:id="n261-2">Syriac text, pp. 107, 160</note>
+            <note xml:id="n261-3">Luke 1,35 naggen; to overshadow is only a faint rendering. The
+               original means rather to envelop and to overpower.</note>
+            <note xml:id="n261-4">Ps. 138,7</note>
+            <note xml:id="n261-5"><choice><sic>Ps.</sic><corr>Is.</corr></choice> 37,35</note>
+            <note xml:id="n262-1">Ephesians 1,17 sq.</note>
+            <note xml:id="n262-2">ib. 10,18 sq.</note>
+            <note xml:id="n262-3">cf. 2 Thess. 2,13</note>
+            <note xml:id="n262-4">Ps. 34,7</note>
+            <note xml:id="n262-5">Ps. 34,19</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

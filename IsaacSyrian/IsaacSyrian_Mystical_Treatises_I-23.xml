@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 23</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 23, pp. 118-120.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="23">
+            <head>XXIII</head>
+            <p>On the speech of true knowledge</p>
+            <p>Every apperceptive thing, be it action or word, is the revelation of what is hidden
+               within, if its cause be not entirely accidental, but return constantly. The latter
+               element only is <pb n="119"/>considered in connection with reward; the former is
+               taken into consideration to a small extent only. For the strength or the weakness of
+               will is evidenced in the doing of evil or of good things, not by anything that
+               happens accidentally; but the proof of its freedom is the constant repetition.</p>
+            <p>To fate is given power; sometimes even so as to dominate <pb type="external" n="176"
+               />freedom of will. Good or bad accidents meet man be it in order to spur him on, or
+               to test, or to train, or to reward him. That which serves to spur on, is good; that
+               which serves to test, is considered as being bad; that which serves to train and to
+               remunerate is indifferent.</p>
+            <p>There are no fortuitous accidents; for nothing fortuitous happens to man, good or
+               evil. There is a governor who governs the things of this world. There is a guardian
+               with each of us, whom nothing escapes and whose attention never fails. But all
+               accidents are foreseen by this appointed guardian. And in these four kinds [of
+               accidents] his providence is active.</p>
+            <p>Passionate prayer, the companion of a course [of life] in harmony with its passionate
+               nature, alters the character of those [who are subject to accidents] and brings about
+               amelioration. The good are strengthened and corroborated by it; to the bad it causes
+               a change to the opposite direction. Therefore, doubt not what I have said: there is
+               no accident fortuitous or without a governor. If indeed prayer combined with
+               <choice><sic>steadfestness</sic><corr>steadfastness</corr></choice> is able to alter or to direct, we have to believe that
+               there is a governor to every accident. Blessed is he who compares every accident
+               which happens to him, with his hidden [state], who scrutinizes its cause and beholds
+               its governor. He that is desirous to acquire experience with God, cannot but become a
+               fool to the world and a hater of human glory.</p>
+            <p>Admirable is the man who conceals the greatness of his work by lowliness of soul.
+               Such a one is admired by the angels.</p>
+            <p>As guardians of righteousness have to be <choice><sic>reckonned</sic><corr>reckoned</corr></choice> by thee <pb
+                  type="external" n="177"/>involuntary defects, which sometimes are found with those
+               who are watchful.</p>
+            <p>There is no prayer which is heard so soon as when a man asks to be reconciled with
+               those who are angry with him. And when a man charges himself with the fault, this
+               prayer is answered without delay. If thou fulfillest thy duty and art watchful in thy
+               domain, yet art weak and despicable in thy <pb n="120"/>own eyes, hating human glory,
+               then know that thou art surely in the way of God. But if thou perceivest that thou
+               art not in this state and, when thou explorest thyself, thou seest that thoughts of
+               blame cause thee pain, then know that thou art void of truth and in secret relation
+               with falsehood.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

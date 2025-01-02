@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 78</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 78, pp. 360-361.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="78">
+            <pb n="360"/>
+            <head>LXXVIII</head>
+            <p>On the profit [arising] from the flight from the world the method of which has been
+               thought out by the Fathers through prudent examination</p>
+            <p>Strong indeed and difficult and very hard is the struggle which arises when things
+               are near. And though a man may be excellent and vigorous, when things causing battles
+               and strife are near, fear clings to him. Then he falls easier than when Satan
+               personally meets him in battle. For when a man <pb type="external" n="537"/>is not
+               far from those things which the heart is afraid of, the fiend has constantly the
+               opportunity [to assail him]. And if it happens that he sleeps a while, the fiend can
+               easily destroy him. For there the body is in danger of being injured, at any rate it
+               has to be kept afar from sin. But here it is the soul that receives an invisible blow
+               and it cannot fatigue the fiend so that he gives up fighting against it. For these
+               things are of themselves able to move against it the disturbance of struggle at any
+               time. And willingly it lets itself be captivated by them, without any one arousing
+               strife against it from without. But the soul is in strife with itself through the
+               allurements of those things which are arranged before the senses of the body, as has
+               been said somewhere; for as soon as the soul is captivated by the injurious meetings
+               with the world, these meetings become stumbling-blocks to it; or, as has also been
+               said: The soul is naturally vanquished, when it meets those things.</p>
+            <p>Therefore, because the ancient saints who have walked in these ways knew that the
+               mind is not always healthy so as to be able to remain in one attitude, without
+               deviation, and vigilant, because there is a time that the soul becomes enveloped in
+               darkness without being able to look at those things which cause injury — they have
+               examined prudently and [resolved to] put on renunciation, as a weapon. For it frees
+               from many struggles, as has been written. For some have escaped from sins, through
+               their poverty and have migrated towards the desert where there is nothing to cause
+               affections, <pb n="361"/>so that, when a time comes when they are weak, nothing is
+               found to give occasion to fall.</p>
+            <p><pb type="external" n="538"/>I say: anger and desire and rancour and glory and the
+               like are slight, because of the desert, and by it [those solitaries] were protected
+               as by an invincible tower. Then every one of them was able to accomplish his strife
+               in solitude, there where the senses found no support so as to become fiends by
+               injurious meetings. Better for us is death in our struggle, than life with
+               falling.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

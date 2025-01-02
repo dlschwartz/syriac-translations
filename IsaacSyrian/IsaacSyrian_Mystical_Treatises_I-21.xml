@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 21</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 21, pp. 110-111.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="21">
+            <head>XXI</head>
+            <p>On that which happens during prayer [unto those who live] in solitude</p>
+            <p>Who is he that knows that delightful bending of the knees, when the tongue is silent
+               and the heart silently utters some glorification, and its delightful emotion does not
+               abate, the <pb type="external" n="163"/>body resting on the knees in silence? Blessed
+               who eats from these things perpetually. But they do not happen at will, nor when one
+               seeks them. This is in part the delight which is given for the consolation of him who
+               walks without a blame before the Lord in the course of solitude.</p>
+            <p>If he continues this course in all simplicity, and seeks the purity of his service,
+               and if his behaviour is worthy, after some time he will be deemed worthy of the
+               things mentioned above.</p>
+            <pb n="111"/>
+            <p>As to those who are novices in this course and who have a fixed aim, Grace at first
+               will make them apt for the taste of these and similar things by recitation and it
+               will draw their thoughts towards its self, away from earthly thoughts. Then they will
+               work and wake and pray without becoming fatigued. Unto those who are trained to some
+               extent in the mysteries of solitude, apperceptive power during prayer and service
+               will be imparted.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 10</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 10, pp. 78-80</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="10">
+            <pb n="78"/>
+            <head>X</head>
+            <p><pb type="external" n="115"/>On the words of the Scriptures being spoken as it were
+               to patients in moderation lest they should wholly abandon the living God. But this
+               should not be taken by us as a reason for greater freedom regarding sin</p>
+            <p>The encouragement which our Fathers give us in their writings and the help towards
+               repentance which is in the writings of the Prophets and the Apostles, should not be
+               taken by us as a reason to disregard the threats of the divine acts of judgment, nor
+               the punishment which God has decreed firmly against the <choice><sic>trangression</sic><corr>transgression</corr></choice>
+               of the borders which should not be passed, through the mouth of all His saints and by
+               means of all kinds of laws, in order to eradicate sins. As if the hope of repentance
+               could be reason for us to strip from ourselves the feeling of fear in order to sin
+               more freely and without dread. These [threats] are confirmed by the seals of the word
+               of God, in all the scriptures of our salvation, and by the [divine] decrees fixed
+               against them, [threatening] all kinds of terror. Some of these He has partly revealed
+               to the many or to the few [people] by the punishments He brought upon them in order
+               to show that He hated sin. Or why then were drowned in the Deluge the generations of
+               the days of Noah? Was it not on account of the vileness of lasciviousness, because
+               they had violated the <pb type="external" n="116"/>beauty of the daughters of Kain?
+               In that time there was no love of money nor adoration of idols, nor sorcery, nor wars
+               waged [by men] against one another.</p>
+            <p>Or again, why were five towns of the Sodomites for ever burnt? Was it not because
+               they had given way to lust of the flesh, which had taken possession of them according
+               to its good pleasure, consisting in all kinds of impurity? Was it not because of the
+               fornication of one man that in Israel, the firstborn of God, there fell twenty-five
+               thousand by the plague in an instant? Why then was Simson rejected by God, Simson,
+               the man of strength, the Naziraean from the womb, the sanctified to God, whose birth
+               was annunciated by an angel like that of John the son of Zecharia, through whose hand
+               [God] wrought marvels and signs, and who by the supernatural strength <pb n="79"
+               />which God infused into his body smote a thousand men with the jawbone of an ass and
+               became a saviour and a judge unto Israel? Was it not because he made impure and
+               defiled his hallowed limbs by intercourse with a harlot, that the Lord left him and
+               gave him into the hands of his enemies? David, the heart of God, for whose excellence
+               the promise made unto the righteous Fathers was carried out in his offspring from
+               whom sprouted Christ the Saviour of the whole world — was it not by adultery with one
+               woman and for the feebleness of one moment that from a glance of his eye he got an
+               arrow in his soul and wrought evil against himself from within his own house; for the
+               son which was to come forth from his loins was to pursue him?</p>
+            <p>And this happened although he showed repentance and the <pb type="external" n="117"
+               />Lord said to him: Also have I put away thy sin; thou shalt not die[#n79-1], and he
+               wept a flood of tears so that he moistened his bed during the nights.</p>
+            <p>I return to what I was saying before: Why then did distress and destruction hit the
+               house of Eli the priest, the righteous old man, a priest and a judge of Israel during
+               forty years? Was it not because of Pinehas and Hophni his sons who treated the women
+               scornfully that came to pray in the tabernacle, though he himself did not sin, at any
+               rate not wilfully, but only in so far as he was silent and reprehended with words
+               only, without showing fervour against the fornication of his sons, so that the
+               judgment of the Lord took revenge on them? And lest any one should think that the
+               Lord shows His zeal only against those who are sinners in their lifetime, He also
+               displays it against this audacious sin hated of Him, in the case of those who are
+               near to Him, His priests and judges and the heads of the people and against those men
+               who were holy unto Him and by whose hands He had done wonderful things, yet whom,
+               when they violated the laws He had laid down, He did not spare. As is written in
+               Ezechiel where He says to the man whom He orders to smite the people of Jerusalem
+               with a hidden sword: Begin before my altar and do not spare, neither old man nor boy
+               nor youth[#n78-2] to show that it was the people near to Him, those who walked in
+               fear <pb type="external" n="118"/>and chastity before Him and performed His will. The
+               saints <pb n="80"/>of the Lord and those near to Him are good works and a pure heart.
+               But when they reject the ways of the Lord's will, He also rejects them and puts them
+               away from before Him and takes His grace from them.</p>
+            <p>And why then did the judgment of the Exalted smite Belshazzar by the sign of the
+               hollow hand? Was it not because he had behaved audaciously against the holy vessels
+               which he had taken from Jerusalem and in which he drank with his concubines? And in
+               the same way the judgment of the Exalted will of a sudden smite him who in abandoned
+               audaciousness uses for worldly purposes the limbs that once were set apart for the
+               holiness of the Lord, just as Belshazzar was smitten who behaved audaciously against
+               the holy vessels taken from the sanctuary of the Lord.</p>
+            <p>Therefore we should not make use of the confidence in repentance and the heart-giving
+               words of the scriptures as a motive for disregarding the words and the threats of the
+               Lord and disdain Him by evil deeds, disdaining thereby also the limbs that once we
+               have offered as a sacrifice for the ministration of His sanctuaries and for the use
+               of His service.</p>
+            <p>Verily we are the sanctified of the Lord and the Naziraeans abstaining from women, as
+               Elijah, Elisha and the prophets and the other sanctified Naziraeans and holy virgins
+               by whose hands great and amazing things were done, who spake with God face to face;
+               and as those who lived afterwards, John the virgin and the holy Simeon and the other
+               preachers of <pb type="external" n="119"/>the New Testament who sanctified themselves
+               to the Lord and received mystic secrets from Him, some from His own mouth, others by
+               revelation. And so they became mediators between God and mankind, and the receptacles
+               of His revelations and the preachers of the Kingdom to the inhabitants of the
+               world.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n78-1">Cf. 2 Samuel 12,13</note>
+            <note xml:id="n78-2">Ezekiel 9,6</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

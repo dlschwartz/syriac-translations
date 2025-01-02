@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 61</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 61, pp. 286-287.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="61">
+            <pb n="286"/>
+            <head>LXI</head>
+            <p>For which causes God admits temptations to His friends</p>
+            <p>By the love which the saints show unto God in return for what they bear for the sake
+               of His name in that they undergo trials without leaving the excellency which God
+               loves, their heart acquires freedom to look towards Him without a veil and to ask
+               from Him with confidence.</p>
+            <p>Great is the power of prayer in freedom of speech. Therefore He allows that His
+               saints are tried by all afflictions, on the way towards Him, in order that they may
+               acquire freedom of speech and may experience His help and His care for them in that
+               He is found to be their saviour in danger; and in order that His friends may acquire
+               wisdom through temptations so that they are not dull and destitute of training. So
+               through temptation they acquire knowledge concerning everything, and are not laughed
+               at lightly by the demons.</p>
+            <p>For if He would train them by good things only they would lack training in other
+               things and they would be as blind men in trials. And if someone should say: He guides
+               them without training and without selfknowledge [the conclusion would be] that He
+               wished them to be like oxen and asses who possess <pb type="external" n="428"/>no
+               freedom whatever. There is even no taste in the good, when a man has not first been
+               tried by temptations of evil and afterwards finds it and when he does not use it as
+               his own, in knowledge and freedom. How sweet that knowledge is which has been
+               acquired through training and the experience of labours, and how much strength it
+               imparts to him that has found it after many personal experiences, is known to those
+               who are acquainted with the help afforded by it.</p>
+            <p>They learn the weakness of nature and the help afforded by divine power when He first
+               withdraws power from them while they are in temptations. Then they perceive the
+               weakness of nature and the strength of temptations and the wickedness of the Fiend,
+               [perceiving] of which nature their Fiend is, with which nature they are clad, and how
+               they are guarded by divine power; and how, though they run and are uplifted, <pb
+                  n="287"/>when the divine power withdraws itself from them, they become weak before
+               all passions.</p>
+            <p>Through all this they acquire humbleness, and press close to God, expecting His help
+               and persevering in prayer. How could they have acquired all this, if they had not
+               experienced myriads of evils, without God's caring for their being surrounded by
+               them? 'And lest I should be exalted through the abundance of revelations, there was
+               given me a thorn in the flesh, the messenger of Satan'[#n287-1].</p>
+            <p>Man acquires also a confirmed faith by temptations, through experiencing divine help,
+               when it is granted several times. And furthermore he is without fear and acquires
+               courage by temptation, on account of the training he acquires.</p>
+            <p><pb type="external" n="429"/>Temptation is useful to every man. The virtuous are
+               tempted in order that their riches may increase; the lax, in order that they may be
+               preserved from injuries; the sleepy, in order that they may be armed with alertness;
+               those that are afar off that they may come nearer to God; the housemates, that they
+               may approach with freedom of speech.</p>
+            <p>A son that is not trained, cannot profit by the riches that are given to him from his
+               father's house. Therefore God tempts and vexes first, then He shows His gift. Glory
+               to that Lord who by strong drugs brings us the delight of health. There is no one, to
+               whom the time of exercise is not hard; and there is no one, to whom the time during
+               which he is obliged to drink the potion of temptations, is not bitter. But without
+               this, a sound constitution cannot be obtained. Even to endure is not of our own. How
+               should a clay vessel endure the vehemence of the waters, if the divine fire had not
+               hardened it? If we <choice><sic>daign</sic><corr>deign</corr></choice> to ask in humbleness fervently and perseveringly,
+               we shall receive everything.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n287-1">2 Cor. 12,7</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

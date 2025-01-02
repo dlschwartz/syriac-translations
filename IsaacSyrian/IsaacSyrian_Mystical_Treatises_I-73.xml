@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 73</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 73, pp. 337-340.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="73">
+            <head>LXXIII</head>
+            <p><pb type="external" n="502"/>The concise sense of the [foregoing] section together
+               with explanations of what has been said</p>
+            <p>The concise sense of the foregoing section is to communicate to us that at every
+               moment[#n337-1] of the four and twenty hours of the day, we are in want of
+               repentance. The explanation of the denotation of repentance, in its real practical
+               sense, is continual mournful supplication in contrite prayer, offered to God for the
+               forgiveness of previous sins; and petition to be guarded against future
+               ones[#n337-2]. Therefore our Lord also has sustained our weakness by prayer: Watch
+               and pray, that ye enter not into temptation[#n337-3]. And: Pray, and do not
+               faint[#n337-4]. And: Watch ye therefore, and pray always[#n337-5].</p>
+            <p>Ask, and it shall be given unto you; seek, and ye shall find; knock, and it shall be
+               opened unto you; for every one that asketh receiveth; and he that seeketh findeth;
+               and to him that knocketh it shall be opened[#n337-6]. And he corroborates His word
+               strongly and exhortates us strongly by the parable of the friend who went to his
+               friend in the middle of the night and asked him for bread. 'Verily, I say unto you,
+               though <choice><sic>ho</sic><corr>he</corr></choice> will not rise and give him, because he is friend, yet <pb n="338"
+               />because of his importunity he will rise and give him as many as he
+               needeth[#n338-1]. And ye also: Pray and do not faint[#n338-2]. Blessed is the
+               unspeakable encouragement of the Giver, who exhorts us saying: Ask from me and I will
+               give you gifts. <pb type="external" n="503"/>And He will also provide you with all
+               that is profitable, according to His knowledge. "These words are full of
+               encouragement and great confidence.</p>
+            <p>And as our Lord knows that He does not take away liability of deviation before the
+               cup of death [is drunk], and, this being so, that man is near to a change from
+               excellency to deterioration, and nature susceptible of accidents — therefore He urges
+               us to continual beseechings. For if there were in this world a place of security
+               whereto a man could go and thenceforth his nature would be exempt from need and his
+               service from fear — then He would not have exhorted us towards prayer nor would He
+               have urged us diligently. In the world to be men will not offer prayers unto God,
+               with beseechings concerning various things. For in that place of freedom our nature
+               will no longer be susceptible of variation, nor bound by the fear of opposition, but
+               perfect in every way. Therefore His care not only drives us unto prayer and
+               watchfulness, but even scourges us with the whip of temptations, in view of the
+               subtlety and incomprehensibility of those things which continually happen to us and
+               superate the power of our knowledge, things among which we are found continually and
+               involuntarily. And even although our mind be firm and willed to the good, yet often
+               His care scourges us with temptations, as the blessed Paul says: Lest I should be
+               exalted through the <choice><sic>abondance</sic><corr>abundance</corr></choice> of the revelations, there was given me a
+               thorn <pb type="external" n="504"/>in the flesh, the messenger of Satan to buffet me.
+               For this thing I besought the Lord thrice that He might take from me temptation
+               (namely that I might in freedom perform the work which He had ordered me). And He
+               said unto me: My grace is sufficient for thee: for my strength is made perfect in
+               weakness[#n338-3].</p>
+            <p>Therefore[#n338-4], my Lord, if this is thy will, and our childish nature so much
+               needs a master who rules and exhorts that even a man who is so fond of thy love as I
+               am and so <pb n="339"/>zealous a follower of good that he does not see the world at
+               all because of his drunkenness in thee, so that thou hast brought me so far as to see
+               revelations and visions which a fleshly tongue is not allowed to interpret, and to
+               hear the sound of the service of the spiritual orders, so that I am deemed worthy of
+               sight full of spiritual sanctities, that such a man as I with all this is not able to
+               guard his own person, I who am a man perfect in Christ, — because there is still
+               something which because of its subtleness resists the power of my knowledge — I that
+               possess the mind of Christ — [if all this be so] then, my Lord, I rejoice at my
+               illnesses, at troubles, reclusions, bonds, compulsions, on the part of nature or on
+               the part of natural beings, or on the part of the fiend of nature.</p>
+            <p>Joyfully, therefore, I will bear my illnesses, namely my temptations, which the power
+               of Christ brings upon me. If, with all these, I still require the rod of temptations
+               in order <pb type="external" n="505"/>to augment thy influence upon me and that I may
+               be guarded by thy presence, I <choice><sic>known</sic><corr>know</corr></choice> that there is none whom thou lovest
+               better than me.</p>
+            <p>And because thou hast made me greater than many others and hast not given to any of
+               my fellow Apostles what thou hast given to me — namely to know the glorifications of
+               thy powers; and because thou hast called me an elect vessel and hast entrusted me
+               with the guardianship of thy love; because of all these and that I know that the
+               preaching of thy gospel has made excellent progress, while I am free from the bonds
+               of temptations on account of all these things I know that thou wouldst have given
+               <choice><sic>men</sic><corr>me</corr></choice> freedom, if this were profitable to me. But thou hast not wished that I
+               should be without trouble and without care in this world; and thou werst not anxious
+               to promote the preaching of thy gospel to the same degree as thou werst anxious that
+               I should profit by my temptations, and my soul be kept healthy with thee.</p>
+            <p>Therefore, o thou who art discriminating, if the gift of the temptations be so great
+               that a man, even if he be as exalted and advanced in spiritual state as Paul's degree
+               was, still requires fear and watchfulness and gathers profit by meeting temptations,
+               who then can reach a place of security in the world of mortality full of robbers, and
+               receive stability[#n341-1] (which <pb n="340"/>was not given to the holy angels, lest
+               they should become perfect before us), thus receiving before all people, — spiritual
+               and bodily ones — such a gift that, according to his wish, he should be without
+               varying states at all, without a temptation even approaching to his
+               deliberations?</p>
+            <p>The order of this world, according to the conception of all <pb type="external"
+                  n="506"/>holy writings, is this, that even if we received a thousand blows every
+               day, our mind would not become humble and we would desist from the course in the
+               arena; but that on account of one small cause, we gain the victory possibly and win
+               our crown. This world is an arena and a running place. And this time is a time of
+               struggle. And the time and the place of the struggle are not subject to a law. This
+               means: the King does not set a terminus to his warriors, till the struggle is ended
+               and all the world is gathered within the gate of the king of kings and it is examined
+               there who has been constant in the war and has not been defeated, and who has taken
+               to flight. How often will it happen that a man who was good for nothing and
+               constantly beaten and thrown down because of his want of training, and who was always
+               in a state of weakness, will snatch the banner from the hand of the valiant warriors
+               and make his name famous above that of the doughty ones, the able and knowing
+               battle-troops, and receive the crown and gifts which are honoured by all his
+               fellows.</p>
+            <p>Nobody, therefore, should give way to despondency. Only: he should not despise
+               prayer, nor neglect to ask help from our Lord. And let us take this to heart, that,
+               as long as we are in this world and dwelling in this body, even if we are lifted up
+               unto the vault of heaven, it is not possible to be free from toil and injury and
+               care. This is the sum of it all. Pardon me. What exceeds this is superfluous.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n337-1">Introduction</note>
+            <note xml:id="n337-2">Cf. Book of the Dove, p. 6 and note 3</note>
+            <note xml:id="n337-3">Matthew 26,41</note>
+            <note xml:id="n337-4">Cf. Luke 18,1</note>
+            <note xml:id="n337-5">Luke 21,36</note>
+            <note xml:id="n337-6">Matthew 7,7 sq.</note>
+            <note xml:id="n338-1">Luke 11,8</note>
+            <note xml:id="n338-2">Luke 18,1</note>
+            <note xml:id="n338-3">2 Corinthians 12,7 sqq.</note>
+            <note xml:id="n338-4">The following passage is put into the mouth of Paul.</note>
+            <note xml:id="n339-1">ܠܐ ܡܨܛܠܝܢܘܬܐ</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

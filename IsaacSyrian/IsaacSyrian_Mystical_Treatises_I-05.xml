@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 5</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 5, pp. 42-55</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="5">
+            <head>V</head>
+            <p>God has made great the honour of man, by the twofold teachings he has given him. And
+               from every side He has opened for him a door through which he has access unto
+               knowledge.</p>
+            <p>Ask from nature a true witness concerning thyself, then thou wilt not err. If thou
+               goest yet astray, let thyself be taught by that second witness who will bring thee
+               back to the way from which thou hast erred.</p>
+            <p>A distracted heart cannot help but erring. And wisdom will not open its gate before
+               it.</p>
+            <p>He who is able to understand through essential knowledge to what a degree of equality
+               all men will come in the end, will not seek another teacher concerning the
+               contemptability of the world.</p>
+            <p><pb type="external" n="61"/>The first book given by God to the rational beings, is
+               the nature of the created things. Written teachings have been added only after
+               aberration.</p>
+            <p>He who does not willingly remain far from things causing sin will be drawn towards
+               them involuntarily. Things causing sin are wine and women, riches and bodily health.
+               They are not to be called sin in themselves, but on account of man's weakness and
+               their unlawful use, nature is easily drawn by them — more easily than by any other
+               thing — towards different sins and therefore there is need of peculiar caution in
+               regard of them. If thou rememberst continually and recognisest truly that thou art
+               weak, thou wilt never overstep the borders prescribed by watchfulness. Despised above
+               all things among men is poverty. But much more despised by God is haughtiness of
+               heart and a disdainful spirit.</p>
+            <p>Among men riches are honoured; by God a humble soul.</p>
+            <pb n="43"/>
+            <p>When thou intendest to begin with one of the virtues, first prepare thyself, lest, by
+               the evil things which it causes, thou shouldst fall into doubt concerning the
+               truth.</p>
+            <p><pb type="external" n="62"/>If the Evil one sees some one beginning with one of the
+               virtues in the fervour of faith, he attacks him by vehement and terrible temptations,
+               with the intention that he be frightened by them, so that the love of his mind may
+               abate and his fervour not rise again to bring him near to the works of God. And thus,
+               because of fear of temptations accompanying good works [he hopes that] nobody will
+               practise them anymore. Thou, however, prepare thyself to meet the evil things
+               accompanying virtues, bravely and strongly; and then begin. If thou doest not expect
+               evil things, do not begin with excellence. The man who is in doubt concerning the
+               Lord, is persecuted by his own shadow; at the time of satiety he will be hungry and
+               at the time of peace his ruin will be heavy. But whoever confides in God, his heart
+               will be strong and his honour will be manifest before the crowds and his glory before
+               his enemies.</p>
+            <p>The commandments of God are better than the treasures of the whole earth. He who
+               acquires His laws in his heart, will find the Lord in them. He who meditates upon God
+               in the night, will acquire Him as a housemate. He who is pliable to His will, will
+               find the angels of heaven his teachers.</p>
+            <p>He who trembles before sins will pass without stumbling even through a dangerous
+               place and at the time of darkness he will find a light within himself. If any one
+               tremble before sins, his footsteps will be guarded by the Lord and mercy will precede
+               his failures. He whose faults are small in his own eyes will fall into those which
+               are worse than the former ones and it will be necessary that he pay for them
+               sevenfold. Sow alms in humility and thou wilt reap mercy in the court of justice.</p>
+            <p><pb type="external" n="63"/>Whereby thou hast lost goods, thereby thou shalt acquire
+               them again. If thou hast to pay a penny to God in some way or other, He will not
+               accept a pearl from thee in its place. For in this case that thing is necessary.</p>
+            <p>If thou hast lost chastity, let not fornication take its place. If thou givest alms
+               as a reparation, He will not accept them from thee; He postulates saintliness for
+               saintliness. And if thou wrongest not the poor, let not unjust possession take the
+               place of that. While thou art refraining from bread, let not injustice usurp its
+               place so that thou must struggle with some other thing.</p>
+            <pb n="44"/>
+            <p>Oppression is eradicated by compassion and renunciation. If thou leavest the plant in
+               its place, thou wilt have to struggle with some other thing, according to the word of
+               the great teacher Mar Afrem.</p>
+            <p>Take care not to light against heat during summer in clothes destined for winter.
+               Thus each will reap, with the contrary of that with which he sows injustice. And
+               every illness he will combat with its peculiar antidotum. Now thou art deadly wounded
+               by envy; while thou strugglest against sleep. When sin is still green, eradicate it,
+               lest it cover the whole ground. He who neglects an evil thing while it is small, will
+               find it at last a hard master and he will go in bonds before it. He who treats it
+               severely in the beginning, will easily rule it. He who bears injustice with gladness
+               while victory is in his hand, he has received from God the consolation of his faith
+               clearly <pb type="external" n="64"/>manifested. And he who bears oppression in
+               humility, has reached perfection. The angels will admire him. There is no profitable
+               action more difficult and more meritorious.</p>
+            <p>Do not believe thyself strong before thou hast been led into temptations and thou
+               hast found thyself steadfast in them. In all things thou hast to try thyself in this
+               way.</p>
+            <p>Acquire glory on account of the faith of thy heart, then thou wilt tread upon the
+               neck of thy enemies, and thou wilt find thy mind humble. Do not confide in thy
+               strength lest thou be left to the weakness of thy nature and thou learnest thy
+               weakness in thy fall; nor in thy knowledge, lest thou be surrounded in thought with
+               hidden ambushes and becomest confused.</p>
+            <p>Acquire a humble tongue; then disdain will never hurt thee; and pleasant lips; then
+               thou wilt be found a friend of every one. Do not boast of any thing with thy tongue,
+               because among creatures there is nothing exempt from change and thy shame will be
+               double when thou art found the contrary [of what thou didst boast of]. Everything of
+               which thou boastest before men, will surely be altered by God, so that thou mayest
+               have a cause for humility so that thou judge God's knowledge to be all, and believe
+               not that there is anything true in creatures. And when thou thinkest thus, thy eyes
+               will at all times be fixed upon Him.</p>
+            <p>[Divine] care surrounds all men at all times; but it is not seen, save only by those
+               who have purified themselves from <pb n="45"/>sins and think of God perpetually. To
+               these then it is revealed <pb type="external" n="65"/>clearly; for when they have
+               been led into great temptations for the sake of truth, then they receive a faculty of
+               perception clearly as if with the eyes of the flesh. [They receive it] when they want
+               it, in a sensible way, in accordance with the kind and the cause of the temptation,
+               in order to strengthen their courage. As in the case of Jacob and Joshua the son of
+               Nun, Hananya and his companions, Petrus and others, to whom the figure of a man
+               appeared in order to encourage them and to console their faith.</p>
+            <p>If thou sayest that these things were acts of Providence of a universal nature, let
+               then the holy martyrs console thee, who sometimes together, sometimes one by one in
+               separate places have suffered for God. Not only a hidden force was with them, by
+               which the members of their bodies were fortified against being hanged in irons and
+               against torments of all kinds, things beyond natural power — but sometimes also holy
+               angels were seen by them manifestly, in order that every man should know that God's
+               care is with those who suffer for His sake for any reason, so that they themselves
+               might receive encouragement and their torturers be ashamed. For as the former were
+               made conspicuous by such visions, to the same degree the latter were tormented by
+               their endurance.</p>
+            <p>And what shall we say about many of the solitaries and strangers and true monks, who
+               have made waste land habitable and an encamping ground of the angels, who visited
+               them on account of their worthy behaviour? As true comrades [serving] one Lord the
+               heavenly hosts mingled [with them] in their <pb type="external" n="66"/>dwelling
+               place, solitaries who during their whole life loved solitude, who made holes and
+               rocks their dwelling places, who gladly suffered cold and heat for the love of God.
+               And because they left the earth and loved heaven like the angels, the angels have not
+               concealed themselves from their sight. But sometimes they taught them concerning
+               behaviour. And again they answered the questions they asked them concerning other
+               things. And sometimes the angels showed them the way when they wandered through the
+               desert; sometimes they delivered them from temptations; sometimes they saved them
+               from some net of danger which suddenly, without their foreseeing it, threatened them,
+               some serpent for instance, or falling from a rock, or a stone that suddenly fell down
+               with violence from a height.</p>
+            <pb n="46"/>
+            <p>Sometimes, also under the attacks of the open battles of Satan, the angels showed
+               themselves to them manifestly, and clearly announced that they were sent in order to
+               help them and encouraged them by their words. Sometimes also they cured their pain
+               and healed some injuries which had befallen them in some way or other, by the touch
+               of their hands. Sometimes again they imparted to their bodies, which had been
+               weakened by abstention from all food, by their words or by the sudden <pb
+                  type="external" n="67"/>touch of their hands, a force foreign to nature, adducing
+               in some secret way a force unto the lowered nature. Sometimes they brought them food,
+               warm bread and olives, and to some of them various fruits. Others they informed
+               concerning the time of their death. And how long must be the enumeration of things
+               concerning the love of the holy angels towards our race and concerning the care they
+               showed unto the righteous, as great brothers who fostered and guarded their little
+               ones. All this serves to make clear for every one how near God is to His friends and
+               how much care He bestows on those who entrust their life to His hands and follow Him
+               with a serene heart.</p>
+            <p>If it is certain to thee and thou believest that God cares for thee, thou needest not
+               be anxious for thy body nor have care concerning the guiding of thyself by means. But
+               if thou cloubtest this and desirest to care for thyself, without God, thou art more
+               wretched than any man, and what does life mean to thee? Throw thy care on
+               God[#n46-1], that thou be strengthened against all fear. He who once has entrusted
+               his life to God, will dwell in mental peace.</p>
+            <p>Without renunciating possessions, the soul cannot be liberated from confusion of
+               thought. And without quiescence of the senses, peace of mind cannot be
+               perceived[#n46-2]. And without <pb type="external" n="68"/>entering into temptations,
+               spiritual wisdom cannot be acquired. And without constant reciting, subtlety of
+               thought cannot be learned. And without the deliberations being set at peace the mind
+               cannot be moved by hidden mysteries. And without the confidence of faith one cannot
+               venture to throw his soul amidst sorrowful and hard circumstances. Without the
+               practical experience of God's care the heart is not able to confide in God. And when
+               the soul does not taste sufferings for the sake of Christ, it is not united with Him
+               in knowledge.</p>
+            <pb n="47"/>
+            <p>Deem him a man of God, who constantly takes upon himself the lot of want, being moved
+               by great compassion. He who does good to the poor finds God his provider. He who
+               suffers want for His sake finds Him to be a great treasure. God does not need
+               anything; only He rejoices when anyone satisfies or honours His image[#n47-1] for His
+               sake.</p>
+            <p>When anyone asks thee and thou hast, do not say in thy heart: I will keep it for
+               myself in order to have more comfort by it and I will let him pass quickly; God will
+               provide for him from another; I will bestow it upon myself. Do not speak thus. For in
+               this way think iniquitous men, and people who do not know God deliberate thus,
+               fostering such thoughts. But a righteous man does not give his honour to another one
+               nor does he let slip the opportunity for bounty. God will provide for him certainly
+               in some other way; if He knows that he is in trouble. God will not abandon any one.
+               But thou art willing <pb type="external" n="69"/>immediately to leave God's honour
+               and to throw His bounty from thee. On the other hand rejoice if thou possessest and
+               give, saying: Glory to thee, o God, who hast granted unto me that I find some one to
+               comfort. And if thou possessest not, rejoice the more, thanking God with many
+               thanksgivings, saying: I thank thee, o God, who hast granted me the honour of
+               becoming poor for Thy sake, and who hast deemed me worthy to taste sufferings
+               enjoined in Thy commandments namely illnesses and poverty such as the saints have
+               tasted who have gone this way.</p>
+            <p>And if thou art ill, say: Blessed are those who find in the things which God sends us
+               for our profit, the aim for which God has destined them. God sends sickness for the
+               sake of the health of the soul.</p>
+            <p>One of the saints once said: The following I have taken as a sign. When a solitary
+               does not serve God in the right way, and is not zealous in His works, God certainly
+               will send him a temptation to occupy his thoughts, lest he be wholly idle and, by
+               complete idleness, his mind turn aside to thinking of the things of the left hand.
+               But if he is not willing to think of excellence, the influence of the temptations
+               will cause him to think of it and not to think of idle things. This God does with
+               every man who loves Him. When He sees that he begins <pb n="48"/>to disdain His
+               works, he sends a heavy sorrow in order to make him wise and to chastise him.
+               Therefore, when such <pb type="external" n="70"/>people call to Him, He does not pay
+               attention, nor does He hasten to free them, till they have become weary and know that
+               they have to bear these things on account of their neglect. 'When ye spread forth
+               your hands, I will hide mine eyes from you; yea, when ye make many prayers, I will
+               not hear'[#n48-1]. Even if this was said to others, still it is certainly applicable
+               to those who leave the way. But if God is so compassionate, why do we then so
+               frequently knock at His door in trouble and pray, and yet He turns away from our
+               prayer? He says: Behold, the Lord's hand is not shortened, that it cannot save; nor
+               His ear heavy, that it cannot hear. But your iniquities have separated between you
+               and your God, and your sins have hid His face from you, that He will not
+               hear[#n48-2]. Remember the Lord at all times, then He will remember thee when evil
+               approaches unto thee. He has made thy nature a receptacle of accident. And in the
+               world where He has created and left thee He has made frequent the causes of accidents
+               and temptations. He has made thy nature a small receptacle of these things. Evil
+               things are not far from thee, neither are they a few in number. For they rise from
+               within thee when He gives a sign, and from under thy feet and from the place where
+               thou art standing. But like one eyelid is near the other, so temptations are near the
+               children of men.</p>
+            <p>With wisdom God has provided these things for thee in this way, for thy profit, that
+               thou mayest continually knock at His door and that, for fear of sorrowful events, the
+               thought of Him may constantly recur to thy mind and thou be near to God in constant
+               prayer and sanctified by constant thought of Him in thy heart.</p>
+            <p>And when thou callest unto Him and He answers thee, thou <pb type="external" n="71"
+               />wilt know that thy saviour is God. And thou wilt perceive thy God who has created
+               thee and is thy provider and preserver, therein that He has made in thy behalf two
+               worlds. One for thy instruction, as it were a school for a short time; and another
+               one, a paternal home and thy abode for ever and ever.</p>
+            <p>He has not made thee apathetic, lest thou shouldst desire divine rank and receive
+               what Satan received. Nor has He made <pb n="49"/>thee incapable of error or, lest
+               thou shouldst be like the beings which are bound and thou shouldst receive thy good
+               and thy evil without profit or remuneration as the other corporeal beings on the
+               earth. How many blows and humiliations together with thanksgivings are born from the
+               capacity for affections, and fear, and also error, is manifest for every one so that
+               it should be known that our zeal for righteousness and our turning aside from evil
+               are of our will, and that the honour and disdain, caused thereby, should be put to
+               our credit. Thus we are put to shame and we fear on account of disdain; but we thank
+               God and press towards the good on account of honour.</p>
+            <p>All these instructions He has multiplied for thee, lest freed from them on account of
+               thy not needing them or thy nature not being capable of them, exalted above fear and
+               affecting things, thou shouldst forget God and turn away from Him and invent many
+               gods. For though subjected to affections and want, which scourges were sent against
+               them on account of paltry <pb type="external" n="72"/>riches and short-lived temporal
+               power and precarious health, — still many have not only invented many gods, but have
+               even ventured in their insanity to pretend to be of divine nature.</p>
+            <p>Therefore He has turned thee away from all these things through that which troubles
+               thee from time to time, lest He should be angry with thee on account of thy turning
+               aside and destroy thee from before Him in punishment.</p>
+            <p>I omit the ungodliness and the sins that arise from health and lack of fear and
+               comfort, even though that which has been mentioned above should not happen[#n49-1].
+               Therefore, by sufferings and distress He has caused thee frequently to recall Him in
+               thy heart; and by fear of adversities He incites thee to turn towards the gate of his
+               mercy. By liberating thee from these [troubles] He sows in thee causes of love unto
+               Him. And when thou hast found love he brings thee near to the honour of the sons; He
+               shows thee the richness of His bounty and the steadfastness of His care for thee.
+               Then He will make thee perceive the holiness of His honour and the hidden mysteries
+               of the nature of His greatness. How shouldst thou have become acquainted with these
+               things if there had not been adversities? For through these the love of God is able
+               to increase, viz. by understanding His acts of bounty and by recalling His various
+                  <pb n="50"/>acts of care. All this good is born for thee from things causing
+               grief, if thou knowest to give thanks.</p>
+            <p>Therefore remember God, that He may remember thee constantly; and when He remembers
+               thee and saves thee, thou wilt receive all these goods. Forget Him not in idle
+               distraction, lest He also forget thee in thy temptations.</p>
+            <p><pb type="external" n="73"/>In prosperity be near to Him and obedient, that thou
+               mayest have freedom of speech with Him in trouble because of thy constantly being
+               near to Him in thy heart by means of thy prayer. Sit before His face all thy time,
+               thinking of Him and recollecting Him in thy heart, lest, seeing Him only after long
+               thou shouldst lack freedom of speech with Him on account of bashfulness. A high
+               degree of freedom of speech is born from constant intercourse. Constant intercourse
+               with men is of a bodily nature; that with God is psychic meditation and offerings in
+               prayers.</p>
+            <p>On account of its intensity this meditation is sometimes mingled with ecstasy. For
+               the heart of those who seek the Lord rejoices. Seek the Lord, ye sinners and be
+               strengthened in hope in your thoughts. Seek His face by repentance at all time and
+               you will be sanctified by the holiness of His face and you will be purified from your
+               unrighteousness. Speed unto the Lord, ye unrighteous, the Lord who forgives
+               unrighteousness and effaces sins. For He has sworn: I have no pleasure in the death
+               of the wicked; but that he turn from his way and live[#n50-1]. I have spread out my
+               hands all the day unto a rebellious and disobedient people[#n50-2]. And why will ye
+               die, O house of Jacob?[#n50-3] Turn unto me, then I will turn unto you[#n50-4]. And
+               by Ezekiel He says: When the wicked turns from his way unto the Lord and do that
+               which is lawful and right, the sins he has<pb type="external" n="74"/>committed will
+               not be remembered but he shall live, sayeth the Lord[#n50-5]. Thus it is also with
+               the righteous; when he turneth from his righteousness and comitteth sin and iniquity,
+               the righteousness he has done will not be remembered but I will lay a stumbling block
+               before him and by the iniquity he has done he shall die if he remains steadfast in
+               it[#n50-6]. Why is this? Because the iniquitous will not stumble on account of his
+               iniquity after he turns unto the Lord. But the righteousness of the righteous <pb
+                  n="51"/>will not save him when he sins, if he builds his building on that
+               foundation.</p>
+            <p>And to Jeremia He spake thus: Take a roll of a book, and write therein all the words
+               that I have spoken unto thee, from the day of Josia the king of Juda even unto this
+               day. It may be that [the house of Juda] will hear and fear and they may return every
+               man from his evil way and turn again unto me, that I may forgive their sins[#n51-1].
+               And the sage has said: He that covereth his sins, shall not prosper. But whoso
+               confessed! and forsaketh them, shall have mercy from God[#n51-2].</p>
+            <p>And Jesaja, who was rich in revelations, says: Seek ye the Lord and call ye upon Him
+               when ye have found Him. And when He is near let the sinner forsake his way and the
+               unrighteous man his thoughts. Let him turn unto me and I will have mercy upon him and
+               to our God for He will abundantly pardon. For my thoughts are not your thoughts
+               neither are my ways your ways[#n51-3]. Wherefore do ye[#n51-4] spend money on that
+               which is not bread? and your labour for that which satisfieth not? Hearken diligently
+               unto me, and eat ye that which is good. Come unto me, hear and your soul shall
+               live[#n51-5]. <pb type="external" n="75"/>When thou keepest the ways of the Lord and
+               doest His will, then thou wilt confide in the Lord. Then thou wilt call on Him and He
+               will answer thee; thou wilt cry and He will say: Lo, here I am.</p>
+            <p>The wicked when evil befalls him has confidence in God to call on Him. And he is not
+               able to expect His salvation, because he has left His ways in the days of his
+               prosperity.</p>
+            <p>Seek a helper for thyself before thou hast to struggle.</p>
+            <p>Seek a physician for thyself before thou art ill. Pray before distress has reached
+               thee then in the time of distress thou wilt find prayer(?) and it will answer thee.
+               Pray and ask before thou stumblest. Prepare thy gifts before thou makest a vow, they
+               are thy provisions.</p>
+            <p>The ark was constructed in time of peace. A hundred years before its wood was
+               planted. So when anger came, the wicked who had been comfortable in their wickedness,
+               were confounded. But the ark was a refuge for the righteous.</p>
+            <p>The wicked shuts his mouth during prayer. Inward baseness takes away freedom of
+               speech from the heart.</p>
+            <pb n="52"/>
+            <p>Steadfastness of the heart makes tears of joy to flow during the imploration [of
+               God].</p>
+            <p>Strong endurance of injustice borne by free will purifies the heart. Endurance of
+               injustice is based on contempt for the world. That a man remains steadfast during
+               oppression without being distressed, is caused by the fact that the heart begins to
+               see the truth. Joy on account of oppression and injustice borne by free will, exalts
+               the heart. No one can bear oppression and injustice with a glad will, save those
+               whose deliberations have wholly become dead to the world.</p>
+            <p>Those whose thoughts are wholly filled with the odour of <pb type="external" n="76"
+               />this life, are made to blaze with anger at once through vain glory; or they fall
+               into thoughts of spite, born of [the love of vain glory]. O how difficult is this
+               excellence, and how honoured it is with God! He who denies this behaviour, has to go
+               abroad and to leave his country. It is difficult for a man to accomplish this exalted
+               excellence in his country; the eminent and the strong only are able to bear the grief
+               that is born of this behaviour, among their acquaintances and also those who in their
+               lifetime have become dead to this life and have abandoned hope of the consolation of
+               this time. As Grace is near to humility, so are difficult accidents to
+               haughtiness.</p>
+            <p>The heart of the Lord is towards the humble, to comfort them. The face of the Lord is
+               against the haughty to humiliate them. Humility receives compassion, continually. But
+               hardness of heart and unbelief meet hardships continually that seem hopeless till of
+               a sudden evil rises against them and they are delivered to destruction.</p>
+            <p>Make thyself small among men, then He will exalt thee even above the heads of the
+               people. Let thy prostration be low before all men and be the first to salute; then
+               thou wilt be honoured more than he who brings gold from Ophir. Be despised and
+               rejected in thine own eyes, then thou wilt see the glory of God within thyself.</p>
+            <p><pb type="external" n="77"/>Where humility sprouts, there glory will rise. If thou
+               strivest publicly after dishonour among men he will make thy honour great. And if
+               thou art humble in thy heart, He will show thee His glory in thy heart. Be disdained
+               in thy greatness, not great in thy being disdained. Learn to be disdained, while
+               being full of the honour of the Lord; not, to be honoured while being injured by
+               ulcers within. Reject honour, then thou <pb n="53"/>wilt be honoured. Do not love it,
+               lest thou be rejected. If thou pursuest honour, it will flee from thee. If thou
+               fleest from it, it will rise for thee from the place where thou hidest thyself and it
+               will be a herald of thy humility to every one.</p>
+            <p>If thou givest thyself to disdain in order to be honoured, the Lord will confound
+               thee. If thou rejectest thyself for the sake of truth He will command the creatures
+               to praise thee. And they will reveal to thee the glory of the creator who from
+               eternity speaks through them and they will glorify thee as the creator, because thou
+               art His true image. [d]</p>
+            <p>Has anyone found a man whose behaviour is exalted, who is despised among men and who
+               is enlightened and wise and poor in spirit? Blessed is he who has humbled himself in
+               all things, for he will be magnified in all things. He who has humbled and made
+               himself small for the sake of God, will be glorified by God. And whoever for His sake
+               is hungry and thirsty, He will give to drink him from His good a wine causing a
+               drunkenness that never leaves those who drink it. And he who goes naked for His sake
+               will be clad by Him with a garment of glory. And he who is poor and indigent <pb
+                  type="external" n="78"/>for His sake, his consolation will be established in His
+               true richness. Make thyself disdained for the sake of God, then thy glory will be
+               great, even if thou doest not perceive it.</p>
+            <p>During thy whole life deem thyself as a sinner, then thou wilt found to be a
+               righteous man during thy whole life. Be despised though wise, and do not err in thy
+               wisdom. Be simple in thy wisdom and do not assume the appearance of being wise if
+               thou art simple. If humility elevates the despised how,[e] much more will it elevate
+               the honoured.</p>
+            <p>Flee from praise, then thou wilt be praised. Fear haughtiness, then thou wilt be
+               exalted. For pride was not assigned to the children of man, nor haughtiness of heart
+               to those born from a woman.</p>
+            <p>If thou hast voluntarily renunciated the whole body of the world, do not quarrel with
+               anyone concerning small parts of it.</p>
+            <p>If thou hast rejected glory, flee from those who hunt praise.</p>
+            <p>Flee from possessors as from possessions. Depart from the luxurious, as from luxury.
+               Flee from the lascivious, as from fornication. If the memory of their habits troubles
+               the mind, how much more if one see and be near to them. Be near to the excellent;
+               through them thou wilt be near unto God.</p>
+            <pb n="54"/>
+            <p>Be an ascete with the humble, to learn from his ways. If to see his habits is
+               profitable to those who see him, how much more the character of his behaviour and
+               teachings received from his very lips.</p>
+            <p>Love the poor; through them thou wilt find mercy. Do not approach unto the
+               quarrelsome, lest thou be compelled to leave thy peaceful customs.</p>
+            <p>Flee not from the ugliness of the illness of the sick, for thou art also clad with
+               flesh. Do not contend with the bitter in <pb type="external" n="79"/>heart, lest thou
+               be beaten with the rod with which they are beaten and seeking a consolator, wilt not
+               find any. Do not reject the cripples lest thou enter Sheol with them.</p>
+            <p>Love the sinners but reject their works. Do not despise them because of their
+               shortcomings, lest thou be tempted by the same. Remember that thou sharest in the
+               stink of Adam and that thou too art clad with his illness. To him who needs
+               passionate prayer and soft words, do not give blame in stead, lest thou cause his
+               destruction and his soul be demanded from thy hand. Resemble the physicians who use
+               cold medicines against symptoms of fever.</p>
+            <p>Compel thyself to show honour to thy fellow man, when thou meetest him; and kiss his
+               hand and his foot, and warm thy heart with love unto him, piously. And take his hands
+               several times and place them upon thy eyes and caress them with great honour. And
+               attribute to his person beautiful things, that do not belong to him. And also when he
+               is absent, speak about him fine and beautiful things and call him by several
+               honourable names. By these things and the like, thou compellest him not only unto the
+               desire of beautiful things, since he will be ashamed of the renown thou imputest him
+               without his deserving it and so thou wilt be able to sow in him the seed of excellent
+               things, but by means of these habits and the <pb type="external" n="80"/>like to
+               which thou accustomest thyself, thou wilt found in thyself peaceful and humble
+               customs and be liberated from many severe struggles, against which others learn to
+               guard themselves by steady works. And not only this. But if he, who receives these
+               honours from thee, has any shortcoming or fault of will, he will easily acquire from
+               thee healing, if thou lettest him clearly perceive [it] but for an instant only; for
+               he will be ashamed because of the honour shown to him and because of the sign of love
+               he constantly perceives in thee.</p>
+            <pb n="55"/>
+            <p>This be thy aim regarding all men. And when thou becomest angry at any one and
+               zealous for the sake of faith, or on account of his evil works, or thou reprehendest
+               and vituperatest him, then be cautious. We all have a just judge in heaven. But if
+               thou art merciful and seekest to turn him unto the truth, thou hast to suffer for
+               him. And with tears and in love thou must speak to him without being enraged against
+               him, effacing all sign of hostility from thy face. Love does not know how to be
+               angry; it is not indignant, it does not despise so as to cause suffering. Wherever
+               the sign of love and knowledge is present, it is profound humility rising from the
+               inner mind.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n46-1"> Ps. 55,23.</note>
+            <note xml:id="n46-2"> Introduction</note>
+            <note xml:id="n47-1"> viz. man</note>
+            <note xml:id="n48-1">Is. 1,15</note>
+            <note xml:id="n48-2"> Is. 59,1 sq.</note>
+            <note xml:id="n49-1"> viz. that creatures pretend to be of divine nature.</note>
+            <note xml:id="n50-1">Ez. 33,11.</note>
+            <note xml:id="n50-2">Is. 65,2.</note>
+            <note xml:id="n50-3">Ez. 33,11.</note>
+            <note xml:id="n50-4">Zach. 1,3.</note>
+            <note xml:id="n50-5">Cf. Ez. 33,9.</note>
+            <note xml:id="n50-6">Cf. Ez. 33,8.</note>
+            <note xml:id="n51-1">Cf. Jeremia 36,2 sq.</note>
+            <note xml:id="n51-2">Prov. 28,13.</note>
+            <note xml:id="n51-3">Is. 55,6-8.</note>
+            <note xml:id="n51-4">The Syriac text adds not.</note>
+            <note xml:id="n51-5">Cf. Is. 55,2 sq.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 79</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 79, pp. 361-366.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="79">
+            <head>LXXIX</head>
+            <p>How the hidden impulses vary along with the variation of outward behavior</p>
+            <p>As long as a man clings to renunciation [the thought of] departure from this life is
+               continually alive in his mind. And every hour he meditates on the life after
+               resurrection, contriving to prepare what is necessary for that state. And a contempt
+               for all honour and comfort of the body is sown in his mind, and the thought of the
+               baseness of the world moves in him at all times. And he is courageous and always
+               possesses the heart of a hero in all fear and danger threatening death. For he is not
+               afraid even of death, because he perpetually looks at it very near from a short
+               distance and expects it. And his care is cast on God, with full, undoubting
+               confidence. And when troubles oppose him, he, as a man that knows assuredly that they
+               will prepare crowns for him, bears them with perfect joy, while his soul rejoices and
+               exults when receiving <pb type="external" n="539"/>them. For he knows that it is God
+               who sends them, because of the profits of things which remain unknown, in the hidden
+               acts of providence. But when it happens that on account of some cause some transitory
+               thing falls to his lot by the action of him that cunningly devises all evils, at once
+               love of the body begins to stir in his soul and he thinks of a long life and
+               deliberations connected with bodily comfort germinate in him every moment. But, if
+               possible, he <choice><sic>witholds</sic><corr>withholds</corr></choice> his body from being hurt by anything. And he
+               contrives all things which can be utilized for the comfort of the body, and becomes
+               wanting in that freedom which is not subject to any deliberation of fear, and
+               consequently bestows his care and deliberation on <pb n="362"/>all these things,
+               namely the emotions that cause fear and the things that produce terror. For the
+               courage of the heart has been taken away from him, which he possessed in his soul
+               while he was exalted above the world by his renunciation. And now that he has become
+               an inheritor of the world, in accordance with the quantity of his possession he also
+               has received fear for the law and the provision allotted to him by God.</p>
+            <p>For the side to the service of which we prepare our members, is that to which we
+               become servants with a submission involving total fear, according to the word of the
+               Apostle[#n362-1].</p>
+            <p>Anterior to all <choice><sic>affictions</sic><corr>affections</corr></choice> is self-love. Anterior to all virtues is
+               that a man despise comforts. He that feeds his body with comforts, is troubled in the
+               place of peace. He that indulges in luxury in his youth, will become a slave and sigh
+               at the end.</p>
+            <p><pb type="external" n="540"/>As it is impossible that he, whose head is bound within
+               the dark[#n362-2] bosom of the water, should smell the subtle air which is poured out
+               into this empty bosom, so it is not possible that he whose mind is immersed in
+               earthly care, should perceive with the smell of his soul the clear air of the new
+               world. As the smell of a deadly poison disturbs the constitution of the body, so does
+               pernicious sight disturb the peace of the mind.</p>
+            <p>As it is not possible that health and illness should be in one body without one being
+               destroyed by the other, so it is not possible that money and love be in one house
+               without one destroying the other. As it is not possible that glass remains whole in
+               the neighbourhood of stone, so it is not possible that a saint should continually
+               seek the sight of or discourse with a woman and that his purity should remain
+               immaculate. As trees are eradicated by the perpetual blows[#n362-3] of violent
+               waters, so is the love of the world [eradicated] from the heart by the violence of
+               temptations assailing the body. As[#n362-4] solvent drugs purify the body from bad
+               humours, so does the force of troubles purify the heart from affections. As it is not
+               possible that a dead man should perceive the things of life, so the soul of a
+               solitary, who is buried in solitude as in a grave, is exempt from the storm which
+               usually blows on account of the apperception of things which pass among men. As it is
+               not possible for him that spares his adversary in the field of <pb type="external"
+                  n="541"/>battle to avoid blows, so it is not possible that a champion <pb n="363"
+               />should spare his body and that his soul should be saved from destruction. As
+               childhood, when terrified by frightful sights runs to seek refuge at the skirts of
+               its parents, so the soul, when troubled by the terror of temptations, hastens towards
+               God to seek shelter in perpetual beseechings. And as temptations assail, to the same
+               extent it multiplies its beseechings. But when it has free-space, it expands itself
+               in distraction.</p>
+            <p>As those who are handed over to the judges in order to be scourged on account of
+               their evils, become humble and immediately confess their faults, when they come
+               suddenly before the scourges, so that their punishment is lessened and they are soon
+               delivered through the agency of small troubles, but others of them are foolish and
+               obstinate and their scourging is augmented and at last, after much scourging, with
+               lacerated backs, they confess against their will, without gaining any profit; so when
+               we are handed over from divine mercy unto justice, for the faults to which we have
+               become accustomed without returning to the [good] direction, and the Judge of the
+               world orders us to stretch ourselves before the rod ot temptations, lest our
+               scourging in the world to be, become heavy; if, as soon as the rod of the Judge
+               approaches us, we humble ourselves and recollect our forfeits and confess before the
+               avenger, we shall soon be saved by small temptations; but if we become obstinate in
+               troubles, and confess not that we were the cause of them ourselves and that we have
+                  <pb type="external" n="542"/>deserved even more than these, and if we vituperate
+               men and sometimes demons and sometimes even God's justice and assume the attitude of
+               victors though we do not think and say that our works are like theirs, and if we do
+               not think of the fact that God knows and recognizes us better than we do ourselves,
+               and that the judgment of the Lord is over the whole earth and that no man is
+               chastised without His orders, then our distresses assail us as they come, and our
+               trouble becomes violent, and they hand us over the one to its fellow as in a chain,
+               till we know ourselves and become humble and perceive our sins; for without
+               apperception it is not possible for us even to come to [good] direction; then at last
+               when we have suffered many troubles, we confess our sins in a confession without
+               profit and without gathering from it any consolation. And also this that a man
+               perceives his sins, is a gift which is allotted by God to the mind, when He sees that
+               one <pb n="364"/>has been fatigued by various temptations, lest he depart this world
+               under all these distresses and troubles, without profit; and [also this is a gift: to
+               perceive] that we have not lacked insight on account of obstinacy, but on account of
+               ignorance.</p>
+            <p>Some depart this world under these circumstances, without confessing that they are
+               guilty, but litigating and vituperating. God, however, who is compassionate, looks to
+               whether they humble themselves, that He may forgive them and give them expansion. Not
+               only that He will put an end to their temptation, but He will even forgive their sins
+               at a faint confession of their heart.</p>
+            <p>As a man who offers a large offering to the king and tries <pb type="external"
+                  n="543"/>to make his face benignant, so he that sheds tears in prayer before God,
+               the king of all the worlds, makes to pass away all the degrees of his sins, and is
+               even granted to see His face <choice><sic>beingnant</sic><corr>benignant</corr></choice>. As the lamb that leaves the pen,
+               and in its error comes before the den of the wolves, so is the solitary who separates
+               himself from the communion of his fellows under the pretext of lonely dwelling, and
+               constantly visits spectacles and the distraction of the town.</p>
+            <p>As a man who bears on his shoulder a pearl of great price and goes on an ill-famed
+               way so that he is in perpetual fear of being robbed, so is he that bears the pearl of
+               chastity and walks in the world the way of the enemies. Before he enters the chamber
+               of the grave, which is the place of confidence, it is not to be expected that it will
+               escape robbers and <choice><sic>pluderers</sic><corr>plunderers</corr></choice>. Perhaps he that is not afraid, is able
+               [to go that way]; even this man does not know either, on which spot or from where or
+               at which moment he will suddenly be assailed and robbed of his hope. Some are robbed
+               at the gate of their house, namely in old age.</p>
+            <p>As a man who drinks wine at the time of mourning and gets drunk and forgets all the
+               suffering of his sorrow, so is he that, having got drunk by the love of God in this
+               world which is a place of wailing, forgets his sorrow and all his distress and,
+               through his drunkenness, becomes apathetic against all the affections of sin.</p>
+            <p>Whose heart is supported by hope in God, his soul is a swift beast of wings. He whose
+               spirit is at all times exalted above the earth and who flies above the sky with the
+               thoughts <pb type="external" n="544"/>of his deliberations, and is in continual
+               prayer, is as a man <pb n="365"/>who has the wind as his driving animal, so that his
+               enemy cannot reach him. Every time the latter seeks to join him, he flies away from
+               him.</p>
+            <p>As a man who has an advocate in the court of justice, so is he that is compassionate
+               to the troubled ones.</p>
+            <p>As a man who is amidst dangerous storms on the ocean and casts his utensils from the
+               ship, so is he that despises the hindrances on his godly way in this world which is
+               an ocean ready to suffocate him.</p>
+            <p>Hindrances will not fail. What doest thou in a house which is not thine? The sight of
+               a corpse ought to be for thee an instruction concerning thy departure from here. Why
+               doest thou multiply bonds to thyself? Gain thy life before thy light grow dim and
+               thou seek help without finding it. This life has been given thee for repentance; do
+               not spend it with various things.</p>
+            <p>The cross is the gate of mysteries; here takes place the entrance of the mind unto
+               the knowledge of the heavenly mysteries. The knowledge of the cross is hidden within
+               the sufferings of the cross. And in accordance with communion with them is the
+               apperception of the cross, according to the word of the Apostle[#n365-1]. The greater
+               place the suffering of Christ takes in us, the greater becomes our consolation in
+               Christ. Consolation means contemplation, which is psychic sight. Sight gives birth to
+               consolation. It is not possible that our soul produce spiritual fruits, except when
+               our heart is dead to the world. For the Father quickens the soul that has died the
+               death of Christ, in contemplation of all the worlds.</p>
+            <p>Another observation. If thou diest not to the world, the <pb type="external" n="545"
+               />spiritual Adam will not be quickened in thee. When a man, by being offered
+               spiritually, dies to all dealings of this dwellingplace, and trusts his life to the
+               life after the resurrection, Grace will dwell with him. And his behaviour is
+               spiritually strengthened. And when he hates the world, he perceives the behaviour of
+               the new man who is exalted above the filth of human habitation and is deemed worthy
+               of divine revelations.</p>
+            <p>It is not possible for us to be dead to the world in the world, as long as our mind
+               desires comforts, and the world, by its affairs, is placed before our senses and by
+               apperception <pb n="366"/>renews recollection and incites the body unto seeking what
+               it wishes, by close contact with [worldly] things, by sight, hearing, touch, smell
+               and taste.</p>
+            <p>The soul's being dead to the world is the heart's being free from the thought of its
+               recollections and the soul's being void of the deliberations concerning [worldly]
+               things and the will being cut off from the love of thinking upon them.</p>
+            <p>For it is not possible that our heart be in peace exalted above disturbance and in
+               serenity of love lifted up above the world, when there are poured out into it
+               recollections that renew through meetings with things by the senses, their
+               receptacles. The mortification of the soul to the world cannot be acquired, if not
+               the body be also beyond apperception and sight of things.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n362-1">Cf. Rom. 8,15</note>
+            <note xml:id="n362-2"><choice><sic>litt.</sic><corr>lit.</corr></choice>: thick</note>
+            <note xml:id="n362-3">ܚܘܖ̈ܦܐ</note>
+            <note xml:id="n362-4">Introduction</note>
+            <note xml:id="n365-1">Cf. Philipp. 4, 10</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

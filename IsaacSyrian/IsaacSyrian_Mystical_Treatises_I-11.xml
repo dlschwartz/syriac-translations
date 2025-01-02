@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 11</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 11, pp. 80-82.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="11">
+            <head>XI</head>
+            <p>Whereby the beauty of solitary life is to be preserved and how it can be a cause of
+               God’s being glorified</p>
+            <p>It is becoming for the solitary to be in every way a vision of stimulation unto those
+               who look at him, so that because of the beauties which radiate from him on all sides
+               as the rays <pb n="81"/>of the sun, even the enemies of truth unwillingly acknowledge
+               that the Christians have a well-founded hope; and from every side they will flow to
+               their place of refuge, and thus the head of the church will be elevated above its
+               enemies.</p>
+            <p>Thus the glory of the solitary's deeds will be a stimulus for many to withdraw from
+               the world. And [it is becoming] that he be reverenced by every one on account of his
+               excellence, so that the mouth of the members of the church will be opened on his
+               account and their head exalted above all creeds.</p>
+            <p>The pride of Christ's church consists in the behaviour of the solitaries. Therefore
+               it is becoming to the solitary that the beauties of his habits shine on all sides; in
+               the humble attitude of his limbs, in the simplicity of his habit, in his elevation
+                  <pb type="external" n="120"/>above visible things, in the veracity of his
+               renunciation, in his rigorous fasting, in his being continuous silent, in the
+               subduing of his senses, in the continence of his aspect, in his not being quarrelsome
+               with other people for any reason, in the sparingness of his speech, in his being pure
+               from rancour, in his discriminate conscious simplicity. And [it is becoming for him]
+               that it be known that he is alien to this harmful and fleeting life and near to true
+               and spiritual life, from his constantly being by himself, from his being unknown
+               among men, from his not being tied to any one by the bonds of comradeship and
+               intimacy, from his quiet dwellingplace, from the small space of his habitation, from
+               his few and mean utensils, from his avoiding men, from his constant prayer, from his
+               hating and avoiding honour, from his not being bound by temporal life, from his great
+               patience, from his endurance in temptations, from his keeping aloof from rumours and
+               from inquiries into worldly affairs, from his constant care for and meditation upon
+               his true country, known by his sad countenance and his shrivelled face[#n83-1], from
+               his constantly weeping night and day, and above all from his cautious chastity and
+               his freedom from covetousness in small and great things.</p>
+            <p>These are, in short, the manifest beauties of the solitary <pb type="external"
+                  n="121"/>which testify to his being wholly dead to the world and near unto
+               God.</p>
+            <p>It is becoming for him to think of these things constantly in order to acquire
+               them.</p>
+            <pb n="82"/>
+            <p>If any one asks: Wherefore are these lengthy descriptions necessary? I answer: they
+               are very necessary. For if any one search for them, one by one, in himself, and if
+               any fail him who cares for his life, he can ascertain from these distinctions his
+               deficiency in any of the virtues. And thus these descriptions may become to him
+               admonitions. And if he possess personally all the things described and also those
+               omitted, the knowledge of them is given him [in this way] and so he will become a
+               cause of God being praised among men and angels. And then he may prepare for his soul
+               a place of rest before departing this world.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n81-1">ܡܚܪܟܘܬܐ ܕܐܦܘ̈ܗܝ</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
