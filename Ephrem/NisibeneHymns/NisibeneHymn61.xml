@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8794">Nisibis 61</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,135 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXI">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXI"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXI
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 61</head>
+         <div type="section" n="1">
+            <ab>In wisdom let us hearken to Death, O my beloved: how he accuses us for our weeping,
+               and for our mourning.</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Response: To thee be praise Who cameth down, to follow <persName>Adam</persName>: and foundest <persName>Adam</persName> and also in
+               the children of <persName>Adam</persName>.</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>And rightly perhaps he says, <quote>Ye slay: without mercy and lo! ye weep, as though
+               merciful.</quote></ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Ye have made me as a cruel one, O ye murderers: for ye slay one another, without my
+               help!</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>While Death was but desiring to come, the sword came before him: let us see then
+               against whom cries out, the blood of the slain.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>Against you cry out the strangled, who were suffocated: for it shames me of the rope,
+               of their strangulations.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>They take away from me even my rest, for without me: how could the strangled and the
+               slain, enter <placeName>Sheol</placeName>?</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>Lo! your infants are cast out, as those in <placeName>Egypt</placeName>: your sons have ye sacrificed to
+               demons, O demoniacs!</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>While Death was but desiring to taste, of your corpses: <persName>Cain</persName> refreshed me beforehand,
+               with blood of man.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>While I was but desiring to wait patiently, till <persName>Adam</persName> should die: before I had power
+               ye gave me power, over your bodies.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab><persName>Cain</persName> with his sword overthrew, the gate of <placeName>Sheol</placeName>: for it was closed and before the
+               time, he first opened it.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>He by treading made the way of <placeName>Sheol</placeName>, without my help: for in the way ye have trodden
+               out for me, lo! I walk therein.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>Nine hundred years I sat and waited, for <persName>Adam</persName> to die: but Cain not even a day,
+               endured his brother.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Robbers upon the highways, are worse than I: I am slumbering while they, are watching
+               to slay.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>Lo! your slaughtered in the graves, and your murdered in your ways; and your
+               strangled upon your stakes!</ab>
+         </div>
+         <div type="section" n="16">
+            <ab><quote>If I rebelled against my lord, yea and slew him: who was he that slew these here,</quote>
+               said <persName>Jehu</persName>.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>And if I Death have taken, your departed: the strangled, the slain, and the
+               slaughtered, who was it slew them?</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>Ye are <persName>Satan</persName> to each other, and the Evil One is abhorred: ye are pestilence to each
+               other, and Death is blamed!</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>Your own will to you is Satan, yea and a murderer: but of Death and of <persName>Satan</persName>, all men
+               complain.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>Poison of Death ye give also to drink, each to other: lo! how many Deaths have ye,
+               beside me.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>Wiles, stratagems, yea and snares, sword and poison: how many Deaths from you and in
+               you, lo! are there born.</ab>
+         </div>
+         <div type="section" n="22">
+            <ab>The judge in the judgment-hall, is a second Death: he slays for secret reward, but I
+               for naught.</ab>
+         </div>
+         <div type="section" n="23">
+            <ab>I have seen bribery and marvelled at it, that ran and outran me: how many slain does
+               bribery, slay, and none perceives!</ab>
+         </div>
+         <div type="section" n="24">
+            <ab>I am ashamed that so unskilfully, I conduct myself: if I take even one corpse, all
+               men perceive it.</ab>
+         </div>
+         <div type="section" n="25">
+            <ab>In the houses weeping and in the streets, also wailing: and even unto the gates of
+               <placeName>Sheol</placeName>, they groan over me.</ab>
+         </div>
+         <div type="section" n="26">
+            <ab>Groan over yourselves that ye are thus hateful, and ye hate me: <placeName>Sheol</placeName> henceforth
+               shall groan over you, O murderers!</ab>
+         </div>
+         <div type="section" n="27">
+            <ab>With torture, scourging and fire, yea with stoning: ye put to death the sons of men,
+               and ye are proud!</ab>
+         </div>
+         <div type="section" n="28">
+            <ab>I am more modest than you and merciful, also reverent: for with reverence I bear
+               away, your departed.</ab>
+         </div>
+         <div type="section" n="29">
+            <ab>On the bed I deal gently, with him that is sick: and quietly I lay him to sleep, for
+               but a while.</ab>
+         </div>
       </body>
    </text>
 </TEI>

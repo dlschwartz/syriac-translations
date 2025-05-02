@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8744">Nisibis 7</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,78 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_VII">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_VII"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_VII
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 7</head>
+         <div type="section" n="1">
+            <ab>Wrath came to rebuke, the greedy who in the midst of peace, bargained, defrauded and
+               plundered. In calamity the greedy have waxed rich: lo! what was theirs they have
+               scattered, what was not theirs they have gathered. </ab>
+         </div>
+         <div type="response">
+            <ab>Response: Give peace, O Son, to our land!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Twenty years my troubles, have been like branches, O my Saviour! which are kept back
+               throughout winter, but when it is time to shoot forth, my troubles shoot forth: with
+               our fruit our heart ripens.</ab>
+         </div>
+         <div type="section" n="3">
+            <ab><!-- I believe Nisan is a jewish month would that be a name or foreign language? -->Nisan is the time of buds: in it the ill tidings budded. When our delights crowded
+               on us, then crowded on us our ills. At the time of winnowing of wheat, came the
+               winnowing of cities,</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>For the three brethren in <placeName>Babylon</placeName> fled not from the fire that men kindled, because
+               they were steadfast: from lust they fled, because they were perfect.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>The fire of them that have triumphed, is able to turn the black kids into white: the
+               fire of vain men is able to make the lambs into spotted leopards.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>How great will be my cries, to be cried at any alarm! How great my indignation to
+               ripen at every ill tidings! How great my harvests, to perish every mouth!</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>For the crimes of my sons He has chastened me, in their struggling for my
+               deliverance. The people who deliver me, bring chastisement upon me. Restrain ye your
+               sins, and lo! my chastisements are restrained!</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>In ill tidings they are afflicted; in time of wrath they are tortured; in time of
+               peace they are distressed; for when every man breathes freely, and all are unthankful
+               for grace, they render thanks on behalf of every man.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>Their sackcloth is humble for my sake; their ashes are sprinkled in my affliction;
+               their prayer is for my victory; their fast for my deliverance: Lo! the debt is on my
+               ascetics, the guilt with my nobles.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>Great is in every age, the folly of the wise; the scribes and elders envied and
+               killed the teacher, who taught all people the Law of <persName>Moses</persName>.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>Wisdom in this age is a possession that brings loss: he who has a little folly, very
+               small is his guilt; but he who has a little prudence, his iniquity passes
+               measure.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>They build with their words, and overthrow in their deeds; for the teachers were
+               many and foolish, but the mouth of the judge is both of these things, the judge and
+               the accuser.</ab>
+         </div>
       </body>
    </text>
 </TEI>

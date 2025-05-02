@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8772">Nisibis 39</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,182 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XXXIX">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XXXIX"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XXXIX
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head><placeName>Nisibis</placeName> 39</head>
+         <div type="section" n="1">
+            <ab>There have come to me ransomers from among the saints, but none has plundered me
+               like the Son of <persName>Mary</persName>. For lo! <persName>Elijah</persName> brought a dead man to life; and even though he
+               himself escaped from my hands, yet had I consolation after him, for the dead man whom
+               he quickened, I carried off from him. By <persName>Elisha</persName> son of <persName>Shaphat</persName>, I was beaten as with
+               rods, for he brought two dead men to life. By one staff I in turn bore away both the
+               prophet and the dead whom he had raised. </ab>
+         </div>
+         <div type="resopnse">
+            <ab>Response: Blessed is He Who cleft the tombs of <placeName>Sheol</placeName> by His voice!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>I feared him even <persName>Gehazi</persName> when I saw, him lay the staff upon the youth. The thief
+               took the staff away and returned; <persName>Elisha</persName> came and bowed himself; laid himself low as
+               the child and raised himself up, and walked hither and thither. I marvelled at the
+               new mysteries which I saw there, which restored but one youth to life. It was well
+               with me then when those were but mysteries, and not now when the dead have rebelled
+               and conquered me.</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>Moses when I saw the mighty splendour upon his face, I feared him: yet not according
+               to what I feared befel it me. <persName>Nisan</persName> in <placeName>Sheol</placeName> he caused to spring for me; for a
+               pasture, a pasture of corpses, of six hundred thousand fell.—This lowly and despised
+               whom I contemned, has healed the sick and the diseased: to others He has multiplied
+               bread, but our bread even ours from our mouths He snatches.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>A mighty feast there was in Sheol, when I swallowed up <persName>Korah</persName> and his company. A
+               great delight <persName>Satan</persName> made for me, when he made strife among the Levites. A fount of
+               milk and honey, made he flow for me in a dry place, when the congregation of
+               transgressors went down to <placeName>Sheol</placeName>.—Lo! the righteous have lived and come forth: <persName>Moses</persName>
+               sent down the living thither, but <persName>Jesus</persName> has revived and brought up the dead.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>It was well with me then, in the day of the zealous, those in whose swords I had
+               delight. <persName>Phinehas</persName> the zealous pierced and gave me, on the head of his spear for my
+               delight, <persName>Zimri</persName> and <persName>Cozbi</persName> both together; on the head of his lance he presented them to
+               me. To whom then were there ever two fatted oxen, offered on the head of a spear?—But
+               instead of <persName>Cozbi</persName>, daughter of princes, the daughter of <persName>Jairus</persName> has <persName>Jesus</persName> rescued from
+               my hands.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>The censer of <persName>Aaron</persName> caused me to fear, for he stood between the dead and the living
+               and conquered me. The Cross causes me to fear more exceedingly, which has rent open
+               the graves of <placeName>Sheol</placeName>. The Crucified Whom on it I slew, now by Him am I slain. Not very
+               great is his reproach, who is overcome by a warrior in arms. Worse to me is my
+               reproach than my torment, in that by a crucified man my strength has been
+               overcome.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>The lance of <persName>Phinehas</persName> again has caused me to fear, for by the slaughter he wrought
+               with it he hindered the pestilence. The lance guarded the tree of life, it made me
+               glad and made me sad; it hindered <persName>Adam</persName> from life, and it hindered death from the
+               people. But the lance that pierced <persName>Jesus</persName>, by it I have suffered; He is pierced and I
+               groan. There came out from Him water and blood; <persName>Adam</persName> washed and lived and returned to
+               Paradise.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>The Sadducees were as a mouth for me, and disputed with Him after my mind, that
+               there is no rising of the dead at all. <persName>Jesus</persName> answered them in a saying, which I alone
+               understood; He spake aloud the hateful word and saddened me, “I am the God of him
+               even of <persName>Abraham</persName>, and God is not the God of the dead.” It was well with me then these
+               were but words, and He had not yet showed me the life of the dead indeed.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab><persName>Jesus</persName> son of Nun, slew thirty kings, and filled the graves and pits for me; he laid
+               waste <placeName>Jericho</placeName> and filled <placeName>Sheol</placeName>. But this <persName>Jesus</persName> who is come, has wasted the graves of
+               their dead, and has filled the cities of the upper world. Wherefore thus when lo!
+               they are like in their names, are they unlike in their doings? That gave me the body
+               of <persName>Achor</persName>, but this snatched from me the body of <persName>Lazarus</persName>.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab><persName>Moses</persName> trod down that Egyptian, with his meekness he mingled justice. Whence has this
+               new law sprung for me, <quote>If one smite thee on thy cheek, turn to him thy other cheek,
+               and see that thou hate him not?</quote> Instead of the strong man of zeal who trod down and
+               slew, a new man of mercy has risen for us. <persName>Samuel</persName> hewed <persName>Agag</persName> in pieces, but <persName>Jesus</persName>
+               healed the paralytic.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>Tender mercy which had as it were waxed less, lo! in this time has waxed great. And
+               moreover it was then detested, lest through it one should transgress the commandment;
+               for without mercy <persName>Saul</persName> and <persName>Ahab</persName>, were slain because they desired, to have mercy on
+               the evil ones, and they were not slain who were deserving of punishment. In my time
+               <persName>Jesus</persName> has changed this, by giving life to all men and having compassion on His
+               slayers.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>I remember <persName>Samson</persName> that lion’s whelp, who brake and gave me the pillars of <placeName>Philistia</placeName>;
+               also that mighty man of valor <persName>Abner</persName> son of <persName>Ner</persName>, took for me that fleet wild roe,
+               <persName>Asahel</persName> son of <persName>Zeruiah</persName>, and smote him and cast him on the ground. <persName>Benaiah</persName> in the holy
+               temple slew <persName>Jacob</persName>, justly as it is written.—Because justice has restrained her sword,
+               henceforth penitents shall rejoice in grace.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab><persName>David</persName> measured the Edomites, by line and line and destroyed them. How merciful then
+               art Thou, O Son of <persName>David</persName>! <persName>David</persName>’s justice was twofold, when he put to death two
+               lines, and saved one full line alive.—Lo! the Son of <persName>David</persName> teaches us, <quote>Forgive thy
+               brother even unto seventy times seven.</quote> There justice was measured; but here clemency
+               is without measure.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Of zeal and strength <persName>David</persName> was possessed; the lion and the bear he slew together. He
+               left that mighty lion and hasted, to meet the strong giant. With a stone he quenched
+               his light, and his soul left him and he perished. But <persName>Jesus</persName> cried to the young man
+               that was dead <quote>Young man!</quote> Even the dead to Him are sleepers. That young man He
+               brought to life and rescued from me. The despised swine He drowned for me in the
+               sea.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>The Levites slew because of the calf, their fathers and their brethren. <persName>Jephthah</persName> by
+               his own hands was ready to slay his daughter. The King of <placeName>Moab</placeName> on the wall, was
+               sacrificing his first-born son: In presence of his sword I rejoice.—By <persName>Jesus</persName> the
+               sword was blunted; yea the fever was rebuked, the sister of <placeName>Sheol</placeName>: the mother-in-law
+               of <persName>Simeon</persName> was healed, but the fame of her healing smote <placeName>Sheol</placeName> with pain.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>This <persName>Jesus</persName> though he be the Son of the Just One, all that He preaches is grace. But
+               to me this His grace is torment. Envy is the cause of pleasure to us, for Envy at the
+               beginning mixed for me the first shedding of blood. Why is it guilty in the sight of
+               the Son of <persName>Mary</persName> Who is come commanding, <quote>Thou shalt not be angry against thy
+               brother?</quote> He has taken away the sword from between brethren; while in the sword of
+               <persName>Cain</persName> I had pleasure from the beginning.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>An honeycomb in the midst of the skeleton, <persName>Samson</persName> found—was it then a mystery? This
+               <persName>Jesus</persName> has multiplied for us mysteries. Amid billows of mysteries have I fallen, which
+               show me in parable the life of the dead, in all mysteries and in all types. <quote>Out of
+               the eater came forth meat</quote> was <persName>Samson</persName>’s parable. But to me it has befallen
+               contrariwise; for the eater has come forth to me out of the meat, for out of <persName>Adam</persName> lo!
+               has come the Son of <persName>Adam</persName> Who has destroyed me.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>Just men likewise have robbed me manifold, when by them was preached the rising of
+               the dead: but they mingled with my sorrows great consolation. By the prayer of <persName>Asa</persName>
+               and <persName>Hezekiah</persName>, I was fed upon the dead, yea I feasted upon corpses. <persName>Elijah</persName> slew the
+               prophets of <persName>Baal</persName> and gave them to me, who on the bread of <persName>Jezebel</persName> had waxed fat. The
+               righteous has constrained me to devour, but <persName>Jesus</persName> has compelled me to disgorge all
+               that I had eaten.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>I was afraid because of the sprinkled blood, which <persName>Moses</persName> sprinkled on every door;
+               for though the blood of the slain, it was that which saved the living. Blood from of
+               old I feared not, save that blood that was on the doors, and this moreover that was
+               on the Tree. The blood of the slain is a delight, and is as sweet perfume: but the
+               blood of <persName>Jesus</persName> is to me a terror; for whenever I come and smell His blood, the savour
+               of life that lurks therein terrifies me.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>Priests and pontiffs, anointed men and kings, who foreshow types of the rising of
+               the dead, have never triumphed through their crosses. Crowns and diadems were set on
+               them; and when I engaged in struggles with them, I was smitten sometimes and
+               sometimes also I smote. But this carpenter’s son with his crown of thorns, has
+               humbled and cast down my pride, in His shame and His dying: <placeName>Sheol</placeName> has seen Him, yea,
+               and fled from before Him.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>When the sea saw <persName>Moses</persName> and fled, it feared because of his rod, and likewise because
+               of his glory. His splendour and his rod and his power, the rock also saw which was
+               cleft. But <placeName>Sheol</placeName> when her graves were rent, what saw she in Him even in
+               <persName>Jesus</persName>?—Instead of splendour He put on the paleness of the dead and made her tremble.
+               And if His paleness when slain slew her, how shall she be able to endure, when He
+               comes to raise the dead, in His Glory!</ab>
+         </div>
       </body>
    </text>
 </TEI>

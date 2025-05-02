@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8740">Nisibis 3</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,106 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_III">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_III"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_III
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 3</head>
+         <div type="section" n="1">
+            <ab>Fix thou our hearing, that it be not loosed and wander! For it is a-wandering if one
+               enquire, who He is and what He is like. For how can we avail, to paint in us the
+               likeness, of that Being which is like to the mind? Naught is there in it that is
+               limited, in all of it He sees and hears; all of it as it were speaks; all of it is in
+               all senses.</ab>
+         </div>
+         <div type="response">
+            <ab>Response: Praise to the One Being, that is to us unsearchable!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>His aspect cannot be discerned, that it should be portrayed by our understanding: He
+               hears without ears; He speaks without mouth; He works without hands, and He sees
+               without eyes. Because our soul ceases not nor desists, in presence of Him Who is
+               such; in His graciousness He put on the fashion of humankind and gathered us into His
+               likeness.</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>Let us learn in what way that Being is spiritual and appeared as corporeal; and how
+               it also is tranquil and appears as wrathful. These things were for our profit; that
+               Being in our likeness was made like to us that we may be made like Him. One there is
+               that is like Him, the Son Who proceeded from Him, Who is stamped with His
+               likeness.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>O <persName>Nisibis</persName>, hear these things, for, for thy sake these things were written and
+               spoken. Both to thyself and to others, thou hast been in the world a cause of strife
+               and of disputations. Mouths over thee, O thou that wast shut up, even over thee
+               mouths sang; when thou didst triumph and wast enlarged, in thee mouths were opened,
+               for lamentation and for thanksgiving.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>The prayer of thy inhabitants, sufficed for thy deliverance; it was not that they
+               were righteous, but that they were penitent: according as they were disgraced, so did
+               they haste to submit to the rod. In transgressions and in triumphs they had like
+               part. They whose crimes were great, so be their fruit great; they who triumphed in
+               their sackcloth, have triumphed also in their crowns.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>The day of thy deliverance, is king of all days. The Sabbath overthrew thy walls, it
+               overthrew the ungrateful; the day of the Resurrection of the Son, raised again thy
+               ruins; the day of Resurrection raised thee according to its name, it glorified its
+               title. The Sabbath relaxed its watch; for the making of the breaches, it took blame
+               to itself.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>In <placeName>Samaria</placeName> hunger prevailed, but in thee fulness prevailed. In <placeName>Samaria</placeName> there broke
+               in and came on her, abundance of a sudden; but in thee there roared and came in on
+               thee a sea of a sudden. In her was eaten a child, and it saved her alive; in thee was
+               eaten the body, living and all life-giving; of a sudden He delivered them, the Eaten
+               delivered the eaters.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>We know that the Blessed wills not the afflictions, that have been in all ages;
+               though He has wrought them, it is our offences that are the cause of our troubles. No
+               man can complain against our Creator; it is for Him to complain against us, who have
+               sinned and constrained Him, to be wrathful though He wills it not, and to smite
+               though He desires it not.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>The Earth, the vine, and the olive, are in need of chastisement. When the olive is
+               bruised, then its fruit smells sweet; when the vine is pruned, then its grapes are
+               goodly; when the soil is ploughed its yield is goodly. When water is confined in
+               channels, desert places drink of it; brass, silver and gold, when they are burnished
+               shine.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>If then it be that man, by chastening makes all things goodly; and if he who
+               despises and rejects chastening, is hated and all rebels against him; then by that
+               which he chastens, let him learn Him that chastens him; since whoso chastens does so
+               that he may profit thereby. For whoso chastens his servants, does so that he may
+               possess them; the good God chastens His servants that they may possess
+               themselves.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>Let thy afflictions be, books to admonish thee, for the thrice-besieged, suffice to
+               become for thee, books to meditate therein, every hour on their histories. Because
+               thou despisedst the two Testaments, wherein thou mightest read thy life, therefore He
+               wrote for thee, three hard books wherein thou shouldst read thy chastisements.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>Let us avert by that which has been, the thing that is yet to be; let us be taught
+               by that which has come, to escape that which is coming; let us remember that which is
+               past, to avoid that which is future. Because we had forgotten the first stroke, the
+               second fell on us; because we forgot the second, the third bore heavy on us. Who will
+               yet again forget!</ab>
+         </div>
       </body>
    </text>
 </TEI>

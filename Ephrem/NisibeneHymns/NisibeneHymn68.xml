@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8801">Nisibis 68</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,147 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXVIII">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXVIII"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LXVIII
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 68</head>
+         <div type="section" n="1">
+            <ab>Man: O, Death, be not thou boastful, over the just: the sons of thy Lord who at His
+               command, come to dwell with thee.</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Response: To thee be glory that by Thy command, Death has reigned: and by Thy Resurrection
+               has been humbled to low estate!</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>Death., Herein am I exceeding great, according to thy saying: that though I be
+               bond-man I trample on them that are free.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Man: <persName>Adam</persName> was chosen and ruler, and under his yoke: thou, Death, and the Evil One, thy
+               fellow, became bondmen.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>Death: This is our pride that lo! the slaves have become lords: Death, and <persName>Satan</persName>, his
+               fellow, have trampled on <persName>Adam</persName>.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>Man: Lo! the humbling of thee and thy fellow, accurst servants! how <persName>Enoch</persName> trampled on
+               you both, and rose aloft and reigned.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>Death: If so be <persName>Enoch</persName> made me grieve, yet have I comfort for on <persName>Noah</persName>’s dust in <placeName>Sheol</placeName>,
+               lo! I trample.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>Man: Tremble, O Death, before man, for though a servant, the yoke of his dominion
+               reigns on all creatures.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>Death: I rejoice then that they are no mean foes that I have overcome: for according to
+               the greatness of the vanquished, he is great that overcomes.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>Man: Well does thy voice sing triumph, O Death, over the just: for <persName>Enoch</persName> and <persName>Elijah</persName>
+               have broken thy pair of wings.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>Death: I know how to weigh my sorrows with my comforts: in place of two, lo! many are
+               come and coming.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>Man: All that are come and coming to thee dwell as sojourners, and depart from thy
+               abode as <persName>Lazarus</persName>.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>Death: This thy saying hurts me not, rather it heals me: for <persName>Lazarus</persName> who rebelled
+               against me, I again subdued.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Man: Make answer, O Death, and argue what constrained him, to be raised unless it were
+               a mystery, showing forth his resurrection.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>Death: Ye are famous in arguing as idle ones, while I labour in my task to discern and
+               perform</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>Man: Thou wast well prepared for argument, what has checked thee? The truth of our
+               resurrection has constrained thee by its reputations.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>Death: Ye have made me hated by you, though I be not hateful: I am he that gives rest to
+               your aged, and your afflicted.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>Ye have made me as one that troubles, O ye mortals: <persName>Adam</persName> brought death upon you, and
+               I bear the blame.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>Gently will I expose you, for I am a slave, and ye are they that by your sins have
+               made me king.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>The will of <persName>Adam</persName> roused me for I was at rest: I was dead and ye quickened me, that ye
+               might die by me.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>I accuse the lying ones, who slew and denied it: for <persName>Adam</persName> slew himself and charges
+               me.</ab>
+         </div>
+         <div type="section" n="22">
+            <ab>The beginning of strife was the accursed serpent which has rightly been crippled:
+               which crept, entered, and set enmity between me and you.</ab>
+         </div>
+         <div type="section" n="23">
+            <ab><persName>Satan</persName> is passed by and it is against me that ye are roused: go, strive with the Evil
+               One who made you transgress.</ab>
+         </div>
+         <div type="section" n="24">
+            <ab>He is my comrade and I deny it not, but though he be much hated, what need that I be
+               blamed for him. I deny him henceforth.</ab>
+         </div>
+         <div type="section" n="25">
+            <ab>Hearken to my words, O mortals, and I will console you: I have afflicted you and I
+               confess the life from the dead.</ab>
+         </div>
+         <div type="section" n="26">
+            <ab>For there begins to steal into my ears a voice of preparation: of the trumpet that
+               holds itself ready to sound.</ab>
+         </div>
+         <div type="section" n="27">
+            <ab>Hear my words and put much oil into your lamps: for hindrance from my part there is
+               none for you.</ab>
+         </div>
+         <div type="section" n="28">
+            <ab>Yet, Know ye that even although I have said these things, dear is the sound of your
+               voice in the solitude of Sheol.</ab>
+         </div>
+         <div type="section" n="29">
+            <ab>For man has been weighed by me, and great is his peace: for snakes and fishes and
+               birds come to meet him.</ab>
+         </div>
+         <div type="section" n="30">
+            <ab>But it is a marvel that to the Watchers, too, his converse is dear: yea, the Evil One
+               in <placeName>Gehenna</placeName>, desires his presence.</ab>
+         </div>
+         <div type="section" n="31">
+            <ab>Ye shall have life from the dead, O ye mortals, and I who am bereft shall be bereft
+               in the midst of <placeName>Sheol</placeName>.</ab>
+         </div>
+         <div type="section" n="32">
+            <ab>Let praise ascend from all to Thee Who quickenest all, and from every quarter
+               gatherest the dust of Adam!</ab>
+         </div>
       </body>
    </text>
 </TEI>

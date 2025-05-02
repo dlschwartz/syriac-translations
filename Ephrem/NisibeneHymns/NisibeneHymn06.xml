@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8743">Nisibis 6</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,185 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_VI">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_VI"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_VI
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 6</head>
+         <div type="section" n="1">
+            <ab>I will run in my affections, to Him who heals freely. He who healed my sorrows, the
+               first and the second, He who cured the third, He will heal the fourth. </ab>
+         </div>
+         <div type="response">
+            <ab>Response: Heal me, Thou Son the First Born!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>My sons, O my Lord, drank and were drunken, of the tidings which wrath had mixed;
+               and they rushed on my adornments, and spoiled and cast away my ornaments; they rent
+               and spared not, my garments and my crowns.</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>They uncovered me and I was made bare. Because I was shamed a little, by means of
+               that stripping, the first and the second, because I was shamed a third time, lo! they
+               have stripped me a fourth time.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>For they have seized and taken away my garments, my ornaments and my gardens. On the
+               sackcloth that girds my altar, look Thou, O my Lord, and have pity on me! Let the
+               sackcloth be to me, O my Lord, the breastplate of salvation!</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>Lo! it is not by the hand of the chaste, that Thou hast chastised me, O my Master!
+               For lo! his shame is before him, and behind him his disgrace; for as to his marriage,
+               adultery is better than it.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>Lo! his daughter is his wife, and his sister his consort; and his mother whence he
+               came forth, he turns again and takes her to wife! The heavens are astonished that
+               thus, he provokes Thee, and lo! he prospers.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>And though, O my Lord, my crimes are many, are my offences so heavy, that Thou
+               shouldst make over a chaste woman, mother of chaste daughters, to foul <placeName>Assyria</placeName>,
+               mother of defiled daughters?</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>Restrain him that he come not, and wag at me his head, and stamp on me his heel, and
+               rejoice that the voice of his fame, thus troubles the world; and be uplifted yet a
+               little!</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>My sons, O my Lord, have seen my nakedness, yea have uncovered me and wept. Uncover
+               Thou me before my children, who are pained by my pain, and let not those mock at me,
+               the accursed that have no pity!</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>My lands had brought forth fruits and pleasant things; good things in the vineyard,
+               abundance in the fields. But as I rested secure, of a sudden wrath overtook me.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>The husbandmen were plundered, the spoilers heaped the grain; what thou had borrowed
+               and sown these destroyed. With one’s debt his hunger, haply will also remain
+               unsatisfied, for his bread is snatched from him.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>The husbandman, O my Lord, is plundered, for he lent to the earth; she has received
+               the deposit, and given it to a stranger; she has borrowed it of the husbandman; and
+               paid it to the spoiler.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>Be jealous over me who am Thine, and to Thee, O my Lord: am I betrothed! The Apostle
+               who betrothed me to Thee, told me that Thou art jealous. For as a wall to chaste
+               wives is the jealousy of their husbands.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab><persName>Samson</persName> stirred up seas, because he was mightily jealous over his wife, though she
+               was greatly defiled, and was divided against him. Keep Thy Church, for no other, has
+               she beside Thee!</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>Whoso is not jealous, over his spouse despises her. Jealousy it is that can make
+               known, the love that is within. Thou art called jealous, that thou mayest show me Thy
+               love.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>The nature of woman is this; it is weak and rash: it is jealousy keeps it, under
+               fear every hour. Thou hast been named among the jealous, that Thou mightest make
+               known Thy solicitude.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>Every man has been master, of something that was not his own; every man has gone
+               forth gathering, something that he scattered not. The day of confusion, I have
+               prepared for myself by my crimes.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>How shall they bear the suffering, the labourers and tillers? In the face of the
+               vinedresser, they have cut down the vines and driven away the flocks of the
+               husbandman; his sowing they have reaped and carried off.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>They had yoked cattle sown and harrowed, they had ploughed, planted, nurtured. They
+               stood afar and wept; and they went away bereft of all. The labour was for the
+               toilers, the increase for the spoilers.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>The rulers, O my Lord, maintained not, order in the midst of Thy wrath. If they had
+               willed it they might have kept order, but our iniquity suffered it not. Though wrath
+               had greatly abated, wrath compelled them to spoil.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>To whom on any side, shall I look for comfort, for my plantations that are laid low,
+               and my possessions that are laid waste? Let the message of the voice of peace, drive
+               away my sadness from me!</ab>
+         </div>
+         <div type="section" n="22">
+            <ab>Give me not over; lest it be thought that Thou, hast given me a writing of divorce,
+               and sent me away and driven me out! Let them not call me, O my Lord, the forsaken and
+               the disgraced!</ab>
+         </div>
+         <div type="section" n="23">
+            <ab>I have not anything, to call to mind before Thine eyes, for I am wholly despised.
+               Call Thou to mind for me, O my God, this only that none other, have I set before me
+               beside Thee!</ab>
+         </div>
+         <div type="section" n="24">
+            <ab>Who would not weep for me, with voice and wailing? for before the days of full moon
+               I was chaste and crowned; and after the days of full moon, I was uncovered and made
+               bare.</ab>
+         </div>
+         <div type="section" n="25">
+            <ab>My chaste daughters of the chambers, wander in the fields; for the wrath that makes
+               all drunken, has caused my honourable women to be despised. Let Thy mercy which gives
+               peace to all, restore these beloved ones to honour!</ab>
+         </div>
+         <div type="section" n="26">
+            <ab>My elder daughters and my younger, lo! they cry before Thee; the damsels with their
+               voices, they that are aged with their tears; my virgins with their fasts, my chaste
+               ones with their sackcloth!</ab>
+         </div>
+         <div type="section" n="27">
+            <ab>Mine eyes to all the streets, I lift up and lo! they are deserted. There are left of
+               a hundred ten, and a thousand of ten thousand. Give Thou peace and fill my streets,
+               with the tumult of my dwellers!</ab>
+         </div>
+         <div type="section" n="28">
+            <ab>Bring back them that are without, and make them glad that are within! Mighty is Thy
+               grace, that Thou extendest it within and without. Let the wings of Thy grace gather
+               my chickens together!</ab>
+         </div>
+         <div type="section" n="29">
+            <ab>Let the prayer of my just men, save my fugitives! The unbelievers have plundered me,
+               and the believers have sustained me. In them that believe put Thou to shame them that
+               believe not!</ab>
+         </div>
+         <div type="section" n="30">
+            <ab>There came together on one day, two festivals as one: the Feast of Thine Ascension,
+               and the Feast of Thy Champions; the feast that wove Thy Crown, and the memorial of
+               the crowning of Thy servants.</ab>
+         </div>
+         <div type="section" n="31">
+            <ab>Have thou mercy because there were doubled for us, these feasts on one day; and
+               there were doubled for us instead of them, even the two feasts in one, suffering from
+               the voice of ill tidings, and mourning from desolation!</ab>
+         </div>
+         <div type="section" n="32">
+            <ab>Give peace to my festivals! for both my feasts have ceased; and instead of
+               rejoicing, of my remnants in festivals, tremblings and desolations meet me in every
+               place.</ab>
+         </div>
+         <div type="section" n="33">
+            <ab>Bring home mine that are far off, make glad mine that are nigh; and in the midst of
+               our land shall be preached, good tidings of joy; and I shall render in return for
+               peace, praise from every mouth!</ab>
+         </div>
       </body>
    </text>
 </TEI>

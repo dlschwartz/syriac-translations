@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 13</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 13, p. 84</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="13">
+            <head>XIII</head>
+            <head><pb type="external" n="124"/>On the varying states which come to those who live in
+               solitude, as is justly ordered by God concerning this [spiritual] way: now sadness
+               and psychic suffocation, then, suddenly, gladness and joy and hot fervour and unusual
+               strength. Praise to Him that has ordered our way amen</head>
+            <p>To him who has determined to order his being in lonely dwelling and to pass the
+               remainder of his days in service and in the ordering of the way of solitude, it will
+               come to pass that, while he is as usual, in solitude, such as is justly prescribed by
+               divine grace, his soul will be hidden in darkness. And just as the radiance of the
+               sun is hidden from the earth by thick clouds, so, for a short time he is bereft from
+               spiritual consolation and from the rays of grace, by the clouds of the affections;
+               and some of the joy-giving force is withdrawn from him, while an unusual darkness
+               falls upon his spirit; yet his mind is not troubled nor inclined towards dejection;
+               but he remains patient, occupying himself with the writings of divine men and with
+               prayers to which he forces himself, looking for help.</p>
+            <p>Then of a sudden it will be given him unexpectedly<ptr type="noteAnchor" target="#n84-1"/>. For, as the face of the
+               earth is gladdened by the rays of the sun when the dense atmosphere is torn asunder,
+               so the words of prayer are able to tear away and to remove from the soul the <pb
+                  type="external" n="125"/>dark cloud of the affections and to gladden and to
+               illuminate the spirit by the rays of joy and consolation which is born in our
+               deliberations.</p>
+            <p>Especially when the soul is able to have recourse to the profit from the holy books
+               and from vigils that make the mind pure. Constant meditation upon the holy scriptures
+               will perpetually fill the soul with incomprehensible ecstasy and joy in God.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n84-1">Literally: though he does not know it.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

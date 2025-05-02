@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 35</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 35, pp. 152-180.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="35">
+            <head>XXXV</head>
+            <head>A treatise in questions and answers concerning constant behaviour and every kind of
+               excellence which is eminently useful for those who have stripped off the world and
+               dwell in the wilderness, for recluses and for those who in voluntary mortification at
+               all times expect the crown of righteousness</head>
+            <p>The disciple says: Which are the bonds captivating the mind [and withholding it] from
+               running after evil things?</p>
+            <p>The teacher says: The constant search after wisdom and desire for the teachings of
+               life. For bonds stronger than these against the unruliness of mind do not exist.</p>
+            <p>The disciple says: Where is the limit of the course of <pb type="external" n="225"
+               />wisdom for those who seek it, and where does the course of teachings end?</p>
+            <p>The teacher says: The way of this course is foreign to any limit, to such an extent
+               that even the holy angels do not reach perfection. The course of wisdom is without
+               end. It ascends to such a height that it mingles with God him that follows it. And
+               even this is a sign of its unlimitedness, that its distinctions are without end;
+               wisdom is God.</p>
+            <p>The disciple: What is the first and principal way leading towards wisdom?</p>
+            <p>The teacher: That a man seeks God with all his might and that he is quick in seeking
+               Him with his whole person, so that he even does not dislike to give up and throw down
+               his life on account of his love.</p>
+            <p>The disciple. To whom is it becoming to be called a man of understanding?</p>
+            <p>The teacher. He that really understands that there is a limit to his earthly life, is
+               also able to put a limit to his sins. What knowledge or understanding is greater than
+               this, that a man has wisdom to depart this life without harm, while his limbs are <pb
+                  n="153"/>are not strained with the odour of desires, nor his soul with the filth
+               of their sweetness? If a man subdues his impulses in order to penetrate into the
+               mysteries of all classes of beings, and is filled with insight into all kinds of
+               knowledge, so to say, yet his soul is defiled by the filth of sin so that he cannot
+               hope on account of the witness of his soul that he shall safely reach the harbour of
+               trust — then there is none more foolish among the creatures than such a man who,
+               though being constantly occupied <pb type="external" n="226"/>by his works, is
+               brought by them to the hope of this world only.</p>
+            <p>The disciple. Who is really strong?</p>
+            <p>The teacher. He that during the temporary troubles by which the glory of his
+               victorious power is hidden, does not long after the comfort by which a shameful life
+               is enveloped and which at all times compels those who find it, to drink the goblet of
+               sighs.</p>
+            <p>The disciple. Is it harmful to his course towards God, if a man makes a pause is his
+               labour?</p>
+            <p>The teacher. It is not possible for a man to come near to Christ without troubles,
+               nor can his righteousness be preserved unchanged without them. When righteousness
+               already acquired is bereft of labours which served to augment and at the same time to
+               guard it, it resembles a treasure which of a sudden finds itself without guardians,
+               or an athlete who is stripped of his arms while a host of enemies surrounds him; or a
+               ship that is left in the ocean without the utensils of her equipment; or a garden
+               rich in fruits from which is cut off the fountain that watered it.</p>
+            <p>The disciple. Who is the illuminated in his impulses?</p>
+            <p>The teacher. He who is able to understand the bitterness hidden in the sweetness of
+               the world and who withholds his mouth from drinking its goblet. Who zealously
+               enquires after the salvation of his life and who does not cease from running, up to
+               the day on which he is freed from the world; who shuts the gates of his senses, lest
+               the love of the world enter and dwell within him and bereave him of his hidden
+               treasures.</p>
+            <p>The disciple. What is the world and how can we <pb type="external" n="227"/>recognize
+               it and how can it do harm to those who love it?</p>
+            <p>The teacher. The world is a whore and by the desire of its beauty it attracts those
+               who see it so that they love it. And he that during a short time has been entangled
+               in its love is not able to escape from its hands, before it has stripped him even of
+               his life and sends him from its house through <pb n="154"/>death, bereaved of all.
+               But a man recognizes it as soon as he endeavours to leave its darkness. Then he is
+               able to see the many cords of its nets. As long as he is in it, he cannot see its
+               ensnarements. For it is not only its disciples and sons and captives which are within
+               its fortress, but also the renunciators, ascetics and those who have once broken its
+               bonds and were once above it — those also it now gradually begins to entangle in its
+               service, making them litter for its feet.</p>
+            <p>The disciple. Now that thou hast convinced me of the fact that the world really
+               suffocates those who dwell in it and of how difficult it is to understand its
+               artificial bonds, I beg to learn first, what is the first impulse to the mind's doubt
+               concerning the world, since its bonds are so very sweet and the schemes of its
+               fetters are hidden?</p>
+            <p>The teacher. When the deliberation of the love of his soul awakens in him, this
+               impulse of deliberation begins to make the world hated in his eyes and it throws into
+               him doubt concerning it.</p>
+            <p><pb type="external" n="228"/>The disciple. Whence comes this emotionality which
+               brings about that which appeared always praiseworthy and beautiful, now suddenly
+               appears as ugly, so that he repents his life and his previous knowledge, thinking
+               that he did not think rightly concerning the world?</p>
+            <p>The teacher. In the first place it is nature which <choice><sic>beakoning</sic><corr>beckoning</corr></choice> to him in
+               silence, awakens in him the critical impulse as to the unstable duration of the world
+               and of the future and of its course and as to the <choice><sic>ephemere</sic><corr>ephemeral</corr></choice> nature of
+               those who enter into it, so that he considers this world as a place of transition for
+               those who enter into it; as also for the many generations before him, the number of
+               which is unlimited. They have entered it as an inn for a night and left it as
+               travellers on a journey over the whole earth, without thinking of return. Some of
+               them kings, some governors, some wise, some honoured. Some of them scribes, some
+               orators, some judges, some commanders of armies. Some of them possessors of riches,
+               some lords of goods. And now after their death there is neither the order of their
+               degrees, nor the crowns of their government; nor their dreadful thrones, nor their
+               lordly pleasures, nor the praise of those who honoured them, nor the love of their
+               friends, nor the luxuriant pleasures of their bodies, nor the comely beauty of their
+               grace, nor their proud majestic stature, nor their erudite <pb n="155"/>mind, nor
+               their spirit rich in impulses, nor the rich effusions <pb type="external" n="229"/>of
+               the <placeName>Gihon</placeName> of their learning which streamed from their mouth and captivated by its
+               grace the heart of the hearers.</p>
+            <p>They have slept in <placeName>Sheol</placeName> for long years as if it were one night. And it is not known
+               how many years they yet have of this long sleep, nor when the dawn of resurrection
+               will rise for them and awaken them from their slumber. And to consider for what
+               purpose they are left in this state, causes great suffering; and he will think of how
+               many generations are cloistered under this earth, forgotten [now]. And I too will
+               pass as any one of them. Cursed be riches and comfort. And under this deliberation,
+               great confusion will arise in his heart and his spirit will be filled with suffering.
+               And on account of the severity of suffering he will pour forth tears in great sorrow.
+               Then he will despise the world and bewail his life and lament over his soul with
+               various bitter lamentations. And with sighs he will say to himself: Where wilt thou
+               be, my miserable soul and where wilt thou find thyself after my death? Perhaps even
+               this deliberation will rise in him: Would I had not entered the world of creatures
+               and I had not left the womb!</p>
+            <p>In this kind of lamentation he will shed sweet tears because of the sorrow of his
+               heart, and moisten his garments with his tears. And forthwith this world will be in
+               his eyes as a prison and its first sweetness will be more bitter than any bitter
+               thing and the love of his life and its desirable beauty will seem the type of
+               hell.</p>
+            <p>Then his mind will turn to scripture which will awake in <pb type="external" n="230"
+               />him faith in the resurrection and the end awaiting all the things of this world,
+               and in the promises given to those who have lived well in the world and the divine
+               judgments threatened against the transgressors of the law and against those who,
+               during their short lifetime have lived in the broad way of sin. And then, as one who
+               has discovered some light, he throws away the burden of sorrow, and great joy is
+               awakened in him, because he has found a hope, excellent and true. These things and
+               the like, nature is not able to prompt from his inward emotion: they are understood
+               from the words of scripture by faith alone. Man is not able to acquire instruction
+               concerning himself wholly from nature and from the critical impulses which are within
+               him. Concerning the dealings of God in the Past and in the Future we are able to earn
+               this <pb n="156"/>instruction from the scriptures or from spiritual revelation. Then
+               by the rays of faith and scripture the eye of the spirit will be enlightened and the
+               natural critical faculty will radiate and man will be incited to care for his soul.
+               And further he will think of means to make his life free from the world, so that,
+               before departing the body, he will be able to prepare for himself provisions useful
+               for the world to be.</p>
+            <p>The disciple. How can man wholly give up the world?</p>
+            <p>The teacher. By desire of the future good that is recollected, which divine scripture
+               sows in his heart with the sweetness of its words full of hope. When the things that
+               are thought to be glorious and delightful and in which man is entangled, are not
+               contrasted with the desire of still more excellent things, <pb type="external"
+                  n="231"/>the spirit is not able to despise its former love.</p>
+            <p>The disciple. But nature is weak and not able to give up suddenly all its former
+               customs and embrace a life of troubles.</p>
+            <p>The teacher. If the greatness of the future life does not cause a man's spirit in the
+               greatness of wisdom to compare it with the miserable shortness of this temporal life,
+               it is not possible for him to take heart to bear troubles in order to begin his
+               course on the way of the new world. Pray, compute in thy mind the number of years of
+               this our place and elevate thyself as much as possible, and compare it with the days
+               of the future world, and say whether that which thou givest is equal to what thou
+               wilt receive.</p>
+            <p>And, considering what thou leavest and what thou wilt receive in stead of it, say
+               whether thy exchange is an equal one. Therefore the wise, while he wonders at the
+               greatness of that world and its unlimited life over against the shortness of temporal
+               life, will say: The number of man's days if he lives long, are a hundred
+               years<ptr type="noteAnchor" target="#n156-1"/>; this is like filling a bucket from the sea or taking one corn of
+               sand. A thousand years in this world is not as much as one day in the world of the
+               righteous<ptr type="noteAnchor" target="#n156-2"/>.</p>
+            <p>The disciple. And what shall we do with the body? As soon as it is surrounded by
+               distress, the desire of the will towards the good is relaxed as well as its former
+               zeal.</p>
+            <p><pb type="external" n="232"/>The teacher. This will usually happen to those the half
+               of whose being has sought God, whereas the other half has remained in the world. This
+               means that their heart is not yet <pb n="157"/>free from earthly things, but they are
+               in doubt, sometimes looking behind, sometimes forward; and I think that the sage
+               admonishes those who approach the way of God in this state of indecision, saying: Do
+               not approach it doublehearted, but approach it as one who sows or as one who reaps.
+               And our Lord, seeing that among those who wish to renunciate completely, there are
+               some in such a state of mind, that their will is ready but their thoughts are drawn
+               backwards by fear of troubles, on account of their love of the body which they have
+               not yet thrown away — He will take from them this lassitude of mind saying to them
+               briefly: If any man will come after me, let him first deny himself<ptr type="noteAnchor" target="#n157-1"/>. What is
+               the denial that is spoken of here? It is the denial of the flesh. And one who is
+               destined to suffer crucifixion, he accepts the thought of death, and goes forth, as
+               one who does not think that he has any further share in this life. This is [what is
+               meant by] taking up the cross and following me. The cross denotes the will prepared
+               for any trouble. And declaring why this is so, Me says: Whoever will save his soul in
+               this world, will lose it in the true <pb type="external" n="233"/>life<ptr type="noteAnchor" target="#n157-2"/>. And
+               whoever will lose his individuality here for my sake, will find it there. This means:
+               he that sets his steps on the way of crucifixion and yet still cares to think of this
+               bodily life, bereaves his soul of the faith for which to suffer he is gone out.
+               Because this thought does not allow him to approach trouble; but, being always with
+               him, allures him gradually and makes him leave the centre of the struggle for blessed
+               life. Such thoughts grow in him till they have overpowered him. But he whose mind has
+               complied with the loss of his self for the sake of finding the love of Me, he will be
+               preserved, without harm, for life everlasting. This is, he who gives up his life for
+               my sake will find it.</p>
+            <p>This means: make free thy soul as it were from thyself and prepare it for a complete
+               loss of life. If the departure from this life finds thee in this state of mind, I
+               will give thee life everlasting, according to my promise. And if thou perseverest in
+               this life, I will show my promise in thee later as a confirmation of the future
+               goods. Therefore, thou wilt find that immortal life when thou despisest temporal
+               life. If thou enterest the strife with such a preparation, all that was most
+               sorrowful and <pb n="158"/>difficult, will be contemptible in thy eyes. The
+               preparation of such a will even is not a struggle for his life in his mind, <pb
+                  type="external" n="234"/>even when peril of death threatens him. In short: If a
+               man does not hate his temporal life, because of love of the future life, he cannot
+               bear troubles.</p>
+            <p>The disciple. In what way can a man cut off his former customs and accustom himself
+               to a life of privation?</p>
+            <p>The teacher. The body is not to be persuaded to live in need, so long as it is
+               surrounded by things of luxury and relaxation. For the sight of [worldly] things,
+               their splendour and existence kindles in it a desire for them. Therefore justly our
+               Saviour has commanded those who follow Him, in the first place to renunciate and to
+               leave the world. First He frees them from the causes of relaxation; then He commands
+               them to begin work. And our Lord himself, when He began His strife with the Devil,
+               combated him in the dry and desert wilderness. And <persName>Paul</persName> also commands those who bear
+               the cross of Christ to leave the town. So we will leave the town with Him, bearing
+               his disdain, which He also suffered without the town.</p>
+            <p>By the abandonment of the world and what belongs to it, man easily forgets his former
+               customs and his trouble will not last a long time. But the coming near to [worldly]
+               things easily relaxes the fervour of the spirit. It is also becoming and very
+               profitable in the strife, that a man's life be ordered with the utmost privation and
+               indigence, free from all things that <pb type="external" n="235"/>excite [the desire
+               of] comfort. When thus the causes leading towards relaxation are removed from man, he
+               will not be tormented by the double strife, the outward and the inward one. Lo, how
+               much easier is the strife if the things a man desires are afar off and not near,
+               alluring the thoughts by their aspect.</p>
+            <p>Thus we see that there is a double strife. When a man's way of life is poor and his
+               wants are small, he will not look with desire at these things even when indigent and
+               he will content his body with little, because even the body is despised and
+               contemptible in his eyes; and he does not approach unto it because of its beauty and
+               the pleasure it gives, but only in order to sustain nature.</p>
+            <p>These ways easily lead man to asceticism, without harm and strife and deliberations.
+               It is becoming for a man to refrain from the sight of those and to remain far from
+               those things, <pb n="159"/>against contact with which he can be on his guard only
+               with a great effort. This I do not say in view of things of the belly only, but also
+               in view of those things which by their temptation put to the test the solitary's
+               freedom and the avoiding of which he has promised in his bond with God. So I mean
+               also the sight of a woman's face, the sight of superb things, superb persons and
+               their luxury, splendid persons and their garments, all things belonging to
+               worldliness also speaking and hearing concerning them. For the affections possess a
+               strong power, <pb type="external" n="236"/>when [worldly] things are near, to weaken
+               the stragglers and to turn aside their mind. If the sight of beautiful things spurs
+               on the mind to follow their service with zeal, it is well known that also those which
+               are the contrary of beautiful, have the power of captivating the mind. And if further
+               harm does not happen than that the quiet mind is cast into strife, there is this loss
+               at any rate, that a man by his own will is thrown from peace into perturbation.</p>
+            <p>If one of the saints, an industrious father, thought the sight of a man with a
+               womanlike face a harm for the mind and an injury in the strife, when once he
+               approached one of the convents, who then should neglect other [dangers]; for this
+               blessed man was not to be persuaded even to enter and prostrate himself there. This
+               wise father deliberated with insight thus: 'if it should come to my memory even only
+               in the night I pass here, that there is here such a thing, this would be a great
+               loss'. And therefore he did not enter the convent. 'I am not afraid, my brethren' [he
+               said]. 'But wherefore useless strife'? This means, that even such recollections
+               hinder the serenity of my service.</p>
+            <p>For all the things which belong to this body and against which a man must guard
+               himself by a great effort, will cause him little strife as long as they are at a
+               distance from him. Thus even when they are near, so long as a man uses the pleasant
+               things [of this world] with fear, he desires their proximity only because of the use
+               which is in them.</p>
+            <p><pb type="external" n="237"/>We see that many roots are buried and hidden under the
+               earth, of which no one has any knowledge as to their existence while it is summer,
+               because of the force of the sun and the strength of heat. But when the raindrops
+               reach them and the influence of the fragrant air, then all of them suddenly begin to
+               show themselves <choice><sic>whereever</sic><corr>wherever</corr></choice> they are buried. Doest thou not <pb n="160"
+               />see, that by the strong heat of asceticism and the rays of the grace of solitude,
+               the affections leave thee in quiet; but if thou approachest the things [of the
+               world], thou shalt see that all of them are quickened and thrust up their heads from
+               their places, that is: if they smell just a little of the odour of comfort.</p>
+            <p>These things I have said in order to show that no one should have confidence before
+               he dies and departs this life and how helpful in our strife flight and withdrawal
+               from the world are. Those things which we are ashamed to recollect secretly, we must
+               also fear to meet. And we may not tread down the heart and despise conscience. For in
+               a lonely place without contact [with the world] we have to examine our body in order
+               to acquire training in endurance.</p>
+            <p>There is also another thing, more important than the rest: namely as often as that
+               which is a cause of strife, is afar from a man, even if he be vexed in mind he will
+               not fear that, vanquished by desire, he might employ it on account of its being
+               near.</p>
+            <p><pb type="external" n="238"/>The disciple. If a man has thrown away all impediments
+               and has entered the arena, what is the beginning of his strife against sin, and where
+               does he start fighting?</p>
+            <p>The teacher. This much is known to every one, that all strife against sin and its
+               desires is to be preceded by the labour of fasting, especially if one is combating
+               inward sin. And the token of hate against sin and its desires, visible in those who
+               are engaged in this invisible strife, is this that they begin with fasting.</p>
+            <p>Afterwards comes standing during the night. He that during his whole life loves the
+               use of fasting, is a friend of chastity. As at the root of all the boons of the world
+               and of all its evils, is sexual pleasure and the relaxation of sleep which incites to
+               impure cohabitation, so the beginning of the holy way of God and of all virtues, is
+               founded upon fasting and strict punctuality in the service of God, with the
+               crucifixion of the body during the whole night in the strife against the pleasure of
+               sleep.</p>
+            <p>Fasting is a strengthening of all the virtues, the beginning of the struggle, the
+               crown of the Naziraeans, the beauty of virginity and sanctity, the preservation of
+               chastity, the beginning of the way of Christianity, the father of prayer, the
+               fountain <pb n="161"/>of placidity, the teacher of quiet, and the forerunner of all
+               good qualities. As the delight of light belongs to sound eyes, <pb type="external"
+                  n="239"/>so the desire of prayer follows fasting with discernment. For as soon as
+               a man begins to fast, his mind forthwith will be desirous of intercourse with God. A
+               fasting body cannot endure lying on its bed during the whole night. For fasting
+               naturally excites vigilance unto God; not only by day, but also during the night. And
+               the empty body of him that fasts does not grow fatigued in the struggle against
+               sleep. And though his senses are weak, his mind is awake unto God in beseechings. It
+               is better to neglect service for weakness caused by fasting, than on account of
+               indolence caused by food.</p>
+            <p>To dwell at length upon the beauties of fasting is not necessary. Many of the
+               teachers and fathers have spoken about the victories of fasting and the many
+               beautiful things originating in it. And all books inform us concerning the importance
+               of fasting and the victories it has given generation after generation, and concerning
+               the mighty help afforded by it, and the high praise deserved by those who fast. And
+               by experience it is known to every one, that it is the fountain of all good
+               [qualities].</p>
+            <p>As long as the seals of fasting are on a man's mouth, his mind meditates on the
+               soul's penitence, his heart sends forth prayers and his face is dark with sadness.
+               Evil impulses are afar from him; neither is gladness seen on his brow at all. For he
+               is an enemy of desires and idle occupations. There has never been seen a man who was
+               fasting with discernment who was subjected to evil desire. For fasting is a
+               storehouse of all virtues. And he that despises it, makes all virtues totter.</p>
+            <p><pb type="external" n="240"/>As the first commandment imposed upon our nature in the
+               beginning was against the tasting of the food, and in this point the head of our race
+               fell, therefore those who strive for the fear of God begin the building there where
+               the first injury originated, when they begin the task of keeping His commandments.
+               And also our Saviour, when He manifested Himself to the world at the <placeName>Jordan</placeName>, began
+               from that point. For when He had been baptised, the spirit led Him into the
+               wilderness, and then He fasted forty days and forty nights. And all those who follow
+               His steps, base the beginning of their struggle upon this action. That weapon was
+               polished by God, who should despise it without being blameworthy? If the lawgiver has
+               fasted, to <pb n="162"/>which guardian of the law is it not necessary to do
+               likewise?</p>
+            <p>Till then the human race had not known victory, and <persName>Satan</persName> had never experienced
+               defeat on the part of our nature; through this weapon, however, he was vanquished for
+               the first time and the first victory was won which set the crown on the head of our
+               nature. — Thus it is that as soon as this weapon appears in the hand of a man,
+               immediately fear falls upon the deliberations of <persName>Satan</persName>, that head of rebellion, and
+               at once his mind is struck by the recollection of that defeat in the desert and that
+               first defeat he had to suffer. His strength will be broken when he sees the weapon
+               which our commander has placed in our hands. As soon as he sees this weapon worn by
+               any man, he knows that this one is prepared for the strife. What weapon is stronger
+               than this and which gives <pb type="external" n="241"/>encouragement to the heart in
+               the struggle with evil spirits as hunger for Christ's sake does? To the degree in
+               which a man's body is fatigued and kept down at the time when the hosts of <persName>Satan</persName>
+               surround him, to the same degree his heart is supported by confidence. And he that is
+               constantly in this state, will at all times be burning with zeal as it were with
+               fire.</p>
+            <p>Constant fasting is a symptom of zeal and fervour in war. Even that zealot <persName>Eliyah</persName>
+               took upon him this tribulation when he fought for the divine law. Forty days he
+               restrained his mouth from food, during the long walk through the desert.</p>
+            <p>Fasting reminds those who practise it of the spiritual commandments; for it was a
+               mediator in the ancient law and by the grace of our Lord <persName>Jesus</persName> we have received it.
+               But what more shall I say concerning its merits which are known to every one? He that
+               despises fasting, will also be weak and without vigour in the other good works,
+               because he lacks the weapon by means of which the godlike athletes have been
+               victorious. And he that from the beginning shows in himself a sign of relaxation,
+               gives his adversary a chance of victory and enters battle in a state of deprivation.
+               And it is certain that he will leave it, without the victory, because he has bereaved
+               himself of the force which divine zeal had stirred in him. Thus he begins strife in a
+               state of cold in stead of in a state of heat. For his limbs are not clad with the
+               flame of hunger, namely of fasting during which the mind endures the strokes of all
+               hard and unexpected events motionless.</p>
+            <p>It is said concerning many of the holy martyrs that, when <pb n="163"/><pb
+                  type="external" n="242"/>they were informed by a spiritual revelation or by one of
+               their friends, regarding the day on which they would receive the crown, they did not
+               taste anything the preceding night, nor did they take any food. But from the eve till
+               morn they would stand in prayer, awake, praising God in songs and glorifications and
+               hymns and spiritual melodies, being joyful and exalting and expecting that moment as
+               people destined to enter a bridal house. They expected, while in a state of fasting,
+               to receive the blow of the sword and to be crowned with the crown of the
+               confessorship.</p>
+            <p>And we too have to keep this state of preparation perpetually, o my brethren,
+               expecting invisible martyrdom and the winning of the crown of holiness, [being on our
+               guard] lest in any of our limbs a sign of unbelief be given to our enemies. Thus our
+               outward senses and our inward impulses being clad with all the weapons of God, we
+               shall receive this crown deserving it and so we shall go in unto His glory with the
+               holy martyrs, striking our enemies with amazement. For without labour nobody wins the
+               crown, as the teacher, the great <persName>Diodorus</persName><ptr type="noteAnchor" target="#n163-1"/> says. For it is well known that it
+               would be most unworthy that merchants may not bring home riches without labour and
+               dangerous storms, and that yet the righteous should expect the remuneration of the
+               crown, without injury and labour for the sake of righteousness.</p>
+            <p><pb type="external" n="243"/>The disciple. Many are those who perform these labours,
+               yet do not perceive rest as to the affections, nor peace as to the deliberations.</p>
+            <p>The teacher. The affections hidden in the soul, o my brother, cannot be
+               <choice><sic>apeased</sic><corr>appeased</corr></choice> by the works of solitaries which are performed with the body
+               alone, nor do these hinder the deliberations from being constantly stirred by the
+               senses. These labours guard man against being vanquished by desires and against harm
+               caused by the demons. But they do not give peace and rest unto the soul too. Labours
+               cause apathy and mortify our limbs on the earth and give rest on the part of
+               deliberations, only if they are combined with solitude, when also the outward senses
+               rest from <choice><sic>turbulance</sic><corr>turbulence</corr></choice> and have become addicted during some time, to the
+               service of wisdom. Until a man refrains from meeting his fellow-man and until he
+               checks <pb n="164"/>his limbs from mingling with many things, and concentrates his
+               self, — he will not be acquainted with his affections. For solitude, the blessed
+               <persName>Basilius</persName>, the shining torch of the whole world, says — is the beginning of the
+               purification of the soul. For when the outward senses have rest from outward
+               turbulence, then the mind will return from distraction unto its place and the heart
+               will be stirred to examine the inner impulses of the soul; and if it perseveres well
+               it will reach in its course even the purification of the soul.</p>
+            <p>The disciple. Is it not possible for the soul, if it be strong, to be purified while
+               having connections with the outward world?</p>
+            <p>The teacher. If a tree is watered every day, when will <pb type="external" n="244"
+               />its roots become dried up? A vessel whose contents increase daily, when will it be
+               empty? If purity be nothing else than to forget the dealings belonging to non-freedom
+               and to have peace from their recollection, and if a man, either personally and
+               practically, or through others, renews in his soul by the medium of the senses this
+               recollection, viz. the knowledge of evil things, when shall he be purified from them?
+               Or when shall he be liberated from the strife with outward things, so that it will be
+               possible to see inward things and gain peace? When the heart is defiled every day,
+               when can it be purified from filth?</p>
+            <p>Perhaps it cannot even dominate practice, not to speak of purifying the root. For it
+               stands in the centre of the camp and every day its ears are struck by the rumour of
+               battles, how then can it venture to proclaim peace to itself? But if it be far from
+               these, then it will be able to grant peace to the inward things gradually. Before the
+               stream from above has been shut off, the nether waters will not dry up.</p>
+            <p>But when a man has found solitude, the soul is able to expel the affections and to
+               test its own wisdom. Then the inward man will be stirred unto spiritual service and
+               day by day he will perceive the hidden wisdom moving in his soul.</p>
+            <p>The disciple. What are the true marks and the undubitable signs that from a man's
+               labour the hidden fruits are beginning to show themselves in the soul?</p>
+            <p>The teacher. When he is deemed worthy of the gift of <pb type="external" n="245"
+               />tears, flowing abundantly and without compulsion. Tears are to the mind the sure
+               distinction between the bodily and the spiritual state, between the state of
+               apperception and that of purity. As long as one has not yet received this gift, the
+                  <pb n="165"/>labour of his service is still in the outward man, and this to such
+               an extent that he does not even perceive anything of the hidden service of the
+               spiritual man. When he begins to leave the bodiliness of this world and moves in that
+               territory which lies beyond this visible nature, then at once he will reach the grace
+               of tears. And from the first apartment of that hidden behaviour these tears will
+               begin and they will conduct him to the complete love of God. When he has reached this
+               point, tears will be so copious that he drinks them with his food and his drink, so
+               constant and abundant are they. This is a true token of the mind's leaving this world
+               and its apperceiving the spiritual world. And the more the mind approaches unto this
+               world, the more these tears will diminish. And when the mind is wholly in the worldly
+               things, it will also be completely without tears, and this is the sign of its being
+               enveloped by the affections.</p>
+            <p>Some tears cause a burning heat, others render fat. All tears which flow for grief
+               and distress of heart caused by sins, make the body lean and burning with heat. And
+               often when these tears are shed, one will even feel that his marrow is injured. Man
+               will necessarily enter this order of tears first. <pb type="external" n="246"/>Then
+               by them the gate leading to the second order will be opened for him, an order which
+               is by far superior, because it contains the sign of the receiving of mercy. What is
+               this? Those tears which have their origin in insight, make the body fat; they flow
+               spontaneously and compulsion has no share in them. They also anoint the body and the
+               aspect of the face is changed. For a joyful heart renders the body beautiful. These
+               tears moisten the whole face when the mind lives in solitude. The body acquires by
+               them as it were some sustenance and joy is diffused over the face. Whosoever has
+               experienced these two varying states, will understand.</p>
+            <p>The disciple. What is the resurrection of the soul, namely if ye be risen with
+               Christ?<ptr type="noteAnchor" target="#n165-1"/></p>
+            <p>The teacher. This is what is said by the apostle in another place: For God who
+               commanded the light to shine out of darkness, hath shined in our hearts<ptr type="noteAnchor" target="#n165-2"/>.
+               Resurrection he calls leaving the old state, which in the likeness of Hell hindered
+               him from seeing the light of the Gospel rise, so to say, which <pb n="166"/>is the
+               breath of life in the hope of the resurrection by which the dawn of divine wisdom
+               rises in the heart, so that he now is a new man in whom is nothing of this world. As
+               it has been said: A new heart also will I give you; and a new spirit will I put
+               within you<ptr type="noteAnchor" target="#n166-1"/>. Then in truth Christ is imprinted on them, by the spirit of
+               wisdom and revelation, in knowledge concerning Him.</p>
+            <p>The disciple. What is, in short terms, the power of the practice of solitude?</p>
+            <p><pb type="external" n="247"/>The teacher. It mortifies the outward senses and
+               quickens the inward impulses. Intercourse, however, works in the inverse way.</p>
+            <p>The disciple. What is the cause of the visions and revelations granted unto some? To
+               others however, who have laboured more than the former, such things are not
+               granted.</p>
+            <p>The teacher. The causes of revelations and visions are many, not one. The first cause
+               of revelations and visions is God's will to give a token of His mercy; in this case
+               God provided men with them in order to help them. Some take place on account of
+               divine providence. These are the common cases. The rest take place in order to
+               strengthen and to encourage the weak, and to console and instruct them.</p>
+            <p>[An instance of those revelations which take place by] providence are the angels
+               which were seen at the side of the grave, and those which at the Assumption appeared
+               unto the Apostles who were both distressed and stupefied and in confusion on account
+               of the Lord's departure from them. And at once two angels appeared who stood by them
+               in white apparel, and those which appeared in the prison and in any place where [the
+               apostles] fell into the hands of men. Unto single persons and unto the other saints
+               after them they appeared, and even to this day. For these three classes of men such
+               visitations are usually provided: for those who are simple and irreproachable above
+               measure; or for holy and perfect persons; or for those who on account of fervent zeal
+               have fled from <pb type="external" n="248"/>the world; abandoning it entirely in
+               despair and retiring from any part inhabited by men, following God, naked, without
+               hope or help from anything visible, assailed by the fear of desolation or surrounded
+               by the peril of death from hunger or illness or <pb n="167"/>any evil whatever and
+               near to dejection. That such consolations happen to some people, whereas others who
+               are their superiors in works remain without anything of that kind, is in the first
+               place founded on purity or non-purity of the heart, I mean. A second cause is
+               certainly this, that as long as a man receives consolation from his fellow-man or
+               from any of these visible things, such [heavenly] consolations do not happen to him,
+               safe only by providential decree and this bears a common character.</p>
+            <p>But our discourse is for solitaries. A witness to this is one of the saints who has
+               announced that there came a voice unto him saying: Enough of consolation from and
+               intercourse with men! Another witness<ptr type="noteAnchor" target="#n167-1"/> to this is he who led a solitary life
+               in reclusion, and often tasted from consolations granted by grace, and divine care
+               often became visible to him in manifest apperception; but when he came near the
+               inhabited world and sought these things as usual, he did not find them. He besought
+               God that the truth concerning this matter might become <pb type="external" n="249"
+               />known to him, saying: Perhaps, my Lord, grace has been withdrawn from me on account
+               of my episcopal rank? It was said to him: No. But then, there was the desert, there
+               were no men, but God provided for thee. Now, there is the inhabited world and men
+               provide for thee. — So we say that it is impossible for a man to share in visible as
+               well as in spiritual consolation.</p>
+            <p>The disciple. Are vision and revelation one, or are they different in fact as they
+               are different in names?</p>
+            <p>The teacher. There is a difference between vision and revelation. The name of
+               revelation covers the two, because it denotes the revealing of a thing that hitherto
+               was hidden and now becomes manifest in any way. But not all that is revelation is at
+               the same time vision. But what is vision is also called revelation, because it is a
+               hidden thing which is revealed. But not all that comes to be revealed and known, is
+               vision.</p>
+            <p>Revelation is usually connected with what is intelligible and tasted with the
+               intellect. Vision, however, always happens in similitudes; as those things which were
+               ministered unto the ancients, be it in the depth of sleep, or in the state of waking;
+               sometimes clearly, at other times dimly, while he to whom the <pb n="168"/>vision was
+               given often did not know whether he saw awake or in sleep. Even after he had regained
+               consciousness, he did not know whether the thing had in reality happened to him, or
+               as in a dream. Sometimes a voice of help was heard; <pb type="external" n="250"
+               />sometimes a symbolical representation was seen; sometimes there was a clear
+               apparition, face to face, and sight and speech, questions and intercourse; and those
+               holy hosts appeared to those who were worthy. It is clear that in the desert and the
+               wilderness and in lonely places and in places of retreat from the world, such things
+               happen; where man decidedly needs them, because he has no help from any side.</p>
+            <p>Revelation of those things which are apperceived intellectually, is received through
+               purity. And the latter only belongs to the initiated and perfect.</p>
+            <p>The disciple. When any one has reached purity of heart, what is the token thereof?
+               And when shall he know himself whether his heart has come to purity?</p>
+            <p>The teacher. When he sees all men in a good light, without any one appearing to him
+               unclean or defiled. Such a man has really reached purity. If this were not true, how
+               could it be possible to fulfill the word of the Apostle: When a man possesses all
+               excellence, he reckons every one superior to himself in heart and truth<ptr type="noteAnchor" target="#n168-1"/>.</p>
+            <p>But when he has reached the point mentioned, he whose eyes are pure, does not see
+               evil.</p>
+            <p>The disciple. What is purity and where is its limit?</p>
+            <p>The teacher. I think that purity is oblivion of those kinds of knowledge which do not
+               belong to nature, those namely which nature has found in the world. Its limit
+               consists therein that we are freed from that knowledge to such a degree that we reach
+               the original simplicity and integrity of nature in the <pb type="external" n="251"
+               />way of a child, apart from small exceptions only.</p>
+            <p>The disciple. It is possible for a man to reach this order?</p>
+            <p>The teacher. Ay. One of the Fathers was come so far, that he repeatedly asked his
+               pupil whether he had eaten bread or not. And one of the saints who was then an old
+               ascetic, had become so pure and simple and had reached such a perfection and
+               serenity, that he was nearly as a babe, having forgotten all <choice><sic>wordly</sic><corr>worldly</corr></choice>
+               things. And perhaps many will not <pb n="169"/>believe us what we say (for it is a
+               real wonder) that even at the oblation of the Eucharist he could not observe [the
+               fast] so as to receive the Eucharist; he did not even know whether he had observed
+               [the fast] or not, till his disciples kept watch on him in his cell and brought him
+               to the sanctuary, as a little boy. So very serene and pure was this blessed man. And
+               being thus in worldly things, in his soul he was perfect with God.</p>
+            <p>The disciple. Which meditation and occupation should a man have in his reclusion and
+               solitude, lest his intellect should be found to be occupied with accidental
+               deliberations?</p>
+            <p>The teacher. Thou askest what shall be the meditation of him that is dead to the
+               world in his cell. Should a man who is zealous and whose soul is awake, need to ask
+               what his work should be in his solitude? What is the meditation of the solitary in
+               his cell but weeping? Should he be able to turn his gaze from weeping towards a
+               different deliberation? Which <pb type="external" n="252"/>meditation would be more
+               profitable? For his dwellingplace, lonely like the grave and deprived of all worldly
+               pleasures, teaches him that his service consists in weeping. And even his name turns
+               him into this direction; for he is called <persName>abila</persName>, which means: bitter in heart. All
+               the righteous have departed this world with weeping. If the saints would weep and
+               their mouths at all times were filled with their tears and they thus departed this
+               world, who should not weep then? The consolation of the recluse is born from weeping.
+               If those who were victorious have shed tears in this world, how then should he that
+               is covered with wounds dare to abstain from weeping? If before the housefather his
+               beloved is laid dead, should he need instruction concerning the thought which should
+               move him to tears? Thy soul which is dead in sins is laid before thee, thy soul which
+               is of greater value to thee than the whole world. If we come to solitude, we can also
+               get accustomed to weeping. Therefore we should steadily beseech our Lord to give us
+               this. If we receive this gift, excellent above any other, through weeping we shall
+               reach purity. And when we have reached it, it will not be taken from us again, to the
+               day on which we shall depart the world.</p>
+            <p>Blessed therefore are the pure in heart who at all times enjoy this delight of tears
+               and through it constantly see our Lord. While tears are in their eyes, they are
+               deemed worthy <pb type="external" n="253"/>of seeing His revelation at the height of
+               prayer; for they even <pb n="170"/>know of no prayer without tears. And this is what
+               has been said by our Lord: Blessed are they that mourn: for they shall be
+               comforted<ptr type="noteAnchor" target="#n170-1"/>. For by mournfulness a man reaches purity of soul. When therefore
+               our Saviour says: Blessed are they that mourn: for they shall be comforted, He does
+               not explain what comfort is. When the solitary is deemed worthy on account of his
+               mournfulness to pass beyond this place of affections and to reach the plain of purity
+               of soul, where he will find a consolation that will not leave those who have found it
+               — then it is clear that the consolation which at the completion of mournfulness is
+               received through purity, is promised by our Lord to the mournful. For if any one
+               weeps constantly, the affections will not approach his heart; for weeping lies beyond
+               affectibility. If tears are able to efface from the mind of him that mourns and weeps
+               for but a short time, the recollection of the affections, what shall we say about him
+               who has imposed upon himself a definite service during day and night? Who knows the
+               profits of weeping, save those who have given themselves to it? All the saints desire
+               this [means of] introduction; and by weeping, a gate is opened before them through
+               which they enter that place of consolation, in which the footsteps of God's love are
+               impressed by revelations.</p>
+            <p>The disciple. But because man is not able to adhere to this practice, on account of
+               the body's weak nature, it is necessary for him to have some other thing serving
+                  to<pb type="external" n="254"/>captivate his mind, lest the affections should
+               assail him through the idleness of the intellect.</p>
+            <p>The teacher. The affections are not able to assail the soul and to trouble the
+               solitary whose heart is cut off from the world by dwelling lonely in the complete
+               solitude of the desert, separated from all the sounds and voices of the commotion of
+               mankind — unless he neglect his duties, especially that of being occupied with the
+               scriptures and the profitable deliberations with which he is occupied, by the
+               excellent understanding of which paltry thoughts are driven away from him and his
+               mind is not able to free itself from them, but [in this state] he gazes upon the
+               whole world, because of the great delight of that occupation by which the intellect
+               is completely satisfied in that extreme loneliness of the desert. So he looses <pb
+                  n="171"/>consciousness of himself and forgets his nature and he becomes as one who
+               is mad without any recollection of the world; especially when he thinks of God's
+               greatness, the glory of His nature and His wondrous works and when he recollects how
+               high his own despicable being has been elevated. To think about Him and to dare
+               foster such thoughts for the sake of delight and to get drunk at all times by
+               ecstatic impulses as in the life after resurrection, are things greatly promoted by
+               solitude, because the intellect has the opportunity of being with itself, in the
+               peace that has its origin in solitude. At the same time it will adapt its
+               recollections to the aim of its course, and it will direct itself towards the glory
+               of the world to be, the hope preserved for the righteous, life in spiritual emotion
+                  <pb type="external" n="255"/>wholly originating in God. This is the new way of
+               life, without recollection and without emotion concerning anything in this world. And
+               when he is satisfied with these things his contemplation turns from them towards the
+               things of this world in which he is still abiding, saying with amazement: O the depth
+               of the riches both of the wisdom and knowledge and unsearchable mind of God! How
+               unsearchable are His judgments and His ways past finding out<ptr type="noteAnchor" target="#n171-1"/>. Since He has
+               prepared a different world which is so amazing, into which He shall introduce all
+               rational beings and keep them without variance in life without end. What then is the
+               reason why He has made this world first, which He has made large and has provided
+               with a great many species, and has made a place of a multitude of affections? And He
+               has set us first in this world and implanted in our nature a strong love of its own
+               life; then He expels us from it, gradually, by death and prescribes to us a long
+               interval in a state without sensual apperception, like stones and wood, a state
+               during which He destroys our image and pours out our mettle and mixes it up with the
+               earth. And He permits our building to be demolished and ruined, till it has lost all
+               likeness with [its previous] composition. Then, at the time appointed by His wisdom,
+               working according to His free will, He resurrects us in a different likeness which He
+               knows and introduces us into that new order; and not only us, but also the holy
+               angels, who do not need the use of this world <pb type="external" n="256"/>on account
+               of their amazing nature. For all of them are nearly <pb n="172"/>perfect, awaiting
+               the resurrection and the elevation of our fallen state, when the human race shall
+               rise from the dust, and its fallen state be quickened unto new life. For on account
+               of us they are hindered from entering, till once the gate of that new world will be
+               opened, which they expect. For even the class of the angels sighs with us in that it
+               sees us loaded with the weight of the body while it hopes and expects the revelation
+               of the children of God, so that it itself may be freed from slavery that perishes, in
+               the freedom of the glory of the children of God<ptr type="noteAnchor" target="#n172-1"/>.</p>
+            <p>First he will free this whole [world] from its state so that it is reduced to
+               nothing, analogous to the first state of the body. Then he will elevate himself
+               intellectually beyond the beginnings of the creation of the world, when there was no
+               creation nor anything, no heaven, no earth, no angels, nor any of the created things.
+               Then of a sudden he will bring all things into existence, his will being sufficient
+               to effect that all is before him in a state of perfection. Then he will descend in
+               his mind and visit all God's creatures. And in his high and wondrous works the wisdom
+               of his creating power will show itself. His power subdues all minds, the amazing and
+               powerful strength of his creating force brings into existence out of nothing a
+               creation with innumerable different kinds.</p>
+            <p>Then he will think of how He again will destroy this, so that perishes the wondrous
+               order, the ornament of kinds, the <pb type="external" n="257"/>prescribed course of
+               the creatures, the times and occasions, the harmony of night and day, the useful
+               seasons of the year, the embellished earth, the different kinds sprouting from it;
+               the fine buildings of the cities and the beautiful palaces in them; the continual
+               course of mankind, nature submitted and tormented from man's entering it until he
+               leaves it.</p>
+            <p>And how suddenly this wonderful order will be destroyed and how a new world will
+               begin in which no recollection whatever of the first creation will occur to any man's
+               mind, in which there will be a different mode of life, different deliberations and
+               different thoughts. Then human nature will no longer recollect this world nor the
+               former way of life in it. For the gaze of their mind will be captivated by the sight
+               of that [new] order, and it will not be able to turn in its memory <pb n="173"
+               />towards the races of flesh and blood; for as soon as this world is destroyed, the
+               new one will begin<ptr type="noteAnchor" target="#n173-1"/>.</p>
+            <p>O mother that suddenly has been forgotten by the sons which she has borne and
+               educated and instructed — and in the twinkling of an eye they are gathered unto
+               another bosom, and have become real sons of the barren one that which has never
+               borne. Rejoice, o barren, thou that didst not bear, at the sons which the earth has
+               borne to thee. And the mind thinks in amazement, of how a new world will take the
+               place of this, and of when its beginning will be; and of how long these bodies will
+               lie in that state, body and dust mingled together; and what like that mode of life
+               will be; and in what likeness this nature will rise and in what way it will come to
+               the second creation.</p>
+            <p>By such thoughts rest will spread over the mind. And the <pb type="external" n="258"
+               />apperception of its bodily state will vanish; and it will remain a long time in
+               silence, wondering at the incomprehensible deeds of God. At that moment the solitary
+               will kneel down and render thanks with many tears to God who is wise in His works,
+               and whose deeds are incomprehensible, as are also the secrets of His exalted mind,
+               concerning what He has done and what He will do. What heart of stone would not become
+               unconscious under such impulses, struck with silence and stupor, and turned away from
+               the emotions of senses and impulses? Blessed is he who has been deemed worthy of
+               these things. Blessed is he who has thought of this, day and night. Blessed is he who
+               has been occupied with these things during his whole life. To every man this thought
+               is useful, but especially to him that lives in solitude. And it is becoming that
+               these recollections should always be with him. These indications a man should take to
+               mind and, having finished prayer, he should think of them and meditate upon them.</p>
+            <p>When he is occupied with these thoughts, there will be no room for foreign
+               recollections in his spirit, which could hinder him from the constant recollection of
+               God. And if at first he does not perceive the profitable influence of these things,
+               on account of his being distracted, he should not be dejected. When the husbandman
+               casts seed on the earth, it is not <pb n="174"/>possible that he should see the oars
+               at the same time. Dejection and despondency are connected with sowing. It is sweet to
+               the peasant to eat of his bread; but his sweat is still <choice><sic>sweater</sic><corr>sweeter</corr></choice>.</p>
+            <p><pb type="external" n="259"/>This thought, in solitude, will pour endless delight
+               into the heart and will quickly draw the mind towards unspeakable ecstasy. Blessed is
+               he to whom this fountain has been opened and who drinks from it at all hours of the
+               day and the night.</p>
+            <p>The disciple. What is the acme of all the labours of asceticism, which a man, when he
+               has reached it, recognises as the summit of his course?</p>
+            <p>The teacher. When he is deemed worthy of constant prayer. When he has reached this,
+               he has touched the end of all virtues and forthwith he has a spiritual
+               dwelling-place. If a man has not received in truth the gift of the Comforter, it is
+               not possible for him to accomplish constant prayer in quiet. When the spirit takes
+               its dwelling-place in a man he does not cease to pray, because the spirit will
+               constantly pray in him<ptr type="noteAnchor" target="#n174-1"/>. Then, neither when he sleeps, nor when he is awake,
+               will prayer be cut off from his soul; but when he eats and when he drinks, when he
+               lies down or when he does any work, even when he is immersed in sleep, the perfumes
+               of prayer will breathe in his soul spontaneously. And henceforth he will not possess
+               prayer at limited times, but always; and when he has outward rest, even then prayer
+               is ministered unto him secretly. For the silence of the serene is prayer, says a man
+               clad with Christ. For their deliberations are divine impulses. The motions of the
+               pure mind are quiet voices with which they secretly chant psalms to the Invisible
+               One.</p>
+            <p><pb type="external" n="260"/>The disciple. What is spiritual prayer, and how are we
+               made worthy of it?</p>
+            <p>The teacher. It is the psychic impulses which partake of the influence of the Holy
+               Spirit, on account of veracious purity. One man in ten thousand is found worthy of
+               this. It is a symbol of the future way of existence, for nature is elevated and
+               exempt from all the impulses from the recollection of things in this world. It does
+               not pray, but the soul perceives the spiritual things of the world beyond (which is
+               something greater than the mind of man); the understanding of these is kindled by
+               spiritual force. — It is inner sight, and <pb n="175"/>not the impulse and the
+               beseeching of prayer. It has its starting point in prayer. Because such men have
+               reached the summit of purity and because at all times their inner emotions are
+               stirring in prayer — as I have said before — the Spirit, whenever it looks at them,
+               will find them in prayer; and from there it will conduct them by contemplation, which
+               is interpreted spiritual sight. They do not want prolonged prayer nor the defined
+               order of frequent service.</p>
+            <p>For the recollection of God alone will be sufficient for them, and at once they will
+               be governed by love, as if captives. But because of this state they are not
+               absolutely negligent, but attribute honour to prayer by standing on their feet at
+               fixed times; but they do not practise continual prayer.</p>
+            <p>For we see that the holy <persName>Antonius</persName>, when standing on his feet <pb type="external"
+                  n="261"/>in the prayer of the ninth hour, perceived that his mind was taken up.
+               And another saint found himself in ecstasy for four days, while he stood in prayer
+               with outspread hands. And, on examination, it will be seen in the stories of many
+               others that they were found in the well known attitude of prayer, when granted this
+               gift. A man is deemed worthy of this, when he puts off outward and inward sin, by
+               observing the commandments of our Lord, which are anterior to this state. If one will
+               practise these in his own degree, it is inevitably necessary for him to forsake all
+               human things. This means: he shall put off the body and be outside it, so to speak;
+               not its nature, but the use of it. There is nobody who has practised these things in
+               the sense of the lawgiver, and with whom sin has persevered to dwell.</p>
+            <p>Therefore our Lord has promised in the Gospel, that He shall make His dwelling-place
+               the man who observes these things.</p>
+            <p>The disciple. And what is the perfection of all spiritual fruits?</p>
+            <p>The teacher. This is when man is deemed worthy of the complete love of God.</p>
+            <p>The disciple. And how can he that has reached this point, acquire certainty?</p>
+            <p>The teacher. Every time when the thought of God is stirred in his spirit, the heart
+               will become hot with love at once, the eyes will shed multitudinous tears; for love
+               is accustomed to shed tears at the recollection of the beloved. He <pb n="176"/>that
+               is in this state will never be found destitute of tears, <pb type="external" n="262"
+               />because he is never without abundant recollection of God, so that even during sleep
+               he speaks with Him. Love is accustomed to practise these things and this is the
+               accomplishment of man in this life.</p>
+            <p>The disciple. He that after many labours and fatigues and victories fought and won,
+               is assailed by the thought of haughtiness that is based upon the beauty of his
+               excellence, when he recalls the many labours he has borne — how can he restrain his
+               thoughts and regain watchfulness so as not to give way?</p>
+            <p>The teacher. When he knows that he falls from God as a withered leaf falls from the
+               tree, then he will also know his own strength and recognise whether he has acquired
+               these virtues by his strength and whether he could have withstood all the struggles
+               face-to-face if God had withdrawn from him His help and had left him alone in his
+               strife with <persName>Satan</persName> without being accompanied by that force that usually accompanies
+               the victorious combatants in their struggles. For here their strength, or better
+               their weakness, comes to light. So that it is God's care for man which at all times
+               guards and strengthens him and through which he overcomes all classes of men, be it
+               in the struggle of chastity, or in the sufferings of martyrdom or in the other
+               hardships while he suffers for the sake of divine things.</p>
+            <p>This is well known and no doubt concerning it is possible. For how else could nature
+               vanquish this mighty force of never resting allurements which have their seat in
+               man's members <pb type="external" n="263"/>and torment him and yet he does withstand
+               them? How is it that others which love and long after the same purity, are not able
+               to reach it, though they strive after it, nay daily they are cast back, tormented and
+               sad and weeping over themselves, whereas thou bearest easily the difficulties of
+               nature, which are so hard, and yet thou art not oppressed by them? Or how were it
+               possible that another should endure in his sensitive flesh the cutting iron and the
+               combs in all his members without being vanquished by suffering under all kinds of
+               tortures, whereas else he could not endure a little thorn inserted under his nail?
+               But these totally diverse tortures he bears without suffering in the natural way. How
+               should this be possible unless some force, apart from that of nature, were sent to
+               him and <pb n="177"/>from another direction and unless this force restrained and
+               mitigated the force of the tortures?</p>
+            <p>There is nothing that withholds us from mentioning here a story that is really
+               amazing to one who hears it. Because we have pointed to God's care for man which
+               makes him victorious in all battles for the sake of excellence, it would not be
+               becoming to omit this story. Socrates, in his work on the history of the church, when
+               mentioning the Roman emperors, relates in a succinct way the evil which the members
+               of the church had to suffer under <persName>Julianus</persName>; then passing on to <pb type="external"
+                  n="264"/>particulars he tells a story of that which happened in the city of
+               <placeName>Antioch</placeName>.</p>
+            <p>A certain adolescent, <persName>Theodore</persName> by name, was brought by the heathens before
+               <persName>Sallustius</persName>, to whom the jurisdiction in these matters had been entrusted. He gave him
+               up to suffering and torture, commanding that his whole body should be combed. Then he
+               set him free from torture, thinking that he was dead. But God was the saviour of that
+               blessed man, who lived for a long time after his testimony. For <persName>Rufinus</persName>, who has
+               written about ecclesiastical things in Greek, says that a long time after he had
+               conversation with this blessed <persName>Theodore</persName>. He asked him whether he had felt the pain
+               keenly when being tortured. The latter answered that he had been conscious of pain to
+               a very trifling extent only. For a young man had been standing near him, wiping off
+               the sweat of the struggle and strengthening his soul and making the time of the
+               struggle of the tortures a delight to him. O, for God's compassion, how near is His
+               bounty to those who begin the warfare for His sake in order to bear sufferings for
+               Him gladly. Do not injure God's bounty to thee, o man.</p>
+            <p>If it is manifest, that thou art not the victor but that thou art as an instrument
+               and that the Lord wins the victory for thee whereas thou obtainest the name of victor
+               as a present, what then hinders thee from beseeching at all times the same power,
+               that thou mayest always obtain the same victory as a <pb type="external" n="265"
+               />witness? Hast thou not heard, o man, from of old and from the beginnings of time,
+               how many champions have fallen from the height of their victories because they have
+               injured grace?</p>
+            <p>On the same subject. The gifts of God unto the human race being many and various,
+               there is also a difference in their smallness or greatness in relation to those who
+               receive them.</p>
+            <pb n="178"/>
+            <p>Though all of them are wonderful and glorious, one is more than the other in glory
+               and honour. One degree is higher than the previous one, according to the word of
+               scripture.</p>
+            <p>And further, that a man be elected to practise good works and a steady behaviour,
+               this is one of the principal gifts of Christ. But many forget this grace, namely
+               those whom God has distinguished above others so that they belong to the receivers of
+               His gifts, even to the degree that they are elected to the service of the Lord; then,
+               in contrast to the gratitude which was always on their lips, they turn aside to
+               presumption and become haughty in mind. And though they have been made worthy to
+               serve God with pure behaviour and spiritual labours, yet they do not deem themselves
+               receivers of grace but as those who deserve this through God, forgetting that they
+               have been elected from the rest of mankind unto familiarity with Him and knowledge of
+               His mysteries. Nor do they tremble in their whole soul when they think of how their
+               comrades, who fostered the same thoughts, were suddenly <pb type="external" n="266"
+               />deprived of that strength with which they had been entrusted, and of how in the
+               twinkling of an eye they lost the great honour they had possessed and declined
+               quickly unto lasciviousness and turned towards the base behaviour of the irrational
+               animals. And because they know not the strength of their soul, nor perpetually
+               recollect Him that made them worthy of the great boon of serving Him and of abiding
+               in the honour of His kingdom and that made them comrades of the spiritual beings and
+               brought them near unto the behaviour of the angels, He rejects them from their
+               service. Thus He shows to them by the sudden variations of their behaviour, that it
+               was not by their own [strength] that they adhered to a steady behaviour under all the
+               assaults of nature and the demons and the other impediments, but that this strength
+               was a gift from Him.</p>
+            <p>What other men cannot even endure to listen to, on account of its difficulty, this
+               they have endured a long time without being vanquished, because the strength that
+               accompanied them was able to help them under all circumstances and to guard them at
+               all times. Accordingly, since they have forgotten this, the word has been fulfilled
+               in them. Namely as they have not willed concerning themselves that they should know
+               God, viz. their Lord who has made the service of the spiritual beings descend to
+               earth, God has delivered them up to vain <pb n="179"/>knowledge and so they have
+               received in person the retribution which their forgetfulness had deserved.</p>
+            <p>The disciple. Is it possible that a man should so to speak daringly leave the
+               dwellingplaces of men suddenly and <pb type="external" n="267"/>go naked into the
+               uninhabited desert and the terrible wilderness in beautiful zeal and that he should
+               die there from hunger or from the absence of shelter or the like?</p>
+            <p>The teacher. He that has prepared a dwellingplace for the beasts before He created
+               them and who provides their wants, will not neglect those who fear them, especially
+               when they follow Him simply, without forethought. He whose will accords with God in
+               all things will never, for fear of bodily evils and dangers, consent to adhere to a
+               filthy behaviour and to endure a life of humiliation because he fears troubles. But
+               he will count it an exquisite and delicious thing to become estranged to the whole
+               world in purity of behaviour, and to lead a life of deprivation among hills and
+               mountains and to wander in the haunts of beasts and not to lead a life of filth, in
+               bodily comfort, delivering up his soul so that it be for ever destitute of a pious
+               and pure behaviour unto God, to whom belongeth the glory and the honour and who
+               preserves us in His goodness and sanctifies us by His spirit to the honour of His
+               name, that we may praise Him worthily all the days of our life, Amen.</p>
+            <p>For one of the saints says<ptr type="noteAnchor" target="#n179-1"/>: The body becomes a comrade of sin; for it is
+               afraid of troubles, thinking it may receive an injury and have to give up its life.
+               For the spirit of God oppresses the body so that it dies; it is well known that it
+               cannot vanquish sin unless it die. Who desires that our Lord should dwell in him,
+               will oppress his body and minister unto his Lord those spiritual fruits which the
+               apostle describes; and he will guard his soul against the works of the flesh which
+                  <pb type="external" n="268"/><persName>Paul</persName> describes. For the body that is mingled with sin
+               takes pleasure in the works of the flesh. And the spirit of God takes pleasure in its
+               own fruits. When the body is weak by fasting and mortification, the soul is
+               spiritually strong through prayer. When the body is vehemently oppressed by solitude
+               and penury and its life is near its term, it will beseech thee: Leave me a while to
+               behave with moderation. Now I give directions because</p>
+            <pb n="180"/>
+            <p>I know by experience that evils are of this nature. And when thou releasest the body
+               somewhat from oppression, giving it some comfort by sparing it so that it can take
+               breath again, then it will whisper to thee quietly again and again: Let us leave even
+               the wilderness. For its allurements are very strong; [it says]: from now onward we
+               shall be able to behave well, even in the neighbourhood of the inhabited world. For
+               we have been put to the test in many things and we shall be able to continue this
+               [behaviour] even there. Put me to the test and if I do not comply with thy will, we
+               can begin anew for the desert lies before us. — But do not believe [the body] even if
+               it beseeches and promises greatly, for it will not keep its promises. When thou hast
+               granted it some of its wishes, it will drive thee on towards greater concessions from
+               which thou canst not retract thy steps. When thou art dejected on account of thy
+               being filled with troubles, say to thyself: Doest thou desire this filth and this
+               sordid life? And if the body says to thee: It is a great sin that thou killest
+               thyself, — say to it: I kill myself because I cannot live purely. I will die now and
+               not further see my soul's essential die away from God. It is <pb type="external"
+                  n="269"/>better for me to die now for the sake of purity than to live a shameful
+               life in the world<ptr type="noteAnchor" target="#n180-1"/>. This death I willingly choose on account of my sins. I
+               kill myself because I have sinned before God and will not further rouse His anger.
+               What to me is life afar from God? I will bear these evils and through them I will not
+               be a stranger to heavenly hope. Why have I been created in the world, if I simply
+               enter and leave it? And what should God profit by my life in the world, if I lived
+               badly in it? On the contrary, I would but rouse His anger.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n156-1">Cf. Ps. 90,10</note>
+            <note xml:id="n156-2">Cf. Ps. 84,11</note>
+            <note xml:id="n157-1">Matthew 16,24</note>
+            <note xml:id="n157-2">Matthew 10,39</note>
+            <note xml:id="n163-1"> One of the London Mss. has: Basil</note>
+            <note xml:id="n165-1">Coloss. 3,1</note>
+            <note xml:id="n165-2">2 Cor. 4,6</note>
+            <note xml:id="n166-1">Ez. 36,26</note>
+            <note xml:id="n167-1">See Introduction</note>
+            <note xml:id="n168-1">Cf. Philippians 2,3</note>
+            <note xml:id="n170-1">Matthew 5,4</note>
+            <note xml:id="n171-1">Romans 11,33</note>
+            <note xml:id="n172-1">Cf. Rom. 8,21. On the following passage cf. the
+               Introduction.</note>
+            <note xml:id="n173-1">The two sentences which follow could be an interpolation; the
+               sentence "And the mind thinks" etc. is the direct continuation of the present
+               one.</note>
+            <note xml:id="n174-1">This is apparently the meaning of the sentence, which in the
+               original is not quite clear.</note>
+            <note xml:id="n179-1">Introduction p. 32</note>
+            <note xml:id="n180-1">See p. 31, 97</note>
+
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8774">Nisibis 41</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,144 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XLI">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XLI"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XLI
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head><placeName>Nisibis</placeName> 41</head>
+         <div type="section" n="1">
+            <ab>The Evil One said, “I fear Him, even <persName>Jesus</persName>, lest He destroy my arts. For lo! I am
+               thousands of years old, and never have I had repose. I have seen nothing established,
+               that I have turned from and left. There has come One making the unchaste pure: there
+               is sorrow since He has destroyed all that I had built. Many have been my labours and
+               my teachings, that I might cover all creation with all evils. </ab>
+         </div>
+         <div type="resopnse">
+            <ab>Response: Blessed is He Who came and laid bare the wiles of the Crafty One!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>I matched my speed with the swift, and I outstripped them: I waged war; the tumult
+               of multitudes was armour to me. In the tumult of the people I rejoiced, because it
+               gave me ready room, for grievous is the onslaught of multitudes. By the strength of
+               multitudes I raised a great mountain, a tower I stretched unto heaven. If they waged
+               war with the Height, how much more shall they conquer Him whose warfare is on
+               earth?</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>As time serves and as help offers, I wage war, but cautiously. The people used to
+               hear that God is one; they made for themselves a multitude of gods. And when they saw
+               the Son of God, they made haste to the One God, that as though confessing God they
+               might deny Him, and as though in zeal might flee from Him; so that they in all times
+               perverse shall be found to be without God.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Lo! I am ancient of many years, and no infant have I ever rejected. The burden of
+               children have I ofttimes borne, so that from the beginning I might make them acquire
+               habits that are not goodly, that their faults might grow up with them. But there are
+               foolish fathers, who do not crush the seed that I have sown in their sons; and there
+               are some who like good husbandmen, root up faults from the mind of their
+               children.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>As with a chain I have bound men with sloth, and they sat in idleness. I have drawn
+               away their senses from all good things; their eyes from reading, their mouths from
+               singing praise, their understanding from doctrine. For hurtful and vain fables how
+               eager are they; for empty talk how ready! If the word of life fell among them, they
+               either thrust it from them, or rose and went forth from its presence.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>How many <persName>Satans</persName> are there among men! and me even me alone every man curses. For lo!
+               the anger of men—it is a devil that grinds him every day. Demons are like wayfarers,
+               who depart if they are compelled: but against anger though all righteous men adjure,
+               it is not rooted out from its place. Instead of pernicious envy, every one hates a
+               weak and wretched demon.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>The enchanter is put to shame with the wizard, who every day tames serpents. The
+               viper that is within him is out of his power; for the lust that is within him he
+               tames not. Secret sin like an asp, when it breathes on him he is scorched. Even when
+               he takes the viper through his cunning, delusion smites him secretly. He lulls the
+               snake by his incantations: he wakens against himself mighty wrath by his
+               incantations.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>I set my stings and I sat and waited: who is long-enduring as I with all? Beside the
+               patient-spirited I sat, and step by step I bewitched him, so that he came unto
+               despair. Him who was ashamed of his transgressions, habits subdued him: little by
+               little I mastered him, till he became under the yoke, till he came in to it and was
+               used to it and did not even wish to go forth.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>I perceived and saw that the long-enduring is he that can subdue all. At the time
+               when I conquered <persName>Adam</persName>, he was but one. I left him till he had begotten children, and
+               I sought for myself another task, for idleness is not to my taste. I counted the
+               sands of the sea, that thereby I might make my spirit patient, and might prove my
+               memory whether it would suffice, for the sons of men when they were multiplied.
+               Before they were multiplied, I proved them in many things.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>The servants of the Evil One disputed with him, and they refuted his words with
+               their rejoinder. <quote>But lo! <persName>Elisha</persName> brought the dead to life, and conquered death in the
+               upper chamber, and brought to life the widow’s son. Lo! now is he in bondage in
+               Sheol.</quote> But because the reasoning of the Evil One was very powerful, with their own
+               words he refuted their words. <quote>How has <persName>Elisha</persName> been overcome? Lo! in <placeName>Sheol</placeName> he brought
+               the dead to life by his bones.</quote></ab>
+         </div>
+         <div type="section" n="11">
+            <ab><quote>If Elisha, who was of small power, was great in might in the midst of <placeName>Sheol</placeName>, and if
+               so be he brought one dead to life therein, how many dead then will be raised therein,
+               by the death of <persName>Jesus</persName> the mighty! Hence even from this consider ye, how much greater
+               therefore is <persName>Jesus</persName>, than we my comrades. For lo! by His craftiness He deceived you,
+               and ye sufficed not to determine His greatness when ye compared Him to the
+               prophets</quote><!-- the quote has a beginning but no end -->.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab><quote>Your consolations are of small power,</quote> said the Evil One to them of his company.
+               <quote>For He Who brought <persName>Lazarus</persName> to life though dead, how can Death suffice against Him?
+               And if Death conquers Him, it is that He wills to be subdued unto him; and if so be
+               He wills to be subdued, fear ye greatly, for He dies not in vain. He has wrought in
+               us great terror, lest when dying He may enter in to raise <persName>Adam</persName> to life.</quote></ab>
+         </div>
+         <div type="section" n="13">
+            <ab>Death looked forth from within his den, and marvelled when he saw our Lord
+               crucified, and he said <quote>O raiser of the dead to life where art thou! Thou shalt be to
+               me for meat, instead of the sweet Lazarus, whose savour lo! it is still in my mouth.
+               <persName>Jairus</persName>’ daughter shall come and see this Thy cross. The widow’s son gazes on Thee. A
+               tree caught <persName>Adam</persName> for me: blessed be the Cross which has caught for me the Son of
+               <persName>David</persName>!</quote></ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Death opened his mouth and said, <quote>Hast Thou not heard, O Son of <persName>Mary</persName>, how <persName>Moses</persName> was
+               great and excellent above all? became a God and wrought the works of God? slew the
+               first-born and saved the first-born? turned aside the pestilence from the living? To
+               the mount I went up with <persName>Moses</persName>, and He Whose glory be blessed gave him to me from
+               hand to hand. For however great the son of <persName>Adam</persName> becomes, dust he is and to his dust
+               returns, because he is of the ground.</quote></ab>
+         </div>
+         <div type="section" n="15">
+            <ab><persName>Satan</persName> came with his servants, that he might see our Lord cast into <placeName>Sheol</placeName>, and might
+               rejoice with Death his Counsellor; and he saw Him sorrowful and mourning, because of
+               the dead who at the voice of the Firstborn, lived and came forth thence even from
+               <placeName>Sheol</placeName>. The Evil One arose to console Death his kinsman. <quote>Thou hast not destroyed as
+               much as thou wast able. Even as <persName>Jesus</persName> is in thy midst, to thy hand shall come they
+               that have lived and that live.</quote></ab>
+         </div>
+         <div type="section" n="16">
+            <ab><quote>Open for us to see Him, yea and mock Him: let us answer and say, <quote>‘Where is Thy
+               power? For lo! three days have passed for Him, and let us say to Him, O Thou of three
+               days, Who didst raise <persName>Lazarus</persName>, when he had lain four days, raise Thine own self.’</quote></quote>”
+            Death opened the gates of Sheol, and there shone from it the splendour of the face of
+               our Lord; and like the men of <placeName>Sodom</placeName> they were smitten; they groped and sought the
+               gate of <placeName>Sheol</placeName>, which they had lost.</ab>
+         </div>
       </body>
    </text>
 </TEI>

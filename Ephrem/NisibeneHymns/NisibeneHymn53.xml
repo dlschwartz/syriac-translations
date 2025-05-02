@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8786">Nisibis 53</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,129 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LIII">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LIII"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LIII
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 53</head>
+         <div type="section" n="1">
+            <ab>Come, let us hear how they contend for victory: the guilty ones who never have
+               conquered, nor will conquer.</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Death said unto the Evil One: In the end the victory is mine: for Death is master of
+               the close, as a conqueror.</ab>
+         </div>
+         <div type="section" n="3">
+            <ab><persName>Satan</persName>: This were to be Death indeed, wert thou able: to bring to death a living man,
+               by means of lusts.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Death: Lo! I who behold the dead, both good and bad: the righteous who despise thee, O
+               Evil One, me they despise not.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab><persName>Satan</persName>: This dying of the body, is sleep for a time: think not, O Death, that thou art
+               Death, who art as a shadow.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>Death: Thee, O Evil One, the just have conquered, yea will conquer: but these that have
+               conquered thee, lo! I conquer.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab><persName>Satan</persName>: Even this that thou bringest to death the just, is not of thyself: because of
+               Adam whom I conquered, they drink this cup.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>Death: Lo! <placeName>Sheol</placeName> is full of the men of <placeName>Sodom</placeName>, and the Assyrians: and the giants who were
+               in the flood, who is like me?</ab>
+         </div>
+         <div type="section" n="9">
+            <ab><persName>Satan</persName>: These, O Death, all of them, by me were slain: I am he that caused them to sin so
+               that they perished.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>Death: <persName>Joseph</persName> who conquered thee I conquered, O <persName>Satan</persName>: in the chamber he conquered thee
+               but I conquered, and cast him into the tomb.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab><persName>Satan</persName>: <persName>Moses</persName> who conquered thee, O Death, by sprinkling of blood: he conquered thee in
+               <placeName>Egypt</placeName>, but at the rock, who conquered him?</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>Death: <persName>Elijah</persName> who feared thee not, O <persName>Satan</persName>: fled before <persName>Jezebel</persName>’s face, because he
+               feared me.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab><persName>Satan</persName>: <persName>Aaron</persName> who withstood thee, O Death, with smoke of incense: to him I gave earrings
+               of gold: and he fashioned a calf.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Death: Thou wentest down to contend with <persName>Job</persName>, and he conquered thee and came up: but I,
+               after he had conquered thee, then conquered him.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab><persName>Satan</persName>: <persName>David</persName> who by his sackcloth stayed that pestilence: him on the house-top I
+               conquered, who had conquered <persName>Goliath</persName>.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>Death: <persName>Jehu</persName> who destroyed the house of <persName>Baal</persName>, the temple of the Evil One: was unable to
+               destroy <placeName>Sheol</placeName>, the stronghold of my realm.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab><persName>Satan</persName>: <persName>Solomon</persName> who snatched from thy mouth, a child by his judgment: him in his old age
+               I made a builder of idol-altars.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>Death: <persName>Samuel</persName> who in respect of gold scorned thee, O <persName>Satan</persName>: him I conquered, the
+               conqueror, who conquered bribes.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab><persName>Satan</persName>: <persName>Samson</persName> who in respect of the lion’s whelp, scorned thee, O Death: through
+               <persName>Delilah</persName>, frail vessel, I yoked him to the mill.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>Death: <persName>Josiah</persName> from his childhood despised thee, Evil One: but me not even in his old
+               age, could he withstand.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab><persName>Satan</persName>: <persName>Hezekiah</persName> withstood thee, Death, when he overcame the bound of life: I misled him
+               and he neglected the miracle, and showed his treasures.</ab>
+         </div>
+         <div type="section" n="22">
+            <ab>Death: <persName>John</persName> who conquered thee, Evil One, and absolved and baptized: I extinguished that
+               torch, which had disclosed thee.</ab>
+         </div>
+         <div type="section" n="23">
+            <ab><persName>Satan</persName>: <persName>Simon</persName> overcame thee, when he brought to life that blessed woman: in a woman he
+               overcame thee and by a woman I overcame him and made him deny.</ab>
+         </div>
+         <div type="section" n="24">
+            <ab><persName>Satan</persName>: Apostles and prophets with one voice, curse thee, O Death: “Where is the victory
+               of Death, and the sting of <placeName>Sheol</placeName>?”</ab>
+            <ab>Satan: Apostles and prophets with one voice, curse thee, O Death: <quote>Where is the victory
+               of Death, and the sting of Sheol?</quote></ab>
+         </div>
+         <div type="section" n="25">
+            <ab>Thy Lord in <placeName>Sheol</placeName> thou hast shut up, O cursed servant: God hates thee and also man,
+               hold then thy peace.</ab>
+         </div>
+         <div type="section" n="26">
+            <ab><persName>Satan</persName>: It was the will of Him who gives life to all, that shut him in <placeName>Sheol</placeName>: it was thou
+               that called Him to this, when thou madest <persName>Adam</persName> sin.</ab>
+         </div>
+         <div type="section" n="27">
+            <ab>O comrade of <persName>Nabal</persName> who in the wilderness reproached his lord: abhorred be thy mouth
+               which said to Him, <quote>“Fall down and worship me!”</quote></ab>
+         </div>
       </body>
    </text>
 </TEI>

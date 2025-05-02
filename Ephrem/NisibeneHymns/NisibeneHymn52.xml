@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8785">Nisibis 52</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,131 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LII">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LII"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LII
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head><placeName>Nisibis</placeName> 52</head>
+         <head type="sub">Concerning <persName>Satan</persName> and Death.</head>
+         <div type="section" n="1">
+            <ab>I heard Death and <persName>Satan</persName>, as they disputed, which was the more powerful, among
+               men.</ab>
+         </div>
+         <div type="response">
+            <ab>Response: To Thee be glory, Son of the Shepherd of All, Who deliveredst His flock
+               from the secret wolves that devoured it, the Evil One and Death!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Death showed his power, that he conquers all; <persName>Satan</persName> showed his guile, that he makes
+               all to sin.</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>Death: To thee, O Evil One, none hearkens save he that wills: to me he that wills and
+               he that wills not, even to me they come.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab><persName>Satan</persName>: Thine, O Death, is but the force of tyranny: mine are snares and nets of
+               subtlety.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>Death: Hear, O Evil One, that who so is subtle breaks off thy yoke: but none is there
+               that is able to escape my yoke.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>Satan: Thou, Death, on him that is sick provest thy might: but I over them that are
+               whole, am exceeding powerful.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>Death: The Evil One prevails not over all those that revile him: but for me he that has
+               cursed me and he that curses me, come into my hands.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>Satan: Thou, Death, from God, hast gotten thy might: I alone by none am I helped, when I
+               lead men to sin.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>Death: Thou, O Evil-One, like a weakling: while like a king I exercise my dominion.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>Satan: Thou art a fool, O Death, not to know how great am I: who suffice to capture free
+               will, the sovereign power.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>Death: Thou, O Evil One, like a thief, lo! thou goest round: I like a lion break in
+               pieces and fear not.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>Satan: To thee, O Death, none does service or worship: to me kings do service of
+               sacrifice as to God.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>Death: On Death there are many that call, as on a kind Power: on thee, O Evil One, none
+               has called or calls.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Satan: Markest thou not this, O Death, how many there are: who in sundry fashions call
+               on me and make oblation?</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>Death: Hated is thy name, O <persName>Satan</persName>, nor canst thou clear it: thy name every one curses,
+               hide thy reproach.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab><persName>Satan</persName>: Thine ear, O Death, has waxed dull, that thou hearest not: how against thee all
+               men groan, conceal thyself.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>Death: My face is shown to the world, for I am guileless: not like thee who without
+               guile canst not abide.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab><persName>Satan</persName>: Thou hast not in aught surpassed me for it is true: that thou art hateful as I to
+               the sons of men.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>Death: Of me all men are afraid as of a lord: but as for thee they hate thee as the Evil
+               One.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab><persName>Satan</persName>: For thee, O Death, they hate thy name, and also thy work: my name they hate but
+               my delights they greatly love.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>Death: To bitterness of teeth is turned, this thy sweetness: penitence of soul cleaves
+               ever unto thy lusts.</ab>
+         </div>
+         <div type="section" n="22">
+            <ab><persName>Satan</persName>: <placeName>Sheol</placeName> is hated because in her is no repentance: a pit that swallows and closes on
+               all movements.</ab>
+         </div>
+         <div type="section" n="23">
+            <ab>Death: <placeName>Sheol</placeName> is a gulf wherein whoso falls shall rise again: sin is hated because it
+               cuts off the hope of man.</ab>
+         </div>
+         <div type="section" n="24">
+            <ab>Satan: Though I mislike penitents, I give place for repentance: thou cuttest off hope
+               from the sinner who dies in his sin.</ab>
+         </div>
+         <div type="section" n="25">
+            <ab>Death: It was of thee that at first his hope was cut off: for he whom thou hast not
+               caused to sin dies happily.</ab>
+         </div>
+         <div type="section" n="26">
+            <ab>Blessed is He who raised against each other those cursed servants: that we might see
+               them as they have seen us and mocked at us.</ab>
+         </div>
+         <div type="section" n="27">
+            <ab>This that we have seen of them is a pledge, my brethren: of what we shall see of them
+               hereafter when we rise again.</ab>
+         </div>
       </body>
    </text>
 </TEI>

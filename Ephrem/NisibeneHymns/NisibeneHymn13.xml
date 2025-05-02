@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8749">Nisibis 13</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,132 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XIII">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XIII"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XIII
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 13</head>
+         <head type="sub">Concerning <persName>Mar Jacob</persName> and his Companions.</head>
+         <div type="section" n="1">
+            <ab>Three illustrious priests, after the manner of the two great lights,—have carried on
+               and handed down one to another, the See and the Hand and the Flock.—To us whose
+               mounting was great for the two, this last is wholly a consolation. </ab>
+         </div>
+         <div type="response">
+            <ab>Response: Glory to Thee Who didst choose them!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>He Who created two great lights, chose for Himself these three Lights,—and set them
+               in the three dark seasons of siege that have been.—When that pair of Lights was
+               quenched, the other shone wholly forth.</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>These three priests were treasures, who held in their faithfulness,—the key of the
+               Trinity; three doors they opened for us;—each one of them with his key, unlocked and
+               opened his door.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>In the first was opened the door, for the chastisement that befel us;—in the next
+               was opened the door, for the King’s power that came down on us,—in the last was
+               opened the door, for the good tidings that came up for us.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>In the first was opened the door, for battle between two hosts;—in the next were
+               opened doors, for the kings from either wind;—in the last was opened the door, for
+               ambassadors from either side.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>In the first was opened the door, for battle because of misdeeds;—in the next was
+               opened the door,—for the kings because of strife;—in the last was opened the door,
+               for ambassadors because of mercies.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>Lo! in these three successions, as in a mystery and a figure,—wrath is likened to
+               the sun; it began under the first;—it waxed strong under the next; it sank and was
+               quenched under the last.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>Three figures the Sun also, shows forth in the three quarters:—its rising is keen
+               and bright; its meridian strong and overpowering;—and like a torch that is burnt out,
+               its setting is mild and pleasant.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>Small yet bright is its rising, when it comes to waken sleepers;—hot and
+               overpowering its meridian, when it comes to ripen the fruits;—tender and pleasant its
+               setting, when it reaches its consummation.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>Who is this daughter born of vows, enviable above all women,—whose successions thus
+               proceed, and her ranks are thus manifold,—and her degrees thus ascend, and her
+               teachers thus excel.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>Do these similitudes belong, only to the daughter of <persName>Abraham</persName>,—or to thee too, O
+               daughter, born of vows, whose adorning is according as thy beauty?—for as thine
+               occasion, so was thy help, and as thy help so was its minister.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>According to the measure of her need, there came to her the supply of her need.—Her
+               fathers were as was her birth; her teachers were as was her understanding;—her
+               training as was her growth; her raiment as was her stature.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>Grace weighed out to her and gave all these things as in the scales;—she laid them
+               in her balance, that therefrom there might be profit;—she drew them into succession,
+               that therefrom might be perfection.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>In the days of him that was first, peace abounded and peace vanished;—in the days of
+               him that was next, kings came down and kings went back;—but in the days of the last,
+               hosts assailed and hosts retreated.—</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>By the first order came in, it came in with him and went out with him;—by the next
+               the diadem that gladdened our churches, came nigh and withdrew far away;—but by the
+               last there dawned on us, grace that was not thankfully received.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>Against the wrath that was first, the labour of the first contended;—against the
+               heat that was at noon, the shade of the second stood up;—against peace that was
+               thankless, the last multiplied warnings.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>For the first invader of the land was the first and illustrious priest;—for the
+               second invader of the land, was the second and merciful priest:—but the prayers of
+               him that was last, repaired our breaches secretly.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab><placeName>Nisibis</placeName> is set<ptr type="noteAnchor" target="#n1"/> upon waters, waters secret and
+               open:—living streams are within her; a noble river without her. The river without
+               deceived her; the fountain within has saved her.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>The first priest was her vinedresser; he made her branches to grow even unto
+               heaven.—Lo! being dead and buried within her, he has become fruit in the midst of her
+               bosom:—when therefore the pruners came, the fruit that was in her midst preserved
+               her.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>The time of her pruning came; it entered and took from her her vinedresser,—that
+               there should not be one to pray for her. She made haste in her subtlety;—He laid in
+               her bosom her vinedresser, that she should be delivered through her vinedresser.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>Be ye wise like <placeName>Nisibis</placeName>, O ye daughters of <placeName>Nisibis</placeName>,—for that she laid the body
+               within her, and it became a wall without her.—Place ye within you the living body,
+               that it be a wall for your lives!</ab>
+         </div>
+         <noteGrp>
+            <note xml:id="n1">The verb is nʾsab,—a play on the name of the city.</note>
+         </noteGrp>
       </body>
    </text>
 </TEI>

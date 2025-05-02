@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8745">Nisibis 9</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,99 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_IX">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_IX"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_IX
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 9</head>
+         <div type="section" n="1">
+            <ab>…My afflictions are as <persName>Job</persName>’s. Thy justice delivered him; let Thy grace have mercy on
+               me!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>In these two things is profit; that neither should the just, be weary in
+               supplication, nor should the rebellious, multiply transgression.</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>With the sons Thou labourest, to chastise and help them; and that the fathers should
+               not be grieved, by the sound of the scourge, they left me in peace.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Look, O my Lord, on my woods without, how they have been cut down! behold, O my
+               Lord, my breasts within, that they are too weak, for me to bear my beloved ones!</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>With swords they have cut off, my wings that are without; again the fire kindles, in
+               my bosom within, the incense of burnt offering.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>The sun-worshippers have killed, my sons in the plain: and they that offer to Baal,
+               have sacrificed my bulls in the city, my sheep with my babes.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>In my fields is lamentation; in my halls wailing; in my vineyards terror; in my
+               streets confusion. Who can suffice for me?</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>The Evil One who dealt treacherously, and disturbed me with his words, stirred up
+               trouble within, so that my inward part, is wholly as my outward part.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>With what face, O my Lord, shall I call on Thee to send, a camp of holy ones, to
+               guard my bosom, which is full of uncleanness?</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>With Thy new leaven, Thou hast chastened creation. Make Thou the old leaven, which
+               ensnares and humbles, to be like the new leaven!</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>By the manifest striving, of Thy power let us conquer; lest error should crown,
+               those that strive for Thee, cleaving to them with blandishment!</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>If we look into our time, it is like our deceit;<ptr type="noteAnchor" target="#n1"
+               />—for in the years of truthfulness, we practised divinations,—and secretly used
+               enchantments.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>If I look into the time, it provokes and into light,—brings secret things, that our
+               deceit may be shamed,—which wore the raiment of Truth.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Verily it is truth, that overcomes all;<ptr type="noteAnchor" target="#n2"/>—and the
+               sea with its bitterness, cannot trouble it,—for it is pure in its nature.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>In wisdom Thou hast made it, O my Lord, that it has laid bare our lust.—That the
+               foolish should come to nought, and should not be encouraged,—Truth has withheld the
+               crown.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>On the tottering walls, whereon Thou hast given me victory,—the unthankful repay
+               Thee, with sacrifice and libation, which provoke Thee openly.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>If it were at that time, sacrifices had been offered;—there had been room even, for
+               delusion to suppose,—that in these I was delivered.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>Through the multitude of deliverances, Thou hast rebuked two things:—the delusion of
+               graven images, and the teaching of magicians;—for in Thee, O my Lord, have I been
+               delivered!</ab>
+         </div>
+         <noteGrp>
+            <note xml:id="n1">An attempt is here made to represent by means of dashes the metrical
+               versification of the Syriac hymns. See above, pp. 147 sq.</note>
+            <note xml:id="n2">1 Esdr.</note>
+         </noteGrp>
       </body>
    </text>
 </TEI>

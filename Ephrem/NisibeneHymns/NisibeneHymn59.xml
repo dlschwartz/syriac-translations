@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8792">Nisibis 59</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,97 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LIX">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LIX"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LIX
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 59</head>
+         <div type="section" n="1">
+            <ab>Lo! Death for us on <persName>Satan</persName>, inflicts vengeance: come let us hear his shame and
+               rejoice, for he rejoiced in our shame.</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Response: To Thee be glory from Thy flock, from Thee: are subdued both Death and <persName>Satan</persName>,
+               under Thy Feet!</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>Death: Evil ones shall be hung upright, but thou, head downward: for, reversely, thou
+               crucifiedst, <persName>Simon</persName> on the tree.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab><persName>Satan</persName>: Touching all else I am silent, Death, for my time wanes: <persName>Simon</persName> himself conjured
+               me, <quote>“Crucify me thus.”</quote></ab>  </div>
+         <div type="section" n="5">
+            <ab>Were it the just that cursed me, I had not grieved: the curse of Death unto me, is
+               worse than hell.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>Death: The shame of our Lord I have not spoken of, it is too great for my mouth: that I
+               should weigh and compare His Passion, with Thy torment.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>Twelve judgment thrones shall He set, for His Twelve: for by the twelve tribes thou,
+               even thou, shall be condemned.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>A halter unbought shalt thou hang thee, O thou <persName>Satan</persName>: as that Thy disciple hung him,
+               a halter for a price.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>Haply yon hell in mercy, shall be emptied: and thou shalt dwell there alone, with Thy
+               ministers.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>Manifold are Thy curses, and how shall I count them? Lo! the sum of all thy curses,
+               is on thy members.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>The evil in the fire shall stab thee, who madest them evil: they shall upbraid thee
+               <quote>wherefore, broughtest thou us hither?</quote></ab>
+         </div>
+         <div type="section" n="12">
+            <ab>Sinners shall rail against thee, and haply their threats: shall be worse to thee than
+               the torment, of yonder hell.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>These shall be unto thee there, all of them Satans: as thou hast been to them here,
+               the one Satan.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>The Watchers shall seize and hurl thee down, calling to mind: how through thee men
+               hurled their Lord, from the height to the depth.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>All men will run to stone thee, not forgetting that through thee the maddened people
+               ran, to stone their Maker.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>On thee, Evil One, from all mouths shall be, the spitting of wrath: for through thee
+               they spat on Him Whose spittle, gave sight to the blind.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>On thee, Evil One, from all tongues, shall be all curses: for through thee men
+               blasphemed Him, Who opened dumb mouths.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>Blessed is He Who avenged our wrong, though in silence: and stirred up Death against
+               the Evil One, to fall upon him!</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>Sound we Hosannas, my brethren, as did <persName>Gideon</persName>:<ptr type="noteAnchor" target="#n1"/> who when he sounded, the
+               oppressors, fell on one another!</ab>
+         </div>
+         <noteGrp>
+            <note xml:id="n1"> Judg. vii 18-22.</note>
+         </noteGrp>
       </body>
    </text>
 </TEI>

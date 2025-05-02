@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 12</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 12, pp. 82-84.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="12">
+            <head>XII</head>
+            <head>That it is not beautiful for the servant of God who had renunciation the world and
+               has gone forth to seek event he truth, out of fear that he shall not find the truth
+               to desist from seeking it or from the fervour which is born from the desire of divine
+               things, or from the inquiry after their mystic secrets which are described
+               mysteriously. That, by this seeking, the mind may desist from evil distraction and
+               recollections of the affections</head>
+            <p>There are three degrees which constitute the whole course of man. The degree of
+               novitiate, the middle one, and that of perfection.</p>
+            <p><pb type="external" n="122"/>And although the mind of the first degree looks with all
+               its occupations and recollections towards excellence, yet it is connected with the
+               affections.</p>
+            <p>The second degree, the middle one, lies between the affectable and the spiritual
+               state. Righthand and lefthand deliberations are stirred equally in it. And neither
+               the fountain of light nor that of darkness ever cease to flow on its side, as it has
+               been said. If the [solitary] cease for even a short time from meditating restlessly
+               on spiritual writings, or from thinking of divine things, such as enflame him as fire
+               by their tending towards the truth, in union with outward needfulness as strict <pb
+                  n="83"/>as possible which includes inward cautiousness and sufficient works — then
+               he is swept away towards the side of the affections.</p>
+            <p>But if he heighten his natural warmth in the way mentioned, without desisting from
+               seeking and inquiring, and if he follow these things from afar without seeing them,
+               except their designation in the scriptures, and if he multiply his deliberations and
+               dominate them by those which do not decline unto the left side, and receive not any
+               seed of phantasies coming from the demons instead of from truth, but be desirous on
+               the contrary, long and guard himself and beseech God in passionate, enduring prayer —
+               then, as soon as it will please God to give it, He will open His gate before him.
+               Especially on account of his humility, for to the humble the mysteries are
+               revealed.</p>
+            <p>If he dies, however, in that expectation, without having seen that country at a short
+               distance, I think that his heritage will be with the ancient righteous, who have
+               expected perfection, according to the word of the Apostle, but have not seen
+               it<ptr type="noteAnchor" target="#n83-1"/>, <pb type="external" n="123"/>yet have worked in expectation of it all
+               their lifetime and have departed. But what shall we say, if any one does not reach
+               [the degree which enables him] to enter the promised land which is the stage of the
+               perfect and to find truth eye to eye in so far as nature is capable of this? Shall he
+               then resign this [and remain] on that low stage which is wholly connected with that
+               of the left side? And because he has not found the whole truth, shall he remain in
+               this low state which does not even know to desire these things, or shall he elevate
+               himself unto the middle stage mentioned, even though he does not look as it were in a
+               mirror, but expects it from afar, and in that expectation will be gathered unto his
+               fathers?</p>
+            <p>Even though he is not deemed worthy of the fulness of that grace here, yet he shall
+               occupy his mind through intercourse with it at a distance and by its stimulating
+               influence during his lifetime he shall eliminate and fly from bad deliberations. And
+               in this hope, his heart being full of God, he shall depart this world.</p>
+            <p>All that takes place in humility, is beautiful. The uncorporeal thoughts of the mind
+               inclining towards the love of God [engendered] by the understanding of the
+               scriptures, are a <pb n="84"/>fence for the gates of the soul against foreign
+               deliberations. They guard the spirit by ardent recollections of future things,
+               against its being distracted through idleness to the recollection of [worldly]
+               things; this would quench the ardour of its emotion and it would fall into
+               desires.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n83-1">Cf. 1 Peter 1,10-12</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 52</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 52, pp. 253-254.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="52">
+            <head>LII</head>
+            <head>Short sections on a different subject on the distinction of the impulses of
+               knowledge</head>
+            <p>When knowledge pursues visible things, concerning which instruction is acquired
+               through the senses, it is called natural. When it pursues the intelligible forces
+               behind the visible things in non-bodily species, it is called spiritual. For
+               perception is <pb type="external" n="378"/>received by the spirit, not by the senses.
+               And regarding both of these kinds the soul receives the recognizable materials from
+               without. When however knowledge pursues the Essence it is called supernatural, or
+               rather agnostic, because it is elevated above knowledge. As to this [latter kind],
+               the soul does not acquire contemplation concerning it in materials lying without it,
+               as is the case with the former kinds. But without materials, by a sudden working of
+               grace within, unexpectedly, it is revealed in the soul. For the kingdom of God is
+               within us<ptr type="noteAnchor" target="#n253-1"/>. And it will not come from the place from where it is expected,
+               nor through observation<ptr type="noteAnchor" target="#n253-2"/>, according to the word of our Lord. But within the
+               hidden form of the intellect it is revealed without cause and without meditation upon
+               it. For the intellect has no materials to meditate upon it.</p>
+            <p>The first [kind of knowledge] is born from constant recitation and from zeal for
+               teachings. The second kind from a steady <pb n="254"/>behaviour and faith of the
+               intellect. The third kind is due to faith alone. For there knowledge ceases and works
+               reach their end and senses will be superfluous.</p>
+            <p>As long as knowledge is beneath this line, it is called knowledge. And the lower it
+               is, the more honoured it becomes, so that when it reaches the earth and earthly
+               things, knowledge is master of all, and without it all is cripple and idle. But when
+               the soul elevates its gaze and directs the space and the <pb type="external" n="379"
+               />time of its impulses towards heavenly things and becomes desirous after the things
+               which are not to be seen with the bodily eye and over which the flesh has no power,
+               then all things fall under the category of faith.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n253-1">cf. Luke 17. 21</note>
+            <note xml:id="n253-2">Luke 17,20</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

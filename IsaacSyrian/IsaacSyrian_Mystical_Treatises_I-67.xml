@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 67</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 67, pp. 316-318.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="67">
+            <head>LXVII</head>
+            <head>An elucidation with examples concerning the distinctions between intelligible things
+               [showing] which use there is in each of them</head>
+            <p>Intellect<ptr type="noteAnchor" target="#n316-2"/> is a spiritual sense which is made a recipient of the visual
+               power, as the pupil of the fleshly eyes into which perceptible light is poured.</p>
+            <pb n="317"/>
+            <p>Intelligible sight is natural knowledge which by power has been mixed with the order
+               of nature, and which is called natural light.</p>
+            <p>A holy power is grace, the sun of distinction for those things, which hold a middle
+               position between light and sight. Species<ptr type="noteAnchor" target="#n317-1"/> are those things which are
+               intermediary and distinguished by light so as to become sight. The affections are as
+               it were some dense entities, which, placed between light and sight, hinder the
+               distinction of things.</p>
+            <p>Purity is the clearness of the intelligible air, through the mediation<ptr type="noteAnchor" target="#n317-2"/> of
+               which spiritual nature circulates in us.</p>
+            <p>The reverse way: If the intellect is not of a sound nature, knowledge does not
+               influence it. If the fleshly sense is harmed by some cause, sight is taken from it.
+               If the intellect is sound, but there is no knowledge, the intellect cannot have any
+               distinct influence upon spiritual things without it; just as an eye which is sound in
+               all those things which are its own, <pb type="external" n="473"/>and yet, often its
+               visual power is dull. So, if all these [spiritual] things are preserved in their
+               proper state, but grace is not near, they remain, all of them, destitute of the
+               service of their different functions; as it is also during nighttime, when all these
+               things, because of the absence of the sun, remain without function, though they are
+               true and perfect in themselves. I mean eye, sight and things, not those which are
+               distinguishing or distinguished. This is what has been said: In Thy light we see
+               light<ptr type="noteAnchor" target="#n317-3"/>. Now, even when grace, the intelligible sun, is near and inciting and
+               flattering and working and exhortating, but there is no purity through which (as
+               through the air purified from the density of the clouds and from the matter of
+               darkness) the sunrays attain to us easily, so that we enjoy by their light a sight
+               which is wholly spiritual — then sight is impeded in its discriminating power, nature
+               looses its active force, the soul is hindered from perceiving the second sun which
+               dawns over the world, because of the screen of the body in which the rays of truth
+               are hidden so that they cannot reach us.</p>
+            <p>Therefore, all that has been said is strictly necessary. And because all these things
+               are hardly to be found without <pb n="318"/>deficiency any one, not many are found
+               who reach a partial completeness in spiritual knowledge. Such a deficiency has its
+               origin in impotence of the intellect, or in neglect of the aim, <pb type="external"
+                  n="474"/>or in the unpreparedness of the will, or in lack of purity, or in want of
+               guides, or in the impediments of grace (for riches do not suit the fool, nor is a
+               slave entitled to rule over many things) — or in the hindrances of time, place and
+               mode.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n316-2">ܡܕܥܐ</note>
+            <note xml:id="n317-1">ܟܝ̈ܢܐ</note>
+            <note xml:id="n317-2">lit. bosom</note>
+            <note xml:id="n317-3">Ps. 36,9</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

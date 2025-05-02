@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 64</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 64, pp. 296-297.</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="64">
+            <pb n="296"/>
+            <head>LXIV</head>
+            <head>On the many varying states which cling to the mind and are purified by prayer</head>
+            <p>To choose what is good, is the part of the good will of him that desires this. To
+               accomplish the choice of the excellent will, this belongs to God and it requires much
+               help on His part. Therefore we have to combine the good desire which is awakened in
+               us, with continual prayer. Not only in order to ask from Him help, but also to
+               discriminate whether it concords with His will or not. Not every beautiful desire
+               falls into the heart by divine action, but [only] that which is profitable. There are
+               beautiful things which man may desire though they do not help him. Such desires may
+               even be sent by Satan, even though they be esteemed to be helpful. How many times
+               does the thing desired not fit his measure; and <pb type="external" n="442"/><persName>Satan</persName>
+               has contrived it to his detriment, compelling him to ask it, though he has not yet
+               reached this [stage of] discipline or though he is a stranger to the rank of its
+               scheme; or the time is not fit in which <persName>Satan</persName> incites him to accomplish these things;
+               or he is not able to perform them, either through [lack of] knowledge, or through
+               bodily weakness, or through the time not being favorable. At any rate, though it does
+               seem beautiful, it either troubles him, or it causes him bodily harm, or it places a
+               hidden snare in his mind.</p>
+            <p>So, as I have said, we have to combine continual and diligent prayer with
+               <choice><sic>theseemingly</sic><corr>the seemingly</corr></choice> good desire which is awakened in us, saying, every one
+               of us: May it be Thy will regarding me, to accomplish in fact this good which I have
+               <choice><sic>choosen</sic><corr>chosen</corr></choice> and which I desire to practise, if it concords with Thy will. To
+               fix my will on it, is easy to me; to practise it, is however not possible for me
+               without a gift on Thy part. Though in truth both are thine, to will and to
+               do<ptr type="noteAnchor" target="#n296-1"/>. For it is not without Thy grace that I have surrendered to or been
+               shaken before that which stirred in me. It is the custom of him that desires any good
+               thing with discrimination of mind, to work for it in <pb n="297"/>prayer continually;
+               and the force [he acquires] thereby, he will use as an aid for his service. And then
+               wisdom which distinguishes truth from falsehood through much prayer and labour and
+               watchfulness and beautiful longing without break, will come to light, in continual
+               tears, humbleness and heavenly help, especially when its opponents are deliberations
+               of haughtiness which remove from us God's help, and which we can annihilate by
+               prayer.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n296-1">Cf. Philippians 2, 13</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

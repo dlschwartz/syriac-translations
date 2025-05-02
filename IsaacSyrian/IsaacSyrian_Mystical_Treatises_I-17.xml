@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">Part 1, Treatise 17</title>
+            <title xml:lang="en" level="s">The Mystical Treatises of <persName>Isaac the
+                  Syrian</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#echrisanthus"
+                  >Evangelos Chrisanthus</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#cfreeman">Cullen
+                  Freeman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mystic Treatises by Isaac of Nineveh Translated from Bedjan's Syriac Text with an
+               Introduction and Registers by A. J. Wensinck, Treatise 17, pp. 91-95</p>
+            <p>Transcription of the text downloaded from Internet Archive on 26 November 2024: <ref
+                  target="https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt"
+                  >
+                  https://archive.org/stream/IsaacOfNinevehMysticTreatises/isaac_of_nineveh_mystical_treatises_djvu.txt
+               </ref>. This Internet Archive transcription has been thoroughly edited and is made
+               available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike License</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="treatise" n="17">
+            <head>XVII</head>
+            <head><pb type="external" n="134"/>On the short paths towards God which are revealed to one
+               from the sweet works in vigils and that those who are given to vigils are supported
+               by honey their wholy lifetime</head>
+            <p>Do not think, O man, that among all the works of ascetics there is any one greater
+               and more profitable than that of vigils. In truth, my brethren, if during the day the
+               ascetic is not distracted by corporeal things and temporal care, but cuts himself off
+               somewhat from the world, and is watchful to even a low degree during vigils, then I
+               do not object to declare unto you in truth, that soon his spirit will fly as with
+               wings and ascend unto God to be in delight. And he will easily look at that glory,
+               and in that knowledge which is higher than <pb n="92"/>human spirit he will quickly
+               swim. The solitary who during his vigils abides by the discernment of the mind, will
+               no longer seem to be clad with flesh. Verily, this work belongs to the class of the
+               angels. And it is impossible that those who applicate themselves to this behaviour,
+               should be left without great divine gifts, on account of the vigilance and serenity
+               of their heart, and because their deliberations tend to Him only.</p>
+            <p>The soul, therefore, which applies itself in its labours to the duty of vigils,
+               becomes trained, and acquires Cherubs' eyes in the swiftness and acuteness of their
+               gaze, so that at all times it gazes on heavenly contemplations.</p>
+            <p>I am of the opinion that he who on account of <choice><sic>vaste</sic><corr>vast</corr></choice> <pb type="external"
+                  n="135"/>knowledge and with discernment has chosen for himself this great and
+               divine work, and is wholly devoted to bear the load of the glorious part he has
+               chosen, will necessarily be zealous to guard himself also during the day against the
+               trouble of occupations and of care for [worldly] things, and that he consequently
+               will not be devoid of wonderful fruits and the great delight he will gather from
+               them. And I may say deliberately, without lying, that he who despises this, does not
+               even know for what purpose he performs all this toil: the loss of sleep, the many
+               repetitions, the fatigue of the tongue, the standing on his feet during the whole
+               night, while his mind is not there where he recites his Psalms and prayers; but he
+               performs these works as a matter of custom, as something which is devoid of
+               discernment. And if this were not as I say, how could he suffer to be bereft of and
+               to remain without reaping profitable fruits from the constant occupation with his
+               work? But he strives towards these [results] through the holy occupation of the
+               recitation of the scriptures, which is a fortification of the mind and, principally,
+               a cause<ptr type="noteAnchor" target="#n92-1"/> of prayer, a helper and a companion of vigils, a light of the mind, a
+               guide on the way and the seed<ptr type="noteAnchor" target="#n92-2"/> of manifold contemplation during prayer. It is
+               a check against the distraction of the spirit and against its occupying itself with
+               idle things. It sows in the soul constant recollection of God and [of] the ways of
+               the saints who have pleased Him. And it causes the mind to acquire wisdom and
+               subtlety.</p>
+            <p>Wherefore then, O zealous man, doest thou order thy <pb n="93"/><pb type="external"
+                  n="136"/>occupations in this way, without discernment? For thou showest care for
+               thyself in that thou standest upon thy feet during the whole night, fatiguing thyself
+               with glorifications and Psalms and prayers. It would be easy for thee, by little
+               watchfulness during the day, to be made worthy of the divine grace for thy strenuous
+               efforts in other duties. Wherefore doest thou fatigue thyself and sow in the night,
+               whereas during the day thou renderest useless thy works so as to lose the fruits,
+               dissipating this vigilance and fervour which thou wouldst acquire by vigils, through
+               the distraction of intercourse with men and through different occupations, and
+               destroying thy profit by wandering idleness?</p>
+            <p>If thou wouldst associate to thy nightly meditation, o man, service during the day
+               without breaking in twain the fervour of the occupations of the heart, thou wouldst
+               quickly embrace <persName>Jesus</persName>' bosom.</p>
+            <p>And from this thou seest that thou sufferest for lack of discernment. For thou doest
+               not perceive why vigils are necessary for the ascetic. Thou thinkest it is for the
+               sake of toiling only, and not in respect of another thing which is expected to be
+               born from it.</p>
+            <p>But he that by grace has almost been made worthy of understanding that for which the
+               sages hope in combating sleep and compelling nature to such a degree that during the
+               whole night, awake bodily and mentally, they offer prayers — also knows the strength
+               given by watchfulness during the day and the profit it grants the spirit in its
+               nightly solitude while <pb type="external" n="137"/>at its vigils with discernment,
+               and the power it supplies over the deliberations and the purity<ptr type="noteAnchor" target="#n93-1"/> and
+               concentration with which it endows the mind, so that without compulsion and strife
+               the spirit gazes at the greatness of the words [recited] .</p>
+            <p>I say this also, that though the body may fall short in the work of fasting on
+               account of its great weakness, yet vigils, by their lonely character, afford the mind
+               steadfastness in prayer, and enable the heart to recognize spiritual powers by means
+               of insight. This can only take place if it is not assailed by any disturbance through
+               relaxation caused by things met during the day.</p>
+            <p>Therefore I admonish thee, o man of insight who wishest to acquire vigilance of mind
+               in God and knowledge of the <pb n="94"/>new life, that during thy lifetime thou
+               mayest not despise this duty<ptr type="noteAnchor" target="#n94-1"/> of vigils, by which thy eyes will be opened so
+               as to see the whole glory of ascetic work and the power of the way of
+               righteousness.</p>
+            <p>And if it should happen — unfortunately — that a thought of relaxation should make
+               its nest in thee, and thou shouldst think, on account of [previous] experience, that
+               thy usual helper is training thee and making thee prudent by means of varying states,
+               such as coldness and heat, or by variety of chance and occasion, or on account of thy
+               body being ill or weak; and if this should induce thee to forego sleep in the
+               evening, though thou shouldst not be willing to fatigue thy body — then I beseech
+               thee with love to desist from all this zealous labour, the reciting of Psalms, the
+               performing of the service, the <pb type="external" n="138"/>frequent kneelings during
+               regular praying. I <choice><sic>advice</sic><corr>advise</corr></choice> thee to sit in solitude, awake, if thou art able
+               to do this, without recitation of Psalms and without prostrations. And if thou art
+               able to do so, pray with thy heart only. But do not sleep. And by all means pass thy
+               night, sitting, in the usual beautiful meditation. Only — do not make thy heart
+               heavy<ptr type="noteAnchor" target="#n94-2"/> and dark by sleep. Then the old swiftness and force and fervour will be
+               given thee by grace and thou wilt rejoice and exult and thank God. For such heaviness
+               and coldness<ptr type="noteAnchor" target="#n94-3"/> are admitted unto man in order to test him.</p>
+            <p>If a man rouse himself fervently and shake off and cast away [despondency],
+               compelling himself somewhat, suddenly grace will approach as before. And another
+               force will impart itself to him, in which ten thousand [gifts of] grace and
+               profitable states are hidden. And man will be astonished while thinking of the former
+               heaviness and the swiftness and strength following it, and of how such a state of a
+               sudden has overcome him.</p>
+            <p>Therefore he will be prudent henceforth, so that, when this heaviness comes again at
+               other times, he will recognize it. But if he had not been daring on former occasions,
+               he would not have acquired this knowledge.</p>
+            <p>Thou seest how prudent a man becomes if he rouse himself a little and if he be
+               valiant at the time of struggle. But when <pb n="95"/>his nature really subsists only
+               and no longer struggle but sickness or natural weakness, it is useless to resist. If
+               a man compel himself in other points, strength in all things will be given him.</p>
+            <p><pb type="external" n="139"/>Constant solitude, with recitation and moderate food,
+               easily arouse in the spirit a state of ecstasy<ptr type="noteAnchor" target="#n95-1"/>, if perpetual solitude be not
+               broken or any cause. Insight brought about by works performed in solitude, will of
+               itself, automatically and suddenly, impart to these two eyes a kind of baptism, by
+               tears which but forth and moisten the cheeks by their profuseness.</p>
+            <p>If thou perceivest in thy body, humbled by the asceticism of watchful solitude, the
+               vehement passion of fornication, — not the usual dark impulse of nature, — know then
+               that thou art tempted in thy spirit by haughtiness. Mix thy food with ashes, press
+               thy belly against the dust and scrutinize what thou hast thought. And recognize the
+               varying states of thy nature and thy service which is above thy nature. Perhaps God
+               will have mercy upon thee and send thee light so that thou wilt know how to be
+               humble, lest thy evil become greater.</p>
+            <p>So we will not desist from carefulness, till repentance dawns in our heart, and we
+               find humility and our heart finds rest in God.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n92-1">ܫܩܝܐ</note>
+            <note xml:id="n92-2">literally: the sower</note>
+            <note xml:id="n93-1">Reading of some Mss.</note>
+            <note xml:id="n94-1">ܕܘܒܪܐ</note>
+            <note xml:id="n94-2">Literally: thick</note>
+            <note xml:id="n94-3">Reading ܩܪܝܪܘܬܐ with the London Ms</note>
+            <note xml:id="n95-1">ܬܗܪܐ ܕܥܠ ܨܒܘ̈ܬܐ amazing attitude regarding things</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

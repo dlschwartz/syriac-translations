@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8788">Nisibis 55</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,151 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LV">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LV"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LV
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 55</head>
+         <div type="section" n="1">
+            <ab>Lo! the Evil One reproached Death, and was in turn reproached: from each and to each
+               and against each, were their taunts.</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Response: To Thee be glory, Son of the Lord of All, Who diedst for all: for He was raised
+               to give life to all, in the day of His Coming!</ab>
+         </div>
+         <div type="section" n="3">
+            <ab><persName>Satan</persName>: <persName>Jonah</persName> who conquered thee, and returned back from <placeName>Sheol</placeName>, became my advocate in
+               asking, why sinners were spared?</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Death: Slander not, O Evil One, the son of <persName>Amittai</persName>: he showed a face of anger, that they
+               might praise thee more.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab><persName>Satan</persName>: Quite powerless is all thy persuasion, O tyrant Death: for there pleases me
+               nothing, of all thou hast said.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>Death: For when was the word of truth pleasing to thee? A gulf is between thee and
+               truthfulness, O lying one.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>I am righteous all my days, with nought to repent: I am he that rescues from thee the
+               sons of men.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab><persName>Satan</persName>: Proclaim thy repentance, Death, thou art well come: lo! Saul also among the
+               prophets, great cause of scorn.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>If thou, Death, be justified, then for myself: I cut not off hope, likewise, of
+               repentance.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab>Death: No idol with my Lord have I made, O hater of thy Lord! lo! thou by dead idols,
+               slayest the living.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab><persName>Satan</persName>: That thou, Death, art half of me, I know, and I half of thee: if half of me
+               repents, it repents, but I marvel.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>Death: Thy partner am I in share, but not in sin: mine are the slain and thine the
+               slayers, whom thou madest sin.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab><persName>Satan</persName>: My craftiness weeps for itself, when I dispute with thee: my wiles mourn over me,
+               when I meet thee.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>Death: Workers of witchcraft and soothsayers, with all their offences: the fire that
+               thou kindledst in the world, in Sheol I have quenched.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab><persName>Satan</persName>: Thou penitent who strainest out gnats, and swallowest the just: the chaste shall
+               rend thee, who cry, from within thy belly.</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>Death: It is the treasure-house where I keep all the righteous: their resurrection
+               threatens ill to thee, who didst persecute them.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>Satan: The greedy one who carries all creatures, in his bowels: lo! he casts up to me
+               that I am robbed, of my possessions.</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>Death: Before the stroke lament not, for it has not yet reached thee: the day will come
+               when thou shalt cry out, and I shall hear and rejoice.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>The fire will come that shall strip off thee thy very skin: as by the potsherd thou
+               didst strip the skin of Job.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>Death: The savour of sloth begins, as if to hover on me; it is then a dream that I
+               ceased, for a short space.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>It was not that words failed me, and therefore I was silent: it is for the time I
+               grieve, that has passed idly.</ab>
+         </div>
+         <div type="section" n="22">
+            <ab>The hurt done by thy speech is very great: would I had not heard it! For my whole
+               mind is intent upon my work.</ab>
+         </div>
+         <div type="section" n="23">
+            <ab>This humankind that is lost, was undone by wandering thought: slothfulness, with
+               negligence, brought it under yoke.</ab>
+         </div>
+         <div type="section" n="24">
+            <ab>The madness of desire bid for wealth, and bought it: contention with boastfulness,
+               were the sureties.</ab>
+         </div>
+         <div type="section" n="25">
+            <ab>With persistence for strength, I wage my war: and if I neglect but a little, my sway
+               is naught.</ab>
+         </div>
+         <div type="section" n="26">
+            <ab>By continual dropping, I clean the rocks: for continual dropping can dissolve even a
+               mountain.</ab>
+         </div>
+         <div type="section" n="27">
+            <ab>Habit even over nature, becomes master: it trains and leads even lions, as beasts of
+               burden.</ab>
+         </div>
+         <div type="section" n="28">
+            <ab>Habit, repose, and increase, with persistence; by these is freedom conquered, though
+               stubborn above all.</ab>
+         </div>
+         <div type="section" n="29">
+            <ab>If its will be firmly set, it breaks the fetters; but if lax, a fragile net, can
+               capture it.</ab>
+         </div>
+         <div type="section" n="30">
+            <ab>If so be that Freedom shouts, we are scattered: but if she be silent we gather
+               together, to mock at her.</ab>
+         </div>
+         <div type="section" n="31">
+            <ab>Let us cease from much speaking, lest it lead to much sloth: with one mind let us
+               assail the wall, and lo! it is broken down.</ab>
+         </div>
+         <div type="section" n="32">
+            <ab><persName>Satan</persName>: Go thou and see to diseases, and I to snares: for to me sins and to thee
+               pestilences, are great solace.</ab>
+         </div>
+         <div type="section" n="33">
+            <ab>And even though I have paused, I have not paused from my cares: for my will at no
+               time rests, but is ready.</ab>
+         </div>
       </body>
    </text>
 </TEI>

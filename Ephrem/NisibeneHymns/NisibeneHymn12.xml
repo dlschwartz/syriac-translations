@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8748">Nisibis 12</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,58 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XII">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XII"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_XII
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 12</head>
+         <div type="section" n="1">
+            <ab>I will call in my affliction, on the Power that subdues all;—that is able to subdue,
+               the Captor in his wrath,—as it overcame Legion. </ab>
+         </div>
+         <div type="response">
+            <ab>Response: Glory to His grace!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>The Evil One has repaid me my brethren, debts that he borrowed not of me:—the good
+               God likewise has repaid me, mercies that I lent Him not.—Come and marvel ye at these
+               two things!</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>The good God has divided and given, my misdeeds to His grace,—my offences to His
+               justice; His mercy has blotted out my misdeeds—His judgment has requited my
+               offences.</ab>
+         </div>
+         <div type="section" n="4">
+            <ab>Sin was exceeding wroth, and abode in alarm,—when she saw how grace, put restraint
+               on freedom, that she might overcome transgressions.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>Glow Thou, O my Lord, and send down Thy love, break out and pour forth Thy
+               wrath!—Thy wrath to destroy, Thy love to rescue—the captives from the captor!</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>The days wherein the Evil One, decreed to cast me forth,—as with a sling into
+               perdition, in them the good God has bound up and kept—my soul in the bundle of
+               life.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>The men of speech who keep not silence, from praising continually,—who have kept me
+               in the midst of waves, and supported me that I fell not, let them give praise in my
+               stead, O my Lord!</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>For who has at any time sufficed, in presence of the grace,—of the mercies which
+               surrounded him, that I should suffice to praise—the mercies that encompass me?</ab>
+         </div>
       </body>
    </text>
 </TEI>

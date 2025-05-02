@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="en" level="a" ref="http://syriaca.org/work/8793">Nisibis 60</title>
-            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">
-               Hymns on Nisibis -
-               <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱ ܐܰܦܪܶܝܡ </foreign>
+            <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737"> Hymns on Nisibis -
+                  <foreign xml:lang="syr">ܦܰܢܩܺܝܬܳܐ ܕܡܰܕܪ̈ܳܫܶܐ ܕܰܢܨܺܝܒܺܝܢ ܕܣܺܝܡܺܝܢ ܠܛܽܘܒܳܢܳܐ ܡܳܪܝ̱
+                  ܐܰܦܪܶܝܡ </foreign>
             </title>
             <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
          </titleStmt>
@@ -17,16 +17,144 @@
          </publicationStmt>
          <sourceDesc>
             <p>NPNF: Series II, Vol. XIII -- Translation in the public domain.</p>
-            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: 
-               <ref target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LX">
+            <p>Transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LX"
+                  >
                   https://en.m.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_XIII/Ephraim_the_Syrian_and_Aphrahat/Nisibene_Hymns/Hymn_LX
-               </ref>. This Wikisource transcription is available under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</ref></p>
+               </ref>. This Wikisource transcription is available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <head>Nisibis 60</head>
+         <div type="section" n="1">
+            <ab>O what amazement befel the Evil One, of a sudden, my brethren: when the sinful woman
+               was corrected, and gained Wisdom!</ab>
+         </div>
+         <div type="section" n="2">
+            <ab>Response: Glory to the One Who alone, conquered the Evil One; and to Him yea Him be also
+               confession, Who vanquished Death!</ab>
+         </div>
+         <div type="section" n="3">
+            <ab>The Evil One marvelled <quote>“Where is her laughter? where her perfumes? where her dancing
+               and outward ornament, and inward wickedness?”</quote></ab>
+          
+         </div>
+         <div type="section" n="4">
+            <ab>Instead of that light laughter, she is given up to tears: She has cut off her hair to
+               wipe the dust, off the feet of <persName>Jesus</persName>.</ab>
+         </div>
+         <div type="section" n="5">
+            <ab>Naught lasts in her of any doctrine, nor abides in her: from our instruction she has
+               escaped and cast away, all that I taught her.</ab>
+         </div>
+         <div type="section" n="6">
+            <ab>She has denied us and our acquaintance, and even as though: she had never seen me she
+               has blotted my image, out of her mind.</ab>
+         </div>
+         <div type="section" n="7">
+            <ab>The living leaven of <persName>Jesus</persName> flew to her, <persName>Jesus</persName> was silent: but she made bold to press
+               and enter, though none called her.</ab>
+         </div>
+         <div type="section" n="8">
+            <ab>She forgot our love of many years, and in the twinkling of an eye: from between me
+               and her she removed it, and set Death there.</ab>
+         </div>
+         <div type="section" n="9">
+            <ab>For instead of laughter weeping delights her, and instead of paint: a shower of
+               tears, and instead of ornament, a sad countenance.</ab>
+         </div>
+         <div type="section" n="10">
+            <ab><persName>Zaccheus</persName> I made chief of extortioners, and her I made: chief of wantons; my two
+               wings, <persName>Jesus</persName> has broken.</ab>
+         </div>
+         <div type="section" n="11">
+            <ab>If so be Zaccheus becomes his disciple, and if so be she: becomes his hearer,
+               henceforth they fetter, my craftiness.</ab>
+         </div>
+         <div type="section" n="12">
+            <ab>Carved images henceforth are a mockery and the carvers: a derision, and the
+               worshippers a laughing-stock.</ab>
+         </div>
+         <div type="section" n="13">
+            <ab>I shut men’s eyes that they might not perceive, that they are carved images: <persName>Jesus</persName>
+               opens their eyes to see that they are the works of men’s hands.</ab>
+         </div>
+         <div type="section" n="14">
+            <ab>If <persName>Jesus</persName> has chosen for Himself preachers, then our preaching: whereof the whole
+               world is full, is put to silence.</ab>
+         </div>
+         <div type="section" n="15">
+            <ab>For lo! the Chaldeans with the soothsayers, and lo! the wizards: with the diviners
+               they are smitten and the priests, with all evil ones!</ab>
+         </div>
+         <div type="section" n="16">
+            <ab>Ye priests are ended and have given up the Ghost from henceforth, depart ye diviners!
+               become husbandmen, the Chaldeans likewise, shall close their books.</ab>
+         </div>
+         <div type="section" n="17">
+            <ab>If the Hebrews have become His disciples, who by all miracles: were not subdued, who
+               of the nations, shall not obey him?</ab>
+         </div>
+         <div type="section" n="18">
+            <ab>If he begins to set straight the reverse, He brings to naught our speech: henceforth
+               He will not hesitate against us, He who rebukes all men.</ab>
+         </div>
+         <div type="section" n="19">
+            <ab>In that I was worshipped in all temples, our disgrace is greater: than our honour
+               was, for all men spit, upon our altars.</ab>
+         </div>
+         <div type="section" n="20">
+            <ab>Flesh of sacrifice becomes abhorred, into fragments: idols are broken, and carven
+               images burn, under their pots.</ab>
+         </div>
+         <div type="section" n="21">
+            <ab>All our work becomes a laughing-stock, and a ruin: all that we have built, and a
+               mockery, all that we have taught.</ab>
+         </div>
+         <div type="section" n="22">
+            <ab>The secret mysteries that I taught them, laboriously: are about to be spread abroad,
+               on the housetops.</ab>
+         </div>
+         <div type="section" n="23">
+            <ab>Of the Egyptians I was more proud, than of any nation: for they used to worship even,
+               the onions and garlic.</ab>
+         </div>
+         <div type="section" n="24">
+            <ab>Lo! I fear lest even here, where delusion was so great: truth shall prevail that
+               there exceedingly, <persName>Jesus</persName> may reign.</ab>
+         </div>
+         <div type="section" n="25">
+            <ab>And if when He was an infant, and fled and went down, <placeName>Egypt</placeName> marvelled: yea lulled
+               him—this strangler of babes, loved their Babe.</ab>
+         </div>
+         <div type="section" n="26">
+            <ab>Was it a pledge He went down to give her, as a betrother: giving assurance that when
+               of full age, He will also take her to wife?</ab>
+         </div>
+         <div type="section" n="27">
+            <ab>Pharaoh cannot set his foot firm, for this is no stammerer: that he should deceive
+               Him, and no bondman, that he should lie unto Him.</ab>
+         </div>
+         <div type="section" n="28">
+            <ab><persName>Moses</persName> smote and the Egyptians rebelled, and he chastised the people: and the Hebrews
+               rebelled—<persName>Jesus</persName> is smitten, and gives life to all.</ab>
+         </div>
+         <div type="section" n="29">
+            <ab>This is hard to understand that not by force; lays He His yoke: on the rebellious: He
+               was rebuked, and He instructs others.</ab>
+         </div>
+         <div type="section" n="30">
+            <ab>The spittle of His mouth, wiped off and took away, the shame of <persName>Adam</persName>: by the smiting
+               of His cheeks, He rooted out our wrathfulness, from His disciples.</ab>
+         </div>
+         <div type="section" n="31">
+            <ab>By the nails which he received, He made me to suffer. I rejoiced when I crucified
+               Him: and I knew not that He was crucifying me, in His crucifixion.</ab>
+         </div>
       </body>
    </text>
 </TEI>
