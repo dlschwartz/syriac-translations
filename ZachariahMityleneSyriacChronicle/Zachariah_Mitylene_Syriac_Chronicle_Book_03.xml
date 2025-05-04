@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Syriac Chronicle</title>
+            <author><persName>Zachariah</persName> of <placeName>Mitylene</placeName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb type="page" n="39"/>
+         <div type="book" n="3">
+            <head>Book 3</head>
+            <div type="section" n="0">
+               <p>The beginning of the third Book, which (inasmuch as it is from the history of
+                  <persName>Zachariah</persName> the believer, who wrote in Greek to one <persName>Eupraxius</persName> by name, a minister of
+                  the king, and engaged in his service) records the events that took place in the
+                  <placeName>Synod</placeName>, which met at <placeName>Chalcedon</placeName>, after the death of <persName>Theodosius</persName>, in the days of
+                  <persName>Marcian</persName>, in the year seven hundred and sixty-four by the reckoning of the Greeks.
+                  And the number of the bishops was five hundred and sixty-seven, who were brought
+                  together in consequence of the exertion of <persName>Leo</persName> of <placeName>Rome</placeName>, and the letter that he
+                  wrote to the king and his wife <persName>Pulcheria</persName>. And the Synod sent <persName>Dioscorus</persName> of
+                  <placeName>Alexandria</placeName> away to <placeName>Gangra</placeName> of <persName>Thrace</persName>, and appointed <persName>Proterius</persName> bishop in his stead,
+                  and received the letter of <persName>Leo</persName>, which is called the <persName>Tome</persName>. And the other matters,
+                  which occurred in <placeName>Jerusalem</placeName>, or in <placeName>Alexandria</placeName>, or in other places during the life
+                  of <persName>Marcian</persName>, that is, a space of six years and a half; behold they are written down
+                  here distinctly in these twelve Books below and the chapters contained in
+                  them.</p>
+               <p>The first chapter relates the events which occurred in the Synod of <persName>Chalcedon</persName>,
+                  until the public address of <persName>Marcian</persName> the king to the bishops assembled there.</p>
+               <p>The second chapter tells about the banishment of <persName>Dioscorus</persName> to <placeName>Gangra</placeName>, and the
+                  consecration of <placeName>Proterius</placeName> in his stead; and the events which occurred in
+                  <placeName>Alexandria</placeName> upon his entry there.</p>
+               <p>The third chapter relates the events which occurred in <placeName>Palestine</placeName>, concerning
+                  Juvenalis of <placeName>Jerusalem</placeName>, who broke his promises, and separated from <placeName>Dioscorus</placeName>, and
+                  agreed to the Synod. And when the citizens of <placeName>Jerusalem</placeName> and the <pb type="page"
+                     n="40"/>Palestinian monks learned this, they appointed, as bishop in his stead,
+                  one <persName>Theodosius</persName>, a monk; who, in his zeal, had attended and watched the Synod
+                  closely, and then went back to <placeName>Palestine</placeName> and told what had occurred at
+                  <placeName>Chalcedon</placeName>.</p>
+               <p>The fourth chapter tells of <persName>Peter</persName> the hostage, the son of the king of the
+                  Iberians, a wonderful man, who was taken by the people of <placeName>Gaza</placeName>; and they brought
+                  him to <persName>Theodosius</persName> of <placeName>Jerusalem</placeName>, by whom he was consecrated as their bishop.</p>
+               <p>The fifth chapter tells about the flight of <persName>Theodosius</persName> of <placeName>Jerusalem</placeName>, in
+                  consequence of the king's threats; and also about the return of <persName>Juvenalis</persName>, by
+                  force, to <placeName>Jerusalem</placeName>, and the great slaughter that ensued upon his entry there.</p>
+               <p>The sixth chapter gives an account of a certain blind Samaritan, who smeared his
+                  eyes with the blood of the slain, and they were opened.</p>
+               <p>The seventh chapter tells how <persName>Christ</persName> appeared in vision to <persName>Peter</persName> the Iberian,
+                  bishop of <placeName>Gaza</placeName>, and told him to depart from thence, and also himself to suffer
+                  banishment of his own accord.</p>
+               <p>The eighth chapter tells about a certain monk, named <persName>Solomon</persName>, who acted cunningly,
+                  and went in to Juvenalis of <placeName>Jerusalem</placeName>, and threw a basketful of dust upon his
+                  head, and reproached him.</p>
+               <p>The ninth chapter tells how <persName>Theodosius</persName> of <placeName>Jerusalem</placeName> was taken, and was imprisoned
+                  in a house containing lime, and there he ended his life.</p>
+               <p>The tenth chapter tells about the heresy of <persName>John</persName> the Rhetorican, and how this
+                  heresy was anathematised by <persName>Timothy</persName>, the bishop of <placeName>Alexandria</placeName>, after
+                  him.<ptr type="noteAnchor" target="#n40-1"/></p>
+               <p>The eleventh chapter tells about the mission of <persName>John</persName> the Silentiarius, from the
+                  king to <placeName>Alexandria</placeName>.</p>
+               <p>The twelfth chapter tells about <persName>Anthemius</persName>, and <persName>Severus</persName>, and <persName>Olybrius</persName>, and <persName>Leo</persName> the
+                  Less, and what happened in the seven years of their reign.<ptr type="noteAnchor" target="#n40-2"/></p>
+            </div>
+            <pb type="page" n="41"/>
+            <div type="chapter" n="1">
+               <head>Chapter 1</head>
+               <p>The<ptr type="noteAnchor" target="#n41-1"/> first chapter of this book tells about theevents which occurred in the
+                  Synod, beingtaken from the history of one <persName>Zachariah</persName> by name, who begins to write in
+                  Greek to <persName>Eupraxius</persName> as follows</p>
+               <p>Since it is acceptable unto you, and desired by you, Christ-loving
+                  <persName>Eupraxius</persName>,<ptr type="noteAnchor" target="#n41-2"/> who are dwelling in the royal palace, and are occupied in the
+                  service of kings, to learn what happened, in the reign of <persName>Marcian</persName>, to the holy
+                  Church of God; and who they were who, in regular succession, were the chief
+                  priests in <placeName>Alexandria</placeName>, and <placeName>Rome</placeName>, and <placeName>Constantinople</placeName>, and <placeName>Antioch</placeName>, and <placeName>Jerusalem</placeName>,
+                  from the time of the Council of <placeName>Chalcedon</placeName> — that Council which, ostensibly
+                  convened about the matter of <persName>Eutyches</persName>, introduced and increased the heresy of
+                  <persName>Nestorius</persName>; and shook all the world; and added evil upon evil; and set the two
+                  heresies, one against the other; and filled the world with divisions; and
+                  confounded <ptr type="noteAnchor" target="#n41-3"/> the faith delivered by the apostles, and the good
+                  order<ptr type="noteAnchor" target="#n41-4"/> of the Church; and tore into ten thousand rents the perfect Robe of
+                  <persName>Christ</persName>, woven from the top throughout: therefore we, anathematising those two
+                  heresies, and every wicked teacher of doctrine corrupt and contrary to the Church
+                  of God, and to the orthodox faith of the three holy Synods, which skilfully
+                  maintained the true doctrine; shall, to that end, employ this history which you
+                  urged us to undertake.</p>
+               <p>After the death of the holy <persName>Cyril</persName> of <placeName>Alexandria</placeName>, who carried on the conflict
+                  against many corrupt doctrines, and exposed them, <persName>Dioscorus</persName> received the throne as
+                  his successor; <pb type="page" n="42"/>and he was a peaceable man, and also a
+                  champion;<ptr type="noteAnchor" target="#n42-1"/> although he had not the same promptitude and boldness as
+                  <persName>Cyril</persName>.</p>
+               <p>At that time <persName>Theodoret</persName> and <persName>Hibo</persName>, who, along with <persName>Flavian</persName> of <placeName>Constantinople</placeName> and
+                  <persName>Eusebius</persName>, were deposed by the second Synod of <persName>Ephesus</persName>, which met there in the days
+                  of <persName>Theodosius</persName>, about the matter of <persName>Eutyches</persName> and <persName>Flavian</persName> — Theodoret of <persName>Cyrrhus</persName>,
+                  because he wrote twelve censures upon <persName>Cyril's</persName> Heads against <persName>Nestorius</persName>; and <persName>Hibo</persName> of
+                  <placeName>Edessa</placeName>, because he wrote a letter to <persName>Moris</persName> of <placeName>Nisibis</placeName>, reviling <persName>Cyril</persName> — were, both
+                  of them, upholding the doctrine of <persName>Theodore</persName> and <persName>Diodorus</persName>. And <persName>Theodoret</persName><ptr type="noteAnchor" target="#n42-2"/>
+                  went up to <persName>Leo</persName> of <placeName>Rome</placeName>, and informed him about all these matters; and, with the
+                  gift which blinds the eyes of the soul, he got the better of him. Whereupon <persName>Leo</persName>
+                  composed<ptr type="noteAnchor" target="#n42-3"/> that letter which is called the Tome, and which was ostensibly
+                  written to <persName>Flavian</persName> against Eutychianism. But <persName>Leo</persName> also wrote to <persName>Marcian</persName> the king,
+                  and his wife <persName>Pulcheria</persName>, and warmly commended <persName>Theodoret</persName> to them.</p>
+               <p>This<ptr type="noteAnchor" target="#n42-4"/> <persName>Marcian</persName> favoured the doctrine of <persName>Nestorius</persName>, and was well disposed
+                  towards his; and so he sent by <persName>John</persName> the Tribune, to recall <persName>Nestorius</persName> from his
+                  place of banishment in Oasis; and to recall also <persName>Dorotheus</persName>, the bishop who was
+                  with him. And it happened while he was returning, that he set at naught<ptr type="noteAnchor" target="#n42-5"/>
+                  the holy Virgin, the <persName>Theotokos</persName>, and said, <quote>What is <persName>Mary</persName>? Why should she indeed be
+                  called the <persName>Theotokos</persName>?</quote> And the righteous judgment of God speedily overtook him (as
+                  had been the case formerly with <persName>Arius</persName>, who blasphemed</p>
+               <p>against the Son of God). Accordingly he fell from his mule, and the tongue<ptr type="noteAnchor" target="#n42-6"/>
+                  of this <persName>Nestorius</persName> was cut off, and his mouth was eaten by worms, and he died on
+                  the roadway. And his companion Dorotheus died also. And the king, hearing of it,
+                  was greatly grieved; and he was thinking upon <pb type="page" n="43"/>what had
+                  occurred, and he was in doubt as to what he should do.</p>
+               <p>However, written directions from <persName>Marcian</persName> the king<ptr type="noteAnchor" target="#n43-1"/> were delivered by <persName>John</persName>
+                  the Tribune to Dioscorus and Juvenalis, calling upon them to meet in Council, and
+                  <persName>John</persName> also informed them of what had happened to <persName>Nestorius</persName> and to <persName>Dorotheus</persName>.</p>
+               <p>And when the bishops of every place, who were summoned, were preparing to meet at
+                  <placeName>Nicea</placeName>, Providence<ptr type="noteAnchor" target="#n43-2"/> did not allow them; for the king<ptr type="noteAnchor" target="#n43-3"/> issued a new
+                  order that the assembly should be convened to <placeName>Chalcedon</placeName>, so that <placeName>Nicea</placeName> might not
+                  be the meeting-place of rebels.</p>
+               <p>Then<ptr type="noteAnchor" target="#n43-4"/> the <persName>Nestorian</persName> party earnestly urged and besought the king that
+                  <persName>Theodoret</persName> should be appointed the president of the Synod, and that, according to
+                  his word, every matter should be decided there.<ptr type="noteAnchor" target="#n43-5"/> And when they met at
+                  <placeName>Chalcedon</placeName>, <persName>Theodoret</persName> entered in and lived there boldly, like an honoured bishop;
+                  he who a little time before had been ejected<ptr type="noteAnchor" target="#n43-6"/> from the priesthood by their
+                  means. And <persName>Dioscorus</persName> and the chief bishops were vexed and troubled on account of
+                  the haughty insolence which the man displayed; but they could not put a stop to
+                  it, because of the royal authority, though they saw that the canons were despised
+                  by him, and by <persName>Hibo</persName> also, with the help of the Roman legates of <persName>Leo</persName>, who were
+                  aiding and abetting them.</p>
+               <p>And when <persName>Dioscorus</persName> was proclaiming the doctrine of the faith in the Synod, and
+                  with him Juvenalis, and <persName>Thalassius</persName> of <placeName>Cappadocia</placeName>, and <persName>Anatolius</persName>, and <persName>Amphilochius</persName>
+                  of <placeName>Side</placeName>, and <persName>Eusebius</persName> of <placeName>Ancyra</placeName>, and <persName>Eustace</persName> of <placeName>Berytus</placeName>; then, as by a miracle,
+                  <persName>Eusebius</persName> of <placeName>Dorylaeum</placeName> also agreed with them; for they saw that the Nestorian
+                  doctrine of the two natures was confirmed, and established there, by the
+                  co-operation of <persName>John</persName> of <placeName>Germanicia</placeName>, who fiercely contended, in the course of the
+                  dispute there, with the side which said, <quote>It is right for <pb type="page" n="44"
+                  />us to confess <persName>Christ</persName> after His incarnation as one Nature from two, according to
+                  the belief of the rest of the Fathers, and not to introduce any innovation or add
+                  any novelty to the faith.</quote></p>
+               <p>Wherefore, <persName>John</persName> of <placeName>Germanicia</placeName>, and the rest of the Nestorian party, with <persName>Theodoret</persName>
+                  at their head, brought about the deprivation of <persName>Dioscorus</persName>; because he said, "It is
+                  right for us to believe that <persName>Christ</persName> became incarnate from two natures; and we
+                  should not confess two natures after the union, like <persName>Nestorius</persName>.</p>
+               <p>And<ptr type="noteAnchor" target="#n44-1"/> then <persName>Anatolius</persName>, the bishop of the royal city, cried out in words to
+                  this effect, <quote>Not for the faith is <persName>Dioscorus</persName> deposed; but he is set at
+                  nought<ptr type="noteAnchor" target="#n44-2"/> for refusing to hold communion with the chief priest, my lord
+                     <persName>Leo</persName>.</quote></p>  
+               <p>And after the outcry of many, and after the things had been spoken which have been
+                  written in the Acts<ptr type="noteAnchor" target="#n44-3"/> of that Council, at last those bishops being forced to
+                  do so, defined our Lord <persName>Jesus Christ</persName> to be in two natures. And they praised the
+                  Tome of <persName>Leo</persName>, and they called that an orthodox definition which said, <quote>There are
+                  two Persons, and two Natures, with their properties and their operations.</quote> And
+                  this being so, they were required to subscribe under compulsion; those very
+                  priests who, a little time before in the days of the blessed <persName>Theodosius</persName>, being
+                  assembled at the second Council of <persName>Ephesus</persName>, cried out many times, <quote>If anyone shall
+                  say <quote>Two natures to two,</quote> let the Silentiarius come up!</quote><ptr type="noteAnchor" target="#n44-4"/></p>
+               <p>And when they repeated this over to <persName>Dioscorus</persName>, by means of <persName>John</persName> the chief of the
+                  Silentiarii, and asked him to agree to it, and to subscribe, and get back his
+                  throne; he said, courageously, <quote>Sooner would <persName>Dioscorus</persName> see his own hand cut off,
+                  and the blood falling on the paper, than do such a thing as that.</quote> Whereupon he
+                  was sent into banishment to <placeName>Gangra</placeName>, <pb type="page" n="45"/>because the Nestorian
+                  party published the report about him, that his opinions were the same as those of
+                  <persName>Eutyches</persName>.</p>
+               <p>And I think it well, omitting many of his sayings, both what he spoke and wrote to
+                  <persName>Domnus</persName> of <placeName>Antioch</placeName>, and in the Synod of <placeName>Chalcedon</placeName> itself, which testify concerning
+                  the faith of the man, that his faith was like that of <persName>Athanasius</persName>, and <persName>Cyril</persName>, and
+                  the other doctors, I think it well (I say) to make a written extract out of what
+                  he wrote from his place of banishment to <persName>Secundinus</persName>, in the following words: —</p>
+               <p>"Omitting many urgent matters, this I declare, that no man shall say that the holy  <!-- quotes start but do not end ? -->
+                  flesh, which our Lord took from the Virgin <persName>Mary</persName>, by the operation of the Holy
+                  Spirit, in a manner which He Himself knows, was different to and foreign from our
+                  body. And, indeed, since this is so, they who affirm that <persName>Christ</persName> did not become
+                  incarnate for us, give the lie<ptr type="noteAnchor" target="#n45-1"/> to <persName>Paul</persName>. For he has said, <quote>Not from angels
+                  did He take (the nature), but from the seed of the House of <persName>Abraham</persName></quote>; to which
+                  seed <persName>Mary</persName> was no stranger, as the Scriptures teach us. And again, <quote>It was right
+                  that in everything He should be made like unto His brethren,</quote> and that word <quote>in
+                  everything</quote> does not suffer the subtraction of any part of our nature: since in
+                  nerves, and hair, and bones, and veins,<ptr type="noteAnchor" target="#n45-2"/> and belly, and heart, and kidneys,
+                  and liver, and lungs, and, in short, in all those things that belong to our
+                  nature, the flesh which was born from <persName>Mary</persName> was compacted with the soul of our
+                  Redeemer, that reasonable and intelligent soul, without the seed of man, and the
+                  gratification and cohabitation of sleep.</p>
+               <p>"<quote>For if, as the heretics think, this was not so, how is He named <quote>our brother,</quote>
+                  supposing that He used a body different from ours? And how, again, is that true
+                  which He said to His Father, <quote>I will declare Thy name to My brethren?</quote><ptr type="noteAnchor" target="#n45-3"/> Let
+                  us not reject, neither let us despise, those who think in this way. For He was
+                  like us, for us, and with us, not in phantasy, nor in mere semblance, according to
+                  the heresy <pb type="page" n="46"/>of the Manichaeans, but rather in actual reality
+                  from <persName>Mary</persName>, the Theotokos. To comfort the desolate<ptr type="noteAnchor" target="#n46-1"/> and to repair the vessel
+                  that had been broken, He came to us new. And as <persName>Immanuel</persName>, indeed, He is confessed;
+                  for He became poor for us, according to the saying of <persName>Paul</persName>, <quote>that we, by His
+                  humiliation, might be made rich.</quote><ptr type="noteAnchor" target="#n46-2"/> He became, by the dispensation, like us;
+                  that we, by His tender mercy, might be like Him. He became man, and yet He did not
+                  destroy that which is His nature, that He is Son of God; that we, by grace, might
+                  become the sons of God. This I think and believe; and, if any man does not think
+                  thus, he is a stranger to the faith of the apostles.</quote>"</p>
+               <p>And although<ptr type="noteAnchor" target="#n46-3"/> this apostolic man had been well versed in this confession of
+                  faith from the beginning of his life, yet he was deposed and sent into banishment,
+                  because he would not worship the image, with its two faces, which was set up by
+                  <persName>Leo</persName> and by the Council of <placeName>Chalcedon</placeName>; and because he refused to hold communion with
+                  <persName>Theodoret</persName> and <persName>Hibo</persName>, who had been deprived on account of their blasphemies.</p> 
+               <p>But the story goes that when, on one occasion, he saw <persName>Theodoret</persName> sitting upon the
+                  throne in the Council, and speaking from it, and not standing and making his
+                  defence, as one should who had been canonically deposed from the priesthood; then
+                  he himself arose and descended from the throne and sat upon the pavement, saying,
+                  <quote>I will not sit with the wicked, nor with vain persons will I enter in.</quote></p> 
+               <p>Whereupon the partisans of <persName>Theodoret</persName> cried out, <quote>He has deposed himself.</quote> But the
+                  other bishops cried out, <quote>Our faith<ptr type="noteAnchor" target="#n46-4"/> is perishing. If Theodoret, who holds
+                  the opinions of <persName>Nestorius</persName>, be accepted, we reject <persName>Cyril</persName>.</quote> And then <persName>Basil</persName>, the
+                  bishop of <placeName>Tripolis</placeName>, stood up and said, <quote>We ourselves have deposed <persName>Theodoret</persName>.</quote></p>  
+               <p>But they say that <persName>Amphilochius</persName> was beaten on his head by <persName>Aetius</persName> the deacon, to
+                  make him sign. It was this <persName>Aetius</persName> who went to <persName>Theodoret</persName> by night, and made a
+                  complete copy <pb type="page" n="47"/>for him of the Symbol of the two Natures;
+                  and when<ptr type="noteAnchor" target="#n47-1"/> it was accepted by the bishops, and they agreed to it, then
+                  <persName>Theodoret</persName> insolently<ptr type="noteAnchor" target="#n47-2"/> derided<ptr type="noteAnchor" target="#n47-3"/> them, saying, <quote>See how I have made
+                  them taste the leaven of the doctrine of Nestorius, and they are delighted with
+                  it!</quote><ptr type="noteAnchor" target="#n47-4"/></p>
+               <p>"But Eustace of Berytus, when he signed the document, wrote in short hand,<ptr type="noteAnchor" target="#n47-5"/> <!-- Quote starts but do not finish-->
+                  <quote>This have I written under compulsion, not agreeing with it.</quote> And he wept very
+                  much, as did also others who proclaimed the compulsion and exposed the
+                  hypocritical profession of faith which was made, because the chief senators were
+                  present time after time at the discussions, and closely watched the proceedings of
+                  the Synod. But, at last, the king came there, with his wife <persName>Pulcheria</persName>, and he
+                  delivered a public address<ptr type="noteAnchor" target="#n47-6"/> in the Martyr Church of <persName>Euphemia</persName> in the
+                  following terms: —</p>
+               <p><quote>From<ptr type="noteAnchor" target="#n47-7"/> the first time that we were chosen and accounted worthy of the
+                  kingdom by God, amidst all the care of public business, no concern whatever in
+                  which we might be involved<ptr type="noteAnchor" target="#n47-8"/> was allowed to hinder us, but we made it our
+                  choice to honour the true faith of the Christians, and to accustom<ptr type="noteAnchor" target="#n47-9"/> the
+                  minds of men to it, with purity; all novelty of false doctrines and preachings
+                  that do not agree with the well proved doctrine of the Fathers, being taken out of
+                  our midst. Therefore we summoned this holy Synod that it might cleanse away all
+                  darkness, and put away filth of thoughts: that so, in pure mind, the doctrine of
+                  the faith which is in our Lord <persName>Jesus Christ</persName> might be established,</quote> and so on, to
+                  the same effect.</p>
+               <p>When the king had finished his public address, the bishops praised him and the
+                  Senate, and also the letter of <persName>Leo</persName>, affirming with respect to it that it agreed
+                  with the faith of the Apostle <persName>Peter</persName>.</p>
+            </div>
+            <pb type="page" n="48"/>
+            <div type="chapter" n="2">
+               <head>Chapter 2</head>
+               <p>The second chapter tells about the banishment of <persName>Dioscorus</persName>, and the consecration of
+                  <persName>Proteriusin</persName> his stead; and about the slaughter which ensued upon his coming in;
+                  and the churchfunds, which he expended upon his allies the Romans, but which, by
+                  right, belonged to the poor.</p>
+               <p>The Synod having received such an end as this, <persName>Dioscorus</persName><ptr type="noteAnchor" target="#n48-1"/> was decreed to be
+                  a confessor, and was sent away to live in <placeName>Gangra</placeName>; and <persName>Proterius</persName> was appointed
+                  bishop in <placeName>Alexandria</placeName>, in his stead. This <persName>Proterius</persName><ptr type="noteAnchor" target="#n48-2"/> had been a presbyter on
+                  his side, and had contended earnestly against the Synod at first, but afterwards,
+                  with the object of snatching the see for himself, he became like <persName>Judas</persName>, a betrayer
+                  of his master, and like <persName>Absalom</persName>, of his father; and he showed himself a rapacious
+                  wolf in the midst of the flock. And many who were unwilling he afflicted and
+                  ill-treated, to force them into agreement with himself. And he sent them into
+                  banishment, and he seized their property by means of the governors<ptr type="noteAnchor" target="#n48-3"/> who
+                  obeyed him in consequence of the king's command.</p>
+               <p>Whereupon, indeed, the priests, and the monks, and many of the people, perceiving
+                  that the faith had been polluted, both by the unjust deposition of <persName>Dioscorus</persName> and
+                  the oppressive conduct of <persName>Proterius</persName> and his wickedness, assembled by themselves in
+                  the monasteries, and severed themselves from his communion. And they proclaimed
+                  <persName>Dioscorus</persName>, and wrote his name in the book of life as a chosen and faithful priest
+                  of God.</p>
+               <p>And <persName>Proterius</persName> was very indignant, and he gave gifts into the hand of the Romans,
+                  and he armed them against the people, and he filled their hands with the blood of
+                  believers, who were slain; for they also strengthened themselves,<ptr type="noteAnchor" target="#n48-4"/> and made
+                  war. And many died at the very Altar, and in the Baptistery, who had fled and
+                  taken refuge there.</p>
+            </div>
+            <pb type="page" n="49"/>
+            <div type="chapter" n="3">
+               <head>Chapter 3</head>
+               <p>The third chapter narrates the events whichoccurred in <placeName>Palestine</placeName> respecting
+                  Juvenalis of <placeName>Jerusalem</placeName>, who broke his promises, and separated himself from
+                  <persName>Dioscorus</persName>. And the monksand the citizens of <placeName>Jerusalem</placeName> heard of the matter from
+                  <persName>Theodosius</persName>, a monk, who, through zeal, was present at <placeName>Chalcedon</placeName>, and who,
+                  afterhaving carefully watched the proceedingsthere, came to <placeName>Jerusalem</placeName> and gave
+                  informationabout them; and they made him bishop by force, instead of Juvenalis</p>
+               <p>And in <placeName>Palestine</placeName>, indeed, there were evils like these, and worse. But from what
+                  cause I shall now tell. When Juvenalis was summoned to <placeName>Chalcedon</placeName>, and he learned
+                  from <persName>John</persName> the Tribune the will of the king; and also that <persName>Nestorius</persName>, who had been
+                  recalled, died on his return from banishment; then he (in as much as he was
+                  persuaded that the doctrine of the Tome, which favoured the opinion of <persName>Nestorius</persName>,
+                  was corrupt) summoned the clergy, and gathered the monks and the people together;
+                  and he exposed this false doctrine, and anathematised it. And he confirmed the
+                  souls of many in the true faith. And he charged them all, that if he should be
+                  perverted in the Synod, they should hold communion with him no more.</p>
+               <p>And at first when he went there, he made a great struggle, along with <persName>Dioscorus</persName>,
+                  on behalf of the faith. But because the royal pressure<ptr type="noteAnchor" target="#n49-1"/> was brought to
+                  bear; and because of the flattery and compliments of the king, who himself waited
+                  personally upon the bishops at the banquet, and showed great condescension to
+                  them; and because the king also promised that he would give the three provinces of
+                  <placeName>Palestine</placeName> to the honour of the see of <placeName>Jerusalem</placeName>; then the eyes of his mind were
+                  darkened, and he left <persName>Dioscorus</persName> the champion<ptr type="noteAnchor" target="#n49-2"/> alone, and <pb type="page"
+                     n="50"/>he went over to the opposite side. And he treated with contempt the
+                  oaths which he had made in the name of God. And both he and the bishops who were
+                  with him agreed and subscribed.</p>
+               <p>And<ptr type="noteAnchor" target="#n50-1"/> when <persName>Theodosius</persName> the monk, and his companions who were in close
+                  fellowship with him, and who zealously watched what was taking place in the Synod,
+                  heard about this they returned quickly to <placeName>Palestine</placeName>; and they came to <placeName>Jerusalem</placeName>,
+                  and told about the betrayal of the faith. And they called all the monks together,
+                  and gave full information to them.</p>
+               <p>And the monks assembled, and prepared themselves, and went to meet Juvenalis as he
+                  was coming. And they reminded him of his promises, and that he had failed to keep
+                  them. And they made this one request of him, that he would censure the proceedings
+                  which had taken place, and anathematise them. But he showed himself like Pilate,
+                  saying, <quote>What I have written, I have written.</quote> And the monks said to him, <quote>We will
+                  not receive you then, for you have broken<ptr type="noteAnchor" target="#n50-2"/> your oaths and your promises.</quote>
+                  So he returned to the king.</p>
+               <p>But the assembly of monks and clergy went back to <placeName>Jerusalem</placeName>. And the people, and
+                  the bishops who were with them, were distressed,<ptr type="noteAnchor" target="#n50-3"/> and they consulted
+                  together as to what they should do. And they decided to appoint another bishop
+                  instead of Juvenalis. When they were speaking of the chaste monks, Romanus and
+                  Marcian, and of other men of wonderful excellence; at length<ptr type="noteAnchor" target="#n50-4"/> it was agreed
+                  that they should appoint <persName>Theodosius</persName>, who had been found zealous, and who also had
+                  contended for years on behalf of the faith. And they took him by force, while he
+                  persisted in refusing, and conjuring them not to do so, and begging them to allow
+                  him to be the helper of the person whom they appointed from amongst themselves.
+                  However, they would not yield to his entreaties; but blessed him and placed him on
+                  the throne. And when <pb type="page" n="51"/>the other cities of <placeName>Palestine</placeName> heard
+                  it; in as much as they knew him to be a man of surpassing virtue, and zealous for
+                  the truth; they severally<ptr type="noteAnchor" target="#n51-1"/> brought persons to receive his blessing and be
+                  admitted to the priesthood.</p>
+            </div>
+            <div type="chapter" n="4">
+               <head>Chapter 4</head>
+               <p>The fourth chapter tells about <persName>Peter</persName> the Iberian;and how he also was taken, and
+                  was broughtto <persName>Theodosius</persName> by the people of <placeName>Gaza</placeName>; and he became their bishop</p>
+               <p>Among these also was <persName>Peter</persName> the Iberian, a man wonderfully celebrated throughout
+                  the world, a king's son, who had been given as a hostage to <persName>Theodosius</persName>; and who
+                  was beloved by him and by his wife <persName>Eudocia</persName>, on account of his excellent parts. And
+                  he was brought up in the king's palace; and he was placed in charge of the royal
+                  horses. But he resigned this appointment, and gave himself up to the discipline of
+                  <persName>Christ</persName> along with <persName>John</persName> the Eunuch also, who was his sponsor, and his father by
+                  water and the Spirit. And they prospered, and God wrought signs by their means in
+                  <placeName>Constantinople</placeName>. And they fled from thence, and betook themselves next to the
+                  wilderness of <placeName>Palestine</placeName>, and there they loved and cultivated the monastic life.
+                  And although after this manner they desired to be hidden, yet they became greatly
+                  celebrated; and they wrought signs like the apostles.</p>
+               <p>And as they were changing from place to place, they arrived opposite to <placeName>Gaza</placeName> and
+                  <placeName>Majuma</placeName>. And the men and the women and the people of all ranks and ages went out
+                  and seized <persName>Peter</persName>, and brought him to <placeName>Jerusalem</placeName> to <persName>Theodosius</persName>, whom they besought
+                  to make him their bishop.</p>
+               <p>And he laid many charges against himself, and refused ordination. And against his
+                  will <persName>Theodosius</persName> laid his hand upon his head and consecrated him, for he knew the
+                  man.</p>
+               <pb type="page" n="52"/>
+               <p>And when he became violently agitated, and called himself a heretic; then
+                  <persName>Theodosius</persName> hesitated<ptr type="noteAnchor" target="#n52-1"/> a little, and said to him, <quote>My cause and thine are
+                  before the Judgment Seat of <persName>Christ</persName>.</quote> And he changed his words, saying, <quote>A heretic
+                  indeed I am not, but a sinner.</quote> And <persName>Theodosius</persName>, being well acquainted with the
+                  man, blessed him as priest for the people of <placeName>Gaza</placeName>.</p>
+               <p>But there were other excellent deeds done by this man, which, however, I omit,
+                  lest I should make my narrative too long.</p>
+            </div>
+            <div type="chapter" n="5">
+               <head>Chapter 5</head>
+               <p>The fifth chapter tells about the flight of <persName>Theodosius</persName> of <placeName>Jerusalem</placeName>, in consequence
+                  of the King’s threats; also about Juvenalis, who returnedwith an army of Romans;
+                  and the great slaughter that ensued upon his entry there</p>
+               <p>And when <persName>Theodosius</persName> was prospering in this manner, the report<ptr type="noteAnchor" target="#n52-2"/> of all that
+                  he was doing reached <persName>Marcian</persName> the king. And Juvenalis returned, having with him
+                  Count <persName>Dorotheus</persName> and an army; for the purpose of taking <persName>Theodosius</persName>, and making him
+                  a prisoner, and deposing all the bishops whom he had made in his district, and
+                  punishing<ptr type="noteAnchor" target="#n52-3"/> the monks and the people, and expelling them in consequence of
+                  their insolence and rashness in setting up <persName>Theodosius</persName> as bishop in <placeName>Jerusalem</placeName>. But,
+                  by the desire of the queen, <persName>Peter</persName> the Iberian alone was to be spared; even though
+                  he should not consent to hold communion with the other bishops.</p>
+               <p>And when Juvenalis arrived at <placeName>Neapolis</placeName>, he found a large number of monks there;
+                  and at first he tried to seduce them, simple men as they were, and single-minded,
+                  whose arms and helmet were the true faith and works of righteous<pb type="page"
+                     n="53"/>ness. These he endeavoured to persuade to hold communion with himself.
+                  And when they turned away from this proposal with disgust, unless he would
+                  anathematise the violent transactions of <persName>Chalcedon</persName>; he then said, <quote>It is the
+                  king's will.</quote> And they still refused. Whereupon he gave orders to the Romans and
+                  the Samaritans, who smote and killed these monks, while they were singing psalms
+                  and saying, <quote>O God, the heathen are come into Thine inheritance, and they have
+                  defiled Thy holy temple; and behold they are making <placeName>Jerusalem</placeName> a waste place!</quote><ptr type="noteAnchor" target="#n53-1"/></p>
+               <p>And some of the Romans were overcome with pity, and wept. But some of them, along
+                  with the Samaritans, killed many of the monks, whose blood also was poured out
+                  upon the ground.</p>
+            </div>
+            <div type="chapter" n="6">
+               <head>Chapter 6</head>
+               <p>The sixth chapter tells about a certain blind Samaritan who drew near with faith,
+                  andsmeared his eyes with the blood of those thatwere slain; and his sight was
+                  restored<ptr type="noteAnchor" target="#n53-2"/></p>
+               <p>There was a certain blind Samaritan who deceived his own guide, and said, <quote>Since
+                  mine eyes cannot see the blood of the slaughter of these Christians, so that I may
+                  delight myself in it; bring me near and I shall feel it.</quote> And when the guide
+                  brought him near and caused him to feel it, he dipped his hands in the blood. And
+                  he prostrated himself upon the ground; and he wept, with prayer and supplication,
+                  that he might be a sharer in their martyrdom. Then he arose, and smeared his eyes,
+                  and lifted up his hands to heaven; and his eyes were opened, and he received his
+                  sight.</p>
+               <p>And all who were witnesses of this miracle, were astonished and believed in God.
+                  And the blind man also believed, and was baptized.</p>
+               <p>But the party who administered the king's orders, laid <pb type="page" n="54"
+                  />hold upon the surviving believers, and expelled<ptr type="noteAnchor" target="#n54-1"/> them from the whole
+                  district.</p>
+            </div>
+            <div type="chapter" n="7">
+               <head>Chapter 7</head>
+               <p>The seventh chapter related how our Lord appeared to <persName>Peter</persName> the Iberian, of <placeName>Gaza</placeName>;
+                  and told himthat he must depart along with those whowere expelled</p>
+               <p>But they say that Peter the Illustrious was at rest, being left undisturbed by
+                  all, both on account of the king's orders, and the loving care of the queen for
+                  him.</p>
+               <p>But he saw the Lord in a vision, saying to him indignantly, <quote>How now, <persName>Peter</persName>! Am I
+                  being expelled in My believing servants, and art thou remaining quiet and at
+                  rest?</quote> Then <persName>Peter</persName> repented and obeyed, and he arose and left <placeName>Gaza</placeName>; and he joined
+                  those who were expelled, and departed with them.</p>
+            </div>
+            <div type="chapter" n="8">
+               <head>Chapter 8</head>
+               <p>The eighth chapter tells about a certain zealousmonk, named <persName>Solomon</persName>; who acted
+                  cunningly,and went in to Juvenalis, as if he desired to be blessed by him, and
+                  threw a basketful<ptr type="noteAnchor" target="#n54-2"/> of dust upon his head, and reproached him</p>
+               <p>And Juvenalis, having by means of the armed force<ptr type="noteAnchor" target="#n54-3"/> of the Romans expelled
+                  the believers and the monks who were in the country district, arrived at <placeName>Jerusalem</placeName>
+                  and sat upon the throne. And he paid no regard<ptr type="noteAnchor" target="#n54-4"/> at all to his promises, nor
+                  to the slaughter which had occurred upon his entry there, nor to the falsehood of
+                  his oaths.</p>
+               <pb type="page" n="55"/>
+               <p>Then a certain monk, <placeName>Solomon</placeName> by name, was stirred in his spirit; and in this
+                  honourable garb of chastity, and as if desiring to be blessed by the chief priest
+                  himself, acted cunningly, and filled a basket with dust and ashes, and placed it
+                  under his armpit, and drew near to Juvenalis. And the latter was glad when the
+                  monk came in to him. And Solomon, being received by him, said to him, <quote>Let my lord
+                  bless me.</quote> And, as the Roman guard permitted him to draw near and come close to
+                  Juvenalis, he took out the basket of dust and emptied it on his head, saying, <quote>
+                  Shame upon thee, shame upon thee, liar and persecutor!</quote> And when the Roman guard
+                  were about to strike him, Juvenalis would not allow it. And he was not enraged,
+                  but was rather moved to penitence by this, and shook the dust from his head. So
+                  they only put out the monk from his presence. And he ordered that money for his
+                  expenses<ptr type="noteAnchor" target="#n55-1"/> should be given to him, and that he should leave his country. The
+                  monk, however, refused the money, but left the country.</p>
+            </div>
+            <div type="chapter" n="9">
+               <head>Chapter 9</head>
+               <p>The ninth chapter tells how <persName>Theodosius</persName>, being sought for by the Roman army, was
+                  taken andimprisoned in a house containing lime; whereat length he died</p>
+               <p>But <persName>Theodosius</persName>, when he was sought for by the king's orders<ptr type="noteAnchor" target="#n55-2"/> through the
+                  whole province,<ptr type="noteAnchor" target="#n55-3"/> assumed the garb of a Roman, having on his head hair and a
+                  helmet; and he went about confirming and encouraging the believers. At length,
+                  however, when he arrived at the parts about Sidon, he was taken and delivered up
+                  to the Romans by one of his own friends.</p>
+               <p>And the Nestorian party were so enraged against him, because he had been going
+                  about through the whole world, and <pb type="page" n="56"/>exposing and
+                  anathematising the false doctrine of <persName>Nestorius</persName>, that they went up to the king, and
+                  persuaded him to grant that the man should be given into their charge and keeping.
+                  And they took him and imprisoned him in a small house, belonging to the monks, in
+                  which there was quicklime.</p>
+               <p>And these followers of <persName>Nestorius</persName> used to go to him in troops, and dispute with
+                  him, hoping that under pressure of great affliction he would change his mind, and
+                  agree to their will. And he prevailed over them all and repulsed them; and as they
+                  departed<ptr type="noteAnchor" target="#n56-1"/> from him ashamed and confounded, he said, <quote>Even though I am
+                  imprisoned and thereby prevented from going about in the different places,
+                  according to my former custom; yet as long as the breath is in my nostrils, the
+                  word of God shall not be imprisoned in me; but it shall preach that which is true
+                  and right in the ears of the hearers.</quote></p>
+               <p>But the Eutychian party also imagined that he would agree with them; and they came
+                  together to him, and entered into discussion with him. And in like manner,
+                  contrary to their expectation, he showed them to be in agreement with <persName>Valentinus</persName>,
+                  and <persName>Manes</persName>, and <persName>Marcion</persName>; and that their heresy was a wicked one, worse even than
+                  that of <persName>Paul</persName> of <placeName>Samosata</placeName>, and <persName>Apollinaris</persName>, and <persName>Nestorius</persName>. And so they, in their
+                  turn, departed from him, being condemned by him.</p>
+               <p>And because they laid one affliction after another upon him, his soul also
+                  continued steadfast in the good fight.</p>
+               <p>While there he met with some writings of <persName>John</persName> the Rhetorician from <placeName>Alexandria</placeName>,
+                  which were full of false doctrine and very defective, and it is a heresy; and he
+                  exposed the man and anathematised him. And having finished his course, and
+                  contended in the fight, and kept his faith, at length he died. And departing from
+                  the prison, he went to be with <persName>Christ</persName> our Lord. And he left the example of courage
+                  to the believers.</p>
+            </div>
+            <pb type="page" n="57"/>
+            <div type="chapter" n="10">
+               <head>Chapter 10</head>
+               <p>The tenth chapter gives a record of the heresy of <persName>John</persName> the Rhetorician of
+                  <placeName>Alexandria</placeName>; and howit was rejected and anathematised</p>
+               <p><persName>John</persName> was an adherent of <persName>Palladius</persName> the Alexandrian sophist, and was second to him;
+                  and for that reason he was called the Rhetorician; because that next to sophistry
+                  comes rhetoric, and therefore by that name the philosopher is
+                  surnamed.<ptr type="noteAnchor" target="#n57-1"/></p>
+               <p>This man, in the days of Proterius who succeeded Dioscorus, saw that the whole
+                  city of <placeName>Alexandria</placeName> hated <persName>Proterius</persName>, some in consequence of their zeal for the
+                  faith, and others because they had been plundered and persecuted by him, with the
+                  object of making them agree to the Synod and accept the Tome. He then sought to
+                  ingratiate himself with the people, and to present a fine appearance, and to
+                  collect money for himself, and to be celebrated with this empty glory. And not
+                  having read the Holy Scriptures, and not understanding the meaning of their
+                  mysteries, and not having exercised himself in the writings of the ancient doctors
+                  of the holy Church, and not knowing what he was saying, or that about which he was
+                  contending, he was puffed up[#57-2] to write a sort of proof that, after the
+                  manner of a seed, God the Word was wrapped up in the body; and that He suffered in
+                  His own Nature, if indeed He suffered at all. But he denied that the Word was
+                  united to a human body; and he would not confess the natures from which One <persName>Christ</persName>
+                  appeared. But he prepared and collected words, saying, <quote>It can by no means be
+                  called a nature, as indeed without the seed of a man in the Virgin the Incarnation
+                  took place.</quote> And he said, <quote>Therefore <persName>Christ</persName> was neither by her nor from her.</quote> And
+                  he did not agree with the doctors of the Church, who declare that the <pb
+                     type="page" n="58"/>human nature was united to God the Word, and that He became                     
+                  man.</p>       
+               <p>And with vain words such as these he used to chatter; and he also wrote books. And
+                  in these he was self-contradictory; sometimes agreeing with <persName>Apollinaris</persName>, sometimes
+                  with <persName>Eutyches</persName>; and again, stating what was quite new. And because he was in doubt
+                  about the subject of his writings, lest they should be reviled,<ptr type="noteAnchor" target="#n58-1"/> he did not
+                  subscribe his books with his own name. But at one time he wrote the name of
+                  <persName>Theodosius</persName>, the bishop of <placeName>Jerusalem</placeName>, upon one; and again, the name of <persName>Peter</persName> the
+                  Iberian upon another; that even the believers might be deceived by them and accept
+                  them.</p>
+               <p>But they say, that on one occasion, <persName>Peter</persName> the Iberian met with one of them, which
+                  had been written in his own name, in a certain monastery; and when he took it and
+                  read it he was full of indignation, arid he anathematised the man who wrote it.
+                  And not there alone, but also in <placeName>Alexandria</placeName>, and in <placeName>Palestine</placeName>, and in <placeName>Syria</placeName>, both
+                  he and <persName>Theodosius</persName> anathematised the writings of this man.</p>
+            </div>
+            <div type="chapter" n="11">
+               <head>Chapter 11</head>
+               <p>The eleventh chapter tells how <persName>John</persName> the Silentiariuswas sent by the King, after
+                  the death of <persName>Dioscorus</persName> at <placeName>Gangra</placeName>, to exhort the Alexandrians to be united
+                  to <persName>Proterius</persName></p>
+               <p>But when the report of the death of <persName>Dioscorus</persName> reached the Alexandrians, there was
+                  great trouble and sorrow. And after his death, on account of the love that they
+                  had for him, they proclaimed him as a living man,<ptr type="noteAnchor" target="#n58-2"/> and his name was set in
+                  the Diptych. But let no man even of those, whose endeavour it is to revile what is
+                  not done in exact order, find fault.</p>
+               <p>But the believing party were desirous of appointing a bishop instead of <persName>Dioscorus</persName>.
+                  However, they were afraid of <pb type="page" n="59"/>the threats of <persName>Marcian</persName> the
+                  king; for he was sending letters in every direction, and fulminations against all
+                  who would not agree to the Synod and receive the Tome. For so it was, that when he
+                  heard of the men of <placeName>Alexandria</placeName>, and of their intention to appoint a bishop for
+                  themselves after the death of <persName>Dioscorus</persName>, he sent <persName>John</persName>, the chief of the
+                  <placeName>Silentiarii</placeName>, with a letter from himself exhorting the Alexandrians to be united to
+                  <persName>Proterius</persName>.</p>
+               <p>And this <persName>John</persName> was of the same mind as the king, and he was an astute<ptr type="noteAnchor" target="#n59-1"/> man.
+                  And when he came and saw the crowd, the numbers of monks arrayed in chastity, and
+                  possessing readiness of speech in defence of the faith, and also the strong body
+                  of the common people who were believers, with whom he had to deal, he was
+                  astounded, and said, <quote>I am ready, if the Lord will, to inform the king and to
+                  plead with him on your behalf.</quote> And he received from them a petition — which gave
+                  information concerning their faith; and concerning all that happened to them at
+                  the hands of <persName>Proterius</persName>; and concerning the impious conduct of the man, and his
+                  wickedness, and the Church property which he expended upon vanity — written at
+                  length in words which I omit to reproduce here, lest I should be tedious to the
+                  reader.</p>
+               <p>And when <persName>John</persName> returned to the king and told him about these matters, he said to
+                  him, <quote>We sent you, indeed, to persuade and exhort the Egyptians to obey our will:
+                  but you have returned to us, not according as we wished, since we find you an
+                  Egyptian.</quote> However, when he perceived the things that were written about
+                  <persName>Proterius</persName>, in the petition which the monks sent, he blamed the pride and the
+                  craftiness<ptr type="noteAnchor" target="#n59-2"/> of the man. And while he was occupied with this matter, he
+                  died, having reigned six years and a half.</p>
+               <p>But Morian<ptr type="noteAnchor" target="#n59-3"/> also, who reigned four years along with him, died.</p>
+               <p>And after him, <persName>Anthemius</persName>, and <persName>Severus</persName>, and <persName>Olybrius</persName> received the kingdom. And one
+                  year after, Leo the First was associated with them. So that the lives of these
+                  four made up seven years.</p>
+            </div>
+            <div type="chapter" n="12">
+               <head>Chapter 12</head>
+               <p>The twelfth chapter tells about <persName>Anthemius</persName>, and <persName>Severus</persName>, and <persName>Olybrius</persName>, and <persName>Leo</persName>; who
+                  reigned together and in succession, seven years</p>
+               <p>When <persName>Anthemius</persName> had reigned five years he was killed by <persName>Ricimer</persName>. And <persName>Severus</persName>,
+                  having reigned one year with him, died. And <persName>Olybrius</persName>, who reigned after <persName>Severus</persName>
+                  along with <persName>Anthemius</persName> for one year, died. And <persName>Leo</persName> the First also died, having
+                  reigned with <persName>Anthemius</persName> for three years, and two years after.</p>
+               <p>In the first year of <persName>Leo</persName> indeed, <placeName>Antioch</placeName> was overturned by the earthquakes which
+                  occurred; and there was also a great fire. And in the second year of his reign,
+                  <persName>Sulifos</persName>, the Gothic tyrant, was killed. And in the third year of his reign, <persName>Aspar</persName>
+                  the general<ptr type="noteAnchor" target="#n60-1"/> and his sons were killed.</p>
+               <p>But there is in this third Book and in its chapters, which are written above, a
+                  period of thirteen and a half years. And it is made up in the following manner: —
+                  Of <persName>Marcian</persName> and <persName>Morian</persName> six years and a half; and of <persName>Anthemius</persName>, and <persName>Severus</persName>, and
+                  <persName>Olybrius</persName>, and <persName>Leo</persName> the First, who reigned in succession and together, seven
+                  years.</p>
+               <p>And this period begins from the third<ptr type="noteAnchor" target="#n60-2"/> year of the three hundred and fifth
+                  Olympiad, and it ends in the three hundred and eighth Olympiad.</p>
+            </div>
+         </div>
+         <noteGrp>
+            <note xml:id="n40-1">Probably <!--  Add Syriac  --> has fallen out, and the translation
+               should be <quote>after <persName>Proterius</persName>.</quote></note>
+            <note xml:id="n40-1">Here the text adds, <quote>The thirteenth Book tells about the accession
+               of Marcian, and about the council of bishops which came to <placeName>Chalcedon</placeName>, and what took
+               place in the council until the public address of the king to the bishops.</quote></note>
+            <note xml:id="n41-1">Evag. ii. 4, 18; Liberat. 13.</note>
+            <note xml:id="n41-2"><!--  Add Syriac  -->, <quote>Eupraxius of illustrious and Christ-loving
+               memory, who was one of the eunuchs of the royal bedchambers,</quote> das Leben des Severus
+               (ed. Spanuth), p. 28.</note>
+            <note xml:id="n41-3">
+               <!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n41-4"><!--  Add Syriac  -->, i.e. εὐταξία.</note>
+            <note xml:id="n42-1"><!--  Add Syriac  -->, i.e. ἀγωνιστής</note>
+            <note xml:id="n42-2">Jo. Eph. ap. "Dion." See Introd. p. 4, note.</note>
+            <note xml:id="n42-3">Here an extract in Cod. Rom. begins.</note>
+            <note xml:id="n42-4">Evag. ii. 2.</note>
+            <note xml:id="n42-5"><!--  Add Syriac  -->. This word occurs again in this chapter (p.
+               47, note 3), and probably in bk. 7, ch. 7 (p. 117, note 4); the Lexicons do not give
+               any other reference.</note>
+            <note xml:id="n42-6">Evag. i. 7.</note>
+            <note xml:id="n43-1"><!--  Add Syriac  -->, Cod. Rom.</note>
+            <note xml:id="n43-2"><!--  Add Syriac  -->, i.e. <foreign xml:lang="[grc">πρόνοια</foreign>.</note>
+            <note xml:id="n43-3">Evag. ii. 2; Liberat. 13.</note>
+            <note xml:id="n43-4">Jo. Eph. (Anecd. Syr. ii. p. 363). See Introd. l.c.</note>
+            <note xml:id="n43-5">Here extract in Cod. Rom. ends.</note>
+            <note xml:id="n43-6"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n44-1">Mansi, vol. vii. p. 104.</note>
+            <note xml:id="n44-2">I do not know what <!--  Add Syriac  --> means. Probably it is a
+               copyist's error.</note>
+            <note xml:id="n44-3"><!--  Add Syriac  -->, i.e. <foreign xml:lang="[grc">πεπραγμένα</foreign>.</note>
+            <note xml:id="n44-4">The words are written over an erasure in the MS. The Synodal Acts
+               give εἰς δύο τέμνε. Probably <!--  Add Syriac  --> is a mistake for
+               <!--  Add Syriac  --> and<!--  Add Syriac  --> has crept in from below. Transl. <quote>Cut
+               in two the man who speaks of two natures</quote> (Brooks).</note>
+            <note xml:id="n45-1"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n45-2">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n45-3">Ps. xxii. 22.</note>
+            <note xml:id="n46-1"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L., and for
+               <!--  Add Syriac  --> read <!--  Add Syriac  -->.</note>
+            <note xml:id="n46-2">2 Cor. viii. 9.</note>
+            <note xml:id="n46-3">Here an extract in Cod. Rom. begins.</note>
+            <note xml:id="n46-4">The faith (Cod. Rom.).</note>
+            <note xml:id="n47-1">Jo. Eph. Fr. (Anecd. Syr. ii. p. 363). See Introd. l.c.</note>
+            <note xml:id="n47-2"><!--  Add Syriac  -->, p. 199, note 4.</note>
+            <note xml:id="n47-3"><!--  Add Syriac  -->, see p. 42, note 5.</note>
+            <note xml:id="n47-4">Here an extract in Cod. Rom. ends.</note>
+            <note xml:id="n47-5">In signs <!--  Add Syriac  -->, i.e. <foreign xml:lang="[grc">ἐν σημείοις</foreign>.</note>
+            <note xml:id="n47-6"><!--  Add Syriac  -->, i.e. <foreign xml:lang="[grc">προσφώνησις</foreign>.</note>
+            <note xml:id="n47-7">Mansi, vol. vii. p. 132.</note>
+            <note xml:id="n47-8"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n47-9"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n48-1">Evag. ii. 5; Liberat. 14.</note>
+            <note xml:id="n48-2">Here begins an extract in Cod. Rom. which continues to end of chap.
+               viii.</note>
+            <note xml:id="n48-3"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n48-4">Or, "became exasperated."</note>
+            <note xml:id="n49-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="[grc">ἀνάγκη</foreign>.</note>
+            <note xml:id="n49-2"><!--  Add Syriac  -->, <foreign xml:lang="[grc">ἀγωνιστής</foreign>.</note>
+            <note xml:id="n50-1">Evag. ii. 5</note>
+            <note xml:id="n50-2"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n50-3">For <!--  Add Syriac  --> Cod. Rom. has <!--  Add Syriac  -->.
+               Transl. "and they gathered the people and the bishops who were with them."</note>
+            <note xml:id="n50-4">Evag. ii. 5.</note>
+            <note xml:id="n51-1">For <!--  Add Syriac  --> Cod. Rom. has <!--  Add Syriac  -->.
+               Trans. "brought persons to him."</note>
+            <note xml:id="n52-1">For <!--  Add Syriac  --> Cod. Rom. has
+               <!--  Add Syriac  -->.</note>
+            <note xml:id="n52-2">Evag. ii. 5.</note>
+            <note xml:id="n52-3"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n53-1">Ps. Ixxix. I.</note>
+            <note xml:id="n53-2"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n54-1">For <!--  Add Syriac  --> Cod. Rom. has <!--  Add Syriac  -->, and
+               for <!--  Add Syriac  -->, <!--  Add Syriac  -->.</note>
+            <note xml:id="n54-2"><!--  Add Syriac  -->, i.e. <foreign xml:lang="[grc">σπυρίς</foreign>.</note>
+            <note xml:id="n54-3"><!--  Add Syriac  -->, <foreign xml:lang="[grc">παράταξις</foreign>.</note>
+            <note xml:id="n54-4"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n55-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="[grc">ἀνάλωμα</foreign>.</note>
+            <note xml:id="n55-2"><!--  Add Syriac  -->, i.e. <foreign xml:lang="[grc">διατάγματα</foreign>.</note>
+            <note xml:id="n55-3"><!--  Add Syriac  -->, i.e. <foreign xml:lang="[grc">ὑπαρχία</foreign> for <foreign xml:lang="[grc">ἐπαρχία</foreign>.
+               <!--  Add Syriac  --> has probably crept into the text by mistake from the line above
+               (Brooks).</note>
+            <note xml:id="n56-1"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n57-1">An exact translation of this passage is impossible. I have tried to
+               give what appears to be the sense of it.</note>
+            <note xml:id="n57-2"><!--  Add Syriac  -->. See note 4, p. 199.</note>
+            <note xml:id="n58-1">Or, remain unknown.</note>
+            <note xml:id="n58-2"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n59-1"><!--  Add Syriac  -->. See note, p. 16.</note>
+            <note xml:id="n59-2"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.</note>
+            <note xml:id="n59-3">I.e. Majorian.</note>
+            <note xml:id="n60-1"><!--  Add Syriac  -->, i.e. στρατηλάτης.</note>
+            <note xml:id="n60-2"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Syriac Chronicle</title>
+            <author><persName>Zachariah</persName> of <placeName>Mitylene</placeName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb type="page" n="11"/>
+         <head>A volume of records of events which have happened in the world</head>
+         <div type="book" n="1">
+            <head>Book 1</head>
+            <list>
+               <item>The first chapter, an apology, for undertaking the work.</item>
+               <item>The second chapter, an epistle containing a request with regard to the table of
+                  generations in the book of Genesis.</item>
+               <item>The third chapter, a defence of the table of generations in the matter of the
+                  chronological canons, which are set down below.</item>
+               <item>The fourth chapter, an epistle containing a request with regard to the
+                  translation of the Greek book of <persName>Asyath</persName>, which was found in the library of the
+                  house of <persName>Beruya</persName>, the bishops from the <placeName>city of Rhesaina</placeName>.<ptr type="noteAnchor" target="#n11-1"/></item>
+               <item>The fifth chapter, an answer to the epistle.</item>
+               <item>The sixth chapter, a translation of the book of <persName>Asyath</persName>.</item>
+               <item>The seventh chapter, a translation of <quote><persName>Silvester</persName>, Patriarch of Rome,</quote> relating
+                  the conversion and baptism of <persName>Constantine</persName>, the believing king, and the
+                  disputations of the Jewish doctors.</item>
+               <item>The eighth chapter, the revelation of the repository of the bones of <persName>Stephen</persName>
+                  and <persName>Nicodemus</persName> and <persName>Gamaliel</persName> and <persName>Habib</persName> his son.</item>
+               <item>The ninth chapter, about <persName>Isaac</persName> and <persName>Dodo</persName>, the Syriac doctors.</item>
+            </list>
+            <pb type="page" n="12"/>
+            <div type="chapter" n="1.1">
+               <head>The First Chapter</head>
+               <p>Men who were moved like irrational beasts (and they were merely animal<ptr type="noteAnchor" target="#n12-1"/>) by
+                  foul habits and wicked customs and brutal instincts and earthly<ptr type="noteAnchor" target="#n12-2"/>
+                  life<ptr type="noteAnchor" target="#n12-3"/> and evil tradition<ptr type="noteAnchor" target="#n12-4"/> handed down from one to another, in the
+                  eager pursuit of passions, in the corruption of the flesh, and in the impure
+                  desires of the body, men whom the Scripture named flesh, saying, <quote>My spirit shall
+                  not dwell with men for ever, for that they are flesh</quote>;<ptr type="noteAnchor" target="#n12-5"/> whom <persName>Solomon</persName> also
+                  calls ungodly, saying, <quote>Ungodly men with their words and with their works called
+                  upon death and thought it their friend; and they melted away and sware and made a
+                  covenant with it, because they are worthy to be part of it. For they said in
+                  themselves (and they did not reason aright), <quote>Our life is short and in
+                  sorrow,<ptr type="noteAnchor" target="#n12-6"/> and there is no further remedy at the death of a man, and no man
+                  hath appeared who hath been released from <persName>Hades</persName>. For we were suddenly born, and
+                  hereafter we shall return to be as though we had never been: for the breath in our
+                  nostrils is as smoke,<ptr type="noteAnchor" target="#n12-7"/> and reason as a spark stirred in our heart; which
+                  being extinguished,<ptr type="noteAnchor" target="#n12-8"/> our body shall be as ashes, and the breath shall be
+                  scattered abroad as thin air, and our name shall be forgotten after a time, and no
+                  man shall remember our works, and our life shall pass away as the trace of clouds,
+                  and as a mist that<pb type="page" n="13"/> is driven away before the beams of the
+                  sun, and its heat is heavy upon it. For our life is a shadow that passeth away,
+                  and there is no remedy at our death: for it is sealed, and there is none that
+                  returneth. Come on therefore, let us enjoy these good things: and let us speedily
+                  use the creatures in our youth. Let us fill ourselves with choice wine and
+                  ointments: and let no blossom<ptr type="noteAnchor" target="#n13-1"/> of the air pass by us: let us crown
+                  ourselves with the flowers of the rose-tree before it be withered: and let none of
+                  us be without voluptuousness until our old age; and in every place let us leave a
+                  token<ptr type="noteAnchor" target="#n13-2"/> of our voluptuousness: for this is our portion and this is our
+                     inheritance</quote></quote>; <ptr type="noteAnchor" target="#n13-3"/> these did as<ptr type="noteAnchor" target="#n13-4"/> <persName>Moses</persName> bears witness: <quote>The whole earth
+                  was of one language, and of one speech. And it came to pass, when they removed
+                  from the east, that they found a plain in the land of <placeName>Sinʿar</placeName>; and they dwelt
+                  there. And they said, each man to his fellow, <quote>Go to, let us cast bricks and burn
+                  them with fire.</quote> And they had brick for stone, and slime had they for mortar. And
+                  they said, <quote>Go to, let us build us a town and a tower whose top may reach unto
+                  heaven; and let us make us a name, lest we be scattered abroad upon the
+                  earth.</quote></quote><ptr type="noteAnchor" target="#n13-5"/> And they toiled and built zealously,<ptr type="noteAnchor" target="#n13-6"/> and laboured in vain
+                  at the tower.</p>
+               <p>And<ptr type="noteAnchor" target="#n13-7"/> yet again the tribes of <persName>Reuben</persName> and <persName>Gad</persName> and the half tribe of Manasseh,
+                  when they turned back from the rest of the tribes of their brethren, who had taken
+                  possession of the land of promise, and came to <placeName>Gilgal</placeName> by the side of <placeName>Jordan</placeName> in the
+                  land of <persName>Khʾnaʿan</persName>, built there with stones which they <pb type="page" n="14"/>
+                  collected a great altar to see to by the side of <placeName>Jordan</placeName>. And, when the rest of the
+                  tribes heard of it, <persName>Phineas</persName> the son of <persName>Eliʿazar</persName> the priest and the chiefs of the
+                  congregation, the captains of the hosts<ptr type="noteAnchor" target="#n14-1"/> of <placeName>Israel</placeName>, came to them and
+                  inquired at their hands concerning this; and they returned them answer, <quote>It is
+                  that it may be a witness between us and you, that your children may not say to our
+                  children in time to come, <quote>What have ye to do with the Lord God of Israel, ye
+                  children of Reuben and children of <persName>Gad</persName>? For behold! the Lord God hath set a border
+                  between us and you, even this <placeName>Jordan</placeName>.</quote> And we said, <quote>Let us take us occasion and
+                  build us an altar, not for sacrifice, nor for offering, but for a witness between
+                  us and you, and between our generations after us.</quote></quote></p>
+               <p>And<ptr type="noteAnchor" target="#n14-2"/> again <placeName>Gideon</placeName>, after he had overthrown the Midianites, spread a garment
+                  and asked each man for the earrings of the prey which the men with him had
+                  gathered; and the weight of the earrings that he asked was a thousand and seven
+                  hundred<ptr type="noteAnchor" target="#n14-3"/> measures of weight: and <placeName>Gideon</placeName> took them and made thereof a
+                  lufro,<ptr type="noteAnchor" target="#n14-4"/> and put it in his village, even in ʿOfrah: and the children of
+                  <placeName>Israel</placeName> went astray after it, and it became a snare to <persName>Gideon</persName> and to his house.</p>
+               <p>And<ptr type="noteAnchor" target="#n14-5"/> again the mother of <persName>Micah</persName> of <placeName>Mount Ephraim</placeName>, she also received eleven
+                  hundred measures of silver from her son, and made a graven image and a molten
+                  image.</p>
+               <p>And again <persName>Abshalom</persName> the son of <persName>David</persName> <quote>in his lifetime, reared up for himself an
+                  image in the dale of the kings: for he said, <quote>I have no one to keep my name in
+                     remembrance</quote>: and he called the image after his name: and it was called
+                  <quote><persName>Abshalom</persName>'s hand,</quote> unto this day.</quote><ptr type="noteAnchor" target="#n14-6"/> And Methodius also, bishop of Olympus  <!-- abshalom or abshalom hand as a name? -->
+                  and martyr, in the work which he addressed to <persName>Aglaophon</persName> concerning the
+                  resurrection of the <pb type="page" n="15"/> dead, tells a story about
+                  Phidias,<ptr type="noteAnchor" target="#n15-1"/> a craftsman and sculptor, who wrought an ivory<ptr type="noteAnchor" target="#n15-2"/> statue,
+                  beautiful to behold, and, in order that it might last a long time and not be
+                  destroyed or spoilt, poured oil under its feet and anointed the rest of the
+                  sculpture.</p>
+               <p>And we see images of divers persons in divers places, and we find records<ptr type="noteAnchor" target="#n15-3"/>
+                  written on papyrus concerning divers events which have happened in the world, and
+                  statues set up to preserve the memory and extol the merits of those who are
+                  dead.</p>
+               <p>How just and right is it therefore for the discreet and earnest to see that the
+                  rest of the events which have occurred from time to time after those chronicled in
+                  the three Ecclesiastical Histories of <persName>Eusebius</persName>, <persName>Socrates</persName>, and <persName>Theodoret</persName>, which are
+                  scattered about and not collected in one book, are, as far as is possible,
+                  collected together from epistles or manuscripts or trustworthy reports and set
+                  down for the benefit of the believers and of those who care for right instruction
+                  and mental excellence! May the recording of them have the help of <persName>Christ</persName> our God,
+                  to whom we pray that He will give us wisdom and eloquence, that without confusion
+                  we may write the true account of the things which have happened!</p>  
+               <p>Now, since in the Syriac manuscripts of the table of generations in Genesis there
+                  is a certain variation and divergence<ptr type="noteAnchor" target="#n15-4"/> from the Greek,<ptr type="noteAnchor" target="#n15-5"/> and no small
+                  deficiency in the number of years, it is right for us and in harmony with our work
+                  and reasonable<ptr type="noteAnchor" target="#n15-6"/> that it should begin with the book of Genesis, and after
+                  this should continue with the book of <persName>Asyath</persName>,<ptr type="noteAnchor" target="#n15-7"/> and after that with that of
+                  <persName>Silvester</persName> and the conversion<ptr type="noteAnchor" target="#n15-8"/> of <persName>Constantine</persName> the king and his baptism, with
+                  regard to which <persName>Eusebius</persName> has failed to give an accurate account and <persName>Socrates</persName> has
+                  missed the truth (for the king was not baptized <pb type="page" n="16"/> at the
+                  end of his life, as he<ptr type="noteAnchor" target="#n16-1"/> wrote, since the story of his conversion by
+                  <persName>Silvester</persName> is also preserved in writing and in pictures at Rome in several places,
+                  as those who have been there<ptr type="noteAnchor" target="#n16-2"/> and come to us have seen and tell), and
+                  further concerning the revelation of the repository of the bones of <persName>Stephen</persName> and
+                  his companions, and concerning <persName>Isaac</persName> and <persName>Dodo</persName>, the Syriac<ptr type="noteAnchor" target="#n16-3"/> doctors.</p>
+               <p>And here we will end the first book; and afterwards, from such sources as we can
+                  find, we will write about the succeeding events in books and in the chapters
+                  contained in them severally, as written below, from the thirty-second year of
+                  <persName>Theodosius</persName> the son of <persName>Arcadius</persName> to the year 880 of the Greeks.<ptr type="noteAnchor" target="#n16-4"/></p>
+               <p>Now<ptr type="noteAnchor" target="#n16-5"/> we beg<ptr type="noteAnchor" target="#n16-6"/> that the readers or hearers will not blame us, if we do
+                  not call the kings victorious and mighty, and the generals<ptr type="noteAnchor" target="#n16-7"/> valiant and
+                  astute,<ptr type="noteAnchor" target="#n16-8"/> and the bishops pious and blessed, and the monks chaste and of
+                  honourable character, because it is our object to relate<ptr type="noteAnchor" target="#n16-9"/> facts, following
+                  in the footsteps of the Holy Scriptures, and it is not our intention on our own
+                  account to praise and extol rulers with flattering words,<ptr type="noteAnchor" target="#n16-10"/> or to revile
+                  and insult with rebuke those who believe differently, provided only we do not find
+                  something of the kind in the manuscripts and epistles which we are about to
+                  translate.</p>
+            </div>
+            <div type="chapter" n="1.9">
+               <head>Chapter IX</head>
+               <head>This chapter tells about the Syriac doctors, <persName><persName>Isaac</persName></persName> and <persName>Dodo</persName>, who lived in the
+                  days of the believing kings <persName>Arcadius</persName> and <persName>Theodosius</persName></head>
+               <p><persName>Isaac</persName> the teacher, a native of <placeName>Syria</placeName>, issued forth from one of the monastic
+                  dwellings of the West; and he in his diligence went up to <placeName>Rome</placeName>, and he also
+                  travelled to other cities. And he had books which were full of profitable
+                  teaching, containing all kinds of comments upon the Sacred Scriptures, following
+                  <persName>Ephraim</persName> and his disciples.</p>
+               <p>And <persName>Dodo</persName> also was a worthy monk of <placeName>Samkè</placeName>, a town belonging to the district of
+                  <placeName>Amida</placeName>. And on account of the captivity and famine which occurred in his days in
+                  that country, he was sent by the chiefs of the people to the king; and he proved
+                  himself very acceptable. And this man also had, as it appears to us, about three
+                  hundred works, more or less, upon every matter taken from the Divine Scriptures,
+                  and concerning holy men, and hymns.</p>
+            </div>
+         </div>
+         <noteGrp>
+            <note xml:id="n11-1"> Cf. ch. 4 (p. 15, l. 24, L.), <quote>in the library of the memorable
+               bishops who were called the family of the house of <placeName>Beruya</placeName> from the city of <placeName>Rhesaina</placeName>,
+               in the possession of a lad of their kin named <persName>Morʿabdo</persName>..., I found a little
+               book...called the book of <persName>Asyath</persName>.</quote></note>
+            <note xml:id="n12-1">The MS. has <!--  Add Syriac -->, not <!--  Add Syriac -->, as L.
+               prints.</note>
+            <note xml:id="n12-2">The MS. has <!--  Add Syriac -->, not <!--  Add Syriac -->, as L.
+               prints.</note>
+            <note xml:id="n12-3"><foreign xml:lang="grc">πολιτεία</foreign>.</note>
+            <note xml:id="n12-4">Read <!--  Add Syriac --> for <!--  Add Syriac -->.</note>
+            <note xml:id="n12-5">Gen. vi. 3.</note>
+            <note xml:id="n12-6">The MS. has <!--  Add Syriac -->, not <!--  Add Syriac -->, as L.
+               prints.</note>
+            <note xml:id="n12-7">The MS. has <!--  Add Syriac -->, NOT <!--  Add Syriac -->, as L.
+               prints.</note>
+            <note xml:id="n12-8">Before <!--  Add Syriac --> the MS. has <!--  Add Syriac -->, which
+               L. does not print.</note>
+            <note xml:id="n13-1">The MS. reading is <!--  Add Syriac  -->, not
+               <!--  Add Syriac  -->, as L. prints.</note>
+            <note xml:id="n13-2"><foreign xml:lang="grc">σύμβολον</foreign>.</note>
+            <note xml:id="n13-3">Wisd. i. 16-ii. 9.</note>
+            <note xml:id="n13-4">Omit <!--  Add Syriac  --> before <!--  Add Syriac  -->.</note>
+            <note xml:id="n13-5">Gen. xi. 1-4.</note>
+            <note xml:id="n13-6"><!--  Add Syriac  -->. This word occurs again in bk. 7, ch. 9 (p.
+               224, I. 13, L.), where <persName>Payne Smith</persName> proposes to read <!--  Add Syriac  -->. The word,
+               however, is found in both MSS. at that place, and occurs again here, where
+               <!--  Add Syriac  -->, <quote>frequently</quote>, does not suit the context. In both places the
+               most suitable meaning is as above. The corresponding adjective occurs in ch. 7 (p.
+               73, I. 5, L.), and in bk. 12, ch. 5 (p. 325, I. 23, L.), where the meaning seems to
+               be <hi rend="doubleQuote">violent</hi> or <hi rend="doubleQuote">stormy</hi>; see note on 12. 5. The adverb also occurs in 7. 6 (p. 215,
+               I. 2, L.).</note>
+            <note xml:id="n13-7"><persName>Josh</persName>. xxii. 9-27.</note>
+            <note xml:id="n14-1">Read <!--  Add Syriac  --> for <!--  Add Syriac  --> before
+               <!--  Add Syriac  -->.</note>
+            <note xml:id="n14-2">Judg. viii. 24-27.</note>
+            <note xml:id="n14-3">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n14-4">The Syriac corruption of the Heb.<foreign xml:lang="heb">אפוֹד</foreign> (efod) with the preposition
+               <!--  Add Syriac  --> prefixed.</note>
+            <note xml:id="n14-5">Judg. xvii. 1-4.</note>
+            <note xml:id="n14-6">2 Sam. xviii. 18.</note>
+            <note xml:id="n15-1">Method, ap. Epiph. Haer. Ixiv. 18, Phot. Bibl. Cod. 234.</note>
+            <note xml:id="n15-2">Read <!--  Add Syriac  --> for <!--  Add Syriac  --> with Sachau
+               {Academy, June 1871).</note>
+            <note xml:id="n15-3"><foreign xml:lang="grc">ὑπομνήματα</foreign></note>
+            <note xml:id="n15-4">The MS has <!--  Add Syriac  -->, not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n15-5">Read <!--  Add Syriac  --> for <!--  Add Syriac  --> before
+               <!--  Add Syriac  -->.</note>
+            <note xml:id="n15-6">Insert <!--  Add Syriac  --> before <!--  Add Syriac  -->.</note>
+            <note xml:id="n15-7">The Syriac form of the Hebrew <foreign xml:lang="heb">אסנח</foreign>, <hi rend="doubleQuote">Asnath</hi></note>
+            <note xml:id="n15-8"><foreign xml:lang="grc">κατήχησις.</foreign></note>
+            <note xml:id="n16-1">I.e. <persName>Eusebius</persName>; but perhaps we should read <!--  Add Syriac  -->,
+               <quote>they wrote</quote>.</note>
+            <note xml:id="n16-2"><!--  Add Syriac  --> either is out of place or should be again
+               inserted after <!--  Add Syriac  -->.</note>
+            <note xml:id="n16-3">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n16-4">569. The same date is given in ch. 3 ad fin.</note>
+            <note xml:id="n16-5">Cf. Socr. bk. 6, praef.</note>
+            <note xml:id="n16-6">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n16-7">στρατηγός</note>
+            <note xml:id="n16-8"><!--  Add Syriac  -->The dictionaries give only a bad sense to this
+               word; but here and in bk 9, ch. 17 (p. 286, I. 3, L.) a good sense is imperatively
+               required. It occurs again in bk. 3, ch. 11 (p. 131, I. 26), where either meaning
+               would suit, and in 7. 13 (p. 230, I. 15), where the good sense is much the more
+               probable.</note>
+            <note xml:id="n16-9">Insert <!--  Add Syriac  --> before <!--  Add Syriac  -->.</note>
+            <note xml:id="n16-10">The MS. has <!--  Add Syriac  -->, not <!--  Add Syriac  -->, as
+               L. prints.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

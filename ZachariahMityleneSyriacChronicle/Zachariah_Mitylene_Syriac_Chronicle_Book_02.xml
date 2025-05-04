@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Syriac Chronicle</title>
+            <author><persName>Zachariah</persName> of <placeName>Mitylene</placeName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb type="page" n="18"/>
+         <div type="book" n="2">
+            <head>Book 2</head>
+            <div type="chapter" n="2.1">
+               <head>The Beginning of the Second Book</head>
+               <p>After the Ecclesiastical History of <persName>Eusebius</persName> of <placeName>Cæsarea</placeName>, both <persName>Socrates</persName> and
+                  <persName>Theodoret</persName>, in the treatises which they successively composed, reaching down to the
+                  thirty-second year of the reign of <placeName>Theodosius</placeName> the Less, wrote for the memory and
+                  profit of the prudent, as best they were able, accounts of the transactions and
+                  matters that occurred in various places, which they were diligent in learning from
+                  the volumes, and letters, and records,<ptr type="noteAnchor" target="#n18-1"/> and words of living speakers, that
+                  they examined.</p>
+               <p>And accordingly I also, insignificant though I be, am beginning to write, as you
+                  asked me, for the instruction of the brethren, and for the gratification of the
+                  lovers of doctrine, and for the confirmation of believers, <persName>Christ</persName> our Lord and God
+                  consenting and aiding and giving the word of power — by your great advice,
+                  diligent brother, and while you pray that I may write the truth with eloquence
+                  without confusion or cause for blame.</p>
+               <p>For when, making a commencement of this treatise of the second Book, I am
+                  relating, as concisely as possible, without prolonging the discourse or being
+                  wearisome to the reader or tedious to the hearer, what I was able<ptr type="noteAnchor" target="#n18-2"/> to
+                  discover from records and Acts<ptr type="noteAnchor" target="#n18-3"/> or from letters, — truth that was carefully
+                  examined, — I shall set down here the truth of the resurrection, which took place
+                  in the days of <persName>Theodosius</persName> the king, of the bodies of the seven youths who were in
+                  a cave in the district <pb type="page" n="19"/>of <placeName>Ephesus</placeName>, and the Syriac records;
+                  both to keep them in the memory of the saints and for the glory of God, Who is
+                  able to do all things.</p>
+               <p>And then I shall set down briefly in the form of chapters, so that the account may
+                  not be enlarged of the events of one period which we write in detail in the Acts
+                  that are found in every place, what happened during the ten remaining years of the
+                  life of <persName>Theodosius</persName>, but in this Book I am writing them so to speak — what happened
+                  in <placeName>Constantinople</placeName> respecting <persName>Eutyches</persName> the archimandrite and <persName>Flavian</persName> the chief
+                  priest, and the Synod of thirty-one bishops and twenty-two archimandrites who met
+                  together and who brought about the deprivation of <persName>Eutyches</persName>; and also respecting
+                  the second Synod which was held in <placeName>Ephesus</placeName> concerning <persName>Flavian</persName> in the days of
+                  <persName>Dioscorus</persName> and <persName>Juvenalis</persName><ptr type="noteAnchor" target="#n19-1"/> and <persName>Domnus</persName>, and the one hundred and twenty- eight
+                  bishops who were with them.</p>
+               <p>And then I begin with the third Book.</p>
+            </div>
+            <div type="chapter" n="2.2">
+               <head>The Second Chapter Tells about the Heresy of <persName>Eutyches</persName> the Presbyter, and his
+                  Deprivation</head>
+               <p>There was, in the days of king <persName>Theodosius</persName>, one <persName>Eutyches</persName>, a presbyter and
+                  archimandrite, a recluse belonging to those who dwell in <placeName>Constantinople</placeName>. This man
+                  was visited by many (who resorted to him ostensibly on account of his chastity and
+                  piety) who happened to be in the city, and especially by the soldiers of the
+                  palace, who were lovers of doctrine. For at that time Nestorius, who was ejected,
+                  was being justly reviled because of his filthy doctrine. This Nestorius it was who
+                  held and taught base opinions respecting the Incarnation of God the Word; and he
+                  imagined that the two Natures existed separately in <persName>Christ</persName> our God after the
+                  union; and he held the precedence of the infant who was conceived and formed in
+                  the Virgin, whom he also called [n19-1]<!--  Add Syriac  --> on . MS., an evident
+                  mistake for <!--  Add Syriac  -->. <pb type="page" n="20"/><persName>Jesus</persName> and <persName>Christ</persName>; and
+                  he thought that God the Word at length descended upon Him, views scarcely
+                  differing from those of <persName>Paul</persName> of <placeName>Samosata</placeName>, and much the same as the teaching of the
+                  school of <persName>Diodorus</persName>, which he studied, accepted, and loved; but he lightly and
+                  without compunction refused to call the ever-virgin, holy <persName>Mary</persName>, by the title 
+                  <quote>Theotokos,</quote><ptr type="noteAnchor" target="#n20-1"/> even though the true doctors who were before him, <persName>Athanasius</persName>
+                  and <persName>Gregory</persName> and <persName>Basil</persName> and <persName>Julius</persName>, and the others, had so called her; and,
+                  moreover, he also censured them, as the letter testifies which he wrote from <placeName>Oasis</placeName>
+                  to the clergy and citizens. Whereupon, many being disturbed by his doctrine, a
+                  Synod, consisting of one hundred and ninety-three bishops, was assembled at
+                  <placeName>Ephesus</placeName>; and it carefully examined his teaching; and it called upon him three
+                  times, according to the canonical rule of the Church, to apologise and to censure
+                  his own interpretations, and at length to confess <persName>Jesus</persName> to be God the Word Who
+                  became incarnate, one Person and one Nature, as the doctors of the holy Church
+                  teach. But he would not consent, as also <persName>Socrates</persName> relates in the short account
+                  which he wrote of him, and which is fully told in the original Acts.<ptr type="noteAnchor" target="#n20-2"/>
+                  Consequently his deprivation took place in the days of <persName>Celestine</persName>, <persName>Cyril</persName>, and
+                  <persName>Juvenalis</persName>, before the arrival of <persName>John</persName> of <placeName>Antioch</placeName> and his attendant bishops, who
+                  were delayed.</p>
+               <p>It<ptr type="noteAnchor" target="#n20-3"/> was somewhere about this time that <persName>Eutyches</persName>, wishing to affirm the one
+                  Nature in <persName>Christ</persName>, rejected the truth of the body derived from the Virgin, which
+                  God the Word took in her and from her. And in the conversation which he held with
+                  those who came together to him, this same <persName>Eutyches</persName> affirmed an inaccurate
+                  dogma,<ptr type="noteAnchor" target="#n20-4"/> not having been well instructed.</p>
+               <p>But he taught many that (the Word became flesh)<ptr type="noteAnchor" target="#n20-5"/> as <pb type="page" n="21"
+                  />the atmosphere assumes bodily form and becomes rain or snow under the influence
+                  of the wind, or as water by reason of the cold air becomes ice.</p>
+               <p>And<ptr type="noteAnchor" target="#n21-1"/> when the report of his vile teaching was published abroad it was
+                  investigated by <persName>Eusebius</persName> of <placeName>Dorylaeum</placeName>, who happened to be in the city; and he
+                  informed <persName>Flavian</persName>, the chief priest, concerning it, and he gave him an
+                  indictment.</p>
+               <p>And he was called upon three times by thirty-one bishops who were there and
+                  twenty-two archimandrites, to come forward and apologise for his opinions, and
+                  abjure them, and make a written statement of the true confession. And at first,
+                  indeed, he would not do so, at one time saying that it was<ptr type="noteAnchor" target="#n21-2"/> his fixed
+                  determination<ptr type="noteAnchor" target="#n21-3"/> to remain in perpetual seclusion, and again, that he was
+                  sick, and had a cough, and was old; (and he made these excuses relying upon the
+                  aid of the soldiers of the palace, who were his friends. Now the king heard of
+                  these matters. But at last, when his deprivation was decreed to take place, he was
+                  compelled to appear before the council of bishops; however, he did not recant his
+                  doctrine with whole-hearted sincerity, but kept on saying, <quote>Just as you teach two
+                  Natures in <persName>Christ</persName>, so do I say.</quote></p>
+               <p>And, behold! all these things are written expressly, one after another, in
+                  lengthened discourse in the Acts of that Council. However, that we may not make
+                  our narrative too long, but may compress much into small compass, as the wise man
+                  says,<ptr type="noteAnchor" target="#n21-4"/> we refrain from relating them again in detail and writing them down
+                  here. Then his deprivation took place. Now in the accusations against him and in
+                  the interlocutions,<ptr type="noteAnchor" target="#n21-5"/> and more especially in what was said by <persName>Eusebius</persName> of
+                  Dorylæum when contending with him, the two Natures after the union were expressly
+                  taught in conformity with the doctrine of Nestorius.<ptr type="noteAnchor" target="#n21-6"/> And the interlocution
+                  of <persName>Flavian</persName> set forth<ptr type="noteAnchor" target="#n21-7"/> the same views. And<ptr type="noteAnchor" target="#n21-8"/> <persName>Eutyches</persName>, rejecting the
+                  party of <persName>Flavian</persName> <pb type="page" n="22"/>and <persName>Eusebius</persName>, who deposed him, sent a
+                  libel<ptr type="noteAnchor" target="#n22-1"/> to <placeName>Rome</placeName> to <persName>Leo</persName>, who was the chief priest there, begging that these
+                  matters should be investigated in another Synod; with regard to which libel he
+                  received a reply. And when the party of <persName>Flavian</persName> heard it they also wrote,<ptr type="noteAnchor" target="#n22-2"/>
+                  and sent the Acts of the Council concerning <persName>Eutyches</persName> to <persName>Leo</persName>. And the latter wrote
+                  to <persName>Flavian</persName> the letter called the <persName>Tome</persName>, in which there are many heads that have  <!-- is the tome a personal name? -->
+                  been condemned by the dogmatic<ptr type="noteAnchor" target="#n22-3"/> doctors; which also were censured at that
+                  time by <persName>Dioscorus</persName> and his followers, and again by <persName>Timothy</persName> the Great, who was with
+                  him, and by many treatises of others, which we omit to mention again here and to
+                  write down.</p>
+            </div>
+            <div type="chapter" n="2.3">
+               <head>The<ptr type="noteAnchor" target="#n22-4"/> Third Chapter Gives an Account in Concise Terms of the Second Synod
+                  which was Held in <placeName>Ephesus</placeName>, about the Matter of <persName>Flavian</persName> the Chief Priest and
+                  <persName>Eutyches</persName> the Monk</head>
+               <p>Accordingly a Synod was convened, the second in <placeName>Ephesus</placeName>, about the matter of
+                  <persName>Flavian</persName> and <persName>Eutyches</persName>; and it was held in the presence of the legates of <persName>Leo</persName>, who
+                  were sent with his letter. And the bishops came together there to the number of
+                  one hundred and eighty-eight, the chief rulers among them being <persName>Dioscorus</persName> of
+                  <placeName>Alexandria</placeName>, and <persName>Juvenalis</persName> of <placeName>Jerusalem</placeName>, and <persName>Domnus</persName> of <placeName>Antioch</placeName>. And the contents of
+                  the Acts of the Constantinopolitan Council concerning <persName>Eutyches</persName> were
+                  examined;<ptr type="noteAnchor" target="#n22-5"/> and <persName>Flavian</persName> and <persName>Eusebius</persName> were ejected. And an outcry was raised
+                  by the bishops who were there; and they anathematised every one who would say,
+                  <quote>There are two <pb type="page" n="23"/>Natures in Christ after the union.</quote> But a
+                  question<ptr type="noteAnchor" target="#n23-1"/> was also raised again there about what <persName>Theodoret</persName> of <placeName>Cyrrhus</placeName> wrote
+                  censuring the twelve Heads which <persName>Cyril</persName> drew up against <persName>Nestorius</persName>, who was
+                  previously banished; and about the letter of <persName>Hibo</persName> of <placeName>Edessa</placeName> which he wrote to
+                  <persName>Moris</persName> of <placeName>Nisibis</placeName> in opposition to <persName>Cyril</persName> and in favour of <persName>Nestorius</persName>; and about what
+                  he said in his interpretations concerning <persName>Jesus Christ</persName> and <persName>Mary</persName>, as his own
+                  deacons, who were his accusers, testified. And besides these the partisans of <persName>John</persName>
+                  of <placeName>Gaios</placeName><ptr type="noteAnchor" target="#n23-2"/> and others were deposed. But <persName>Eutyches</persName> the archimandrite was
+                  received, because he presented a libel of recantation<ptr type="noteAnchor" target="#n23-3"/> to the Synod, which
+                  was held there in <placeName>Ephesus</placeName>, and confessed the true faith. But the Synod appointed
+                  <persName>Anatolius</persName> as bishop of Constantinople in the room of <persName>Flavian</persName>, and then
+                  dispersed.</p>
+            </div>
+            <div type="chapter" n="2.4">
+               <head>The Fourth Chapter Discusses the Regular Succession<ptr type="noteAnchor" target="#n23-4"/> of the Chief
+                  Priests who Held Office From the First Synod of <persName>Ephesus</persName> to the Death of King
+                  <persName>Theodosius</persName>, in the Days of <persName>Valentinus</persName>,<ptr type="noteAnchor" target="#n23-5"/> who was Succeeded by <persName>Marcian</persName>, the
+                  Convener of the Synod of <placeName>Chalcedon in Bithynia</placeName>, which Met in the Year Seven <!-- include both as place name or separate them?-->
+                  Hundred and Sixty-four of the Greek Era of <persName>Alexander</persName></head>
+               <p>With respect to the regular succession of the chief priests from the first Synod
+                  of <placeName>Ephesus</placeName> to the death of <persName>Theodosius</persName>, it is pertinent to our subject to relate
+                  who they were. In <pb type="page" n="24"/><placeName>Rome</placeName>, after <persName>Celestine</persName>, <persName>Leo</persName> was bishop
+                  for twenty-one years and forty-three days; and in <placeName>Alexandria</placeName>, after <persName>Cyril</persName>,
+                  <persName>Dioscorus</persName> was bishop for eight years and three months. And in <placeName>Constantinople</placeName>,
+                  <persName>Maximus</persName><ptr type="noteAnchor" target="#n24-1"/> for two years and two months; and after him, <persName>Proclus</persName> for two years
+                  and two months; and after him, <persName>Flavian</persName> for six years; and after him, <persName>Anatolius</persName> for
+                  eight years. In <placeName>Antioch</placeName>, <persName>Domnus</persName> was bishop after <persName>John</persName>; and after him <persName>Maximus</persName>. And
+                  in <placeName>Jerusalem</placeName>, <persName>Juvenalis</persName> was bishop for thirty-six years, who, holding the same
+                  position, was present at the three Synods, because the time of his years was
+                  protracted. </p>
+            </div>
+            <div type="chapter" n="2.5"> 
+               <head>The Fifth Chapter Contains the Letter of <persName>Proclus</persName>, Chief Priest of
+                  <placeName>Constantinople</placeName>, to the Armenians. It is a Very Excellent Letter, Showing the Faith
+                  of the Man; and to Preserve it in Memory we have Transcribed it<ptr type="noteAnchor" target="#n24-2"/> here for
+                  the Benefit of Believing Brothers</head>
+               <head>The Letter of <persName>Proclus</persName><ptr type="noteAnchor" target="#n24-3"/></head>
+               <p><quote>Beloved, the mystery of the true faith is true love, and the pure undoubting
+                  confession of the Trinity equal, undivided, and susceptible of no addition; and a
+                  mind not varying in its state, but steadfast in its faith towards God. That is the
+                  faith which we do not possess on tables of stone, as in the type, but receive on
+                  the tables of our hearts, as in a mystery; tables (I say) which are nailed to the
+                  cross, and are inscribed with the sprinkling of the blood of God. And it is right
+                  for us not only to believe, but also to follow earnestly after virtues and morals
+                  worthy of the faith.<ptr type="noteAnchor" target="#n24-4"/> For virtue is to be chosen by everyone, especially by
+                  those whose beauty of soul has not been corrupted by a hateful life of lusts.
+                  There are indeed <pb type="page" n="25"/>many kinds of virtue. For even the
+                  heathen, drowned in error and lost in mind, wrote memorable things<ptr type="noteAnchor" target="#n25-1"/>
+                  concerning this virtue. But as for this nature which is visible and flows on
+                  without cessation, they only felt<ptr type="noteAnchor" target="#n25-2"/> after it in their written teaching. But
+                  either their sight was dim from length of time, or they were blinded by error, so
+                  as to hinder them from the perception of the truth and from real virtue. For they
+                  say in their teaching that there are four kinds of virtue, namely, justice,
+                  self-restraint, wisdom, and fortitude; which things, though they are to be highly
+                  accounted, yet are exercised here below and have their sphere upon the earth. They
+                  say, indeed, that fortitude is the contest with fierce nature, and self-restraint
+                  the triumph over the passions, and wisdom the distinguished government of
+                  cities,<ptr type="noteAnchor" target="#n25-3"/> and justice right division. And thus they ordered and arranged the
+                  world, according to that which is in the law,<ptr type="noteAnchor" target="#n25-4"/> and they defined wickedness
+                  on both sides. However, anything superior to and transcending this visible scene
+                  they did not understand, nor were they able to describe it in writing. But with
+                  the blindness of their mind they have contracted virtue itself, and have
+                  shut<ptr type="noteAnchor" target="#n25-5"/> it up within what is visible alone. The Christians, however, by whose
+                  own faith the eyes of their heart have been enlightened, whose master and teacher
+                  is the blessed <persName>Paul</persName>, have declared that to be<ptr type="noteAnchor" target="#n25-6"/> virtue which lifts us up to
+                  God, and which governs in orderly fashion the things that are on earth. This most
+                  illustrious <persName>Paul</persName>, then, considered that there were many kinds of virtue; but he
+                  especially preached about these three, namely, faith, hope, and love. For faith
+                  gives to men something which transcends human nature, and causes that fleshly
+                  nature, as yet encompassed by many passions, to hold converse with spiritual
+                  beings. <pb type="page" n="26"/>For the knowledge of that which angels and
+                  spiritual hosts did not know on account of its sublimity, faith imparts to men,
+                  who walk upon the earth and wallow in the dust, and it brings them near to the
+                  Throne of the Kingdom, and it tells them of that Nature which is without beginning
+                  and without end; and by the rays of light which it diffuses, it drives away
+                  darkness of thought<ptr type="noteAnchor" target="#n26-1"/> from the soul; and when it has cleared off all gloom
+                  and denseness from the heart, then it causes that to be clearly seen which is
+                  comprehended in its invisibility, and also is seen in its incomprehensibility. But
+                  hope shows things to come in the present, not as in a dream, one can say, but
+                  forcibly; and, without a doubt, confirms in the mind that which is future as if it
+                  were actually seen; and it forms before a man's eyes, so to speak, what he is
+                  still expecting. For this hope is superior to every restraint, and brings near,
+                  without delay, the thing expected to him who is expecting it.</quote></p>
+               <p><quote>But love is the chief of all our mysteries, for it persuaded God the Word, though
+                  He is always on the earth, near to all and with all (heaven and earth being filled
+                  by Him), to become incarnate and come by means of the flesh. And, being God, He
+                  became also man; He retained that which properly belonged to Himself on His own
+                  part, and He became like us on our part. These two then agree together, for faith
+                  is the mirror of love, and love is the completion of faith. We believe, therefore,
+                  that God the Word became incarnate without undergoing any change; and we rightly
+                  so believe, for this is the foundation of our salvation. For His nature receives
+                  no change, nor does it cause any addition to the Trinity. Thus indeed do we also
+                  ourselves believe.</quote></p>
+               <p><quote>Every Christian, therefore, who is not rich in faith, hope, and love, is not what
+                  he is named; but even though he seem to have subdued his flesh and to have
+                  delivered himself from the passions of his soul, he is not meet for the crown of
+                  victory, inasmuch as he maintains the outward appearance<ptr type="noteAnchor" target="#n26-2"/> of virtue, but he
+                  is not united to Him who crowns the conquerors that have resolutely contended on
+                  behalf of virtue in faith and <pb type="page" n="27"/>hope and love. Faith, then,
+                  according to what we have said,<ptr type="noteAnchor" target="#n27-1"/> is the chief of all blessings; let it
+                  therefore be kept without guile, and let us not tarnish it by the falsehood of
+                  human thoughts, neither let us toss it about in the midst of confusing voices, nor
+                  by the explanations of those who are reputed to be wise: for faith is not to be
+                  explained; faith is a mystery. Let it then remain within the limits of the Gospel
+                  of the apostles; and let no man dare to contend in his explanation with this faith
+                  by which he is saved, and which he confessed in baptism by the signature of his
+                  tongue. For this lofty height of faith has repelled every attack and all vaunting
+                  and rashness, not of man only, but also of every spiritual nature. And the blessed
+                  <persName>Paul</persName> testifies, crying out, <quote>If we or an angel from heaven should preach anything
+                  beside what ye have received, let him be accursed.</quote><ptr type="noteAnchor" target="#n27-2"/> For the angel has been
+                  appointed to minister and not to preach doctrine, and he brings punishment<ptr type="noteAnchor" target="#n27-3"/>
+                  upon any who does not remain<ptr type="noteAnchor" target="#n27-4"/> in his allotted station, but seeks after what
+                  is too high for his nature; but even though<ptr type="noteAnchor" target="#n27-5"/> he displays the exaltation of
+                  his nature, let not the novelty of his preaching be received. Let us then guard
+                  what we have received with sleepless care; and by the bright shining of our faith
+                  let the eye of our soul be always open. But what have we received<ptr type="noteAnchor" target="#n27-6"/> from the
+                  Divine Scriptures except this, that God by His word created the world out of
+                  nothing and brought the creation, which had no previous existence, into being; and
+                  made man in His own image and likeness, and honoured him by the law of nature; and
+                  gave him the commandment when he was in a state of freedom; and showed him how to
+                  help himself,<ptr type="noteAnchor" target="#n27-7"/> that by the choice of the good he should flee from the evil;
+                  and the propensity of man being biassed towards the evil expelled disobedience <pb
+                     type="page" n="28"/>from Paradise? And again, by the fathers and patriarchs,
+                  and by the Law, the judges, and the prophets, our Creator instructed our nature,
+                  that we should keep far away from sin, and should concern ourselves about the good
+                  and do it. And at last when sin established its kingdom over us by our own will,
+                  because the law of nature had been corrupted on its part,<ptr type="noteAnchor" target="#n28-1"/> and the written
+                  law had been despised, and the prophets, after the manner of men, brought deeds to
+                  remembrance but did not raise up our fleshly humanity from the depth of the evils,
+                  God the Word Himself, even He who is without beginning and without end,
+                  incomprehensible, invisible, and almighty, God the Word (I say) came and became
+                  incarnate; for He could be whatsoever He willed. God the Word then, Who is one of
+                  the Trinity, became incarnate; but He became incarnate because He so willed. And
+                  wishing to show<ptr type="noteAnchor" target="#n28-2"/> everywhere that He was really man, He was born from the
+                  Virgin. For the evangelist did not say that He entered into a perfect man, but
+                  that He <quote>became flesh,</quote> meaning thereby His natural beginning and referring to the
+                  origin of His birth. For just as a man who is naturally born does not come forth
+                  complete in the perfection of active power all at once, but the seed of the nature
+                  at first becomes a body, and afterwards, little by little, at length attains the
+                  strength of the passions and of the whole active power; so God the Word went to
+                  meet the origin and root of the birth. God the Word then became perfect man, and
+                  He did not take away anything from His own unchangeable nature by the miracle
+                  which He wrought — a miracle which did not enter into the heart of man to
+                  conceive, but which we learn by faith and have not comprehended by investigation.
+                  And having become man. He saved by His flesh the whole human race, and He paid the
+                  debt of sin, in that He died as man for all men; but as God the hater of evil. He
+                  destroyed him that had the evil power of death, that is, <persName>Satan</persName>. But He showed the
+                  capability of the Law by fulfilling all righteousness. And He gave to our nature
+                  its pristine beauty; and by becoming man He honoured the nature <pb type="page"
+                     n="29"/>which was derived from the earth, and showed Himself to be its Creator.
+                  There is therefore one Son, for we worship the Trinity in unity, and we do not
+                  introduce a fourth into this number; but there is one Son, begotten from the
+                  Father, without beginning and without end, through whom we believe that the worlds
+                  were made, He Who was from that root. He Who without flux sprang from the Father;
+                  that same God the Word Who, without change of place, issues from the Father; yet
+                  remaining as He is. For although <ptr type="noteAnchor" target="#n29-1"/> He became man and appeared on the <placeName>earth</placeName>,
+                  yet He did not depart from Him who begat Him.</quote></p>
+               <p><quote>God the Word therefore wished to save the being whom He created; and He dwelt in
+                  the womb which is the gate of the universal nature of all, and He revived and
+                  blessed the womb, and by issuing forth from it He sealed<ptr type="noteAnchor" target="#n29-2"/> it. And by His
+                  supernatural birth He showed that He became incarnate in a manner transcending
+                  reason; for there are none among the beings above and beneath who know how He
+                  became incarnate. There is not, then, one who is <persName>Christ</persName> and another who is God the
+                  Word (away with such a thought!), for the divine nature does not know two sons; He
+                  therefore was begotten the only One from One; for where there is not copulation of
+                  parents, there duality of the offspring is not possible. <quote>In the name of <persName>Jesus
+                  Christ</persName>,</quote> indeed, <quote>every knee shall bow, of things in heaven and on earth, and of
+                  things under the earth.</quote><ptr type="noteAnchor" target="#n29-3"/> For if <persName>Christ</persName> is another and not God the Word,
+                  then of necessity <persName>Christ</persName> must be mere man; and how can the exalted nature of
+                  heavenly beings bow the knee and worship His Name, if He be not God of God? or how
+                  shall we receive the voices of prophets, crying, <quote>God appeared upon earth and held
+                     converse with men?</quote><ptr type="noteAnchor" target="#n29-4"/> For concerning His Incarnation it is said, <quote>He
+                  appeared,</quote> and the expression, <quote>He held converse,</quote> is used concerning His converse
+                  which He displayed with men in the end of the ages. For thus He that is exalted in
+                  greatness showed His almighty power; and as the universal Ruler to Whom everything
+                  is easy. He remained what He was on His own part, and became what He willed for
+                  us.</quote></p>
+               <pb type="page" n="30"/>
+               <p><quote>But if the swaddling clothes, and the lying in the manger, and the growth of the
+                  body, and the sleeping<ptr type="noteAnchor" target="#n30-1"/> in the ship, and the weariness on the journey, and
+                  the occasional hunger, and all those things which happened to Him Who was truly
+                  man, be a cause of stumbling to some persons, let them know that if they be in
+                  doubt concerning His sufferings, they deny the dispensation; but when they deny
+                  the dispensation they do not believe in the Incarnation, but when they do not
+                  believe in the Incarnation they lose their own lives. For if from the foundation
+                  of the world a man was not born who trod a way of birth like this,<ptr type="noteAnchor" target="#n30-2"/> let
+                  these new Jewish wranglers<ptr type="noteAnchor" target="#n30-3"/> show it, and then indeed their troublesome
+                  contention<ptr type="noteAnchor" target="#n30-4"/> will be disclosed. But if this is the universal beginning of
+                  nature, and God the Word truly became man, how then, while confessing with us the
+                  dispensation, do they deny the sufferings? Let them therefore choose for
+                  themselves one of two things: either let them by denying the sufferings deny also
+                  the dispensation and be reckoned among the ungodly; or, if they accept the benefit
+                  which is derived from the dispensation, let them not be ashamed of the sufferings.
+                  I am amazed indeed at the blindness of their heart, who by a newly invented way
+                  have trodden the path that leads to error. For I myself know and have rightly
+                  learned from the Holy Scriptures only one Son; and I believe in one nature<ptr type="noteAnchor" target="#n30-5"/>
+                  of God the Word Who became man, and the same endured the sufferings and wrought
+                  the miracles, Who was begotten from His Father before all things, and became
+                  incarnate in the end of the ages, and was born from <persName>Mary</persName>, the Theotokos. And we
+                  confess that He is God over all, and we introduce no foreign element into the
+                  nature of the Deity, for no addition is possible to the Trinity in Unity; but the
+                  same Lord <persName>Jesus Christ</persName>, by Whom were all things, also endured our sufferings and
+                  carried our infirmities, <pb type="page" n="31"/>as the prophet<ptr type="noteAnchor" target="#n31-1"/> says; and
+                  He, being the same, wrought the miracles and suffered in our stead.</quote></p>
+               <p><quote>But perhaps in their contention these new Jews will strive with us, inventing
+                  thoughts weaker than a spider's web, and say that if indeed the Trinity be one
+                  essence then the Trinity is without suffering; and our Lord <persName>Jesus Christ</persName> is
+                  reckoned in the Trinity, and He is God the Word, therefore He is without
+                  suffering; consequently He Who was crucified must be another, and not God the Word
+                  Who is without suffering. Truly they who speak in this fashion are weaving the
+                  texture of a spider's web, and they who excogitate these new definitions are
+                  writing upon water; and <quote>thinking themselves to be wise they have become foolish,
+                  and their silly heart is darkened.</quote><ptr type="noteAnchor" target="#n31-2"/> For the eye, which has been dazzled by
+                  the brilliant light of the sun, cannot see clearly; and the mind that is sick
+                  cannot receive the sublimity of the faith.</quote></p>
+               <p><quote>What then do we say? That, so far as the Godhead is concerned, the Trinity is one
+                  essence, and is exalted above all sufferings. And when we say that the Son
+                  suffered, we do not mean that He suffered according to Nature, for His Nature is
+                  above sufferings. But in confessing that God the Word, one of the Trinity, became
+                  incarnate, we give a reason for the understanding of those who in faith ask us why
+                  He became incarnate. Because man who was formed<ptr type="noteAnchor" target="#n31-3"/> in the image of God, and
+                  to whom imperial freedom was given, erred in this freedom, and was led by the
+                  counsel of the deceiver; and he gave himself up to error, and he became the slave
+                  of lustful passions — passions all of which exercise dominion over a composite
+                  being — passions whose end is death — passions which none among the created beings
+                  is able to destroy. God the Word willed to destroy those passions whose end is
+                  death. He willed, indeed, to become incarnate and to be a composite being; that
+                  is, a perfect man in all points like us, sin only excepted; because it was not
+                  possible for that Nature, which is incorruptible, intangible, and invisible, to
+                  receive passions, for all passions are struggles of all composite <pb type="page"
+                     n="32"/>beings. For with that exalted Nature of the Godhead, which alone is
+                  uplifted high above all things, there is no composition; passion therefore was
+                  unable to enter where composition could not be. God the Word then willed to
+                  destroy the passions which reign over nature subject to passions (as we said
+                  before) whose citadel was death; and He became flesh from the Virgin, in a manner
+                  that He, God the Word, knew; and He became man perfectly, being at the same time
+                  God over all. For He did not abandon what properly belonged to Him when He became
+                  like us; but being God, He became man, for such was His will. He emptied Himself,
+                  therefore, by His own will by taking the likeness of a slave, and He became man,
+                  and suffered in our stead, by His own will, though His Godhead was not in any
+                  respect limited; and thus He saved the whole human race. Wherefore <persName>Gabriel</persName> also,
+                  when announcing the might and dominion of Him that should be born, said to <persName>Mary</persName>,
+                  <quote>He shall save His people from their sins.</quote></quote><ptr type="noteAnchor" target="#n32-1"/></p>
+               <p><quote>But the people are not the people of a man but of God, and a man cannot deliver
+                  the world from sins, because he also entered into the world in a state of
+                  corruption. But necessarily He is the same; He is not divided into two (away with
+                  such a thought!); but being one, by being born from a woman, He shows that He
+                  is<ptr type="noteAnchor" target="#n32-2"/> truly man; but by becoming man without copulation, and preserving His
+                  mother's virginity, He declared Himself to be God. The Lord <persName>Jesus Christ</persName>,
+                  therefore, Who came into the world and held converse with men, as the Holy
+                  Scriptures testify, saved the world. Now, if <persName>Christ</persName> be man, and not God the Word,
+                  how did He create everything in the beginning, when He Himself had no existence?
+                  For if man was later than the (other) created things, it is evident that this
+                  <persName>Christ</persName> also did not bring into being what had existence before Him. How then does
+                  <persName>Paul</persName> cry, saying, <quote>There is one Lord <persName>Christ</persName>, through Whom were all
+                  things</quote>?<ptr type="noteAnchor" target="#n32-3"/> For if all things were through <persName>Christ</persName>, it is evident that <persName>Christ</persName>
+                  is God the Word. The evangelist also testifies, saying, <quote>In the beginning was the
+                  Word, and <pb type="page" n="33"/>the Word was with God, and the Word was God. He
+                  was in the beginning with God, and all things were by Him.</quote><ptr type="noteAnchor" target="#n33-1"/> If, therefore,
+                  the evangelist cries that all things were by the Word, and Paul, interpreting this
+                  expression, says, There is one Lord <persName>Jesus Christ</persName>, by Whom were all things, it is
+                  evident that <persName>Christ</persName> is God over all. But if the objectors bring forward to us the
+                  voices of the Scriptures, in which He is called man, namely, that of Peter, who
+                  says, <quote><persName>Jesus</persName> of <placeName>Nazareth</placeName>, a man</quote>;<ptr type="noteAnchor" target="#n33-2"/> and of <persName>Paul</persName>, who says, <quote>By that man in
+                  Whom God has ordained that we should believe</quote>;<ptr type="noteAnchor" target="#n33-3"/> and of our Lord Himself,
+                  Who says respecting Himself, <quote>Why do ye seek to kill Me, a man?</quote><ptr type="noteAnchor" target="#n33-4"/> let them
+                  know that either through their dulness they have been hindered from the
+                  understanding of Scripture, or through their wickedness they are perverting what
+                  is well written,<ptr type="noteAnchor" target="#n33-5"/> according to their own deceitfulness. For also <persName>Christ</persName> is
+                  truly man; but He became man, not having been so before, but only God; for just as
+                  He is uncreated God, so also He, the same, is man, truly, personally,<ptr type="noteAnchor" target="#n33-6"/> and
+                  certainly, without change and without any kind<ptr type="noteAnchor" target="#n33-7"/> of phantasy. And we do not
+                  confess that the body of our Lord is from heaven; indeed we excommunicate everyone
+                  who says so; but we confess that it is by the Holy Ghost and the power of the
+                  Highest which overshadowed the holy Virgin <persName>Mary</persName>, the Theotokos. But if the Virgin
+                  did not bear God, then she who remained undefiled is not deserving of admiration.
+                  But if the voices of the prophets foretelling the incomprehensible nature of our
+                  mystery, cried out, <quote>Behold a virgin shall conceive, and bear a son, and they
+                  shall call His name <persName>Immanuel</persName>, which is, God with us,</quote><ptr type="noteAnchor" target="#n33-8"/> why <pb type="page"
+                     n="34"/>do they take away from the glory of His mother, seeing that He Who was
+                  born in lowly fashion is God over all ?<ptr type="noteAnchor" target="#n34-1"/> But perhaps the objectors will
+                  raise this objection, that truly every one who is born is of the same nature as
+                  the mother who bore him; if, then, she who bore him was human, it necessarily
+                  follows that he who was born was human also. Ye say well, O vain babblers! but
+                  then the child is of the same nature as she whom the birth-pangs smite when he who
+                  is born comes according to the natural course; however, the naturally-born child
+                  is corrupt from the beginning, because copulation precedes corruption. But where
+                  this reproach did not even enter the mind, but there was an ineffable miracle, the
+                  birth having been supernatural, there He that was born was God. We confess Him to
+                  be the same who created the world, and gave the Law, and put the Spirit in the
+                  prophets, and in the end of the times for the sake of the life and salvation of
+                  men became incarnate and was made man; and He inspired the apostles, and sent them
+                  forth for the salvation of people and nations. Let us flee, then, my brothers,
+                  from these troubled streams of error; I mean the doctrines that fight against God
+                  — namely, from the mad folly of <persName>Arius</persName>, who was dividing the indivisible Trinity;
+                  and from the rashness of <persName>Eunomius</persName>, who limited beneath his science the
+                  incomprehensible nature; and from the frenzy of <persName>Macedonius</persName>, who would sever from
+                  the Godhead the Spirit proceeding not departing;<ptr type="noteAnchor" target="#n34-2"/> along with all the other
+                  heretics lost in their error; but especially from this new doctrine and blasphemy
+                  formulated by <persName>Nestorius</persName>, who far surpasses the Jews in his blasphemy. For those
+                  former heretics were despising the everlasting Son, Who is from all eternity with
+                  the Father, and depriving the root of its fruit; but these teachers of our day by
+                  their doctrine are bringing in another in addition to Him Who is from all
+                  eternity, Who became man for our salvation, so that they make a plurality of sons
+                  in that one and incorruptible Nature which is from one essence. <pb type="page"
+                     n="35"/>Let us say, then, with <persName>Paul</persName>, that <persName>Christ</persName> is He Who <quote>made both
+                  one</quote>;<ptr type="noteAnchor" target="#n35-1"/> for of Jews and heathen through baptism, He has created one new man,
+                  and by His power He made that one, which, through the exercise of its freedom was
+                  divided. Let these impious teachers, then, dread the sentence of judgment if what
+                  was divided has been brought into unity, but that one Person Who made both one is,
+                  after their manner of reasoning, divided.</quote></p>
+               <p><quote>But now we shall leave the multitude of words and come to the concise statement
+                  of true doctrine. Whoever desires to know that the alone and only-begotten Son,
+                  Who was before the life of <persName>Abraham</persName> — that the same became incarnate in the end of
+                  the times, let him ask <persName>Paul</persName>, who thunders with his voice, declaring rightly that
+                  He Who was born from the Jews in the flesh is the everlasting God; for, while
+                  telling and declaring the contempt of the Jews and the contention of the people
+                  with God, and the root which is the Father,<ptr type="noteAnchor" target="#n35-2"/> and the seed which is <persName>Christ</persName>
+                  our Lord, he says thus, <quote>Whose is the adoption</quote> <ptr type="noteAnchor" target="#n35-3"/> — for God cried through
+                  His prophets, <quote><placeName>Israel</placeName> is My son. My firstborn and My glory</quote>;<ptr type="noteAnchor" target="#n35-4"/> and indeed
+                  they reaped immeasurable glories from the constant miracles and the covenants with
+                  <persName>Abraham</persName>, which told of the multitude of the people and the blessings — <quote>and the
+                  giving of the law,</quote> — that of <placeName>Mount Sinai</placeName>, which was written by the finger of God,
+                  — <quote>and the promises,</quote> — both the land of <placeName>Palestine</placeName> and that in the seed of <persName>Abraham</persName>
+                  the nations should be blessed, — <quote>whose are the fathers,</quote> — for in the night of
+                  error they arose and as stars of the faith — <quote>from whom <persName>Jesus Christ</persName> appeared in
+                  the flesh, Who is God over all.</quote> And he does not say this only and deem it
+                  sufficient; for also indeed the beginning of God the Word, Who is without
+                  beginning and without end, is not from the time of His birth by <persName>Mary</persName>. Who then is
+                  this <persName>Christ</persName>? He Who was begotten of the Father before the worlds in a manner which
+                  the mind of created beings cannot comprehend, and in the end of the times took
+                  flesh and became <pb type="page" n="36"/>man from the Virgin <persName>Mary</persName>, the Theotokos;
+                  He Who was shut up in the womb and in the cave, in a manner which He Himself
+                  knows; He Who was laid in the manger; He Who grew in the flesh; He Who came down
+                  to the lower parts of the earth, and by His own will endured all the sufferings of
+                  men, that He might be believed to be man, and to be no other than the One Who came
+                  down; but He Who came down and He Who went up is the same; however, He did not go
+                  up first, but came down. For He did not become God by addition (away with such a
+                  thought!), but He became man by the dispensation, for the race of men was in need
+                  of this. And you shall not hear this from me or from any other, but from <persName>Peter</persName> and
+                  from <persName>Paul</persName> — <persName>Peter</persName> when he says, <quote>Thou art <persName>Christ</persName>, the Son of the living
+                  God</quote>;<ptr type="noteAnchor" target="#n36-1"/> and <persName>Paul</persName> also, who learned by revelation from the Father concerning
+                  the Son, and says, <quote>When God Who separated me from my mother's womb and called me
+                  by His grace, was pleased to reveal His Son by my means.</quote><ptr type="noteAnchor" target="#n36-2"/> This <persName>Paul</persName> has
+                  truly taught you who <persName>Jesus Christ</persName> is when he cries and says, <quote>Of whom is <persName>Christ</persName> in
+                  the flesh, Who is God over all, blessed for ever.</quote><ptr type="noteAnchor" target="#n36-3"/> What occasion of
+                  calumny does not the word of <persName>Peter</persName> and <persName>Paul</persName> drive away from those who love
+                  calumny! for he called Him <quote><persName>Christ</persName></quote> to show that He truly became man; he said of
+                  Him, <quote>Who is of the Jews in the flesh,</quote> to show that His existence does not date
+                  only from the time when He became incarnate;<ptr type="noteAnchor" target="#n36-4"/> he said of Him, <quote>He is,</quote> to
+                  tell us by his mode of expression that He is without beginning; he said of Him,
+                  <quote>Who is over all,</quote> to proclaim Him Lord of created things; he said of Him, <quote>Who is
+                  God,</quote> that we should not be drawn aside by the outward appearance and sufferings
+                  so as to deny his incorruptible Nature; he said of Him, <quote>blessed</quote>, that we should
+                  worship Him as the Ruler<ptr type="noteAnchor" target="#n36-5"/> of all, and not regard Him as a fellow-<pb
+                     type="page" n="37"/>slave; he said of Him, 'Who is for ever,' to show that it
+                  is He Who by His word created all things, visible and invisible, whereby His
+                  Godhead is glorified. We have, then, <persName>Christ</persName> Who is God over all, Whom we shall
+                  worship, and we shall say to the heretics, <quote>In whomsoever the Spirit of <persName>Christ</persName> is
+                  not, he is none of His.</quote> For we have the mind of <persName>Christ</persName>, and therefore we look for
+                  the revelation of God our Saviour, the Lord <persName>Jesus Christ</persName>, Who Himself shall reward
+                  the well-doers with the crown of victory, but the despisers with the
+                  recompense<ptr type="noteAnchor" target="#n37-1"/> of their rashness. See, then, my brothers, that no man rob you
+                  by impious words, or turn you aside by false science from the simplicity and
+                  unadorned modesty of the pure beauty of the faith. But again, I repeat to you the
+                  word of <persName>Paul</persName>, <quote>Beware lest any man rob you by the vain philosophy of the
+                  traditions of men</quote><ptr type="noteAnchor" target="#n37-2"/> — men who are inventors of vain things, who have not
+                  taught us as the prophets and apostles teach, but have gone astray by their own
+                  wisdom and followed the interpretation of their own mind; wherefore their teaching
+                  is a stumbling-block to the Church of God, which He purchased with His precious
+                  blood. For other foundation of the true faith can no man lay except that which is
+                  laid, that there is one God, the Father, Ruler of all, and one Lord <persName>Jesus Christ</persName>,
+                  by Whom were all things, Who is from all eternity with the Father, from Him and of
+                  the same Nature with Him; and one<ptr type="noteAnchor" target="#n37-3"/> Holy Spirit, the Lord and Life-giver,
+                  Who proceeds from the Father, and together with the Father and the Son is
+                  worshipped and glorified. Stand, then, in one spirit and one mind, and fight for
+                  the faith, and be not in anything troubled by the adversaries, but keep the
+                  tradition which you have received from the blessed Fathers, who,<ptr type="noteAnchor" target="#n37-4"/> out of
+                  the whole creation, met together by the operation of the Holy Spirit, and preached
+                  to us the true and undefiled faith, which we have from one end of the earth to the
+                  other.</quote></p>
+               <p>The end of the letter which the blessed <persName>Proclus</persName>, bishop of <pb type="page" n="38"
+                  /><placeName>Constantinople</placeName>, wrote to Great <placeName>Armenia</placeName> of the Persians, concerning the true
+                  faith.</p>                                                                                  
+               <p>But<ptr type="noteAnchor" target="#n38-1"/> <persName>Theodosius</persName> lived, as the Chronicle informs us, fifty years; of these
+                  he reigned forty-two years, for he was eight years old when he began to reign. And
+                  the acts of thirty-two years of his reign are related in the ecclesiastical
+                  history of <persName>Socrates</persName>, and those of the other ten years more are written concisely
+                  above in this second Book. He died then in the three hundred and eighth <placeName>Olympiad</placeName>;
+                  and <persName>Marcian</persName> succeeded him in the kingdom. And in the year seven hundred and
+                  sixty-four by the reckoning of the Greek era of <persName>Alexander</persName>, he gathered to
+                  <placeName>Chalcedon</placeName> a Synod of five hundred and sixty- seven bishops, whose acts we shall
+                  describe as concisely as possible in this third Book which is written below, and
+                  in its chapters, which have been taken for the most part from the history of
+                  <persName>Zachariah</persName> the Rhetorician, which he wrote in Greek to a man called <persName>Eupraxius</persName>, who
+                  lived in the royal palace and was engaged in the service of kings. But the body of
+                  the holy <persName>John</persName> the bishop, who is called <persName>Chrysostom</persName>, had been brought back from the
+                  place of his banishment, and it was honoured with a procession in <placeName>Constantinople</placeName>.
+                  And <persName>Eudocia</persName> the queen, the wife of <persName>Theodosius</persName>, went to <placeName>Jerusalem</placeName> for prayer, and
+                  returned, and then died. But <persName>Geiseric</persName><ptr type="noteAnchor" target="#n38-2"/> subdued <persName>Carthage</persName> of <placeName>Africa</placeName> and
+                  reigned over it. And <persName>John</persName> the general<ptr type="noteAnchor" target="#n38-3"/> was killed by the servants of
+                  <persName>Arbindus</persName>,<ptr type="noteAnchor" target="#n38-4"/> and there were earthquakes in various places. And then
+                  <persName>Theodosius</persName> died.</p>
+            </div>
+         </div>
+         <noteGrp>
+            <note xml:id="n18-1"><!--  Add Syriac  -->, i.e. ὑπομνήματα</note>
+            <note xml:id="n18-2"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n18-3"><!--  Add Syriac  -->, i.e. πεπραγμένα.</note>
+            <note xml:id="n20-1">It is impossible to give in English the exact equivalent of this
+               theological term; neither <quote>God-bearer</quote> nor <quote>mother of God</quote> quite meet the
+               case.</note>
+            <note xml:id="n20-2"><!--  Add Syriac  --> i.e. <foreign xml:lang="grc">πεπραγμένα</foreign>.</note>
+            <note xml:id="n20-3">Mich. fol. iii. v; Greg. H. E. i. p. 159 ff.</note>
+            <note xml:id="n20-4">The text <!--  Add Syriac  --> is corrupt. Possibly for
+               <!--  Add Syriac  --> we should read <!--  Add Syriac  -->, and for
+               <!--  Add Syriac  -->, <!--  Add Syriac  -->.</note>
+            <note xml:id="n20-5">Some such words must have dropped out of the text; both <persName>Michael</persName> and
+               Barhebʳ- supply the omission as above.</note>
+            <note xml:id="n21-1">Liberat. 11.</note>
+            <note xml:id="n21-2">Liberat. 11.</note>
+            <note xml:id="n21-3"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n21-4">Sir. xxxii. (LXX. xxxv.) 8.</note>
+            <note xml:id="n21-5"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">διαλαλιαῖς</foreign>.</note>
+            <note xml:id="n21-6">This seems to be the sense of the passage, but the text is
+               evidently corrupt.</note>
+            <note xml:id="n21-7">Reading <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n21-8">Liberat. 11.</note>
+            <note xml:id="n22-1">Or petitions <!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">λίβελλοι</foreign>. For this letter
+               see <persName>Leo</persName>, Ep. 21 (Migne, Patr. Lat. vol. liv.).</note>
+            <note xml:id="n22-2">Leo, Ep. 22, 26.</note>
+            <note xml:id="n22-3"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">δογματικοί</foreign>.</note>
+            <note xml:id="n22-4">Liberat. 12.</note>
+            <note xml:id="n22-5">An exact translation of the text as it stands is impossible.
+               Perhaps for <!--  Add Syriac  --> we should read <!--  Add Syriac  -->, and render
+               it, <quote>And they searched in the Acts for what was done in <placeName>Constantinople</placeName> concerning
+               <persName>Eutyches</persName>.</quote></note>
+            <note xml:id="n23-1"> For <!--  Add Syriac  -->, <quote>question,</quote> it would perhaps be better
+               to substitute <!--  Add Syriac  -->, <quote>outcry.</quote></note>
+            <note xml:id="n23-2"><!--  Add Syriac  -->. No doubt <persName>John</persName> of <placeName>Aegae</placeName> is meant
+               (Brooks).</note>
+            <note xml:id="n23-3"><!--  Add Syriac  -->. It may stand either for
+               <!--  Add Syriac  -->, <quote>consent</quote>, <quote>agreement</quote>, etc.; or for <!--  Add Syriac  -->,
+               <quote>recantation.</quote> This libel is given in <placeName>Mansi</placeName>, vol. vi. p. 629. As there is no
+               recantation in it, perhaps the former meaning may be the one intended by our
+               author.</note>
+            <note xml:id="n23-4"><!--  Add Syriac  --> = <foreign xml:lang="grc">καταστασις</foreign></note>
+            <note xml:id="n23-5">I.e. <persName>Valentinian</persName>.</note>
+            <note xml:id="n24-1">I.e. <persName>Maximian</persName>.</note>
+            <note xml:id="n24-2"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n24-3">Migne, Patr. Graec. vol. Ixv. p. 856, and Patr. Lat. vol. Ixvii. p.
+               409.</note>
+            <note xml:id="n24-4">Down to this point the Syriac text is quite different from the
+               Greek.</note>
+            <note xml:id="n25-1"><!--  Add Syriac  -->, L.; <!--  Add Syriac  -->, MS. I suggest
+               <!--  Add Syriac  -->, and translate accordingly. The Greek is <foreign xml:lang="grc">διαφόρως</foreign>.</note>
+            <note xml:id="n25-2"><!--  Add Syriac  -->, MS.; it should be <!--  Add Syriac  -->; the
+               Greek is <foreign xml:lang="grc">ψηλαφῶντες</foreign>.</note>
+            <note xml:id="n25-3"><!--  Add Syriac  -->; the original is <foreign xml:lang="grc">τὴν ἐν ταῖς πόλεσιν
+               ἀριστοκρατείαν.</foreign></note>
+            <note xml:id="n25-4">Or, as by law.</note>
+            <note xml:id="n25-5">By reading <!--  Add Syriac  --> for <!--  Add Syriac  --> we
+               obtain the sense of the original <foreign xml:lang="grc">περιέκλεισαν.</foreign></note>
+            <note xml:id="n25-6"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n26-1"> I venture to read <!--  Add Syriac  --> for <!--  Add Syriac  -->;
+               the Greek is <foreign xml:lang="grc">τὴν ἀχλὺν τῶν αἰσθησέων.</foreign></note>
+            <note xml:id="n26-2"><!--  Add Syriac  -->, MS. (i.e. <foreign xml:lang="grc">σχῆμα</foreign>), not <!--  Add Syriac  -->,
+               as L. prints.</note>
+            <note xml:id="n27-1"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L. prints
+               it.</note>
+            <note xml:id="n27-2">Gal. i. 9. <!--  Add Syriac  -->, MS., <!--  Add Syriac  -->,
+               L.</note>
+            <note xml:id="n27-3">Or, and punishment comes.</note>
+            <note xml:id="n27-4"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L. prints
+               it.</note>
+            <note xml:id="n27-5"><persName>Mr. Brooks</persName> suggests that this is the correct reading
+               <!--  Add Syriac  -->, Gk. <foreign xml:lang="grc">εἰ καί</foreign>, not <!--  Add Syriac  --> as in the text.</note>
+            <note xml:id="n27-6"><!--  Add Syriac  --> MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n27-7"><!--  Add Syriac  -->, his own help or profit.</note>
+            <note xml:id="n28-1">Or, had become obsolete.</note>
+            <note xml:id="n28-2">By reading <!--  Add Syriac  --> for <!--  Add Syriac  --> we get
+               the sense of the original <foreign xml:lang="grc">δεῖξαι</foreign>.</note>
+            <note xml:id="n29-1">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->; the Greek is
+               <foreign xml:lang="grc">εἰ καί</foreign>.</note>
+            <note xml:id="n29-2"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.</note>
+            <note xml:id="n29-3">Phil. ii. 10.</note>
+            <note xml:id="n29-4">Bar. iii. 37.</note>
+            <note xml:id="n30-1"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n30-2">By transposition of the word <!--  Add Syriac  --> the Syriac would
+               give the same sense as the Greek, i.e. <quote>a man was born who trod a way of birth unlike
+               this.</quote></note>
+            <note xml:id="n30-3">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n30-4">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n30-5"><!--  Add Syriac  -->, so (tempted by theological bias) the
+               Monophysite translator rendered the <foreign xml:lang="grc">ὑπόστασις</foreign> of the original.</note>
+            <note xml:id="n31-1">Isa. liii. 4.</note>
+            <note xml:id="n31-2">Rom. i. 21, 22.</note>
+            <note xml:id="n31-3"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L. prints
+               it.</note>
+            <note xml:id="n32-1">There seems to be a confusion between <persName>Matt</persName>. i. 21 and <persName>Luke</persName> i.
+               31-33.</note>
+            <note xml:id="n32-2">I venture to read <!--  Add Syriac  --> for
+               <!--  Add Syriac  -->.</note>
+            <note xml:id="n32-3">I Cor. viii. 6.</note>
+            <note xml:id="n33-1"><persName>John</persName> i. 1-3.</note>
+            <note xml:id="n33-2">Acts ii. 22.</note>
+            <note xml:id="n33-3">Acts xvii. 31. It is interesting to notice that the Syriac version
+               (<!--  Add Syriac  -->, <quote>through the man whom He has ordained, and has converted
+               everyone to the faith of Him</quote>) forms a connecting link between the Greek original and
+               the rendering given above.</note>
+            <note xml:id="n33-4"><persName>John</persName> viii. 40.</note>
+            <note xml:id="n33-5">Reading <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n33-6"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n33-7">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->; the latter
+               would convey a positively wrong meaning. Of course <!--  Add Syriac  --> must also be
+               omitted.  <quote>Nullam suspicionem phantasiae,</quote> Lat. (<persName>Brooks</persName>).</note>
+            <note xml:id="n33-8"><persName>Isa</persName>. vii. 14; <persName>Matt</persName>. i. 23.</note>
+            <note xml:id="n34-1">This is a troublesome passage for the translator. <persName>Mr. Brooks</persName>
+               supposes that the word <!--  Add Syriac  --> has dropped out of the text through
+               homoioteleuton, and he renders <quote>because He that was born was born through
+               condescension, Who is God over all.</quote></note>
+            <note xml:id="n34-2">Or, proceeding immutably.</note>
+            <note xml:id="n35-1">Eph. ii. 14.</note>
+            <note xml:id="n35-2">The Greek is <foreign xml:lang="grc">Ἀβράαμ</foreign>; it may be that we should read
+               <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n35-3">Rom. ix. 4.</note>
+            <note xml:id="n35-4">Ex. iv. 22 and <persName>Isa</persName>. xlvi. 13.</note>
+            <note xml:id="n36-1"><persName>Matt</persName>. xvi. 16.</note>
+            <note xml:id="n36-2"><persName>Gal</persName>. i. 15, 16.</note>
+            <note xml:id="n36-3"><persName>Rom</persName>. ix. 5.</note>
+            <note xml:id="n36-4">In the translation above I adopt <persName>Mr. Brooks</persName>' suggestion, that we
+               should read <!--  Add Syriac  --> instead of <!--  Add Syriac  -->. The rendering of
+               the text as it stands would be, <quote>that He did not become incarnate from the Gentiles,
+               but was from thence alone.</quote> This change brings the text into harmony with the Greek
+               and Latin.</note>
+            <note xml:id="n36-5"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as in L.'s
+               text.</note>
+            <note xml:id="n37-1"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+               prints.</note>
+            <note xml:id="n37-2">Col. ii. 8.</note>
+            <note xml:id="n37-3"><!--  Add Syriac  -->, MS., an evident mistake for
+               <!--  Add Syriac  -->.</note>
+            <note xml:id="n37-4">From this point the Greek and Latin are different from our
+               text.</note>
+            <note xml:id="n38-1"><persName>Mich</persName>. fol. 115 v.</note>
+            <note xml:id="n38-2"><!--  Add Syriac  -->, <foreign xml:lang="grc">Ζινζήριχος</foreign>.</note>
+            <note xml:id="n38-3"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στρατηλάτης</foreign>.</note>
+            <note xml:id="n38-4"><!--  Add Syriac  -->, i.e. <persName>Areobindus</persName> (<persName>Brooks</persName>).</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

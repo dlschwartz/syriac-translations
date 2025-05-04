@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Syriac Chronicle</title>
+            <author><persName>Zachariah</persName> of <placeName>Mitylene</placeName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="book" n="6">
+            <head>Book 6</head>
+            <div type="section" n="6.0">
+               <p>The sixth Book taken from the work of <persName>Zachariah</persName>, containing seven chapters.</p>
+               <p>The first tells about the Separatists<ptr type="noteAnchor" target="#n132-1"/> from the communion of <persName>Peter</persName>,
+                  because he received the Henotikon.</p>
+               <p>The second tells of <persName>Cosmas</persName> the Spatharius who was sent by <persName>Zeno</persName>; and the
+                  transactions which took place in <placeName>Alexandria</placeName> with the seceding monks.</p>
+               <p>In the third there is an account of <persName>Peter</persName> and <persName>Isaiah</persName> the monk.</p>
+               <p>In the fourth we are told about <persName>Arsenius</persName> the prefect, who was sent to <placeName>Alexandria</placeName>;
+                  and how he acted towards the Separatists.</p>
+               <p>Then the fifth tells of the letter of Fravitta, who was bishop in <placeName>Constantinople</placeName>,
+                  to <persName>Peter</persName>.</p>
+               <p>The sixth contains a record of the letter of <persName>Peter</persName> to <persName>Fravitta</persName>.</p>
+               <p>The seventh gives information respecting the chief priests who were in the days of
+                  <persName>Zeno</persName>; and also concerning the length of <persName>Zeno</persName>'s life.</p>
+            </div>
+            <pb type="page" n="133"/>
+            <div type="chapter" n="6.1">
+               <head>Chapter 1</head>
+               <head>The first chapter of this sixth Book tells about those who seceded from the
+                  communion of <persName>Peter</persName>, because there was no express anathemaof the Synod of <placeName>Chalcedon</placeName>
+                  and the Tome of <persName>Leo</persName>, either in the Henotikon or in the letters of the chief priests
+                  to him</head>
+               <p>Matters having been thus arranged by the king's Henotikon, and three or four of
+                  the chief priests, namely, the bishops of <placeName>Ephesus</placeName>, and of <placeName>Jerusalem</placeName>, and of
+                  <placeName>Alexandria</placeName>, and of <placeName>Antioch</placeName>, together with the bishops in their jurisdictions,
+                  being united and agreed together according to the purport of this Henotikon of
+                  <persName>Zeno</persName>, and having received and subscribed to it; then <persName>Julian</persName> and <persName>John</persName>, presbyters
+                  of <placeName>Alexandria</placeName>, and <persName>Helladius</persName> and <persName>Serapion</persName>, deacons, venerable men belonging to the
+                  Church there, and <persName>Theodore</persName> the bishop of <placeName>Antinoe</placeName>, and <persName>John</persName> and another Egyptian,
+                  and <persName>Andrew</persName> the great archimandrite,<ptr type="noteAnchor" target="#n133-1"/> and <persName>Paul</persName> the Sophist, and other
+                  illustrious monks, seceded from the communion of <persName>Peter</persName> of <placeName>Alexandria</placeName>. But they
+                  took this course because there was no clear and decided anathema of the Synod and
+                  the Tome, either in the Henotikon or in the letters of the chief priests to <persName>Peter</persName>.
+                  And gradually the number of these Separatists was increased, and they received a
+                  considerable accession to their numbers in the monastery. And <persName>Acacius</persName> of the royal
+                  city, having heard it, wrote to urge them to be reunited.</p>
+               <p>But <persName>Peter</persName> in his public address,<ptr type="noteAnchor" target="#n133-2"/> and the other apologies which he made
+                  before the people, continued to revile the Synod. And, at length, <persName>Acacius</persName> heard
+                  this also, and he sent his presbyter to inquire into the freedom and the faith of
+                  <persName>Peter</persName>. And there ensued an investigation<ptr type="noteAnchor" target="#n133-3"/> before the judge<ptr type="noteAnchor" target="#n133-4"/> of the
+                     <pb type="page" n="134"/>city on this point, that the Synod had not been
+                  expressly anathematised by <persName>Peter</persName>, and the report of this reached the ears of many
+                  and proved a stumbling-block to them. And many demands were made of him by the
+                  seceding archimandrite and bishop. Then <persName>Peter</persName> the Iberian, the bishop of <placeName>Gaza</placeName>, who
+                  was sojourning there, and <persName>Elijah</persName> the monk, surnamed the potter, were appointed to
+                  consider and examine into these matters. And having examined into them, together
+                  with the council of the monks, they selected four of <persName>Peter</persName>'s discourses concerning
+                  the faith, and they said to him, <quote>If thou dost agree to these, sign them</quote>; and he
+                  signed them. Whereupon several of them entered into communion with him, because he
+                  thereby anathematised the Synod and the Tome, when he delivered those discourses
+                  in the ears of the people. However, the others remained unwilling to hold
+                  communion with <persName>Peter</persName>. And the latter, seeing this, took away the monastery of
+                  Bishop Theodore, and thrust out that wonderful man, who had opened the eyes of a
+                  blind man by the aspersion of water from the baptismal font. Upon which there
+                  arose a great agitation among the monks, and they sent <persName>Nephalius</persName>, who was one of
+                  those that had been ejected by <persName>Peter</persName>, and was also a disturber of the people, to
+                  <persName>Zeno</persName> the king.</p>
+            </div>
+            <div type="chapter" n="6.2">
+               <head>Chapter 2</head>
+               <head>The second chapter of his sixth Book tells about <persName>Nephalius</persName>, who went up to the
+                  king, and madea complaint against <persName>Peter</persName>; and how <persName>Cosmas</persName> the Spatharius was sent (to
+                  <placeName>Alexandria</placeName>), and whatwas done upon his entry there</head>
+               <p><persName>Nephalius</persName>,<ptr type="noteAnchor" target="#n134-1"/> a monk,<ptr type="noteAnchor" target="#n134-2"/> and by his disposition and habits a disturber
+                  of the people, made preparations and went up to <persName>Zeno</persName> the king, bringing with him a
+                  letter from his fellow <pb type="page" n="135"/>Separatists; in which they
+                  testified against <persName>Peter</persName> that he had plundered<ptr type="noteAnchor" target="#n135-1"/> them, and ejected them, and
+                  taken away their monasteries.</p>
+               <p>And the king, when he heard it, was very angry with <persName>Peter</persName>, and sent <persName>Cosmas</persName> his
+                  Spatharius with a letter containing threats against <persName>Peter</persName>, and declaring that his
+                  Majesty had been so indulgent as to appoint him the bishop of <placeName>Alexandria</placeName>, with the
+                  object of uniting the people together, and not keeping them divided into two
+                  parts.</p>
+               <p>And <persName>Cosmas</persName> having arrived, in company with <persName>Nephalius</persName>, and the letter having been
+                  delivered to <persName>Peter</persName>: then the monks assembled at the Martyr Church of <persName>St. Euphemia</persName>,
+                  to the number of about thirty thousand, and ten bishops with them. But a message
+                  was sent to them, that they should not enter the city lest the people should be
+                  excited, and a tumult<ptr type="noteAnchor" target="#n135-2"/> should ensue. However, <persName>Theodore</persName> the bishop, and
+                  <persName>John</persName>, and <persName>Julian</persName> and <persName>John</persName> the presbyters, and <persName>Palladius</persName><ptr type="noteAnchor" target="#n135-3"/> and <persName>Serapion</persName> the
+                  deacons, and <persName>Andrew</persName> the Great, and <persName>Paul</persName> the Sophist, with about two hundred
+                  archimandrites, were selected as representatives; and they entered the great
+                  church to have an interview with <persName>Peter</persName>. Then they had a long conversation with
+                  <persName>Cosmas</persName> the <persName>Spatharius</persName> and the prefect of the city. And the king's letter was read
+                  aloud.</p>
+               <p>Then <persName>Peter</persName> delivered an apologetic address to them, anathematising, in their ears,
+                  the Synod and the Tome. And he further wrote in his own hand to the following
+                  effect: I, <persName>Peter</persName>, the bishop of <placeName>Alexandria</placeName>, do now, as I have often before,
+                  anathematise all that was said and devised in <placeName>Chalcedon</placeName> against the true faith of
+                  the holy fathers, the three hundred and eighteen bishops; and also the Tome of
+                  <persName>Leo</persName>. And I confess that these are my own works, and that anyone not agreeing with
+                  them, whether bishop, or presbyter, or deacon, or monk, or layman, is an alien.
+                  And if I (or any other person) shall ever write in agreement with the transactions
+                  of the Synod and the contents of the Tome, I shall become thereby a castaway from
+                  the Holy Trinity."</p> <!-- [Ending quote but no starting quote found] -->
+               <pb type="page" n="136"/>
+               <p>However, the monks would not accept this confession, for they said that <persName>Peter</persName>
+                  associated in communion with the chief priests, who had uttered no express
+                  anathema against the Synod and the Tome, as he had done.</p>
+               <p>And Peter replied, "My reason for holding communion with them is that they have <!-- [Quote Starts but does not finish] -->
+                  accepted the king's Henotikon, which cancels all additions, and the transactions
+                  of every place, except the three holy Synods, I mean those of <placeName>Nicea</placeName>, <placeName>Ephesus</placeName>, and
+                  <placeName>Constantinople</placeName>. And in my public address I explained the Henotikon, and showed you
+                  how it nullified the Synod of <placeName>Chalcedon</placeName>, by accepting the twelve Heads of the
+                  blessed <persName>Cyril</persName>, and by anathematising <persName>Nestorius</persName>, and <persName>Eutyches</persName>, and every other who
+                  would assert the duality of the Natures in <persName>Christ</persName>, and would ascribe the miracles
+                  to one and the sufferings to the other, and would divide the Persons in properties
+                  and in operations.</p>
+               <p>But after all this discussion, even then only a few of the monks consorted with
+                  Peter. And the others presented a libel against him to <persName>Cosmas</persName>. And they took their
+                  monasteries and dwelt in them, assembling by themselves. But they endeavoured to
+                  appoint a bishop instead of <persName>Peter</persName>. However, <persName>Theodore</persName> the bishop, being an orderly
+                  man, restrained them, saying, <quote>It is not fitting treatment for one who believes as
+                  we do, and anathematises the Synod and the Tome (even though he may hold communion
+                  with those that have received and signed the Henotikon), lest we be blamed for
+                  rejecting him, and be accounted as disorderly persons.</quote> But they say that <persName>Theodore</persName>
+                  took this course because he was one of the bishops who laid hands upon <persName>Peter</persName>.</p>
+               <p>The people, however, since they received <persName>Peter</persName> without dispute when he
+                  anathematised the Synod, were greatly incensed against the monks. But they were
+                  restrained by the chiefs and by <persName>Peter</persName>, so that there was no public tumult.</p>
+            </div> 
+            <pb type="page" n="137"/>
+            <div type="chapter" n="6.3">
+               <head>Chapter 3</head>
+               <head>The third chapter tells how <persName>Cosmas</persName>, when returning to the king, passed through
+                  to <placeName>Palestine</placeName>, inorder to take with him <persName>Peter</persName> the Iberian and <persName>Isaiah</persName> the monk,
+                  according to the king’s orders</head>
+               <p>But <persName>Cosmas</persName> on his return passed through <placeName>Palestine</placeName>, and sought for <persName>Peter</persName> the
+                  Illustrious and <persName>Isaiah</persName> the able<ptr type="noteAnchor" target="#n137-1"/> monk. However, he could not find <persName>Peter</persName>,
+                  because the latter had previous intimation of his coming, and had departed from
+                  before him.</p>
+               <p>But <persName>Isaiah</persName> prayed to God that a sickness might overtake him; lest, if he were to
+                  go up to the royal city, he might show himself a flatterer of the rich men there.
+                  And so it befell him.</p>
+               <p>And when <persName>Cosmas</persName> reached him and gave him the king's letter, he showed him his
+                  sickness and infirmity, saying, <quote>As I am a sick man, I cannot possibly endure to
+                  embark upon the sea, lest I die at once. And then I could not appear before the
+                  king; and you would be censured both by God and the king if you were to carry a
+                  corpse round the world.</quote> And in this way he succeeded in escaping. And shortly
+                  afterwards he recovered. And he persevered in the exercise of his habits, and of
+                  his conflicts all the days of his life. This man was indeed a seer, a sharer (as
+                  we may say) in the name and in the actions of the prophet <persName>Isaiah</persName>.</p>
+            </div>
+            <pb type="page" n="138"/>
+            <div type="chapter" n="6.4">
+               <head>Chapter 4</head>
+               <head>The fourth chapter tells how <persName>Arsenius</persName> was sent asprefect to <placeName>Alexandria</placeName> by the
+                  king, when thelatter learned the state of affairs from <persName>Cosmas</persName> respecting the
+                  Separatist monks andthe orders then given by the prefect</head>
+               <p>When <persName>Cosmas</persName><ptr type="noteAnchor" target="#n138-1"/> the Spatharius returned to the king, and presented a written
+                  communication informing him of the affairs in <placeName>Alexandria</placeName>, and about the Separatist
+                  monks, and their leaders, and the bishops; then he sent <persName>Arsenius</persName> there as prefect,
+                  and also gave him authority over the Romans. And he ordered that <persName>Theodore</persName> and <persName>John</persName>
+                  the bishops, and <persName>Agathon</persName>, and <persName>Julian</persName>, and <persName>John</persName> the presbyters, and <persName>Helladius</persName> and
+                  <persName>Serapion</persName> the deacons, and <persName>Paul</persName> and <persName>Andrew</persName> the archimandrites, and all the others
+                  should be called to unity, according to the terms of the faith laid down in the
+                  Henotikon, once or twice, by <persName>Peter</persName> the bishop of <placeName>Alexandria</placeName>; and that, in the
+                  event of their refusing to join in communion with him, they should be ejected from
+                  their monasteries.</p>
+               <p>And upon the arrival of <persName>Arsenius</persName>, this <persName>Nephalius</persName>, the disturber of the people,
+                  again attached himself to him. Then he brought together the bishops and the
+                  presbyters and the archimandrites; and he showed them the king's command, which he
+                  read aloud in their hearing. And <persName>Peter</persName> also readily repeated to them his
+                  explanation and anathema, at the same time entreating them to join in communion
+                  with himself However, they would neither accept nor be satisfied with this. But
+                  <persName>Theodore</persName> the bishop said to him, <quote>If you make a written statement abjuring the
+                  communion of the other chief priests and sign it,<ptr type="noteAnchor" target="#n138-2"/> then we will enter into
+                  communion with you.</quote> And <persName>Peter</persName>, in reply, made the same defence as before, saying,
+                  <quote>It is right for me to associate with those who receive the Henotikon, which
+                  teaches the true faith.</quote></p>
+               <pb type="page" n="139"/>
+               <p>Whereupon these men were compelled by <persName>Arsenius</persName> to go to the king, and personally
+                  to lay their petitions and wishes before him; so that then his command might be
+                  fully carried out. And they all went, with the exception of <persName>Theodore</persName>, who withdrew
+                  himself. And when they appeared before the king, he was astonished both at their
+                  chastity and at their reasoning with him about everything which was displeasing to
+                  them in his transactions.</p>
+               <p>But while they were there, <persName>Acacius</persName><ptr type="noteAnchor" target="#n139-1"/> the bishop of <placeName>Constantinople</placeName> died. And
+                  <persName>Fravitta</persName> was appointed as his successor; a gentle and believing man, who wrote a
+                  letter, after the canonical manner, and sent it by some clergy, to <persName>Peter</persName> of
+                  <placeName>Alexandria</placeName>. And <persName>Peter</persName> received it gladly; and he also wrote a reply, in which he
+                  expressly anathematised the Synod and the Tome of <persName>Leo</persName>. And while this was on its
+                  way, <persName>Fravitta</persName> died. And <persName>Euphemius</persName>, a man of <placeName>Apamea</placeName>, who was educated at
+                  <placeName>Alexandria</placeName>, was appointed as his successor. However, he was tainted with the
+                  Nestorian heresy.</p>
+               <p>And when he received the letter he was very indignant. And he was even angry with
+                  <persName>Longinus</persName> the presbyter and <persName>Andrew</persName> the deacon, the clergy who conveyed this letter;
+                  and he brought an accusation against them. But they deprecated his accusation by
+                  showing the zeal of the people of <placeName>Alexandria</placeName>. And <persName>Euphemius</persName> severed himself from
+                  <persName>Peter</persName>'s communion; and he sought to bring about the deprivation of <persName>Peter</persName>,
+                  intending for that purpose to convene a separate Synod. But <persName>Archelaus</persName> the bishop
+                  of <placeName>Caesarea</placeName>, a man of wonderful learning, restrained him, saying, <quote>It is not
+                  possible for the great bishop of <placeName>Alexandria</placeName> to be accused and ejected by a Synod
+                  of one province; only a General Council could do that.</quote> But when <persName>Peter</persName> heard it,
+                  he also uttered threats against <persName>Euphemius</persName>; that, just as the blessed <persName>Cyril</persName> had
+                  sent <persName>Nestorius</persName> to <placeName>Oasis</placeName>, so he would in like manner eject <persName>Euphemius</persName> from his see.
+                  However, <persName>Peter</persName> also departed this life. But his letter was seen<ptr type="noteAnchor" target="#n139-2"/> in
+                  <placeName>Constantinople</placeName>, and it convinced many that he was a believer. And <persName>John</persName> and <persName>Julian</persName>
+                  the Alexandrians, and the rest of their associates who happened to be there, the
+                  Separatists, on seeing <pb type="page" n="140"/>his letter to <persName>Fravitta</persName>, changed
+                  their minds; and they were ready on their return to <placeName>Alexandria</placeName> to join in
+                  communion with him. But while they were returning, he died. And his
+                  successor<ptr type="noteAnchor" target="#n140-1"/> was Athanasius, an eloquent, believing, and peace- loving man.
+                  He, desiring and exerting himself to bring the Separatist monks into communion
+                  with the Church, in the course of his address to the people mentioned the names of
+                  <persName>Dioscorus</persName> and <persName>Timothy</persName>, but he purposely omitted to mention the name of <persName>Peter</persName> in
+                  order to try them. Whereupon they became greatly excited (and they would not be
+                  quiet) until he named <persName>Peter</persName> also in his discourse.</p>
+            </div>
+            <div type="chapter" n="6.5">
+               <head>Chapter 5</head>
+               <head>The fifth chapter of this Book gives the letter of <persName>Fravitta</persName> of <placeName>Constantinople</placeName>
+                  to <persName>Peter</persName> of <placeName>Alexandria</placeName>, in the following terms</head>
+               <p><quote>To our holy father, and God-loving fellow-minister, <persName>Peter</persName>, from <persName>Fravitta</persName>, who
+                  sends greetings in the Lord. When I weigh mine own natural weakness, and I wonder
+                  at the merciful acts of God towards me, I truly perceive that it is absolutely(?)
+                  that <quote>He raises up the poor from the dunghill to set him with the princes of the
+                  people.</quote><ptr type="noteAnchor" target="#n140-2"/> And it is well known that this mercy of God is not the
+                  consequence of any meritorious deeds on man's part; but that it results from the
+                  divine grace which arises, time after time, upon the sons of the Church, through
+                  the love of the Father. So that it is not the wise, nor the disputers, nor the
+                  eloquent of this world whom grace raises up as leaders by the election.</quote></p>
+               <p><quote>Now, before the Law, <persName>Abel</persName>, though not learned,<ptr type="noteAnchor" target="#n140-3"/> was acceptable to God; as
+                  were also the righteous fathers who came after him. But under the Law, grace
+                  marked out shepherds and herdsmen, and gatherers of sycamore fruit,<ptr type="noteAnchor" target="#n140-4"/> and
+                  raised them up as prophets. And after the Law, the same <pb type="page" n="141"
+                  />grace appointed fishermen, and a tent-maker, to be the preachers of the living
+                  word from heaven. That thus the power of God might be truly known to be made
+                  manifest and perfect in the weak. And such are the mysteries of Christians who
+                  hold fast the Incarnation of <persName>Christ</persName>; according to His own word in the Gospel, <quote>I
+                  thank Thee, O Father, Lord of heaven and earth, that Thou hast hidden these things
+                  from the wise and prudent, and hast revealed them unto babes: even so, Father, for
+                  such is Thine own will.</quote></quote><ptr type="noteAnchor" target="#n141-1"/></p>
+               <p><quote>For <persName>Jesus Christ</persName> our God is the foundation and the corner-stone of the Holy
+                  Church. And therefore these blessings, which we have received, are not a strange
+                  display of His mercy. But we hope<ptr type="noteAnchor" target="#n141-2"/> that from them we shall understand His
+                  equal mercy towards other men; and we shall show ourselves gentle and kind to our
+                  brethren in the flesh and in the faith, and to the priests who are our
+                  fellow-ministers and <persName>Christ</persName>-loving brothers. Thus we shall endeavour<ptr type="noteAnchor" target="#n141-3"/> to
+                  rule the Holy Church everywhere in the same right faith, and in perfect love. And
+                  by the events which are taking place (the Lord helping us) we shall show the
+                  rational flock which has been intrusted to our care in all places to be one; that
+                  of the Great Shepherd, Who has appointed us to be the leaders of His flock. And we
+                  shall drive out those grievous wolves, the accursed heresies, more especially of
+                  <persName>Nestorius</persName> and <persName>Eutyches</persName>, by preaching and holding the faith of the holy fathers,
+                  who maintained the truth and preserved the order of the Church, and in our day
+                  teaching the right faith to the people and to mankind, as well as they.</quote></p>
+               <p><quote>But, using brotherly love and concord in my salutation, I now present to thy
+                  Holiness the pledge of my affection, by the hands of <persName>Longinus</persName> the presbyter and
+                  <persName>Andrew</persName> the deacon. And to complete what is right, I send my greetings to all the
+                  pastors, and the honourable priests, and the chaste monks, and the believing
+                  people of thy jurisdiction. We, <pb type="page" n="142"/>moreover, entreat thy
+                  Holiness to pray along with us, that we may show ourselves wise men and rulers in
+                  all matters, like <persName>Solomon</persName>, and like <persName>Paul</persName> and <persName>Peter</persName> and the rest of the apostles,
+                  in preaching the truth to the sons of the Church; and that in everything about
+                  which you refer to us, we may be able, to the best of our ability, to render
+                  fitting aid to the other Churches; and also in those matters taking place in the
+                  <persName>Christ</persName> - loving city, through the enactment of the <persName>Christ</persName>-loving and indulgent
+                  king, who is watchful and studious and desirous to bring about the peace of the
+                  Churches, and the concord of the priests, and the unity of the people.</quote></p>
+               <p><quote>I and the brethren with me send our best respects to thy Chastity, and to the
+                  brethren with thee.</quote></p>
+            </div> 
+            <div type="chapter" n="6.6">
+               <head>Chapter 6</head>
+               <head>The sixth chapter of this sixth Book tells aboutthe letter of <persName>Peter</persName> the bishop
+                  of <placeName>Alexandria</placeName>, which he wrote in reply to <persName>Fravitta</persName> of <placeName>Constantinople</placeName>, in the
+                  following terms</head>
+               <p><quote>To my pious and God-loving brother and fellow-minister, my lord <persName>Fravitta</persName>, from
+                  <persName>Peter</persName>, who sends greetings in the Lord.</quote></p>
+               <p><quote>In consequence of the election of thine Eminence, it is time now for us to say,
+                  <quote>Ye heavens above be glad, and let the earth with her fulness rejoice, and let her
+                  sing with<ptr type="noteAnchor" target="#n142-1"/> joy,</quote> according to the word of the prophet.</quote><ptr type="noteAnchor" target="#n142-2"/></p>
+               <p><quote>For also, our Lord <persName>Jesus Christ</persName>, Who is the one only-begotten Son of God the
+                  Father, has not redeemed<ptr type="noteAnchor" target="#n142-3"/> us with corruptible things, as silver and gold;
+                  but He rather laid down His life for us, as a lamb without blemish; and He offered
+                  a sacrifice of sweet savour to God His Father; and <pb type="page" n="143"/>gave
+                  His body as a substitute for the life of the whole human race. He Who is honoured
+                  by all creation, and is equal to the Father, God the Word, became incarnate; yet
+                  He suffered thereby no variation nor change; but He as man remains the same, and
+                  He is in truth alive for ever, the Word of His Father, and of the same nature.
+                  Come then, as with one tongue and one believing, <persName>Christ</persName>-loving mind, let us offer
+                  to Him thanksgiving, and say with the blessed <persName>Baruch</persName>, <quote>This is our God, there is
+                  none other beside Him. He found out the whole way of wisdom, and gave it to <persName>Jacob</persName>
+                  His servant, and to <placeName>Israel</placeName> His beloved. And afterwards. He appeared upon the
+                  earth, and had converse with men.</quote><ptr type="noteAnchor" target="#n143-1"/> For there was not indeed One the Son
+                  of God, Who existed before the times and ages, through Whom all things were made;
+                  and another who, in the last time, was born in the flesh from the Theotokos;
+                  according to the notion of <persName>Nestorius</persName>. But rather He, being the same, took the seed
+                  of <persName>Abraham</persName>, according to the word of the blessed <persName>Paul</persName>;<ptr type="noteAnchor" target="#n143-2"/> and also He was
+                  partaker of our flesh and blood, and was made like us in all points, sin only
+                  excepted. For neither do we say that the body of our Lord <persName>Jesus Christ</persName> is from
+                  heaven, as <persName>Eutyches</persName> in his folly affirms; nor that He became incarnate in
+                  semblance or imagination; on the contrary, we anathematise all such teachers. But
+                  we confess one only-begotten Son of God the Father, Who is our Lord <persName>Jesus Christ</persName>.
+                  And we know that He, God the Word of the Father, Who became incarnate for our
+                  redemption, in His divine nature took the likeness of a servant, by the
+                  dispensation.</quote></p>
+               <p><quote>This is the faith of the Church of <placeName>Alexandria</placeName>, by which we are all adorned, both
+                  we, and the God-fearing bishops and clergy, and the monks, and all the people of
+                  God. And the congregation of the people grows and multiplies exceedingly in the
+                  Churches, while we are obedient to the apostle, who says, <quote>If any man shall preach
+                  to you any other gospel than what we have preached, let him be
+                  accursed.</quote></quote><ptr type="noteAnchor" target="#n143-3"/></p>
+               <p><quote>But the cause of all these blessings so dear and acceptable to us, was the
+                  election of thy <persName>Piety</persName>'s Eminence, which <pb type="page" n="144"/>has been
+                  mentioned above; and also the goodwill of the believing and <persName>Christ</persName>-loving King
+                  <persName>Zeno</persName>, who consented to thine election. And he also, for the sake of the unity of
+                  the people, and that we might be established in power and in the truth, by what he
+                  wrote so faithfully in the Henotikon, anathematised all the rash thoughts and
+                  words of <placeName>Chalcedon</placeName> and the Tome of <persName>Leo</persName>.</quote></p>
+               <p><quote>And we consent to this same document; and we preach it, by word of mouth and by
+                  writing, to the believing nations; as also our ever-memorable and holy brother and
+                  fellow-minister <persName>Acacius</persName> was seen to hold and teach until his death, when the
+                  Alexandrians testified to us his true faith, as thy Holiness is also persuaded.
+                  For it is right for the <persName>Christ</persName>-loving king, not only to subdue enemies, and to set
+                  the Barbarian races beneath his feet; but also to expose the snares of these
+                  intellectual enemies, and to cause the true faith to shine upon the believing
+                  people. For thy Holiness has risen up and bloomed forth for us like the plant of
+                  peace. And this is the gift of the believing king to us, by the will of God, Who
+                  chose him before, as we have already said. And, therefore, we are delighted at
+                  this, that such a good priest should arise and appear for the believing nations.
+                  May God keep him, and may He adorn him with the heavenly crown by His own rich
+                  Hand, as we hope and pray that he may be found walking in the whole way of the
+                  truth, in the footsteps of the holy fathers, a believing chosen priest, by the
+                  mercy of our Saviour <persName>Christ</persName>, through Whom, to the Father, with the Holy Spirit, be
+                  glory for evermore!</quote></p>
+               <p><quote>But we welcomed affectionately the bearers of the letter of thy Righteousness the
+                  excellent <persName>Longinus</persName> the presbyter and <persName>Andrew</persName> the deacon; and we now send them back
+                  in peace to thy Holiness.</quote></p>
+               <p>But <persName>Athanasius</persName><ptr type="noteAnchor" target="#n144-1"/> also wrote in the same strain, two years afterwards, to
+                  <persName>Palladius</persName>, who was <persName>Peter</persName>'s successor in <placeName>Antioch</placeName>, expressly anathematising the
+                  Synod, and quoting freely from the Henotikon.<ptr type="noteAnchor" target="#n144-2"/></p>
+               <pb type="page" n="145"/>
+               <p>And <persName>John</persName><ptr type="noteAnchor" target="#n145-1"/> was appointed as the successor of <persName>Athanasius</persName>; and when anyone
+                  would ask<ptr type="noteAnchor" target="#n145-2"/> him to give an anathema of the Synod and the Tome in writing,
+                  he would give it cheerfully and without fear. Now <persName>Flavian</persName>, who was the successor
+                  of <persName>Palladius</persName> in <persName>Antioch</persName>, sent <persName>Solomon</persName>, a presbyter of his Church, to this <persName>John</persName> of
+                  <placeName>Alexandria</placeName>. And <persName>Solomon</persName> asked <persName>John</persName> for a letter to <persName>Flavian</persName>, concerning the concord
+                  in the faith. But <persName>John</persName> would not consent to do this for him, until he should
+                  receive from him a sworn statement that he would send him a letter from <persName>Flavian</persName> in
+                  which there would be an anathema of the Synod and the Tome. And <persName>John</persName>, his namesake
+                  and successor, was believing and acting in like manner.</p>
+               <p>Now after <persName>Zeno</persName> had reigned seventeen years, and matters had been thus carried on
+                  in the Church; and also the tyrants <persName>Basiliscus</persName> and <persName>Marcus</persName> had risen up against
+                  him, and been driven out, as we have related above; and again, <persName>Illus</persName> and <persName>Leontius</persName>
+                  and <persName>Euprepius</persName> had rebelled against him and been slain in the East; and again, in
+                  his days, one <persName>Theodoric</persName> a tyrant had taken captives from <placeName>Thrace</placeName> and many other
+                  places, and had gone to <placeName>Rome</placeName> and subdued it, because <persName>Odoacer</persName><ptr type="noteAnchor" target="#n145-3"/> the
+                  Anti-<persName>Caeesar</persName> there fled before him to <placeName>Ravenna</placeName> a city of <placeName>Italy</placeName>; <persName>Zeno</persName> died in the
+                  year eight hundred and two, according to the Greek mode of reckoning.</p>
+               <p>And <persName>Anastasius</persName>, his successor, received the kingdom on the fourth day of the Great
+                  Week; when <persName>Euphemius</persName> was the bishop of <placeName>Constantinople</placeName>; and <persName>Flavian</persName> of <placeName>Antioch</placeName>; and
+                  <persName>Athanasius</persName> of <placeName>Alexandria</placeName>; and <persName>Sallustius</persName>, the successor of <persName>Martyrius</persName>, of
+                  <placeName>Jerusalem</placeName>; and <persName>Felix</persName>, the successor of <persName>Simplicius</persName>, of <placeName>Rome</placeName>.</p>
+            </div>
+            <div type="chapter" n="6.7">
+               <head>Chapter 7</head>
+               <head>The seventh chapter tells who were the chief priests in the days of <persName>Zeno</persName></head>
+               <p>But the following were the chief priests in the days of <persName>Zeno</persName>. In <placeName>Rome</placeName>, after
+                  <persName>Hilarus</persName>, <persName>Simplicius</persName>, the author of the <pb type="page" n="146"/>letter to <persName>Zeno</persName>
+                  respecting <persName>John</persName> the liar, who was ejected from <placeName>Alexandria</placeName>; and after him <persName>Felix</persName>,
+                  who was still living when <persName>Anastasius</persName> became the emperor.</p>
+               <p>In <placeName>Alexandria</placeName>, <persName>Timothy</persName> the Great, who was recalled from banishment; and <persName>Timothy</persName>
+                  <persName>Salophiaciolus</persName>; and <persName>John</persName>, who was forthwith ejected; and <persName>Peter</persName>; and his successor,
+                  <persName>Athanasius</persName>.</p>
+               <p>In <placeName>Jerusalem</placeName>, <persName>Anastasius</persName>; and <persName>Martyrius</persName>; and <persName>Sallustius</persName>.</p>
+               <p>In <placeName>Antioch</placeName>, <persName>Martyrius</persName>, who was ejected; and <persName>Julian</persName>; and <persName>Stephen</persName>; and the other
+                  <persName>Stephen</persName>; and <persName>Peter</persName> the Believer; and <persName>Calandion</persName>, who was ejected; and <persName>Palladius</persName>;
+                  and <persName>Flavian</persName>, his successor, who was ejected in the days of <persName>Anastasius</persName>.</p>
+               <p>In <placeName>Constantinople</placeName>, after <persName>Gennadius</persName>,<ptr type="noteAnchor" target="#n146-1"/> <persName>Acacius</persName>; and <persName>Fravitta</persName>, his successor;
+                  and <persName>Euphemius</persName>, his successor, who was ejected in the days of <persName>Anastasius</persName>.</p>
+               <p>But in this sixth Book and in the fifth Book preceding it, which have been
+                  translated concisely and briefly (so to speak) in contracted style, for the
+                  information of the Syriac reader, from the Greek History of <persName>Zachariah</persName> the
+                  Rhetorician; which he wrote thus far, in protracted style, after the manner of
+                  Greek amplification;<ptr type="noteAnchor" target="#n146-2"/> there is a period of seventeen years, comprising
+                  only the life of the Emperor <persName>Zeno</persName>.</p>
+            </div>
+         </div>
+         <noteGrp>                  
+            <note xml:id="n132-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">ἀποχίσται</foreign>.</note>
+            <note xml:id="n133-1"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as
+               L.</note>
+            <note xml:id="n133-2"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">προσφώνησις</foreign>.</note>
+            <note xml:id="n133-3"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πρᾶξις</foreign>.</note>
+            <note xml:id="n133-4"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">ἔκδικος</foreign>.</note>
+            <note xml:id="n134-1">Evag. iii. 22.</note>
+            <note xml:id="n134-2">A similar account of him is given in das Leben des Severus (ed.
+               Spanuth), pp. 26 and 27.</note>
+            <note xml:id="n135-1"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as
+               L.</note>
+            <note xml:id="n135-2"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στάσις</foreign>.</note>
+            <note xml:id="n135-3">For <!--  Add Syriac  --> we should probably read
+               <!--  Add Syriac  -->, <persName>Helladius</persName>.</note>
+            <note xml:id="n137-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πρακτικός</foreign>.</note>
+            <note xml:id="n138-1">Evag. iii. 22.</note>
+            <note xml:id="n138-2"><!--  Add Syriac  -->, L. The MS. is indistinct, probably we
+               should read <!--  Add Syriac  -->.</note>
+            <note xml:id="n139-1">Evag. iii. 23.</note>
+            <note xml:id="n139-2">The MS. has <!--  Add Syriac  --> before
+               <!--  Add Syriac  -->.</note>
+            <note xml:id="n140-1">Evag. iii. 23.</note>
+            <note xml:id="n140-2">Ps. cxiii. 7, 8.</note>
+            <note xml:id="n140-3">So MS. <!--  Add Syriac  -->, not <!--  Add Syriac  -->, as
+               L.</note>
+            <note xml:id="n140-4">Amos vii. 14 (Syriac).</note>
+            <note xml:id="n141-1">Luke x. 21.</note>
+            <note xml:id="n141-2">For <!--  Add Syriac  --> I read <!--  Add Syriac  -->, and for
+               <!--  Add Syriac  --> I read <!--  Add Syriac  -->. The whole passage is difficult to
+               translate, owing to defects in the MS.</note>
+            <note xml:id="n141-3"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as
+               L.</note>
+            <note xml:id="n142-1">For <!--  Add Syriac  --> I read <!--  Add Syriac  -->.</note>
+            <note xml:id="n142-2">It seems to be a free quotation from Isa. xliv. 23 or xlix.
+               13.</note>
+            <note xml:id="n142-3">Reading <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n143-1">Bar. iii. 35-37.</note>
+            <note xml:id="n143-2">Heb. ii. 16.</note>
+            <note xml:id="n143-3">Gal. i. 8 and 9.</note>
+            <note xml:id="n144-1">Evag. iii. 23.</note>
+            <note xml:id="n144-2">Or using more freedom of speech than the Henotikon.</note>
+            <note xml:id="n145-1">Liberat. 18.</note>
+            <note xml:id="n145-2"><!--  Add Syriac  -->, MS., for <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n145-4">Text, <quote>Arcadius</quote>, from the confusion between <!--  Add Syriac  -->
+               and <!--  Add Syriac  -->.</note>
+            <note xml:id="n146-1">For <!--  Add Syriac  --> read <!--  Add Syriac  -->.</note>
+            <note xml:id="n146-2"><!--  Add Syriac  --> i.e. <foreign xml:lang="grc">πλάτος</foreign>.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
