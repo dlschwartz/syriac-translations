@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Select Chapters of the Ethikon of
+               <persName>Barhebraeus</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>OCR cleaning and initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
+                  Chrisanthus</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+               <title>Bar Hebraeus's Book of the Dove Together with some chapters from his
+                  Ethikon</title>, translated by A. J. Wensinck, Leyden: E. J. Brill, 1919. </p>
+            <p>Published in 1919, this translation is in the public domain.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="title">Ethikon</head>
+         <pb n="85"/>
+         <div type="chapter" n="4.15">
+            <head>Book IV, Chapter XV</head>
+            <head>On the Love of God</head>
+            <div type="section" n="1">
+               <head>Section the First</head>
+               <head>Sayings of the Fathers concerning the Love unto God</head>
+               <p><persName>Aba Amon of <placeName>Nitria</placeName></persName> went to
+                     <persName>Aba Antonius</persName> and said to him: I see, that my labour is
+                  more than yours, how is it that<pb type="external" n="474"/> your name has more
+                  splendour among men than mine? <persName>Aba Antonius</persName> answered: This is
+                  because I love <persName>our Lord</persName> more than you.</p>
+               <p>The holy <persName>Basilius</persName>: The love of benefactors is more than
+                  natural love. This is not only the case with men, but also with all animals. For
+                  the ox knoweth his owner and the ass his master's crib.[#n85-1] If we strive
+                  strenuously to repay love, which has not been taught us, to our benefactors, what
+                  word can repay the bounties of God unto us, as they deserve? They are innumerable
+                  and in their multitude so praiseworthy, that one of them is sufficient to claim
+                  all remunerations which we are able to give. Sunrise namely, the circumambulation
+                  of the moon, the mixture of the air, the variation of the times, the water of the
+                  clouds, all that comes forth from the earth and the sea, all sorts of animals
+                  which are appointed to serve our <pb n="86"/>life,—to be silent on all these would
+                  be absolutely impossible, even if we were willing to be so. And to utter our
+                  thanksgivings, as it would be truly becoming, is beyond our power. But He is so
+                  good as not even to expect from us any reward, but it is sufficient for Him, if in
+                  view of all these bounties we only love Him.</p>
+               <pb type="external" n="475"/>
+               <p><persName>Aba Euagrius</persName>: If anyone is accomplished in the love of God,
+                  he is a drunken[#n86-1] man. He is constantly captivated by the love of his Lord,
+                  so that he does not see this world, but his thoughts abide continually in heaven.
+                  Blessed he who has been deemed worthy of this.</p>
+               <p>The same: If a man is gifted with grace or with the gift of prophecy, or works
+                  forces or signs, but has not reached the complete love of God—if he will sleep a
+                  little, Satan will quickly throw him down, for he is still a child and living with
+                  fear.</p>
+               <p><persName>John de Dalyata</persName>: Those in whom has shone Thy love, puerile,
+                  not as in the Initiated, have rejected and cast away family and race and all
+                  bodily love, and have alienated themselves from all, in order to run, naked, to
+                  attain Thy holy love. And they have turned away their faces from what they
+                  possessed, without seeing that which they were going to possess. But what they
+                  search, they know not yet. For they are not acquainted with Him they are running
+                  to attain. They are still seeking what belongs to Him, without being aware that He
+                  will give Himself to them.</p>
+               <p><persName>Mar Isaac</persName>: The soul that loves God, has its rest in Him only.
+                  First loosen from yourself the outward bonds, then strive to tie your heart to
+                  God. When the child has been weaned <pb type="external" n="476"/>from milk, bread
+                  is given it as food. A man, who wishes to excel in [knowledge of] divine things,
+                  first weans himself from the world, as a babe is weaned from its mother's
+                  breasts.</p>
+            </div>
+            <pb n="87"/>
+            <div type="section" n="2">
+               <head>Section the Second</head>
+               <head>The Definition of Love, its Divisions and its Causes</head>
+               <p>Love is the tendency of the soul towards communion with some object which it
+                  understands; for who does not understand the nature of <choice>
+                     <sic>some thing</sic>
+                     <corr>something</corr>
+                  </choice> or its character, will not long after establishing communion with it or
+                  after being in communion with it.[#n87-1]</p>
+               <p>The object loved is either to be attained with the sense of the eye, as outward
+                  beauty; or with the smell, as perfumes; or with the ear, as sweet melodies; or
+                  with taste, as delicious food or drink; or with touch as touching soft
+                  objects.[#n87-2] Or it is to be attained with the rational power in us, as the
+                  delight which happens to us by the knowledge of what was unknown to
+                  us.[#n87-3]</p>
+               <p>That the love of this latter enjoyment is natural, appears from the fact, that
+                  every man is inclined to listen to novel tales, and desirous to scrutinize the
+                  rumours concerning other people.</p>
+               <p>Wisdom[#n87-4] knows five causes of love. The first is the continuation of being
+                  and the existence of the self. For all beings naturally long after maintaining
+                  their self. Therefore man loves his own person more than what is outside it. He
+                  occupies himself with the health of his limbs and the opulence of his possessions,
+                  because his maintenance depends upon them. He loves also his children, because
+                  they are the seed that has grown in his earth, also his sprout brought forth by
+                  his trunk.</p>
+               <pb type="external" n="477"/>
+               <pb n="88"/>
+               <p>The second is that of doing well. As it has been said: By the water of the love of
+                  those who do well, souls are modelled.[#n88-1] So, by the natural power which has
+                  been implanted in us, we form, by our will, a beautiful thought unto our
+                  benefactors.</p>
+               <p>The third is that of outward beauty. That it is loved for its own sake and not for
+                  any other's,[#n88-2] is known from the fact, that by the sight alone of glorious
+                  trees and beautiful flowers, and a current of clear and pure water, the soul is
+                  gladdened and we exult with joy, the senses rejoice and the limbs leap up, though
+                  no food or drink is to be acquired from these things.[#n88-3]</p>
+               <p>The fourth is that of inward beauty. That the beautiful is not attained by the
+                  eyes only, is known from the fact, that a voice is also called beautiful,[#n88-4]
+                  though it is clear that sight has no part in it. So the beauty of a thing is its
+                  intrinsic perfection when this happens to it by any influence. Therefore, when it
+                  acquires perfection in all points, the more beautiful it will be, and so it is
+                  said to be. If it acquires only partial perfection, its beauty is measured by it.
+                  And on account of this sort of beauty, teachings are liked, and character[#n88-5]
+                  and excellent customs[#n88-6] are loved. On account of it, further, we love
+                  prophets and apostles, Fathers and teachers, true and exquisite
+                  philosophers,[#n88-7] because their perfections are not hidden from us, though
+                  invisible to us and without connection with us.</p>
+               <pb type="external" n="478"/>
+               <p>The fifth is that of a hidden consanguinity and a secret resemblance, which is the
+                  peculiar bond between some men, as we have shown in the chapter on the love of the
+                  brethren.</p>
+            </div>
+            <pb n="89"/>
+            <div type="section" n="3">
+               <head>Section the Third[#n89-1]</head>
+               <head>On the Love of God as being justified in view of all Causes mentioned</head>
+               <p>When we scrutinize the five causes of love which we have enumerated in our
+                  foregoing section, we find that God alone possesses them all; what is outside Him,
+                  only a part of them, not the whole. And on account of this question and its
+                  affirmative answer the thoughts of those are to be reprehended, who are not able
+                  to love God, because they are not acquainted with His name.</p>
+               <p>The first cause (love of man, his maintenance and his person) is known to justify
+                  the love of God, because every man who is acquainted with his own nature and with
+                  the power of Him, who has created him, will know that without his God he has no
+                  strength to remain standing during one moment. Therefore, if the love of his self
+                  is necessary to him, the love of Him, in whose hand his self is, must be even more
+                  necessary to him.[#n89-2]</p>
+               <p>The second cause, doing well, justifies all creatures, endowed with mind, in
+                  loving nothing excepted the creator, because He alone is their natural benefactor;
+                  and all that is besides Him, is only an intermediary and a mediator, by whom good
+                  is conducted from the Good one.</p>
+               <p>He, for instance, who gives alms and makes a meal and the<pb type="external"
+                     n="479"/> like, spends his wealth in view of the remuneration he will acquire
+                  here or there, so he does well to others in order to acquire good for himself. And
+                  because his benefactor and that of the man mentioned is really God, who does not
+                  expect <pb n="90"/>any remuneration, the Initiated will not hesitate to love Him
+                  alone, with all his heart, with all his soul and with all his strength.</p>
+               <p>The third cause, that of outward beauty, though only found with corporeal beings,
+                  not with incorporeal, still, to the saints, pure in heart,[#n90-1] who have not
+                  yet been loosened from the bonds of the body, the Good one will show Himself, when
+                  He appears with majesty in such a form that His beauty excells all other beauty:
+                  in a habit shining like snow, with hair like pure wool, on a flaming throne with
+                  radiating wheels, the chariot with four sides on which He is pompously borne; a
+                  thousand thousands of powers, and ten thousand myriads of angels stand before Him,
+                  repeating three times and redoubling the sanctifications which are becoming to
+                  Him, though not sufficient. Therefore he who has been deemed worthy to cast a
+                  short glance on such things, looking through the crevice of the gate, will
+                  resecate and reject all race and family and become a stranger to all other love,
+                  that, on swift wings, he may fly to reach the love of the amazing beauty. Also the
+                  use of food is estimated superfluous by him, because the sight of his Lord
+                  fulfills his need.</p>
+               <p>The fourth cause, that of inward beauty, is that which <pb type="external" n="480"
+                  />is found with the blessed prophets, apostles and the other perfect. We see that
+                  a beauty like this has three causes, on account of which it is loved.[#n90-2] The
+                  first is their profound knowledge of the divine mysteries. The second is their
+                  having power to show the way, without erring, to the common people. The third is
+                  their being adorned with the property of accepting excellent qualities and of
+                  pushing away bad ones. And as the knowledge of all creatures is ignorance with
+                  God, and their wisdom folly, and their strength exhaustion as compared with His
+                  and all their righteousness is as the cloth of an unclean woman before Him,
+                  according to the opinion <pb n="91"/>of <persName>Isaiah</persName>—how should not
+                  the Initiated love Him more than them? And if this is the case with the beautiful,
+                  what love can be attributed by the intelligent to those who are not beautiful? The
+                  fifth cause, that of a hidden consanguinity and a secret likeness between God and
+                  mankind, is found to be a more intrinsic one, as is justified by the divine word,
+                  which shows man to have been created in the image of God. Therefore, if the nature
+                  of all beings, animated and inanimated, longs after what resembles Him, wretched
+                  is the man who, in love of his Lord who has honoured him with His image, is
+                  inferior to inanimate and irrational beings.</p>
+            </div>
+            <div type="section" n="4">
+               <head>Section the Fourth</head>
+               <head>On the Delight of the Knowledge of God being greater than any other
+                  Delight[#n91-1]</head>
+               <p>It is clear that delight is caused by attaining a delicious thing.[#n91-2] That
+                  the living possess such powers of attaining in<pb type="external" n="481"/>
+                  multitude, is likewise known.[#n91-3] Therefore they get peculiar delight
+                  according to the power of attainment they possess.[#n91-4] And since the adorable
+                  creator has raised the nature of poor man above the dunghill of the irrational
+                  beings,[#n91-5] and by the recognizing[#n91-6] soul, with which He has endowed
+                  him, has made him sit among the grandees of spiritual people, He has made <pb
+                     n="92"/>him, by the delight of this exalted knowledge, a fellow and colleague
+                  of the angels. And because, in accordance with the greatness of the beauty of the
+                  recognized, knowledge becomes more opulent and delight more abundant, anyone who
+                  knows that among all beings there is none more admirable and amazing, more exalted
+                  and wonderful, more complete and perfect than the Lord and the God of the beings,
+                  it is not possible to deny that the knowledge of the greatness of the Highest, is
+                  higher than all other knowledge, and that the delight, caused by the knowledge of
+                  the mysteries of His wisdom, is more desirable and exalted than any other delight.
+                  As <persName>Euagrius</persName> the Great says: If among things to be tasted,
+                  there is none sweeter than honey and honeycomb and the knowledge of God is much
+                  sweeter than these, it is clear that nothing among all things on the earth gives a
+                  delight to the soul as the knowledge of God does.</p>
+               <p>And another Initiated has said: If any one's mind has been captivated by the
+                  beauty of the lord of the universe, it is impossible that it should be captivated
+                  anymore by the love of anything in the world. If anyone's mind has been bound <pb
+                     type="external" n="482"/>by care for God, it never will be bound by passing
+                  care. There is nobody who has found God and become acquainted with Him, without
+                  having forgotten the world wholly. Another has said: When the mind has been salted
+                  in the sea of God's love, it will not be troubled after having reached the harbour
+                  of life. If it has stripped off the habit of the servants of the desire of matter,
+                  it has acquired its warrant of liberty, which never will be rent asunder.[#n92-1]
+                  The same has said: When my lips serve Thy honoured name when reciting, it begins
+                  to show to the mind, Thy captive, the wonder of my reciting Psalms. My lords have
+                  become my servants, since Thou hast become my lord; and since they know this, they
+                  have absolutely not further attacked me.</p>
+            </div>
+            <pb n="93"/>
+            <div type="section" n="5">
+               <head>Section the Fifth</head>
+               <head>On the Delight of the Knowledge of God which happens after rather than before
+                  Departure</head>
+               <p>Things to be attained are of two kinds, sensual and intellectual.[#n93-1] Sensual
+                  things are again of two classes; the first is that of things, which, being far
+                  off, become sensual by secondary imagination; the second is that of things, which,
+                  being near, become really sensual by sight, hearing and the other senses. In the
+                  same way intellectual things are of two classes; the first is that of things,
+                  which, being far off, become intellectual in this world, but dimly; the other is
+                  that of things, which, being near, become really intellectual in the spiritual
+                  world. As,[#n93-2] by shutting the eyelids, the seeing is shut off from the seen,
+                  in the same way, the soul, as long as it is included within the body, is precluded
+                  from beholding intellectual things in their essence; as God said to
+                     <persName>Moses</persName>: Thou<pb type="external" n="483"/> [cannot
+                  not](cannot) see my face: for there shall no man see me and live.[#n93-3] This
+                  means: when thou hast departed this body, then thou wilt see . The same is
+                  expressed by the divine apostle <persName>Paul</persName>, saying: For now we see
+                  as through a glass, darkly, but then face to face: now I know in part, but then I
+                  shall know even as also I am known.[#n93-4] And the holy <persName>Gregorius
+                     Theologus</persName> says: I am convinced of the words of the sages: <pb n="94"
+                  />Every good and God-loving soul, as soon as it will have been loosened from the
+                  body to which it was bound and have been liberated from this world, will be
+                  abiding at once in the apperception and the contemplation of the good which
+                  awaited it; because that which obscured its vision, has been purified away and put
+                  aside. Else I should not know that it is becoming to say: this amazing delight is
+                  delicious and exuberating.[#n94-1]</p>
+            </div>
+            <div type="section" n="6">
+               <head>Section the Sixth</head>
+               <head>On the Causes corroborating the Love of God[#n94-2]</head>
+               <p>It must be known, that no single believing heart is devoid of the root of the love
+                  of God. But as to the growth of the tree of the love of God, the splendour of its
+                  flowers and the burden of its fruits, of these things many faithful are devoid.
+                  According to the Initiated, there are two causes by which the root of love sprouts
+                  from the heart of the righteous as a palm and its sprigs and twigs shoot forth as
+                  the cedars of <placeName>Lebanon</placeName>. The first is,[#n94-3] that man turns
+                  his face away from <pb type="external" n="484"/>all that is on the earth, and
+                  hates all desire, seeking and desiring the One only, growing in hope and belief,
+                  becoming strong in abstention and patience. So, while his inner being[#n94-4] is
+                  cleansed, his mind is purified, he becomes one of the pure in heart,[#n94-5] that
+                  see God. And by this sight, the fire of love is kindled. The second is,[#n94-6]
+                  that man proceeds on and becomes strong in the knowledge of God,[#n94-7] being
+                  illuminated[#n94-8] <pb n="95"/>and instructed by it, after the purification of
+                  the heart from impure passions.[#n95-1] For the knowledge of God in a pure soul
+                  resembles the pure seed thrown on good ground. And from the seed of knowledge love
+                  is born and grows up.</p>
+               <p>The knowledge of God is acquired in a twofold wise; either the creator is known
+                  first, then, through Him the creatures. Or the creatures are recognized first,
+                  then, from them, the mind is exalted towards Him.[#n95-2] Though the first way is
+                  difficult and steep and even the athletes of the knowing are scarcely able to go
+                  it, it is more essential, high and exalted. One of the Initiated has described it
+                  with these words: Through my God I have known my God; and, but for my God, I would
+                  not have known my God.[#n95-3] Another has said: I knew before the worlds. For His
+                  knowledge, which has called the worlds into existence, has dawned in my mind, and
+                  has founded my knowledge, before the universe came into existence. The same has
+                  said: I knew <persName>Christ</persName> before I knew myself.<pb type="external"
+                     n="485"/> The knowledge of Him has preceded in me the knowledge of what has
+                  come into existence by His spirit. The truth of this is mysteriously affirmed by
+                  the divine <persName>David</persName>, in this word: With Thee is the fountain of
+                  life: in Thy light we see light.[#n95-4]</p>
+               <p>It is clear, that the second way is easy and everyone who is zealous will be able
+                  to use it, even if he be weak and dark of mind. It is described by the same
+                     <persName>Psalmist</persName> with the words: The heavens declare the glory of
+                  God[#n95-5] etc.</p>
+            </div>
+            <pb n="96"/>
+            <div type="section" n="7">
+               <head>Section the Seventh</head>
+               <head>On the different Ranks of those who love God[#n96-1]</head>
+               <p>It has already been shown that the knowledge of God is the cause of His
+                  love.[#n96-2] Therefore, in accordance with knowledge being more or less, love is
+                  more or less.[#n96-3] And because men have set up opinions contrary to truth,
+                  concerning the denominations of God they found in the holy scriptures, some of
+                  them have believed in these denominations as they have accepted them from their
+                  teachers, in the way of simple tradition, without their distinction. But others,
+                  though few, have been deemed worthy of mastering the height of essential
+                  knowledge, through the good gift, with which they have been endowed in fulness
+                  from above, by the father of lights.[#n96-4] There are found three ranks of those
+                  who love God.</p>
+               <p>The first, the lowest, is that of heretics who do not glorify the truth in truth.
+                  They are those of the left hand.[#n96-5]</p>
+               <pb type="external" n="486"/>
+               <p>The second, the middle one, is that of the simple faithful. Though they belong to
+                  the lambs, those of the right hand, yet, in accordance with their simple
+                  knowledge, their love is superficial. And because it has no firm root in their
+                  heart, they are in danger of becoming rotten.[#n96-6]</p>
+               <p>The third, the highest, is that of the Initiated, who are even higher than those
+                  of the right hand. Because they know the good one as He is, and they are not
+                  stained with conflicting thoughts and they are really elevated above traditional
+                  blindness, neither fire nor sword is able to separate them from the love of their
+                  Lord.[#n96-7]</p>
+            </div>
+            <pb n="97"/>
+            <div type="section" n="8">
+               <head>Section the Eighth</head>
+               <head>Why the Creatures do not know the Creator[#n97-1]</head>
+               <p>That the adorable God is more manifest and clear than any of the existing
+                  things,[#n97-2] is known from the fact[#n97-3] that there is no part of the world
+                  that does not hear a sign of its maker. This is mysteriously denoted by
+                     <persName>David</persName> the harpist when he says: There is no speech nor
+                  language where their voice is not heard.[#n97-4] This proves that the knowledge of
+                  God is necessary and natural to us like the other kinds of necessary
+                  knowledge.[#n97-5] As all that is unknown to us, is either hidden from us on
+                  account of its deep darkness, or because our mind shrinks from observing it on
+                  account of its being too manifest[#n97-6]—as our eye shrinks from looking at the
+                  sun—so the last reason hinders us from knowing God, as has been<pb type="external"
+                     n="487"/> taught by the great <persName>Dionysius the Areopagite</persName>,
+                  who says: The divine cloud is the inaccessible light, wherein God is said to
+                  abide.[#n97-7] And though He is, He is invisible because of His being illuminated
+                  to a high degree. This proves that our mind, as compared with essential
+                  light,[#n97-8] is like the bat as compared <pb n="98"/>with this eradiated light.
+                  Therefore, just as the bat would be able to look into eradiated light, if it
+                  possessed the visual power of man, so man would be able to look towards essential
+                  light, if he possessed the mind of an angel. Concerning the fact that psychic eye
+                  is blinded by the manifestation of God,[#n98-1] when it is illuminated by it, the
+                  poet says: Thou art manifest and clear, o my Lord, much more than the sun at
+                  midday; Thou art not hidden but from the blind who do not see the moon. At Thy
+                  splendour the mind of every intelligent being is astonished and amazed, whereas
+                  the eye that is not blinded by Thee, has no light.[#n98-2] And in the same metre:
+                  If light makes manifest all visible things, detecting the veil that is spread over
+                  their faces, how should it be becoming for the eye, which is accustomed to matter,
+                  to see Him, who is concealed and withheld from the eyes by light?.[#n98-3]</p>
+            </div>
+            <pb n="99"/>
+            <div type="section" n="9">
+               <head>Section the Ninth</head>
+               <head>On the Manners in which the Soul longs after God</head>
+               <p>It is known that longing necessarily follows love. Everyone, therefore, who loves
+                  God, will necessarily desire to see Him.[#n99-1]<pb type="external" n="488"/>
+                  Among bodily friends the lover longs after his beloved in a twofold wise. When the
+                  beloved is absent and the image of his beauty is recollected, the lover desires to
+                  see him, that his joy may be complete by meeting the beloved.[#n99-2] Or, when the
+                  beloved is near, but his face is only visible to his friend, while his other
+                  inward beauties, which are shown in intercourse, are hidden, the lover longs after
+                  being consoled also by the sight of what is hidden.[#n99-3] In the same way the
+                  Initiated are necessarily acquainted with these two sorts of longing, in view of
+                  the love of their Lord.[#n99-4] With the first, because that which they see here
+                  of the beauty of the Lord in revelations and visions, shows its magnificence as it
+                  were from behind an outspread veil.[#n99-5] Therefore they long after seeing Him
+                  eye to eye and with <persName>David</persName> they sing: My soul thirsteth for
+                  Thee, the living God; when shall I come and appear before <pb n="100"/>
+                  Thee[#n100-1]? With the second manner of longing, because the ways of divine
+                  perfection are indefinite and endless.[#n100-2] And it is not unknown to the
+                  Initiated that what he has attained in respect of them, is much less than what he
+                  has not attained. Therefore he longs constantly after acquiring what he has not
+                  acquired.[#n100-3] And so a right spirit is frequently renewed[#n100-4] within
+                  them. It is becoming to know that the former kind of longing is accomplished and
+                  vanishing in the spiritual world; <pb type="external" n="489"/>because there the
+                  Initiated meets his beloved.[#n100-5] The second kind cannot be imagined as
+                  reaching perfection because the exalted and glorious beauties of the Lord of the
+                  universe are indefinite.[#n100-6] Therefore, every desire which reaches its aim,
+                  is succeeded anew by another one; and every longing which comes to perfection is
+                  followed by a new one at its heels. Therefore the Initiated call such a longing
+                  ‘heel’; and those who stand aloof call it concatenation.</p>
+            </div>
+            <div type="section" n="10">
+               <head>Section the Tenth</head>
+               <head>On the distinctive Marks of those who love God[#n100-7]</head>
+               <p>There are ten distinctive marks which are symptoms of the Initiated's love of
+                  God.</p>
+               <pb n="101"/>
+               <p>The first[#n101-1] is, that he longs after seeing his Lord. And because essential
+                  seeing takes place only after departure from this life, it is necessary for him
+                  who seeks his Lord, to resemble <persName>Paul</persName> and like him to desire
+                  to depart, in order to be with <persName>Christ</persName>.[#n101-2] The
+                  second[#n101-3] is, that he does not fulfill his own will, but that of his Lord,
+                  as the true one has said: If ye love me, keep my commandments.[#n101-4] The third
+                  is, that he hates the whole world in order to possess the One only; as we have
+                  found in some Hebrew[#n101-5] book: When <persName>Joseph</persName> had become
+                  ruler in <placeName>Egypt</placeName>, the wife of his lord, who had slandered
+                  him, believed in God. And when her husband was dead, <persName>Joseph</persName>
+                  sought to marry her; but she would not. When her kindred asked her: where is now
+                  all your love of him, she answered: the love of him burned in me, before I knew
+                  his Lord. But now that I know Him, the love of Him burns in me, and I care no
+                  longer for the love of His servant.[#n101-6] The fourth[#n101-7] is that the lips
+                  constantly administer the name of<pb type="external" n="490"/> his Lord. For every
+                  one who loves something, often thinks of it and his tongue does not cease to
+                  mention it; as <persName>David</persName> who loved the law of his Lord meditated
+                  upon it the whole day. The fifth[#n101-8] is, that he finds consolation in
+                  solitude and the abode in the small cell, rejecting the sight of the world, and
+                  hating intercourse and speech. Because, as <persName>Mar Isaac</persName> says,
+                  the consummation of excellency is lonely intercourse, and <pb n="102"/>the quiet
+                  dwelling of the mind upon God. The sixth[#n102-1] is that he is not spiteful on
+                  account of the worldly things which escape him, but that he regrets, on the
+                  contrary, every hour he passes in idleness. The seventh[#n102-2] is that he finds
+                  enjoyment in the labours of asceticism, though they be heavy and wearying; as that
+                  brother, concerning whom the excellent Master[#n102-3] <persName>John de
+                     Dalyata</persName> tells, that he, in the time of the first heat of love, when
+                  grace kindled his heart with the love of God, was nightly standing naked, during
+                  four years, also in wintertime, in snow, rain and ice. In the first year the blood
+                  dried up in his limbs and life vanished from his body; then he no longer perceived
+                  the cold even when he buried himself naked in the snow; because his body was like
+                  fire. The eighth[#n102-4] is that he is full of mercy towards the good, and
+                  scornful and severe against the bad;[#n102-5] as also his Lord is just and loving
+                  justness and His face looks towards <pb type="external" n="491"/>uprightness, but
+                  His soul hates the unjust and those who love unjustness. The ninth is that he
+                  prays constantly, that his love may not abate and his gifts may not diminish. For,
+                  as an Initiated[#n102-6] has said: he whose yesterday that has passed, is better
+                  than to-day which is present, he is cursed. And he whose days are equal, he is
+                  devoid of excellency. But he whose end is better than his beginnings, he is wise.
+                  The tenth[#n102-7] is that he conceals his love as much as he can, though the
+                  signs thereof are not concealed in him.</p>
+               <pb n="103"/>
+               <p>It has been said: Two brethren had fallen into a severe illness in the desert.
+                  When the fellow brethren asked the former: what do you think of yourself, he
+                  answered: he who is aware of his plague does not love Him. When they asked the
+                  latter: how are you? he answered: he who does not find enjoyment in his plague,
+                  does not love Him. When their master heard their words he said: but I say: he who
+                  shows his love, does not love Him.[#n103-1] And from that time the brethren began
+                  to conceal their excellence.</p>
+            </div>
+            <div type="section" n="11">
+               <head>Section the Eleventh</head>
+               <head>On Consolation in God and Freedom of Speech with Him[#n103-2]</head>
+               <p>The joy and the gladness which happen to the Initiated on account of the multitude
+                  of divine revelations[#n103-3] and the frequency of spiritual visions, is called
+                  consolation in God. When this consolation has taken hold of the enviable, the
+                  friend of God, he is only content with quiet solitude[#n103-4] and he cannot<pb
+                     type="external" n="492"/> bear even the sound of a leaf.[#n103-5] Such solitude
+                  is called by the teachers a solitude which makes gods;[#n103-6] for through it the
+                  mind acquires complete unification and perfect mingling with God, and vision and
+                  knowledge of Him, whose glory is exalted over the world, without visible vision
+                  and without knowable knowledge. Therefore, he who has been deemed worthy of this
+                  grace, will shut his eyes before all the beauties of the creatures and close his
+                  ears before every human sound <pb n="104"/>and restrain his senses from all cares
+                  of passions. And he will be on his guard that evil may not assail him, and God may
+                  not pass him. And he will not desist nor take rest from caring for God. From the
+                  so called consolation freedom of speech is born. Though it is bad, because of the
+                  boldness which accompanies it, and, by the sages, called a scorching wind, still,
+                  when it is practised by those who are experienced in paracletic consolations in
+                  God, it is not to be rejected. This freedom of speech is further made complete
+                  when God sends the spirit of His son into the hearts of the perfect, the spirit
+                  that calls Aba, Our Father, as <persName>Paul</persName>, the blessed, says. When
+                  the spirit of the son dwells in the perfect, it speaks through him, as through the
+                  son of God, to the father. And here is no human weakness, nor prayer, nor
+                  beseeching, nor recollection of things of this world or of things to come. But the
+                  son of God knows himself in a divine way, and as the son with his father, so <pb
+                     type="external" n="493"/>he speaks freely with God. And then he becomes as
+                  receiving all prayers, not as one who prays, as answering all questions, not as
+                  one who asks,[#n104-1] because the rich one, his Father, has given him power over
+                  His riches and he has become the same as the person who dwells within him. And
+                  while he neither knows himself nor any thing,[#n104-2] he cries many times: Aba,
+                  my father, and other bold utterances, which it is not allowed to write down and to
+                  embody in paper.[#n104-3] Some Initiated, for instance, have used even trials, in
+                  bold freedom of speech. As the excellent <persName>Job</persName>, who disputed
+                  with his Lord as a man with his fellow-man, saying: Am I a sea, or a whale, that
+                  Thou settest a watch over me[#n104-4]? Wilt Thou break a leaf driven to and fro?
+                  and wilt Thou pursue the dry stubble[#n104-5]? When I say: Thou shalt comfort me,
+                  then Thou terrifiest me through <pb n="105"/>visions.[#n105-1] If there were an
+                  umpire between us, that might lay his hand on our mouth[#n105-2]! with other
+                  sayings of the same kind. Some have escaped danger by them; for grace does not
+                  bear everyman in the same way.[#n105-3] <persName>Saul</persName>, for instance,
+                  was rejected from the royal rank and the flame of prophecy, being hated because he
+                  had shown mercy towards <persName>Agag</persName> the king of the Amalekites and
+                  he had not slain him; and he had spared the beauty of the oxen and lambs and he
+                  had not destroyed them. Whereas <persName>David</persName> had stained himself
+                  with bad adultery and spilt the innocent blood of <persName>Uriya</persName> the
+                  Hittite; but as soon as he said: I have sinned before the Lord, through
+                     <persName>Nathan</persName> it was said to him: The Lord also hath put away thy
+                  sin, thou shalt not die.[#n105-4]</p>
+            </div>
+            <div type="section" n="12">
+               <head>Section the Twelfth</head>
+               <pb type="external" n="494"/>
+               <head>On the Troubles the Initiated bear through the Love of God[#n105-5]</head>
+               <p>The exoteric sages define philosophy as meditation upon death. With this the
+                  esoteric Initiated concord, saying: Excellence is meditation upon death, for the
+                  sake of the love of God; namely: this is excellence, to bear troubles for the sake
+                  of the love of God. And with words, broad and long, they have proved this, saying:
+                  He who is clad with zeal on the way of excellence, does not know that he is
+                  invested with a body, but he seems to be incorporeal in view of all the
+                  difficulties. Even to renunciate life will be light to him and not too burdensome.
+                  So the deliberations of him, whose soul has received the taste of divine
+                  consolation, will be borne by love of Him at all times, and his heart will
+                  constantly be elevated[#n105-6] by <pb n="106"/>recollection of Him. And he is
+                  already, as it were, in the kingdom of heaven, and it is as if he does not abide
+                  on the earth. And continually the word of <persName>the apostle</persName> is
+                  vivid in his heart: <choice>
+                     <sic>Wat</sic>
+                     <corr>What</corr>
+                  </choice> shall separate me from the love of <persName>Christ</persName>? shall
+                  tribulations or persecutions, or sword, or nakedness[#n106-1]? And he thinks also
+                  further, with <persName>Paul</persName>: For I am persuaded that neither death,
+                  nor life, nor things present with their terrors, nor things to come with their
+                  glory, nor any other creature shall be able to separate us from the love of my
+                  Lord.[#n106-2] The Initiated bear oppressions for two reasons:[#n106-3] either
+                  they do not perceive them, because they burn with love of their Lord. As
+                     <persName>Aba Benjamin</persName>, who healed many who were swollen and
+                  hydropsic, without thinking of his being swollen and hydropsic himself. When he
+                  was asked concerning this, he said: my brother, the blow from the beloved one
+                  gives no pain. Or they bear them because they are complying with the will of their
+                  beloved, when He will put them to trial. As in the case of the excellent
+                     <persName>Job</persName>, who endured innumerable blows without murmuring. It
+                  is also said, that one of the faithful, during the persecution of the pagan
+                  emperor <persName>Maximinos</persName> was beaten with a thousand blows without
+                  crying or weeping. When some one said to him: Why have you not cried? he answered:
+                  I saw <persName>Christ</persName>, for whose sake I was beaten, standing before me
+                  and looking at me, while he admonished me not to weep.</p>
+               <p>Though this strenuous patient one was great, yet he was not so great as
+                     <persName>Stephanus</persName>, the first deacon. For this firstborn of martyrs
+                  did not only refrain from shrieking, but when dying he prayed for those who stoned
+                  him, who were the cause of his being crowned with martyrdom.</p>
+            </div>
+            <pb n="107"/>
+            <div type="section" n="13">
+               <head>Section the Thirteenth</head>
+               <head>On the Stages of the Initiated concerning their Love</head>
+               <p>The holy solitaries teach that there are three measures, namely states of the
+                  Initiated concerning the growth of their love: the first, the middle, and the
+                  third, the last one being<pb type="external" n="496"/> that of accomplishment. And
+                  as they have found that at any of the three there are peculiar experiences, they
+                  have taught us concerning them. Therefore, borrowing their words, we give
+                  concerning any of them a passage as short as possible. The first state.[#n107-1]
+                  When, in the beginning, grace casts a small spark of the love of the Lord in the
+                  heart of the novice, it sows in him great humbleness, so that he thinks himself
+                  dust and ash, and remembering his trespasses he sheds tears of sorrow and joy, of
+                  sorrow, because of his stains; of joy, because grace has born and sustained him
+                  like a compassionate mother. Then it makes reciting of Psalms and frequent bending
+                  of the knees sweet to his heart and it gives him delight during his long service;
+                  and it makes him to remember the saints and incites him to imitate their labours.
+                  Then it incites him to love deeds which serve to give rest to his brethren, and
+                  pity towards the oppressed, and serving the sick. It gives him silence and
+                  solitude in order to cut off the passionate inclinations[#n107-2] in his heart.
+                  Some solitaries are, on account of their care, made perfect by grace in all these
+                  things, others in some only. But from time to time it withdraws from the solitary
+                  its workings, in order that he may be chastised by trials and become exercised;
+                  then troubles and evil passions direct their power against him. But if he be
+                  cautious against trespassing, grace will visit him anew with consolations, much
+                  more <pb n="108"/><pb type="external" n="497"/>profitable and elevated than the
+                  former ones, because it exercises him and does not withdraw from him. In this
+                  state the novice is in great need of a leader, because many are brought to fall by
+                  this trial and stray away from the place they occupy.</p>
+               <p>The middle state.[#n108-1] After its workings of the former kind, grace changes
+                  its influences upon the soul, purifies and sanctifies it and makes it apt for
+                  spiritual sight and the receiving of revelations. In the first place it enlightens
+                  the intellect by distinction of the creatures. Then the mind will be brought to
+                  giving up the distraction of deliberations and be fascinated by the creator only.
+                  And the intellect of the Initiated will meditate upon the highest one, to such a
+                  degree that, when being awake he will seem to be asleep, and, when sleeping he
+                  will be thought to be awake.[#n108-2] And when he has passed a space of time with
+                  such meditations, his Lord will show Himself to him. But only as a flash of
+                  lightning[#n108-3] which bursts forth and disappears; or as a star which of a
+                  sudden is covered by a cloud. This happens especially during prayer; so that sight
+                  often breaks off his service and stupefies him. Then his spirit is tormented
+                  continually[#n108-4] by hot inclinations[#n108-5] and the love of his Lord burns
+                  in his heart as the fire in a furnace seven times fiercer than it is
+                  wont,[#n108-6] so that his soul is enflamed, his limbs are relaxed and he falls on
+                  the ground. Then he rises again and prepares himself for vision and it is not
+                  withheld from him; but he begins to lengthen the duration [of this state] from day
+                  to day, and his mind is enlightened[#n108-6] so as to see hidden things and
+                  gradually he becomes familiar[#n108-8] with hidden mysteries and <pb n="109"
+                  />unspeakable visions. And the feverish inclination of the first<pb
+                     type="external" n="109"/> state is changing into calmness and accomplished
+                  love.</p>
+               <p>The state of accomplishment.[#n109-1] From here, then, begins the entrance into
+                  the bridechamber,[#n109-2] and abiding in the apartment and lying down in the room
+                  and intercourse with Him,[#n109-3] who appeared to the eye like a flash of
+                  lightning, but at whom the mind is gazing now peacefully.[#n109-4] The inhabitants
+                  of that place are enlightened by the sight of the beauty of the king, with a light
+                  not mingled with a reminiscence of darkness. There to the soul its natural
+                  beauty[#n109-5] is revealed and it sees itself as it is, namely in the likeness of
+                  its creator. And from sight to sight it is changed, and by the essential
+                  light,[#n109-6] with which the universe is clad and which penetrates the
+                  universe,[#n109-7] it beholds without impediment all the ends of the creation and
+                  farther, and is elevated above all heavens.[#n109-8] And as the bodily eye, by the
+                  created light, sees the bodily objects, so the eye of the mind, by the uncreated
+                  light, sees the angels in their nature. And when the soul is established in the
+                  sight of the glory of their classes and their beauties, their harmony and joy, it
+                  becomes with them like them. And in a moment it passes towards the cloud of
+                  inaccessible light, where God is said to dwell.[#n109-9] And while the face of its
+                  Lord is detected before it, it becomes stupefied and is made <pb n="110"/>radiant
+                  by the rays of His beauty. And there takes place transition,[#n110-1] which is
+                  described by our holy Fathers, so that it is impossible for the soul to return
+                  from its delight. And <pb type="external" n="499"/>if its Lord loosened it not
+                  from union, it would forget its partner, the body. And when it returns to it, it
+                  imparts to the limbs some of the divine fire, which has remained in it, so that
+                  they also participate in the enjoyment of the spirit. And when the mind returns
+                  again [to the Lord] the body is almost borne along with it, and the soul can
+                  scarcely shake it off when it is elevated. And so it ascends[#n110-2] from glory
+                  to glory through the Lord, the spirit, and it forgets not only what is here, but
+                  also <choice>
+                     <sic>its self</sic>
+                     <corr>itself</corr>
+                  </choice>. And because of the divine light with which it is clad, it sees itself
+                  in the likeness of God.[#n110-3] And it does not shun saying, in freedom of
+                  speech:[#n110-4] I am in my Father and my Father is in me, and I and the Father
+                  are one, together with other things which [#n110-5]perhaps Master
+                     <persName>Hierotheos</persName> and the like-venture to interpret.[#n110-5] But
+                  concerning these things the Holy Ghost says: There is mystery between me and my
+                  housemates, and it warns them to hide such things and not to divulge them, and it
+                  does not permit them to scrutinize them, except in personal intercourse[#n110-6]
+                  with the housemates.[#n110-7] And this last stage is called by the exoteric sages
+                  ‘likeness with God as much as this is possible for man.’</p>
+            </div>
+            <div type="section" n="14">
+               <head>Section the Fourteenth</head>
+               <head>On the varying States the Perfect have to go through[#n110-8]</head>
+               <p>When the perfect have reached the state of perfection, <pb n="111"/>grace works in
+                  them twelve varying states caused by its amazing influence, from their first
+                  reaching the apartment till their definite entering the bride-room and their lying
+                  with the beloved in the room.[#n111-1]</p>
+               <p>These varying states are the following. The first is that <pb type="external"
+                     n="500"/>of the baptism of the mind. For as soon as transition[#n111-2] takes
+                  place, the mind is baptized in the heart, and deliberation stands motionless, even
+                  without stammering glorifications, but silence dominates the inclinations[#n111-3]
+                  of the soul and the body. And by the food the mind receives from within, the body
+                  is sustained too. With this same baptism <persName>Moses</persName> has been
+                  baptized on the top of the mountain. Being in this state, the perfect is not only
+                  not able to meet any creature, but he can even not bear the sound of a
+                  bird.[#n111-4] The second is that of the influence of distinctions. When the mind
+                  has acquired purity of deliberations, it recognizes itself and it distinguishes
+                  the height of its rank and the loftiness of its race. And here too it guards
+                  silence and it does not permit itself to divagate upon distinctions without it.
+                  And when it is overwhelmed by divagation, it forces itself to the reciting of the
+                  scriptures and the Psalms and obeisance before the cross. And when it has been
+                  strengthened thus, it binds itself within the inner gate of the heart. The third
+                  is that of the love of reciting Psalms.[#n111-5] This love burns so strongly in
+                  the heart, that even at the time of the meals the mind is occupied with the
+                  Psalms. The fourth is that of outbursts of tears. These tears are not caused by
+                  compulsion, and the will has no dominion over them. But when the fire of love
+                  burns the soul within, the body sheds tears without. The fifth is that of the
+                  knowledge of Judgment and of care. And from this <pb n="112"/><pb type="external"
+                     n="501"/>understanding there is born in the soul the love of mankind and
+                  constant prayer <choice>
+                     <sic>in behalf</sic>
+                     <corr>on behalf</corr>
+                  </choice> of their conversion, because he sees them all as his equals and like
+                  himself. In this state there is no righteous and no sinner, no slave and no free
+                  man, no circumcision and no foreskin, no man and no woman, but
+                     <persName>Christ</persName> appears to be all and in every man. The sixth is
+                  that of the emotions of the heart, in which the mind is made radiant by the
+                  angelic rays, which are composed of light and fire. Then it burns with desire to
+                  be united with the spiritual hosts and it is ardent to be mingled with the orders
+                  of fiery beings. The seventh is that of simple[#n112-1] apperception. Here the
+                  mind hears the voice of the spiritual beings who glorify with subtle sounds,
+                  sounds which cannot be embodied in composed spoken[#n112-2] words and are only to
+                  be denoted in intellectual, simple sounds. Of these sounds the new glorification
+                  in the new world is made up, and with this glorification the spirit prays, as
+                     <persName>Paul</persName> says, for the saints.[#n112-3] The eighth is that of
+                  likeness.[#n112-4] In this state the mind is brought to silence; when it sees the
+                  True one[#n112-5] eye to eye and it is illuminated by His light and is changed
+                  into His likeness. And as the elegant and dense cloud, when it is near the sun
+                  receives its light and its form and appears like it, so the pure mind,[#n112-6]
+                  even though tied in the dense body, will become like essential light,[#n112-7]
+                  when <pb type="external" n="502"/>it has become familiar with it. The ninth is
+                  that of becoming like fire. In this state man is kindled by fire, from the sole of
+                  his foot to his brain arid his body is made glowing like iron in fire. The blessed
+                     <persName>Palladius</persName> says concerning <persName>Aba
+                     Arsenius</persName>, that while he stood praying in his cell, a brother, <pb
+                     n="113"/>looking through the window, saw him being wholly like fire. The tenth
+                  is that of unification.[#n113-1] This state is called undescribable by the
+                  Initiated. They say that the sign thereof is, that there are no longer two or
+                  three, but one is solved and two is subtilized and the sustenance of the two
+                  becomes one.[#n113-2] The eleventh is that of joy which also knows tears. Its
+                  cause is unknown to the Initiated; he knows only that he rejoices, but not why.
+                  The twelfth is that of outbursts of speech and prominence of the scrutinizing of
+                  things to come and explaining of things hidden, those which are written in the
+                  archbook, which is the book of the knowledge of God. And to the mind, when reading
+                  them, they are here revealed.</p>
+            </div>
+            <div type="section" n="15">
+               <head>Section the Fifteenth</head>
+               <head>A Collection of scattered Sayings concerning Love[#n113-3]</head>
+               <p>One of the Initiated, being asked what love is, answered: Love is the divine fire
+                  which burns in the elect and banishes and destroys from their hearts every other
+                  desire which is impure. <choice>
+                     <sic>An other</sic>
+                     <corr>Another</corr>
+                  </choice> has said: Love is fulfilling the will of the beloved. Another: Love is
+                  the power which springs from nature and superates the will. The mind cannot attain
+                  it, nor can the tongue explain it.</p>
+               <p>Another wept till he had become blind, stood till he was <pb type="external"
+                     n="503"/>bent, fasted till he was wholly abstinent, and prayed till he was
+                  exhausted. During all this he did not become weary nor tedious, but he said: I
+                  swear by Thee, Lord of Lords, if there were a stream of fire between me and Thee,
+                  I would pass through it towards Thee as if it were water. The same said: <pb
+                     n="114"/>The love of my Lord has alienated me to mankind and human things.</p>
+               <p>The same said: At the banquet of Love I have drunk goblets as it were from a
+                  flood; and as wine was not exhausted and I did not get drunk, I was overwhelmed by
+                  ecstasy.[#n114-1] From desire of Thee I watched the whole night until twilight.
+                  And if I had looked at anything besides Thee, I would have been blinded.</p>
+               <p><choice>
+                     <sic>An other</sic>
+                     <corr>Another</corr>
+                  </choice> has said: When the love of God is awake in the heart, it is wholly
+                  filled with burning fire, and in an insupportable way it is kindled with joy, and
+                  it longs after the sight of the hidden things.</p>
+               <p>A certain brother said: When paternal mercy[#n114-2] dawned unto me and
+                  took[#n114-3] my mind from me, it was, before being swallowed up in ecstasy and
+                  stupefaction, swimming in a sea of light and plunging into and emerging from its
+                  waves, ascending and lying down, rejoicing and exalting at the floods of its
+                  greatness. It beheld there radiating angels who were praising and it became
+                  familiar with them and said: Holy, holy, holy is the Lord Zebaoth.[#n114-4] And
+                  again the mind was <pb type="external" n="504"/>taken[#n114-5] and penetrated into
+                  the light of many rays and was stupefied by the sight of the Beautiful[#n114-6]
+                  and captivated by the love of the High one and all, even itself, became as not
+                  existing.[#n114-7] This state of the mind, namely the entrance without <pb n="115"
+                  />knowledge and the absence of impulses[#n115-1] will sometimes last a short
+                  moment, sometimes one hour, or a whole day, according to the will of the spirit.
+                  Also after its return from that state it will remain without inclinations during
+                  nearly a whole week. And now the mind will be dark, and then it will be radiant.
+                  At first there will dawn in the heart something like a star with many rays and of
+                  wonderful beauty, then it will appear as a column of light and thereupon the mind
+                  will ascend and enter and be hidden in the cloud.[#n115-2] And from that time
+                  gifts consisting in revelations[#n115-3] and visions, prophecy and power of
+                  healing, are given to it.</p>
+               <p>Another has said: Morning dawns and gives joy, light radiates and gladdens, the
+                  friend speaks and enflames, the good incites and exalts and shows Himself and what
+                  is His, in joy.</p>
+               <p>Another has said: The fire of love does not permit him who burns with it, to
+                  accomplish his service. For as soon as he is standing to pray, his heart will
+                  begin to glow till it burns and enflames the whole body, so that he is not able to
+                  stand upon his feet but falls on the earth as dead; and his cither is broken and
+                  he lives only in madness;[#n115-4] he thinks himself and what environs him to be
+                  in a fire, because of the living fire which is blown in him by Him who lives
+                     eternally.<pb type="external" n="505"/> For the Lord is my witness, that
+                  several times I have heard one of the brethren crying, when he was in the
+                  drunkenness[#n115-5] of the love of <persName>Christ</persName>, so that he could
+                  not restrain himself because of the divine fire that burned in him: O, how burning
+                  is Thy love, my Lord and my God, my life perishes from love of Thee, I cannot bear
+                  it! O, for Thy unspeakable beauty[#n], let me enter Thy chamber, o king, that I
+                  may rejoice and exult with Thee!—with other things which are not to be <pb n="116"
+                  />described. Further it has been said: Love makes the body and the senses silent,
+                  it elevates the mind so as to gaze on the inaccessible light of the beauty of the
+                  Desired. Mercy dawns unto it and takes it to the place without place, the world
+                  without denomination, the nature without beginning. And when the solitary reaches
+                  the divine cloud[#n116-1] and enters the harbour of all service, and sees with his
+                  mind, face to face, the glory of the Lord and is made radiating by it, and is
+                  transformed into His likeness—then his mercy is poured out over all, like that of
+                  God. And the beloved above all shows him love, and the beasts of prey, cattle, the
+                  birds and obnoxious reptiles do not harm him, because they smell from him the
+                  scent of their creator.[#n116-2] Even stones and wood and all inanimate beings are
+                  dominated by him. Even rebellious demons show themselves obsequious unto him,
+                  because of the fear which is laid upon them. Wonderful is also the love shown <pb
+                     type="external" n="506"/>unto him by the angels and the cry they utter unto
+                  him: Now let the heart rejoice of those who have sought the Lord in distress.</p>
+               <p>It has further been said: Look at the fire which becomes one with the iron in the
+                  furnace. The iron alone is not to be recognized there, because it has assumed the
+                  likeness of the fire, by their union. So you see not two images but one, no
+                  discrimination being possible, though the two substances remain separated. In the
+                  same way[#n116-3] the children of God see themselves as the image of God; so they
+                  become, all of them, gods, by the grace of their creator. And when their nature
+                  grows in glory, they are not aware of increase, even as those who grow up are not
+                  aware of the growth of their bodily stature; but they observe only that the glory
+                  of their person has become greater. And as it proceeds on, love increases. It has
+                  further been said:[#n116-4] If anyone writes the mysteries <pb n="117"/>of the
+                  spirit, without the spirit's dictating them to him, it will not mix its sweetness
+                  into his words and therefore they will not be loved by those who read them nor
+                  give delight to those who hear them. But if anyone learns the mysteries of the
+                  spirit from the spirit, writing what it dictates to him, then the spirit will mix
+                  itself into all his words and all those who hear him will smell its odours and
+                  their hearts will be filled by these words with life and their sound will
+                  eradicate the passions from them. And this is the pen of the ready writer[#n117-1]
+                  with which he writes his holy book.</p>
+            </div>
+         </div>
+         <pb n="118"/>
+         <div type="chapter" n="1.5">
+            <head>Book I, Chapter V</head>
+            <head>On Music[#n118-1]</head>
+            <div type="section" n="1">
+               <head>Section the First</head>
+               <head>On the Views of those Solitaries who reject Music[#n118-2]</head>
+               <p>They say, that every bodily delight, which does not serve unto the necessary
+                  maintenance of the body, is from the evil one. And that music belongs to the kinds
+                  of delight which are not necessary, is known from the fact, that continual
+                  deprivation of it, does not harm the body in any way. And <pb type="external"
+                     n="59"/>when the divine word has permitted the ancients the use of songs, this
+                  has not been done on account of the spiritual profit to be gained from them, but
+                  on account of the heathen leaven with which they were leavened. For he who is
+                  accustomed to a thing is difficult to be changed and he does not comply with a
+                  sudden transition. Therefore God has for instance permitted the children of
+                     <placeName>Israel</placeName> to make use of every kind of offerings, on
+                  account of their imperfection and their inclination towards the fear of the idols
+                  caused by their long abode in <placeName>Egypt</placeName>. For He knew that if He
+                  absolutely forbade them offerings they would not have obeyed. Therefore He
+                  commanded, that they should offer to Him alone and thereby He restrained the
+                  unbridled impulses towards polytheism. Till, when they had reached the
+                  accomplished view, He said to them, as it were, <pb n="119"/>by the mouth of
+                     <persName>David</persName>: I will take no bullock out of thy folds.[#n119-1]
+                  And further: I will not eat the flesh of bulls, nor drink the blood of goats.
+                  Offer unto God thanksgiving.[#n119-2] And further: For Thou desirest not
+                  sacrifice: Thou delightest not in burnt offering. The sacrifices of God are a
+                  humble spirit.[#n119-3]</p>
+               <p>Likewise God allowed them musical performances with cymbals, harps, cithers and
+                  other musical instruments, because they had been brought up with songs and
+                  banquets, with demoniacal insanity, with feasts and festivals and dances. At last
+                  however He had proclaimed by the prophet openly: I will cause the sound of thy
+                  songs to cease; and the sound of thy<pb type="external" n="60"/> harps shall be no
+                  more heard.[#n119-4]</p>
+               <p>And from all these things it appears, according to them, that musical performances
+                  and songs are not allowed, and that we have to praise without any songs, as
+                     <persName>our Lord</persName> has taught his disciples and as also
+                     <persName>Moses</persName> cried to God in silence, and as it is becoming to
+                  make comparisons with unspeakable words and with those groanings with which the
+                  spirit prays on behalf of the saints,[#n119-5] as <persName>the divine
+                     apostle</persName> denotes it mysteriously. On account of this, they say, those
+                  monks are reprehensible, which descend into the world because of the impure sign
+                  of desolation which is love of money, a phenomenon which is to be seen in all holy
+                  places. But because they are accustomed to boisterous music from their youth
+                  onward and have splendid voices, they do not care much about blessed mourning, but
+                  they are only anxious to celebrate common festivals and feasts. They know not
+                  that, on the contrary, it is becoming for us to worship God in spirit and truth
+                  and in holy silence, of which sanctifications are stronger than all voices.</p>
+               <p>Therefore, if it is allowed to speak frankly, we advise them not to indulge
+                  indecently in musical outbursts, but to strive after occupying their mind with
+                  mystic understanding, which <pb n="120"/>directs them towards being insatiate with
+                  the teachings of <persName>the Saviour</persName> and towards heavenly praises
+                  which are more to the good pleasure of <persName>Christ</persName>.</p>
+            </div>
+            <pb type="external" n="61"/>
+            <div type="section" n="2">
+               <head>Section the Second</head>
+               <head>On the worldly[#n120-1] View of those who, along with Music, also declare
+                  musical Instruments and Dance allowed</head>
+               <p>These people say, that every class of rejected things, is rejected either on
+                  account of deliberation, or on account of the scriptures.[#n120-2] That
+                  deliberation[#n120-3] does not reject music is known from the fact, that the
+                  relation between sound and ear is the same as that between colour and eye, or
+                  between odour and smell. Therefore, as the sight of a superb colour and the smell
+                  of a delicious odour does not bring guilt upon the seeing and the smelling, so
+                  hearing agreeable sounds does not bring guilt upon the hearer.</p>
+               <p>They further say:[#n120-4] Every sort of music proceeds either from the throat of
+                  irrational birds, or from that of rational man, or it is caused by playing musical
+                  instruments. Now it is manifest that to hear the voice of a bird does <choice>
+                     <sic>note</sic>
+                     <corr>denote</corr>
+                  </choice> guilt; so the same holds true in the case of the human voice and the
+                  musical instrument.</p>
+               <p>That the scriptures do not reject music either, appears, according to their
+                  opinion, from the fact, that in Hebrew traditions it is written, that
+                     <persName>David</persName>, the elect, appointed four singers, skilled in
+                  various sorts of music, and that he caused every one of them to join with himself
+                  seventy two singers in order to praise with glorifications.</p>
+               <pb n="121"/>
+               <p>Concerning instrumental music they say, that if it were impure, the holy Fathers
+                  would not have made use of it, and that they have made use of it, is manifest. For
+                     <persName>Miriam</persName>, the prophetess, the sister of
+                     <persName>Aaron</persName>, took a timbrel in her hand and all the women went
+                  out after her with timbrels and with<pb type="external" n="62"/> drums. And
+                     <persName>Miriam</persName> sang to them.[#n121-1] And
+                     <persName>David</persName> says: The chiefs advanced, holding harps, among
+                  maidens which beat timbrels, namely those Hebrew women which sang:
+                     <persName>Saul</persName> has slain thousands, and <persName>David</persName>
+                  tens of thousands.[#n121-2] And further he says: Praise Him with the sound of the
+                  trumpet: praise Him with the psaltery and harp. Praise Him with the timbrel and
+                  cymbal: praise Him with the sweet stringed instruments. Praise Him upon the loud
+                  cymbals: praise Him with the loud voice.[#n121-3] And many other utterances.</p>
+               <p>Concerning dance they further say: How should we reject it? For he who is more
+                  excellent than we, has danced: <persName>David</persName>, who has been surnamed
+                  the heart of God, when he went before the ark of the Lord and played.[#n121-4] And
+                  because of the words:[#n121-5] We have piped unto you, and ye have not danced; we
+                  have mourned unto you, and ye have not lamented,[#n121-6] which are spoken
+                  reprehensively in the Gospel, they say: these words prove, that it is becoming to
+                  accompany the song with dance, and the bewailing of the dead with lamentation.</p>
+            </div>
+            <div type="section" n="3">
+               <head>Section the Third</head>
+               <head>On the true View of those who declare Music partly allowed, partly
+                  forbidden</head>
+               <p>These people say: Not every kind of music is apt for the divine sheepfolds;
+                  neither is the church to be alienated from <pb n="122"/>every song. For some
+                  melodies are spiritual, and these are apt for the church. Others have only
+                  artistic value and these are not apt for the church, but alien. Spiritual musical
+                  texts are demur, mournful and causing sadness and afterwards a <pb type="external"
+                     n="63"/>chaste desire, while the soul washes away with tears the stains of sin.
+                  Sometimes however they even cause encouragement and raise the deliberations unto
+                  fortitude. In this way <persName>Jeremiah</persName> sang sadly and lamented over
+                  the devastation of <placeName>Jerusalem</placeName>, mysteriously denoting thereby
+                  the intellectual struggle of souls. The same holds true for every one of the
+                  prophets, which have sung spiritually.</p>
+               <p>Artistic melodies are effeminate and voluptuous and the passion of lasciviousness
+                  is lurking and hidden in them, till it lays a net for the soul in which it becomes
+                  luxuriant and effeminate. As a doctor has said: Till the present day I never saw
+                  an artist who repented from the depth of his heart or beat his breast or, on
+                  account of a plague, upbraided the inward inclinations which make impure, or bent
+                  his knees and moistened the earth with his tears; on the contrary: they stand
+                  upright, move their head, turn their neck in all directions, gesticulate, beat and
+                  clap their fingers one at the other and often stamp the ground with their foot.
+                  And those who listen to them or sing with them, being inwardly effeminate, look
+                  upwards with a yawning palate, and are transported with a false and foreign
+                  delight, without showing any of the fruits of a repentant heart.</p>
+               <p><persName>Euagrius</persName> the great has further said, distinguishing between
+                  demoniac songs and the canticles of the church: Demoniac songs excite our desire
+                  and throw the soul into impure imaginations. But Psalms and glorifications and
+                  spiritual songs direct our intellect towards the recollection of excellent things,
+                     <pb type="external" n="64"/> quench the fire of our anger and extinguish the
+                  desires. Therefore it is not becoming to mix together things which are not to be
+                  mixed, but we have to sing our glorifications chastely, like that great man
+                     <persName>Moses</persName>, and the children of <placeName>Israel</placeName>
+                  who <pb n="123"/>sang a wonderful song of praise, saying: We will praise the
+                  majestic Lord, for He is to be praised gloriously.[#n123-1] Further from that
+                  great song of praise in which he says: I will publish the name of the
+                  Lord,[#n123-2] while he shows that <persName>Enosh</persName>, who was the first
+                  to call upon the name of the Lord and to sing praises, assumed and made songs of
+                  praise—the church has been taught to make use of spiritual songs. Proceeding with
+                  the history of <persName>Moses</persName> one will further find a small song
+                  entitled: On the well.[#n123-3] Reading it, one will understand clearly, that they
+                  sang not only accompanied by the timbrel, as it was played by
+                     <persName>Miriam</persName>, but also with a plain song, which beautifully
+                  ascends unto the godhead, encouraging and exhorting one another, singing: Spring
+                  up, o well! Concerning musical instruments it is to be acknowledged, that the holy
+                  ghost inspired <persName>David</persName>, his servant, when he was the youngest
+                  among his brothers and a boy in the house of his father, so that his hands made a
+                  flute and his fingers played the harp harmoniously, as he says.[#n123-4] But
+                  because they are used nowadays at voluptuous festivals and drinkingbouts, it is
+                  not becoming to use them. Perhaps it is no cause of guilt if one rarely makes use
+                  of that pipe-organ, which is sometimes found in Roman churches.</p>
+               <p>And that dance in a circle, which is performed by the Greeks,<pb type="external"
+                     n="65"/> the Romans, the Syrians and the inhabitants of Tagrit, is allowed to
+                  boys, but only to those who belong to the lay-people. Not however always, but only
+                  on feastdays, on which joy is wanted.</p>
+               <p>Of the women only those who belong to the clergy are ordered by the canons to sing
+                  songs and hymns among themselves in the church.</p>
+            </div>
+            <pb n="124"/>
+            <div type="section" n="4">
+               <head>Section the Fourth</head>
+               <head>Since when and by whom singing has been introduced into the Syriac
+                  Church</head>
+               <p>Since the time of the holy synod which assembled at <placeName>Nicea</placeName>,
+                  the holy <persName>Mar Ephraim</persName>, our compatriote, began to produce holy
+                  musical songs and homilies against the heresies of his days.[#n124-1] And also
+                  other doctors, as Isaac[#n124-2] and a certain Balai,[#n124-3] composed a
+                  multitude of hymns based on texts taken from <persName>David</persName>. And also
+                  in the time of the synod of <placeName>Ephesus</placeName>, some potters, who were
+                  exquisitely pious, burned spiritually and produced a multitude of songs. Then,
+                  after the synod which assembled at <placeName>Chalcedon</placeName>, our Master
+                     <persName>Severus</persName>, that exquisite dogmatic, composed from all his
+                  Greek hymns which had been translated into Syriac, the responses to be sung, after
+                  he had corrected them and endowed them with sound views. <pb type="external"
+                     n="66"/>And in the time of the pious <persName>Jacob of
+                        <placeName>Edessa</placeName></persName> and of the elect <persName>George,
+                     the bishop of the Arab tribes</persName>, originated those glorifications,
+                  which are called the Greek canons, from a Damascene author, called
+                     <persName>Cyrene bar Manṣūr</persName>, and from a monk, who among monks was
+                  surnamed <persName>Aba Ḳusma</persName>, who was the inventor of the cyclic hymns,
+                  hymns which are more delightful than those by the former. And because
+                     <persName>Cyrene</persName>, though belonging to the party of
+                     <placeName>Chalcedon</placeName>, was not minded to mention the points of
+                  dispute which have given rise to the schism, in his songs, his canons have
+                  gradually found their way into our church, into its Eastern and Western section,
+                  as we learn from the pious Eleazar bar Sābta.[#n124-4]</p>
+               <p>How it may be, the accomplished, who possess the spirit of
+                     <persName>Christ</persName>, do not want any kind of boisterous music, because
+                     <pb n="125"/>they constantly cry unto their Lord only with unspeakable, namely
+                  intellectual words, and so have intercourse with Him. But to those among us who
+                  are in the puerile stage, being still somewhat material[#n125-1] and partly sick,
+                  and in want of accessory musical clamour,—the holy Fathers have allowed music, the
+                  condition that they should praise God, that <persName>Christ</persName> might he
+                  preached, be it under a pretext or in truth.</p>
+            </div>
+            <div type="section" n="5">
+               <head>Section the Fifth</head>
+               <head>On the Causes through which Music has been introduced into the Church</head>
+               <p>There are known to me two causes on account of which the holy Fathers have
+                  permitted spiritual glorifications to be performed with musical accompaniment in
+                  the holy churches.<pb type="external" n="67"/> The first is, that music, by the
+                  delight it causes, makes light and easy the burden of the labours of asceticism;
+                  because it occupies the senses so as not to be aware of time and inclination. And
+                  when man is not aware of time and inclination, he is not aware of trouble itself
+                  either. This conclusion can be promptly observed in the case of troublesome babes
+                  who, when crying on account of annoying pain, cease to cry and become quiet by the
+                  soft melodies sung by their mother. And, as regards the irrational animals, we see
+                  manifestly that camels, loaded with heavy burdens, accompanied by the regular of
+                  their Midianite drivers, travel over vast plains without perceiving the trouble of
+                  the way.[#n125-2] The second cause is this, that music is very profitable unto
+                  understanding the words of spiritual glorifications. And this on account of two
+                  reasons. The first is, that a canon, while the text is uttered slowly and the <choice>
+                     <sic>enuntiation</sic>
+                     <corr>enunciation</corr>
+                  </choice> is prolonged, not being murmured superficially and hastily, gives the
+                  intellect the opportunity of <pb n="126"/>understanding the spirit of the text and
+                  of grasping its meaning. The second is, that the text, being pronounced with the
+                  delight inherent to it, is more easily accepted by the soul <pb type="external"
+                     n="68"/>and so becomes an object of love. On account of this the soul will not
+                  shrink from scrutinizing the sense of the text, it will be zealous to examine it,
+                  being unsatiable in contemplating its tenor.</p>
+            </div>
+            <div type="section" n="6">
+               <head>Section the Sixth</head>
+               <head>On the Cause of the Delight springing from Music</head>
+               <p>Concerning the cause of the delight springing from harmonious music, the sages
+                  say, that every delight happens by sensual apperception to him that receives
+                  sensual impressions and is akin to the delight. Akin as a master is he who is in
+                  the possession of all his accomplishments. But if anyone does not possess all, but
+                  only a part of them, the delight he is able to grasp will be greater or lesser
+                  according to the accomplishments being greater or lesser.</p>
+               <p>The delight gathered from harmonious music will be attained in a higher degree by
+                  the souls which are trained and exercised in subtle distinctions than by those
+                  rude and fool ones, which are material, because an increased delight is caused by
+                  the returning of the delightful after the pain of separation. Therefore, when a
+                  sweet melody touches the senses and vanishes, another, similar one takes its place
+                  and drives away the pain caused by the vanishing of the former. And when the
+                  latter disappears also, the companion which follows it, consoles him that has been
+                  bereft of it. So every pain is followed by a consolator, and after every trouble
+                  delight will be corroborated. So the trained souls, which have been subtilized by
+                  their essential attaining the departure and return of the delightful thing, will
+                  grasp the delight effused by music. But the troubled <pb type="external" n="69"
+                  />souls which are material, being devoid of apperception, will neither groan over
+                  that which departs, nor be calmed by that which returns.</p>
+            </div>
+            <pb n="127"/>
+            <div type="section" n="7">
+               <head>Section the Seventh</head>
+               <head>On the natural Foundation of Music</head>
+               <p>The ancients, who were the inventors of the musical art, have founded it upon four
+                  elements, according to the number of the four qualities: heat, cold, humidity and
+                  drought.[#n127-1] Now none of these can occur in simplicity, without being mixed
+                  up with another one, as is to be seen in the physical and chemical elements. For
+                  that which is hot, is either humid, as air and blood, or hot,[#n127-2] as fire and
+                  brown gall. And again, that which is cold, is either humid, as water and phlegm,
+                  or dry, as earth and black gall. So the kinds of music are necessarily limited
+                  within the number of twelve. For music which is akin to heat and humidity, will be
+                  either composed of the two equally, or it will possess moderate heat and plentiful
+                  humidity, or vice versa. And that which is cognate with heat and drought, will
+                  either be abundant with the two equally, or it will possess moderate heat and much
+                  of drought, or vice versa. And that further, which participates of cold and
+                  humidity, will be akin to both of them equally, or to cold moderately and to
+                  humidity plentifully, or vice versa. And that further, which is composed of cold
+                  and drought, imparts equal strength to both of them, or to cold in a moderate
+                  measure, to drought<pb type="external" n="70"/> in a large measure or vice versa.
+                  And so Persian musical artists have discovered twelve sorts of music, which it is
+                  however not apt to mention and to enumerate with their designations, in this
+                  place. The churchmen however, Greeks, Syrians and others, have hated and rejected
+                  those sorts which contain two of the qualities without moderation of strength. as
+                  being unchaste and voluptuous excitements. They have given their sanction only to
+                  eight sorts of music and called them akadias[#n127-3] and have tried them
+                  practically.</p>
+               <pb n="128"/>
+               <p>The first and the fifth give a large place to heat and humidity. But in the first,
+                  humidity, weak and soft, which is very delightful and exhilarating, is found. And
+                  therefore the canon of Christmas is composed in it, because it is a feast of joy,
+                  of which the gladness is abundant and exultation is plentiful, and in it the joy
+                  which is imparted to the whole world, is proclaimed. Likewise the canon of Easter,
+                  because on it the women have proclaimed [the resurrection of
+                     <persName>Christ</persName>] to the disciples. And because mournful heat is
+                  strong in the fifth sort, the canon of Ascension is composed in it; for when
+                     <persName>the Lord</persName> had been separated from His disciples and had
+                  been taken up into heaven, they burned with the fire of longing and blazed with
+                  desire of Him and glowed with love. But for the burden of their body they would
+                  have been elevated in the air with Him.</p>
+               <p>The second and the sixth have a strong mixture of cold and humidity. But the cold,
+                  which makes humble in a moderate measure, is found to a larger degree in the
+                  second. And <pb type="external" n="71"/>therefore the canon of Baptism is composed
+                  in it. For though on this occasion <persName>the Lord</persName> condescended to
+                  be baptized by a servant, the height of His greatness was attested through the
+                  ghost of God which came upon Him and through the voice which was heard, saying:
+                  This is my beloved son. And because humidity, which is more tending towards
+                  sorrow, and more weak and tearful, is stronger in the sixth, the canon of the holy
+                  Pentad is tuned in it, likewise that of Good Friday and the Saturday following it;
+                  because they are days of sorrow.</p>
+               <p>In the third and the seventh heat and drought are abundant. But harsh and angry
+                  drought is strong in the third. And therefore the canon of <persName>our
+                     Lord</persName>'s entrance into the temple is composed in it, because on that
+                  occasion old <persName>Simeon</persName> spoke with the virgin with words which
+                  were very harsh, as for instance: A lance shall pierce through thy own soul. And
+                  because fiery heat, urging forth with force, is strong in the seventh the canon of
+                  Whitsuntide is set in it. For on this occasion <pb n="129"/>the holy ghost
+                  manifested himself unto the disciples in the likeness of tongues of fire, and took
+                  possession of them.</p>
+               <p>The fourth and the eighth have strong elements of cold and drought. But cold akin
+                  to fear is prevalent in the fourth. Therefore the canon of Annunciation is
+                  composed in it. For on it the virgin who had never experienced marriage was
+                  frightened by hearing of pregnancy and birth, fearing that the serpent which had
+                  seduced her mother should also seduce her. For, said she to the angel of the
+                  annunciation, as the serpent has taken possession of my mother between the trees,
+                  so I fear that you speak words of seduction to me. <pb type="external" n="72"
+                  />Likewise the canon of Hosanna. For on it the king who was wont to ride pompously
+                  on Cherubs, rode in his humiliation on a miserable colt.</p>
+               <p>And because benumbing and harsh drought is prevalent in the eighth, the canons of
+                  the Martyrs, who despised torments and showed heroism of soul, have been tuned in
+                  it.</p>
+               <p>These are the foundations upon which have been built the sorts of music by the
+                  ancient sages. But those who came after them and who had not mastered the height
+                  of knowledge of their predecessors, have been zealous to be abundant and broad in
+                  this art and so they have composed for every sort of tune a canon, haphazardly,
+                  without asking whether it was akin to the tune.</p>
+            </div>
+            <div type="section" n="8">
+               <head>Section the Eighth</head>
+               <head>On the Ranks of Intelligence concerning the reciting of Psalms and their
+                  Sentences[#n129-1]</head>
+               <p>Three are the ranks of intelligence concerning the reciting of Psalms. The first
+                  is that of plain people, those whose simple soul is only delighted at the text
+                  which is sung without <pb n="130"/>intending to fix its intelligence on any of the
+                  sentences. The like will not gain the least profit nor in any way be damaged by a
+                  change of the tendency of the texts. The second rank is that of those who enjoy
+                  the text in the same measure as the harmonious music. If they are youths who are
+                  ensnared in bodily desires, they will apply the words of love which are sung, not
+                  to divine love and the longing of the soul after <pb type="external" n="73"/>its
+                  Lord, but to the human passions which lurk in their heart; especially when their
+                  ears are struck by those hymns, taken from <persName>David</persName> and
+                     <persName>Solomon</persName>, which in a symbolic way describe the beauty of
+                  women, and are composed in view of the church and the soul, such as: 'the daughter
+                  of the king which rose in glory, and her maiden companions which followed her with
+                  offerings'. And 'the beauty of the cheeks, as beds of spices'.[#n130-1] And 'locks
+                  like the king's purple'. And 'the elevated neck, like a tower'.[#n130-2] And
+                  'hair, like a flock of goats and teeth like a flock of shorn sheep, which go up
+                  from the washing, whereof every one beareth twins, and there is not one barren
+                  among them'.[#n130-3] And 'eyes like the pools of
+                  <placeName>Heshbon</placeName>'.[#n130-4] And 'the roof of the mouth like the best
+                  wine'.[#n130-5] And 'return, return, O Shulamite, that we may look upon
+                  thee'.[#n130-6] And 'thou hast encouraged me with the look of one of thy eyes,
+                  which have frightened me'[#n130-7] and so on,—they apply them to a peculiar
+                  person; and thus desire becomes mighty in them and the spirit of voluptuousness
+                  rages in them. So, instead of profit, they gather no small loss from hearing
+                  music.</p>
+               <p>The third rank[#n130-8] is that of accomplished and perfect people, such as
+                  possess the spirit of <persName>Christ</persName> and whose thoughts are <pb
+                     n="131"/>girded with the love of God. These persons apply every word of love
+                  they hear, to the love of the soul unto its Lord and to that of the church unto
+                  its Saviour. Therefore the words 'the maidens love thee' are understood by them in
+                  connection with the praised souls which love Christ; and 'I am black'[#n131-1] in
+                  connection with the stains caused to the soul by<pb type="external" n="74"/>
+                  passions. 'I am beautiful'[#n131-2] in connection with its elevated nature, being
+                  offspring of God as appears from: 'Let us make man in our image, after our
+                  likeness'.[#n131-3] And in 'they brought me to the wine-house, they fixed over me
+                  love',[#n131-4] they find mysteriously denoted the drunkenness of the soul of the
+                  Initiated. And by 'behold, he standeth behind our wall' they are taught, that the
+                  body is a veil between the soul and its Lord; by 'he looketh forth through the
+                  windows, bending through the lattice',[#n131-5] that divine revelations and
+                  visions take place by clarifying the heaviness[#n131-6] of the body. By 'the
+                  watchmen that went about the city found me, they smote me, they wounded
+                  me',[#n131-7] they understand the demons which observe the heel of the soul and
+                  bereave it of its glory; by the 'little foxes that spoil the vines'[#n131-8] the
+                  excitations of the body. So every word they meet, they connect and explain by some
+                  spiritual distinction, though he who spoke these words did not intend such a
+                  connection. As <persName>Aba Macarius</persName> did: when he passed through the
+                  streets of <placeName>Kairo</placeName>, he heard a boy saying to his mother: A
+                  rich one loves me, but I hate him; and a poor one hates me, but I love him. Then
+                  he said to the disciples with him: Indeed; for God is the rich one, and He loves
+                  us, but we are not willing to listen to Him. And <persName>Satan</persName> is
+                  poor and he hates us, but we love his evil deeds. And a certain excellent brother,
+                  who heard a boy murmuring the<pb type="external" n="75"/> sentence: 'Return, o my
+                  soul, to thy rest' sighed, saying: How <pb n="132"/>often I say to it: Return, but
+                  it returns not. And when a certain Initiated heard the song: 'To the moon which
+                  changes constantly, and whose light varies from day to day, resemble the beautiful
+                  beauties of my friend, the superb of splendour'—he said: The beautiful beauties of
+                     <persName>Christ</persName> are without change, nor is there any variation in
+                  the splendour of His images; but in the change of the intellects which receive Him
+                  there arise changes by His revelations. And all along with the variations of those
+                  who see Him, change the images in His visions.</p>
+            </div>
+            <div type="section" n="9">
+               <head>Section the Ninth</head>
+               <head>On the Influence of Music on the Souls</head>
+               <p>Apart from the delight caused to the soul by hearing music and understanding the
+                  words on which it is composed, various workings appear in it, workings which vary
+                  all along with the preparation and the aptitudes the soul possesses. For instance:
+                  encouragement and intimidation, joy and exaltation, sorrow and distress,
+                  repentance and consolation, dilatation and contraction[#n132-1] and other painful
+                  qualities and pains. And so strong are these workings in it, that it compels the
+                  limbs of the body to participate in its emotions. Thus man enters a state which
+                  resembles madness; as the holy Fathers say, that at times of ecstasy, in which the
+                  heart is transported with <pb type="external" n="76"/>the divine love which unites
+                  it to <persName>Christ</persName>, man leaves his state, so that he cannot
+                  restrain his soul, which is ardent to fly away, from the supernatural delight and
+                  heat, in its ardour to abide in that glorious vision towards which it is striving.
+                  So it also draws along with it the limbs of the body: the flesh, the bones, the
+                  joints, so that they are also plunged into that sweetness. It is clear that this
+                  same love influenced <persName>David</persName> to order all peoples and tribes of
+                     <placeName>Israel</placeName> to clap their hands <pb n="133"/>and to rejoice
+                  and to exult and to play before the ark of the Lord on the wood of cedar and
+                  cypress, on cithers and harps, on timbrels and drums and cymbals.</p>
+               <p>But, because moving the limbs is a token of madness, though it be not an impure
+                  one, as the love of the Lord is its efficient, and their being in rest is a token
+                  of the mind [being sane], he who exults with joy has the duty to keep his limbs
+                  quiet as much as it is possible for him, especially if he belongs to the priestly
+                  rank.[#n133-1]</p>
+               <p>That dancing makes those who practise it, foolish and voluptuous, and bereaves and
+                  deprives them of their honour, is known from the fact that
+                     <persName>Mikal</persName>, the daughter of <persName>Saul</persName>, when she
+                  looked from the window and saw <persName>David</persName> rejoicing and playing
+                  before the ark of the Lord, despised him and ridiculed him saying: How glorious
+                  was the king of <placeName>Israel</placeName> to-day, who uncovered himself in the
+                  eyes of the handmaids of his servants, as one of the vain fellows. And because she
+                  spoke the truth, he did not accuse her of lying, but he inculpated her in another
+                  way saying: It was before the Lord, which chose me before thy father, and before
+                  all his house, to appoint me ruler over the people of the Lord, over
+                     <placeName>Israel</placeName>:<pb type="external" n="77"/> therefore I have
+                  made mirth before the Lord. And I have been still more vile than thus and I have
+                  been base in mine own sight: and with the maidservants which thou hast spoken of I
+                  shall be had in honour.[#n133-2] And from these things it appears, that play and
+                  dance are tokens of want of honour and of voluptuousness.</p>
+            </div>
+         </div>
+         <noteGrp>
+            <note xml:id="n85-1">Is. 1,3.</note>
+            <note xml:id="n86-1">Introduction, p. XC.</note>
+            <note xml:id="n87-1">This is also Gẖazālī’s definition (Iḥyāʾ IV, p. 252). It also
+               declares that love is only possible on account of knowledge: <!-- Add Arabic -->.
+               Further love is <!-- Add Arabic -->.</note>
+            <note xml:id="n87-2">This passage is in Iḥyāʾ IV. p. 253.</note>
+            <note xml:id="n87-3">Cf. Iḥyāʾ IV, P. 253.</note>
+            <note xml:id="n87-4">Cf. Book of the Dove, III. 5.</note>
+            <note xml:id="n88-1">A verse of 12 syllables.</note>
+            <note xml:id="n88-2">This is Gẖazālī’s definition of the third cause (IV, p.
+               254).</note>
+            <note xml:id="n88-3">This example is given and explained by Ghazali in the same way IV,
+               p. 254.</note>
+            <note xml:id="n88-4">Also one of Gẖazālī’s examples (IV, p. 255).</note>
+            <note xml:id="n88-5">Iḥyāʾ IV, p. 255.</note>
+            <note xml:id="n88-6">Ibidem.</note>
+            <note xml:id="n89-1">Cf. the Book of the Dove III, 5.</note>
+            <note xml:id="n89-2">The thoughts of this passage are expressed also in two sentences of
+               Ibn ʿAṭāʾallāh I, 71: <!-- Add Arabic -->.</note>
+            <note xml:id="n90-1">Introduction, p. LXXVII sqq.</note>
+            <note xml:id="n90-2"><choice>
+                  <sic>Litterally</sic>
+                  <corr>Literally</corr>
+               </choice>: its beauties are loved.</note>
+            <note xml:id="n91-1">Iḥyāʾ IV, p. 263.</note>
+            <note xml:id="n91-2">Cf. Iḥyāʾ IV, p. 263: <!-- Add Arabic -->.</note>
+            <note xml:id="n91-3">Iḥyāʾ, ib.: <!-- Add Arabic -->.</note>
+            <note xml:id="n91-4">Iḥyāʾ, ib.: <!-- Add Arabic -->.</note>
+            <note xml:id="n91-5">Isaac of Ninive, p. 32 speaks of bodily man, who has left his
+               dunghill and seeks heavenly things: ܘܬܗܪܝܢ ܒܟ ܟܕ ܚܙܝܢ ܠܦܓܪܢܐ ܕܐܪܦܝ ܠܩܩܠܬܗ ܘܫܐܠ
+               ܫܡܝܢܝ̈ܬܐ</note>
+            <note xml:id="n91-6">ܝܕܘܥܬܢܝܬ</note>
+            <note xml:id="n92-1">Verses of 12 syllables, like the following.</note>
+            <note xml:id="n93-1">With the following passage is to be compared Iḥyāʾ IV. p.
+               267.</note>
+            <note xml:id="n93-2">Iḥyāʾ IV, p. 267: <!-- Add Arabic -->. It is clear, that the whole
+               passage in Bar Hebraeus was taken from the Iḥyāʾ, inclusive the example of Moses. See
+               Introduction, p. LII sqq.</note>
+            <note xml:id="n93-3">Ex. 33, 20.</note>
+            <note xml:id="n93-4">1 Cor. 13, 12.</note>
+            <note xml:id="n94-1">Gẖazālī speaks in nearly the same terms; but he maintains that this
+               clear sight of the soul will only be reached after resurrection[ch] (Iḥyāʾ IV, p.
+               268, 10 sqq.). Cf. with the whole passage Plotinus, Enneades VI, 9 § 9 and 10.</note>
+            <note xml:id="n94-2">Iḥyāʾ IV, p. 70.</note>
+            <note xml:id="n94-3">Also Gẖazālī’s first cause, Iḥyāʾ IV, p. 270.</note>
+            <note xml:id="n94-4">ܬܐܪܬܐ.</note>
+            <note xml:id="n94-5">Introduction, p. LXXVII sqq.</note>
+            <note xml:id="n94-6">Also Gẖazālī’s second cause, (Iḥyāʾ IV, p. 271).</note>
+            <note xml:id="n94-7">Introduction, p. XXXIX.</note>
+            <note xml:id="n94-8">Introduction, p. LXXXI sqq.</note>
+            <note xml:id="n95-1">Iḥyāʾ IV. p. 271: <!-- Add Arabic -->.</note>
+            <note xml:id="n95-2">With the following passage compare the Book of the Dove III,
+               8.</note>
+            <note xml:id="n95-3">Even this sentence is in the Iḥyāʾ IV, p. 272: <!-- Add Arabic -->.
+               Ḳusẖairī, p. 167 ascribes it to Dẖu ʾl-Nūn.</note>
+            <note xml:id="n95-4">Psalm 36, 9.</note>
+            <note xml:id="n95-5">Psalm 19, 1.</note>
+            <note xml:id="n96-1">Cf. Iḥyāʾ IV, p. 274.</note>
+            <note xml:id="n96-2">Section VI.</note>
+            <note xml:id="n96-3">Introduction, p. XLII.</note>
+            <note xml:id="n96-4">James I, 17. The above passage concords almost <choice>
+                  <sic>litterally</sic>
+                  <corr>literally</corr>
+               </choice> with Iḥyāʾ IV, p. 274.</note>
+            <note xml:id="n96-5">This class is mentioned by Gẖazālī in less strong terms IV, p.
+               274.</note>
+            <note xml:id="n96-6">Ibidem.</note>
+            <note xml:id="n96-7">Ibidem.</note>
+            <note xml:id="n97-1">Iḥyāʾ IV, p. 275.</note>
+            <note xml:id="n97-2">Iḥyāʾ IV, p. 275: <!-- Add Arabic -->. Ibn ʿAṭāʾallāh II, 98:
+               <!-- Add Arabic --> and II, 99: <!-- Add Arabic -->.</note>
+            <note xml:id="n97-3">Cf. Book of the Dove III, 8.</note>
+            <note xml:id="n97-4">Psalm 19, 3.</note>
+            <note xml:id="n97-5">Iḥyāʾ IV, p. 275: <!-- Add Arabic -->.</note>
+            <note xml:id="n97-6">Iḥyāʾ IV, p. 275: <!-- Add Arabic -->.</note>
+            <note xml:id="n97-7">Introduction, p.CIII sqq.</note>
+            <note xml:id="n97-8">Introduction, p. LXXXIV.</note>
+            <note xml:id="n98-1">Cf. Ibn ʿAṭāʾallāh, I, 18: <!-- Add Arabic -->. And I, 28:
+               <!-- Add Arabic -->. And Abū Ṭālib II, 59: <!-- Add Arabic -->.</note>
+            <note xml:id="n98-2">Verses of 12 syllables. The original is in the Iḥyāʾ IV, p. 277:
+               <!-- Add Arabic -->.</note>
+            <note xml:id="n98-3">Cf. Ibn ʿAṭāʾallāh II, 9: apparently the original of Bar Hebraeus'
+               verses.</note>
+            <note xml:id="n99-1">Cf. Abū Ṭālib II, 51: <!-- Add Arabic -->.</note>
+            <note xml:id="n99-2">Iḥyāʾ IV, p. 277: <!-- Add Arabic -->.</note>
+            <note xml:id="n99-3">Ibidem: <!-- Add Arabic -->.</note>
+            <note xml:id="n99-4">Ibidem: <!-- Add Arabic -->.</note>
+            <note xml:id="n99-5">Ibidem: <!-- Add Arabic -->.</note>
+            <note xml:id="n100-1">Ps. 42, 2.</note>
+            <note xml:id="n100-2">Iḥyāʾ iv, P. 277: <!-- Add Arabic -->.</note>
+            <note xml:id="n100-3">Ibidem: <!-- Add Arabic -->.</note>
+            <note xml:id="n100-4">Ps. 51, 10.</note>
+            <note xml:id="n100-5">Iḥyāʾ IV, p. 277: <!-- Add Arabic -->.</note>
+            <note xml:id="n100-6">Iḥyāʾ IV, p. 278: <!-- Add Arabic -->.</note>
+            <note xml:id="n100-7">Iḥyāʾ IV, p. 283.</note>
+            <note xml:id="n101-1">Iḥyāʾ IV, p. 283.</note>
+            <note xml:id="n101-2">Philippians 1, 23. Ibn ʿAṭāʾallāh, 66: <!-- Add Arabic -->.
+               Introduction, p. LII sqq.</note>
+            <note xml:id="n101-3">Iḥyāʾ IV, p. 285.</note>
+            <note xml:id="n101-4">John 4, 15.</note>
+            <note xml:id="n101-5">Perhaps; but the story is also to be found in the corresponding
+               chapter of the Iḥyāʾ IV, p. 284. And it occurs already in Abū Ṭālib II. 52, who
+               introduces it with the words: <!-- Add Arabic -->.</note>
+            <note xml:id="n101-6">Above, p. 54.</note>
+            <note xml:id="n101-7">Iḥyāʾ IV, p. 285.</note>
+            <note xml:id="n101-8">Iḥyāʾ IV, p. 286.</note>
+            <note xml:id="n102-1">Iḥyāʾ IV, p. 286.</note>
+            <note xml:id="n102-2">Iḥyāʾ IV, p. 287.</note>
+            <note xml:id="n102-3">Saba.</note>
+            <note xml:id="n102-4">Iḥyāʾ IV, p. 287.</note>
+            <note xml:id="n102-5">Cf. section XIV; and Book of the Dove III, 9, fifth state.</note>
+            <note xml:id="n102-6">Iḥyāʾ IV, p. 288: <!-- Add Arabic -->. The third part of the
+               sentence is not in the Iḥyāʾ; so there seems to be a common source.</note>
+            <note xml:id="n102-7">Iḥyāʾ IV, p. 290. Cf. Abū Ṭālib II, 67:
+               <!-- Add Arabic -->.</note>
+            <note xml:id="n103-1">This anecdote is already in Abū Ṭālib II, 67 and Iḥyāʾ IV. p. 290
+               where the master is Dẖu ʾl-Nūn.</note>
+            <note xml:id="n103-2">Cf. Iḥyāʾ IV, p. 292 and Introduction, p. CII sq.</note>
+            <note xml:id="n103-3">Introduction, p. XCVIII sqq.</note>
+            <note xml:id="n103-4">Iḥyāʾ IV, p. 292: <!-- Add Arabic -->.</note>
+            <note xml:id="n103-5">Cf. section XIV, first state; and Book of the Dove III, 6 first
+               state.</note>
+            <note xml:id="n103-6">=θεοποίος; Dionysius Areopagita, Opera, p. 281.</note>
+            <note xml:id="n104-1">Cf. Book of the Dove, III, 9, tenth state.</note>
+            <note xml:id="n104-2">Introduction, p. CVI sqq.</note>
+            <note xml:id="n104-3">Introduction, p. XXVII.</note>
+            <note xml:id="n104-4">Job 7, 12.</note>
+            <note xml:id="n104-5">Job 13, 25.</note>
+            <note xml:id="n105-1">Cf. Job 7, 13 sq.</note>
+            <note xml:id="n105-2">Cf. Job 9, 33.</note>
+            <note xml:id="n105-3">Iḥyāʾ IV, p. 294: <!-- Add Arabic -->.</note>
+            <note xml:id="n105-4">2 Sam. 12, 13.</note>
+            <note xml:id="n105-5">Cf. Iḥyāʾ IV, p. 298.</note>
+            <note xml:id="n105-6"><choice>
+                  <sic>Litterally</sic>
+                  <corr>Literally</corr>
+               </choice>: fly.</note>
+            <note xml:id="n106-1">Cf. Rom. 8, 35.</note>
+            <note xml:id="n106-2">Cf. Rom. 8, 37 sq.</note>
+            <note xml:id="n106-3">This is also in the Iḥyāʾ IV, p. 298.</note>
+            <note xml:id="n107-1">Cf. Book of the Dove III. 1.</note>
+            <note xml:id="n107-2">Introduction, p, LXXI sqq.</note>
+            <note xml:id="n108-1">Cf. Book of the Dove III, 2.</note>
+            <note xml:id="n108-2">Introduction, p. XCI.</note>
+            <note xml:id="n108-3">Introduction, p. XCIV.</note>
+            <note xml:id="n108-4">ܬܟܝܒܐ.</note>
+            <note xml:id="n108-5">Introduction, p. LXXI sqq.</note>
+            <note xml:id="n108-6">Daniel 3, 19.</note>
+            <note xml:id="n108-7">Introduction, p. LXXXI sqq.</note>
+            <note xml:id="n108-8">Introduction, p. C.</note>
+            <note xml:id="n109-1">Book of the Dove III, 3.</note>
+            <note xml:id="n109-2">Plotinus, Enneades VI, 9 § n, compares this moment with entering
+               the asylum of a temple.</note>
+            <note xml:id="n109-3">Cf section XIV.</note>
+            <note xml:id="n109-4">Introduction, p. XCIV.</note>
+            <note xml:id="n109-5">Introduction, p. I. XIV sqq.</note>
+            <note xml:id="n109-6">Introduction, p. LXXXIV.</note>
+            <note xml:id="n109-7">The idea is already expressed by Jamblichus, De mysteriis, p. 31:
+               οὕτω καὶ τῶν θεῶν τὸ φῶς ἐλλάμπει χωριστῶς, ἐν ἑαυτῷ τε μονίμως ἱδρυμένον προχωρεῖ
+               διὰ τῶν ὄντων ὅλων.</note>
+            <note xml:id="n109-8">Book of the Dove III, 7. How familiar such ideas are to
+               neo-Platonic philosophers may appear from the following quotation from Ibn Gabirol's
+               Source of Life (ed. Munk. Mélanges I. 4): <!-- Add Hebrew -->.</note>
+            <note xml:id="n109-9">Introduction, p. CIII.</note>
+            <note xml:id="n110-1">Introduction, p. CV.</note>
+            <note xml:id="n110-2">Book of the Dove III, 4.</note>
+            <note xml:id="n110-3">Introduction, p. CVIII sqq.</note>
+            <note xml:id="n110-4">Introduction, p. CII.</note>
+            <note xml:id="n110-5">This is the reading of some Mss. The text has: ‘the soul dares to
+               utter in such a drunkenness; and perhaps they will disdain Master Hierotheos and the
+               like who venture to interpret.’</note>
+            <note xml:id="n110-6"><choice>
+                  <sic>Litterally</sic>
+                  <corr>Literally</corr>
+               </choice>: a living word.</note>
+            <note xml:id="n110-7">Cf. Section XL</note>
+            <note xml:id="n110-8">Cf. Book of the Dove III, 9. Introduction, p. XCV.</note>
+            <note xml:id="n111-1">Cf. the previous section.</note>
+            <note xml:id="n111-2">Introduction, p. CV.</note>
+            <note xml:id="n111-3">Introduction, p. LXXI sqq.</note>
+            <note xml:id="n111-4">Cf. Section XI.</note>
+            <note xml:id="n111-5">Read ܕܡܙܡܘܖ̈ܐ cf. Book of the Dove III, 9, third state.</note>
+            <note xml:id="n112-1">Here used in the sense of direct, immediate.</note>
+            <note xml:id="n112-2"><choice>
+                  <sic>Litterally</sic>
+                  <corr>Literally</corr>
+               </choice>: <choice>
+                  <sic>breated</sic>
+                  <corr>breathed</corr>
+               </choice> forth.</note>
+            <note xml:id="n112-3">Cf. Romans 8, 26.</note>
+            <note xml:id="n112-4">Introduction, p. CVIII.</note>
+            <note xml:id="n112-5">= <!-- Add Arabic -->.</note>
+            <note xml:id="n112-6">Introduction, p. LXXVII.</note>
+            <note xml:id="n112-7">Introduction, p. LXXXIV.</note>
+            <note xml:id="n113-1">Introduction, p. CVIII.</note>
+            <note xml:id="n113-2">Cf. Ibn ʿAṭāʾallāh I, 32: <!-- Add Arabic -->.</note>
+            <note xml:id="n113-3">Gẖazālī’s chapter also ends with a collection of sayings
+               concerning love.</note>
+            <note xml:id="n114-1">Cf. Ibn ʿAṭāʾallāh II, 81: <!-- Add Arabic --> and Ḳusẖairī, p. 45
+               <!-- Add Arabic --> and Abū Ṭālib I, 235: <!-- Add Arabic -->. Introduction, p.
+               XC.</note>
+            <note xml:id="n114-2">Psalm 103, 13.</note>
+            <note xml:id="n114-3">ܚܛܦܝܢ, Introduction, p. XCVI sqq.</note>
+            <note xml:id="n114-4">Cf. Corpus Hermeticum, p. 336.</note>
+            <note xml:id="n114-5">ܡܬܚܛܦ.</note>
+            <note xml:id="n114-6">Introduction, p. XLIV.</note>
+            <note xml:id="n114-7">Cf. Ḳusẖairī, p. 39 who quotes the following verses:
+               <!-- Add Arabic --> And cf. Introduction, p. CVII sqq.</note>
+            <note xml:id="n115-1">Introduction, p. LXXI.</note>
+            <note xml:id="n115-2">Introduction, p. CIII.</note>
+            <note xml:id="n115-3">Introduction, p. XCVIII.</note>
+            <note xml:id="n115-4">Introduction, p. XC.</note>
+            <note xml:id="n115-5">Introduction, l.c.</note>
+            <note xml:id="n115-6">Introduction, p. XI. V.</note>
+            <note xml:id="n116-1">Introduction, p. CIII.</note>
+            <note xml:id="n116-2">Cf. Book of the Dove, Sentence 96.</note>
+            <note xml:id="n116-3">Introduction, p. CVIII sqq.</note>
+            <note xml:id="n116-4">Book of the Dove, Sentences 54 and 55.</note>
+            <note xml:id="n117-1">Ps. 45, 1.</note>
+            <note xml:id="n118-1">Iḥyāʾ II, p. 219 sqq.; Ḳusẖairī, p. 177 sqq.</note>
+            <note xml:id="n118-2">Gẖazālī also opens his chapter with the views of those who reject
+               music.</note>
+            <note xml:id="n119-1">Ps. 50,9.</note>
+            <note xml:id="n119-2">Ps. 50,13.</note>
+            <note xml:id="n119-3">Ps. 51, 16 sq.</note>
+            <note xml:id="n119-4">Ezekiel 26, 13.</note>
+            <note xml:id="n119-5">Rom. 8, 26.</note>
+            <note xml:id="n120-1">Reading of P. The text has: puerile.</note>
+            <note xml:id="n120-2">This passage is parallel to the opening passage of Gẖazālī’s
+               section on music being allowed (Iḥyāʾ II, p. 221).</note>
+            <note xml:id="n120-3">This is what Gẖazālī calls <!-- Add Arabic -->; the following
+               passage reproduces exactly Gẖazālī's view Iḥyāʾ II, p. 221.</note>
+            <note xml:id="n120-4">Parallel to Iḥyāʾ II, p. 222.</note>
+            <note xml:id="n121-1">Exodus 15, 20 sq.</note>
+            <note xml:id="n121-2">1 Sam. 18, 7.</note>
+            <note xml:id="n121-3">Ps. 150, 3 sqq.</note>
+            <note xml:id="n121-4">2 Sam. 6, 5.</note>
+            <note xml:id="n121-5">These words are also quoted by Gẖazālī, Iḥyāʾ II, p. 230 in favour
+               of music.</note>
+            <note xml:id="n121-6">Matth. 11, 17.</note>
+            <note xml:id="n123-1">Cf. Ex. 15, 1.</note>
+            <note xml:id="n123-2">Ex. 32,3.</note>
+            <note xml:id="n123-3">Numbers 1 1 17</note>
+            <note xml:id="n123-4">Ps 151, 1 sq.</note>
+            <note xml:id="n124-1"> Cf. Ephraim's Biography, in his Opera, ed. Benedictus and
+               Assemani III, p. LII.</note>
+            <note xml:id="n124-2">Of Antioch</note>
+            <note xml:id="n124-3">Cf. Overbeck, S. Ephraemi Syri, Rabulae, Balaei... opera and
+               Zettersteen, Beiträge zur Kenntnis der religiösen Dichtung Balai's.</note>
+            <note xml:id="n124-4">Flourished 829 A.D.</note>
+            <note xml:id="n125-1"><choice>
+                  <sic>Litterally</sic>
+                  <corr>Literally</corr>
+               </choice>: thick.</note>
+            <note xml:id="n125-2">Even the examples of the babe and the camel are in Gẖazālī, Iḥyāʾ
+               II, p. 224</note>
+            <note xml:id="n127-1">Cf. Zeller III, I, 186.</note>
+            <note xml:id="n127-2">read: dry.</note>
+            <note xml:id="n127-3">From Greek ἠχειν.</note>
+            <note xml:id="n129-1">Iḥyāʾ II, p. 235 sqq.</note>
+            <note xml:id="n130-1">Cf. Cant. 5, 13.</note>
+            <note xml:id="n130-2">Cant. 7, 4; cf. 4, 4.</note>
+            <note xml:id="n130-3">Cant. 6, 5 sq.</note>
+            <note xml:id="n130-4">Cant. 7, 4.</note>
+            <note xml:id="n130-5">Cant. 7, 9.</note>
+            <note xml:id="n130-6">Cant. 6, 13.</note>
+            <note xml:id="n130-7">Cf. Cant. 4, 9.</note>
+            <note xml:id="n130-8">Iḥyāʾ II, p. 235 concords nearly laterally with the following
+               sentences, save only that they are applied by Gẖazālī chiefly on the novices.</note>
+            <note xml:id="n131-1">Cant. I, 5.</note>
+            <note xml:id="n131-2">Ibidem.</note>
+            <note xml:id="n131-3">Gen. 1,26.</note>
+            <note xml:id="n131-4">Cant. 2,4.</note>
+            <note xml:id="n131-5">Cant. 2, 9.</note>
+            <note xml:id="n131-6"><choice>
+                  <sic>Litterally</sic>
+                  <corr>Literally</corr>
+               </choice>: thickness.</note>
+            <note xml:id="n131-7">Cant. 5, 7.</note>
+            <note xml:id="n131-8">Cant. 2, 15.</note>
+            <note xml:id="n132-1">ܦܫܛܐ ܘܩܦܣܐ, cf. List of technical terms.</note>
+            <note xml:id="n133-1">Iḥyāʾ II, p. 249: <!-- Add Arabic -->.</note>
+            <note xml:id="n133-2">2 Sam. 6, 20-22.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
