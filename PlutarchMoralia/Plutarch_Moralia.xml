@@ -6,13 +6,27 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title xml:lang="en"><persName>Plutarch</persName>'s Moralia</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>OCR cleaning and initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos Chrisanthus</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>
+               <title>A Tract of Plutarch on the Advantages to be Derived from One's Enemies</title>,
+               translated by Eberhard Nestle, London: C. J. Clay and Sons, 1894.
+            </p>
+            <p>Published in 1894, this translation is in the public domain.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
