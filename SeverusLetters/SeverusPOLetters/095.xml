@@ -159,7 +159,10 @@
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2665">Isidore</persName> the
                Count<note type="footnote" n="933" resp="#ebrooks">Ep. 19.</note>. </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0508" notAfter="11(?)">508-11(?)</date>
+               <date notBefore="0508" notAfter="0511">
+                  508-11(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <p> But perhaps someone will say in question, "How are we to understand that the words which God
                spoke were uttered?" (meaning words such as those that were addressed to <persName>Adam</persName>, "Where art thou,

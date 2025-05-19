@@ -128,7 +128,10 @@
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2585">Eusebius</persName> the
                Scholastic, Which Begins, " Since you have raised objection against me through your letter". </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0513" notAfter="0518 (?)">513-8 (?)</date>
+               <date notBefore="0513" notAfter="0518">
+                  513-18(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <p>But now also we will come to what is required, and, we will again say, that 'essence'<note
                type="footnote" n="62" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>

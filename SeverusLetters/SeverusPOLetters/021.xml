@@ -128,7 +128,10 @@
             <head type="main" resp="#compiler">Of the Same, From the Letter to <persName ref="http://syriaca.org/person/2665">Isidore</persName> the Count, Which
                Begins, " From the letter of your religious and learning-loving magnificence". </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0508" notAfter="11(?)">508-11(?)</date>
+               <date notBefore="0508" notAfter="0511">
+                  508-11(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <p>But may the Lord of the seeds, who by coming in the flesh shone upon us, and came to cast good
                seed upon the earth, the one of the Holy Trinity, who together with the Father and the Holy

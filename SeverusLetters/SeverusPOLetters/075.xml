@@ -158,7 +158,10 @@
          <div type="letter" n="75">
             <head type="main" resp="#compiler">To <persName ref="http://syriaca.org/person/2433">Victor</persName> the Presbyter. </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0513" notAfter="0521 (?)">513-21 (?)</date>
+               <date notBefore="0513" notAfter="0521">
+                  513-21(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <p> A great and stern rebuke given in its time as the saying is should not be called presumption
                as some think, but gentleness.</p>

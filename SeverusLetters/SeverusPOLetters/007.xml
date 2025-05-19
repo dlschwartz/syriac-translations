@@ -128,7 +128,10 @@
             <head type="main" resp="#compiler">Of <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2702">Maron</persName>, Which Begins, "When some
                time ago I received the letter of your religiousness". </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0513" notAfter="0518 (?)">513-8 (?)</date>
+               <date notBefore="0513" notAfter="0518">
+                  513-18(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <p>Accordingly it is the same thing to say that God the Word was united to flesh possessing an
                intellectual soul in nature and in hypostasis and in essence<note type="footnote" n="72"

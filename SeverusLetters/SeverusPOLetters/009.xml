@@ -127,7 +127,10 @@
          <div type="letter" n="9">
             <head type="main" resp="#compiler">Of Our Father <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2702">Maron</persName>. </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0513" notAfter="0518 (?)">513-8 (?)</date>
+               <date notBefore="0513" notAfter="0518">
+                  513-18(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <p>But the power of the unconfused and initial union preserved those that were united beyond the
                reach of disturbance, and caused the two of them to exist in one hypostasis and one person, and
