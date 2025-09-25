@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Discourse 2 of <persName>Philoxenus</persName></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>OCR cleaning and initial markup of persons and places by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
+                  Chrisanthus</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+               <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
+               translated by E. A. Wallis Budge, Vol. 2, London: Asher &amp; Co., 1894, pp. 23-48. </p>
+            <p>Published in 1894, this translation is in the public domain.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="discourse">
+            <pb n="23"/>
+            <pb type="external" n="26"/>
+            <head type="title">The Second Discourse: Which teacheth which is which is the First Commandment that the
+               man who draweth nigh to the discipleship of <persName>Christ</persName> should lay hold upon.</head>
+            <p>Whosoever wisheth to draw nigh in systematic order to the life and conduct of the
+               discipleship of <persName>Christ</persName> before all things it is meet that he should within himself
+               lay hold upon sure faith, which maketh certain that God is, and enquireth not; which
+               holdeth His words to be sure; and seeketh not to investigate His nature; which
+               hearkeneth to His words, and judgeth not His deeds and actions. For faith maketh
+               [man] believe God in everything that He speaketh without requiring testimonies and
+               proofs of the certainty of His word, the certain proof that it is God Who speaketh
+               being sufficient for him. Signs and testimonies and proofs are demanded when it is
+               man who doeth or sayeth anything, but when it is God Himself who speaketh, and the
+               Lord of the universe Who sayeth that He will perform [it], it is necessary for us to
+               believe, it being sufficient for the persuading of our faith that it is God Himself
+               Who speaketh and will perform. And man hath not the power to judge His will; for how
+               can <pb type="external" n="27"/>man who hath been made judge the will of Him that
+               created him? For as the vessel cannot chide the handicraftsman and [ask] why he hath
+               thus formed it, <pb n="24"/>or judge any of his works, so also is it with man who is
+               a rational vessel, and he hath no power to chide with the Workman Who made him. And
+               although man possesseth the speech of knowledge it was not given to him to judge the
+               will of Him that made him, but that he might be a panegyrist of the knowledge which
+               formed him; for the rational man is farther removed from the power of scrutinizing
+               His Creator, than is the speechless vessel from the power of criticising him that
+               made it. For the giving of thanks have we received speech from God our Creator, and
+               in order that we may admire His created things hath He placed in us thoughts of
+               knowledge. That we may perceive Him He hath made us to possess a sense of wisdom, and
+               that we may receive a foretaste of His gracious acts hath He placed within our soul
+               the sense of discernment. That we may see Him in His works He hath given to us the
+               eye of faith which can see deeply into His secret things. God is too great to be
+               investigated by the thoughts, and His dispensation surpasseth the seeking out of
+               speech. And with His nature go also His works: for as His nature is inscrutable so
+               also the deeds and actions of His nature cannot be sought out. And His will and wish
+               cannot be judged, either for what reason hath He willed thus, or for what reason hath
+               He done thus; for as He cannot be judged by us as to why He hath made us in this
+               form, and why He hath formed us, and placed us in the world in this order of
+               constitution, so also none of His wishes can be found fault with by us, either as to
+               why He willed thus, <pb type="external" n="28"/>or why He performed.</p>
+            <p><quote>He that would draw nigh to God is bound to believe that He is, and [that] to those
+               who seek Him He <pb n="25"/>will be a rewarder;</quote><ptr type="noteAnchor" target="#n25-1"/> this law hath <persName>Paul</persName>
+               committed to the man who wisheth to draw nigh to God, and this obligation of
+               rewarding [him] is laid upon God. He must believe only that God is, and whosoever
+               believeth that He is, from what time and in what manner [He existeth] he will not
+               enquire. So also is it with His will, if he heareth [it], and His word, and His
+               doctrine; that it is the will of God Himself he will be sure, and the voice and
+               commandment of God he will hearken unto and believe. That he should judge why, and in
+               what form, and for what reason [He is] thus is the insolent investigation of the soul
+               which hath not perceived God.</p>
+            <p>It is meet for every man that would draw nigh to God that he should possess the mind
+               of a child; and as a child is towards his father and mother, so should he be towards
+               God and towards His dispensation. And as the child receiveth instruction from his
+               master without searching into his words or examining his doctrine, and without
+               judging in his thoughts that which he teacheth him—for he hath not sufficient ability
+               in his own thoughts to be a judge of what he heareth—so also is it meet for the man
+               to be towards God, neither enquiring into Him with his words, nor judging His deeds
+               and actions in secret thoughts; for he is a child, and like a child he should incline
+               his ear unto His instruction, and receive it with faith. And it was also for this
+               reason that God gave birth to us a second time, that He might teach us that we were
+               children <pb type="external" n="29"/>and infants of the world born unto faith, for
+               the womb which gave us birth—that is, <pb n="26"/>baptism in which the Spirit is
+               mingled—has been made the means. Now we have been born in faith, and as the natural
+               child who is born from the womb existeth wholly in natural simplicity and knoweth
+               nothing of the world, and seeketh not to know, and enquireth not, and thinketh not,
+               and speaketh not, except that he moveth only with the living motions of nature, being
+               remote from all power of the mind, so also this child, of the Spirit, who hath been
+               brought forth by the womb of baptism instead of by the natural womb, is not bound to
+               enquire concerning Him that <choice><sic>begot</sic><corr>begat</corr></choice> him while he listeneth to His words with
+               sincerity, and he should become like a child to His doctrine, accepting [His]
+               commands and drawing not nigh to enquire into them. And as that natural child
+               learneth the names of the things of the world without understanding their power, so
+               also let [the child of the Spirit] accept the names and words, and God shall give him
+               the secret of understanding them. For in respect of that knowledge we are children
+               and infants compared to the unspeakable wisdom of God, and thus also are we called by
+               the word of our <persName>Redeemer</persName>, [Who said], <quote>Suffer little children to come unto Me, and
+               restrain them not, for of those who are like these is the kingdom of God</quote>.<ptr type="noteAnchor" target="#n26-1"/>
+               And again in another place He said, <quote>Whosoever will not receive the kingdom of God
+               like a little child shall not enter into it.</quote><ptr type="noteAnchor" target="#n26-2"/></p>
+            <p>For as is the faith of little children in respect of the things of [this] world, so
+               is it meet <pb type="external" n="30"/>that our faith should be towards the words
+               which are spoken to us by God, because thus is also the child <pb n="27"/>towards the
+               word which he heareth from his father, and everything which is promised to him by him
+               he believeth without doubt that he will give him and that he will not fail in his
+               word, and he doth not question him; he doth not first make investigations concerning
+               it, and test its power, and attack its trustworthiness, and then accept it. And if
+               the thing which hath been promised unto him be too great for the power of his father
+               [to perform] he knoweth not how to distinguish it, but everything which he saith to
+               him he accepteth from him directly and doubteth not. And if he seeth purple raiment
+               upon a king's son, or the crown which is placed upon his head, he asketh his father
+               to give them to him, and he believeth in the sincerity of his mind that he will give
+               them to him, for concerning him he thinketh that he is able to do everything. And if
+               he seeth a snake or a scorpion he doth not hesitate to stretch out his hand towards
+               them in his simplicity, and he biddeth his father or his mother to give them to him,
+               and he also maketh known the desire of his simplicity by his weeping [if they give
+               them not to him]; and his constant importunity concerning them, and his cries, and
+               his tears, testify that he asketh [for them] with all the power of his nature,
+               believing that the power of his father is able to resist the injuries of the harmful
+               reptile, and he hath no doubt whatever in his soul that that which he desireth can be
+               given to him. Therefore after this type of children did our <persName>Lord</persName> command that all
+               those who would receive His kingdom should become, believing and holding to be sure
+               the promises of God unto them like children. For our <persName>Lord</persName> proclaimed and revealed
+               His kingdom to corporeal beings, and said, <pb type="external" n="31"/><quote>Repent ye,
+               for the <pb n="28"/>kingdom of heaven hath drawn nigh.</quote><ptr type="noteAnchor" target="#n28-1"/> Thou hast heard the
+               voice of him that proclaimed concerning His kingdom, believe it then undoubtingly,
+               especially since thou hast learned that it is the voice of God. Meditate not in thy
+               soul how this kingdom can be, and try not to search out these spiritual countries in
+               thy imagination; take not upon thyself the customary habit of the thoughts of the
+               body when thou hearest of incorporeal, countries, and fashion not imaginary forms out
+               of thy heart concerning these glorious mansions which the Ascension of <persName>the Son</persName> hath
+               prepared [for thee]; and think not to order in thy knowledge that which the knowledge
+               of God hath fashioned aforetime. Thou wast not called to search out the kingdom,
+               neither its preparation nor construction, but only to be an heir and a guest, that
+               thou mightest enjoy thyself out of the overflowing abundance of its spiritual
+               delights. Thou hast heard the word concerning the kingdom which <persName>Jesus</persName> speaketh to
+               thee, <quote>Repent, for the kingdom of heaven hath drawn nigh;</quote> to thee He hath said,
+               <quote>Repent,</quote> and not that thou shouldst be one who should try to examine into the
+               kingdom, for that is near unto thee if thou wilt draw nigh unto it. Now the drawing
+               nigh unto the kingdom cannot be arrived at by the questionings of these words which
+               enquire, <quote>How, and in what manner, and what the kingdom is like;</quote> but let each of us
+               keep the laws of the kingdom, and perform the commandments which have been committed
+               unto us by the Ruler of the kingdom.</p>
+            <p>All these things by faith thou hast heard concerning God, that He is from everlasting
+                  <pb type="external" n="32"/>and world <pb n="29"/>without end, and that He
+               existeth in His own being, and that He hath not come into being from any other
+               substance; and that He is not One Person, but a Nature, existing of Itself, which is
+               believed and confessed in Three Persons. And moreover, the word of faith teacheth
+               thee to be certain concerning the Persons, that He Who <choice><sic>begot</sic><corr>begat</corr></choice> cannot be
+               divided, and that He Who was born cannot be separated,<ptr type="noteAnchor" target="#n29-1"/> but the Father
+               together with His <persName>Son</persName> is everlastingly and eternally of like nature with the Holy
+               Spirit. That they exist is all that thou [needest] to confess. How, and from what
+               time, or in what manner, and to what limit, and with what form and order, and what is
+               their likeness, and how they can be Three not being divided from each other, and how
+               it is that since they are in each other they are called Three, and how the <persName>Son</persName> can
+               have been born since He hath not been separated from the Father, and how the Father
+               <choice><sic>begot</sic><corr>begat</corr></choice> him since He hath not gone forth from Him, and how it is that having
+               been in existence from everlasting and world without end they are not described as
+               Three Beings—these things and others which are like unto them are accepted by faith,
+               and without faith man is not able to hear them [and believe them]. Even the ordinary
+               hearing is not able to bear them unless faith be found to precede them and to accept
+               them.</p>
+            <p>And thus also is it in respect of the spiritual natures and orders of celestial
+               beings, and it is faith which maketh it possible to receive every word which is
+               spoken concerning them; <pb type="external" n="33"/>for otherwise there must
+               necessarily be unbelief, since the Book calleth them <pb n="30"/><quote>absolute spiritual
+                  beings</quote> [in one place], and in another it speaketh of them as <quote>compacted bodies,</quote> to
+               which it attributeth forms which are different from each other. Concerning the
+               Seraphim<ptr type="noteAnchor" target="#n30-1"/> we are told by the word of the Book [that they have] wings and
+               faces, and concerning the Cherubim<ptr type="noteAnchor" target="#n30-2"/> [we are told that they have] other forms
+               which are different from each other; which of these statements are we to accept as
+               true? for according to the outward hearing of the word each contradicts the other.
+               The statement that they are spirits we believe, the statement that they are compacted
+               bodies we hold to be true, the statement that their construction consisteth of forms
+               of different kinds we accept; and we receive them all by faith, because it hath been
+               said by God that their [four] sides were <quote>living animals</quote> [which] were <quote>full of eyes
+               as they turned round.</quote><ptr type="noteAnchor" target="#n30-3"/> And by this word He hath taught us that the whole of
+               the spiritual nature can see, and that all of it can hear, and that all of it can
+               perceive, and that all of it can think, and that all of it can put things to the
+               test,<ptr type="noteAnchor" target="#n30-4"/> and that all of it can understand, and that all of it can desire with
+               the desire of its nature; and it doth not hear with one member and not with another,
+               or see with one and not with another, but the whole of it is hearing, and the whole
+               of it is seeing, and everything which it is that it is wholly. And its hearing is not
+               disturbed by its vision when with the member with which it heareth it [also] seeth,
+               or when with that with which it thinketh it also tasteth; and we believe them to be
+               undisturbed and undestroyed by each other. </p>
+            <pb n="31"/>
+            <p>Now in respect of compacted bodily natures which have been discovered to be the
+               opposites of these spiritual beings, in that they hear with one [member], and see
+               with another, and taste with another, and smell with another, and feel with another,
+               and think with another, contrary to the constitution of their members the movement of
+               their passions maketh division; <pb type="external" n="34"/>but above, with these
+               spiritual natures, each one of them is wholly and entirely one thing in all his
+               motions, and his members—head, and feet, and hands, and face, and back, and front,
+               and length, and breadth, and colour, and forms which are different from each
+               other—are not separated. For in these natures there is not the composition of these
+               members, and it happeneth not that because there is no eye there is no vision of the
+               eye, or that because there is no ear there is no hearing of the ear, or that because
+               there is no bodily palate they have no [power of] tasting spiritual things, or that
+               because they have no wings they cannot fly, or that because they have no legs they
+               cannot move about, or that because they have none of the members of the heart they
+               cannot think; but they possess all the service of the members, although they have no
+               compacted members. And how the operation of the members is established without the
+               members themselves we have no power in our own knowledge to understand; but by this
+               [power] which is given to us by God, I mean faith, we understand these things, and
+               although they do not at all fall under the investigation of the human thoughts they
+               are accepted by us without any doubt. For from faith we learn this [fact] that they
+               exist, and not they only, but also the Being Who existeth of Himself, their Creator,
+               by faith we accept that He is.</p>
+            <pb n="32"/>
+            <p>The stablishing of all our instruction (or doctrine) is in faith, for although the
+               appearance and march of things teacheth and maketh understanding men wise concerning
+                  <pb type="external" n="35"/>their Creator, yet faith should precede even this, for
+               behold, because there was no faith this became a lie unto many. And to speak briefly,
+               everything which is of the spirit, and the whole world of spiritual beings, faith
+               seeth and faith perceiveth. If we do not take faith within our soul we shall
+               understand nothing outside of that which can be seen. To [understand] these things
+               which are seen faith is unnecessary because the vision of the eye seeth them, for
+               they are corporeal in their nature, and man looketh at them corporeally; but the
+               whole world of the spirit is perceived by faith, and it seems as if that world could
+               not exist if there were no faith.</p>
+            <p>Observe then how great is the power of faith, for all the spiritual things which are
+               would, without it, be as if they existed not; and not only living works or spiritual
+               countries, but that Being which is, would be, if we had no faith, as if He existed
+               not. For this reason <persName>Paul</persName> looked upon the mystery of our doctrine, and said, <quote>He
+                  that would draw nigh to God is bound to believe that He<ptr type="noteAnchor" target="#n32-1"/> is;</quote> he commanded the
+               disciple [first] to take faith upon himself, and then to draw nigh to the
+               discipleship of <persName>Christ</persName>. For <persName>Paul</persName> knew that the spiritual nature could not fall
+               under the bodily senses, and that it could not be known, for not even one of the
+               bodily senses <pb type="external" n="36"/>could subjugate it, and for this reason he
+               commanded us in his doctrine to believe only that He is. Now the Creator divided the
+               whole <pb n="33"/>of the corporeal nature into five kinds; one may be seen, another
+               may be heard, another may be smelled, another may be perceived, and another may be
+               touched; and He gave to man five senses with which he might be sensible of the world
+               in its multitudinous varieties. Therefore, outside these five senses which I have
+               enumerated a man can neither perceive anything of the corporeal world, nor doth the
+               world exist to him outside these senses. And the remainder of everything which is
+               spiritual, whether it be that which existeth of itself or whether it be things which
+               are created, cannot be subjected to one of these five forms, neither can it be
+               experienced by [any] one of these five senses. And for this reason also when our Lord
+               gave us this blessing of perceiving Him, He delivered unto us first of all faith,
+               with which we might perceive Him, and then He revealed to us concerning Himself, and
+               for this reason the blessed <persName>Paul</persName> said<ptr type="noteAnchor" target="#n33-1"/> that <quote>Faith [cometh] from the hearing
+                  of the ear, and the hearing of the ear from the word of God.</quote> By the hearing of the
+               word of God <persName>Paul</persName> taught us to receive faith, and although faith hath been implanted
+               in our construction by God our Creator, yet hath it been corrupted and changed from
+               faith to error, and after the manner of that natural wisdom which hath also been
+               given to us in our construction we have changed it, and instead of the wisdom of God
+               we have gathered together the wisdom of [this] world with it. And something else
+               which is external to God through the wisdom of God have we changed, <pb
+                  type="external" n="37"/>even as <persName>Paul</persName> saith, <quote>Through the wisdom of God the world
+               knew not the wisdom of God.</quote><ptr type="noteAnchor" target="#n33-2"/> </p>
+            <pb n="34"/>
+            <p>And thus also hath the natural faith which is in us been turned into error, and these
+               things which have been given to us by the Creator for [our] advantage have been found
+               by us to be a loss, for we have changed their profitable orderings, and we have made
+               use of them in a manner other than that for which they were designed. Our faith hath
+               believed in what is unseemly, and our wisdom hath made acquaintance, with what is not
+               befitting; for where faith was unnecessary there have we made use of faith. For what
+               the eye of the body saw, and what all the bodily senses perceived, that thing was
+               understood to be something else by our faith, and we expected one thing in the place
+               of another. And because of all this the ordering of the faith which was implanted in
+               us by the Creator hath been destroyed, the word of God hath been implanted in us a
+               second time, and the power which is in us hath been stirred up by the doctrine of
+               <persName>Christ</persName>; for this reason He urgeth with all His words, high and low, that faith
+               should be in us, saying, <quote>Verily I say unto you if there be in you faith like a grain
+               of mustard seed ye shall say to this mountain, Remove hence; and it shall remove; and
+               nothing shall be too difficult for you.</quote><ptr type="noteAnchor" target="#n34-1"/></p>
+            <p>He taught us by faith that nothing should be too difficult for us, and according to
+               this everything can be overcome by the power of faith, according to the command (or
+               decision) of the word of <persName>Christ</persName>. For by faith signs took place, and wonderful deeds
+               were wrought, and mighty works were completed, <pb type="external" n="38"/>and things
+               worthy of admiration were accomplished. <pb n="35"/>Everything which is above nature
+               faith alone performeth, whether it be the raising of the dead, or the healing of the
+               sick, or the curing of those who are smitten with disease, or the cleansing of
+               lepers, or the opening of the eyes of the blind, or the making the lame to walk, or
+               the making sound and stablishing of all the other members of the body, or the making
+               to speak those having impediments, or the making the deaf to hear, or the driving
+               away of devils: all these faith perfecteth. By faith a mountain removeth from its
+               place, by faith the sea and rivers have been crossed on foot, and by the power of
+               faith all natural things have been obedient to the voice of man. And to speak
+               briefly, faith giveth the power of God to man, for when he hath once believed,
+               everything that he wisheth he doeth by the power of faith. Faith changeth feebleness
+               of the body into its own mightiness, and the despicable order of man it maketh into
+               the audible command of God. Faith looketh upon something which existeth not as if it
+               were something which doth exist, and that which existeth it accounteth as if it
+               existed not. And this also is an example of the power of God, concerning Whom <persName>Paul</persName>
+               spake, <quote>He calleth the things that are not as though they were.</quote><ptr type="noteAnchor" target="#n35-1"/> And the
+               <persName>Prophet</persName> said, <quote>He rebuketh the sea, and maketh it dry, and drieth up all the
+               rivers;</quote><ptr type="noteAnchor" target="#n35-2"/> and again, <quote>He looketh on the earth and it trembleth; He rebuketh
+               the mountains, and they smoke.</quote><ptr type="noteAnchor" target="#n35-3"/> And again the prophet <persName>Isaiah</persName> saith, <pb
+                  type="external" n="39"/><quote>All the nations are accounted as nothing by Him.</quote><ptr type="noteAnchor" target="#n35-4"/>
+               Now these things the Spirit of God spake <pb n="36"/>concerning the power of God,
+               that those things which were not He called to come into existence, and that what did
+               exist He called and changed into nothing. To this power also He compareth faith, not
+               only in that matter of [the working] of signs and wonderful things, in that the
+               things which are not it worketh after the manner of God, and those which are it
+               bringeth to an end and finisheth by the power of God, but also in that those things
+               which, because of their being hidden, were accounted as if they existed not, were
+               perceived by it as if they were manifest, and those which are, and in which we
+               labour, and by which we are ministered unto, are accounted as if they existed not,
+               for [faith] saw aforetime their dissolution. And although their nature was not to
+               pass away, it made them pass away; and although they existed, it dissolved them; and
+               although they were visible, they were to it invisible; and although their delights
+               could be experienced, they were as nothing to it; and although all created things
+               were to run, to faith they would be at rest. When it seeth death it maketh not sure
+               that it is death, and riches are accounted poverty by it, and everything which is in
+               the world or is even of the nature of the world it looketh upon as if it existed not,
+               because its course is about to be annulled, and its affairs to cease. The things
+               which are remote and afar off, it bringeth and placeth near in front of it, and it
+               looketh upon them face to face; and without a covering (or <choice><sic>vail</sic><corr>veil</corr></choice>) it looketh
+               upon all secret things and regardeth all things that are hidden. To the sight <pb
+                  type="external" n="40"/>of the body the kingdom of heaven is afar off, yet the eye
+               of faith regardeth it; these mansions in the house of the Father, which are remote
+               according to the body, hath <pb n="37"/>faith already dwelt in. That spiritual light
+               shineth in its country gloriously, and faith hath already walked therein and gazed
+               upon it. The apparel of our glory is in heaven, but faith hath already put it on. Our
+               spiritual riches and possessions are there, and our faith receiveth therefrom and
+               giveth away. Our true city is in heaven, and faith henceforth dwelleth therein. Our
+               race, and family, and parents are in that country, and faith speaketh with them, and
+               is in conversation with them always. The table of our happiness is there set, and
+               faith rejoiceth thereat continually. The spring of life from which we drink there
+               floweth, and faith at all times drinketh therefrom. The powers of life and ranks of
+               light are in the country of life, and faith glorieth with them.</p>
+            <p>And why should I speak concerning things which, although they be glorious, are
+               externals, and although they be mighty and worthy of wonder, have been newly
+               constituted? If they are remote from us now by reason of their hiddenness, yet are we
+               about to draw nigh unto them when we have become [beings] of the spirit according to
+               the ordering of their country. And what shall we say concerning these things?
+               Wherever is the self-existent Nature of God, Who is remote and afar off from
+               everything, He is near to faith; and however remote He may be He is not remote from
+               it; and however far off He may be He is not far off from it; and although He be away
+               beyond everything <pb type="external" n="41"/>yet is He near to faith; and although
+               He be within all rational things and inarticulate things, and in things which have
+               life and in things which feel not, wherever He may be, there is faith with Him. For
+               this is the nature of the vision of faith; <pb n="38"/>what cannot be seen it seeth;
+               what cannot be known it knoweth; what cannot be perceived it perceiveth; and what is
+               illimitably afar off it seeth and becometh nigh thereunto. And however minute, and
+               concealed, and hidden, and spiritual, and exalted, and unutterable be that natural
+               thing which faith seeketh to see, the more triumphant is its vision of it. Now on
+               those things which are very great faith is wont to seize and show her [power] of
+               investigation, for it is accounted by her a disgrace to remain with small things, and
+               to be held back to created things, and therefore she passeth through everything and
+               is detained by nothing, except by the Creator. The capacity of creatures is not able
+               to bear and to grasp the power of faith, for not one of them can believe therein, and
+               if it believeth therein [it thinketh] that faith is a created thing, and not that it
+               is self-existent; now the trial thereof can only be made in God; for it casteth
+               everything away and setteth all natural things upon one side, and doth itself draw
+               nigh to the Creator. For faith maketh to pass away the things which now exist, and it
+               bringeth on those which are about to come into existence. Faith is the tongue of God,
+               and faith is the command of the Creator. Faith commandeth, and like God it is obeyed
+               in every thing; <pb type="external" n="42"/>it beckoneth, and all creation respondeth
+               to it. And the power of God is the power of faith, because the power of faith is
+               derived from God. Faith is the mistress of created things, and as a mistress who
+               giveth orders to her handmaids and is obeyed by them, even so faith commandeth all
+               creation, and it obeyeth her. And it is a marvellous thing that not only are created
+               things obedient unto faith, but even the Creator Himself resisteth <pb n="39"/>not
+               her will; whatsoever she seeketh she receiveth, and whatsoever she asketh from Him He
+               giveth to her, and [when] she calleth to Him He answereth her.</p>
+            <p>The door of the Giver is opened to the petitions of faith, even as He said,
+               <quote>Whatsoever ye shall ask, not being doubtful, ye shall receive.</quote><ptr type="noteAnchor" target="#n39-1"/> In the house
+               of God faith giveth her commands like a mistress of wealth and a ruler of
+               possessions. The mystery of faith is a wonderful and exalted thing, and no man is
+               able to fathom its mystery; and it is so great that it is a place of habitation for
+               God. Faith is that which is not a name only, nor is it even voice or speech; but it
+               is that which sheweth itself by the true examination of the soul, and by the sure and
+               certain stability of the thoughts, and it denieth not itself, but in this respect
+               also it is to be compared with God, concerning Whom <persName>Paul</persName> saith, <quote>He cannot deny
+               Himself.</quote><ptr type="noteAnchor" target="#n39-2"/> Thus also is it with the faith which denieth not itself, which
+               bringeth not doubt upon itself, upon which no suspicion falleth, and whose power fear
+               reacheth not. Everything that it wisheth, it doeth, and whatsoever it seeketh is
+               given unto it.</p>
+            <pb type="external" n="43"/>
+            <p>The man who would draw nigh unto God is bound to lay hold upon faith in his soul, for
+               faith hath no thoughts which dissolve one the other, neither hath it opinions which
+               annul each other. Faith retracteth not what it doeth and sayeth, and it blameth not
+               itself when once it hath spoken and asked for what it desireth. And as in God there
+               can be no repentance concerning anything which He doeth and speaketh, even so there
+               ariseth no repentance in faith concerning <pb n="40"/>whatsoever it doeth, so that in
+               this respect it is to be likened unto God. Faith is a command, and its command
+               ruleth; it prayeth with confidence, and according to its confidence its prayer is
+               straightway perfected into works. There are instances in which faith doth not even
+               offer up prayer and then give a command concerning something; but it speaketh with
+               authority like unto God. And as there is nothing which is able to resist the command
+               of God, so also can nothing resist the command of faith. There are instances in which
+               faith prayeth and in which it revealeth itself in its prayer; and there are instances
+               in which while it prayeth not it giveth the command authoritatively, and it is
+               answered. <persName>Elijah</persName> did not pray before <persName>Ahab</persName> and then was heard, but the faith which
+               was in him gave the command authoritatively, and what he commanded immediately stood
+               firm. And his word had more power over all natures and created things than the
+               command of a king concerning the provinces of his dominion. <quote>As the Lord, the mighty
+               One, liveth, before Whom I stand this day, there shall not be rain or dew these three
+               years until I speak.</quote><ptr type="noteAnchor" target="#n40-1"/> It is not written that he prayed [first], and then
+               spake, but immediately creation heard his word it bowed itself under the nod of his
+               command. <pb type="external" n="44"/>All things hearkened unto the command of a
+               mortal man as if it had been the word of God. The clouds were obedient unto him, he
+               called the earth and it answered him, he commanded the air, and it did not appear in
+               its variable forms. All creation became a submissive handmaid before the word of
+               <persName>Elijah's</persName> faith, and, although disturbed by the <pb n="41"/>command which her
+               mistress had spoken to her, [nevertheless] ministered thereunto.</p>
+            <p>And in another place, concerning the captains of the hosts who went up to bring him
+               down with the others who were with them, it is written that he commanded and spake
+               with Godlike authority, and the fire of God came down from heaven and burnt them all
+               up. <quote>If I be a prophet, as thou sayest, let fire come down from heaven and consume
+               thee and the fifty who are with thee,</quote><ptr type="noteAnchor" target="#n41-1"/> and straightway and without delay, the
+               fire descended from heaven upon the unclean, and it burnt into them as it came down,
+               and to the word of the prophet there was actual fulfilment.</p>
+            <p>Now in other places it is written that faith prayed and was afterwards heard,
+               according to that which is written, <quote>And he bowed himself, and put his face between
+                  his knees, and he sent his disciple to look by the way of the sea</quote>.<ptr type="noteAnchor" target="#n41-2"/> And again
+               when he raised the widow's son, he prayed, and prostrated himself,<ptr type="noteAnchor" target="#n41-3"/> and then
+               raised him. And in this prayer also faith made its appearance. For if he had not
+               believed that he could raise him, he would not have taken the boy from his mother,
+               and have carried him up [to his chamber] and have cast him upon the bed. And again
+               also he commanded his disciple <pb type="external" n="45"/>with authority, saying,
+               <quote>Ask whatsoever thou wishest, and I will give it to thee before I am taken from
+               thee;</quote><ptr type="noteAnchor" target="#n41-4"/> and according to what the disciple asked and the master commanded, the
+               Spirit ministered in very deed, and bestowed the gift upon <persName>Elisha</persName>.</p>
+            <p>Now when he was offering up sacrifices on <placeName>Mount Carmel</placeName> <pb n="42"/>in the sight of
+               <persName>Ahab</persName> and of all <placeName>Israel</placeName>, <quote>Answer me, Lord, answer me, Lord,</quote> he cried out, <quote>that
+               all this people may know that thou art the Lord, and that I am Thy servant, and that
+               I have done everything by Thy command;</quote><ptr type="noteAnchor" target="#n42-1"/> and until he had prayed he was not
+               answered and no fire came down. And the reason why in one case they prayed, and in
+               another gave commands with authority is manifest; in the one their feebleness was
+               apparent, and in the other the power of God towards them was revealed. For while they
+               were praying and making entreaty they appeared like the feeble children of men; but
+               while they were giving commands and being obeyed without prayer, it was recognized
+               that it was the power of God which was with their command. In the one place they
+               spoke like children of men, and in the other like the servants of God, that is to say
+               like gods of flesh, for the faith which was in them made them heavenly gods. And in
+               this respect also they are to be compared to <persName>Christ God</persName>, who in some cases wrought
+               things like a Being of power, and in others He [first] entreated and afterwards
+               worked. He did not raise <persName>Lazarus</persName> until He had prayed;<ptr type="noteAnchor" target="#n42-2"/> He did not bless the
+               bread and distribute it to the multitudes until He had looked up to heaven;<ptr type="noteAnchor" target="#n42-3"/>
+               and He did not give the command for the ears of the deaf man to be opened until He
+               had spit, and laid His fingers upon his ears, <pb type="external" n="46"/>and looked
+               up to heaven.<ptr type="noteAnchor" target="#n42-4"/> Others, however, He healed by a command of power, without
+               either looking up to heaven or asking His Father. For by a command of power He raised
+                  <pb n="43"/>up the young man, the son of the widow;<ptr type="noteAnchor" target="#n43-1"/> with a word He called
+               to the daughter of the chief of the congregation and straightway she stood
+               up;<ptr type="noteAnchor" target="#n43-2"/> He commanded the sea<ptr type="noteAnchor" target="#n43-3"/> and it was silent, and the wind and it was
+               stilled; He spake<ptr type="noteAnchor" target="#n43-4"/> only, <quote>Fill the water pots with water and draw out and bear
+               to the governor of the feast,</quote> and created matter delayed not [to do] His will. <quote>I
+               say unto thee,</quote> He spake to the dumb spirit,<ptr type="noteAnchor" target="#n43-5"/> and immediately it departed from
+               the man. <quote>I will, be thou clean,</quote> He spake to the leper,<ptr type="noteAnchor" target="#n43-6"/> and as He willed,
+               straightway the leprosy fled from his body.</p>
+            <p>For in this manner <persName>Jesus</persName> also wrought marvellous things, so that He might also
+               bring Himself down to those whom, by His grace, He called, His <quote>brethren</quote>; and that
+               it might not be grievous unto them that they were not answered until they had prayed
+               He humbled Himself and prayed, and was afterwards answered. For the <persName>Lord</persName> took upon
+               Himself equality with His servants in order that that which is written might be
+               fulfilled, <quote>In everything it was meet that He should be like unto His
+               brethren.</quote><ptr type="noteAnchor" target="#n43-7"/> He gave unto them dominion that they might speak with authority,
+               and be answered, so that by this they might be known to be the servants of God; and
+               He gave boldness to faith that it might do everything that it wished. Thus also with
+               power did <persName>Joshua, the son of <persName>Nun</persName></persName>, command the sun and the moon, and they were
+               restrained, <pb type="external" n="47"/>and each of them stood still in its course.
+               <persName>Joshua</persName> stretched out his hand and <pb n="44"/>spake<ptr type="noteAnchor" target="#n44-1"/> with the power of
+               faith, saying, <quote>Thou sun, tarry in <placeName>Gibeon</placeName>, and thou moon, in the valley of
+               <placeName>Ajalon</placeName>;</quote> and the sun was restrained, and the moon stood until the people had taken
+               vengeance upon its enemies.</p>
+            <p>And why should I speak concerning the prophets [only] in the case of a nation in the
+               whole of which—together with women and children—faith showed forth such mighty
+               triumphs as these? For faith, as it had been commanded, cried out, and the
+               walls<ptr type="noteAnchor" target="#n44-2"/> [of <placeName>Jericho</placeName>] were not able to stand against its voice. In every place
+               faith manifested such triumphs as these, and it worked marvellous things in all the
+               Holy Books. He that hath perceived the power of faith, and hath had experience
+               thereof in very deed, knoweth that it wrought these things, and he believeth also
+               that it doeth [still] such things as these.</p>
+            <p>Therefore, O thou who wishest to become a disciple of God, do thou also get faith,
+               the mistress of all possessions. Let this thing be to thee the beginning of thy
+               instruction, and lay it as the foundation of the building of thy tower, in such a way
+               that if it were to seize the height of heaven it would not fall, for the edifice of
+               faith is its foundation, which cannot be shaken by waves and winds. And <persName>Jesus</persName> also
+               set this faith [as] a foundation by the hand of <persName>Simon</persName>,<ptr type="noteAnchor" target="#n44-3"/> and as our <persName>Lord</persName>
+               made it the beginning, so also is it meet that the disciple, who would draw nigh to
+               discipleship in systematic order, should first of all begin with it. Faith <persName>Jesus</persName>
+               made the foundation of the whole Church, do thou also lay the foundation for thine
+               own rule and manner of life therewith. He built thereupon excellent rules <pb n="45"
+               />of life and conduct for the whole world, and do thou <pb type="external" n="48"
+               />build upon it thine own triumphs and order of life. He laid it out as a foundation
+               for all the generations of the world after His coming, and do thou make it the
+               beginning of thy life which is in God. See then how great faith is, in that it is
+               sufficient to bear all children of men!</p>
+            <p>And <persName>Jesus</persName> also made faith the foundation of the edifice of the Church because He
+               saw aforetime its invincible might, its unconquerable assurance, its
+               never-diminishing strength, its irreproachable triumph, its power which cannot be
+               overthrown, its unenfeebled strength, its irresistible command, its decree of
+               judgment which never turneth back, its never-failing word, and its dominion which can
+               never fall into contempt. This faith, the mistress of triumphant deeds, did <persName>Jesus</persName>
+               make the foundation of the Church, and the beginning of the building of His holy
+               Body, that He might teach all men to begin therewith, and that the disciple might
+               make it the foundation of all his rule and conduct of life. It was not set by Him to
+               be the foundation of the Church to show its power only, but also to teach every man
+               who might wish to begin to build the new edifice of his discipleship to make it the
+               beginning [thereof], and in all other parts of the building it will support and raise
+               up the mansions of the virtues. For not one fine stone can go up to the building of
+               this tower, unless faith carrieth it up, and there is no life in any of the limbs of
+               good deeds <pb type="external" n="49"/>unless the life of faith be in them. And as,
+               without the life of the soul, all the members of the body are dead, so without the
+               life of faith all the deeds and acts of righteousness are dead. And as the members
+               live through the soul so do works live through faith. And as <pb n="46"/>although the
+               members of the body may be healthy and sound, yet so long as the soul is not in them
+               they are useless, and their beauty and healthiness profit them nothing, so although a
+               man may be sound in the running [of the race] of righteousness, and work strenuously
+               in his rule and conduct of life, as long as faith be not in the members of his works,
+               his service is in vain. And as all the members receive feeling from the life of the
+               soul, for through the life thereof each one of them moveth in the ordering of its
+               nature, and in the service which appertaineth thereto—the eye to see, the ear to
+               hear, the palate to taste, the nostrils to draw breath, the hand to touch, the feet
+               to walk—and the whole body moveth and worketh, and trembleth with the movements of
+               life in every form through the service of all its members, so also in this manner are
+               the members of the works of righteousness, and as long as the life of faith be not in
+               them they are dead and useless.</p>
+            <p>For fasting is not fasting if faith be not therewith, and alms are accounted nothing
+               if they be not given in faith; <pb type="external" n="50"/>neither is loving-kindness
+               anything if faith be not therewith. The life of the Nazarite and ascetic is nothing
+               unless faith be mingled therewith, and humility and subjection are nothing unless
+               faith supporteth them, and painful seclusion is nothing if faith be not therewith;
+               for the blessing of faith is not mingled therein, neither is it accounted a blessing,
+               and the name of righteousness which is not mingled with faith perisheth, and its
+               labours are in vain. For as the shadow of the body is not called the body, and as the
+               shadow of the hand or foot is not called by the name of one of the members, so also
+               the body of <pb n="47"/>righteousness in which there existeth not the life of faith
+               cannot be called the body, nor can fasting be called fasting, or self-denial and
+               asceticism be called by the names of true members. Without faith they all are a
+               shadow and a dead body; and they cannot be spoken of as a true body, for they stand
+               in suspicion, and they toil in a strange vineyard. And faith is the hedge [which
+               protecteth] the plants of the commandments of <persName>Christ</persName>, and every plant which is
+               found inside this hedge belongeth to <persName>Christ</persName>, and is planted in His vineyard, and
+               those plants which are outside this hedge are called wild plants, which either bear
+               no fruit at all, or if they bear any, the wild beast trampleth down and the birds of
+               the air destroy it; and if it come to pass that they remain they are parched, and the
+               sweetness of food is not in them.</p>
+            <p>This is the vineyard <pb type="external" n="51"/>for which the master of the house
+               hired labourers, and every one whom he saw standing outside he accounted idle, and
+               persuaded him to work in his vineyard. By faith the good things which have been
+               discovered may be preserved, and by faith those things which are not [in us] may be
+               acquired. For faith gathereth treasure together, and preserveth riches; it layeth up
+               wealth and, preserveth it. Faith is the foundation and the architect, and faith is
+               laid out under the structure of the building, and it mounteth up therewith. Faith
+               formeth the members, and faith maketh them to live. Faith planteth the plants of the
+               spirit, and faith tilleth the plants of the spirit. Faith is the hedge [round about]
+               the plants, and faith is the fountain which watereth them. Faith giveth birth, and
+               faith is the nurse. Faith is the body, and faith is the soul which is in the body.
+               Faith <pb n="48"/>scattereth seed, and faith reapeth and gathereth in the crops.
+               Faith planteth the trees, and faith plucketh and carrieth in the fruit thereof. Faith
+               is everything, for faith is sufficient to be everything.</p>
+            <p>Therefore, O disciple, lay hold upon this faith, and in this sure thing be strong and
+               slacken not; and whatsoever thou believest, ask and thou shalt receive [it] from
+               <persName>Christ</persName> Who hath promised to give it, to Whom, and to His Father, and to the Holy
+               Ghost, be glory for ever and ever. Amen.</p>
+            <p>Here endeth the Second Discourse, which is on Faith.</p>
+         </div>
+         <noteGrp>
+            <note xml:id="n25-1">Hebrews xi. 6.</note>
+            <note xml:id="n26-1">St. Matthew xix. 14.</note>
+            <note xml:id="n26-2">St. Mark x. 15.</note>
+            <note xml:id="n28-1">St. Matthew iii. 2.</note>
+            <note xml:id="n29-1">Literally <quote>cut.</quote></note>
+            <note xml:id="n30-1">Isaiah vi. 2; Ezekiel i. 7.</note>
+            <note xml:id="n30-2">Ezekiel x. 1-22. </note>
+            <note xml:id="n30-3">Ezekiel i. 18.</note>
+            <note xml:id="n30-4">Literally <quote>taste.</quote></note>
+            <note xml:id="n32-1">Hebrews xi. 6.</note>
+            <note xml:id="n33-1">Romans x. 17.</note>
+            <note xml:id="n33-2">1 Corinthians i. 21.</note>
+            <note xml:id="n34-1">St. Matthew xvii. 20.</note>
+            <note xml:id="n35-1">Romans iv. 17.</note>
+            <note xml:id="n35-2">Nahum i. 4. </note>
+            <note xml:id="n35-3">Psalm civ. 32.</note>
+            <note xml:id="n35-4">Isaiah xl. 17.</note>
+            <note xml:id="n39-1">St. Matthew xxi. 22.</note>
+            <note xml:id="n39-2">2 Timothy ii. 13.</note>
+            <note xml:id="n40-1">1 Kings xvii. 1.</note>
+            <note xml:id="n41-1">2 Kings i. 10.</note>
+            <note xml:id="n41-2">1 Kings xviii. 42. </note>
+            <note xml:id="n41-3">1 Kings xvii. 17 ff.</note>
+            <note xml:id="n41-4">2 Kings ii. 9.</note>
+            <note xml:id="n42-1">Kings xviii. 36, 37.</note>
+            <note xml:id="n42-2">St. John xi. 41. </note>
+            <note xml:id="n42-3">St. Matthew xiv. 19.</note>
+            <note xml:id="n42-4">St. Mark vii. 33, 34.</note>
+            <note xml:id="n43-1">St. Luke vii. 14.</note>
+            <note xml:id="n43-2">St. Mark v. 41, 42.</note>
+            <note xml:id="n43-3">St. Matthew viii. 26.</note>
+            <note xml:id="n43-4">St. John ii. 7.</note>
+            <note xml:id="n43-5">St. Mark ix. 25.</note>
+            <note xml:id="n43-6">St. Matthew viii. 3.</note>
+            <note xml:id="n43-7">Hebrews ii. 17.</note>
+            <note xml:id="n44-1">Joshua x. 12.</note>
+            <note xml:id="n44-2">Joshua vi. 20.</note>
+            <note xml:id="n44-3">Compare St. Matthew xvi. 18.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>

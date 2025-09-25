@@ -137,7 +137,10 @@
                   Catalogue of Syriac MSS. in the British Meseum, p. 1323; Lebon, Le Monophysisme Severien, p.
                   147.</note>. </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0519" notAfter="0521 (?)">519-21 (?)</date>
+               <date notBefore="0519" notAfter="0521">
+                  519-21(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <p>The saintly presbyter <persName ref="http://syriaca.org/person/2673">John</persName> has removed and gone to the place of light of the righteous, and to
                the rest above in which those who have so lived abide, expecting the day of the perfect and full

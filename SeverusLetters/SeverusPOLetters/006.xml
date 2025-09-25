@@ -128,7 +128,10 @@
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2702">Maron</persName>, of Which The
                Beginning Is, "When <persName>Naaman</persName> the Syrian". </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0513" notAfter="0518 (?)">513-8 (?)</date>
+               <date notBefore="0513" notAfter="0518">
+                  513-18(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <div type="excerpt"><p>Enough has, I think, been said about essence<note type="footnote" n="63" resp="#ebrooks">οὐσία.</note> and 
                hypostasis. But the name 'nature' is sometimes taken in place of essence',

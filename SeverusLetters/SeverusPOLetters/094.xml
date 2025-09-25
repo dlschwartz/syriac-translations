@@ -159,7 +159,10 @@
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2606">Archelaus</persName>, Where He
                Adduces Testimonies From the Doctors. </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0513" notAfter="8(?)">513-8(?)</date>
+               <date notBefore="0513" notAfter="0518">
+                  513-18(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <p> For the holy <persName ref="http://syriaca.org/person/376">Basil</persName> the wise in divine things in the homily on the Faith says thus: "For as to
                angels' tongues, whatever they are, to know what they are is not within our compass"<note

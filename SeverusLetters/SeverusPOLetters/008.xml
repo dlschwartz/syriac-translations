@@ -127,7 +127,10 @@
          <div type="letter" n="8">
             <head type="main" resp="#compiler">To <persName ref="http://syriaca.org/person/2702">Maron</persName>. </head>
             <dateline resp="#ebrooks">
-               <date notBefore="0513" notAfter="0518 (?)">513-8 (?)</date>
+               <date notBefore="0513" notAfter="0518">
+                  513-18(?)
+                  <precision match="@notAfter @notBefore" precision="unknown"/>
+               </date>
             </dateline>
             <p>Perfection is not found in anything by nature, except in God only.</p>
          </div>
