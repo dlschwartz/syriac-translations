@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="s">The Legend of Hilaria</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Proofreading and initial markup of persons, places, and titles by </resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#anorth">Adelaide North</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+               <bibl>
+                  <title level="a">The Legend of Hilaria</title>
+                  <title level="m">Legends of Eastern Saints Chiefly from Syriac Sources, Volume
+                     3.</title> Edited and translated by <editor>A. J. Wensink</editor>
+                  <pubPlace>Leyden</pubPlace>
+                  <publisher>E.J. Brill Ltd.</publisher>
+                  <date>1913</date>
+                  <citedRange unit="p" from="35" to="57">35-57</citedRange>
+               </bibl>
+            </p>
+            <p>Initial transcription of the text by Roger Pearse, downloaded from Tertullian.org on
+               10/02/2025: <ref target="https://www.tertullian.org/fathers/hilaria_07_syriac.htm">
+                  https://www.tertullian.org/fathers/hilaria_07_syriac.htm</ref>. The present
+               transcription has followed Roger Pearse in renumbering the original footnotes.</p>
+            <p>Both the original translation by Wensink and the transcription by Pearse are in the
+               public domain.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="p" n="1">
+            <p>For the pious, my Beloved, it is always good to occupy themselves with the holy
+               doctrines, teaching the fear of God and leading us in the right ways which are
+               pleasing unto God.</p>
+         </div>
+         <div type="p" n="2">
+            <p>And especially with the stories of the memory of the works of the Saints, who lived
+               well with God and were perfect in the holy service. For there is nothing of such
+               profit to the pious soul as such meditations which show forth the excellent life and
+               holy works and humble habit of monasticism.</p>
+         </div>
+         <div type="p" n="3">
+            <p>For it is well known that there is no small consolation to be gathered from [an
+               examination] as to how they lived and pleased God in humbleness; how they persisted
+               in patience and in that love, which is a perfect sign of being a disciple of Christ,
+               and in great works; how they persevered in steady and long fasting, how they humbled
+               themselves in ascetic exercises beyond all power, and in performing abundant services
+               beloved by God.</p>
+         </div>
+         <div type="p" n="4">
+            <p>Not only blessed men have been seen doing this, but there have also been found women
+               in all generations shining like stars in the whole world. And now, because <pb n="38"
+               /> it is, as I have said, meritorious to make known by writing the memory of the
+               deeds of the Saints, it is also beautiful for us to hand down and to write that which
+               we have heard from trustworthy men who were eyewitnesses of the pious persons who
+               were leading an angelic life by their deeds, and mortified their bodies by
+               asceticism.</p>
+         </div>
+         <div type="p" n="5">
+            <p>So [we will speak] firstly about a woman of royal descent, whose story is above [the
+               power] of our weak words. So it would be becoming for us to be silent, because of our
+               inability, but as such a work, however weak, is of profit for such persons as are
+               longing with a pious mind to hear such things, we will not refrain from speaking,
+               asking the help of God, giver of knowledge.</p>
+         </div>
+         <div type="p" n="6">
+            <p>So we will begin with the time when the famous and pious king Zeno, was reigning
+               beautifully; he was equal in faith and love of Christ to the glorious and great
+               Constantine; but he was vexed and suffering from his having no son and successor to
+               the throne after his death. His desire made him frequently pray and entreat God and
+               send to saintly-living men in mountains and caverns and monasteries, that they should
+               ask God to grant him his wish. This he did because he was very pious and expected
+               that on account of their intercession<ptr type="noteAnchor" target="#n1"/> with God, who loveth his elected, they could
+               acquire all from him. So shortly after-his accession to the throne a daughter was
+               born to him, she with whom this story dealeth, truly a firstborn fruit of the prayer
+               of the Saints and a reward of his rich vows. When she was sanctified by baptism, the
+               holy sign of divine birth, she was called Hilaria.</p>
+         </div>
+         <pb n="39"/>
+         <div type="p" n="7">
+            <p>She was educated as is becoming to children of faithful parents. A heavenly grace was
+               spread over her and with her was to be found humbleness and great peacefulness; the
+               doctrine of the holy Scriptures she learned soon and excelled by great wisdom. She
+               had governesses who taught her the good doctrine, chaste women who were ascetically
+               living as virgins. I mean nuns, who were visiting her constantly. While she recited
+               with them the holy Scriptures and songs and services, there awoke in her the desire
+               of assuming their habit. They told her about the life of holy men and humble virgins
+               who had given themselves to God and were betrothed to Christ and had mortified their
+               flesh by asceticism. They told her especially about the holy Fathers who were aboding
+               in the desert of Egypt, which is called Skete.</p>
+         </div>
+         <div type="p" n="8">
+            <p>All these things she concealed secretly in her soul and hoped that they could be
+               realised in good season. But though she was anxious to assume the holy life and to
+               perform the duties of waking and fasting which are becoming to the holy habit, she
+               would not do this openly because she knew that it was not agreeable to the king and
+               queen, that she had such plans: for they hoped that she would be a source of temporal
+               joy to them; and they thought already about her marrying and having children, that
+               would bear the royal dignity after them.</p>
+         </div>
+         <div type="p" n="9">
+            <p>But she, while living alone in a room in the palace, was, according to a rule of
+               divine wisdom, symbolically practising monasticism, fasting steadily and sometimes
+               eating only every evening or every second day, with long vigils and constant standing
+               in prayer, day and <pb n="40"/> night, reading the holy Scriptures and the stories of
+               elect holy men and holy women. Meanwhile she looked for the realisation of the plan
+               which she had conceived namely to go away secretly and to adopt the solitary life in
+               the foreign country. She hoped fervently to see the Egyptian desert and to live with
+               the solitary ascetics there.</p>
+         </div>
+         <div type="p" n="10">
+            <p>Now her parents, the king and queen, were usually admitted to see her every fifth or
+               tenth day, according to the rule laid down by her; because she would not converse
+               with them frequently, for she lived in a retired manner and was in this way quietly
+               practising the habit of chastety and humbleness under a pretext. Then it happened
+               that the king, when visiting her, perceived that the grace and royal beauty, that was
+               spread over her handsome face, was fading away, that her body was becoming emaciated,
+               that her strength was diminishing and day by day she was fading away and decaying and
+               that she was sinking into a serious decline. So he said: "What hath befallen thee, my
+               daughter? Perhaps thou art sick and, because of thy bashfulness, thou wilt not reveal
+               it to us? Or is there a sickness of heart of which thou informest us not? Verily,
+               thou givest us much trouble and pain, on seeing thee fading away and decaying like
+               one wounded and sick". But she said to them: "Suffer not anyhow, my father; for there
+               is nothing that maketh me suffer, nor is there a pain that troubleth me. On the
+               contrary, my heart rejoiceth very much, because thou art spared and enjoyest peace".
+               So she cheered them up by these words.</p>
+         </div>
+         <div type="p" n="11">
+            <p>As a rule her waiting-woman with whom she had intercourse brought her food from the
+               palace, dishes of all kinds; but she took only the bread and the rest of <pb n="41"/>
+               the food she sent secretly to the poor by the medium of that servant. When she had
+               lived in such a way five years, steadily fasting every second day (she was at that
+               time five and twenty years old), she thought that this was the time for going away to
+               the abode she was longing for; but how could this plan be carried out if she Was seen
+               by her servant every day? And if she were to be sought in vain, they would turn every
+               stone and seek her in every direction and there would be no means of escaping.</p>
+         </div>
+         <div type="p" n="12">
+            <p>But what devised she and what contrived she?</p>
+         </div>
+         <div type="p" n="13">
+            <p>She adopted the rule of delaying [the visits of her servant] more and more, saying to
+               her: "To day I have got food that will be sufficient for three days; trouble me not
+               with thy visit till the fourth day hence. Let nobody know this; otherwise thou wilt
+               be in danger on my account. But take the food, which is given to thee to bring it me,
+               and take it secretly to the poor. And if my parents ask thee, say, as usually: She
+               hath taken and eaten it". In this way she would, when being ready to go away, be able
+               to prolong the interval between her visits and hinder her from entering during five
+               days or more, in order to be able to reach a far distance on her journey before being
+               sought and missed.</p>
+         </div>
+         <div type="p" n="14">
+            <p>Thus she did during one year, saying to her servant: "Till the fourth day hence
+               approach not unto my door". And soon she said: "Till the fifth day", and then: "Till
+               the seventh".</p>
+         </div>
+         <div type="p" n="15">
+            <p>When the day had come, that she was prepared for going away, she said secretly to her
+               servant: "Take this dinar and buy for it a coat of hair and sandals and a cowl, but
+               let nobody see or know it, for I will <pb n="42"/> give this to that nun, which often
+               visiteth me, because I see that she is poorly dressed''. The servant took the dinar
+               and accomplished all according to her command. After a few days Hilaria said to her:
+               "Visit me not during five days". Thereupon she prepared herself for departing, took
+               off the princely dress she was wearing and put on the coat of hair and the
+               sandals.</p>
+         </div>
+         <div type="p" n="16">
+            <p>Then she threw on the capuchin, took some food and some money for expenses and went
+               away in the morning, while no one saw her, to the seashore which was not very far
+               from the town, while a steady prayer was in her mouth and tears stood in her
+               eyes.</p>
+         </div>
+         <div type="p" n="17">
+            <p>Thus she prayed: "O God, Thou who guidest the Saints and leadest them on Thy eternal
+               way, who art everywhere with them and leavest them never, lead me on this way and
+               direct my feet on the way of salvation and bring me to the place which I long for,
+               that I may have intercourse with Thy Saints and serve Thee with them in holiness and
+               praise Thee eternally".</p>
+         </div>
+         <div type="p" n="18">
+            <p>Now it happened that, by divine Providence, at that time a ship was ready for
+               departing in the direction of Egypt, to Alexandria, the place where she wished to go
+               to. When she had asked the people there and had heard "what she hoped, she gave the
+               fare and embarked. And nobody of those who saw her, knew whether she was a man or a
+               woman, because she was dressed humbly and chastely in the humble monastic dress and
+               in the royal residence there were many of such monks and nuns; so those who saw her
+               thought that she was like the rest.</p>
+         </div>
+         <div type="p" n="19">
+            <p>The ship sailed and reached Egypt in a few days. <pb n="43"/> Then she left the ship,
+               entered Alexandria and visited the holy places there, churches and monasteries and
+               strengthened herself by the prayers of those who were performing in holiness the
+               service there. While she was still walking through the town she saw an old hermit, an
+               excellent man of those of the desert. Addressing him she asked in the first place
+               after the way of living of the hermits in the desert, and whether they received
+               strangers gladly into their community, and which place or convent was the first to be
+               reached in the desert.</p>
+         </div>
+         <div type="p" n="20">
+            <p>The hermit said to her: "Their way of living is that each of them reciteth separately
+               and in his own way and every one accomplisheth the holy service in his cell, which he
+               leaveth not during the whole week. But on Sundays, at the time of the ministration of
+               the holy sacrifice, they go to the church that is situated in the midst of the cells
+               and partake of the holy sacraments. Some of them cover their faces with their caps so
+               as not to see anyone and not to be seen by anyone; every one fasteth as he chooseth
+               and according to his strength, some of them every second day, others every third or
+               fourth day. The conspicuous take food only once a week.</p>
+         </div>
+         <div type="p" n="21">
+            <p>This consisteth of dry bread and olives, sometimes they take also boiled vegetables;
+               others feed upon herbs like the beasts.</p>
+         </div>
+         <div type="p" n="22">
+            <p>The monastery which is at the entrance of the desert is called that of Aba Macarius.
+               It is said that the number of hermits belonging to it, amounteth to three thousand.
+               And as to their love of strangers, it is great, praiseworthy and divine. But they
+               admit amongst them no beardless youths nor indulgeth any one in seeing a woman".</p>
+         </div>
+         <pb n="44"/>
+         <div type="p" n="23">
+            <p>When she heard this she replied and asked after the way to the desert. He told it her
+               and she made an obeisance before him and received his blessing<ptr type="noteAnchor" target="#n2"/> and each of them
+               went his own way, without knowing the other's sex and without asking after it. When
+               he was far from her and out of sight, she knelt down in order to pray before God and
+               thus she spoke: "Our Lord Jesus Christ, the life and salvation that hath dawned for
+               us, thou who hast come to seek the forlorn, and to bring back to the way of truth
+               those who have gone astray, Thou who leadest Thy Saints to the eternal way ---- turn
+               to me the lost one, for I seek Thee, my Lord, and lead me at Thy right hand to Thy
+               way of life, for Thee alone my soul loveth. And direct my feet in the way of
+               salvation and receive me into Thy good harbour. For Thou art my strong hope and in
+               Thee I have confided from my youth, now and for ever. Amen".</p>
+         </div>
+         <div type="p" n="24">
+            <p>When she had finished her prayer and sealed herself with the holy sign, she took the
+               way to the desert while continually prayer was in her mouth. After three days of
+               travelling, she reached the convent of Aba Macarius, at the entrance of the
+               desert.</p>
+         </div>
+         <div type="p" n="25">
+            <p>It was a sabbathday, and while she was passing between the cells she saw none of the
+               solitaries without the door of his cell. She ventured not to knock at a door; but on
+               going round in order to find some one, she came to the church, their place of
+               congregation. She entered to pray and saw the Presbyter who constantly was aboding
+               there. After having finished her prayer, she asked his blessing, and he invited her
+               to take rest, <pb n="45"/> saying: "From where cometh your pious person, o Father?
+               and what is the cause, why thou visitest us, poor creatures?" For he thought that she
+               was a man because of her manly dress and the changed colour of her face which had
+               become dusky and black.</p>
+         </div>
+         <div type="p" n="26">
+            <p>And thus she answered him in a manly tone: "Your servant, Father, cometh from
+               Constantinople, in order to be the disciple of your holiness, if it please God and
+               you". The Presbyter said: "What is Thy name?" She answered: "John the eunuch. As to
+               my class I am a slave and I belonged to a noble and well-known Roman<ptr type="noteAnchor" target="#n3"/> man and
+               performed with him the service of a slave. And when he deceased in peace, he freed
+               me. Then being master of my own person, I have sought to please God above all and
+               from fear of God I assumed the holy habit. But I had an infinite longing to see the
+               Saints who in this desert are living ascetically and devoting their lives to God, and
+               to pass the rest of my life with them. For that reason I have hastened to come to you
+               now".</p>
+         </div>
+         <div type="p" n="27">
+            <p>Thereupon the Presbyter said: "Thy coming is right, Father. Stay here and take rest
+               to-day. Tomorrow, which is a Sunday, the solitaries will assemble here as usually in
+               order to partake of the holy sacrifice".</p>
+         </div>
+         <div type="p" n="28">
+            <p>So on Sunday morning, at the third hour the solitaries assembled into the above
+               mentioned church; and when they had partaken of the sacramental sacrifice, the
+               Presbyter told them the story of John, the eunuch. On their wish, she<ptr type="noteAnchor" target="#n4"/> was brought
+               before them and throwing herself at their feet, her<ptr type="noteAnchor" target="#n4"/> lips murmered a prayer, <pb
+                  n="46"/> while she<ptr type="noteAnchor" target="#n5"/> was trembling from fear, that it might be known who and what
+              <ptr type="noteAnchor" target="#n6"/> she<ptr type="noteAnchor" target="#n5"/> was.</p>
+         </div>
+         <div type="p" n="29">
+            <p>Then they prayed over her, blessed her, spoke to her words of admonition and taught
+               her how to conduct herself; they gave her also a separate cell and ordered a very old
+               man in her neighbourhood: "Take John the eunuch and let him be as a son to thee and
+               take care to be his guide in the doctrine which is necessary and in the rules laid
+               down amongst us".</p>
+         </div>
+         <div type="p" n="30">
+            <p>Thereupon the old man took her with him and showed her the cell and she dwelt amongst
+               them and regulated her life as they did, in good work and labour. ----Thus far about
+               her departing and arriving in the desert. ----</p>
+         </div>
+         <div type="p" n="31">
+            <p>As to the governess which had served her while being in the royal palace, when the
+               days had passed during which Hilaria had forbidden her to enter, she went to her
+               service and saw that Hilaria was gone and that her royal garments were put aside in a
+               corner of the apartment she at once understood that Hilaria had gone to devote
+               herself to the service of God, and that therefore she had wanted the coat of hair and
+               the capuchin.</p>
+         </div>
+         <div type="p" n="32">
+            <p>Weeping and crying she went to the queen and told her what had happened but she
+               revealed nothing about the rule of her food and her [rare] visits to her; for she was
+               afraid of being endangered, because she had not told them the secret.</p>
+         </div>
+         <div type="p" n="33">
+            <p>The king and the queen, being troubled by what they had heard, went to the apartment,
+               and seeing that <pb n="47"/> their daughter Hilaria had gone, they were in great
+               sorrow and grief.</p>
+         </div>
+         <div type="p" n="34">
+            <p>The king wept, sobbing in a loud voice, and thus lamented: "Woe, my beloved daughter.
+               Who hath severed thee from me? How can I live without thee, support of my old age,
+               crown on my head? Now may death hasten to me and take from me the trouble that never
+               can be consoled away".</p>
+         </div>
+         <div type="p" n="35">
+            <p>When the nobles of the king heard what had happened, they came to lament with him. At
+               once they sent messengers in all directions to ask and to seek. The convents were
+               also examined but she was not found. After a few days the king recovered from his
+               trouble, because he was certain that she had gone to devote herself to God.</p>
+         </div>
+         <div type="p" n="36">
+            <p>And Hilaria, being in the desert of Skete, was going through great struggles and
+               performing works of self-denial above human strength, in many vigils and long
+               fasting, so that even the solitaries wondered at her endurance and patience.</p>
+         </div>
+         <div type="p" n="37">
+            <p>And she was praiseworthy and great in the eyes of all people of her class, because of
+               her great humility and her placidity and meekness.</p>
+         </div>
+         <div type="p" n="38">
+            <p>When she had passed ten years in the desert, another daughter was born to her father
+               the king. When this girl was five years of age, she was tried by the Evil-one. And as
+               the Devil attacked her vehemently, her father said to himself: "There is no hope of
+               healing my daughter, except by the prayers of the solitaries in Skete, who are very
+               near to God and are allowed to speak to Him."<ptr type="noteAnchor" target="#n7"/></p>
+         </div>
+         <pb n="48"/>
+         <div type="p" n="39">
+            <p>Thus he resolved in his mind and prepared for her departing. He ordered a trustworthy
+               man, one of his relatives, and he and an escort of soldiers took her, went on their
+               way and reached the desert.</p>
+         </div>
+         <div type="p" n="40">
+            <p>The solitaries had heard of this and many of them had departed, lest they should be
+               seen by the soldiers and the other persons. John the eunuch too had hid himself,
+               without knowing the case exactly.</p>
+         </div>
+         <div type="p" n="41">
+            <p>When the messengers of the king arrived, they told the monks about his belief and his
+               hope on them and explained the reason of their coming. They left the girl with them
+               and returned to the king without delay.</p>
+         </div>
+         <div type="p" n="42">
+            <p>On the next day the solitaries returned to their places and discussed to whom they
+               should entrust the little girl. They choosed John the eunuch because he was a eunuch
+               and advanced in holiness. Thereupon they sent for him and said to him: "The Fathers
+               have discussed with whom the girl should be; and all of them agreed upon giving her
+               to thee, be thou her support and teacher".</p>
+         </div>
+         <div type="p" n="43">
+            <p>Being forced thus he obeyed their will and took the girl to his cell.</p>
+         </div>
+         <div type="p" n="44">
+            <p>One time Hilaria asked the girl: "Answer, my sister, what I ask thee. What is the
+               name of thy father, and what is the name of thy mother?" The girl said: "My father is
+               called Zeno, my mother Augusta". She asked again: "Have they a son or daughter
+               besides thee?" The girl answered: "I have no brother or sister at all, but as I have
+               heard of my mother, who told it me weeping, before my birth they had another
+               daughter, named Hilaria. But she went away from them secretely and nobody knoweth
+               what became of her. They sought her industriously but she was not found".</p>
+         </div>
+         <pb n="49"/>
+         <div type="p" n="45">
+            <p>When she heard this from her, she knew certainly that the girl was her sister, the
+               daughter of the parents who had borne herself and with the fervour of a love not to
+               be checked, she embraced her, the tears dropping from her eyes, on account of the
+               girl's saying: "My mother told me weeping, that they had another daughter before me,
+               who went away from them secretly".</p>
+         </div>
+         <div type="p" n="46">
+            <p>When the girl had passed five years with Hilaria, she got recovery from the Lord and
+               became excellent in wisdom and knowledge. She was also distinguished by humbleness
+               and chastity, because Hilaria had taken great care to adorn her with all praiseworthy
+               qualities.</p>
+         </div>
+         <div type="p" n="47">
+            <p>So, when the messengers of the king, whom he used to send in order to get tidings of
+               the girl, came, the Fathers sent her with them to her father. After her arrival, he
+               noticed during his intercourse with her, that she excelled in wisdom and good works,
+               and that she had got spiritual as well as bodily aid, being freed from the influence
+               of the Evil one. So he rejoiced greatly and thanked and praised God.</p>
+         </div>
+         <div type="p" n="48">
+            <p>He asked her: "My daughter, who was it to whom thou wast entrusted and with whom thou
+               hast been? And how was he treating thee? For I will reward him with becoming signs of
+               honour". The girl answered plainly: "When I was sent by thy majesty and the old men
+               had taken me up, they discussed the next day to whom they should entrust me. And they
+               agreed opon giving me to a trustworthy man, whose name is John the eunuch. With him I
+               have been thenceforth and I have improved by him. He shew unto me an infinite love
+               and honoured me greatly. I have never seen him eating before my eyes, nor lying down
+               on the floor to sleep. <pb n="50"/> But when he was overcome by sleep, he would lean
+               against the wall for some time and so he took some comfort from sleep. Innumerable
+               was his kneeling down on the floor, and he ceased not praying and reciting night and
+               day. He took food only once a week".</p>
+         </div>
+         <div type="p" n="49">
+            <p>When the king heard this, he was grieved and he took up evil suspicions against John
+               the eunuch, thinking that he was no eunuch. Being anxious to examine the matter
+               exactly and to be relieved from his care, he sent for John and about ten of the other
+               old men. Here Providence was already at work, in order to make known who John was and
+               that he might be a good example to the glory of God.</p>
+         </div>
+         <div type="p" n="50">
+            <p>When John and his companions had arrived, he lodged them in a quiet place as was
+               becoming to their habit. But he took John and introduced him separately into the
+               palace and held with him many discourses.</p>
+         </div>
+         <div type="p" n="51">
+            <p>Hilaria had a cowl covering her face lest her father should recognise her. While she
+               spoke to him words of admonition an unchecked stream of tears flowed from her eyes,
+               on seeing her father and mother and her sister that was healed. But the king thought
+               that her tears came from repentance. Sometime afterwards, the king said to her: "I
+               have heard of the beautiful things thou art working and of the good thou hast wrought
+               towards my daughter and that she hath received healing from the Lord by thy hands. I
+               have called and forced thee to come towards me, that I may be deemed worthy of seeing
+               thee and being helped by thy prayers and that my house may be blessed by thy
+               footsteps. But I wish to hear from thee who thou art and from where thou earnest to
+               the desert, and what <pb n="51"/> thy sex is". She answered: "Why askest thou me
+               about this, the poorest and most miserable of all children of man? But, now that thou
+               wilt know it, I say: as to my class I am a slave and as to my sex a eunuch. My lord
+               freed me when dying; and being my own master I sought God, the true Lord, above all;
+               Him I loved and to his service I devoted myself. Above all places, I have chosen the
+               dwelling in the desert in order to receive support from the Saints there, by whose
+               prayers I have had the joy of healing the girl".</p>
+         </div>
+         <div type="p" n="52">
+            <p>When the king had interrogated her circumstantially and revealed the trouble of his
+               thoughts and the doubts of his heart, she resolved to relieve him from his cares and
+               from the thoughts which were making a pernicious war against his soul. For she pitied
+               him as a good father and a just king. She said to him: "I will reveal to thee a
+               secret. But swear to me first by the Lord, that thou shalt accomplish my will in all
+               things 1 ask and that thou shalt not oppose me in any thing I wish and that this
+               secret shall not be revealed to any one besides the queen and the girl".</p>
+         </div>
+         <div type="p" n="53">
+            <p>When Hilaria had said this to the king, the tears flowed unchecked from her eyes and
+               she was choked by sobbing. The king swore to her plainly, without thinking of who she
+               might be, for her face was invisible by the cowl which covered it and her speech was
+               altered<ptr type="noteAnchor" target="#n8"/> by reciting in the Egyptian language; and, besides, twenty years had
+               elapsed since she left them, and he thought that she had already died.</p>
+         </div>
+         <div type="p" n="54">
+            <p>When she saw that the king had given his assurance <pb n="52"/> by his oath, she took
+               them with her to an inner apartment, took the capuchin off, uncovered her face,
+               showed herself to him and said: "I am whom thou seest, Hilaria, the poor, thy
+               daughter whom thou knowest".</p>
+         </div>
+         <div type="p" n="55">
+            <p>When the king and the queen heard the name Hilaria, they were disturbed and they
+               swooned and fell down on the floor and were as dead.</p>
+         </div>
+         <div type="p" n="56">
+            <p>When Hilaria saw what happened and that her parents were near dying, she took water
+               and signed them with the cross, and sprinkled it on their faces, so that they revived
+               and rose. The king weeped vehemently and they were in great sorrow and scarcely could
+               check their crying and weeping. Then the king and the queen threw themselves at her
+               and kissed her eyes and her hands.</p>
+         </div>
+         <div type="p" n="57">
+            <p>Some time afterwards the king, having recovered from his weeping, said to her:
+               "Hilaria, my beloved daughter, it is a great thing to me, to have seen to-day in
+               thee, that an offspring pleasing to God cometh forth from me and that I may give to
+               God a daughter who is accepted by Him. If thou wouldst only show me this kindness".
+               Hilaria said: "What wishest thou?" The king said: "I have sworn the oath, and thy
+               will shall be accomplished wholly. Only, if thou art willing, allow me to make for
+               thee and those with thee a dwelling-place in our neighbourhood, that will be an abode
+               to thee, in the same manner as there, be it for dwelling separately or commonly, as
+               thou desirest".</p>
+         </div>
+         <div type="p" n="58">
+            <p>But Hilaria agreed not with this, speaking: "It is not well to alter the beautiful
+               institutions which have pleased to the Ancients, and to change a place which has been
+               fittingly set apart by the chosen Fathers for their rest and abode. But, if thou
+               allowest, we soon will <pb n="53"/> take leave in peace. The king submitted to her
+               will and withstood not the word of her mouth concerning all which she said to
+               him".</p>
+         </div>
+         <div type="p" n="59">
+            <p>Five days afterwards, he dismissed her and those with her. And they gave them
+               presents and signs of honour and gifts of gold and silver, and tapers and perfumes
+               and oil, and costly garments for adorning the altars and churches of the convents in
+               the desert.</p>
+         </div>
+         <div type="p" n="60">
+            <p>But Hilaria accepted not the gold and the silver saying: "Gold and silver are usually
+               not to be seen, in the desert. But we will take these other presents". Secretly she
+               said to him: "If thou wilt, we shall spend this gold and silver for works which I
+               will mention to thee. There are places in the desert, where the solitaries are
+               distressed by want of water and the large distance of it. Others are unfit for
+               dwelling, because of the absence of materials necessary for buildings. Send a
+               trustworthy man and let him dig pits and build well-secured dwelling-places and make
+               holes and hidden caves for those who wish to dwell in them secretly, not openly. This
+               will give thee the wages of righteousness".</p>
+         </div>
+         <div type="p" n="61">
+            <p>Her father said to her: "Ay, beloved mistress, I shall accomplish all according to
+               thy wish". Then she took leave and departed from the palace with weeping and crying,
+               and reached the desert of Skete, with the Fathers who were accompanying her.</p>
+         </div>
+         <div type="p" n="62">
+            <p>A few days afterwards the king sent a trustworthy man according to Hilaria's wish. He
+               gave him much money for the expenses of the buildings and for erecting well-secured
+               towers. And thus he spake to him: "Go straightway to John who is called the eunuch;
+               he will tell thee what to do, accomplish his will".</p>
+         </div>
+         <pb n="54"/>
+         <div type="p" n="63">
+            <p>When this trustworthy man arrived he did all that Hilaria told him; [he made] cells
+               and pits and caves fit for dwelling therein and high, well-secured houses.</p>
+         </div>
+         <div type="p" n="64">
+            <p>Having finished all, he went back in peace.</p>
+         </div>
+         <div type="p" n="65">
+            <p>Hilaria took up her former way of life, struggling in work and difficult tasks. Her
+               father sent continually messengers to her.</p>
+         </div>
+         <div type="p" n="66">
+            <p>So within every month he sent some one to ask about her, secretly, nobody knowing of
+               it. But this remained not concealed from the solitaries; although not knowing it
+               certainly, yet they presumed John to be a relative or an acquaintance of the king.
+               From that time they began to show her<ptr type="noteAnchor" target="#n9"/> signs of honour in the assemblies and in the
+               church. When she perceived their presumption, she began to be afraid that gradually
+               her position might become known and her labour might be lost by vain glory.</p>
+         </div>
+         <div type="p" n="67">
+            <p>So she left them secretly, while they perceived it not, and went to a more remote
+               part of the desert. She concealed herself in a suitable cave in the earth, which she
+               found according to her desire. At fixed intervals she went through the ravine, which
+               led from the bottom of her cave under the earth to the ground, and got up to take the
+               fresh air during a long time. At the mouth of the cave was a well and a little garden
+               of wild vegetables. Whenever she wanted some food she took it there, and drank from
+               the well; so she lived in the cave for ten years. The whole time of her staying in
+               the desert was thirty years. By her heavy labour she was fast decaying so that she,
+               from weakness and old age, <pb n="55"/> lay down on the bottom of her cave to perform
+               her prayer to God. At that time God exhorted three solitaries of the desert, Aba
+               Isidorus and Aba Isaie and Aba Isak, to go through the desert in order to visit the
+               solitaries. They took with them fruits and bread made of flour, garments and coats,
+               to provide and strengthen the sick and weak people with, if they should find them; or
+               if they were dead, to shroud their corpses and to bury them honourably.</p>
+         </div>
+         <div type="p" n="68">
+            <p>On their march through the desert, one day at noontime, they came near the place
+               where Hilaria was living and hearing from within the earth a sound of groaning as
+               from a sick person they wondered and investigated what it might be; so they found the
+               entrance of the ravine on the surface of the earth, but, on going down to enter it
+               they feared that that sound might come from a wild animal there. Going round they
+               perceived the garden and the well and signs of human footsteps. Then they understood
+               that a solitary must be living there. They took heart and entered the ravine and
+               reaching the bottom of the cave, they saw a light as clear as daylight, as the rays
+               of the sun. Then they looked and saw a human being lying on the ground and groaning;
+               the hair of the head was white as wool. When they had prayed and said: "Bless me my
+               Lord", she raised her eyes, perceived them, rose quickly and received them with a
+               salutation. Then they sat down and asked about her coming there, saying: "When hast
+               thou come here, Father? and from which direction hath come thy pious person?"</p>
+         </div>
+         <div type="p" n="69">
+            <p>For they presumed her to be a man.</p>
+         </div>
+         <div type="p" n="70">
+            <p>She answered them and spoke with them excellent <pb n="56"/> words. At last she said
+               to them: "My Fathers, you are sent to-day by God, in order to bury me". Then she
+               rose, and prayed. Having finished her prayer, she stretched herself on the earth and
+               entrusted her spirit to God.</p>
+         </div>
+         <div type="p" n="71">
+            <p>When the Fathers saw that she was dead they praised God and took her immediately from
+               that cave to the ground. There they performed over her the burial service and were
+               going, as was becoming, to shroud her body, presuming her to be an ascetic man like
+               others, who are beardless by great heat.<ptr type="noteAnchor" target="#n10"/> But touching her corpse outwardly, they
+               perceived it to be a woman's and, full of astonishment, they praised Christ, who
+               kindleth the fire of His Love in all mankind, men and women, old men and youths and
+               children.</p>
+         </div>
+         <div type="p" n="72">
+            <p>Then they buried her as she was, and interred her. While their lips murmured a hymn
+               of praise, they went to wash their hands in the well from which she used to drink and
+               to eat of the vegetables there in order to receive a blessing thereby. But they found
+               that well dried up and the garden withered; but in the cave</p>
+         </div>
+         <div type="p" n="73">
+            <p> where she had lived, the water rose, and went up to the surface of the earth and
+               streamed there. Then they praised still more on account of a wonder, the like of
+               which they had neither seen nor heard.</p>
+         </div>
+         <div type="p" n="74">
+            <p>They stayed there three days, entreating God and saying: "O Lord, show thy servants
+               who thy servant was and from where she came".</p>
+         </div>
+         <div type="p" n="75">
+            <p>When the days of death were over, in a divine revelation, there was said to them:
+               "Make a memorial-day for the odour<ptr type="noteAnchor" target="#n11"/> which was accepted by God, three <pb n="57"/>
+               days before, which belongeth to Hilaria, the daughter of king Zeno, who, while
+               dwelling amongst you before, was called John the eunuch". Three days afterwards they
+               departed and went and told the Fathers what they had seen.</p>
+         </div>
+         <div type="p" n="76">
+            <p>This is the Life and holy works of Hilaria. We, chaste brethren and faithful sisters,
+               being envious of the works of the Saints, must imitate their beautiful deeds and
+               perform good works, that we may attain life everlasting, of which we may be deemed
+               worthy by the Grace and Love of Christ. To Him be praise with His Father and the Holy
+               Spirit for ever and ever. Amen.</p>
+         </div>
+         <div type="p" n="77">
+            <p>Here endeth the story of Hilaria, the daughter of king Zeno, who left the house of
+               her parents secretly and led an ascetic life in the desert of Egypt.</p>
+         </div>
+         <noteGrp>
+            <desc>[Footnotes renumbered and moved to the end]</desc>
+            <note xml:id="n1">1) Parrhsi/a .</note>
+            <note xml:id="n2">1) Litt, his prayer.</note>
+            <note xml:id="n3">1) i. e. Byzantine. </note>
+            <note xml:id="n4">2) The MS. has the masculine.</note>
+            <note xml:id="n5">1) The MS. has the masculine. </note>
+            <note xml:id="n6"> 2) I. e. her sex.</note>
+            <note xml:id="n7">1) Litt.: Who have parrhsi/a.</note>
+            <note xml:id="n8">1) According to a correction of the text.</note>
+            <note xml:id="n9">1) MS. "him".</note>
+            <note xml:id="n10">1) Cf. the Introduction.</note>
+            <note xml:id="n11">2) Cf. Acta Martyrum , ed. Bedjan, I, 187, 17.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
