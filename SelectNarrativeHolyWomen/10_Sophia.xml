@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="s">Sophia</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Proofreading and initial markup of persons, places, and titles by </resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#anorth">Adelaide North</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+               <bibl>
+                  <title level="a">Sophia</title>
+                  <title level="m"> Select Narratives of Holy Women from the Syro-Antiochene or
+                     Sinai Palimpsest as Written above teh Old Syriac Gospels by John the Stylite,
+                     of Beth-Mari-Qanūn in A.D. 778. </title> Translated by Anges Smith Lewis
+                  M.R.A.S. <pubPlace>London</pubPlace>
+                  <publisher>C. J. Clay and Sons</publisher>
+                  <date>1900</date>
+                  <citedRange unit="p" from="168" to="184">168-84</citedRange>
+               </bibl>
+            </p>
+            <p>This transcription renumbers the original footnotes to run sequentially and includes
+               marginal references for Biblical citations among the footnotes.</p>
+            <p>This text is in the public domain.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="168"/>
+         <milestone ed="Add.17,204" edRef="https://bl.syriac.uk/ms/866" unit="folio" n="22b col. a"/>
+         <p n="1">The Memoirs of the noble women who were crowned a in their martyrdom for our Lord,
+            of Pistis, and of Elpis, and of Agape, and of their mother Sophia in the city of
+            Rome.</p>
+         <p n="2">By the grace of God was the gospel sown abroad under the heaven throughout all the
+            earth, by Jesus Christ the Saviour of all men; that every man might believe in God the
+            Almighty: and in Jesus the Christ the Only Son, and in the Living and Holy Spirit, and
+            that every man might be drawn away from the worship of idols, and from vain error; and
+            that they might receive help for their souls by the baptism of holiness for the
+            remission of sins.</p>
+         <p n="3">And when this word was preached by the Apostles, and by all the Evangelists, all
+            regions ran joyfully and kissed the feet of the Apostles in faith. For many and noble
+            were the doctrines of the truth and by means of them we have all come to the right
+            way.</p>
+         <p n="4">And there was a certain woman of a great family of the house of Sallustius; and
+            her name was Sophia. This woman went up to the city of Rome, with her three beautiful
+            virgin-daughters; and they hoped to receive the sign of the Christ our Redeemer. And her
+            daughters had been reared in wisdom and in the grace of God. And <pb n="169"/>their
+            mother rejoiced greatly and gave glory to God, when she found His love<ptr
+               type="noteAnchor" target="#n1"/> in the heart of her daughters. And she prayed to her
+            Lord that He would send help to His <milestone unit="folio" n="149b"/>handmaidens. And
+            whilst these virgins were strengthened in the fear of God, and were constant in prayer
+            and in vigil, it was known by the mind of all men that they were shewing the life of the
+            martyrs and of the Apostles in the years of girlhood. For they went according to their
+            custom on the first day of the week to pray in the house <milestone ed="Add.17,204"
+               edRef="https://bl.syriac.uk/ms/866" unit="folio" n="23b"/>of God. And of a sudden
+            Satan disturbed the heart of Antiochus (one) of the rulers of the city; and he said in
+            the presence of the Emperor Hadrian, "A certain woman and her three daughters — whence
+            they are we know not — are teaching the women every day to worship one God, and His Son
+            Jesus the Christ, and that we should become strangers to our wives: for they touch
+            neither food nor drink, and they do not go away from these virgins: and thus they are
+            separated, that they may even wipe out the praise of our gods from the earth."</p>
+         <p n="5">And when the Emperor Hadrian heard these things he sent the guards after them; and
+            they laid hold on them, and brought them to the palace of the Emperor. And these
+            faithful women, the virgins of the Christ, went joyfully with their mother, holding each
+            other's hands, and when they had arrived at the door of the palace, all of them made the
+            sign of the cross on their breasts. And these virgins were so beautiful that none of the
+            onlookers was able to come near them and look on their faces; but <milestone
+               unit="folio" n="150a"/>they only contemplated (them) as in a mirror. And the
+               <milestone ed="Add.17,204" edRef="https://bl.syriac.uk/ms/866" unit="folio" n="24a"
+            />grace of God was also poured out upon the virgins.</p>
+         <p n="6">And when they had entered the palace and stood before the Emperor, he raised his
+            eyes to look at them and at the loveliness of their faces, because he wondered at the
+               <pb n="170"/>glory of their beauty, and at that moment he was unable to interrogate
+            them. But after a little while he came to himself, and he replied and said to their
+            mother, "Who art thou, O woman? and whence comest thou? that thou hast thus disturbed
+            all Rome? for thou hast denied the gods, the governors of the whole world. And what is
+            thy name, tell us? "</p>
+         <p n="7">She returned an answer and said, "I am a Christian."</p>
+         <p n="8">The Emperor said, "I did not ask thee this, but 'What is thy name?'"</p>
+         <p n="9">And the handmaiden of God returned an answer in truth, "The people who gave me
+            birth called my name Sophia; but the full name is 'I am a Christian,' of the stock of
+            the chiefs and nobles of the city of Italy, but the mercy of the Christ has redeemed me
+            and my daughters <milestone ed="Add.17,204" edRef="https://bl.syriac.uk/ms/866"
+               unit="folio" n="24b"/>and brought us to the city of Rome, that I may present before
+            Him the fruits which His grace has given me, and may present them with joy an offering
+            to the Lord."</p>
+         <p n="10">And when the Emperor heard these things he commanded that she and her daughters
+            should be with one of the chiefs until there should be an interrogation. And the
+            faithful woman Sophia gave counsel to her noble daughters, saying, "Hearken to your
+            mother, my beloved daughters, I reared you (in what concerns) your stature, <milestone
+               unit="folio" n="150b"/>and I taught you all letters. Now the hope for which ye look,
+            and the grace which ye love, calls you to Him. Look not at the childishness of your
+            years, nor at the superb beauty of your faces. Clothe your mind with heavenly armour,
+            and be strong with the breastplate of the Spirit, and place a crown upon your mother by
+            your endurance. Withstand the persecutors. And for your sakes, my beloved ones, my soul
+            may be purified from iniquity. For if ye go before me, and stand in the presence of the
+            Heavenly King, it will be known to all <pb n="171"/>men in the kingdom of heaven, and
+            those who please God will present me for your sakes, and I shall be with you in the life
+            that never passes away. My beloved daughters, the hidden darlings of the foster-mother,
+            and the fair nestlings of my womb, have pity on your mother who has endured pains
+            because of you: and be strong and firm before the tortures of the persecutor. Confess
+            one God, and the Lord Jesus Christ, and the Living and Holy Spirit, for He will repay
+            you with the crowns of endurance. </p>
+         <p n="11">"Hearken to me and wonder. Woe is me!"</p>
+         <p n="12">And when the mother had sowed these sayings in her daughters, they were
+            strengthened by the Holy Spirit, and were the more filled with wisdom. And the one
+            encouraged the other and filled the other with wisdom. And every hour they made (the
+            sign of) the cross of the Christ on the breasts and between the eyes; and they were
+               <milestone ed="Add.17,204" edRef="https://bl.syriac.uk/ms/866" unit="folio" n="25b"
+            />constant in prayer and intercession, and were longing to receive the crown of victory.
+            And they said to their mother in concert, "O mistress of daughters, the blessed mother
+            of us all, let not thy mind doubt concerning the <milestone unit="folio" n="151a"/>
+            faith of thine offspring.<ptr type="noteAnchor" target="#n2"/> But offer joyfully the
+            children of thy womb to God. And thou shalt behold our endurance and our confession. For
+            the Christ our Redeemer, the teaching of whose scriptures is in our minds, He who
+            beholds from Heaven, adorns us with wisdom and with faith; and gives us a response in
+            the presence of the king in judgment." And when their mother had heard the readiness of
+            their heart she said, "I gave birth to you three, my beloved daughters, listen to the
+            voice of my words: The life of this world is for a short time. May the most loving of
+            mothers strengthen your minds a little, may the kingdom of heaven be yours! and I will
+            follow you joyfully in the pride of my mind, and with the praises <pb n="172"/>of my
+            soul, and I will offer to God the perfect sacrifice of your victory."</p>
+         <p n="13">And after three days the Emperor commanded that they should bring them. And when
+            these virgins went their mother also followed them joyfully. And when they entered the
+            palace, and stood before the judgment-seat of the Emperor, he answered and said to the
+            three noble sisters, "O lovely girls! lo! I see your beauty, and I contemplate in the
+            likeness of your faces that it is not approaching to the nature of man, but it is
+            another glory, which is in its light like the brilliance of the sun. I also see your
+            stature, that ye are of very tender years. Therefore I counsel you to have mercy on the
+            old age <milestone unit="folio" n="151b"/>of your mother and on the desirable vision of
+            your appearance. Be persuaded by me, as by a father, and sacrifice to our lords, the
+            gods, and if ye hearken to my word, and offer sacrifices to the gods, ye shall be called
+            the daughters of the king. Ye shall find bliss and luxury: and ye shall have fame like
+            the daughters of the king. For the Eparchs shall enter my presence, the governors and
+            the chiefs, all the senate shall be summoned, and all the armies of my dominion, and a
+            deed of adoption shall be signed according to the law. </p>
+         <p n="14">"But if ye will not submit to me, nor hearken to my word, ye shall be delivered
+            up to bitter torments. I will fling the beauty of your faces, and the pride of your
+            limbs to the dogs. Therefore submit to my words before all these things come to pass.
+            For because ye are of a distinguished race, for this reason ye shall be called the
+            daughters of the king."</p>
+         <p n="15">The glorious virgins replied and said to the Emperor with one voice, "Thy
+            promises are very vain, and they are not necessary to the handmaidens of God. We know
+            Him who has brought us up, God the King of the worlds, the <pb n="173"/>Maker of heaven
+            and of earth, of the seas, and of the depths below, that He will receive us as beloved
+            children. For the armour of our conscience is formed from our youth and our mind is made
+            strong in hope. There is a power within us to withstand against thy devices, and to
+               <milestone unit="folio" n="152a"/> conquer all thy interrogations, and we shall enter
+            joyfully on the road to the skies,<ptr type="noteAnchor" target="#n3"/> and the door of
+            heaven will be opened before us; and we shall enter joyfully and shall worship the King,
+            the Christ. Produce therefore all thy tortures, that by the trial of our endurance the
+            longsuffering of God, and of Jesus the Christ, our Redeemer, may be made known; for He
+            will help His handmaidens in the conflict." Then the Emperor was filled with rage, and
+            called Sophia, the mother of the maidens, and said to her, "What are your daughters
+            called? tell me their names, and tell me their ages."</p>
+         <p n="16">And their mother answered, saying, "The name of my eldest daughter is Pistis,
+            twelve years old. And the name of the second is Elpis, ten years old. And the name of my
+            youngest daughter is Agape, seven years old. And these names being interpreted in
+            Aramaic, are Faith, and Hope, and Love. And the name of their mother is Sophia; which
+            being interpreted, is Wisdom." And the Emperor answered, saying to Pistis, who was the
+            eldest of the<ptr type="noteAnchor" target="#n4"/> sisters, "Sacrifice to the goddess
+            Artemis, whose interpretation is Beltis; and contemplate her appearance, for she is the
+            patroness of Beauty." And Pistis (Faith) answered, saying, "O the blindness of man's
+            mind! Shall we forsake the God who made everything by His word? and Jesus the Christ our
+            Redeemer? And shall <milestone unit="folio" n="152b"/> we worship senseless idols, and
+            speechless stones? "</p>
+         <p n="17">And when the Emperor heard these things, he com<pb n="174"/>manded that they
+            should strip her of her clothes, and should scourge her with rods until she should
+            sacrifice. And when twelve men scourged her by turns, not a scar was found on her body.
+            And when the Emperor saw that no stripes were visible on her body he commanded them to
+            cut off the fountains of her milk with the sword. But the great crowd who were standing
+            for the spectacle saw the tender age and the beauty of the maiden who received these
+            tortures; and they all wailed, weeping and saying, "These maidens have been judged
+            iniquitously. The punishments of the Emperor are bitter, and his commandments are
+            unjust" And when the breasts of the maiden had been cut off, they threw them on the
+            ground before her eyes. But the places from which they had been cut off flowed with milk
+            instead of with blood. And when all the crowd of the Romans saw these wonders, they gave
+            glory to God. And the virgin of the Christ said to him, "O judge, thy tortures are very
+            slight, and my limbs do not feel thy scourges. And even the members which have been cut
+            off from me, instead of running with blood, are fountains that flow with milk. And I
+            pray much that by means of the devices of thy imaginings I may be confirmed in the
+            knowledge of the <milestone unit="folio" n="153a"/> Christ. Hearken therefore, O unjust
+            man, O wicked disciple of Satan, for if thou hast commanded that they should disfigure
+            even the image of my face, not even thus will I be frightened, for thou wilt be punished
+            for all these things in the day of judgment. But I stand for the truth of my faith, and
+            I do not deny my Lord."</p>
+         <p n="18">Then the Emperor commanded, and they brought a gridiron of iron, and they kindled
+            a fire below it, until it was all aflame. And they brought the faithful one, and threw
+            her on the top of the gridiron. And the noble virgin was like a ship on a calm sea,
+            which the storms <pb n="175"/>do not touch. And she prayed with a loud voice, saying, "O
+            Lord the Christ! look upon the low estate of Thy handmaiden, and give me the victory
+            over the fiery flame. And preserve me spotless before Thee; may I resist the devices of
+            the persecutor."</p>
+         <p n="19">And when three days had passed away, whilst the girl was lying on the top of the
+            fire (and she never ceased praying), the Emperor commanded that the gridiron should be
+            taken away, and that a frying-pan should be set up instead of it, and that they should
+            throw oil and wax, and <milestone unit="folio" n="153b"/> pitch into the frying-pan. And
+            when they were thrown together into the frying-pan, it<ptr type="noteAnchor"
+               target="#n5"/> boiled and flamed with the burning of the fire. But the noble woman
+            looked [up] to heaven, and cried to Jesus the Son of God, and before the king had
+            commanded she threw herself into the midst of the frying-pan; and immediately the flame
+            was quieted, and the fire was quenched; and the frying-pan froze like ice; and the
+            handmaiden of God was glad there, and despised the devices of them all. For God helped
+            His handmaiden. And when the Emperor saw that she had not died with all these tortures,
+            and was not persuaded to sacrifice, he was much grieved, and meditated by what means he
+            should destroy her. And he thought that he would slay her with the sword. And when she
+            had heard that the king had commanded thus, she besought her mother joyfully to pray
+            without ceasing, that the commandment of the Emperor might be speedily fulfilled. And
+            the noble woman said to her sisters, "O beloved ones! daughters of the same womb,
+            beloved of a faithful mother! ye see Him whom our souls have confessed, and before
+               <milestone unit="folio" n="154a"/> whom we must stand. Be strong therefore in
+            witnessing for our Redeemer. For we have been brought up in the doctrine, and one mother
+            has given birth to us all. And <pb n="176"/>lo! she rejoices in the endurance of her
+            offspring to-day, and she prays that she may behold our victory. Therefore do not let us
+            make God angry, nor vex the love of our mother, who has borne pain and distress, and
+            pangs and groanings for us one by one, and we have sucked the same milk from [her]
+            sacred breasts. And we have learned wisdom and the discipline of God. And behold! by
+            grace we are drawing near to inherit eternal life. And I am going in a beautiful path;
+            and I pray that ye may come beside me by the same path, in joy and in perfect love. But
+            henceforth, O my sisters, do ye walk in the steps of your sister, that together we may
+            receive the promises of the Only Begotten, in the kingdom of heaven."</p>
+         <p n="20">And when she had finished speaking, the daughter embraced her mother, and kissed
+            her reverently, and she besought her to offer prayer on her behalf: and she did likewise
+            to her sisters. And she made herself ready for the slaughter; and stretched out her neck
+            to the sword. And her mother and her sisters encouraged her, saying, <milestone
+               unit="folio" n="154b"/>"O sister of her mother, and mistress of her sisters! approach
+            joyfully to the consummation and be not afraid of the sword. Go fearlessly on the path
+            of life, and we will walk in thy steps. We will fearlessly withstand the persecutor; and
+            we shall overcome all his devices. We will come and precede thee on the road to the
+            skies. Be praying for us, O our sister. The road on which thou hast gone is greatly to
+            be desired. Thy Lord in heaven waits for thee. Remember us also in the kingdom of
+            heaven, us thy sisters Elpis and Agape. Pray that we may see thee speedily."</p>
+         <p n="21">And again her mother said to her, "I gave thee birth, my daughter, and thou wast
+            reared upon the milk of my breasts; and I endured many distresses for thy sake. Go
+            joyfully on the everlasting road. Go, and see the heavenly <pb n="177"/>light, and
+            prepare a bright place for thy mother, and remember her who bare thee, O my
+            daughter!"</p>
+         <p n="22">And when the sword was about to fall upon the neck of the maiden, she stretched
+            out her holy hands to heaven, and prayed with a loud voice, saying, "Glory be to Thee, O
+            Lord Jesus the Christ, that Thou hast deemed Thy little handmaiden worthy to withstand
+            in the conflict of the noble ones. I beseech of Thee, O Lord, remember Thy servants and
+            Thy handmaidens, and the little ones, and the great ones, the rich and the poor.
+            Remember, also Thy handmaiden, my blessed mother, and my beloved <milestone unit="folio"
+               n="155a"/> sisters who worship Thee. Remember me also, O Lord, Thine afflicted and
+            sinful handmaiden, and receive my soul into Thy presence because I have confessed Thy
+            cross. But do not forgive the wicked man, the persecutor, the unjust Emperor. But may he
+            be requited, with indignation and with ruin, and with Thy rage and with fire in this
+            world; and receive the spirit of Thy handmaiden in peace/' And when she had finished
+            speaking, she stretched out her neck, and received the sword with joy. And she wore the
+            crown of the victors. And her mother came joyfully, and embraced the body of the noble
+            woman, and kissed her, and she praised God with a joyful heart.</p>
+         <p n="23">But the Emperor Hadrian sent for her second sister, whose name was Elpis. And he
+            counselled her, saying, "My daughter, be persuaded by me as by thy father, and worship
+            the goddess Artemis; and remain alive and do not die."</p>
+         <p n="24">And the noble woman, Elpis, answered, saying, "Thou knowest, O Emperor, that thy
+            counsels are very useless, and they do not touch the handmaid of God. For behold! thou
+            hast learnt by the interrogation that I am the sister of the blessed Pistis. And we have
+            sucked the <pb n="178"/>same milk. And we had the same training in doctrine, <milestone
+               unit="folio" n="155b"/> And we are ready to go on the one road, and henceforth do not
+            deceive thyself with many words, but do what thou hast willed to do. For I have hoped in
+            God, and He is the stay of my soul, and from Him is the crown of my victory; and my mind
+            will never swerve from beside Him, and to Him my thoughts reach."</p>
+         <p n="25">And when the Emperor had heard these things, and had seen that he was gaining
+            nothing, he commanded them to strip the girl of her clothes, and to scourge her with
+            ox-hides. And those who scourged her were changed to the number of ten men; and those
+            men striking her became tired.</p>
+         <p n="26">And her mother stood, saying, "Lord Jesus the Christ! give patience to thy
+            handmaiden as to her elder sister." And when her mother had said these things, Elpis
+            said with a loud voice, "O Lord God! before Thee I pour out my tears. Give me patience,
+            that I may receive the crown of my victory." And to the Emperor she said, "O most wicked
+            of men! what dost thou meditate concerning me? Produce thy tortures quickly, and by the
+            very proof thou shalt see who is helping me."</p>
+         <p n="27">But the Emperor meditated cunningly in a great rage <milestone unit="folio"
+               n="156a"/> as to how he should destroy her; and he commanded that she should be cast
+            upon burning coals. But when she was thrown upon the fire, she walked on the top of it.
+            But the Emperor did not see those who were helping the girl. And she raised her voice
+            and said, "O Lord! turn not Thy face away from Thy handmaiden, but grant me that I may
+            be made perfect before Thee in the endurance of my mind; and may the unjust Emperor be
+            requited with ruin, and with the worm that never fails."</p>
+         <p n="28">But when the Emperor had heard these things, he commanded that they should hang
+            her on a tree, and <pb n="179"/>destroy her with combs. And whilst the noble Elpis was
+            being combed, the flesh from her sacred limbs fell away, and was fragrant and pleasant,
+            as (with) choice scent, and she stood with a cheerful countenance. And the blessed one
+            laughed and said, "O wicked, bad man! as it appears to me as if on thee the combs are
+            descending, for I do not feel them; nor will I be persuaded to sacrifice." And he
+            commanded again that a cauldron should be put on the fire, and should be filled with wax
+            and pitch and fat and resin, and that they should kindle fire beneath it; and should
+            throw the girl into it. And when the cauldron flamed from the kindling of the fire,
+            drops from it were leaping, and they carried <milestone unit="folio" n="156b"/> the
+            maiden that they might throw her into it. And at that moment the copper was melted, and
+            it fell as wax is melted before the fire. And it burnt up all the unbelievers who were
+            standing round. And the Emperor was not softened with all these things, but when all his
+            devices were overcome, he commanded that she also should die by the sword, like her
+            sister. And when the girl heard that the decree was issued, she ran to her mother and
+            saluted her, saying, "O blessed mother, peace be to thee! and be mindful of thy daughter
+            Elpis." She ran again to the body of her holy sister and embraced and kissed her. And
+            she approached again to her youngest sister, and kissed her and embraced her, saying, u
+            My darling sister, and daughter of my beloved mother, come beside us speedily. For I
+            also am going on the road to eternity. My darling sister and daughter of the same womb,
+            and beloved of a believing mother, do not fear the tortures of the unjust man. For He
+            who has given us freedom, He will send us help. He is the Father of the truth. He is the
+            true Lord." And when she had said these things, she said again in prayer, "O Lord God,
+            hearken unto Thy <pb n="180"/><milestone unit="folio" n="157a"/>handmaiden in joy and in
+            peace." And her mother had said in the joy of her heart and in pride about the victory
+            of the girl, "My darling sweet daughter Elpis, go with joy on the road to eternity, and
+            be mindful of thy mother, for I gave thee birth." And when her mother had finished
+            saying these things to her, the blessed one bent her neck, and went away by the death of
+            the sword.</p>
+         <p n="29">But her mother rejoiced while she contemplated the crowns of her daughters, and
+            she kissed their<ptr type="noteAnchor" target="#n6"/> corpses and said, "I have sent
+            acceptable heralds before me to the House of Life."</p>
+         <p n="30">And she turned towards her youngest daughter, saying, "Agape, my daughter, the
+            most beloved of her sisters,<ptr type="noteAnchor" target="#n7"/> be strong and
+            vigorous. Behold I see two crowns prepared for thy sisters, and on the head of them both
+            the crown of thy childhood appears, and I am hoping to go on the road of thy victory.
+            And henceforth be thou strong in the name of our Lord Jesus the Christ."</p>
+         <p n="31">Then the tyrant called the girl Agape, and interrogated her with words. And the
+            noble woman returned an answer, saying, "O wicked man and tyrant! dost thou not know
+            that I am the sister of these two who withstood thee in the struggle, and received the
+            faith and the crown of <milestone unit="folio" n="157b"/> victory? For one father and
+            one mother gave birth to the three; and we sucked one milk equally. We were educated in
+            letters and in wisdom, and we increased in glorious knowledge. And because of this it is
+            fitting that we should conquer together in the struggle." And when the mother had heard
+            these things she said, a Thou hast well spoken, my daughter. Be strong, and resist with
+            vigour. And gird thy loins with the confession of the Most High." And when the
+               Emperor<ptr type="noteAnchor" target="#n8"/> had heard these <pb n="181"/>things, he
+            was filled with a great rage. And he roared like a lion for the prey. And he was
+            altogether merciless. And he commanded that she should be stretched out with rods, and
+            that the combs should be brought close to her body, that while they were dripping and
+            tearing from all sides the limbs of the girl should be torn; but the damsel did not feel
+            the combs, but her eyes were strained towards heaven.</p>
+         <p n="32">And he commanded again that after the combs they should scourge her with rods.
+            And whilst the girl was being beaten,<ptr type="noteAnchor" target="#n9"/> she said, "O
+            tyrant Emperor, why dost thou tire (thyself) uselessly? for I do not feel thy tortures."
+            And when the Emperor heard (this) he commanded them to loose her, and prepare a fiery
+            furnace, that she <milestone unit="folio" n="158a"/> might be flung into it. And when
+            the furnace had been kindled for three days, it glowed more than the light of brass by
+            its flame. And when the Emperor came to the furnace, and saw that it was kindled, he
+            commanded them to bring the girl. And she came and stood before him, and he answered and
+            said to her, "I request thee to say one sentence, ' Great is the goddess Artemis.' And
+            when thou shalt have thus spoken, thou shalt speedily escape from this distress."</p>
+         <p n="33">The noble one answered and said, "O senseless fool and ignorant dunce! what dost
+            thou chatter about? for because thou hast cut off thy hope from life dost thou make
+            these promises?" And the Emperor, in a great rage, commanded that she should be flung
+            into the fiery furnace. And before they had seized her, she entered the furnace
+            joyfully. And in that very hour the fire flew out from the furnace to the length and the
+            breadth of sixty cubits; and the worshippers of idols, six thousand, died of the flames.
+            But the faithful one walked inside the <pb n="182"/>furnace, and praised God, saying, "I
+            extol Thee, O Lord! the preserver and saviour of Thy<ptr type="noteAnchor" target="#n10"
+            /> handmaidens, take pity upon me, according to Thy mercy, and deliver me from the hand
+            of the slayer." And when the Emperor heard these things, he was again filled with a
+            great rage. But the flame escaped from the furnace, and burnt up his body, and flung him
+            upon the earth; and the life hardly <milestone unit="folio" n="158b"/> remained in him;
+            and it was dashed about greatly by the burning. And he sent the guards after the noble
+            woman, that they might bring her again before him. And when they arrived at the door of
+            the furnace, they saw three men within it, whose raiment was like snow, the light of
+            their faces was like the radiance of the sun, the hair of their heads was like gold; and
+            they walked with Agape in the midst of the furnace. And these guards fell down on their
+            faces from fright: and in their distress they said to the noble one, "Come out from the
+            furnace, for behold! the Emperor wants thee." Agape came out, and went and stood before
+            the judgment-seat. And he commanded that they should heat an auger in the fire, and
+            pierce the body of the faithful one with it. And when the wicked man saw that she
+            despised the many tortures, and contemned the afflictions, and overcame the fire by
+            prayer, he commanded that she should die by the sword. The noble one opened her mouth
+            and said, "O Lord Jesus the Christ! I thank Thee and I praise Thee, that thou hast
+            deemed me worthy of the victory of noble men, with my two sisters; and hast called me to
+            the delight of Paradise. And now I beseech Thee, O Lord! remember <milestone
+               unit="folio" n="159a"/> Thy people who worship Thee. Remember also the faithful
+            Sophia, my mother, who has stood before Thee with joy, and has served Thee splendidly,
+            and on account of that make her worthy to remain three days in the world, <pb n="183"
+            />and when she has made a memorial to her daughters on the third day, may she also be
+            crowned with her daughters, and be buried beside us victoriously. And when Thou shalt do
+            this, O Lord! we three sisters will praise Thee, and the faithful mother, and we shall
+            be a memorial to Thy name for ever."</p>
+         <p n="34">And Sophia prayed to God, and said to Agape, "My most beloved daughter, go with
+            joy in the path of Thy Lord. For I pray for this, that I may offer three virgin crowns
+            an offering to the Lord; and may be remembered by my daughters in the kingdom of heaven.
+            For lo! I see thy crown which is perfect in the host of the noble ones/'</p>
+         <p n="35">And when her mother had finished saying these things to her, the noble woman
+            stretched out her neck, and received the sword with joy.</p>
+         <p n="36">And her mother Sophia embraced and kissed the bodies of her three daughters, and
+            clothed [them] splendidly, and she yoked a carriage and placed her daughters upon it,
+            and she went out of the city to a certain place that is eighteen miles from the city.
+            And she placed the bodies of her virgin daughters there in a high place carefully; in
+            the holy temple of their victory. And on the third day she went out to the cemetery that
+            she might carry spices according to the custom. And all the free women of <milestone
+               unit="folio" n="159b"/> Rome went out with her, and also a great crowd of men and of
+            women. And she poured out spice on the bodies of her daughters, and made a great
+            commemoration according to the custom. And when all the crowd were standing, she offered
+            a prayer, with sobs to God.</p>
+         <p n="37">And when she had finished praying, she stood before the bier of her daughters.
+            She opened her mouth and said, "My beloved daughters, I also am going with you, and I
+            shall be worthy of the crowns of your promises."</p>
+         <p n="38">And when she had said these things, in that same hour <pb n="184"/>she committed
+            her soul to God, and slept the sleep of rest. And the rich women who were near, placed
+            the blessed Sophia in the coffin of her noble daughters. And they went together to the
+            Lord, and inherited life eternal.</p>
+         <p n="39">Hadrian the unjust Emperor perished with many pangs. For the pupils of his eyes
+            fell out, and the flesh perished from his bones. His legs were cut up by worms, and his
+            hands from his joints, matter came out of his mouth, and he was altogether ruined. He
+            cried with a loud voice, saying, "O Lord God, who didst help the three <milestone
+               unit="folio" n="160a"/>maidens and their mother, take my soul from me. For I know
+            certainly that I bear this because of these three lives." And when he had said these
+            things, he wailed with a loud voice, and burst in twain. His flesh was scattered from
+            him, and his bones were not found. And this happened to him by prophecy, for his
+            wickedness.</p>
+         <p n="40">Here endeth the martyrdom of Sophia, and of her three daughters.</p>
+         <noteGrp>
+            <note xml:id="n1">1 Literally "the love of God."</note>
+            <note xml:id="n2">1 Literally "fruit."</note>
+            <note xml:id="n3">1 Literally "the height."</note>
+            <note xml:id="n4">2 MS. "her."</note>
+            <note xml:id="n5">1 Literally "the frying-pan."</note>
+            <note xml:id="n6">1 Literally, "the corpses of her daughters."</note>
+            <note xml:id="n7">2 sic in Cod.</note>
+            <note xml:id="n8">3 MS. "he."</note>
+            <note xml:id="n9">1 Literally "swallowing them."</note>
+            <note xml:id="n10">1 Literally, "His."</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
