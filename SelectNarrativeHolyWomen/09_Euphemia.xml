@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="s">Euphemia</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
+            <respStmt>
+               <resp>Data architecture and encoding by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                  >Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Proofreading and initial markup of persons, places, and titles by </resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#anorth">Adelaide North</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+               <bibl>
+                  <title level="a">Euphemia</title>
+                  <title level="m"> Select Narratives of Holy Women from the Syro-Antiochene or
+                     Sinai Palimpsest as Written above teh Old Syriac Gospels by John the Stylite,
+                     of Beth-Mari-Qanūn in A.D. 778. </title> Translated by Anges Smith Lewis
+                  M.R.A.S. <pubPlace>London</pubPlace>
+                  <publisher>C. J. Clay and Sons</publisher>
+                  <date>1900</date>
+                  <citedRange unit="p" from="149" to="167">149-67</citedRange>
+               </bibl>
+            </p>
+            <p>This transcription renumbers the original footnotes to run sequentially and includes
+               marginal references for Biblical citations among the footnotes.</p>
+            <p>This text is in the public domain.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="149"/>
+         <p n="1">Again, the martyrdom of the blessed Euphemia, which took place a mile from the
+            town of Chalcedon, in the days of the Emperor Trajan Caesar.</p>
+         <p n="2">When Priscus was Proconsul in Europe, there was a great assembly of Christians in
+            the town of Chalcedon. And Priscus the Proconsul had a wicked friend, whose name was
+            Apellianus. And he was a sophist in the <milestone unit="folio" n="138a"/> erudition of
+            the Greeks. He was a worshipper of Ares. This Apellianus accused the Christians, saying,
+            "O glorious warrior amongst men, and Proconsul wise of heart! let this be known to thy
+            Highness. Because Ares is a great god, so all men should offer sacrifices and libations
+            to him<ptr type="noteAnchor" target="#n1"/> by command of the great Emperor/' And this
+            pleased Priscus the Proconsul for the destruction and evil of the souls of those who
+            were enchained in error. And he nailed up placards full of menaces and fierce threats in
+            all the palace of his Highness, which were inscribed after this manner: "Men and
+            friends, citizens of Chalcedon, be it known to you all that it is proper for you to
+            hallow a day, that by command of the Emperor there may be offered a sacrifice to the
+            great god Ares. But if any one should be found who remains in an evil mind, and preaches
+            and teaches the religion of the Christians, I will destroy his body by severe tortures.
+            And let this be the sign to you. When at the time of the sacrifices the horn shall sound
+               <pb n="150"/>which assembles you all, ye shall all hasten reverently [and] eagerly to
+            this temple of Ares and offer sacrifices, and know the great god Ares/' And every day
+            Apellianus was assidious, that at the time that the horns should sound, and they should
+            move tumultuously before the altar, as was their custom, an investigation should be made
+            about every <milestone unit="folio" n="138b"/> man as to who had the greatest zeal. And
+            he who blew<ptr type="noteAnchor" target="#n2"/> on the horn blew mightily, and
+            collected all who had lost hope. But the Christians, those in whose souls God dwelt,
+            were all assembled in one house, and they besought God by prayer and entreaty. And the
+            blessed Euphemia was also constantly amongst them, she being the daughter of the senator
+            Philophron. And Drusina her mother was with her. And she was a believer, and did much
+            almsgiving, because she was looking for the hope and the promise of the Christ.
+            Therefore Apellianus, being of the household of Satan, said to the Proconsul: "There are
+            people here who shut themselves up in a single house, who are not willing to obey the
+            commandment of the Emperor, nor the commandment of thy Highness. And if thou shouldst
+            overlook it now, many will turn from the great reverence for the gods, and will go and
+            join themselves to them, and will scatter and disperse our sacrifice with derision." And
+            when the Proconsul had heard this, he commanded them to come into his presence. And when
+            these blessed ones came, Euphemia came in the midst of them with a joyful countenance
+            and in chaste attire, more than all those who were with her, while she illuminated by
+            her splendour the faces of those who contemplated her.</p>
+         <milestone unit="folio" n="139a"/>
+         <p n="3">And when they came and stood before the judgment seat of the Proconsul, he<ptr
+               type="noteAnchor" target="#n3"/> answered and said to them: "Let all of you be
+            submissive and obedient to the com<pb n="151"/>mandment of the Emperor, and sacrifice to
+            the great god Ares."</p>
+         <p n="4">But they all together replied with one voice [and] with the blessed Euphemia,
+            saying, "Be this known unto thee, O Proconsul. We are the servants of the Eternal God,
+            the great King who dwells in the heaven of heavens, and of His true Son, our Lord Jesus
+            the Christ, and of the Holy Spirit. He who hath stretched out the heaven and hath
+            established the earth; and hath created all works. Him we all worship, being eager to
+            offer ourselves to Him in the sacrifice which is pleasing to Him."</p>
+         <p n="5">But when Priscus the Proconsul heard [this] he said to them, "I am astonished at
+            each one of you. And I honour the prudence of your mind. Because I have more knowledge;
+            and I see the loveliness of you all. Therefore be persuaded by me, and obey the Emperor.
+            And take delight in the sacrifice of the gods; so that ye may have greater friendship
+            from me; and that the Emperor may take knowledge of you; and that ye may have greater
+            rank and office."</p>
+         <p n="6">But when these brave men heard these things, they abated nothing of the splendour
+            which suffused their faces; but the more were they exalted to the excellencies of the
+            knowledge of God. And whilst the blessed Euphemia <milestone unit="folio" n="139b"/> was
+            with them, and they were all assembled together in the likeness of a host of angels,
+            they said to the Proconsul, "We, O Proconsul! are the servants of the Most High God; and
+            we are eager that we may be known by Him in the faith which He has delivered to us; and
+            that we may receive His promise which says: 'O good and faithful servant, thou hast been
+            faithful over a little, behold, I set thee over much.'<ptr type="noteAnchor"
+               target="#n4"/> And also to thee O Proconsul! does it not escape thee, that each one
+            of those who have temporal authority is eager to please him who has given him <pb
+               n="152"/>the authority, that by means of it he may find higher degrees? If therefore
+            it be that those who are mortal and corruptible, are subject unto mortal and corruptible
+            kings, because they receive and seek for transient and unprofitable degrees, how much
+            more should we keep the covenant, which we have made with God, who is incorruptible, and
+            we expect to inherit the promises in His presence, those which endure for ever, which
+            are incorruptible and inalienable. Do therefore what thou wilt, for we are ready because
+            of the expectation of the heavenly promises to give ourselves over readily to death; and
+            we shall receive the treasures that are being kept for us in the presence of God
+            Almighty."</p>
+         <p n="7">And when Priscus the Proconsul heard these things he <milestone unit="folio"
+               n="140a"/> changed his countenance; and commanded that each of them should be
+            tortured with hard and bitter torments. And while these blessed ones were being tortured
+            daily, they endured all the torments for the sake of the Christ, those heroes exulting
+            with joy and encouraging each other to resist bravely in the struggle. And they
+            encouraged the blessed and brave Euphemia that she might attain joyfully to the
+            coronation of her confession of the Christ. And they said to her, "O brave and
+            persevering one! adorn thyself with thy faith, and be courageous in thy sound mind. And
+            like a wise woman who has put on the Christ, receive the victory with all the fathers,
+            whilst thou holdest an unquenchable lamp. Be fortunate in being numbered with the five
+            virgins, those who carried their lamps with joy before the bridegroom, He who will
+            return a full reward in the kingdom of heaven." And when the nineteen days of the labour
+            of the conflict of the blessed martyrs were fulfilled, and they were in the prison
+            nourished by the Holy Spirit; on the twentieth day an idea occurred to Priscus the
+            Proconsul, suggested by the <pb n="153"/>wicked Apellianus, whose mind was also like his
+            name. And he prepared himself for the interrogation of the blessed martyrs. And whilst
+            he was sitting on his judgment seat, he commanded and they called the noble ones, whilst
+            the blessed Euphemia was in the midst of them like a lamp. And the Proconsul asked them,
+            saying, "Tell me, O young men! Have ye felt these tortures and will ye be persuaded to
+            sacrifice to the great god Ares ?" And they said to the judge as with one voice with the
+            noble Euphemia: "How <milestone unit="folio" n="140b"/> long, O Proconsul! art thou
+            possessed by vanity? when wilt thou not turn from the error which has taken hold of
+            thee? that thou mayest know God thy Creator."</p>
+         <p n="8">Then Priscus commanded those soldiers of Satan to strike the blessed ones on their
+            cheeks and say to them, "Be persuaded and sacrifice to the great God Ares." And the
+            soldiers did<ptr type="noteAnchor" target="#n5"/> as they were commanded. And when they
+            had struck those blessed ones on their cheeks, their faces shone all the more; and those
+            soldiers were powerless, and left off beating the blessed ones, and became as dead
+            people.</p>
+         <p n="9">And Apellianus, who was of the household of Satan, he who was perfect in the idea
+            of the devil's error, said to the Proconsul, "Pronounce the condemnation of these
+            people, and send them to the Emperor/' And this speech pleased the Proconsul and all his
+            companions. And he commanded that they should be cast into the prison-house, and should
+            be kept carefully until it should be the will of the Proconsul that they should be sent
+            to the Emperor. And the number of them all w r as forty-nine. And the blessed Euphemia
+            was with them also. And when they had come into the prison-house, Sudrinus the disturber
+            and robber came like a thief and like a wolf who fell upon the flock, and snatched away
+            the bravest and strongest of heart, <pb n="154"/>Euphemia alone, imagining that he would
+            find her like a loosened garment. But the beloved of the Christ was covered with joy,
+            and she raised her eyes to heaven <milestone unit="folio" n="141a"/> saying, "My Lord
+            and my God, Jesus the Christ, Thou art my hope, and let not the work of Thy handmaiden
+            who is before Thee perish."</p>
+         <p n="10">And when Priscus heard [it] he said to her, "Honour thyself and know the
+            splendour of thy race. And do not thyself destroy thyself: But thou hast been seduced by
+            false words like a woman. Turn now and sacrifice to the great god Ares." But the noble
+            and pure woman said, "The strength of athleticism is not weakened by the weak nature of
+            a woman; but by the preservation of the body the defects of sickness are filled up, for
+            by my nature I stand like a man, that I may be worthy to receive the promises of my
+            fathers."</p>
+         <p n="11">And Priscus the Proconsul was troubled in his mind that he was overcome by a
+            woman. And he commanded that a machine should be arranged on wheels, and that the
+            blessed one should be thrown amongst them; so that whilst she was stretched out on the
+            machine, and was crushed by it, she should quickly give up the ghost. But when she was
+            thrown amongst the wheels, she marked the sign of the Christ in the shape of a cross on
+            her breast, saying, "O chief of iniquity! how many torments has the enemy of truth
+            poured out in Priscus the murderer? Behold! he sits in accusation and imagines the art
+            of the devil, celebrating the mysteries of his father Satan, as the enemy of the truth.
+            O doer of evil and deceitful man! The torments of thine art do not touch the limbs of my
+            soul; because I have the Christ helping me. And <milestone unit="folio" n="141b"/> I
+            hope that by means of great and sore tortures I may show to all men the endurance of the
+            struggle whilst I am worshipping."</p>
+         <pb n="155"/>
+         <p n="12">And when the blessed Euphemia said these things, those soldiers of wickedness
+            turned the wheels upon her. And whilst every one of her limbs was broken with the
+            crushing of the wheels, the health of her soul was longing and was offering thanks to
+            God, saying, "Let Thy goodness and the light of Thy truth be with me. Thou who hidest
+            with Thyself<ptr type="noteAnchor" target="#n6"/> those who call upon Thee<ptr
+               type="noteAnchor" target="#n7"/> in truth, turn to Thy weak and stricken handmaiden
+            and save me from this abyss of that wicked and bad and devilish one, and from the threat
+            of Priscus, this hater of good things."</p>
+         <p n="13">And when she had said these things, immediately an angel of the Lord descended
+            from Heaven and broke these wheeled machines, and dislocated the limbs of these
+            soldiers, so that they were supposed to be other people from their appearance. And the
+            blessed and victorious one emerged without a single stain. And her cheerfulness was seen
+            in the presence of all men. And the Proconsul said, "By the victorious fortune of the
+            Emperor, and by the good-will of the gods towards us, I swear that if thou dost not
+            sacrifice to the great god Ares, I will destroy all thy body with fire; and thy God
+            shall not help thee, He whom thou dost hope to serve." But the blessed Euphemia answered
+            and said unto him, "This fire with which thou threatenest me, is one which fills up a
+            moment in burning and is immediately quenched. But I <milestone unit="folio" n="142a"/>
+            am not weak enough to fear thy threats." Then the blessed one answered again and said to
+            Priscus: "Have not these noble champions been thrown into prison for the love of the
+            Christ by thy wicked command? I fear not thy fire, because the Christ is with me. He it
+            is who helps me. But I trample upon thy threats."</p>
+         <p n="14">And the Proconsul wondered and was astonished at her; and he commanded that the
+            furnace should be kindled <pb n="156"/>until it should shoot up flames of fire to about
+            forty-five cubits with great strength; and that other soldiers should bring Euphemia.
+            And when they had brought her, she stood up resplendent, with a cheerful countenance and
+            a whole body and said, "Blessed art thou, O God, who dwellest on high, and beholdest in
+            the depth; Thou<ptr type="noteAnchor" target="#n8"/> whom the angels praise, and the
+            archangels worship. I the little, lowly woman supplicate before Thee, because I am
+            persuaded by the excellence of Thy grace, and I seal myself with Thy victorious name;
+            that I may find the redemption of Thy Christ. Thou art He who didst manifest and send
+            Thine angel to the three children in the <milestone unit="folio" n="142b"/> furnace. And
+            Thou didst scatter from them the strength of the great flames, and didst change the
+            threatening of the Babylonians to peace. Show also to my humility the help that is from
+            Thyself, and deliver me from the mouth of this cruel lion; and from the net of this
+            wicked hunter, and from the threatening of Priscus this Proconsul. For Thy name is
+            glorious and holy for ever."</p>
+         <p n="15">And when she had said these things, the Proconsul commanded those soldiers to
+            bind her and to throw her into the fire. And the soldiers bound her carefully. And they
+            laid hold of the blessed one. But one of the soldiers whose name was Sosthenes, whilst
+            he was holding his girdle in his hand, approached the Proconsul and said to him,
+            "Command, O Proconsul, that I be bound with this girdle. For I am not able to stretch
+            out my hand against this blessed one. For behold! I see before my eyes great hosts
+            carrying lamps of light, and looking out for when they may receive her."</p>
+         <p n="16">And Victor, a soldier who had turned to the knowledge of the truth and had
+            loosened the chains of the blessed one from her, when he said to the Proconsul, "I
+            implore of <pb n="157"/>thee, O Proconsul, to absolve me from the commandment of thy
+            violence; for it is hard for me to stretch forth my hands against this holy one. For
+            behold! I have seen on the edge of the furnace men who were standing and <milestone
+               unit="folio" n="143a"/> scattering the fire and watching that this blessed one should
+            be kept without a blemish."</p>
+         <p n="17">And the Proconsul commanded that those ones should be guarded, and that other
+            soldiers should stand up. But one came whose name was Caesar, and another, Barbessus,
+            and they caught up the blessed one, and flung her into the fire. And immediately the
+            servants of the Only Son of God received her, the angels holding lamps of the light of
+            peace. And they extinguished the flame of the fire. And that fire turned upon the
+            soldier whose name was Caesar, and devoured him. And after the fire had devoured Caesar
+            the soldier of the Proconsul, the blessed one stood up in the midst of the furnace, as
+            in a beautiful temple of great glory. And she saw the Christ our glorious Lord; and she
+            stretched out her hands towards Him and said, "Blessed art Thou, O Lord God of my
+            fathers, who in Thy gracious and passionless Divinity hast not neglected Thy lowly
+            handmaiden, and hast extended and exalted Thy true name in every place: and hast
+            established the splendour of Thy faith. And hast chased away the tempest of wickedness;
+            and hast illuminated and increased Thy righteousness by me. And in uprightness by Thy
+            Holy Spirit Thou hast charmed away from us the cursed serpent, and by the skilfulness of
+            Thy many miracles Thou hast crowned those who put their trust in Thee. Grant to me that
+            by Thy will I may triumph in Thy presence; and that I may be worthy to be numbered with
+            those who worship Thee in truth."</p>
+         <p n="18">And when she had said these things, she went out from the furnace unhurt; being
+            commended to those of the <pb n="158"/>soldiers who believed in the Christ; the King of
+            truth, <milestone unit="folio" n="143b"/> And the Proconsul commanded, "Throw the
+            blessed one into the prison-house that she may be guarded there with the prisoners, till
+            the next day," whilst he was full of his threat of the wicked device as to how he should
+            destroy the handmaid of God. But the blessed one went from his presence to the
+            prison-house, giving glory to God.</p>
+         <p n="19">And the noble soldiers of the Christ rejoiced in the triumph of the blessed one,
+            and gave glory to God, saying, "Blessed be Thou, O God! for ever and ever, Amen. Grant
+            to Thy servant, O Lord! that she may be worthy to testify with all the fathers, those
+            who were worthy to be martyred and were put to death for the sake of Thy holy name."</p>
+         <p n="20">THE SECOND INTERROGATION OF EUPHEMIA.</p>
+         <p n="21">Again on the following day the Proconsul went forth and sat on his judgment seat;
+            and he commanded them to bring Sosthenes and Victor before him, the soldiers who
+            believed in the Christ. And he said to them, "Sacrifice to the gods." But they answered
+            and said to him, "O Proconsul, we have surely erred from of old by the instigation of
+            the enemy of mankind, whom thou worshippest; and for a certain time we have worshipped
+            him, and we have destroyed our hope towards the true God. But we believe now in Him who
+            has enlightened the dark eyes of our heart, by means of His handmaiden the blessed
+            Euphemia. Who is able to wipe out the record of our debts. He who was with us in the
+            trouble of the enemy of the truth, we believe that He is able to inscribe us [as]
+               <milestone unit="folio" n="144a"/> citizens of the Holy City, in the Book of Life. Do
+            then what thou wilt with eagerness, the works of thy father Satan, and torture us,
+            because we do not assent to thine error, and we do not receive the commandment of the
+               <pb n="159"/>Emperor, who commands that he be worshipped; because he is a servant of
+            the living God, and we do not worship impure and false gods.''</p>
+         <p n="22">And when the Proconsul had heard these things from them, he commanded that a
+            [bear ?] should come, and that the blessed ones should be thrown to it, so that their
+            bodies might be devoured by it. And the two were immediately thrown together to it. And
+            they began to speak thus, and to give glory to the Lord Almighty, the Pure and Holy One.
+            "He who hath established all works with wisdom; and by His powerful word assembleth the
+            host of the seas; and by His commandment He hath established the earth; and He hath
+            separated the darkness from the light; He who slew the murdering dragon, and loosed the
+            bands of death by the murder of the Crucified One. Loose us also now from the pangs of
+            corruption; and deliver us from the laceration of the manslayer, and grant to us that we
+            may honour Thy holy name in peace without blemish and without spot of soul or of body."
+            And immediately there was a voice from heaven, saying, "I have heard your prayer, and
+            have received your intercession." And these ones, when they heard the voice, committed
+            their souls the more to God. And when they were thrown to the wild, destroying beast,
+            they immediately <milestone unit="folio" n="144b"/> committed their spirits to God, and
+            received Him whom they loved with joy, because of whom the blessed ones had died.<ptr
+               type="noteAnchor" target="#n9"/></p>
+         <p n="23">And when the Proconsul saw what had happened to the blessed ones, he arose
+            immediately and went to his Praetorium. And the Christians, who happened to be there,
+            took the bodies and wrapped them up and buried them<ptr type="noteAnchor" target="#n10"
+            /> in the earth in a fair covering.</p>
+         <pb n="160"/>
+         <p n="24">And when it was dawn, the Proconsul arose, and went out that he might go and hear
+            the blessed Euphemia. And when she emerged from the prison-house, she went like an
+            innocent lamb of the Christ and said with a clear voice: "I give Thee glory, O Lord!
+            with a new song upon this earth. I extol Thee, O Lord! with all my strength, I sing a
+            psalm to Thee, giving glory to Thy name amongst all peoples. ,, And when she had prayed
+            and had finished, she came and stood before the judgment seat of the Proconsul.</p>
+         <p n="25">And the Proconsul began to interrogate her, saying to her, "How long wilt thou be
+            a fool? and how long wilt thou destroy thyself in this manner? for the great god, the
+            Emperor, desires to be reconciled to thee, if thou wilt also do his will, and wilt
+            sacrifice to Ares, to whom he also sacrifices. Be persuaded therefore by me and
+            sacrifice, that thou mayest live. And in the world thou shalt be a mother of many." But
+            she laughed, and <milestone unit="folio" n="145a"/> answered, saying to him, "Truly I
+            would have no mind and no sense, if I were to do what thou desirest; and were to hearken
+            to the Emperor, and to worship those who are no gods by nature, and were to sacrifice to
+            those dumb and voiceless idols, O wicked and senseless man! and were to renounce all the
+            beauty that is in the Christ, and were to rush into the snare of Satan. Thou art eager
+            to make me in thy fashion like unto thyself, who art the heir of hell and everlasting
+            quenchless fire. And thou pervertest the servants of God from the truth. For the
+            strength of the Christ is with me, and I believe that He helps me at all times."</p>
+         <p n="26">And the Proconsul commanded that they should bring four great stones, and should
+            fix great instruments at the corners of the stones, and that the blessed one should be
+            thrown into the midst of them. And when these stones <pb n="161"/>were shaken by the
+            instruments by being moved to and fro, they should tear the body of the blessed one.</p>
+         <p n="27">And the instruments were arranged, and he commanded that she should go in amongst
+            them chained. And when the lamb<ptr type="noteAnchor" target="#n11"/> of the Christ went
+            in amongst these stones, she knelt on her knees, and implored with many tears and
+            besought God, saying, "I beseech Thee, O Lord my God! and I pour out my soul before
+            Thee, prostrate before Thee and I offer my lowliness, and I shed my tears, my back is
+            ready for smiting, and I withdraw not my face from spitting.<ptr type="noteAnchor"
+               target="#n12"/> I call upon Thy name, and I take refuge in Thy true fear. Have mercy
+            upon Thy handmaiden, and leave me<ptr type="noteAnchor" target="#n13"/> not to this
+            destruction which the craft and <milestone unit="folio" n="145b"/> wickedness of the
+            evil one has prepared against me. I may be stripped of all wicked things, my thoughts
+            shall be purified from uncleanness, men shall be amazed at Thy help; let not his wiles
+            have power on the spiritual cymbals of my soul. Let my purity<ptr type="noteAnchor"
+               target="#n14"/> shine, O Lord! in the world, that Thy name may be glorified for
+            ever." The noble woman said all these things while she was kneeling in her prayer. And
+            the lictors worked till they were wearied, hanging on the contrivance of the wheels, and
+            not one of them moved from its place; but they and the wheels became like fine chaff.
+            And she was found as a lamb without blemish; and the judge and those who were with him
+            contemplated the brightness of her face. And after all these contrivances which they had
+            sought out in wickedness, the judge commanded them to dig a deep place, and to surround
+            it with water as with a wall, and to cast evil beasts therein; and to shut up the noble
+            woman there, and when the beasts should leap from the water, they should destroy
+            Euphemia with vehemence.</p>
+         <pb n="162"/>
+         <p n="28">And when the blessed one knew it, she was prepared for the place, and the waters
+            were pressed together; and the beasts were flung in before the wicked man commanded
+            it.</p>
+         <p n="29">And the holy Euphemia ran, and stood on the edge of the lake of water. And she
+            sealed herself with the sign of the cross, and said to the judge with a loud voice, "O
+            liar far from the truth! wily man, disciple of Satan, thou art well called by this name,
+            saws (driven by) water are prepared for thee, which when they receive thee with anger,
+            shall dislocate all thy limbs; because thou hast embittered the God who made thee, the
+            Giver of life and <milestone unit="folio" n="146a"/>light, and hast contemned the
+            worshippers of the Christ. And when the blessed one had said these things, she signed
+            herself with the cross on the right hand and on the left, and cried to God her
+            deliverer. And she looked up<ptr type="noteAnchor" target="#n15"/> to heaven, "O Christ
+            the light of my soul! be with Thy handmaiden to-day, and deliver me as Thou didst
+            deliver Daniel in the den, and like Jonah in the belly of the fish."</p>
+         <p n="30">And when she had finished speaking, she threw herself into the midst of the
+            water. And when all these beasts perceived her, they ran to meet her with joy; and they
+            carried her and lifted her up above the water. And they rocked her like a nurse her
+            darling, for they were greatly restrained by the fear of God.</p>
+         <p n="31">Then when the Proconsul saw the great and powerful miracles that had happened, he
+            said to Apellianus, the pagan and sophist, "What is that power? and who is it that helps
+            this woman? for as I have seen, the demons obey her, and she conquers every one by her
+            sorceries." The Proconsul said, "And how do the gods endure to see these things, and
+            they do not take vengeance."</p>
+         <pb n="163"/>
+         <p n="32">Apellianus said, "Because in their mercy they do not take vengeance."</p>
+         <p n="33">The judge said, "Let swords and sharp stones be fixed in the earth, and let
+            no[thing] be seen above them. And when Euphemia comes confidently, and is walking as on
+            plain ground, she will trample on the swords, and will fall there on the stones and die
+            like a wild boar." He commanded therefore, and his soldiers completed the contrivance of
+            the wicked one. And when they had completed the arrangement according to the commandment
+            of the Proconsul, the blessed Euphemia came with joy and cheer- <milestone unit="folio"
+               n="146b"/> fulness, as one who had borne all these things, and yet did not fail of
+            the truth of Jesus the Christ her Lord. And when she had borne all these afflictions,
+            while these soldiers of wickedness were provoking her, that she might run to that place,
+            the angels snatched her up and transported her over that place quite unhurt, and those
+            soldiers fell into what they had fabricated for the blessed one; and they died by the
+            work of their own hands.</p>
+         <p n="34">And again the blessed one opened her mouth and gave glory and said, "Thou God,
+            knowest what is in the hearts of all, Thou art He in whose presence are all secrets. O
+            Giver of treasures that cannot be spoiled, and of heavenly promises, Who hast stretched
+            out the earth and established it upon nothing, and by Thy word hast appointed all works.
+            And Thou hast created the light, and caused it to shine upon all. Thou<ptr
+               type="noteAnchor" target="#n16"/> who by Thy good-will didst send Thine only Son, our
+            Lord Jesus the Christ from heaven to loose the bands of death; and to bind and to
+            subjugate the chiefs and the worshippers of error. Thou<ptr type="noteAnchor"
+               target="#n17"/> who art near to Thy worshippers, to those who stand in the conflict
+            for the sake of Thy name. And Thou art a helper to them in all their <pb n="164"
+            />afflictions. Help Thy handmaiden also now, and by the prayers of those blessed and
+            holy ones who have been thrown into the prison because of Thy divine name,<ptr
+               type="noteAnchor" target="#n18"/> and are hoping to finish their divine course,
+            deliver me also, Thy handmaiden, and keep me in the one harmony with <milestone
+               unit="folio" n="147a"/> Thy Holy Spirit, because Thou art God. For Thou keepest not
+            anger and Thou dost save in the times of affliction."</p>
+         <p n="35">And when the Proconsul saw these things, he commanded them to bring the holy
+            woman before his judgment-seat. And he answered and said unto her, "Dost thou know, O
+            Euphemia! that whilst thou art of a very great and distinguished family, thou hast been
+            led into error and hast remained in it until now? And I who am a governor keeping what
+            is right for the Emperor, thou standest against me, truly, like a wise and skilful
+            woman. But nevertheless now at least be persuaded by me. And forgive me these insults
+            and torments which I have made thee endure, and sacrifice to the gods, and be not a
+            reproach of all men; and remain in thy distinguished family."</p>
+         <p n="36">But the blessed one, because her mind was established in the Christ, answered and
+            said to the tyrant, "Why do I see that thy face is full of bitterness and guile? O
+            workman who composes with ornamented words! O wolf clothed in sheep's clothing while he
+            does the works of destruction! and wicked robber, proffering words that are sweet to
+            hear, but in their sequel they are more bitter than wormwood. I am not foolish to such a
+            degree, that I should leave Him, the treasure of life, and should be allied to the
+            bitterness of the devil. Therefore be not deceived, O Proconsul! because thou canst not
+               <pb n="165"/>persuade me to sacrifice to foul fiends; and thou canst not force my
+            will, that I should call those gods who are no gods. For how can they be called gods who
+            have never been so? and how dost thou not perceive that thou <milestone unit="folio"
+               n="147b"/>comparest with the life that is eternal a dead thing which never existed,
+            and commandest us to offer a sacrifice to it. I am not persuaded by thy words, which are
+            full of bitterness. Be eager therefore and do what thou wilt; for I am eager that I may
+            be made worthy by means of thy wicked wiles of the everlasting victory. Where the Father
+            is, where the Creator of the angels is, where the Giver of the crowns of victory is;
+            there is the anointing of the truth; there is also the Christ who crowns His champions;
+            there is also the Holy Spirit, He who strengthens those who endure afflictions for His
+            sake."</p>
+         <p n="37">And the Proconsul was angry when he heard these things, and he commanded that
+            they should scourge the blessed one with rods, saying to her, "Be persuaded, and
+            sacrifice to the gods." But whilst she was being scourged, she spake thus: </p>
+         <p n="38">"Thy tortures do not come upon me, O wicked man! Thou art parted from life and
+            thou hast no permanent abode. For thou art weak, because thy tyrannical power is
+            conquered."</p>
+         <p n="39">But Apellianus and the Proconsul with him recollected in their mind; and the
+            judge commanded that they should bring sharp saws and pans of fire, and that the saws
+            should, by the construction of their instruments cut up the blessed one and fling her
+            limbs into the pans of fire, that thus she might be pounded to pieces like fine ashes.
+            And when those instruments were arranged in that manner <milestone unit="folio" n="148a"
+            /> of contrivance, they brought the blessed Euphemia, and threw her amongst the saws,
+            and the saws were turned about, and were scattered; also the pans of fire that were <pb
+               n="166"/>fixed amongst them were quenched, and no hurt came to her from any of these
+            things, because the angels of God kept close to her for her assistance. And when the
+            Proconsul and Apellianus his friend saw that this worshipper of the Christ was
+            victorious over all their afflictions and torments, they took counsel amongst themselves
+            how they might destroy the holy one, and they invited the city to the theatre which is
+            called the arena where beasts are let loose for the Stadium. And when she stood in the
+            midst of the Stadium, she began to say, "Thou art near, O Lord! to those who call upon
+            Thee in truth. Receive my spirit to Thyself, as Thou didst receive the sacrifice of our
+            father Abraham; so also do Thou receive the sacrifice of my spirit to Thyself." And
+            whilst she said this, she sealed herself on all sides, calling on the name of the Father
+            and of the Son and of the Holy Spirit. And four lions were loosed against her, with two
+            other evil beasts. And these lions leapt upon her with a run. And they kissed the
+            foot-prints of the blessed one. And the other beasts did so likewise. And thus was
+            finished the martyrdom and the conflict of the blessed one. One of these beasts ran, and
+            bit her on her shoulder only: and <milestone unit="folio" n="148b"/>immediately a voice
+            was heard a voice from heaven saying, "Ascend on high O Euphemia! climb and stand in the
+            place of the saints, and receive thy victory, and the reward of thy finished
+            course."</p>
+         <p n="40">And when this voice was heard, there was a great earthquake, so that all the
+            place was shaken, and every one was seized with trembling. And the blessed one said,
+            "Requite, O Lord! also this unclean Proconsul according to his wickedness, and enter
+            into the conflict along with Thy holy servants, O Thou, my God and my Lord! and justify
+            them." And when she had said these things, she committed her soul into the hands of her
+            Lord. And her <pb n="167"/>father Philophron entered with her mother; and they took her
+            holy body, and carried it far away, and they buried it in a lonely place, which they had
+            arranged for it, which was about one mile distant from the city of Chalcedon.</p>
+         <p n="41">And the Proconsul sent those blessed ones who had been thrown into prison with
+            the Blessed One to the Emperor with an epistle; that the Emperor might command
+            whatsoever he willed about them. And he commanded those cavalry soldiers that they
+            should convoy them peacefully on the way; and keep them until they should go before the
+            Emperor. For the Proconsul fell into a sore sickness, and was bitterly tormented
+            according to the word of the Blessed One which she spake to him.</p>
+         <p n="42">Here endeth the martyrdom of the Holy Euphemia.</p>
+         <noteGrp>
+            <note xml:id="n1">1 Literally, "to the great god Ares.</note>
+            <note xml:id="n2">1 Or "called."</note>
+            <note xml:id="n3">2 MS. "the Proconsul."</note>
+            <note xml:id="n4">Matt. xxv. 21</note>
+            <note xml:id="n5">1 Cod. "did to the blessed ones."</note>
+            <note xml:id="n6">1 MS. "He who hides with Himself."</note>
+            <note xml:id="n7">2 MS. "Him."</note>
+            <note xml:id="n8">1 MS. "He."</note>
+            <note xml:id="n9">1 Literally, "had been crowned."</note>
+            <note xml:id="n10">2 MS. "their bodies."</note>
+            <note xml:id="n11">1 MS. "Calf."</note>
+            <note xml:id="n12">Isa. l. 6</note>
+            <note xml:id="n13">2 Literally "her."</note>
+            <note xml:id="n14">3 Or "victory."</note>
+            <note xml:id="n15">1 Literally "stretched her look."</note>
+            <note xml:id="n16">1 MS. "He."</note>
+            <note xml:id="n17">1 MS. "He."</note>
+            <note xml:id="n18">1 Literally "the name of Thy divinity."</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
