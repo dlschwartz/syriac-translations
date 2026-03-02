@@ -1,28 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://syriaca.org/work/801">Mare of Beth Urtaye</title>
+            <title ref="http://syriaca.org/work/801">Mara of Beth Ourtaye</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/801.xml -->
-         <head>Next the Ninth History, of the Blessed <persName ref="http://syriaca.org/person/1866">Mare</persName><ptr type="noteAnchor" target="#n135-1"/> of Beth <persName>Urtaye</persName><ptr type="noteAnchor" target="#n135-2"/></head>
+         <head>Next the Ninth History, of the Blessed <persName ref="http://syriaca.org/person/1866">Mare</persName><ptr type="noteAnchor" target="#n135-1" n=""/> of Beth <persName>Urtaye</persName><ptr type="noteAnchor" target="#n135-2" n=""/></head>
          <ab>
             This blessed <persName ref="http://syriaca.org/person/1866">Mare</persName> was a clergyman (<foreign xml:lang="grc">κληριχός</foreign>) in the church of a certain
-            large village in the district of <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName><ptr type="noteAnchor" target="#n135-3"/> called the village of <placeName ref="http://syriaca.org/place/2794">Hula</placeName> (<foreign xml:lang="grc">ύλη</foreign>?).
+            large village in the district of <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName><ptr type="noteAnchor" target="#n135-3" n=""/> called the village of <placeName ref="http://syriaca.org/place/2794">Hula</placeName> (<foreign xml:lang="grc">ύλη</foreign>?).
             This man then, when he was a member of the clergy (<foreign xml:lang="grc">κληριχός</foreign>), used to behave
             with great and measureless arrogance, and he was haughty and a good
             speaker and teacher, and very well-informed on every subject. And, grace
@@ -61,9 +104,9 @@
             The history of the blessed <persName ref="http://syriaca.org/person/1866">Mare</persName> is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n135-1" target="#a135-1" n="135-1">See p. 187, n. 1.</note>
-            <note xml:id="n135-2" target="#a135-2" n="135-2">Cf. ch. 31 and 58. Beth Urtaye seems it be almost, if not quite, identical with Anzetene; cf. ch. 58 (f.131. v'a).</note>
-            <note xml:id="n135-3" target="#a135-3" n="135-3">Syr. <hi rend="singleQuote">Hanzit</hi></note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 135, n. 1</orig></choice>See p. 187, n. 1.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 135, n. 2</orig></choice>Cf. ch. 31 and 58. Beth Urtaye seems it be almost, if not quite, identical with Anzetene; cf. ch. 58 (f.131. v'a).</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 135, n. 3</orig></choice>Syr. <hi rend="singleQuotes">Hanzit</hi></note>
             
          </noteGrp>
       </body>

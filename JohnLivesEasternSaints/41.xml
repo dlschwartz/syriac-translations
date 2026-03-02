@@ -1,28 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/832">Bassianus, Romanus, and Simeon</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/832 -->
          <head>Next the Forty-First History, of the Blessed <persName ref="http://syriaca.org/person/1630">Bassian</persName> the Solitary, And
-            <persName ref="http://syriaca.org/person/2040">Romanus</persName> the Presbyter and Visitor of the Great Convent of <placeName ref="http://syriaca.org/place/233">Thel 'Adda'</placeName><ptr type="noteAnchor" target="#n450-1"/>,
-            and of <persName ref="http://syriaca.org/person/2093">Simeon</persName> the Archimandrite<ptr type="noteAnchor" target="#n450-2"/>, Who Are Laid in the Sepulchre With
-            These Holy Old Men<ptr type="noteAnchor" target="#n450-3"/>.</head>
+            <persName ref="http://syriaca.org/person/2040">Romanus</persName> the Presbyter and Visitor of the Great Convent of <placeName ref="http://syriaca.org/place/233">Thel 'Adda'</placeName>,<ptr type="noteAnchor" target="#n450-1" n=""/>
+            and of <persName ref="http://syriaca.org/person/2093">Simeon</persName> the Archimandrite,<ptr type="noteAnchor" target="#n450-2" n=""/> Who Are Laid in the Sepulchre With
+            These Holy Old Men.<ptr type="noteAnchor" target="#n450-3" n=""/></head>
          <ab>
             To describe the rest of the practices and asceticism and manner of life
             in the desert of this blessed <persName ref="http://syriaca.org/person/1630">Bassian</persName> the presbyter and solitary, things which
@@ -60,11 +103,11 @@
             <quote>Pray also for the miserable sinner, for at the end of twenty days I shall
                depart from the body</quote>, having also adjured my meanness, <quote>Bury this my
                   sinful body in your monastery, and pray for me</quote>. When we had been saying
-            these many things, and that sabbath-day<ptr type="noteAnchor" target="#n452-1"/> was at hand, he rose and prayed
+            these many things, and that sabbath-day<ptr type="noteAnchor" target="#n452-1" n=""/> was at hand, he rose and prayed
             and offered the oblation, and gave it to many, having received it also himself,
             and bade farewell to all. And during the night he became ill, and on the
             twentieth day he fell asleep; and so we carried him in a procession over the
-            water to our monastery<ptr type="noteAnchor" target="#n452-2"/> according to his injunction; and his holy body was
+            water to our monastery<ptr type="noteAnchor" target="#n452-2" n=""/> according to his injunction; and his holy body was
             buried and laid in the same tomb according to his injunction; by whose
             prayers together with those of all the saints who please God may all we
             sinners who provoke our Creator be admitted to mercy. Yea and Amen!
@@ -79,11 +122,11 @@
             The history of the blessed <persName ref="http://syriaca.org/person/1630">Bassian</persName> the solitary and <persName ref="http://syriaca.org/person/2040">Romanus</persName> the presbyter is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n450-1" target="#a450-1" n="450-1">Near Antioch (Wright, CBM., p. 498).</note>
-            <note xml:id="n450-2" target="#a450-2" n="450-2">There is nothing about Simeon in the ch., nor is he mentioned in the subscription. See Introd., p. VII.</note>
-            <note xml:id="n450-3" target="#a450-3" n="450-3">In B the title is: <hi rend="singleQuote">A history concerning the blessed B. the solitary by the same Mar John of Asia</hi>.</note>
-            <note xml:id="n452-1" target="#a452-1" n="452-1">I.e., the day on which he was to go to his rest.</note>
-            <note xml:id="n452-2" target="#a452-2" n="452-2">See p. 431, n. 3.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 450, n. 1</orig></choice>Near Antioch (Wright, CBM., p. 498).</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 450, n. 2</orig></choice>There is nothing about Simeon in the ch., nor is he mentioned in the subscription. See Introd., p. VII.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 450, n. 3</orig></choice>In B the title is: <hi rend="singleQuotes">A history concerning the blessed B. the solitary by the same Mar John of Asia</hi>.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 452, n. 1</orig></choice>I.e., the day on which he was to go to his rest.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 452, n. 2</orig></choice>See p. 431, n. 3.</note>
          </noteGrp>
       </body>
    </text>

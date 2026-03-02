@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/799">Abraham the Recluse</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/799.xml -->
@@ -27,8 +70,8 @@
             being read, heard that our Lord said, <quote>Whoever shall leave wife or
                children etc. for my sake and for the sake of my preaching shall receive
                thirty fold and sixtyfold and an hundredfold in this age, and in the future age
-               shall inherit eternal life</quote><ptr type="noteAnchor" target="#n119-1"/>; and again <quote>Whoever doth not take up his cross
-                  and follow me is not worthy of me</quote><ptr type="noteAnchor" target="#n119-2"/>. When this old man heard these words,
+               shall inherit eternal life</quote>;<ptr type="noteAnchor" target="#n119-1" n=""/> and again <quote>Whoever doth not take up his cross
+                  and follow me is not worthy of me</quote>.<ptr type="noteAnchor" target="#n119-2" n=""/> When this old man heard these words,
             sorrow entered into his mind, and he thought within himself, and said:
             <quote>Wherefore am I for my part alive and called a Christian, if I do not do
                now that God's will? If it is pleasing to God that I should leave wife and children, even
@@ -42,7 +85,7 @@
                remains to me I will go and repent of my sins, and then I will die, having
                hope in that parable of the labourers which our Lord spake, that, even after
                the day had declined and one hour only was left for those who came,
-               they were thought worthy to receive the pay with the first<ptr type="noteAnchor" target="#n120-1"/>. So I too also
+               they were thought worthy to receive the pay with the first.<ptr type="noteAnchor" target="#n120-1" n=""/> So I too also
                hope that God will not shut the door of his mercy in the face of my
                repentance</quote>. And thereafter the old man would think, <quote>What shall I do?
                   If I go to a monastery, I cannot work; and they will say, <quote>This old man
@@ -89,7 +132,7 @@
             stealth, and listen to the sound of his sobs, and they were astonished at him.
             And the old man persevered in his repentance for eight years. And in the
             eighth year, when he was near his end, there used to be hail in these villages
-            <pb n="123"/><pb n="123"/>every year<ptr type="noteAnchor" target="#n123-1"/> and they were smitten, and their crops also were utterly ruined.
+            <pb n="123"/><pb n="123"/>every year<ptr type="noteAnchor" target="#n123-1" n=""/> and they were smitten, and their crops also were utterly ruined.
             And, when the time arrived and that terrible cloud had come up according to
             its custom, on the first day of the week, when some persons were present at
             his lodging, they began to weep, because the cloud was terrible and very
@@ -106,7 +149,7 @@
             old man's prayers that village was delivered and escape from that terrible
             rod of chastisement, which injured not one leaf within its boundaries; and,
             <pb n="124"/><pb n="124"/>outside all its boundaries all round, not even the leaves remained upon the
-            trees<ptr type="noteAnchor" target="#n124-1"/>. Then the boundaries of that village exulted, while they themselves
+            trees.<ptr type="noteAnchor" target="#n124-1" n=""/> Then the boundaries of that village exulted, while they themselves
             made proclamation concerning the power of the prayers of the blessed
             <persName ref="http://syriaca.org/person/1555">Abraham</persName>, everyone being astonished and giving thanks to God. And the
             old man also rejoiced, and he gives thanks to God who had shown him that
@@ -117,11 +160,11 @@
             The history of the old man <persName ref="http://syriaca.org/person/1555">Abraham</persName> the layman, the recluse, is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n119-1" target="#a119-1" n="119-1">Mark, X, 29, 30 (a loose citation).</note>
-            <note xml:id="n119-2" target="#a119-2" n="119-2">Matth., X, 38.</note>
-            <note xml:id="n120-1" target="#a120-1" n="120-1">Matth., XX, 9-16.</note>
-            <note xml:id="n123-1" target="#a123-1" n="123-1">Sic syr.</note>
-            <note xml:id="n124-1" target="#a124-1" n="124-1">Cf. p. 12, where a similar story is told.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 119, n. 1</orig></choice>Mark, X, 29, 30 (a loose citation).</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 119, n. 2</orig></choice>Matth., X, 38.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 120, n. 1</orig></choice>Matth., XX, 9-16.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 123, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 124, n. 1</orig></choice>Cf. p. 12, where a similar story is told.</note>
          </noteGrp>
       </body>
    </text>

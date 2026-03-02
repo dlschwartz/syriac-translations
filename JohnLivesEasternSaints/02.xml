@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Life of Zʿura</title>
+            <title ref="http://syriaca.org/work/794">Zeʿora</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
   <text>
       <body>
          <!-- See spear/794.xml -->
@@ -35,12 +78,12 @@
             and the whole city directed their steps to the place; and when they saw it
             they marvelled and gave thanks, and praised God who does the will of them
             that fear him. And they called that fountain Mar <persName ref="http://syriaca.org/person/1524">Zʿura</persName>'s spring<note></note> to this
-            day; and it is even actually so called to the present time<ptr type="noteAnchor" target="#n19-1"/>. This was the
+            day; and it is even actually so called to the present time.<ptr type="noteAnchor" target="#n19-1" n=""/> This was the
             first act of power which the prayer of this divine master produced in his own
             disciple.
          </ab>
          <ab>
-            Again once the <persName ref="http://syriaca.org/person/3640">mighty hosts of the Huns</persName> came forth<ptr type="noteAnchor" target="#n19-2"/>, and those blessed
+            Again once the <persName ref="http://syriaca.org/person/3640">mighty hosts of the Huns</persName> came forth,<ptr type="noteAnchor" target="#n19-2" n=""/> and those blessed
             men were in a fortress; and, when it was thought that they had passed by,
             <pb n="20"/><pb n="20"/>the blessed man sent him to go down and inspect the monastery. And, as
             he was going down, <persName ref="http://syriaca.org/person/3640">the host of the Huns</persName> came upon him on the way, while
@@ -84,13 +127,13 @@
             peoples with regard to his death, he was being made to celebrate and display
             the fact that he was able actually to bind the heaven so that no rain fell
             upon the earth, and was by his envoys proclaiming his mighty act to the
-            <pb n="22"/><pb n="22"/>kings of the peoples<ptr type="noteAnchor" target="#n22-1"/>, who, while<ptr type="noteAnchor" target="#n22-2"/> they were unaware for what reason the
+            <pb n="22"/><pb n="22"/>kings of the peoples,<ptr type="noteAnchor" target="#n22-1" n=""/> who, while<ptr type="noteAnchor" target="#n22-2" n=""/> they were unaware for what reason the
             heaven was prevented from discharging rain, were learning from the enemies
             themselves who was the cause of this, that he might become an object of
             astonishment. So therefore letters preceded this illustrious man stating
             concerning him, <quote>Lo! a disturber is coming there</quote>, and, <quote>If he enters
                the city, he will turn the whole of it upside down</quote>; which prophecy itself
-            also they made after the manner of <persName>Caiaphas</persName><ptr type="noteAnchor" target="#n22-3"/>, as he did indeed in truth
+            also they made after the manner of <persName>Caiaphas</persName>,<ptr type="noteAnchor" target="#n22-3" n=""/> as he did indeed in truth
             turn many from their evil faith to the truth.
          </ab>
          <ab>
@@ -105,14 +148,14 @@
             them by means of his clever words, not knowing that simple men and fishermen 
             are not armed with these things, but with the hidden power of grace.
             <pb n="23"/><pb n="23"/>But, when the old man and all his company came in, and, the doctrines that
-            were condemned had been gently<ptr type="noteAnchor" target="#n23-1"/> expressed, those that were right were
+            were condemned had been gently<ptr type="noteAnchor" target="#n23-1" n=""/> expressed, those that were right were
             again heroically expressed in sound language on behalf of the believers by
             the blessed man with the frankness (<foreign xml:lang="grc">παρρησία</foreign>) of his Lord and the confidence
             that contends with death, while the spiritual old man carried out his procedure 
             according to what it is written that the king of <placeName>Edom</placeName> commanded
             and said, <quote>Ye shall not contend with great nor with small save with the
-               king of <placeName>Israel</placeName></quote><ptr type="noteAnchor" target="#n23-2"/>; for he did not direct his contest with great nor with small,
-            but against him who roared as a lion, and looked whom he should devour<ptr type="noteAnchor" target="#n23-3"/>,
+               king of <placeName>Israel</placeName></quote>;<ptr type="noteAnchor" target="#n23-2" n=""/> for he did not direct his contest with great nor with small,
+            but against him who roared as a lion, and looked whom he should devour,<ptr type="noteAnchor" target="#n23-3" n=""/>
             in that he sternly brought the whole measureless reproof against him personally, 
             on account of all the persecution of God's church, concerning all
             the blood that was shed in his days, concerning the introduction of this
@@ -129,16 +172,16 @@
             commotion taking place great terror overwhelmed all the magnates; but the
             blessed man, when he saw that he had decreed death against anyone who
             anathematized the synod, was kindled with zeal and his heart became hot
-            within him as it is written, and fire seized his body<ptr type="noteAnchor" target="#n24-1"/>, and immediately he
+            within him as it is written, and fire seized his body,<ptr type="noteAnchor" target="#n24-1" n=""/> and immediately he
             went straight against him, and said : <quote>The synod which divided <persName>Christ</persName> our
                Lord is anathematized not only by us, but also by the angels of heaven.
                And, since you seek a sign, by believers signs are not required; but the
                Lord will not show you a sign outside you, but in your own self</quote>. And so
-            he<ptr type="noteAnchor" target="#n24-2"/> went out in violent rage, while threats were also being forged against
+            he<ptr type="noteAnchor" target="#n24-2" n=""/> went out in violent rage, while threats were also being forged against
             the blessed man. But after a day the sign for which he asked appeared in
             him according to the blessed man's saying, in that he was smitten upon his
             head, and his understanding was taken away; and a fearful swelling covered
-            him<ptr type="noteAnchor" target="#n24-3"/>, until human shape was not recognised in him<ptr type="noteAnchor" target="#n24-4"/>, insomuch that his wife,
+            him,<ptr type="noteAnchor" target="#n24-3" n=""/>, until human shape was not recognised in him<ptr type="noteAnchor" target="#n24-4" n=""/> insomuch that his wife,
             <pb n="25"/><pb n="25"/>who was very cunning, hid him secretly in the chamber, that it might not
             be known to the city that he was already dead, and except two physicians
             and two chamberlains she did not allow anyone to come in to him, while
@@ -157,7 +200,7 @@
             not set right, because the delinquencies of the <persName>Amorites</persName> were perhaps not
             yet full; but he ceased that violence and these threats, while the power of
             the old man's prayer thenceforward gave freedom of action (<foreign xml:lang="grc">παρρησία</foreign>.) to all
-            <pb n="26"/><pb n="26"/>the believers in every city and in every place, and they openly held assemblies, which<ptr type="noteAnchor" target="#n26-1"/> 
+            <pb n="26"/><pb n="26"/>the believers in every city and in every place, and they openly held assemblies, which<ptr type="noteAnchor" target="#n26-1" n=""/> 
             before his coming the threat of death was decreed, against
             anyone who was discovered holding an assembly. And the fame of the
             blessed <persName ref="http://syriaca.org/person/1524">Zʿura</persName> reached as far as <placeName ref="http://syriaca.org/place/641">Rome</placeName>, while God continued to work signs
@@ -168,11 +211,11 @@
             the blessed man had been some time in the royal city, the man deserving
             of evil memory who had at that time been made patriarch in <placeName ref="http://syriaca.org/place/641">Rome</placeName>, whose
             name was <persName ref="http://syriaca.org/person/3193">Agapetus</persName>, was summoned by some cause, and went down to the
-            royal city<ptr type="noteAnchor" target="#n26-2"/>, a man who was a grievous blasphemer, in comparison of whose
+            royal city,<ptr type="noteAnchor" target="#n26-2" n=""/> a man who was a grievous blasphemer, in comparison of whose
             blasphemies those of the followers of <persName>Paul</persName> of <placeName>Samosata</placeName> were very small;
             who, if sentence from heaven had not overtaken him and suppressed his
             blasphemies, was about to issue this order, that the name of the Blessed
-            <persName>Mary</persName> the<ptr type="noteAnchor" target="#n26-3"/> God-bearer should not be commemorated in the church at all,
+            <persName>Mary</persName> the<ptr type="noteAnchor" target="#n26-3" n=""/> God-bearer should not be commemorated in the church at all,
             <pb n="27"/><pb n="27"/>nor her likeness be found depicted anywhere, while he presumptuously
             promulgated his blasphemies, which did not retard for him the reward that
             his labour deserved. This man therefore, having been magnificently received
@@ -180,7 +223,7 @@
             evil of his mind, when he had come in, inasmuch as he was annoyed by the
             reports of the blessed <persName ref="http://syriaca.org/person/1524">Zʿura</persName>, brought a complaint about him before the
             king, saying, <quote>Wherefore is the <persName>Syrian</persName> deceiver who is here allowed by you
-               to turn the world to his deception<ptr type="noteAnchor" target="#n27-1"/></quote>? But the king, inasmuch as he knew
+               to turn the world to his deception<ptr type="noteAnchor" target="#n27-1" n=""/></quote>? But the king, inasmuch as he knew
             well the old man's power, said to him, <quote>And what can I do to him? For he
                is a stubborn man who does not fear men</quote>. But he, in order to show his
             zeal in the case of the blessed man first, accused him saying, <quote>Let me do to
@@ -191,10 +234,10 @@
          <ab>
             But this man in his arrogance without delay sent some of his own leading
             men and the king's to the blessed man himself (a large villa at <placeName ref="http://syriaca.org/place/2860">Sycae</placeName> on
-            the other side<ptr type="noteAnchor" target="#n27-2"/> had been given him by the queen, and he was staying there
+            the other side<ptr type="noteAnchor" target="#n27-2" n=""/> had been given him by the queen, and he was staying there
             <pb n="28"/><pb n="28"/>with all <persName ref="http://syriaca.org/person/3642">his disciples</persName>; for it was the first days of the fast), while the 
             presumptuous man set himself against the blessed man by sending him a message
-            in these terms : <quote>The king and the <rs>patriarch</rs><ptr type="noteAnchor" target="#n28-1"/>have ordered that either you
+            in these terms : <quote>The king and the <rs>patriarch</rs><ptr type="noteAnchor" target="#n28-1" n=""/>have ordered that either you
                come here, or I come there at once; and it is quite impossible for you to
                remain longer in this country, unless you do the king's order and ours, and
                make accord with us</quote>. When the blessed old man heard these things, he
@@ -215,16 +258,16 @@
             fetch the blessed man, when he was on the point of landing on the other
             side, something like a wind took the cutter (<foreign xml:lang="grc">δρόμων</foreign>) and turned it back, and
             it was on the city side whence he had started. And again a second time
-            they returned, and approached; and, when they were<ptr type="noteAnchor" target="#n29-1"/> just about<ptr type="noteAnchor" target="#n29-1"/><!-- eb, there are two "1" footnotes, so I have labeled this for "11" for now. Let me know what you want me to do with this part! --> to fix the
+            they returned, and approached; and, when they were<ptr type="noteAnchor" target="#n29-1" n=""/> just about<ptr type="noteAnchor" target="#n29-1" n=""/><!-- eb, there are two "1" footnotes, so I have labeled this for "11" for now. Let me know what you want me to do with this part! --> to fix the
             ladder (<foreign xml:lang="grc">σχάλα</foreign>), it was as if a man grasped the boat (<foreign xml:lang="grc">καράβιον</foreign>), and with mighty
             force placed it where it started.
          </ab>
          <ab>
             Again according to that which is written <quote>They knew not nor understood
-               that they were walking in darkness</quote><ptr type="noteAnchor" target="#n29-2"/>, he was enraged against the cutter-men
+               that they were walking in darkness</quote>,<ptr type="noteAnchor" target="#n29-2" n=""/> he was enraged against the cutter-men
             (<foreign xml:lang="grc"><foreign xml:lang="grc">δρομωνάριος</foreign></foreign>) as if it was they who were lazy, and they proceeded to go on
             board. And, as they were struggling and advanced little nearer, like what
-            is written again, <quote>The Lord was making war for <placeName>Israel</placeName></quote><ptr type="noteAnchor" target="#n29-3"/>, there came
+            is written again, <quote>The Lord was making war for <placeName>Israel</placeName></quote>,<ptr type="noteAnchor" target="#n29-3" n=""/> there came
             forth something like a flash of lightning and suddenly smote their boat
             (<foreign xml:lang="grc">καράβιον</foreign>), and the bench was torn out of it from end to end, and it sprang
             away and mounted upwards as far as the eye can see; and then that
@@ -243,15 +286,15 @@
             inasmuch as the fear of God was not before his eyes, then suddenly that
             happened in his case which was once said in the case of the arrogance of
             the <persName>Assyrian</persName>, <quote>Against whom hast thou opened thy mouth and lengthened
-               thy tongue, save against the Holy one of <placeName>Israel</placeName></quote><ptr type="noteAnchor" target="#n30-1"/>. So therefore the Lord
+               thy tongue, save against the Holy one of <placeName>Israel</placeName></quote>.<ptr type="noteAnchor" target="#n30-1" n=""/> So therefore the Lord
             smote this man in his tongue, and it grew long and protruded beyond his
             mouth and came down to his breast, making a fearful sight with great swelling,
             so that he was twice lanced in it, while terror and trepidation seized all
             who saw him at the sight of him. And in this torment and manifest sentence
-            of requital for his blasphemy he lingered till the fifth day of the week<ptr type="noteAnchor" target="#n30-2"/>
+            of requital for his blasphemy he lingered till the fifth day of the week<ptr type="noteAnchor" target="#n30-2" n=""/>
             which the blessed man fixed as the term and said, <quote>On the fifth day of the
                week God will perform what he knows</quote>. And on the same day he who
-            <pb n="31"/><pb n="31"/>had threatened the blessed man received his burial and perished<ptr type="noteAnchor" target="#n31-1"/>, and fear
+            <pb n="31"/><pb n="31"/>had threatened the blessed man received his burial and perished,<ptr type="noteAnchor" target="#n31-1" n=""/> and fear
             accompanied by shame seized all the partisans of that wretched man, and
             joy reigned over the believers everywhere, while everyone was amazed at
             the blessed man's words, how God wrought this miracle in him. When the
@@ -264,10 +307,10 @@
             against the blasphemer. For, when he heard the openness (<foreign xml:lang="grc">παρρησία</foreign>) of his
             blasphemies, he prayed and said, as he used to pray and say at all seasons,
             <quote><quote>The Lord awaked like a sleeper and like a man who hath shaken off his
-               wine, and smote his enemies behind him</quote><ptr type="noteAnchor" target="#n31-2"/>. Lord behold the blasphemies
+               wine, and smote his enemies behind him</quote>.<ptr type="noteAnchor" target="#n31-2" n=""/> Lord behold the blasphemies
                of presumption against thee, and <quote>Be not quiet nor silent, O God; since lo!
                   thine enemies make tumult, and they who hate thee have lifted up the head
-                  <pb n="32"/><pb n="32"/>against thy people</quote><ptr type="noteAnchor" target="#n32-1"/></quote>; besides the other things which the blessed man used
+                  <pb n="32"/><pb n="32"/>against thy people</quote><ptr type="noteAnchor" target="#n32-1" n=""/></quote>; besides the other things which the blessed man used
             to repeat in his prayer and over his incense. And justice did indeed not
             delay to show the power of his prayer in that blasphemer. And so everyone
             was amazed at all the things that were done through the saint and at the
@@ -297,7 +340,7 @@
                rise within me on account of myself, how I am neglecting to praise that
                Creator who created me, and have ceased to make petitions for the forgiveness 
                of my offences, and am sitting in intercourse with men; and this and
-               other things urges<ptr type="noteAnchor" target="#n33-1"/> me to cease speaking</quote>. And so I was amazed at this
+               other things urges<ptr type="noteAnchor" target="#n33-1" n=""/> me to cease speaking</quote>. And so I was amazed at this
             <pb n="34"/><pb n="34"/>saint's disposition, as well as at his humility and the kindness to strangers
             and poor men of which his soul was full with great zeal, so that in consequence 
             a multitude of the poor of the city and strangers from every place
@@ -310,7 +353,7 @@
             all things, and deeds of power and signs were every day wrought through
             him, to narrate each one of which we have omitted since we are not sufficient, 
             the whole city used already to flock to him, with the whole senate
-            (<foreign xml:lang="grc">σύγκλητος</foreign>), and<ptr type="noteAnchor" target="#n34-1"/> they who saw the great freedom of speech (<foreign xml:lang="grc">παρρησία</foreign>), and
+            (<foreign xml:lang="grc">σύγκλητος</foreign>), and<ptr type="noteAnchor" target="#n34-1" n=""/> they who saw the great freedom of speech (<foreign xml:lang="grc">παρρησία</foreign>), and
             the rebuke of those who had the power of death and life after God, were
             kept in great fear and dread of him, and everyone put great faith in him.
          </ab>
@@ -327,9 +370,9 @@
             while that camp (<foreign xml:lang="grc">κάστρα</foreign>) thundered praise. And after some time again on
             account of the inclemency of this place they withdrew to another; and after
             some years the blessed <persName ref="http://syriaca.org/person/1524">Zʿura</persName> finished his course and fell asleep in the same
-            place, his disciple <persName ref="http://syriaca.org/person/3212">Hananya</persName> the presbyter who 'was next to him<ptr type="noteAnchor" target="#n35-1"/> having
+            place, his disciple <persName ref="http://syriaca.org/person/3212">Hananya</persName> the presbyter who 'was next to him<ptr type="noteAnchor" target="#n35-1" n=""/> having
             left the place, who himself also had been trained with him during the lifetime
-            of his blessed master <persName ref="http://syriaca.org/person/3763">Habib</persName> in the manner of life of both of them<ptr type="noteAnchor" target="#n35-2"/>. In
+            of his blessed master <persName ref="http://syriaca.org/person/3763">Habib</persName> in the manner of life of both of them.<ptr type="noteAnchor" target="#n35-2" n=""/> In
             these lines we have comprised the story of the holy old man <persName ref="http://syriaca.org/person/1524">Zʿura</persName>, dreading
             ondemnation for the omissions of all his triumphs which we have omitted
             and passed over for the reason that our time is not long enough for these to
@@ -339,38 +382,38 @@
             The history of the divine man the blessed <persName ref="http://syriaca.org/person/1524">Zʿura</persName> is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n19-1" target="#a19-1" n="19-1">This clause is perhaps a scribe's addition as v. D. and L. suggest.</note>
-            <note xml:id="n19-2" target="#a19-2" n="19-2">Probably in 515 (Marcell., <foreign xml:lang="la">sub anno</foreign>; Theoph., A. V. 0008).</note>
-            <note xml:id="n22-1" target="#a22-1" n="22-1">I Kings, VIII, 10.</note>
-            <note xml:id="n22-2" target="#a22-2" n="22-2">Ms. om.</note>
-            <note xml:id="n22-3" target="#a22-3" n="22-3">John, XI, 49, 50.</note>
-            <note xml:id="n23-1" target="#a23-1" n="23-1">There is perhaps some error here. If it is right, the intention must be to change the Chalcedonians with lukewarmness.</note>
-            <note xml:id="n23-2" target="#a23-2" n="23-2">I Kings, XXII, 31.</note>
-            <note xml:id="n23-3" target="#a23-3" n="23-3">I Pet., V, 8.</note>
-            <note xml:id="n24-1" target="#a24-1" n="24-1">Ps. XXXIX, 3, 4.</note>
-            <note xml:id="n24-2" target="#a24-2" n="24-2">Sc. Justinian.</note>
-            <note xml:id="n24-3" target="#a24-3" n="24-3">Mich. (who repeats this passage from our text) <hi rend="singleQuote">his face</hi>.</note>
-            <note xml:id="n24-4" target="#a24-4" n="24-4">This reminds us of Proc., <title>Hist. Arc.</title>, XII, 23, and in the story which there follows the monk perhaps Zʿura.</note>
-            <note xml:id="n26-1" target="#a26-1" n="26-1">Sic syr.</note>
-            <note xml:id="n26-2" target="#a26-2" n="26-2">Feb.536. He came on a political mission from king Theodahat (<title>Lib. Pont.</title>).</note>
-            <note xml:id="n26-3" target="#a26-3" n="26-3">Ms. om.</note>
-            <note xml:id="n27-1" target="#a27-1" n="27-1">Mich. <hi rend="singleQuote">by his sorceries</hi>.</note>
-            <note xml:id="n27-2" target="#a27-2" n="27-2">Sc. of the Golden Horn.</note>
-            <note xml:id="n28-1" target="#a28-1" n="28-1">Menas.</note>
-            <note xml:id="n29-1" target="#a29-1" n="29-1">Ms. om.</note>
-            <note xml:id="n29-2" target="#a29-2" n="29-2">Ps. LXXXII, 5.</note>
-            <note xml:id="n29-3" target="#a29-3" n="29-3">Josh, X, 42.</note>
-            <note xml:id="n30-1" target="#a30-1" n="30-1">Is., LVII, 4.</note>
-            <note xml:id="n30-2" target="#a30-2" n="30-2">Mich. add. <hi rend="singleQuote">of the mysteries</hi>,sc. on Maundy Thursday: but this does not agree with the statement that it was in the first days of Lent.</note>
-            <note xml:id="n31-1" target="#a31-1" n="31-1">22 Apr. acc. to <title>Lib. Pont.</title>: but this was Tuesday, and not in Lent. As Easter was 23 Mar., and A. addressed a letter to Justinian 
-               on 18 Mar. (Jaffe. <foreign xml:lang="la">sub anno</foreign>), if he died on Thurs. in Lent, it must have been 20 Mar.; but see p. 30, n. 2. Very prohabably whole story is baseless and the date given in <title>Lib. Pont.</title> right. <hi rend="singleQuote">Zach. Rh.</hi>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 19, n. 1</orig></choice>This clause is perhaps a scribe's addition as v. D. and L. suggest.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 19, n. 2</orig></choice>Probably in 515 (Marcell., <foreign xml:lang="la">sub anno</foreign>; Theoph., A. V. 0008).</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 22, n. 1</orig></choice>I Kings, VIII, 10.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 22, n. 2</orig></choice>Ms. om.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 22, n. 3</orig></choice>John, XI, 49, 50.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 23, n. 1</orig></choice>There is perhaps some error here. If it is right, the intention must be to change the Chalcedonians with lukewarmness.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 23, n. 2</orig></choice>I Kings, XXII, 31.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 23, n. 3</orig></choice>I Pet., V, 8.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 24, n. 1</orig></choice>Ps. XXXIX, 3, 4.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 24, n. 2</orig></choice>Sc. Justinian.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 24, n. 3</orig></choice>Mich. (who repeats this passage from our text) <hi rend="singleQuotes">his face</hi>.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 24, n. 4</orig></choice>This reminds us of Proc., <title>Hist. Arc.</title>, XII, 23, and in the story which there follows the monk perhaps Zʿura.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 26, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 26, n. 2</orig></choice>Feb.536. He came on a political mission from king Theodahat (<title>Lib. Pont.</title>).</note>
+            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 26, n. 3</orig></choice>Ms. om.</note>
+            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 27, n. 1</orig></choice>Mich. <hi rend="singleQuotes">by his sorceries</hi>.</note>
+            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 27, n. 2</orig></choice>Sc. of the Golden Horn.</note>
+            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 28, n. 1</orig></choice>Menas.</note>
+            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 29, n. 1</orig></choice>Ms. om.</note>
+            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 29, n. 2</orig></choice>Ps. LXXXII, 5.</note>
+            <note xml:id="n21" target="#a21" n="21"><choice><reg/><orig>p. 29, n. 3</orig></choice>Josh, X, 42.</note>
+            <note xml:id="n22" target="#a22" n="22"><choice><reg/><orig>p. 30, n. 1</orig></choice>Is., LVII, 4.</note>
+            <note xml:id="n23" target="#a23" n="23"><choice><reg/><orig>p. 30, n. 2</orig></choice>Mich. add. <hi rend="singleQuotes">of the mysteries</hi>,sc. on Maundy Thursday: but this does not agree with the statement that it was in the first days of Lent.</note>
+            <note xml:id="n24" target="#a24" n="24"><choice><reg/><orig>p. 31, n. 1</orig></choice>22 Apr. acc. to <title>Lib. Pont.</title>: but this was Tuesday, and not in Lent. As Easter was 23 Mar., and A. addressed a letter to Justinian 
+               on 18 Mar. (Jaffe. <foreign xml:lang="la">sub anno</foreign>), if he died on Thurs. in Lent, it must have been 20 Mar.; but see p. 30, n. 2. Very prohabably whole story is baseless and the date given in <title>Lib. Pont.</title> right. <hi rend="singleQuotes">Zach. Rh.</hi>
                (IX 19) gives a similar account of his death but without mention of Z. or indication of date.</note>
-            <note xml:id="n31-2" target="#a31-2" n="31-2">Ps. LXXVIII, 65, 66.</note>
-            <note xml:id="n32-1" target="#a32-1" n="32-1">Ps. LXXXIII, 2-4.</note>
-            <note xml:id="n33-1" target="#a33-1" n="33-1">Sic syr.</note>
-            <note xml:id="n34-1" target="#a34-1" n="34-1">Ms. om.</note>
-            <note xml:id="n35-1" target="#a35-1" n="35-1">Or <hi rend="singleQuote">succeed him</hi>.</note>
-            <note xml:id="n35-2" target="#a35-2" n="35-2">See p. 17.</note>
+            <note xml:id="n25" target="#a25" n="25"><choice><reg/><orig>p. 31, n. 2</orig></choice>Ps. LXXVIII, 65, 66.</note>
+            <note xml:id="n26" target="#a26" n="26"><choice><reg/><orig>p. 32, n. 1</orig></choice>Ps. LXXXIII, 2-4.</note>
+            <note xml:id="n27" target="#a27" n="27"><choice><reg/><orig>p. 33, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n28" target="#a28" n="28"><choice><reg/><orig>p. 34, n. 1</orig></choice>Ms. om.</note>
+            <note xml:id="n29" target="#a29" n="29"><choice><reg/><orig>p. 35, n. 1</orig></choice>Or <hi rend="singleQuotes">succeed him</hi>.</note>
+            <note xml:id="n30" target="#a30" n="30"><choice><reg/><orig>p. 35, n. 2</orig></choice>See p. 17.</note>
          </noteGrp>
       </body>
   </text>

@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/834">Abraham, Cyriacus, Barhadbeshabba and Sergius</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/834 -->
@@ -29,14 +72,14 @@
             darkness of idolatry, when each of them laboured earnestly with us down to
             the end of the life that is derived from the body, so that these devout men also
             were laid together in the sepulchre, while all of them were by birth (<foreign xml:lang="grc">γένος</foreign>)
-            <pb n="659"/><pb n="457"/>from <placeName ref="http://syriaca.org/place/486">Syria</placeName><ptr type="noteAnchor" target="#n457-1"/>, <persName ref="http://syriaca.org/person/1664">Cyriac</persName>, who laboured with us for some years before everyone
-            after these first old men<ptr type="noteAnchor" target="#n457-2"/>, was by his birth (<foreign xml:lang="grc">γένος</foreign>) from the city of <placeName ref="http://syriaca.org/place/134">Maiferkat</placeName><ptr type="noteAnchor" target="#n457-3"/>,
+            <pb n="659"/><pb n="457"/>from <placeName ref="http://syriaca.org/place/486">Syria</placeName>,<ptr type="noteAnchor" target="#n457-1" n=""/> <persName ref="http://syriaca.org/person/1664">Cyriac</persName>, who laboured with us for some years before everyone
+            after these first old men,<ptr type="noteAnchor" target="#n457-2" n=""/>, was by his birth (<foreign xml:lang="grc">γένος</foreign>) from the city of <placeName ref="http://syriaca.org/place/134">Maiferkat</placeName><ptr type="noteAnchor" target="#n457-3" n=""/>
             and the blessed <persName ref="http://syriaca.org/person/1547">Abraham</persName>, who was powerful in word and in deed, and
             above all in body, was by birth (<foreign xml:lang="grc">γένος</foreign>) from the country of the Persians, and
             gratified our spirit more than others by his earnestness, being adorned wtih
             abstinence and with self-abnegation and with zeal and humility and obedience, 
             and with all spiritual qualities, and as to <persName ref="http://syriaca.org/person/1625">Barhadbshabba</persName> too he was
-            by his birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/2798">Ingilene</placeName>, from a village called <placeName ref="http://syriaca.org/place/2745">Arʿa Rabtha</placeName><ptr type="noteAnchor" target="#n457-4"/>, who
+            by his birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/2798">Ingilene</placeName>, from a village called <placeName ref="http://syriaca.org/place/2745">Arʿa Rabtha</placeName>,<ptr type="noteAnchor" target="#n457-4" n=""/> who
             also was adorned with earnestness and ready to show obedience, and very
             zealous in reciting service, and the blessed <persName ref="http://syriaca.org/person/2069">Sergius</persName> moreover was by his
             birth (<foreign xml:lang="grc">γένος</foreign>) an <persName>Armenian</persName>, who also underwent great conflicts (<foreign xml:lang="grc">άγών</foreign>) in the
@@ -45,11 +88,11 @@
             the tiring nature of the countries and the high rugged mountains of <placeName ref="http://syriaca.org/place/2747">Asia</placeName>
             each one of them ran zealously and mightily in his time, and was strengthened 
             to abolish paganism, and overthrow idolatry, and uproot altars and
-            destroy shrines (<foreign xml:lang="grc">ναός</foreign>) and cut down trees in ardent religious zeal; and<ptr type="noteAnchor" target="#n457-5"/> each
+            destroy shrines (<foreign xml:lang="grc">ναός</foreign>) and cut down trees in ardent religious zeal; and<ptr type="noteAnchor" target="#n457-5" n=""/> each
             <pb n="660"/><pb n="458"/>one of them in his time together with the holy old men who were before
             them worked earnestly, and all of them also toiled and laboured with us with
             joy and great earnestness in building ninety-two churches and ten monasteries 
-            in four provinces (<foreign xml:lang="grc">ύπαρχίας</foreign>)<ptr type="noteAnchor" target="#n458-1"/>, which were erected by the help of the
+            in four provinces (<foreign xml:lang="grc">ύπαρχίας</foreign>),<ptr type="noteAnchor" target="#n458-1" n=""/> which were erected by the help of the
             heavenly power; a thing which justice also requires us to bring into the
             record of memorials of blessed character for the sake of a future good remembrance 
             for all these strenuous workers, in order that we may not be reproached
@@ -61,20 +104,20 @@
             by one another, and all of them to his eternal rest from the vexation of the
             body, while we on our part are still bound in the ropes of our sins and
             involved in bodily temptations in this life of turmoil, and of vanity and vexation 
-            of spirit<ptr type="noteAnchor" target="#n458-2"/>.
+            of spirit.<ptr type="noteAnchor" target="#n458-2" n=""/>
          </ab>
          <ab>
             The history of <persName ref="http://syriaca.org/person/1547">Abraham</persName> and <persName ref="http://syriaca.org/person/1664">Cyriac</persName> and <persName ref="http://syriaca.org/person/1625">Barhadbshabba</persName> and <persName ref="http://syriaca.org/person/2069">Sergius</persName>
             the deacons is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n457-1" target="#a457-1" n="457-1">I cannot reconcile this with the statements following.</note>
-            <note xml:id="n457-2" target="#a457-2" n="457-2">Leontinus and Kashish (?); see ch. 39.</note>
-            <note xml:id="n457-3" target="#a457-3" n="457-3">Martyropolis.</note>
-            <note xml:id="n457-4" target="#a457-4" n="457-4">See p. 56. It was perhaps the author's native place (p. 61).</note>
-            <note xml:id="n457-5" target="#a457-5" n="457-5">Ms. om.</note>
-            <note xml:id="n458-1" target="#a458-1" n="458-1">See p. 416, n. 3.</note>
-            <note xml:id="n458-2" target="#a458-2" n="458-2">Eccl., I, 14; 11, 17, 26; IV, 4, 16.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 457, n. 1</orig></choice>I cannot reconcile this with the statements following.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 457, n. 2</orig></choice>Leontinus and Kashish (?); see ch. 39.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 457, n. 3</orig></choice>Martyropolis.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 457, n. 4</orig></choice>See p. 56. It was perhaps the author's native place (p. 61).</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 457, n. 5</orig></choice>Ms. om.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 458, n. 1</orig></choice>See p. 416, n. 3.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 458, n. 2</orig></choice>Eccl., I, 14; 11, 17, 26; IV, 4, 16.</note>
          </noteGrp>
       </body>
    </text>

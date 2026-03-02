@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/830">Leontius</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/830 -->
@@ -30,13 +73,13 @@
             of religious practices, and especially in love toward one another and toward
             everyone. But this devout <persName ref="http://syriaca.org/person/1853">Leontius</persName> was by birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/2798">Ingilene</placeName> from
             a village called <placeName ref="http://syriaca.org/place/2866">ʿbwbnt</placeName>; and he lived in the holy monastery of the blessed
-            Mar <persName>Samuel</persName><ptr type="noteAnchor" target="#n443-1"/>. And, occasion having once called him to go up himself to the
+            Mar <persName>Samuel</persName>.<ptr type="noteAnchor" target="#n443-1" n=""/> And, occasion having once called him to go up himself to the
             <pb n="646"/><pb n="444"/>royal city with some blessed men from the same convent, he conceived a
             desire to live with us and with the blessed <persName ref="http://syriaca.org/person/1533">Aaron</persName> and the rest, and he remained
             with us, living a whole-hearted and laborious life, so that once on learning
             about a certain excellent man who was passing his life in great labours
             of pilgrimage he was moved with zeal himself also to labour in the same
-            course with the other blessed man who was called <persName ref="http://syriaca.org/person/2032">Kashish</persName><ptr type="noteAnchor" target="#n444-1"/> and was a
+            course with the other blessed man who was called <persName ref="http://syriaca.org/person/2032">Kashish</persName><ptr type="noteAnchor" target="#n444-1" n=""/> and was a
             member of our own convent and had been brought up with us from our
             childhood. And so both of them went forth in this zeal for pilgrimage, each of
             them separately, while both also let their hair grow long in secular fashion,
@@ -62,9 +105,9 @@
             The history of the blessed <persName ref="http://syriaca.org/person/1853">Leontius</persName> is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n443-1" target="#a443-1" n="443-1">Ch. ch. 58 (f. 132 v' b).</note>
-            <note xml:id="n444-1" target="#a444-1" n="444-1">His life is given in ch. 51.</note>
-            <note xml:id="n444-2" target="#a444-2" n="444-2">See ch. 50 (f. 119 v' b). The date was probably 558. See Introd., p. V.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 443, n. 1</orig></choice>Ch. ch. 58 (f. 132 v' b).</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 444, n. 1</orig></choice>His life is given in ch. 51.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 444, n. 2</orig></choice>See ch. 50 (f. 119 v' b). The date was probably 558. See Introd., p. V.</note>
          </noteGrp>
       </body>
    </text>

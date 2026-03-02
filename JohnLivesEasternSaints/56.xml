@@ -1,27 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/847">Peter and Photius</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/847 -->
          <head>Next the Fifty-Sixth History, of the Blessed <persName ref="http://syriaca.org/person/2011">Peter</persName>, Who Himself Also
             Was Chancellor and <persName ref="http://syriaca.org/person/3014">Photius</persName> the Chartulary With the Rest of His
-            Companions, From the Same Household<ptr type="noteAnchor" target="#n543-1"/>.</head>
+            Companions, From the Same Household.<ptr type="noteAnchor" target="#n543-1" n=""/></head>
          <ab>
             The history of the excellent blessed men <persName ref="http://syriaca.org/person/2011">Peter</persName> and <persName ref="http://syriaca.org/person/3014">Photius</persName> also besides
             is therefore worthy of being committed to written records; men who were
@@ -30,7 +73,7 @@
             thought worthy to despise the world, and treat all its affairs with contempt,
             and go out and go to the desert. And, in order that they might first be
             instructed and taught in a convent and in the subjection of monasticism, they
-            entered a great and renowned <placeName ref="http://syriaca.org/place/2777">convent</placeName> in the Ennaton<ptr type="noteAnchor" target="#n543-2"/> of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName> which
+            entered a great and renowned <placeName ref="http://syriaca.org/place/2777">convent</placeName> in the Ennaton<ptr type="noteAnchor" target="#n543-2" n=""/> of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName> which
             is called that of the Fathers and were received in it, giving themselves to
             humility and submission and poverty and obedience, and sorrow and fasting
             and prayer, and watching and manual work, men who had been accustomed
@@ -38,12 +81,12 @@
             labours, so much so that all the inmates of that convent great and small used
             to marvel at them, and were astonished at their type of life and sorrow and
             <pb n="198"/><pb n="544"/>tears, and their humility and obedience; so that at the time when we came
-            to <placeName ref="http://syriaca.org/place/572">Alexandria</placeName><ptr type="noteAnchor" target="#n544-1"/> we went to that convent to see them for the sake of the blessed 
+            to <placeName ref="http://syriaca.org/place/572">Alexandria</placeName><ptr type="noteAnchor" target="#n544-1" n=""/> we went to that convent to see them for the sake of the blessed 
             men themselves, inasmuch as we were acquainted with them, and
             moreover on account of the report of their manner of life, when they felt great
             joy, and would discuss with us fights against thoughts and the other works
             of excellence. When then they had completed about eighteen years in that
-            monastery in spiritual practices, the blessed <persName ref="http://syriaca.org/person/2011">Peter</persName> had<ptr type="noteAnchor" target="#n544-2"/> a <persName ref="http://syriaca.org/person/3654">brother</persName> and a <persName ref="http://syriaca.org/person/3655">sister</persName>
+            monastery in spiritual practices, the blessed <persName ref="http://syriaca.org/person/2011">Peter</persName> had<ptr type="noteAnchor" target="#n544-2" n=""/> a <persName ref="http://syriaca.org/person/3654">brother</persName> and a <persName ref="http://syriaca.org/person/3655">sister</persName>
             wearing the lay garb (<foreign xml:lang="grc">σχήμα</foreign>), as they too were living a great life in practices
             of excellence, so that they and their <persName ref="http://syriaca.org/person/3656">slaves</persName> used to learn the psalms, and kept
             hours of prayers and service as in a monastery of recluses, while they also
@@ -58,7 +101,7 @@
             set his face to return to his monastery, and they would not let him, weeping
             and adjuring him by the living God not to leave them; and thus he was
             constrained to stay. And, when he had completed five years with them,
-            he was raised by force to the bishopric<ptr type="noteAnchor" target="#n545-1"/>; and, when he had completed four
+            he was raised by force to the bishopric;<ptr type="noteAnchor" target="#n545-1" n=""/> and, when he had completed four
             years, he departed from the world with his other <persName ref="http://syriaca.org/person/3654">brother</persName>, having lived a
             spiritual and divine life. But their <persName ref="http://syriaca.org/person/3655">sister</persName> the holy old woman remained in the
             bodily life a long time, down to the writing of this history, having further
@@ -69,11 +112,11 @@
             is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n543-1" target="#a543-1" n="543-1">Sc. that Caesaria.</note>
-            <note xml:id="n543-2" target="#a543-2" n="543-2">See p. 325, 384.</note>
-            <note xml:id="n544-1" target="#a544-1" n="544-1">This must have been on his 2nd visit to Egypt (541), for he had known them before, which must have been in CP. (p. 539, n. 1), where he had never till after his visit to Egypt in 534. Further, since they were in CP. in 535 and left it before Caesaria, his visit to Caesaria in Egypt must also have been in 541; see p. 532, n. 4.</note>
-            <note xml:id="n544-2" target="#a544-2" n="544-2">Sic syr. Cf. p. 397, l. 15.</note>
-            <note xml:id="n545-1" target="#a545-1" n="545-1">Of Smyrna (p. 503). Since he was ordained with the author, the date was not earlier than 558 (p. 508, n. 1, and Introd., p. V.), and therefore, if the figures are correct, he left CP. not later than 535, but as J. saw him in CP. in 535 (p. 544, n. 1), it was not earlier than that year, so that his ordination and J.'s are fixed to 558.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 543, n. 1</orig></choice>Sc. that Caesaria.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 543, n. 2</orig></choice>See p. 325, 384.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 544, n. 1</orig></choice>This must have been on his 2nd visit to Egypt (541), for he had known them before, which must have been in CP. (p. 539, n. 1), where he had never till after his visit to Egypt in 534. Further, since they were in CP. in 535 and left it before Caesaria, his visit to Caesaria in Egypt must also have been in 541; see p. 532, n. 4.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 544, n. 2</orig></choice>Sic syr. Cf. p. 397, l. 15.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 545, n. 1</orig></choice>Of Smyrna (p. 503). Since he was ordained with the author, the date was not earlier than 558 (p. 508, n. 1, and Introd., p. V.), and therefore, if the figures are correct, he left CP. not later than 535, but as J. saw him in CP. in 535 (p. 544, n. 1), it was not earlier than that year, so that his ordination and J.'s are fixed to 558.</note>
          </noteGrp>
       </body>
    </text>

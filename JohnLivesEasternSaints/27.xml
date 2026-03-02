@@ -1,72 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/819">Susan</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/819 -->
-         <head>Next the Twenty-Seventh<ptr type="noteAnchor" target="#n339-2"/> History, of a Blessed Virgin of <persName>Christ</persName> Whose Name Was <persName ref="http://syriaca.org/person/2092">Susan</persName>.</head>
+         <head>Next the Twenty-Seventh<ptr type="noteAnchor" target="#n339-2" n=""/> History, of a Blessed Virgin of <persName>Christ</persName> Whose Name Was <persName ref="http://syriaca.org/person/2092">Susan</persName>.</head>
          <ab>
             The strong power of <persName>Christ</persName> who is God therefore, which is wont to be
             glorified and displayed in human weakness in order that no flesh. may boast
-            before him'<ptr type="noteAnchor" target="#n339-3"/>, this strengthener of the weak is wont to display its operation
+            before him',<ptr type="noteAnchor" target="#n339-3" n=""/> this strengthener of the weak is wont to display its operation
             not only through men of great size or mighty strength, but also in weak,
             feeble, powerless women, insomuch that it gives them such force and courage
             that they show mighty valour in fight not only 'with flesh and blood<note></note> (or
             <pb n="542"/><pb n="340"/>with insidious passions and the enticements of fleshly lusts and so on), <quote>but
                against principalities (<foreign xml:lang="grc">άρχας</foreign>) and authorities, and against the rulers of the
-               world of this darkness, and against evil spirits under heaven</quote><ptr type="noteAnchor" target="#n340-1"/>, so that
+               world of this darkness, and against evil spirits under heaven</quote>,<ptr type="noteAnchor" target="#n340-1" n=""/> so that
             against these they show mighty prowess and mock at them as a mighty
             man mocks at a party of babes and sucklings who make themselves ready
             and come to fight with him.
          </ab>
          <ab>
             For this also was declared to us through the most wise Paul in that he
-            says: <quote>In <persName>Christ Jesus</persName> is no male nor female, nor bond nor free</quote><ptr type="noteAnchor" target="#n340-2"/>. So
+            says: <quote>In <persName>Christ Jesus</persName> is no male nor female, nor bond nor free</quote>.<ptr type="noteAnchor" target="#n340-2" n=""/> So
             therefore this holy woman valiant in <persName>Christ</persName>, in that she astonished me by
             her appearance and speech and strength in God, did not seem to me to be
             in any way out of place in the series of histories of the saints, with whom
-            she also is pressing to enter by the same narrow gate<ptr type="noteAnchor" target="#n340-3"/>, as she has indeed
+            she also is pressing to enter by the same narrow gate,<ptr type="noteAnchor" target="#n340-3" n=""/> as she has indeed
             already entered.
          </ab>
          <ab>
             This blessed woman, as by inquiry we succeeded in learning accurately
-            from her, was by her birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/285">Arzun</placeName><ptr type="noteAnchor" target="#n340-4"/> of the Persians. And,
+            from her, was by her birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/285">Arzun</placeName><ptr type="noteAnchor" target="#n340-4" n=""/> of the Persians. And,
             when this woman was a girl of eight, that is of high family (<foreign xml:lang="grc">γένος</foreign>), from her
             <pb n="543"/><pb n="341"/>very beginning the light of her life rose in her mind, until men marvelled
             at her sorrow and modesty and devoutness; and her name given her by her
-            <persName ref="http://syriaca.org/person/3706">parents</persName>, as by way of prophecy, was <quote>blessing</quote><ptr type="noteAnchor" target="#n341-1"/>, who truly received a
+            <persName ref="http://syriaca.org/person/3706">parents</persName>, as by way of prophecy, was <quote>blessing</quote>,<ptr type="noteAnchor" target="#n341-1" n=""/> who truly received a
             heavenly blessing. This virtuous woman formed the plan of going and
             worshipping in the holy places in which the salvation of our life was effected,
             and she continued asking her <persName ref="http://syriaca.org/person/3706">parents</persName>' leave, and they would laugh at her
-            childhood and say: <quote>You have not yet learned to interpret<ptr type="noteAnchor" target="#n341-2"/>, and do you
+            childhood and say: <quote>You have not yet learned to interpret,<ptr type="noteAnchor" target="#n341-2" n=""/> and do you
                wish to go to <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>?</quote>, but she on her part was silent and kept it in her
-            heart<ptr type="noteAnchor" target="#n341-3"/>. And<ptr type="noteAnchor" target="#n341-4"/> in the same days she prayed and said: <quote>Lord, if thou wishest
-               for the life of my wretched soul, make thy way straight before me<ptr type="noteAnchor" target="#n341-5"/> and
+            heart.<ptr type="noteAnchor" target="#n341-3" n=""/> And<ptr type="noteAnchor" target="#n341-4" n=""/> in the same days she prayed and said: <quote>Lord, if thou wishest
+               for the life of my wretched soul, make thy way straight before me<ptr type="noteAnchor" target="#n341-5" n=""/> and
                provide an escort for me, and save my soul from the stain of the hateful
                mire of this world</quote>. Then the child, as she herself would repeat to us,
             when I pressed her much, placed her soul in the Lord's hands and fled.
-            And after traversing three or four<ptr type="noteAnchor" target="#n341-6"/> miles she found a large <persName ref="http://syriaca.org/person/3658">party of women
+            And after traversing three or four<ptr type="noteAnchor" target="#n341-6" n=""/> miles she found a large <persName ref="http://syriaca.org/person/3658">party of women
                <pb n="544"/><pb n="342"/>and men</persName> travelling along the road to <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>; and, having joined them
             and made inquiries and learnt it, she rejoiced and would exult and praise
             God, and would say: <quote>Blessed am I, for the Lord has vished for my salvation, 
                and has answered me according to my petition. And far be it from me
                henceforth to return for the world or for kin (<foreign xml:lang="grc">γένος</foreign>), or for <persName ref="http://syriaca.org/person/3706">parents</persName>, and die.
-               But I am going to him that led me, and he himself will be to me father<ptr type="noteAnchor" target="#n342-1"/> and
+               But I am going to him that led me, and he himself will be to me father<ptr type="noteAnchor" target="#n342-1" n=""/> and
                brother, and Lord and Saviour in both worlds</quote>. And thus she reachedmon
             <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName> with joy; and, when she had worshipped there, and her <persName ref="http://syriaca.org/person/3660">companions</persName>
             desired to go back, they continued requesting her to return with them as
@@ -75,7 +118,7 @@
             made inquiries to find a monastery in which to live; and she learned that
             there was a large <placeName ref="http://syriaca.org/place/3049">women's monastery</placeName> betwen <placeName ref="http://syriaca.org/place/674">Ascalon</placeName> and <placeName ref="http://syriaca.org/place/87">Gaza</placeName>; and thither
             she directed her steps; and she made her wish know to the portress. And,
-            since that <placeName ref="http://syriaca.org/place/3049">monastery</placeName> was severe (?)<ptr type="noteAnchor" target="#n342-2"/>, that old woman said to her: <quote>You,
+            since that <placeName ref="http://syriaca.org/place/3049">monastery</placeName> was severe (?),<ptr type="noteAnchor" target="#n342-2" n=""/> that old woman said to her: <quote>You,
                my daughter, cannot live here, since you are a girl, and you cannot bear
                <pb n="545"/><pb n="343"/>burdens and labours; and moreover also your own delicacy is unsuited for
                a monastery</quote>. But the devout woman because she was a stranger and in
@@ -111,7 +154,7 @@
             name before entering the <placeName ref="http://syriaca.org/place/3049">monastery</placeName>, lest any of her kin (<foreign xml:lang="grc">γένος</foreign>) should come
             and make inquiries and discover her; and she took the name of <persName ref="http://syriaca.org/person/2092">Susan</persName>. When
             she had been practising these habits for about ten years, a persecution was
-            set on foot against their <placeName ref="http://syriaca.org/place/3049">monastery</placeName> to make them either submit<ptr type="noteAnchor" target="#n344-1"/> or quit.<ptr type="noteAnchor" target="#n344-2"/>
+            set on foot against their <placeName ref="http://syriaca.org/place/3049">monastery</placeName> to make them either submit<ptr type="noteAnchor" target="#n344-1" n=""/> or quit.<ptr type="noteAnchor" target="#n344-2" n=""/>
             <pb n="547"/><pb n="345"/>Since it was a large and celebrated convent, the majority of them were
             detained and conformed, and some were scattered this way and that. But
             the blessed woman was pressed by two alternatives, one of removing from
@@ -119,7 +162,7 @@
             to leave, and go into the desert beyond <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, and live there.
             And she left at once, while a great division arose even among those who
             had submitted in that they said, <quote>Now that <persName ref="http://syriaca.org/person/2092">Susan</persName> has left, neither will we
-               stay</quote>. But of the leading women who had not conformed five of them<ptr type="noteAnchor" target="#n345-1"/>
+               stay</quote>. But of the leading women who had not conformed five of them<ptr type="noteAnchor" target="#n345-1" n=""/>
             attached themselves to her, while she was prepared to go alone; and these
             would say to her : <quote>It is impossible for us to be separated from you</quote>. But
             she, after she had been compelled, revealed her intention to them, saying:
@@ -128,10 +171,10 @@
             as well stated their determination, <quote>We too will go with you to the desert</quote>.
             And, when they refused to give way, they embarked on a ship and crossed
             to <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>. And the blessed woman heard a report of a place in the
-            desert beyond <placeName ref="http://syriaca.org/place/2819">the house of Mar Menas</placeName><ptr type="noteAnchor" target="#n345-2"/>; and she directed her steps thither,
+            desert beyond <placeName ref="http://syriaca.org/place/2819">the house of Mar Menas</placeName>;<ptr type="noteAnchor" target="#n345-2" n=""/> and she directed her steps thither,
             <pb n="548"/><pb n="346"/>it being about two miles from <placeName ref="http://syriaca.org/place/2820">a village named Mendis</placeName>; which finally became
-            the abode of the blessed Syrians<ptr type="noteAnchor" target="#n346-1"/>, but took its beginning from the blessed
-            woman<ptr type="noteAnchor" target="#n346-2"/>. And there was there a tower that had been erected for protection
+            the abode of the blessed Syrians,<ptr type="noteAnchor" target="#n346-1" n=""/> but took its beginning from the blessed
+            woman.<ptr type="noteAnchor" target="#n346-2" n=""/> And there was there a tower that had been erected for protection
             against barbarians; and the other five also went in with virtuous zeal, and
             they took up their abode in it. And one of them went in and obtained
             material for work for them from that village; and thus they laboured with
@@ -145,7 +188,7 @@
             <persName ref="http://syriaca.org/person/3660">companions</persName> or anyone else being aware of it; and she took no food or
             anything. And thenceforth like that which is written of Ishmael the son
             of Abraham, that he lived in the desert of Paran and was there instructed
-            <pb n="549"/><pb n="347"/>in the bow<ptr type="noteAnchor" target="#n347-1"/>, so it would be fitting to say of this woman also that she lived
+            <pb n="549"/><pb n="347"/>in the bow,<ptr type="noteAnchor" target="#n347-1" n=""/> so it would be fitting to say of this woman also that she lived
             in a cave in the desert, and was instructed in struggles and acts of valour
             against powerful demons, who show the power of their wickedness more
             especially in the desert. But her <persName ref="http://syriaca.org/person/3660">companions</persName>, when a day and two days
@@ -186,7 +229,7 @@
                while I am lying flat on my face, and to make me eat the sweat of your
                faces, far be it from me! But for the support of my body it is enough
                that you bring me a jar of water on the first day of the week, and one cake
-               (<foreign xml:lang="grc">παξαμάς</foreign>)<ptr type="noteAnchor" target="#n349-1"/> of bread a day</quote>. And thus they did for her for three years.
+               (<foreign xml:lang="grc">παξαμάς</foreign>)<ptr type="noteAnchor" target="#n349-1" n=""/> of bread a day</quote>. And thus they did for her for three years.
             But, after the fame of the blessed women had been heard everywhere, and
             moreover where they lived, many persons would come to them from <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, 
             and from the villages of <placeName ref="http://syriaca.org/place/2810">Libya</placeName>, and further afterwards a great old man,
@@ -204,16 +247,16 @@
             rejoiced, and they gave thanks to the Lord that they were gratified with
             the quiet of the desert. And thereupon they began to plant a cell in that
             desert, and others moreover came thither, of some of whom a record has
-            been set down by us in one of the preceding histories<ptr type="noteAnchor" target="#n350-1"/>. And that place
+            been set down by us in one of the preceding histories.<ptr type="noteAnchor" target="#n350-1" n=""/> And that place
             was colonized, while the blessed women also were among them. Accordingly 
             they formed a plan of preparing a separate place for them, in order
             not to give occasion for evil speaking among persons outside; and on
             account of the blessed <persName ref="http://syriaca.org/person/2092">Susan</persName> they did not like to speak lest she should be
-            offended<ptr type="noteAnchor" target="#n351-2"/>. But she was occupied with the same thought, <quote>Now that God
+            offended.<ptr type="noteAnchor" target="#n351-2" n=""/> But she was occupied with the same thought, <quote>Now that God
                has brought his bondmen to this place, neither is it possible for those of our
                female sex (<foreign xml:lang="grc">γένος</foreign>) to pass their lives among them (since the evil one's attack
                <pb n="553"/><pb n="351"/>upon saints is generally made through women even when they are
-               absent, how much more therefore in their presence!), even if so be we<ptr type="noteAnchor" target="#n351-1"/>
+               absent, how much more therefore in their presence!), even if so be we<ptr type="noteAnchor" target="#n351-1" n=""/>
                continue to run with caution after spiritual things. But now let us withdraw 
                into the desert beyond this</quote>. While the blessed men were ashamed
             on account of the saint's serious character, she herself addressed them in
@@ -221,17 +264,17 @@
             undertook to build and prepare for them a place in the vicinity of that village,
             while she herself intended to move farther up country; and they stood up
             and opposed her, saying: <quote>For you, mother, in a city, if you dwell in it,
-               it is a desert to you<ptr type="noteAnchor" target="#n351-2"/>; but look at these souls who are hanging upon you<ptr type="noteAnchor" target="#n351-3"/></quote>.
+               it is a desert to you;<ptr type="noteAnchor" target="#n351-2" n=""/> but look at these souls who are hanging upon you<ptr type="noteAnchor" target="#n351-3" n=""/></quote>.
             Then she gave way to them; and they built an enclosed monastery for them
             and a tower inside it; and they took up their abode in it. But the blessed
             woman through strength proceeding from Grace received mighty power
             over fiends, since they would thenceforth set themselves in array against
             her night and day in the form (<foreign xml:lang="grc">τύπος</foreign>) of human beings, and they would come
             against her with all varieties of weapons; and she like a strong man who
-            <pb n="554"/><pb n="352"/>despises the sickly men who threaten him would mock at them<ptr type="noteAnchor" target="#n352-1"/>. And the
+            <pb n="554"/><pb n="352"/>despises the sickly men who threaten him would mock at them.<ptr type="noteAnchor" target="#n352-1" n=""/> And the
             fame of her strength was heard everywhere, so that the fame of her perfection 
             instigated us also to see her as well as the holy men who were there,
-            fifteen years after she had settled in the same desert<ptr type="noteAnchor" target="#n352-2"/>. And, when we had
+            fifteen years after she had settled in the same desert.<ptr type="noteAnchor" target="#n352-2" n=""/> And, when we had
             been privileged to see her that I do not like to name a woman, I was amazed
             at the words of solemn feeling and of the wisdom of God that proceeded from
             her mouth during the space of more than twenty days that I was with these
@@ -280,11 +323,11 @@
                      that of the fiends, so that <persName>Christ</persName> now seems to be a runaway and one that
                      <pb n="557"/><pb n="355"/>can be overcome by the demons, and they are found to be strong and
                      vanquishers of the power of God. How are you a disciple of him who said:
-                     <quote>Ye shall trample on all the power of the enemy</quote><ptr type="noteAnchor" target="#n355-1"/>?<!-- There seems to be an extra inverted comma in Brooks. -->
+                     <quote>Ye shall trample on all the power of the enemy</quote>?<ptr type="noteAnchor" target="#n355-1" n=""/><!-- There seems to be an extra inverted comma in Brooks. -->
                      You have distressed me by causing the fiends to rejoice. If necessary,
-                     were it not for other reasons<ptr type="noteAnchor" target="#n355-2"/>, you should only last night have been hearing
-                     the shapes<ptr type="noteAnchor" target="#n355-3"/> and voices of the struggles of the demons which they showed
-                     me, and have been marvelling<ptr type="noteAnchor" target="#n355-4"/> at them. And for my part I know that the
+                     were it not for other reasons,<ptr type="noteAnchor" target="#n355-2" n=""/> you should only last night have been hearing
+                     the shapes<ptr type="noteAnchor" target="#n355-3" n=""/> and voices of the struggles of the demons which they showed
+                     me, and have been marvelling<ptr type="noteAnchor" target="#n355-4" n=""/> at them. And for my part I know that the
                      Lord's power surrounds my weakness like a wall of bronze, and there is
                      no other power that can resist it</quote>. While the weak woman was boldly
             saying these words in our presence, we looked at one another, while she
@@ -309,44 +352,44 @@
             that place, praising God.
          </ab>
          <ab>
-            The history of a blessed virgin of <persName>Christ</persName> whose name was <persName ref="http://syriaca.org/person/2092">Susan</persName><ptr type="noteAnchor" target="#n356-1"/> is ended.
+            The history of a blessed virgin of <persName>Christ</persName> whose name was <persName ref="http://syriaca.org/person/2092">Susan</persName><ptr type="noteAnchor" target="#n356-1" n=""/> is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n339-2" target="#a339-2" n="339-2">Mss. om.; see Introd., p. X.</note>
-            <note xml:id="n339-3" target="#a339-3" n="339-3">I Cor., I, 29.</note>
-            <note xml:id="n340-1" target="#a340-1" n="340-1">Eph., VI, 12.</note>
-            <note xml:id="n340-2" target="#a340-2" n="340-2">Gal., III, 28.</note>
-            <note xml:id="n340-3" target="#a340-3" n="340-3">Matth., XIII, 24.</note>
-            <note xml:id="n340-4" target="#a340-4" n="340-4">Arzanene.</note>
-            <note xml:id="n341-1" target="#a341-1" n="341-1">Sc. Eulogia.</note>
-            <note xml:id="n341-2" target="#a341-2" n="341-2">Sc. writing, i.e. to read(?). To make the meaning clearer the scribe of B has inserted <!-- eb, Syriac. --> (speech).</note>
-            <note xml:id="n341-3" target="#a341-3" n="341-3">Luke, II, 19.</note>
-            <note xml:id="n341-4" target="#a341-4" n="341-4">The scribe of B has inserted <hi rend="singleQuote">about 7 years afterwards</hi>, probably because the notion of a child of 8 setting off alone for Jerusalem staggered him, though he thereby makes the words <hi rend="singleQuote">in the same days</hi> meaningless. That she was really only 8 is scarcely credible, and is probably one of the author's loose statements.</note>
-            <note xml:id="n341-5" target="#a341-5" n="341-5">Ps. V, 9.</note>
-            <note xml:id="n341-6" target="#a341-6" n="341-6">B '4'. V. D. and L. wrongly <hi rend="singleQuote">quadraginta</hi>.</note>
-            <note xml:id="n342-1" target="#a342-1" n="342-1">B ins. <hi rend="singleQuote">and mother</hi>.</note>
-            <note xml:id="n342-2" target="#a342-2" n="342-2">This is appy. the meaning of <!-- eb, Syriac. --> here, as V. D. and L. and P. Smith take it; but the word expresses size of intensity, and, though it is not infrequently applied to ascetic practices in the sense of 'severe', it is a great stretch of language to use it of a monastery in which severe asceticism is practiced. In ch. 58 (f. 133 v'b) it is applied to a monastery in the sense of 'extensive'; but it seems out of place there.</note>
-            <note xml:id="n344-1" target="#a344-1" n="344-1">B ins. <hi rend="singleQuote">to the implicity of Chalcedon</hi>.</note>
-            <note xml:id="n344-2" target="#a344-2" n="344-2">519 (sce. p. 352, n. 2). The persecution in Palestine probably began sooner than in Mesopotamia, where Monophysites were in a large majority.</note>
-            <note xml:id="n345-1" target="#a345-1" n="345-1">Sic syr.</note>
-            <note xml:id="n345-2" target="#a345-2" n="345-2">See p. 209, n.2.</note>
-            <note xml:id="n346-1" target="#a346-1" n="346-1">See p. 190. At p. 209 the desert of Mendis is said to be 12 miles from Mar Mensas.</note>
-            <note xml:id="n346-2" target="#a346-2" n="346-2">B <hi rend="singleQuote">women</hi>.</note>
-            <note xml:id="n347-1" target="#a347-1" n="347-1">Gen., XXI, 20, 21.</note>
-            <note xml:id="n349-1" target="#a349-1" n="349-1">Bread twice cooked like our biscuit, and therefore hard and capable of being kept a considerable time. The meaning perh. is that they were to bring 7 cakes every Sunday.</note>
-            <note xml:id="n350-1" target="#a350-1" n="350-1">Ch. 13.</note>
-            <note xml:id="n350-2" target="#a350-2" n="350-2">She had therefore left the cave after the 3 years, and it seems likely that it was the same cave which Thomas of Amida afterwards occupied (p. 191), though it is there called a pit.</note>
-            <note xml:id="n351-1" target="#a351-1" n="351-1">B 'they' (fem.).</note>
-            <note xml:id="n351-2" target="#a351-2" n="351-2">Sic syr.</note>
-            <note xml:id="n351-3" target="#a351-3" n="351-3">B <hi rend="singleQuote">like creepers on walls</hi>.</note>
-            <note xml:id="n352-1" target="#a352-1" n="352-1">Cf. p. 340.</note>
-            <note xml:id="n352-2" target="#a352-2" n="352-2">J.'s visit to Egypt was in 534 (see Introd., p. IV); hence we may place Susan's stay in Palestine from 509 to 519; see p. 344 to p. 356.</note>
-            <note xml:id="n352-3" target="#a352-3" n="352-3"><!-- eb, Syriac. --> must come from root <!-- eb, Syriac. --> (<foreign>se movit</foreign>) which P. Smith gives to Neo-Syr. only (V. D. and L <hi rend="singleQuote"><foreign>arrepentos</foreign></hi>). P. S. refers to this passage under <!-- eb, Syriac. --> = <foreign>insipidus</foreign>; but this makes no sense.</note>
-            <note xml:id="n355-1" target="#a355-1" n="355-1">Luke, X, 19.</note>
-            <note xml:id="n355-2" target="#a355-2" n="355-2">B. om., probably because the scribe did not understand these very obscure words. For <hi rend="singleQuote">you following B has 'I'.</hi></note>
-            <note xml:id="n355-3" target="#a355-3" n="355-3">Sic syr.</note>
-            <note xml:id="n355-4" target="#a355-4" n="355-4">Or <hi rend="singleQuote">would have marveleld</hi>.</note>
-            <note xml:id="n356-1" target="#a356-1" n="356-1">Ms. om.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 339, n. 2</orig></choice>Mss. om.; see Introd., p. X.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 339, n. 3</orig></choice>I Cor., I, 29.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 340, n. 1</orig></choice>Eph., VI, 12.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 340, n. 2</orig></choice>Gal., III, 28.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 340, n. 3</orig></choice>Matth., XIII, 24.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 340, n. 4</orig></choice>Arzanene.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 341, n. 1</orig></choice>Sc. Eulogia.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 341, n. 2</orig></choice>Sc. writing, i.e. to read(?). To make the meaning clearer the scribe of B has inserted (speech).</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 341, n. 3</orig></choice>Luke, II, 19.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 341, n. 4</orig></choice>The scribe of B has inserted <hi rend="singleQuotes">about 7 years afterwards</hi>, probably because the notion of a child of 8 setting off alone for Jerusalem staggered him, though he thereby makes the words <hi rend="singleQuotes">in the same days</hi> meaningless. That she was really only 8 is scarcely credible, and is probably one of the author's loose statements.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 341, n. 5</orig></choice>Ps. V, 9.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 341, n. 6</orig></choice>B '4'. V. D. and L. wrongly <hi rend="singleQuotes">quadraginta</hi>.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 342, n. 1</orig></choice>B ins. <hi rend="singleQuotes">and mother</hi>.</note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 342, n. 2</orig></choice>This is appy. the meaning of here, as V. D. and L. and P. Smith take it; but the word expresses size of intensity, and, though it is not infrequently applied to ascetic practices in the sense of 'severe', it is a great stretch of language to use it of a monastery in which severe asceticism is practiced. In ch. 58 (f. 133 v'b) it is applied to a monastery in the sense of 'extensive'; but it seems out of place there.</note>
+            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 344, n. 1</orig></choice>B ins. <hi rend="singleQuotes">to the implicity of Chalcedon</hi>.</note>
+            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 344, n. 2</orig></choice>519 (sce. p. 352, n. 2). The persecution in Palestine probably began sooner than in Mesopotamia, where Monophysites were in a large majority.</note>
+            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 345, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 345, n. 2</orig></choice>See p. 209, n.2.</note>
+            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 346, n. 1</orig></choice>See p. 190. At p. 209 the desert of Mendis is said to be 12 miles from Mar Mensas.</note>
+            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 346, n. 2</orig></choice>B <hi rend="singleQuotes">women</hi>.</note>
+            <note xml:id="n21" target="#a21" n="21"><choice><reg/><orig>p. 347, n. 1</orig></choice>Gen., XXI, 20, 21.</note>
+            <note xml:id="n22" target="#a22" n="22"><choice><reg/><orig>p. 349, n. 1</orig></choice>Bread twice cooked like our biscuit, and therefore hard and capable of being kept a considerable time. The meaning perh. is that they were to bring 7 cakes every Sunday.</note>
+            <note xml:id="n23" target="#a23" n="23"><choice><reg/><orig>p. 350, n. 1</orig></choice>Ch. 13.</note>
+            <note xml:id="n24" target="#a24" n="24"><choice><reg/><orig>p. 350, n. 2</orig></choice>She had therefore left the cave after the 3 years, and it seems likely that it was the same cave which Thomas of Amida afterwards occupied (p. 191), though it is there called a pit.</note>
+            <note xml:id="n25" target="#a25" n="25"><choice><reg/><orig>p. 351, n. 1</orig></choice>B 'they' (fem.).</note>
+            <note xml:id="n26" target="#a26" n="26"><choice><reg/><orig>p. 351, n. 2</orig></choice>Sic syr.</note>
+            <note xml:id="n27" target="#a27" n="27"><choice><reg/><orig>p. 351, n. 3</orig></choice>B <hi rend="singleQuotes">like creepers on walls</hi>.</note>
+            <note xml:id="n28" target="#a28" n="28"><choice><reg/><orig>p. 352, n. 1</orig></choice>Cf. p. 340.</note>
+            <note xml:id="n29" target="#a29" n="29"><choice><reg/><orig>p. 352, n. 2</orig></choice>J.'s visit to Egypt was in 534 (see Introd., p. IV); hence we may place Susan's stay in Palestine from 509 to 519; see p. 344 to p. 356.</note>
+            <note xml:id="n30" target="#a30" n="30"><choice><reg/><orig>p. 352, n. 3</orig></choice>must come from root (<foreign>se movit</foreign>) which P. Smith gives to Neo-Syr. only (V. D. and L <hi rend="singleQuotes"><foreign>arrepentos</foreign></hi>). P. S. refers to this passage under = <foreign>insipidus</foreign>; but this makes no sense.</note>
+            <note xml:id="n31" target="#a31" n="31"><choice><reg/><orig>p. 355, n. 1</orig></choice>Luke, X, 19.</note>
+            <note xml:id="n32" target="#a32" n="32"><choice><reg/><orig>p. 355, n. 2</orig></choice>B. om., probably because the scribe did not understand these very obscure words. For <hi rend="singleQuotes">you following B has 'I'.</hi></note>
+            <note xml:id="n33" target="#a33" n="33"><choice><reg/><orig>p. 355, n. 3</orig></choice>Sic syr.</note>
+            <note xml:id="n34" target="#a34" n="34"><choice><reg/><orig>p. 355, n. 4</orig></choice>Or <hi rend="singleQuotes">would have marveleld</hi>.</note>
+            <note xml:id="n35" target="#a35" n="35"><choice><reg/><orig>p. 356, n. 1</orig></choice>Ms. om.</note>
          </noteGrp>
       </body>
    </text>

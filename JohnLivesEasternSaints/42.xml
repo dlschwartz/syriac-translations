@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/833">Mari, Sergius, and Daniel</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/833 -->
@@ -24,7 +67,7 @@
             Who Themselves Also as Well Are Laid in the Same House.</head>
          <ab>
             These three blessed men therefore ended their courses here in the <placeName ref="http://syriaca.org/place/586">royal 
-               city</placeName>. This blessed <persName ref="http://syriaca.org/person/1876">Mari</persName> was by birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName><ptr type="noteAnchor" target="#n453-1"/>, and received
+               city</placeName>. This blessed <persName ref="http://syriaca.org/person/1876">Mari</persName> was by birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName>,<ptr type="noteAnchor" target="#n453-1" n=""/> and received
             training from a blessed great man of God, who himself also was named <persName ref="http://syriaca.org/person/1876">Mari</persName>,
             a man of labours and a <persName>Nazirite</persName>, besides being also versed in the Scriptures
             and a doctor, and was at first a clergyman of the church also, but at last,
@@ -36,7 +79,7 @@
             marvelled at his practices, even as he stubbornly endured many conflicts
             (<foreign xml:lang="grc">άγών</foreign>) of persecution arising from the heretics. And, whereas in the previous
             histories we have recorded a small proportion of facts about this same
-            blessed man<ptr type="noteAnchor" target="#n454-1"/>, we now forbear to relate his history. This blessed <persName ref="http://syriaca.org/person/1876">Mari</persName>
+            blessed man,<ptr type="noteAnchor" target="#n454-1" n=""/> we now forbear to relate his history. This blessed <persName ref="http://syriaca.org/person/1876">Mari</persName>
             therefore is this man's disciple, who took upon himself his master's obedience
             to the full, and in practising it even went beyond him, in constant fasting
             and perfect abstinence, and much watching, with the rest of the excellent
@@ -52,7 +95,7 @@
             This blessed <persName ref="http://syriaca.org/person/2070">Sergius</persName> was archimandrite of the convent called that of the
             house of <placeName ref="http://syriaca.org/place/2784">Mar Gyln</placeName>, in the territory of the city of <placeName ref="http://syriaca.org/place/2737">Amida</placeName>; and moreover the
             blessed <persName ref="http://syriaca.org/person/1672">Daniel</persName> also was archimandrite of the monastery called that of the
-            <placeName ref="http://syriaca.org/place/2822">Mšyk’</placeName><ptr type="noteAnchor" target="#n455-1"/> in the district of Sophanene; both of whom together came up hither
+            <placeName ref="http://syriaca.org/place/2822">Mšyk’</placeName><ptr type="noteAnchor" target="#n455-1" n=""/> in the district of Sophanene; both of whom together came up hither
             to the <placeName ref="http://syriaca.org/place/586">royal city</placeName> for the sake of the needs of their convents, they also too
             being famous for devout practices of excellence and monastic labours. And,
             while they were trusting to human assistance for their convents, something
@@ -66,13 +109,13 @@
             all the other holy convents to his glory for ever and ever. Amen!
          </ab>
          <ab>
-            The history of the three blessed archimandrites. <persName ref="http://syriaca.org/person/1876">Mari</persName>, <persName ref="http://syriaca.org/person/2070">Sergius</persName>, and <persName ref="http://syriaca.org/person/1672">Daniel</persName>, is ended.<ptr type="noteAnchor" target="#n456-1"/>
+            The history of the three blessed archimandrites. <persName ref="http://syriaca.org/person/1876">Mari</persName>, <persName ref="http://syriaca.org/person/2070">Sergius</persName>, and <persName ref="http://syriaca.org/person/1672">Daniel</persName>, is ended.<ptr type="noteAnchor" target="#n456-1" n=""/>
          </ab>
          <noteGrp>
-            <note xml:id="n453-1" target="#a453-1" n="453-1">Syr. <hi rend="singleQuote">hanzit</hi>.</note>
-            <note xml:id="n454-1" target="#a454-1" n="454-1">Ch. 9. There however he is called Mare.</note>
-            <note xml:id="n455-1" target="#a455-1" n="455-1">V. D. and L. render <hi rend="singleQuote">Tabernaculorum</hi>, and would therefore appy. read <!-- eb, Syriac. -->.</note>
-            <note xml:id="n456-1" target="#a456-1" n="456-1">Ms. om.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 453, n. 1</orig></choice>Syr. <hi rend="singleQuotes">hanzit</hi>.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 454, n. 1</orig></choice>Ch. 9. There however he is called Mare.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 455, n. 1</orig></choice>V. D. and L. render <hi rend="singleQuotes">Tabernaculorum</hi>, and would therefore appy. read .</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 456, n. 1</orig></choice>Ms. om.</note>
          </noteGrp>
       </body>
    </text>

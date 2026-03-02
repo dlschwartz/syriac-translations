@@ -1,33 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/817">John of Hephaestopolis</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/817 -->
          <head>Next the Twenty-Fifth History, of the Blessed <persName ref="http://syriaca.org/person/74">John</persName> Bishop of the City Of
-            <placeName ref="http://syriaca.org/place/2788">Hephaestu</placeName><ptr type="noteAnchor" target="#n324-2"/> In <placeName>Egypt</placeName>, Who Repeats the Conflicts (<foreign xml:lang="grc">άγών</foreign>) of the Holy <persName ref="http://syriaca.org/person/1813">John</persName> Who Precedes Him.</head>
+            <placeName ref="http://syriaca.org/place/2788">Hephaestu</placeName><ptr type="noteAnchor" target="#n324-2" n=""/> In <placeName>Egypt</placeName>, Who Repeats the Conflicts (<foreign xml:lang="grc">άγών</foreign>) of the Holy <persName ref="http://syriaca.org/person/1813">John</persName> Who Precedes Him.</head>
          <ab>
             Since the purpose of our work and the course of our history aims at
             showing and describing the circumstances of the perfect lives which the saints
             lived, therefore we say that in the order of our history we will insert spiritual
-            pastors<ptr type="noteAnchor" target="#n324-3"/>, and will also in our work state the circumstances of their activity
+            pastors,<ptr type="noteAnchor" target="#n324-3" n=""/> and will also in our work state the circumstances of their activity
             <pb n="527"/><pb n="325"/>in God's church, since they also were complete and perfect in both forms of
-            beauty<ptr type="noteAnchor" target="#n325-1"/>; and for this reason, though we seem to be passing from one subject
+            beauty;<ptr type="noteAnchor" target="#n325-1" n=""/> and for this reason, though we seem to be passing from one subject
             to another, we did not think it alien to the excellent purpose to describe and
             hand down to remembrance for the glory of God the life that was practised
             by these divine men also.
@@ -36,32 +79,32 @@
             This blessed man again, the great and divine <persName ref="http://syriaca.org/person/74">John</persName> the bishop, was by
             his birth (<foreign xml:lang="grc">γένος</foreign>) a <persName>Syrian</persName>, that is a Palestinian, from tlhe city of <placeName ref="http://syriaca.org/place/87">Gaza</placeName>, and he
             lived in a great <placeName ref="http://syriaca.org/place/2832">convent</placeName>convent called that of father <persName>Peter the Iberian</persName>, the doer of
-            great and apostolic signs<ptr type="noteAnchor" target="#n325-2"/>. This <placeName ref="http://syriaca.org/place/2832">convent</placeName> was expelled with the rest, and
+            great and apostolic signs.<ptr type="noteAnchor" target="#n325-2" n=""/> This <placeName ref="http://syriaca.org/place/2832">convent</placeName> was expelled with the rest, and
             came into the territory of <placeName ref="http://syriaca.org/place/2734">Alexandria</placeName>; and there it lived in a place called
-            <placeName ref="http://syriaca.org/place/473">Ennaton</placeName> which means 'ninth<note></note>, viz. miles<ptr type="noteAnchor" target="#n325-3"/>; and there the saint dwelt with the
+            <placeName ref="http://syriaca.org/place/473">Ennaton</placeName> which means 'ninth<note></note>, viz. miles;<ptr type="noteAnchor" target="#n325-3" n=""/> and there the saint dwelt with the
             rest of his <placeName ref="http://syriaca.org/place/2832">convent</placeName>, living a devout life and following great and divine practices.
             While the church was still at peace in <placeName ref="http://syriaca.org/place/2734">Alexandria</placeName>, and the blessed <persName ref="http://syriaca.org/person/784">Theodosius</persName>
-            was seated on his throne<ptr type="noteAnchor" target="#n325-4"/>, he heard of his manner of life and of his teaching,
+            was seated on his throne,<ptr type="noteAnchor" target="#n325-4" n=""/> he heard of his manner of life and of his teaching,
             and sent and seized him and made him bishop in one of the cities of <placeName>Egypt</placeName>
-            which is called <placeName ref="http://syriaca.org/place/2788">Hephaestu</placeName>. After a period of such-and-such a number<ptr type="noteAnchor" target="#n325-5"/> of
+            which is called <placeName ref="http://syriaca.org/place/2788">Hephaestu</placeName>. After a period of such-and-such a number<ptr type="noteAnchor" target="#n325-5" n=""/> of
             <pb n="528"/><pb n="326"/>years during which the blessed man had distinguished himself in his pastorate, 
             to which he had been called by the providence of God against his own
             will, preparations for persecutions were then stirred up against her whom
-            one of the doctors names <quote>the <persName>Egyptian</persName> virgin</quote><ptr type="noteAnchor" target="#n326-1"/>, and severe fighting and
+            one of the doctors names <quote>the <persName>Egyptian</persName> virgin</quote>,<ptr type="noteAnchor" target="#n326-1" n=""/> and severe fighting and
             much slaughter took place in it, as is common in that great city; and the blessed
             archbishop <persName ref="http://syriaca.org/person/784">Theodosius</persName> with the rest of the eminent men of his jurisdiction
-            were<ptr type="noteAnchor" target="#n326-2"/> driven from their sees, and they were also invited to the royal city and
+            were<ptr type="noteAnchor" target="#n326-2" n=""/> driven from their sees, and they were also invited to the royal city and
             went up thither through certain eminent men attached to the court, the
             adversaries thinking that by threats or blandishments they might perhaps
-            bring them to communicate with them<ptr type="noteAnchor" target="#n326-3"/>. And, when they resisted strenuously
+            bring them to communicate with them.<ptr type="noteAnchor" target="#n326-3" n=""/> And, when they resisted strenuously
             and they were unable to overcome the constancy that was in their souls, a
-            well-known<ptr type="noteAnchor" target="#n326-4"/> and cruel place of exile (<foreign xml:lang="grc">έξορία</foreign>) was then given to the holy
+            well-known<ptr type="noteAnchor" target="#n326-4" n=""/> and cruel place of exile (<foreign xml:lang="grc">έξορία</foreign>) was then given to the holy
             archbishop himself and the whole of his company (<foreign xml:lang="grc">συνοδία</foreign>), the bishops with
             the most eminent clergy (<foreign xml:lang="grc">χλήρος</foreign>), about three hundred of them, in the interior
             of <placeName ref="http://syriaca.org/place/2854">Thrace</placeName> a day's journey (<foreign xml:lang="grc">μανσίων</foreign>) off, a certain fortress (<foreign xml:lang="grc">xάoτρa</foreign>) called
             Dercus, to which also we often used to go to visit the same saints, as well as
             the blessed man the perfect and great old man <persName ref="http://syriaca.org/person/1524">Zʿura</persName> the celebrated <persName>Syrian</persName>
-            <pb n="529"/><pb n="327"/>from the country of Sophanene<ptr type="noteAnchor" target="#n327-1"/>, who also was confined with them; and
+            <pb n="529"/><pb n="327"/>from the country of Sophanene,<ptr type="noteAnchor" target="#n327-1" n=""/> who also was confined with them; and
             thenceforth they were kept in custody there, though the Christ-loving
             <persName ref="http://syriaca.org/person/779">Theodora</persName>, who was perhaps appointed queen by God to be a support for the
             persecuted against the cruelty of the times, showed great attention to them.
@@ -87,14 +130,14 @@
                the benefit that we ourselves are now doing to God's church? for lo! we are
                unwilling to cure or heal even those that come to us buffeted and bruised
                from a journey of sixty days</quote>. And these things he would say weeping, <quote>I
-                  stand in awe of him who is the head<ptr type="noteAnchor" target="#n328-1"/>; otherwise, as <persName>Christ</persName> lives, nothing
+                  stand in awe of him who is the head;<ptr type="noteAnchor" target="#n328-1" n=""/> otherwise, as <persName>Christ</persName> lives, nothing
                   would have prevented me from performing ordination (<foreign xml:lang="grc">χειροτονία</foreign>) in the great
                   church of the city if I had found opportunity, or in an open space (?) (<foreign xml:lang="grc">χώρος</foreign>) in
-                  the city in the sight of all men</quote><ptr type="noteAnchor" target="#n328-2"/>. When many were coming every day, and
+                  the city in the sight of all men</quote>.<ptr type="noteAnchor" target="#n328-2" n=""/> When many were coming every day, and
             he continually heard the same things and could not contain himself, he was
             moved with zeal and his spirit was roused, and he said: <quote>Far be it from
                me in the Lord's name to hold aloof longer and pay no heed to the affliction
-               of <persName>Christ</persName>'s flock which was bought by his precious blood<ptr type="noteAnchor" target="#n328-3"/>; for, even if I die
+               of <persName>Christ</persName>'s flock which was bought by his precious blood;<ptr type="noteAnchor" target="#n328-3" n=""/> for, even if I die
                on its behalf, it is a boast to me</quote>. Then he concocted pretexts, and under
             pretexts of illnesses he went and begged the patriarch and the custodians for
             permission to go into the city to see physicians; and, because they heard
@@ -102,12 +145,12 @@
             matter also about the cause of his coming was made known to <persName ref="http://syriaca.org/person/779">the queen</persName>; and
             by divine dispensation she also received him with great joy, and she gave
             orders that spacious quarters (<foreign xml:lang="grc">μέτατον</foreign>) also should be given him in the <placeName ref="http://syriaca.org/place/2739">great
-                 mansion</placeName> called <placeName ref="http://syriaca.org/place/2739">Anthemiu</placeName><ptr type="noteAnchor" target="#n329-1"/>, and an allowance (<foreign xml:lang="grc">άνάλωμα</foreign>) also for him and his
+                 mansion</placeName> called <placeName ref="http://syriaca.org/place/2739">Anthemiu</placeName>,<ptr type="noteAnchor" target="#n329-1" n=""/> and an allowance (<foreign xml:lang="grc">άνάλωμα</foreign>) also for him and his
             slave should be assigned to him there. And thenceforth the will and the
             zeal of the blessed man found expression; and from that time companies of
             those who were in distress, and had been for a long time beaten and buffeted
             and had none to relieve them, betook themselves to him, and he would dismiss
-            them all<ptr type="noteAnchor" target="#n329-2"/> and they would return to their own countries with joy, while he also
+            them all<ptr type="noteAnchor" target="#n329-2" n=""/> and they would return to their own countries with joy, while he also
             anointed many altars that had been set up for a long time to be anointed and
             go to the countries, and himself also fixed an altar, and he was filled with
             great boldness (<foreign xml:lang="grc">παρρησία</foreign>) showing keen enthusiasm and confidence that contends
@@ -118,7 +161,7 @@
             <pb n="532"/><pb n="330"/>But he said, <quote>As for the lion that is coming let no man stand before him;
                let him send him against me myself only; since it is I as you say that have
                provoked him, and God will do as he wishes. The mouths of lions are wont
-               to be closed by command from on high<ptr type="noteAnchor" target="#n330-1"/></quote> And so he did not cease from his
+               to be closed by command from on high<ptr type="noteAnchor" target="#n330-1" n=""/></quote> And so he did not cease from his
             zealousness. But afterwards they wrote to his patriarch also as well to
             inhibit him. But the saint, who saw his zeal, and on his own side also was
             not displeased by the saving and refreshing of the believers, passed over
@@ -128,9 +171,9 @@
                him to do such things.</quote> And so he took no account of the matter as one
             that knew it and did not know it. But the holy <persName ref="http://syriaca.org/person/74">John</persName> would accept all who
             came from all quarters, that is on the testimony of those who presented them;
-            and, though<ptr type="noteAnchor" target="#n330-2"/> they were strangers, he did not immediately apply a hand of
+            and, though<ptr type="noteAnchor" target="#n330-2" n=""/> they were strangers, he did not immediately apply a hand of
             ordination without witnesses and persons to present. But, when those whose
-            envy...<ptr type="noteAnchor" target="#n330-3"/> saw it, and he also made them hostile to him, who were believers,
+            envy...<ptr type="noteAnchor" target="#n330-3" n=""/> saw it, and he also made them hostile to him, who were believers,
             members of his company (<foreign xml:lang="grc">συνοδία</foreign>), and some of them also even bishops, they
             <pb n="533"/><pb n="331"/>went and told <persName ref="http://syriaca.org/person/779">the queen</persName> about him, having concocted a petition purporting
             to come from him that she would give him an order to leave the city for a
@@ -154,17 +197,17 @@
                <pb n="534"/><pb n="332"/>has injured you, sir? What is this affair?</quote>. And he said : <quote>Who has
                   injured and disturbed me or God's church except you and your husband?</quote>
             And she was astonished, and said : <quote>For what reason? Who has said
-               anything to you?</quote> He says to her : <quote>You<ptr type="noteAnchor" target="#n332-1"/> ordered my death, and your<ptr type="noteAnchor" target="#n332-2"/>
+               anything to you?</quote> He says to her : <quote>You<ptr type="noteAnchor" target="#n332-1" n=""/> ordered my death, and your<ptr type="noteAnchor" target="#n332-2" n=""/>
                   order came to me to leave the city hastily; and what more do you want to
                   learn?</quote> When she learned that it was not at his instigation that they had
-            come and received the document from her, and that<ptr type="noteAnchor" target="#n332-3"/> she herself had written
+            come and received the document from her, and that<ptr type="noteAnchor" target="#n332-3" n=""/> she herself had written
             in order to gratify him, she issued an order, and these enemies quickly came,
             while she said, <quote>Whom else was it your purpose to deceive except God and
                me and this saint?</quote> Then, when she threatened them with such things as
             their tricks deserved, the blessed man with great entreaty delivered them
             from death, and did not requite them according to their deeds. But on the
             matter of ordinations (<foreign xml:lang="grc">χειροτονία</foreign>) she said to him : <quote>See that you remain within
-               the palace (<foreign xml:lang="grc">παλάτιον</foreign>)<ptr type="noteAnchor" target="#n332-4"/>, lest trial in trutlh come upon you. Remain still and
+               the palace (<foreign xml:lang="grc">παλάτιον</foreign>),<ptr type="noteAnchor" target="#n332-4" n=""/> lest trial in trutlh come upon you. Remain still and
                keep quiet like your companions and do not make priests in this city</quote>.
             He said to her, <quote>I will not do it; and, that you may know that I have no
                desire for this business, I was just about to request your majesty to order me
@@ -183,10 +226,10 @@
             he never spent a whole day in a place, but night and day devoted himself to
             travelling in all directions. And thereupon the report of him was heard over
             all that land; and, while the report of him was reaching the bishop of the
-            district<ptr type="noteAnchor" target="#n333-1"/> or of the city, he himself did what he required and passed from it;
+            district<ptr type="noteAnchor" target="#n333-1" n=""/> or of the city, he himself did what he required and passed from it;
             since before he entered a district he would learn about the believers, and he
             would send a message two or three days beforehand that the men of every
-            <pb n="536"/><pb n="334"/>place should assemble and be ready along his route<ptr type="noteAnchor" target="#n334-1"/> (?) at one day's journey
+            <pb n="536"/><pb n="334"/>place should assemble and be ready along his route<ptr type="noteAnchor" target="#n334-1" n=""/> (?) at one day's journey
             (<foreign xml:lang="grc">μανσίων</foreign>) from one another; and thus he visited as far as <placeName ref="http://syriaca.org/place/196">Tarsus</placeName>, intending to
             go down over the whole of <placeName ref="http://syriaca.org/place/486">Syria</placeName>. And there they learned about him; and
             there was great commotion, and much searching through the whole <placeName ref="http://syriaca.org/place/586">city</placeName> on
@@ -199,10 +242,10 @@
                of ill health not been able to come in and make obeisance to you all this
                time, send me by letter what you wish to say</quote>. And she on her side
             consented, and sent him a present also there. And during the same days a
-            letter from the <persName ref="http://syriaca.org/person/2274">patriarch</persName> of <placeName>Antioch</placeName><ptr type="noteAnchor" target="#n334-2"/> and all the rest of the bishops was
+            letter from the <persName ref="http://syriaca.org/person/2274">patriarch</persName> of <placeName>Antioch</placeName><ptr type="noteAnchor" target="#n334-2" n=""/> and all the rest of the bishops was
             brought in to the king which stated, <quote>One of the bishops who are there has
                come out, and has thrown the whole church into confusion, and has performed
-               ordination (<foreign xml:lang="grc">χειροτονία</foreign>) and given penances (<foreign xml:lang="grc">κανόνας</foreign>) and absolution<ptr type="noteAnchor" target="#n334-3"/>, from the
+               ordination (<foreign xml:lang="grc">χειροτονία</foreign>) and given penances (<foreign xml:lang="grc">κανόνας</foreign>) and absolution,<ptr type="noteAnchor" target="#n334-3" n=""/> from the
                royal <placeName ref="http://syriaca.org/place/586">city</placeName> as far as <placeName ref="http://syriaca.org/place/486">Syria</placeName></quote>. And, when a great search had been made, he
             <pb n="537"/><pb n="335"/>said: <quote>Perhaps it is so-and-so who lhas not been in the <placeName ref="http://syriaca.org/place/586">city</placeName> all this time</quote>.
             Then by the grace of God no ordinary person, but <persName ref="http://syriaca.org/person/779">the queen</persName> herself, came in
@@ -214,37 +257,37 @@
             message was sent to them to say, <quote>If you can, arrest him, for perhaps he
                is an impostor. No one lhas left this place</quote>. Again on another occasion,
             when this had been forgotten and had blown over, he succeeded in getting
-            an order given him to go as far as the hot spring<ptr type="noteAnchor" target="#n335-1"/> on account of his diseases,
+            an order given him to go as far as the hot spring<ptr type="noteAnchor" target="#n335-1" n=""/> on account of his diseases,
             and he was sent away; and he went out and passed over all the islands
-            of the sea-coast<ptr type="noteAnchor" target="#n335-2"/> and those within the sea as far as <placeName ref="http://syriaca.org/place/714">Cyprus</placeName> and visited the
+            of the sea-coast<ptr type="noteAnchor" target="#n335-2" n=""/> and those within the sea as far as <placeName ref="http://syriaca.org/place/714">Cyprus</placeName> and visited the
             believers, and as far as <placeName ref="http://syriaca.org/place/53">Caesarea</placeName>; and so he returned without anyone discovering 
             it. Again after this (on which same visitation we ourselves
             encountered him), he made a visitation and went down as far as <placeName ref="http://syriaca.org/place/1534">Rhodes</placeName>,
             and there we were privileged to see him. And, when he told us his intention,
             that he intended to pass through <placeName ref="http://syriaca.org/place/2746">Asia</placeName> a second time about six years after the
-            <pb n="538"/><pb n="336"/>first, since we were ourselves going up from <placeName ref="http://syriaca.org/place/2734">Alexandria</placeName> to the royal city<ptr type="noteAnchor" target="#n336-1"/>,
+            <pb n="538"/><pb n="336"/>first, since we were ourselves going up from <placeName ref="http://syriaca.org/place/2734">Alexandria</placeName> to the royal city,<ptr type="noteAnchor" target="#n336-1" n=""/>
             he returned with us. And so, when we had travelled a day's journey
             (<foreign xml:lang="grc">μανσίων</foreign>), at every lodging-place, he would send envoys taken from the
-            believers to go among them, and<ptr type="noteAnchor" target="#n336-2"/> at every place we used to find from a
+            believers to go among them, and<ptr type="noteAnchor" target="#n336-2" n=""/> at every place we used to find from a
             hundred and fifty and from two hundred assembled waiting for him. And
             thus we passed through the cities and villages together; so that in the city
             of <placeName ref="http://syriaca.org/place/2857">Tralles</placeName> inside the church, while the clergy were performing the service,
             he made more than fifty priests. Since we were a large party, and there were
             distinguished gentlemen among us, we were given permission to occupy an
-            upper space, in the upper <foreign>catechumenia</foreign><ptr type="noteAnchor" target="#n336-3"/> of the church; and so they would come
+            upper space, in the upper <foreign>catechumenia</foreign><ptr type="noteAnchor" target="#n336-3" n=""/> of the church; and so they would come
             up there three and five at a time, while men stood at the doors and kept watch,
             and men who arranged these and sent them on, and this while I myself was
-            carrying the oblation and the sacrament<ptr type="noteAnchor" target="#n336-4"/>, and he was standing and blessing
+            carrying the oblation and the sacrament,<ptr type="noteAnchor" target="#n336-4" n=""/> and he was standing and blessing
             and administering the oblation and dismissing them, and those below were
             performing the service; and I was amazed at the man's courage and fortitude.
             In the house of Mar <placeName ref="http://syriaca.org/place/2803">John</placeName> at <placeName ref="http://syriaca.org/place/623">Ephesus</placeName> again the same, more than seventy men
-            <pb n="539"/><pb n="337"/>were assembled; and<note></note>, they having been instructed to assemble<ptr type="noteAnchor" target="#n337-1"/> by night in
+            <pb n="539"/><pb n="337"/>were assembled; and<note></note>, they having been instructed to assemble<ptr type="noteAnchor" target="#n337-1" n=""/> by night in
             the open space in the western court of the paved precinct (?) (<foreign xml:lang="grc">πλάκια</foreign>) of the
             same house of Mar <placeName ref="http://syriaca.org/place/2803">John</placeName>, he there ordained them by night. And so from
             that place we again separated, he to <placeName ref="http://syriaca.org/place/1529">Chios</placeName> and thence to <placeName ref="http://syriaca.org/place/2734">Alexandria</placeName> and to
             Palestine, and we to the royal city, wondering at the grace of God which
             had stirred up this man to visit the believers, and had given him moreover
-            [. . . . to]<ptr type="noteAnchor" target="#n337-2"/> the whole church, while all the time that he had been away
+            [. . . . to]<ptr type="noteAnchor" target="#n337-2" n=""/> the whole church, while all the time that he had been away
             those who came to the city had been in distress and had been waiting for
             him as a good hope and a granter of their requests. And he also returned
             and came, and found many in distress and waiting for him; since, though
@@ -259,55 +302,55 @@
             of these holy and zealous men mighty in conflicts (<foreign xml:lang="grc">άγών</foreign>) on behalf of religion,
             the first <persName ref="http://syriaca.org/person/74">John</persName> and further this second <persName ref="http://syriaca.org/person/1813">John</persName>, we have committed to the record
             of history, in the first place in order that the world may [reap benefit] from
-            the description [of...]<ptr type="noteAnchor" target="#n338-1"/> their ascetic and virtuous life, and in the second
+            the description [of...]<ptr type="noteAnchor" target="#n338-1" n=""/> their ascetic and virtuous life, and in the second
             in order to make known the graciousness of him who saved his church by his
             precious blood, how in this time of its distress also he set up these two
             pillars of light in it to comfort it; by whose holy prayers may schisms and
             strifes be done away from within it until the end, Amen! And may mercy
-            light upon the sinner who wrote it through their prayers. Amen!<ptr type="noteAnchor" target="#n338-2"/>
+            light upon the sinner who wrote it through their prayers. Amen!<ptr type="noteAnchor" target="#n338-2" n=""/>
          </ab>
          <ab>
             The history of the blessed <persName ref="http://syriaca.org/person/1813">John</persName> bishop of the city of <placeName ref="http://syriaca.org/place/2788">Hephaestu</placeName> in <placeName>Egypt</placeName> is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n324-2" target="#a324-2" n="324-2">Sc. <foreign xml:lang="grc">'Ηφαίστου πόλις</foreign>.</note>
-            <note xml:id="n324-3" target="#a324-3" n="324-3">Sc. bishops</note>
-            <note xml:id="n325-1" target="#a325-1" n="325-1">Sc. the pastoral and the ascetic.</note>
-            <note xml:id="n325-2" target="#a325-2" n="325-2">Usually called the monastery of Theodore ('Zach Rh.,' VII, 10; see <title>Vit. Petr.</title> Ib., p. 134).</note>
-            <note xml:id="n325-3" target="#a325-3" n="325-3">Sic syr.</note>
-            <note xml:id="n325-4" target="#a325-4" n="325-4">535/6.</note>
-            <note xml:id="n325-5" target="#a325-5" n="325-5">Not more than 1 1/3, Th. returned to Alexandria not earlier than July, 535, and was expelled not later than Dec, 536 (<title>Byz. Zeitschr.</title>, XII, p. 494).</note>
-            <note xml:id="n326-1" target="#a326-1" n="326-1">I do not know the source of this quotation.</note>
-            <note xml:id="n326-2" target="#a326-2" n="326-2">Sic syr.</note>
-            <note xml:id="n326-3" target="#a326-3" n="326-3">See Introd., p. V.</note>
-            <note xml:id="n326-4" target="#a326-4" n="326-4">Or <hi rend="singleQuote">definite</hi>.</note>
-            <note xml:id="n327-1" target="#a327-1" n="327-1">See ch. 2.</note>
-            <note xml:id="n328-1" target="#a328-1" n="328-1">Sc. Theodosius.</note>
-            <note xml:id="n328-2" target="#a328-2" n="328-2">Since our author was not in CP. between 535 and 540 (Introd., p. IV, V), and appy. did not meet John till 541 (p. 336, n. 1), these words seem to be recorded out of place.</note>
-            <note xml:id="n328-3" target="#a328-3" n="328-3">Acts, XX, 28; I Pet., I, 19.</note>
-            <note xml:id="n329-1" target="#a329-1" n="329-1">Sc. <foreign xml:lang="grc">τά Άνθεμίου</foreign>.</note>
-            <note xml:id="n329-2" target="#a329-2" n="329-2">We are left to understand that he ordained them; see below.</note>
-            <note xml:id="n330-1" target="#a330-1" n="330-1">Dan., VI, 22; Hebr. XI, 33.</note>
-            <note xml:id="n330-2" target="#a330-2" n="330-2">We should expect 'because'; but the meaning perh. is that: though there was in the circumstances a difficulty in getting proper testimony, he would not dispense with it.</note>
-            <note xml:id="n330-3" target="#a330-3" n="330-3">Some words have fallen out.</note>
-            <note xml:id="n332-1" target="#a332-1" n="332-1">Pl.</note>
-            <note xml:id="n332-2" target="#a332-2" n="332-2">Sing.</note>
-            <note xml:id="n332-3" target="#a332-3" n="332-3">Sic syr.</note>
-            <note xml:id="n332-4" target="#a332-4" n="332-4">Sc. the palace of Anthemius.</note>
-            <note xml:id="n333-1" target="#a333-1" n="333-1">Sc. the province. The metropolitan is therefore meant.</note>
-            <note xml:id="n334-1" target="#a334-1" n="334-1">This is appy. the meaning. We should perh. read <!-- eb, Syriac. -->; or we might render <hi rend="singleQuote">every place of its territory</hi>. V.D. and L. pass over the word.</note>
-            <note xml:id="n334-2" target="#a334-2" n="334-2">Ephraim.</note>
-            <note xml:id="n334-3" target="#a334-3" n="334-3">Sc. to converts from Diphysitism.</note>
-            <note xml:id="n335-1" target="#a335-1" n="335-1">Syr. <hi rend="singleQuote">Hamimtha</hi>. Probably some hot spring near Constantinople is meant, not the well-known Hamimtha in Mesopotamia (p. 224; ch. 35).</note>
-            <note xml:id="n335-2" target="#a335-2" n="335-2">Phoenice Maritima.</note>
-            <note xml:id="n336-1" target="#a336-1" n="336-1">This must have been in 541 (see Introd., p, V, which throws back the 1st journey to 535; but, as Theodosius did not leave Alexandria before the end of 536, the 6 years must be one of the author's inaccuracies. See also p. 328, n.2.</note>
-            <note xml:id="n336-2" target="#a336-2" n="336-2">Ms. om.</note>
-            <note xml:id="n336-3" target="#a336-3" n="336-3">Women's gallery; see Ducange, s. V. <foreign xml:lang="grc">κατηχούμενα</foreign>. Ms. q t n k w m l y w n.</note>
-            <note xml:id="n336-4" target="#a336-4" n="336-4">Viz. as a deacon.</note>
-            <note xml:id="n337-1" target="#a337-1" n="337-1">Ms. om.</note>
-            <note xml:id="n337-2" target="#a337-2" n="337-2">Ms. torn.</note>
-            <note xml:id="n338-1" target="#a338-1" n="338-1">Ms. torn.</note>
-            <note xml:id="n338-2" target="#a338-2" n="338-2">This is almost certainly a scribe's addition, but is written as part of the chapter.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 324, n. 2</orig></choice>Sc. <foreign xml:lang="grc">'Ηφαίστου πόλις</foreign>.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 324, n. 3</orig></choice>Sc. bishops</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 325, n. 1</orig></choice>Sc. the pastoral and the ascetic.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 325, n. 2</orig></choice>Usually called the monastery of Theodore ('Zach Rh.,' VII, 10; see <title>Vit. Petr.</title> Ib., p. 134).</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 325, n. 3</orig></choice>Sic syr.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 325, n. 4</orig></choice>535/6.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 325, n. 5</orig></choice>Not more than 1 1/3, Th. returned to Alexandria not earlier than July, 535, and was expelled not later than Dec, 536 (<title>Byz. Zeitschr.</title>, XII, p. 494).</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 326, n. 1</orig></choice>I do not know the source of this quotation.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 326, n. 2</orig></choice>Sic syr.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 326, n. 3</orig></choice>See Introd., p. V.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 326, n. 4</orig></choice>Or <hi rend="singleQuotes">definite</hi>.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 327, n. 1</orig></choice>See ch. 2.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 328, n. 1</orig></choice>Sc. Theodosius.</note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 328, n. 2</orig></choice>Since our author was not in CP. between 535 and 540 (Introd., p. IV, V), and appy. did not meet John till 541 (p. 336, n. 1), these words seem to be recorded out of place.</note>
+            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 328, n. 3</orig></choice>Acts, XX, 28; I Pet., I, 19.</note>
+            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 329, n. 1</orig></choice>Sc. <foreign xml:lang="grc">τά Άνθεμίου</foreign>.</note>
+            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 329, n. 2</orig></choice>We are left to understand that he ordained them; see below.</note>
+            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 330, n. 1</orig></choice>Dan., VI, 22; Hebr. XI, 33.</note>
+            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 330, n. 2</orig></choice>We should expect 'because'; but the meaning perh. is that: though there was in the circumstances a difficulty in getting proper testimony, he would not dispense with it.</note>
+            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 330, n. 3</orig></choice>Some words have fallen out.</note>
+            <note xml:id="n21" target="#a21" n="21"><choice><reg/><orig>p. 332, n. 1</orig></choice>Pl.</note>
+            <note xml:id="n22" target="#a22" n="22"><choice><reg/><orig>p. 332, n. 2</orig></choice>Sing.</note>
+            <note xml:id="n23" target="#a23" n="23"><choice><reg/><orig>p. 332, n. 3</orig></choice>Sic syr.</note>
+            <note xml:id="n24" target="#a24" n="24"><choice><reg/><orig>p. 332, n. 4</orig></choice>Sc. the palace of Anthemius.</note>
+            <note xml:id="n25" target="#a25" n="25"><choice><reg/><orig>p. 333, n. 1</orig></choice>Sc. the province. The metropolitan is therefore meant.</note>
+            <note xml:id="n26" target="#a26" n="26"><choice><reg/><orig>p. 334, n. 1</orig></choice>This is appy. the meaning. We should perh. read ; or we might render <hi rend="singleQuotes">every place of its territory</hi>. V.D. and L. pass over the word.</note>
+            <note xml:id="n27" target="#a27" n="27"><choice><reg/><orig>p. 334, n. 2</orig></choice>Ephraim.</note>
+            <note xml:id="n28" target="#a28" n="28"><choice><reg/><orig>p. 334, n. 3</orig></choice>Sc. to converts from Diphysitism.</note>
+            <note xml:id="n29" target="#a29" n="29"><choice><reg/><orig>p. 335, n. 1</orig></choice>Syr. <hi rend="singleQuotes">Hamimtha</hi>. Probably some hot spring near Constantinople is meant, not the well-known Hamimtha in Mesopotamia (p. 224; ch. 35).</note>
+            <note xml:id="n30" target="#a30" n="30"><choice><reg/><orig>p. 335, n. 2</orig></choice>Phoenice Maritima.</note>
+            <note xml:id="n31" target="#a31" n="31"><choice><reg/><orig>p. 336, n. 1</orig></choice>This must have been in 541 (see Introd., p, V, which throws back the 1st journey to 535; but, as Theodosius did not leave Alexandria before the end of 536, the 6 years must be one of the author's inaccuracies. See also p. 328, n.2.</note>
+            <note xml:id="n32" target="#a32" n="32"><choice><reg/><orig>p. 336, n. 2</orig></choice>Ms. om.</note>
+            <note xml:id="n33" target="#a33" n="33"><choice><reg/><orig>p. 336, n. 3</orig></choice>Women's gallery; see Ducange, s. V. <foreign xml:lang="grc">κατηχούμενα</foreign>. Ms. q t n k w m l y w n.</note>
+            <note xml:id="n34" target="#a34" n="34"><choice><reg/><orig>p. 336, n. 4</orig></choice>Viz. as a deacon.</note>
+            <note xml:id="n35" target="#a35" n="35"><choice><reg/><orig>p. 337, n. 1</orig></choice>Ms. om.</note>
+            <note xml:id="n36" target="#a36" n="36"><choice><reg/><orig>p. 337, n. 2</orig></choice>Ms. torn.</note>
+            <note xml:id="n37" target="#a37" n="37"><choice><reg/><orig>p. 338, n. 1</orig></choice>Ms. torn.</note>
+            <note xml:id="n38" target="#a38" n="38"><choice><reg/><orig>p. 338, n. 2</orig></choice>This is almost certainly a scribe's addition, but is written as part of the chapter.</note>
          </noteGrp>
       </body>
    </text>

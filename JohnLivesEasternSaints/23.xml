@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/815">Simeon the Solitary</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/815.xml -->
@@ -83,12 +126,12 @@
                know you not that, wherever <persName>Christ</persName>'s name is called, everyone who presumes
                <pb n="304"/><pb n="304"/>to stretch out his hand and lay it upon anything has to deal with God the
                Judge of all? And now, my sons, go and beware </quote>. And so he dismissed
-            them<ptr type="noteAnchor" target="#n304-1"/>. And the fame of the saint's triumphs was spoken of everywhere.
+            them.<ptr type="noteAnchor" target="#n304-1" n=""/> And the fame of the saint's triumphs was spoken of everywhere.
             But afterwards the storm (<foreign xml:lang="grc">χειμών</foreign>) of persecution was stirred up against the
             same <rs ref="http://syriaca.org/person/2099">blessed man</rs> also together with all the rest of the church; and he
             bravely and heroically contended in the conflicts (<foreign xml:lang="grc">άγών</foreign>), while all the convents 
             were overcome and defeated by the persecution, and driven from the
-            whole district<ptr type="noteAnchor" target="#n304-2"/>. And he himself held firm; and thus he persevered and
+            whole district.<ptr type="noteAnchor" target="#n304-2" n=""/> And he himself held firm; and thus he persevered and
             maintained a heroic contest; and he used to go about the <placeName ref="http://syriaca.org/place/8">city</placeName> itself at
             the very height of the persecution, and give absolution and baptize
             night and day, while he had previously determined this also, that nothing
@@ -103,8 +146,8 @@
             The history of the blessed <persName ref="http://syriaca.org/person/2099">Simeon</persName> the solitary is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n304-1" target="#a304-1" n="304-1">A similar story is told in Rufinus, Hist. Mon., 6 (Dyakonov, p. 385).</note>
-            <note xml:id="n304-2" target="#a304-2" n="304-2">This seems to mean that some submitted and others went into exile.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 304, n. 1</orig></choice>A similar story is told in Rufinus, Hist. Mon., 6 (Dyakonov, p. 385).</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 304, n. 2</orig></choice>This seems to mean that some submitted and others went into exile.</note>
          </noteGrp>
       </body>
    </text>

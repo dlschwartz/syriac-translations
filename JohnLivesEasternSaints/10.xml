@@ -1,18 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://syriaca.org/work/802">Simeon the Bishop</title>
+            <title ref="http://syriaca.org/work/802">Simeon the bishop</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -31,8 +74,8 @@
             the fraudulent disciples of the school of Nestorius, or again his labour in all
             <pb n="138"/><pb n="138"/>countries in which the preaching of <persName>Christ</persName> had travelled; for whom, I think,
             it would not have been improper to speak with boldness (<foreign xml:lang="grc">παρρησία</foreign>) like the
-            holy <persName>Paul</persName> and say: <quote>I have toiled more than all</quote><ptr type="noteAnchor" target="#n138-1"/>, and to say further this
-            also, that he had travelled not only from <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName> and as far as <placeName ref="http://syriaca.org/place/2797">Illyricum</placeName><ptr type="noteAnchor" target="#n138-2"/>,
+            holy <persName>Paul</persName> and say: <quote>I have toiled more than all</quote>,<ptr type="noteAnchor" target="#n138-1" n=""/> and to say further this
+            also, that he had travelled not only from <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName> and as far as <placeName ref="http://syriaca.org/place/2797">Illyricum</placeName>,<ptr type="noteAnchor" target="#n138-2" n=""/>
             but also in all countries in which the preaching of <persName>Christ</persName> had travelled, except
             only the territories of <placeName>Rome</placeName>; and thither also he was ready and had started
             to go, when God saw his venerable character and his old age and his labour,
@@ -48,7 +91,7 @@
             few there, and further besides this teaching that of the school of <persName ref="http://syriaca.org/person/608">Mani</persName> and
             <pb n="139"/><pb n="139"/><persName ref="http://syriaca.org/person/616">Marcion</persName> and <persName ref="http://syriaca.org/person/3">Bar Daisan</persName> also had from this cause been much disseminated 
             there, and <persName ref="http://syriaca.org/person/608">Mani</persName> travelled much there in the same country, and there
-            also they flayed him alive, and he died there; and <persName ref="http://syriaca.org/person/3">Bar Daisan</persName> and <persName ref="http://syriaca.org/person/616">Marcion</persName><ptr type="noteAnchor" target="#n139-1"/>, 
+            also they flayed him alive, and he died there; and <persName ref="http://syriaca.org/person/3">Bar Daisan</persName> and <persName ref="http://syriaca.org/person/616">Marcion</persName>,<ptr type="noteAnchor" target="#n139-1" n=""/> 
             because there was once a school (<foreign xml:lang="grc">σχολή</foreign>) of <persName>Persians</persName> at <placeName ref="http://syriaca.org/place/2605">Edessa</placeName>, and
             the <persName>Persians</persName> are in general keen inquirers, they were trained in the tenets
             of <persName ref="http://syriaca.org/person/3">Bar Daisan</persName> and of <persName ref="http://syriaca.org/person/616">Marcion</persName> and became immersed in them; and they
@@ -59,10 +102,10 @@
             this bitter plant was spreading in the city of <placeName ref="http://syriaca.org/place/2605">Edessa</placeName>, the holy bishop
             <persName ref="http://syriaca.org/person/2253">Cyrus</persName> discovered it, and tore it out from its roots, and did not allow the
             school (<foreign xml:lang="grc">σχολή</foreign>) of the <persName>Persians</persName> to be mentioned there again, as had been
-            the case before<ptr type="noteAnchor" target="#n139-2"/>; and this school was from that time established in the
+            the case before;<ptr type="noteAnchor" target="#n139-2" n=""/> and this school was from that time established in the
             city of Nisibis, from which all that country drink dregs of gall, so that
             even in this our country, the country of the <persName>Romans</persName>, some men taste of
-            it<ptr type="noteAnchor" target="#n139-3"/>. Against these therefore the blessed <persName ref="http://syriaca.org/person/53">Simeon</persName> was always strongly armed
+            it.<ptr type="noteAnchor" target="#n139-3" n=""/> Against these therefore the blessed <persName ref="http://syriaca.org/person/53">Simeon</persName> was always strongly armed
             <pb n="140"/><pb n="140"/>and ceaselessly contending; and wherever he came victory was given him
             by God, and he was made a closer of the mouth to all heretics (<foreign xml:lang="grc">αίρεσιώται</foreign>),
             until their chiefs or doctors dreaded to open their mouth and speak in a
@@ -70,16 +113,16 @@
             which a debate was being originated by the Nestorians against the believers 
             who were in it, if he were five or ten days' journey (<foreign xml:lang="grc">μανσίων</foreign>) away,
             as if God had made him ready and as if the earth had vomited him up,
-            he would suddenly spring up and be present there<ptr type="noteAnchor" target="#n140-1"/>, since from the
+            he would suddenly spring up and be present there,<ptr type="noteAnchor" target="#n140-1" n=""/> since from the
             greatness of his zeal and the fervour of his will he did not rest and sit still
             in one district, saying, <quote>I must not sit still and rest, when I know that
                <persName>Christ</persName>'s sheep are being scattered among ravening and destructive wolves,
-               who will not spare to destroy them and tear them in pieces<ptr type="noteAnchor" target="#n140-2"/></quote>. And for this
-            reason he was sedulous in going out among the countries, as far as <placeName ref="http://syriaca.org/place/2792">the camp<ptr type="noteAnchor" target="#n140-3"/> of the
+               who will not spare to destroy them and tear them in pieces<ptr type="noteAnchor" target="#n140-2" n=""/></quote>. And for this
+            reason he was sedulous in going out among the countries, as far as <placeName ref="http://syriaca.org/place/2792">the camp<ptr type="noteAnchor" target="#n140-3" n=""/> of the
                Saracens</placeName> of the tribe of Nuʿman, which he often visited; so
             that he gained a large number of <placeName ref="http://syriaca.org/place/2792">Saracens</placeName> in it, and he induced the magnates
             who were converted by his words to build a Christian church in it. And
-            again he would depart and go down to the very gate of the kingdom<ptr type="noteAnchor" target="#n140-4"/>, and
+            again he would depart and go down to the very gate of the kingdom,<ptr type="noteAnchor" target="#n140-4" n=""/> and
             <pb n="141"/><pb n="141"/>would turn many to God not only among the heretics (<foreign xml:lang="grc">αίρεσιώται</foreign>!), but also
             among the <persName>Magians</persName>; so that he once even converted <persName ref="http://syriaca.org/person/3618">three great and distinguished 
                men among the Magians</persName> and baptized them. And, when their
@@ -124,14 +167,14 @@
             because he was a believer and a friend of the believers, did
             not delay to carry out his request which he asked of him; and, because
             there was peace between them, and they were sending embassies to one
-            <pb n="143"/><pb n="143"/>another<ptr type="noteAnchor" target="#n143-1"/>, and royal presents and gifts, king <persName ref="http://syriaca.org/person/2265">Anastasius</persName> then wrote earnestly
+            <pb n="143"/><pb n="143"/>another,<ptr type="noteAnchor" target="#n143-1" n=""/> and royal presents and gifts, king <persName ref="http://syriaca.org/person/2265">Anastasius</persName> then wrote earnestly
             to the <persName>Persian</persName>, saying: <quote>You will do well if you order that peace shall reign
                in your empire in your days; and in this matter you will gratify and please
                us, if your order keeps the Christian peoples in your empire unmolested,
                when you order that they shall not harm one another by reason of occasions
                of enmity, nor any of your people molest them</quote>. These words then that
             are in the king's letter together with others we have found that the holy
-            <persName ref="http://syriaca.org/person/53">Simeon</persName> himself asked from him, and he gave him a copy (<foreign xml:lang="grc">ίσον</foreign>) of them<ptr type="noteAnchor" target="#n143-2"/>.
+            <persName ref="http://syriaca.org/person/53">Simeon</persName> himself asked from him, and he gave him a copy (<foreign xml:lang="grc">ίσον</foreign>) of them.<ptr type="noteAnchor" target="#n143-2" n=""/>
          </ab>
          <ab>
             And, when the envoy came down, he presented the request of the believing 
@@ -145,11 +188,11 @@
             discussion between them, and so he would debate and would refute them
             and put them to shame, so that on no single occasion was he defeated by them
             in debate. And therefore, if it happened that one of their bishops wished
-            to originate a debate with any of the believers, he would first inquire<ptr type="noteAnchor" target="#n144-1"/> from
+            to originate a debate with any of the believers, he would first inquire<ptr type="noteAnchor" target="#n144-1" n=""/> from
             travellers, or from anyone who came in his way where <persName ref="http://syriaca.org/person/53">Simeon</persName> was, and then
-            would speak, saying, <quote>Inquire<ptr type="noteAnchor" target="#n144-1"/> and see as to the man whom they used also
+            would speak, saying, <quote>Inquire<ptr type="noteAnchor" target="#n144-1" n=""/> and see as to the man whom they used also
                to call the invincible <persName>Satan</persName> <persName ref="http://syriaca.org/person/53">Simeon</persName> the debater where he is</quote>; so that once
-            they were asking him himself<ptr type="noteAnchor" target="#n144-2"/> about him<ptr type="noteAnchor" target="#n144-3"/>, because everywhere he was
+            they were asking him himself,<ptr type="noteAnchor" target="#n144-2" n=""/> about him<ptr type="noteAnchor" target="#n144-3" n=""/> because everywhere he was
             inflicting shame upon them, defeating and refuting them, and causing even
             the <persName>Magians</persName> to laugh at them, since he would often set up the <persName>Magians</persName>
             themselves as judges, and thus before them as judges plead the cause of the
@@ -172,16 +215,16 @@
                reason he cries <quote>Woe for him</quote></quote>; and thus he passed on and went away,
             while they asked him about himself, and they did not recognise him; and so
             the Nestorians dreaded him everywhere. Once again he set out and went
-            to visit the believers in <placeName ref="http://syriaca.org/place/219">Hirthad Nuʿman</placeName>; and the great <foreign xml:lang="ln">catholicus</foreign> of <persName>Arzun</persName><ptr type="noteAnchor" target="#n145-1"/>,
+            to visit the believers in <placeName ref="http://syriaca.org/place/219">Hirthad Nuʿman</placeName>; and the great <foreign xml:lang="ln">catholicus</foreign> of <persName>Arzun</persName>,<ptr type="noteAnchor" target="#n145-1" n=""/>
             having sent and learned that he had gone to <placeName ref="http://syriaca.org/place/219">Hirtha</placeName>, sent to the believing
             <pb n="146"/><pb n="146"/>bishops, and said to them: <quote>Assemble together, and come let us debate
                about the faith</quote>. And the bishops on hearing it were alarmed; and they
             write to him saying, <quote>Wait for us</quote>; but he knew that they desired to send
             about the blessed <persName ref="http://syriaca.org/person/53">Simeon</persName>, and he continued pressing them more, thinking,
             <quote>Lest they send and inform him and he come, and again we shall not be able
-               to speak a word</quote>. But they on their part wrote a letter and horsemen<ptr type="noteAnchor" target="#n146-1"/>, and
+               to speak a word</quote>. But they on their part wrote a letter and horsemen,<ptr type="noteAnchor" target="#n146-1" n=""/> and
             sent after him. And, when he heard it, he rose promptly and took two Arab
-            mares<ptr type="noteAnchor" target="#n146-2"/>, and quickly arrived among them. And, when they saw him, they
+            mares,<ptr type="noteAnchor" target="#n146-2" n=""/> and quickly arrived among them. And, when they saw him, they
             rejoiced greatly, and gave thanks to God; and they rose and went to the
             man who had written to them, while he had no notion that <persName ref="http://syriaca.org/person/53">Simeon</persName> was in the
             land of the <persName>Persians</persName>, but supposed that he was in <placeName ref="http://syriaca.org/place/2792">Saracen territory</placeName>. The
@@ -205,7 +248,7 @@
             argue about the faith; even as this too was brought about by divine dispensation, 
             that even through the heathen the true mystery of the right faith
             might be proclaimed. And, when they had taken their seats opposite one
-            another and begun to discuss, the great <foreign xml:lang="ln">catholicus</foreign>, whose name was <persName ref="http://syriaca.org/person/969">Babai</persName><ptr type="noteAnchor" target="#n147-1"/>,
+            another and begun to discuss, the great <foreign xml:lang="ln">catholicus</foreign>, whose name was <persName ref="http://syriaca.org/person/969">Babai</persName>,<ptr type="noteAnchor" target="#n147-1" n=""/>
             inasmuch as he took precedence over all, first said: <quote>My lord, we inform
                your high excellency that these men are the king's enemies, and their faith
                <pb n="148"/><pb n="148"/>agrees with that of the <persName>Romans</persName>, and they convey the secrets of the kingdom
@@ -223,9 +266,9 @@
             of thanks was offered to the <persName>Magian</persName> by the believers, who said, <quote>Your judgment 
                is just and upright</quote>. The governor says to the <foreign xml:lang="ln">catholicus</foreign>: <quote>If you
                   have anything else to say, about your faith, say on</quote>. <persName ref="http://syriaca.org/person/969">Babai</persName> the <foreign xml:lang="ln">catholicus</foreign>
-            says to him<ptr type="noteAnchor" target="#n148-1"/>: <quote>My lord, as to our faith we have to speak about a certain
+            says to him<ptr type="noteAnchor" target="#n148-1" n=""/>: <quote>My lord, as to our faith we have to speak about a certain
                man like us, who was born from a woman as we were, and upon whom the
-               Word<ptr type="noteAnchor" target="#n148-2"/> of God came down on account of his uprightness and his righteousness;
+               Word<ptr type="noteAnchor" target="#n148-2" n=""/> of God came down on account of his uprightness and his righteousness;
                and, just as the king of kings might find a beggar's son in a dungheap
                <pb n="149"/><pb n="149"/>girt with rags, and give orders about him that they should raise him from
                the dungheap, and strip the rags with which he was girt off him and clothe
@@ -241,7 +284,7 @@
             says to him: <quote>Tell me which</quote>. He says to him: <quote>Since the <foreign xml:lang="ln">catholicus</foreign>
                stated in the presence of your highness that an ordinary man like us was
                born of a woman, let your wisdom put this question to him. Whereas we
-               are born of a woman from the seed of a man, inquire<ptr type="noteAnchor" target="#n149-1"/> from him as to the
+               are born of a woman from the seed of a man, inquire<ptr type="noteAnchor" target="#n149-1" n=""/> from him as to the
                man who he told you was born of a woman like us, was he from the seed of
                <pb n="150"/><pb n="150"/>a man like us, or whence was he</quote>. The governor says to the <foreign xml:lang="ln">catholicus</foreign>:
             <quote>What say you about these things? Was the man of whom you spoke to
@@ -265,8 +308,8 @@
                and therefore by grace everyone calls him the king's son while he is not his
                son by nature, let your highness put the question to him: <quote>Has that poor
                   man's son (though the king takes him and names him his son while he is
-                  not so according to his own very statement<ptr type="noteAnchor" target="#n151-1"/>) a natural father? Or whence
-                  was he born?</quote> Inquire<ptr type="noteAnchor" target="#n151-2"/> from him who is the father of the man also of whom
+                  not so according to his own very statement<ptr type="noteAnchor" target="#n151-1" n=""/>) a natural father? Or whence
+                  was he born?</quote> Inquire<ptr type="noteAnchor" target="#n151-2" n=""/> from him who is the father of the man also of whom
                he speaks. Has he a natural father? and if not let him show in your
                presence whence he was born and who his father is</quote>. When the <foreign xml:lang="ln">catholicus</foreign>
             received the questions put by the <foreign><persName ref="http://syriaca.org/person/3236">marzban</persName></foreign>, with the whole assembly of his
@@ -289,7 +332,7 @@
             saint's episcopate; because they often pressed him to accept ordination to
             the episcopate, and he would not consent; but, after he had come out victorious, 
             they seized him by force and made him bishop for a place called Beth
-            Arsham<ptr type="noteAnchor" target="#n152-1"/>, and thereforward he bore the title of metropolitan bishop of Beth
+            Arsham,<ptr type="noteAnchor" target="#n152-1" n=""/> and thereforward he bore the title of metropolitan bishop of Beth
             Arsham . And so he would go about in the interior countries beyond the
             <persName>Persians</persName> and make disciples, and convert men from paganism and Magism,
             and return again to the same country, and strenuously meet those who held
@@ -319,9 +362,9 @@
                we may know which party among you speaks well and shows great correctness</quote>. 
             But this earnest blessed man, when he heard these words,
             rejoiced with great joy; and from the ardour of his zeal, since he had thus set
-            his face to the task, the labour of going<ptr type="noteAnchor" target="#n154-1"/> from peoples to peoples, and from
+            his face to the task, the labour of going<ptr type="noteAnchor" target="#n154-1" n=""/> from peoples to peoples, and from
             kingdoms to kingdoms was not reckoned by him as anything at all, but he
-            undertook this with joy as something light and easy and of no moment<ptr type="noteAnchor" target="#n154-2"/>.
+            undertook this with joy as something light and easy and of no moment.<ptr type="noteAnchor" target="#n154-2" n=""/>
             And he set out at once without delay in his zeal, in order to traverse the
             frontiers of the peoples and the kingdoms, not being hindered or frightened
             by fear of anything, not of the great length of the intervening space, nor
@@ -334,7 +377,7 @@
             and kingdoms to whom the preaching of the gospel (<foreign xml:lang="grc">εύαγγελιον</foreign>) had penetrated,
             in the east and the north and the south; but toward the west he came only
             as far as the royal city, and he ended his course there, the third time that he
-            came up<ptr type="noteAnchor" target="#n155-1"/>, while we were present there. The good and mereiful God therefore, 
+            came up,<ptr type="noteAnchor" target="#n155-1" n=""/> while we were present there. The good and mereiful God therefore, 
             who does not fail to reward zeal for his name, on seeing the man's
             purpose of mind and his zeal, and that he underwent weariness no less than
             that of the apostles without shrinking, himself also bestowed upon him in
@@ -356,13 +399,13 @@
             people in their own language from their archbishops, and above the belief he
             affixed the seals of the king of that people and of the bishops of the same
             and of their chief men in lead upon these cloths, and thus confirmed it, acting
-            thus among all peoples and all tongues among the believers<ptr type="noteAnchor" target="#n156-1"/>, going about
+            thus among all peoples and all tongues among the believers,<ptr type="noteAnchor" target="#n156-1" n=""/> going about
             and taking their belief and the seals of their soverans and of their highpriests. 
             And thus he collected the belief of many peoples and of many
             tongues on these cloths. And he turned back after seven years and went
-            away (?)<ptr type="noteAnchor" target="#n156-2"/>; and, while he was on his way back, the king in whose days he had
-            started died<ptr type="noteAnchor" target="#n156-3"/>, and the magnates who had been umpires, and his son succeeded
-            <pb n="157"/><pb n="157"/>him; and he proceeded to stir up war in the territories of the <persName>Romans</persName><ptr type="noteAnchor" target="#n157-1"/>, and
+            away (?);<ptr type="noteAnchor" target="#n156-2" n=""/> and, while he was on his way back, the king in whose days he had
+            started died,<ptr type="noteAnchor" target="#n156-3" n=""/> and the magnates who had been umpires, and his son succeeded
+            <pb n="157"/><pb n="157"/>him; and he proceeded to stir up war in the territories of the <persName>Romans</persName>,<ptr type="noteAnchor" target="#n157-1" n=""/> and
             his appearance before the authorities was not carried out. But it became
             known to all men living in the country of the <persName>Persians</persName> that the evil doctrine of
             Nestorius flourished there only, while all peoples and tongues abhorred it;
@@ -377,7 +420,7 @@
             and his signal gave command and he fell asleep there, in our presence; so
             that his presbyter who himself also was devout and virtuous, whose name
             was <persName>Paul</persName>, lived with us in the domicile of the glorious patrician <persName ref="http://syriaca.org/person/3246">Probus</persName> for
-            two years<ptr type="noteAnchor" target="#n157-2"/>, while at all seasons we meditated together upon the eloquence
+            two years,<ptr type="noteAnchor" target="#n157-2" n=""/> while at all seasons we meditated together upon the eloquence
             <pb n="158"/><pb n="158"/>of the holy old man <persName ref="http://syriaca.org/person/53">Simeon</persName> and on his treatises and his proceedings against
             the heretics (<foreign xml:lang="grc">αίρεσιώται</foreign>), Nestorians and Manichees, and followers of <persName ref="http://syriaca.org/person/3">Bar Daisan</persName>
             and Eutychianists; since he also composed a work of instruction and books
@@ -391,38 +434,38 @@
             The history of Mar <persName ref="http://syriaca.org/person/53">Simeon</persName> the bishop <persName ref="http://syriaca.org/person/53">the Persian debater</persName> is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n138-1" target="#a138-1" n="138-1">I Cor., XV, 10.</note>
-            <note xml:id="n138-2" target="#a138-2" n="138-2">Rom., XV, 19.</note>
-            <note xml:id="n139-1" target="#a139-1" n="139-1">The sentence is left unfinished, and the sense completed in another way.</note>
-            <note xml:id="n139-2" target="#a139-2" n="139-2">489 (<title>Chron</title>. Edess., A. S. foo).</note>
-            <note xml:id="n139-3" target="#a139-3" n="139-3">Cf. Simeon's own account in Assem., B. O., I, p. 350-354, from which John probably took this.</note>
-            <note xml:id="n140-1" target="#a140-1" n="140-1">Sic syr.</note>
-            <note xml:id="n140-2" target="#a140-2" n="140-2">Acts, XX, 29.</note>
-            <note xml:id="n140-3" target="#a140-3" n="140-3">Syr <hi rend="singleQuote">Hirtha</hi> (d Nu'man) = Arab. <hi rend="singleQuote">Al Hira</hi>; see p. 145.</note>
-            <note xml:id="n140-4" target="#a140-4" n="140-4">Sc. Ctesiphon</note>
-            <note xml:id="n143-1" target="#a143-1" n="143-1">Hypatius was sent on a embassy to Persia in 517 (P. O., VII, p, 661); but an earlier occasion seems to be here meant, for the 7 years' imprisonment (p.153) must have begun some years later, and S. afterwards travelled for 7 years and returned in 531 (p. 156), and he was certainly at liberty in 524 (Assem., B. O., I, p. 364; 'Zach. Rh.',VIII, 3). Moreover, if the narrative is in chronological order, this mission to Constantinople preceded the dispute with the Nestorians, which was between 499 and 504 (p. 147).</note>
-            <note xml:id="n143-2" target="#a143-2" n="143-2">This was meant perh. among the documents which came into the acuthor's possession (p. 158), and, if so, he no doubt quotes from it.</note>
-            <note xml:id="n144-1" target="#a144-1" n="144-1"><!-- eb, Syriac --> like <foreign xml:lang="grc">πυνθάνομαι</foreign>, is often used in this sense; see p. 39, n. 2.</note>
-            <note xml:id="n144-2" target="#a144-2" n="144-2">Lit. <hi rend="singleQuote">his own person (<foreign xml:lang="grc">πρόσωπον</foreign>)</hi></note>
-            <note xml:id="n144-3" target="#a144-3" n="144-3">See below (p. 145). The same story is told of James (ch. 49).</note>
-            <note xml:id="n145-1" target="#a145-1" n="145-1">Arzanene. From p. 147, l. 16, it is clear that the only Nestorian <foreign>catholicus</foreign>, the bishop of Seleucia, is meant.</note>
-            <note xml:id="n146-1" target="#a146-1" n="146-1">Sic syr</note>
-            <note xml:id="n146-2" target="#a146-2" n="146-2">Or <hi rend="singleQuote">riding-animals</hi>, perhaps dromedaries (P.-Smith, s. V. <!-- eb, Syriac -->).</note>
-            <note xml:id="n147-1" target="#a147-1" n="147-1">499-504.</note>
-            <note xml:id="n148-1" target="#a148-1" n="148-1">As John was no theologian, the argument here advanced must be ascribed to Simeon; but that Babai and the marzban used the words put into their mouths <hi rend="singleQuote">credat Judaeus</hi>.</note>
-            <note xml:id="n148-2" target="#a148-2" n="148-2">As the verb is fem., we should perhaps write <hi rend="singleQuote">word</hi>.</note>
-            <note xml:id="n149-1" target="#a149-1" n="149-1">See p. 39, n. 2.</note>
-            <note xml:id="n151-1" target="#a151-1" n="151-1">Or <hi rend="singleQuote">proper character</hi>.</note>
-            <note xml:id="n151-2" target="#a151-2" n="151-2">See p. 39, n. 2.</note>
-            <note xml:id="n152-1" target="#a152-1" n="152-1">Near Seleucia (Bar., H. E., ed. Abbeloos and Lamy, III, p. 85).</note>
-            <note xml:id="n154-1" target="#a154-1" n="154-1">Ms. om.</note>
-            <note xml:id="n154-2" target="#a154-2" n="154-2">The reason for the journey can hardly have been as here stated, since the Persians would have no object in making the inquiry and knew well that the Nestorians differed from the Christians of the empire and therefore favoured them. Moreover it was to the interest of the Nestorians to lay stress upon the difference, not to deny it; cf. p. 142, 147. Barh. (l.c.) says that S. obtained an order from the king to encourage the Monophysites to hold their services freely and to defend them against the Nestorians, adding that he received certificates from Greeks, Armenians, and Syrians, saying that they differed from the Nestorians.</note>
-            <note xml:id="n155-1" target="#a155-1" n="155-1">The second occasion is not mentioned, unless two visits are here intended, the third being that recorded below (p. 157, 1. 6).</note>
-            <note xml:id="n156-1" target="#a156-1" n="156-1">I.e. the Monophysites. Therefore he went only to those who agreed with him. What kings besides the king of Abyssinia and an Arab shaikh or two are meant is not easy to see.</note>
-            <note xml:id="n156-2" target="#a156-2" n="156-2">This word has perh. crept in from below.</note>
-            <note xml:id="n156-3" target="#a156-3" n="156-3">Kawad, who d. Sept. 531.</note>
-            <note xml:id="n157-1" target="#a157-1" n="157-1">Not till 538. His first act was to make peace (532; <title>Chr. Edess.</title>, A. S. 843; 'Zach. Rh.', IX, 7).</note>
-            <note xml:id="n157-2" target="#a157-2" n="157-2">Probably 540-542; see Introd. and Dyakonov, p. 50. Simeon's stay in Constantinople wil then have been 539-540.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 138, n. 1</orig></choice>I Cor., XV, 10.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 138, n. 2</orig></choice>Rom., XV, 19.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 139, n. 1</orig></choice>The sentence is left unfinished, and the sense completed in another way.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 139, n. 2</orig></choice>489 (<title>Chron</title>. Edess., A. S. foo).</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 139, n. 3</orig></choice>Cf. Simeon's own account in Assem., B. O., I, p. 350-354, from which John probably took this.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 140, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 140, n. 2</orig></choice>Acts, XX, 29.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 140, n. 3</orig></choice>Syr <hi rend="singleQuotes">Hirtha</hi> (d Nu'man) = Arab. <hi rend="singleQuotes">Al Hira</hi>; see p. 145.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 140, n. 4</orig></choice>Sc. Ctesiphon</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 143, n. 1</orig></choice>Hypatius was sent on a embassy to Persia in 517 (P. O., VII, p, 661); but an earlier occasion seems to be here meant, for the 7 years' imprisonment (p.153) must have begun some years later, and S. afterwards travelled for 7 years and returned in 531 (p. 156), and he was certainly at liberty in 524 (Assem., B. O., I, p. 364; 'Zach. Rh.',VIII, 3). Moreover, if the narrative is in chronological order, this mission to Constantinople preceded the dispute with the Nestorians, which was between 499 and 504 (p. 147).</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 143, n. 2</orig></choice>This was meant perh. among the documents which came into the acuthor's possession (p. 158), and, if so, he no doubt quotes from it.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 144, n. 1</orig></choice>like <foreign xml:lang="grc">πυνθάνομαι</foreign>, is often used in this sense; see p. 39, n. 2.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 144, n. 2</orig></choice>Lit. <hi rend="singleQuotes">his own person (<foreign xml:lang="grc">πρόσωπον</foreign>)</hi></note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 144, n. 3</orig></choice>See below (p. 145). The same story is told of James (ch. 49).</note>
+            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 145, n. 1</orig></choice>Arzanene. From p. 147, l. 16, it is clear that the only Nestorian <foreign>catholicus</foreign>, the bishop of Seleucia, is meant.</note>
+            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 146, n. 1</orig></choice>Sic syr</note>
+            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 146, n. 2</orig></choice>Or <hi rend="singleQuotes">riding-animals</hi>, perhaps dromedaries (P.-Smith, s. V. ).</note>
+            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 147, n. 1</orig></choice>499-504.</note>
+            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 148, n. 1</orig></choice>As John was no theologian, the argument here advanced must be ascribed to Simeon; but that Babai and the marzban used the words put into their mouths <hi rend="singleQuotes">credat Judaeus</hi>.</note>
+            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 148, n. 2</orig></choice>As the verb is fem., we should perhaps write <hi rend="singleQuotes">word</hi>.</note>
+            <note xml:id="n21" target="#a21" n="21"><choice><reg/><orig>p. 149, n. 1</orig></choice>See p. 39, n. 2.</note>
+            <note xml:id="n22" target="#a22" n="22"><choice><reg/><orig>p. 151, n. 1</orig></choice>Or <hi rend="singleQuotes">proper character</hi>.</note>
+            <note xml:id="n23" target="#a23" n="23"><choice><reg/><orig>p. 151, n. 2</orig></choice>See p. 39, n. 2.</note>
+            <note xml:id="n24" target="#a24" n="24"><choice><reg/><orig>p. 152, n. 1</orig></choice>Near Seleucia (Bar., H. E., ed. Abbeloos and Lamy, III, p. 85).</note>
+            <note xml:id="n25" target="#a25" n="25"><choice><reg/><orig>p. 154, n. 1</orig></choice>Ms. om.</note>
+            <note xml:id="n26" target="#a26" n="26"><choice><reg/><orig>p. 154, n. 2</orig></choice>The reason for the journey can hardly have been as here stated, since the Persians would have no object in making the inquiry and knew well that the Nestorians differed from the Christians of the empire and therefore favoured them. Moreover it was to the interest of the Nestorians to lay stress upon the difference, not to deny it; cf. p. 142, 147. Barh. (l.c.) says that S. obtained an order from the king to encourage the Monophysites to hold their services freely and to defend them against the Nestorians, adding that he received certificates from Greeks, Armenians, and Syrians, saying that they differed from the Nestorians.</note>
+            <note xml:id="n27" target="#a27" n="27"><choice><reg/><orig>p. 155, n. 1</orig></choice>The second occasion is not mentioned, unless two visits are here intended, the third being that recorded below (p. 157, 1. 6).</note>
+            <note xml:id="n28" target="#a28" n="28"><choice><reg/><orig>p. 156, n. 1</orig></choice>I.e. the Monophysites. Therefore he went only to those who agreed with him. What kings besides the king of Abyssinia and an Arab shaikh or two are meant is not easy to see.</note>
+            <note xml:id="n29" target="#a29" n="29"><choice><reg/><orig>p. 156, n. 2</orig></choice>This word has perh. crept in from below.</note>
+            <note xml:id="n30" target="#a30" n="30"><choice><reg/><orig>p. 156, n. 3</orig></choice>Kawad, who d. Sept. 531.</note>
+            <note xml:id="n31" target="#a31" n="31"><choice><reg/><orig>p. 157, n. 1</orig></choice>Not till 538. His first act was to make peace (532; <title>Chr. Edess.</title>, A. S. 843; 'Zach. Rh.', IX, 7).</note>
+            <note xml:id="n32" target="#a32" n="32"><choice><reg/><orig>p. 157, n. 2</orig></choice>Probably 540-542; see Introd. and Dyakonov, p. 50. Simeon's stay in Constantinople wil then have been 539-540.</note>
          </noteGrp>
       </body>
    </text>

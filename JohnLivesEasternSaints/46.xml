@@ -1,25 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/837">Paul of Antioch</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/837 -->
-         <head>Next the Forty-Sixth History, of the Blessed <persName ref="http://syriaca.org/person/1977">Paul</persName>, Who Was From the City of <placeName ref="http://syriaca.org/place/10">Antioch</placeName><ptr type="noteAnchor" target="#n469-2"/>.</head>
+         <head>Next the Forty-Sixth History, of the Blessed <persName ref="http://syriaca.org/person/1977">Paul</persName>, Who Was From the City of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>.<ptr type="noteAnchor" target="#n469-2" n=""/></head>
          <ab>
             It is therefore no small thing that the memory of the history of <persName ref="http://syriaca.org/person/1977">Paul</persName> also
             the divine man and strenuous worker, who worked in his Lord's vineyard
@@ -34,7 +77,7 @@
             of those who were in need, and take them and give them to drink each one
             according to what was suited for him, and he would give small coins as was
             suited for each one of them. And thus before daybreak in company with
-            others who shared his enthusiasm with him he would carry him<ptr type="noteAnchor" target="#n470-1"/>, and would
+            others who shared his enthusiasm with him he would carry him,<ptr type="noteAnchor" target="#n470-1" n=""/> and would
             go and lay him in his place (and he used to do this not to men only but also
             to women) for a long time; so that in consequence of this he by his zeal
             instigated many persons to share his labour, after teaching everyone from
@@ -59,8 +102,8 @@
             city, and had passed one year or two or more, and saw that his work had been
             instituted and organized in that city, his zealous plan would next draw him
             <pb n="674"/><pb n="472"/>to another city; and so accordingly he acted in this way and instituted the
-            work of this ministration not in eastern cities only<ptr type="noteAnchor" target="#n472-1"/>, but also in many western
-            cities too. When accordingly [....]<ptr type="noteAnchor" target="#n472-2"/> that he was not able and sufficient 
+            work of this ministration not in eastern cities only,<ptr type="noteAnchor" target="#n472-1" n=""/> but also in many western
+            cities too. When accordingly [....]<ptr type="noteAnchor" target="#n472-2" n=""/> that he was not able and sufficient 
             himself in person to repair to every city, he used accordingly to send
             others, and rouse the citizens, and advise and instigate them to take up this
             work, so that this great and holy work, which is more pleasing to God than
@@ -76,19 +119,19 @@
             refreshed not only the poor and maimed and sick and lame and blind and old
             <pb n="675"/><pb n="473"/>in the royal city, but also in all the suburbs beyond the water in all quarters
             of the same city besides, and also in all the cities round, <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName> and 
-            <placeName ref="http://syriaca.org/place/502">Nicomedia</placeName>, and <placeName ref="http://syriaca.org/place/439">Cyzicus</placeName> and <placeName ref="http://syriaca.org/place/2835">Prusias</placeName><ptr type="noteAnchor" target="#n473-1"/> and <placeName ref="http://syriaca.org/place/2790">Heraclea</placeName>, and as far as the <placeName ref="http://syriaca.org/place/503">sea of Pontus</placeName>,
+            <placeName ref="http://syriaca.org/place/502">Nicomedia</placeName>, and <placeName ref="http://syriaca.org/place/439">Cyzicus</placeName> and <placeName ref="http://syriaca.org/place/2835">Prusias</placeName><ptr type="noteAnchor" target="#n473-1" n=""/> and <placeName ref="http://syriaca.org/place/2790">Heraclea</placeName>, and as far as the <placeName ref="http://syriaca.org/place/503">sea of Pontus</placeName>,
             while he also bought clothing and brought it out and distributed it and gave
             it to many from any source from which it fell into his hands, while he also
             provided relief and refreshment with every kind of bathing for the poor and
             the strangers who were present. And so this man went on gaining distinction 
             and showing prowess in the Lord's work in the royal city for many years,
-            while not neglecting to send money to other cities round <placeName ref="http://syriaca.org/place/2845">Sycae</placeName><ptr type="noteAnchor" target="#n473-2"/> also for the
+            while not neglecting to send money to other cities round <placeName ref="http://syriaca.org/place/2845">Sycae</placeName><ptr type="noteAnchor" target="#n473-2" n=""/> also for the
             expenses of that ministration, which he had planted and instituted in them.
             And accordingly many emulated his zeal and his earnestness and imitated
-            it, so that other deaconries (<foreign xml:lang="grc">διακονίας</foreign>)<ptr type="noteAnchor" target="#n473-3"/> were established not for men only but
+            it, so that other deaconries (<foreign xml:lang="grc">διακονίας</foreign>)<ptr type="noteAnchor" target="#n473-3" n=""/> were established not for men only but
             also for women and great and lowly in ardent zeal hastened to minister, and
             to take part by means of gifts. And so the blessed <persName ref="http://syriaca.org/person/1977">Paul</persName> ended the course of
-            his practices in the same royal city, bearing good testimony [....]<ptr type="noteAnchor" target="#n473-4"/> only
+            his practices in the same royal city, bearing good testimony [....]<ptr type="noteAnchor" target="#n473-4" n=""/> only
             <pb n="676"/><pb n="474"/>of dry bones and skin laid over them outside like wood; and thus his whole
             body was dried up from the labour and abstinence and watching, his prayer
             also accompanying his action in all cities in the east and in the west, and
@@ -101,14 +144,14 @@
             The history of the blessed <persName ref="http://syriaca.org/person/1977">Paul</persName>, who was from the city of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>, is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n469-2" target="#a469-2" n="469-2">See II. E., II, 15.</note>
-            <note xml:id="n470-1" target="#a470-1" n="470-1">Sic syr.</note>
-            <note xml:id="n472-1" target="#a472-1" n="472-1">Ms. om.</note>
-            <note xml:id="n472-2" target="#a472-2" n="472-2">Some words have fallen out.</note>
-            <note xml:id="n473-1" target="#a473-1" n="473-1">Ms. <hi rend="singleQuote">fryqy</hi>.</note>
-            <note xml:id="n473-2" target="#a473-2" n="473-2">The suburb beyond the Golden Horn, now Galata and Pera; see p. 27 and p. 431. We are perh. to understand that he was living in the Syrian monastery.</note>
-            <note xml:id="n473-3" target="#a473-3" n="473-3">See p. 467, n. 3, and H.E., II, 15.</note>
-            <note xml:id="n473-4" target="#a473-4" n="473-4">Some words have fallen out.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 469, n. 2</orig></choice>See II. E., II, 15.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 470, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 472, n. 1</orig></choice>Ms. om.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 472, n. 2</orig></choice>Some words have fallen out.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 473, n. 1</orig></choice>Ms. <hi rend="singleQuotes">fryqy</hi>.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 473, n. 2</orig></choice>The suburb beyond the Golden Horn, now Galata and Pera; see p. 27 and p. 431. We are perh. to understand that he was living in the Syrian monastery.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 473, n. 3</orig></choice>See p. 467, n. 3, and H.E., II, 15.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 473, n. 4</orig></choice>Some words have fallen out.</note>
          </noteGrp>
       </body>
    </text>

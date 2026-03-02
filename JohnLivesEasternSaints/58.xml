@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/10510">History of the Monastery of John Urtaya</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/10510 -->
@@ -23,7 +66,7 @@
             <placeName ref="http://syriaca.org/place/399">Holy Convent</placeName> of the House of Mar <persName ref="http://syriaca.org/person/3218">John</persName>John at <placeName ref="http://syriaca.org/place/8">Amida</placeName>, and Who Were Its
             Heads and Founders From the Beginning, i.e. From the Year Seven
             Hundred of <persName>Alexander</persName>, and Down to the Year Eight Hundred And
-            Seventy-Eight of the Same<ptr type="noteAnchor" target="#n552-1"/>.</head>
+            Seventy-Eight of the Same.<ptr type="noteAnchor" target="#n552-1" n=""/></head>
          <ab>
             It did not therefore seem to us to be just and a fitting thing that we should
             withold the good deposit which was committed to us by old men our holy
@@ -39,11 +82,11 @@
             had been an inmate of it for a long time, who himself also as well received it
             from ancient seniors of protracted life who were before him, who were inmates
             in it from its earliest foundation. But this blessed <persName ref="http://syriaca.org/person/3251">Samuel</persName> lived even in our
-            times, and down to the year eight hundred and fifty of <persName>Alexander</persName><ptr type="noteAnchor" target="#n553-1"/>; and he
+            times, and down to the year eight hundred and fifty of <persName>Alexander</persName>;<ptr type="noteAnchor" target="#n553-1" n=""/> and he
             gained distinction also in the conflict (<foreign xml:lang="grc">άγών</foreign>) of persecution; and he fell asleep
             and finished the course of his great and divine practices in the second exile
             (<foreign xml:lang="grc">έξορία</foreign>) itself in the district of <placeName ref="http://syriaca.org/place/2769">Claudias</placeName>, in the <placeName ref="http://syriaca.org/place/2795">monastery called that of the
-               Huts</placeName>, while the whole <placeName ref="http://syriaca.org/place/399">convent</placeName> also dwelt in it for about twelve years<ptr type="noteAnchor" target="#n553-1"/>, and
+               Huts</placeName>, while the whole <placeName ref="http://syriaca.org/place/399">convent</placeName> also dwelt in it for about twelve years,<ptr type="noteAnchor" target="#n553-1" n=""/> and
             built it and set it up and made plantations there. As then we received and
             <pb n="208"/><pb n="554"/>learned from these blessed men, that is in the first place from this blessed
             <persName ref="http://syriaca.org/person/3251">Samuel</persName>, we record the history, which he often related in our presence; which
@@ -51,12 +94,12 @@
             huts on its site, which were called (the informant stated) those of Mar Afwrsm,
             who himself also gained distinction for a considerable time in the conflict
             (<foreign xml:lang="grc">άγών</foreign>) of seclusion. Then the blessed Mar <persName ref="http://syriaca.org/person/3218">John</persName>, by whose name the <placeName ref="http://syriaca.org/place/399">convent</placeName>
-            was called, came about the year seven hundred<ptr type="noteAnchor" target="#n554-1"/>, and made another hut for
+            was called, came about the year seven hundred,<ptr type="noteAnchor" target="#n554-1" n=""/> and made another hut for
             himself a little distance from the earlier ones in the same place, and shut
             himself up in it, who was also thought to be an <placeName ref="http://syriaca.org/place/2758">Urtaya</placeName> and so called for some
             such reason as this. Because (the informant stated) he was a zealous man and
-            an expounder<ptr type="noteAnchor" target="#n554-2"/> and a teacher, he used to go in and out of the country of the
-            <placeName ref="http://syriaca.org/place/2758">Urtaye</placeName><ptr type="noteAnchor" target="#n554-3"/>, warning and teaching and expounding and correcting many,
+            an expounder<ptr type="noteAnchor" target="#n554-2" n=""/> and a teacher, he used to go in and out of the country of the
+            <placeName ref="http://syriaca.org/place/2758">Urtaye</placeName>,<ptr type="noteAnchor" target="#n554-3" n=""/> warning and teaching and expounding and correcting many,
             insomuch that he learned the language of the <placeName ref="http://syriaca.org/place/2758">Urtaye</placeName>, so that for such a
             reason he was thought to be and was called an <placeName ref="http://syriaca.org/place/2758">Urtaya</placeName>, though by his birth
             (<foreign xml:lang="grc">γένος</foreign>) he was a Syrian.
@@ -66,8 +109,8 @@
             seclusion, and gaining renown and reverence from many, two other blessed
             <pb n="209"/><pb n="555"/>men came to him, and they also were renowned and famous men, and
             teachers and firstrate scribes, one of whom was named <persName ref="http://syriaca.org/person/3251">Samuel</persName> and the other
-            <persName ref="http://syriaca.org/person/3227">Jonathan</persName>, who had been living in <placeName ref="http://syriaca.org/place/1528">the monastery of the Edessenes</placeName><ptr type="noteAnchor" target="#n555-1"/> at <placeName ref="http://syriaca.org/place/8">Amida</placeName>,
-            who transcribed<ptr type="noteAnchor" target="#n555-2"/> many books, which by virtue of their wills (<foreign xml:lang="grc">διαθήκας</foreign>) have
+            <persName ref="http://syriaca.org/person/3227">Jonathan</persName>, who had been living in <placeName ref="http://syriaca.org/place/1528">the monastery of the Edessenes</placeName><ptr type="noteAnchor" target="#n555-1" n=""/> at <placeName ref="http://syriaca.org/place/8">Amida</placeName>,
+            who transcribed<ptr type="noteAnchor" target="#n555-2" n=""/> many books, which by virtue of their wills (<foreign xml:lang="grc">διαθήκας</foreign>) have
             been handed down in the <placeName ref="http://syriaca.org/place/399">convent</placeName> even down to the present day itself. And
             in consequence of the blessed man's renown and in consequence of his beautiful 
             manner of life the blessed men <persName ref="http://syriaca.org/person/3251">Samuel</persName> and <persName ref="http://syriaca.org/person/3227">Jonathan</persName> begged him that
@@ -94,7 +137,7 @@
             to the country of joys; and the blessed <persName ref="http://syriaca.org/person/3185">Abraham</persName> was appointed to succeed
             him at the head of the monastery, who was also a native of the city. This
             man (the informants stated) had a house in the city, and an old mother,
-            and brothers and a considerable number of kinsmen<ptr type="noteAnchor" target="#n556-1"/> (<foreign xml:lang="grc">γένος</foreign>). And, when
+            and brothers and a considerable number of kinsmen<ptr type="noteAnchor" target="#n556-1" n=""/> (<foreign xml:lang="grc">γένος</foreign>). And, when
             he had been governing the <placeName ref="http://syriaca.org/place/399">convent</placeName> excellently for a long time, unfounded
             ill-feeling was stirred up against him (they stated) by certain members of
             the <placeName ref="http://syriaca.org/place/399">convent</placeName> who suspected of him that he was secretly providing for his
@@ -122,20 +165,20 @@
             <pb n="212"/><pb n="558"/>while he also in a short time greatly increased and extended the <placeName ref="http://syriaca.org/place/399">convent</placeName>,
             being also formidable and severe and stern toward all the chief men and
             magnates of the city and of the district; insomuch that his fame penetrated
-            even to the king<ptr type="noteAnchor" target="#n558-1"/>, and he was summoned by an order to the royal city.
+            even to the king,<ptr type="noteAnchor" target="#n558-1" n=""/> and he was summoned by an order to the royal city.
             and went up and was received with great honour, so that in addition to great
             presents he gave him a village also as well for which he asked in the district
             of <placeName>Ingilene</placeName> the name of which was <placeName ref="http://syriaca.org/place/2824">Narda</placeName>, for which he had asked on account
             of the usefulness of its wooded heights and so on. But on coming down
             from the royal city and seeing the spaciousness and magnitude of the heights
-            he cut off half of it and gave it to the monastery of <placeName ref="http://syriaca.org/place/358">the village of Zuknin</placeName><ptr type="noteAnchor" target="#n558-2"/>
+            he cut off half of it and gave it to the monastery of <placeName ref="http://syriaca.org/place/358">the village of Zuknin</placeName><ptr type="noteAnchor" target="#n558-2" n=""/>
             who had asked him for it, since he indeed loved them as his brothers. And
             he began to raise his own <placeName ref="http://syriaca.org/place/399">convent</placeName> of the blessed Mar <persName ref="http://syriaca.org/person/3218">John</persName> to the number of
             four hundred men; and this <placeName ref="http://syriaca.org/place/399">convent</placeName> grew and increased in the blessed man's
             days beyond all the convents round the city. And on account of the perfection 
             of his character and the sublimity of his mode of life great constraint
             was put upon him, and he was made bishop in the land of the <placeName ref="http://syriaca.org/place/2758">Urtaye</placeName> in the
-            district of <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName><ptr type="noteAnchor" target="#n558-3"/>; and, when this happened, both he and all the members
+            district of <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName>;<ptr type="noteAnchor" target="#n558-3" n=""/> and, when this happened, both he and all the members
             of his <placeName ref="http://syriaca.org/place/399">convent</placeName> were smitten with sorrow and distress, and they continued
             begging and entreating him to appoint a head and governor for them in his
             <pb n="213"/><pb n="559"/>place, while he refused to do this, saying to them, <quote>Now that I for my part
@@ -162,16 +205,16 @@
             And he on his side made a prayer and took him and clad him in the hood
             of the archimandriteship, and put the staff of the pastorate of the <placeName ref="http://syriaca.org/place/399">convent</placeName>
             in his hand, even as he came from the occupation of shepherd of a flock,
-            and from a village called Thella d Mikhana<ptr type="noteAnchor" target="#n560-1"/>, and all his life and even after
+            and from a village called Thella d Mikhana,<ptr type="noteAnchor" target="#n560-1" n=""/> and all his life and even after
             his death, and even to the present time in the same <placeName ref="http://syriaca.org/place/399">convent</placeName> he was called
             <quote>Mar <persName ref="http://syriaca.org/person/3185">Abraham</persName> the shepherd</quote>. But the old man continued saying with sobs
             and with much weeping, <quote>How is it, sir, that you appoint me a plain man
                (<foreign xml:lang="grc">ίδιώτης</foreign>) and a shepherd to govern such a <placeName ref="http://syriaca.org/place/399">convent</placeName> as this?</quote> But the blessed
             man answered him, saying, <quote>Remember our Lord's saying to Peter when
-               he says, <quote>Henceforth thou shalt catch men to life</quote><ptr type="noteAnchor" target="#n560-2"/>; even as you now after
+               he says, <quote>Henceforth thou shalt catch men to life</quote>;<ptr type="noteAnchor" target="#n560-2" n=""/> even as you now after
             being shepherd of a dumb flock of animals shall carry out the duties of
             shepherd of a rational flock of men</quote>. But those who were in high and
-            prominent place, and thought of themselves that<ptr type="noteAnchor" target="#n560-3"/> they were wise and
+            prominent place, and thought of themselves that<ptr type="noteAnchor" target="#n560-3" n=""/> they were wise and
             learned and teachers, and of whom each one was confident concerning
             himself that it would be he who would be raised by force to the governorship,
             when they saw that he had appointed an old man and a shepherd who held
@@ -197,7 +240,7 @@
             <pb n="216"/><pb n="562"/>left the monastery in one body for such a reason as this. And they went
             and occupied a site and built a monastery for themselves and a well-known
             martyrs' chapel which exists even to the present time, in the <placeName ref="http://syriaca.org/place/2751">village called
-               that of Beth Bar ʿrubtha</placeName><ptr type="noteAnchor" target="#n562-1"/>. But the blessed <persName ref="http://syriaca.org/person/3185">Abraham</persName> was strengthened, and
+               that of Beth Bar ʿrubtha</placeName>.<ptr type="noteAnchor" target="#n562-1" n=""/> But the blessed <persName ref="http://syriaca.org/person/3185">Abraham</persName> was strengthened, and
             began to act with vigour and show firmness, and to display proper energy in
             all the government of the <placeName ref="http://syriaca.org/place/399">convent</placeName>, and great carefulness for all its belongings,
             and for the canons and regulations and all the spiritual ordinances in it,
@@ -206,7 +249,7 @@
             knowledge, and orderly and honourable conduct, insomuch that he also as
             well gained great renown over the whole <placeName>East</placeName>. But after a time came the
             blessed Mar <persName ref="http://syriaca.org/person/3251">Samuel</persName> also besides who also founded the <placeName ref="http://syriaca.org/place/399">convent</placeName> called after
-            his name<ptr type="noteAnchor" target="#n562-2"/>, having first set up a standing-post for himself, and taken up his
+            his name,<ptr type="noteAnchor" target="#n562-2" n=""/> having first set up a standing-post for himself, and taken up his
             position on it. And, when he began to build the <placeName ref="http://syriaca.org/place/399">convent</placeName>, the blessed
             <persName ref="http://syriaca.org/person/3185">Abraham</persName> used to give him much assistance, since, after the city-gates were
             shut, he would take a party of forty and fifty men, and they would
@@ -219,14 +262,14 @@
             modes of life, together with all the other convents their brethren. In the
             days of the blessed <persName ref="http://syriaca.org/person/3185">Abraham</persName> the shepherd therefore <persName ref="http://syriaca.org/person/2286">Kawad</persName> king of the
             <persName>Persian</persName>s came against the city of <placeName ref="http://syriaca.org/place/8">Amida</placeName> in the year eight hundred and
-            thirteen<ptr type="noteAnchor" target="#n563-1"/>; and he took it<ptr type="noteAnchor" target="#n563-2"/> and carried off captives from it, while he also
+            thirteen;<ptr type="noteAnchor" target="#n563-1" n=""/> and he took it<ptr type="noteAnchor" target="#n563-2" n=""/> and carried off captives from it, while he also
             razed the monastery too to the ground, and piled its wood and its stones
-            and its clay on to the <quote>mule</quote><ptr type="noteAnchor" target="#n563-3"/> which he had set up against the city. The
-            story of these events was related to us<ptr type="noteAnchor" target="#n563-4"/> by an old man with venerable
-            white hair whom<ptr type="noteAnchor" target="#n563-4"/> once when we had set out to go into the desert of <placeName>Egypt</placeName>
+            and its clay on to the <quote>mule</quote><ptr type="noteAnchor" target="#n563-3" n=""/> which he had set up against the city. The
+            story of these events was related to us<ptr type="noteAnchor" target="#n563-4" n=""/> by an old man with venerable
+            white hair whom<ptr type="noteAnchor" target="#n563-4" n=""/> once when we had set out to go into the desert of <placeName>Egypt</placeName>
             we found in the country of Palestine beyond <placeName>Jerusalem</placeName> in a monastery called
-            that of Mar <persName>Thomas</persName> at Beth <placeName ref="http://syriaca.org/place/1508">Gubrin</placeName><ptr type="noteAnchor" target="#n563-5"/>, so that, when we had first zealously
-            directed our course to the <placeName>city of Alexandria</placeName>, and had arrived at this <placeName ref="http://syriaca.org/place/399">convent</placeName><ptr type="noteAnchor" target="#n563-6"/>, 
+            that of Mar <persName>Thomas</persName> at Beth <placeName ref="http://syriaca.org/place/1508">Gubrin</placeName>,<ptr type="noteAnchor" target="#n563-5" n=""/> so that, when we had first zealously
+            directed our course to the <placeName>city of Alexandria</placeName>, and had arrived at this <placeName ref="http://syriaca.org/place/399">convent</placeName>,<ptr type="noteAnchor" target="#n563-6" n=""/> 
             we found that venerable old man sitting, though he was unable to
             <pb n="218"/><pb n="564"/>see from age. But, when we approached him to make obeisance to him
             and receive his blessing, he asked us saying, <quote>Whence are you, my sons?</quote>
@@ -259,14 +302,14 @@
             and strengthened us and many of us escaped. And from that time I fled
             from all that country; and I made a vow to God not to see it again</quote>.
             And so that old man was piteously relating all these things to us with great
-            emotion and many tears; so that for a long time he was unable<ptr type="noteAnchor" target="#n565-1"/> on account
+            emotion and many tears; so that for a long time he was unable<ptr type="noteAnchor" target="#n565-1" n=""/> on account
             of his sobs to relate them before us. And again another old man of many
             days (and he too had venerable white hairs), who during the same times of
             the prosperity of this <placeName ref="http://syriaca.org/place/399">convent</placeName> had been in his boyhood an inmate in it,
-            <pb n="220"/><pb n="566"/>who was in the renowned <placeName ref="http://syriaca.org/place/1528">monastery of the Orientals at Edessa</placeName><ptr type="noteAnchor" target="#n566-1"/>, who was
-            called <persName ref="http://syriaca.org/person/3239">Paul</persName> of <placeName ref="http://syriaca.org/place/724">Arzen</placeName><ptr type="noteAnchor" target="#n566-2"/>, who also departed from the world a few years before
+            <pb n="220"/><pb n="566"/>who was in the renowned <placeName ref="http://syriaca.org/place/1528">monastery of the Orientals at Edessa</placeName>,<ptr type="noteAnchor" target="#n566-1" n=""/> who was
+            called <persName ref="http://syriaca.org/person/3239">Paul</persName> of <placeName ref="http://syriaca.org/place/724">Arzen</placeName>,<ptr type="noteAnchor" target="#n566-2" n=""/> who also departed from the world a few years before
             during the persecution of the <placeName ref="http://syriaca.org/place/399">convent</placeName>, used all his days in the presence
-            of many persons to tell about the prosperity of the <placeName ref="http://syriaca.org/place/399">convent</placeName><ptr type="noteAnchor" target="#n566-3"/>, saying:
+            of many persons to tell about the prosperity of the <placeName ref="http://syriaca.org/place/399">convent</placeName>,<ptr type="noteAnchor" target="#n566-3" n=""/> saying:
             <quote>Before the deportation by <persName ref="http://syriaca.org/person/2286">Kawad</persName> we numbered four hundred men in it;
                and so prosperous and extensive was the <placeName ref="http://syriaca.org/place/399">convent</placeName> of the blessed Mar <persName ref="http://syriaca.org/person/3218">John</persName>,
             that, since their space was too much confined for the purposes of occupation
@@ -280,29 +323,29 @@
             their lines till they enter the precincts and are piled upon the building, and
             thus that extensive building was built, though it was not completed on
             account of the deportation by the <persName>Persians</persName> and the scattering of the brotherhood; 
-               so that, since a heap (?)<ptr type="noteAnchor" target="#n566-4"/> remained after the <persName>Persians</persName>, a large
+               so that, since a heap (?)<ptr type="noteAnchor" target="#n566-4" n=""/> remained after the <persName>Persians</persName>, a large
             <pb n="221"/><pb n="567"/>portion of the monastery was quarried and built from it; and the whole of
             the martyrs' chapel dedicated to <persName>Kyra Maria</persName> was also built from it, and
             further much was also quarried and brought in from it for the church and
-            the city.</quote><ptr type="noteAnchor" target="#n567-1"/> And its kiln is still standing. But this <placeName ref="http://syriaca.org/place/399">convent</placeName> was rebuilt on
+            the city.</quote><ptr type="noteAnchor" target="#n567-1" n=""/> And its kiln is still standing. But this <placeName ref="http://syriaca.org/place/399">convent</placeName> was rebuilt on
             a smaller scale, both in buildings and in the number of the brotherhood.
             But the blessed <persName ref="http://syriaca.org/person/3185">Abraham</persName>, who was also called <quote>the shepherd</quote>, ended the
-            course of his practices, and <quote>died in a good old age</quote><ptr type="noteAnchor" target="#n567-2"/>. And to succeed him
+            course of his practices, and <quote>died in a good old age</quote>.<ptr type="noteAnchor" target="#n567-2" n=""/> And to succeed him
             in the government of the <placeName ref="http://syriaca.org/place/399">convent</placeName> the blessed <persName ref="http://syriaca.org/person/3200">Cosmas</persName> was appointed, who
             also showed himself an excellent governor and head; and he governed
             during his days in tranquillity and quiet, having lived the whole of the time
-            of the reign of <persName ref="http://syriaca.org/person/2265">Anastasius</persName><ptr type="noteAnchor" target="#n567-3"/>; and so he fell asleep in his <placeName ref="http://syriaca.org/place/399">convent</placeName> in peace<ptr type="noteAnchor" target="#n567-4"/>.
+            of the reign of <persName ref="http://syriaca.org/person/2265">Anastasius</persName>.<ptr type="noteAnchor" target="#n567-3" n=""/>; and so he fell asleep in his <placeName ref="http://syriaca.org/place/399">convent</placeName> in peace<ptr type="noteAnchor" target="#n567-4" n=""/>
             And to succeed him in the headship and government of the <placeName ref="http://syriaca.org/place/399">convent</placeName> the
             blessed <persName ref="http://syriaca.org/person/3255">Sergius</persName> was appointed, who by his birth (<foreign xml:lang="grc">γένος</foreign>) came from the village
             of <placeName ref="http://syriaca.org/place/2780">Gadara</placeName> which was in the north; who in the first persecution that arose
-            against the church<ptr type="noteAnchor" target="#n567-5"/> was the first to go out in banishment with all the rest
+            against the church<ptr type="noteAnchor" target="#n567-5" n=""/> was the first to go out in banishment with all the rest
             of the convents, and gained distinction in the conflicts (<foreign xml:lang="grc">άγών</foreign>) of persecution,
             <pb n="222"/><pb n="568"/>and in all the labours of monasticism, as well as in excellent government all
             the time of his life. And he ended his course during the same persecution;
-            and he died and was buried in the monastery called that of Mar <placeName ref="http://syriaca.org/place/2813">Mama</placeName><ptr type="noteAnchor" target="#n568-1"/>.
+            and he died and was buried in the monastery called that of Mar <placeName ref="http://syriaca.org/place/2813">Mama</placeName>.<ptr type="noteAnchor" target="#n568-1" n=""/>
             But to succeed him a great blessed senior was appointed whose name was
-            <persName ref="http://syriaca.org/person/3263">Symy</persName><ptr type="noteAnchor" target="#n568-2"/>; who by his birth (<foreign xml:lang="grc">γένος</foreign>) was a native of <placeName ref="http://syriaca.org/place/724">Arzen</placeName><ptr type="noteAnchor" target="#n568-3"/>; who with his two
-            predecessors <persName ref="http://syriaca.org/person/3255">Sergius</persName> and <persName ref="http://syriaca.org/person/3200">Cosmas</persName> were<ptr type="noteAnchor" target="#n568-4"/> in our days, since we indeed in the
+            <persName ref="http://syriaca.org/person/3263">Symy</persName>;<ptr type="noteAnchor" target="#n568-2" n=""/>; who by his birth (<foreign xml:lang="grc">γένος</foreign>) was a native of <placeName ref="http://syriaca.org/place/724">Arzen</placeName><ptr type="noteAnchor" target="#n568-3" n=""/> who with his two
+            predecessors <persName ref="http://syriaca.org/person/3255">Sergius</persName> and <persName ref="http://syriaca.org/person/3200">Cosmas</persName> were<ptr type="noteAnchor" target="#n568-4" n=""/> in our days, since we indeed in the
             days of the blessed <persName ref="http://syriaca.org/person/3255">Sergius</persName> and the others who succeeded him received the
             privilege of residing in the <placeName ref="http://syriaca.org/place/399">convent</placeName>. When then after the decease of the
             blessed <persName ref="http://syriaca.org/person/3255">Sergius</persName> they were urging the blessed <persName ref="http://syriaca.org/person/3263">Symy</persName> to take up the government, 
@@ -311,8 +354,8 @@
             day beyond three years and a half in the body</quote>. And, since not even after
             his prophecy also (which was shown to be exact truth) did he escape, but
             they constrained him and he took his place at the head with earnestness as
-            it is written<ptr type="noteAnchor" target="#n568-5"/> excellently and like a teacher, expounding and admonishing
-            day and night with service and with vigil<ptr type="noteAnchor" target="#n568-6"/>, he would also at all times
+            it is written<ptr type="noteAnchor" target="#n568-5" n=""/> excellently and like a teacher, expounding and admonishing
+            day and night with service and with vigil,<ptr type="noteAnchor" target="#n568-6" n=""/> he would also at all times
             <pb n="223"/><pb n="569"/>adjure and warn everyone to bestow care and earnestness upon finding
             spiritual life, and many were in fact enlightened by his teaching, and by
             his admonition were brought to open their hearts and to sorrow and tears,
@@ -325,19 +368,19 @@
             uttered by him even down to this very day; which we refrain from recording,
             lest we be thought to be desirous of displaying great things about ourself.
             When therefore this man had completed the time which he decreed for
-            himself, some days before<ptr type="noteAnchor" target="#n569-1"/> he called and blessed and commanded and warned
+            himself, some days before<ptr type="noteAnchor" target="#n569-1" n=""/> he called and blessed and commanded and warned
             everyone, and so according to the decree which he laid down he ended his
             course during the same persecution in the country of the <placeName>East</placeName> in <placeName ref="http://syriaca.org/place/2834">the monastery 
-               called that of the Poplars</placeName><ptr type="noteAnchor" target="#n569-2"/>, in which also the whole community was
+               called that of the Poplars</placeName>,<ptr type="noteAnchor" target="#n569-2" n=""/> in which also the whole community was
             residing. But after five years, when the recall from banishment came, we
             ourselves were privileged to carry and convey his holy bones into the <placeName ref="http://syriaca.org/place/399">convent</placeName>
-            <pb n="224"/><pb n="570"/>of the house of Mar <persName ref="http://syriaca.org/person/3218">John</persName> itself<ptr type="noteAnchor" target="#n570-1"/>. And to succeed him there was appointed
+            <pb n="224"/><pb n="570"/>of the house of Mar <persName ref="http://syriaca.org/person/3218">John</persName> itself.<ptr type="noteAnchor" target="#n570-1" n=""/> And to succeed him there was appointed
             our blessed master and teacher from our boyhood, whose name was <persName ref="http://syriaca.org/person/3183">Abba</persName>;
-            who also was by his birth (<foreign xml:lang="grc">γένος</foreign>) from the district of <placeName ref="http://syriaca.org/place/724">Arzen</placeName><ptr type="noteAnchor" target="#n570-2"/>; and he was
+            who also was by his birth (<foreign xml:lang="grc">γένος</foreign>) from the district of <placeName ref="http://syriaca.org/place/724">Arzen</placeName>;<ptr type="noteAnchor" target="#n570-2" n=""/> and he was
             reverend and imposing in his speech and in his appearance. But after four
             years of his government occurred the entry into the city-convents themselves
             at the beginning of the reign of <persName ref="http://syriaca.org/person/2284">Justinian</persName> the king. And, when we had
-            completed about seven years and a half<ptr type="noteAnchor" target="#n570-3"/> in the convents themselves, the
+            completed about seven years and a half<ptr type="noteAnchor" target="#n570-3" n=""/> in the convents themselves, the
             envy of those who ruled the churches was aroused, and the persecution was
             renewed over the whole of the <placeName>East</placeName>, through the descent of <persName ref="http://syriaca.org/person/2274">Ephraim</persName> patriarch
             of the city of <placeName ref="http://syriaca.org/place/2610">Antioch</placeName> to the <placeName>East</placeName>; and all the convents were again expelled,
@@ -345,55 +388,55 @@
             took up their abode in it, which was called that of the Poplars. And after a
             little time they were expelled thence, and the convents were divided; and the
             blessed <persName ref="http://syriaca.org/person/3183">Abba</persName> with all his <placeName ref="http://syriaca.org/place/399">convent</placeName> went away, and they went into the steep
-            towering mountains of the village called ʾbdhyr<ptr type="noteAnchor" target="#n570-4"/>; and we took up our
-            abode there in a <placeName ref="http://syriaca.org/place/2826">monastery called that of the Nut</placeName>. And after three years<ptr type="noteAnchor" target="#n570-5"/>
+            towering mountains of the village called ʾbdhyr;<ptr type="noteAnchor" target="#n570-4" n=""/> and we took up our
+            abode there in a <placeName ref="http://syriaca.org/place/2826">monastery called that of the Nut</placeName>. And after three years<ptr type="noteAnchor" target="#n570-5" n=""/>
             we left and went into the district of <placeName ref="http://syriaca.org/place/2769">Claudias</placeName>, and took up our abode in the
-            <pb n="225"/><pb n="571"/>monastery of the Huts<ptr type="noteAnchor" target="#n571-1"/>, which we also mentioned above in our history. And
+            <pb n="225"/><pb n="571"/>monastery of the Huts,<ptr type="noteAnchor" target="#n571-1" n=""/> which we also mentioned above in our history. And
             the blessed <persName ref="http://syriaca.org/person/3183">Abba</persName>, having been arrested and maltreated by the <persName>Synodites</persName>,
             fled and went up to the royal city; and, when he had passed some time there
             with the concourse of believers that had been gathered from every quarter
             by the believing queen <persName ref="http://syriaca.org/person/779">Theodora</persName>, and had a great reception from her, and
             had been there five years, then it was his pleasure to return to his <placeName ref="http://syriaca.org/place/399">convent</placeName>,
             while the <placeName ref="http://syriaca.org/place/399">convent</placeName> was still in the district of <placeName ref="http://syriaca.org/place/2769">Claudias</placeName>, and he ended his
-            course there <quote>in a good old age</quote><ptr type="noteAnchor" target="#n571-2"/>; so that, when after a space of three years
+            course there <quote>in a good old age</quote>;<ptr type="noteAnchor" target="#n571-2" n=""/> so that, when after a space of three years
             we ourselves too went down from the royal city, we took his holy bones
-            also as well and sent them to the city-convent itself<ptr type="noteAnchor" target="#n571-3"/>. And to succeed him
+            also as well and sent them to the city-convent itself.<ptr type="noteAnchor" target="#n571-3" n=""/> And to succeed him
             in the government of the <placeName ref="http://syriaca.org/place/399">convent</placeName> the blessed <persName ref="http://syriaca.org/person/3185">Abraham</persName> was appointed, who
-            by his birth (<foreign xml:lang="grc">γένος</foreign>) was from <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName><ptr type="noteAnchor" target="#n571-4"/>, and was a great and earnest administrator 
+            by his birth (<foreign xml:lang="grc">γένος</foreign>) was from <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName>,<ptr type="noteAnchor" target="#n571-4" n=""/> and was a great and earnest administrator 
             in all the spiritual and bodily affairs by which a <placeName ref="http://syriaca.org/place/399">convent</placeName> is
             maintained. And, when this man had completed some years, he also as
             well fell asleep and was laid in the <placeName ref="http://syriaca.org/place/399">convent</placeName>, since he had gone for the
             purpose of visiting it, and fell asleep and was buried in his monastery, as he
-            desired and prayed<ptr type="noteAnchor" target="#n571-5"/>. After him was appointed the blessed <persName ref="http://syriaca.org/person/3255">Sergius</persName> of
+            desired and prayed.<ptr type="noteAnchor" target="#n571-5" n=""/> After him was appointed the blessed <persName ref="http://syriaca.org/person/3255">Sergius</persName> of
             <placeName ref="http://syriaca.org/place/8">Amida</placeName>, who comes of a distinguished family from the city itself, called the
-            <pb n="226"/><pb n="572"/>house of Bar <persName>Deba</persName><ptr type="noteAnchor" target="#n572-1"/>. This man was placed by his parents in the same <placeName ref="http://syriaca.org/place/399">convent</placeName> 
+            <pb n="226"/><pb n="572"/>house of Bar <persName>Deba</persName>.<ptr type="noteAnchor" target="#n572-1" n=""/> This man was placed by his parents in the same <placeName ref="http://syriaca.org/place/399">convent</placeName> 
             from his childhood, and he was brought up in it from the days of the
             blessed <persName ref="http://syriaca.org/person/3200">Cosmas</persName> the archimandrite, and he gained distinction also in all the
             conflicts (<foreign xml:lang="grc">άγών</foreign>) of persecution from the beginning down to the present year,
             which is the year eight hundred and seventy-seven, the year in which <persName ref="http://syriaca.org/person/2284">Justinian</persName>
-            departed from the world<ptr type="noteAnchor" target="#n572-2"/>, having first been buffeted in every place with all
+            departed from the world,<ptr type="noteAnchor" target="#n572-2" n=""/> having first been buffeted in every place with all
             the old men his fathers who had lived since the beginning of the persecution
             while he endured and remained firm. But at last, when he was appointed
             to the headship of the <placeName ref="http://syriaca.org/place/399">convent</placeName>, he increased in strength and prowess and
             firmness, while he was more frequently driven from district to district and
             from place to place, uttering thanks and praise at all times; a man who,
             having been at first luxurious and delicate and smart as being a citizen, and
-            at last come to himself<ptr type="noteAnchor" target="#n572-3"/>, and been smitten with remorse and brought himself
+            at last come to himself,<ptr type="noteAnchor" target="#n572-3" n=""/> and been smitten with remorse and brought himself
             into a religious frame of mind, turned his face away from all visible
             things, and came to despise clean clothes and delicious foods and unguents
-            and so on, and clothed and covered<ptr type="noteAnchor" target="#n572-4"/> himself with garments of hair, and
+            and so on, and clothed and covered<ptr type="noteAnchor" target="#n572-4" n=""/> himself with garments of hair, and
             embraced asceticism and abstinence, and fasting and services and protracted
             prayers by day and night, and what is more admirable than all, the practice
             of observing the divine commandments, having stored up in his mind the
             <pb n="227"/><pb n="573"/>words of our Saviour who says, <quote>He who loveth me keepeth my word</quote>,
-            and again <quote>Let your speech be <quote>Yea, yea</quote> and <quote>Nay, nay</quote>.</quote><ptr type="noteAnchor" target="#n573-1"/>, and so decided
+            and again <quote>Let your speech be <quote>Yea, yea</quote> and <quote>Nay, nay</quote>.</quote>,<ptr type="noteAnchor" target="#n573-1" n=""/> and so decided
             it for himself that an oath should never proceed from his mouth. And he
             persevered and kept and maintained his resolution even down to the present
             time also, since he is actually in the body even down to the present time also
             during the persecution of his <placeName ref="http://syriaca.org/place/399">convent</placeName>, as well as of all his brethren the other
-            <placeName ref="http://syriaca.org/place/399">convent</placeName> in the district of <placeName>Izla</placeName><ptr type="noteAnchor" target="#n573-2"/> in the same persecution, down to the present
-            time which is the year eight hundred and seventy-nine<ptr type="noteAnchor" target="#n573-3"/>, from the year eight
-            hundred and thirty-two<ptr type="noteAnchor" target="#n573-4"/>, which makes forty-seven years from the beginning
+            <placeName ref="http://syriaca.org/place/399">convent</placeName> in the district of <placeName>Izla</placeName><ptr type="noteAnchor" target="#n573-2" n=""/> in the same persecution, down to the present
+            time which is the year eight hundred and seventy-nine,<ptr type="noteAnchor" target="#n573-3" n=""/> from the year eight
+            hundred and thirty-two,<ptr type="noteAnchor" target="#n573-4" n=""/> which makes forty-seven years from the beginning
             of the persecution of the same down to the year stated above.
          </ab>
          <ab>
@@ -401,65 +444,62 @@
             at <placeName ref="http://syriaca.org/place/8">Amida</placeName>, and who were its heads and founders from the beginning is finished.
          </ab>
          <noteGrp>
-            <note xml:id="n552-1" target="#a552-1" n="552-1">389-567.</note>
-            <note xml:id="n553-1" target="#a553-1" n="553-1">539.</note>
-            <note xml:id="n553-2" target="#a553-2" n="553-2">539-51; see p. 570 and note.</note>
-            <note xml:id="n554-1" target="#a554-1" n="554-1">389.</note>
-            <note xml:id="n554-2" target="#a554-2" n="554-2">Or <hi rend="singleQuote">interpreter</hi>, <hi rend="singleQuote">linguist</hi>.</note>
-            <note xml:id="n554-3" target="#a554-3" n="554-3">I. e., Anzetene or part of it; see p 135, n. 2.</note>
-            <note xml:id="n555-1" target="#a555-1" n="555-1">See p. 221 and p. 391.</note>
-            <note xml:id="n555-2" target="#a555-2" n="555-2">Or <hi rend="singleQuote">wrote</hi>; but the little <hi rend="singleQuote">scribes</hi> points to the other meaning.</note>
-            <note xml:id="n556-1" target="#a556-1" n="556-1">Or <hi rend="singleQuote">distinguished kin</hi>.</note>
-            <note xml:id="n558-1" target="#a558-1" n="558-1">Probably Zeno.</note>
-            <note xml:id="n558-2" target="#a558-2" n="558-2">See p. 37.</note>
-            <note xml:id="n558-3" target="#a558-3" n="558-3">Syr. <hi rend="singleQuote">Hanzit</hi>.</note>
-            <note xml:id="n560-1" target="#a560-1" n="560-1">Sc. <hi rend="singleQuote">hill of the (irrigation) engine (<foreign xml:lang="grc">μηχανή</foreign>)</hi>. Cf. Oxyrthyncus Papyri, n'1831, 13; n'1913, 1. 'Zach. Rh.' (VII, 4) calls him <hi rend="singleQuote">a Persian</hi>, i.e., a narrative of Persian territory.</note>
-            <note xml:id="n560-2" target="#a560-2" n="560-2">Luke, V, 10.</note>
-            <note xml:id="n560-3" target="#a560-3" n="560-3">Ms. om.</note>
-            <note xml:id="n562-1" target="#a562-1" n="562-1">Sc. <hi rend="singleQuote">son of Friday</hi>.</note>
-            <note xml:id="n562-2" target="#a562-2" n="562-2">'Zach Rn.', VIII, 5. He is probably the S. of <hi rend="singleQuote">Zach.</hi>, VII, 6, though his arrival is there placed after the Persian siege. His monastery is mentioned in ch. 39.</note>
-            <note xml:id="n563-1" target="#a563-1" n="563-1">501/2. It was really in 814 (502/3); see <hi rend="singleQuote">Josh. Styl.</hi>, XLIX, l.</note>
-            <note xml:id="n563-2" target="#a563-2" n="563-2"><hi rend="singleQuote">Zach. Rh.</hi> (VII, 4) says that it was taken through the drunkenness and carelessness of the monks of this monastery, and by the remark that the archimandrite was a Persian he seems to suggest treachery. Cf. <hi rend="singleQuote">Josh.</hi>, LIII.</note>
-            <note xml:id="n563-3" target="#a563-3" n="563-3">A mound on which the besiegers stood in order to be level with the top of the wall. See <hi rend="singleQuote">Zach.</hi>, VII, 3, and <hi rend="singleQuote">Josh.</hi>, LIX.</note>
-            <note xml:id="n563-4" target="#a563-4" n="563-4">Ms. om.</note>
-            <note xml:id="n563-5" target="#a563-5" n="563-5">Eleutheropolis, Arab. Bait Gibrin.</note>
-            <note xml:id="n563-6" target="#a563-6" n="563-6">I understand this to mean that he visited his convent on his return, but the sentence is very ambiguous. Since he came from Amida, his 1st visit in 534 is intended.</note>
-            <note xml:id="n565-1" target="#a565-1" n="565-1">Ms. <hi rend="singleQuote">able</hi>.</note>
-            <note xml:id="n566-1" target="#a566-1" n="566-1">Cf. Land, p. 291.</note>
-            <note xml:id="n566-2" target="#a566-2" n="566-2">Arzanene, otherwise called Arzun (p. 145). This was in Persian territory.</note>
-            <note xml:id="n566-3" target="#a566-3" n="566-3">521-30; see Introd., p. IV.</note>
-            <note xml:id="n566-4" target="#a566-4" n="566-4">Lit. <hi rend="singleQuote">mountain</hi>, perh., a heap of debris like the Mons Testaceus at Rome.</note>
-            <note xml:id="n567-1" target="#a567-1" n="567-1">It is not clear where Paul's words ends. The statement about the kiln is clearly J.'s, and perh. the whole story of the completion of the rebuilding is his, for P. probably left Amida at the time of the siege. Perh. J. with his usual carelessness has forgotten that he is reporting P.'s words.</note>
-            <note xml:id="n567-2" target="#a567-2" n="567-2">I Chr., XXIX, 28.</note>
-            <note xml:id="n567-3" target="#a567-3" n="567-3">491-518. He cannot have become archimandrite before 504, and the meaning can therefore only be that he survived Anastius.</note>
-            <note xml:id="n567-4" target="#a567-4" n="567-4"><hi rend="singleQuote">Zach. Rh.</hi> (VIII, 5) erroneously names C. among the banished archimandrites.</note>
-            <note xml:id="n567-5" target="#a567-5" n="567-5">521; see Introd., p. IV.</note>
-            <note xml:id="n568-1" target="#a568-1" n="568-1">Ms. om. The chronology in this ch. and ch. 35 makes it clear that the monastery of Mama is intended.</note>
-            <note xml:id="n568-2" target="#a568-2" n="568-2">Cf. <hi rend="singleQuote">Zach. Rh.</hi>, VIII, 5, where he is placed among the banished archimandrites, while Sergius is omitted.</note>
-            <note xml:id="n568-3" target="#a568-3" n="568-3">See p. 566, n. 2.</note>
-            <note xml:id="n568-4" target="#a568-4" n="568-4">Sic syr.</note>
-            <note xml:id="n568-5" target="#a568-5" n="568-5">I do not know the source of the ref.</note>
-            <note xml:id="n568-6" target="#a568-6" n="568-6">Ms. <hi rend="singleQuote">after it</hi> (meaninglessly), and in marg. in later hand <hi rend="singleQuote">Abraham</hi>.</note>
-            <note xml:id="n569-1" target="#a569-1" n="569-1">Sic syr.</note>
-            <note xml:id="n569-2" target="#a569-2" n="569-2">See p. 417.</note>
-            <note xml:id="n570-1" target="#a570-1" n="570-1">Since we are told below that the return to Amida happened after 4 years of Abba's rule, the transition of the bones cannot have been conetmporaneous with it. The restoration having been in 530 (see Introd., p. IV), we get 522/3-526/7 as the date of Symy's archimandriteship.</note>
-            <note xml:id="n570-2" target="#a570-2" n="570-2">See p. 566, n. 2.</note>
-            <note xml:id="n570-3" target="#a570-3" n="570-3">Since the descent of Ephraim was at the end of 536 or beginning of 537, the time cannot have exceeded 5 1/2 years (Dyakanov, p. 30, n. 166); see p. 418, n. 1.</note>
-            <note xml:id="n570-4" target="#a570-4" n="570-4">See p. 232.</note>
-            <note xml:id="n570-5" target="#a570-5" n="570-5">Since Samuel died in the monastery of the Huts in 539 (p. 553), the date must be 539, not 540, 3 yrs. after the expulsion from Amida.</note>
-            <note xml:id="n571-1" target="#a571-1" n="571-1">See p. 553.</note>
-            <note xml:id="n571-2" target="#a571-2" n="571-2">I Chr., XXIX, 28.</note>
-            <note xml:id="n571-3" target="#a571-3" n="571-3">Sc. at Amida. The date is probably 548.</note>
-            <note xml:id="n571-4" target="#a571-4" n="571-4">Syr <hi rend="singleQuote">Hanzit</hi>.</note>
-            <note xml:id="n571-5" target="#a571-5" n="571-5">J. omits to state that the monks for a short time returned to Amida (p. 420).</note>
-            <note xml:id="n572-1" target="#a572-1" n="572-1">Sc. <hi rend="singleQuote">son of a wolf</hi>.</note>
-            <note xml:id="n572-2" target="#a572-2" n="572-2">565/6.</note>
-            <note xml:id="n572-3" target="#a572-3" n="572-3">Luke, XV, 17; cf. p. 171.</note>
-            <note xml:id="n572-4" target="#a572-4" n="572-4">See p. 319, n. 2; p. 489, n. 3.</note>
-            <note xml:id="n573-1" target="#a573-1" n="573-1">John, XIV, 23; Matth., V, 37.</note>
-            <note xml:id="n573-2" target="#a573-2" n="573-2">See p. 419, n. 4.</note>
-            <note xml:id="n573-3" target="#a573-3" n="573-3">567/8. This was clearly written some time after the preceding. See Introd., p. VII.</note>
-            <note xml:id="n573-4" target="#a573-4" n="573-4">521. The confusion between the whole time from the 1st persecution and the time spent at Izla is an instance of J.'s carelesss method of writing.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 552, n. 1</orig></choice>389-567.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 553, n. 1</orig></choice>539.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 553, n. 2</orig></choice>539-51; see p. 570 and note.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 554, n. 1</orig></choice>389.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 554, n. 2</orig></choice>Or <hi rend="singleQuotes">interpreter</hi>, <hi rend="singleQuotes">linguist</hi>.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 554, n. 3</orig></choice>I. e., Anzetene or part of it; see p 135, n. 2.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 555, n. 1</orig></choice>See p. 221 and p. 391.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 555, n. 2</orig></choice>Or <hi rend="singleQuotes">wrote</hi>; but the little <hi rend="singleQuotes">scribes</hi> points to the other meaning.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 556, n. 1</orig></choice>Or <hi rend="singleQuotes">distinguished kin</hi>.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 558, n. 1</orig></choice>Probably Zeno.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 558, n. 2</orig></choice>See p. 37.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 558, n. 3</orig></choice>Syr. <hi rend="singleQuotes">Hanzit</hi>.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 560, n. 1</orig></choice>Sc. <hi rend="singleQuotes">hill of the (irrigation) engine (<foreign xml:lang="grc">μηχανή</foreign>)</hi>. Cf. Oxyrthyncus Papyri, n'1831, 13; n'1913, 1. 'Zach. Rh.' (VII, 4) calls him <hi rend="singleQuotes">a Persian</hi>, i.e., a narrative of Persian territory.</note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 560, n. 2</orig></choice>Luke, V, 10.</note>
+            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 560, n. 3</orig></choice>Ms. om.</note>
+            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 562, n. 1</orig></choice>Sc. <hi rend="singleQuotes">son of Friday</hi>.</note>
+            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 562, n. 2</orig></choice>'Zach Rn.', VIII, 5. He is probably the S. of <hi rend="singleQuotes">Zach.</hi>, VII, 6, though his arrival is there placed after the Persian siege. His monastery is mentioned in ch. 39.</note>
+            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 563, n. 1</orig></choice>501/2. It was really in 814 (502/3); see <hi rend="singleQuotes">Josh. Styl.</hi>, XLIX, l.</note>
+            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 563, n. 2</orig></choice><hi rend="singleQuotes">Zach. Rh.</hi> (VII, 4) says that it was taken through the drunkenness and carelessness of the monks of this monastery, and by the remark that the archimandrite was a Persian he seems to suggest treachery. Cf. <hi rend="singleQuotes">Josh.</hi>, LIII.</note>
+            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 563, n. 3</orig></choice>A mound on which the besiegers stood in order to be level with the top of the wall. See <hi rend="singleQuotes">Zach.</hi>, VII, 3, and <hi rend="singleQuotes">Josh.</hi>, LIX.</note>
+            <note xml:id="n21" target="#a21" n="21"><choice><reg/><orig>p. 563, n. 4</orig></choice>Ms. om.</note>
+            <note xml:id="n22" target="#a22" n="22"><choice><reg/><orig>p. 563, n. 5</orig></choice>Eleutheropolis, Arab. Bait Gibrin.</note>
+            <note xml:id="n23" target="#a23" n="23"><choice><reg/><orig>p. 563, n. 6</orig></choice>I understand this to mean that he visited his convent on his return, but the sentence is very ambiguous. Since he came from Amida, his 1st visit in 534 is intended.</note>
+            <note xml:id="n24" target="#a24" n="24"><choice><reg/><orig>p. 565, n. 1</orig></choice>Ms. <hi rend="singleQuotes">able</hi>.</note>
+            <note xml:id="n25" target="#a25" n="25"><choice><reg/><orig>p. 566, n. 1</orig></choice>Cf. Land, p. 291.</note>
+            <note xml:id="n26" target="#a26" n="26"><choice><reg/><orig>p. 566, n. 2</orig></choice>Arzanene, otherwise called Arzun (p. 145). This was in Persian territory.</note>
+            <note xml:id="n27" target="#a27" n="27"><choice><reg/><orig>p. 566, n. 3</orig></choice>521-30; see Introd., p. IV.</note>
+            <note xml:id="n28" target="#a28" n="28"><choice><reg/><orig>p. 566, n. 4</orig></choice>Lit. <hi rend="singleQuotes">mountain</hi>, perh., a heap of debris like the Mons Testaceus at Rome.</note>
+            <note xml:id="n29" target="#a29" n="29"><choice><reg/><orig>p. 567, n. 1</orig></choice>It is not clear where Paul's words ends. The statement about the kiln is clearly J.'s, and perh. the whole story of the completion of the rebuilding is his, for P. probably left Amida at the time of the siege. Perh. J. with his usual carelessness has forgotten that he is reporting P.'s words.</note>
+            <note xml:id="n30" target="#a30" n="30"><choice><reg/><orig>p. 567, n. 2</orig></choice>I Chr., XXIX, 28.</note>
+            <note xml:id="n31" target="#a31" n="31"><choice><reg/><orig>p. 567, n. 3</orig></choice>491-518. He cannot have become archimandrite before 504, and the meaning can therefore only be that he survived Anastius.</note>
+            <note xml:id="n32" target="#a32" n="32"><choice><reg/><orig>p. 567, n. 4</orig></choice><hi rend="singleQuotes">Zach. Rh.</hi> (VIII, 5) erroneously names C. among the banished archimandrites.</note>
+            <note xml:id="n33" target="#a33" n="33"><choice><reg/><orig>p. 567, n. 5</orig></choice>521; see Introd., p. IV.</note>
+            <note xml:id="n34" target="#a34" n="34"><choice><reg/><orig>p. 568, n. 1</orig></choice>Ms. om. The chronology in this ch. and ch. 35 makes it clear that the monastery of Mama is intended.</note>
+            <note xml:id="n35" target="#a35" n="35"><choice><reg/><orig>p. 568, n. 2</orig></choice>Cf. <hi rend="singleQuotes">Zach. Rh.</hi>, VIII, 5, where he is placed among the banished archimandrites, while Sergius is omitted.</note>
+            <note xml:id="n36" target="#a36" n="36"><choice><reg/><orig>p. 568, n. 3</orig></choice>See p. 566, n. 2.</note>
+            <note xml:id="n37" target="#a37" n="37"><choice><reg/><orig>p. 568, n. 4</orig></choice>Sic syr.</note>
+            <note xml:id="n38" target="#a38" n="38"><choice><reg/><orig>p. 568, n. 5</orig></choice>I do not know the source of the ref.</note>
+            <note xml:id="n39" target="#a39" n="39"><choice><reg/><orig>p. 568, n. 6</orig></choice>Ms. <hi rend="singleQuotes">after it</hi> (meaninglessly), and in marg. in later hand <hi rend="singleQuotes">Abraham</hi>.</note>
+            <note xml:id="n40" target="#a40" n="40"><choice><reg/><orig>p. 569, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n41" target="#a41" n="41"><choice><reg/><orig>p. 569, n. 2</orig></choice>See p. 417.</note>
+            <note xml:id="n42" target="#a42" n="42"><choice><reg/><orig>p. 570, n. 1</orig></choice>Since we are told below that the return to Amida happened after 4 years of Abba's rule, the transition of the bones cannot have been conetmporaneous with it. The restoration having been in 530 (see Introd., p. IV), we get 522/3-526/7 as the date of Symy's archimandriteship.</note>
+            <note xml:id="n43" target="#a43" n="43"><choice><reg/><orig>p. 570, n. 2</orig></choice>See p. 566, n. 2.</note>
+            <note xml:id="n44" target="#a44" n="44"><choice><reg/><orig>p. 570, n. 3</orig></choice>Since the descent of Ephraim was at the end of 536 or beginning of 537, the time cannot have exceeded 5 1/2 years (Dyakanov, p. 30, n. 166); see p. 418, n. 1.</note>
+            <note xml:id="n45" target="#a45" n="45"><choice><reg/><orig>p. 570, n. 4</orig></choice>See p. 232.</note>
+            <note xml:id="n46" target="#a46" n="46"><choice><reg/><orig>p. 570, n. 5</orig></choice>Since Samuel died in the monastery of the Huts in 539 (p. 553), the date must be 539, not 540, 3 yrs. after the expulsion from Amida.</note>
+            <note xml:id="n47" target="#a47" n="47"><choice><reg/><orig>p. 571, n. 1</orig></choice>See p. 553.</note>
+            <note xml:id="n48" target="#a48" n="48"><choice><reg/><orig>p. 571, n. 2</orig></choice>I Chr., XXIX, 28.</note>
+            <note xml:id="n49" target="#a49" n="49"><choice><reg/><orig>p. 571, n. 3</orig></choice>Sc. at Amida. The date is probably 548.</note>
+            <note xml:id="n50" target="#a50" n="50"><choice><reg/><orig>p. 571, n. 4</orig></choice>Syr <hi rend="singleQuotes">Hanzit</hi>.</note>
+            <note xml:id="n51" target="#a51" n="51"><choice><reg/><orig>p. 571, n. 5</orig></choice>J. omits to state that the monks for a short time returned to Amida (p. 420).</note>
+            <note xml:id="n52" target="#a52" n="52"><choice><reg/><orig>p. 572, n. 1</orig></choice>Sc. <hi rend="singleQuotes">son of a wolf</hi>.</note>
+            <note xml:id="n53" target="#a53" n="53"><choice><reg/><orig>p. 572, n. 2</orig></choice>565/6.</note>
+            <note xml:id="n54" target="#a54" n="54"><choice><reg/><orig>p. 572, n. 3</orig></choice>Luke, XV, 17; cf. p. 171.</note>
+            <note xml:id="n55" target="#a55" n="55"><choice><reg/><orig>p. 572, n. 4</orig></choice>See p. 319, n. 2; p. 489, n. 3.</note>
+            <note xml:id="n56" target="#a56" n="56"><choice><reg/><orig>p. 573, n. 1</orig></choice>John, XIV, 23; Matth., V, 37.</note>
          </noteGrp>
       </body>
    </text>

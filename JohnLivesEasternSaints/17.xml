@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://syriaca.org/work/809">A Stranger who Would not Give his Name</title>
+            <title ref="http://syriaca.org/work/809">A Poor One</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/809.xml -->
@@ -27,13 +70,13 @@
             is divine, saying does not rise into our mind, which says in a voice of
             thunder to our error, <quote>Lo! the righteous hath perished and there is none
                that taketh it to his heart, and saintly men are gathered and no heed is
-               given</quote><ptr type="noteAnchor" target="#n248-1"/>. If we truly consider this, it has received accomplishment in our
+               given</quote>.<ptr type="noteAnchor" target="#n248-1" n=""/> If we truly consider this, it has received accomplishment in our
             times, since all the great pillars whom we have seen, who by means of theirj
             continual supplication and petition bore up the tottering house of the world,
             have been gathered and passed from the confusions of this life, and those
             again whose great modes of life and mighty labours had been laid like huge
             base-stones at the foundations of the world have been collected and removed
-            from among us as it is written <quote>and there is none that heedeth</quote><ptr type="noteAnchor" target="#n248-1"/>. For this
+            from among us as it is written <quote>and there is none that heedeth</quote>.<ptr type="noteAnchor" target="#n248-1" n=""/> For this
             <pb n="249"/><pb n="249"/>reason the whole habitable world of men has been shaken and tottered and
             its structure has been loosened; and it has so to speak already begun to
             fall; and there is none who takes note of these things and lays them to his
@@ -41,7 +84,7 @@
             which says, <quote>The Lord looked out from heaven upon men, to see if there
                were any man that was understanding and sought God, and all had together
                gone astray and become reprobate, and there was not even one who was
-               doing what is good</quote><ptr type="noteAnchor" target="#n249-1"/>. For, having taken upon ourselves to trace, even if
+               doing what is good</quote>.<ptr type="noteAnchor" target="#n249-1" n=""/> For, having taken upon ourselves to trace, even if
             obscurely, a picture of the marvellous beauties of the saints whom I met in
             the times of my boyhood and leave it for the general benefit, if only to this
             remnant who have been left in our days, I am reduced to marvelling greatly
@@ -53,7 +96,7 @@
          <ab>
             Once, when we were in the holy <placeName ref="http://syriaca.org/place/2736">convent</placeName> adjoining the city of <placeName ref="http://syriaca.org/place/2735">Amida</placeName>,
             that is that which is called the <placeName ref="http://syriaca.org/place/2736">convent</placeName> of the holy Mar <persName ref="http://syriaca.org/person/74">John</persName>, as has been
-            recorded by us in one of the foregoing histories<ptr type="noteAnchor" target="#n249-2"/>, since all these <placeName ref="http://syriaca.org/place/2736">convents</placeName>
+            recorded by us in one of the foregoing histories,<ptr type="noteAnchor" target="#n249-2" n=""/> since all these <placeName ref="http://syriaca.org/place/2736">convents</placeName>
             <pb n="250"/><pb n="250"/>surpassed everyone in devotion to hospitality, and were fervent in love
             toward their brothers, therefore on account of the report of their open-handedness 
             men used to repair from all quarters to the <placeName ref="http://syriaca.org/place/2736">convents</placeName> round the
@@ -98,7 +141,7 @@ h            the faith and made a defence, and had come in at the hour of vesper
             heart by the muttering of his lips and the motion of his eyes. And, when
             the order was given by the archimandrite that the wine and water should
             go round (since this was the custom (<foreign xml:lang="grc">νόμος</foreign>) that the wine and water should
-            go round three times a week besides the first day of the week<ptr type="noteAnchor" target="#n252-1"/>), and,
+            go round three times a week besides the first day of the week<ptr type="noteAnchor" target="#n252-1" n=""/>), and,
             when the steward came and the old man received one cup like everyone
             else, since it was diluted with cold water, and one cup each only would
             be rapidly carried round and collected, and everyone pronounced a blessing
@@ -143,7 +186,7 @@ h            the faith and made a defence, and had come in at the hour of vesper
             an infirm man and lay down, until the end of the service; and then the
             same again until the morning, though not as he had done in the evening,
             but with precautions against those who were looking after the land (?)
-            after service<ptr type="noteAnchor" target="#n254-1"/> and against those who were learning the Psalms. But in the
+            after service<ptr type="noteAnchor" target="#n254-1" n=""/> and against those who were learning the Psalms. But in the
             morning he continued requesting to be dismissed and go; and the archi<pb n="255"/><pb n="255"/>mandrite
             would not let him, saying, <quote>Rest, our father, for five days and
                bless us, and then you shall go</quote>. And the old man, having been detained,
@@ -176,12 +219,12 @@ h            the faith and made a defence, and had come in at the hour of vesper
                a share in their gift. And after these things last evening you were urging
                me to neglect such rendering of thanks to my Benefactor as my little strength
                is able to perform, and engage in vain talk. Or know you not that it was
-               God's bounty that we were eating, with the sins of men<ptr type="noteAnchor" target="#n256-1"/> moreover that
+               God's bounty that we were eating, with the sins of men<ptr type="noteAnchor" target="#n256-1" n=""/> moreover that
                stain us? And how can it be, my son, that God will not be angry with
                us and deliver us to the judgment of torments when we eat his bounty
                and instead of rendering thanks engage in frivolous talk, and further,
                instead of prayers for the men the sweat of whose labour we are eating,
-               <pb n="257"/><pb n="257"/>that<ptr type="noteAnchor" target="#n257-1"/> we should sit and enjoy ourselves in idle talk? And, because you
+               <pb n="257"/><pb n="257"/>that<ptr type="noteAnchor" target="#n257-1" n=""/> we should sit and enjoy ourselves in idle talk? And, because you
                adjured me by God, lo! these are the reasons for which last evening and now
                my sobs came up, since I said: <quote>How then (<foreign xml:lang="grc">άρα</foreign>) can the heart of a man
                   who is fed by God's bounty and mens' sin not tremble to emit words in
@@ -235,13 +278,13 @@ h            the faith and made a defence, and had come in at the hour of vesper
             is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n248-1" target="#a248-1" n="248-1">Is., LVII, 1.</note>
-            <note xml:id="n249-1" target="#a249-1" n="249-1">Ps. XIV, 2, 3.</note>
-            <note xml:id="n249-2" target="#a249-2" n="249-2">Ch. 13 (p. 197). As the monastery was then at Amida and John was in it, the date is 530-536 (see Introd.).</note>
-            <note xml:id="n252-1" target="#a252-1" n="252-1">Or <hi rend="singleQuote">the first day of the week included</hi>.</note>
-            <note xml:id="n254-1" target="#a254-1" n="254-1">There seems to be something wrong here, since they could not look after the land at night and <!-- eb, Syriac. --> means 'perform' not 'look after'.</note>
-            <note xml:id="n256-1" target="#a256-1" n="256-1">Cf. p. 175, l. 13.</note>
-            <note xml:id="n257-1" target="#a257-1" n="257-1">Sic syr.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 248, n. 1</orig></choice>Is., LVII, 1.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 249, n. 1</orig></choice>Ps. XIV, 2, 3.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 249, n. 2</orig></choice>Ch. 13 (p. 197). As the monastery was then at Amida and John was in it, the date is 530-536 (see Introd.).</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 252, n. 1</orig></choice>Or <hi rend="singleQuotes">the first day of the week included</hi>.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 254, n. 1</orig></choice>There seems to be something wrong here, since they could not look after the land at night and means 'perform' not 'look after'.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 256, n. 1</orig></choice>Cf. p. 175, l. 13.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 257, n. 1</orig></choice>Sic syr.</note>
          </noteGrp>
       </body>
    </text>

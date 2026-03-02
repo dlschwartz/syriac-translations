@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://syriaca.org/work/849">Jacob Baradaeus</title>
+            <title ref="http://syriaca.org/work/850">Jacob Baradaeus</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- NOT IN SPEAR. Please just wrap persName and placeName elements around those names. Thanks. -->
@@ -638,169 +681,169 @@
             The history of <persName>James</persName> the bishop written by Mar <persName>John</persName> of <placeName>Asia</placeName> is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n574-1" target="#a574-1" n="574-1">In C. the tit.: <hi rend="singleQuote">A history concerning the holy Mar J., bp. of Edessa (or rather (<foreign xml:lang="grc">μάλλον</foreign>) of all the orthodox), who is known as Burd'ana, and on account of whom also we were termed Jacobites, and it is written by the holy J. of A., the converter of pagans and author of the ecclesiastical histories</hi>, and the text opens with the words <hi rend="singleQuote">Paise to God who adorned his church with his saints and filled it with the riches and treasures of their relics, and decorated it with the glorious flowers of their practices, which are recorded in their histories, and painted before the eyes of the heart of believers; and, whenever we read of the manner of life of one of them, we are consoled by him as if he were with us and our minds exult in love for him, esp. of this saint who adorned the church by the gifts of grace wherewith he filled it, and delivered himself up for it; of whose practices our feeble speech does not suffice to describe a small fragment; whom if the Lord had not had mercy on his church and raised up, it would have been brought to destruction through the evil persecution of the Diphysites; the beginning of whose story we begin to make clear from examination and study; whom we entreat to help us by his prayers, that we may speak and write all about him. Accordingly from this point we begin to place the memorial of his history on record</hi>. S. marg. <hi rend="singleQuote">This history is of J. Burd'ana, and not of James of Edessa, the interpreter of the Scriptures, since the Edessene's time was known to be (?) the year 1054, and Burd'ana died in the year 889.</hi></note>
-            <note xml:id="n575-1" target="#a575-1" n="575-1">N (Introd., p. XIII) has here an Arabic note. <hi rend="singleQuote">This is the story of James Burd'ana the liar the cursed heretic. And he has made the whole narrative (?) mendacious and false</hi>.</note>
-            <note xml:id="n575-2" target="#a575-2" n="575-2">Sev. left CP. about 9 mos. before Th. arrived, and the conference was held at a much earlier time.</note>
-            <note xml:id="n576-1" target="#a576-1" n="576-1">C''strtlys'. We should perh. read 'stratelates', and suppose S. Michael to be meant; but his usual title is <foreign xml:lang="grc">άρχιστρατηγός</foreign>.</note>
-            <note xml:id="n576-2" target="#a576-2" n="576-2">See p. 488, n. 3.</note>
-            <note xml:id="n576-3" target="#a576-3" n="576-3">C. <hi rend="singleQuote">This son was brought up by his parents with all care and in all religion; and, when he was 2 or 3 years old, they sent him to school, and he was taught and instructed in all the learning of the church, in Syriac and Greek. And, when he reached the age of puberty, his father took him with a fitting present and brought him to the monastery, and committed him to the hands of Mar Eustace the archimandrite ; and, when he had received the reversed habit</hi>.</note>
-            <note xml:id="n576-4" target="#a576-4" n="576-4">C om.</note>
-            <note xml:id="n577-1" target="#a577-1" n="577-1">C om.</note>
-            <note xml:id="n578-1" target="#a578-1" n="578-1">I.e., in spirit.</note>
-            <note xml:id="n578-2" target="#a578-2" n="578-2">C om.</note>
-            <note xml:id="n579-1" target="#a579-1" n="579-1">C 'Greeks'. The phrase shows that the author wrote after the Arab conquest, since otherwise he would have said <hi rend="singleQuote">the king</hi> only.</note>
-            <note xml:id="n579-2" target="#a579-2" n="579-2">C om.</note>
-            <note xml:id="n579-3" target="#a579-3" n="579-3">Mss. <hi rend="singleQuote">their king sent</hi>; but clearly he went himself.</note>
-            <note xml:id="n579-4" target="#a579-4" n="579-4">C <hi rend="singleQuote">he</hi>.</note>
-            <note xml:id="n579-5" target="#a579-5" n="579-5">C <hi rend="singleQuote">man</hi>.</note>
-            <note xml:id="n580-1" target="#a580-1" n="580-1">Acts, VIII, 20.</note>
-            <note xml:id="n580-2" target="#a580-2" n="580-2">C <hi rend="singleQuote">moment the pestilence was stayed and all the sick</hi>.</note>
-            <note xml:id="n580-3" target="#a580-3" n="580-3">C <hi rend="singleQuote">he</hi>.</note>
-            <note xml:id="n580-4" target="#a580-4" n="580-4">C om.</note>
-            <note xml:id="n581-1" target="#a581-1" n="581-1">See p. 489, n. 3. In the genuine life this is referred to the time of his residence in CP.</note>
-            <note xml:id="n581-2" target="#a581-2" n="581-2">C ins. <hi rend="singleQuote">like a pack-saddle, and from this he was named Burd'ana</hi>.</note>
-            <note xml:id="n582-1" target="#a582-1" n="582-1">C om., prob. because the scribe did not wish to bring J. into any connexion with the procreation of children; cf. below (p. 598).</note>
-            <note xml:id="n582-2" target="#a582-2" n="582-2">In the original life no reason for the journey is given exc. <hi rend="singleQuote">on account of the faith</hi>; see p. 489, n. 2.</note>
-            <note xml:id="n582-3" target="#a582-3" n="582-3">C om.</note>
-            <note xml:id="n582-4" target="#a582-4" n="582-4">C ins <hi rend="singleQuote">who were both dead</hi>. Both in fact lived till 538, and John was present at the conferences (p. 318, n. 3). - The insertion is also inconsistent with p. 575.</note>
-            <note xml:id="n583-1" target="#a583-1" n="583-1">C <hi rend="singleQuote">And, because</hi>.</note>
-            <note xml:id="n583-2" target="#a583-2" n="583-2">C <hi rend="singleQuote">also further</hi>.</note>
-            <note xml:id="n583-3" target="#a583-3" n="583-3">C <hi rend="singleQuote">sat</hi>.</note>
-            <note xml:id="n583-4" target="#a583-4" n="583-4">C <hi rend="singleQuote">with the divine and blessed S., he</hi> (sic).</note>
-            <note xml:id="n583-5" target="#a583-5" n="583-5">C ins. <hi rend="singleQuote">not</hi>.</note>
-            <note xml:id="n583-6" target="#a583-6" n="583-6">The statement in the original life that S. could not live as J. did because he had to attend to visitors is omitted by our author, prob. in order to exalt his hero at the expense of his companion.</note>
-            <note xml:id="n584-1" target="#a584-1" n="584-1">A misunderstanding of the statement in ch. 24 that (at a much earlier time) there were no bps. exc. in these 3 places.</note>
-            <note xml:id="n584-2" target="#a584-2" n="584-2">C <hi rend="singleQuote">another in</hi>..</note>
-            <note xml:id="n584-3" target="#a584-3" n="584-3">C om.</note>
-            <note xml:id="n584-4" target="#a584-4" n="584-4">In the original life <hi rend="singleQuote">Hirtha of the Saracens</hi>.</note>
-            <note xml:id="n585-1" target="#a585-1" n="585-1">In the original (ch. 50) this statement is made on the occasion of the consecration of bps. for Egypt by James, and there are no qualifying words.</note>
-            <note xml:id="n585-2" target="#a585-2" n="585-2">C <hi rend="singleQuote">queen</hi>.</note>
-            <note xml:id="n585-3" target="#a585-3" n="585-3">C <hi rend="singleQuote">the blessed Th. secretly permitted him to make bps. and perform all the functions of the priesthood. And then the saintly J.</hi>.</note>
-            <note xml:id="n585-4" target="#a585-4" n="585-4">Eph., VI, 14.</note>
-            <note xml:id="n585-5" target="#a585-5" n="585-5">C om.</note>
-            <note xml:id="n586-1" target="#a586-1" n="586-1">C om.</note>
-            <note xml:id="n586-2" target="#a586-2" n="586-2">Mss. om.</note>
-            <note xml:id="n586-3" target="#a586-3" n="586-3">C ins. <hi rend="singleQuote">men and</hi>.</note>
-            <note xml:id="n586-4" target="#a586-4" n="586-4">C <hi rend="singleQuote">or rather (<foreign xml:lang="grc">μάλλον</foreign> from Christ</hi> (Matth., X, 9). In the original (ch. 20) the commandment refers to the communication with the bps.</note>
-            <note xml:id="n586-5" target="#a586-5" n="586-5">C <hi rend="singleQuote">they</hi>.</note>
-            <note xml:id="n587-1" target="#a587-1" n="587-1">C ins. (wrongly) <hi rend="singleQuote">of Syria</hi>.</note>
-            <note xml:id="n587-2" target="#a587-2" n="587-2">There is no mention of these in the original life, the names being taken from <title>H.E.</title>, IV, 11, where two Antonini are said to have been recently (the events recorded happened in 578) consecrated by James for Syria.</note>
-            <note xml:id="n587-3" target="#a587-3" n="587-3">See p. 502, n. 2.</note>
-            <note xml:id="n587-4" target="#a587-4" n="587-4">Chalcis in Syria.</note>
-            <note xml:id="n587-5" target="#a587-5" n="587-5">C <hi rend="singleQuote">they</hi>.</note>
-            <note xml:id="n587-6" target="#a587-6" n="587-6">C <hi rend="singleQuote">of</hi>.</note>
-            <note xml:id="n587-7" target="#a587-7" n="587-7">See above (p. 582).</note>
-            <note xml:id="n587-8" target="#a587-8" n="587-8">C ins<hi rend="singleQuote">not</hi>.</note>
-            <note xml:id="n588-1" target="#a588-1" n="588-1">C <hi rend="singleQuote">Ignatius and others</hi>.</note>
-            <note xml:id="n588-2" target="#a588-2" n="588-2">Mss <hi rend="singleQuote">Syria</hi>.</note>
-            <note xml:id="n588-3" target="#a588-3" n="588-3">In the original text <hi rend="singleQuote">Peter</hi>. Photius, as we learn from ch. 56, was a companion of Peter.</note>
-            <note xml:id="n588-4" target="#a588-4" n="588-4">In the original text <hi rend="singleQuote">Tralles</hi>.</note>
-            <note xml:id="n588-5" target="#a588-5" n="588-5">The original text says nothing about Dara, which is out of place in an account of the bps. of Asia, but it mentions 2 Carian bps., here omitted. John of Dara is probably the same as the bishop who had been archim. of Karthamin mentioned on p. 613 from <title>H.E.</title>, IV, 33, and was no doubt consecrated later (Dyakonov, p. 78, n. 111). See above, p. 587, n. 2. <hi rend="singleQuote">Dion</hi> however (Kleyn, Bijdrage, p. 73) calls this J. of Karthamin who died in 578 bp. of Amida.</note>
-            <note xml:id="n589-1" target="#a589-1" n="589-1">In the orginal text <hi rend="singleQuote">27</hi>; C <hi rend="singleQuote">89</hi>.</note>
-            <note xml:id="n589-2" target="#a589-2" n="589-2">April.</note>
-            <note xml:id="n589-3" target="#a589-3" n="589-3">Eph., VI, 14.</note>
-            <note xml:id="n589-4" target="#a589-4" n="589-4">II Cor., VI, 7.8.</note>
-            <note xml:id="n589-5" target="#a589-5" n="589-5">C om.</note>
-            <note xml:id="n589-6" target="#a589-6" n="589-6">C ins <hi rend="singleQuote">of the East </hi>.</note>
-            <note xml:id="n589-7" target="#a589-7" n="589-7">See p. 419, n. 4.</note>
-            <note xml:id="n589-8" target="#a589-8" n="589-8">I. e. <hi rend="singleQuote">the trench</hi>, see p. 418, n. 3. This however was not a village, but a district.</note>
-            <note xml:id="n590-1" target="#a590-1" n="590-1">C om.</note>
-            <note xml:id="n590-2" target="#a590-2" n="590-2">C <hi rend="singleQuote">sorceror</hi>.</note>
-            <note xml:id="n590-3" target="#a590-3" n="590-3">Acts, XIII, 10, 11.</note>
-            <note xml:id="n591-1" target="#a591-1" n="591-1">Sic bis.</note>
-            <note xml:id="n591-2" target="#a591-2" n="591-2">John, IX, 2,3.</note>
-            <note xml:id="n591-3" target="#a591-3" n="591-3">Acts, III, 6.</note>
-            <note xml:id="n592-1" target="#a592-1" n="592-1">C ins. <hi rend="singleQuote">and he took my soul and restored it to my body</hi>.</note>
-            <note xml:id="n592-2" target="#a592-2" n="592-2">C <hi rend="singleQuote">and creature of God, in the name of Jesus of Nazareth</hi>.</note>
-            <note xml:id="n592-3" target="#a592-3" n="592-3">C <hi rend="singleQuote">he found the brethren looking in wonder and astonishment at the sun; and they said</hi>.</note>
-            <note xml:id="n593-1" target="#a593-1" n="593-1">Matth., XVII, 20.</note>
-            <note xml:id="n593-2" target="#a593-2" n="593-2">C ins. <hi rend="singleQuote">and be with Christ</hi>.</note>
-            <note xml:id="n593-3" target="#a593-3" n="593-3">C <hi rend="singleQuote">we shall bury you</hi>.</note>
-            <note xml:id="n594-1" target="#a594-1" n="594-1">C <hi rend="singleQuote">him in order by reason of the drunkenness of their envy to tear the blessed man</hi>.</note>
-            <note xml:id="n594-2" target="#a594-2" n="594-2">Jer., XLIV, 30.</note>
-            <note xml:id="n594-3" target="#a594-3" n="594-3">C om.</note>
-            <note xml:id="n594-4" target="#a594-4" n="594-4">C <hi rend="singleQuote">he would be found by the grace of the Spirit</hi>.</note>
-            <note xml:id="n594-5" target="#a594-5" n="594-5">This story has been omitted by the scribe of C., obviously because he thought it unedifying.</note>
-            <note xml:id="n595-1" target="#a595-1" n="595-1"><!-- eb, Syriac. --> are men who are godfathers or father to the same child, old Engl. <hi rend="singleQuote">gossips</hi>.</note>
-            <note xml:id="n597-1" target="#a597-1" n="597-1">C <hi rend="singleQuote">But, when he came to his monastery, he was</hi>.</note>
-            <note xml:id="n597-2" target="#a597-2" n="597-2">C <hi rend="singleQuote">ten</hi>.</note>
-            <note xml:id="n597-3" target="#a597-3" n="597-3">C om.</note>
-            <note xml:id="n598-1" target="#a598-1" n="598-1">C ins. <hi rend="singleQuote">and rise to perform service</hi>.</note>
-            <note xml:id="n598-2" target="#a598-2" n="598-2">This story is omitted in C; see p. 582, n. 1.</note>
-            <note xml:id="n598-3" target="#a598-3" n="598-3">I.e. <hi rend="singleQuote">moisture</hi>, hardly Thlatha = three.</note>
-            <note xml:id="n598-4" target="#a598-4" n="598-4">C <hi rend="singleQuote">holy J. in his cell</hi>.</note>
-            <note xml:id="n599-1" target="#a599-1" n="599-1">This word is used of any monk or ascetic and does not necessarily mean more than our <hi rend="singleQuote">reverend</hi>; cf. p. 74, l. 1.</note>
-            <note xml:id="n600-1" target="#a600-1" n="600-1">C ins. <hi rend="singleQuote">as we said above</hi>.</note>
-            <note xml:id="n600-2" target="#a600-2" n="600-2">C ins. <hi rend="singleQuote">by his labours and abstinence</hi>.</note>
-            <note xml:id="n600-3" target="#a600-3" n="600-3">C <hi rend="singleQuote">bu his industry in everything he</hi>. It would make better sense if we could render <hi rend="singleQuote">readiness</hi> or <hi rend="singleQuote">presence</hi> in place of <hi rend="singleQuote">beneficence</hi>; but <!-- eb. Syriac. --> is not known in this sense (p. 493, l. 2, <hi rend="singleQuote">fame</hi>).</note>
-            <note xml:id="n600-4" target="#a600-4" n="600-4">In the original life the reward is offered to any who promise to bring him. Our author's story is inconsistent.</note>
-            <note xml:id="n600-5" target="#a600-5" n="600-5">C <hi rend="singleQuote">and promised to</hi>.</note>
-            <note xml:id="n600-6" target="#a600-6" n="600-6">C ins. <hi rend="singleQuote">and returned in shame</hi>.</note>
-            <note xml:id="n601-1" target="#a601-1" n="601-1">This statement is not in the original life.</note>
-            <note xml:id="n601-2" target="#a601-2" n="601-2">C om.</note>
-            <note xml:id="n602-1" target="#a602-1" n="602-1">C om.</note>
-            <note xml:id="n602-2" target="#a602-2" n="602-2">John <foreign xml:lang="grc">έκ τού Σηρήμιος</foreign> near Antioch (Evagr., IV, 38, ad fin.) patr. of CP. 565-77. Ephraim patr. of Antioch died in 545.</note>
-            <note xml:id="n602-3" target="#a602-3" n="602-3">C om. N has the erroneous marginal note <hi rend="singleQuote">This is the holy John Maro</hi>.</note>
-            <note xml:id="n602-4" target="#a602-4" n="602-4">This name probably arose out of the schism about the deprivation of Paul of Antioch and is opposed to Paulites.</note>
-            <note xml:id="n603-1" target="#a603-1" n="603-1">August.</note>
-            <note xml:id="n603-2" target="#a603-2" n="603-2">C <hi rend="singleQuote">I am killed by thirst</hi>.</note>
-            <note xml:id="n603-3" target="#a603-3" n="603-3">C om.</note>
-            <note xml:id="n604-1" target="#a604-1" n="604-1">C ins. <hi rend="singleQuote">And the brother came and saw the water in the desolate place in the wildnerness, and he wondered greatly and praised God who hears his saints</hi>.</note>
-            <note xml:id="n604-2" target="#a604-2" n="604-2">C <hi rend="singleQuote">he exulted and praised the Lord for his gift. But, after they had reached Mt. Sinai, and he had prayed in the holy places, and been blessed by the saints there, he returned to his monastery where he had been trained, and again</hi>.</note>
-            <note xml:id="n604-3" target="#a604-3" n="604-3">C ins <hi rend="singleQuote">of the believing peoples</hi>.</note>
-            <note xml:id="n604-4" target="#a604-4" n="604-4">In 503, about 50 yrs. before J's time. <hi rend="singleQuote">Dion</hi> however (R.O.C., II, 45) makes the Persians take Amida in 560.</note>
-            <note xml:id="n604-5" target="#a604-5" n="604-5">C om.</note>
-            <note xml:id="n604-6" target="#a604-6" n="604-6">C ins. <hi rend="singleQuote">and rose</hi>.</note>
-            <note xml:id="n605-1" target="#a605-1" n="605-1">C om.</note>
-            <note xml:id="n605-2" target="#a605-2" n="605-2">This event is related from another source by <hi rend="singleQuote">Dion.</hi> (Nau in R.O.C., II, p. 487; Kleyn, Bijdrage, p. 71; cf. id., Jacobus Baradaeüs, p. 106) without mention of James and dated Ind. IV (556). From <hi rend="singleQuote">Dion.</hi> it is repeated by Mich. (p. 323) and in Berlin ms. Sachau 315 (C.S.C.O., tom. IV, p. 321), and in the latter the intervention of J. is added, perh. from our text. In these two sources it is dated in 560. It was perh. an outbreak of hydrophobia; cf. <hi rend="singleQuote">Zach. Rh.</hi>, VII, 14, Theoph., A.M. 6008, and above, p. 579.</note>
-            <note xml:id="n605-3" target="#a605-3" n="605-3">S om.; see p. 606, l. 3.</note>
-            <note xml:id="n606-1" target="#a606-1" n="606-1">C om.</note>
-            <note xml:id="n606-2" target="#a606-2" n="606-2">S ins. <hi rend="singleQuote">inside the church and</hi>; see below.</note>
-            <note xml:id="n607-1" target="#a607-1" n="607-1">C <hi rend="singleQuote">among the sick</hi>.</note>
-            <note xml:id="n607-2" target="#a607-2" n="607-2">C <hi rend="singleQuote">all the citizens</hi>.</note>
-            <note xml:id="n607-3" target="#a607-3" n="607-3">See p. 489, n. 3.</note>
-            <note xml:id="n607-4" target="#a607-4" n="607-4">C ins. <hi rend="singleQuote">and a great procession</hi>.</note>
-            <note xml:id="n608-1" target="#a608-1" n="608-1">S om. C in place of this clause has <hi rend="singleQuote">for none of those who suffered in this affliction died</hi>.</note>
-            <note xml:id="n608-2" target="#a608-2" n="608-2">C <hi rend="singleQuote">there has been taken from us our</hi>.</note>
-            <note xml:id="n608-3" target="#a608-3" n="608-3">576. Really he died in 566; see p. 486, n. 6.</note>
-            <note xml:id="n608-4" target="#a608-4" n="608-4">544. But Batnae was taken in 540, when he took ransom from Edessa without beseiging it (Proc., <title>Bell.</title>, II, XII, XXVI).</note>
-            <note xml:id="n608-5" target="#a608-5" n="608-5">C ins. <hi rend="singleQuote">on account of the numbers of people in it and the strength of the wall, he was troubled; and</hi>.</note>
-            <note xml:id="n608-6" target="#a608-6" n="608-6">C <hi rend="singleQuote">the excellent people of the Syrians</hi>.</note>
-            <note xml:id="n609-1" target="#a609-1" n="609-1">C ins. <hi rend="singleQuote">outside the wall and towers</hi>.</note>
-            <note xml:id="n609-2" target="#a609-2" n="609-2">C <hi rend="singleQuote">make (pl.) spoil of it</hi>.</note>
-            <note xml:id="n609-3" target="#a609-3" n="609-3">C <hi rend="singleQuote">their heart trembled and was disturbed, but the blessed J.</hi>.</note>
-            <note xml:id="n609-4" target="#a609-4" n="609-4">Sic N. C <hi rend="singleQuote">us</hi>.</note>
-            <note xml:id="n609-5" target="#a609-5" n="609-5">C <hi rend="singleQuote">cruel man and his</hi>.</note>
-            <note xml:id="n609-6" target="#a609-6" n="609-6">Matth., VIII, 28.</note>
-            <note xml:id="n609-7" target="#a609-7" n="609-7">N om. C in. <hi rend="singleQuote">a fearful vision</hi>.</note>
-            <note xml:id="n609-8" target="#a609-8" n="609-8">N om.</note>
-            <note xml:id="n610-1" target="#a610-1" n="610-1">C <hi rend="singleQuote">he cried with a loud voice</hi>.</note>
-            <note xml:id="n610-2" target="#a610-2" n="610-2">C <hi rend="singleQuote">and, when the day broke, none of the Persians was found round the city</hi>.</note>
-            <note xml:id="n610-3" target="#a610-3" n="610-3">John, XI, 33.</note>
-            <note xml:id="n610-4" target="#a610-4" n="610-4">Luke, XXIII, 47.</note>
-            <note xml:id="n611-1" target="#a611-1" n="611-1">At Kenneshrin on the Euphrates (<hi rend="singleQuote">Zach. Rh.</hi>, VIII, 5).</note>
-            <note xml:id="n611-2" target="#a611-2" n="611-2">Sc. consecrated the building.</note>
-            <note xml:id="n611-3" target="#a611-3" n="611-3">N. om.</note>
-            <note xml:id="n611-4" target="#a611-4" n="611-4">C <hi rend="singleQuote">altar</hi>.</note>
-            <note xml:id="n611-5" target="#a611-5" n="611-5">C <hi rend="singleQuote">countries</hi>.</note>
-            <note xml:id="n611-6" target="#a611-6" n="611-6">II Tim., IV, 7.</note>
-            <note xml:id="n612-1" target="#a612-1" n="612-1">C om.</note>
-            <note xml:id="n612-2" target="#a612-2" n="612-2">C <hi rend="singleQuote">Justinian</hi>. James d. 30 July, 578 (Mich., p. 364; C.S.C.O., tom. IV, p. 144), and Justin lived till 4 Oct. (<title>H.E.</title>, III, 6).</note>
-            <note xml:id="n612-3" target="#a612-3" n="612-3">C <hi rend="singleQuote">holy Mar. J.</hi>.</note>
-            <note xml:id="n612-4" target="#a612-4" n="612-4">C ins. <hi rend="singleQuote">and contended to death for the faith</hi>.</note>
-            <note xml:id="n612-5" target="#a612-5" n="612-5">See <title>H.E.</title>, IV, 33, 58.</note>
-            <note xml:id="n612-6" target="#a612-6" n="612-6">Really bps. and 6 others (l.c.).</note>
-            <note xml:id="n612-7" target="#a612-7" n="612-7">N <hi rend="singleQuote">he also concealed himself</hi>.</note>
-            <note xml:id="n612-8" target="#a612-8" n="612-8">A mountain on the borders of Egypt and Palestine (Amm. Marc., XXII, 4).</note>
-            <note xml:id="n612-9" target="#a612-9" n="612-9">C <hi rend="singleQuote">kept vigil</hi>.</note>
-            <note xml:id="n613-1" target="#a613-1" n="613-1">See p. 504, n. 3; p. 588, n. 5.</note>
-            <note xml:id="n613-2" target="#a613-2" n="613-2">C om.</note>
-            <note xml:id="n613-3" target="#a613-3" n="613-3">C <hi rend="singleQuote">this divine light of all the world the blessed J. fell sick and died and</hi>.</note>
-            <note xml:id="n613-4" target="#a613-4" n="613-4">C <hi rend="singleQuote">and at the time at</hi>.</note>
-            <note xml:id="n613-5" target="#a613-5" n="613-5">C <hi rend="singleQuote">that the weary man should rest from his labour this second Paul and true disciple and combatant for religion was gathered to his holy fathers and the doctors of the church; and the saint's</hi>.</note>
-            <note xml:id="n613-6" target="#a613-6" n="613-6">C <hi rend="singleQuote">and in all quarters of creation that the pastor of the church had gone to his rest</hi>.</note>
-            <note xml:id="n613-7" target="#a613-7" n="613-7">C <hi rend="singleQuote">buried</hi>.</note>
-            <note xml:id="n613-8" target="#a613-8" n="613-8">C <hi rend="singleQuote">his</hi>.</note>
+            <note xml:id="n574-1" target="#a574-1" n="1"><choice><reg/><orig>p. 574, n. 1</orig></choice>In C. the tit.: <hi rend="singleQuotes">A history concerning the holy Mar J., bp. of Edessa (or rather (<foreign xml:lang="grc">μάλλον</foreign>) of all the orthodox), who is known as Burd'ana, and on account of whom also we were termed Jacobites, and it is written by the holy J. of A., the converter of pagans and author of the ecclesiastical histories</hi>, and the text opens with the words <hi rend="singleQuotes">Paise to God who adorned his church with his saints and filled it with the riches and treasures of their relics, and decorated it with the glorious flowers of their practices, which are recorded in their histories, and painted before the eyes of the heart of believers; and, whenever we read of the manner of life of one of them, we are consoled by him as if he were with us and our minds exult in love for him, esp. of this saint who adorned the church by the gifts of grace wherewith he filled it, and delivered himself up for it; of whose practices our feeble speech does not suffice to describe a small fragment; whom if the Lord had not had mercy on his church and raised up, it would have been brought to destruction through the evil persecution of the Diphysites; the beginning of whose story we begin to make clear from examination and study; whom we entreat to help us by his prayers, that we may speak and write all about him. Accordingly from this point we begin to place the memorial of his history on record</hi>. S. marg. <hi rend="singleQuotes">This history is of J. Burd'ana, and not of James of Edessa, the interpreter of the Scriptures, since the Edessene's time was known to be (?) the year 1054, and Burd'ana died in the year 889.</hi></note>
+            <note xml:id="n575-1" target="#a575-1" n="2"><choice><reg/><orig>p. 575, n. 1</orig></choice>N (Introd., p. XIII) has here an Arabic note. <hi rend="singleQuotes">This is the story of James Burd'ana the liar the cursed heretic. And he has made the whole narrative (?) mendacious and false</hi>.</note>
+            <note xml:id="n575-2" target="#a575-2" n="3"><choice><reg/><orig>p. 575, n. 2</orig></choice>Sev. left CP. about 9 mos. before Th. arrived, and the conference was held at a much earlier time.</note>
+            <note xml:id="n576-1" target="#a576-1" n="4"><choice><reg/><orig>p. 576, n. 1</orig></choice>C''strtlys'. We should perh. read 'stratelates', and suppose S. Michael to be meant; but his usual title is <foreign xml:lang="grc">άρχιστρατηγός</foreign>.</note>
+            <note xml:id="n576-2" target="#a576-2" n="5"><choice><reg/><orig>p. 576, n. 2</orig></choice>See p. 488, n. 3.</note>
+            <note xml:id="n576-3" target="#a576-3" n="6"><choice><reg/><orig>p. 576, n. 3</orig></choice>C. <hi rend="singleQuotes">This son was brought up by his parents with all care and in all religion; and, when he was 2 or 3 years old, they sent him to school, and he was taught and instructed in all the learning of the church, in Syriac and Greek. And, when he reached the age of puberty, his father took him with a fitting present and brought him to the monastery, and committed him to the hands of Mar Eustace the archimandrite ; and, when he had received the reversed habit</hi>.</note>
+            <note xml:id="n576-4" target="#a576-4" n="7"><choice><reg/><orig>p. 576, n. 4</orig></choice>C om.</note>
+            <note xml:id="n577-1" target="#a577-1" n="8"><choice><reg/><orig>p. 577, n. 1</orig></choice>C om.</note>
+            <note xml:id="n578-1" target="#a578-1" n="9"><choice><reg/><orig>p. 578, n. 1</orig></choice>I.e., in spirit.</note>
+            <note xml:id="n578-2" target="#a578-2" n="10"><choice><reg/><orig>p. 578, n. 2</orig></choice>C om.</note>
+            <note xml:id="n579-1" target="#a579-1" n="11"><choice><reg/><orig>p. 579, n. 1</orig></choice>C 'Greeks'. The phrase shows that the author wrote after the Arab conquest, since otherwise he would have said <hi rend="singleQuotes">the king</hi> only.</note>
+            <note xml:id="n579-2" target="#a579-2" n="12"><choice><reg/><orig>p. 579, n. 2</orig></choice>C om.</note>
+            <note xml:id="n579-3" target="#a579-3" n="13"><choice><reg/><orig>p. 579, n. 3</orig></choice>Mss. <hi rend="singleQuotes">their king sent</hi>; but clearly he went himself.</note>
+            <note xml:id="n579-4" target="#a579-4" n="14"><choice><reg/><orig>p. 579, n. 4</orig></choice>C <hi rend="singleQuotes">he</hi>.</note>
+            <note xml:id="n579-5" target="#a579-5" n="15"><choice><reg/><orig>p. 579, n. 5</orig></choice>C <hi rend="singleQuotes">man</hi>.</note>
+            <note xml:id="n580-1" target="#a580-1" n="16"><choice><reg/><orig>p. 580, n. 1</orig></choice>Acts, VIII, 20.</note>
+            <note xml:id="n580-2" target="#a580-2" n="17"><choice><reg/><orig>p. 580, n. 2</orig></choice>C <hi rend="singleQuotes">moment the pestilence was stayed and all the sick</hi>.</note>
+            <note xml:id="n580-3" target="#a580-3" n="18"><choice><reg/><orig>p. 580, n. 3</orig></choice>C <hi rend="singleQuotes">he</hi>.</note>
+            <note xml:id="n580-4" target="#a580-4" n="19"><choice><reg/><orig>p. 580, n. 4</orig></choice>C om.</note>
+            <note xml:id="n581-1" target="#a581-1" n="20"><choice><reg/><orig>p. 581, n. 1</orig></choice>See p. 489, n. 3. In the genuine life this is referred to the time of his residence in CP.</note>
+            <note xml:id="n581-2" target="#a581-2" n="21"><choice><reg/><orig>p. 581, n. 2</orig></choice>C ins. <hi rend="singleQuotes">like a pack-saddle, and from this he was named Burd'ana</hi>.</note>
+            <note xml:id="n582-1" target="#a582-1" n="22"><choice><reg/><orig>p. 582, n. 1</orig></choice>C om., prob. because the scribe did not wish to bring J. into any connexion with the procreation of children; cf. below (p. 598).</note>
+            <note xml:id="n582-2" target="#a582-2" n="23"><choice><reg/><orig>p. 582, n. 2</orig></choice>In the original life no reason for the journey is given exc. <hi rend="singleQuotes">on account of the faith</hi>; see p. 489, n. 2.</note>
+            <note xml:id="n582-3" target="#a582-3" n="24"><choice><reg/><orig>p. 582, n. 3</orig></choice>C om.</note>
+            <note xml:id="n582-4" target="#a582-4" n="25"><choice><reg/><orig>p. 582, n. 4</orig></choice>C ins <hi rend="singleQuotes">who were both dead</hi>. Both in fact lived till 538, and John was present at the conferences (p. 318, n. 3). - The insertion is also inconsistent with p. 575.</note>
+            <note xml:id="n583-1" target="#a583-1" n="26"><choice><reg/><orig>p. 583, n. 1</orig></choice>C <hi rend="singleQuotes">And, because</hi>.</note>
+            <note xml:id="n583-2" target="#a583-2" n="27"><choice><reg/><orig>p. 583, n. 2</orig></choice>C <hi rend="singleQuotes">also further</hi>.</note>
+            <note xml:id="n583-3" target="#a583-3" n="28"><choice><reg/><orig>p. 583, n. 3</orig></choice>C <hi rend="singleQuotes">sat</hi>.</note>
+            <note xml:id="n583-4" target="#a583-4" n="29"><choice><reg/><orig>p. 583, n. 4</orig></choice>C <hi rend="singleQuotes">with the divine and blessed S., he</hi> (sic).</note>
+            <note xml:id="n583-5" target="#a583-5" n="30"><choice><reg/><orig>p. 583, n. 5</orig></choice>C ins. <hi rend="singleQuotes">not</hi>.</note>
+            <note xml:id="n583-6" target="#a583-6" n="31"><choice><reg/><orig>p. 583, n. 6</orig></choice>The statement in the original life that S. could not live as J. did because he had to attend to visitors is omitted by our author, prob. in order to exalt his hero at the expense of his companion.</note>
+            <note xml:id="n584-1" target="#a584-1" n="32"><choice><reg/><orig>p. 584, n. 1</orig></choice>A misunderstanding of the statement in ch. 24 that (at a much earlier time) there were no bps. exc. in these 3 places.</note>
+            <note xml:id="n584-2" target="#a584-2" n="33"><choice><reg/><orig>p. 584, n. 2</orig></choice>C <hi rend="singleQuotes">another in</hi>..</note>
+            <note xml:id="n584-3" target="#a584-3" n="34"><choice><reg/><orig>p. 584, n. 3</orig></choice>C om.</note>
+            <note xml:id="n584-4" target="#a584-4" n="35"><choice><reg/><orig>p. 584, n. 4</orig></choice>In the original life <hi rend="singleQuotes">Hirtha of the Saracens</hi>.</note>
+            <note xml:id="n585-1" target="#a585-1" n="36"><choice><reg/><orig>p. 585, n. 1</orig></choice>In the original (ch. 50) this statement is made on the occasion of the consecration of bps. for Egypt by James, and there are no qualifying words.</note>
+            <note xml:id="n585-2" target="#a585-2" n="37"><choice><reg/><orig>p. 585, n. 2</orig></choice>C <hi rend="singleQuotes">queen</hi>.</note>
+            <note xml:id="n585-3" target="#a585-3" n="38"><choice><reg/><orig>p. 585, n. 3</orig></choice>C <hi rend="singleQuotes">the blessed Th. secretly permitted him to make bps. and perform all the functions of the priesthood. And then the saintly J.</hi>.</note>
+            <note xml:id="n585-4" target="#a585-4" n="39"><choice><reg/><orig>p. 585, n. 4</orig></choice>Eph., VI, 14.</note>
+            <note xml:id="n585-5" target="#a585-5" n="40"><choice><reg/><orig>p. 585, n. 5</orig></choice>C om.</note>
+            <note xml:id="n586-1" target="#a586-1" n="41"><choice><reg/><orig>p. 586, n. 1</orig></choice>C om.</note>
+            <note xml:id="n586-2" target="#a586-2" n="42"><choice><reg/><orig>p. 586, n. 2</orig></choice>Mss. om.</note>
+            <note xml:id="n586-3" target="#a586-3" n="43"><choice><reg/><orig>p. 586, n. 3</orig></choice>C ins. <hi rend="singleQuotes">men and</hi>.</note>
+            <note xml:id="n586-4" target="#a586-4" n="44"><choice><reg/><orig>p. 586, n. 4</orig></choice>C <hi rend="singleQuotes">or rather (<foreign xml:lang="grc">μάλλον</foreign> from Christ</hi> (Matth., X, 9). In the original (ch. 20) the commandment refers to the communication with the bps.</note>
+            <note xml:id="n586-5" target="#a586-5" n="45"><choice><reg/><orig>p. 586, n. 5</orig></choice>C <hi rend="singleQuotes">they</hi>.</note>
+            <note xml:id="n587-1" target="#a587-1" n="46"><choice><reg/><orig>p. 587, n. 1</orig></choice>C ins. (wrongly) <hi rend="singleQuotes">of Syria</hi>.</note>
+            <note xml:id="n587-2" target="#a587-2" n="47"><choice><reg/><orig>p. 587, n. 2</orig></choice>There is no mention of these in the original life, the names being taken from <title>H.E.</title>, IV, 11, where two Antonini are said to have been recently (the events recorded happened in 578) consecrated by James for Syria.</note>
+            <note xml:id="n587-3" target="#a587-3" n="48"><choice><reg/><orig>p. 587, n. 3</orig></choice>See p. 502, n. 2.</note>
+            <note xml:id="n587-4" target="#a587-4" n="49"><choice><reg/><orig>p. 587, n. 4</orig></choice>Chalcis in Syria.</note>
+            <note xml:id="n587-5" target="#a587-5" n="50"><choice><reg/><orig>p. 587, n. 5</orig></choice>C <hi rend="singleQuotes">they</hi>.</note>
+            <note xml:id="n587-6" target="#a587-6" n="51"><choice><reg/><orig>p. 587, n. 6</orig></choice>C <hi rend="singleQuotes">of</hi>.</note>
+            <note xml:id="n587-7" target="#a587-7" n="52"><choice><reg/><orig>p. 587, n. 7</orig></choice>See above (p. 582).</note>
+            <note xml:id="n587-8" target="#a587-8" n="53"><choice><reg/><orig>p. 587, n. 8</orig></choice>C ins<hi rend="singleQuotes">not</hi>.</note>
+            <note xml:id="n588-1" target="#a588-1" n="54"><choice><reg/><orig>p. 588, n. 1</orig></choice>C <hi rend="singleQuotes">Ignatius and others</hi>.</note>
+            <note xml:id="n588-2" target="#a588-2" n="55"><choice><reg/><orig>p. 588, n. 2</orig></choice>Mss <hi rend="singleQuotes">Syria</hi>.</note>
+            <note xml:id="n588-3" target="#a588-3" n="56"><choice><reg/><orig>p. 588, n. 3</orig></choice>In the original text <hi rend="singleQuotes">Peter</hi>. Photius, as we learn from ch. 56, was a companion of Peter.</note>
+            <note xml:id="n588-4" target="#a588-4" n="57"><choice><reg/><orig>p. 588, n. 4</orig></choice>In the original text <hi rend="singleQuotes">Tralles</hi>.</note>
+            <note xml:id="n588-5" target="#a588-5" n="58"><choice><reg/><orig>p. 588, n. 5</orig></choice>The original text says nothing about Dara, which is out of place in an account of the bps. of Asia, but it mentions 2 Carian bps., here omitted. John of Dara is probably the same as the bishop who had been archim. of Karthamin mentioned on p. 613 from <title>H.E.</title>, IV, 33, and was no doubt consecrated later (Dyakonov, p. 78, n. 111). See above, p. 587, n. 2. <hi rend="singleQuotes">Dion</hi> however (Kleyn, Bijdrage, p. 73) calls this J. of Karthamin who died in 578 bp. of Amida.</note>
+            <note xml:id="n589-1" target="#a589-1" n="59"><choice><reg/><orig>p. 589, n. 1</orig></choice>In the orginal text <hi rend="singleQuotes">27</hi>; C <hi rend="singleQuotes">89</hi>.</note>
+            <note xml:id="n589-2" target="#a589-2" n="60"><choice><reg/><orig>p. 589, n. 2</orig></choice>April.</note>
+            <note xml:id="n589-3" target="#a589-3" n="61"><choice><reg/><orig>p. 589, n. 3</orig></choice>Eph., VI, 14.</note>
+            <note xml:id="n589-4" target="#a589-4" n="62"><choice><reg/><orig>p. 589, n. 4</orig></choice>II Cor., VI, 7.8.</note>
+            <note xml:id="n589-5" target="#a589-5" n="63"><choice><reg/><orig>p. 589, n. 5</orig></choice>C om.</note>
+            <note xml:id="n589-6" target="#a589-6" n="64"><choice><reg/><orig>p. 589, n. 6</orig></choice>C ins <hi rend="singleQuotes">of the East </hi>.</note>
+            <note xml:id="n589-7" target="#a589-7" n="65"><choice><reg/><orig>p. 589, n. 7</orig></choice>See p. 419, n. 4.</note>
+            <note xml:id="n589-8" target="#a589-8" n="66"><choice><reg/><orig>p. 589, n. 8</orig></choice>I. e. <hi rend="singleQuotes">the trench</hi>, see p. 418, n. 3. This however was not a village, but a district.</note>
+            <note xml:id="n590-1" target="#a590-1" n="67"><choice><reg/><orig>p. 590, n. 1</orig></choice>C om.</note>
+            <note xml:id="n590-2" target="#a590-2" n="68"><choice><reg/><orig>p. 590, n. 2</orig></choice>C <hi rend="singleQuotes">sorceror</hi>.</note>
+            <note xml:id="n590-3" target="#a590-3" n="69"><choice><reg/><orig>p. 590, n. 3</orig></choice>Acts, XIII, 10, 11.</note>
+            <note xml:id="n591-1" target="#a591-1" n="70"><choice><reg/><orig>p. 591, n. 1</orig></choice>Sic bis.</note>
+            <note xml:id="n591-2" target="#a591-2" n="71"><choice><reg/><orig>p. 591, n. 2</orig></choice>John, IX, 2,3.</note>
+            <note xml:id="n591-3" target="#a591-3" n="72"><choice><reg/><orig>p. 591, n. 3</orig></choice>Acts, III, 6.</note>
+            <note xml:id="n592-1" target="#a592-1" n="73"><choice><reg/><orig>p. 592, n. 1</orig></choice>C ins. <hi rend="singleQuotes">and he took my soul and restored it to my body</hi>.</note>
+            <note xml:id="n592-2" target="#a592-2" n="74"><choice><reg/><orig>p. 592, n. 2</orig></choice>C <hi rend="singleQuotes">and creature of God, in the name of Jesus of Nazareth</hi>.</note>
+            <note xml:id="n592-3" target="#a592-3" n="75"><choice><reg/><orig>p. 592, n. 3</orig></choice>C <hi rend="singleQuotes">he found the brethren looking in wonder and astonishment at the sun; and they said</hi>.</note>
+            <note xml:id="n593-1" target="#a593-1" n="76"><choice><reg/><orig>p. 593, n. 1</orig></choice>Matth., XVII, 20.</note>
+            <note xml:id="n593-2" target="#a593-2" n="77"><choice><reg/><orig>p. 593, n. 2</orig></choice>C ins. <hi rend="singleQuotes">and be with Christ</hi>.</note>
+            <note xml:id="n593-3" target="#a593-3" n="78"><choice><reg/><orig>p. 593, n. 3</orig></choice>C <hi rend="singleQuotes">we shall bury you</hi>.</note>
+            <note xml:id="n594-1" target="#a594-1" n="79"><choice><reg/><orig>p. 594, n. 1</orig></choice>C <hi rend="singleQuotes">him in order by reason of the drunkenness of their envy to tear the blessed man</hi>.</note>
+            <note xml:id="n594-2" target="#a594-2" n="80"><choice><reg/><orig>p. 594, n. 2</orig></choice>Jer., XLIV, 30.</note>
+            <note xml:id="n594-3" target="#a594-3" n="81"><choice><reg/><orig>p. 594, n. 3</orig></choice>C om.</note>
+            <note xml:id="n594-4" target="#a594-4" n="82"><choice><reg/><orig>p. 594, n. 4</orig></choice>C <hi rend="singleQuotes">he would be found by the grace of the Spirit</hi>.</note>
+            <note xml:id="n594-5" target="#a594-5" n="83"><choice><reg/><orig>p. 594, n. 5</orig></choice>This story has been omitted by the scribe of C., obviously because he thought it unedifying.</note>
+            <note xml:id="n595-1" target="#a595-1" n="84"><choice><reg/><orig>p. 595, n. 1</orig></choice><!-- eb, Syriac. --> are men who are godfathers or father to the same child, old Engl. <hi rend="singleQuotes">gossips</hi>.</note>
+            <note xml:id="n597-1" target="#a597-1" n="85"><choice><reg/><orig>p. 597, n. 1</orig></choice>C <hi rend="singleQuotes">But, when he came to his monastery, he was</hi>.</note>
+            <note xml:id="n597-2" target="#a597-2" n="86"><choice><reg/><orig>p. 597, n. 2</orig></choice>C <hi rend="singleQuotes">ten</hi>.</note>
+            <note xml:id="n597-3" target="#a597-3" n="87"><choice><reg/><orig>p. 597, n. 3</orig></choice>C om.</note>
+            <note xml:id="n598-1" target="#a598-1" n="88"><choice><reg/><orig>p. 598, n. 1</orig></choice>C ins. <hi rend="singleQuotes">and rise to perform service</hi>.</note>
+            <note xml:id="n598-2" target="#a598-2" n="89"><choice><reg/><orig>p. 598, n. 2</orig></choice>This story is omitted in C; see p. 582, n. 1.</note>
+            <note xml:id="n598-3" target="#a598-3" n="90"><choice><reg/><orig>p. 598, n. 3</orig></choice>I.e. <hi rend="singleQuotes">moisture</hi>, hardly Thlatha = three.</note>
+            <note xml:id="n598-4" target="#a598-4" n="91"><choice><reg/><orig>p. 598, n. 4</orig></choice>C <hi rend="singleQuotes">holy J. in his cell</hi>.</note>
+            <note xml:id="n599-1" target="#a599-1" n="92"><choice><reg/><orig>p. 599, n. 1</orig></choice>This word is used of any monk or ascetic and does not necessarily mean more than our <hi rend="singleQuotes">reverend</hi>; cf. p. 74, l. 1.</note>
+            <note xml:id="n600-1" target="#a600-1" n="93"><choice><reg/><orig>p. 600, n. 1</orig></choice>C ins. <hi rend="singleQuotes">as we said above</hi>.</note>
+            <note xml:id="n600-2" target="#a600-2" n="94"><choice><reg/><orig>p. 600, n. 2</orig></choice>C ins. <hi rend="singleQuotes">by his labours and abstinence</hi>.</note>
+            <note xml:id="n600-3" target="#a600-3" n="95"><choice><reg/><orig>p. 600, n. 3</orig></choice>C <hi rend="singleQuotes">bu his industry in everything he</hi>. It would make better sense if we could render <hi rend="singleQuotes">readiness</hi> or <hi rend="singleQuotes">presence</hi> in place of <hi rend="singleQuotes">beneficence</hi>; but <!-- eb. Syriac. --> is not known in this sense (p. 493, l. 2, <hi rend="singleQuotes">fame</hi>).</note>
+            <note xml:id="n600-4" target="#a600-4" n="96"><choice><reg/><orig>p. 600, n. 4</orig></choice>In the original life the reward is offered to any who promise to bring him. Our author's story is inconsistent.</note>
+            <note xml:id="n600-5" target="#a600-5" n="97"><choice><reg/><orig>p. 600, n. 5</orig></choice>C <hi rend="singleQuotes">and promised to</hi>.</note>
+            <note xml:id="n600-6" target="#a600-6" n="98"><choice><reg/><orig>p. 600, n. 6</orig></choice>C ins. <hi rend="singleQuotes">and returned in shame</hi>.</note>
+            <note xml:id="n601-1" target="#a601-1" n="99"><choice><reg/><orig>p. 601, n. 1</orig></choice>This statement is not in the original life.</note>
+            <note xml:id="n601-2" target="#a601-2" n="100"><choice><reg/><orig>p. 601, n. 2</orig></choice>C om.</note>
+            <note xml:id="n602-1" target="#a602-1" n="101"><choice><reg/><orig>p. 602, n. 1</orig></choice>C om.</note>
+            <note xml:id="n602-2" target="#a602-2" n="102"><choice><reg/><orig>p. 602, n. 2</orig></choice>John <foreign xml:lang="grc">έκ τού Σηρήμιος</foreign> near Antioch (Evagr., IV, 38, ad fin.) patr. of CP. 565-77. Ephraim patr. of Antioch died in 545.</note>
+            <note xml:id="n602-3" target="#a602-3" n="103"><choice><reg/><orig>p. 602, n. 3</orig></choice>C om. N has the erroneous marginal note <hi rend="singleQuotes">This is the holy John Maro</hi>.</note>
+            <note xml:id="n602-4" target="#a602-4" n="104"><choice><reg/><orig>p. 602, n. 4</orig></choice>This name probably arose out of the schism about the deprivation of Paul of Antioch and is opposed to Paulites.</note>
+            <note xml:id="n603-1" target="#a603-1" n="105"><choice><reg/><orig>p. 603, n. 1</orig></choice>August.</note>
+            <note xml:id="n603-2" target="#a603-2" n="106"><choice><reg/><orig>p. 603, n. 2</orig></choice>C <hi rend="singleQuotes">I am killed by thirst</hi>.</note>
+            <note xml:id="n603-3" target="#a603-3" n="107"><choice><reg/><orig>p. 603, n. 3</orig></choice>C om.</note>
+            <note xml:id="n604-1" target="#a604-1" n="108"><choice><reg/><orig>p. 604, n. 1</orig></choice>C ins. <hi rend="singleQuotes">And the brother came and saw the water in the desolate place in the wildnerness, and he wondered greatly and praised God who hears his saints</hi>.</note>
+            <note xml:id="n604-2" target="#a604-2" n="109"><choice><reg/><orig>p. 604, n. 2</orig></choice>C <hi rend="singleQuotes">he exulted and praised the Lord for his gift. But, after they had reached Mt. Sinai, and he had prayed in the holy places, and been blessed by the saints there, he returned to his monastery where he had been trained, and again</hi>.</note>
+            <note xml:id="n604-3" target="#a604-3" n="110"><choice><reg/><orig>p. 604, n. 3</orig></choice>C ins <hi rend="singleQuotes">of the believing peoples</hi>.</note>
+            <note xml:id="n604-4" target="#a604-4" n="111"><choice><reg/><orig>p. 604, n. 4</orig></choice>In 503, about 50 yrs. before J's time. <hi rend="singleQuotes">Dion</hi> however (R.O.C., II, 45) makes the Persians take Amida in 560.</note>
+            <note xml:id="n604-5" target="#a604-5" n="112"><choice><reg/><orig>p. 604, n. 5</orig></choice>C om.</note>
+            <note xml:id="n604-6" target="#a604-6" n="113"><choice><reg/><orig>p. 604, n. 6</orig></choice>C ins. <hi rend="singleQuotes">and rose</hi>.</note>
+            <note xml:id="n605-1" target="#a605-1" n="114"><choice><reg/><orig>p. 605, n. 1</orig></choice>C om.</note>
+            <note xml:id="n605-2" target="#a605-2" n="115"><choice><reg/><orig>p. 605, n. 2</orig></choice>This event is related from another source by <hi rend="singleQuotes">Dion.</hi> (Nau in R.O.C., II, p. 487; Kleyn, Bijdrage, p. 71; cf. id., Jacobus Baradaeüs, p. 106) without mention of James and dated Ind. IV (556). From <hi rend="singleQuotes">Dion.</hi> it is repeated by Mich. (p. 323) and in Berlin ms. Sachau 315 (C.S.C.O., tom. IV, p. 321), and in the latter the intervention of J. is added, perh. from our text. In these two sources it is dated in 560. It was perh. an outbreak of hydrophobia; cf. <hi rend="singleQuotes">Zach. Rh.</hi>, VII, 14, Theoph., A.M. 6008, and above, p. 579.</note>
+            <note xml:id="n605-3" target="#a605-3" n="116"><choice><reg/><orig>p. 605, n. 3</orig></choice>S om.; see p. 606, l. 3.</note>
+            <note xml:id="n606-1" target="#a606-1" n="117"><choice><reg/><orig>p. 606, n. 1</orig></choice>C om.</note>
+            <note xml:id="n606-2" target="#a606-2" n="118"><choice><reg/><orig>p. 606, n. 2</orig></choice>S ins. <hi rend="singleQuotes">inside the church and</hi>; see below.</note>
+            <note xml:id="n607-1" target="#a607-1" n="119"><choice><reg/><orig>p. 607, n. 1</orig></choice>C <hi rend="singleQuotes">among the sick</hi>.</note>
+            <note xml:id="n607-2" target="#a607-2" n="120"><choice><reg/><orig>p. 607, n. 2</orig></choice>C <hi rend="singleQuotes">all the citizens</hi>.</note>
+            <note xml:id="n607-3" target="#a607-3" n="121"><choice><reg/><orig>p. 607, n. 3</orig></choice>See p. 489, n. 3.</note>
+            <note xml:id="n607-4" target="#a607-4" n="122"><choice><reg/><orig>p. 607, n. 4</orig></choice>C ins. <hi rend="singleQuotes">and a great procession</hi>.</note>
+            <note xml:id="n608-1" target="#a608-1" n="123"><choice><reg/><orig>p. 608, n. 1</orig></choice>S om. C in place of this clause has <hi rend="singleQuotes">for none of those who suffered in this affliction died</hi>.</note>
+            <note xml:id="n608-2" target="#a608-2" n="124"><choice><reg/><orig>p. 608, n. 2</orig></choice>C <hi rend="singleQuotes">there has been taken from us our</hi>.</note>
+            <note xml:id="n608-3" target="#a608-3" n="125"><choice><reg/><orig>p. 608, n. 3</orig></choice>576. Really he died in 566; see p. 486, n. 6.</note>
+            <note xml:id="n608-4" target="#a608-4" n="126"><choice><reg/><orig>p. 608, n. 4</orig></choice>544. But Batnae was taken in 540, when he took ransom from Edessa without beseiging it (Proc., <title>Bell.</title>, II, XII, XXVI).</note>
+            <note xml:id="n608-5" target="#a608-5" n="127"><choice><reg/><orig>p. 608, n. 5</orig></choice>C ins. <hi rend="singleQuotes">on account of the numbers of people in it and the strength of the wall, he was troubled; and</hi>.</note>
+            <note xml:id="n608-6" target="#a608-6" n="128"><choice><reg/><orig>p. 608, n. 6</orig></choice>C <hi rend="singleQuotes">the excellent people of the Syrians</hi>.</note>
+            <note xml:id="n609-1" target="#a609-1" n="129"><choice><reg/><orig>p. 609, n. 1</orig></choice>C ins. <hi rend="singleQuotes">outside the wall and towers</hi>.</note>
+            <note xml:id="n609-2" target="#a609-2" n="130"><choice><reg/><orig>p. 609, n. 2</orig></choice>C <hi rend="singleQuotes">make (pl.) spoil of it</hi>.</note>
+            <note xml:id="n609-3" target="#a609-3" n="131"><choice><reg/><orig>p. 609, n. 3</orig></choice>C <hi rend="singleQuotes">their heart trembled and was disturbed, but the blessed J.</hi>.</note>
+            <note xml:id="n609-4" target="#a609-4" n="132"><choice><reg/><orig>p. 609, n. 4</orig></choice>Sic N. C <hi rend="singleQuotes">us</hi>.</note>
+            <note xml:id="n609-5" target="#a609-5" n="133"><choice><reg/><orig>p. 609, n. 5</orig></choice>C <hi rend="singleQuotes">cruel man and his</hi>.</note>
+            <note xml:id="n609-6" target="#a609-6" n="134"><choice><reg/><orig>p. 609, n. 6</orig></choice>Matth., VIII, 28.</note>
+            <note xml:id="n609-7" target="#a609-7" n="135"><choice><reg/><orig>p. 609, n. 7</orig></choice>N om. C in. <hi rend="singleQuotes">a fearful vision</hi>.</note>
+            <note xml:id="n609-8" target="#a609-8" n="136"><choice><reg/><orig>p. 609, n. 8</orig></choice>N om.</note>
+            <note xml:id="n610-1" target="#a610-1" n="137"><choice><reg/><orig>p. 610, n. 1</orig></choice>C <hi rend="singleQuotes">he cried with a loud voice</hi>.</note>
+            <note xml:id="n610-2" target="#a610-2" n="138"><choice><reg/><orig>p. 610, n. 2</orig></choice>C <hi rend="singleQuotes">and, when the day broke, none of the Persians was found round the city</hi>.</note>
+            <note xml:id="n610-3" target="#a610-3" n="139"><choice><reg/><orig>p. 610, n. 3</orig></choice>John, XI, 33.</note>
+            <note xml:id="n610-4" target="#a610-4" n="140"><choice><reg/><orig>p. 610, n. 4</orig></choice>Luke, XXIII, 47.</note>
+            <note xml:id="n611-1" target="#a611-1" n="141"><choice><reg/><orig>p. 611, n. 1</orig></choice>At Kenneshrin on the Euphrates (<hi rend="singleQuotes">Zach. Rh.</hi>, VIII, 5).</note>
+            <note xml:id="n611-2" target="#a611-2" n="142"><choice><reg/><orig>p. 611, n. 2</orig></choice>Sc. consecrated the building.</note>
+            <note xml:id="n611-3" target="#a611-3" n="143"><choice><reg/><orig>p. 611, n. 3</orig></choice>N. om.</note>
+            <note xml:id="n611-4" target="#a611-4" n="144"><choice><reg/><orig>p. 611, n. 4</orig></choice>C <hi rend="singleQuotes">altar</hi>.</note>
+            <note xml:id="n611-5" target="#a611-5" n="145"><choice><reg/><orig>p. 611, n. 5</orig></choice>C <hi rend="singleQuotes">countries</hi>.</note>
+            <note xml:id="n611-6" target="#a611-6" n="146"><choice><reg/><orig>p. 611, n. 6</orig></choice>II Tim., IV, 7.</note>
+            <note xml:id="n612-1" target="#a612-1" n="146"><choice><reg/><orig>p. 612, n. 1</orig></choice>C om.</note>
+            <note xml:id="n612-2" target="#a612-2" n="148"><choice><reg/><orig>p. 612, n. 2</orig></choice>C <hi rend="singleQuotes">Justinian</hi>. James d. 30 July, 578 (Mich., p. 364; C.S.C.O., tom. IV, p. 144), and Justin lived till 4 Oct. (<title>H.E.</title>, III, 6).</note>
+            <note xml:id="n612-3" target="#a612-3" n="149"><choice><reg/><orig>p. 612, n. 3</orig></choice>C <hi rend="singleQuotes">holy Mar. J.</hi>.</note>
+            <note xml:id="n612-4" target="#a612-4" n="150"><choice><reg/><orig>p. 612, n. 4</orig></choice>C ins. <hi rend="singleQuotes">and contended to death for the faith</hi>.</note>
+            <note xml:id="n612-5" target="#a612-5" n="151"><choice><reg/><orig>p. 612, n. 5</orig></choice>See <title>H.E.</title>, IV, 33, 58.</note>
+            <note xml:id="n612-6" target="#a612-6" n="152"><choice><reg/><orig>p. 612, n. 6</orig></choice>Really bps. and 6 others (l.c.).</note>
+            <note xml:id="n612-7" target="#a612-7" n="153"><choice><reg/><orig>p. 612, n. 7</orig></choice>N <hi rend="singleQuotes">he also concealed himself</hi>.</note>
+            <note xml:id="n612-8" target="#a612-8" n="154"><choice><reg/><orig>p. 612, n. 8</orig></choice>A mountain on the borders of Egypt and Palestine (Amm. Marc., XXII, 4).</note>
+            <note xml:id="n612-9" target="#a612-9" n="155"><choice><reg/><orig>p. 612, n. 9</orig></choice>C <hi rend="singleQuotes">kept vigil</hi>.</note>
+            <note xml:id="n613-1" target="#a613-1" n="156"><choice><reg/><orig>p. 613, n. 1</orig></choice>See p. 504, n. 3; p. 588, n. 5.</note>
+            <note xml:id="n613-2" target="#a613-2" n="157"><choice><reg/><orig>p. 613, n. 2</orig></choice>C om.</note>
+            <note xml:id="n613-3" target="#a613-3" n="158"><choice><reg/><orig>p. 613, n. 3</orig></choice>C <hi rend="singleQuotes">this divine light of all the world the blessed J. fell sick and died and</hi>.</note>
+            <note xml:id="n613-4" target="#a613-4" n="159"><choice><reg/><orig>p. 613, n. 4</orig></choice>C <hi rend="singleQuotes">and at the time at</hi>.</note>
+            <note xml:id="n613-5" target="#a613-5" n="160"><choice><reg/><orig>p. 613, n. 5</orig></choice>C <hi rend="singleQuotes">that the weary man should rest from his labour this second Paul and true disciple and combatant for religion was gathered to his holy fathers and the doctors of the church; and the saint's</hi>.</note>
+            <note xml:id="n613-6" target="#a613-6" n="161"><choice><reg/><orig>p. 613, n. 6</orig></choice>C <hi rend="singleQuotes">and in all quarters of creation that the pastor of the church had gone to his rest</hi>.</note>
+            <note xml:id="n613-7" target="#a613-7" n="162"><choice><reg/><orig>p. 613, n. 7</orig></choice>C <hi rend="singleQuotes">buried</hi>.</note>
+            <note xml:id="n613-8" target="#a613-8" n="163"><choice><reg/><orig>p. 613, n. 8</orig></choice>C <hi rend="singleQuotes">his</hi>.</note>
          </noteGrp>
       </body>
    </text>

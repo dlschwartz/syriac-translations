@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/807">Two Monks</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/807.xml -->
@@ -26,19 +69,19 @@
             we may escape from the craftiness of the evil one, and again, that we may
             fear the divine words (especially men who are highly reputed for modes of
             life or for knowledge), when they caution us and say: <quote>Let him that standeth
-               take heed lest he fall</quote><ptr type="noteAnchor" target="#n220-1"/>. For the sake then of cautioning those who are
+               take heed lest he fall</quote>.<ptr type="noteAnchor" target="#n220-1" n=""/> For the sake then of cautioning those who are
             running on the road of virtue, I have determined to commit to record an
             act also that is well worthy to be an object of great commiseration which the
             <pb n="221"/><pb n="221"/>fiends did to two brothers who were in truth running with all their strength
             in the way of virtue, and whom the fiends made such a laughing-stock that
             the like was never heard among men of older or of recent times. These blessed 
-            men therefore, that is one of them especially, who was called <persName ref="http://syriaca.org/person/1933">James</persName><ptr type="noteAnchor" target="#n121-1"/>,
+            men therefore, that is one of them especially, who was called <persName ref="http://syriaca.org/person/1933">James</persName>,<ptr type="noteAnchor" target="#n121-1" n=""/>
             – this man employed himself in a marvellous way in the same community
             in great practices of standing and of watching and of abstinence and great
             quietude; and he came from <placeName ref="http://syriaca.org/place/1528">the convent called that of the Edessenes</placeName> adjoining
-            <placeName ref="http://syriaca.org/place/2736">Amida</placeName> itself<ptr type="noteAnchor" target="#n121-2"/>. And this brother was so laborious and humble and meek
-            that these seven hundred men<ptr type="noteAnchor" target="#n121-3"/> were all amazed at his labours, and at his
-            asceticism; so that I also was with him on the weekly duties<ptr type="noteAnchor" target="#n121-4"/>, and particularly 
+            <placeName ref="http://syriaca.org/place/2736">Amida</placeName> itself.<ptr type="noteAnchor" target="#n121-2" n=""/> And this brother was so laborious and humble and meek
+            that these seven hundred men<ptr type="noteAnchor" target="#n121-3" n=""/> were all amazed at his labours, and at his
+            asceticism; so that I also was with him on the weekly duties,<ptr type="noteAnchor" target="#n121-4" n=""/> and particularly 
             marvelled at his gentleness and his quietude, and further at the way
             in which he crucified his body by night and by day. This man then had
             many who for the purpose of imitating his modes of life used to attach
@@ -81,8 +124,8 @@
             And in consequence of such annoyances it became necessary (<foreign xml:lang="grc">άνάγκη</foreign>) for
             him to withdraw from the community; and so he withdrew under the instigation 
             (I believe) of the demons themselves, in company with the other who
-            was attached to him, and they set out, and went in the direction of Hamimtha<ptr type="noteAnchor" target="#n224-1"/>, 
-            to a certain village called <placeName ref="http://syriaca.org/place/2754">Beth Musika</placeName><ptr type="noteAnchor" target="#n224-2"/>; and they had a certain
+            was attached to him, and they set out, and went in the direction of Hamimtha,<ptr type="noteAnchor" target="#n224-1" n=""/> 
+            to a certain village called <placeName ref="http://syriaca.org/place/2754">Beth Musika</placeName>;<ptr type="noteAnchor" target="#n224-2" n=""/> and they had a certain
             monastery that was there given to them, and they resided in it. And in a
             similar way again there also multitudes began to flock together to them;
             and then also the blessed <persName ref="http://syriaca.org/person/1933">James</persName> would again command them authoritatively,
@@ -91,15 +134,15 @@
             contrived a method of making a mockery of these blessed men. One
             night, when the possessed persons were assembled there, there was also a
             certain young woman there of whom he had taken possession, who was also
-            of worldly appearance<ptr type="noteAnchor" target="#n224-3"/>. Her accordingly the demons took, and they clothed
-            <pb n="225"/><pb n="225"/>her in awe-striking forms of phantasmal<ptr type="noteAnchor" target="#n225-1"/> rays; and they led her up and
+            of worldly appearance.<ptr type="noteAnchor" target="#n224-3" n=""/> Her accordingly the demons took, and they clothed
+            <pb n="225"/><pb n="225"/>her in awe-striking forms of phantasmal<ptr type="noteAnchor" target="#n225-1" n=""/> rays; and they led her up and
             seated her on the bishops' throne (<foreign xml:lang="grc">θρόνος</foreign>), which is usually placed in the
             churches or in the chief martyrs' chapels on the dais (<foreign xml:lang="grc">κατάστρωμα</foreign>) of the altar.
-            Then they filled the whole martyrs' chapel again with phantasmal<ptr type="noteAnchor" target="#n225-1"/> forms,
+            Then they filled the whole martyrs' chapel again with phantasmal<ptr type="noteAnchor" target="#n225-1" n=""/> forms,
             as if forsooth they were angels of God; and some of them flew away and
-            entered the chapel<ptr type="noteAnchor" target="#n225-2"/> where the blessed men were sleeping; and there also as
+            entered the chapel<ptr type="noteAnchor" target="#n225-2" n=""/> where the blessed men were sleeping; and there also as
             well they emitted rays with the appearance of light, according to the text
-            <quote>maketh himself like an angel of light</quote><ptr type="noteAnchor" target="#n225-3"/>. And they roused the blessed men
+            <quote>maketh himself like an angel of light</quote>.<ptr type="noteAnchor" target="#n225-3" n=""/> And they roused the blessed men
             and urged them to haste, hastily alarming them and saying, <quote>Take incense,
                incense, and haste to the martyrs' chapel; for <persName ref="http://syriaca.org/person/624">the holy Mary the God-bearer</persName>
                has been sent to you, with a great host of angels; and she has sent us for
@@ -110,7 +153,7 @@
             <pb n="226"/><pb n="226"/>of brilliant light, and the woman moreover sitting on the throne (<foreign xml:lang="grc">θρόνος</foreign>),
             and a semblance of light flashing from her; and their wits were yet more
             taken from them by reason of their agitation, and they fell on their faces.
-            Then (it is said) she that was sitting commanded them<ptr type="noteAnchor" target="#n226-1"/> to approach and raise
+            Then (it is said) she that was sitting commanded them<ptr type="noteAnchor" target="#n226-1" n=""/> to approach and raise
             them up; and the fiends approached and took hold of their hands, and they
             say to them: <quote>Rise, for she has commanded you; and approach, and make
                obeisance to her</quote>. And they on their part rose smitten with fear and robbed
@@ -142,7 +185,7 @@
             they on their side resolved to find means of subjecting their case to the cure
             of penitence; and they left that place, weeping and sobbing at what had
             <pb n="228"/><pb n="228"/>happened to them, and they went down to <placeName ref="http://syriaca.org/place/762">Marde</placeName> to the holy <persName ref="http://syriaca.org/person/50">John</persName> bishop of
-            <placeName>Thella</placeName><ptr type="noteAnchor" target="#n228-1"/>, who ended his life in the conflicts (<foreign xml:lang="grc">άγών</foreign>) of persecution for Christ's
+            <placeName>Thella</placeName>,<ptr type="noteAnchor" target="#n228-1" n=""/> who ended his life in the conflicts (<foreign xml:lang="grc">άγών</foreign>) of persecution for Christ's
             sake. And, when they informed him of the affair, even the blessed man
             also marvelled at the wily, crafty artfulness of the rebellious evil beings.
             But he received them, and laid upon them three years' penance, and then
@@ -151,7 +194,7 @@
             attained to their former standing, and were admitted to the communion
             that is obtained by absolution. These things which we have written we have
             not received through hearsay, but they are all matters which were enacted
-            in our knowledge and in our presence and before our eyes<ptr type="noteAnchor" target="#n228-2"/>, and we have
+            in our knowledge and in our presence and before our eyes,<ptr type="noteAnchor" target="#n228-2" n=""/> and we have
             brought comparatively few of them to the record of writing on account of
             the length of the narrative, that a man who is granted any gift may be
             especially cautious against the craft of the adversary, who uses all artifices
@@ -162,20 +205,20 @@
             of persecution is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n220-1" target="#a220-1" n="220-1">I Cor., X, 12.</note>
-            <note xml:id="n221-1" target="#a221-1" n="221-1">The sentence is here broken off.</note>
-            <note xml:id="n221-2" target="#a221-2" n="221-2">B Marg. <hi rend="singleQuote">All these are sons of Mar Eugenius the Egyptian. Let him who reads pray for the sinner who restored it.</hi></note>
-            <note xml:id="n221-3" target="#a221-3" n="221-3">See p. 214.</note>
-            <note xml:id="n221-4" target="#a221-4" n="221-4">The duties of the <foreign>hebdomadarii</foreign>; see p. 62, n. 2, and ch. 35.</note>
-            <note xml:id="n224-1" target="#a224-1" n="224-1">Hot spring or <hi rend="singleQuote">hot bath</hi>; see 'Zach Rh.', XII, 6.</note>
-            <note xml:id="n224-2" target="#a224-2" n="224-2"><hi rend="singleQuote">House of mosaic</hi>(?); cf. Theoph. Cont. p. 146, l. 7, where <foreign xml:lang="grc">μουσικός</foreign> has this meaning.</note>
-            <note xml:id="n224-3" target="#a224-3" n="224-3">This seems to mean <hi rend="singleQuote">smartly dressed</hi>; cf. ch. 44.</note>
-            <note xml:id="n225-1" target="#a225-1" n="225-1">Of <foreign xml:lang="grc">φαντασία</foreign>.</note>
-            <note xml:id="n225-2" target="#a225-2" n="225-2">Lit. <hi rend="singleQuote">house of service</hi>. i. e. the private chapel of monastery, different from the martyrs' chapel (<hi rend="singleQuote">house of martyrs</hi>). At p. 204 also we find monks sleeping in the chapel.</note>
-            <note xml:id="n225-3" target="#a225-3" n="225-3">II Cor., XI, 14.</note>
-            <note xml:id="n226-1" target="#a226-1" n="226-1">Sc. the demons.</note>
-            <note xml:id="n228-1" target="#a228-1" n="228-1">Constantina. John's life is given below (ch. 24). See Severus, Selected Letters, V, 14, 15, from which it appears that he was not at Marde after 527 (see p. 395 ad fin. and transl., p. 358, note).</note>
-            <note xml:id="n228-2" target="#a228-2" n="228-2">I cannot reconcile this with the fact that the central event happened in a distant monastery. Moreover the word <!-- eb, Syriac. --> (text, p. 226, l. 3) indicates that the author is not speaking at first hand.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 220, n. 1</orig></choice>I Cor., X, 12.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 221, n. 1</orig></choice>The sentence is here broken off.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 221, n. 2</orig></choice>B Marg. <hi rend="singleQuotes">All these are sons of Mar Eugenius the Egyptian. Let him who reads pray for the sinner who restored it.</hi></note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 221, n. 3</orig></choice>See p. 214.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 221, n. 4</orig></choice>The duties of the <foreign>hebdomadarii</foreign>; see p. 62, n. 2, and ch. 35.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 224, n. 1</orig></choice>Hot spring or <hi rend="singleQuotes">hot bath</hi>; see 'Zach Rh.', XII, 6.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 224, n. 2</orig></choice><hi rend="singleQuotes">House of mosaic</hi>(?); cf. Theoph. Cont. p. 146, l. 7, where <foreign xml:lang="grc">μουσικός</foreign> has this meaning.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 224, n. 3</orig></choice>This seems to mean <hi rend="singleQuotes">smartly dressed</hi>; cf. ch. 44.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 225, n. 1</orig></choice>Of <foreign xml:lang="grc">φαντασία</foreign>.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 225, n. 2</orig></choice>Lit. <hi rend="singleQuotes">house of service</hi>. i. e. the private chapel of monastery, different from the martyrs' chapel (<hi rend="singleQuotes">house of martyrs</hi>). At p. 204 also we find monks sleeping in the chapel.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 225, n. 3</orig></choice>II Cor., XI, 14.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 226, n. 1</orig></choice>Sc. the demons.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 228, n. 1</orig></choice>Constantina. John's life is given below (ch. 24). See Severus, Selected Letters, V, 14, 15, from which it appears that he was not at Marde after 527 (see p. 395 ad fin. and transl., p. 358, note).</note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 228, n. 2</orig></choice>I cannot reconcile this with the fact that the central event happened in a distant monastery. Moreover the word (text, p. 226, l. 3) indicates that the author is not speaking at first hand.</note>
          </noteGrp>
       </body>
    </text>

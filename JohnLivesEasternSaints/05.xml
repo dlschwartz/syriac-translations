@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/797">Simeon and Sergius</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
   <text>
       <body>
          <!-- See spear/797.xml -->
@@ -23,12 +66,12 @@
             Recluse and <persName ref="http://syriaca.org/person/3154">Sergius</persName> Also the Recluse His Zealous Disciple.</head>
          <ab>
             In the same village moreover from which the saints of the column derived
-            <pb n="85"/><pb n="85"/>their origin (<foreign xml:lang="grc">γένος</foreign>)<ptr type="noteAnchor" target="#n85-1"/> a great and holy old man who was called <persName ref="http://syriaca.org/person/2095">Simeon</persName> had
+            <pb n="85"/><pb n="85"/>their origin (<foreign xml:lang="grc">γένος</foreign>)<ptr type="noteAnchor" target="#n85-1" n=""/> a great and holy old man who was called <persName ref="http://syriaca.org/person/2095">Simeon</persName> had
             also been living as a recluse ever since the time when the saints <persName ref="http://syriaca.org/person/3184">Abraham</persName>
-            and <persName ref="http://syriaca.org/person/1885">Maro</persName> the brothers began their discipleship<ptr type="noteAnchor" target="#n85-2"/>, a man whose own storym
+            and <persName ref="http://syriaca.org/person/1885">Maro</persName> the brothers began their discipleship,<ptr type="noteAnchor" target="#n85-2" n=""/> a man whose own storym
             also was not unworthy of great admiration; who also in his own person
             carried out the words of the apostle which say, <quote>They crucified their flesh
-               with all its affections and its lusts</quote><ptr type="noteAnchor" target="#n85-3"/>. This man because of the great 
+               with all its affections and its lusts</quote>.<ptr type="noteAnchor" target="#n85-3" n=""/> This man because of the great 
             hospitality that existed in him (and he was eager to carry out the ministration to
             the saints personally with his own hands like the holy <persName ref="http://syriaca.org/person/3184">Abraham</persName> the patriarch)
             used not to shut himself up in a hut like all the others, because indeed as
@@ -49,7 +92,7 @@
                has come to-day and visited the sinner, and has thought me worthy to see
                him in his holy bondmen</quote>. And, as soon as they had made the prayer
             and were sitting down, he would run to a vessel containing wine, and would
-            fill a certain gourd-cup that had been made by him and a roll (<foreign xml:lang="grc">κολλύρα</foreign>)<ptr type="noteAnchor" target="#n86-1"/>,
+            fill a certain gourd-cup that had been made by him and a roll (<foreign xml:lang="grc">κολλύρα</foreign>),<ptr type="noteAnchor" target="#n86-1" n=""/>
             and before anything else would fall on his face before the man's feet whoever
             he might be, that he might take that cup; and the hospitable man would
             invite him to eat that roll (<foreign xml:lang="grc">κολλύρα</foreign>) also, saying to him, <quote>You are weary; but
@@ -83,7 +126,7 @@
             of his great watching and protracted recitation of service; for there was no
             possibility of his sleeping more than two hours of the night; but he would
             stand up in the night and lift up the head of <persName>David</persName>, and, until the day broke,
-            where he began there he would end<ptr type="noteAnchor" target="#n88-1"/>; and, if it happened that he had some
+            where he began there he would end;<ptr type="noteAnchor" target="#n88-1" n=""/> and, if it happened that he had some
             time over, he would leave the brothers resting, and would himself go and
             recite the gospel (<foreign xml:lang="grc">εύαγγέλιον</foreign>) in the hut, weeping, until daybreak, and then he
             would go and rouse them to and rouse them to perform matins. And so this wonderful man
@@ -92,9 +135,9 @@
             and endure the burden of his great labours more than a short time, except
             <pb n="89"/><pb n="89"/><persName ref="http://syriaca.org/person/3154">Sergius</persName> his disciple an earnest man like himself, who also imitated him in
             everything, for for the space of twenty years he laboured with him in the
-            excellent life, and accordingly the saying of the Spirit that<ptr type="noteAnchor" target="#n89-1"/> was uttered in the
+            excellent life, and accordingly the saying of the Spirit that<ptr type="noteAnchor" target="#n89-1" n=""/> was uttered in the
             prophet as from the mouth of the Lord, <quote>This is my rest with which I will
-               rest the weary</quote><ptr type="noteAnchor" target="#n89-2"/> was fulfilled in the splendid old man and his diligent son,
+               rest the weary</quote><ptr type="noteAnchor" target="#n89-2" n=""/> was fulfilled in the splendid old man and his diligent son,
             insomuch that they made a guest-house outside, and there used to entertain
             all who came with everything out of the window, whether they were women
             or laymen, each as was proper for him. Again also, since the task of
@@ -104,7 +147,7 @@
             chose for themselves to teach boys, and this they did out of the window,
             since a seat was placed inside the window, and hours were appointed for
             the boys to come, that is in the morning and in the evening; and, when they
-            had taught one class (<foreign xml:lang="grc">σχολή</foreign>) to read the psalms and the Scriptures, and<ptr type="noteAnchor" target="#n89-1"/>
+            had taught one class (<foreign xml:lang="grc">σχολή</foreign>) to read the psalms and the Scriptures, and<ptr type="noteAnchor" target="#n89-1" n=""/>
             they bad withdrawn after being strengthened, another came in of little infants,
             thirty or forty of them, and they would learn and go to their homes, because
             <pb n="90"/><pb n="90"/>it was a populous village, and many people used to come out from it. And
@@ -131,7 +174,7 @@
             and all their furniture, saying, <quote>As for those who crucified my Lord <persName>Jesus</persName>,
                I will never make peace with them</quote>. But these men, when they saw that
             all their hope had been cut off through the burning of their books and of all
-            their furniture, lamented bitterly; and, because they were settled in the territory<ptr type="noteAnchor" target="#n91-1"/> 
+            their furniture, lamented bitterly; and, because they were settled in the territory<ptr type="noteAnchor" target="#n91-1" n=""/> 
             of the church of <placeName ref="http://syriaca.org/place/2737">Amida</placeName>, and used to pay many contributions (<foreign xml:lang="grc">συντελείας</foreign>)
             to <persName ref="http://syriaca.org/person/3687">the members of the church</persName>, out of desire for the abundance of their gold
             all <persName ref="http://syriaca.org/person/3687">the members of the church</persName> became their supporters, threatening the
@@ -147,7 +190,7 @@
             knowing what to do; and that synagogue remained a martyr's chapel for
             ever. Then the <persName ref="http://syriaca.org/person/3686">Jews</persName> who had gone in to prefer accusation against them
             took courage and came to fight with the blessed men; since the old man
-            also did not hold aloof from the fight with them<ptr type="noteAnchor" target="#n92-1"/>, though he did not take it
+            also did not hold aloof from the fight with them,<ptr type="noteAnchor" target="#n92-1" n=""/> though he did not take it
             to heart, that is, he was not moved with indignation. When they saw that
             all hope for their place of worship was lost, and it had now received the
             form of a church, and the name too of the Blessed one, and they were no
@@ -165,7 +208,7 @@
             days of his life the <persName ref="http://syriaca.org/person/3686">Jews</persName> could not raise their head there. But, when they
             saw that he had shut himself up, they thought that they were rid of him;
             and for this reason they went on building confidently; and, when they had
-            completed and finished<ptr type="noteAnchor" target="#n93-1"/>, he sent his disciples by night, and they burnt it;
+            completed and finished,<ptr type="noteAnchor" target="#n93-1" n=""/> he sent his disciples by night, and they burnt it;
             and so they desisted from building all the days of his life. But the old man
             went on adding to the course of his habitual practices and to his love
             toward God and toward strangers every day, until he grew old and became
@@ -177,7 +220,7 @@
             baby. And, because I knew the power of the old man's prayers and of his
             blessings, I always used to repair to him from all quarters to receive his
             blessings, so that once I did not shrink from making the effort and coming
-            <pb n="94"/><pb n="94"/>down even from <placeName>Constantinople</placeName><ptr type="noteAnchor" target="#n94-1"/>, in order to gain his blessing before his
+            <pb n="94"/><pb n="94"/>down even from <placeName>Constantinople</placeName>,<ptr type="noteAnchor" target="#n94-1" n=""/> in order to gain his blessing before his
             departure from the body; and the merciful God, who saw the desire of my
             feebleness, preserved him in the body till he had made me heir to a small
             portion of his goods, though I for my part turned out a squanderer of his
@@ -212,12 +255,12 @@
          </ab>
          <ab>
             A short time before a persecution had been set on foot by those who served
-            the synod of <placeName>Chalcedon</placeName><ptr type="noteAnchor" target="#n95-1"/>, and men who possessed the name only of churchmen
+            the synod of <placeName>Chalcedon</placeName>,<ptr type="noteAnchor" target="#n95-1" n=""/> and men who possessed the name only of churchmen
             <pb n="96"/><pb n="96"/>expelled many by the use of barbarian troops, and many they arrested and
             imprisoned, and many they drove to death by stripes inflicted with rods, and
             many again they greedily and mercilessly plundered; and others they reduced
             to submission by force, and, when men had eaten and drunk wine and meat,
-            they would open their mouths with lashing<ptr type="noteAnchor" target="#n96-1"/> hides (<foreign xml:lang="grc">σκύτος</foreign>) and rods, and stuff
+            they would open their mouths with lashing<ptr type="noteAnchor" target="#n96-1" n=""/> hides (<foreign xml:lang="grc">σκύτος</foreign>) and rods, and stuff
             their oblation into their mouths. When these things were being done in the
             very village in which these blessed men lived (inasmuch as it was in fact
             inhabited by real churchmen), at first they went straight to the blessed
@@ -229,20 +272,20 @@
             shrank from him; and for this reason they bent the whole mass of their plans
             in the direction of his disciple. And, when they went and began to speak
             craftily to him with coaxing words, while they praised the head of their
-            congregation, that is their <persName ref="http://syriaca.org/person/3688">bishop</persName><ptr type="noteAnchor" target="#n96-2"/>, and wished to deceive and say, <quote>There
+            congregation, that is their <persName ref="http://syriaca.org/person/3688">bishop</persName>,<ptr type="noteAnchor" target="#n96-2" n=""/> and wished to deceive and say, <quote>There
                <pb n="97"/><pb n="97"/>is nothing wrong, but agree and accept</quote>, while they on their side said these
             things to him softly and gently, as is said in the psalmist, <quote>Their words are
-               softer than oil, and they are arrow-points</quote><ptr type="noteAnchor" target="#n97-1"/>, inasmuch as he was vigorous
+               softer than oil, and they are arrow-points</quote>,<ptr type="noteAnchor" target="#n97-1" n=""/> inasmuch as he was vigorous
             in his speech and in his zeal, he cried from his own window to them, <quote>Stand
                up and go away from here, evil wicked men. You are cursed with the
                deceitful doctrine that you proclaim, since you advise me to accept a
                quaternity instead of the Holy Trinity, in which I was sealed for my life's
                salvation</quote>. But these men, when they heard the anathema upon them
-            spoken boldly<ptr type="noteAnchor" target="#n97-2"/> without fear, on their part also began their own methods,
+            spoken boldly<ptr type="noteAnchor" target="#n97-2" n=""/> without fear, on their part also began their own methods,
             saying to him, <quote>Come, come out; since there is no possibility of your staying
                here</quote>. But the blessed <persName ref="http://syriaca.org/person/3154">Sergius</persName> said to them: <quote>I will not come out
                   of myself. But, if you turn me out, as our Lord <persName>Jesus</persName> lives, <quote>whose I am
-                     and whom I serve</quote><ptr type="noteAnchor" target="#n97-3"/>, in the middle of the church, while the whole city is
+                     and whom I serve</quote>,<ptr type="noteAnchor" target="#n97-3" n=""/> in the middle of the church, while the whole city is
                   assembled, before them and in the middle of them I will go up to the chancel
                   (<foreign xml:lang="grc">βήμα</foreign>), and will curse you to your faces, you and the head of your congregation</quote>.
             And his speech was thus keen and cutting, like a sword. But
@@ -251,12 +294,12 @@
             out his oaths upon them; but the same night he set out and went to the holy
             <persName ref="http://syriaca.org/person/1885">Maro</persName> the stylite; because this happened in his days, while he was still alive,
             even as he also contended for twenty years in this struggle (<foreign xml:lang="grc">άγών</foreign>) against the
-            heretics<ptr type="noteAnchor" target="#n98-1"/>; but the <persName ref="http://syriaca.org/person/3688">bishops</persName><ptr type="noteAnchor" target="#n98-2"/> were much ashamed before him and feared to
-            send, or anyone to presume<ptr type="noteAnchor" target="#n98-3"/> to enter his monastery; unless perhaps one of
+            heretics;<ptr type="noteAnchor" target="#n98-1" n=""/> but the <persName ref="http://syriaca.org/person/3688">bishops</persName><ptr type="noteAnchor" target="#n98-2" n=""/> were much ashamed before him and feared to
+            send, or anyone to presume<ptr type="noteAnchor" target="#n98-3" n=""/> to enter his monastery; unless perhaps one of
             the clergy (<foreign xml:lang="grc">κλήρος</foreign>) came in to him as it were by chance, who had voluntarily
             numbered himself in the ranks of the heretics, and being ashamed acknowledged 
-            the falsity of their<ptr type="noteAnchor" target="#n98-3"/> faith. And thus two <persName ref="http://syriaca.org/person/3688">bishops</persName><ptr type="noteAnchor" target="#n98-3"/> passed away and
-            died one after the other, and none molested the holy <persName ref="http://syriaca.org/person/1885">Maro</persName><ptr type="noteAnchor" target="#n98-4"/>. But the <persName ref="http://syriaca.org/person/3688">third</persName>third,
+            the falsity of their<ptr type="noteAnchor" target="#n98-3" n=""/> faith. And thus two <persName ref="http://syriaca.org/person/3688">bishops</persName><ptr type="noteAnchor" target="#n98-3" n=""/> passed away and
+            died one after the other, and none molested the holy <persName ref="http://syriaca.org/person/1885">Maro</persName>.<ptr type="noteAnchor" target="#n98-4" n=""/> But the <persName ref="http://syriaca.org/person/3688">third</persName>third,
             in order to gratify those who appointed him, was lifted up in his pride and
             presumed to go to the blessed man, advising and admonishing and cajoling
             him, in order to bring him into subjection to the evil impiety of the accursed
@@ -264,7 +307,7 @@
             this man craftily sought means to catch him if only in speech, in order by himb
             to deceive many, and say <quote>Lo! <persName ref="http://syriaca.org/person/1885">Maro</persName> of his column agrees with us</quote>; and,
             <pb n="99"/><pb n="99"/>if this had really happened, numberless persons would indeed have been
-            deceived and brought to this<ptr type="noteAnchor" target="#n99-1"/>. But the blessed man, as one that was a
+            deceived and brought to this.<ptr type="noteAnchor" target="#n99-1" n=""/> But the blessed man, as one that was a
             valiant man and wise in God, did not yield to his blandishments, nor yet
             fear his threats; but as a valiant man he in everything showed him to be a
             denier of God and a deceiver, with all of his opinion, and that instead of the
@@ -273,7 +316,7 @@
             diluting their blasphemies like a drug with honey to give them to the
             people of the believers to drink. And so he was dismissed from his presence,
             humbled in his pride and with his plans frustrated, since he had not effected
-            his intention, and even recoiling<ptr type="noteAnchor" target="#n99-2"/> from his presumption, as he also soon
+            his intention, and even recoiling<ptr type="noteAnchor" target="#n99-2" n=""/> from his presumption, as he also soon
             received a castigation on this account and a humiliation of his pride, which
             we decline even to describe because of its fearful nature and the greatness
             of the subject. When therefore the blessed <persName ref="http://syriaca.org/person/3154">Sergius</persName> came to the very same
@@ -293,10 +336,10 @@
                for my latter end and for my evil days, to what times I have been preserved.
                It is in thy power, Lord, to take my soul from me, rather than that I should
                see the buffetings and the distress of thy believers, and the persecution of thy
-               church which thou purchasedst with thy precious blood<ptr type="noteAnchor" target="#n100-1"/>. Have mercy, Lord,
+               church which thou purchasedst with thy precious blood.<ptr type="noteAnchor" target="#n100-1" n=""/> Have mercy, Lord,
                and remember thy church which thou purchasedst with thy passion and
                savedst with thy cross. <quote>Behold from heaven</quote>, my Lord, <quote>and see; and
-                  visit this vine, and the vine which thy right hand planted</quote><ptr type="noteAnchor" target="#n100-1"/></quote> While our
+                  visit this vine, and the vine which thy right hand planted</quote><ptr type="noteAnchor" target="#n100-1" n=""/></quote> While our
             holy father was saying these things with feeling and with bitter sobs, at the
             sound of his pitiful sobs we all wept with him. But, when he had been
             <pb n="101"/><pb n="101"/>silent for a little time and longer (<foreign xml:lang="grc">μάλλον</foreign>), he gave orders that the blessed
@@ -309,13 +352,13 @@
                trial to endure. Beware</quote>, the blessed <persName ref="http://syriaca.org/person/3154">Sergius</persName> said to him: <quote>Our father,
                   pray for me for our Lord's sake; because I for my part am prepared for
                   suffering, and I will contend until death with the renegades who malign
-                  God, and fire will not frighten me, nor sword, nor scourgings, nor rakes<ptr type="noteAnchor" target="#n101-1"/>.
+                  God, and fire will not frighten me, nor sword, nor scourgings, nor rakes.<ptr type="noteAnchor" target="#n101-1" n=""/>
                   But only pray for me</quote>. But the blessed man, when he saw his firmness and
             readiness, blessed bim and sent him away, saying, <quote>Our Lord strengthen
                you, my son. Go in peace</quote>. But the blessed <persName ref="http://syriaca.org/person/3154">Sergius</persName> set out and reached
             the city on the holy first day of the week at daybreak. Then he went straight
-            to the church; and, while the whole city were sitting<ptr type="noteAnchor" target="#n101-2"/> after the morning
-            lauds, among them he also who enjoyed the name of the <persName ref="http://syriaca.org/person/3688">bishopric</persName><ptr type="noteAnchor" target="#n101-3"/>, and
+            to the church; and, while the whole city were sitting<ptr type="noteAnchor" target="#n101-2" n=""/> after the morning
+            lauds, among them he also who enjoyed the name of the <persName ref="http://syriaca.org/person/3688">bishopric</persName>,<ptr type="noteAnchor" target="#n101-3" n=""/> and
             <pb n="102"/><pb n="102"/>listening to the preacher (because those who were orthodox (<foreign xml:lang="grc">όρθόδοξος</foreign>) also
             used to be present in the congregation during the hearing of the service and
             the lessons and the preacher, only without communicating), then suddenly
@@ -333,7 +376,7 @@
             make a request of them, he on reaching the third step, where the preacher
             was standing, flung out his hand and seized him by the neck and grasped
             him tightly, and said to him: <quote>Evil wicked man, our Lord commands <quote>Give
-               not that which is sacred to the dogs, nor pearls<ptr type="noteAnchor" target="#n102-1"/> before the swine</quote><ptr type="noteAnchor" target="#n102-2"/>, 
+               not that which is sacred to the dogs, nor pearls,<ptr type="noteAnchor" target="#n102-1" n=""/> before the swine</quote><ptr type="noteAnchor" target="#n102-2" n=""/> 
                wherefore are you speaking the words of God before men who deny him?</quote> And
             <pb n="103"/><pb n="103"/>he swung his hand round and gave him a buffet, and distorted his mouth;
             and he seized him and shook him down. And he himself sprang up and
@@ -349,8 +392,8 @@
             intense volume of sound, the adversaries expressing indignation, and the
             believers joy. Since they feared on account of the people to lay their hands
             upon the blessed man, the man who was practised in pernicious wiles rose and
-            quieted the people by saying, <quote>Be so good<ptr type="noteAnchor" target="#n103-1"/> as to let the blessed man come
-               into the vestry<ptr type="noteAnchor" target="#n103-2"/>, and we will speak, and see what his business is</quote>; and thus
+            quieted the people by saying, <quote>Be so good<ptr type="noteAnchor" target="#n103-1" n=""/> as to let the blessed man come
+               into the vestry,<ptr type="noteAnchor" target="#n103-2" n=""/> and we will speak, and see what his business is</quote>; and thus
             he succeeded by a trick in withdrawing him from the people, and then
             accomplishing his will upon him. When the crowd (<foreign xml:lang="grc">όκλος</foreign>) had dispersed,
             <pb n="104"/><pb n="104"/>then like ravening beasts who find a sheep in a field and all attack it, each
@@ -359,17 +402,17 @@
             each of them with a place where he could exercise his cruel disposition and
             cause pain by striking him. At last, when they had vented all the venom
             of their malice upon him, they went on to shave off the hair that marked his
-            ascetic profession<ptr type="noteAnchor" target="#n104-1"/> (since he as well as the blessed <persName ref="http://syriaca.org/person/2095">Simeon</persName> his master wore
+            ascetic profession<ptr type="noteAnchor" target="#n104-1" n=""/> (since he as well as the blessed <persName ref="http://syriaca.org/person/2095">Simeon</persName> his master wore
             the honoured habit (<foreign xml:lang="grc">σχήμα</foreign>) of the anchoritic life), and put irons upon him, and
             assigned men to him, and sent him to a certain house of anchorites in
             <placeName>Armenia</placeName> that is called <placeName ref="http://syriaca.org/place/2867">ʿTryz</placeName>, and it would be better for a Christian to be
             confined in the lowest dungeon in a prison than in that <placeName ref="http://syriaca.org/place/2867">monastery</placeName>; for anyone
             who was sent thither was thenceforth reduced to utter despair, on account
-            of the boundless severity of sufferings which<ptr type="noteAnchor" target="#n104-2"/> they used to inflict on the man
+            of the boundless severity of sufferings which<ptr type="noteAnchor" target="#n104-2" n=""/> they used to inflict on the man
             who was sent to them; since they were very zealous for the tenets of the
             heresy, and they used to reckon it as an act of justice to torture believers;
             and accordingly they would stand over them like executioners not one or two
-            <pb n="105"/><pb n="105"/>or a hundred only, but each one of them would pull him<ptr type="noteAnchor" target="#n105-1"/> from his side and
+            <pb n="105"/><pb n="105"/>or a hundred only, but each one of them would pull him<ptr type="noteAnchor" target="#n105-1" n=""/> from his side and
             torture him (for they were about three hundred); and accordingly those
             who used to send to that place were confident that their purpose would be
             accomplished. But the holy <persName ref="http://syriaca.org/person/3154">Sergius</persName>, being confined in the middle of the
@@ -378,7 +421,7 @@
             which was the only thing that he had with him, he also in the keenness of his
             ardour grasped in his hand, and he climbed up to his window on the third
             floor, and he leaped with that pitcher also in his hand and the irons with
-            it<ptr type="noteAnchor" target="#n105-2"/>, and he came down and stood on his feet outside the <placeName ref="http://syriaca.org/place/2867">monastery</placeName>. And
+            it,<ptr type="noteAnchor" target="#n105-2" n=""/> and he came down and stood on his feet outside the <placeName ref="http://syriaca.org/place/2867">monastery</placeName>. And
             so he escaped from them, and came to his holy master; and he fell upon
             his face before him, and said: <quote>Now, sir, I have learned that God loves
                you, and in truth hears you; since, unless the mediation of your prayers helps,
@@ -399,7 +442,7 @@
             news, <quote>That audacious stubborn man is building a <placeName ref="http://syriaca.org/place/2837">monastery</placeName> in such-and-such 
                a place</quote>; and men were at once appointed to go out and pull the
             <placeName ref="http://syriaca.org/place/2837">monastery</placeName> down to its foundations, <quote>and signify to him also besides that you
-               desire to arrest and bring him to us<ptr type="noteAnchor" target="#n106-1"/>; and if you see that he is ready and
+               desire to arrest and bring him to us;<ptr type="noteAnchor" target="#n106-1" n=""/> and if you see that he is ready and
                willing to come, leave him alone, and do not bring him upon us</quote>. Then
             these men set out, having first declared and professed <quote>Why! perhaps he
                will be afraid, and run away from us</quote>. And, when they came, they found
@@ -432,12 +475,12 @@
             thence, wondering at the fervour and the vigour of the man. But the blessed
             man dug and delved deep and laid the foundations on a spacious basis; and
             he built a substantial <placeName ref="http://syriaca.org/place/2837">monastery</placeName> and made it strong; and he planted a
-            plantation, and made an enclosure round, and made a very desirable place<ptr type="noteAnchor" target="#n108-1"/>.
+            plantation, and made an enclosure round, and made a very desirable place.<ptr type="noteAnchor" target="#n108-1" n=""/>
             And, after a short time, he went to be blessed by the holy old man his master;
             and the summons followed him, and he ended his life with him there, bearing
-            good testimony; and he was laid out<ptr type="noteAnchor" target="#n108-2"/> and buried by his spiritual father, who
+            good testimony; and he was laid out<ptr type="noteAnchor" target="#n108-2" n=""/> and buried by his spiritual father, who
             was still in good health. But the holy <persName ref="http://syriaca.org/person/2095">Simeon</persName> after living brilliantly in his
-            seclusion forty-seven years<ptr type="noteAnchor" target="#n108-3"/> ended his days, and himself also fell asleep in
+            seclusion forty-seven years<ptr type="noteAnchor" target="#n108-3" n=""/> ended his days, and himself also fell asleep in
             peace; by whose prayers, with those of all the saints his companions, may all
             wretched men gain merey in the day of judgment.
          </ab>
@@ -462,14 +505,14 @@
                forty years, and has not grown tired or weary, nor is yet satiated with so
                <pb n="110"/><pb n="110"/>doing? Wherefore, my sons, did you not go to this man, who has refreshed
                God in the persons of the weary, who has also caused the savour of his
-               practices and of his purpose that is good and acceptable<ptr type="noteAnchor" target="#n110-1"/> at all times
+               practices and of his purpose that is good and acceptable<ptr type="noteAnchor" target="#n110-1" n=""/> at all times
                to reach to the heavens of heavens?</quote> But these men on hearing these
             things from the saint fell on their faces and continued entreating him and
             saying: <quote>Who, sir, is he of whom you have said these things to us?</quote>
             But the blessed man, in accordance with what our Lord also taught in his
             preaching, <quote>A city built upon a mountain cannot be lid</quote>, and again <quote>So
                let your light shine before men, that they may see your good works and
-               glorify your Father that is in the heavens</quote><ptr type="noteAnchor" target="#n110-2"/>, says to these men: <quote>This
+               glorify your Father that is in the heavens</quote>,<ptr type="noteAnchor" target="#n110-2" n=""/> says to these men: <quote>This
                   is <persName ref="http://syriaca.org/person/2095">Simeon</persName> the recluse who is living in seclusion on the top of a hill in the
                   village of <placeName>Kalesh</placeName>. But go to him, and greet him from me and say to him,
                   <quote>An idle sinful man settled in the desert entreats you, <quote>As I know you
@@ -485,48 +528,49 @@
             the recluse his zealous disciple is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n85-1" target="#a85-1" n="85-1">Kalesh;see p.56.</note>
-            <note xml:id="n85-2" target="#a85-2" n="85-2">M. began 1' years after A. (p. 57); but, even if we reckon from the time when M. ascended the columan (p. 59), we get 483 as the date of the beginning of Simeon's seclusion, which is inconsistent with later statements; see p. 94, n. 1.</note>
-            <note xml:id="n85-3" target="#a85-3" n="85-3">Gal., V, 24.</note>
-            <note xml:id="n86-1" target="#a86-1" n="86-1">Sic syr.</note>
-            <note xml:id="n88-1" target="#a88-1" n="88-1">I.e. he repeated the whole psalter.</note>
-            <note xml:id="n89-1" target="#a89-1" n="89-1">Ms. om.</note>
-            <note xml:id="n89-2" target="#a89-2" n="89-2">Is.,XXVIII,12.</note>
-            <note xml:id="n91-1" target="#a91-1" n="91-1"><!-- eb, Syriac. -->is a literal rendering of <foreign xml:lang="grc">παροικία</foreign> and means ecclesiastical jurisdiction, not property. Hence the <foreign xml:lang="grc">συντέλειαι</foreign> were not rent, but a kind of blackmail paid to secure protection against attacks of this kind.</note>
-            <note xml:id="n92-1" target="#a92-1" n="92-1">It can hardly be meant that he left his cell, but only that he encouraged his disciples to go.</note>
-            <note xml:id="n93-1" target="#a93-1" n="93-1">I.e. the synagogue; the object has perh. fallen out.</note>
-            <note xml:id="n94-1" target="#a94-1" n="94-1">This cannot be earlier than 540 (see Introd.) and therefore, if we reckon 40 years from 483 (p.85, n. 2), we must suppose that S. lived 17 years in the descrepit state described above. Moreover 47 years is given below as the full time of his seclusion, which therefore did bot begin before 493.</note>
-            <note xml:id="n95-1" target="#a95-1" n="95-1">As Maro was still living (p. 98), this must be the persecution or 521, and the <hi rend="singleQuote">short time</hi> must be at least 19 years.</note>
-            <note xml:id="n96-1" target="#a96-1" n="96-1">Litt. <hi rend="singleQuote">of <foreign xml:lang="grc">φραγέλλια</foreign></hi>.</note>
-            <note xml:id="n96-2" target="#a96-2" n="96-2">Abraham of Amida (Assem., B. O., II, p. 51; Zach. Rh., X.2; Mich., p. 272).</note>
-            <note xml:id="n97-1" target="#a97-1" n="97-1">Ps. LV,22.</note>
-            <note xml:id="n97-2" target="#a97-2" n="97-2">With <foreign xml:lang="grc">παρρήσσια</foreign>.</note>
-            <note xml:id="n97-3" target="#a97-3" n="97-3">Acts, XXVII, 27.</note>
-            <note xml:id="n98-1" target="#a98-1" n="98-1">It is hard to understand to what this alludes.</note>
-            <note xml:id="n98-2" target="#a98-2" n="98-2">Sc. of Ingila; see p. 56.</note>
-            <note xml:id="n98-3" target="#a98-3" n="98-3">Sic syr.</note>
-            <note xml:id="n98-4" target="#a98-4" n="98-4">As this must have been between 519 and 522, the succession or bishops at Ingila must have been rapid. In 519 a Monophysite held the see (Zach. Rh., VIII, 5).</note>
-            <note xml:id="n99-1" target="#a99-1" n="99-1">Sc. the synod.</note>
-            <note xml:id="n99-2" target="#a99-2" n="99-2">Or <hi rend="singleQuote">he (Maro) had not done his will and even recoiled</hi>.</note>
-            <note xml:id="n100-1" target="#a100-1" n="100-1">Acts, XX, 28.</note>
-            <note xml:id="n100-2" target="#a100-2" n="100-2">Ps. LXXX,15,16.</note>
-            <note xml:id="n101-1" target="#a101-1" n="101-1">Instruments of torture.</note>
-            <note xml:id="n101-2" target="#a101-2" n="101-2">This seems to show that at that time Eastern congregations sat (no doubt on the floor) during the sermon.</note>
-            <note xml:id="n101-3" target="#a101-3" n="101-3">Abraham of Amida.</note>
-            <note xml:id="n102-1" target="#a102-1" n="102-1">Sic syr.</note>
-            <note xml:id="n102-2" target="#a102-2" n="102-2">Matth. VII, 6.</note>
-            <note xml:id="n103-1" target="#a103-1" n="103-1">See p.79.</note>
-            <note xml:id="n103-2" target="#a103-2" n="103-2">House of the <foreign xml:lang="grc">διαχονικόν</foreign>.</note>
-            <note xml:id="n104-1" target="#a104-1" n="104-1">This appy. means thal they shaved off the hair that remained after the monastic tonsure, leaving him bald.</note>
-            <note xml:id="n104-2" target="#a104-2" n="104-2">Ms om.</note>
-            <note xml:id="n105-1" target="#a105-1" n="105-1">Sic syr.</note>
-            <note xml:id="n105-2" target="#a105-2" n="105-2">What was the use of the irons? If it is meant that they were still on him, the statement is inconsistent with what precedes.</note>
-            <note xml:id="n106-1" target="#a106-1" n="106-1">Sic syr.</note>
-            <note xml:id="n108-1" target="#a108-1" n="108-1">Perh. our Sergius should be identified with 'S. who has now rebuilt <!-- eb, Syriac.--> (Zach. Rh., VIII,5).</note>
-            <note xml:id="n108-2" target="#a108-2" n="108-2"><!-- eb, Syriac.--> is not elsewhere found in this sense.</note>
-            <note xml:id="n108-3" target="#a108-3" n="108-3">See p. 94, n.</note>
-            <note xml:id="n110-1" target="#a110-1" n="110-1">Rom. XII,2.</note>
-            <note xml:id="n110-2" target="#a110-2" n="110-2">Matth., V,14,16.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 85, n. 1</orig></choice>Kalesh;see p.56.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 85, n. 2</orig></choice>M. began 1' years after A. (p. 57); but, even if we reckon from the time when M. ascended the columan (p. 59), we get 483 as the date of the beginning of Simeon's seclusion, which is inconsistent with later statements; see p. 94, n. 1.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 85, n. 3</orig></choice>Gal., V, 24.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 86, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 88, n. 1</orig></choice>I.e. he repeated the whole psalter.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 89, n. 1</orig></choice>Ms. om.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 89, n. 2</orig></choice>Is.,XXVIII,12.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 91, n. 1</orig></choice>is a literal rendering of <foreign xml:lang="grc">παροικία</foreign> and means ecclesiastical jurisdiction, not property. Hence the <foreign xml:lang="grc">συντέλειαι</foreign> were not rent, but a kind of blackmail paid to secure protection against attacks of this kind.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 92, n. 1</orig></choice>It can hardly be meant that he left his cell, but only that he encouraged his disciples to go.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 93, n. 1</orig></choice>I.e. the synagogue; the object has perh. fallen out.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 94, n. 1</orig></choice>This cannot be earlier than 540 (see Introd.) and therefore, if we reckon 40 years from 483 (p.85, n. 2), we must suppose that S. lived 17 years in the descrepit state described above. Moreover 47 years is given below as the full time of his seclusion, which therefore did bot begin before 493.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 95, n. 1</orig></choice>As Maro was still living (p. 98), this must be the persecution or 521, and the <hi rend="singleQuotes">short time</hi> must be at least 19 years.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 96, n. 1</orig></choice>Litt. <hi rend="singleQuotes">of <foreign xml:lang="grc">φραγέλλια</foreign></hi>.</note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 96, n. 2</orig></choice>Abraham of Amida (Assem., B. O., II, p. 51; Zach. Rh., X.2; Mich., p. 272).</note>
+            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 97, n. 1</orig></choice>Ps. LV,22.</note>
+            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 97, n. 2</orig></choice>With <foreign xml:lang="grc">παρρήσσια</foreign>.</note>
+            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 97, n. 3</orig></choice>Acts, XXVII, 27.</note>
+            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 98, n. 1</orig></choice>It is hard to understand to what this alludes.</note>
+            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 98, n. 2</orig></choice>Sc. of Ingila; see p. 56.</note>
+            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 98, n. 3</orig></choice>Sic syr.</note>
+            <note xml:id="n21" target="#a21" n="21"><choice><reg/><orig>p. 98, n. 4</orig></choice>As this must have been between 519 and 522, the succession or bishops at Ingila must have been rapid. In 519 a Monophysite held the see (Zach. Rh., VIII, 5).</note>
+            <note xml:id="n22" target="#a22" n="22"><choice><reg/><orig>p. 99, n. 1</orig></choice>Sc. the synod.</note>
+            <note xml:id="n23" target="#a23" n="23"><choice><reg/><orig>p. 99, n. 2</orig></choice>Or <hi rend="singleQuotes">he (Maro) had not done his will and even recoiled</hi>.</note>
+            <note xml:id="n24" target="#a24" n="24"><choice><reg/><orig>p. 100, n. 1</orig></choice>Acts, XX, 28.</note>
+            <note xml:id="n25" target="#a25" n="25"><choice><reg/><orig>p. 100, n. 2</orig></choice>Ps. LXXX,15,16.</note>
+            <note xml:id="n26" target="#a26" n="26"><choice><reg/><orig>p. 101, n. 1</orig></choice>Instruments of torture.</note>
+            <note xml:id="n27" target="#a27" n="27"><choice><reg/><orig>p. 101, n. 2</orig></choice>This seems to show that at that time Eastern congregations sat (no doubt on the floor) during the sermon.</note>
+            <note xml:id="n28" target="#a28" n="28"><choice><reg/><orig>p. 101, n. 3</orig></choice>Abraham of Amida.</note>
+            <note xml:id="n29" target="#a29" n="29"><choice><reg/><orig>p. 102, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n30" target="#a30" n="30"><choice><reg/><orig>p. 102, n. 2</orig></choice>Matth. VII, 6.</note>
+            <note xml:id="n31" target="#a31" n="31"><choice><reg/><orig>p. 103, n. 1</orig></choice>See p.79.</note>
+            <note xml:id="n32" target="#a32" n="32"><choice><reg/><orig>p. 103, n. 2</orig></choice>House of the <foreign xml:lang="grc">διαχονικόν</foreign>.</note>
+            <note xml:id="n33" target="#a33" n="33"><choice><reg/><orig>p. 104, n. 1</orig></choice>This appy. means thal they shaved off the hair that remained after the monastic tonsure, leaving him bald.</note>
+            <note xml:id="n34" target="#a34" n="34"><choice><reg/><orig>p. 104, n. 2</orig></choice>Ms om.</note>
+            <note xml:id="n35" target="#a35" n="35"><choice><reg/><orig>p. 105, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n36" target="#a36" n="36"><choice><reg/><orig>p. 105, n. 2</orig></choice>What was the use of the irons? If it is meant that they were still on him, the statement is inconsistent with what precedes.</note>
+            <note xml:id="n37" target="#a37" n="37"><choice><reg/><orig>p. 106, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n38" target="#a38" n="38"><choice><reg/><orig>p. 108, n. 1</orig></choice>Perh. our Sergius should be identified with 'S. who has now rebuilt (Zach. Rh., VIII,5).</note>
+            <note xml:id="n39" target="#a39" n="39"><choice><reg/><orig>p. 108, n. 2</orig></choice>is not elsewhere found in this sense.</note>
+            <note xml:id="n40" target="#a40" n="40"><choice><reg/><orig>p. 108, n. 3</orig></choice>See p. 94, n.</note>
+            <note xml:id="n41" target="#a41" n="41"><choice><reg/><orig>p. 110, n. 1</orig></choice>Rom. XII,2.</note>
+            <note xml:id="n42" target="#a42" n="42"><choice><reg/><orig>p. 110, n. 2</orig></choice>Matth., V,14,16.</note>
+            <note xml:id="n43" target="#a43" n="43"><choice><reg/><orig>p. 111, n. 1</orig></choice>Sic syr.</note>
          </noteGrp>
       </body>
   </text>

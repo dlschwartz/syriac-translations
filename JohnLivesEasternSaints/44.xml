@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/835">Tribunus</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/835 -->
@@ -24,17 +67,17 @@
          <ab>
             This excellent blessed man <persName ref="http://syriaca.org/person/3155">Tribunus</persName> therefore, who in a lay station
             carried out spiritual practices, was by his birth (<foreign xml:lang="grc">γένος</foreign>) from the district of
-            <placeName ref="http://syriaca.org/place/493">Sophanene</placeName>, from a village called <placeName ref="http://syriaca.org/place/2756">Beth Rwmntʾ</placeName><ptr type="noteAnchor" target="#n459-1"/>; a man who from an early
+            <placeName ref="http://syriaca.org/place/493">Sophanene</placeName>, from a village called <placeName ref="http://syriaca.org/place/2756">Beth Rwmntʾ</placeName>;<ptr type="noteAnchor" target="#n459-1" n=""/> a man who from an early
             age had been taught religion, and was constantly occupied in fasting and
             prayer and constant attendance in churches and monasteries with the great
             and excellent blessed men, and used to hear and learn the psalms and the
             Scriptures, even as his parents also set themselves to teach him to read and
-            write Greek, and he besides Greek learned Syriac also<ptr type="noteAnchor" target="#n459-2"/>, and meditated, as
-            it is written, <quote>on the law of the Lord day and night</quote><ptr type="noteAnchor" target="#n459-3"/>. While then he was
+            write Greek, and he besides Greek learned Syriac also,<ptr type="noteAnchor" target="#n459-2" n=""/> and meditated, as
+            it is written, <quote>on the law of the Lord day and night</quote>.<ptr type="noteAnchor" target="#n459-3" n=""/> While then he was
             constantly occupied in reciting service and reading the Scriptures in Greek
             and Syriac, and while his parents desired to yoke him in worldly intercourse
             with a wife, and expected that he would also be their heir, because he was
-            indeed their only child, and<ptr type="noteAnchor" target="#n459-4"/> advised him to take a wife, as she had been
+            indeed their only child, and<ptr type="noteAnchor" target="#n459-4" n=""/> advised him to take a wife, as she had been
             <pb n="662"/><pb n="460"/>betrothed and provided, he on his side opposed, and he would answer his
             parents, saying, <quote>As for me why should I go and fall into the turmoil of
                this world, and give material to sin and death? If I indeed obey you, then
@@ -52,7 +95,7 @@
             to them, and was taught, so that thenceforth they held him as a beloved son
             in all the convents, and especially in the devout <placeName ref="http://syriaca.org/place/2778">convent of Fyṭr</placeName> the devout
             and great blessed men <persName ref="http://syriaca.org/person/3763">Habib</persName> and <persName ref="http://syriaca.org/person/1524">Zʿura</persName>, who shine at the beginning of
-            these histories<ptr type="noteAnchor" target="#n460-1"/> like rays of light; so that after the decease of <persName ref="http://syriaca.org/person/3763">Habib</persName> the
+            these histories<ptr type="noteAnchor" target="#n460-1" n=""/> like rays of light; so that after the decease of <persName ref="http://syriaca.org/person/3763">Habib</persName> the
             <pb n="663"/><pb n="461"/>mighty in spiritual strength, when his perfect disciple <persName ref="http://syriaca.org/person/1524">Zʿura</persName> at last earned
             the privilege of succeeding him in the administration, and also of ascending
             the pillar and accomplishing the course of his practices on it, and, when
@@ -63,7 +106,7 @@
             and that so violent that they brought the blessed man down from his pillar,
             and he was expelled with all his convent; and he, when these things were
             inflicted upon him, without delay hastened to the royal city to utter a reproof
-            on account of these things, as have<ptr type="noteAnchor" target="#n460-1"/> been recorded by us at short length
+            on account of these things, as have<ptr type="noteAnchor" target="#n460-1" n=""/> been recorded by us at short length
             in the histories relating to these things; and he took the devout <persName ref="http://syriaca.org/person/3155">Tribunus</persName>
             with him in lay attire (<foreign xml:lang="grc">σχήμα</foreign>) as an interpreter of the Greek tongue. And
             so he went up with him, and lived with his disciples and with him, imitating
@@ -76,7 +119,7 @@
                (<foreign xml:lang="grc">σχήμα</foreign>) to be made an object of mockery</quote>. And so he performed the service
             of the old man and of his convent all the days of his<note></note> life, insomuch that he
             gained easier entry and more freedom (<foreign xml:lang="grc">παρρησία</foreign>), and they even thrust the office
-            of a count on him under constraint by his<ptr type="noteAnchor" target="#n462-1"/> command, saying, <quote>This will be no
+            of a count on him under constraint by his<ptr type="noteAnchor" target="#n462-1" n=""/> command, saying, <quote>This will be no
                impediment to your practices; and, when you wish, it is easy for you to give
                up the office. But for the sake of our communications (<foreign xml:lang="grc">άποκρίσεις</foreign>) take it upon
                you</quote>. And so under constraint he accepted an earthly employment, while
@@ -90,12 +133,12 @@
             in it, so that, if it happened also that there was a superfluity of anything
             <pb n="665"/><pb n="463"/>in his cell, he would set himself to scatter it among the needy. Since many
             of the chamberlains and of the distinguished members of the senate (<foreign xml:lang="grc">σύγκλητος</foreign>)
-            were acquainted with him because of the blessed man<ptr type="noteAnchor" target="#n463-1"/>, and moreover loved
+            were acquainted with him because of the blessed man,<ptr type="noteAnchor" target="#n463-1" n=""/> and moreover loved
             him on account of his venerable manner of life, and used to beg him to do
             them the favour of dwelling with them, or even only to stay with each of
             them, and to receive some gift from them, so also he would flee and shrink
             as from the perpetration of an evil act, saying, <quote>My sins are enough for
-               me; and to share in other men's sins<ptr type="noteAnchor" target="#n463-2"/>, or to refresh myself by the sweat
+               me; and to share in other men's sins,<ptr type="noteAnchor" target="#n463-2" n=""/> or to refresh myself by the sweat
                of others I will never consent</quote>. And so he was constant in maintaining a
             life of retirement and the performance of righteous acts, though he had
             reached old age, still hoping to attain the habit (<foreign xml:lang="grc">σχήμα</foreign>), passing most of
@@ -116,11 +159,11 @@
             conflict (<foreign xml:lang="grc">άγών</foreign>) which he sustained. This man then had once thought of
             changing his place of residence; and he went out and was going round the
             mansions, looking for a tenement convenient for him to live in; and, having
-            found him<ptr type="noteAnchor" target="#n464-1"/> written and fixed up on the door of a certain mansion, he asked
+            found him<ptr type="noteAnchor" target="#n464-1" n=""/> written and fixed up on the door of a certain mansion, he asked
             for the porter (<foreign xml:lang="grc">όστιάριος</foreign>) to go up and show him the tenement. And, since
             the porter (<foreign xml:lang="grc">όστιάριος</foreign>) himself was not there, but as if by the opposition of
             Satan his wife was present, who was a young woman and was very worldly
-            in her appearance<ptr type="noteAnchor" target="#n464-2"/>, she said to him <quote>Come with me and I will myself show
+            in her appearance,<ptr type="noteAnchor" target="#n464-2" n=""/> she said to him <quote>Come with me and I will myself show
                <pb n="667"/><pb n="465"/>you the rooms that are advertised</quote>. And, when she had taken the key
             (<foreign xml:lang="grc">κλείδα</foreign>) and gone up and opened them, they both went in. And, as he was
             going round to look, while she on her side was displaying a snare of sin
@@ -130,10 +173,10 @@
             rebuking her and flinging and casting her hands off him, she on her side all
             the more as if by the machination of the devil, who was desirous of catching
             the brave man by a snare, and setting a blemish on his beauties and staining
-            him, he<ptr type="noteAnchor" target="#n465-1"/> yet more entered into her, making her madly grasp the blessed
+            him, he<ptr type="noteAnchor" target="#n465-1" n=""/> yet more entered into her, making her madly grasp the blessed
             man, while she also threw herself in front of him to tempt him to lasciviousness, 
             intertwining herself with him with all the lasciviousness and
-            violence of impurity and adultery, using<ptr type="noteAnchor" target="#n465-2"/> foul words which we do not wish
+            violence of impurity and adultery, using<ptr type="noteAnchor" target="#n465-2" n=""/> foul words which we do not wish
             even to write down and pollute the ears or mind of the hearer and record.
             But the man armed with the divine power flung and threw her off and
             withdrew himself from her, reproving and rebuking her sternly and saying,
@@ -154,18 +197,18 @@
             The history of <persName ref="http://syriaca.org/person/3155">Tribunus</persName> the count is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n459-1" target="#a459-1" n="459-1">Perh. read <hi rend="singleQuote">Rumane</hi> (pomegranates).</note>
-            <note xml:id="n459-2" target="#a459-2" n="459-2">Appy. his own language was Armenian.</note>
-            <note xml:id="n459-3" target="#a459-3" n="459-3">Ps. I, 2.</note>
-            <note xml:id="n459-4" target="#a459-4" n="459-4">Ms. om.</note>
-            <note xml:id="n460-1" target="#a460-1" n="460-1">Ch. 1. 2.</note>
-            <note xml:id="n461-1" target="#a461-1" n="461-1">Sic syr.</note>
-            <note xml:id="n462-1" target="#a462-1" n="462-1">Sc. Z'ura's.</note>
-            <note xml:id="n463-1" target="#a463-1" n="463-1">Cf. p. 175.</note>
-            <note xml:id="n464-1" target="#a464-1" n="464-1">This was perh. used of any house where rooms were to be left; but in Bar 'All (quoted in P. Smith. s. V. <!-- eb, Syriac. -->) <!-- eb, Syriac. --> (<foreign>ostiarius</foreign>) is rendered <!-- eb, Syriac. --> (innkeeper).</note>
-            <note xml:id="n464-2" target="#a464-2" n="464-2">See p. 224, n. 3.</note>
-            <note xml:id="n465-1" target="#a465-1" n="465-1">Sc. the devil. Sic syr.</note>
-            <note xml:id="n465-2" target="#a465-2" n="465-2">Ms. om. The text is here very corrupt.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 459, n. 1</orig></choice>Perh. read <hi rend="singleQuotes">Rumane</hi> (pomegranates).</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 459, n. 2</orig></choice>Appy. his own language was Armenian.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 459, n. 3</orig></choice>Ps. I, 2.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 459, n. 4</orig></choice>Ms. om.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 460, n. 1</orig></choice>Ch. 1. 2.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 461, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 462, n. 1</orig></choice>Sc. Z'ura's.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 463, n. 1</orig></choice>Cf. p. 175.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 464, n. 1</orig></choice>This was perh. used of any house where rooms were to be left; but in Bar 'All (quoted in P. Smith. s. V. ) (<foreign>ostiarius</foreign>) is rendered (innkeeper).</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 464, n. 2</orig></choice>See p. 224, n. 3.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 465, n. 1</orig></choice>Sc. the devil. Sic syr.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 465, n. 2</orig></choice>Ms. om. The text is here very corrupt.</note>
          </noteGrp>
       </body>
    </text>

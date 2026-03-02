@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/808">Simeon the Mountaineer</title>
+            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target=""/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target=""/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <!-- See spear/808.xml -->
@@ -23,7 +66,7 @@
          <ab>
             This blessed <persName ref="http://syriaca.org/person/2097">Simeon</persName> then used to go about on the mountains like the
             wild beasts, and these the rugged mountains of towering height with valleys
-            between them which are called the inner <placeName>Karhe</placeName><ptr type="noteAnchor" target="#n229-1"/>; and he had no intercourse
+            between them which are called the inner <placeName>Karhe</placeName>;<ptr type="noteAnchor" target="#n229-1" n=""/> and he had no intercourse
             except that with God, while at every moment he would raise his eyes to
             heaven, and be lost in ecstatic wonder at the hosts above, how they stand
             continuously before God without impediment, and that there is no cessation
@@ -35,7 +78,7 @@
                <pb n="230"/><pb n="230"/>things of this false and deceitful world? A great thing it is how our heart
                is sunk and our mind blinded, and we do not consider the bounties of him
                who created us, and brought us into existence out of nothing, how we, feeble
-               dust of the earth, <quote>live and move and exist</quote><ptr type="noteAnchor" target="#n230-1"/>, how the good Creator gave us
+               dust of the earth, <quote>live and move and exist</quote>,<ptr type="noteAnchor" target="#n230-1" n=""/> how the good Creator gave us
                the breath of this pure air (<foreign xml:base="grc">άήρ</foreign>) to sustain our life without anxiety, how he
                put together for us an organ (<foreign xml:lang="grc">όργανον</foreign>) for speech, and a voice and a mouth
                and lips and a tongue and a palate, how he infused light into the pupils of
@@ -73,9 +116,9 @@
             account of the hardness of the winter and the severity of the snow. But
             once, while going round from mountain to mountain, he chanced to be on
             rough mountains near the river <placeName ref="http://syriaca.org/place/82">Euphrates</placeName>, belonging to the village of
-            <placeName ref="http://syriaca.org/place/2864">ʾbdhyr</placeName><ptr type="noteAnchor" target="#n232-1"/> on the <placeName ref="http://syriaca.org/place/82">Euphrates</placeName>, a village which lies and makes a boundary (?) with
-            the territory of <persName>Claudias</persName><ptr type="noteAnchor" target="#n232-2"/>; and he saw that, though these mountains were
-            rugged and towering, houses and domestic brood-animals (?)<ptr type="noteAnchor" target="#n232-3"/> were scattered
+            <placeName ref="http://syriaca.org/place/2864">ʾbdhyr</placeName><ptr type="noteAnchor" target="#n232-1" n=""/> on the <placeName ref="http://syriaca.org/place/82">Euphrates</placeName>, a village which lies and makes a boundary (?) with
+            the territory of <persName>Claudias</persName>;<ptr type="noteAnchor" target="#n232-2" n=""/> and he saw that, though these mountains were
+            rugged and towering, houses and domestic brood-animals (?)<ptr type="noteAnchor" target="#n232-3" n=""/> were scattered
             over them all, while they were some five miles and some seven, and some
             as much as eight and ten from the village; because the boundary of that
             village is so extended (and it is itself also populous) that other hamlets are
@@ -88,7 +131,7 @@
             from his neighbour, and another five and another two according to chance),
             and he was also astonished that all the mountains were so full of people;
             and then, seeing some <persName ref="http://syriaca.org/person/3699">shepherds</persName> at a distance from the houses, he came near
-            and inquired<ptr type="noteAnchor" target="#n233-1"/> from them the causes of this scattered character of this place
+            and inquired<ptr type="noteAnchor" target="#n233-1" n=""/> from them the causes of this scattered character of this place
             of habitation, because there are there not only cattle-sheds such as some
             men make, but great houses and substantial dwellings. But the <persName ref="http://syriaca.org/person/3699">shepherds</persName>
             would state to him, <quote>We found our fathers living in this way on these
@@ -157,7 +200,7 @@
             of the old men came up to him, and received his blessing; and the
             blessed man asked him, <quote>Is there a priest here?</quote>. He said to him:
             <quote>There has not been a priest here during these times.</quote> And he asked
-            him again: <quote>And not even a brother<ptr type="noteAnchor" target="#n237-1"/> or anyone whatever?</quote>. He said
+            him again: <quote>And not even a brother<ptr type="noteAnchor" target="#n237-1" n=""/> or anyone whatever?</quote>. He said
             to him, <quote>There is none here.</quote> Again he went on to ask him also,
             <quote>Where do you receive the oblation?</quote>. He says to him: <quote>If one of us
                has business and has happened to be present in one of these villages, he
@@ -167,7 +210,7 @@
                   you do not follow the custom of Christians?</quote>. After conversing with
             him in this fashion he says to him: <quote>Come let us sweep out and tidy up
                this church, for I wish to take up my abode in it for a few days.</quote> And
-            they swept and scoured (?)<ptr type="noteAnchor" target="#n237-2"/> and tidied. And he said to him: <quote>Gather
+            they swept and scoured (?)<ptr type="noteAnchor" target="#n237-2" n=""/> and tidied. And he said to him: <quote>Gather
                together for me to-morrow all the souls that are in this hamlet, men and
                <pb n="238"/><pb n="238"/>women and children, and small as well as great.</quote> And on hearing about
             some strange sight that they had never seen they assembled together before
@@ -202,11 +245,11 @@
                flowed from him as a propitiation for men, and that he died and by his death
                slew our death, and rose after three days, it is written and raised us with
                him, having trodden the road and shown us the resurrection that shall be ours,
-               and before he suffered broke his body and blood<ptr type="noteAnchor" target="#n239-1"/> in an upper room and
+               and before he suffered broke his body and blood<ptr type="noteAnchor" target="#n239-1" n=""/> in an upper room and
                <pb n="240"/><pb n="240"/>blessed it and gave it to his disciples and said, <quote>This is my body that is
-                  broken on behalf of the life of the world for the forgiveness of sins</quote><ptr type="noteAnchor" target="#n240-1"/>, and
+                  broken on behalf of the life of the world for the forgiveness of sins</quote>,<ptr type="noteAnchor" target="#n240-1" n=""/> and
                again that he said before, <quote>Everyone who eateth my body and drinketh my
-                  blood, he abideth in me and I in him, and I will raise him at the last day</quote><ptr type="noteAnchor" target="#n240-2"/>?
+                  blood, he abideth in me and I in him, and I will raise him at the last day</quote>?<ptr type="noteAnchor" target="#n240-2" n=""/>
                How then, when you have heard all these things and know them, as you say,
                do you treat them with contempt and pay no regard to your souls' life, and
                remain deprived of the word of life in the holy Scriptures, and hold aloof
@@ -222,7 +265,7 @@
                <pb n="241"/><pb n="241"/>break bread on the first day of the week, and bring it me; and all of you,
                great and small, meet together, and come and present yourselves</quote>. And
             they consented to his proposal, and went and fasted, and came. He says to
-            them: <quote>Wherefore have your sons not been made sons of the covenant<ptr type="noteAnchor" target="#n241-1"/>,
+            them: <quote>Wherefore have your sons not been made sons of the covenant,<ptr type="noteAnchor" target="#n241-1" n=""/>
                and been instructed and placed in this church, and been making you hear
                God's word?</quote>. They say to him: <quote>Sir, they have not time to leave the goats
                   and learn anything</quote>. The blessed man, marvelling at the people's simpleness
@@ -248,18 +291,18 @@
             according to his instructions (since they were indeed afraid of him), he
             provided himself with a razor, both himself and a certain man who was in the
             secret who knew them well, and, when all had received the oblation, he said
-            to them: <quote>Allow all the little ones to receive a present<ptr type="noteAnchor" target="#n242-1"/> to-day, and we will
+            to them: <quote>Allow all the little ones to receive a present<ptr type="noteAnchor" target="#n242-1" n=""/> to-day, and we will
                bless them and speak with them, and they shall come; since to these from
                to-day someone must always speak the word of God, that thus they may
                remember it as long as they live; and do you go everyone in peace</quote>. And
             they believed it, and went away, having induced the little ones to remain by
-            these words, <quote>You will receive presents, and we will mix them for you<ptr type="noteAnchor" target="#n242-2"/>.
+            these words, <quote>You will receive presents, and we will mix them for you.<ptr type="noteAnchor" target="#n242-2" n=""/>
                Remain all of you</quote>. Then they all remained, about ninety, males and
             <pb n="243"/><pb n="243"/>females. And he shut the doors, and came up and separated and arranged
             them with the help of the <persName ref="http://syriaca.org/person/3701">man</persName>man who knew them, separating one in three, and
-            the females moreover on the same system<ptr type="noteAnchor" target="#n243-1"/>; and, if there were two females
+            the females moreover on the same system;<ptr type="noteAnchor" target="#n243-1" n=""/> and, if there were two females
             and one male, he would take one of the former; and so also with the males
-            too, and if again there were two<ptr type="noteAnchor" target="#n243-2"/>, he would in the same way take one of
+            too, and if again there were two,<ptr type="noteAnchor" target="#n243-2" n=""/> he would in the same way take one of
             them; and he separated thirty of them and set them on one side, <persName ref="http://syriaca.org/person/3700">eighteen
                boys, and twelve girls</persName>; and the rest he led away and shut up in another room,
             lest they should go and report what had happened. And he brought them
@@ -286,7 +329,7 @@
             them, saying, <quote>I for my part have marked out this plot in <persName>Christ</persName>'s name to
                his glory. Beware what you are doing. I am free from sin. He who
                separates a soul from it and takes it out that he may bring it back to the
-               world, <persName>Christ</persName><ptr type="noteAnchor" target="#n244-1"/> will not resign that soul in this bodily life, because it is his
+               world, <persName>Christ</persName><ptr type="noteAnchor" target="#n244-1" n=""/> will not resign that soul in this bodily life, because it is his
                and has been marked in his name. I for my part have testified to you; you
                know</quote>. But they came up, and laid their hands upon them and dragged
             them away and removed them, blaspheming. The blessed man says to them:
@@ -297,7 +340,7 @@
                testified, and I testify again, that neither of them will reach next first day of
                the week in this bodily life</quote>. They, when they heard it, jeered at the
             blessed man, saying: <quote>If you think that your curses are so well heard,
-               go and curse these Huns who are coming and making havoc of creation<ptr type="noteAnchor" target="#n245-1"/>,
+               go and curse these Huns who are coming and making havoc of creation,<ptr type="noteAnchor" target="#n245-1" n=""/>
                and let them die.</quote> And so they took their <persName ref="http://syriaca.org/person/3602">children</persName> away in good health,
             and went off; and within three days both of them were smitten and died.
             Then the terror of the blessed man fell upon everyone, when the power of his
@@ -321,10 +364,10 @@
             Scriptures; and thus thenceforward loud choirs were to be heard at the
             service, and all these mountains also had been brought into subjection, and
             they trembled to commit any breach of order, lest the old man should hear it
-            and separate them from the fellowship of men, or that<ptr type="noteAnchor" target="#n246-1"/> he should curse
+            and separate them from the fellowship of men, or that<ptr type="noteAnchor" target="#n246-1" n=""/> he should curse
             them. And accordingly twenty-six years passed while he was there, and
             he was still in this life, and we were always receiving his blessing, and were
-            also in intercourse with him<ptr type="noteAnchor" target="#n246-2"/>; and we used to learn from him about the
+            also in intercourse with him;<ptr type="noteAnchor" target="#n246-2" n=""/> and we used to learn from him about the
             <pb n="247"/><pb n="247"/>uncivilized character of that people and about their subjugation and about
             all the torments that they had inflicted on him, when he was now old and
             decrepit, and these disciples of his also had become grown women and men,
@@ -343,26 +386,26 @@
             The history of the blessed <persName ref="http://syriaca.org/person/2097">Simeon</persName> the anchorite the mountaineer is ended.
          </ab>
          <noteGrp>
-            <note xml:id="n229-1" target="#a229-1" n="229-1">Sc. <hi rend="singleQuote">whirlwinds</hi>; or perh. vocalize as <hi rend="singleQuote">Krahe</hi> (bald). I do not know whence V. D. and L. get the rendering <hi rend="singleQuote">vertebrae</hi>. Cf. <title>Anecd. Syr.</title>, II, 298, l. 3, and <title>H. E.</title>, VI, 9. From these passages we see that they were near Melitene, but E. of the Euphrates.</note>
-            <note xml:id="n230-1" target="#a230-1" n="230-1">Acts, XVII, 28.</note>
-            <note xml:id="n232-1" target="#a232-1" n="232-1">See Mich., p. 649, 654.</note>
-            <note xml:id="n232-2" target="#a232-2" n="232-2">Claudias lay W. of the Euphrates, which must have been the boundary. If the text is right, the meaning must be that the village territory lay on the river, and therefore at the extreme limit of the province.</note>
-            <note xml:id="n232-3" target="#a232-3" n="232-3">Or, with V. D. and L.'s emendation, <hi rend="singleQuote">cattle-sheds</hi>.</note>
-            <note xml:id="n233-1" target="#a233-1" n="233-1">See p. 39, n. 2.</note>
-            <note xml:id="n237-1" target="#a237-1" n="237-1">Sc. a lay monk.</note>
-            <note xml:id="n237-2" target="#a237-2" n="237-2">No such meaning of <!-- eb, Syriac. --> is known to the lexicons.</note>
-            <note xml:id="n239-1" target="#a239-1" n="239-1">Sic syr.</note>
-            <note xml:id="n240-1" target="#a240-1" n="240-1">Matth., XXVI, 28; I Cor., XI, 24.</note>
-            <note xml:id="n240-2" target="#a240-2" n="240-2">John, VI, 54, 56.</note>
-            <note xml:id="n241-1" target="#a241-1" n="241-1">I. e. received the first tonsure for orders or monasticism.</note>
-            <note xml:id="n242-1" target="#a242-1" n="242-1">Or <hi rend="singleQuote">blessing</hi>. The ambiguity is perh. intentional.</note>
-            <note xml:id="n242-2" target="#a242-2" n="242-2">It is assumed that the presents will be something to eat or drink.</note>
-            <note xml:id="n243-1" target="#a243-1" n="243-1">The meaning clearly is that he took the threes from boys and girls indiscriminately.</note>
-            <note xml:id="n243-2" target="#a243-2" n="243-2">Sc. males.</note>
-            <note xml:id="n244-1" target="#a244-1" n="244-1">Sic syr.</note>
-            <note xml:id="n245-1" target="#a245-1" n="245-1">Probably therefore these things in 515 (see p. 19, n. 2). The invasion of 531/2 (p. 78, n. 2) is too late, for it would bring his death to 557, 17 years after J. left the East; see below, and p. 246, n. 2.</note>
-            <note xml:id="n246-1" target="#a246-1" n="246-1">Sic syr.</note>
-            <note xml:id="n246-2" target="#a246-2" n="246-2">This seems to mean that he died 26 years after the beginning of his missionary life. In this case his death must be placed circ. 541.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 229, n. 1</orig></choice>Sc. <hi rend="singleQuotes">whirlwinds</hi>; or perh. vocalize as <hi rend="singleQuotes">Krahe</hi> (bald). I do not know whence V. D. and L. get the rendering <hi rend="singleQuotes">vertebrae</hi>. Cf. <title>Anecd. Syr.</title>, II, 298, l. 3, and <title>H. E.</title>, VI, 9. From these passages we see that they were near Melitene, but E. of the Euphrates.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 230, n. 1</orig></choice>Acts, XVII, 28.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 232, n. 1</orig></choice>See Mich., p. 649, 654.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 232, n. 2</orig></choice>Claudias lay W. of the Euphrates, which must have been the boundary. If the text is right, the meaning must be that the village territory lay on the river, and therefore at the extreme limit of the province.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 232, n. 3</orig></choice>Or, with V. D. and L.'s emendation, <hi rend="singleQuotes">cattle-sheds</hi>.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 233, n. 1</orig></choice>See p. 39, n. 2.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 237, n. 1</orig></choice>Sc. a lay monk.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 237, n. 2</orig></choice>No such meaning of is known to the lexicons.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 239, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 240, n. 1</orig></choice>Matth., XXVI, 28; I Cor., XI, 24.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 240, n. 2</orig></choice>John, VI, 54, 56.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 241, n. 1</orig></choice>I. e. received the first tonsure for orders or monasticism.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 242, n. 1</orig></choice>Or <hi rend="singleQuotes">blessing</hi>. The ambiguity is perh. intentional.</note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 242, n. 2</orig></choice>It is assumed that the presents will be something to eat or drink.</note>
+            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 243, n. 1</orig></choice>The meaning clearly is that he took the threes from boys and girls indiscriminately.</note>
+            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 243, n. 2</orig></choice>Sc. males.</note>
+            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 244, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 245, n. 1</orig></choice>Probably therefore these things in 515 (see p. 19, n. 2). The invasion of 531/2 (p. 78, n. 2) is too late, for it would bring his death to 557, 17 years after J. left the East; see below, and p. 246, n. 2.</note>
+            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 246, n. 1</orig></choice>Sic syr.</note>
+            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 246, n. 2</orig></choice>This seems to mean that he died 26 years after the beginning of his missionary life. In this case his death must be placed circ. 541.</note>
          </noteGrp>
       </body>
    </text>
