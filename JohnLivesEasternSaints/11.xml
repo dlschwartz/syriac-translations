@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/803">Ḥarphat</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="creator"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
@@ -26,7 +27,7 @@
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
-                     </listBibl>
+                  </listBibl>
                      <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
@@ -36,14 +37,14 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
@@ -66,20 +67,19 @@
          <!-- See spear/803.xml -->
          <div type="work" xml:id="work-11" n="11">
             <div type="section" xml:id="section-11">
-               <head type="main">Next the Eleventh History, of <persName ref="http://syriaca.org/person/1771"
-                     >Harfat</persName> the Chorepiscopus From the Country of <placeName
-                     ref="http://syriaca.org/place/2758">Anzetene</placeName><ptr type="noteAnchor" target="#n158-1" n="x"/></head>
+               <head type="main">Next the Eleventh History, of <persName ref="http://syriaca.org/person/1771">Harfat</persName> the Chorepiscopus From the Country of <placeName ref="http://syriaca.org/place/2758">Anzetene</placeName>
+                  <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+               </head>
                <ab xml:id="section-11.1" n="1"> This blessed man belonged to a distinguished, great, and
                   rich family (<foreign xml:lang="grc">γένος</foreign>); and, when all the members
                   of his family (<foreign xml:lang="grc">γένος</foreign>), his parents included, had
-                  died, the whole household and the wealth were left in this man's hands, <pb
-                     n="159"/><pb n="159"/>and also in the hands of another kinsman older than he;
+                  died, the whole household and the wealth were left in this man's hands, <pb n="159"/>
+                  <pb n="159"/>and also in the hands of another kinsman older than he;
                   and he practised deceit and was a man of artful tricks and a dogjoh like
-                     <persName>Nabal</persName>;<ptr type="noteAnchor" target="#n159-1" n="x"/> and
-                  he was moreover engaged in the affairs of the <foreign>praetoriani</foreign>.<ptr type="noteAnchor" target="#n159-2" n="x"/> But this virtuous <persName
-                     ref="http://syriaca.org/person/1771">Harfat</persName> lived in pure and simple
+                  <persName>Nabal</persName>;<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and
+                  he was moreover engaged in the affairs of the <foreign>praetoriani</foreign>.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> But this virtuous <persName ref="http://syriaca.org/person/1771">Harfat</persName> lived in pure and simple
                   fashion and spent a guileless life within the house like
-                     <persName>Jacob</persName>,<ptr type="noteAnchor" target="#n159-3" n="x"/>
+                  <persName>Jacob</persName>,<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
                   having committed the whole management of it to that kinsman of his; and he himself
                   as far as he could gave his attention to the needy and to the salvation of his
                   soul, while his soul was indeed vexed and he was distressed at the multitude of
@@ -90,18 +90,18 @@
                   thoughts that were adverse to these things. After a little time the bishop of a
                   place called <placeName ref="http://syriaca.org/place/2744">Arsamosata</placeName>
                   died, and they came to make the blessed man bishop, that is in the Chalcedonian
-                     communion;<ptr type="noteAnchor" target="#n159-4" n="x"/> but he shrank from
+                  communion;<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> but he shrank from
                   this. When they saw that this man had absolutely refused, under the inducement of
-                  riches and high position they <pb n="160"/><pb n="160"/>seized <rs
-                     ref="http://syriaca.org/person/3764">his kinsman</rs>, a layman, and made him
+                  riches and high position they <pb n="160"/>
+                  <pb n="160"/>seized <rs ref="http://syriaca.org/person/3764">his kinsman</rs>, a layman, and made him
                   bishop; and, when he had become bishop, the blessed man continually required of
                   him to divide the estate; in order that he himself might distribute his share
-                     (<foreign xml:lang="grc">μέρος</foreign>) among the needy, and he would not
+                  (<foreign xml:lang="grc">μέρος</foreign>) among the needy, and he would not
                   agree, saying, <quote>While I live, it shall not be divided</quote>. Now they had
                   about five thousand <foreign>denarii</foreign>, besides all the rest of the
                   estate, and, when that man had gone to his see, the blessed man distributed as
                   much as he could among the needy, and committed the rest to our Lord, saying,
-                     <quote>Lord, thou knowest the readiness of my mind, and the fact moreover that
+                  <quote>Lord, thou knowest the readiness of my mind, and the fact moreover that
                      neither hast thou commanded me to continue in contention and strife.
                      llenceforth, Lord, dispose thou my wretched soul to live before thee according
                      to thy will</quote>. </ab>
@@ -109,8 +109,8 @@
                   chorepiscopate which he had held for some years, and withdrew to a convent of the
                   solitary life. And, because he was very simple, and thought that this was the
                   consummation of perfection, he went and made great heavy irons and put them upon
-                  himself, that is on his neck and on his hands and on his feet, <pb n="161"/><pb
-                     n="161"/>two on each. And he went and settled on a certain mountain about three
+                  himself, that is on his neck and on his hands and on his feet, <pb n="161"/>
+                  <pb n="161"/>two on each. And he went and settled on a certain mountain about three
                   miles from the cultivated land, and he did not take or receive any part whatever
                   of his property, but he would sit thus on that mountain, mourning and weeping and
                   groaning for the rest of life which had been spent and had passed from him in
@@ -124,8 +124,8 @@
                      your sitting down and your rising up?</quote> But, when he heard these words,
                   the blessed man's sobs would rose all the more, and his very speech to the man who
                   was addressing him was mingled with weeping, while he expressed himself saying,
-                     <quote>Who, my sons, will not weep, when he sees a decayed and putrid <pb
-                        n="162"/><pb n="162"/>corpse thrown down in his house? Who will not mourn
+                  <quote>Who, my sons, will not weep, when he sees a decayed and putrid <pb n="162"/>
+                     <pb n="162"/>corpse thrown down in his house? Who will not mourn
                      for the sons of youth fair to behold and of attractive age, when he sees that
                      death has corrupted their features, and they have become mire and putrescence
                      and loathsome worms in place of the attractive beauty of childhood? And, if men
@@ -136,16 +136,16 @@
                      shall I not weep for my moments that have been spent by me in vain without my
                      perceiving it? How shall I not mourn for my days that I have uselessly wasted
                      one by one without knowing it? And now lo! the terrible sentence of torment is
-                     prepared for me, which the workers of iniquity deserve.<ptr type="noteAnchor" target="#n162-1" n="x"/> For this reason I ought not only to weep, but also
+                     prepared for me, which the workers of iniquity deserve.<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> For this reason I ought not only to weep, but also
                      to mourn and wail like a jackal, and increase mourning as of a jackal's whelp
                      for my life that has been spent, for my moments that have been consumed, for my
-                     years that have been lost, for my time that has been wasted, for my <pb n="163"
-                        /><pb n="163"/>soul that is dead in sin, for my body that has been made a
+                     years that have been lost, for my time that has been wasted, for my <pb n="163"/>
+                     <pb n="163"/>soul that is dead in sin, for my body that has been made a
                      grave during my life, for my soul that is dead in evil deeds, for the judgment
                      that has arrived, for the end of life that has overtaken me, for the terrible
                      sentence of justice, for the moment when the command will go forth, <quote>He
                         who hath not wedding-garments, let his hands and his feet be bound and let
-                        him be cast into outer darkness</quote>.<ptr type="noteAnchor" target="#n163-1" n="x"/> And for what reasons, pray, O men, do you advise me
+                        him be cast into outer darkness</quote>.<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> And for what reasons, pray, O men, do you advise me
                      to cease crying woe upon my life at all moments?</quote> And thus this man used
                   to cause all men to marvel and be amazed, until the report of his mortification
                   and of his affliction penetrated to every place. And, when we heard these things,
@@ -153,35 +153,36 @@
                   this, we went and entered his presence; and so we found him in the same state,
                   sitting in dejection, and in great infirmity on account of the labour and the
                   abstinence, as well as from the weight of these irons. And, when we had enjoyed
-                  his society for a day and two days, and had gained freedom (<foreign
-                     xml:lang="grc">παρρησία</foreign>) of speech in his presence, and continued
+                  his society for a day and two days, and had gained freedom (<foreign xml:lang="grc">παρρησία</foreign>) of speech in his presence, and continued
                   saying to him <quote>Wherefore, O our father, have you burdened your body with the
                      weight of all this iron?</quote>, he said to us, <quote>On account of my
-                     sins</quote>. And, when <pb n="164"/><pb n="164"/>we were on another occasion
+                        sins</quote>. And, when <pb n="164"/>
+                  <pb n="164"/>we were on another occasion
                   conversing with, him, we again said to him: <quote>What regulation commands this
                      matter of the irons to be carried out?</quote>, and, <quote>If we seek to
-                     humble our body to the earth by labours of asceticism, cannot we humble it
-                     without irons?</quote>. After we had addressed many words to the blessed man,
+                        humble our body to the earth by labours of asceticism, cannot we humble it
+                        without irons?</quote>. After we had addressed many words to the blessed man,
                   he continued to weep and sigh; and at last he said to us: <quote>And now, sir,
                      what do you wish done?</quote>. And I, joking a little with him, said to him:
-                     <quote>We wish you to throw off these irons which are a useless burden, and
+                  <quote>We wish you to throw off these irons which are a useless burden, and
                      lade yourself instead of them with the burden of labours performed with
                      knowledge; and thus you will please God</quote>. But tbe blessed man was much
                   annoyed at these words, saying, <quote>It were better for me that my head were
                      removed and not these irons</quote>. And I turned upon him with the words:
-                     <quote>For what reason?</quote> But he in his simplicity said, <quote>On
+                  <quote>For what reason?</quote> But he in his simplicity said, <quote>On
                      account of my sins, and on account of the stumbling-block put in men's
                      way</quote>. But we, since we pitied the infirmity of his body, and wished to
                   remove these irons from him, said to him: <quote>Lo! therefore see, our father,
-                     that the matter <pb n="165"/><pb n="165"/>of the irons is addressed only to
+                     that the matter <pb n="165"/>
+                     <pb n="165"/>of the irons is addressed only to
                      men, but there is nothing in them that brings near to God; but I even fear lest
                      they lead away from life; since God gave no commandment about irons. But, if we
                      seek to conduct ourselves according to knowledge and fulfil God's commandments,
                      we shall hear from him what he said, <quote>Learn of me for I am mild and lowly
                         in my heart</quote>, and, <quote>Whoever smiteth thee upon thy
-                     cheek</quote>; and first <quote>Thou shalt love the Lord thy God</quote>; and
+                           cheek</quote>; and first <quote>Thou shalt love the Lord thy God</quote>; and
                      again <quote>Thou shalt love thy neighbour as thyself</quote>; and again
-                        <quote>Whoever will take thy cloak</quote>,<ptr type="noteAnchor" target="#n163-1" n="x"/> besides the other things which the Lord taught and
+                     <quote>Whoever will take thy cloak</quote>,<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> besides the other things which the Lord taught and
                      commanded us in his preaching. If, our father, you wish to please the Lord, it
                      is by these things and by the others that are like them that you will please;
                      but by irons God will never be pleased; but they even become sources of
@@ -189,7 +190,8 @@
                      who see you with irons hanging on you think to ourselves that you are a great
                      and holy man, and a worker of miracles. If you are so, you do well in hanging
                      irons on yourself</quote>. When the blessed man heard all these things, his
-                  heart trembled and he said: <quote>If it is so, and <pb n="166"/><pb n="166"/>they
+                  heart trembled and he said: <quote>If it is so, and <pb n="166"/>
+                     <pb n="166"/>they
                      tend to cause loss, I do not desire to suffer loss; for as for me it is my
                      earnest endeavour to amass gain, and not loss</quote>. And so he committed
                   himself to our Lord, and to us; and by the aid of many strong men we took these
@@ -198,42 +200,49 @@
                   living a hard life, and thus he ended his days with great glory. </ab>
             </div>
             <div type="trailer" xml:id="trailer-11">
-               <ab xml:id="trailer-11.1" n="3"> The history of <persName
-                     ref="http://syriaca.org/person/1771">Harfat</persName> the chorepiscopus is
+               <ab xml:id="trailer-11.1" n="3"> The history of <persName ref="http://syriaca.org/person/1771">Harfat</persName> the chorepiscopus is
                   ended. </ab>
             </div>
          </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice>
+            <note xml:id="n1" target="#a1" n="1">
+               <choice>
                   <reg/>
                   <orig>p. 158, n. 1</orig>
                </choice>Syr. <hi rend="singleQuotes">Hanzit</hi>.</note>
-            <note xml:id="n2" target="#a2" n="2"><choice>
+            <note xml:id="n2" target="#a2" n="2">
+               <choice>
                   <reg/>
                   <orig>p. 159, n. 1</orig>
                </choice>I Sam., XXV, 3.</note>
-            <note xml:id="n3" target="#a3" n="3"><choice>
+            <note xml:id="n3" target="#a3" n="3">
+               <choice>
                   <reg/>
                   <orig>p. 159, n. 2</orig>
                </choice>Sc. the civil servants in the governor's office.</note>
-            <note xml:id="n4" target="#a4" n="4"><choice>
+            <note xml:id="n4" target="#a4" n="4">
+               <choice>
                   <reg/>
                   <orig>p. 159, n. 3</orig>
                </choice>Gen., XXV, 27.</note>
-            <note xml:id="n5" target="#a5" n="5"><choice>
+            <note xml:id="n5" target="#a5" n="5">
+               <choice>
                   <reg/>
                   <orig>p. 159, n. 4</orig>
                </choice>This would be not earlier than 519, and we find in fact a Monophysite bp. of
                Arsamosata at that time ('Zach. Rh',VIII, 5).</note>
-            <note xml:id="n6" target="#a6" n="6"><choice>
+            <note xml:id="n6" target="#a6" n="6">
+               <choice>
                   <reg/>
                   <orig>p. 162, n. 1</orig>
                </choice>Luke, XIII, 27.</note>
-            <note xml:id="n7" target="#a7" n="7"><choice>
+            <note xml:id="n7" target="#a7" n="7">
+               <choice>
                   <reg/>
                   <orig>p. 163, n. 1</orig>
                </choice>Matth., XXII, 31.</note>
-            <note xml:id="n8" target="#a8" n="8"><choice>
+            <note xml:id="n8" target="#a8" n="8">
+               <choice>
                   <reg/>
                   <orig>p. 165, n. 1</orig>
                </choice>Id., XI, 29; V, 39; XXII, 37, 39; V, 40.</note>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/806">Abi</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="creator"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
@@ -26,7 +27,7 @@
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
-                     </listBibl>
+                  </listBibl>
                      <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
@@ -36,14 +37,14 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
@@ -66,15 +67,12 @@
          <!-- See spear/806.xml -->
          <div type="work" xml:id="work-14" n="14">
             <div type="section" xml:id="section-14">
-               <head type="main">Next the Fourteenth History, of the Blessed <persName
-                     ref="http://syriaca.org/person/1536">Abbi the Man of Abnegation and
+               <head type="main">Next the Fourteenth History, of the Blessed <persName ref="http://syriaca.org/person/1536">Abbi the Man of Abnegation and
                      Nazirite</persName>.</head>
-               <ab xml:id="section-14.1" n="1"> This blessed <persName
-                     ref="http://syriaca.org/person/1536">Abbi</persName> lived in a certain convent
+               <ab xml:id="section-14.1" n="1"> This blessed <persName ref="http://syriaca.org/person/1536">Abbi</persName> lived in a certain convent
                   in great abnegation and abstinence, and severe labours. And, when the persecution
-                  on account of the synod of <placeName ref="http://syriaca.org/place/622"
-                     >Chalcedon</placeName> arose, the inmates of his convent were under the <pb
-                     n="214"/><pb n="214"/>compulsion of the persecutors united to their communion;
+                  on account of the synod of <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName> arose, the inmates of his convent were under the <pb n="214"/>
+                  <pb n="214"/>compulsion of the persecutors united to their communion;
                   but in the case of the holy old man, as they were unable to bring down his high
                   purpose that was set on <persName>Christ</persName>, they gave him a charge,
                   saying, <quote>If you will not yield, since you have been made an example to many,
@@ -82,32 +80,31 @@
                   for the time of error that had got possession of men, set forth and came to the
                   community of us <persName>the men of Amida</persName>, which was living in the
                   district of <placeName ref="http://syriaca.org/place/2858">Ṭyšf</placeName>, in a
-                  village called <placeName ref="http://syriaca.org/place/2796"
-                     >Ḥzyn</placeName>;<ptr type="noteAnchor" target="#n214-1" n="x"/> which was in
+                  village called <placeName ref="http://syriaca.org/place/2796">Ḥzyn</placeName>;<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> which was in
                   number seven hundred and fifty men. And, because this blessed man was acquainted
-                  with the convent in which I was at that time,<ptr type="noteAnchor" target="#n214-2" n="x"/> he came direct to us; and thus he attached himself to
+                  with the convent in which I was at that time,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> he came direct to us; and thus he attached himself to
                   the same monastery, having one tunic and one cape made of pieces of rag fastened
-                  together, and a small text of the gospel (<foreign xml:lang="grc"
-                     >εύαγγελιον</foreign>); and he would not consent to read in any other book
+                  together, and a small text of the gospel (<foreign xml:lang="grc">εύαγγελιον</foreign>); and he would not consent to read in any other book
                   except that gospel (<foreign xml:lang="grc">εύαγγελιον</foreign>). And he chose
                   for himself a certain corner (<foreign xml:lang="grc">γωνία</foreign>) among the
-                  brotherhood, where not much light pene<pb n="215"/><pb n="215"/>trated; and at the
+                  brotherhood, where not much light pene<pb n="215"/>
+                  <pb n="215"/>trated; and at the
                   end of the service, when the brotherhood was scattered over a large number of
                   chambers for the purpose of reading as well as for the purpose of repeating the
-                  service, he would sit in the great common (<foreign xml:lang="grc"
-                     >κοινόν</foreign>) chapel and cover his head with his book on his knees, while
+                  service, he would sit in the great common (<foreign xml:lang="grc">κοινόν</foreign>) chapel and cover his head with his book on his knees, while
                   even the book also was covered, and except a small surface only for the purpose of
                   admitting light no part whatever of it was exposed. And thereupon he would open
                   the book and gaze at it, and at once his tears would burst forth, falling down
-                  upon his breast; and thus he would sit from morning till the sixth hour,<ptr type="noteAnchor" target="#n215-1" n="x"/> with his face covered, and weeping;
+                  upon his breast; and thus he would sit from morning till the sixth hour,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> with his face covered, and weeping;
                   and he would not turn over a leaf, but generally had the book open at the
                   beatitudes, or the parable of the virgins, or that of the talents, or that of the
                   banquet, or that of the rich man, or any place where the subject was that of
                   threats and judgment; and thenceforth not even if a man was actually speaking to
                   him would be raise his eyes and look upon men outside that book; but men did not
                   see his face (<foreign xml:lang="grc">πρόσωπον</foreign>) until the bellman
-                  sounded the bell,<ptr type="noteAnchor" target="#n215-2" n="x"/> nay not even then
-                  also; for <pb n="216"/><pb n="216"/>even during service too he would again stand
+                  sounded the bell,<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> nay not even then
+                  also; for <pb n="216"/>
+                  <pb n="216"/>even during service too he would again stand
                   in this way in the same corner (<foreign xml:lang="grc">γωνία</foreign>) with his
                   head bowed and covered, and after every sentence that came out of his mouth he
                   would utter an expression of praise with ecstasy. And he used to keep silence the
@@ -116,12 +113,12 @@
                   if one of the seniors came up to him and said to him, <quote>Wherefore, our
                      father, are you exceedingly mournful, and do not speak and enjoy yourself a
                      little?</quote>, he on his side would thus answer: <quote>Why do you desire a
-                     dead man who is dead in his sins and buried in his body to speak? For me whom
-                     you see my body is a grave; for, like a rotting corpse in a grave, thus my soul
-                     is rotting within it in sin; and henceforth over the dead man there is mourning
-                     only and weeping</quote>. And even these words he would say with many sobs. And
-                  in the same way his food also which he took at table did not go down <pb n="217"
-                     /><pb n="217"/>into his belly unless mixed with tears; and at night again the
+                        dead man who is dead in his sins and buried in his body to speak? For me whom
+                        you see my body is a grave; for, like a rotting corpse in a grave, thus my soul
+                        is rotting within it in sin; and henceforth over the dead man there is mourning
+                        only and weeping</quote>. And even these words he would say with many sobs. And
+                  in the same way his food also which he took at table did not go down <pb n="217"/>
+                  <pb n="217"/>into his belly unless mixed with tears; and at night again the
                   same. And so this blessed man used in truth to sorrow disconsolately, like a woman
                   girt in sackcloth for the husband of her tender age in the first days of her
                   mourning. When the time came round when he received clothes, all the blessed men
@@ -136,8 +133,8 @@
                   of youth, then he would each time take me apart, and open that book, and with
                   tears warn me out of it, saying, <quote>Come, hear, my son, how many secret
                      blessings and promises are guaranteed to the pure and the virgins and the pure
-                     in heart, and to boys like you who draw near to the <pb n="218"/><pb n="218"
-                        />Lord;<ptr type="noteAnchor" target="#n218-1" n="x"/> and guard your
+                     in heart, and to boys like you who draw near to the <pb n="218"/>
+                     <pb n="218"/>Lord;<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and guard your
                      purity, and keep virginity, which beyond all things has magnified and glorified
                      its possessors; and see moreover what a threat and sentence of weeping and
                      gnashing of teeth, and an immortal worm and unsleeping fire and darkness are
@@ -151,76 +148,87 @@
                      who does not tear the prey in his second year will not afterwards quickly tear
                      it. And know this further, that childhood, like tender wax which receives the
                      impress of that which falls from the ring upon it, so itself also from the
-                     beginning receives the impress <pb n="219"/><pb n="219"/>and the picture of
+                     beginning receives the impress <pb n="219"/>
+                     <pb n="219"/>and the picture of
                      that which is impressed upon it, be it of good things or of evil</quote>. And
                   after these words I said to him: <quote>What, my father, do you command me to do?
                      What will be for my good?</quote> The old man says to me: <quote>Lo!, my son,
                         <persName>Jesus</persName> your Lord tells you here and shows you what is
-                     the great and first commandment: <quote>Thou shalt love the Lord thy God with
-                        all thine heart, and with all thy strength, and with all thy mind</quote>;
-                     and the second which is like it, <quote>Thou shalt love thy neighbour as
-                        thyself</quote>.<ptr type="noteAnchor" target="#n219-1" n="x"/> He has again
-                     in his own person shown you humility, and commanded you: <quote>Whoever shall
-                        smite thee on thy cheek, turn to him the other also</quote>,<ptr type="noteAnchor" target="#n219-2" n="x"/> together with the other
-                     commandments. These things, O my son, which God himself your Creator taught
-                     you, keep and you shall live<ptr type="noteAnchor" target="#n219-3" n="x" /></quote>. And thus he would warn me with many words every day; and I, when I
+                        the great and first commandment: <quote>Thou shalt love the Lord thy God with
+                           all thine heart, and with all thy strength, and with all thy mind</quote>;
+                        and the second which is like it, <quote>Thou shalt love thy neighbour as
+                           thyself</quote>.<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> He has again
+                        in his own person shown you humility, and commanded you: <quote>Whoever shall
+                           smite thee on thy cheek, turn to him the other also</quote>,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> together with the other
+                        commandments. These things, O my son, which God himself your Creator taught
+                        you, keep and you shall live<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>
+                     </quote>. And thus he would warn me with many words every day; and I, when I
                   should have used the saying of the psalmist against evil, here on the contrary
-                  drew it to me, and <quote>as a deaf man heard not</quote>.<ptr type="noteAnchor" target="#n219-4" n="x"/> The blessed man from the time when he came to us
-                  completed nine years in this employment; and so he will receive his Lord <pb
-                     n="220"/><pb n="220"/>with a load of joy, in order that the text may be
-                  fulfilled, <quote>They who sow in tears shall reap in joy</quote>;<ptr type="noteAnchor" target="#n220-1" n="x"/> so that from the time when I myself
+                  drew it to me, and <quote>as a deaf man heard not</quote>.<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> The blessed man from the time when he came to us
+                  completed nine years in this employment; and so he will receive his Lord <pb n="220"/>
+                  <pb n="220"/>with a load of joy, in order that the text may be
+                  fulfilled, <quote>They who sow in tears shall reap in joy</quote>;<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> so that from the time when I myself
                   came to know this old man of abnegation down to his passing away not one moment
                   passed in which he was not sowing the tears of sorrow. </ab>
             </div>
             <div type="trailer" xml:id="trailer-14">
-               <ab xml:id="trailer-14.1" n="2"> The history of <persName
-                     ref="http://syriaca.org/person/1536">Abbi</persName> the man of abnegation is
+               <ab xml:id="trailer-14.1" n="2"> The history of <persName ref="http://syriaca.org/person/1536">Abbi</persName> the man of abnegation is
                   ended. </ab>
             </div>
          </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice>
+            <note xml:id="n1" target="#a1" n="1">
+               <choice>
                   <reg/>
                   <orig>p. 214, n. 1</orig>
                </choice>See ch. 18 and 35.</note>
-            <note xml:id="n2" target="#a2" n="2"><choice>
+            <note xml:id="n2" target="#a2" n="2">
+               <choice>
                   <reg/>
                   <orig>p. 214, n. 2</orig>
                </choice>The monastery of John Urtaya (ch. 58). The date must be 522-526 (see
                Introd.)</note>
-            <note xml:id="n3" target="#a3" n="3"><choice>
+            <note xml:id="n3" target="#a3" n="3">
+               <choice>
                   <reg/>
                   <orig>p. 215, n. 1</orig>
                </choice>Perhaps 6 P.M.; see p. 204, n. 1., and cf, <title>H. E.</title>, VI, 9,
                where it is said that after the 6th hour fighting-time is past. Probably however he
                is refering to the services and means <hi rend="singleQuotes">from matins till
                   sext</hi>.</note>
-            <note xml:id="n4" target="#a4" n="4"><choice>
+            <note xml:id="n4" target="#a4" n="4">
+               <choice>
                   <reg/>
                   <orig>p. 215, n. 2</orig>
                </choice>Probably for sext.</note>
-            <note xml:id="n5" target="#a5" n="5"><choice>
+            <note xml:id="n5" target="#a5" n="5">
+               <choice>
                   <reg/>
                   <orig>p. 218, n. 1</orig>
                </choice>John would probably be from 14 to 18 at the time of A.'s arrival; see
                Introd.</note>
-            <note xml:id="n6" target="#a6" n="6"><choice>
+            <note xml:id="n6" target="#a6" n="6">
+               <choice>
                   <reg/>
                   <orig>p. 219, n. 1</orig>
                </choice>Matth., XXII, 37-39.</note>
-            <note xml:id="n7" target="#a7" n="7"><choice>
+            <note xml:id="n7" target="#a7" n="7">
+               <choice>
                   <reg/>
                   <orig>p. 219, n. 2</orig>
                </choice>Id., V, 39.</note>
-            <note xml:id="n8" target="#a8" n="8"><choice>
+            <note xml:id="n8" target="#a8" n="8">
+               <choice>
                   <reg/>
                   <orig>p. 219, n. 3</orig>
                </choice>Id., XIX, 17.</note>
-            <note xml:id="n9" target="#a9" n="9"><choice>
+            <note xml:id="n9" target="#a9" n="9">
+               <choice>
                   <reg/>
                   <orig>p. 219, n. 4</orig>
                </choice>Ps. XXXVIII, 14.</note>
-            <note xml:id="n10" target="#a10" n="10"><choice>
+            <note xml:id="n10" target="#a10" n="10">
+               <choice>
                   <reg/>
                   <orig>p. 220, n. 1</orig>
                </choice>Ps. CXXVI, 5.</note>

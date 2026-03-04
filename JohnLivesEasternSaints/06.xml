@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/798">Paul the Mourner</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="creator"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
@@ -26,7 +27,7 @@
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
-                     </listBibl>
+                  </listBibl>
                      <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
@@ -36,14 +37,14 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
@@ -66,38 +67,36 @@
          <!-- See spear/798.xml -->
          <div type="work" xml:id="work-6" n="6">
             <div type="section" xml:id="section-6">
-               <head type="main">Next the Sixth History, of the Great Man of God <persName
-                     ref="http://syriaca.org/person/1980">Paul</persName> The Humble
+               <head type="main">Next the Sixth History, of the Great Man of God <persName ref="http://syriaca.org/person/1980">Paul</persName> The Humble
                   Anchorite,</head>
                <ab xml:id="section-6.1" n="1"> There was again a blessed man beloved of God and
-                  laborious and humble and a perfect Nazirite, <persName
-                     ref="http://syriaca.org/person/1980">Paul</persName> the anchorite, who was
-                  from the district of <placeName ref="http://syriaca.org/place/493"
-                     >Sophanene</placeName>. This man therefore, when he had been for many years
+                  laborious and humble and a perfect Nazirite, <persName ref="http://syriaca.org/person/1980">Paul</persName> the anchorite, who was
+                  from the district of <placeName ref="http://syriaca.org/place/493">Sophanene</placeName>. This man therefore, when he had been for many years
                   practising heavy and severe labours of asceticism and great abstinence, heard some
                   men saying that there was a certain large cave in the side of a certain high rock
-                  on the banks of the <placeName ref="http://syriaca.org/place/202"
-                     >Tigris</placeName> at a place called Surtha,<ptr type="noteAnchor" target="#n111-1" n="x"/> which is some distance from the cultivated land, but
+                  on the banks of the <placeName ref="http://syriaca.org/place/202">Tigris</placeName> at a place called Surtha,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> which is some distance from the cultivated land, but
                   near the road, and malignant fiends lived in it, so that men passed along that
-                  road with trembling, though it <pb n="112"/><pb n="112"/>was very necessary that
+                  road with trembling, though it <pb n="112"/>
+                  <pb n="112"/>was very necessary that
                   men should pass along it, because it led into the fortress called
-                     <placeName>Ziyat</placeName>.<ptr type="noteAnchor" target="#n112-1" n="x"/>
+                  <placeName>Ziyat</placeName>.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
                   But this blessed man, when he heard the report of that cave, reflected,
-                     <quote>Because those who pass along that road are frightened, and again in
+                  <quote>Because those who pass along that road are frightened, and again in
                      order that the powers of the enemy may be expelled by the name of human beings
                      and the presence of a human habitation, it is a duty to go, and to erect the
                      emblem of the cross there</quote>. </ab>
                <ab xml:id="section-6.2" n="2"> Then this blessed man, like a mighty man who mocks at the
                   feeble and sick men who wish to fight with him, confidently armed himself with the
                   power of God and confidence in him, and directed his steps to the place. And he
-                  went and arrived at the cave, and near it at about half a furrow's length<ptr type="noteAnchor" target="#n112-2" n="x"/> he erected the cross; and he fetched
+                  went and arrived at the cave, and near it at about half a furrow's length<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> he erected the cross; and he fetched
                   stones, and traced the plan of a small oratory and knelt there in prayer, and
                   passed the night in the place. And during the night shapes of basilisks and
                   fearful shapes of every kind (<foreign xml:lang="grc">γένος</foreign>) gathered
-                  together against him;<ptr type="noteAnchor" target="#n112-3" n="x"/> and, the more
+                  together against him;<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and, the more
                   constancy he on bis side showed, the more the gruff voices and grievous
                   exhalations increased, just as if great serpents had arrived and were coming, and
-                  just as if their <pb n="113"/><pb n="113"/>breath were striking against the
+                  just as if their <pb n="113"/>
+                  <pb n="113"/>breath were striking against the
                   blessed man's clothes in order to drive him away. But he was thus constant in
                   prayer all that night, and all the day, and again another night also. And next lo!
                   a sound of boulders being uprooted just above the blessed man, and they were
@@ -109,12 +108,13 @@
                   mighty man girt in the true breastplate of his Lord was not shaken, nor reckoned
                   their wiles and their foul shapes as anything, but also after he had, like a
                   mighty man who trusts in his Lord, after the pattern of the holy
-                     <persName>David</persName>, chosen for himself the sound pebbles of prayers
+                  <persName>David</persName>, chosen for himself the sound pebbles of prayers
                   from the river of grace, and had taken the staff of the cross, and lifted the
                   sling of heavenly trust, then he next looked upon the camp of the
-                     <persName>Philistine tyrants</persName>, to pull down their prowess and to
-                  scatter their camp. And so on the eighth <pb n="114"/><pb n="114"/>day he planted
-                  his cross in the midst of that cave, and, hung up a bag of saints<ptr type="noteAnchor" target="#n114-1" n="x"/> at the east end of it, and knelt in
+                  <persName>Philistine tyrants</persName>, to pull down their prowess and to
+                  scatter their camp. And so on the eighth <pb n="114"/>
+                  <pb n="114"/>day he planted
+                  his cross in the midst of that cave, and, hung up a bag of saints<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> at the east end of it, and knelt in
                   it to pray a prayer. And, while he was kneeling, frequent sounds of loud and
                   violent howling were suddenly heard in the cave itself, such that many thousands
                   of men if they joined together would not be able to howl so loud, so much so that
@@ -130,13 +130,15 @@
                      to them: <quote>I also am contending with you and expelling you by the cross
                         itself, not by my own strength</quote>. And from that time I remained
                      settled in the cave, while they used to display before me foul visions and many
-                     fearful shapes strange to the sight <pb n="115"/><pb n="115"/>of men, and
+                     fearful shapes strange to the sight <pb n="115"/>
+                     <pb n="115"/>of men, and
                      thereupon they would hold speech with me as men, and further they would even
                      take the shapes of men, and would come and pretend to entreat me to come out
                      and go with them to their houses, for the purpose (as they said) of visiting
                      their sick. And again they would often come and cry <quote>Flee, flee. Lo! the
-                        land is full of <persName>Huns</persName></quote>. And
-                        <persName>Huns</persName> appeared to me in various fearful shapes, riding
+                        land is full of <persName>Huns</persName>
+                     </quote>. And
+                     <persName>Huns</persName> appeared to me in various fearful shapes, riding
                      on horses and with swords drawn and flashing. And lo! they came up to the gate
                      crying in barbaric language, and in an excited state, and with arrows fitted to
                      their bows. And I on my part would say to them, <quote>This is my grave, and my
@@ -148,8 +150,9 @@
                         shall not be your assistant and eject me hence; and not only in my life but
                         not even in my death</quote>. While I was saying these words, all the hosts
                      of the <persName>Huns</persName> would cry and go up upon these rocks thus:
-                        <quote>Henceforth the cross has protected this man against us. This man has
-                           con<pb n="116"/><pb n="116"/>quered</quote>.</quote>. These things the
+                     <quote>Henceforth the cross has protected this man against us. This man has
+                        con<pb n="116"/>
+                        <pb n="116"/>quered</quote>.</quote>. These things the
                   holy <persName ref="http://syriaca.org/person/1980">Paul</persName> used to repeat
                   to me, because many times when I went to him I used to inquire of him, <quote>How,
                      father, did you carry on the conflict with the strange powers who haunted this
@@ -164,12 +167,11 @@
                      these malignant spirits have been expelled by the power of the cross, and it
                      has strengthened me for its glory</quote>. These few words he himself would
                   repeat to me. But at last, when his fame had been spread about, many men used to
-                  resort to him, and he also gained about <persName
-                     ref="http://syriaca.org/person/3657">ten disciples</persName> there, while even
+                  resort to him, and he also gained about <persName ref="http://syriaca.org/person/3657">ten disciples</persName> there, while even
                   still the sights that were seen in the place were fearful, and, when men came to
                   him, whether to reside or to stay for a time, he would arm them beforehand,
-                  saying: <quote>If so be you see anything or hear any sound whatsoever, <pb n="117"
-                        /><pb n="117"/>be not agitated, but make the sign of the cross upon you and
+                  saying: <quote>If so be you see anything or hear any sound whatsoever, <pb n="117"/>
+                     <pb n="117"/>be not agitated, but make the sign of the cross upon you and
                      be silent; and, even if I myself call you or anyone else, do not come
                      out</quote> (because the fiends often deceived men there). And again to those
                   who came to him to receive instruction from him he would say the same words and he
@@ -180,17 +182,16 @@
                   when he directed his steps to that cave, and he made an altar and set it up in it,
                   and he made it a chapel. And thenceforth the brotherhood used to sleep confidently
                   in it; and his monastery extended to twenty men. And so all the men of that
-                  district used to run to receive the blessed <persName
-                     ref="http://syriaca.org/person/1980">Paul</persName>'s blessing, and to gain
+                  district used to run to receive the blessed <persName ref="http://syriaca.org/person/1980">Paul</persName>'s blessing, and to gain
                   the privilege of seeing him, and to hear his gentle words;. for God gave also into
                   his hand a great gift of healing. But his asceticism and his labours and his
-                  humility no man can succeed in describing;<ptr type="noteAnchor" target="#n117-1" n="x"/> since he was so humble and retiring that, if a man were to sit with him
-                  and converse for three days, he would not raise his face (<foreign xml:lang="grc"
-                     >πρόσωπον</foreign>) nor <pb n="118"/><pb n="118"/>would men see the inside of
+                  humility no man can succeed in describing;<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> since he was so humble and retiring that, if a man were to sit with him
+                  and converse for three days, he would not raise his face (<foreign xml:lang="grc">πρόσωπον</foreign>) nor <pb n="118"/>
+                  <pb n="118"/>would men see the inside of
                   his eye, but he would thus converse with emotion with his head bent and his looks
                   fixed downwards. When he had been in that cave for a space of about twenty-five
                   years, and a monastery had been built, and the brotherhood had reached the number
-                  of thirty men, the blessed man finished his course<ptr type="noteAnchor" target="#n118-1" n="x"/>, and departed from the body; and he was buried on the
+                  of thirty men, the blessed man finished his course<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>, and departed from the body; and he was buried on the
                   spot in accordance with his promise. And, on account of his love toward God and
                   his humility, even after his death miracles were everywhere wrought through his
                   holy bones, men taking his skull and going round the districts, and, wheresoever
@@ -199,42 +200,49 @@
                   of all the saints, may all we sinners have mercy in the day of judgment. </ab>
             </div>
             <div type="trailer" xml:id="trailer-6">
-               <ab xml:id="trailer-6.1" n="3"> The history of <persName
-                     ref="http://syriaca.org/person/1980">Paul</persName> the blessed and holy
+               <ab xml:id="trailer-6.1" n="3"> The history of <persName ref="http://syriaca.org/person/1980">Paul</persName> the blessed and holy
                   anchorite is ended. </ab>
             </div>
          </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice>
+            <note xml:id="n1" target="#a1" n="1">
+               <choice>
                   <reg/>
                   <orig>p. 111, n. 1</orig>
                </choice>Sc.<hi rend="singleQuotes">the image</hi>.</note>
-            <note xml:id="n2" target="#a2" n="2"><choice>
+            <note xml:id="n2" target="#a2" n="2">
+               <choice>
                   <reg/>
                   <orig>p. 112, n. 1</orig>
                </choice>See Amm. Marcell., XIX, VI, 1, and <hi rend="singleQuotes">Dion.</hi> ap Nau
                in Rev. de l'Or. II o. 61.It seems to have lain between the Tigris and the Zab
                (Dyakonov, p. 46, n. 110)</note>
-            <note xml:id="n3" target="#a3" n="3"><choice>
+            <note xml:id="n3" target="#a3" n="3">
+               <choice>
                   <reg/>
                   <orig>p. 112, n. 2</orig>
                </choice>Circ. 50 yards - 43 metres.</note>
-            <note xml:id="n4" target="#a4" n="4"><choice>
+            <note xml:id="n4" target="#a4" n="4">
+               <choice>
                   <reg/>
                   <orig>p. 112, n. 3</orig>
                </choice>Perh. stalactites. Dyakanov (p. 39, n. 236) quotes an interesting parallel
                from Taylor's <title>Travels in Kurdistan</title> (<title>Journal of the R. Geogr.
                   Soc.</title>, XXXV, p 42). But, if so, it must have happened after he entered the
                cave.</note>
-            <note xml:id="n5" target="#a5" n="5"><choice>
+            <note xml:id="n5" target="#a5" n="5">
+               <choice>
                   <reg/>
                   <orig>p. 114, n. 1</orig>
                </choice>Sc. relics (v. D, and L.)</note>
-            <note xml:id="n6" target="#a6" n="6"><choice>
+            <note xml:id="n6" target="#a6" n="6">
+               <choice>
                   <reg/>
                   <orig>p. 117, n. 1</orig>
-               </choice>Or <hi rend="singleQuotes">comprehend and describe</hi></note>
-            <note xml:id="n7" target="#a7" n="7"><choice>
+               </choice>Or <hi rend="singleQuotes">comprehend and describe</hi>
+            </note>
+            <note xml:id="n7" target="#a7" n="7">
+               <choice>
                   <reg/>
                   <orig>p. 118, n. 1</orig>
                </choice>II Tim., IV, 7.</note>

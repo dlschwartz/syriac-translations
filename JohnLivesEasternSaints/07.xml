@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/799">Abraham the Recluse</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="creator"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
@@ -26,7 +27,7 @@
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
-                     </listBibl>
+                  </listBibl>
                      <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
@@ -36,14 +37,14 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
@@ -66,20 +67,19 @@
          <!-- See spear/799.xml -->
          <div type="work" xml:id="work-7" n="7">
             <div type="section" xml:id="section-7">
-               <head type="main">Next the Seventh History’ of the Old Man <persName
-                     ref="http://syriaca.org/person/1555">Abraham</persName> the Layman, the
-                  Recluse,</head>
+               <head type="main">Next the Seventh History of the Old Man <persName ref="http://syriaca.org/person/1555">Abraham</persName> the Layman, the
+                  Recluse.</head>
                <ab xml:id="section-7.1" n="1"> We wish next to place on record the history of the old
-                  man <persName ref="http://syriaca.org/person/1555">Abraham</persName> also, <pb
-                     n="119"/><pb n="119"/>who was called <hi rend="singleQuotes">the
+                  man <persName ref="http://syriaca.org/person/1555">Abraham</persName> also, <pb n="119"/>
+                  <pb n="119"/>who was called <hi rend="singleQuotes">the
                      consecrated</hi>, and had reached old age being about sixty years old. This man
                   one day, when the gospel (<foreign xml:lang="grc">έυαγγέλιον</foreign>) was being
                   read, heard that our Lord said, <quote>Whoever shall leave wife or children etc.
                      for my sake and for the sake of my preaching shall receive thirty fold and
                      sixtyfold and an hundredfold in this age, and in the future age shall inherit
-                     eternal life</quote>;<ptr type="noteAnchor" target="#n119-1" n="x"/> and again
-                     <quote>Whoever doth not take up his cross and follow me is not worthy of
-                     me</quote>.<ptr type="noteAnchor" target="#n119-2" n="x"/> When this old man
+                     eternal life</quote>;<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and again
+                  <quote>Whoever doth not take up his cross and follow me is not worthy of
+                     me</quote>.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> When this old man
                   heard these words, sorrow entered into his mind, and he thought within himself,
                   and said: <quote>Wherefore am I for my part alive and called a Christian, if I do
                      not do now that God's will? If it is pleasing to God that I should leave wife
@@ -88,31 +88,33 @@
                      What have I gained either from children or from wife, or from the whole world,
                      except that I have consumed my life in it in vanity, and idly wasted my
                      moments, and passed my days evilly?, and lo! I have come to the gate of the
-                     grave. Who will shelter me there in that judgment? or who will rescue <pb
-                        n="120"/><pb n="120"/>me from my sins? But now even for this little
+                     grave. Who will shelter me there in that judgment? or who will rescue <pb n="120"/>
+                     <pb n="120"/>me from my sins? But now even for this little
                      remainder of my life that remains to me I will go and repent of my sins, and
                      then I will die, having hope in that parable of the labourers which our Lord
                      spake, that, even after the day had declined and one hour only was left for
-                     those who came, they were thought worthy to receive the pay with the first.<ptr type="noteAnchor" target="#n120-1" n="x"/> So I too also hope that God will
+                     those who came, they were thought worthy to receive the pay with the first.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> So I too also hope that God will
                      not shut the door of his mercy in the face of my repentance</quote>. And
                   thereafter the old man would think, <quote>What shall I do? If I go to a
                      monastery, I cannot work; and they will say, <quote>This old man has come upon
-                        us in order to get a present out of us</quote></quote>. Then the old man
+                        us in order to get a present out of us</quote>
+                  </quote>. Then the old man
                   left everything, and went to a certain monastery and said to them, weeping:
-                     <quote>Rise make the prayer for me, and give me the tonsure, and take the hair
+                  <quote>Rise make the prayer for me, and give me the tonsure, and take the hair
                      of my secular life from me, since I desire to repent for a short time for my
                      sins before I die</quote>. But the blessed men did not frustrate his wish and
                   stand in his way, when they heard the announcement of repentance from him, but
                   they encouraged him and they say to him: <quote>You are doing right, our father,
                      if you are turning in repentance toward God; since he is merciful and will
                      receive you</quote>. After they had held much conversation with him, because
-                  they supposed that he intended to live with <pb n="121"/><pb n="121"/>them, they
+                  they supposed that he intended to live with <pb n="121"/>
+                  <pb n="121"/>them, they
                   said to him: <quote>After you are tonsured, where do you intend to live?</quote>
                   But he said to them: <quote>Rise give me the blessing and take my hair, and where
                      God wishes I will live</quote>. They say to him: <quote>We seek to learn
-                     whether you intend to remain with us or elsewhere; and then, if you remain with
-                     us, we will ourselves give you the tonsure, and, if elsewhere, why will you be
-                     tonsured away from the place where you are going to live?</quote> The old man
+                        whether you intend to remain with us or elsewhere; and then, if you remain with
+                        us, we will ourselves give you the tonsure, and, if elsewhere, why will you be
+                        tonsured away from the place where you are going to live?</quote> The old man
                   said to them: <quote>I came to you that you might make the prayer for me and give
                      me the blessing and the tonsure, not that you might argue with me. If you are
                      willing, well; and, if not, pray for me.</quote> The blessed men, when they saw
@@ -123,8 +125,9 @@
                   his abode in it, after requesting a man to bring him his little food every first
                   day of the week. And so he would stand and recite a service and pray constantly
                   and weep, while everyone was struck with astonishment at him, and some mockers
-                  would <pb n="122"/><pb n="122"/>say, <quote>Come let us go and be blessed by
-                        <persName ref="http://syriaca.org/person/1555">Abraham</persName> the
+                  would <pb n="122"/>
+                  <pb n="122"/>say, <quote>Come let us go and be blessed by
+                     <persName ref="http://syriaca.org/person/1555">Abraham</persName> the
                      consecrated recluse</quote>, and others, uttering words that came from the evil
                   one, would say, <quote>If he had shut up his wife with him, he would be doing
                      rightly</quote>. But the old man despised everything and set one object only
@@ -132,7 +135,7 @@
                   merciful Physician, not ceasing from prayer and recitation of service, either by
                   night or by day. And his service was as follows: <quote>Glory to the Father and to
                      the Son and to the Holy Spirit Halleluyah!</quote>; and again as follows:
-                     <quote>and from eternity to eternity Amen and Amen! Halleluyah!</quote> And
+                  <quote>and from eternity to eternity Amen and Amen! Halleluyah!</quote> And
                   thus he spent the hours of the night and of the day in these words of praise with
                   prayer and supplication and thanksgiving, while he gave orders that none of his
                   kin (<foreign xml:lang="grc">γένος</foreign>) should appear in his presence; and
@@ -140,7 +143,8 @@
                   for his sins; and so men used to go by stealth, and listen to the sound of his
                   sobs, and they were astonished at him. And the old man persevered in his
                   repentance for eight years. And in the eighth year, when he was near his end,
-                  there used to be hail in these villages <pb n="123"/><pb n="123"/>every year<ptr type="noteAnchor" target="#n123-1" n="x"/> and they were smitten, and their
+                  there used to be hail in these villages <pb n="123"/>
+                  <pb n="123"/>every year<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and they were smitten, and their
                   crops also were utterly ruined. And, when the time arrived and that terrible cloud
                   had come up according to its custom, on the first day of the week, when some
                   persons were present at his lodging, they began to weep, because the cloud was
@@ -156,39 +160,43 @@
                   boundaries of that village, the signal of light remained until that cloud had
                   passed. And so through the power of the old man's prayers that village was
                   delivered and escape from that terrible rod of chastisement, which injured not one
-                  leaf within its boundaries; and, <pb n="124"/><pb n="124"/>outside all its
-                  boundaries all round, not even the leaves remained upon the trees.<ptr type="noteAnchor" target="#n124-1" n="x"/> Then the boundaries of that village
+                  leaf within its boundaries; and, <pb n="124"/>
+                  <pb n="124"/>outside all its
+                  boundaries all round, not even the leaves remained upon the trees.<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> Then the boundaries of that village
                   exulted, while they themselves made proclamation concerning the power of the
-                  prayers of the blessed <persName ref="http://syriaca.org/person/1555"
-                     >Abraham</persName>, everyone being astonished and giving thanks to God. And
+                  prayers of the blessed <persName ref="http://syriaca.org/person/1555">Abraham</persName>, everyone being astonished and giving thanks to God. And
                   the old man also rejoiced, and he gives thanks to God who had shown him that he
                   accepted his repentance. And, at the end of the eighth year, he departed from the
                   world in the good ending of repentance. </ab>
             </div>
             <div type="trailer" xml:id="trailer-7">
-               <ab xml:id="trailer-7.1" n="2"> The history of the old man <persName
-                     ref="http://syriaca.org/person/1555">Abraham</persName> the layman, the
+               <ab xml:id="trailer-7.1" n="2"> The history of the old man <persName ref="http://syriaca.org/person/1555">Abraham</persName> the layman, the
                   recluse, is ended. </ab>
             </div>
          </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice>
+            <note xml:id="n1" target="#a1" n="1">
+               <choice>
                   <reg/>
                   <orig>p. 119, n. 1</orig>
                </choice>Mark, X, 29, 30 (a loose citation).</note>
-            <note xml:id="n2" target="#a2" n="2"><choice>
+            <note xml:id="n2" target="#a2" n="2">
+               <choice>
                   <reg/>
                   <orig>p. 119, n. 2</orig>
                </choice>Matth., X, 38.</note>
-            <note xml:id="n3" target="#a3" n="3"><choice>
+            <note xml:id="n3" target="#a3" n="3">
+               <choice>
                   <reg/>
                   <orig>p. 120, n. 1</orig>
                </choice>Matth., XX, 9-16.</note>
-            <note xml:id="n4" target="#a4" n="4"><choice>
+            <note xml:id="n4" target="#a4" n="4">
+               <choice>
                   <reg/>
                   <orig>p. 123, n. 1</orig>
                </choice>Sic syr.</note>
-            <note xml:id="n5" target="#a5" n="5"><choice>
+            <note xml:id="n5" target="#a5" n="5">
+               <choice>
                   <reg/>
                   <orig>p. 124, n. 1</orig>
                </choice>Cf. p. 12, where a similar story is told.</note>

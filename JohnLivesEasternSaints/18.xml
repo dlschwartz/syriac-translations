@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/810">A Monk who Left the Monastery</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="creator"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
@@ -26,7 +27,7 @@
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
-                     </listBibl>
+                  </listBibl>
                      <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
@@ -36,14 +37,14 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
@@ -67,75 +68,78 @@
          <div type="work" xml:id="work-18" n="18">
             <div type="section" xml:id="section-18">
                <head type="main">Next the Eighteenth History, of a Certain Brother Who Left A Convent Without
-                  Being Released,<ptr type="noteAnchor" target="#n260-1" n="x"/> and Betook Himself
+                  Being Released,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and Betook Himself
                   to Another.</head>
                <ab xml:id="section-18.1" n="1"> If therefore I cover with silence a sentence that was
-                  pronounced in a terrible story which I saw,<ptr type="noteAnchor" target="#n260-2" n="x"/> which was enacted in the case of one of the blessed brothers, I do not
+                  pronounced in a terrible story which I saw,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> which was enacted in the case of one of the blessed brothers, I do not
                   think that I also shall be freed from the sentence of blame that proceeds from
                   justice. When formerly the community of those who had been everywhere expelled on
                   account of the faith were celebrated, and the spiritual community of the diocese
                   of <placeName>Amida</placeName>, that of these greatbl convents, were gathered
                   together in great numbers in the village of <placeName>Ḥzyn</placeName> in
-                     <placeName>Ṭyšfʾ</placeName>, as we have indeed recorded these matters in one
-                  of the histories,<ptr type="noteAnchor" target="#n260-3" n="x"/> and blessed men
+                  <placeName>Ṭyšfʾ</placeName>, as we have indeed recorded these matters in one
+                  of the histories,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and blessed men
                   from everywhere desired to join that spiritual unity, and the blessed men did not
-                  keep their door shut, but received everyone, it happened that a certain <persName
-                     ref="http://syriaca.org/person/1932">blessed man</persName><ptr type="noteAnchor" target="#n260-4" n="x"/> came thither, who by his habit
-                     (<foreign xml:lang="grc">σχήμα</foreign>) <pb n="261"/><pb n="261"/>was an
+                  keep their door shut, but received everyone, it happened that a certain <persName ref="http://syriaca.org/person/1932">blessed man</persName>
+                  <ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> came thither, who by his habit
+                  (<foreign xml:lang="grc">σχήμα</foreign>) <pb n="261"/>
+                  <pb n="261"/>was an
                   anchorite, and this man desired to be received in one of the convents in
-                     obedience,<ptr type="noteAnchor" target="#n261-1" n="x"/> and remain. And on
+                  obedience,<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and remain. And on
                   his tendering this request to one of the blessed archimandrites he examined him as
                   to his monastic training, and if he were in any other obedience, or barred by any
                   impediment. But that <persName ref="http://syriaca.org/person/1932">blessed
-                     man</persName><ptr type="noteAnchor" target="#n261-2" n="x"/> on seeing the
+                     man</persName>
+                  <ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> on seeing the
                   thoroughness of that examination was afraid to confess that he had not been
                   released, lest he should fail to obtain what he desired and not be received; and
                   therefore he said that he had been released from his monastery, when he had not
                   been released; but as if by the grace of God, which knew the sentence that
-                  threatened that wretched man, it<ptr type="noteAnchor" target="#n261-3" n="x"/>
-                  caused him to state the name of his monastery without falsehood.<ptr type="noteAnchor" target="#n261-4" n="x"/> And thus he was received, and
-                  entered the convent in obedience. At that time a great pestilence broke out;<ptr type="noteAnchor" target="#n261-5" n="x"/> and, as commonly happened, many died
+                  threatened that wretched man, it<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>
+                  caused him to state the name of his monastery without falsehood.<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> And thus he was received, and
+                  entered the convent in obedience. At that time a great pestilence broke out;<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> and, as commonly happened, many died
                   there from that community, insomuch that eighty-four men from the convents
                   themselves, besides guests, died there, and were laid in the grave. And after
-                  twenty days the lot reached the <persName ref="http://syriaca.org/person/1932"
-                     >blessed man</persName><ptr type="noteAnchor" target="#n261-2" n="x"/> who had
-                  been received; and he was. <pb n="262"/><pb n="262"/>suddenly smitten, and was
+                  twenty days the lot reached the <persName ref="http://syriaca.org/person/1932">blessed man</persName>
+                  <ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> who had
+                  been received; and he was. <pb n="262"/>
+                  <pb n="262"/>suddenly smitten, and was
                   struck dumb, while his soul was convulsed and snorts proceeded from his throat,
                   and he was bereſt of his senses and was in torture, not being among the dead or
                   among the living. And, whereas it was the custom, when the end was overtaking a
                   man and he was in great pain, for five or ten to meet together, and set down
                   incense and make propitiation for him for the other transgressions, and, if he
-                  were still in pain, they would bring the holy gospel (<foreign xml:lang="grc"
-                     >εύαγγελιον</foreign>) and lay it upon him, and immediately he would be
+                  were still in pain, they would bring the holy gospel (<foreign xml:lang="grc">εύαγγελιον</foreign>) and lay it upon him, and immediately he would be
                   released either to life or to death, this poor man, in order that the text,
-                     <quote>The word of God is living and doeth all things, etc.</quote>,<ptr type="noteAnchor" target="#n262-1" n="x"/> might be understood by actual facts,
+                  <quote>The word of God is living and doeth all things, etc.</quote>,<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> might be understood by actual facts,
                   gained no release when the blessed men met together and made petition and prayer
-                  and much incense and many forms of propitiation. And the Lord of the world<ptr type="noteAnchor" target="#n262-2" n="x"/> even came and relics of the saints,
+                  and much incense and many forms of propitiation. And the Lord of the world<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> even came and relics of the saints,
                   and there was no release, nor relaxation from that intense, terrible, painful
                   convulsion for ten days, insomuch that a hundred and twenty men were thus ranged
-                  round him, and were standing and marvelling, and weeping and <pb n="263"/><pb
-                     n="263"/>distressing themselves at the agitation of that soul, and at that
+                  round him, and were standing and marvelling, and weeping and <pb n="263"/>
+                  <pb n="263"/>distressing themselves at the agitation of that soul, and at that
                   terrible and violent driving; and from distress and grief they sat thus round him
                   two and three days, marvelling and weeping, and not eating or drinking, and
                   despising all human life. But, when it had lasted ten days, Grace in accordance
                   with its mercy effected deliverance, that is, the release of that agitated soul,
                   when on the tenth day all the seniors had met together and had stationed
-                  themselves round him with the Lord of the world,<ptr type="noteAnchor" target="#n263-1" n="x"/> and prayers and petitions and copious tears, while all
+                  themselves round him with the Lord of the world,<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> and prayers and petitions and copious tears, while all
                   who were standing there cried with affliction and said: <quote>Lord, great is thy
                      mercy. Sufficient is this torture for this man. Let thy mercy persuade thee on
                      his behalf, God who carest for thy creation</quote>. The. chief of the seniors,
                   while standing over him and weeping, was saying these words, while my wretchedness
                   also was standing and forming part of that sorrowful gathering and hearing him say
                   in the midst of his sobs: <quote>What to do to you, afflicted man, we know not, in
-                     order to ask you <quote>Is it because<ptr type="noteAnchor" target="#n263-2" n="x"/> you are conscious in your soul of grievous delinquencies that you
+                     order to ask you <quote>Is it because<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> you are conscious in your soul of grievous delinquencies that you
                         are dying and departing from life, and only torture remains for you in the
-                        bodily life?</quote>, and <pb n="264"/><pb n="264"/>to say <quote>Is there
+                        bodily life?</quote>, and <pb n="264"/>
+                     <pb n="264"/>to say <quote>Is there
                         an impediment upon you and is your soul bound by it?</quote>. Who will
                      inform us of this, unless the abụndant mercy of your Creator have pity on
                      you?</quote>. Then again, as if by divine instigation, the other senior who was
                   standing at the other side of his bed said: <quote>I, sir, think that this
                      agitation of this soul is an impediment proceeding from the word of
-                  God</quote>. And, when he had said this, like one who is suddenly struck by his
+                     God</quote>. And, when he had said this, like one who is suddenly struck by his
                   neighbour and roughly dragged out of deep sleep, he was smitten with stupefaction
                   and suddenly quivered and nodded his head once. And, everyone being astounded, the
                   senior again repeated: <quote>Is there an impediment upon you, agitated
@@ -146,14 +150,14 @@
                      shall we do? If we were accepted as ourselves making the release in place of
                      the man who laid the bond, we have done so many times. But come now let us
                      fetch a man, and let us all stand sureties in him that, God willing, we will
-                     send a petition to his archimandrite to release <pb n="265"/><pb n="265"/>him.
+                     send a petition to his archimandrite to release <pb n="265"/>
+                     <pb n="265"/>him.
                      Perhaps the merciful God will accept us, and release him from this
                      torture</quote>. And, when they had determined upon these things, a certain
                   deacon whose name was Addai rose, and came and knelt before his bed, and said:
-                     <quote>If God be willing to grant me life till I go and make the release, I
+                  <quote>If God be willing to grant me life till I go and make the release, I
                      will under the security of all my fathers take this soul's impediment upon
-                     myself</quote>. And, as the words that came from the mouth of that <persName
-                     ref="http://syriaca.org/person/1932">blessed man</persName> ended, then the
+                     myself</quote>. And, as the words that came from the mouth of that <persName ref="http://syriaca.org/person/1932">blessed man</persName> ended, then the
                   release and the departure of that soul from its body also took place; and there
                   was a great and terrible and mighty cry, while everyone was amazed and praised
                   God. And so the <persName ref="http://syriaca.org/person/1932">blessed
@@ -167,60 +171,72 @@
             </div>
          </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice>
+            <note xml:id="n1" target="#a1" n="1">
+               <choice>
                   <reg/>
                   <orig>p. 260, n. 1</orig>
-               </choice>BH <hi rend="singleQuotes">his rule (<foreign xml:lang="grc"
-                  >κανών</foreign>) having been relaxed</hi>.</note>
-            <note xml:id="n2" target="#a2" n="2"><choice>
+               </choice>BH <hi rend="singleQuotes">his rule (<foreign xml:lang="grc">κανών</foreign>) having been relaxed</hi>.</note>
+            <note xml:id="n2" target="#a2" n="2">
+               <choice>
                   <reg/>
                   <orig>p. 260, n. 2</orig>
                </choice>Sic syr.</note>
-            <note xml:id="n3" target="#a3" n="3"><choice>
+            <note xml:id="n3" target="#a3" n="3">
+               <choice>
                   <reg/>
                   <orig>p. 260, n. 3</orig>
                </choice>Ch. 14; cf. ch. 35. The date is 522-526 (See Introd.).</note>
-            <note xml:id="n4" target="#a4" n="4"><choice>
+            <note xml:id="n4" target="#a4" n="4">
+               <choice>
                   <reg/>
                   <orig>p. 260, n. 4</orig>
                </choice>BH <hi rend="singleQuotes">brother</hi>.</note>
-            <note xml:id="n5" target="#a5" n="5"><choice>
+            <note xml:id="n5" target="#a5" n="5">
+               <choice>
                   <reg/>
                   <orig>p. 261, n. 1</orig>
                </choice>I.e. as an inmate, not as a guest.</note>
-            <note xml:id="n6" target="#a6" n="6"><choice>
+            <note xml:id="n6" target="#a6" n="6">
+               <choice>
                   <reg/>
                   <orig>p. 261, n. 2</orig>
                </choice>BH <hi rend="singleQuotes">brother</hi>.</note>
-            <note xml:id="n7" target="#a7" n="7"><choice>
+            <note xml:id="n7" target="#a7" n="7">
+               <choice>
                   <reg/>
                   <orig>p. 261, n. 3</orig>
                </choice>Sic syr.</note>
-            <note xml:id="n8" target="#a8" n="8"><choice>
+            <note xml:id="n8" target="#a8" n="8">
+               <choice>
                   <reg/>
                   <orig>p. 261, n. 4</orig>
                </choice>The rule had been lightened since Severus' time, when a monk was free to
                leave his monastery at any time (<title>Sel. Letters</title>, p. 451).</note>
-            <note xml:id="n9" target="#a9" n="9"><choice>
+            <note xml:id="n9" target="#a9" n="9">
+               <choice>
                   <reg/>
                   <orig>p. 261, n. 5</orig>
                </choice>This clearly cannot be the great plague of 542, but must be an earlier
                epidemic not otherwise known.</note>
-            <note xml:id="n10" target="#a10" n="10"><choice>
+            <note xml:id="n10" target="#a10" n="10">
+               <choice>
                   <reg/>
                   <orig>p. 262, n. 1</orig>
                </choice>Hebr., IV, 12.</note>
-            <note xml:id="n11" target="#a11" n="11"><choice>
+            <note xml:id="n11" target="#a11" n="11">
+               <choice>
                   <reg/>
                   <orig>p. 262, n. 2</orig>
                </choice>The scribes of BH (or the scribe of the archetype of B and H) appy.
                understood this to mean the gospel (see p. 263, n.); but the consecreated elements
                must surely be intended.</note>
-            <note xml:id="n12" target="#a12" n="12"><choice>
+            <note xml:id="n12" target="#a12" n="12">
+               <choice>
                   <reg/>
                   <orig>p. 263, n. 1</orig>
                </choice>BH <hi rend="singleQuotes">gospel</hi>.</note>
-            <note xml:id="n13" target="#a13" n="13"><choice>
+            <note xml:id="n13" target="#a13" n="13">
+               <choice>
                   <reg/>
                   <orig>p. 263, n. 2</orig>
                </choice>Ms. om.</note>

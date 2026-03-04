@@ -1,52 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title ref="http://syriaca.org/work/793">Ḥabib</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
-            <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Syriaca.org: The Syriac Reference Portal</authority>
-            <idno type="URI"><!-- URI NEEDED --></idno>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0//">
-                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
-                  <p>This work incorporates public domain material from the following work(s): 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="http://syriaca.org/work/793">Ḥabib</title>
+                <author>
+                    <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+                </author>
+                <editor role="translator">E. W. Brooks</editor>
+                <editor role="creator"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Syriaca.org: The Syriac Reference Portal</authority>
+                <idno type="URI"><!-- URI NEEDED --></idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0//">
+                        <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                        <p>This work incorporates public domain material from the following work(s): 
                      <listBibl>
-                        <bibl>
+                                <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
-                        <bibl>
+                                <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
-                     </listBibl>
-                     <note type="license">
+                            </listBibl>
+                            <note type="license">
                         used under a Creative Commons Attribution license 
                         <ptr target="http://creativecommons.org/licenses/by/4.0"/>
-                     </note>
-                  </p>
-               </licence>
-            </availability>
-            <date>2026-03-02</date>
-         </publicationStmt>
-         <seriesStmt>
-            <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <seriesStmt>
-            <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
-         </seriesStmt>
-         <!--<notesStmt>
+                            </note>
+                        </p>
+                    </licence>
+                </availability>
+                <date>2026-03-02</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <seriesStmt>
+                <title>The Lives of the Eastern Saints</title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+                <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+            </seriesStmt>
+            <!--<notesStmt>
             <relatedItem type="previous">
                <ptr target=""/>
             </relatedItem>
@@ -54,18 +58,18 @@
                <ptr target=""/>
             </relatedItem>
          </notesStmt>-->
-         <sourceDesc>
-            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-  <text>
-     <body>
+            <sourceDesc>
+                <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
         <!-- See spear/793.xml -->
-        <div type="work" xml:id="work-1" n="1">
-           <div type="section" xml:id="section-1">
-              <head type="main">The First History, of the Great and Divine Old Man <persName ref="http://syriaca.org/person/3763">Habib</persName>.</head>
-              <ab type="section" xml:id="section-1.1" n="1">
+            <div type="work" xml:id="work-1" n="1">
+                <div type="section" xml:id="section-1">
+                    <head type="main">The First History, of the Great and Divine Old Man <persName ref="http://syriaca.org/person/3763">Habib</persName>.</head>
+                    <ab type="section" xml:id="section-1.1" n="1">
                  The relation of the history of this apostolic man <persName ref="http://syriaca.org/person/3763">Habib</persName> it is not easy
                  for any man to approach without fear to narrate it, inasmuch as on both
                  sides a cause of alarm springs from the relating of it; first, the fact that the
@@ -80,7 +84,8 @@
                  if the great and marvellous deeds that can be easily wrought through
                  apostles only which God wrought through him be narrated, lest they be as
                  it were hard to believe; but, committing the greatness of these to the
-                 knowledge of him who is true and does not lie, who said, <quote>Whoever belie<pb n="6"/><pb n="6"/>veth 
+                 knowledge of him who is true and does not lie, who said, <quote>Whoever belie<pb n="6"/>
+                            <pb n="6"/>veth 
                     on me shall do greater than these signs which I do</quote>,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> we leave this
                  [also] to him and to those to whom it has not been hard to believe his word,
                  bringing these few things (a small proportion) to record for the glory of God.
@@ -97,7 +102,8 @@
                  tell only the things that concern this man who was our contemporary. This
                  man therefore came from a village called <placeName ref="http://syriaca.org/place/2779">Fyțr</placeName>, from which his master
                  also came; and he first planted <placeName ref="http://syriaca.org/place/2778">that monastery</placeName>, and then this blessed <persName ref="http://syriaca.org/person/3763">Habib</persName>
-                 <pb n="7"/><pb n="7"/>went to him, when he was about ten years old, and he received him, and
+                        <pb n="7"/>
+                        <pb n="7"/>went to him, when he was about ten years old, and he received him, and
                  he continued to dwell with him, and he exercised him in spiritual ways of
                  life, marking his tender age, and what devoutness and what orderliness he
                  possessed from his youth. But, when that old man had completed ninety
@@ -112,7 +118,8 @@
                  made a remission; and then afterwards <persName ref="http://syriaca.org/person/3763">the blessed man</persName> used to perform
                  frequent mighty works in every place against those who contended against
                  him, and when he spoke God would perform in action everything that he
-                 <pb n="8"/><pb n="8"/>said without delay, because he saw his zeal and readiness and the keenness
+                 <pb n="8"/>
+                        <pb n="8"/>said without delay, because he saw his zeal and readiness and the keenness
                  of his purpose. But, when the owner of the ass heard it, his knees knocked
                  together in fear, lest the power of the saint's curse should light upon him
                  also; and he arose and took all his parchments (<foreign xml:lang="grc">χάρτης</foreign>), and brought them
@@ -128,10 +135,11 @@
                  fear fell on all who heard it. And <persName ref="http://syriaca.org/person/3763">the blessed man</persName> went on continuing
                  to busy himself greatly in matters of debt-remission, becoming a deliverance 
                  for the poor and his<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> fame increasing. But the wife of the man
-                 <pb n="9"/><pb n="9"/>who had died and his children took all their parchments <foreign xml:lang="grc">χάρτης</foreign>, and
+                 <pb n="9"/>
+                        <pb n="9"/>who had died and his children took all their parchments <foreign xml:lang="grc">χάρτης</foreign>, and
                  brought them to <persName ref="http://syriaca.org/person/3763">the blessed man</persName>, and thus returned them to their owners.
               </ab>
-              <ab type="section" xml:id="section-1.2" n="2">
+                    <ab type="section" xml:id="section-1.2" n="2">
                  Again there was another man, and he kept ancient deeds some years old
                  against poor men, and they came and told the saint, and they brought him,
                  and he went; and that because from his boyhood and down to his old age
@@ -149,7 +157,8 @@
                     forgive this man. And again, if thy grace knoweth that it is for the sake
                     of thy name and for the sake of the deliverance of the wronged that I have
                     come out, in order that this same thing may be made known to this man and
-                    <pb n="10"/><pb n="10"/>to everyone else, do with him as thy grace knoweth how</quote>. Then Grace
+                    <pb n="10"/>
+                            <pb n="10"/>to everyone else, do with him as thy grace knoweth how</quote>. Then Grace
                  exacted forthwith from the man requital for the old man; and that same day
                  the Lord smote him, and half of him became withered, one of his eyes and
                  one of his arms, and the whole of his side, and one of his feet, and he
@@ -169,13 +178,14 @@
                  to subject to afflictions. And in consequence of this fear everyone who had
                  debtors of ancient standing would remit the debt; and some of them brought
                  their deeds to the blessed man himself, and entreated him to bless them;
-                 <pb n="11"/><pb n="11"/>while the fear and the terror of him went out thenceforth in every place
+                 <pb n="11"/>
+                        <pb n="11"/>while the fear and the terror of him went out thenceforth in every place
                  because he himself also travelled in all the districts of Syria. And, as it is
                  written in the blessed Job, <quote>Who hath contended with him and hath had
                     peace?</quote>,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> so was it fulfilled in this spiritual old man, so that no one resisted
                  him in this matter, and transgressed his orders, and raised his head again.
               </ab>
-              <ab type="section" xml:id="section-1.3" n="3">
+                    <ab type="section" xml:id="section-1.3" n="3">
                  There was again another <persName ref="http://syriaca.org/person/3196">rich man</persName> in the city of <placeName ref="http://syriaca.org/place/134">Maiferkat</placeName>,<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> who was a
                  banker (<foreign xml:lang="grc">τραπεζίτης</foreign>) and had many bonds (<foreign xml:lang="grc">γραμματεῖον</foreign>) several years old, and
                  used to exact cruelly and mercilessly. And certain persons came and
@@ -186,7 +196,8 @@
                  this, and as if by way of precaution against being deceived said to her,
                  <quote>Your own faith has given you light; and, if not, I for my part am a sinner</quote>. 
                  And so this miracle was proclaimed all over the city, while everyone
-                 <pb n="12"/><pb n="12"/>gave thanks to God. While he was exerting his activity in the same city,
+                 <pb n="12"/>
+                        <pb n="12"/>gave thanks to God. While he was exerting his activity in the same city,
                  certain persons from the country of the <persName>Persians</persName> heard of it because he was
                  near there, and they brought him two women, one who was persecuted by a
                  demon, and another who was barren of offspring, having been many years
@@ -202,12 +213,13 @@
                  monastery; and he baptized and blessed him; and she returned rejoicing and
                  praising God.
               </ab>
-              <ab type="section" xml:id="section-1.4" n="4">
+                    <ab type="section" xml:id="section-1.4" n="4">
                  Again there was a certain man, and he had a large vineyard, and had
                  spent much money upon it; and for three years running hail came down
                  and made terrible havoc of that vineyard; and, when that time came in
                  the fourth year, he set forth and went weeping to the old man, and continued
-                 <pb n="13"/><pb n="13"/>entreating him to pray for him. But the old man said to him : <quote>Wherefore,
+                 <pb n="13"/>
+                        <pb n="13"/>entreating him to pray for him. But the old man said to him : <quote>Wherefore,
                     my son, is havoc made of that vineyard?</quote>. And he said : <quote>Sir, I know not</quote>,
                  The old man says to him : <quote>Has that plantation done any sin or crime, or
                     offended God?</quote> He says to him, <quote>No</quote>. He says to him: <quote>Know and see
@@ -226,7 +238,8 @@
                     because, my Lord, this vineyard has been deemed worthy to have thy living
                     and life-giving body and blood offered in it, accept the person of the sinner
                     thy bondman, my Lord, and cause this cloud to pass away from him</quote>. And
-                 <pb n="14"/><pb n="14"/>the Lord heard the old man's voice; and that cloud passed away, and did not
+                 <pb n="14"/>
+                        <pb n="14"/>the Lord heard the old man's voice; and that cloud passed away, and did not
                  harm even one leaf in it; and lo! from that time, through the power of the
                  blessed man's prayers, that vineyard remained without hail falling in it,
                  while havoc was made of every thing round it, and it alone escaped.<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>
@@ -245,13 +258,14 @@
                  woman in a certain village who had a mad demon in her, a woman who
                  barked at people like a noxious beast, and tore their clothes, and violently
                  assaulted many, and, when they brought her to the old man, she continued
-                 <pb n="15"/><pb n="15"/>howling at him and seeking to run away. And the old man stretched out
+                 <pb n="15"/>
+                        <pb n="15"/>howling at him and seeking to run away. And the old man stretched out
                  his hand, and made the sign over her; and he laid an inhibition upon him
                  and said, <quote>In the name of the Lord you are barred from his creation</quote>
                  And the same hour he went out of her, and she was healed; and that woman
                  became quiet, while everyone wondered and gave thanks to God.
               </ab>
-              <ab type="section" xml:id="section-1.5" n="5">
+                    <ab type="section" xml:id="section-1.5" n="5">
                  There was again another poor widow woman, and she had been taught
                  the art of drawing, and used to practise it and labour at it for her necessities,
                  and she used to teach pupils. And two of her pupils, after a long time
@@ -266,7 +280,8 @@
                  began to practise the art. And the same day the sentence for their presumption 
                  overtook them; for the tongue of one was seized with an impediment
                  so that she could not speak at all, and the arm of the other withered and
-                 <pb n="16"/><pb n="16"/>became like wood, and would not turn. And immediately [certain persons]
+                 <pb n="16"/>
+                        <pb n="16"/>became like wood, and would not turn. And immediately [certain persons]
                  ran carrying [that] poor woman's fee to her, weeping, and entreating [her] to
                  go with them and [entreat] the old man; and she went with them, and they
                  continued entreating him to forgive them. But [he] in order not to requite
@@ -274,7 +289,7 @@
                  [made the sign over] them, and the bonds were loosened, while he cautioned
                  them not to act presumptuously against the word of God.
               </ab>
-              <ab type="section" xml:id="section-1.6" n="6">
+                    <ab type="section" xml:id="section-1.6" n="6">
                  Again there was a certain <persName ref="http://syriaca.org/person/3196">rich man</persName> in the city against whom many poor
                  men used to complain that he had retained parchments (<foreign xml:lang="grc">χάρτης</foreign>) against them
                  for many years, and, when they had been paid, he used to demand them again.
@@ -283,10 +298,13 @@
                  door, and the door to be shut in his face so that he should not come in;
                  and the old man continued standing at the door and sending him an
                  entreaty [the whole day]. And he [...] was distressed and he wept [...]<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>
-                 <pb n="17"/><pb n="17"/>distressed [...] in confidence in the divine
+                        <pb n="17"/>
+                        <pb n="17"/>distressed [...] in confidence in the divine
                  power that was in him, he said to them, <quote>Go; and, when you have seen
-                    these beasts, say to them [in] a loud [voice], <quote><persName ref="http://syriaca.org/person/3763">Habib</persName> the sinner [says that] you
-                       are not permitted [...] to taste of [... in this] village</quote></quote>.
+                    these beasts, say to them [in] a loud [voice], <quote>
+                                <persName ref="http://syriaca.org/person/3763">Habib</persName> the sinner [says that] you
+                       are not permitted [...] to taste of [... in this] village</quote>
+                        </quote>.
                  [... ]and to the company [...] they said [...] day [...] we comprise in the few
                  acts that have been recorded in order to glorify him who performed them,
                  neglecting the rest, while all of us who are at this time in the body testify to
@@ -297,7 +315,8 @@
                  [began] vigorously to walk wholly in the footsteps of the saint. But, after
                  the [old] <persName ref="http://syriaca.org/person/3763">Habib</persName> had marvellously run in this path of heroism, and of acts
                  of power [and] miracles and signs [and] mighty deeds, and deliverance [of]
-                 <pb n="18"/><pb n="18"/>those who are wronged and of orphans [and of] poor men and of widows,
+                 <pb n="18"/>
+                        <pb n="18"/>those who are wronged and of orphans [and of] poor men and of widows,
                  he was carried to the mansion that is a release from the troubles [of] the
                  body, and fell asleep in peace, having confitently committed his monastery
                  and his labour and the care of the distressed to <persName ref="http://syriaca.org/person/1524">Zʿura</persName> his disciple, who
@@ -307,29 +326,85 @@
                  and ended his course and received his crown;<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> by whose prayers may we
                  merit?<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> [...]
               </ab>
-           </div>
-           <div type="trailer" xml:id="trailer-1">
-              <ab type="section" xml:id="trailer-1.1" n="7">
+                </div>
+                <div type="trailer" xml:id="trailer-1">
+                    <ab type="section" xml:id="trailer-1.1" n="7">
                  The history of the great and divine old man <persName ref="http://syriaca.org/person/3763">Habib</persName> is ended.
               </ab>
-           </div>
-        </div>
-        <noteGrp>
-           <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 5, n. 1</orig></choice>Ms. om.</note>
-           <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 6, n. 1</orig></choice>John, XIV, 12.</note>
-           <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 6, n. 2</orig></choice>P.3.</note>
-           <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 7, n. 1</orig></choice>A leaf or two is missing</note>
-           <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 8, n. 1</orig></choice>Ms. om.</note>
-           <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 9, n. 1</orig></choice>Sic syr.</note>
-           <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 11, n. 1</orig></choice>Job, IX, 4.</note>
-           <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 11, n. 2</orig></choice>Martyropolis.</note>
-           <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 11, n. 3</orig></choice>A leaf or two is missing.</note>
-           <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 14, n. 1</orig></choice>Cf. ch. 7, where a similar story is told.</note>
-           <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 16, n. 1</orig></choice>Some lines missing.</note>
-           <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 17, n. 1</orig></choice>See end of ch. 2.</note>
-           <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 18, n. 1</orig></choice>II Tim., IV, 7, 8.</note>
-           <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 18, n. 2</orig></choice>A leaf or two missing.</note>
-        </noteGrp>
-     </body>
-  </text>
+                </div>
+            </div>
+            <noteGrp>
+                <note xml:id="n1" target="#a1" n="1">
+                    <choice>
+                        <reg/>
+                        <orig>p. 5, n. 1</orig>
+                    </choice>Ms. om.</note>
+                <note xml:id="n2" target="#a2" n="2">
+                    <choice>
+                        <reg/>
+                        <orig>p. 6, n. 1</orig>
+                    </choice>John, XIV, 12.</note>
+                <note xml:id="n3" target="#a3" n="3">
+                    <choice>
+                        <reg/>
+                        <orig>p. 6, n. 2</orig>
+                    </choice>P.3.</note>
+                <note xml:id="n4" target="#a4" n="4">
+                    <choice>
+                        <reg/>
+                        <orig>p. 7, n. 1</orig>
+                    </choice>A leaf or two is missing</note>
+                <note xml:id="n5" target="#a5" n="5">
+                    <choice>
+                        <reg/>
+                        <orig>p. 8, n. 1</orig>
+                    </choice>Ms. om.</note>
+                <note xml:id="n6" target="#a6" n="6">
+                    <choice>
+                        <reg/>
+                        <orig>p. 9, n. 1</orig>
+                    </choice>Sic syr.</note>
+                <note xml:id="n7" target="#a7" n="7">
+                    <choice>
+                        <reg/>
+                        <orig>p. 11, n. 1</orig>
+                    </choice>Job, IX, 4.</note>
+                <note xml:id="n8" target="#a8" n="8">
+                    <choice>
+                        <reg/>
+                        <orig>p. 11, n. 2</orig>
+                    </choice>Martyropolis.</note>
+                <note xml:id="n9" target="#a9" n="9">
+                    <choice>
+                        <reg/>
+                        <orig>p. 11, n. 3</orig>
+                    </choice>A leaf or two is missing.</note>
+                <note xml:id="n10" target="#a10" n="10">
+                    <choice>
+                        <reg/>
+                        <orig>p. 14, n. 1</orig>
+                    </choice>Cf. ch. 7, where a similar story is told.</note>
+                <note xml:id="n11" target="#a11" n="11">
+                    <choice>
+                        <reg/>
+                        <orig>p. 16, n. 1</orig>
+                    </choice>Some lines missing.</note>
+                <note xml:id="n12" target="#a12" n="12">
+                    <choice>
+                        <reg/>
+                        <orig>p. 17, n. 1</orig>
+                    </choice>See end of ch. 2.</note>
+                <note xml:id="n13" target="#a13" n="13">
+                    <choice>
+                        <reg/>
+                        <orig>p. 18, n. 1</orig>
+                    </choice>II Tim., IV, 7, 8.</note>
+                <note xml:id="n14" target="#a14" n="14">
+                    <choice>
+                        <reg/>
+                        <orig>p. 18, n. 2</orig>
+                    </choice>A leaf or two missing.</note>
+            </noteGrp>
+        </body>
+    </text>
 </TEI>

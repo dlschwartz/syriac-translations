@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/818">Thomas of Damascus</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="creator"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
@@ -26,7 +27,7 @@
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
-                     </listBibl>
+                  </listBibl>
                      <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
@@ -36,14 +37,14 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
@@ -66,23 +67,22 @@
          <!-- See spear/818 -->
          <div type="work" xml:id="work-26" n="26">
             <div type="section" xml:id="section-26">
-               <head type="main">Next the Twenty-Sixth History, of the Holy <persName
-                     ref="http://syriaca.org/person/2125">Thomas</persName> the Persecuted Man and
-                  Martyr, Bishop of <placeName ref="http://syriaca.org/place/66"
-                     >Damascus</placeName>.</head>
+               <head type="main">Next the Twenty-Sixth History, of the Holy <persName ref="http://syriaca.org/person/2125">Thomas</persName> the Persecuted Man and
+                  Martyr, Bishop of <placeName ref="http://syriaca.org/place/66">Damascus</placeName>.</head>
                <ab xml:id="section-26.1" n="1"> Whereas we have though enigmatically and obscurely set
-                  down a nar<pb n="541"/><pb n="339"/>rative concerning the divine dispensation
-                  through these two brave warriors and true pastors <persName
-                     ref="http://syriaca.org/person/74">John</persName> and <persName
-                     ref="http://syriaca.org/person/50">John</persName>, we must after the same
+                  down a nar<pb n="541"/>
+                  <pb n="339"/>rative concerning the divine dispensation
+                  through these two brave warriors and true pastors <persName ref="http://syriaca.org/person/74">John</persName> and <persName ref="http://syriaca.org/person/50">John</persName>, we must after the same
                   pattern introduce into the series that is connected with them this third saint
                   also, <persName ref="http://syriaca.org/person/2125">Thomas</persName> the bishop,
                   the whole of whose keen enthusiasm and active administration in God's church is
-                  the same as theirs. For, as the holy....<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1" /></ab>
+                  the same as theirs. For, as the holy....<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+               </ab>
             </div>
          </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice>
+            <note xml:id="n1" target="#a1" n="1">
+               <choice>
                   <reg/>
                   <orig>p. 339, n. 1</orig>
                </choice>The rest of the chapter is lost.</note>
