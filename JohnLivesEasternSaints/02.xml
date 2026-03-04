@@ -46,14 +46,14 @@
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
-         <notesStmt>
+         <!--<notesStmt>
             <relatedItem type="previous">
                <ptr target=""/>
             </relatedItem>
             <relatedItem type="next">
                <ptr target=""/>
             </relatedItem>
-         </notesStmt>
+         </notesStmt>-->
          <sourceDesc>
             <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
@@ -62,8 +62,8 @@
   <text>
       <body>
          <!-- See spear/794.xml -->
-         <div type="work" xml:id="work">
-            <div type="section" xml:id="section-2" n="2">
+         <div type="work" xml:id="work-2" n="2">
+            <div type="section" xml:id="section-2">
                <head type="main">Next the Second History, Of the Divine Blessed Man <persName ref="http://syriaca.org/person/1524">Zʿura</persName>.</head>
                <ab xml:id="section-2.1" n="1">
                   [...] and a spring broke forth and came out in abundance, many times more so than
@@ -381,8 +381,8 @@
                   relate them.
                </ab>
             </div>
-            <div xml:id="trailer" type="trailer">
-               <ab xml:id="trailer-1" n="11">
+            <div type="trailer" xml:id="trailer-2">
+               <ab xml:id="trailer-2.1" n="11">
                   The history of the divine man the blessed <persName ref="http://syriaca.org/person/1524">Zʿura</persName> is ended.
                </ab>
             </div>

@@ -46,14 +46,14 @@
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
-         <notesStmt>
+         <!--<notesStmt>
             <relatedItem type="previous">
                <ptr target=""/>
             </relatedItem>
             <relatedItem type="next">
                <ptr target=""/>
             </relatedItem>
-         </notesStmt>
+         </notesStmt>-->
          <sourceDesc>
             <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
@@ -62,8 +62,8 @@
   <text>
      <body>
         <!-- See spear/793.xml -->
-        <div type="work" xml:id="work">
-           <div type="section" xml:id="section-1" n="1">
+        <div type="work" xml:id="work-1" n="1">
+           <div type="section" xml:id="section-1">
               <head type="main">The First History, of the Great and Divine Old Man <persName ref="http://syriaca.org/person/3763">Habib</persName>.</head>
               <ab type="section" xml:id="section-1.1" n="1">
                  The relation of the history of this apostolic man <persName ref="http://syriaca.org/person/3763">Habib</persName> it is not easy
@@ -308,8 +308,8 @@
                  merit?<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> [...]
               </ab>
            </div>
-           <div type="trailer" xml:id="trailer">
-              <ab type="section" xml:id="trailer-1" n="7">
+           <div type="trailer" xml:id="trailer-1">
+              <ab type="section" xml:id="trailer-1.1" n="7">
                  The history of the great and divine old man <persName ref="http://syriaca.org/person/3763">Habib</persName> is ended.
               </ab>
            </div>

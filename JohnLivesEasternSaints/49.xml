@@ -7,18 +7,21 @@
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/840">Jacob</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
             <idno type="URI"><!-- URI NEEDED --></idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0//">
-                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
-                  <p>This work incorporates public domain material from the following work(s): 
-                     <listBibl>
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International
+                     License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): <listBibl>
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
@@ -26,9 +29,7 @@
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
                      </listBibl>
-                     <note type="license">
-                        used under a Creative Commons Attribution license 
-                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
                </licence>
@@ -37,186 +38,237 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
-         <notesStmt>
+         <!--<notesStmt>
             <relatedItem type="previous">
                <ptr target=""/>
             </relatedItem>
             <relatedItem type="next">
                <ptr target=""/>
             </relatedItem>
-         </notesStmt>
+         </notesStmt>-->
          <sourceDesc>
-            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks.
+               Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <!-- See spear/840 -->
-         <div type="work" xml:id="work"><div type="section" xml:id="section-" n=""><head>Next the Forty-Ninth History, of the Blessed <persName ref="http://syriaca.org/person/69">James</persName> the Bishop and
-            Brave and Valiant Combatant (<foreign xml:lang="grc">άγωνιστής</foreign>) ..</head>
-         <ab>
-            It would not therefore be easy for any one to approach the task of relating
-            the history of the blessed <persName ref="http://syriaca.org/person/69">James</persName> without fear, a history which transcends all
-            the extent of the limits of narrative, a man whose story is higher than all
-            words and all understandings; but out of love of truth we will through our
-            poor language and in our contemptible writing make both a memorial of a
-            few of his own excellencies and a picture of the exhalation of his spiritual
-            beauties. This saint therefore and veritable man of God from his boyhood,
-            while he also was by his birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/200">Thella</placeName>,<ptr type="noteAnchor" target="#n488-2" n="x"/> was trained in the celebrated 
-            convent of the monastery called that of Fsiltha,<ptr type="noteAnchor" target="#n488-3" n="x"/> but some cause
-            <pb n="691"/><pb n="489"/>summoned him together with the blessed <persName ref="http://syriaca.org/person/3258">Sergius</persName> whom we mentioned
-             above,<ptr type="noteAnchor" target="#n489-1" n="x"/> who also attained the honour of the high-priesthood through the
-            blessed <persName ref="http://syriaca.org/person/69">James</persName>, with him first to go up to the royal city on account of the
-            faith.<ptr type="noteAnchor" target="#n489-2" n="x"/> And, when they had been received with great honour by the believing 
-            queen, and she had given them also a house and the rest of what they
-            needed, thenceforth the blessed <persName ref="http://syriaca.org/person/69">James</persName> dwelt alone in a little cell, in great
-            retirement and arduous labours, and asceticism beyond measure, and in
-            extraordinary poverty moreover in mode of life and in clothing, since he
-            would cut one thick and ugly cloak of withes (?) into two, and out of its
-            halves make what was required for his clothing and his scanty covering,<ptr type="noteAnchor" target="#n489-3" n="x"/> and,
-            though the blessed <persName ref="http://syriaca.org/person/3258">Sergius</persName> also as well did as he did and associated himself
-            with him in fasting and vigil and constant recitation of service, yet he fell
-            very far short of the standard of his retirement and his severe practices, on
-            account of the communications brought by many who used to come to them
-            and with whom he was required to speak; but the blessed <persName ref="http://syriaca.org/person/69">James</persName> entirely
-            refused to take part in these things, and refused also to appear during the
-            <pb n="692"/><pb n="490"/>day outside his cell. But, when he had been engaged for a period of about
-            fifteen years in these labours in the same royal city in his cell, then by the
-            provision and at the instigation of the believing queen he was under great
-            pressure summoned to the episcopacy, together with another blessed man
-            from the country of <placeName>Arabia</placeName> whose name was <persName ref="http://syriaca.org/person/3266">Theodore</persName>; because the party of
-            the believers had diminished and a deficiency had moreover arisen in the
-            order of the priesthood over all the commonwealth (<foreign xml:lang="grc">πολιτεία</foreign>) of the party of
-            the believers. And, when both had received the high-priesthood, that is the
-            blessed <persName ref="http://syriaca.org/person/69">James</persName> that of the city of <placeName>Edessa</placeName> and <persName ref="http://syriaca.org/person/3266">Theodore</persName> that of <placeName>Hirtha</placeName> of the
-            Saracens,<ptr type="noteAnchor" target="#n490-1" n="x"/> then he armed himself with divine strength, and went out to the
-            work of his ministry, while he thenceforth began to pour out the priesthood
-            derived from him copiously over the regions in all the eastern districts, like
-            a great river in the days of <persName>Nisan</persName>,<ptr type="noteAnchor" target="#n490-2" n="x"/> having entered upon the high road of
-            heroism at a vigorous spiritual pace without ceasing or resting night and
-            day, while in accordance with the saying of the apostle he clothed himself in
-            the breastplate of righteousness, and girded his loins with the perfection of
-            faith, and took hold of the shield of salvation,<ptr type="noteAnchor" target="#n490-3" n="x"/> while he was at all times.
-            carrying on a contest on behalf of the truth <quote>on the right hand and on the left,
-               <pb n="693"/><pb n="491"/>in glory and in dishonour</quote>.<ptr type="noteAnchor" target="#n491-1" n="x"/> And so in the upper and lower countries, while
-            he was running the vigorous course of heroism without ceasing from the
-            Persian frontier even as for as the royal city of <placeName ref="http://syriaca.org/place/586">Constantinople</placeName>, and <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
-            and all the countries, and fulfilling the work of the ministry to all the orthodox
-            (<foreign xml:lang="grc">όρθόδοξοι</foreign>) believers, not only by organizing the clergy and the giving of the
-            priesthood, but also by consoling and comforting and edifying and strengthening 
-            and teaching all the party of the believers everywhere;<ptr type="noteAnchor" target="#n491-2" n="x"/> so that consequently 
-            his fame was carried over all quarters, and in every country and city;
-            so that all the synodite bishops from all sides were exasperated, and made
-            threats against him to arrest him and tear him in pieces. And, while they
-            were running after him with menaces in all quarters, he was sheltered by
-            the divine grace, and was not delivered into the hands of his pursuers, and of
-            those who sought his life.<ptr type="noteAnchor" target="#n491-3" n="x"/> For, whenever he went to any district, he would
-            complete all the work of his ministry in one night perhaps and one day, and
-            would pass the next night thirty or forty miles or more farther on; and,
-            whenever news of him was heard in one district, and his pursuers went out
-            after him, the brave man would be found in his heroism fulfilling his work in
-            <pb n="694"/><pb n="492"/>another district, while those who were running after him to the right and to
-            the left were found beating the air (<foreign xml:lang="grc">άήρ</foreign>), and,<ptr type="noteAnchor" target="#n492-1" n="x"/> exasperated and biting their
-            fingers, they would turn back with great shame, filled with bitterness and
-            confusion and gnashing their molars against the man mighty in his Lord,
-            and that while news of him was flying about to-day in one quarter and tomorrow 
-            in another; while for his part he resolutely refused to allow even a
-            travelling-companion to carry any gold<ptr type="noteAnchor" target="#n492-1" n="x"/> or silver or bronze with him, or any
-            food upon the journey, though he would travel extended stages (<foreign xml:lang="grc">μανσίων</foreign>) at a
-            vigorous pace, since on many days they would traverse more than the miles of
-            the stage (<foreign xml:lang="grc">μανσίων</foreign>), while he would not consent to the fast and abstinence
-            being broken; insomuch that on many days men could not travel with him
-            and minister to him more than a short time, since they could not hasten on
-            with his old age and support and endure his abstinence; while he also would
-            not consent to avail himself of the use of an animal for riding or for driving,
-            but he used to accomplish his travelling on foot, since besides being
-            strengthened by divine grace he further also possessed a sound body by
-            nature. And thus he would accomplish the course along the road of
-            <pb n="695"/><pb n="493"/>righteousness, and would make an addition to the party of the believers every
-            day in every place, among <persName>Greeks</persName> and among <persName>Syrians</persName>; so that his fame
-            which was in every place sorely exasperated the adversaries, and disturbed
-            them and made them run after him over the roads and districts and quarters.
-            And, when the report of him reached this place, the news of him would
-            further rouse excitement over an unlimited space in one day, while consequently 
-            pursuers and horses would run after him in droves from all sides,
-            meeting one another; insomuch that as chance would have it those who were
-            pursuing him often met the blessed <persName ref="http://syriaca.org/person/69">James</persName> himself, and asked him about
-            himself, saying, <quote>Have you heard any secret news of that deceiver <persName ref="http://syriaca.org/person/69">James</persName>
-               anywhere there?</quote>, and he on his side would name to them a place no small
-            distance behind him, saying: <quote>Yes, I have heard from some men who were
-               saying that he was in such-and-such a place, and was going about there;
-               and, if you set out, perhaps you will catch him.</quote> Having heard<ptr type="noteAnchor" target="#n493-1" n="x"/> these
-            things from him as a piece of secret information and supposing him<ptr type="noteAnchor" target="#n493-1" n="x"/> to be a
-            partisan, they would leave him himself, and run after him in accordance with
-            the story that he had told them.<ptr type="noteAnchor" target="#n493-1" n="x"/> And so their outward eyes were closed
-            <pb n="696"/><pb n="494"/>as well as their inner ones, that they might not recognise the blessed man,
-            while it was not these only who were exasperated and disturbed by the news
-            of him, but also the king himself, who gave no small amount of gold to those
-            who promised to capture the blessed man, bishops and many monks and
-            several laymen; so that many, when they saw his intentness and his eager
-            desire and the gift that he gave for the capture of the blessed man, and that
-            everyone who promised to capture him received from him a large quantity
-            of gold, as much as he asked, used consequently to deceive him, and promise
-            and receive gold, from two hundred and three hundred darics, and go out.
-            And there are some of them who while they were making search with great
-            diligence in every place, in deserts and on mountains and in cities and in
-            villages, were dazed and wearied, while they were unable to find the bondman
-            of God on account of his abstemiousness,<ptr type="noteAnchor" target="#n494-1" n="x"/> though these things continued to
-            be carried on in this way for many years, indeed even till after king Justinian's
-            death, while the blessed man was strengthened in his Lord, and was confident
-            like a lion, and accomplished his ministry, causing the priesthood to flow
-            like great rivers over the whole world of the Roman dominions; so that, if a
-            man take upon himself to say that a hundred thousand were ordained by him,
-            <pb n="697"/><pb n="495"/>I do not think he will depart from the truth; even as no small number of
-            bishops and two patriarchs<ptr type="noteAnchor" target="#n495-1" n="x"/> also received ordination (<foreign xml:lang="grc">χειροντονία</foreign>) from him and
-            from others who were with him as is enjoined in the canons. First he took
-            two admirable blessed men whose names are <persName>Eugene</persName> and <persName>Conon</persName> and entered
-            the city of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, and there with other bishops he made them also as
-            well bishops, and so he went out; and with them he heroically performed the
-            work of the ministry, which has been going on even down to this first year
-            of the reign of Justin the king,<ptr type="noteAnchor" target="#n495-2" n="x"/> though he has now reached an honoured
-            old age, though he does not fall short of the work of youth. For, as we
-            declared at the beginning of the history that is concerned with him that the
-            history that is concerned with him cannot be related in accordance with what
-            he is, so also we state now at the end, having recorded a small portion of the
-            conflict (<foreign xml:lang="grc">άγών</foreign>) of the blessed man's contests and of his pursuits and his work
-            for the glory of God, who chose him and strengthened him and set him up
-            in his church in the time of the persecution, in order that we may all be
-            assisted by his prayer together with that of all the saints Amen and Amen!
-         </ab>
-         <ab>
-            The history of the brave and valiant blessed man <persName ref="http://syriaca.org/person/69">James</persName> the bishop and combatant
-            (<foreign xml:lang="grc">άγωνιστής</foreign>) is ended.
-         </ab></div></div>
+         <div type="work" xml:id="work-49" n="49">
+            <div type="section" xml:id="section-49">
+               <head type="main">Next the Forty-Ninth History, of the Blessed <persName
+                     ref="http://syriaca.org/person/69">James</persName> the Bishop and Brave and
+                  Valiant Combatant (<foreign xml:lang="grc">άγωνιστής</foreign>) ..</head>
+               <ab xml:id="section-49.1" n="1"> It would not therefore be easy for any one to approach
+                  the task of relating the history of the blessed <persName
+                     ref="http://syriaca.org/person/69">James</persName> without fear, a history
+                  which transcends all the extent of the limits of narrative, a man whose story is
+                  higher than all words and all understandings; but out of love of truth we will
+                  through our poor language and in our contemptible writing make both a memorial of
+                  a few of his own excellencies and a picture of the exhalation of his spiritual
+                  beauties. This saint therefore and veritable man of God from his boyhood, while he
+                  also was by his birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName
+                     ref="http://syriaca.org/place/200">Thella</placeName>,<ptr type="noteAnchor" target="#n488-2" n="x"/> was trained in the celebrated convent of the monastery
+                  called that of Fsiltha,<ptr type="noteAnchor" target="#n488-3" n="x"/> but some
+                  cause <pb n="691"/><pb n="489"/>summoned him together with the blessed <persName
+                     ref="http://syriaca.org/person/3258">Sergius</persName> whom we mentioned
+                     above,<ptr type="noteAnchor" target="#n489-1" n="x"/> who also attained the
+                  honour of the high-priesthood through the blessed <persName
+                     ref="http://syriaca.org/person/69">James</persName>, with him first to go up to
+                  the royal city on account of the faith.<ptr type="noteAnchor" target="#n489-2" n="x"/> And, when they had been received with great honour by the believing
+                  queen, and she had given them also a house and the rest of what they needed,
+                  thenceforth the blessed <persName ref="http://syriaca.org/person/69"
+                     >James</persName> dwelt alone in a little cell, in great retirement and arduous
+                  labours, and asceticism beyond measure, and in extraordinary poverty moreover in
+                  mode of life and in clothing, since he would cut one thick and ugly cloak of
+                  withes (?) into two, and out of its halves make what was required for his clothing
+                  and his scanty covering,<ptr type="noteAnchor" target="#n489-3" n="x"/> and,
+                  though the blessed <persName ref="http://syriaca.org/person/3258"
+                     >Sergius</persName> also as well did as he did and associated himself with him
+                  in fasting and vigil and constant recitation of service, yet he fell very far
+                  short of the standard of his retirement and his severe practices, on account of
+                  the communications brought by many who used to come to them and with whom he was
+                  required to speak; but the blessed <persName ref="http://syriaca.org/person/69"
+                     >James</persName> entirely refused to take part in these things, and refused
+                  also to appear during the <pb n="692"/><pb n="490"/>day outside his cell. But,
+                  when he had been engaged for a period of about fifteen years in these labours in
+                  the same royal city in his cell, then by the provision and at the instigation of
+                  the believing queen he was under great pressure summoned to the episcopacy,
+                  together with another blessed man from the country of
+                     <placeName>Arabia</placeName> whose name was <persName
+                     ref="http://syriaca.org/person/3266">Theodore</persName>; because the party of
+                  the believers had diminished and a deficiency had moreover arisen in the order of
+                  the priesthood over all the commonwealth (<foreign xml:lang="grc"
+                     >πολιτεία</foreign>) of the party of the believers. And, when both had received
+                  the high-priesthood, that is the blessed <persName
+                     ref="http://syriaca.org/person/69">James</persName> that of the city of
+                     <placeName>Edessa</placeName> and <persName
+                     ref="http://syriaca.org/person/3266">Theodore</persName> that of
+                     <placeName>Hirtha</placeName> of the Saracens,<ptr type="noteAnchor" target="#n490-1" n="x"/> then he armed himself with divine strength, and went
+                  out to the work of his ministry, while he thenceforth began to pour out the
+                  priesthood derived from him copiously over the regions in all the eastern
+                  districts, like a great river in the days of <persName>Nisan</persName>,<ptr type="noteAnchor" target="#n490-2" n="x"/> having entered upon the high road of
+                  heroism at a vigorous spiritual pace without ceasing or resting night and day,
+                  while in accordance with the saying of the apostle he clothed himself in the
+                  breastplate of righteousness, and girded his loins with the perfection of faith,
+                  and took hold of the shield of salvation,<ptr type="noteAnchor" target="#n490-3" n="x"/> while he was at all times. carrying on a contest on behalf of the truth
+                     <quote>on the right hand and on the left, <pb n="693"/><pb n="491"/>in glory
+                     and in dishonour</quote>.<ptr type="noteAnchor" target="#n491-1" n="x"/> And so
+                  in the upper and lower countries, while he was running the vigorous course of
+                  heroism without ceasing from the Persian frontier even as for as the royal city of
+                     <placeName ref="http://syriaca.org/place/586">Constantinople</placeName>, and
+                     <placeName ref="http://syriaca.org/place/572">Alexandria</placeName> and all
+                  the countries, and fulfilling the work of the ministry to all the orthodox
+                     (<foreign xml:lang="grc">όρθόδοξοι</foreign>) believers, not only by organizing
+                  the clergy and the giving of the priesthood, but also by consoling and comforting
+                  and edifying and strengthening and teaching all the party of the believers
+                     everywhere;<ptr type="noteAnchor" target="#n491-2" n="x"/> so that consequently
+                  his fame was carried over all quarters, and in every country and city; so that all
+                  the synodite bishops from all sides were exasperated, and made threats against him
+                  to arrest him and tear him in pieces. And, while they were running after him with
+                  menaces in all quarters, he was sheltered by the divine grace, and was not
+                  delivered into the hands of his pursuers, and of those who sought his life.<ptr type="noteAnchor" target="#n491-3" n="x"/> For, whenever he went to any
+                  district, he would complete all the work of his ministry in one night perhaps and
+                  one day, and would pass the next night thirty or forty miles or more farther on;
+                  and, whenever news of him was heard in one district, and his pursuers went out
+                  after him, the brave man would be found in his heroism fulfilling his work in <pb
+                     n="694"/><pb n="492"/>another district, while those who were running after him
+                  to the right and to the left were found beating the air (<foreign xml:lang="grc"
+                     >άήρ</foreign>), and,<ptr type="noteAnchor" target="#n492-1" n="x"/>
+                  exasperated and biting their fingers, they would turn back with great shame,
+                  filled with bitterness and confusion and gnashing their molars against the man
+                  mighty in his Lord, and that while news of him was flying about to-day in one
+                  quarter and tomorrow in another; while for his part he resolutely refused to allow
+                  even a travelling-companion to carry any gold<ptr type="noteAnchor" target="#n492-1" n="x"/> or silver or bronze with him, or any food upon the
+                  journey, though he would travel extended stages (<foreign xml:lang="grc"
+                     >μανσίων</foreign>) at a vigorous pace, since on many days they would traverse
+                  more than the miles of the stage (<foreign xml:lang="grc">μανσίων</foreign>),
+                  while he would not consent to the fast and abstinence being broken; insomuch that
+                  on many days men could not travel with him and minister to him more than a short
+                  time, since they could not hasten on with his old age and support and endure his
+                  abstinence; while he also would not consent to avail himself of the use of an
+                  animal for riding or for driving, but he used to accomplish his travelling on
+                  foot, since besides being strengthened by divine grace he further also possessed a
+                  sound body by nature. And thus he would accomplish the course along the road of
+                     <pb n="695"/><pb n="493"/>righteousness, and would make an addition to the
+                  party of the believers every day in every place, among <persName>Greeks</persName>
+                  and among <persName>Syrians</persName>; so that his fame which was in every place
+                  sorely exasperated the adversaries, and disturbed them and made them run after him
+                  over the roads and districts and quarters. And, when the report of him reached
+                  this place, the news of him would further rouse excitement over an unlimited space
+                  in one day, while consequently pursuers and horses would run after him in droves
+                  from all sides, meeting one another; insomuch that as chance would have it those
+                  who were pursuing him often met the blessed <persName
+                     ref="http://syriaca.org/person/69">James</persName> himself, and asked him
+                  about himself, saying, <quote>Have you heard any secret news of that deceiver
+                        <persName ref="http://syriaca.org/person/69">James</persName> anywhere
+                     there?</quote>, and he on his side would name to them a place no small distance
+                  behind him, saying: <quote>Yes, I have heard from some men who were saying that he
+                     was in such-and-such a place, and was going about there; and, if you set out,
+                     perhaps you will catch him.</quote> Having heard<ptr type="noteAnchor" target="#n493-1" n="x"/> these things from him as a piece of secret information
+                  and supposing him<ptr type="noteAnchor" target="#n493-1" n="x"/> to be a partisan,
+                  they would leave him himself, and run after him in accordance with the story that
+                  he had told them.<ptr type="noteAnchor" target="#n493-1" n="x"/> And so their
+                  outward eyes were closed <pb n="696"/><pb n="494"/>as well as their inner ones,
+                  that they might not recognise the blessed man, while it was not these only who
+                  were exasperated and disturbed by the news of him, but also the king himself, who
+                  gave no small amount of gold to those who promised to capture the blessed man,
+                  bishops and many monks and several laymen; so that many, when they saw his
+                  intentness and his eager desire and the gift that he gave for the capture of the
+                  blessed man, and that everyone who promised to capture him received from him a
+                  large quantity of gold, as much as he asked, used consequently to deceive him, and
+                  promise and receive gold, from two hundred and three hundred darics, and go out.
+                  And there are some of them who while they were making search with great diligence
+                  in every place, in deserts and on mountains and in cities and in villages, were
+                  dazed and wearied, while they were unable to find the bondman of God on account of
+                  his abstemiousness,<ptr type="noteAnchor" target="#n494-1" n="x"/> though these
+                  things continued to be carried on in this way for many years, indeed even till
+                  after king Justinian's death, while the blessed man was strengthened in his Lord,
+                  and was confident like a lion, and accomplished his ministry, causing the
+                  priesthood to flow like great rivers over the whole world of the Roman dominions;
+                  so that, if a man take upon himself to say that a hundred thousand were ordained
+                  by him, <pb n="697"/><pb n="495"/>I do not think he will depart from the truth;
+                  even as no small number of bishops and two patriarchs<ptr type="noteAnchor" target="#n495-1" n="x"/> also received ordination (<foreign xml:lang="grc"
+                     >χειροντονία</foreign>) from him and from others who were with him as is
+                  enjoined in the canons. First he took two admirable blessed men whose names are
+                     <persName>Eugene</persName> and <persName>Conon</persName> and entered the city
+                  of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, and there
+                  with other bishops he made them also as well bishops, and so he went out; and with
+                  them he heroically performed the work of the ministry, which has been going on
+                  even down to this first year of the reign of Justin the king,<ptr type="noteAnchor" target="#n495-2" n="x"/> though he has now reached an
+                  honoured old age, though he does not fall short of the work of youth. For, as we
+                  declared at the beginning of the history that is concerned with him that the
+                  history that is concerned with him cannot be related in accordance with what he
+                  is, so also we state now at the end, having recorded a small portion of the
+                  conflict (<foreign xml:lang="grc">άγών</foreign>) of the blessed man's contests
+                  and of his pursuits and his work for the glory of God, who chose him and
+                  strengthened him and set him up in his church in the time of the persecution, in
+                  order that we may all be assisted by his prayer together with that of all the
+                  saints Amen and Amen! </ab>
+            </div>
+            <div type="trailer" xml:id="trailer-49">
+               <ab xml:id="trailer-49.1" n="2"> The history of the brave and valiant blessed man
+                  <persName ref="http://syriaca.org/person/69">James</persName> the bishop and
+                  combatant (<foreign xml:lang="grc">άγωνιστής</foreign>) is ended. </ab>
+            </div>
+         </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 488, n. 2</orig></choice>Constantina.</note>
-            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 488, n. 3</orig></choice>Sc. <hi rend="singleQuotes">the quarry</hi>.</note>
-            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 489, n. 1</orig></choice>P. 487.</note>
-            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 489, n. 2</orig></choice>According to the spurious life (see Appendix) for a conference with the Chalcedonians; but, if he became a bp. in 542 (ch. 50) and lived 15 yrs in C.P., he must have come in 527, which is before the time of the conferences.</note>
-            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 489, n. 3</orig></choice>See p. 319, n.2. The meaning may also be that he used half for clothing and half for a night-covering. From this attire he got the nickname <hi rend="singleQuotes">Burd'aya</hi> or <hi rend="singleQuotes">Burd'ayna</hi> (the man of the patchwork garment); cf. p. 423.</note>
-            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 490, n. 1</orig></choice>Also called Hirtha d Nu'man (p. 145). The mention of Theodore and his see had been omitted in the ms. and is supplied from ch. 50.</note>
-            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 490, n. 2</orig></choice>April.</note>
-            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 490, n. 3</orig></choice>Eph., VI, 14-17.</note>
-            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 491, n. 1</orig></choice>II Cor., VI, 7. 8.</note>
-            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 491, n. 2</orig></choice>The sentence is left unfinished.</note>
-            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 491, n. 3</orig></choice>Jer., XLIV, 30.</note>
-            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 492, n. 1</orig></choice>Ms. om.</note>
-            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 492, n. 2</orig></choice>So I emend from the interpolated life (see Introd., p. XIV, n. 7).</note>
-            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 493, n. 1</orig></choice>Ms. om.</note>
-            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 493, n. 2</orig></choice>The same story is told of Simeon of Beth Arsham (p. 145).</note>
-            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 494, n. 1</orig></choice>This appy. means that he was able to travel so rapidly because he travelled so light and did not get stop to take food.</note>
-            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 495, n. 1</orig></choice>Sergius and Paul.</note>
-            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 495, n. 2</orig></choice>566.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 488, n.
+               2</orig></choice>Constantina.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 488, n. 3</orig></choice>Sc.
+                  <hi rend="singleQuotes">the quarry</hi>.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 489, n. 1</orig></choice>P.
+               487.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 489, n.
+               2</orig></choice>According to the spurious life (see Appendix) for a conference with
+               the Chalcedonians; but, if he became a bp. in 542 (ch. 50) and lived 15 yrs in C.P.,
+               he must have come in 527, which is before the time of the conferences.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 489, n. 3</orig></choice>See
+               p. 319, n.2. The meaning may also be that he used half for clothing and half for a
+               night-covering. From this attire he got the nickname <hi rend="singleQuotes"
+                  >Burd'aya</hi> or <hi rend="singleQuotes">Burd'ayna</hi> (the man of the patchwork
+               garment); cf. p. 423.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 490, n.
+               1</orig></choice>Also called Hirtha d Nu'man (p. 145). The mention of Theodore and
+               his see had been omitted in the ms. and is supplied from ch. 50.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 490, n.
+               2</orig></choice>April.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 490, n.
+               3</orig></choice>Eph., VI, 14-17.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 491, n. 1</orig></choice>II
+               Cor., VI, 7. 8.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 491, n.
+               2</orig></choice>The sentence is left unfinished.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 491, n.
+               3</orig></choice>Jer., XLIV, 30.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 492, n.
+               1</orig></choice>Ms. om.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 492, n.
+               2</orig></choice>So I emend from the interpolated life (see Introd., p. XIV, n.
+               7).</note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 493, n.
+               1</orig></choice>Ms. om.</note>
+            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 493, n.
+               2</orig></choice>The same story is told of Simeon of Beth Arsham (p. 145).</note>
+            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 494, n.
+               1</orig></choice>This appy. means that he was able to travel so rapidly because he
+               travelled so light and did not get stop to take food.</note>
+            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 495, n.
+               1</orig></choice>Sergius and Paul.</note>
+            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 495, n.
+               2</orig></choice>566.</note>
          </noteGrp>
       </body>
    </text>

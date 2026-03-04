@@ -9,16 +9,17 @@
             <title ref="http://syriaca.org/work/818">Thomas of Damascus</title>
             <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
             <idno type="URI"><!-- URI NEEDED --></idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0//">
-                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
-                  <p>This work incorporates public domain material from the following work(s): 
-                     <listBibl>
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International
+                     License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): <listBibl>
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
@@ -26,9 +27,7 @@
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
                      </listBibl>
-                     <note type="license">
-                        used under a Creative Commons Attribution license 
-                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
                </licence>
@@ -37,43 +36,56 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
-         <notesStmt>
+         <!--<notesStmt>
             <relatedItem type="previous">
                <ptr target=""/>
             </relatedItem>
             <relatedItem type="next">
                <ptr target=""/>
             </relatedItem>
-         </notesStmt>
+         </notesStmt>-->
          <sourceDesc>
-            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks.
+               Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <!-- See spear/818 -->
-         <div type="work" xml:id="work"><div type="section" xml:id="section-" n=""><head>Next the Twenty-Sixth History, of the Holy <persName ref="http://syriaca.org/person/2125">Thomas</persName> the
-            Persecuted Man and Martyr, Bishop of <placeName ref="http://syriaca.org/place/66">Damascus</placeName>.</head>
-         <ab>
-            Whereas we have though enigmatically and obscurely set down a nar<pb n="541"/><pb n="339"/>rative 
-            concerning the divine dispensation through these two brave warriors
-            and true pastors <persName ref="http://syriaca.org/person/74">John</persName> and <persName ref="http://syriaca.org/person/50">John</persName>, we must after the same pattern introduce
-            into the series that is connected with them this third saint also, <persName ref="http://syriaca.org/person/2125">Thomas</persName>
-            the bishop, the whole of whose keen enthusiasm and active administration
-            in God's church is the same as theirs. For, as the holy.<ptr type="noteAnchor" target="#n339-1" n="x"/>...
-         </ab></div></div>
+         <div type="work" xml:id="work-26" n="26">
+            <div type="section" xml:id="section-26">
+               <head type="main">Next the Twenty-Sixth History, of the Holy <persName
+                     ref="http://syriaca.org/person/2125">Thomas</persName> the Persecuted Man and
+                  Martyr, Bishop of <placeName ref="http://syriaca.org/place/66"
+                     >Damascus</placeName>.</head>
+               <ab xml:id="section-26.1" n="1"> Whereas we have though enigmatically and obscurely set
+                  down a nar<pb n="541"/><pb n="339"/>rative concerning the divine dispensation
+                  through these two brave warriors and true pastors <persName
+                     ref="http://syriaca.org/person/74">John</persName> and <persName
+                     ref="http://syriaca.org/person/50">John</persName>, we must after the same
+                  pattern introduce into the series that is connected with them this third saint
+                  also, <persName ref="http://syriaca.org/person/2125">Thomas</persName> the bishop,
+                  the whole of whose keen enthusiasm and active administration in God's church is
+                  the same as theirs. For, as the holy....<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1" /></ab>
+            </div>
+         </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 339, n. 1</orig></choice>The rest of the chapter is lost.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice>
+                  <reg/>
+                  <orig>p. 339, n. 1</orig>
+               </choice>The rest of the chapter is lost.</note>
          </noteGrp>
       </body>
    </text>

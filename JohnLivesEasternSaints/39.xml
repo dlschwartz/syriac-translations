@@ -9,16 +9,17 @@
             <title ref="http://syriaca.org/work/830">Leontius</title>
             <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
             <idno type="URI"><!-- URI NEEDED --></idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0//">
-                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
-                  <p>This work incorporates public domain material from the following work(s): 
-                     <listBibl>
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International
+                     License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): <listBibl>
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
@@ -26,9 +27,7 @@
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
                      </listBibl>
-                     <note type="license">
-                        used under a Creative Commons Attribution license 
-                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
                </licence>
@@ -37,77 +36,105 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
-         <notesStmt>
+         <!--<notesStmt>
             <relatedItem type="previous">
                <ptr target=""/>
             </relatedItem>
             <relatedItem type="next">
                <ptr target=""/>
             </relatedItem>
-         </notesStmt>
+         </notesStmt>-->
          <sourceDesc>
-            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks.
+               Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <!-- See spear/830 -->
-         <div type="work" xml:id="work"><div type="section" xml:id="section-" n=""><head>Next the Thirty Ninth History, About the Blessed <persName ref="http://syriaca.org/person/1853">Leontius</persName> the Presbyter, 
-            Who Also Was an Excellent and Great Man of God.</head>
-         <ab>
-            The character therefore of this blessed <persName ref="http://syriaca.org/person/1853">Leontius</persName> the presbyter was very
-            like that of the blessed <persName ref="http://syriaca.org/person/1533">Aaron</persName>; insomuch that they accordingly vied with one
-            another; and thus also one would be eager to excel the other in modes of life,
-            and to surpass him in spiritual labours, and to imitate him in humility and
-            to resemble him in obedience, and that in all matters they should be imitators
-            of religious practices, and especially in love toward one another and toward
-            everyone. But this devout <persName ref="http://syriaca.org/person/1853">Leontius</persName> was by birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName ref="http://syriaca.org/place/2798">Ingilene</placeName> from
-            a village called <placeName ref="http://syriaca.org/place/2866">ʿbwbnt</placeName>; and he lived in the holy monastery of the blessed
-            Mar <persName>Samuel</persName>.<ptr type="noteAnchor" target="#n443-1" n="x"/> And, occasion having once called him to go up himself to the
-            <pb n="646"/><pb n="444"/>royal city with some blessed men from the same convent, he conceived a
-            desire to live with us and with the blessed <persName ref="http://syriaca.org/person/1533">Aaron</persName> and the rest, and he remained
-            with us, living a whole-hearted and laborious life, so that once on learning
-            about a certain excellent man who was passing his life in great labours
-            of pilgrimage he was moved with zeal himself also to labour in the same
-            course with the other blessed man who was called <persName ref="http://syriaca.org/person/2032">Kashish</persName><ptr type="noteAnchor" target="#n444-1" n="x"/> and was a
-            member of our own convent and had been brought up with us from our
-            childhood. And so both of them went forth in this zeal for pilgrimage, each of
-            them separately, while both also let their hair grow long in secular fashion,
-            in order that they might not be recognised and honoured by men as monks.
-            When they had been thus travelling in the regions of the east and the west
-            and the south each of them separately for many years, and when the brunt
-            of trials had fallen heavily upon them, after some years they came to us,
-            that is first the blessed <persName ref="http://syriaca.org/person/1853">Leontius</persName>. When he had for some time been labouring
-            with us in the service of God in saving persons from paganism also, he at
-            last attained to ordination as a presbyter, even as the blessed <persName ref="http://syriaca.org/person/2032">Kashish</persName> also
-            who named himself <persName ref="http://syriaca.org/person/74">John</persName>, who was a presbyter, himself also too attained to
-            ordination to the great and honourable yoke of the episcopacy;<ptr type="noteAnchor" target="#n444-2" n="x"/> that is,
-            <pb n="647"/><pb n="445"/>both of them were with compulsion and by great effort brought to this against
-            their will by the use of many artifices. When the blessed <persName ref="http://syriaca.org/person/1853">Leontius</persName> had
-            completed twenty years more or less in the convent that is with us in divine
-            employments with constancy and earnestness, then he finished the course
-            of his practices and departed from the world, and he too was laid with the
-            blessed <persName ref="http://syriaca.org/person/1533">Aaron</persName>. But the blessed <persName ref="http://syriaca.org/person/74">John</persName>, who is also <persName ref="http://syriaca.org/person/2032">Kashish</persName>, was still in the
-            body when these things were written, engaged in the same divine practices
-            and living in advanced old age.
-         </ab>
-         <ab>
-            The history of the blessed <persName ref="http://syriaca.org/person/1853">Leontius</persName> is ended.
-         </ab></div></div>
+         <div type="work" xml:id="work-39" n="39">
+            <div type="section" xml:id="section-39">
+               <head type="main">Next the Thirty Ninth History, About the Blessed <persName
+                     ref="http://syriaca.org/person/1853">Leontius</persName> the Presbyter, Who
+                  Also Was an Excellent and Great Man of God.</head>
+               <ab xml:id="section-39.1" n="1"> The character therefore of this blessed <persName
+                     ref="http://syriaca.org/person/1853">Leontius</persName> the presbyter was very
+                  like that of the blessed <persName ref="http://syriaca.org/person/1533"
+                     >Aaron</persName>; insomuch that they accordingly vied with one another; and
+                  thus also one would be eager to excel the other in modes of life, and to surpass
+                  him in spiritual labours, and to imitate him in humility and to resemble him in
+                  obedience, and that in all matters they should be imitators of religious
+                  practices, and especially in love toward one another and toward everyone. But this
+                  devout <persName ref="http://syriaca.org/person/1853">Leontius</persName> was by
+                  birth (<foreign xml:lang="grc">γένος</foreign>) from <placeName
+                     ref="http://syriaca.org/place/2798">Ingilene</placeName> from a village called
+                     <placeName ref="http://syriaca.org/place/2866">ʿbwbnt</placeName>; and he lived
+                  in the holy monastery of the blessed Mar <persName>Samuel</persName>.<ptr type="noteAnchor" target="#n443-1" n="x"/> And, occasion having once called him
+                  to go up himself to the <pb n="646"/><pb n="444"/>royal city with some blessed men
+                  from the same convent, he conceived a desire to live with us and with the blessed
+                     <persName ref="http://syriaca.org/person/1533">Aaron</persName> and the rest,
+                  and he remained with us, living a whole-hearted and laborious life, so that once
+                  on learning about a certain excellent man who was passing his life in great
+                  labours of pilgrimage he was moved with zeal himself also to labour in the same
+                  course with the other blessed man who was called <persName
+                     ref="http://syriaca.org/person/2032">Kashish</persName><ptr type="noteAnchor" target="#n444-1" n="x"/> and was a member of our own convent and had been
+                  brought up with us from our childhood. And so both of them went forth in this zeal
+                  for pilgrimage, each of them separately, while both also let their hair grow long
+                  in secular fashion, in order that they might not be recognised and honoured by men
+                  as monks. When they had been thus travelling in the regions of the east and the
+                  west and the south each of them separately for many years, and when the brunt of
+                  trials had fallen heavily upon them, after some years they came to us, that is
+                  first the blessed <persName ref="http://syriaca.org/person/1853"
+                     >Leontius</persName>. When he had for some time been labouring with us in the
+                  service of God in saving persons from paganism also, he at last attained to
+                  ordination as a presbyter, even as the blessed <persName
+                     ref="http://syriaca.org/person/2032">Kashish</persName> also who named himself
+                     <persName ref="http://syriaca.org/person/74">John</persName>, who was a
+                  presbyter, himself also too attained to ordination to the great and honourable
+                  yoke of the episcopacy;<ptr type="noteAnchor" target="#n444-2" n="x"/> that is,
+                     <pb n="647"/><pb n="445"/>both of them were with compulsion and by great effort
+                  brought to this against their will by the use of many artifices. When the blessed
+                     <persName ref="http://syriaca.org/person/1853">Leontius</persName> had
+                  completed twenty years more or less in the convent that is with us in divine
+                  employments with constancy and earnestness, then he finished the course of his
+                  practices and departed from the world, and he too was laid with the blessed
+                     <persName ref="http://syriaca.org/person/1533">Aaron</persName>. But the
+                  blessed <persName ref="http://syriaca.org/person/74">John</persName>, who is also
+                     <persName ref="http://syriaca.org/person/2032">Kashish</persName>, was still in
+                  the body when these things were written, engaged in the same divine practices and
+                  living in advanced old age. </ab>
+            </div>
+            <div type="trailer" xml:id="trailer-39">
+               <ab xml:id="trailer-39.1" n="2"> The history of the blessed <persName
+                     ref="http://syriaca.org/person/1853">Leontius</persName> is ended. </ab>
+            </div>
+         </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 443, n. 1</orig></choice>Ch. ch. 58 (f. 132 v' b).</note>
-            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 444, n. 1</orig></choice>His life is given in ch. 51.</note>
-            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 444, n. 2</orig></choice>See ch. 50 (f. 119 v' b). The date was probably 558. See Introd., p. V.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice>
+                  <reg/>
+                  <orig>p. 443, n. 1</orig>
+               </choice>Ch. ch. 58 (f. 132 v' b).</note>
+            <note xml:id="n2" target="#a2" n="2"><choice>
+                  <reg/>
+                  <orig>p. 444, n. 1</orig>
+               </choice>His life is given in ch. 51.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice>
+                  <reg/>
+                  <orig>p. 444, n. 2</orig>
+               </choice>See ch. 50 (f. 119 v' b). The date was probably 558. See Introd., p.
+               V.</note>
          </noteGrp>
       </body>
    </text>

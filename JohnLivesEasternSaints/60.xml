@@ -2,22 +2,25 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://syriaca.org/work/850">Jacob Baradaeus (Translation of His Body)</title>
-            <author><persName ref="http://syriaca.org/person/85">Cyriacus of Amida</persName></author>
+            <title ref="http://syriaca.org/work/850">Jacob Baradaeus (Translation of His
+               Body)</title>
+            <author><persName ref="http://syriaca.org/person/85">Cyriacus of
+               Amida</persName></author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
             <idno type="URI"><!-- URI NEEDED --></idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0//">
-                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
-                  <p>This work incorporates public domain material from the following work(s): 
-                     <listBibl>
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International
+                     License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): <listBibl>
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
@@ -25,9 +28,7 @@
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
                      </listBibl>
-                     <note type="license">
-                        used under a Creative Commons Attribution license 
-                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
                </licence>
@@ -36,137 +37,286 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
          <sourceDesc>
-            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks.
+               Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
-         <!-- See spear/850 --> <!-- eb, I cannot find spear/850 so I have merely attached persNames and placeNames for now. -->
-         <div type="work" xml:id="work"><div type="section" xml:id="section-" n=""><head>A Writing of<ptr type="noteAnchor" target="#n614-1"/> Mar Cyriac Bishop of <placeName>Amrna</placeName> About the Same<ptr type="noteAnchor" target="#n614-2"/> Holy Mar <persName>James</persName><ptr type="noteAnchor" target="#n614-3"/>.</head>
-         <ab>
-            When then Mar <persName>James</persName> the bishop from the holy convent of <placeName>Fsiltha</placeName> had
-            departed to our Lord a considerable time before, and the patriarch Mar
-            <persName>Athanasius</persName> had arisen upon the see of <persName>Peter</persName> the great<ptr type="noteAnchor" target="#n614-4"/>, <persName>Phocas</persName> king of the
-            <persName>Romans</persName> again expelled the orthodox (<foreign xml:lang="grc">όρθόδοξοι</foreign>) bishops from their sees and
-            appointed heretics<ptr type="noteAnchor" target="#n614-5"/>, but by the judgments of God the Persian king Khosrau
-            <pb n="269"/><pb n="615"/>son of <persName>Hormizd</persName> came and took all the country east of the <placeName>Euphrates</placeName> in war<ptr type="noteAnchor" target="#n615-1"/>;
-            and by God's provision and queen <persName>Shirin</persName>'s advice he<ptr type="noteAnchor" target="#n615-2"/> expelled the bishops
-            of <placeName>Chalcedon</placeName> from the cities east of the <placeName>Euphrates</placeName>, and appointed orthodox
-            (<foreign xml:lang="grc">όρθόδοξοι</foreign>) bishops in their places, viz. in <placeName>Amida</placeName> Mar <persName>Samuel</persName>, and in <placeName>Edessa</placeName>
-            Mar <persName>Isaiah</persName>, and in <placeName>Rhesaina</placeName> Mar <persName>Addai</persName>, and in <placeName>Thella</placeName> Mar <persName>Zakkhai</persName>; and so
-            in every district and city<ptr type="noteAnchor" target="#n615-3"/>, while they agreed in everything with the blessed
-            patriarch. At this same time therefore, when Mar <persName>Zakkhai</persName> bishop of <placeName>Thella</placeName>
-            had heard and learned of the holiness of the blessed Mar <persName>James</persName>, he was
-            zealous for the Lord and for that holy soul and exerted and bestirred himself,
-            and sent four blessed men from his convent, and two of the clergymen of the
-            city (and he supplied them with a swift animal and money) to go to the monastery
-            of <placeName>Casium</placeName> in which he fell asleep, and steal him<ptr type="noteAnchor" target="#n615-4"/> thence. And he laid
-            down a law (<foreign xml:lang="grc">νόμος</foreign>) for them as to how they should act and dispatched them.
-            Now those who went were sent in the year nine hundred and thirty-three of the
-            <persName>Greeks</persName><ptr type="noteAnchor" target="#n615-5"/>. And at the same time <persName>Heraclius</persName> king of the <persName>Romans</persName><ptr type="noteAnchor" target="#n615-6"/> came, and
-            took all the country east of the <placeName>Euphrates</placeName>, and drove the <persName>Persians</persName> as far as
-            <pb n="270"/><pb n="616"/><placeName>Nisibis</placeName> which is on the frontier<ptr type="noteAnchor" target="#n616-1"/>. And<ptr type="noteAnchor" target="#n616-2"/> the members of the monastery went
-            in the days of the devout Mar <persName>Stephen</persName> who was termed Shbiliya<ptr type="noteAnchor" target="#n616-3"/>; and, having
-            gone and arrived at the monastery of <placeName>Casium</placeName>, they went into the monastery
-            and prayed and came near<ptr type="noteAnchor" target="#n616-4"/> and were blessed by the holy Mar <persName>James</persName>, and
-            by<ptr type="noteAnchor" target="#n616-5"/> the brothers of the house. And on being asked whither they were
-            travelling they answered <quote>We are envoys of the church of <placeName>Syria</placeName> to the pope.
-               of <placeName>Alexandria</placeName>.</quote> Then they were received with much honour. When then<ptr type="noteAnchor" target="#n616-6"/>
-            they had remained there two days, in accordance with a plan and trick that
-            had been concerted by them on the way, one of these monks<ptr type="noteAnchor" target="#n616-4"/>, the envoys,
-            set up a wail being possessed by a demon<ptr type="noteAnchor" target="#n616-7"/> and foaming and went out of his
-            mind<ptr type="noteAnchor" target="#n616-4"/>. And his companions began to be distressed and weep; and in
-            sorrow they went on to fasten their companion to the sarcophagus of the
-            <pb n="271"/><pb n="617"/>holy Mar <persName>James</persName>, in order that he might learn how<ptr type="noteAnchor" target="#n617-1"/> to steal that holy body,
-            while his companions on his account slept<ptr type="noteAnchor" target="#n617-2"/> with him close by the sarcophagus 
-            itself. But during the night they would bore, and in the day cover the
-            borings that they had made. And, when the task had become easy for them,
-            they took the keys (<foreign xml:lang="grc">κλείδα</foreign>) of the monastery to themselves, that their task
-            might be easily accomplished<ptr type="noteAnchor" target="#n617-3"/>. Then they said to the members of the
-            monastery of <placeName>Casium</placeName>, <quote>We, sirs<ptr type="noteAnchor" target="#n617-4"/>, since we have a letter with us, cannot
-               remain here with this sick man<ptr type="noteAnchor" target="#n617-5"/>; but we will leave one of us with him and
-               a swift animal, in order that, when the Lord pleases and he recovers, he may
-               quickly join us at <placeName>Alexandria</placeName>, in the holy convent of <placeName>Marth Zoila</placeName><ptr type="noteAnchor" target="#n617-6"/>, but pray
-               for us</quote>. And, having gone thence, they came as far as <placeName>Palestine</placeName> on their
-            return; and the man who had feigned madness and his companion rose by
-            night and took the body of the holy Mar <persName>James</persName>, and wrapped it in silk
-            shrouds, and came on the swift animal to their companions in <placeName>Palestine</placeName>
-            according to the agreement that they had made with one another.
-         </ab>
-         <pb n="272"/><pb n="618"/>
-         <ab>
-            But the blessed men the members of the monastery of <placeName>Casium</placeName>, when
-            they rose in the morning and saw that the saint's body had been taken
-            away, lifted up their voice in weeping and in sobs; and they went in all
-            directions after them, and did not find them<ptr type="noteAnchor" target="#n618-1"/>; and they returned to their
-            monastery mourning. But the blessed men departed from <placeName>Palestine</placeName>, themselves 
-            and the clergymen, and rapidly arrived at the city of <placeName>Thella</placeName>, carrying 
-            his holy body with them. And, when the bishop<ptr type="noteAnchor" target="#n618-2"/> and the clergy
-            and the citizens<ptr type="noteAnchor" target="#n618-3"/> heard of it, they went to meet it with lights and incense
-            and songs of praise, and carried it round the whole city, accompanying it
-            with spiritual odes, and chants of the Holy Spirit. And then they<ptr type="noteAnchor" target="#n618-4"/> wrapped
-            it round and laid it in his monastery, the convent of <placeName>Fsiltha</placeName>, in the temple
-            which the saint had built in his lifetime<ptr type="noteAnchor" target="#n618-5"/>, and it is there for the assistance
-            and healing of all men<ptr type="noteAnchor" target="#n618-6"/>, and for the honour and praise of Christ his<ptr type="noteAnchor" target="#n618-7"/> God;
-            <pb n="273"/><pb n="619"/>to whom and to his Father with his<ptr type="noteAnchor" target="#n619-1"/> Holy Spirit be praise and honour
-            and worship and exaltation, now and always and<ptr type="noteAnchor" target="#n619-2"/> for ever and ever. Amen!
-         </ab>
-         <ab>
-            The history of Mar <persName>James</persName> bishop of <placeName>Edessa</placeName><ptr type="noteAnchor" target="#n619-3"/> is ended.
-         </ab>
-         <ab> <!-- See this note. Also, this colophon seems to apply to the whole collection of lives. -->
-            This history was written by the industry of Mar <persName>Theodosius</persName> presbyter and
-            stylite of the monastery of <placeName>Fsiltha</placeName>, in the days of Mar <persName>Stephen</persName>, archimandrite 
-            of the same convent, in the year a thousand and fifty-two
-            of <persName>Seleucus</persName><ptr type="noteAnchor" target="#n619-4"/>.
-         </ab></div></div>
+         <!-- See spear/850 -->
+         <!-- eb, I cannot find spear/850 so I have merely attached persNames and placeNames for now. -->
+         <div type="work" xml:id="work-60" n="60">
+            <div type="section" xml:id="section-60">
+               <head type="main">A Writing of<ptr type="noteAnchor" target="#n614-1"/> Mar Cyriac Bishop of
+                     <placeName>Amrna</placeName> About the Same<ptr type="noteAnchor" target="#n614-2"/> Holy Mar <persName>James</persName><ptr type="noteAnchor" target="#n614-3"/>.</head>
+               <ab xml:id="section-60.1" n="1"> When then Mar <persName>James</persName> the bishop from
+                  the holy convent of <placeName>Fsiltha</placeName> had departed to our Lord a
+                  considerable time before, and the patriarch Mar <persName>Athanasius</persName>
+                  had arisen upon the see of <persName>Peter</persName> the great<ptr type="noteAnchor" target="#n614-4"/>, <persName>Phocas</persName> king of the
+                     <persName>Romans</persName> again expelled the orthodox (<foreign
+                     xml:lang="grc">όρθόδοξοι</foreign>) bishops from their sees and appointed
+                     heretics<ptr type="noteAnchor" target="#n614-5"/>, but by the judgments of God
+                  the Persian king Khosrau <pb n="269"/><pb n="615"/>son of
+                     <persName>Hormizd</persName> came and took all the country east of the
+                     <placeName>Euphrates</placeName> in war<ptr type="noteAnchor" target="#n615-1" />; and by God's provision and queen <persName>Shirin</persName>'s advice he<ptr type="noteAnchor" target="#n615-2"/> expelled the bishops of
+                     <placeName>Chalcedon</placeName> from the cities east of the
+                     <placeName>Euphrates</placeName>, and appointed orthodox (<foreign
+                     xml:lang="grc">όρθόδοξοι</foreign>) bishops in their places, viz. in
+                     <placeName>Amida</placeName> Mar <persName>Samuel</persName>, and in
+                     <placeName>Edessa</placeName> Mar <persName>Isaiah</persName>, and in
+                     <placeName>Rhesaina</placeName> Mar <persName>Addai</persName>, and in
+                     <placeName>Thella</placeName> Mar <persName>Zakkhai</persName>; and so in every
+                  district and city<ptr type="noteAnchor" target="#n615-3"/>, while they agreed in
+                  everything with the blessed patriarch. At this same time therefore, when Mar
+                     <persName>Zakkhai</persName> bishop of <placeName>Thella</placeName> had heard
+                  and learned of the holiness of the blessed Mar <persName>James</persName>, he was
+                  zealous for the Lord and for that holy soul and exerted and bestirred himself, and
+                  sent four blessed men from his convent, and two of the clergymen of the city (and
+                  he supplied them with a swift animal and money) to go to the monastery of
+                     <placeName>Casium</placeName> in which he fell asleep, and steal him<ptr type="noteAnchor" target="#n615-4"/> thence. And he laid down a law (<foreign
+                     xml:lang="grc">νόμος</foreign>) for them as to how they should act and
+                  dispatched them. Now those who went were sent in the year nine hundred and
+                  thirty-three of the <persName>Greeks</persName><ptr type="noteAnchor" target="#n615-5"/>. And at the same time <persName>Heraclius</persName> king of
+                  the <persName>Romans</persName><ptr type="noteAnchor" target="#n615-6"/> came, and
+                  took all the country east of the <placeName>Euphrates</placeName>, and drove the
+                     <persName>Persians</persName> as far as <pb n="270"/><pb n="616"
+                     /><placeName>Nisibis</placeName> which is on the frontier<ptr type="noteAnchor" target="#n616-1"/>. And<ptr type="noteAnchor" target="#n616-2"/> the members of
+                  the monastery went in the days of the devout Mar <persName>Stephen</persName> who
+                  was termed Shbiliya<ptr type="noteAnchor" target="#n616-3"/>; and, having gone and
+                  arrived at the monastery of <placeName>Casium</placeName>, they went into the
+                  monastery and prayed and came near<ptr type="noteAnchor" target="#n616-4"/> and
+                  were blessed by the holy Mar <persName>James</persName>, and by<ptr type="noteAnchor" target="#n616-5"/> the brothers of the house. And on being
+                  asked whither they were travelling they answered <quote>We are envoys of the
+                     church of <placeName>Syria</placeName> to the pope. of
+                        <placeName>Alexandria</placeName>.</quote> Then they were received with much
+                  honour. When then<ptr type="noteAnchor" target="#n616-6"/> they had remained there
+                  two days, in accordance with a plan and trick that had been concerted by them on
+                  the way, one of these monks<ptr type="noteAnchor" target="#n616-4"/>, the envoys,
+                  set up a wail being possessed by a demon<ptr type="noteAnchor" target="#n616-7"/>
+                  and foaming and went out of his mind<ptr type="noteAnchor" target="#n616-4"/>. And
+                  his companions began to be distressed and weep; and in sorrow they went on to
+                  fasten their companion to the sarcophagus of the <pb n="271"/><pb n="617"/>holy
+                  Mar <persName>James</persName>, in order that he might learn how<ptr type="noteAnchor" target="#n617-1"/> to steal that holy body, while his
+                  companions on his account slept<ptr type="noteAnchor" target="#n617-2"/> with him
+                  close by the sarcophagus itself. But during the night they would bore, and in the
+                  day cover the borings that they had made. And, when the task had become easy for
+                  them, they took the keys (<foreign xml:lang="grc">κλείδα</foreign>) of the
+                  monastery to themselves, that their task might be easily accomplished<ptr type="noteAnchor" target="#n617-3"/>. Then they said to the members of the
+                  monastery of <placeName>Casium</placeName>, <quote>We, sirs<ptr type="noteAnchor" target="#n617-4"/>, since we have a letter with us, cannot remain here with
+                     this sick man<ptr type="noteAnchor" target="#n617-5"/>; but we will leave one
+                     of us with him and a swift animal, in order that, when the Lord pleases and he
+                     recovers, he may quickly join us at <placeName>Alexandria</placeName>, in the
+                     holy convent of <placeName>Marth Zoila</placeName><ptr type="noteAnchor" target="#n617-6"/>, but pray for us</quote>. And, having gone thence, they
+                  came as far as <placeName>Palestine</placeName> on their return; and the man who
+                  had feigned madness and his companion rose by night and took the body of the holy
+                  Mar <persName>James</persName>, and wrapped it in silk shrouds, and came on the
+                  swift animal to their companions in <placeName>Palestine</placeName> according to
+                  the agreement that they had made with one another. </ab>
+               <pb n="272"/><pb n="618"/>
+               <ab xml:id="section-60.2" n="2"> But the blessed men the members of the monastery of
+                     <placeName>Casium</placeName>, when they rose in the morning and saw that the
+                  saint's body had been taken away, lifted up their voice in weeping and in sobs;
+                  and they went in all directions after them, and did not find them<ptr type="noteAnchor" target="#n618-1"/>; and they returned to their monastery
+                  mourning. But the blessed men departed from <placeName>Palestine</placeName>,
+                  themselves and the clergymen, and rapidly arrived at the city of
+                     <placeName>Thella</placeName>, carrying his holy body with them. And, when the
+                     bishop<ptr type="noteAnchor" target="#n618-2"/> and the clergy and the
+                     citizens<ptr type="noteAnchor" target="#n618-3"/> heard of it, they went to
+                  meet it with lights and incense and songs of praise, and carried it round the
+                  whole city, accompanying it with spiritual odes, and chants of the Holy Spirit.
+                  And then they<ptr type="noteAnchor" target="#n618-4"/> wrapped it round and laid
+                  it in his monastery, the convent of <placeName>Fsiltha</placeName>, in the temple
+                  which the saint had built in his lifetime<ptr type="noteAnchor" target="#n618-5" />, and it is there for the assistance and healing of all men<ptr type="noteAnchor" target="#n618-6"/>, and for the honour and praise of Christ
+                     his<ptr type="noteAnchor" target="#n618-7"/> God; <pb n="273"/><pb n="619"/>to
+                  whom and to his Father with his<ptr type="noteAnchor" target="#n619-1"/> Holy
+                  Spirit be praise and honour and worship and exaltation, now and always and<ptr type="noteAnchor" target="#n619-2"/> for ever and ever. Amen! </ab>
+            </div>
+            <div type="trailer" xml:id="trailer-60">
+               <ab xml:id="trailer-60.1" n="3"> The history of Mar <persName>James</persName> bishop of
+                  <placeName>Edessa</placeName><ptr type="noteAnchor" target="#n619-3"/> is
+                  ended. </ab>
+               <ab xml:id="trailer-60.2" n="4">
+                  <!-- See this note. Also, this colophon seems to apply to the whole collection of lives. -->
+                  This history was written by the industry of Mar <persName>Theodosius</persName>
+                  presbyter and stylite of the monastery of <placeName>Fsiltha</placeName>, in the
+                  days of Mar <persName>Stephen</persName>, archimandrite of the same convent, in
+                  the year a thousand and fifty-two of <persName>Seleucus</persName><ptr type="noteAnchor" target="#n619-4"/>. </ab>
+            </div>
+         </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 614, n. 1</orig></choice>C ins. <hi rend="singleQuotes">the holy</hi>.</note>
-            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 614, n. 2</orig></choice>C <hi rend="singleQuotes">Marde, how the bones of the</hi>.</note>
-            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 614, n. 3</orig></choice>C ins. <hi rend="singleQuotes">came from the monastery of Casium to his monastery</hi>.</note>
-            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 614, n. 4</orig></choice>Sc. the apostle, not surely, as M. Kugener thinks, the patriarch Peter of Callinicius.</note>
-            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 614, n. 5</orig></choice>Nothing is known of this, and in Phocas' time there were no Monophysites in open possession of sees.</note>
-            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 615, n. 1</orig></choice>C <hi rend="singleQuotes">a short time</hi>.</note>
-            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 615, n. 2</orig></choice>C <hi rend="singleQuotes">the king and Shirin the queen ordered and</hi>.</note>
-            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 615, n. 3</orig></choice>C ins. <hi rend="singleQuotes">priests and clergymen were appointed</hi>.</note>
-            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 615, n. 4</orig></choice>C <hi rend="singleQuotes">to fetch his body</hi>.</note>
-            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 615, n. 5</orig></choice>622.</note>
-            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 615, n. 6</orig></choice>C <hi rend="singleQuotes">Greeks</hi>.</note>
-            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 616, n. 1</orig></choice>622-9.</note>
-            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 616, n. 2</orig></choice>C <hi rend="singleQuotes">of the Greeks and the Persians. And H. instituted a persecution against the church, because bp. Isaiah of Edessa did not give oblation to the king in the great church of Edessa, because the bishop demanded of the king that, unless he anathametized the synod of Chalcedon in writing, he did not give him the oblation (sic). And for this reason Christians without number who stood firm and held fast were oppressed; and those who did not show constancy returned to the heresy of Chalcedon. At that time</hi>; cf. Mich., p. 409.</note>
-            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 616, n. 3</orig></choice>Sc. <hi rend="singleQuotes">the man of the path</hi>(?).</note>
-            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 616, n. 4</orig></choice>C om.</note>
-            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 616, n. 5</orig></choice>C <hi rend="singleQuotes">greeted</hi>.</note>
-            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 616, n. 6</orig></choice>C ins. <hi rend="singleQuotes">they were travelling on the road, they deliberated thus: <hi rend="singleQuotes">As soon as we reach the monastery, one of us will purposely have a seizure, that on this pretext we may be able to approach the place where the saint is</hi>. And when</hi>.</note>
-            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 616, n. 7</orig></choice>C <hi rend="singleQuotes">convulsed</hi>.</note>
-            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 617, n. 1</orig></choice>C <hi rend="singleQuotes">they might setthemselves</hi>.</note>
-            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 617, n. 2</orig></choice>C <hi rend="singleQuotes">were</hi>.</note>
-            <note xml:id="n21" target="#a21" n="21"><choice><reg/><orig>p. 617, n. 3</orig></choice>I give the sense from C; see n. on text.</note>
-            <note xml:id="n22" target="#a22" n="22"><choice><reg/><orig>p. 617, n. 4</orig></choice>S <hi rend="singleQuotes">sir</hi> C <hi rend="singleQuotes">my brothers</hi>.</note>
-            <note xml:id="n23" target="#a23" n="23"><choice><reg/><orig>p. 617, n. 5</orig></choice>C <hi rend="singleQuotes">our companion</hi>.</note>
-            <note xml:id="n24" target="#a24" n="24"><choice><reg/><orig>p. 617, n. 6</orig></choice>C <hi rend="singleQuotes">Mar Zoilus</hi>.</note>
-            <note xml:id="n25" target="#a25" n="25"><choice><reg/><orig>p. 618, n. 1</orig></choice>C <hi rend="singleQuotes">anything</hi>.</note>
-            <note xml:id="n26" target="#a26" n="26"><choice><reg/><orig>p. 618, n. 2</orig></choice>C <hi rend="singleQuotes">bishops</hi>.</note>
-            <note xml:id="n27" target="#a27" n="27"><choice><reg/><orig>p. 618, n. 3</orig></choice>C <hi rend="singleQuotes">men of his city</hi>.</note>
-            <note xml:id="n28" target="#a28" n="28"><choice><reg/><orig>p. 618, n. 4</orig></choice>C ins. <hi rend="singleQuotes">came to his monastery and</hi>.</note>
-            <note xml:id="n29" target="#a29" n="29"><choice><reg/><orig>p. 618, n. 5</orig></choice>C <hi rend="singleQuotes">it with great honour, since he had been educated and trained in it, in the monastery of Fsiltha</hi>. The date was probably 21 Mar., 622. J. is celebrated on 21 Mar., 31 July, and 28 Nov.; and, as 31 July is the day of his death or burial, and 28 Nov. arises from a confusion with J. of Batnae, 21 Mar. is probably the date of his translation, and was in fact a Sunday in 622.</note>
-            <note xml:id="n30" target="#a30" n="30"><choice><reg/><orig>p. 618, n. 6</orig></choice>C <hi rend="singleQuotes">who take refuge at his coffin</hi>.</note>
-            <note xml:id="n31" target="#a31" n="31"><choice><reg/><orig>p. 618, n. 7</orig></choice>C <hi rend="singleQuotes">our</hi>.</note>
-            <note xml:id="n32" target="#a32" n="32"><choice><reg/><orig>p. 619, n. 1</orig></choice>C <hi rend="singleQuotes">the</hi>.</note>
-            <note xml:id="n33" target="#a33" n="33"><choice><reg/><orig>p. 619, n. 2</orig></choice>C om.</note>
-            <note xml:id="n34" target="#a34" n="34"><choice><reg/><orig>p. 619, n. 3</orig></choice>C <hi rend="singleQuotes">the holy Mar J. of Fsiltha who is Burd'ana (his prayer be with us in both worlds)</hi>.</note>
-            <note xml:id="n35" target="#a35" n="35"><choice><reg/><orig>p. 619, n. 4</orig></choice>741. This colophon comes from S only. See Introd.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice>
+                  <reg/>
+                  <orig>p. 614, n. 1</orig>
+               </choice>C ins. <hi rend="singleQuotes">the holy</hi>.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice>
+                  <reg/>
+                  <orig>p. 614, n. 2</orig>
+               </choice>C <hi rend="singleQuotes">Marde, how the bones of the</hi>.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice>
+                  <reg/>
+                  <orig>p. 614, n. 3</orig>
+               </choice>C ins. <hi rend="singleQuotes">came from the monastery of Casium to his
+                  monastery</hi>.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice>
+                  <reg/>
+                  <orig>p. 614, n. 4</orig>
+               </choice>Sc. the apostle, not surely, as M. Kugener thinks, the patriarch Peter of
+               Callinicius.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice>
+                  <reg/>
+                  <orig>p. 614, n. 5</orig>
+               </choice>Nothing is known of this, and in Phocas' time there were no Monophysites in
+               open possession of sees.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice>
+                  <reg/>
+                  <orig>p. 615, n. 1</orig>
+               </choice>C <hi rend="singleQuotes">a short time</hi>.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice>
+                  <reg/>
+                  <orig>p. 615, n. 2</orig>
+               </choice>C <hi rend="singleQuotes">the king and Shirin the queen ordered
+               and</hi>.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice>
+                  <reg/>
+                  <orig>p. 615, n. 3</orig>
+               </choice>C ins. <hi rend="singleQuotes">priests and clergymen were
+               appointed</hi>.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice>
+                  <reg/>
+                  <orig>p. 615, n. 4</orig>
+               </choice>C <hi rend="singleQuotes">to fetch his body</hi>.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice>
+                  <reg/>
+                  <orig>p. 615, n. 5</orig>
+               </choice>622.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice>
+                  <reg/>
+                  <orig>p. 615, n. 6</orig>
+               </choice>C <hi rend="singleQuotes">Greeks</hi>.</note>
+            <note xml:id="n12" target="#a12" n="12"><choice>
+                  <reg/>
+                  <orig>p. 616, n. 1</orig>
+               </choice>622-9.</note>
+            <note xml:id="n13" target="#a13" n="13"><choice>
+                  <reg/>
+                  <orig>p. 616, n. 2</orig>
+               </choice>C <hi rend="singleQuotes">of the Greeks and the Persians. And H. instituted
+                  a persecution against the church, because bp. Isaiah of Edessa did not give
+                  oblation to the king in the great church of Edessa, because the bishop demanded of
+                  the king that, unless he anathametized the synod of Chalcedon in writing, he did
+                  not give him the oblation (sic). And for this reason Christians without number who
+                  stood firm and held fast were oppressed; and those who did not show constancy
+                  returned to the heresy of Chalcedon. At that time</hi>; cf. Mich., p. 409.</note>
+            <note xml:id="n14" target="#a14" n="14"><choice>
+                  <reg/>
+                  <orig>p. 616, n. 3</orig>
+               </choice>Sc. <hi rend="singleQuotes">the man of the path</hi>(?).</note>
+            <note xml:id="n15" target="#a15" n="15"><choice>
+                  <reg/>
+                  <orig>p. 616, n. 4</orig>
+               </choice>C om.</note>
+            <note xml:id="n16" target="#a16" n="16"><choice>
+                  <reg/>
+                  <orig>p. 616, n. 5</orig>
+               </choice>C <hi rend="singleQuotes">greeted</hi>.</note>
+            <note xml:id="n17" target="#a17" n="17"><choice>
+                  <reg/>
+                  <orig>p. 616, n. 6</orig>
+               </choice>C ins. <hi rend="singleQuotes">they were travelling on the road, they
+                  deliberated thus: <hi rend="singleQuotes">As soon as we reach the monastery, one
+                     of us will purposely have a seizure, that on this pretext we may be able to
+                     approach the place where the saint is</hi>. And when</hi>.</note>
+            <note xml:id="n18" target="#a18" n="18"><choice>
+                  <reg/>
+                  <orig>p. 616, n. 7</orig>
+               </choice>C <hi rend="singleQuotes">convulsed</hi>.</note>
+            <note xml:id="n19" target="#a19" n="19"><choice>
+                  <reg/>
+                  <orig>p. 617, n. 1</orig>
+               </choice>C <hi rend="singleQuotes">they might setthemselves</hi>.</note>
+            <note xml:id="n20" target="#a20" n="20"><choice>
+                  <reg/>
+                  <orig>p. 617, n. 2</orig>
+               </choice>C <hi rend="singleQuotes">were</hi>.</note>
+            <note xml:id="n21" target="#a21" n="21"><choice>
+                  <reg/>
+                  <orig>p. 617, n. 3</orig>
+               </choice>I give the sense from C; see n. on text.</note>
+            <note xml:id="n22" target="#a22" n="22"><choice>
+                  <reg/>
+                  <orig>p. 617, n. 4</orig>
+               </choice>S <hi rend="singleQuotes">sir</hi> C <hi rend="singleQuotes">my
+                  brothers</hi>.</note>
+            <note xml:id="n23" target="#a23" n="23"><choice>
+                  <reg/>
+                  <orig>p. 617, n. 5</orig>
+               </choice>C <hi rend="singleQuotes">our companion</hi>.</note>
+            <note xml:id="n24" target="#a24" n="24"><choice>
+                  <reg/>
+                  <orig>p. 617, n. 6</orig>
+               </choice>C <hi rend="singleQuotes">Mar Zoilus</hi>.</note>
+            <note xml:id="n25" target="#a25" n="25"><choice>
+                  <reg/>
+                  <orig>p. 618, n. 1</orig>
+               </choice>C <hi rend="singleQuotes">anything</hi>.</note>
+            <note xml:id="n26" target="#a26" n="26"><choice>
+                  <reg/>
+                  <orig>p. 618, n. 2</orig>
+               </choice>C <hi rend="singleQuotes">bishops</hi>.</note>
+            <note xml:id="n27" target="#a27" n="27"><choice>
+                  <reg/>
+                  <orig>p. 618, n. 3</orig>
+               </choice>C <hi rend="singleQuotes">men of his city</hi>.</note>
+            <note xml:id="n28" target="#a28" n="28"><choice>
+                  <reg/>
+                  <orig>p. 618, n. 4</orig>
+               </choice>C ins. <hi rend="singleQuotes">came to his monastery and</hi>.</note>
+            <note xml:id="n29" target="#a29" n="29"><choice>
+                  <reg/>
+                  <orig>p. 618, n. 5</orig>
+               </choice>C <hi rend="singleQuotes">it with great honour, since he had been educated
+                  and trained in it, in the monastery of Fsiltha</hi>. The date was probably 21
+               Mar., 622. J. is celebrated on 21 Mar., 31 July, and 28 Nov.; and, as 31 July is the
+               day of his death or burial, and 28 Nov. arises from a confusion with J. of Batnae, 21
+               Mar. is probably the date of his translation, and was in fact a Sunday in 622.</note>
+            <note xml:id="n30" target="#a30" n="30"><choice>
+                  <reg/>
+                  <orig>p. 618, n. 6</orig>
+               </choice>C <hi rend="singleQuotes">who take refuge at his coffin</hi>.</note>
+            <note xml:id="n31" target="#a31" n="31"><choice>
+                  <reg/>
+                  <orig>p. 618, n. 7</orig>
+               </choice>C <hi rend="singleQuotes">our</hi>.</note>
+            <note xml:id="n32" target="#a32" n="32"><choice>
+                  <reg/>
+                  <orig>p. 619, n. 1</orig>
+               </choice>C <hi rend="singleQuotes">the</hi>.</note>
+            <note xml:id="n33" target="#a33" n="33"><choice>
+                  <reg/>
+                  <orig>p. 619, n. 2</orig>
+               </choice>C om.</note>
+            <note xml:id="n34" target="#a34" n="34"><choice>
+                  <reg/>
+                  <orig>p. 619, n. 3</orig>
+               </choice>C <hi rend="singleQuotes">the holy Mar J. of Fsiltha who is Burd'ana (his
+                  prayer be with us in both worlds)</hi>.</note>
+            <note xml:id="n35" target="#a35" n="35"><choice>
+                  <reg/>
+                  <orig>p. 619, n. 4</orig>
+               </choice>741. This colophon comes from S only. See Introd.</note>
          </noteGrp>
       </body>
    </text>

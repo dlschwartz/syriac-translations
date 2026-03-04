@@ -7,18 +7,21 @@
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/841">Jacob and Theodore</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
             <idno type="URI"><!-- URI NEEDED --></idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0//">
-                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
-                  <p>This work incorporates public domain material from the following work(s): 
-                     <listBibl>
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International
+                     License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): <listBibl>
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
@@ -26,9 +29,7 @@
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
                      </listBibl>
-                     <note type="license">
-                        used under a Creative Commons Attribution license 
-                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
                </licence>
@@ -37,150 +38,285 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
-         <notesStmt>
+         <!--<notesStmt>
             <relatedItem type="previous">
                <ptr target=""/>
             </relatedItem>
             <relatedItem type="next">
                <ptr target=""/>
             </relatedItem>
-         </notesStmt>
+         </notesStmt>-->
          <sourceDesc>
-            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks.
+               Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <!-- See spear/841 -->
-         <div type="work" xml:id="work"><div type="section" xml:id="section-" n=""><head>Next the Fiftieth History, Concerning the Same Two Bishops, the Excellent And
-            Divine Blessed Men <persName ref="http://syriaca.org/person/69">James</persName> and <persName ref="http://syriaca.org/person/3266">Theodore</persName>, Who Were Together in the Royal City At 
-            The Time of the Persecution I and Concerning the Active Work That Was Performed By 
-            Them During the Same Persecution, by the Instigation and the Command of the Believing <persName ref="http://syriaca.org/person/779">Theodora the Queen</persName>.</head>
-         <ab>
-            Before these things therefore, in the sixteenth year of the reign of Justinian,<ptr type="noteAnchor" target="#n499-1" n="x"/> 
-            after the time of the martyrdom of the blessed combatant (<foreign xml:lang="grc">άγωνιστης</foreign>)
-            for religion <persName ref="http://syriaca.org/person/3222">John</persName> bishop of the city of <placeName>Thella</placeName> at the hands of Ephraim of
-            <placeName ref="http://syriaca.org/place/2610">Antioch</placeName>,<ptr type="noteAnchor" target="#n499-2" n="x"/> when a lack of priests had consequently arisen in the countries of
-            the east and of the west, and especially of bishops, then the glorious Hereth
-            Bar <persName ref="http://syriaca.org/person/3214">Gabala</persName>, the great king of the <persName>Saracens</persName>, with many others asked the
-            Christ-loving queen <persName ref="http://syriaca.org/person/779">Theodora</persName> to give orders that two or three bishops might
-            immediately be instituted by the orthodox (<foreign xml:lang="grc">όρθόδοξοι</foreign>) in <placeName ref="http://syriaca.org/place/486">Syria</placeName>. And, since
-            the believing queen was desirous of furthering everything that would assist
-            <pb n="154"/><pb n="500"/>the opponents of the synod of Chalcedon, she gave orders and two blessed
-            men, well-tried and divine persons, whose names were <persName ref="http://syriaca.org/person/69">James</persName> and <persName ref="http://syriaca.org/person/3266">Theodore</persName>, 
-            were chosen and instituted, one for <placeName ref="http://syriaca.org/place/2791">Hirtha</placeName> of the <persName>Saracens</persName>,<ptr type="noteAnchor" target="#n500-1" n="x"/> that is
-            <persName ref="http://syriaca.org/person/3266">Theodore</persName>, and <persName ref="http://syriaca.org/person/69">James</persName> for the city of <placeName ref="http://syriaca.org/place/2605">Edessa</placeName>. And, while the blessed
-            <persName ref="http://syriaca.org/person/3266">Theodore</persName> exercised authority in the southern and western<ptr type="noteAnchor" target="#n500-2" n="x"/> countries, and the
-            whole of the desert and Arabia and Palestine, as far as <placeName>Jerusalem</placeName>, the blessed
-            <persName ref="http://syriaca.org/person/69">James</persName>, having armed himself with religion, and clothed himself in the zeal of
-            heroism, extended his course over all the countries not only of <placeName ref="http://syriaca.org/place/486">Syria</placeName> and the
-            whole of <placeName ref="http://syriaca.org/place/576">Armenia</placeName> and of <placeName ref="http://syriaca.org/place/2763">Cappadocia</placeName>, all of which down to the little ones<ptr type="noteAnchor" target="#n500-3" n="x"/>
-            were especially distinguished and strong in orthodoxy (<foreign xml:lang="grc">όρθόδοξοι</foreign>) no less
-            than <placeName ref="http://syriaca.org/place/486">Syria</placeName>, and besides these<ptr type="noteAnchor" target="#n500-4" n="x"/> in the countries also of <placeName ref="http://syriaca.org/place/55">Cilicia</placeName> and the
-            whole of <placeName ref="http://syriaca.org/place/2799">Isauria</placeName> and of <placeName ref="http://syriaca.org/place/1531">Pamphylia</placeName> and <placeName ref="http://syriaca.org/place/1532">Lycaonia</placeName> and <placeName ref="http://syriaca.org/place/1533">Lycia</placeName> and<ptr type="noteAnchor" target="#n500-5" n="x"/> <placeName ref="http://syriaca.org/place/1525">Phrygia</placeName> and
-            <placeName ref="http://syriaca.org/place/1472">Caria</placeName> and <placeName ref="http://syriaca.org/place/2747">Asia</placeName>, and in the islands of the sea <placeName ref="http://syriaca.org/place/714">Cyprus</placeName> and <placeName ref="http://syriaca.org/place/1534">Rhodes</placeName>, and
-            <placeName ref="http://syriaca.org/place/1529">Chios</placeName> and <placeName ref="http://syriaca.org/place/1478">Mitylene</placeName>,<ptr type="noteAnchor" target="#n500-6" n="x"/> and as far as the royal city of <placeName ref="http://syriaca.org/place/586">Constantinople</placeName>, in which
-            also besides all the countries he displayed the course of heroism, and filled
-            <pb n="155"/><pb n="501"/>the ranks of the priesthood, and spread orthodoxy (<foreign xml:lang="grc">όρθόδοξοι</foreign>) abroad, who not
-            only marshalled priests and supplied all quarters, but further also in keen
-            religious zeal did not shrink even from making provision for ordaining and
-            appointing high-priests, that is bishops, also in every place; so that, since
-            he was careful to observe the regulations of the canons which command
-            that without three bishops no bishop shall be instituted, he contrived to
-            bring with him two monks of good repute for excellence of life, one from
-            <placeName ref="http://syriaca.org/place/55">Cilicia</placeName> and one from <placeName ref="http://syriaca.org/place/2799">Isauria</placeName>, and proceeded to the royal city; and, having
-            received the advice and permission of the blessed <persName ref="http://syriaca.org/person/784">Theodosius</persName> patriarch of
-            <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, who had been detained in the same royal city by way of exile
-            (<foreign xml:lang="grc">έξορία</foreign>) on behalf of the truth of the faith, the blessed <persName ref="http://syriaca.org/person/69">James</persName> with the above-mentioned
-            monks directed his path to the city of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, after fully
-            carrying out the ministry of the priesthood in all the countries from the royal
-            city as far as the sea-coast of <placeName ref="http://syriaca.org/place/1532">Lycaonia</placeName>; and so he entered <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>; and,
-            after he had been in communication with the saintly men there, in accordance
-            with the mandate received from the blessed <persName ref="http://syriaca.org/person/784">Theodosius</persName> the patriarch, they
-            assembled, and made these two blessed men bishops, one whose name was
-            <persName ref="http://syriaca.org/person/1336">Conon</persName> in the city of <placeName ref="http://syriaca.org/place/2722">Tarsus</placeName> of <placeName ref="http://syriaca.org/place/55">Cilicia</placeName>, and the other whose name was <persName ref="http://syriaca.org/person/3208">Eugene</persName>
-            <pb n="156"/><pb n="502"/>in the city of <placeName ref="http://syriaca.org/place/2714">Seleucia</placeName> of <placeName ref="http://syriaca.org/place/2799">Isauria</placeName>;<ptr type="noteAnchor" target="#n502-1" n="x"/> and so he took them and came back to
-            <placeName ref="http://syriaca.org/place/486">Syria</placeName> with admirable zeal. And so in accordance with the provision of
-            the canons they made metropolitans, that is archbishops,<ptr type="noteAnchor" target="#n502-2" n="x"/> one whose name
-            was <persName ref="http://syriaca.org/person/3207">Dimet</persName><ptr type="noteAnchor" target="#n502-3" n="x"/> from the monastery of <placeName ref="http://syriaca.org/place/2802">Aphthonia</placeName><ptr type="noteAnchor" target="#n502-4" n="x"/> in the city of <placeName ref="http://syriaca.org/place/2809">Laodicea</placeName>, and
-            another whose name was <persName ref="http://syriaca.org/person/3222">John</persName> from the monastery of the house of Mar <placeName ref="http://syriaca.org/place/2760">Bzy</placeName>
-            in <placeName ref="http://syriaca.org/place/2714">Seleucia</placeName> in <placeName ref="http://syriaca.org/place/486">Syria</placeName>,<ptr type="noteAnchor" target="#n502-5" n="x"/> and another from those who were instituted at <placeName ref="http://syriaca.org/place/572">Alexandria</placeName> 
-            who was mentioned above, whose name was <persName ref="http://syriaca.org/person/1336">Conon</persName>, in <placeName ref="http://syriaca.org/place/2722">Tarsus</placeName> in
-            <placeName ref="http://syriaca.org/place/55">Cilicia</placeName>, and the other whose name was <persName ref="http://syriaca.org/person/3208">Eugene</persName> in <placeName ref="http://syriaca.org/place/2714">Seleucia</placeName> in <placeName ref="http://syriaca.org/place/2799">Isauria</placeName>; and
-            the other bishops also in <placeName ref="http://syriaca.org/place/486">Syria</placeName> as follows, <persName ref="http://syriaca.org/person/3222">John</persName> from the monastery of the
-            house of Mar <placeName ref="http://syriaca.org/place/343">Bassus</placeName> in <placeName ref="http://syriaca.org/place/2642">Kenneshrin</placeName>,<ptr type="noteAnchor" target="#n502-6" n="x"/> and another whose name was <persName ref="http://syriaca.org/person/71">Sergius</persName>
-            from the monastery of <placeName ref="http://syriaca.org/place/2802">Aphthonia</placeName> in <placeName>Charrhae</placeName>, and another whose name was
-            <persName ref="http://syriaca.org/person/3222">John</persName> from the monastery of the house of Mar <placeName ref="http://syriaca.org/place/351">Hanina</placeName> in <placeName><foreign>Sura Romanorum</foreign></placeName>.
-            And, when they had set up bishops for the various cities of <placeName ref="http://syriaca.org/place/486">Syria</placeName> as has
-            been described, afterwards they went up to the royal city, and in our presence 
-            they ordained a patriarch in <placeName ref="http://syriaca.org/place/2610">Antioch</placeName>, a man whose name was <persName ref="http://syriaca.org/person/71">Sergius</persName>
-            from the city of <placeName>Thella</placeName>, who was living in the royal city and was versed
-            <pb n="157"/><pb n="503"/>in religious learning. And, when he had completed three years, he departed from the world; and after a time again they ordained a man whose name
-            was <persName ref="http://syriaca.org/person/72">Paul</persName> from <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>. About this man many controversies arose,<ptr type="noteAnchor" target="#n503-1" n="x"/>
-            and continue to the present time when these things were written. And
-            again in the city of <placeName ref="http://syriaca.org/place/2735">Amida</placeName> they ordained as metropolitan a man whose name
-            was <persName ref="http://syriaca.org/person/3209">Eunomius</persName>, who had been expelled with others among the same clergy
-            of <placeName ref="http://syriaca.org/place/2735">Amida</placeName>, in the same royal city.<ptr type="noteAnchor" target="#n502-7" n="x"/> And for the countries of <placeName ref="http://syriaca.org/place/715">Egypt</placeName>, by the
-            mandate of the blessed <persName ref="http://syriaca.org/person/784">Theodosius</persName> the patriarch, they ordained twelve
-            bishops at once in the royal city itself, for various cities of <placeName ref="http://syriaca.org/place/2847">Thebais</placeName> and of
-            <placeName ref="http://syriaca.org/place/715">Egypt</placeName> besides a large number of clergy; inasmuch as the patriarch <persName ref="http://syriaca.org/person/784">Theodosius</persName> would not consent to ordain priests after he had left his see. And
-            afterwards the blessed <persName ref="http://syriaca.org/person/69">James</persName> and his companions went out to the countries.
-            of <placeName ref="http://syriaca.org/place/2747">Asia</placeName> for the second time, and they ordained four bishops in <placeName ref="http://syriaca.org/place/2747">Asia</placeName>, one in
-            <placeName ref="http://syriaca.org/place/2666">Ephesus</placeName> a man whose name was <persName ref="http://syriaca.org/person/3222">John</persName> the Syrian, the converter of the pagans,<ptr type="noteAnchor" target="#n503-2" n="x"/>
-            and in <placeName ref="http://syriaca.org/place/2719">Smyrna</placeName> a man whose name was Peter,<ptr type="noteAnchor" target="#n503-3" n="x"/> and another whose name was
-            <persName ref="http://syriaca.org/person/3222">John</persName> in the city of <placeName ref="http://syriaca.org/place/2829">Pergamum</placeName>, and another whose name was Peter in the
-            city of <placeName ref="http://syriaca.org/place/2856">Tralles</placeName>. And after these things they crossed to the island of <placeName ref="http://syriaca.org/place/1529">Chios</placeName>
-            <pb n="158"/><pb n="504"/>and set up a bishop in it, a man whose name was <persName ref="http://syriaca.org/person/2032">Kashish</persName><ptr type="noteAnchor" target="#n504-1" n="x"/> from the monastery 
-            of <persName ref="http://syriaca.org/person/3222">John</persName> of <placeName ref="http://syriaca.org/place/2666">Ephesus</placeName>, both of whom were from <placeName ref="http://syriaca.org/place/399">the monastery</placeName> of the
-            house of Mar <persName ref="http://syriaca.org/person/3222">John</persName> at <placeName ref="http://syriaca.org/place/2735">Amida</placeName>. And again they went back and crossed to
-            the regions of <placeName ref="http://syriaca.org/place/1472">Caria</placeName>, and there they set up two bishops, one whose name
-            was <persName ref="http://syriaca.org/person/72">Paul</persName> in a city the name of which is <placeName ref="http://syriaca.org/place/2741">Aphrodisias</placeName>,<ptr type="noteAnchor" target="#n504-2" n="x"/> and another whose
-            name was <persName ref="http://syriaca.org/person/3228">Julian</persName> in a city the name of which is <placeName ref="http://syriaca.org/place/2732">Alabanda</placeName>.<ptr type="noteAnchor" target="#n504-3" n="x"/> These are all
-            the bishops and archbishops, who are in number twenty-seven, besides two
-            patriarchs whom the blessed <persName ref="http://syriaca.org/person/69">James</persName> ordained with all the other bishops,
-            besides many clergy in all the eastern and western countries. Many of all
-            these were instituted in our presence, and with regard to the truth of all
-            these things we give confident and truthful witness that they were done as
-            above, and we have made a commemorative record of them for the knowledge
-            of posterity; but of the sublime manner of life of the blessed <persName ref="http://syriaca.org/person/69">James</persName>, and his
-            courage and perfection, we have made a record in the preceding history.
-         </ab>
-         <ab>
-            The history of two bishops the excellent and divine blessed men, <persName ref="http://syriaca.org/person/69">James</persName> and
-            <persName ref="http://syriaca.org/person/3266">Theodore</persName>, is ended.
-         </ab></div></div>
+         <div type="work" xml:id="work-50" n="50">
+            <div type="section" xml:id="section-50">
+               <head type="main">Next the Fiftieth History, Concerning the Same Two Bishops, the Excellent And
+                  Divine Blessed Men <persName ref="http://syriaca.org/person/69">James</persName>
+                  and <persName ref="http://syriaca.org/person/3266">Theodore</persName>, Who Were
+                  Together in the Royal City At The Time of the Persecution I and Concerning the
+                  Active Work That Was Performed By Them During the Same Persecution, by the
+                  Instigation and the Command of the Believing <persName
+                     ref="http://syriaca.org/person/779">Theodora the Queen</persName>.</head>
+               <ab xml:id="section-50.1" n="1"> Before these things therefore, in the sixteenth year of
+                  the reign of Justinian,<ptr type="noteAnchor" target="#n499-1" n="x"/> after the
+                  time of the martyrdom of the blessed combatant (<foreign xml:lang="grc"
+                     >άγωνιστης</foreign>) for religion <persName
+                     ref="http://syriaca.org/person/3222">John</persName> bishop of the city of
+                     <placeName>Thella</placeName> at the hands of Ephraim of <placeName
+                     ref="http://syriaca.org/place/2610">Antioch</placeName>,<ptr type="noteAnchor" target="#n499-2" n="x"/> when a lack of priests had consequently arisen in the
+                  countries of the east and of the west, and especially of bishops, then the
+                  glorious Hereth Bar <persName ref="http://syriaca.org/person/3214"
+                     >Gabala</persName>, the great king of the <persName>Saracens</persName>, with
+                  many others asked the Christ-loving queen <persName
+                     ref="http://syriaca.org/person/779">Theodora</persName> to give orders that two
+                  or three bishops might immediately be instituted by the orthodox (<foreign
+                     xml:lang="grc">όρθόδοξοι</foreign>) in <placeName
+                     ref="http://syriaca.org/place/486">Syria</placeName>. And, since the believing
+                  queen was desirous of furthering everything that would assist <pb n="154"/><pb
+                     n="500"/>the opponents of the synod of Chalcedon, she gave orders and two
+                  blessed men, well-tried and divine persons, whose names were <persName
+                     ref="http://syriaca.org/person/69">James</persName> and <persName
+                     ref="http://syriaca.org/person/3266">Theodore</persName>, were chosen and
+                  instituted, one for <placeName ref="http://syriaca.org/place/2791"
+                     >Hirtha</placeName> of the <persName>Saracens</persName>,<ptr type="noteAnchor" target="#n500-1" n="x"/> that is <persName ref="http://syriaca.org/person/3266"
+                     >Theodore</persName>, and <persName ref="http://syriaca.org/person/69"
+                     >James</persName> for the city of <placeName
+                     ref="http://syriaca.org/place/2605">Edessa</placeName>. And, while the blessed
+                     <persName ref="http://syriaca.org/person/3266">Theodore</persName> exercised
+                  authority in the southern and western<ptr type="noteAnchor" target="#n500-2" n="x" /> countries, and the whole of the desert and Arabia and Palestine, as far as
+                     <placeName>Jerusalem</placeName>, the blessed <persName
+                     ref="http://syriaca.org/person/69">James</persName>, having armed himself with
+                  religion, and clothed himself in the zeal of heroism, extended his course over all
+                  the countries not only of <placeName ref="http://syriaca.org/place/486"
+                     >Syria</placeName> and the whole of <placeName
+                     ref="http://syriaca.org/place/576">Armenia</placeName> and of <placeName
+                     ref="http://syriaca.org/place/2763">Cappadocia</placeName>, all of which down
+                  to the little ones<ptr type="noteAnchor" target="#n500-3" n="x"/> were especially
+                  distinguished and strong in orthodoxy (<foreign xml:lang="grc"
+                  >όρθόδοξοι</foreign>) no less than <placeName ref="http://syriaca.org/place/486"
+                     >Syria</placeName>, and besides these<ptr type="noteAnchor" target="#n500-4" n="x"/> in the countries also of <placeName ref="http://syriaca.org/place/55"
+                     >Cilicia</placeName> and the whole of <placeName
+                     ref="http://syriaca.org/place/2799">Isauria</placeName> and of <placeName
+                     ref="http://syriaca.org/place/1531">Pamphylia</placeName> and <placeName
+                     ref="http://syriaca.org/place/1532">Lycaonia</placeName> and <placeName
+                     ref="http://syriaca.org/place/1533">Lycia</placeName> and<ptr type="noteAnchor" target="#n500-5" n="x"/>
+                  <placeName ref="http://syriaca.org/place/1525">Phrygia</placeName> and <placeName
+                     ref="http://syriaca.org/place/1472">Caria</placeName> and <placeName
+                     ref="http://syriaca.org/place/2747">Asia</placeName>, and in the islands of the
+                  sea <placeName ref="http://syriaca.org/place/714">Cyprus</placeName> and
+                     <placeName ref="http://syriaca.org/place/1534">Rhodes</placeName>, and
+                     <placeName ref="http://syriaca.org/place/1529">Chios</placeName> and <placeName
+                     ref="http://syriaca.org/place/1478">Mitylene</placeName>,<ptr type="noteAnchor" target="#n500-6" n="x"/> and as far as the royal city of <placeName
+                     ref="http://syriaca.org/place/586">Constantinople</placeName>, in which also
+                  besides all the countries he displayed the course of heroism, and filled <pb
+                     n="155"/><pb n="501"/>the ranks of the priesthood, and spread orthodoxy
+                     (<foreign xml:lang="grc">όρθόδοξοι</foreign>) abroad, who not only marshalled
+                  priests and supplied all quarters, but further also in keen religious zeal did not
+                  shrink even from making provision for ordaining and appointing high-priests, that
+                  is bishops, also in every place; so that, since he was careful to observe the
+                  regulations of the canons which command that without three bishops no bishop shall
+                  be instituted, he contrived to bring with him two monks of good repute for
+                  excellence of life, one from <placeName ref="http://syriaca.org/place/55"
+                     >Cilicia</placeName> and one from <placeName
+                     ref="http://syriaca.org/place/2799">Isauria</placeName>, and proceeded to the
+                  royal city; and, having received the advice and permission of the blessed
+                     <persName ref="http://syriaca.org/person/784">Theodosius</persName> patriarch
+                  of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, who had
+                  been detained in the same royal city by way of exile (<foreign xml:lang="grc"
+                     >έξορία</foreign>) on behalf of the truth of the faith, the blessed <persName
+                     ref="http://syriaca.org/person/69">James</persName> with the above-mentioned
+                  monks directed his path to the city of <placeName
+                     ref="http://syriaca.org/place/572">Alexandria</placeName>, after fully carrying
+                  out the ministry of the priesthood in all the countries from the royal city as far
+                  as the sea-coast of <placeName ref="http://syriaca.org/place/1532"
+                     >Lycaonia</placeName>; and so he entered <placeName
+                     ref="http://syriaca.org/place/572">Alexandria</placeName>; and, after he had
+                  been in communication with the saintly men there, in accordance with the mandate
+                  received from the blessed <persName ref="http://syriaca.org/person/784"
+                     >Theodosius</persName> the patriarch, they assembled, and made these two
+                  blessed men bishops, one whose name was <persName
+                     ref="http://syriaca.org/person/1336">Conon</persName> in the city of <placeName
+                     ref="http://syriaca.org/place/2722">Tarsus</placeName> of <placeName
+                     ref="http://syriaca.org/place/55">Cilicia</placeName>, and the other whose name
+                  was <persName ref="http://syriaca.org/person/3208">Eugene</persName>
+                  <pb n="156"/><pb n="502"/>in the city of <placeName
+                     ref="http://syriaca.org/place/2714">Seleucia</placeName> of <placeName
+                     ref="http://syriaca.org/place/2799">Isauria</placeName>;<ptr type="noteAnchor" target="#n502-1" n="x"/> and so he took them and came back to <placeName
+                     ref="http://syriaca.org/place/486">Syria</placeName> with admirable zeal. And
+                  so in accordance with the provision of the canons they made metropolitans, that is
+                     archbishops,<ptr type="noteAnchor" target="#n502-2" n="x"/> one whose name was
+                     <persName ref="http://syriaca.org/person/3207">Dimet</persName><ptr type="noteAnchor" target="#n502-3" n="x"/> from the monastery of <placeName
+                     ref="http://syriaca.org/place/2802">Aphthonia</placeName><ptr type="noteAnchor" target="#n502-4" n="x"/> in the city of <placeName
+                     ref="http://syriaca.org/place/2809">Laodicea</placeName>, and another whose
+                  name was <persName ref="http://syriaca.org/person/3222">John</persName> from the
+                  monastery of the house of Mar <placeName ref="http://syriaca.org/place/2760"
+                     >Bzy</placeName> in <placeName ref="http://syriaca.org/place/2714"
+                     >Seleucia</placeName> in <placeName ref="http://syriaca.org/place/486"
+                     >Syria</placeName>,<ptr type="noteAnchor" target="#n502-5" n="x"/> and another
+                  from those who were instituted at <placeName ref="http://syriaca.org/place/572"
+                     >Alexandria</placeName> who was mentioned above, whose name was <persName
+                     ref="http://syriaca.org/person/1336">Conon</persName>, in <placeName
+                     ref="http://syriaca.org/place/2722">Tarsus</placeName> in <placeName
+                     ref="http://syriaca.org/place/55">Cilicia</placeName>, and the other whose name
+                  was <persName ref="http://syriaca.org/person/3208">Eugene</persName> in <placeName
+                     ref="http://syriaca.org/place/2714">Seleucia</placeName> in <placeName
+                     ref="http://syriaca.org/place/2799">Isauria</placeName>; and the other bishops
+                  also in <placeName ref="http://syriaca.org/place/486">Syria</placeName> as
+                  follows, <persName ref="http://syriaca.org/person/3222">John</persName> from the
+                  monastery of the house of Mar <placeName ref="http://syriaca.org/place/343"
+                     >Bassus</placeName> in <placeName ref="http://syriaca.org/place/2642"
+                     >Kenneshrin</placeName>,<ptr type="noteAnchor" target="#n502-6" n="x"/> and
+                  another whose name was <persName ref="http://syriaca.org/person/71"
+                     >Sergius</persName> from the monastery of <placeName
+                     ref="http://syriaca.org/place/2802">Aphthonia</placeName> in
+                     <placeName>Charrhae</placeName>, and another whose name was <persName
+                     ref="http://syriaca.org/person/3222">John</persName> from the monastery of the
+                  house of Mar <placeName ref="http://syriaca.org/place/351">Hanina</placeName> in
+                        <placeName><foreign>Sura Romanorum</foreign></placeName>. And, when they had
+                  set up bishops for the various cities of <placeName
+                     ref="http://syriaca.org/place/486">Syria</placeName> as has been described,
+                  afterwards they went up to the royal city, and in our presence they ordained a
+                  patriarch in <placeName ref="http://syriaca.org/place/2610">Antioch</placeName>, a
+                  man whose name was <persName ref="http://syriaca.org/person/71">Sergius</persName>
+                  from the city of <placeName>Thella</placeName>, who was living in the royal city
+                  and was versed <pb n="157"/><pb n="503"/>in religious learning. And, when he had
+                  completed three years, he departed from the world; and after a time again they
+                  ordained a man whose name was <persName ref="http://syriaca.org/person/72"
+                     >Paul</persName> from <placeName ref="http://syriaca.org/place/572"
+                     >Alexandria</placeName>. About this man many controversies arose,<ptr type="noteAnchor" target="#n503-1" n="x"/> and continue to the present time
+                  when these things were written. And again in the city of <placeName
+                     ref="http://syriaca.org/place/2735">Amida</placeName> they ordained as
+                  metropolitan a man whose name was <persName ref="http://syriaca.org/person/3209"
+                     >Eunomius</persName>, who had been expelled with others among the same clergy
+                  of <placeName ref="http://syriaca.org/place/2735">Amida</placeName>, in the same
+                  royal city.<ptr type="noteAnchor" target="#n502-7" n="x"/> And for the countries
+                  of <placeName ref="http://syriaca.org/place/715">Egypt</placeName>, by the mandate
+                  of the blessed <persName ref="http://syriaca.org/person/784">Theodosius</persName>
+                  the patriarch, they ordained twelve bishops at once in the royal city itself, for
+                  various cities of <placeName ref="http://syriaca.org/place/2847"
+                     >Thebais</placeName> and of <placeName ref="http://syriaca.org/place/715"
+                     >Egypt</placeName> besides a large number of clergy; inasmuch as the patriarch
+                     <persName ref="http://syriaca.org/person/784">Theodosius</persName> would not
+                  consent to ordain priests after he had left his see. And afterwards the blessed
+                     <persName ref="http://syriaca.org/person/69">James</persName> and his
+                  companions went out to the countries. of <placeName
+                     ref="http://syriaca.org/place/2747">Asia</placeName> for the second time, and
+                  they ordained four bishops in <placeName ref="http://syriaca.org/place/2747"
+                     >Asia</placeName>, one in <placeName ref="http://syriaca.org/place/2666"
+                     >Ephesus</placeName> a man whose name was <persName
+                     ref="http://syriaca.org/person/3222">John</persName> the Syrian, the converter
+                  of the pagans,<ptr type="noteAnchor" target="#n503-2" n="x"/> and in <placeName
+                     ref="http://syriaca.org/place/2719">Smyrna</placeName> a man whose name was
+                     Peter,<ptr type="noteAnchor" target="#n503-3" n="x"/> and another whose name
+                  was <persName ref="http://syriaca.org/person/3222">John</persName> in the city of
+                     <placeName ref="http://syriaca.org/place/2829">Pergamum</placeName>, and
+                  another whose name was Peter in the city of <placeName
+                     ref="http://syriaca.org/place/2856">Tralles</placeName>. And after these things
+                  they crossed to the island of <placeName ref="http://syriaca.org/place/1529"
+                     >Chios</placeName>
+                  <pb n="158"/><pb n="504"/>and set up a bishop in it, a man whose name was
+                     <persName ref="http://syriaca.org/person/2032">Kashish</persName><ptr type="noteAnchor" target="#n504-1" n="x"/> from the monastery of <persName
+                     ref="http://syriaca.org/person/3222">John</persName> of <placeName
+                     ref="http://syriaca.org/place/2666">Ephesus</placeName>, both of whom were from
+                     <placeName ref="http://syriaca.org/place/399">the monastery</placeName> of the
+                  house of Mar <persName ref="http://syriaca.org/person/3222">John</persName> at
+                     <placeName ref="http://syriaca.org/place/2735">Amida</placeName>. And again
+                  they went back and crossed to the regions of <placeName
+                     ref="http://syriaca.org/place/1472">Caria</placeName>, and there they set up
+                  two bishops, one whose name was <persName ref="http://syriaca.org/person/72"
+                     >Paul</persName> in a city the name of which is <placeName
+                     ref="http://syriaca.org/place/2741">Aphrodisias</placeName>,<ptr type="noteAnchor" target="#n504-2" n="x"/> and another whose name was <persName
+                     ref="http://syriaca.org/person/3228">Julian</persName> in a city the name of
+                  which is <placeName ref="http://syriaca.org/place/2732">Alabanda</placeName>.<ptr type="noteAnchor" target="#n504-3" n="x"/> These are all the bishops and
+                  archbishops, who are in number twenty-seven, besides two patriarchs whom the
+                  blessed <persName ref="http://syriaca.org/person/69">James</persName> ordained
+                  with all the other bishops, besides many clergy in all the eastern and western
+                  countries. Many of all these were instituted in our presence, and with regard to
+                  the truth of all these things we give confident and truthful witness that they
+                  were done as above, and we have made a commemorative record of them for the
+                  knowledge of posterity; but of the sublime manner of life of the blessed <persName
+                     ref="http://syriaca.org/person/69">James</persName>, and his courage and
+                  perfection, we have made a record in the preceding history. </ab>
+            </div>
+         </div>
+         <div type="trailer" xml:id="trailer-50">
+            <ab xml:id="trailer-50.1" n="2"> The history of two bishops the excellent and divine
+               blessed men, <persName ref="http://syriaca.org/person/69">James</persName> and
+               <persName ref="http://syriaca.org/person/3266">Theodore</persName>, is ended.
+            </ab>
+         </div>
          <noteGrp>
-            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 499, n. 1</orig></choice>542.</note>
-            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 499, n. 2</orig></choice>See ch. 24.</note>
-            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 500, n. 1</orig></choice>This Ilirtha (sc. <hi rend="singleQuotes">camp</hi>), the seat of the Roman Saracens, is probably different from Hirtha d Nu 'man' (p. 145), the seat of the Persian Saracens.</note>
-            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 500, n. 2</orig></choice>We rather require 'eastern'. Perh. however the author is speaking from the point of view of the Syriac world, which extends from the Mediterranean to the Tigris.</note>
-            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 500, n. 3</orig></choice>Sc. children.</note>
-            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 500, n. 4</orig></choice>We require <hi rend="singleQuotes">but</hi>. The author has, as often, forgotten how he began the sentence.</note>
-            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 500, n. 5</orig></choice>Ms. om.</note>
-            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 500, n. 6</orig></choice>This is probably the earliest use of <hi rend="singleQuotes">Mitylene</hi> for Lesbos.</note>
-            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 502, n. 1</orig></choice>The interpolated life adds Antony and Antonius; see note there.</note>
-            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 502, n. 2</orig></choice>The distinction beween metropolitans and archbishops is later.</note>
-            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 502, n. 3</orig></choice>Probably a shortened form of Demetrius (not Domitius, as P. Smith and V. D. and L.).</note>
-            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 502, n. 4</orig></choice>The monastery which John son of Aphthonia established at Kenneshre on the Euphrates after it had been expelled from Seleucia at the persecution ('Zach. Rn.', VIII, 5).</note>
-            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 502, n. 5</orig></choice>Ms. 'Isauria'; see note on text. Eugene was made bp of S. in Isauria. The interpolated life of James has 'Syria'.</note>
-            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 502, n. 6</orig></choice>Chalcis in Syria.</note>
-            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 502, n. 7</orig></choice>See ch. 49.</note>
-            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 503, n. 1</orig></choice><title>H.E.</title>, IV, 15; Mich., p. 325 (Dyakanov, p. 148).</note>
-            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 503, n. 2</orig></choice>The author; Introd., p. XIV.</note>
-            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 503, n. 3</orig></choice>See ch. 56.</note>
-            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 504, n. 1</orig></choice>See p. 444 and ch. 51.</note>
-            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 504, n. 2</orig></choice>Ms. <hi rend="singleQuotes">'frwdhšyr'</hi>.</note>
-            <note xml:id="n21" target="#a21" n="21"><choice><reg/><orig>p. 404, n. 3</orig></choice>The interpolated life adds John of Dara; see note there.</note>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 499, n.
+               1</orig></choice>542.</note>
+            <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 499, n. 2</orig></choice>See
+               ch. 24.</note>
+            <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 500, n.
+               1</orig></choice>This Ilirtha (sc. <hi rend="singleQuotes">camp</hi>), the seat of
+               the Roman Saracens, is probably different from Hirtha d Nu 'man' (p. 145), the seat
+               of the Persian Saracens.</note>
+            <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 500, n. 2</orig></choice>We
+               rather require 'eastern'. Perh. however the author is speaking from the point of view
+               of the Syriac world, which extends from the Mediterranean to the Tigris.</note>
+            <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 500, n. 3</orig></choice>Sc.
+               children.</note>
+            <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 500, n. 4</orig></choice>We
+               require <hi rend="singleQuotes">but</hi>. The author has, as often, forgotten how he
+               began the sentence.</note>
+            <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 500, n. 5</orig></choice>Ms.
+               om.</note>
+            <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 500, n.
+               6</orig></choice>This is probably the earliest use of <hi rend="singleQuotes"
+                  >Mitylene</hi> for Lesbos.</note>
+            <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 502, n. 1</orig></choice>The
+               interpolated life adds Antony and Antonius; see note there.</note>
+            <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 502, n.
+               2</orig></choice>The distinction beween metropolitans and archbishops is
+               later.</note>
+            <note xml:id="n11" target="#a11" n="11"><choice><reg/><orig>p. 502, n.
+               3</orig></choice>Probably a shortened form of Demetrius (not Domitius, as P. Smith
+               and V. D. and L.).</note>
+            <note xml:id="n12" target="#a12" n="12"><choice><reg/><orig>p. 502, n.
+               4</orig></choice>The monastery which John son of Aphthonia established at Kenneshre
+               on the Euphrates after it had been expelled from Seleucia at the persecution ('Zach.
+               Rn.', VIII, 5).</note>
+            <note xml:id="n13" target="#a13" n="13"><choice><reg/><orig>p. 502, n.
+               5</orig></choice>Ms. 'Isauria'; see note on text. Eugene was made bp of S. in
+               Isauria. The interpolated life of James has 'Syria'.</note>
+            <note xml:id="n14" target="#a14" n="14"><choice><reg/><orig>p. 502, n.
+               6</orig></choice>Chalcis in Syria.</note>
+            <note xml:id="n15" target="#a15" n="15"><choice><reg/><orig>p. 502, n.
+               7</orig></choice>See ch. 49.</note>
+            <note xml:id="n16" target="#a16" n="16"><choice><reg/><orig>p. 503, n.
+                  1</orig></choice><title>H.E.</title>, IV, 15; Mich., p. 325 (Dyakanov, p.
+               148).</note>
+            <note xml:id="n17" target="#a17" n="17"><choice><reg/><orig>p. 503, n.
+               2</orig></choice>The author; Introd., p. XIV.</note>
+            <note xml:id="n18" target="#a18" n="18"><choice><reg/><orig>p. 503, n.
+               3</orig></choice>See ch. 56.</note>
+            <note xml:id="n19" target="#a19" n="19"><choice><reg/><orig>p. 504, n.
+               1</orig></choice>See p. 444 and ch. 51.</note>
+            <note xml:id="n20" target="#a20" n="20"><choice><reg/><orig>p. 504, n.
+               2</orig></choice>Ms. <hi rend="singleQuotes">'frwdhšyr'</hi>.</note>
+            <note xml:id="n21" target="#a21" n="21"><choice><reg/><orig>p. 404, n.
+               3</orig></choice>The interpolated life adds John of Dara; see note there.</note>
          </noteGrp>
       </body>
    </text>

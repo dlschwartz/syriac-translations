@@ -7,18 +7,21 @@
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/814">Addai and Abraham</title>
-            <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
             <editor role="translator">E. W. Brooks</editor>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Syriaca.org: The Syriac Reference Portal</authority>
             <idno type="URI"><!-- URI NEEDED --></idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0//">
-                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
-                  <p>This work incorporates public domain material from the following work(s): 
-                     <listBibl>
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International
+                     License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): <listBibl>
                         <bibl>
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
@@ -26,9 +29,7 @@
                            <!-- What goes here and what goes in the sourceDesc? -->
                         </bibl>
                      </listBibl>
-                     <note type="license">
-                        used under a Creative Commons Attribution license 
-                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
                      </note>
                   </p>
                </licence>
@@ -37,65 +38,79 @@
          </publicationStmt>
          <seriesStmt>
             <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
          </seriesStmt>
          <seriesStmt>
             <title>The Lives of the Eastern Saints</title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+               >Daniel L. Schwartz</editor>
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
-         <notesStmt>
+         <!--<notesStmt>
             <relatedItem type="previous">
                <ptr target=""/>
             </relatedItem>
             <relatedItem type="next">
                <ptr target=""/>
             </relatedItem>
-         </notesStmt>
+         </notesStmt>-->
          <sourceDesc>
-            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks.
+               Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <!-- See spear/814.xml -->
-         <div type="work" xml:id="work"><div type="section" xml:id="section-" n=""><head>Next the Twenty-Second History, of the Two Blessed Anchorite 
-            Brothers <persName ref="http://syriaca.org/person/1117">Addai</persName> and <persName ref="http://syriaca.org/person/1548">Abraham</persName> the Zealous Men</head>
-         <ab>
-            These blessed men <persName ref="http://syriaca.org/person/1117">Addai</persName> and <persName ref="http://syriaca.org/person/1548">Abraham</persName> therefore were brothers on the
-            mother's side, and at first they remained under training in a convent for
-            several years; and afterwards they formed the resolution of going out on
-            pilgrimage. And, when they had been thus going about for several years,
-            they began to deliberate between themselves, saying, <quote>Wherefore do we
-               thus go aimlessly about, and not show labour for our Lord, and erect places
-               for his praise?</quote> And so, as they were going about, they found a certain
-            place that was a convenient site for a <placeName ref="http://syriaca.org/place/3048">monastery</placeName>, and they planted their cross
-            there, and made a cabin; and they asked for iron tools, and began to dig out
-            a site for a martyrs' chapel. And, when the people of the district saw and
-            heard it, they repaired to them from all quarters, providing money and wood
-            and everything that was useful. And in one year they erected an extensive
-            convent in that place, and they also gained disciples; and when they saw it
-            they rejoiced, and they say: <quote>Now it is better for us than roving and
-               going about aimlessly</quote>. And, when they had trained some men and taught
-            them the psalms, and shown them how to conduct affairs, they conceived the
-            plan of leaving them there as it were to govern themselves and depar<pb n="300"/><pb n="300"/>ting, 
-            and erecting another place. And thus they continued doing for twenty-five 
-            years, during which they erected twelve monasteries; most of which
-            I know, which they erected in the district, and the rest, because they were
-            some way off, I have not seen; but the men I saw at last in that in which
-            the blessed <persName ref="http://syriaca.org/person/1117">Addai</persName> who was the elder died, and I was for some time in intercourse 
-            with them, and they said, <quote>This is the twelfth <placeName ref="http://syriaca.org/place/3048">monastery</placeName> that we
-               have erected, since we devoted ourselves to this object</quote>. And in each of
-            them this is what they used to do. As soon as it was built, they would
-            obtain everything that they could for it, and appoint an archimandrite in it,
-            and then depart. But at last the blessed <persName ref="http://syriaca.org/person/1117">Addai</persName> fell asleep in the twelfth.
-         </ab>
-         <ab>
-            The history of <persName ref="http://syriaca.org/person/1117">Addai</persName> and <persName ref="http://syriaca.org/person/1548">Abraham</persName> the zealous brothers is ended.
-         </ab></div></div>
+         <div type="work" xml:id="work-22" n="22">
+            <div type="section" xml:id="section-22">
+               <head type="main">Next the Twenty-Second History, of the Two Blessed Anchorite Brothers <persName
+                     ref="http://syriaca.org/person/1117">Addai</persName> and <persName
+                     ref="http://syriaca.org/person/1548">Abraham</persName> the Zealous Men</head>
+               <ab xml:id="section-22.1" n="1"> These blessed men <persName
+                     ref="http://syriaca.org/person/1117">Addai</persName> and <persName
+                     ref="http://syriaca.org/person/1548">Abraham</persName> therefore were brothers
+                  on the mother's side, and at first they remained under training in a convent for
+                  several years; and afterwards they formed the resolution of going out on
+                  pilgrimage. And, when they had been thus going about for several years, they began
+                  to deliberate between themselves, saying, <quote>Wherefore do we thus go aimlessly
+                     about, and not show labour for our Lord, and erect places for his
+                     praise?</quote> And so, as they were going about, they found a certain place
+                  that was a convenient site for a <placeName ref="http://syriaca.org/place/3048"
+                     >monastery</placeName>, and they planted their cross there, and made a cabin;
+                  and they asked for iron tools, and began to dig out a site for a martyrs' chapel.
+                  And, when the people of the district saw and heard it, they repaired to them from
+                  all quarters, providing money and wood and everything that was useful. And in one
+                  year they erected an extensive convent in that place, and they also gained
+                  disciples; and when they saw it they rejoiced, and they say: <quote>Now it is
+                     better for us than roving and going about aimlessly</quote>. And, when they had
+                  trained some men and taught them the psalms, and shown them how to conduct
+                  affairs, they conceived the plan of leaving them there as it were to govern
+                  themselves and depar<pb n="300"/><pb n="300"/>ting, and erecting another place.
+                  And thus they continued doing for twenty-five years, during which they erected
+                  twelve monasteries; most of which I know, which they erected in the district, and
+                  the rest, because they were some way off, I have not seen; but the men I saw at
+                  last in that in which the blessed <persName ref="http://syriaca.org/person/1117"
+                     >Addai</persName> who was the elder died, and I was for some time in
+                  intercourse with them, and they said, <quote>This is the twelfth <placeName
+                        ref="http://syriaca.org/place/3048">monastery</placeName> that we have
+                     erected, since we devoted ourselves to this object</quote>. And in each of them
+                  this is what they used to do. As soon as it was built, they would obtain
+                  everything that they could for it, and appoint an archimandrite in it, and then
+                  depart. But at last the blessed <persName ref="http://syriaca.org/person/1117"
+                     >Addai</persName> fell asleep in the twelfth. </ab>
+            </div>
+            <div type="trailer" xml:id="trailer-22">
+               <ab xml:id="trailer-22.1" n="2"> The history of <persName
+                     ref="http://syriaca.org/person/1117">Addai</persName> and <persName
+                        ref="http://syriaca.org/person/1548">Abraham</persName> the zealous brothers is
+                  ended. </ab>
+            </div>
+         </div>
       </body>
    </text>
 </TEI>

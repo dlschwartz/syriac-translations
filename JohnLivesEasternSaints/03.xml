@@ -46,14 +46,14 @@
             <idno type="URI"><!-- URI NEEDED! --></idno>
             <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
          </seriesStmt>
-         <notesStmt>
+         <!--<notesStmt>
             <relatedItem type="previous">
                <ptr target=""/>
             </relatedItem>
             <relatedItem type="next">
                <ptr target=""/>
             </relatedItem>
-         </notesStmt>
+         </notesStmt>-->
          <sourceDesc>
             <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks. Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
          </sourceDesc>
@@ -62,10 +62,10 @@
   <text>
       <body>
          <!-- See spear/795.xml -->         
-         <div type="work" xml:id="work">
-            <div type="section" xml:id="section-3" n="3">
+         <div type="work" xml:id="work-3" n="3">
+            <div type="section" xml:id="section-3">
             <head type="main">Next the Third History, of the Blessed <persName ref="http://syriaca.org/person/1320">John</persName> the Perfect Nazrite.</head>
-               <ab xml:id="" n="">
+               <ab xml:id="section-3.1" n="1">
                   When we set ourselves to approach and record the history of this holy
                   <persName ref="http://syriaca.org/person/1320">John</persName>, we exposed ourselves to a multitude of conflicting thoughts, in
                   consequence of the fact that, if we take upon ourselves to narrate severally
@@ -96,7 +96,7 @@
                      day of slaughter</quote>.<ptr type="noteAnchor" target="#n37-3" n="3"/>
                </ab>
                <pb n="38"/><pb n="38"/>
-               <ab>
+               <ab xml:id="section-3.2" n="2">
                   When then the blessed man through hearing these things turned his
                   thoughts upon himself, he in zeal decided for himself that he would be a man
                   aloof from and a stranger to all pleasure that comes through the bodily tastes
@@ -130,7 +130,7 @@
                   what was ordered him, until that man whoever he were said to him <quote>Stop</quote>,
                   and then he would cease.
                </ab>
-               <ab>
+               <ab xml:id="section-3.3" n="3">
                   Again a place had been made by him in the monastery-enclosure, and he
                   would spend the rest of the day or of the night there, in vigil without
                   measure and prayers without ceasing, so that in consequence of these things
@@ -237,7 +237,7 @@
                      according to the gospel (<foreign xml:lang="grc">εύαγγέλιον</foreign>) saying, come not to judgment, but have
                      passed from death to life.<ptr type="noteAnchor" target="#n46-4" n="21"/></quote>
                </ab>
-               <ab>
+               <ab xml:id="section-3.4" n="4">
                   Again the third question. <quote>And what is the submission which is so great
                      in your eyes, O our father?, and how should the man conduct himself who
                      <pb n="47"/><pb n="47"/>has set himself to practise submission, and how should he attain to this virtue
@@ -302,7 +302,7 @@
                   discuss also before me the subject of the abominable passion of fornication,
                   for the sake of my profit and that of the other hearers.
                </ab>
-               <ab>
+               <ab xml:id="section-3.5" n="5">
                   He when he heard these things sighed and wept; and he began to speak
                   thus: <!-- The translation has an opening double bracket here that I don't understand. --><quote>Wretched man that I am! Who will deliver me from this body of
                      death?</quote><ptr type="noteAnchor" target="#n50-5" n="29"/> Who is he, pray, who will understand the wiles of this fiend, the
@@ -374,7 +374,7 @@
                   <pb n="55"/><pb n="55"/>will also be tormented with him; from whom and from all whose doings
                   may we all be preserved, by the abundant mercy of the Lord of all.
                </ab>
-               <ab>
+               <ab xml:id="section-3.6" n="6">
                   These, our brother, are the words which at the instigation of your request
                   have been spoken on this subject; but they will be blamed by your sound
                   and great and spiritual knowledge on account of the fact that they were
@@ -390,8 +390,8 @@
                   the memory of the discreet.<!-- The translation has a close double bracket here that corresponds to the one above. I don't really understand either. -->
                </ab>
             </div>
-            <div type="trailer" xml:id="trailer">
-               <ab>
+            <div type="trailer" xml:id="trailer-3">
+               <ab xml:id="trailer-3.1" n="7">
                   The history of the blessed <persName ref="http://syriaca.org/person/1320">John</persName> the perfect Nazirite is ended.
                </ab>
             </div>
