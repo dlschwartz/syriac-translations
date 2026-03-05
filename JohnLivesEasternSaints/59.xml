@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title ref="http://syriaca.org/work/850">Jacob Baradaeus</title>
+                <title ref="http://syriaca.org/work/849">Jacob Baradaeus</title>
                 <author>
                     <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
                 </author>
@@ -48,14 +48,14 @@
                 <idno type="URI"><!-- URI NEEDED! --></idno>
                 <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
             </seriesStmt>
-            <!--<notesStmt>
-            <relatedItem type="previous">
-               <ptr target=""/>
-            </relatedItem>
-            <relatedItem type="next">
-               <ptr target=""/>
-            </relatedItem>
-         </notesStmt>-->
+            <notesStmt>
+                <relatedItem type="previous">
+                <ptr target="https://syriac-library/848"/>
+                </relatedItem>
+                <relatedItem type="next">
+                    <ptr target="https://syriac-library/850"/><!-- Is this correct? Is 850 properly part of JoE Lives of the Eastern Saints -->
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks.
                Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
