@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" ref="http://syriaca.org/work/832">Bassianus, Romanus, and Simeon</title>
+            <title level="s" ref="http://syriaca.org/work/9501">Lives of the Eastern Saints</title>
+            <author>
+               <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+            </author>
+            <editor role="translator">E. W. Brooks</editor>
+            <editor role="creator"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International
+                     License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                  </listBibl>
+                     <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Lives of the Eastern Saints</title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target="https://syriac-library/831"/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target="https://syriac-library/833"/>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks.
+               Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- See spear/832 -->
+         <div type="work" xml:id="work-41" n="41">
+            <div type="section" xml:id="section-41">
+               <head type="main">Next the Forty-First History, of the Blessed <persName ref="http://syriaca.org/person/1630">Bassian</persName> the Solitary, And
+                  <persName ref="http://syriaca.org/person/2040">Romanus</persName> the Presbyter
+                  and Visitor of the Great Convent of <placeName ref="http://syriaca.org/place/233">Thel 'Adda'</placeName>,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and of
+                  <persName ref="http://syriaca.org/person/2093">Simeon</persName> the
+                  Archimandrite,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> Who Are Laid in
+                  the Sepulchre With These Holy Old Men.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>
+               </head>
+               <ab xml:id="section-41.1" n="1"> To describe the rest of the practices and asceticism and
+                  manner of life in the desert of this blessed <persName ref="http://syriaca.org/person/1630">Bassian</persName> the presbyter and
+                  solitary, things which we have not seen nor heard, seemed to us superfluous; but,
+                  when for a short time we had received the privilege of intercourse with the great
+                  blessed man of God, in his labour and his speech and the affliction of his tears
+                  and his teaching, while he mourned and wept first for his disturbance and his
+                  ejection from the desert, which (he said) was brought about through the violence
+                  and contentious conduct of other solitaries, then afterwards also, when we were
+                  making inquiries of him with regard to the affliction shown by his many floods of
+                  tears and constant sighs, he showed greater distress by grievous <pb type="vol" n="653"/><pb type="running" rend="brackets" n="451"/>sobs, saying, <quote>Who then (<foreign xml:lang="grc">άρα</foreign>),
+                     pray, is there even if he were a man possessing a heart of stone who would not
+                     weep over the delusion and captivity and destruction of the race (<foreign xml:lang="grc">γένος</foreign>) of men? For lo! everyone is running against
+                     himself contrary to religion, and everyone is with all his strength intent upon
+                     evil things with naught to hinder, and we all behave ourselves like men without
+                     God, and like deaf animals without law (<foreign xml:lang="grc">νόμος</foreign>) and without fear of the dreadful judgment to come, and
+                     everyone is of his own will casting himself into the pit of destruction unto
+                     destruction; and by all this destruction of Adam's race a festival has been
+                     created for Satan and joy for the fiends who are carrying away the race
+                     (<foreign xml:lang="grc">γένος</foreign>) of Adam that was fashioned in love
+                     and after its deviation was rescued; and now lo! the hosts of darkness are
+                     mocking at its destruction, and rejoice to be carrying many to participate in
+                     the torment of their destruction. In regard of these things, our father, who
+                     would not weep, who would not be afflicted, who would not wail, who would not
+                     make mourning like a jackal, and lamentation like a jackal's whelp, since the
+                     force of error and destruction has borne away men who are bought by the blood
+                     of God and rescued by his cross?</quote>. While the blessed man was repeating
+                  these things and more than them in his <pb type="vol" n="654"/><pb type="running" rend="brackets" n="452"/>affliction, all
+                  who heard him were marvelling; and, despising all this confused life, they also as
+                  well were being brought to afflictions and tears with him, everyone marvelling at
+                  the blessed man's labour and affliction and teaching. While he was doing and
+                  teaching these things, a revelation was made to him concerning his end and his
+                  departure after a few days, while he said, <quote>Pray also for the miserable
+                     sinner, for at the end of twenty days I shall depart from the body</quote>,
+                  having also adjured my meanness, <quote>Bury this my sinful body in your
+                     monastery, and pray for me</quote>. When we had been saying these many things,
+                  and that sabbath-day<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> was at hand,
+                  he rose and prayed and offered the oblation, and gave it to many, having received
+                  it also himself, and bade farewell to all. And during the night he became ill, and
+                  on the twentieth day he fell asleep; and so we carried him in a procession over
+                  the water to our monastery<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
+                  according to his injunction; and his holy body was buried and laid in the same
+                  tomb according to his injunction; by whose prayers together with those of all the
+                  saints who please God may all we sinners who provoke our Creator be admitted to
+                  mercy. Yea and Amen! And the blessed <persName ref="http://syriaca.org/person/2040">Romanus</persName> who also was a great
+                  and whole-hearted old man, <pb type="vol" n="655"/><pb type="running" rend="brackets" n="453"/>who was
+                  <foreign>apocrisiarius</foreign> of the great convent of <placeName ref="http://syriaca.org/place/233">Thel 'Adda</placeName>, who himself also as
+                  well lived in the same house of a certain great and believing man in which the
+                  blessed <persName ref="http://syriaca.org/person/1630">Bassian</persName> also
+                  fell asleep, was also afterwards himself too brought to the departure from the
+                  bodily life, and himself also was laid in the same grave with the rest of the
+                  blessed men. </ab>
+            </div>
+            <div type="trailer" xml:id="trailer-41">
+               <ab xml:id="trailer-41.1" n="2"> The history of the blessed <persName ref="http://syriaca.org/person/1630">Bassian</persName> the solitary and
+                  <persName ref="http://syriaca.org/person/2040">Romanus</persName> the presbyter
+                  is ended. </ab>
+            </div>
+         </div>
+         <noteGrp>
+            <note xml:id="n1" target="#a1" n="1">
+               <choice>
+                  <reg/>
+                  <orig>p. 450, n.
+                     1</orig>
+               </choice>Near Antioch (Wright, CBM., p. 498).</note>
+            <note xml:id="n2" target="#a2" n="2">
+               <choice>
+                  <reg/>
+                  <orig>p. 450, n.
+                     2</orig>
+               </choice>There is nothing about Simeon in the ch., nor is he mentioned in the
+               subscription. See Introd., p. VII.</note>
+            <note xml:id="n3" target="#a3" n="3">
+               <choice>
+                  <reg/>
+                  <orig>p. 450, n. 3</orig>
+               </choice>In
+               B the title is: <hi rend="singleQuotes">A history concerning the blessed B. the
+                  solitary by the same Mar John of Asia</hi>.</note>
+            <note xml:id="n4" target="#a4" n="4">
+               <choice>
+                  <reg/>
+                  <orig>p. 452, n.
+                     1</orig>
+               </choice>I.e., the day on which he was to go to his rest.</note>
+            <note xml:id="n5" target="#a5" n="5">
+               <choice>
+                  <reg/>
+                  <orig>p. 452, n. 2</orig>
+               </choice>See
+               p. 431, n. 3.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
