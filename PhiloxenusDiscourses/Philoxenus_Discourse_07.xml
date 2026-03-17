@@ -3,63 +3,64 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8862">Discourse 7: 2nd Discourse on the Fear of God</title>
-            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
-            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
-            <respStmt>
-               <resp>Data architecture and encoding by</resp>
-               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-                  >Daniel L. Schwartz</name>
-            </respStmt>
-            <respStmt>
-               <resp>OCR cleaning and initial markup of persons and places by</resp>
-               <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8862">Discourse 7: 2nd Discourse on the Fear of God</title>
+                <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title>
+                <!-- series URI needed -->
+                <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <respStmt>
+                    <resp>Data architecture and encoding by</resp>
+                    <name type="person"
+                          ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>OCR cleaning and initial markup of persons and places by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
                   Chrisanthus</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <seriesStmt>
-            <title><!--The Syriac Library--></title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <seriesStmt>
-            <title>The Discourses of Philoxenus of Mabbug</title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <notesStmt>
-            <relatedItem type="previous">
-               <ptr target="https://syriac-library/8861"/>
-            </relatedItem>
-            <relatedItem type="next">
-               <ptr target="https://syriac-library/8863"/>
-            </relatedItem>
-         </notesStmt>
-         <sourceDesc>
-            <p>
-               <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <seriesStmt>
+                <title>The Discourses of Philoxenus of Mabbug</title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+                <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <notesStmt>
+                <relatedItem type="previous">
+                    <ptr target="https://syriac-library/8861"/>
+                </relatedItem>
+                <relatedItem type="next">
+                    <ptr target="https://syriac-library/8863"/>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
                translated by E. A. Wallis Budge, Vol. 2, London: Asher &amp; Co., 1894, pp. 184-213. </p>
-            <p>Published in 1894, this translation is in the public domain.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="section" xml:id="section-7" n="7">
-            <head type="main">The Seventh Discourse: which sheweth that all the righteous men of old fulfilled the
+                <p>Published in 1894, this translation is in the public domain.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" xml:id="section-7" n="7">
+                <head type="main">The Seventh Discourse: which sheweth that all the righteous men of old fulfilled the
                commandments of God in the fear of God.</head>
-            <ab xml:id="section-7.1" n="1">The way of the rule and conduct of the Christian life hath been trodden and made
+                <ab xml:id="section-7.1" n="1">The way of the rule and conduct of the Christian life hath been trodden and made
                smooth by the example of the righteous men of old for whomsoever wisheth to travel
                rightly therein, and the marks of the footsteps of those who have before gone
                thereupon are before us, that we ourselves may go forward therein with ease. And like
@@ -73,10 +74,9 @@
                to one side or the other, from the lawful way of the divine course of life which hath
                been delivered unto us, but as in the way of faith, <pb type="external" n="192"/>let
                us travel rightly along this fair path. And let us know the beginning, and the end,
-               and the middle, and let us look closely at the many steps, so that we, <pb n="185"
-               />one step after another, in fitting order, may mount this ladder which leadeth up to
+               and the middle, and let us look closely at the many steps, so that we, <pb n="185"/>one step after another, in fitting order, may mount this ladder which leadeth up to
                heaven. Now the Dweller in heaven shewed this ladder aforetime, as in a mystery, to
-               the elect of the Fathers, the blessed <persName>Jacob</persName>;<ptr type="noteAnchor" target="#n185-1"/> and also that those who went
+               the elect of the Fathers, the blessed <persName>Jacob</persName>;<ptr type="noteAnchor" target="#n185-1" n="1"/> and also that those who went
                up and those who came down upon it were angels. And that that ladder belongeth not to
                heavenly angels alone, the word of the Book indicateth to us, because the angels of
                God were going up and coming down thereupon; for every man who draweth nigh to
@@ -93,8 +93,7 @@
                ladder, <persName>Jacob</persName> the upright saw angels ascending and descending; those who were
                ascending were men, <pb type="external" n="193"/>because it belongeth unto men to
                ascend from earth to heaven, and those who were descending were angels, because their
-               country is heaven, and they descend from their country, the heights above, to the <pb
-                  n="186"/>earth. Now therefore angels and the children of men were mingled upon
+               country is heaven, and they descend from their country, the heights above, to the <pb n="186"/>earth. Now therefore angels and the children of men were mingled upon
                that ladder that the Holy Book might teach us that a fair life is common both to
                spiritual and corporeal beings, and that the keeping of the commandments is
                obligatory to both of them. And the children of men keep the commandments when they
@@ -109,7 +108,7 @@
                which will sing the services of God's will, and which will be wholly and entirely
                moved by one living and spiritual motion, even as the natural body is moved entirely
                by the life of the soul.</ab>
-            <ab xml:id="section-7.2" n="2">Now therefore it appeareth to us from the word of the Book, that this ladder which
+                <ab xml:id="section-7.2" n="2">Now therefore it appeareth to us from the word of the Book, that this ladder which
                goeth up to heaven is made of many steps, and that it must be ascended by these steps
                one after another, in proper order, even as those who have ascended this ladder
                before us have delivered unto us. <pb type="external" n="194"/>For we ourselves have
@@ -130,17 +129,17 @@
                commandments; trembling and terror of Him that ordained the law, hold fast for the
                disciple so that he may keep vigilantly the laws which have been given to him. And
                when the righteousness which is in Him hath been revealed, and this virtue which hath
-               been placed naturally within his soul hath risen upon it, it demandeth from him <pb
-                  type="external" n="195"/>that like a man who is in debt, he should pay his debt,
+               been placed naturally within his soul hath risen upon it, it demandeth from him <pb type="external" n="195"/>that like a man who is in debt, he should pay his debt,
                which consisteth in the keeping of the commandments. For as do the creditors of
                [this] world towards those who are in debt—now they press and compel them to pay what
                they owe—even so doth the justice which is in our soul compel us to pay to God the
                debt of His commandments, for the fear which followeth in the train of simplicity
                bringeth us to this state, and by this fear all the men of old pleased [God].</ab>
-            <ab xml:id="section-7.3" n="3">It is necessary that whosoever occupieth the position of a servant should fear, for
+                <ab xml:id="section-7.3" n="3">It is necessary that whosoever occupieth the position of a servant should fear, for
                fear should follow <pb n="188"/>after service in every form; but there is in the love
                which is not perfect, fear, for the Holy Book saith, <quote>In perfect love there is no
-               fear.</quote><ptr type="noteAnchor" target="#n188-1"/> So then after the man who beginneth with love and is not yet perfect,
+               fear.</quote>
+                    <ptr type="noteAnchor" target="#n188-1" n="2"/> So then after the man who beginneth with love and is not yet perfect,
                fear followeth. One man feareth lest he be struck, and this is the fear of slaves;
                another man feareth lest he suffer loss, and this is the fear of hirelings; another
                man feareth lest he cause distress, and this is the fear of friends; and another man
@@ -148,8 +147,7 @@
                of children. Now although the name of fear is one, yet many different kinds [of fear]
                are found therein. There is the fear of God which the holy Prophets had, [and there
                is the fear] which the nation of the Jews had from time to time, but the forms of
-               that fear were different; the Prophets, like friends, feared <pb type="external"
-                  n="196"/>to cause distress to God, Whom they loved, but the Jews, like slaves,
+               that fear were different; the Prophets, like friends, feared <pb type="external" n="196"/>to cause distress to God, Whom they loved, but the Jews, like slaves,
                were afraid of the rod of His chastisement. And that He might increase in them this
                fear, immediately, by the mouth of offence, the rod of His chastisement was revealed,
                and after the offence the Chastiser gave them no respite, because their servitude was
@@ -167,27 +165,26 @@
                the people, in their ignorance, when instruction had been delivered unto them, forgot
                it, and they never kept in remembrance the meditation of the commandments of God, and
                they were frequently punished with severity, so that, if it were only through fear of
-               chastisement, they might lay hold upon the remembrance of <pb type="external" n="197"
-               />instruction. The man who gathered sticks on the Sabbath day was stoned by all the
-               congregation;<ptr type="noteAnchor" target="#n189-1"/> and the earth opened and swallowed up others who were called
-               by <persName>Moses</persName>, and who scorned him and came not<ptr type="noteAnchor" target="#n189-2"/>; and fire went forth suddenly,
+               chastisement, they might lay hold upon the remembrance of <pb type="external" n="197"/>instruction. The man who gathered sticks on the Sabbath day was stoned by all the
+               congregation;<ptr type="noteAnchor" target="#n189-1" n="3"/> and the earth opened and swallowed up others who were called
+               by <persName>Moses</persName>, and who scorned him and came not<ptr type="noteAnchor" target="#n189-2" n="4"/>; and fire went forth suddenly,
                and burnt up the bodies of others who thought lightly of his priestly office, and who
-               sought honour for themselves;<ptr type="noteAnchor" target="#n189-3"/> and others, who in the guise of paying honour,
+               sought honour for themselves;<ptr type="noteAnchor" target="#n189-3" n="5"/> and others, who in the guise of paying honour,
                brought strange fire out of season, were burnt up by a tongue of fire which went
-               forth from the tabernacle, and they perished;<ptr type="noteAnchor" target="#n189-4"/> and others, because they asked
+               forth from the tabernacle, and they perished;<ptr type="noteAnchor" target="#n189-4" n="6"/> and others, because they asked
                for flesh and rejected the bread of angels, were tortured by the indigestion which
-               came upon them;<ptr type="noteAnchor" target="#n189-5"/> and others who went astray as concerning the calf, were
-               pierced through by the swords of the Levites;<ptr type="noteAnchor" target="#n189-6"/> and others, who were the cause
+               came upon them;<ptr type="noteAnchor" target="#n189-5" n="7"/> and others who went astray as concerning the calf, were
+               pierced through by the swords of the Levites;<ptr type="noteAnchor" target="#n189-6" n="8"/> and others, who were the cause
                of <pb n="190"/>the revolt at the waters of trial were set apart for
-               destruction;<ptr type="noteAnchor" target="#n190-1"/> and others who murmured against the Lord perished by fiendish
-               snakes;<ptr type="noteAnchor" target="#n190-2"/> and likewise they all, because they strove against going into the
+               destruction;<ptr type="noteAnchor" target="#n190-1" n="9"/> and others who murmured against the Lord perished by fiendish
+               snakes;<ptr type="noteAnchor" target="#n190-2" n="10"/> and likewise they all, because they strove against going into the
                land of promise, came to an end and were destroyed in the wilderness. To these
                offences, then, these punishments were united, and together with each act of
                wickedness a punishment straightway sprang up by its side, so that evil deeds might
                be suppressed by stripes, and sins by vengeance, and so that the people might be like
                a child who feareth the teacher who giveth him instruction, and that it might tremble
                before the Judge who would beat them like a wrongdoing slave.</ab>
-            <ab xml:id="section-7.4" n="4">And for this reason <persName>Moses</persName> also, the schoolmaster of the people, in all places
+                <ab xml:id="section-7.4" n="4">And for this reason <persName>Moses</persName> also, the schoolmaster of the people, in all places
                commanded the people to fear God, saying, Do such and such things, keep the
                commandments, fulfil the laws, love thy companion, <pb type="external" n="198"/>visit
                the poor who are with thee, thou shalt not treat thy brother with violence, thou
@@ -199,10 +196,11 @@
                teacher bade them take heed that the fear of God might be in them, because he knew
                that the commandments could [only] be kept by fear, and that the fear of God [only]
                could drive the people from iniquity. </ab>
-            <pb n="191"/>
-            <ab xml:id="section-7.5" n="5">That the people should love God was the greatest of the commandments, and therefore
+                <pb n="191"/>
+                <ab xml:id="section-7.5" n="5">That the people should love God was the greatest of the commandments, and therefore
                <persName>Moses</persName> urged them to fear Him. The commandment, <quote>[Thou shalt] love the Lord thy God
-               with all thy heart, and with all thy soul, and with all thy mind</quote><ptr type="noteAnchor" target="#n191-1"/> belonged
+               with all thy heart, and with all thy soul, and with all thy mind</quote>
+                    <ptr type="noteAnchor" target="#n191-1" n="11"/> belonged
                to those who were righteous among them; but those who were like slaves, and who like
                slaves were committing offences at all times, he commanded to fear God, for fear
                repulseth vices, and love perfecteth virtues. Fear cutteth off the path of iniquitous
@@ -212,14 +210,14 @@
                command of love, which is perfected therefrom. For this reason <persName>Paul</persName> also, when he
                was shewing the difference between us and them, said concerning the discipleship of
                <persName>Christ</persName>, <quote>For ye have not received the spirit <pb type="external" n="199"/>of
-               servitude again unto fear</quote><ptr type="noteAnchor" target="#n191-2"/>—that is to say, ye have not been called to be
+               servitude again unto fear</quote>
+                    <ptr type="noteAnchor" target="#n191-2" n="12"/>—that is to say, ye have not been called to be
                slaves, that fear might be born to you out of servitude—<quote>but ye have been invited to
                adoption,</quote> which is perfected in love in all good things.</ab>
-            <ab xml:id="section-7.6" n="6">Well therefore doth fear accompany simplicity, and this is rightly required for the
+                <ab xml:id="section-7.6" n="6">Well therefore doth fear accompany simplicity, and this is rightly required for the
                beginning of discipleship; for as long as fear abideth with the learner continually
                it remindeth him not to forget his instruction. And as <persName>Moses</persName> gave commandments
-               concerning fear to those who had newly set out in the way of the discipleship <pb
-                  n="192"/>of God, so also now it is meet that fear should accompany every disciple
+               concerning fear to those who had newly set out in the way of the discipleship <pb n="192"/>of God, so also now it is meet that fear should accompany every disciple
                who setteth out in the way of righteousness. Whosoever feareth despiseth not, and is
                not negligent, and is not contemptuous, for fear stirreth him up to keep the
                commandments; and if it happen that he cometh to contempt, the remembrance of fear
@@ -228,14 +226,17 @@
                troubled, and he is filled with fear and trembling, and stupefaction rusheth upon him
                suddenly because of his former contempt; even as saith the holy <persName>Prophet</persName> who knew
                how to fear God, and who had felt what things the fear of God worketh in the soul, <quote>I
-               remembered God, and I was troubled.</quote><ptr type="noteAnchor" target="#n192-1"/> And behold the remembrance of God
+               remembered God, and I was troubled.</quote>
+                    <ptr type="noteAnchor" target="#n192-1" n="13"/> And behold the remembrance of God
                should not be one of trouble; O holy <persName>Prophet</persName>, and why wast thou troubled at the
                remembrance of Him? And why did the beloved remembrance of Him clothe thee with
-               trembling? <pb type="external" n="200"/><quote>Because I have sinned against Him, and I
-               remembered mine offences,<ptr type="noteAnchor" target="#n192-2"/> and I became mindful of the Judge, and I was
+               trembling? <pb type="external" n="200"/>
+                    <quote>Because I have sinned against Him, and I
+               remembered mine offences,<ptr type="noteAnchor" target="#n192-2" n="14"/> and I became mindful of the Judge, and I was
                filled with fear; I considered my sins and His vengeance, and the remembrance of Him
                troubled me. Whosoever fixeth his heart, trusteth in God, and he maketh his heart
-               firm and feareth not.</quote><ptr type="noteAnchor" target="#n192-3"/>. The heart which is fixed in virtues the remembrance
+               firm and feareth not.</quote>
+                    <ptr type="noteAnchor" target="#n192-3" n="15"/>. The heart which is fixed in virtues the remembrance
                of God maketh to be glad, and whosoever hath obtained healing of spirit in his inner
                man, the remembrance of God maketh to rejoice. Wheresoever the conscience is pricked
                by sin, there doth fear, the remembrance of <pb n="193"/>the Judge, dwell; for the
@@ -246,18 +247,18 @@
                considered the days of old, and I have remembered the years which are past. I have
                meditated in the night season, and I have communed with my heart, and examined my
                spirit, and said, Hath the Lord forgotten me for ever? Will He be favourable unto me
-               no more?</quote><ptr type="noteAnchor" target="#n193-1"/> With such thoughts as these did the <persName>prophet of God</persName> keep watch,
+               no more?</quote>
+                    <ptr type="noteAnchor" target="#n193-1" n="16"/> With such thoughts as these did the <persName>prophet of God</persName> keep watch,
                and he prayed upon the cushions of his bed as in the church of the saints, being
                mindful of the things which he was bound to pay back to God. And he considered the
                days and the generations which had gone by, and he considered how each of the
                righteous men [of old] had in his time pleased God, and how and with what manner of
                life he had been victorious before Him. And these things which <persName>the Prophet</persName> called
                to remembrance were [intended] to make all those who were to come after him to
-               remember, and to teach every man to fear God in this same manner, and <pb
-                  type="external" n="201"/>[to teach] that a man himself should reckon with himself,
+               remember, and to teach every man to fear God in this same manner, and <pb type="external" n="201"/>[to teach] that a man himself should reckon with himself,
                and should consider also other men who were before him, and how they led their lives
                in all watchfulness.</ab>
-            <ab xml:id="section-7.7" n="7">Now the Prophet, moreover, said that he had done two things: <quote>I have considered the
+                <ab xml:id="section-7.7" n="7">Now the Prophet, moreover, said that he had done two things: <quote>I have considered the
                days of old, and I have called to mind the years which are past in which the men of
                old pleased God,</quote> and through the <pb n="194"/>remembrance of these two things <quote>I am
                filled with fear at the way in which the righteous men pleased God, and at the way in
@@ -268,7 +269,8 @@
                the things [in which I have sinned] in thought, and the things [in which I have
                sinned] with [my] hearing and with [my] tongue. And when I meditated upon these
                things I said, Enter not into judgment with Thy servant, for in Thy sight can no man
-               living be justified.</quote><ptr type="noteAnchor" target="#n194-1"/> To such resemblance doth the word of <persName>the Prophet</persName>
+               living be justified.</quote>
+                    <ptr type="noteAnchor" target="#n194-1" n="17"/> To such resemblance doth the word of <persName>the Prophet</persName>
                call us, and he delivered unto us this type of instruction. We must reckon the hours
                and the seasons, and in what we have provoked [Him], and the things upon which we
                have meditated; for if those who practise the trafficking of [this] world reckon up
@@ -294,13 +296,12 @@
                were watchful; for the first blow which a man receiveth teacheth him to avoid being
                struck again, and the pain of a first sickness urgeth him to be watchful against the
                suffering of a second.</ab>
-            <ab xml:id="section-7.8" n="8">What man can contemplate God with vigilant thought, and look upon His majesty, and
+                <ab xml:id="section-7.8" n="8">What man can contemplate God with vigilant thought, and look upon His majesty, and
                consider His hidden nature, and can with the eye of his understanding look upon that
                pure and holy Nature, Which hath need of nothing; Whose country and dwellingplace are
                exalted; in Whom all riches, and good things and treasures are gathered together; Who
                is wholly and entirely light, and life, and pleasure; Who is forgiving, and merciful,
-               and good; Who is gracious, and compassionate, and full of love; <pb type="external"
-                  n="203"/>Who is beautiful, and lovely, and to be desired; Who beggeth, and
+               and good; Who is gracious, and compassionate, and full of love; <pb type="external" n="203"/>Who is beautiful, and lovely, and to be desired; Who beggeth, and
                entreateth, and urgeth every <pb n="196"/>man to live; Who is afflicted for the sake
                of our life, and seeketh to find us, and is more pleased at our happiness than we
                ourselves; Who continually entreateth us to take from His riches and to carry off
@@ -320,8 +321,7 @@
                forgive, and slow to rebuke; Whose punishments are few, and Whose gifts are many;
                Who, although He correcteth us, beareth remission of sins for us, and Who, because He
                loveth to gain us, for that reason chastiseth us; Him in Whom there is no loss,
-               except only that we have become lost, and Whom affliction striketh not except <pb
-                  type="external" n="204"/>for our sake; Who put on our passions that He might cast
+               except only that we have become lost, and Whom affliction striketh not except <pb type="external" n="204"/>for our sake; Who put on our passions that He might cast
                away our passions from us, and Who clothed <pb n="197"/>Himself in our sickness that
                He might bring our diseases to nought; Who was afflicted to make us rejoice, and Who
                suffered grief that He might fill us with rejoicing; Who made Himself to be in need
@@ -343,10 +343,9 @@
                us; Who, without us, desireth to possess nothing, and if He acquireth anything
                without us, He is as one Who rejoiceth not therein; <pb type="external" n="205"/>Who
                considereth our joy His, and our affliction His, and Who accounteth all our losses
-               His own; Who hath given unto us all good things, and is not satisfied, and <pb
-                  n="198"/>Who hath poured out upon us all riches, and was not satisfied until He,
+               His own; Who hath given unto us all good things, and is not satisfied, and <pb n="198"/>Who hath poured out upon us all riches, and was not satisfied until He,
                in His love, gave Himself for us? </ab>
-            <ab xml:id="section-7.9" n="9">Who then would not be afraid to grieve this rich and good Being, Who is lavish in
+                <ab xml:id="section-7.9" n="9">Who then would not be afraid to grieve this rich and good Being, Who is lavish in
                giving, sweet and gracious, providing and sustaining, indulgent and forgiving,
                merciful and full of love, rich, and making rich, good, and doing good, longsuffering
                and peaceful, loving our race, and accounting our nature beloved, our Physician and
@@ -362,8 +361,8 @@
                every one, who possesseth the watchfulness of that holy soul, will at the remembrance
                of this God also be troubled like the Prophet, and in his going in, and coming out,
                and in all his actions, will be greatly moved at the remembrance of Him.</ab>
-            <pb type="external" n="206"/>
-            <ab xml:id="section-7.10" n="10">Whosoever feareth sleepeth not, and if he sleepeth, he seeth in his dream the cause
+                <pb type="external" n="206"/>
+                <ab xml:id="section-7.10" n="10">Whosoever feareth sleepeth not, and if he sleepeth, he seeth in his dream the cause
                of his fear; he eateth not, and he drinketh not, and if the force of natural craving
                compel him, fear is mingled with his meat and drink. Everything which attacketh the
                man who is filled with the fear of God abideth outside <pb n="199"/>him, for fear
@@ -374,57 +373,73 @@
                which it examineth not; for it neither permitteth any internal thought whatsoever to
                go forth, nor any external act that is not seemly to go in. And moreover this
                <persName>Prophet</persName> maketh known in other places the fear of God; <quote>My flesh contracteth through
-               fear of Thee, and I am afraid of Thy judgments.</quote><ptr type="noteAnchor" target="#n199-1"/> And again he saith, <quote>I am
-               like a wine skin in ice, but I have not forgotten Thy commandments.</quote><ptr type="noteAnchor" target="#n199-2"/> And
+               fear of Thee, and I am afraid of Thy judgments.</quote>
+                    <ptr type="noteAnchor" target="#n199-1" n="18"/> And again he saith, <quote>I am
+               like a wine skin in ice, but I have not forgotten Thy commandments.</quote>
+                    <ptr type="noteAnchor" target="#n199-2" n="19"/> And
                again he saith, <quote>Sorrow is in my heart all the day long. How long, O Lord, wilt thou
                turn Thy face from me? How long wilt Thou forget me, for ever? How long wilt Thou set
-               trouble in my soul?</quote><ptr type="noteAnchor" target="#n199-3"/> And again he saith, <quote>Heal me, O Lord, for my bones
-               tremble, and my soul is greatly moved. I am weary with my groaning; <pb
-                  type="external" n="207"/>every night make I my bed to swim; and I water my couch
-               with my tears. Mine eye hath become sick because of Thine anger;</quote><ptr type="noteAnchor" target="#n199-4"/> now it is
+               trouble in my soul?</quote>
+                    <ptr type="noteAnchor" target="#n199-3" n="20"/> And again he saith, <quote>Heal me, O Lord, for my bones
+               tremble, and my soul is greatly moved. I am weary with my groaning; <pb type="external" n="207"/>every night make I my bed to swim; and I water my couch
+               with my tears. Mine eye hath become sick because of Thine anger;</quote>
+                    <ptr type="noteAnchor" target="#n199-4" n="21"/> now it is
                evident that all these things arose from [his] fear of God. And again he saith, <quote>I
-               roared by reason of the groaning of my heart;</quote><ptr type="noteAnchor" target="#n199-5"/> and again he saith, <quote>Lead me,
-               O Lord, in Thy fear and righteousness;</quote><ptr type="noteAnchor" target="#n199-6"/> and again he saith, <quote>There is no
+               roared by reason of the groaning of my heart;</quote>
+                    <ptr type="noteAnchor" target="#n199-5" n="22"/> and again he saith, <quote>Lead me,
+               O Lord, in Thy fear and righteousness;</quote>
+                    <ptr type="noteAnchor" target="#n199-6" n="23"/> and again he saith, <quote>There is no
                soundness in my flesh before the fear of Thee, and there is no health in my bones in
                the presence of my sins. For my iniquities <pb n="200"/>have gone over my head; and
                [they are] as a heavy burden heavy upon me. My wounds stink and are corrupt, and in
                the presence of my iniquities I tremble greatly. All the day long I walk in sadness.
                For my ankles are filled with trembling. I am much moved, and I am brought to great
-               misery.</quote><ptr type="noteAnchor" target="#n200-1"/> And again he saith, <quote>My heart is turned back, and my strength hath
-               forsaken me; and the light of my eyes is no longer with me.</quote><ptr type="noteAnchor" target="#n200-2"/> And again he
+               misery.</quote>
+                    <ptr type="noteAnchor" target="#n200-1" n="24"/> And again he saith, <quote>My heart is turned back, and my strength hath
+               forsaken me; and the light of my eyes is no longer with me.</quote>
+                    <ptr type="noteAnchor" target="#n200-2" n="25"/> And again he
                saith, <quote>I kept silent, and I was sorrowful, and I was afflicted even from good; and
                my sickness was stirred. My heart became hot within me; and in my body the fire
-               kindled.</quote><ptr type="noteAnchor" target="#n200-3"/> And again he saith, <quote>I was dumb, and I opened not my mouth;
+               kindled.</quote>
+                    <ptr type="noteAnchor" target="#n200-3" n="26"/> And again he saith, <quote>I was dumb, and I opened not my mouth;
                because Thou didst it. I have come to an end because of [Thy] rebuke of my
-               sins.</quote><ptr type="noteAnchor" target="#n200-4"/> And again, in another place, he ascribeth blessedness to the man who
+               sins.</quote>
+                    <ptr type="noteAnchor" target="#n200-4" n="27"/> And again, in another place, he ascribeth blessedness to the man who
                feareth God, and he maketh known what good things the fear of God worketh in him that
-               feareth [Him], saying, <quote>Blessed is the man that feareth the Lord.</quote><ptr type="noteAnchor" target="#n200-5"/> and here
+               feareth [Him], saying, <quote>Blessed is the man that feareth the Lord.</quote>
+                    <ptr type="noteAnchor" target="#n200-5" n="28"/> and here
                the fearer of God is accounted blessed. And although our Lord ordained blessings for
-               other things, <persName>the prophet David</persName> accounted blessed the fearer of the Lord. <pb
-                  type="external" n="208"/><quote>Blessed is the man who hath not walked in the way of the
-               wicked,</quote><ptr type="noteAnchor" target="#n200-6"/> and it is well known that he walketh not in the way of the wicked
+               other things, <persName>the prophet David</persName> accounted blessed the fearer of the Lord. <pb type="external" n="208"/>
+                    <quote>Blessed is the man who hath not walked in the way of the
+               wicked,</quote>
+                    <ptr type="noteAnchor" target="#n200-6" n="29"/> and it is well known that he walketh not in the way of the wicked
                because he feareth God. And again he saith, <quote>Blessed is the man whom Thou shalt
-               correct, O Lord, and whom Thou shalt teach Thy law,</quote><ptr type="noteAnchor" target="#n200-7"/> and it is manifest that
+               correct, O Lord, and whom Thou shalt teach Thy law,</quote>
+                    <ptr type="noteAnchor" target="#n200-7" n="30"/> and it is manifest that
                the fear of God teacheth <pb n="201"/>the laws, and that the man who feareth
                confesseth his correction. And again he said, <quote>Blessed are those who are without
-               blemish in the way, and who walk in the law of the Lord,</quote><ptr type="noteAnchor" target="#n201-1"/> and here again the
+               blemish in the way, and who walk in the law of the Lord,</quote>
+                    <ptr type="noteAnchor" target="#n201-1" n="31"/> and here again the
                fear of the Lord preserveth [a man] from blemishes, and urgeth him to walk in the way
                of the law. And again he saith, <quote>Blessed is the man whose iniquity is forgiven, and
-               whose sins are covered,</quote><ptr type="noteAnchor" target="#n201-2"/> and it is well known that here also the fear of God
+               whose sins are covered,</quote>
+                    <ptr type="noteAnchor" target="#n201-2" n="32"/> and it is well known that here also the fear of God
                bringeth to repentance, through which the forgiveness of sins is given, and through
                the suffering and tears which are produced by the fear of God the form of a man's
                sins is covered before his eyes. And again he saith, <quote>Blessed is every one that
-               feareth the Lord, and who walketh in His ways,</quote><ptr type="noteAnchor" target="#n201-3"/> and here again <persName>the prophet
+               feareth the Lord, and who walketh in His ways,</quote>
+                    <ptr type="noteAnchor" target="#n201-3" n="33"/> and here again <persName>the prophet
                David</persName> sheweth that a man walketh in the way of the commandments through the fear of
                God. And in another place he saith concerning him that feareth the Lord, <quote>He taketh
-               heed to the commandments which are given by the Lord.</quote><ptr type="noteAnchor" target="#n201-4"/> And again this
+               heed to the commandments which are given by the Lord.</quote>
+                    <ptr type="noteAnchor" target="#n201-4" n="34"/> And again this
                <persName>Prophet</persName> counselleth every man to draw nigh unto God in fear, and he entreated all
-               creation to fear the Lord Who made it, saying, <quote>Let all the earth fear the Lord, <pb
-                  type="external" n="209"/>and let all the inhabitants of the world tremble before
-               Him.</quote><ptr type="noteAnchor" target="#n201-5"/> For the word of the prophecy casteth fear and trembling upon all the
+               creation to fear the Lord Who made it, saying, <quote>Let all the earth fear the Lord, <pb type="external" n="209"/>and let all the inhabitants of the world tremble before
+               Him.</quote>
+                    <ptr type="noteAnchor" target="#n201-5" n="35"/> For the word of the prophecy casteth fear and trembling upon all the
                inhabitants of the world, and it teacheth all created beings to come to God by this
                way.</ab>
-            <ab xml:id="section-7.11" n="11">Whosoever feeleth his state of bondage is bound to fear the power which hath subdued
+                <ab xml:id="section-7.11" n="11">Whosoever feeleth his state of bondage is bound to fear the power which hath subdued
                him, and hence <pb n="202"/>it is right for every created being who hath in him
                discernment to perceive his Creator, to draw nigh to Him in fear and trembling; for
                that we should fear God is seemly for our nature, but that we should love Him is
@@ -458,8 +473,7 @@
                world to all the children of men, and until <persName>Christ</persName> was revealed to man in his own
                place, it was right that all his life should be passed in the perpetual service of
                fear; and although our Creator hath, in His Grace, called us <quote>sons</quote> to make us proud
-               and to magnify us, yet is it more seemly for us to abide in the fear of servants. <pb
-                  type="external" n="211"/>And that we were called <quote>sons</quote> belongeth not to
+               and to magnify us, yet is it more seemly for us to abide in the fear of servants. <pb type="external" n="211"/>And that we were called <quote>sons</quote> belongeth not to
                ourselves, but to the Grace of Him that called us, and it belongeth not to us to ask
                for wages boldly, but to us it belongeth to serve in fear; but that one should give
                the wages of love belongeth to God. And no man will offend if he calleth love the
@@ -471,15 +485,17 @@
                contempt for everything which is visible is <pb n="204"/>born in the soul, and our
                dwelling is as if it were already in the kingdom which is prepared for the
                saints.</ab>
-            <ab xml:id="section-7.12" n="12">Now these and such like things hath the soul that hath tasted divine love, for the
+                <ab xml:id="section-7.12" n="12">Now these and such like things hath the soul that hath tasted divine love, for the
                man who standeth in perfect love is in God, and what happiness compareth with this,
                or what pleasure or delight is equal to that of a man being in God? for the position
                which is in perfect love is purity from all wickedness, and the perfection of all
                virtues. And also <persName>Jesus</persName> was not persuaded to give this wealth of love except to the
-               man whom He <choice><sic>know</sic><corr>knows</corr></choice> to be worthy of it, for from love is born confidence, and
+               man whom He <choice>
+                        <sic>know</sic>
+                        <corr>knows</corr>
+                    </choice> to be worthy of it, for from love is born confidence, and
                to confidence contempt is closely united, and there is no virtue which hath not near
-               it a breach through which it can be ravished. But in fear there is no <pb
-                  type="external" n="212"/>contempt, only watchfulness and circumspection, and a
+               it a breach through which it can be ravished. But in fear there is no <pb type="external" n="212"/>contempt, only watchfulness and circumspection, and a
                perpetual guard which preserveth the good things from the ravisher; for the fear
                which is of God urgeth a man to gather together the things which are profitable, and
                when they have been gathered together fear also increaseth and multiplieth to him
@@ -497,15 +513,18 @@
                stirreth us up to do all the commandments, and for this reason the Spirit of God
                desired to teach us the fear of God by the hand of all the Prophets. And <persName>the Prophet
                David</persName> himself said, <quote>All those who pass over the earth shall fear the Lord, and all
-               those who go down into the dust shall kneel [before Him].</quote><ptr type="noteAnchor" target="#n205-1"/> And again he
-               saith, <quote>Lead me, O Lord, in Thy fear and righteousness,</quote><ptr type="noteAnchor" target="#n205-2"/> and because he knew
-               what the profit of the fear of God was, he asked it as a gift from God. <pb
-                  type="external" n="213"/>For all the conversation of the soul which the fear of
+               those who go down into the dust shall kneel [before Him].</quote>
+                    <ptr type="noteAnchor" target="#n205-1" n="36"/> And again he
+               saith, <quote>Lead me, O Lord, in Thy fear and righteousness,</quote>
+                    <ptr type="noteAnchor" target="#n205-2" n="37"/> and because he knew
+               what the profit of the fear of God was, he asked it as a gift from God. <pb type="external" n="213"/>For all the conversation of the soul which the fear of
                God leadeth standeth in righteousness. And again, when he entreated God not to
-               remember the sins of his youth<ptr type="noteAnchor" target="#n205-3"/> against him, he was moved to make this
+               remember the sins of his youth<ptr type="noteAnchor" target="#n205-3" n="38"/> against him, he was moved to make this
                request by His fear of God; and again he said, <quote>The fear of the Lord is the beginning
-               of wisdom.</quote><ptr type="noteAnchor" target="#n205-4"/></ab>
-            <ab xml:id="section-7.13" n="13">Now the end of the path of good works is spiritual love, therefore from love divine
+               of wisdom.</quote>
+                    <ptr type="noteAnchor" target="#n205-4" n="39"/>
+                </ab>
+                <ab xml:id="section-7.13" n="13">Now the end of the path of good works is spiritual love, therefore from love divine
                wisdom is produced, and the blessed <persName>David</persName> well taught us that the beginning of this
                way of wisdom is the fear of God. For as to every matter in [this] world there is a
                beginning and an end, and as the paths which are trodden down naturally by the
@@ -515,31 +534,35 @@
                Christian life should begin <pb n="206"/>it with the fear of God, even according to
                the teaching of the blessed <persName>David</persName>; and again another Prophet said, <quote>The fear of the
                Lord shall open [my] ears for me;</quote> and concerning <persName>Jonah</persName> it is also written, <quote>He
-               feared before the Lord and fled to <placeName>Joppa</placeName>.</quote><ptr type="noteAnchor" target="#n206-1"/> For although his fear was born
+               feared before the Lord and fled to <placeName>Joppa</placeName>.</quote>
+                    <ptr type="noteAnchor" target="#n206-1" n="40"/> For although his fear was born
                of simplicity, yet like a man who feared God he fled in order that he might not draw
                nigh to the work which he thought was too hard for his strength. And again when he
                was asked by the sailors whence he came, and what <pb type="external" n="214"/>God he
-               served, he said, <quote>I fear the Lord, the God of heaven.</quote><ptr type="noteAnchor" target="#n206-2"/> And also when those
+               served, he said, <quote>I fear the Lord, the God of heaven.</quote>
+                    <ptr type="noteAnchor" target="#n206-2" n="41"/> And also when those
                who were with him in the ship saw the marvellous things which took place through God
                in the sea—for the sea rose up, like a being having intelligence, to demand from them
                the fugitive servant, and when he had been given unto it, it sank to rest and its
                billows were quieted—and saw through the things which took place the fear of God, it
                is written concerning them that <quote>the men feared the Lord, and they offered up
-               sacrifices unto the Lord, and vowed vows.</quote><ptr type="noteAnchor" target="#n206-3"/></ab>
-            <ab xml:id="section-7.14" n="14">And again God demanded from the Jews the fear of Himself by the hand of <persName>Jeremiah</persName>,
+               sacrifices unto the Lord, and vowed vows.</quote>
+                    <ptr type="noteAnchor" target="#n206-3" n="42"/>
+                </ab>
+                <ab xml:id="section-7.14" n="14">And again God demanded from the Jews the fear of Himself by the hand of <persName>Jeremiah</persName>,
                and reproached them by the testimony of the dumb things in nature, which, though
                silent, trembled at the fear of Him, while the Jews despised His commandments. <quote>Fear
                ye not Me? saith the Lord: will ye not tremble at My presence? For I have placed the
                sand for the bound of the sea, [by] an everlasting law, and it shall not pass over
-               it.</quote><ptr type="noteAnchor" target="#n206-4"/> And here again the Creator demanded fear and trembling from created
+               it.</quote>
+                    <ptr type="noteAnchor" target="#n206-4" n="43"/> And here again the Creator demanded fear and trembling from created
                things, and because they forsook His <pb n="207"/>fear they were reproached through
                the dumb things of nature, which feared and trembled at the Majesty of the Creator,
                while His commandments were despised by the children of men. And God in all places
                shewed the majesty of His nature by the hand of the Prophet, that He might cast the
                fear thereof into those who listened. For to those who would have despised His
                meekness—if it had been shewn unto them—He revealed the majesty of His nature that
-               they might tremble thereat; and to others He shewed His gentleness and meekness, <pb
-                  type="external" n="215"/>which at the report of His humiliation would increase
+               they might tremble thereat; and to others He shewed His gentleness and meekness, <pb type="external" n="215"/>which at the report of His humiliation would increase
                [their] love [for Him]. Now the fool is wont to despise whosoever is humble before
                him, but the wise man loveth him more because of his humility. For the fool hath no
                eye to see love in humility, and for this reason greatness is made manifest to him,
@@ -549,18 +572,19 @@
                why He maketh use of these words to the children of men. <quote>The sea is obedient unto
                Me, and restraineth the fury of its waves within the despicable bound of sand. And
                its waves lift themselves up, and pass not over the contemptible fence which hedgeth
-               them in; but ye of your own freewill despise this terrible God.</quote><ptr type="noteAnchor" target="#n207-1"/> And again
+               them in; but ye of your own freewill despise this terrible God.</quote>
+                    <ptr type="noteAnchor" target="#n207-1" n="44"/> And again
                in another place He maketh known that He employeth every kind of benefit and help
                towards them, and that He took and brought nigh unto them every cause for fear and
                love, but that they would neither fear nor love Him. <quote>If I be Lord, where are those
-                  <pb n="208"/>who fear Me? And if I be Father, why do ye not honour Me?</quote><ptr type="noteAnchor" target="#n208-1"/>
+                  <pb n="208"/>who fear Me? And if I be Father, why do ye not honour Me?</quote>
+                    <ptr type="noteAnchor" target="#n208-1" n="45"/>
                therefore they should either have feared [Him] as Lord, or have honoured [Him] as
-               Father. And for this reason also God in a certain place<ptr type="noteAnchor" target="#n208-1"/> repeateth before him
+               Father. And for this reason also God in a certain place<ptr type="noteAnchor" target="#n208-1" n="46"/> repeateth before him
                the benefits which He had wrought for the people— the terrible Exodus from <placeName>Egypt</placeName>,
-               the abundant gifts in the wilderness, the entrance into the land of promise, <pb
-                  type="external" n="216"/>the subjugation of foreign nations, the benefits which
+               the abundant gifts in the wilderness, the entrance into the land of promise, <pb type="external" n="216"/>the subjugation of foreign nations, the benefits which
                were poured out abundantly upon their lives every day—so that He might rouse them up
-               to love the Giver. And in another place<ptr type="noteAnchor" target="#n208-2"/> He repeated the great things which
+               to love the Giver. And in another place<ptr type="noteAnchor" target="#n208-2" n="47"/> He repeated the great things which
                He had done, and the works which He had established by the nod of His Will, and how
                all created things hang upon the power of His word, and the natural things keep their
                bounds, and the creation is yoked beneath the dispensation of His Will; before Whom
@@ -588,7 +612,7 @@
                proportion as His condescension and graciousness become revealed unto them, they are
                themselves urged to become like unto their Father in things which are like unto
                these.</ab>
-            <ab xml:id="section-7.15" n="15">And for this reason all the revelations of God in olden time belonged to fear, but
+                <ab xml:id="section-7.15" n="15">And for this reason all the revelations of God in olden time belonged to fear, but
                this latter [revelation] is of friendship and love; for in times of old He revealed
                Himself to teach us that He was our God, but in this last time He hath appeared and
                shewn us that He is our Father. In times of old He drew nigh to the children of men
@@ -601,8 +625,7 @@
                be crucified upon it, of old the stones were collected for stoning, of old the fire
                was kindled for the burning, of old the stripes were made ready for crimes, of old
                the instruments were prepared to take tooth for tooth, of old were the eyes bored
-               out, of old the branding irons were ready to avenge, of old <pb type="external"
-                  n="218"/>blows were struck, of old sentences<ptr type="noteAnchor" target="#n210-1"/> of judgment upon crimes were
+               out, of old the branding irons were ready to avenge, of old <pb type="external" n="218"/>blows were struck, of old sentences<ptr type="noteAnchor" target="#n210-1" n="48"/> of judgment upon crimes were
                passed. To those who were slaves belonged such stripes. And that the wicked slave
                might not raise his head, and lift up himself insolently against the Giver of the
                law, He broke his legs that he might not kick, He cut off his hands that he might not
@@ -624,15 +647,19 @@
                belongeth to time, and He laid upon us <pb type="external" n="219"/>the fear of the
                death which is for eternity. <quote>Fear ye not the death [which is of time],</quote> but fear the
                death [which is for eternity]. <quote>Let not those who kill the body terrify you, but fear
-               ye Him Who can destroy the soul and the body.</quote><ptr type="noteAnchor" target="#n211-1"/> Those who kill [the body] are
+               ye Him Who can destroy the soul and the body.</quote>
+                    <ptr type="noteAnchor" target="#n211-1" n="49"/> Those who kill [the body] are
                not to be feared, for Another quickeneth, but He is to be feared Who is able to put
                to death so that there is none who can quicken, and when He hath killed, there is
                none who can bring to life. For that which is transitory the fear thereof also is
                transitory, but the fear of Him Who neither passeth away nor changeth cometh not to
                an end. <quote>He looketh upon the earth, and it trembleth, He rebuketh the mountains, and
-               they smoke.</quote><ptr type="noteAnchor" target="#n211-2"/> And again [the Book] saith, <quote>At Thy rebuke they flee, and at
-               the voice of Thy thunders they are afraid.</quote><ptr type="noteAnchor" target="#n211-3"/></ab>
-            <ab xml:id="section-7.16" n="16">And behold, according to the word of <persName>the Prophet</persName>, the fear of the Creator also
+               they smoke.</quote>
+                    <ptr type="noteAnchor" target="#n211-2" n="50"/> And again [the Book] saith, <quote>At Thy rebuke they flee, and at
+               the voice of Thy thunders they are afraid.</quote>
+                    <ptr type="noteAnchor" target="#n211-3" n="51"/>
+                </ab>
+                <ab xml:id="section-7.16" n="16">And behold, according to the word of <persName>the Prophet</persName>, the fear of the Creator also
                resteth upon the natures which are speechless, because each of them is bound
                naturally to be afraid of Him; and if dumb things fear Him, how much more should
                intelligent beings fear <pb n="212"/>Him? The fire which belongeth to time is greatly
@@ -643,8 +670,7 @@
                image of everlasting death is not set before our eyes. Immediately the remembrance of
                the things which are written entereth in, it annulleth from the heart the remembrance
                of the things which are here; and so long as our minds are not moved by the constant
-               fear of God, every fear which cometh upon us terrifieth us. <pb type="external"
-                  n="220"/>For so long as the king is absent the judge is held in fear, but when the
+               fear of God, every fear which cometh upon us terrifieth us. <pb type="external" n="220"/>For so long as the king is absent the judge is held in fear, but when the
                king appeareth in his power the fear of judges is annulled, and not is this so only,
                but the judge himself, together with all the grades [of men] beneath him, is subject
                unto the fear of the royal power, and those who are feared themselves become people
@@ -676,63 +702,263 @@
                fear of God; and in the remembrance of His terrible and venerable Name let us keep
                our lives with all diligence, and let us make glory to ascend to the Father, and to
                the Son, and to the Holy Spirit for ever. Amen.</ab>
-            <ab xml:id="section-7.17" n="17">Here endeth the Seventh Discourse: which is on the fear of God which was in the
+                <ab xml:id="section-7.17" n="17">Here endeth the Seventh Discourse: which is on the fear of God which was in the
                righteous men of old.</ab>
-         </div>
-         <noteGrp>
-            <note xml:id="n185-1" target="#a185-1" n="185-1"><choice><reg/><orig>p. 185, n. 1</orig></choice>Genesis xxviii. 12.</note>
-            <note xml:id="n188-1" target="#a188-1" n="188-1"><choice><reg/><orig>p. 188, n. 1</orig></choice>1 St. John iv. 18.</note>
-            <note xml:id="n189-1" target="#a189-1" n="189-1"><choice><reg/><orig>p. 189, n. 1</orig></choice>Numbers xv. 32-36.</note>
-            <note xml:id="n189-2" target="#a189-2" n="189-2"><choice><reg/><orig>p. 189, n. 2</orig></choice>Numbers xvi. 12, 32.</note>
-            <note xml:id="n189-3" target="#a189-3" n="189-3"><choice><reg/><orig>p. 189, n. 3</orig></choice>Numbers xvi. 3, 35.</note>
-            <note xml:id="n189-4" target="#a189-4" n="189-4"><choice><reg/><orig>p. 189, n. 4</orig></choice>Leviticus x. 1, 2.</note>
-            <note xml:id="n189-5" target="#a189-5" n="189-5"><choice><reg/><orig>p. 189, n. 5</orig></choice>Numbers xi. 33.</note>
-            <note xml:id="n189-6" target="#a189-6" n="189-6"><choice><reg/><orig>p. 189, n. 6</orig></choice>Exodus xxxii. 19-28.</note>
-            <note xml:id="n190-1" target="#a190-1" n="190-1"><choice><reg/><orig>p. 190, n. 1</orig></choice>Numbers xx. 12, 13.</note>
-            <note xml:id="n190-2" target="#a190-2" n="190-2"><choice><reg/><orig>p. 190, n. 2</orig></choice>Numbers xxi. 5, 6.</note>
-            <note xml:id="n191-1" target="#a191-1" n="191-1"><choice><reg/><orig>p. 191, n. 1</orig></choice>Deuteronomy vi. 5; St. Matthew xxii. 37; St. Mark xii. 30; St.
+            </div>
+            <noteGrp>
+                <note xml:id="n185-1" target="#a185-1" n="1">
+                    <choice>
+                        <reg/>
+                        <orig>p. 185, n. 1</orig>
+                    </choice>Genesis xxviii. 12.</note>
+                <note xml:id="n188-1" target="#a188-1" n="2">
+                    <choice>
+                        <reg/>
+                        <orig>p. 188, n. 1</orig>
+                    </choice>1 St. John iv. 18.</note>
+                <note xml:id="n189-1" target="#a189-1" n="3">
+                    <choice>
+                        <reg/>
+                        <orig>p. 189, n. 1</orig>
+                    </choice>Numbers xv. 32-36.</note>
+                <note xml:id="n189-2" target="#a189-2" n="4">
+                    <choice>
+                        <reg/>
+                        <orig>p. 189, n. 2</orig>
+                    </choice>Numbers xvi. 12, 32.</note>
+                <note xml:id="n189-3" target="#a189-3" n="5">
+                    <choice>
+                        <reg/>
+                        <orig>p. 189, n. 3</orig>
+                    </choice>Numbers xvi. 3, 35.</note>
+                <note xml:id="n189-4" target="#a189-4" n="6">
+                    <choice>
+                        <reg/>
+                        <orig>p. 189, n. 4</orig>
+                    </choice>Leviticus x. 1, 2.</note>
+                <note xml:id="n189-5" target="#a189-5" n="7">
+                    <choice>
+                        <reg/>
+                        <orig>p. 189, n. 5</orig>
+                    </choice>Numbers xi. 33.</note>
+                <note xml:id="n189-6" target="#a189-6" n="8">
+                    <choice>
+                        <reg/>
+                        <orig>p. 189, n. 6</orig>
+                    </choice>Exodus xxxii. 19-28.</note>
+                <note xml:id="n190-1" target="#a190-1" n="9">
+                    <choice>
+                        <reg/>
+                        <orig>p. 190, n. 1</orig>
+                    </choice>Numbers xx. 12, 13.</note>
+                <note xml:id="n190-2" target="#a190-2" n="10">
+                    <choice>
+                        <reg/>
+                        <orig>p. 190, n. 2</orig>
+                    </choice>Numbers xxi. 5, 6.</note>
+                <note xml:id="n191-1" target="#a191-1" n="11">
+                    <choice>
+                        <reg/>
+                        <orig>p. 191, n. 1</orig>
+                    </choice>Deuteronomy vi. 5; St. Matthew xxii. 37; St. Mark xii. 30; St.
                Luke x. 27.</note>
-            <note xml:id="n191-2" target="#a191-2" n="191-2"><choice><reg/><orig>p. 191, n. 2</orig></choice>Romans viii. 15.</note>
-            <note xml:id="n192-1" target="#a192-1" n="192-1"><choice><reg/><orig>p. 192, n. 1</orig></choice>Psalm lxxvii. 3.</note>
-            <note xml:id="n192-2" target="#a192-2" n="192-2"><choice><reg/><orig>p. 192, n. 2</orig></choice>Compare Psalm xli. 4.</note>
-            <note xml:id="n192-3" target="#a192-3" n="192-3"><choice><reg/><orig>p. 192, n. 3</orig></choice>Psalm cxii. 7, 8.</note>
-            <note xml:id="n193-1" target="#a193-1" n="193-1"><choice><reg/><orig>p. 193, n. 1</orig></choice>Psalm lxxvii. 3-7.</note>
-            <note xml:id="n194-1" target="#a194-1" n="194-1"><choice><reg/><orig>p. 194, n. 1</orig></choice>Psalm cxliii. 2.</note>
-            <note xml:id="n199-1" target="#a199-1" n="199-1"><choice><reg/><orig>p. 199, n. 1</orig></choice>Psalm cxix. 120.</note>
-            <note xml:id="n199-2" target="#a199-2" n="199-2"><choice><reg/><orig>p. 199, n. 2</orig></choice>Psalm cxix. 83.</note>
-            <note xml:id="n199-3" target="#a199-3" n="199-3"><choice><reg/><orig>p. 199, n. 3</orig></choice>Psalm xiii. 1, 2.</note>
-            <note xml:id="n199-4" target="#a199-4" n="199-4"><choice><reg/><orig>p. 199, n. 4</orig></choice>Psalm vi. 3, 6, 7.</note>
-            <note xml:id="n199-5" target="#a199-5" n="199-5"><choice><reg/><orig>p. 199, n. 5</orig></choice>Psalm xxxviii. 8.</note>
-            <note xml:id="n199-6" target="#a199-6" n="199-6"><choice><reg/><orig>p. 199, n. 6</orig></choice>Psalm v. 8.</note>
-            <note xml:id="n200-1" target="#a200-1" n="200-1"><choice><reg/><orig>p. 200, n. 1</orig></choice>Psalm xxxviii. 3-9.</note>
-            <note xml:id="n200-2" target="#a200-2" n="200-2"><choice><reg/><orig>p. 200, n. 2</orig></choice>Psalm xxxviii. 10.</note>
-            <note xml:id="n200-3" target="#a200-3" n="200-3"><choice><reg/><orig>p. 200, n. 3</orig></choice>Psalm xxxix. 2. 3.</note>
-            <note xml:id="n200-4" target="#a200-4" n="200-4"><choice><reg/><orig>p. 200, n. 4</orig></choice>Psalm xxxix. 9.</note>
-            <note xml:id="n200-5" target="#a200-5" n="200-5"><choice><reg/><orig>p. 200, n. 5</orig></choice>Psalm cxii. 1; Psalm cxxviii. 1.</note>
-            <note xml:id="n200-6" target="#a200-6" n="200-6"><choice><reg/><orig>p. 200, n. 6</orig></choice>Psalm 1. 1.</note>
-            <note xml:id="n200-7" target="#a200-7" n="200-7"><choice><reg/><orig>p. 200, n. 7</orig></choice>Psalm xciv. 12.</note>
-            <note xml:id="n201-1" target="#a201-1" n="201-1"><choice><reg/><orig>p. 201, n. 1</orig></choice>Psalm cxix. 1.</note>
-            <note xml:id="n201-2" target="#a201-2" n="201-2"><choice><reg/><orig>p. 201, n. 2</orig></choice>Psalm xxxii. 1.</note>
-            <note xml:id="n201-3" target="#a201-3" n="201-3"><choice><reg/><orig>p. 201, n. 3</orig></choice>Psalm cxxviii. 1.</note>
-            <note xml:id="n201-4" target="#a201-4" n="201-4"><choice><reg/><orig>p. 201, n. 4</orig></choice>Compare Psalm cxii. 1.</note>
-            <note xml:id="n201-5" target="#a201-5" n="201-5"><choice><reg/><orig>p. 201, n. 5</orig></choice>Psalm xxxiii. 8.</note>
-            <note xml:id="n205-1" target="#a205-1" n="205-1"><choice><reg/><orig>p. 205, n. 1</orig></choice>Psalm xxii. 29.</note>
-            <note xml:id="n205-2" target="#a205-2" n="205-2"><choice><reg/><orig>p. 205, n. 2</orig></choice>Psalm v. 8; Psalm xxv. 5.</note>
-            <note xml:id="n205-3" target="#a205-3" n="205-3"><choice><reg/><orig>p. 205, n. 3</orig></choice>Psalm xxv. 7.</note>
-            <note xml:id="n205-4" target="#a205-4" n="205-4"><choice><reg/><orig>p. 205, n. 4</orig></choice>Psalm cxi. 10.</note>
-            <note xml:id="n206-1" target="#a206-1" n="206-1"><choice><reg/><orig>p. 206, n. 1</orig></choice>Jonah i. 3.</note>
-            <note xml:id="n206-2" target="#a206-2" n="206-2"><choice><reg/><orig>p. 206, n. 2</orig></choice>Jonah i. 9.</note>
-            <note xml:id="n206-3" target="#a206-3" n="206-3"><choice><reg/><orig>p. 206, n. 3</orig></choice>Jonah i. 16.</note>
-            <note xml:id="n206-4" target="#a206-4" n="206-4"><choice><reg/><orig>p. 206, n. 4</orig></choice>Jeremiah v. 22.</note>
-            <note xml:id="n207-1" target="#a207-1" n="207-1"><choice><reg/><orig>p. 207, n. 1</orig></choice>Malachi i. 6.</note>
-            <note xml:id="n208-1" target="#a208-1" n="208-1"><choice><reg/><orig>p. 208, n. 1</orig></choice>Compare Psalms lxxviii, cv., cvi.</note>
-            <note xml:id="n208-2" target="#a208-2" n="208-2"><choice><reg/><orig>p. 208, n. 2</orig></choice>Isaiah xl. 12, 15.</note>
-            <note xml:id="n210-1" target="#a210-1" n="210-1"><choice><reg/><orig>p. 210, n. 1</orig></choice>There seems to be no example of the use of this word given in
+                <note xml:id="n191-2" target="#a191-2" n="12">
+                    <choice>
+                        <reg/>
+                        <orig>p. 191, n. 2</orig>
+                    </choice>Romans viii. 15.</note>
+                <note xml:id="n192-1" target="#a192-1" n="13">
+                    <choice>
+                        <reg/>
+                        <orig>p. 192, n. 1</orig>
+                    </choice>Psalm lxxvii. 3.</note>
+                <note xml:id="n192-2" target="#a192-2" n="14">
+                    <choice>
+                        <reg/>
+                        <orig>p. 192, n. 2</orig>
+                    </choice>Compare Psalm xli. 4.</note>
+                <note xml:id="n192-3" target="#a192-3" n="15">
+                    <choice>
+                        <reg/>
+                        <orig>p. 192, n. 3</orig>
+                    </choice>Psalm cxii. 7, 8.</note>
+                <note xml:id="n193-1" target="#a193-1" n="16">
+                    <choice>
+                        <reg/>
+                        <orig>p. 193, n. 1</orig>
+                    </choice>Psalm lxxvii. 3-7.</note>
+                <note xml:id="n194-1" target="#a194-1" n="17">
+                    <choice>
+                        <reg/>
+                        <orig>p. 194, n. 1</orig>
+                    </choice>Psalm cxliii. 2.</note>
+                <note xml:id="n199-1" target="#a199-1" n="18">
+                    <choice>
+                        <reg/>
+                        <orig>p. 199, n. 1</orig>
+                    </choice>Psalm cxix. 120.</note>
+                <note xml:id="n199-2" target="#a199-2" n="19">
+                    <choice>
+                        <reg/>
+                        <orig>p. 199, n. 2</orig>
+                    </choice>Psalm cxix. 83.</note>
+                <note xml:id="n199-3" target="#a199-3" n="20">
+                    <choice>
+                        <reg/>
+                        <orig>p. 199, n. 3</orig>
+                    </choice>Psalm xiii. 1, 2.</note>
+                <note xml:id="n199-4" target="#a199-4" n="21">
+                    <choice>
+                        <reg/>
+                        <orig>p. 199, n. 4</orig>
+                    </choice>Psalm vi. 3, 6, 7.</note>
+                <note xml:id="n199-5" target="#a199-5" n="22">
+                    <choice>
+                        <reg/>
+                        <orig>p. 199, n. 5</orig>
+                    </choice>Psalm xxxviii. 8.</note>
+                <note xml:id="n199-6" target="#a199-6" n="23">
+                    <choice>
+                        <reg/>
+                        <orig>p. 199, n. 6</orig>
+                    </choice>Psalm v. 8.</note>
+                <note xml:id="n200-1" target="#a200-1" n="24">
+                    <choice>
+                        <reg/>
+                        <orig>p. 200, n. 1</orig>
+                    </choice>Psalm xxxviii. 3-9.</note>
+                <note xml:id="n200-2" target="#a200-2" n="25">
+                    <choice>
+                        <reg/>
+                        <orig>p. 200, n. 2</orig>
+                    </choice>Psalm xxxviii. 10.</note>
+                <note xml:id="n200-3" target="#a200-3" n="26">
+                    <choice>
+                        <reg/>
+                        <orig>p. 200, n. 3</orig>
+                    </choice>Psalm xxxix. 2. 3.</note>
+                <note xml:id="n200-4" target="#a200-4" n="27">
+                    <choice>
+                        <reg/>
+                        <orig>p. 200, n. 4</orig>
+                    </choice>Psalm xxxix. 9.</note>
+                <note xml:id="n200-5" target="#a200-5" n="28">
+                    <choice>
+                        <reg/>
+                        <orig>p. 200, n. 5</orig>
+                    </choice>Psalm cxii. 1; Psalm cxxviii. 1.</note>
+                <note xml:id="n200-6" target="#a200-6" n="29">
+                    <choice>
+                        <reg/>
+                        <orig>p. 200, n. 6</orig>
+                    </choice>Psalm 1. 1.</note>
+                <note xml:id="n200-7" target="#a200-7" n="30">
+                    <choice>
+                        <reg/>
+                        <orig>p. 200, n. 7</orig>
+                    </choice>Psalm xciv. 12.</note>
+                <note xml:id="n201-1" target="#a201-1" n="31">
+                    <choice>
+                        <reg/>
+                        <orig>p. 201, n. 1</orig>
+                    </choice>Psalm cxix. 1.</note>
+                <note xml:id="n201-2" target="#a201-2" n="32">
+                    <choice>
+                        <reg/>
+                        <orig>p. 201, n. 2</orig>
+                    </choice>Psalm xxxii. 1.</note>
+                <note xml:id="n201-3" target="#a201-3" n="33">
+                    <choice>
+                        <reg/>
+                        <orig>p. 201, n. 3</orig>
+                    </choice>Psalm cxxviii. 1.</note>
+                <note xml:id="n201-4" target="#a201-4" n="34">
+                    <choice>
+                        <reg/>
+                        <orig>p. 201, n. 4</orig>
+                    </choice>Compare Psalm cxii. 1.</note>
+                <note xml:id="n201-5" target="#a201-5" n="35">
+                    <choice>
+                        <reg/>
+                        <orig>p. 201, n. 5</orig>
+                    </choice>Psalm xxxiii. 8.</note>
+                <note xml:id="n205-1" target="#a205-1" n="36">
+                    <choice>
+                        <reg/>
+                        <orig>p. 205, n. 1</orig>
+                    </choice>Psalm xxii. 29.</note>
+                <note xml:id="n205-2" target="#a205-2" n="37">
+                    <choice>
+                        <reg/>
+                        <orig>p. 205, n. 2</orig>
+                    </choice>Psalm v. 8; Psalm xxv. 5.</note>
+                <note xml:id="n205-3" target="#a205-3" n="38">
+                    <choice>
+                        <reg/>
+                        <orig>p. 205, n. 3</orig>
+                    </choice>Psalm xxv. 7.</note>
+                <note xml:id="n205-4" target="#a205-4" n="39">
+                    <choice>
+                        <reg/>
+                        <orig>p. 205, n. 4</orig>
+                    </choice>Psalm cxi. 10.</note>
+                <note xml:id="n206-1" target="#a206-1" n="40">
+                    <choice>
+                        <reg/>
+                        <orig>p. 206, n. 1</orig>
+                    </choice>Jonah i. 3.</note>
+                <note xml:id="n206-2" target="#a206-2" n="41">
+                    <choice>
+                        <reg/>
+                        <orig>p. 206, n. 2</orig>
+                    </choice>Jonah i. 9.</note>
+                <note xml:id="n206-3" target="#a206-3" n="42">
+                    <choice>
+                        <reg/>
+                        <orig>p. 206, n. 3</orig>
+                    </choice>Jonah i. 16.</note>
+                <note xml:id="n206-4" target="#a206-4" n="43">
+                    <choice>
+                        <reg/>
+                        <orig>p. 206, n. 4</orig>
+                    </choice>Jeremiah v. 22.</note>
+                <note xml:id="n207-1" target="#a207-1" n="44">
+                    <choice>
+                        <reg/>
+                        <orig>p. 207, n. 1</orig>
+                    </choice>Malachi i. 6.</note>
+                <note xml:id="n208-1" target="#a208-1" n="45">
+                    <choice>
+                        <reg/>
+                        <orig>p. 208, n. 1</orig>
+                    </choice>Compare Psalms lxxviii, cv., cvi.</note>
+                <note xml:id="n208-2" target="#a208-2" n="46">
+                    <choice>
+                        <reg/>
+                        <orig>p. 208, n. 2</orig>
+                    </choice>Isaiah xl. 12, 15.</note>
+                <note xml:id="n210-1" target="#a210-1" n="47">
+                    <choice>
+                        <reg/>
+                        <orig>p. 210, n. 1</orig>
+                    </choice>There seems to be no example of the use of this word given in
                Payne Smith's Thesaurus (see. col. 3573).</note>
-            <note xml:id="n211-1" target="#a211-1" n="211-1"><choice><reg/><orig>p. 211, n. 1</orig></choice>St. Matthew x. 28.</note>
-            <note xml:id="n211-2" target="#a211-2" n="211-2"><choice><reg/><orig>p. 211, n. 2</orig></choice>Psalm civ. 32.</note>
-            <note xml:id="n211-3" target="#a211-3" n="211-3"><choice><reg/><orig>p. 211, n. 3</orig></choice>Psalm civ. 7.</note>
-         </noteGrp>
-      </body>
-   </text>
+                <note xml:id="n211-1" target="#a211-1" n="48">
+                    <choice>
+                        <reg/>
+                        <orig>p. 211, n. 1</orig>
+                    </choice>St. Matthew x. 28.</note>
+                <note xml:id="n211-2" target="#a211-2" n="49">
+                    <choice>
+                        <reg/>
+                        <orig>p. 211, n. 2</orig>
+                    </choice>Psalm civ. 32.</note>
+                <note xml:id="n211-3" target="#a211-3" n="50">
+                    <choice>
+                        <reg/>
+                        <orig>p. 211, n. 3</orig>
+                    </choice>Psalm civ. 7.</note>
+            </noteGrp>
+        </body>
+    </text>
 </TEI>

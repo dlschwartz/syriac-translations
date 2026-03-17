@@ -3,64 +3,65 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8863">Discourse 8: 1st Discourse on Poverty</title>
-            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
-            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
-            <respStmt>
-               <resp>Data architecture and encoding by</resp>
-               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-                  >Daniel L. Schwartz</name>
-            </respStmt>
-            <respStmt>
-               <resp>OCR cleaning and initial markup of persons and places by</resp>
-               <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8863">Discourse 8: 1st Discourse on Poverty</title>
+                <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title>
+                <!-- series URI needed -->
+                <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <respStmt>
+                    <resp>Data architecture and encoding by</resp>
+                    <name type="person"
+                          ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>OCR cleaning and initial markup of persons and places by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
                   Chrisanthus</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <seriesStmt>
-            <title><!--The Syriac Library--></title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <seriesStmt>
-            <title>The Discourses of Philoxenus of Mabbug</title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <notesStmt>
-            <relatedItem type="previous">
-               <ptr target="https://syriac-library/8862"/>
-            </relatedItem>
-            <relatedItem type="next">
-               <ptr target="https://syriac-library/8864"/>
-            </relatedItem>
-         </notesStmt>
-         <sourceDesc>
-            <p>
-               <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <seriesStmt>
+                <title>The Discourses of Philoxenus of Mabbug</title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+                <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <notesStmt>
+                <relatedItem type="previous">
+                    <ptr target="https://syriac-library/8862"/>
+                </relatedItem>
+                <relatedItem type="next">
+                    <ptr target="https://syriac-library/8864"/>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
                translated by E. A. Wallis Budge, Vol. 2, London: Asher &amp; Co., 1894, pp. 214-46. </p>
-            <p>Published in 1894, this translation is in the public domain.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="section" xml:id="section-8" n="8">
-            <head type="main">The Eighth Discourse; which teacheth that a man cannot become a perfect disciple of
+                <p>Published in 1894, this translation is in the public domain.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" xml:id="section-8" n="8">
+                <head type="main">The Eighth Discourse; which teacheth that a man cannot become a perfect disciple of
                <persName>Christ</persName>, unless he first of all make himself destitute of all human possessions, and
                go forth from the world openly with his inner man and with his outer man.</head>
-            <ab xml:id="section-8.1" n="1">The man who wisheth to travel along the open way of perfection hath need to make the
+                <ab xml:id="section-8.1" n="1">The man who wisheth to travel along the open way of perfection hath need to make the
                beginning of his journey in the fair order which is becoming to that way, and he
                should not begin his discipleship in the law which seemeth good unto him, but in that
                defined law which was delivered by the word of <persName>Christ</persName> our God unto His disciples,
@@ -106,13 +107,13 @@
                riches, [he doeth it] not with all the might of his soul, which it is seemly to us to
                give wholly to God; for we are obliged to serve God not with one of our members, and
                the world with another, and to meditate upon Him at one time, and upon mammon at
-               another, but it is right that we should give all our might <pb type="external"
-                  n="225"/>to the service of the commandments, and that always the seasons may be
+               another, but it is right that we should give all our might <pb type="external" n="225"/>to the service of the commandments, and that always the seasons may be
                helpful to us to remember Him, that we may become temples to Him alone, having poured
                out from us every meditation of the mind which is outside Him. And that man is not
                able to serve God worthily while he is in the world, and while he is a possessor of
                riches, and the owner of wealth, the word of <persName>our Redeemer</persName> Himself testifieth, <quote>Ye
-               cannot serve God and mammon;</quote><ptr type="noteAnchor" target="#n216-1"/> and forthwith the hearer thought that
+               cannot serve God and mammon;</quote>
+                    <ptr type="noteAnchor" target="#n216-1" n="1"/> and forthwith the hearer thought that
                henceforth the door of righteousness was shut in the <pb n="217"/>face of all the
                children of men, for they cannot be wholly free from the care of riches, and
                according to the decision of the word of <persName>Christ</persName>, whosoever careth for it cannot
@@ -125,10 +126,12 @@
                one man is worshipped by his possessions, and another man worshippeth them. Now the
                word of <persName>our Lord</persName> was spoken concerning the man who is a slave of his possessions,
                and who is not able to be a servant of God; <quote>For ye cannot serve two
-               masters.</quote><ptr type="noteAnchor" target="#n217-1"/> Thou seest <pb type="external" n="226"/>that He shewed two masters
+               masters.</quote>
+                    <ptr type="noteAnchor" target="#n217-1" n="2"/> Thou seest <pb type="external" n="226"/>that He shewed two masters
                in His discourse, and that in explaining who these were, He said, <quote>Ye cannot serve
-               God and mammon.</quote></ab>
-            <ab xml:id="section-8.2" n="2">Behold then, whosoever hath made mammon his master cannot serve God, but he serveth
+               God and mammon.</quote>
+                </ab>
+                <ab xml:id="section-8.2" n="2">Behold then, whosoever hath made mammon his master cannot serve God, but he serveth
                that master whom he hath chosen of his own freewill, his service being especially
                dear unto him, and his dominion over him being beloved by him, because he hath become
                subject unto, him of his own freewill. For the children of men are wont to love
@@ -143,11 +146,10 @@
                <persName>Isaac</persName>, and <persName>Jacob</persName>, and <persName>Job</persName>, and <persName>Joseph</persName>, and <persName>David</persName>, and <persName>Hezekiah</persName>. And of
                these men some were rich, and some were princes, and some were kings, and
                collectively they all were owners of great possessions and wealth; but they were
-               masters of their riches, and their riches were not <pb type="external" n="227"
-               />masters of them, their riches worked for them in all the good things which they
+               masters of their riches, and their riches were not <pb type="external" n="227"/>masters of them, their riches worked for them in all the good things which they
                wished [to do], and they did not serve them in all the wickedness which mammon
                demanded.</ab>
-            <ab xml:id="section-8.3" n="3">Now there are distinctions between the commandments, and it must be understood to
+                <ab xml:id="section-8.3" n="3">Now there are distinctions between the commandments, and it must be understood to
                whom each was spoken. For this commandment, <quote>Ye cannot serve two masters—God and
                mammon,</quote> must, according to the meaning of the passage, have been spoken to those who
                wished to be righteous while they were [still] in the world, and He advised and
@@ -156,15 +158,19 @@
                which was naturally set over their lives. <quote>Lay not up for yourselves treasures upon
                earth, where the moth and the rust corrupt, and where thieves break through and
                steal; but lay up for yourselves treasures in heaven where the moth and the rust do
-                  <pb n="219"/>not corrupt, and where thieves break not through nor steal.</quote><ptr type="noteAnchor" target="#n219-1"/>
+                  <pb n="219"/>not corrupt, and where thieves break not through nor steal.</quote>
+                    <ptr type="noteAnchor" target="#n219-1" n="3"/>
                And it is evident that this commandment is not applicable to solitaries and to those
                who are perfect, for how could <quote>Lay not up for thyself treasure upon earth</quote> be said
-               to him to whom it was commanded, <quote>Take no thought for the morrow?</quote><ptr type="noteAnchor" target="#n219-2"/> And how
+               to him to whom it was commanded, <quote>Take no thought for the morrow?</quote>
+                    <ptr type="noteAnchor" target="#n219-2" n="4"/> And how
                could the words, <quote>Lay up for yourselves treasures in heaven of your alms,</quote> apply to
                the man to whom it was said, <quote>Thou shalt not possess two coats, nor wallet, nor
-               cloak, nor money in the wallet.</quote><ptr type="noteAnchor" target="#n219-3"/> And what hath the thief who stealeth, or
+               cloak, nor money in the wallet.</quote>
+                    <ptr type="noteAnchor" target="#n219-3" n="5"/> And what hath the thief who stealeth, or
                the moth which destroyeth to do with him to whom it is commanded that, save himself,
-               he should possess nothing? So therefore the words, <pb type="external" n="228"/><quote>Ye
+               he should possess nothing? So therefore the words, <pb type="external" n="228"/>
+                    <quote>Ye
                cannot serve God and mammon,</quote> are a command to those who have possessions, for
                because <persName>the Teacher</persName> saw that they could not. rise up to the grade of perfection, He
                brought Himself down in His speech to their level, and He ordained for them a law
@@ -184,8 +190,7 @@
                commanded. And where there are those who give commands those who are commanded will
                be found, and things will be done according to the will of those who give the
                commands. And <persName>Jesus</persName> the Teacher did not lay a heavy command upon those who had
-               possessions when He commanded them to be masters of their riches, but only that <pb
-                  type="external" n="229"/>which they themselves should have desired, and because
+               possessions when He commanded them to be masters of their riches, but only that <pb type="external" n="229"/>which they themselves should have desired, and because
                they did not know how to obtain it, He taught them in this manner. And it is like a
                man who eagerly desireth to become wise, but who knoweth not how to gather together
                knowledge, and another man is found who becometh his teacher and [sheweth him] how to
@@ -209,26 +214,26 @@
                bondage of senseless stuff, lest while they served it they should become servers of
                idols, concerning which it is written, <quote>They have no breath in their mouth, and
                although they have eyes, and ears, and hands, they see not, and hear not, and work
-               not.</quote><ptr type="noteAnchor" target="#n221-1"/> And for this reason <persName>the Apostle Paul</persName> called the love of mammon
-               <quote>idolatry,</quote><ptr type="noteAnchor" target="#n221-2"/> for as the heathen worship things which have no feeling, and in
+               not.</quote>
+                    <ptr type="noteAnchor" target="#n221-1" n="6"/> And for this reason <persName>the Apostle Paul</persName> called the love of mammon
+               <quote>idolatry,</quote>
+                    <ptr type="noteAnchor" target="#n221-2" n="7"/> for as the heathen worship things which have no feeling, and in
                which there is neither life nor perception, even so do those who love riches worship
                the gold which is silent, and the silver which is dumb, together with all [their]
                possessions which have neither feeling nor knowledge. One man <persName>Jesus</persName> commanded,
                [saying], <quote>Be not a servant of riches,</quote> and to another He ordained the law, <quote>Be not
                even a master of wealth;</quote> to one He said, <quote>It is a disgrace to thy freedom that thou
-               shouldst be subject unto gold,</quote> and to the other He said, <quote>It is a contemptible <pb
-                  n="222"/>thing for thy mastership to rule over natural things, for thou art
+               shouldst be subject unto gold,</quote> and to the other He said, <quote>It is a contemptible <pb n="222"/>thing for thy mastership to rule over natural things, for thou art
                humbled to the possessions which are the shells of natural things.</quote> For to him who
                had forsaken mastership over everything, and had been caught fast by the desire of
                little wealth, He said, <quote>Possess, only when thou hast become possessor of thy
                possession, let it not happen that thy possession possess thee;</quote> but the other whom
                He saw had been exalted from being a servant to wealth, He raised up to a higher
-               grade than this, and said, <quote>Be not a master unto it.</quote> For as <pb type="external"
-                  n="231"/>it is a disgrace to him that wisheth to be master of his possessions to
+               grade than this, and said, <quote>Be not a master unto it.</quote> For as <pb type="external" n="231"/>it is a disgrace to him that wisheth to be master of his possessions to
                become a servant thereto, even so is it a disgrace also to him that hath been freed
                from the bondage of wealth, that there should be found with him the mastership of
                wealth.</ab>
-            <ab xml:id="section-8.4" n="4">The poor man possesseth the things of poverty, and the rich man the great and
+                <ab xml:id="section-8.4" n="4">The poor man possesseth the things of poverty, and the rich man the great and
                glorious things of wealth; now therefore since those which have possessions are poor,
                they possess poverty, [which is] riches and temporal possessions, but the destitute
                are rich, and it would be a disgrace to that excellent name if it became the
@@ -238,8 +243,8 @@
                that loved mammon, <quote>Be thou its master, and let it be to thee a slave.</quote> It appeareth
                therefore that <persName>Jesus</persName> gave this commandment to those who were rich, but to all the
                others who wished to walk in the lofty path of perfection He said, <quote>Possess not gold,
-               nor silver, nor money in your wallets, nor two coats, nor shoes, nor <pb n="223"
-               />staff, for the labourer is worthy of his food,</quote><ptr type="noteAnchor" target="#n223-1"/> that is to say, <quote>Such
+               nor silver, nor money in your wallets, nor two coats, nor shoes, nor <pb n="223"/>staff, for the labourer is worthy of his food,</quote>
+                    <ptr type="noteAnchor" target="#n223-1" n="8"/> that is to say, <quote>Such
                freedom befitteth such labour.</quote> So then <persName>Jesus</persName> sent them from all the world, and
                then <pb type="external" n="232"/>He brought them out of the world, saying, <quote>Go
                forth, and leave everything in its place in the world, and take not out with you to
@@ -259,8 +264,7 @@
                these two treasures can be contained in one vessel, for no man ever put scourings
                together with gold in one vessel, nor did any one ever account straw and wood of
                equal value with precious stones.</quote> This commandment then was given by <persName>the Master</persName> to
-                  <pb n="224"/>His disciples when He sent them to be fishers of men unto life; <pb
-                  type="external" n="233"/>He cut off first from them all the fetters of the world,
+                  <pb n="224"/>His disciples when He sent them to be fishers of men unto life; <pb type="external" n="233"/>He cut off first from them all the fetters of the world,
                and He loosed from them all human ties, and then He sent them to loose others, for
                the man that is fettered cannot loose him that is in bondage. The possession of the
                things of the world is a fetter to all the members, and a curb of all the senses, and
@@ -270,7 +274,7 @@
                those whose bonds were loosed bore the mark of freedom, and the sign of the Kingdom,
                and that He that loosed them might be believed in by them, especially when they saw
                that those from whom they had cut off the bonds of the world were free.</ab>
-            <ab xml:id="section-8.5" n="5">This similitude then did <persName>our Lord</persName> set in the place of these commandments which He
+                <ab xml:id="section-8.5" n="5">This similitude then did <persName>our Lord</persName> set in the place of these commandments which He
                delivered to the Apostles when He commanded them to possess nothing; He made them
                destitute of everything, and then He sent them to be ministers of His will in the
                conversion of others, so that therefrom we might learn, that everyone who wisheth to
@@ -285,12 +289,13 @@
                either going about among the multitudes who were sitting down in the wilderness, or
                when they were sent by Him [to do] things which were of use for some visible purpose,
                even as when He sent <persName>Simon</persName> to the sea to catch a fish and to pay the poll
-               tax,<ptr type="noteAnchor" target="#n225-1"/> and as when they were also invited with Him in the body to the feast
-               chamber.<ptr type="noteAnchor" target="#n225-2"/> And they wandered from city to city and went round about with Him,
+               tax,<ptr type="noteAnchor" target="#n225-1" n="9"/> and as when they were also invited with Him in the body to the feast
+               chamber.<ptr type="noteAnchor" target="#n225-2" n="10"/> And they wandered from city to city and went round about with Him,
                and they paid Him honour visibly before the crowds, and they kept back from Him the
                press of the multitudes that not every man might forcibly make his way to Him, even
                as it is written, <quote>And certain people sought to bring little children to Him that He
-               might bless them, and His disciples restrained them;</quote><ptr type="noteAnchor" target="#n225-3"/> and everywhere,
+               might bless them, and His disciples restrained them;</quote>
+                    <ptr type="noteAnchor" target="#n225-3" n="11"/> and everywhere,
                according to the measure of their knowledge at that time they paid Him honour like
                unto this. And He humbled Himself and accepted these things from them from time to
                time, because He knew that they were only able to offer unto Him visible
@@ -313,15 +318,16 @@
                more perfect than that of <persName>Martha</persName>, and both ministered unto Him, the one only
                according to the body, and the other according to the spirit, and our Lord received
                both services, and pronounced blessed the service which was superior to its fellow,
-               [saying], <quote><persName>Mary</persName> hath chosen the good part, which shall not be taken away from
-               her.</quote><ptr type="noteAnchor" target="#n226-1"/> As if a man should say, <quote>Do thou also, O <persName>Martha</persName>, forsake that
+               [saying], <quote>
+                        <persName>Mary</persName> hath chosen the good part, which shall not be taken away from
+               her.</quote>
+                    <ptr type="noteAnchor" target="#n226-1" n="12"/> As if a man should say, <quote>Do thou also, O <persName>Martha</persName>, forsake that
                [service] which is imperfect, and be exalted in thy service to the more excellent
                grade.</quote> And Jesus did not reject the ministration of <persName>Martha</persName>, for according to the
                measure of her knowledge and of her love was <pb type="external" n="236"/>the measure
                of her ministration; but He wished that she would offer great instead of little
                things, and instead of the service of the body the service of the spirit. And the
-               service of <persName>Mary</persName> and of <persName>Martha</persName> was like exactly unto the service of <pb n="227"
-               />the holy Apostles of the old and of the latter times, for that bodily service which
+               service of <persName>Mary</persName> and of <persName>Martha</persName> was like exactly unto the service of <pb n="227"/>the holy Apostles of the old and of the latter times, for that bodily service which
                they also offered unto Him in one place after another was like unto that of <persName>Martha</persName>;
                but that other service which He taught them to offer unto Him in the commandment, <quote>Ye
                shall possess nothing,</quote> was the counterpart of the service of the blessed <persName>Mary</persName>. For
@@ -333,8 +339,10 @@
                children of men the life and rule of spiritual beings, even as also <persName>the holy
                Apostle</persName> taught that it was meet that the man of God should be in all perfection,
                [saying], <quote>The man of God shall be perfect [to do] every good and perfect
-               thing.</quote><ptr type="noteAnchor" target="#n227-1"/></ab>
-            <ab xml:id="section-8.6" n="6">Now this perfection <persName>Jesus</persName> delivered unto His disciples by those commandments
+               thing.</quote>
+                    <ptr type="noteAnchor" target="#n227-1" n="13"/>
+                </ab>
+                <ab xml:id="section-8.6" n="6">Now this perfection <persName>Jesus</persName> delivered unto His disciples by those commandments
                concerning absolute poverty which He gave to them, when He denied to them the whole
                world, and everything that is therein, and not them only, but also, in them and with
                them, every man <pb type="external" n="237"/>who followeth after perfection. For when
@@ -344,15 +352,16 @@
                beginning of their election when He called them to go <pb n="228"/>after Him, it is
                written of them that, <quote>Immediately He called them they forsook everything and went
                after Him.</quote> They were casting nets into the sea and He saw and called them, <quote>and they
-               left their nets and their ship, and went after Him.</quote><ptr type="noteAnchor" target="#n228-1"/> And He saw also <persName>James</persName>
+               left their nets and their ship, and went after Him.</quote>
+                    <ptr type="noteAnchor" target="#n228-1" n="14"/> And He saw also <persName>James</persName>
                and <persName>John</persName> in a ship with <persName>Zebedee</persName> their father, and He called them also, and
                straightway they left the net with <persName>Zebedee</persName> their father, and went after Him.</ab>
-            <ab xml:id="section-8.7" n="7">Behold the law of the going forth after God! And behold the straight rule which hath
+                <ab xml:id="section-8.7" n="7">Behold the law of the going forth after God! And behold the straight rule which hath
                been marked for us in the Holy Books! Therefore it is right that every man who
                desireth to go forth after God should emulate the going forth of the Apostles, and
                that he should despise and reject everything which is visible, and deny the whole
                world, for <persName>Christ</persName> hath said that the man who desireth to be a perfect disciple of
-               Him must also deny himself.<ptr type="noteAnchor" target="#n228-2"/> If a man denieth his life according to the word
+               Him must also deny himself.<ptr type="noteAnchor" target="#n228-2" n="15"/> If a man denieth his life according to the word
                of <persName>our Redeemer</persName>, then will he be a disciple, but without this there is no means of
                a man arriving at perfection. <pb type="external" n="238"/>And how can a man who
                denieth not himself the possessions of the world, and who despiseth not all the
@@ -360,9 +369,8 @@
                delivered? And I do not speak these things of myself, but I follow after the desire
                of the Holy Books, and I take my stand upon the law which hath been ordained by the
                King.</ab>
-            <ab xml:id="section-8.8" n="8">The disciples are the beginning of the discipleship of Christians, and their calling
-               was such—as it is written concerning them—that immediately they were called <pb
-                  n="229"/>they forsook everything, and went forth after Him. And whosoever wisheth
+                <ab xml:id="section-8.8" n="8">The disciples are the beginning of the discipleship of Christians, and their calling
+               was such—as it is written concerning them—that immediately they were called <pb n="229"/>they forsook everything, and went forth after Him. And whosoever wisheth
                to become a disciple let him consider this example, and let him look at this mark
                with all his mind and understanding, in order that inwardly and outwardly he may make
                himself destitute of everything, and then let him begin to journey along this
@@ -374,8 +382,7 @@
                destitute of everything, if we have only emptied ourselves to the extent of keeping
                His commandments, our ministration is not yet worthy of God, inasmuch as the strength
                of our soul is divided and split asunder, and some thereof is occupied with the love
-               of the things of the world, and it is not able to offer unto God the service <pb
-                  type="external" n="239"/>of love. For this command is grievous unto whomsoever is
+               of the things of the world, and it is not able to offer unto God the service <pb type="external" n="239"/>of love. For this command is grievous unto whomsoever is
                fettered with the love of riches, and although it be freedom from the world, yet to
                those who are held fast in the subjection of the world—those who are fettered, and
                whose fetters are pleasant unto them; and those who are fast bound, and their bonds
@@ -409,7 +416,7 @@
                submit himself to their appetites which will retard and injure their recovery, but he
                treateth them according to the beneficial law of healing, and teacheth them to fight
                against their desire that they may be healed.</ab>
-            <ab xml:id="section-8.9" n="9">Let us then receive the yoke of poverty according as <persName>our Redeemer</persName> commanded, even
+                <ab xml:id="section-8.9" n="9">Let us then receive the yoke of poverty according as <persName>our Redeemer</persName> commanded, even
                though it be heavy upon us, for it will not be heavy to the will which agreeth with
                the commandments of <persName>Christ</persName>. For there is no man who doth not desire to be a free
                man, and to be free from the yoke of bondage, and moreover, unto every man the name
@@ -418,8 +425,10 @@
                which He Himself lived and moved while He was in the world, for although by nature
                inasmuch as He was God, He was free, yet in that He took the form of a slave He lived
                and moved in freedom, and He was above all the care of [this] world. For it is
-               written that <persName>Jesus</persName> <quote>took the form of a servant, and He became the likeness of the
-               children of men, and He was found to be in form like unto a man,</quote><ptr type="noteAnchor" target="#n231-1"/> and He was
+               written that <persName>Jesus</persName>
+                    <quote>took the form of a servant, and He became the likeness of the
+               children of men, and He was found to be in form like unto a man,</quote>
+                    <ptr type="noteAnchor" target="#n231-1" n="16"/> and He was
                truly as we are. But in one thing, which is outside of us, He did not participate,
                that is to say, He did not possess on [this] earth riches, and possessions, or
                mammon, or wealth, or buildings, or estates, or vineyards, for <persName>Jesus</persName> possessed none
@@ -434,13 +443,14 @@
                very deed also to live therein in freedom. Whosoever then wisheth to become a
                disciple to that Master let him regard the sojourn of His Master in the world, and as
                He was, even so let him himself be in creation. The Lord of the world was a stranger
-               and an alien in the world, and as was the Lord, even so it is meet <pb
-                  type="external" n="242"/>that the servants should be. And observe how destitute of
+               and an alien in the world, and as was the Lord, even so it is meet <pb type="external" n="242"/>that the servants should be. And observe how destitute of
                human things was He in Whom all fulness was gathered together, for in all creation He
                had neither a nest nor a den which have even the beast and bird! <quote>The foxes have
                holes, and the bird of heaven hath a covert, but the <persName>Son of Man</persName> hath not even where
-               to lay His head.</quote><ptr type="noteAnchor" target="#n232-1"/></ab>
-            <ab xml:id="section-8.10" n="10">Behold, O disciple, thy course of life and action are marked out by the words of thy
+               to lay His head.</quote>
+                    <ptr type="noteAnchor" target="#n232-1" n="17"/>
+                </ab>
+                <ab xml:id="section-8.10" n="10">Behold, O disciple, thy course of life and action are marked out by the words of thy
                Master: that which He had not, thou shalt not have, and that which He possessed not,
                thou shalt not possess. Disciples are not known by [their] outward appearance, but by
                the similarity and agreement of works, and by their treading in the footsteps of
@@ -455,15 +465,15 @@
                the words which <persName>Jesus</persName> spake to thee, [when He said] that He had not a place wherein
                to lay His head, were to teach thee that thou also shouldst not have a place wherein
                to lay thy head, for He said, <quote>The foxes have holes, and the bird of heaven hath a
-               covert;</quote> therefore if thou possessest a house thou art like unto these, <pb
-                  type="external" n="243"/>and if thou hast a dwelling-place in the world, thou art
+               covert;</quote> therefore if thou possessest a house thou art like unto these, <pb type="external" n="243"/>and if thou hast a dwelling-place in the world, thou art
                to be compared with the beasts and birds, for this is what the literal interpretation
                of the words teacheth. But if thou art destitute of everything which is in the world,
                and thou hast not upon earth a place wherein to rest thy head, thou art like unto
                God, for that which <persName>the Master</persName> wished the disciples to be, He depicted and showed
                to them in His own Person, and He confirmed His doctrine unto us by His deeds, even
                as it is written concerning Him, <quote>From [the time of] His baptism by <persName>John</persName> He began
-               to work and to teach,</quote><ptr type="noteAnchor" target="#n233-1"/> even until that day in which He was taken up [into
+               to work and to teach,</quote>
+                    <ptr type="noteAnchor" target="#n233-1" n="18"/> even until that day in which He was taken up [into
                heaven]. These were the fair deeds and the excellent manner of life which He shewed
                forth in His own Person. And although the raising of the dead, and the cleansing of
                the lepers, and the opening of the <pb n="234"/>eyes of the blind, and the making the
@@ -475,13 +485,12 @@
                sake of [doing] good deeds, and not to work wonders, His teaching also was for
                spiritual life and conduct, and to this He also united work, in order that He might
                show us in Himself the type of all perfection. And He forsook the world and all the
-               conversation among the children of men immediately after the baptism of <persName>John</persName>, <pb
-                  type="external" n="244"/>and went forth to the wilderness, for until [the time of]
+               conversation among the children of men immediately after the baptism of <persName>John</persName>, <pb type="external" n="244"/>and went forth to the wilderness, for until [the time of]
                His baptism He was fulfilling another rule of life, and He kept everything of the old
                law, that He might pay that debt on account of which all our race had become subject
                unto the bondage of sin, and of the law, and of death. And <persName>Jesus</persName> in His own Person
                kept everything which it was meet for those who lived righteously in the world to do,
-               for it is written concerning Him<ptr type="noteAnchor" target="#n234-1"/> that He went up into the Temple, and
+               for it is written concerning Him<ptr type="noteAnchor" target="#n234-1" n="19"/> that He went up into the Temple, and
                offered up offerings, and that He was subject unto the priests, and that He fulfilled
                everything which was written in the law. And this [He did] for two reasons: firstly,
                that He might pay that which was due, and secondly that He might teach everyone in
@@ -502,7 +511,8 @@
                and to restrain it, according to the testimony of the teacher <persName>Paul</persName>, who saith, <quote>The
                law was not laid down for the righteous, but for the wicked and unruly, and for the
                unclean, and for those who smite their fathers and mothers, and for murderers, and
-               adulterers, and whoremongers;</quote><ptr type="noteAnchor" target="#n235-1"/> over such as these hath the law power. Now
+               adulterers, and whoremongers;</quote>
+                    <ptr type="noteAnchor" target="#n235-1" n="20"/> over such as these hath the law power. Now
                therefore, although our discourse was wishing to shew that the perfect who are led by
                the spirit are alone above the law, it is found that <persName>Paul</persName> teacheth that the
                righteous also, who are on a lower level than the perfect, are free from the law, for
@@ -521,7 +531,7 @@
                some who are held back therefrom because they would [rather] do the things which are
                good, for unless a man bringeth wickedness to nought, he is not able to do good
                things.</ab>
-            <ab xml:id="section-8.11" n="11">Up to [the time of] baptism <persName>our Lord</persName> delivered the rule and life of righteousness
+                <ab xml:id="section-8.11" n="11">Up to [the time of] baptism <persName>our Lord</persName> delivered the rule and life of righteousness
                to the children of men that they might do the good things which are written in the
                law, and offer up offerings of their possessions to God, and vow vows and pay [them],
                and be constant in the Temple of God, and receive blessings in faith from the
@@ -543,11 +553,11 @@
                Priest of the Spirit, he spake with Him other great things, that He might shew the
                faithful also to ask for the prayer of the priests, and to bow the heads of
                themselves and of their children to their blessing. He went up each year to <placeName>the
-               Temple</placeName>, as it is written of Him,<ptr type="noteAnchor" target="#n237-1"/> that He might teach the faithful to go to
+               Temple</placeName>, as it is written of Him,<ptr type="noteAnchor" target="#n237-1" n="21"/> that He might teach the faithful to go to
                the Temple of God always. He made feasts according to their proper times and
                ceremonies that He might stir thee up to keep the festivals of the Church with
                discretion, and that thou mightest fulfil in them all thy obligations. He sat among
-               the teachers, and listened unto them, and asked them questions,<ptr type="noteAnchor" target="#n237-2"/> and He bowed
+               the teachers, and listened unto them, and asked them questions,<ptr type="noteAnchor" target="#n237-2" n="22"/> and He bowed
                His ear, and received instruction, <pb n="238"/>that thou also mightest hear and ask
                questions, and incline thine ear continually to the hearing of the divine
                commandments, and that thou mightest ask questions and learn those things which are
@@ -559,12 +569,13 @@
                and He bowed His head under the hand of the Herald, and He received baptism from him
                as one who was in need thereof—from him who needed to be baptized of Him; and He
                forsook the habitation of man, and went forth to the wilderness to <persName>John</persName> with all
-               the multitudes.<ptr type="noteAnchor" target="#n238-1"/> <pb type="external" n="248"/>And why [did He do] these
+               the multitudes.<ptr type="noteAnchor" target="#n238-1" n="23"/>
+                    <pb type="external" n="248"/>And why [did He do] these
                things unless it were to teach those who were masters of wealth, and those who dwelt
                in the world, to go forth to the saints, and to run to the solitary dwellers, and to
                honour the prophets and righteous men, and to be obedient to the admonition of their
                words by the discretion of their faith?</ab>
-            <ab xml:id="section-8.12" n="12">Now therefore this righteousness did our <persName>Redeemer</persName> deliver, and this rule and
+                <ab xml:id="section-8.12" n="12">Now therefore this righteousness did our <persName>Redeemer</persName> deliver, and this rule and
                conduct did He shew to the faithful in the time which preceded [His] baptism, and He
                admonished those who had possessions to possess these virtues, for He did not give
                this rule and conduct of life to the solitary dwellers, neither did He deliver it to
@@ -578,7 +589,7 @@
                And of whom shall the man who hath no conversation with the children of men ask, and
                from whom shall he learn? if he hath need to learn, the Spirit of God instead of a
                man will teach him.</ab>
-            <ab xml:id="section-8.13" n="13">Now therefore this doctrine until [the time of His] baptism was delivered unto
+                <ab xml:id="section-8.13" n="13">Now therefore this doctrine until [the time of His] baptism was delivered unto
                righteous believers, <pb type="external" n="249"/>and it was given unto righteous
                owners of possessions, and to those who had not entirely gone forth from the world,
                in order that those who were suitable for the condition in which they lived might not
@@ -592,10 +603,12 @@
                commandments which are given concerning them, are like the virtues, different each
                from each. For behold, it is written that before His <pb n="240"/>baptism He was
                subject unto His parents; <quote>He went back with them to <placeName>Nazareth</placeName>, and was subject unto
-               them.</quote><ptr type="noteAnchor" target="#n240-1"/> But observe that, after the baptism, when He was delivering a rule of
+               them.</quote>
+                    <ptr type="noteAnchor" target="#n240-1" n="24"/> But observe that, after the baptism, when He was delivering a rule of
                life which was more perfect than this to the children of men, He was not persuaded to
                acknowledge parents after the body. <quote>Who is My mother, and who are My
-               brethren?</quote><ptr type="noteAnchor" target="#n240-2"/> He said to him that spake of them to Him. And although He was
+               brethren?</quote>
+                    <ptr type="noteAnchor" target="#n240-2" n="25"/> He said to him that spake of them to Him. And although He was
                obedient and subject unto His parents before baptism, in the time which followed,
                when He was delivering the rule and course of life of spiritual beings, He said, <quote>I
                know them not;</quote> and they called Him to go forth to them, but He would not be
@@ -608,16 +621,18 @@
                than to the parents of grace, and that He might also teach those who are perfect to
                be more obedient unto the Father of grace than unto natural parents. <quote>I do not seek
                My own will, but the will of Him that sent Me. And I did not come down from heaven to
-               do My own will, but the will of Him that sent Me</quote>.<ptr type="noteAnchor" target="#n240-3"/> These things were spoken
+               do My own will, but the will of Him that sent Me</quote>.<ptr type="noteAnchor" target="#n240-3" n="26"/> These things were spoken
                when He was fulfilling within Himself perfection, in order that spiritual beings who
                are outside the world might understand that not only to natural <pb n="241"/>parents
                should they not be obedient and keep in subjection unto them, but also that they
                should not be persuaded by their own will, neither by their own wants and pleasures
                in any thing, but that they should deny themselves, even as it was said by <persName>the
-               Redeemer</persName>, <quote>Whosoever denieth not himself cannot be My disciple.</quote><ptr type="noteAnchor" target="#n241-1"/> Now
+               Redeemer</persName>, <quote>Whosoever denieth not himself cannot be My disciple.</quote>
+                    <ptr type="noteAnchor" target="#n241-1" n="27"/> Now
                therefore it is written that three days after <persName>our Lord</persName> had returned from the
                wilderness, He was bidden to a feast, He, and His mother, and His brethren, and His
-               disciples.<ptr type="noteAnchor" target="#n241-2"/> <pb type="external" n="251"/>And when wine was lacking for the
+               disciples.<ptr type="noteAnchor" target="#n241-2" n="28"/>
+                    <pb type="external" n="251"/>And when wine was lacking for the
                guests, His mother said to <persName>Jesus</persName>, <quote>They have no wine,</quote> and she began on this
                occasion also to speak to Him with authority, even as a mother doth from early habit;
                but <persName>Jesus</persName> restrained that freedom of speech, teaching that the obligation of
@@ -630,14 +645,14 @@
                which [their] parents still live. For <persName>Mary</persName> stood in one rule of life, and <persName>Jesus</persName>
                stood in another, that is to say, she lived the life of the law, and He lived the
                life of the Spirit; and it was not well that He Who lived the life of the Spirit
-               should be commanded by one who was still governed by the law. <pb n="242"/><persName>Mary</persName>
+               should be commanded by one who was still governed by the law. <pb n="242"/>
+                    <persName>Mary</persName>
                gave the command like a woman in authority, and <persName>Jesus</persName> answered her like a free man;
                <quote>They have no wine,</quote> said <persName>Mary</persName>, and these are words of authority, and like a mother
                she spake with a command. <quote>What have I to do with thee, O woman?</quote> He replied like one
                who was not subject [unto her], and He spake as unto a strange woman who was not His
                mother. For He did not say, <quote>What hast thou to do with me, My mother?</quote>, but, <quote>What
-               hast thou to do with Me, O woman? By grace thou hast become my mother, <pb
-                  type="external" n="252"/>and through Divine dispensation I have been born of thee;
+               hast thou to do with Me, O woman? By grace thou hast become my mother, <pb type="external" n="252"/>and through Divine dispensation I have been born of thee;
                and I have been subject unto thee, and I have been obedient, but not because I am
                bound [to be so] to thee naturally. My beginning was not from thee, that I should
                receive grace from thee, for it was for thy sake that I came into being. Thou didst
@@ -651,13 +666,14 @@
                My own behalf, but I paid the debt and I fulfilled the law on behalf of all the
                children who rebel against [their] parents. And now that the debt hath been paid, and
                dispensation of the law hath been fulfilled, what have I to do with thee, O woman?</quote>
-               Now this speech is like unto the words, <quote>Who is My mother?</quote> and unto that <pb n="243"
-               />which He said to <persName>John</persName>, <quote>Behold thy mother!</quote> and again He said to <persName>Mary</persName>, <quote>Behold
-               thy son!</quote><ptr type="noteAnchor" target="#n243-1"/> And it is moreover like unto another speech which <persName>Jesus</persName> spake
+               Now this speech is like unto the words, <quote>Who is My mother?</quote> and unto that <pb n="243"/>which He said to <persName>John</persName>, <quote>Behold thy mother!</quote> and again He said to <persName>Mary</persName>, <quote>Behold
+               thy son!</quote>
+                    <ptr type="noteAnchor" target="#n243-1" n="29"/> And it is moreover like unto another speech which <persName>Jesus</persName> spake
                unto them when they sought to take Him with them to the feast as they were going up
                to <placeName>Jerusalem</placeName>, to that feast, according to [His] former wont before baptism, when He
                separated Himself from them, [saying], <quote>Go ye up to the feast, but I will not go up
-               to the feast,</quote><ptr type="noteAnchor" target="#n243-2"/> and after <pb type="external" n="253"/>He had dismissed them,
+               to the feast,</quote>
+                    <ptr type="noteAnchor" target="#n243-2" n="30"/> and after <pb type="external" n="253"/>He had dismissed them,
                and had not gone up with them, He turned back, and went up in the midst of the feast.
                And His going up is not contrary to that which He said, <quote>I will not go up,</quote> for He
                said, <quote>I will not go up as one who is subject [unto the law],</quote> because they were
@@ -677,15 +693,14 @@
                own freewill. And His going up after He had told His parents that He was not going up
                was like unto that which He did at the feast of <placeName>Cana</placeName>, for after He had said to
                <persName>Mary</persName>, <quote>What hast thou to do with me, O woman</quote>—a speech which seemed to indicate
-               that He would not be obedient unto what she had said—He turned and did <pb
-                  type="external" n="254"/>that thing which she had said, not because she had
+               that He would not be obedient unto what she had said—He turned and did <pb type="external" n="254"/>that thing which she had said, not because she had
                commanded Him, but because of His power, and because the time had come for Him to
                begin to work miracles, that thereby it might be seen Who He was, and that He might
                make His glory known and gather together unto Him disciples, and also that He might
                shew that henceforth He would do everything with authority like One that was free,
                and not according to the feebleness of human nature, and not according to the
                subjection of parents, and not according to the law's command.</ab>
-            <ab xml:id="section-8.14" n="14">Now we have shewn the power of these things which we have spoken from the Holy Book,
+                <ab xml:id="section-8.14" n="14">Now we have shewn the power of these things which we have spoken from the Holy Book,
                and it is right, moreover, for him that readeth, that while he readeth our discourse,
                he should examine the Holy Book, and see that these matters are, in their several
                places, known to be thus; and in order that this meaning should be marked out for us
@@ -715,52 +730,172 @@
                he be subject unto his parents, or whether he be obedient unto, and honoureth the
                priests and teachers, or whether he do good deeds unto every man, that is to say, if
                as he would that men should do unto him, so he doeth unto them. </ab>
-            <pb n="246"/>
-            <ab xml:id="section-8.15" n="15">This is the righteousness which the old law taught, and <persName>Jesus</persName> fulfilled it until
+                <pb n="246"/>
+                <ab xml:id="section-8.15" n="15">This is the righteousness which the old law taught, and <persName>Jesus</persName> fulfilled it until
                [His] baptism, and all believing men, who have not yet made themselves destitute of
                their riches, are bound to perform [it]; <pb type="external" n="256"/>but the
                spiritual rule and conduct of life, and perfection, <persName>Jesus</persName> delivered unto us from
                [His] baptism unto the cross. May we all, through His grace, be accounted worthy by
                Him, to Whom be glory for ever. Amen.</ab>
-            <ab xml:id="section-8.16" n="16">Here endeth the Eighth Discourse, which is on Poverty, and which was composed by the
+                <ab xml:id="section-8.16" n="16">Here endeth the Eighth Discourse, which is on Poverty, and which was composed by the
                blessed <persName>Mâr Philoxenus</persName>, Bishop of <placeName>Mabbôgh</placeName>.</ab>
-         </div>
-         <noteGrp>
-            <note xml:id="n216-1" target="#a216-1" n="216-1"><choice><reg/><orig>p. 216, n. 1</orig></choice>St. Matthew vi. 24.</note>
-            <note xml:id="n217-1" target="#a217-1" n="217-1"><choice><reg/><orig>p. 217, n. 1</orig></choice>St. Matthew vi. 24; St. Luke xvi. 13.</note>
-            <note xml:id="n219-1" target="#a219-1" n="219-1"><choice><reg/><orig>p. 219, n. 1</orig></choice>St. Matthew vi. 19, 20.</note>
-            <note xml:id="n219-2" target="#a219-2" n="219-2"><choice><reg/><orig>p. 219, n. 2</orig></choice>St. Matthew vi. 34.</note>
-            <note xml:id="n219-3" target="#a219-3" n="219-3"><choice><reg/><orig>p. 219, n. 3</orig></choice>St. Matthew x. 9,10; and compare St. Mark vi. 8; St.Luke
+            </div>
+            <noteGrp>
+                <note xml:id="n216-1" target="#a216-1" n="1">
+                    <choice>
+                        <reg/>
+                        <orig>p. 216, n. 1</orig>
+                    </choice>St. Matthew vi. 24.</note>
+                <note xml:id="n217-1" target="#a217-1" n="2">
+                    <choice>
+                        <reg/>
+                        <orig>p. 217, n. 1</orig>
+                    </choice>St. Matthew vi. 24; St. Luke xvi. 13.</note>
+                <note xml:id="n219-1" target="#a219-1" n="3">
+                    <choice>
+                        <reg/>
+                        <orig>p. 219, n. 1</orig>
+                    </choice>St. Matthew vi. 19, 20.</note>
+                <note xml:id="n219-2" target="#a219-2" n="4">
+                    <choice>
+                        <reg/>
+                        <orig>p. 219, n. 2</orig>
+                    </choice>St. Matthew vi. 34.</note>
+                <note xml:id="n219-3" target="#a219-3" n="5">
+                    <choice>
+                        <reg/>
+                        <orig>p. 219, n. 3</orig>
+                    </choice>St. Matthew x. 9,10; and compare St. Mark vi. 8; St.Luke
                ix.3.</note>
-            <note xml:id="n221-1" target="#a221-1" n="221-1"><choice><reg/><orig>p. 221, n. 1</orig></choice>Psalm cxv. 5-7.</note>
-            <note xml:id="n221-2" target="#a221-2" n="221-2"><choice><reg/><orig>p. 221, n. 2</orig></choice>Colossians iii. 5. Ephesians v. 5.</note>
-            <note xml:id="n223-1" target="#a223-1" n="223-1"><choice><reg/><orig>p. 223, n. 1</orig></choice>St. Matthew x. 9, 10; St. Luke x. 4, 7.</note>
-            <note xml:id="n225-1" target="#a225-1" n="225-1"><choice><reg/><orig>p. 225, n. 1</orig></choice>St. Matthew xvii. 27.</note>
-            <note xml:id="n225-2" target="#a225-2" n="225-2"><choice><reg/><orig>p. 225, n. 2</orig></choice>St. John ii. 2.</note>
-            <note xml:id="n225-3" target="#a225-3" n="225-3"><choice><reg/><orig>p. 225, n. 3</orig></choice>St. Matthew xix. 13.</note>
-            <note xml:id="n226-1" target="#a226-1" n="226-1"><choice><reg/><orig>p. 226, n. 1</orig></choice>St. Luke x. 42.</note>
-            <note xml:id="n227-1" target="#a227-1" n="227-1"><choice><reg/><orig>p. 227, n. 1</orig></choice>2 Timothy iii. 17.</note>
-            <note xml:id="n228-1" target="#a228-1" n="228-1"><choice><reg/><orig>p. 228, n. 1</orig></choice>Compare St. Matthew iv. 20, 22; St. Mark i. 16-19: St. Luke v.
+                <note xml:id="n221-1" target="#a221-1" n="6">
+                    <choice>
+                        <reg/>
+                        <orig>p. 221, n. 1</orig>
+                    </choice>Psalm cxv. 5-7.</note>
+                <note xml:id="n221-2" target="#a221-2" n="7">
+                    <choice>
+                        <reg/>
+                        <orig>p. 221, n. 2</orig>
+                    </choice>Colossians iii. 5. Ephesians v. 5.</note>
+                <note xml:id="n223-1" target="#a223-1" n="8">
+                    <choice>
+                        <reg/>
+                        <orig>p. 223, n. 1</orig>
+                    </choice>St. Matthew x. 9, 10; St. Luke x. 4, 7.</note>
+                <note xml:id="n225-1" target="#a225-1" n="9">
+                    <choice>
+                        <reg/>
+                        <orig>p. 225, n. 1</orig>
+                    </choice>St. Matthew xvii. 27.</note>
+                <note xml:id="n225-2" target="#a225-2" n="10">
+                    <choice>
+                        <reg/>
+                        <orig>p. 225, n. 2</orig>
+                    </choice>St. John ii. 2.</note>
+                <note xml:id="n225-3" target="#a225-3" n="11">
+                    <choice>
+                        <reg/>
+                        <orig>p. 225, n. 3</orig>
+                    </choice>St. Matthew xix. 13.</note>
+                <note xml:id="n226-1" target="#a226-1" n="12">
+                    <choice>
+                        <reg/>
+                        <orig>p. 226, n. 1</orig>
+                    </choice>St. Luke x. 42.</note>
+                <note xml:id="n227-1" target="#a227-1" n="13">
+                    <choice>
+                        <reg/>
+                        <orig>p. 227, n. 1</orig>
+                    </choice>2 Timothy iii. 17.</note>
+                <note xml:id="n228-1" target="#a228-1" n="14">
+                    <choice>
+                        <reg/>
+                        <orig>p. 228, n. 1</orig>
+                    </choice>Compare St. Matthew iv. 20, 22; St. Mark i. 16-19: St. Luke v.
                10.</note>
-            <note xml:id="n228-2" target="#a228-2" n="228-2"><choice><reg/><orig>p. 228, n. 2</orig></choice>St. Matthew xvi. 24.</note>
-            <note xml:id="n231-1" target="#a231-1" n="231-1"><choice><reg/><orig>p. 231, n. 1</orig></choice>Philippians ii. 7.</note>
-            <note xml:id="n232-1" target="#a232-1" n="232-1"><choice><reg/><orig>p. 232, n. 1</orig></choice>St. Matthew viii. 20.</note>
-            <note xml:id="n233-1" target="#a233-1" n="233-1"><choice><reg/><orig>p. 233, n. 1</orig></choice>St. Matthew iv. 17.</note>
-            <note xml:id="n234-1" target="#a234-1" n="234-1"><choice><reg/><orig>p. 234, n. 1</orig></choice>Compare St. Matthew xxi. 12; St. Mark xi. 11; St. Luke xix. 45;
+                <note xml:id="n228-2" target="#a228-2" n="15">
+                    <choice>
+                        <reg/>
+                        <orig>p. 228, n. 2</orig>
+                    </choice>St. Matthew xvi. 24.</note>
+                <note xml:id="n231-1" target="#a231-1" n="16">
+                    <choice>
+                        <reg/>
+                        <orig>p. 231, n. 1</orig>
+                    </choice>Philippians ii. 7.</note>
+                <note xml:id="n232-1" target="#a232-1" n="17">
+                    <choice>
+                        <reg/>
+                        <orig>p. 232, n. 1</orig>
+                    </choice>St. Matthew viii. 20.</note>
+                <note xml:id="n233-1" target="#a233-1" n="18">
+                    <choice>
+                        <reg/>
+                        <orig>p. 233, n. 1</orig>
+                    </choice>St. Matthew iv. 17.</note>
+                <note xml:id="n234-1" target="#a234-1" n="19">
+                    <choice>
+                        <reg/>
+                        <orig>p. 234, n. 1</orig>
+                    </choice>Compare St. Matthew xxi. 12; St. Mark xi. 11; St. Luke xix. 45;
                St. John ii. 15.</note>
-            <note xml:id="n235-1" target="#a235-1" n="235-1"><choice><reg/><orig>p. 235, n. 1</orig></choice>1 Timothy i. 9.</note>
-            <note xml:id="n237-1" target="#a237-1" n="237-1"><choice><reg/><orig>p. 237, n. 1</orig></choice>St. John ii. 13, 14; v. 1; vii. 10; x. 22, 23; xii. 12.</note>
-            <note xml:id="n237-2" target="#a237-2" n="237-2"><choice><reg/><orig>p. 237, n. 2</orig></choice>St. Luke ii. 46.</note>
-            <note xml:id="n238-1" target="#a238-1" n="238-1"><choice><reg/><orig>p. 238, n. 1</orig></choice>St. Matthew iii. 1, 13.</note>
-            <note xml:id="n240-1" target="#a240-1" n="240-1"><choice><reg/><orig>p. 240, n. 1</orig></choice>St. Luke ii. 51.</note>
-            <note xml:id="n240-2" target="#a240-2" n="240-2"><choice><reg/><orig>p. 240, n. 2</orig></choice>St. Matthew xii. 48.</note>
-            <note xml:id="n240-3" target="#a240-3" n="240-3"><choice><reg/><orig>p. 240, n. 3</orig></choice>St. John v. 30.</note>
-            <note xml:id="n241-1" target="#a241-1" n="241-1"><choice><reg/><orig>p. 241, n. 1</orig></choice>Compare St. Matthew xvi. 24; St. Mark viii. 34; and St. Luke ix.
+                <note xml:id="n235-1" target="#a235-1" n="20">
+                    <choice>
+                        <reg/>
+                        <orig>p. 235, n. 1</orig>
+                    </choice>1 Timothy i. 9.</note>
+                <note xml:id="n237-1" target="#a237-1" n="21">
+                    <choice>
+                        <reg/>
+                        <orig>p. 237, n. 1</orig>
+                    </choice>St. John ii. 13, 14; v. 1; vii. 10; x. 22, 23; xii. 12.</note>
+                <note xml:id="n237-2" target="#a237-2" n="22">
+                    <choice>
+                        <reg/>
+                        <orig>p. 237, n. 2</orig>
+                    </choice>St. Luke ii. 46.</note>
+                <note xml:id="n238-1" target="#a238-1" n="23">
+                    <choice>
+                        <reg/>
+                        <orig>p. 238, n. 1</orig>
+                    </choice>St. Matthew iii. 1, 13.</note>
+                <note xml:id="n240-1" target="#a240-1" n="24">
+                    <choice>
+                        <reg/>
+                        <orig>p. 240, n. 1</orig>
+                    </choice>St. Luke ii. 51.</note>
+                <note xml:id="n240-2" target="#a240-2" n="25">
+                    <choice>
+                        <reg/>
+                        <orig>p. 240, n. 2</orig>
+                    </choice>St. Matthew xii. 48.</note>
+                <note xml:id="n240-3" target="#a240-3" n="26">
+                    <choice>
+                        <reg/>
+                        <orig>p. 240, n. 3</orig>
+                    </choice>St. John v. 30.</note>
+                <note xml:id="n241-1" target="#a241-1" n="27">
+                    <choice>
+                        <reg/>
+                        <orig>p. 241, n. 1</orig>
+                    </choice>Compare St. Matthew xvi. 24; St. Mark viii. 34; and St. Luke ix.
                23.</note>
-            <note xml:id="n241-2" target="#a241-2" n="241-2"><choice><reg/><orig>p. 241, n. 2</orig></choice>St. John ii. 1-4.</note>
-            <note xml:id="n243-1" target="#a243-1" n="243-1"><choice><reg/><orig>p. 243, n. 1</orig></choice>St. John xix. 26, 27.</note>
-            <note xml:id="n243-2" target="#a243-2" n="243-2"><choice><reg/><orig>p. 243, n. 2</orig></choice>St. John vii. 8.</note>
-         </noteGrp>
-      </body>
-   </text>
+                <note xml:id="n241-2" target="#a241-2" n="28">
+                    <choice>
+                        <reg/>
+                        <orig>p. 241, n. 2</orig>
+                    </choice>St. John ii. 1-4.</note>
+                <note xml:id="n243-1" target="#a243-1" n="29">
+                    <choice>
+                        <reg/>
+                        <orig>p. 243, n. 1</orig>
+                    </choice>St. John xix. 26, 27.</note>
+                <note xml:id="n243-2" target="#a243-2" n="30">
+                    <choice>
+                        <reg/>
+                        <orig>p. 243, n. 2</orig>
+                    </choice>St. John vii. 8.</note>
+            </noteGrp>
+        </body>
+    </text>
 </TEI>

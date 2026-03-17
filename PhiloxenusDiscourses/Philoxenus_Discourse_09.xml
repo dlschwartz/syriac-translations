@@ -3,66 +3,67 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8864">Discourse 9: 2nd Discourse on Poverty</title>
-            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
-            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
-            <respStmt>
-               <resp>Data architecture and encoding by</resp>
-               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-                  >Daniel L. Schwartz</name>
-            </respStmt>
-            <respStmt>
-               <resp>OCR cleaning and initial markup of persons and places by</resp>
-               <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8864">Discourse 9: 2nd Discourse on Poverty</title>
+                <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title>
+                <!-- series URI needed -->
+                <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <respStmt>
+                    <resp>Data architecture and encoding by</resp>
+                    <name type="person"
+                          ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>OCR cleaning and initial markup of persons and places by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
                   Chrisanthus</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <seriesStmt>
-            <title><!--The Syriac Library--></title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <seriesStmt>
-            <title>The Discourses of Philoxenus of Mabbug</title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <notesStmt>
-            <relatedItem type="previous">
-               <ptr target="https://syriac-library/8863"/>
-            </relatedItem>
-            <relatedItem type="next">
-               <ptr target="https://syriac-library/8865"/>
-            </relatedItem>
-         </notesStmt>
-         <sourceDesc>
-            <p>
-               <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <seriesStmt>
+                <title>The Discourses of Philoxenus of Mabbug</title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+                <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <notesStmt>
+                <relatedItem type="previous">
+                    <ptr target="https://syriac-library/8863"/>
+                </relatedItem>
+                <relatedItem type="next">
+                    <ptr target="https://syriac-library/8865"/>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
                translated by E. A. Wallis Budge, Vol. 2, London: Asher &amp; Co., 1894, pp. 247-336. </p>
-            <p>Published in 1894, this translation is in the public domain.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="section" xml:id="section-9" n="9">
-            <head type="main">The Ninth Discourse: which is upon the subject of the previous Discourse, poverty,
+                <p>Published in 1894, this translation is in the public domain.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" xml:id="section-9" n="9">
+                <head type="main">The Ninth Discourse: which is upon the subject of the previous Discourse, poverty,
                and is taken from the testimonies of the Holy Books, and from the example of the
                early disciples, and which teacheth that, except a man casteth away the world
                entirely, he is neither able to become a perfect disciple of <persName>Christ</persName>, nor to
                participate in the mystery of divine knowledge.</head>
-            <ab xml:id="section-9.1" n="1">Let the going forth of <persName>Christ our Lord</persName> into the wilderness be an excellent example
+                <ab xml:id="section-9.1" n="1">Let the going forth of <persName>Christ our Lord</persName> into the wilderness be an excellent example
                to us of the doctrine of poverty, and in that same manner in which He departed from
                dwelling with the children of men to the conflict with the power which was opposed to
                Him, let us also go forth from the world in the war which is against <persName>Satan</persName>. Let us
@@ -87,7 +88,8 @@
                His life and conduct were in the freedom which He delivered, and not in the
                commandments of the law. For <persName>Jesus</persName> was born again by baptism, and from the womb of
                the law the spiritual country received Him, even as He Himself said, <quote>Except a man be
-               born again, he cannot <pb type="external" n="259"/>see the kingdom of God;</quote><ptr type="noteAnchor" target="#n248-1"/>
+               born again, he cannot <pb type="external" n="259"/>see the kingdom of God;</quote>
+                    <ptr type="noteAnchor" target="#n248-1" n="1"/>
                and therefore, after His baptism, He began to preach the kingdom of heaven. And in
                this manner also, everyone who wisheth to become a perfect disciple of <persName>Christ</persName>, when
                he hath left the world and hath come outside himself, is born again out of the world
@@ -106,7 +108,7 @@
                country to which he hath come. It is one thing for a man to cast off the world, and
                to cast off the old man is another; to cast off the thoughts of the soul is one
                thing, and to cast off error is another, and to cast off ignorance is another.</ab>
-            <ab xml:id="section-9.2" n="2">It is said that a man casteth off the world when he maketh himself remote from
+                <ab xml:id="section-9.2" n="2">It is said that a man casteth off the world when he maketh himself remote from
                everything that therein is, and when he divideth <pb type="external" n="260"/>his
                riches and possessions wholly among the needy, and forsaketh the world, and goeth
                forth naked in his person, even as he came forth from the womb; for the dwelling in
@@ -127,8 +129,7 @@
                therefrom. For the world is like the womb, and as the child casteth off the womb, so
                should a man cast off the world. And as the child when he is born is perfect and
                complete in his natural frame, and hath all his senses and members, and yet cannot
-               make use of them in their natural service because they have not yet <pb
-                  type="external" n="261"/>received growth and become strong, but when he hath been
+               make use of them in their natural service because they have not yet <pb type="external" n="261"/>received growth and become strong, but when he hath been
                born into the world, his body, and the senses and members which are therein receive
                growth. And as he groweth and progresseth, he acquireth perception in his members and
                senses, and gaineth experience of everything which is in the world, and all his
@@ -146,8 +147,7 @@
                becometh a perfect man in the measure of the stature of the completion of <persName>Christ</persName>,
                even as it is written that at first the beginning of His conception took place like
                [that of] a natural child, for as the natural child is formed of seed and blood in
-               the womb, even so was He formed of fire and of spirit by baptism. And as <pb
-                  type="external" n="262"/>the natural child is born from non-existence into
+               the womb, even so was He formed of fire and of spirit by baptism. And as <pb type="external" n="262"/>the natural child is born from non-existence into
                existence, even so is the child of the Spirit born from the state of not being a son,
                into that of being a son of God, and a spiritual being. And as the natural child is
                designed when as yet he existeth not, and is formed little by little, and all his
@@ -157,8 +157,7 @@
                increase little by little in the world, as in the womb, in all the virtues which
                befit the believing men who are in the world. And when he hath increased and hath
                grown to the full, according to the measure of his unformed substance in the world,
-               as in the womb, he becometh born again from the world, outside the <pb n="252"
-               />world, in the same manner as the child is born from the womb into the world. And
+               as in the womb, he becometh born again from the world, outside the <pb n="252"/>world, in the same manner as the child is born from the womb into the world. And
                when he hath been born, and he hath taken his stand in the country of the life and
                conduct of <persName>Christ</persName> as in another world, thenceforth he beginneth to receive other
                growth and to become full-grown, not with the body of righteousness the growth of
@@ -166,7 +165,10 @@
                arriveth at the perfection of the completeness of <persName>Christ</persName>. Now therefore baptism
                fashioneth even like the womb, and whosoever hath been therein is [made] a son unto
                God, from the condition of not being a son, even as the natural child, from being
-               <choice><sic>uncreate</sic><corr>uncreated</corr></choice>, [is made] to exist. And that baptism giveth birth to a child
+               <choice>
+                        <sic>uncreate</sic>
+                        <corr>uncreated</corr>
+                    </choice>, [is made] to exist. And that baptism giveth birth to a child
                   <pb type="external" n="263"/>of the spirit, who from being of the body, hath been
                made of the spirit, [is like unto the fact] that the [natural] child is made a body
                from seed and blood, and he receiveth the creation of all his members [therefrom]; in
@@ -185,10 +187,9 @@
                and must cast off the world entirely, as the child casteth off the womb, and then he
                shall begin to receive fresh increase which will bring [him] unto spirituality and
                perfection.</ab>
-            <ab xml:id="section-9.3" n="3">Now therefore all the righteousness of a man which is wrought by him in the world,
+                <ab xml:id="section-9.3" n="3">Now therefore all the righteousness of a man which is wrought by him in the world,
                and all the members of fair things which come into existence in him, are like the
-               unformed substance of a child in the womb, and however much he may grow <pb
-                  type="external" n="264"/>and become strong in this righteousness while he is in
+               unformed substance of a child in the womb, and however much he may grow <pb type="external" n="264"/>and become strong in this righteousness while he is in
                the world, he still existeth as unformed substance, because he is shut up in the
                world like a child in the womb. And as a child is not able to become a man in the
                womb, even so a man cannot be perfect in the world; and as however much the child may
@@ -202,19 +203,41 @@
                the child of the Spirit also, so long as he is in the world, and all the members of
                righteousness increase in him—however much he may wax strong, and be firmly knit
                together, and be made solid, and grow—will be called by the names of <quote>righteous,</quote> and
-               <quote>just,</quote> and <pb n="254"/><quote>merciful,</quote> and <quote>giver,</quote> and all those other names which
+               <quote>just,</quote> and <pb n="254"/>
+                    <quote>merciful,</quote> and <quote>giver,</quote> and all those other names which
                befit a good life in the world. But when he hath been born from the world, after his
                lineaments have received completion in the former members which we have enumerated,
                and he hath gone forth to the other country of the rule and conduct of <persName>Christ</persName>, like
                the child that is born from the womb, these appellations are bestowed upon him and he
                is called by the other names which befit that country <pb type="external" n="265"/>to
-               which he hath gone forth, and so he is called:—<quote>empty of possessions,</quote> <quote>free-man,</quote>
-               <quote>ascetic,</quote> <quote>labourer,</quote> <quote>the carrier of a burden,</quote> <quote>crucified to the world,</quote>
-               <quote>patient,</quote> <quote>longsuffering,</quote> <quote>spiritual,</quote> <quote>the companion of <persName>Christ</persName>,</quote> <quote>the perfect
-               man,</quote> <quote>the man of God,</quote> <quote>beloved son,</quote> <quote>heir of the possession of his Father,</quote> <quote>the
-               associate of <persName>Jesus</persName>,</quote> <quote>the bearer of the cross upon his shoulder,</quote> <quote>dead to the
-               world,</quote> <quote>living unto God,</quote> <quote>the man who hath put on <persName>Christ</persName></quote> <quote>the man of the
-               spirit,</quote> <quote>the angel of flesh,</quote> <quote>the knower of the mysteries of <persName>Christ</persName>,</quote> <quote>the
+               which he hath gone forth, and so he is called:—<quote>empty of possessions,</quote>
+                    <quote>free-man,</quote>
+                    <quote>ascetic,</quote>
+                    <quote>labourer,</quote>
+                    <quote>the carrier of a burden,</quote>
+                    <quote>crucified to the world,</quote>
+                    <quote>patient,</quote>
+                    <quote>longsuffering,</quote>
+                    <quote>spiritual,</quote>
+                    <quote>the companion of <persName>Christ</persName>,</quote>
+                    <quote>the perfect
+               man,</quote>
+                    <quote>the man of God,</quote>
+                    <quote>beloved son,</quote>
+                    <quote>heir of the possession of his Father,</quote>
+                    <quote>the
+               associate of <persName>Jesus</persName>,</quote>
+                    <quote>the bearer of the cross upon his shoulder,</quote>
+                    <quote>dead to the
+               world,</quote>
+                    <quote>living unto God,</quote>
+                    <quote>the man who hath put on <persName>Christ</persName>
+                    </quote>
+                    <quote>the man of the
+               spirit,</quote>
+                    <quote>the angel of flesh,</quote>
+                    <quote>the knower of the mysteries of <persName>Christ</persName>,</quote>
+                    <quote>the
                divinely wise;</quote> with these and other similar names it befitteth the man who hath been
                born from the world to be called that he may grow up in the country of the knowledge
                of <persName>Christ</persName>. And as with the natural child, when he hath been born from the womb,
@@ -227,8 +250,7 @@
                   <pb n="255"/>yet is he clothed with his own passions, and with the appetites of
                his body, and he goeth forth like a child with the after-birth. For as the
                after-birth cannot be taken from a child while he is in the womb, even so a man
-               cannot cast away the old passions with which he is clothed <pb type="external"
-                  n="266"/>as with the after-birth, while he is in the womb of the world. And as in
+               cannot cast away the old passions with which he is clothed <pb type="external" n="266"/>as with the after-birth, while he is in the womb of the world. And as in
                the one case [they wait] until the child is born, and then cast away from him his
                after-birth, even so is it in the other, for when a man hath been born from the life
                and conduct which are after the body in the world, and he hath come into existence in
@@ -245,13 +267,12 @@
                have been cut off from him; for in the place of the former limbs which have been cut
                off, other new and spiritual members spring up. And in proportion as the old man
                cometh to an end, and is destroyed, so is the new man discovered and revealed unto
-               the light. For although in baptism we cast off the old man, according to <pb n="256"
-               />the teaching of <persName>Paul</persName>, and put on the new man in his place, yet we do not perceive
+               the light. For although in baptism we cast off the old man, according to <pb n="256"/>the teaching of <persName>Paul</persName>, and put on the new man in his place, yet we do not perceive
                either when we cast [him] off or when we put [him] on, because Grace worketh both
                things, and it casteth off <pb type="external" n="267"/>from us the old man, and
                putteth upon us the new man, and we receive the working of the mystery only at that
                time in the name of faith.</ab>
-            <ab xml:id="section-9.4" n="4">Now when we desire to cast off the old man, by our own labour and weariness we
+                <ab xml:id="section-9.4" n="4">Now when we desire to cast off the old man, by our own labour and weariness we
                perceive that we are casting him off, not by the hearing of faith only, but also by
                the experience of works, and by the sufferings, and tears, and the love of God, and
                by pure prayers, and by constant entreaties, and by admiration of the greatness of
@@ -266,12 +287,13 @@
                man is not able to arrive at that measure of stature which is given by <persName>Christ</persName>, and
                concerning which <persName>Paul</persName> said, <quote>We all grow and become one thing in the knowledge of
                <persName>the Son of God</persName>, and one perfect man, in the measure of the stature of the fulness
-               of <persName>Christ</persName>.</quote><ptr type="noteAnchor" target="#n256-1"/> Now unless <pb n="257"/>a man hath gone forth from the world
+               of <persName>Christ</persName>.</quote>
+                    <ptr type="noteAnchor" target="#n256-1" n="2"/> Now unless <pb n="257"/>a man hath gone forth from the world
                he is not able <pb type="external" n="268"/>to arrive at this measure, and unless he
                hath first cast off all the conversation of the body he is not able to arrive at the
                knowledge by which he will perceive the greatness of these things which are given in
                a mystery by <persName>Christ</persName>.</ab>
-            <ab xml:id="section-9.5" n="5">And the forms under which we cast off [the old man], and put on [the new man] are
+                <ab xml:id="section-9.5" n="5">And the forms under which we cast off [the old man], and put on [the new man] are
                these:—in baptism we cast off the old man, and put on the new man; and [we cast off]
                bondage, and put on freedom; and [we cast off] corporeality, and put on spirituality;
                and [we cast off] sin, and put on righteousness; and so forth, but [we do them] all
@@ -288,8 +310,7 @@
                the whole world entirely, and maketh himself destitute of everything that is therein,
                and standeth without impediment in his own person, and appeareth in the other world
                of the conversation of <persName>Christ</persName> like the natural child who casteth off the womb, and
-               cometh into being outside <pb n="258"/>thereof. And when a man hath cast off <pb
-                  type="external" n="269"/>the world in the manner in which I have said, and hath
+               cometh into being outside <pb n="258"/>thereof. And when a man hath cast off <pb type="external" n="269"/>the world in the manner in which I have said, and hath
                become entirely destitute of everything which is visible, he beginneth to cast off
                the evil passions which are in him—the love of adultery, of whoredom, gluttony,
                prodigality, greediness, drunkenness—which are the lusts which destroy spiritual
@@ -306,7 +327,7 @@
                ministration unto the lusts only, but even when the body taketh only that which it
                needeth in abundance, grossness of heart ariseth [therefrom], and the understanding
                is neither cleansed nor purified from carnality.</ab>
-            <ab xml:id="section-9.6" n="6">Now the need which is measured keepeth the mean place, and so long as the body
+                <ab xml:id="section-9.6" n="6">Now the need which is measured keepeth the mean place, and so long as the body
                standeth in the mean measure of health, it is not <pb type="external" n="270"/>made
                subject wholly to the desires of the soul. And the middle sheweth the equality of
                that which is on both sides, like the pointer which is placed in the middle of the
@@ -322,12 +343,13 @@
                strive to cast off from us the conversation of the body, that we may put on the
                conversation of the spirit, and let us cast off the world, and all the care thereof,
                that we may travel along the way of perfection without impediment.</ab>
-            <ab xml:id="section-9.7" n="7">Now poverty is a light thing to those who possess it, and if a man were to call the
+                <ab xml:id="section-9.7" n="7">Now poverty is a light thing to those who possess it, and if a man were to call the
                poverty which is for the sake of God <quote>riches,</quote> he would call it rightly, and even as
                it is. Therefore <persName>our Lord</persName> also lifted a heavy yoke from His disciples in that He
                made them destitute of the riches of the world, saying, <quote>Come unto Me, all ye that
                are weary and are laden with heavy burdens, <pb type="external" n="271"/>and I will
-               give you rest.</quote><ptr type="noteAnchor" target="#n259-1"/> And who are these, unless it be those who are wearied by the
+               give you rest.</quote>
+                    <ptr type="noteAnchor" target="#n259-1" n="3"/> And who are these, unless it be those who are wearied by the
                superfluities of riches, and who bear the heavy yoke of the cares and anxieties of
                the world? And what weariness is so oppressive as this? for when thou hast come to
                enjoy thyself, thou art the more tired. The care for human riches is a path which
@@ -346,8 +368,7 @@
                there is no rest. But your weariness begetteth weariness, and your labour bringeth
                forth labour, and your riches gather together poverty, and your rest is tribulation,
                and your enjoyment is affliction, and your refreshing is toil; for the path of the
-               desire of riches which ye have trodden of your own freewill hath no end; <pb
-                  type="external" n="272"/>but if ye will come to Me by My road it will come to an
+               desire of riches which ye have trodden of your own freewill hath no end; <pb type="external" n="272"/>but if ye will come to Me by My road it will come to an
                end. And as ye have tasted the weariness of the world, taste ye together therewith
                also My weariness, and [see] if its freedom is not enjoyable to you. Ye have carried
                the heavy burdens of the world, and ye have felt how weighty they are; be persuaded
@@ -388,8 +409,7 @@
                <persName>Christ</persName>, for the two yokes are opposed each to the other; for righteousness may be
                acquired even in wealth, but perfection is [only] to be found in being destitute of
                possessions. And all those who have earnestly followed after perfection, whether in
-               the New or whether in the Old Testament, have [first] made themselves destitute, <pb
-                  type="external" n="274"/>and have then begun to walk in the path of perfection;
+               the New or whether in the Old Testament, have [first] made themselves destitute, <pb type="external" n="274"/>and have then begun to walk in the path of perfection;
                and when the Apostles were called by <persName>our Lord</persName>, they stripped themselves of all the
                world, and then went forth after Him Who called them. And <persName>our Lord</persName> Himself also in
                His own Person depicted and shewed unto us the end of the path and the beginning
@@ -416,12 +436,11 @@
                by Himself, without followers, without helpers, without friends in His train, without
                beloved friends, without riches, without possessions, without apparel, and without
                things. And it is written that He went forth, having nothing belonging to the world
-               with Him, entirely by Himself, being accompanied by the Holy Spirit, <pb n="264"
-               />that from the going forth of <persName>thy Lord</persName> thou mightest take example for thine own
+               with Him, entirely by Himself, being accompanied by the Holy Spirit, <pb n="264"/>that from the going forth of <persName>thy Lord</persName> thou mightest take example for thine own
                going forth from the world, and that thou mightest also go forth like unto Him,
                having upon thee nothing belonging to the world, that the Holy Spirit might thereby
                accompany thee.</ab>
-            <ab xml:id="section-9.8" n="8">And observe also the freedom in which <persName>Jesus</persName> went forth, and do thou thyself also go
+                <ab xml:id="section-9.8" n="8">And observe also the freedom in which <persName>Jesus</persName> went forth, and do thou thyself also go
                forth like Him. Observe also unto what point human conversation came with Him, and at
                what point He forsook it, and do thou thyself also forsake the conversation of the
                world where <persName>thy Lord</persName> forsook the conversation of the law, and go forth with Him to
@@ -429,11 +448,11 @@
                when thou hast gone forth from the world, inasmuch as it is its custom to pursue
                after those who forsake it and depart from it, turn thee to fight against it, and be
                thou crucified to it, remembering that which <persName>Paul</persName> spake, <quote>I am crucified to the
-               world, and the world is crucified to me.</quote><ptr type="noteAnchor" target="#n264-1"/> Lighten therefore from off thee
+               world, and the world is crucified to me.</quote>
+                    <ptr type="noteAnchor" target="#n264-1" n="4"/> Lighten therefore from off thee
                the weight of the world, that the war which thou art preparing against it may be easy
                to thee, and instead of the <placeName>Jordan</placeName>, go down into the waters of knowledge, and after
-               thy submersion cleave unto the rule of the Spirit. And observe also that <pb
-                  type="external" n="276"/>that which happened to the Jews is a type of the things
+               thy submersion cleave unto the rule of the Spirit. And observe also that <pb type="external" n="276"/>that which happened to the Jews is a type of the things
                which are performed unto thee, for as all the wickedness of the Egyptians towards the
                Hebrews came to an end, even so here also all the wickedness of the world shall
                perish and be destroyed from thee, together with its superfluities, and its weight,
@@ -452,8 +471,7 @@
                sea they received another rule, and were accounted worthy of other food, and new
                waters were made to gush forth to supply them with drink, and other commandments and
                laws were delivered unto them to keep, and they received heavenly revelations, and
-               were accounted worthy of spiritual visions, and they heard the voice of God <pb
-                  type="external" n="277"/>close at hand speaking with them, and angels also were
+               were accounted worthy of spiritual visions, and they heard the voice of God <pb type="external" n="277"/>close at hand speaking with them, and angels also were
                mingled with them, and they arrived at connection with and participation in spiritual
                powers, and the tabernacle was pitched among them, and they were shewn the meaning of
                the service therein, and the serpent on a pole was lifted up for them in the
@@ -524,14 +542,12 @@
                pleasure if he be certain that the pleasure which is about to come be ready for him?
                And this pleasure would have been found to be thine because of thy loving kindness
                and alms to the poor.</ab>
-            <ab xml:id="section-9.9" n="9">And also after these things others will gather together and hem in thy soul, and they
-               are the evil devils, together with <persName>Satan</persName> their master, who depict <pb n="269"
-               />before thine eyes the labours of the ascetic life, and the cruel pains which befall
+                <ab xml:id="section-9.9" n="9">And also after these things others will gather together and hem in thy soul, and they
+               are the evil devils, together with <persName>Satan</persName> their master, who depict <pb n="269"/>before thine eyes the labours of the ascetic life, and the cruel pains which befall
                those who fast, and the grievous sicknesses which are produced from meagreness of
                food, and which are neither easy of cure, nor will it be easy for thee to heal them
                because thou mayest not make use of the things which cure and heal them; and if thou
-               submittest to bring human aids to them by reason of the pain <pb type="external"
-                  n="281"/>of thy sufferings, thou wilt become a cause of stumbling to others who
+               submittest to bring human aids to them by reason of the pain <pb type="external" n="281"/>of thy sufferings, thou wilt become a cause of stumbling to others who
                see thee. And moreover, the path of this rule of life is long, and it cannot be
                brought to an end except by death. And if thou wishest to make an end thereof whilst
                thou art in this life, and thou ceasest from thy labours, behold thou wilt be made a
@@ -548,12 +564,11 @@
                receiving charity from others, and if thou submittest thyself to accept it, behold
                flattery of those from whom thou acceptest it is demanded of thee, and because thou
                acceptest it not, behold thou art tortured by the necessity of want. </ab>
-            <pb n="270"/>
-            <ab xml:id="section-9.10" n="10">These and such like things will the devils gather together and bring against the mind
+                <pb n="270"/>
+                <ab xml:id="section-9.10" n="10">These and such like things will the devils gather together and bring against the mind
                of the disciple immediately he hath gone forth from the world, and they cast him into
                a state of fear and trembling, and they disturb the balance of his thoughts, and
-               drive him to smite his hands together, for what to do he knoweth not; <pb
-                  type="external" n="282"/>and they sink his soul in sorrow and they set him between
+               drive him to smite his hands together, for what to do he knoweth not; <pb type="external" n="282"/>and they sink his soul in sorrow and they set him between
                the things which are in the middle, and those which are at the end, in order that he
                may remember the things which he hath left behind, and may keep in mind those which
                are about to come, and he considereth their promises in his mind, as if they carried
@@ -592,10 +607,9 @@
                terror and feebleness, and cowardice, and misery of mind, and the perpetual
                affliction <pb type="external" n="284"/>which ariseth thereby and therefrom are
                renewed therein at all times. And it happeneth that it is afflicted when there is no
-               need for fear of affliction, and its understanding is perturbed, though it <pb
-                  n="272"/>knoweth not what is the cause of its perturbation, and no one of its
+               need for fear of affliction, and its understanding is perturbed, though it <pb n="272"/>knoweth not what is the cause of its perturbation, and no one of its
                motions is wholly and entirely pleasant unto it.</ab>
-            <ab xml:id="section-9.11" n="11">In this country then, O disciple who goest forth from the world, there is a place
+                <ab xml:id="section-9.11" n="11">In this country then, O disciple who goest forth from the world, there is a place
                whereto thou mayest pass, for, like the people from <placeName>Egypt</placeName>, thou also art called to
                go forth after God. And as the sea stood like a hedge before the Hebrews, and the
                Egyptians followed after them, even so is placed before thee the fearful abyss of
@@ -609,15 +623,18 @@
                which are like unto them, stand up like a hedge against thy coming forth, while the
                devils, like the Egyptians, pursue thee from behind. But fear thou not, neither be
                thou afraid, for instead of <persName>Moses</persName>, <persName>Jesus</persName> is with thee, for like as <persName>Moses</persName> clave
-               to the congregation, even so also doth <persName>Christ</persName> cleave to thy soul, <pb
-                  type="external" n="285"/>and He saith unto thy tortured and afflicted mind that
+               to the congregation, even so also doth <persName>Christ</persName> cleave to thy soul, <pb type="external" n="285"/>and He saith unto thy tortured and afflicted mind that
                which was said by <persName>Moses</persName> to the Jews, <quote>The Lord shall fight for you, and ye shall
-               hold your peace.</quote><ptr type="noteAnchor" target="#n272-1"/> Therefore thou shalt not be in fear as were the people,
+               hold your peace.</quote>
+                    <ptr type="noteAnchor" target="#n272-1" n="5"/> Therefore thou shalt not be in fear as were the people,
                but thou shalt rouse up, and watch like <persName>Moses</persName>, and cry out to the Lord even as he
-               cried out; for it is thus written, <quote><persName>Moses</persName> <pb n="273"/>prayed the whole night with
+               cried out; for it is thus written, <quote>
+                        <persName>Moses</persName>
+                        <pb n="273"/>prayed the whole night with
                much crying out and suffering, and at the morning watch the Lord said to him, Why
                criest thou before Me? Incline thy hand over the sea, and divide it, and the Hebrews
-               shall pass over it, but the Egyptians shall be drowned therein;</quote><ptr type="noteAnchor" target="#n273-1"/> now all the
+               shall pass over it, but the Egyptians shall be drowned therein;</quote>
+                    <ptr type="noteAnchor" target="#n273-1" n="6"/> now all the
                things which happened at that time are a type of those which shall be done unto thee.
                And enemies, that is, evil devils, shall gather together and crowd against thy soul,
                even as the Egyptians who pursued after the Jews were gathered together and crowded
@@ -628,8 +645,7 @@
                the soul let the voice of thy cry rise up, and straightway that answer which was
                returned unto <persName>Moses</persName> shall also be spoken unto thee, <quote>Why dost thou cry out before
                Me? Incline thy hand over the sea, and divide it;</quote> and straightway [thy] afflictions
-               will give way, and the covering which was set before thy face will be rolled up, <pb
-                  type="external" n="286"/>and the terrible depths of affliction will give way, and
+               will give way, and the covering which was set before thy face will be rolled up, <pb type="external" n="286"/>and the terrible depths of affliction will give way, and
                the things which thou didst think could not be crossed over with the foot, thou shalt
                tread upon, and thou shalt pass over the depth thereof. And difficult things shall
                become easy for thee, and that wall, which is built in such a manner that thou didst
@@ -649,9 +665,10 @@
                shall <persName>Satan</persName> and all his devils be drowned in the depths of the tribulation in which
                thou wast sinking. Therefore do thou in thy thoughts repeat the words of <persName>Moses</persName>,
                <quote>The Lord shall fight <pb type="external" n="287"/>for you, and ye shall hold your
-               peace;</quote><ptr type="noteAnchor" target="#n274-1"/> and as the Hebrews passed over with <persName>Moses</persName>, even so shall all thy
+               peace;</quote>
+                    <ptr type="noteAnchor" target="#n274-1" n="7"/> and as the Hebrews passed over with <persName>Moses</persName>, even so shall all thy
                triumphs pass over with thee.</ab>
-            <ab xml:id="section-9.12" n="12">Now in the night-season fear ruled over the Hebrews that it might be an example unto
+                <ab xml:id="section-9.12" n="12">Now in the night-season fear ruled over the Hebrews that it might be an example unto
                thee of the fear which is with thee when thy life is, as it were, in the night, and
                far away from the sight of the morning; and as when the night passeth away fear is
                removed, even so is it with thee, for immediately the light of the Redemption dawneth
@@ -671,14 +688,13 @@
                voices sinketh down and dieth away, and afflictions return upon them like waves, and
                those who wished to overwhelm thee are themselves overwhelmed in the bottommost part
                of the abyss.</ab>
-            <ab xml:id="section-9.13" n="13">Do thou, then, when thou standest upon the shore of the sea of afflictions and
+                <ab xml:id="section-9.13" n="13">Do thou, then, when thou standest upon the shore of the sea of afflictions and
                tribulations after <pb type="external" n="288"/>[thy] glorious passage, turn, and
                thou shalt see thine enemies smitten down therein, and thy passions, together with
                devils, drowned therein, and all the life of the old man sinking down into it. And
                when thou seest [this], let thy soul be gratified at the destruction of those who
                hate thee, and when thou hast also obtained confidence through the death of thine
-               enemies, turn thyself and look upon the holy mountain of God, and begin to <pb
-                  n="276"/>walk in a country through which thou hast not passed, and thy journey
+               enemies, turn thyself and look upon the holy mountain of God, and begin to <pb n="276"/>walk in a country through which thou hast not passed, and thy journey
                shall be through the spiritual world of a spiritual rule and conduct of life, through
                which thou shalt be held worthy to see the things which are above the world. And thou
                shalt eat spiritual manna which thy fathers ate not, and thou shalt drink the sweet
@@ -722,8 +738,8 @@
                spiritual wonders and of divine knowledge is set, not as in a mystery but in the
                truth of knowledge, which cometh upon thy knowledge without the mediation of any
                [other] thing. </ab>
-            <pb n="278"/>
-            <ab xml:id="section-9.14" n="14">[And thy habitation shall be] not where an altar of gold is established wherefrom
+                <pb n="278"/>
+                <ab xml:id="section-9.14" n="14">[And thy habitation shall be] not where an altar of gold is established wherefrom
                there goeth up the incense which can be perceived by the body, but where is another
                altar of the spirit which receiveth the pure incense of all holy and rational
                thoughts; and where a chest of manna, wherein the food which was given by angels is
@@ -735,10 +751,9 @@
                performeth the office of priest before His Father, [and before] living and rational
                beings. [And thy habitation shall be] where thou art wholly and entirely dead unto
                the feeling of the things which are visible, and where thou shalt hear nothing of the
-               things which are spoken and perceived at the same time; <pb type="external" n="291"
-               />and all the members of the old man shall die within thee, and thou shalt be clothed
+               things which are spoken and perceived at the same time; <pb type="external" n="291"/>and all the members of the old man shall die within thee, and thou shalt be clothed
                with the new man which is renewed in knowledge after the manner of his Creator.</ab>
-            <ab xml:id="section-9.15" n="15">In this conversation shall thy habitation be, O disciple, after thou hast departed
+                <ab xml:id="section-9.15" n="15">In this conversation shall thy habitation be, O disciple, after thou hast departed
                from the conversation of the world which is after the flesh, if when thou hast
                entered into this country according to the law, thou labourest as the law of the
                country requireth, and thou dost not take with thee into the country of life dead
@@ -763,13 +778,13 @@
                spirit, and it be moved in all its meditations according to that which is in that
                country, its thought henceforth becometh spiritual according to the ordering of that
                country in which its motions perform [their] actions.</ab>
-            <ab xml:id="section-9.16" n="16">Now therefore it is seemly that every disciple who goeth forth from the world should
+                <ab xml:id="section-9.16" n="16">Now therefore it is seemly that every disciple who goeth forth from the world should
                follow after this part, for this is our inheritance, and in this country is our
                conversation also, according to the teaching of <persName>Paul</persName>, who said, <quote>Our conversation
-               is in heaven; from whence we wait for our Vivifier, our <persName>Lord Jesus Christ</persName>: Who <pb
-                  n="280"/>shall change the body of our humility, [and] Who shall make it a
+               is in heaven; from whence we wait for our Vivifier, our <persName>Lord Jesus Christ</persName>: Who <pb n="280"/>shall change the body of our humility, [and] Who shall make it a
                counterpart of His glorious body, according to His great power by which everything
-               hath been made subject unto Him.</quote><ptr type="noteAnchor" target="#n280-1"/> But as I have said, so long as a man is
+               hath been made subject unto Him.</quote>
+                    <ptr type="noteAnchor" target="#n280-1" n="8"/> But as I have said, so long as a man is
                shut up in the womb of the world he perceiveth not this conversation, neither is he
                able to perceive it if he goeth forth from the world in the things which are
                manifest, and doeth it not in the things which are hidden; for this conversation
@@ -787,18 +802,16 @@
                and another hath only a small portion of him subjugated, while all his other members
                are free and unrestrained; and another hath one only of his members held fast and
                bound, and although all his members can move, his body remaineth in the same place.
-               But whosoever is fettered in one of his members his whole person belongeth unto <pb
-                  n="281"/>the world, even as the whole body of the bird, which is held fast in the
+               But whosoever is fettered in one of his members his whole person belongeth unto <pb n="281"/>the world, even as the whole body of the bird, which is held fast in the
                snare by one foot only, is also held fast in the snare by its foot; and although its
                other foot and its wings are unfettered, and it setteth them in motion to fly, yet
                the shackle and fetter which are upon one foot allow it not to mount up into the pure
                air, but it falleth down again upon the place where it was, and it quivereth
                spasmodically in death upon the ground, and bedraggleth its wings and whole body with
                the weight of the dust. And thus also is the man whose every member is unfettered by
-               the shackles of the world save one, for that one member in which he is fettered <pb
-                  type="external" n="294"/>fettereth his whole body, and although he is bound but a
+               the shackles of the world save one, for that one member in which he is fettered <pb type="external" n="294"/>fettereth his whole body, and although he is bound but a
                little strong chains are cast over his whole person completely.</ab>
-            <ab xml:id="section-9.17" n="17">Now therefore it is meet for those who desire to be freed from the fetters of the
+                <ab xml:id="section-9.17" n="17">Now therefore it is meet for those who desire to be freed from the fetters of the
                world to release themselves completely, and to put off and to cast away their old
                clothes and to put on new, which is the rule and conduct of <persName>Christ</persName>. And this
                apparel is the apparel of the kingdom, and it is meet that all the ornaments of an
@@ -814,8 +827,7 @@
                that which is newly poured therein [is not able] to change the former smell and
                taste. And again, when the husbandman wisheth to cast into his ground good seed, and
                he seeth that there are therein brambles and briars, he uprooteth and hoeth them up
-               first of all, and then he casteth the good seed into his field. <pb type="external"
-                  n="295"/>And again, whosoever wisheth to put on a new garment first of all casteth
+               first of all, and then he casteth the good seed into his field. <pb type="external" n="295"/>And again, whosoever wisheth to put on a new garment first of all casteth
                away the old one which is upon his body, and then he putteth on the new one. And thus
                also doth the physician, for he deviseth means and removeth skilfully the
                putrefaction which is upon the boil by means of acid and astringent medicines, and
@@ -849,11 +861,9 @@
                world so long as the wall of the world is built before our vision, and its heavy
                shadows and the mountains and hills of its cares and anxieties hem us in on every
                side. If then a man wisheth to see the spiritual rule which is outside the world, and
-               to look closely at the heavenly things which are above it, let him go outside <pb
-                  type="external" n="297"/>the world, or ascend above it, and behold two things will
+               to look closely at the heavenly things which are above it, let him go outside <pb type="external" n="297"/>the world, or ascend above it, and behold two things will
                appear to him:—the spiritual rule of life which is established by the motion of
-               living thoughts, and the kingdom of heaven which is above the world; for when <pb
-                  n="284"/>a man is freed from the passions of the world, his habitation is, as it
+               living thoughts, and the kingdom of heaven which is above the world; for when <pb n="284"/>a man is freed from the passions of the world, his habitation is, as it
                were, in the kingdom of heaven. And what is the happiness of the kingdom of heaven?
                Is it not the abrogation of afflictions, and the ministration of all things new, and
                is it not that misery and troubles shall be dissolved and flee away even as it is
@@ -869,13 +879,11 @@
                which exist in very truth, that is to say, words and motions which are not of the
                body. For when the soul is freed from the passions of wickedness from which are
                produced fear, and trouble, and care, and want of confidence, it is immediately
-               filled with the opposites of these things, that is hope, and courage, <pb
-                  type="external" n="298"/>and gladness, and happiness of thought. For what is there
+               filled with the opposites of these things, that is hope, and courage, <pb type="external" n="298"/>and gladness, and happiness of thought. For what is there
                that can trouble, or of whom shall be afraid the man who hath cut off and cast from
                him all the causes of trouble and of fear? For trouble ariseth by reason [of fear]
                lest he be deprived of the world, and of its pleasures, and of its delights, and fear
-               ariseth [from the fear] lest he become a stranger to the life in the body <pb n="285"
-               />which belongeth to time. And when a man by the philosophy of <persName>Christ</persName> casteth off
+               ariseth [from the fear] lest he become a stranger to the life in the body <pb n="285"/>which belongeth to time. And when a man by the philosophy of <persName>Christ</persName> casteth off
                these two things, that is, the love of the world and the love of life, he is freed
                from trouble and fear, in the front of which are the <placeName>Gehenna</placeName> of the future, and the
                judgment which is prepared; these things are the <placeName>Gehenna</placeName> which giveth torment.</quote> And
@@ -888,20 +896,20 @@
                ever, because that pledge also which is given for [both these] things hath an
                affinity with that thing for which it is given, as in this world everything which is
                given in advance as a pledge for something hath an affinity with that for which it is
-               given as a pledge. And so also the spiritual mysteries, which <pb type="external"
-                  n="299"/>here in this world have been delivered unto us in the place of a pledge,
+               given as a pledge. And so also the spiritual mysteries, which <pb type="external" n="299"/>here in this world have been delivered unto us in the place of a pledge,
                have a great affinity with that true incarnation of <persName>Christ</persName>, for here in this world
                we receive the Body and Blood of <persName>Christ</persName> that they may be unto us a pledge of that
                of which we shall eat spiritually in the next world from the Person of <persName>Christ</persName>, and
                from them, like the members from the body, we receive strength and sustenance, and
                this pledge, through spiritual interchange, hath an affinity with the Person; and
                thus also the Body and Blood are called [the affinity] of the Person.</ab>
-            <ab xml:id="section-9.18" n="18">And again we receive the Holy Spirit by baptism, <pb n="286"/>that it may be unto us
+                <ab xml:id="section-9.18" n="18">And again we receive the Holy Spirit by baptism, <pb n="286"/>that it may be unto us
                the first-fruits of the perfect intercourse which is about to come unto us in the
                Mysteries of the Spirit, and how great is the affinity of the pledge with that which
                maketh it perfect the very name itself testifieth; for two spirits are mentioned by
                the word of the Book. And again, concerning <persName>Christ</persName> it is written, <quote>He was to us the
-               first-fruits of the good things which are to come,</quote><ptr type="noteAnchor" target="#n286-1"/> and <persName>Christ</persName> the
+               first-fruits of the good things which are to come,</quote>
+                    <ptr type="noteAnchor" target="#n286-1" n="9"/> and <persName>Christ</persName> the
                first-fruits hath an affinity with us, and with the good things which are to come
                unto us, for He became man, and with the good things which are about to be unto us,
                which by the fore-knowledge of the Father were prepared aforetime for us, for He was
@@ -922,7 +930,8 @@
                unto <persName>John the Baptist</persName>? According to the testimony, which <persName>Christ</persName> spake concerning
                him, <quote>He was the greatest of all the Prophets;</quote> and again He said, <quote>Verily I say unto
                you, among those born of women there is none greater than <persName>John the
-               Baptist</persName>.</quote><ptr type="noteAnchor" target="#n287-1"/> Now let us understand and [see how and what was the rule and
+               Baptist</persName>.</quote>
+                    <ptr type="noteAnchor" target="#n287-1" n="10"/> Now let us understand and [see how and what was the rule and
                conduct of life of this marvellous man who arrived at such greatness as this, and why
                he was accounted worthy of all this gift, and with what increase and with how great
                labours, and after what asceticism, and for how long a time he lived a solitary life
@@ -931,7 +940,7 @@
                which were unto him, and let us understand first of all the things which concern the
                will, and afterwards the things which concern grace, for until the will shewed its
                fruits the Spirit gave not its gift.</ab>
-            <ab xml:id="section-9.19" n="19">Observe then the life of this marvellous man, who from the time of his childhood was
+                <ab xml:id="section-9.19" n="19">Observe then the life of this marvellous man, who from the time of his childhood was
                set apart from dwelling in the world, and from intercourse with the children of men;
                and he was not first of all denied and polluted, and afterwards cleansed and
                purified, but his youth passed in purity before it arrived at the motions of nature
@@ -968,7 +977,7 @@
                election after the manner of the Apostles, which was to be given after the
                Crucifixion, when the old nature was dead, and sin also and all the evil passions had
                died therewith.</ab>
-            <ab xml:id="section-9.20" n="20">Now because <persName>John</persName> was to be worthy of the knowledge of the Apostles before the
+                <ab xml:id="section-9.20" n="20">Now because <persName>John</persName> was to be worthy of the knowledge of the Apostles before the
                dissolution of the curse, and the abrogation of sin, and the matter of the Cross, he
                rightly received the Spirit in the womb, and he had the growth which was outside the
                world in order that by these means <pb type="external" n="303"/>he might attain unto
@@ -980,30 +989,36 @@
                midst like a freeman with power, and with His own hand He annulled the things which
                were old, and inaugurated those which were new, and the old man died upon the Cross,
                according to that which is written by <persName>Paul</persName>, <quote>Our old man was crucified with
-               Him,</quote><ptr type="noteAnchor" target="#n289-1"/> and the new man was revealed, <pb n="290"/>and made known, and became
+               Him,</quote>
+                    <ptr type="noteAnchor" target="#n289-1" n="11"/> and the new man was revealed, <pb n="290"/>and made known, and became
                visible, and not only that which was worthy of the dwelling of Paradise, after the
                manner of the first <persName>Adam</persName>, but that which was worthy to dwell also in heaven, and to
                go round about among spiritual beings, and to be like unto them in every thing. And
-               therefore after this those who are experienced in all <choice><sic>wicknessess</sic><corr>wickednesses</corr></choice>,
+               therefore after this those who are experienced in all <choice>
+                        <sic>wicknessess</sic>
+                        <corr>wickednesses</corr>
+                    </choice>,
                and tax-gatherers, and whoremongers, and murderers, and thieves, and worshippers of
                creatures, Grace seizeth suddenly, and without either plans or preparations maketh
                them worthy of the wealth of its mysteries, as in a new nature, it worketh in
                whomsoever it pleaseth, because the old man hath been crucified, and is dead,
-               according to the word of <persName>Paul</persName>.<ptr type="noteAnchor" target="#n290-1"/> And again that <persName>Apostle</persName> saith from the
+               according to the word of <persName>Paul</persName>.<ptr type="noteAnchor" target="#n290-1" n="12"/> And again that <persName>Apostle</persName> saith from the
                whole person of his human nature, <quote>O wretched man that I am! Who shall deliver me
-               from this body of death?</quote><ptr type="noteAnchor" target="#n290-2"/> And after he has asked questioningly who is able
+               from this body of death?</quote>
+                    <ptr type="noteAnchor" target="#n290-2" n="13"/> And after he has asked questioningly who is able
                to deliver him, <pb type="external" n="304"/>he revealeth, and confesseth and
                teacheth by his word Who He is that shall deliver him from the old and mortal nature,
                saying, <quote>I thank God through our <persName>Lord Jesus Christ</persName> Who hath delivered me from this
-               body of death.</quote></ab>
-            <ab xml:id="section-9.21" n="21">And after these things then in which it hath been made known unto us that there are
+               body of death.</quote>
+                </ab>
+                <ab xml:id="section-9.21" n="21">And after these things then in which it hath been made known unto us that there are
                the death, and dissolution, and abrogation, and destruction of the old man, and the
                vivification, and the renewal, and the appearance, and the revelation of the new man,
                Divine Grace worketh mightily all things which are efficacious, and all powers, and
                all knowledge, and all mysteries and revelations, and all the dispensation of the
                spirit, and the work which is above nature, in whomsoever it pleaseth. </ab>
-            <pb n="291"/>
-            <ab xml:id="section-9.22" n="22">These things which have been spoken by us briefly are [intended] to shew the cause of
+                <pb n="291"/>
+                <ab xml:id="section-9.22" n="22">These things which have been spoken by us briefly are [intended] to shew the cause of
                the going forth of John as a preacher in the wilderness, and why he received the
                Spirit from the womb, and why he was brought up in the desert from his childhood. Do
                thou then, O disciple, at the hearing of these things be strenuous to cast off the
@@ -1014,8 +1029,7 @@
                dissolved and abrogated, and new things were made to appear, and [Who] discovered the
                solitary life, and the freedom and alienation from the world, gave unto <persName>John the
                Baptist</persName> the knowledge of the Apostles, through which things he possessed the wisdom
-               which is above human nature, how much more now can this <pb type="external" n="365"
-               />spiritual life stablish thee in the knowledge of the mysteries of <persName>Christ</persName>, and
+               which is above human nature, how much more now can this <pb type="external" n="365"/>spiritual life stablish thee in the knowledge of the mysteries of <persName>Christ</persName>, and
                render thee unspeakably happy in the feeling of spiritual revelations! Accept thou as
                a proof [of this] the life of this righteous man, and learn also therefrom that a man
                cannot become a perfect disciple of <persName>Christ</persName> unless he make himself a stranger to the
@@ -1023,16 +1037,17 @@
                hath taught us openly, <quote>Except a man renounce the whole world, and his brethren, and
                his kinsfolk, and his family, and his father, and his mother, and everything that he
                hath, and that which is greater than them all, even his own life, he cannot be My
-               disciple.</quote><ptr type="noteAnchor" target="#n291-1"/> And again in another <pb n="292"/>place He restrained that man
+               disciple.</quote>
+                    <ptr type="noteAnchor" target="#n291-1" n="14"/> And again in another <pb n="292"/>place He restrained that man
                who wished to perform two things in one, that is, honour to [his] parents and
                discipleship to Himself, and told him that it was impossible that two things which
                were the opposites of each other could happen at the same time: <quote>Teacher, suffer me
-               to go and bury my father and my mother, and I will come after Thee,</quote><ptr type="noteAnchor" target="#n292-1"/> that is
+               to go and bury my father and my mother, and I will come after Thee,</quote>
+                    <ptr type="noteAnchor" target="#n292-1" n="15"/> that is
                to say, <quote>I will keep the first commandment which God commanded me, Honour thy parents
                and be obedient unto them, and then I will come after Thee and minister unto Thee.</quote>
                And what answer did <persName>Jesus</persName> return to this? <quote>Leave the dead to bury their own dead;
-               and go thou and preach the kingdom of God.<ptr type="noteAnchor" target="#n292-2"/> It is not necessary <pb
-                  type="external" n="306"/>for thee to keep the law, for it hath been kept and is
+               and go thou and preach the kingdom of God.<ptr type="noteAnchor" target="#n292-2" n="16"/> It is not necessary <pb type="external" n="306"/>for thee to keep the law, for it hath been kept and is
                dissolved, neither hast thou any need to minister unto natural parents, because I
                have been obedient unto parents according to the body, and I have ministered unto
                them on behalf of everyone. The yoke of the law and nature is henceforth lifted from
@@ -1040,8 +1055,9 @@
                that can subdue thee, for thou art dead unto the world, and thou art dead unto it.
                Dead bodies have not service paid unto them, they are only wrapped in shrouds and
                buried; leave the dead then to bury their dead, and do thou go and preach the kingdom
-               of God.</quote></ab>
-            <ab xml:id="section-9.23" n="23">Behold also we learn from this testimony that the man who becometh a disciple of
+               of God.</quote>
+                </ab>
+                <ab xml:id="section-9.23" n="23">Behold also we learn from this testimony that the man who becometh a disciple of
                <persName>Jesus</persName> hath not even power to minister unto [his] natural parents, because he hath a
                true Father, Who by His grace hath enrolled him for Himself [as] a son, and Who hath
                set <pb n="293"/>him apart for the ministration of His will. Hear also again another
@@ -1049,10 +1065,12 @@
                example of the testimony of which will urge thee to deny thyself everything, and to
                go forth after <persName>Jesus</persName>. <quote>And one of His disciples drew nigh and said unto <persName>Jesus</persName>,
                Suffer me to bid farewell to them that are at my house, and I will come after
-               Thee.</quote><ptr type="noteAnchor" target="#n293-1"/> Hear also in this case what the Master answered the disciple, and
+               Thee.</quote>
+                    <ptr type="noteAnchor" target="#n293-1" n="17"/> Hear also in this case what the Master answered the disciple, and
                receive it as if it had been spoken unto thee by that disciple: <quote>No man, having put
                his hand upon the ploughshare, and looking back, is fit for the kingdom of
-               God,</quote><ptr type="noteAnchor" target="#n293-2"/> [that is to say], <quote>Whosoever fulfilleth this work in nature, and who
+               God,</quote>
+                    <ptr type="noteAnchor" target="#n293-2" n="18"/> [that is to say], <quote>Whosoever fulfilleth this work in nature, and who
                guideth the plough with oxen according to the custom <pb type="external" n="307"/>of
                man, and who suffereth himself to look behind him instead of in front—now in this
                manner the work would never be completed—is not able to advance, nor are his furrows
@@ -1072,8 +1090,8 @@
                between thee and the world, in order that thou thyself mayest have peace with Me;
                thou hast neither house nor household, why then shouldst thou hasten to bid them
                farewell? For enmity is set between thee and them, why then shouldst thou be anxious
-               to be a friend unto them? I have not come to cast peace upon the earth,<ptr type="noteAnchor" target="#n294-1"/> <pb
-                  type="external" n="308"/>why then dost thou hasten to have peace with the children
+               to be a friend unto them? I have not come to cast peace upon the earth,<ptr type="noteAnchor" target="#n294-1" n="19"/>
+                        <pb type="external" n="308"/>why then dost thou hasten to have peace with the children
                of the earth? I cry War, and yet thou hastenest to peace; I preach Division, and thou
                hastenest to strengthen concord. I have come to set a man against his father, and the
                daughter against her mother, and the bridegroom against the bride, and thou hastenest
@@ -1086,14 +1104,14 @@
                sins; hasten thou not to become a companion of those who work iniquity.</quote> [The
                disciple said], <quote>I will go and bid <pb n="295"/>farewell to the children of my
                house,</quote> but <persName>Christ</persName> said unto him, <quote>Thou hast no peace with them,</quote> [for] <quote>Ye shall
-               salute no man by the way;</quote><ptr type="noteAnchor" target="#n295-1"/> and the meaning of this speech is that <persName>Christ</persName>
+               salute no man by the way;</quote>
+                    <ptr type="noteAnchor" target="#n295-1" n="20"/> and the meaning of this speech is that <persName>Christ</persName>
                thereby denied His disciples also that salutation of the peace of the world. These
                things were said in the person of one disciple unto every man, that is to say, unto
                [all] those who have dedicated themselves unto discipleship, for it is better that a
                man should not be a disciple unto God in name, being in truth a disciple of the
                world, and that he should not hire himself unto One, and serve the other.</ab>
-            <ab xml:id="section-9.24" n="24">It is not necessary that the world should arrive at perfection, because its habit <pb
-                  type="external" n="309"/>and its life are not dedicated unto perfection; but the
+                <ab xml:id="section-9.24" n="24">It is not necessary that the world should arrive at perfection, because its habit <pb type="external" n="309"/>and its life are not dedicated unto perfection; but the
                disciple by the very mark of his garb preacheth perfection concerning himself, and in
                the things according to which he appeareth openly unto the children of men he hath
                given the promise concerning himself to appear also inwardly unto God. The marks of
@@ -1113,19 +1131,22 @@
                it, and be unto it a stranger also in thy innermost thoughts. Thou hast in outward
                appearance made thyself destitute of riches, be thou also destitute of the love of
                riches in thy innermost mind. Thou hast rejected the sounds of song and the pleasures
-               of the world, delight thyself then diligently, and with all <pb type="external"
-                  n="310"/>thy soul in the sounds of the psalms of the Spirit of God. Let thy
+               of the world, delight thyself then diligently, and with all <pb type="external" n="310"/>thy soul in the sounds of the psalms of the Spirit of God. Let thy
                discipleship be known more from within than without, and as the children of men
                discern that thou art a disciple of <persName>Christ</persName> by thy outward appearance, even so let
                <persName>Christ</persName> know thee to be His disciple from thy inward appearance.</ab>
-            <ab xml:id="section-9.25" n="25">Take heed that thy discipleship <choice><sic>be not be</sic><corr>be not</corr></choice> unto thee for trafficking and for
+                <ab xml:id="section-9.25" n="25">Take heed that thy discipleship <choice>
+                        <sic>be not be</sic>
+                        <corr>be not</corr>
+                    </choice> unto thee for trafficking and for
                buying and selling, and do not place upon thyself the noble garb of discipleship,
                neither for vainglory, nor for the pleasures which pass away. Thou shalt not sell
                spiritual for carnal things, and thou shalt not exchange heavenly things for the
                corruptible treasures which are laid up on earth; to Him only to Whom thou wast
                promised [by] thy covenant be thou a disciple. For God taught thee of old, and He
                removed from before thy sight this deceitful expectation, [saying], <quote>A servant cannot
-               serve two masters,</quote><ptr type="noteAnchor" target="#n296-1"/> and again by another testimony He warned thee if thou
+               serve two masters,</quote>
+                    <ptr type="noteAnchor" target="#n296-1" n="21"/> and again by another testimony He warned thee if thou
                couldst <pb n="297"/>not become a perfect disciple to remain in the life of the
                world, and it is better for thee, lest when thou hast begin to build, thou art not
                able to finish, and thou becomest a mockery unto every man. <quote>What man beginneth to
@@ -1136,8 +1157,10 @@
                to fight <pb type="external" n="311"/>with a fellow king, [doth not sit down first
                and take counsel whether] he can meet with ten thousand [men] him that cometh against
                him with twenty thousand, or who doth not send ambassadors and seek for peace if he
-               be unable to meet in war the multitude of his forces?</quote><ptr type="noteAnchor" target="#n297-1"/></ab>
-            <ab xml:id="section-9.26" n="26">And behold, by these things He Who called thee to be His disciple hath taught thee
+               be unable to meet in war the multitude of his forces?</quote>
+                    <ptr type="noteAnchor" target="#n297-1" n="22"/>
+                </ab>
+                <ab xml:id="section-9.26" n="26">And behold, by these things He Who called thee to be His disciple hath taught thee
                that thou shouldst not begin in this path unless thou art determined to finish in it,
                and that thou shouldst not lay the foundations to build a tower, if thou hast it not
                in thy mind to finish it, and that thou shouldst not go forth to war against <persName>Satan</persName>,
@@ -1154,8 +1177,7 @@
                thou didst the things which belong unto a disciple, this is a matter for praise in
                thee, but if [being] in discipleship thou doest the things which befit it, thou only
                payest [thy] obligation, and thou only fulfillest that which is incumbent upon thee.
-               And observe unto what height the tower shall rise, and of what stones and slabs <pb
-                  type="external" n="312"/>its building shall be composed when thou layest the
+               And observe unto what height the tower shall rise, and of what stones and slabs <pb type="external" n="312"/>its building shall be composed when thou layest the
                foundation. Thou shalt not begin a building which will make thee the laughingstock of
                those who see thee, and thou shalt not construct for thyself a mark of contempt and
                of mockery in the sight of many, and thou shalt not give a cause for those who pass
@@ -1176,7 +1198,7 @@
                all [His] foot-soldiers. <quote>And one came and drew nigh and said unto Him, Master, I
                will follow Thee whithersoever thou goest. Jesus saith unto him, The foxes have
                holes, and the birds of heaven have nests, but the Son of man hath not where to lay
-               His head.<ptr type="noteAnchor" target="#n299-1"/> Depart thou from me, O disciple of iniquity, for I have not that
+               His head.<ptr type="noteAnchor" target="#n299-1" n="23"/> Depart thou from me, O disciple of iniquity, for I have not that
                to give <pb type="external" n="313"/>unto thee which thou desirest, and that which I
                can give thee thou dost not wish to receive. I know that which thy desire asketh, and
                that which thou seekest, but I will not give [them unto thee], for through the love
@@ -1190,8 +1212,9 @@
                give in the world into which I have come. I am in appearance <pb n="300"/>a stranger,
                for I have neither house nor roof, and whosoever seeketh to be My disciple must
                inherit poverty from Me. Why dost thou wish to inherit from Me that of the possession
-               of which I have made thee destitute?</quote></ab>
-            <ab xml:id="section-9.27" n="27">Now therefore, many go forth after <persName>Jesus</persName> with thoughts of the love of mammon, and
+               of which I have made thee destitute?</quote>
+                </ab>
+                <ab xml:id="section-9.27" n="27">Now therefore, many go forth after <persName>Jesus</persName> with thoughts of the love of mammon, and
                they put on the honourable garb of His discipleship like a profession. And He hath
                exposed of old this deceitful thought in His word, and by the hand of that one hath
                rebuked all the disciples of falsehood, and prevented them from being His disciples
@@ -1200,24 +1223,29 @@
                were slack, and slothful, and feeble, either through the love of pleasure, or through
                the labour of the building, He kept back by saying, <quote>If thou hast money sufficient
                for [building] the tower, [build it], but if not, it is better that thou shouldst not
-               begin, than that thou shouldst begin and not finish.</quote></ab>
-            <ab xml:id="section-9.28" n="28">And the perfection which <persName>Jesus</persName> demandeth He shewed us here by all the disciples who
+               begin, than that thou shouldst begin and not finish.</quote>
+                </ab>
+                <ab xml:id="section-9.28" n="28">And the perfection which <persName>Jesus</persName> demandeth He shewed us here by all the disciples who
                went forth after Him, because this tower which mounteth up to heaven is completed by
                perfection, and it is finished by the gathering together [into it] of all virtues.
                And <persName>Jesus</persName> Himself said, <quote>If thou canst finish it, begin [to build], and if not, do
                not begin,</quote> which is as if a man were to say, <quote>If thou canst be a perfect disciple,
                and complete in all triumphs, [well]; but if not, remain in the world, and work that
-               other righteousness of justice which is inferior to spirituality.</quote></ab>
-            <ab xml:id="section-9.29" n="29">Now each of those who did not seek [Him] with noble purpose He kept back by an answer
+               other righteousness of justice which is inferior to spirituality.</quote>
+                </ab>
+                <ab xml:id="section-9.29" n="29">Now each of those who did not seek [Him] with noble purpose He kept back by an answer
                which <pb n="301"/>befitted them. To the man who had compunction about grieving his
                folk, and who, wishing to pay unto them human love, asked Him that he might go and
                bid farewell unto his household, and [then] follow Him, He said, <quote>No man, putting his
-               hand upon the ploughshare, and looking back is fit for the kingdom of God.</quote><ptr type="noteAnchor" target="#n301-1"/>
+               hand upon the ploughshare, and looking back is fit for the kingdom of God.</quote>
+                    <ptr type="noteAnchor" target="#n301-1" n="24"/>
                And unto the man who sought to honour his parents according to the body, so long as
                they were alive, and after their death to become His disciple, He said, <quote>Let the dead
-               bury their dead.</quote><ptr type="noteAnchor" target="#n301-2"/> And unto another, who by the perfection of the doctrine of
+               bury their dead.</quote>
+                    <ptr type="noteAnchor" target="#n301-2" n="25"/> And unto another, who by the perfection of the doctrine of
                <persName>Christ</persName> wished to satisfy his lust for oppression <pb type="external" n="315"/>, He
-               answered, <quote>Who hath made Me a judge and a ruler over you?</quote><ptr type="noteAnchor" target="#n301-3"/> And unto another
+               answered, <quote>Who hath made Me a judge and a ruler over you?</quote>
+                    <ptr type="noteAnchor" target="#n301-3" n="26"/> And unto another
                who, in His name, wished to gather together riches, and who was scheming that by the
                mighty deeds, and the signs, and the wonders, which he wrought by His power, he might
                become the owner of possessions, He said, <quote>I am poor, and I have not where to lay my
@@ -1227,15 +1255,17 @@
                yet gained purity of thoughts and innocency of soul, wished to fight against the
                powers which opposed him, He said, <quote>No king goeth forth to war against a fellow king
                unless he hath gathered together hosts which will be sufficient to meet the enemy
-               which opposeth him.</quote></ab>
-            <ab xml:id="section-9.30" n="30">Now therefore by these <persName>Jesus</persName> rebuked all diseased <pb n="302"/>thoughts, and He
+               which opposeth him.</quote>
+                </ab>
+                <ab xml:id="section-9.30" n="30">Now therefore by these <persName>Jesus</persName> rebuked all diseased <pb n="302"/>thoughts, and He
                made the disciple to lay hold upon the true healing of discipleship, and upon the
                body of the spiritual life. And as in worldly matters, if a man cannot perform
                properly the piece of work which he wisheth to do without setting himself free from
                all other work, and occupying himself with that alone, how much less can a man finish
                this spiritual labour <pb type="external" n="316"/>unless he set himself free from
                the service of everything which is visible? even as the blessed <persName>Paul</persName> also saith,
-               <quote>Every man who maketh a contest, keepeth his mind from everything;</quote><ptr type="noteAnchor" target="#n302-1"/> and of
+               <quote>Every man who maketh a contest, keepeth his mind from everything;</quote>
+                    <ptr type="noteAnchor" target="#n302-1" n="27"/> and of
                what contest did he speak except the exercising of the body in the world? And if to a
                contest in which the body is engaged the service of carnal things is a hindrance, how
                much more will it be so to a spiritual contest? For in the one case, as regards the
@@ -1248,14 +1278,16 @@
                tied unto and held fast by the things of the world? And again <persName>Paul</persName> himself saith,
                <quote>No soldier on service who entangleth himself in the affairs of the world is able to
                please Him Who elected him. And if he contendeth, he is not crowned, except he have
-               contended lawfully.</quote><ptr type="noteAnchor" target="#n302-2"/> What then? If the soldiers of the kingdom of the world
+               contended lawfully.</quote>
+                    <ptr type="noteAnchor" target="#n302-2" n="28"/> What then? If the soldiers of the kingdom of the world
                   empty<pb n="303"/>themselves of everything that they may learn the arts of their
                service, and may thereby please the king who elected them, what disciple who hath
                been elected to the <pb type="external" n="317"/>spiritual service, is able to become
                captain if he be bound by the things of the world?</ab>
-            <ab xml:id="section-9.31" n="31">And, moreover, let us also see from the speech of <persName>Simon</persName> to <persName>our Lord</persName>, and let us
+                <ab xml:id="section-9.31" n="31">And, moreover, let us also see from the speech of <persName>Simon</persName> to <persName>our Lord</persName>, and let us
                also learn from the first disciple how it is meet for us to become disciples. <quote>Behold
-               we have left everything, and have come after thee.</quote><ptr type="noteAnchor" target="#n303-1"/> What then shall we have?
+               we have left everything, and have come after thee.</quote>
+                    <ptr type="noteAnchor" target="#n303-1" n="29"/> What then shall we have?
                Thou hast heard what this disciple said, and how he hath revealed unto thee the truth
                of his absolute poverty, and that they (i.e., the disciples) possessed nothing
                besides <persName>Jesus</persName>. <quote>We have left everything, and have come after thee.</quote> Behold the
@@ -1269,12 +1301,10 @@
                which is thine own, He will not shew thee the things which are His. Give everything
                that thou hast for the love of Him only, being in thy gift watchful against the
                thought that seeketh human praise, and go forth and travel along the road a little,
-               bearing afflictions and labours with purity of the thoughts; and observe, <pb n="304"
-               />immediately His glory riseth in thy soul, and He mingleth the spirit in thee, how
+               bearing afflictions and labours with purity of the thoughts; and observe, <pb n="304"/>immediately His glory riseth in thy soul, and He mingleth the spirit in thee, how
                thy whole being will be smitten with the love of Him, and thou wilt also forget the
                weight of thy afflictions, and He will suddenly change thee from one being into
-               another, that is to say, from the old into the new. And if <pb type="external"
-                  n="318"/>[thou wilt] not [do this], what dost thou desire? Thy purse being full
+               another, that is to say, from the old into the new. And if <pb type="external" n="318"/>[thou wilt] not [do this], what dost thou desire? Thy purse being full
                perhaps it may happen that thou demandest also discount and interest, and thou
                wouldst spare that which is thine own, and wouldst eat of His bounty. Or perhaps thou
                wishest to become a disciple unto Him that He may place thee in authority over the
@@ -1286,10 +1316,11 @@
                with passions and lusts? Wouldst thou desire to pour in the new wine of the wisdom of
                His mysteries, and wouldst thou not pour upon the ground this knowledge if it had
                come into thee? I mean, thy old vessel is unable to receive it.</ab>
-            <ab xml:id="section-9.32" n="32">Now this <persName>our Redeemer</persName> Himself shewed aforetime in His luminous teaching, saying,
+                <ab xml:id="section-9.32" n="32">Now this <persName>our Redeemer</persName> Himself shewed aforetime in His luminous teaching, saying,
                <quote>No man poureth new wine into old bottles, lest the wine burst the skins, and the
                wine be poured out, and the skins be destroyed; but they pour new wine into new
-               bottles, and both are preserved.</quote><ptr type="noteAnchor" target="#n304-1"/> So long as sin liveth or is wrought in
+               bottles, and both are preserved.</quote>
+                    <ptr type="noteAnchor" target="#n304-1" n="30"/> So long as sin liveth or is wrought in
                thee by deed or in thought, or a carnal <pb n="305"/>wish belonging to the world
                ariseth in thee, thou art still an old vessel, and thou art not able to receive the
                new wine of the wisdom of <persName>Christ</persName>. Make new thyself then by the dismissal of thy
@@ -1317,8 +1348,7 @@
                the memorial of Him; who at one time desireth to put off his life and to be with
                <persName>Christ</persName>, and at another is clothed with carnal delights, and they are pleasant unto
                him; whose whole mind at one time is moved by the Spirit, and at another he quaketh
-               with empty cares; who at one time is filled with admiration of God, <pb
-                  type="external" n="320"/>and at another maketh dark his mind with carnal
+               with empty cares; who at one time is filled with admiration of God, <pb type="external" n="320"/>and at another maketh dark his mind with carnal
                meditation; who at one time purifieth his thoughts from the motion of lust, and at
                another lusteth for the act of adultery; who at one time fasteth without measure, and
                at another eateth immoderately; who at one time scattereth his possessions in the
@@ -1341,23 +1371,24 @@
                also he doth not attain unto that after which he hasteneth, for how can he attain
                unto it since he runneth not? And even though this man who set out to go forward may
                travel on and march forward, and may have spent the half of his life, so to say, in
-               the rule and conduct of discipleship, since he served hath two things he is not <pb
-                  type="external" n="321"/>able to lay hold upon one; and how can the man who hath
+               the rule and conduct of discipleship, since he served hath two things he is not <pb type="external" n="321"/>able to lay hold upon one; and how can the man who hath
                not wholly and entirely sought after good, except in name, find it? and how can the
                man who hath not experienced, even for a short time, the love of <persName>Christ</persName>, obtain the
                mastery over the limit of love? If then the man who walketh as a living man is found
                to be dead, what shall become of the man who is absolutely dead?</ab>
-            <ab xml:id="section-9.33" n="33">Thou hast gone forth after <persName>Jesus</persName>, follow Him then and turn not back, and remember
-               <persName><persName>Lot</persName>'s wife</persName>,<ptr type="noteAnchor" target="#n307-1"/> who, because the love of her kinsfolk and the outcries of
+                <ab xml:id="section-9.33" n="33">Thou hast gone forth after <persName>Jesus</persName>, follow Him then and turn not back, and remember
+               <persName>
+                        <persName>Lot</persName>'s wife</persName>,<ptr type="noteAnchor" target="#n307-1" n="31"/> who, because the love of her kinsfolk and the outcries of
                her beloved ones constrained her, turned and looked back behind her, and became a
-               pillar of salt, even as is written concerning her;<ptr type="noteAnchor" target="#n307-2"/> and because her soul had
+               pillar of salt, even as is written concerning her;<ptr type="noteAnchor" target="#n307-2" n="32"/> and because her soul had
                not been salted with the fear of the Highest she became a destructible salted thing.
                Remember then this woman who was in doubt, and who perished, and be thou not in doubt
                like unto her, and turn not thyself backwards, lest thou remain in the place where
                thou art, <pb n="308"/>and thou wilt arrive at this condition, although not in thy
                body, yet in thy soul. For the soul that turneth and looketh backward after it hath
                gone forth on the journey in this path becometh a senseless pillar, and as in the
-               case above, <persName>the wife of <persName>Lot</persName></persName> ceased from bodily feeling, and thereby became a
+               case above, <persName>the wife of <persName>Lot</persName>
+                    </persName> ceased from bodily feeling, and thereby became a
                pillar of salt, even so also here the mind, which looketh behind it always at
                corruptible things, ceaseth to feel, and becometh stupefied at spiritual things;
                because the remembrance of the world maketh us to possess dulness of heart, and it
@@ -1368,7 +1399,7 @@
                possession of them absolutely remove us? And if, in looking upon them whilst they are
                in the hands of others, they bind us to them, how much more shall we be bound so long
                as they are found in our hands?</ab>
-            <ab xml:id="section-9.34" n="34">Go forth then from the world, O disciple, in the manner in which the Apostles went
+                <ab xml:id="section-9.34" n="34">Go forth then from the world, O disciple, in the manner in which the Apostles went
                forth, in deed, and not in word; in thought, and not in borrowed guise; in will, and
                not in form (or garb); with desire, and not delay; with discretion, and not through
                tradition; in freedom, and not in the law. Renew in thee from day to day the desire
@@ -1378,14 +1409,14 @@
                and murderous reptiles. And if thou hast determined in thy mind to pass over this
                terrible country, and thy desire be wholly <pb n="309"/>ready, straightway grace will
                receive thee, and will accompany thee. Thou must not consider that the soul and body
-               are linked together, and that the one is mingled with the other by nature, <pb
-                  type="external" n="323"/>for there is much room between them, and it is a terrible
+               are linked together, and that the one is mingled with the other by nature, <pb type="external" n="323"/>for there is much room between them, and it is a terrible
                depth which not every man is able to search out and to pass over; but if thou wilt
                constrain the body with its lusts, and suffering, and prayer, and lovingkindness
                accompany thee, thou wilt be able to pass over this terrible country. But since our
                discourse is upon the going forth from the world, and not upon the going forth from
                indwelling passions, we will not speak upon this subject. <quote>We have left everything,
-               and have followed Thee;</quote><ptr type="noteAnchor" target="#n309-1"/> behold the words which are the instruction common
+               and have followed Thee;</quote>
+                    <ptr type="noteAnchor" target="#n309-1" n="33"/> behold the words which are the instruction common
                unto all disciples! Take them perpetually into the remembrance of thy soul, and at
                the beginning of thy discipleship let them be the subject of thy meditation, and in
                remembrance of their exhortation go forth from the world; and when thou travellest
@@ -1398,7 +1429,8 @@
                love of <persName>Jesus</persName>, but in the simplicity of their faith they went forth after the sight
                of His works, and after the sweetness of His speech. And while He linked them unto
                Himself by word, they clung <pb n="310"/>fast unto Him in very deed, for [His] words
-               were, <pb type="external" n="324"/><quote>Follow Me,</quote> and immediately they heard the word
+               were, <pb type="external" n="324"/>
+                    <quote>Follow Me,</quote> and immediately they heard the word
                they began to do so in very deed. Now thy own union with <persName>Jesus</persName> today is in deed,
                because He hath mingled thee in the life of the spirit by baptism; and while He
                brought the Apostles unto Him at that time by word, He hath today mingled thee with
@@ -1417,10 +1449,12 @@
                haughtily, and from outward signs it might be thought that He was driving them away
                from Him. <quote>If ye wish to go away, depart,</quote> He once said unto them, and by reason of
                the hardness of His word many left him and departed. <persName>Simon</persName> saith unto Him, <quote>Unto
-               whom shall we go?</quote><ptr type="noteAnchor" target="#n310-1"/> We have once and for all gone forth after </ab>
-            <pb n="311"/>
-            <ab xml:id="section-9.35" n="35">Thee, <pb type="external" n="325"/>and we have no place to go away from following
-               Thee. <quote>For Thou hast the words of eternal life,</quote><ptr type="noteAnchor" target="#n311-1"/> that is to say, <quote>Thy words
+               whom shall we go?</quote>
+                    <ptr type="noteAnchor" target="#n310-1" n="34"/> We have once and for all gone forth after </ab>
+                <pb n="311"/>
+                <ab xml:id="section-9.35" n="35">Thee, <pb type="external" n="325"/>and we have no place to go away from following
+               Thee. <quote>For Thou hast the words of eternal life,</quote>
+                    <ptr type="noteAnchor" target="#n311-1" n="35"/> that is to say, <quote>Thy words
                are life, and how shall we forsake life and go after death? For we have forsaken
                everything and come after Thee, because we believe and know that Thou art the Son of
                the Living God.</quote> Therefore then, O disciple, if thou believest as <persName>Simon</persName> believed,
@@ -1440,46 +1474,57 @@
                Lord</persName> sheweth thee, saying, <quote>Verily I say unto you, that in the new world, when <persName>the
                Son of Man</persName> sitteth upon the throne of His glory, ye also shall sit upon twelve
                thrones, <pb type="external" n="326"/>and judge the twelve tribes of
-               Israel.</quote><ptr type="noteAnchor" target="#n311-2"/> Behold the wages of going forth is participation with <pb n="312"
-               /><persName>Jesus</persName> in sublime honour! For He will set the thrones for the disciples opposite
+               Israel.</quote>
+                    <ptr type="noteAnchor" target="#n311-2" n="36"/> Behold the wages of going forth is participation with <pb n="312"/>
+                    <persName>Jesus</persName> in sublime honour! For He will set the thrones for the disciples opposite
                to His own throne; and that which with nature is impossible He shewed by His word
                that it cometh to pass. For He did not promise those disciples who loved His word to
                honour them like servants and like men who were in subjection, but to make them
                worthy of the majesty of thrones like unto friends and like unto those who were
                similar unto Him in His glory. And this which is written concerning the angels also
                is a marvel of unspeakable love: <quote>A thousand thousand stand before Him, and ten
-               thousand times ten thousand minister unto Him;</quote><ptr type="noteAnchor" target="#n312-1"/> now this concerneth the
+               thousand times ten thousand minister unto Him;</quote>
+                    <ptr type="noteAnchor" target="#n312-1" n="37"/> now this concerneth the
                Seraphim who stand above Him, having their wings spread out to fly, and this one
-               crieth to this, saying, <quote>Holy, Holy, Holy.</quote><ptr type="noteAnchor" target="#n312-2"/> And concerning the Cherubim it
+               crieth to this, saying, <quote>Holy, Holy, Holy.</quote>
+                    <ptr type="noteAnchor" target="#n312-2" n="38"/> And concerning the Cherubim it
                is written that they were yoked unto a chariot, and while their faces looked
                downwards, the motions of their spiritual natures were directed whither was the Most
                High, and they likewise were crying out, <quote>Blessed be the honour of the Lord from His
-               country.</quote><ptr type="noteAnchor" target="#n312-3"/> And spiritual beings stand in this service, and the hosts and
+               country.</quote>
+                    <ptr type="noteAnchor" target="#n312-3" n="39"/> And spiritual beings stand in this service, and the hosts and
                ranks of heaven are obedient unto the word of <persName>Jesus</persName>, even as <persName>Paul</persName> said, <quote>They are
                ministering spirits, who are sent to minister unto those who are about to inherit
-               life.</quote><ptr type="noteAnchor" target="#n312-4"/></ab>
-            <ab xml:id="section-9.36" n="36">And concerning the Apostles it is written, <quote>They shall sit upon thrones,</quote> and this
+               life.</quote>
+                    <ptr type="noteAnchor" target="#n312-4" n="40"/>
+                </ab>
+                <ab xml:id="section-9.36" n="36">And concerning the Apostles it is written, <quote>They shall sit upon thrones,</quote> and this
                indicateth to us the greatness of their honour, <pb type="external" n="327"/>and
                [their] equality with Him in inheritance, even as <persName>Paul</persName> saith, <quote>If we suffer with
-               Him, we shall also be glorified with <pb n="313"/>Him.</quote><ptr type="noteAnchor" target="#n313-1"/> And again he saith,
-               <quote>Heirs of God, and children of the inheritance of <persName>Jesus Christ</persName>.</quote><ptr type="noteAnchor" target="#n313-2"/> And again
-               he saith, <quote>If we endure with Him, we shall reign with Him.</quote><ptr type="noteAnchor" target="#n313-3"/> And again he
+               Him, we shall also be glorified with <pb n="313"/>Him.</quote>
+                    <ptr type="noteAnchor" target="#n313-1" n="41"/> And again he saith,
+               <quote>Heirs of God, and children of the inheritance of <persName>Jesus Christ</persName>.</quote>
+                    <ptr type="noteAnchor" target="#n313-2" n="42"/> And again
+               he saith, <quote>If we endure with Him, we shall reign with Him.</quote>
+                    <ptr type="noteAnchor" target="#n313-3" n="43"/> And again he
                saith, <quote>He shall change the body of our humility, and shall make it like unto His
                glorious body, according to His great power through which all things are subject unto
-               Him.</quote><ptr type="noteAnchor" target="#n313-4"/> Now therefore unto this greatness will the disciple attain if he
+               Him.</quote>
+                    <ptr type="noteAnchor" target="#n313-4" n="44"/> Now therefore unto this greatness will the disciple attain if he
                travelleth completely in his Master's footsteps, but in order that thou mayest not
                think that this portion of honour came only to the Apostles, <persName>Paul</persName> said, <quote>If we
                suffer with Him, we shall also be glorified with Him, and if we endure we shall also
                reign with Him.</quote> And <persName>our Lord</persName> Himself said unto the Apostles, <quote>Not ye only, but
                every man who leaveth houses, or family, or brethren, or sisters, or children, for My
                sake, and for My Gospel's sake, shall receive an hundredfold in this world, and in
-               the world to come life everlasting.</quote><ptr type="noteAnchor" target="#n313-5"/></ab>
-            <ab xml:id="section-9.37" n="37">What sleeper would not wake up at the sound of these promises? What dead man would
+               the world to come life everlasting.</quote>
+                    <ptr type="noteAnchor" target="#n313-5" n="45"/>
+                </ab>
+                <ab xml:id="section-9.37" n="37">What sleeper would not wake up at the sound of these promises? What dead man would
                not come to life at this breath of spiritual life? And what sluggard would not be
                quickened at the pointing out of this path which goeth up to heaven? And who would
                not wish to despise himself and to make himself of no account at the hearing of His
-               incomparable promise? Who would not deny the whole world—<pb type="external" n="328"
-               />even if it happened that he possessed it—to become a consort of God upon the
+               incomparable promise? Who would not deny the whole world—<pb type="external" n="328"/>even if it happened that he possessed it—to become a consort of God upon the
                throne? And who would not be willing to exchange the things of time for those of
                eternity? For <pb n="314"/>even if the things which we leave were equal in value unto
                those which shall be given unto us, since it is God who commandeth, it is right that
@@ -1504,44 +1549,53 @@
                revealed unto us the greatness of this exchange in one little word, and shewed us how
                inferior are the things which <pb n="315"/>we have, and how great are those of God in
                one short verse, saying. <quote>The things which are seen are temporal, but the things
-               which are unseen are eternal.</quote><ptr type="noteAnchor" target="#n315-1"/> Who then would not exchange the things of
+               which are unseen are eternal.</quote>
+                    <ptr type="noteAnchor" target="#n315-1" n="46"/> Who then would not exchange the things of
                time for those of eternity, except ourselves, and fools like unto us?</ab>
-            <ab xml:id="section-9.38" n="38">Do not thou then, O thou who hast denied the things which are seen, ask what kind of
+                <ab xml:id="section-9.38" n="38">Do not thou then, O thou who hast denied the things which are seen, ask what kind of
                riches thou wilt receive in exchange for thy poverty, but be thou in earnest only to
                forsake thy poverty, and to hasten to possess them. Now what these riches are, and
                unto what they are like, <persName>Paul</persName> explaineth not unto thee, nor of what kind they are,
                for there is nothing which can be compared with them, nor how much they are, because
                they cannot be measured. <quote>That which eye hath not seen, nor ear heard, and what hath
                not gone up in the heart of man, [is] what God hath prepared for them that love
-               Him;</quote><ptr type="noteAnchor" target="#n315-2"/> and the greatness of the reward is made manifest by these and such
+               Him;</quote>
+                    <ptr type="noteAnchor" target="#n315-2" n="47"/> and the greatness of the reward is made manifest by these and such
                like words.</ab>
-            <ab xml:id="section-9.39" n="39">Do thou then, O disciple, hearken unto the divine voices which exhort thee to go
+                <ab xml:id="section-9.39" n="39">Do thou then, O disciple, hearken unto the divine voices which exhort thee to go
                forth after <persName>Jesus</persName>, and to become <pb type="external" n="330"/>absolutely destitute,
                and then thou wilt become a perfect disciple: <quote>Whosoever denieth not everything that
-               he hath cannot be My disciple.</quote><ptr type="noteAnchor" target="#n315-3"/> After this what hast thou to say or to
+               he hath cannot be My disciple.</quote>
+                    <ptr type="noteAnchor" target="#n315-3" n="48"/> After this what hast thou to say or to
                answer? for behold with one word all thy doubts and all thy obscure ideas are
                destroyed; and the word of truth is a sublime path for thee in which to tread. And
                again in another place He said, <quote>Whosoever doth not forsake <pb n="316"/>everything
                that he hath, and doth not take up his cross and follow Me, cannot be My
-               disciple.</quote><ptr type="noteAnchor" target="#n316-1"/> And again, teaching [us] that we should not only forsake our
+               disciple.</quote>
+                    <ptr type="noteAnchor" target="#n316-1" n="49"/> And again, teaching [us] that we should not only forsake our
                possessions for the sake of His glory, and deny the world for the sake of confessing
                Him, but also our transitory life, He said, <quote>Except a man deny himself he cannot be
-               My disciple.</quote><ptr type="noteAnchor" target="#n316-2"/> And again He saith, <quote>Whosoever wisheth to save his soul shall
+               My disciple.</quote>
+                    <ptr type="noteAnchor" target="#n316-2" n="50"/> And again He saith, <quote>Whosoever wisheth to save his soul shall
                destroy it; and whosoever [wisheth] to destroy his soul for My sake shall make it to
-               live.</quote><ptr type="noteAnchor" target="#n316-3"/> And again He saith, <quote>Whosoever destroyeth his soul shall preserve it
+               live.</quote>
+                    <ptr type="noteAnchor" target="#n316-3" n="51"/> And again He saith, <quote>Whosoever destroyeth his soul shall preserve it
                unto everlasting life; and whosoever ministereth unto Me the Father shall
-               honour.</quote><ptr type="noteAnchor" target="#n316-4"/> And again He said unto His disciples, <quote>Arise, let us go
-               hence,</quote><ptr type="noteAnchor" target="#n316-5"/> and by this [speech] He shewed that this world was not the country
+               honour.</quote>
+                    <ptr type="noteAnchor" target="#n316-4" n="52"/> And again He said unto His disciples, <quote>Arise, let us go
+               hence,</quote>
+                    <ptr type="noteAnchor" target="#n316-5" n="53"/> and by this [speech] He shewed that this world was not the country
                either of Himself or of His disciples. Whither shall we go, O <persName>Lord</persName>? <quote>Where I am
-               there also shall My servant be.</quote><ptr type="noteAnchor" target="#n316-6"/> If <persName>Jesus</persName> crieth unto us, <quote>Arise, let us
-               go hence,</quote> what fool would be persuaded to dwell with corpses in <pb type="external"
-                  n="331"/>the graves, or to become a sojourner with the dead? Whensoever,
+               there also shall My servant be.</quote>
+                    <ptr type="noteAnchor" target="#n316-6" n="54"/> If <persName>Jesus</persName> crieth unto us, <quote>Arise, let us
+               go hence,</quote> what fool would be persuaded to dwell with corpses in <pb type="external" n="331"/>the graves, or to become a sojourner with the dead? Whensoever,
                therefore, the world wisheth to hold thee fast, or family, or kinsfolk, or friends,
                remember the word of <persName>Christ</persName> which said, <quote>Arise, let us go hence,</quote> for this voice is
                sufficient to rouse thee up if thou art alive. Whensoever, therefore, thou wishest to
                sit down to rest thyself, or to delight thyself in the love of the country in which
                thou art, remember this word of exhortation, and say unto thyself, <quote>Arise, let us go
-               hence;</quote> thou must go at all cost, only go as <pb n="317"/><persName>Jesus</persName> went. Go because He
+               hence;</quote> thou must go at all cost, only go as <pb n="317"/>
+                    <persName>Jesus</persName> went. Go because He
                hath told thee [to go], and not because it is nature which carrieth thee, whether
                thou wilt or no, being thyself unwilling. Thou standest on the path of travellers,
                set out on the way then because of <persName>thy Lord</persName>'s word, and not by the force of
@@ -1563,8 +1617,8 @@
                hear the rumour of him they either flee or hide themselves. And behold from this also
                thou mayest learn concerning the departure from the life of the world if thou wilt
                understand, and wilt attend with discretion unto the power of the word. </ab>
-            <pb n="318"/>
-            <ab xml:id="section-9.40" n="40">And to another, a teacher, who wished to follow <persName>Jesus</persName>, having the desire of a
+                <pb n="318"/>
+                <ab xml:id="section-9.40" n="40">And to another, a teacher, who wished to follow <persName>Jesus</persName>, having the desire of a
                perfect rule of life and conduct in the manner of which He was worthy, He shewed this
                path of perfection, <quote>And one drew nigh unto Him while He was teaching in the temple,
                and said unto Him, Good Teacher, what shall I do to inherit life?</quote> Now what did Jesus
@@ -1586,8 +1640,10 @@
                are written, and lift thyself up above them also unto the love of God, and unto the
                love of thy neighbour, which is above the fear of the law, <pb n="319"/>because it is
                of love. When thou hast kept these things, thou shalt inherit eternal
-               life.</quote><ptr type="noteAnchor" target="#n319-1"/></ab>
-            <ab xml:id="section-9.41" n="41">These things <persName>Jesus</persName> taught that proud doctor to do, although he did not wish to be
+               life.</quote>
+                    <ptr type="noteAnchor" target="#n319-1" n="55"/>
+                </ab>
+                <ab xml:id="section-9.41" n="41">These things <persName>Jesus</persName> taught that proud doctor to do, although he did not wish to be
                held in restraint by them, for with a boastful mind he sought things which were
                greater than these, but things which <persName>Jesus</persName> did not teach him. Now for us disciples
                it is right that we should possess true doctrine, and that we should know from the
@@ -1595,17 +1651,22 @@
                and grow in the service of the things which are good. The commandments which <persName>Jesus</persName>
                spake unto him, <quote>Thou shalt not kill, Thou shalt not commit adultery, Thou shalt not
                   <pb type="external" n="334"/>steal, and Thou shalt not bear false witness,</quote> agree
-               with the words of <persName>David</persName>, who said, <quote>Depart from evil, and do good;</quote><ptr type="noteAnchor" target="#n319-2"/> and
-               with those which <persName>Paul</persName> spake, <quote>Let not wickedness overcome you.</quote><ptr type="noteAnchor" target="#n319-3"/> And the
+               with the words of <persName>David</persName>, who said, <quote>Depart from evil, and do good;</quote>
+                    <ptr type="noteAnchor" target="#n319-2" n="56"/> and
+               with those which <persName>Paul</persName> spake, <quote>Let not wickedness overcome you.</quote>
+                    <ptr type="noteAnchor" target="#n319-3" n="57"/> And the
                commandments, <quote>Honour thy father and thy mother,</quote> and, <quote>That which is hateful unto
-               thee, do not unto thy neighbour,</quote> agree with, <quote>Do ye good,</quote><ptr type="noteAnchor" target="#n319-4"/> and, <quote>Overcome
-               evil with good;</quote><ptr type="noteAnchor" target="#n319-5"/> and that commandment, <quote>Love the Lord thy God with all thy
+               thee, do not unto thy neighbour,</quote> agree with, <quote>Do ye good,</quote>
+                    <ptr type="noteAnchor" target="#n319-4" n="58"/> and, <quote>Overcome
+               evil with good;</quote>
+                    <ptr type="noteAnchor" target="#n319-5" n="59"/> and that commandment, <quote>Love the Lord thy God with all thy
                heart, and with all thy soul, and with all thy mind, and thy neighbour as
-               thyself,</quote><ptr type="noteAnchor" target="#n319-6"/> is like unto the words, <quote>The law is not ordained for the
-               righteous,</quote><ptr type="noteAnchor" target="#n319-7"/> because these commandments are above the fear of the law.</ab>
-            <ab xml:id="section-9.42" n="42">Now therefore <persName>Jesus</persName> laid down in these commandments the restrictions for conduct in
-               life: firstly, a man must depart from evil, and restrain himself from <pb n="320"
-               />the service of all abominable things; and secondly, he must do the things which are
+               thyself,</quote>
+                    <ptr type="noteAnchor" target="#n319-6" n="60"/> is like unto the words, <quote>The law is not ordained for the
+               righteous,</quote>
+                    <ptr type="noteAnchor" target="#n319-7" n="61"/> because these commandments are above the fear of the law.</ab>
+                <ab xml:id="section-9.42" n="42">Now therefore <persName>Jesus</persName> laid down in these commandments the restrictions for conduct in
+               life: firstly, a man must depart from evil, and restrain himself from <pb n="320"/>the service of all abominable things; and secondly, he must do the things which are
                laid down under the fear of the law; and thirdly, the service of good things, which
                is above the fear of the law; and fourthly, he must set out on the path of the
                discipleship of <persName>Christ</persName>, which is the perfect going forth from the world; and
@@ -1613,11 +1674,11 @@
                sick; and sixthly, we must bear the cross upon our shoulders, and we shall arrive at
                the fulness of the perfection of <persName>Christ</persName>. Now in these, two rules of life have been
                distinguished for us, and we learn therefrom two kinds of righteousness, each of
-               which consisteth of three degrees. We must restrain ourselves from <pb
-                  type="external" n="335"/>wickedness, that we may obey and fear the law, and work
+               which consisteth of three degrees. We must restrain ourselves from <pb type="external" n="335"/>wickedness, that we may obey and fear the law, and work
                the things which are good, in order that we may be above the law in the voluntary
                service of what is good, concerning which <persName>Paul</persName> taught us, saying, <quote>The law is not
-               ordained for the righteous,</quote><ptr type="noteAnchor" target="#n320-1"/> and for this reason he exalted the doers
+               ordained for the righteous,</quote>
+                    <ptr type="noteAnchor" target="#n320-1" n="62"/> and for this reason he exalted the doers
                thereof above the power of the law. Now the three degrees of righteousness are
                wrought in the world, and those who perform them are just and righteous, and are
                neither spiritual beings nor perfect; two degrees are set above the fear of the law,
@@ -1625,22 +1686,22 @@
                fulfilled within the heart and inner mind, where the law can neither look nor see;
                for the eye of the law seeth matters which are external, and not the thoughts which
                are internal. Whosoever, then, loveth God with all his heart, and mind, and soul, his
-               love is internal. He said particularly, <quote>Love thy God</quote>—which is above <pb n="321"
-               />the law—and not, <quote>Thou shalt fear God,</quote> for the law hath dominion over fear, and
+               love is internal. He said particularly, <quote>Love thy God</quote>—which is above <pb n="321"/>the law—and not, <quote>Thou shalt fear God,</quote> for the law hath dominion over fear, and
                not over love. Love is above the commandment of the law, and over those who are ruled
                thereby the law hath no power. Now the third degree [of righteousness], which is
                superior to the law, and inferior to the rule of <persName>Christ</persName>, occupieth a middle place,
                and thou must see from this how perfect is the doctrine of our Life-giver, for that
                   <pb type="external" n="336"/>which is above the law is the end of His
                teaching.</ab>
-            <ab xml:id="section-9.43" n="43">And <persName>our Lord</persName> taught the righteous children of men who are in the world to do these
+                <ab xml:id="section-9.43" n="43">And <persName>our Lord</persName> taught the righteous children of men who are in the world to do these
                three things, in which are gathered together all the fair things which are wrought by
                lovingkindness, and which are done unto the needy by those who have possessions by
                means of their wealth, and in them is laid the whole force of that commandment. <quote>That
                which is hateful unto thee thou shalt not do unto thy neighbour; this,</quote> even as <persName>the
                Teacher</persName> Himself explained, <quote>is the law and the prophets.</quote> Now His own righteousness
                is that which is above the law, [and concerning it] He said, <quote>Enter in at the narrow
-               gate.</quote><ptr type="noteAnchor" target="#n321-1"/> In the one case, with the law, sometimes thou art afflicted, and
+               gate.</quote>
+                    <ptr type="noteAnchor" target="#n321-1" n="63"/> In the one case, with the law, sometimes thou art afflicted, and
                sometimes thou hast ease, sometimes thou labourest, and sometimes thou restest, and
                by these and such like things all thy life of righteousness is woven; but as
                concerning the rule of <persName>Christ</persName> it is written, <quote>Enter in at the narrow gate.</quote> For
@@ -1652,8 +1713,9 @@
                <quote>Thou shalt love [thy God] as thyself,</quote> unto the command, <quote>Thou shalt love [Him] more
                than thyself;</quote> and from the command, <quote>Give of what thou hast,</quote> unto the command,
                <quote>Give away everything that thou hast;</quote> and from the command, <quote>[Give] a little of thy
-               possessions,</quote> unto the command, <quote>Give away all thy possessions.</quote></ab>
-            <ab xml:id="section-9.44" n="44">Now the easiest commandment of all, that a man should not do evil, He made the first,
+               possessions,</quote> unto the command, <quote>Give away all thy possessions.</quote>
+                </ab>
+                <ab xml:id="section-9.44" n="44">Now the easiest commandment of all, that a man should not do evil, He made the first,
                for to him <pb type="external" n="337"/>that is not kept back from the service of
                evil things merely by the penalties of the law it is easy to draw nigh unto the
                service of fair deeds which the law commandeth because of the fear of the law itself;
@@ -1665,29 +1727,30 @@
                of the just, <persName>Jesus</persName> continued in His speech to teach us perfection, and said unto
                that learned man who asked Him, that is to say, in teaching him He taught all His
                disciples, <quote>If thou wishest to be perfect, go, sell all thy possessions, and give
-               [them] to the poor, and thou shalt have treasure in heaven.</quote><ptr type="noteAnchor" target="#n322-1"/> And here even
+               [them] to the poor, and thou shalt have treasure in heaven.</quote>
+                    <ptr type="noteAnchor" target="#n322-1" n="64"/> And here even
                we have not as yet begun to walk in the path of righteousness, for that a man should
                take up his cross and go forth after <persName>Jesus</persName> is one rule of life—for as the dwelling
                in the womb is one thing, and the going forth of the child from the belly is another,
                and <pb n="323"/>the existence of a man in the world, after being born from the womb,
                is another, even so is it another thing for a man in the womb to gain form, and
-               members and body, with all his senses and limbs, and it is another <pb
-                  type="external" n="338"/>for him to be born, and it is another for him to exist in
+               members and body, with all his senses and limbs, and it is another <pb type="external" n="338"/>for him to be born, and it is another for him to exist in
                the world, for the righteousness which is in the world is like unto the substance of
                the child within the womb, and the commandment, <quote>Go and sell all thy possessions, and
-               give to the poor, and there shall be treasure for thee in heaven,</quote><ptr type="noteAnchor" target="#n323-1"/> is the
+               give to the poor, and there shall be treasure for thee in heaven,</quote>
+                    <ptr type="noteAnchor" target="#n323-1" n="65"/> is the
                belly from which is born out of the old womb the new creation, and it is that door
                through which he goeth forth from one world to the other—but that commandment, <quote>Take
                up thy cross and come after Me,</quote> belongs to the perfect rule and conduct, and it is
                the path of spiritual life.</ab>
-            <ab xml:id="section-9.45" n="45">Now it may be thought that it is a great thing for a man to sell everything that he
+                <ab xml:id="section-9.45" n="45">Now it may be thought that it is a great thing for a man to sell everything that he
                hath, and to give it to the poor, and to go forth from the world like an apostle, and
                yet it is natural, and it is that creation into which we enter at our first birth,
                and the first man also was thus created. And for this reason <persName>Job</persName> also, when
                everything that he had was taken away from him, and he was stripped of possessions
                and heirs—now it was thought that something new, and which was above nature, had
                happened unto him—mitigated the violence of his suffering by his speech, saying,
-               <quote>Naked came I forth from my mother's womb, and naked will I return.<ptr type="noteAnchor" target="#n323-2"/> What
+               <quote>Naked came I forth from my mother's womb, and naked will I return.<ptr type="noteAnchor" target="#n323-2" n="66"/> What
                hath come upon me except that condition in which I came forth from the womb?</quote> For
                that a man should deny himself of everything that he hath, <pb n="324"/>and should
                appear in the world in his own person only, is still a natural thing, but it is
@@ -1700,7 +1763,8 @@
                they were like unto the child who goeth forth naked from the womb into creation, even
                as <persName>Job</persName> said, <quote>Naked came I out of my mother's womb, and naked will I return;</quote> and
                as <persName>Paul</persName> also spake, <quote>We brought nothing into the world, and it is evident that we
-               are not able to take anything out from it.</quote><ptr type="noteAnchor" target="#n324-1"/> And as the after-birth in the
+               are not able to take anything out from it.</quote>
+                    <ptr type="noteAnchor" target="#n324-1" n="67"/> And as the after-birth in the
                womb envelopeth the child after he hath been fashioned and hath taken form to keep
                him alive, and when he is born from the womb it is cut off and cast away from him,
                because it belongeth not unto his person, nor is reckoned with the man, so also do
@@ -1716,7 +1780,7 @@
                possessions while he is in the world; and a man gaineth grace when he strippeth
                himself early of his riches, and before nature casteth them off, and when he
                forestalleth the time of his departure from this world by his own freewill.</ab>
-            <ab xml:id="section-9.46" n="46">What difficulty then existeth in the commandment that a man should renounce all his
+                <ab xml:id="section-9.46" n="46">What difficulty then existeth in the commandment that a man should renounce all his
                possessions? for behold it is a natural commandment. For let a man consider his
                beginning and his end, and let the time which is between these be taken [into
                consideration], that as he came in naked, and must go forth naked, even so let him
@@ -1730,8 +1794,7 @@
                being destitute of riches and of the possessions which are visible is the end of the
                path of the world, and likewise the casting away of the strange apparel which we put
                on in the world after we had entered therein. And if it be thought that [this] is
-               difficult, it is not because it is above nature, for behold it is easy unto those <pb
-                  type="external" n="341"/>who stand in the freewill of nature, but it is difficult
+               difficult, it is not because it is above nature, for behold it is easy unto those <pb type="external" n="341"/>who stand in the freewill of nature, but it is difficult
                unto those who are in subjection unto <pb n="326"/>passions, and who labour in
                bondage unto the lusts. And those who serve mammon as a lord are afraid to deny it,
                because of their own freewill they have already made it their god, and the children
@@ -1747,18 +1810,21 @@
                be afraid of, or difficult, every man would fear it, and its power would naturally
                rule over everything, but behold the children of freedom are above its subjection,
                and it is esteemed by their dominant freedom to be bitter bondage.</ab>
-            <ab xml:id="section-9.47" n="47">Now therefore all the commandments of righteousness and lovingkindness, which a man
+                <ab xml:id="section-9.47" n="47">Now therefore all the commandments of righteousness and lovingkindness, which a man
                doeth while he is in the world, are still on this side of the border of nature, and
-               therefore the whole old law and the commandments thereof are laid under nature, <pb
-                  type="external" n="342"/>because it is <choice><sic>imposible</sic><corr>impossible</corr></choice> that the law should
+               therefore the whole old law and the commandments thereof are laid under nature, <pb type="external" n="342"/>because it is <choice>
+                        <sic>imposible</sic>
+                        <corr>impossible</corr>
+                    </choice> that the law should
                be above nature. And <persName>our Lord</persName>, when He was asked by <persName>Nicodemus</persName>, a man learned in
-               the law, <quote>What is thy doctrine?</quote><ptr type="noteAnchor" target="#n326-1"/> said, <quote>I preach a new birth unto the
+               the law, <quote>What is thy doctrine?</quote>
+                    <ptr type="noteAnchor" target="#n326-1" n="68"/> said, <quote>I preach a new birth unto the
                children <pb n="327"/>of men.</quote> And although by those words He referred to that birth
                which is of baptism, yet they shew mightily that a man is born by the power of the
                grace of God, and also by the power of his will, from one world into the other, and
                that absolute poverty of everything which the eye can see becometh the womb which
                giveth him birth.</ab>
-            <ab xml:id="section-9.48" n="48">Now therefore it appeareth that the man of God is born three times; the first is the
+                <ab xml:id="section-9.48" n="48">Now therefore it appeareth that the man of God is born three times; the first is the
                birth from the womb into creation, the second is from bondage into freedom, and from
                the condition of being a man into that of becoming a son unto God—now this taketh
                place through grace by baptism— and the third is that a man himself is born of his
@@ -1774,15 +1840,15 @@
                without limit. What then? Now if in this world, which is carnal, however far a man
                may walk there is still room for him to walk, for if a man travelleth the whole
                period of his life's duration he will not be able to walk over the whole world, even
-               so in that world of the spirit we cannot journey too much because our journey <pb
-                  n="328"/>therein is without end, and however much a man may penetrate therein, and
+               so in that world of the spirit we cannot journey too much because our journey <pb n="328"/>therein is without end, and however much a man may penetrate therein, and
                ascend therein and enter therein, place after place, and step after step receive him,
                because it is a world which hath no limit. Now this world, however great it may be,
                is set within limits and boundaries, but that world is above a boundary, and beyond a
                limit, and blessed is he who is accounted worthy thereof, and hath entered therein by
                the change from the old man into the new, all carnal movement being dead in him, and
                the new living and spiritual motions welling up within him. And well did [<persName>our Lord</persName>]
-               say, <quote>Except a man be born again he cannot see the kingdom of God,</quote><ptr type="noteAnchor" target="#n328-1"/> for
+               say, <quote>Except a man be born again he cannot see the kingdom of God,</quote>
+                    <ptr type="noteAnchor" target="#n328-1" n="69"/> for
                except a man becometh destitute of everything which is in the world, and casteth off
                from him the carnal rule both outwardly and inwardly—after the manner that a child
                casteth off the natural womb, and is born into this world—he cannot see the kingdom
@@ -1808,31 +1874,32 @@
                of the spirit doth the soul perceive all the things which are akin unto its nature,
                and which are above the world. This, then, is the new birth, which cometh from the
                baptism of which <persName>our Lord</persName> spake to <persName>Nicodemus</persName>.</ab>
-            <ab xml:id="section-9.49" n="49">Let us now consider the answer of <persName>our Lord</persName> unto that young man who drew nigh unto
+                <ab xml:id="section-9.49" n="49">Let us now consider the answer of <persName>our Lord</persName> unto that young man who drew nigh unto
                Him, and who asked Him to teach [him] the doctrine of perfection, from which he might
                also receive perfect knowledge, and be born from one rule of life into another. Now
                when in order to learn he asked, <quote>What shall I do that I may inherit eternal life,</quote>
-               <persName>Jesus</persName> said unto him, <quote>Thou shalt not kill, Thou shalt not commit adultery, Thou
+                    <persName>Jesus</persName> said unto him, <quote>Thou shalt not kill, Thou shalt not commit adultery, Thou
                shalt not steal, Thou shalt not bear false witness</quote>—which things constitute
                remoteness from wickedness; and [He taught] after these the working of good by the
                word which He spake, saying, <quote>Honour thy father and thy mother, and that which is
                hateful unto thee, thou shalt not do unto thy neighbour,</quote> and He said, <quote>If a man keep
-               these things, he <pb n="330"/>shall inherit life everlasting.</quote><ptr type="noteAnchor" target="#n330-1"/> Now the
+               these things, he <pb n="330"/>shall inherit life everlasting.</quote>
+                    <ptr type="noteAnchor" target="#n330-1" n="70"/> Now the
                inheritance of everlasting life was unto all the righteous, and just, and merciful,
                and doers of good works while they were in [this] world, and these are they who were
                also called <quote>blessed</quote> by the living word of <persName>our Lord</persName>, in the words which He spake
                unto them, <quote>Come, ye blessed of my Father, and inherit the kingdom which hath been
                prepared for you from before the foundations of the world. I was an hungered, and ye
-               gave me to eat; I was athirst, and ye gave me to drink,</quote><ptr type="noteAnchor" target="#n330-2"/> together with the
+               gave me to eat; I was athirst, and ye gave me to drink,</quote>
+                    <ptr type="noteAnchor" target="#n330-2" n="71"/> together with the
                rest of the things which were spoken unto them by <persName>our Lord</persName>, for they all are
-               applicable unto the righteous men of olden time, and unto the just who <pb
-                  type="external" n="346"/>were also owners of possessions. And it is well known
+               applicable unto the righteous men of olden time, and unto the just who <pb type="external" n="346"/>were also owners of possessions. And it is well known
                that clothing the naked, and receiving strangers, and setting a table for the hungry,
                and providing the needy with all things for their bodily wants, belong unto the owner
                of possessions, for without riches these things cannot be; the men who have embraced
                poverty have not riches wherewith they may do good works, how much less then have
                spiritual and perfect men [wherewith to do them].</ab>
-            <ab xml:id="section-9.50" n="50">Now therefore this promise which is here given by <persName>our Lord</persName> befitteth not only those
+                <ab xml:id="section-9.50" n="50">Now therefore this promise which is here given by <persName>our Lord</persName> befitteth not only those
                who are spiritual and perfect, but also those who have embraced poverty, because with
                them also the riches wherewith they might do these good things are not found; and
                however exalted above the righteous may be the grade of those who have embraced
@@ -1844,38 +1911,46 @@
                for spiritual mindedness is an example in respect of spiritual powers, but perfection
                is a type of the fulness of <persName>Christ</persName> by which are perfected, in the spirit, all
                things which arrive at the stature of the knowledge of the fulness of <persName>Christ</persName>, even
-               as <persName>Paul</persName> saith<ptr type="noteAnchor" target="#n331-1"/>; and how superior is the grade of perfect and spiritual men
+               as <persName>Paul</persName> saith<ptr type="noteAnchor" target="#n331-1" n="72"/>; and how superior is the grade of perfect and spiritual men
                to that of the righteous and the merciful who are in the world the words of <persName>our
                Redeemer</persName>, which were spoken unto the lords of wealth in this world, are sufficient
                [to shew]: <quote>Be strenuous to make unto yourselves friends of the mammon of iniquity,
                that when it hath come to an end, they may receive you into their everlasting
-               habitations.</quote><ptr type="noteAnchor" target="#n331-2"/> <pb type="external" n="347"/></ab>
-            <ab xml:id="section-9.51" n="51">Behold, therefore, the perfect, like the lords of the country and citizens, receive
+               habitations.</quote>
+                    <ptr type="noteAnchor" target="#n331-2" n="73"/>
+                    <pb type="external" n="347"/>
+                </ab>
+                <ab xml:id="section-9.51" n="51">Behold, therefore, the perfect, like the lords of the country and citizens, receive
                the righteous strangers who go into their world, because they are sons of the
                inheritance of <persName>Christ</persName>, and heirs of the Father Who is in heaven, even as <persName>Paul</persName>
-               said concerning them, <quote>Heirs of God, and joint heirs of <persName>Jesus Christ</persName>;</quote><ptr type="noteAnchor" target="#n331-3"/> and
+               said concerning them, <quote>Heirs of God, and joint heirs of <persName>Jesus Christ</persName>;</quote>
+                    <ptr type="noteAnchor" target="#n331-3" n="74"/> and
                making known why those who bore the cross of <persName>Christ</persName> have arrived at this measure,
-               he saith, <quote>If we suffer with Him, we shall also be glorified with Him.</quote><ptr type="noteAnchor" target="#n331-4"/> And
+               he saith, <quote>If we suffer with Him, we shall also be glorified with Him.</quote>
+                    <ptr type="noteAnchor" target="#n331-4" n="75"/> And
                the participation in the sufferings of <persName>Christ</persName> [consisteth] not in a man giving
                alms, and in shewing his lovingkindness unto those who are needy, but in his dying
                wholly and <pb n="332"/>entirely to the world, and to the body, and to the lusts, and
                to the passions, and in a man crucifying his old man with all the lusts thereof, even
-               as <persName>Paul</persName> also spake concerning himself, <quote>I am crucified unto the world.</quote><ptr type="noteAnchor" target="#n332-1"/>
+               as <persName>Paul</persName> also spake concerning himself, <quote>I am crucified unto the world.</quote>
+                    <ptr type="noteAnchor" target="#n332-1" n="76"/>
                And the whole feeling of the world was annulled in him, after the manner in which it
                is annulled in those who are dead in nature, for as the dead body feeleth not any one
                thing which is brought high unto it, even so in that man, who hath been crucified
                with <persName>Christ</persName>, and who hath put to death in himself all the old man, is there no
                perception of anything which is in the world; and for this reason also <persName>Paul</persName> calleth
                <quote>dead</quote> those who stand in this rule of perfection. For the righteous man who dwelleth
-               in the world, and who hath a wife, and children, and riches, and possessions, <pb
-                  type="external" n="348"/>cannot be called dead, because all his life is like unto
+               in the world, and who hath a wife, and children, and riches, and possessions, <pb type="external" n="348"/>cannot be called dead, because all his life is like unto
                that of a living man; for the dead man is not married, and he begetteth not, while
                the righteous are united unto their wives, and beget children, and [do] other things
                which follow in their train. <quote>Ye are dead,</quote> crieth <persName>Paul</persName> unto the perfect, <quote>and your
-               lives are hid with <persName>Christ</persName> in God.</quote><ptr type="noteAnchor" target="#n332-2"/> And again he said, <quote>Ye are dead unto
-               the world, but alive unto God, in our <persName>Lord Jesus Christ</persName>.</quote><ptr type="noteAnchor" target="#n332-3"/> And again he
+               lives are hid with <persName>Christ</persName> in God.</quote>
+                    <ptr type="noteAnchor" target="#n332-2" n="77"/> And again he said, <quote>Ye are dead unto
+               the world, but alive unto God, in our <persName>Lord Jesus Christ</persName>.</quote>
+                    <ptr type="noteAnchor" target="#n332-3" n="78"/> And again he
                said, <quote>If ye died with <persName>Christ</persName> from the elements of the world, why, as if ye were
-               living in the world, do ye receive the commandments?</quote><ptr type="noteAnchor" target="#n332-4"/> Now a man arriveth at
+               living in the world, do ye receive the commandments?</quote>
+                    <ptr type="noteAnchor" target="#n332-4" n="79"/> Now a man arriveth at
                this rule of life after he hath stripped himself of his possessions, and beginneth to
                work good deeds in the members of his person, for so long as he hath riches, he
                justifieth <pb n="333"/>himself by riches, and he emptieth not himself from the cares
@@ -1887,7 +1962,7 @@
                spiritual love, from which is born knowledge, the mirror of everything, and from
                which <pb type="external" n="349"/>the understanding riseth step by step unto divine
                conversation.</ab>
-            <ab xml:id="section-9.52" n="52">Now therefore for this reason those who desire perfection strip themselves of their
+                <ab xml:id="section-9.52" n="52">Now therefore for this reason those who desire perfection strip themselves of their
                riches, in order that they may be able to do their own labours, and that, being free
                from everything in the world, they may wage war with the lusts of the body; and a man
                should labour in his inner man, and not in his outer man, and when he hath rooted up
@@ -1897,16 +1972,17 @@
                may enter therein, and the man who is not thus cannot enter therein, according to the
                testimony of <persName>Christ</persName>: <quote>If thou wishest to be perfect, go and sell thy possessions,
                and give to the poor, and thou shalt have treasure in heaven, and take up thy cross,
-               and follow Me.</quote><ptr type="noteAnchor" target="#n333-1"/> Observe, then, how perfect is the doctrine of <persName>Christ</persName>, for
+               and follow Me.</quote>
+                    <ptr type="noteAnchor" target="#n333-1" n="80"/> Observe, then, how perfect is the doctrine of <persName>Christ</persName>, for
                not even when a man hath stripped himself of everything that he hath, hath he yet
                begun to <pb n="334"/>walk in the way of His doctrine, for poverty is the end of the
                path of the righteousness which can be wrought in this world; but the words, <quote>Take
                thy cross,</quote> and <quote>follow Me,</quote> are the beginning of the path of the spiritual life. Now
                the reward hath <persName>Jesus</persName> set in the midst between the righteous and the perfect, <quote>Go,
                sell thy possessions, and give to the poor, and thou shalt have treasure in
-               heaven;</quote><ptr type="noteAnchor" target="#n334-1"/> behold the reward for righteousness! And He calleth this reward
-               <quote>treasure,</quote> because the men who hasten after the righteousness of the world <pb
-                  type="external" n="350"/>do good works on the condition that there is a reward,
+               heaven;</quote>
+                    <ptr type="noteAnchor" target="#n334-1" n="81"/> behold the reward for righteousness! And He calleth this reward
+               <quote>treasure,</quote> because the men who hasten after the righteousness of the world <pb type="external" n="350"/>do good works on the condition that there is a reward,
                and well did <persName>Jesus</persName> in His words place the treasure at the end of the way of the
                righteousness which is in the world, that their wages being set before them they may
                run direct to where they are, even as do those who contend in a game, and before whom
@@ -1919,8 +1995,7 @@
                mindedness, and the passions, and the subjection of the world. This is the life of
                the perfect, for they are moved by the spirit, and they labour in the spirit, and
                they became changed from carnal mindedness unto spiritual mindedness already while
-               they were in the world which is seen. How then can they expect to receive <pb n="335"
-               />wages, the thing for which they toiled when they lived in the world? For as an
+               they were in the world which is seen. How then can they expect to receive <pb n="335"/>wages, the thing for which they toiled when they lived in the world? For as an
                angel doth not expect the spirituality of his nature to be his wages, or that he is
                sent to perform the will of Him that existeth, because he also existeth therein and
                doeth it naturally, even so also the perfect man doth not look for wages in the
@@ -1929,7 +2004,9 @@
                life is like unto theirs, and like unto them he crieth <quote>Holy</quote> in the spirit, and he
                singeth in the spirit, and he serveth God in spirit and in truth, even as it hath
                been said by the word of God concerning the perfect, <quote>A Spirit is God, and those who
-               serve Him in spirit and in truth serve Him;</quote><ptr type="noteAnchor" target="#n335-1"/> <quote>A Spirit is God, and the
+               serve Him in spirit and in truth serve Him;</quote>
+                    <ptr type="noteAnchor" target="#n335-1" n="82"/>
+                    <quote>A Spirit is God, and the
                service of the perfect is of the Spirit.</quote> Behold, then, they serve in a divine
                manner, and they are also exalted by the degree of spiritual beings, that, in the
                likeness of God, they also may serve in power and in the freedom which is not made
@@ -1940,109 +2017,441 @@
                to speak, and their living motions, and their divine service were sufficient
                therefor—for this service is not of the body—how could it be described by the tongue
                of the body? for they feel it only, and they serve in a divine manner with their
-               inner man; and their service cometh not unto speech, nor their motions, <pb n="336"
-               />nor their feeling, nor their constant admiration, nor the visions and revelations
+               inner man; and their service cometh not unto speech, nor their motions, <pb n="336"/>nor their feeling, nor their constant admiration, nor the visions and revelations
                which they have. This is the end of the path to <persName>Christ</persName>, O disciple, and on this
-               vision resteth thy journeying if thou wilt run therein, <pb type="external" n="352"
-               />and this is the rule which was delivered unto us by Christ. Go forth then from the
+               vision resteth thy journeying if thou wilt run therein, <pb type="external" n="352"/>and this is the rule which was delivered unto us by Christ. Go forth then from the
                world, and make thyself destitute of everything which is therein, both in thy body
                and in thy soul, that thou mayest find the things which are above speech, and that
                thou mayest have pleasure thyself therein together with all the hosts of light, in
                the world of truth, in <persName>Jesus Christ</persName>, to Whom be glory from all generations of the
                world for ever and ever, Amen.</ab>
-            <ab xml:id="section-9.53" n="53">Here endeth the Second Discourse on Poverty and on the service of the spiritual
-               commandments.<ptr type="noteAnchor" target="#n336-1"/></ab>
-         </div>
-         <noteGrp>
-            <note xml:id="n248-1" target="#a248-1" n="248-1"><choice><reg/><orig>p. 248, n. 1</orig></choice>St John iii. 3.</note>
-            <note xml:id="n256-1" target="#a256-1" n="256-1"><choice><reg/><orig>p. 256, n. 1</orig></choice>Ephesians iv. 13.</note>
-            <note xml:id="n259-1" target="#a259-1" n="259-1"><choice><reg/><orig>p. 259, n. 1</orig></choice>St. Matthew xi. 28.</note>
-            <note xml:id="n264-1" target="#a264-1" n="264-1"><choice><reg/><orig>p. 264, n. 1</orig></choice>Galatians vi. 14.</note>
-            <note xml:id="n272-1" target="#a272-1" n="272-1"><choice><reg/><orig>p. 272, n. 1</orig></choice>Exodus xiv. 14.</note>
-            <note xml:id="n273-1" target="#a273-1" n="273-1"><choice><reg/><orig>p. 273, n. 1</orig></choice>Exodus xiv. 15.</note>
-            <note xml:id="n274-1" target="#a274-1" n="274-1"><choice><reg/><orig>p. 274, n. 1</orig></choice>Exodus xiv. 14.</note>
-            <note xml:id="n280-1" target="#a280-1" n="280-1"><choice><reg/><orig>p. 280, n. 1</orig></choice>Philippians iii. 20.</note>
-            <note xml:id="n286-1" target="#a286-1" n="286-1"><choice><reg/><orig>p. 286, n. 1</orig></choice>Compare Hebrews ix. 11.</note>
-            <note xml:id="n287-1" target="#a287-1" n="287-1"><choice><reg/><orig>p. 287, n. 1</orig></choice>St. Matthew xi. ii; St. Luke vii. 28.</note>
-            <note xml:id="n289-1" target="#a289-1" n="289-1"><choice><reg/><orig>p. 289, n. 1</orig></choice>Romans vi. 6.</note>
-            <note xml:id="n290-1" target="#a290-1" n="290-1"><choice><reg/><orig>p. 290, n. 1</orig></choice>Romans vi. 6.</note>
-            <note xml:id="n290-2" target="#a290-2" n="290-2"><choice><reg/><orig>p. 290, n. 2</orig></choice>Romans vii. 24.</note>
-            <note xml:id="n291-1" target="#a291-1" n="291-1"><choice><reg/><orig>p. 291, n. 1</orig></choice>Compare St. Matthew xvi. 24; St. Luke xiv. 26.</note>
-            <note xml:id="n292-1" target="#a292-1" n="292-1"><choice><reg/><orig>p. 292, n. 1</orig></choice>St. Luke ix. 59.</note>
-            <note xml:id="n292-2" target="#a292-2" n="292-2"><choice><reg/><orig>p. 292, n. 2</orig></choice>St. Luke ix. 60.</note>
-            <note xml:id="n293-1" target="#a293-1" n="293-1"><choice><reg/><orig>p. 293, n. 1</orig></choice>St. Luke ix. 61.</note>
-            <note xml:id="n293-2" target="#a293-2" n="293-2"><choice><reg/><orig>p. 293, n. 2</orig></choice>St. Luke ix. 62.</note>
-            <note xml:id="n294-1" target="#a294-1" n="294-1"><choice><reg/><orig>p. 294, n. 1</orig></choice>St. Matthew x. 34.</note>
-            <note xml:id="n295-1" target="#a295-1" n="295-1"><choice><reg/><orig>p. 295, n. 1</orig></choice>St. Luke x. 4.</note>
-            <note xml:id="n296-1" target="#a296-1" n="296-1"><choice><reg/><orig>p. 296, n. 1</orig></choice>St. Matthew vi. 24.</note>
-            <note xml:id="n297-1" target="#a297-1" n="297-1"><choice><reg/><orig>p. 297, n. 1</orig></choice>St. Luke xiv. 28 ff.</note>
-            <note xml:id="n299-1" target="#a299-1" n="299-1"><choice><reg/><orig>p. 299, n. 1</orig></choice>St. Luke ix. 58.</note>
-            <note xml:id="n301-1" target="#a301-1" n="301-1"><choice><reg/><orig>p. 301, n. 1</orig></choice>St. Luke ix. 62.</note>
-            <note xml:id="n301-2" target="#a301-2" n="301-2"><choice><reg/><orig>p. 301, n. 2</orig></choice>St. Matthew viii. 22.</note>
-            <note xml:id="n301-3" target="#a301-3" n="301-3"><choice><reg/><orig>p. 301, n. 3</orig></choice>St. Luke xii. 14.</note>
-            <note xml:id="n302-1" target="#a302-1" n="302-1"><choice><reg/><orig>p. 302, n. 1</orig></choice>Corinthians ix. 25.</note>
-            <note xml:id="n302-2" target="#a302-2" n="302-2"><choice><reg/><orig>p. 302, n. 2</orig></choice>2 Timothy ii. 4.</note>
-            <note xml:id="n303-1" target="#a303-1" n="303-1"><choice><reg/><orig>p. 303, n. 1</orig></choice>St. Matthew xix. 27.</note>
-            <note xml:id="n304-1" target="#a304-1" n="304-1"><choice><reg/><orig>p. 304, n. 1</orig></choice>St. Matthew ix. 17; St. Mark ii. 22; St. Luke v. 37.</note>
-            <note xml:id="n307-1" target="#a307-1" n="307-1"><choice><reg/><orig>p. 307, n. 1</orig></choice>St. Luke xvii. 32.</note>
-            <note xml:id="n307-2" target="#a307-2" n="307-2"><choice><reg/><orig>p. 307, n. 2</orig></choice>Genesis xix. 26; and compare Ezekiel xvi. 4.</note>
-            <note xml:id="n309-1" target="#a309-1" n="309-1"><choice><reg/><orig>p. 309, n. 1</orig></choice>St. Matthew xix. 27.</note>
-            <note xml:id="n310-1" target="#a310-1" n="310-1"><choice><reg/><orig>p. 310, n. 1</orig></choice>St. John vi. 67.</note>
-            <note xml:id="n311-1" target="#a311-1" n="311-1"><choice><reg/><orig>p. 311, n. 1</orig></choice>St. John vi. 68.</note>
-            <note xml:id="n311-2" target="#a311-2" n="311-2"><choice><reg/><orig>p. 311, n. 2</orig></choice>St. Matthew xix. 28.</note>
-            <note xml:id="n312-1" target="#a312-1" n="312-1"><choice><reg/><orig>p. 312, n. 1</orig></choice>Daniel vii. 10; Revelation v. 11.</note>
-            <note xml:id="n312-2" target="#a312-2" n="312-2"><choice><reg/><orig>p. 312, n. 2</orig></choice>Isaiah vi. 3. </note>
-            <note xml:id="n312-3" target="#a312-3" n="312-3"><choice><reg/><orig>p. 312, n. 3</orig></choice>Ezekiel x. 18; iii, 12.</note>
-            <note xml:id="n312-4" target="#a312-4" n="312-4"><choice><reg/><orig>p. 312, n. 4</orig></choice>Hebrews i. 14.</note>
-            <note xml:id="n313-1" target="#a313-1" n="313-1"><choice><reg/><orig>p. 313, n. 1</orig></choice>Romans viii. 17.</note>
-            <note xml:id="n313-2" target="#a313-2" n="313-2"><choice><reg/><orig>p. 313, n. 2</orig></choice>Romans viii. 17.</note>
-            <note xml:id="n313-3" target="#a313-3" n="313-3"><choice><reg/><orig>p. 313, n. 3</orig></choice>2 Timothy ii. 12.</note>
-            <note xml:id="n313-4" target="#a313-4" n="313-4"><choice><reg/><orig>p. 313, n. 4</orig></choice>Philippians iii. 21.</note>
-            <note xml:id="n313-5" target="#a313-5" n="313-5"><choice><reg/><orig>p. 313, n. 5</orig></choice>St. Matthew xix. 29.</note>
-            <note xml:id="n315-1" target="#a315-1" n="315-1"><choice><reg/><orig>p. 315, n. 1</orig></choice>2 Corinthians iv. 18.</note>
-            <note xml:id="n315-2" target="#a315-2" n="315-2"><choice><reg/><orig>p. 315, n. 2</orig></choice>Isaiah lxiv. 4; 1 Corinthians ii. 9. </note>
-            <note xml:id="n315-3" target="#a315-3" n="315-3"><choice><reg/><orig>p. 315, n. 3</orig></choice>St. Luke xiv. 33.</note>
-            <note xml:id="n316-1" target="#a316-1" n="316-1"><choice><reg/><orig>p. 316, n. 1</orig></choice>Compare St. Matthew x. 38; xvi. 24; St. Mark xiii. 34; St. Luke
+                <ab xml:id="section-9.53" n="53">Here endeth the Second Discourse on Poverty and on the service of the spiritual
+               commandments.<ptr type="noteAnchor" target="#n336-1" n="83"/>
+                </ab>
+            </div>
+            <noteGrp>
+                <note xml:id="n248-1" target="#a248-1" n="1">
+                    <choice>
+                        <reg/>
+                        <orig>p. 248, n. 1</orig>
+                    </choice>St John iii. 3.</note>
+                <note xml:id="n256-1" target="#a256-1" n="2">
+                    <choice>
+                        <reg/>
+                        <orig>p. 256, n. 1</orig>
+                    </choice>Ephesians iv. 13.</note>
+                <note xml:id="n259-1" target="#a259-1" n="3">
+                    <choice>
+                        <reg/>
+                        <orig>p. 259, n. 1</orig>
+                    </choice>St. Matthew xi. 28.</note>
+                <note xml:id="n264-1" target="#a264-1" n="4">
+                    <choice>
+                        <reg/>
+                        <orig>p. 264, n. 1</orig>
+                    </choice>Galatians vi. 14.</note>
+                <note xml:id="n272-1" target="#a272-1" n="5">
+                    <choice>
+                        <reg/>
+                        <orig>p. 272, n. 1</orig>
+                    </choice>Exodus xiv. 14.</note>
+                <note xml:id="n273-1" target="#a273-1" n="6">
+                    <choice>
+                        <reg/>
+                        <orig>p. 273, n. 1</orig>
+                    </choice>Exodus xiv. 15.</note>
+                <note xml:id="n274-1" target="#a274-1" n="7">
+                    <choice>
+                        <reg/>
+                        <orig>p. 274, n. 1</orig>
+                    </choice>Exodus xiv. 14.</note>
+                <note xml:id="n280-1" target="#a280-1" n="8">
+                    <choice>
+                        <reg/>
+                        <orig>p. 280, n. 1</orig>
+                    </choice>Philippians iii. 20.</note>
+                <note xml:id="n286-1" target="#a286-1" n="9">
+                    <choice>
+                        <reg/>
+                        <orig>p. 286, n. 1</orig>
+                    </choice>Compare Hebrews ix. 11.</note>
+                <note xml:id="n287-1" target="#a287-1" n="10">
+                    <choice>
+                        <reg/>
+                        <orig>p. 287, n. 1</orig>
+                    </choice>St. Matthew xi. ii; St. Luke vii. 28.</note>
+                <note xml:id="n289-1" target="#a289-1" n="11">
+                    <choice>
+                        <reg/>
+                        <orig>p. 289, n. 1</orig>
+                    </choice>Romans vi. 6.</note>
+                <note xml:id="n290-1" target="#a290-1" n="12">
+                    <choice>
+                        <reg/>
+                        <orig>p. 290, n. 1</orig>
+                    </choice>Romans vi. 6.</note>
+                <note xml:id="n290-2" target="#a290-2" n="13">
+                    <choice>
+                        <reg/>
+                        <orig>p. 290, n. 2</orig>
+                    </choice>Romans vii. 24.</note>
+                <note xml:id="n291-1" target="#a291-1" n="14">
+                    <choice>
+                        <reg/>
+                        <orig>p. 291, n. 1</orig>
+                    </choice>Compare St. Matthew xvi. 24; St. Luke xiv. 26.</note>
+                <note xml:id="n292-1" target="#a292-1" n="15">
+                    <choice>
+                        <reg/>
+                        <orig>p. 292, n. 1</orig>
+                    </choice>St. Luke ix. 59.</note>
+                <note xml:id="n292-2" target="#a292-2" n="16">
+                    <choice>
+                        <reg/>
+                        <orig>p. 292, n. 2</orig>
+                    </choice>St. Luke ix. 60.</note>
+                <note xml:id="n293-1" target="#a293-1" n="17">
+                    <choice>
+                        <reg/>
+                        <orig>p. 293, n. 1</orig>
+                    </choice>St. Luke ix. 61.</note>
+                <note xml:id="n293-2" target="#a293-2" n="18">
+                    <choice>
+                        <reg/>
+                        <orig>p. 293, n. 2</orig>
+                    </choice>St. Luke ix. 62.</note>
+                <note xml:id="n294-1" target="#a294-1" n="19">
+                    <choice>
+                        <reg/>
+                        <orig>p. 294, n. 1</orig>
+                    </choice>St. Matthew x. 34.</note>
+                <note xml:id="n295-1" target="#a295-1" n="20">
+                    <choice>
+                        <reg/>
+                        <orig>p. 295, n. 1</orig>
+                    </choice>St. Luke x. 4.</note>
+                <note xml:id="n296-1" target="#a296-1" n="21">
+                    <choice>
+                        <reg/>
+                        <orig>p. 296, n. 1</orig>
+                    </choice>St. Matthew vi. 24.</note>
+                <note xml:id="n297-1" target="#a297-1" n="22">
+                    <choice>
+                        <reg/>
+                        <orig>p. 297, n. 1</orig>
+                    </choice>St. Luke xiv. 28 ff.</note>
+                <note xml:id="n299-1" target="#a299-1" n="23">
+                    <choice>
+                        <reg/>
+                        <orig>p. 299, n. 1</orig>
+                    </choice>St. Luke ix. 58.</note>
+                <note xml:id="n301-1" target="#a301-1" n="24">
+                    <choice>
+                        <reg/>
+                        <orig>p. 301, n. 1</orig>
+                    </choice>St. Luke ix. 62.</note>
+                <note xml:id="n301-2" target="#a301-2" n="25">
+                    <choice>
+                        <reg/>
+                        <orig>p. 301, n. 2</orig>
+                    </choice>St. Matthew viii. 22.</note>
+                <note xml:id="n301-3" target="#a301-3" n="26">
+                    <choice>
+                        <reg/>
+                        <orig>p. 301, n. 3</orig>
+                    </choice>St. Luke xii. 14.</note>
+                <note xml:id="n302-1" target="#a302-1" n="27">
+                    <choice>
+                        <reg/>
+                        <orig>p. 302, n. 1</orig>
+                    </choice>Corinthians ix. 25.</note>
+                <note xml:id="n302-2" target="#a302-2" n="28">
+                    <choice>
+                        <reg/>
+                        <orig>p. 302, n. 2</orig>
+                    </choice>2 Timothy ii. 4.</note>
+                <note xml:id="n303-1" target="#a303-1" n="29">
+                    <choice>
+                        <reg/>
+                        <orig>p. 303, n. 1</orig>
+                    </choice>St. Matthew xix. 27.</note>
+                <note xml:id="n304-1" target="#a304-1" n="30">
+                    <choice>
+                        <reg/>
+                        <orig>p. 304, n. 1</orig>
+                    </choice>St. Matthew ix. 17; St. Mark ii. 22; St. Luke v. 37.</note>
+                <note xml:id="n307-1" target="#a307-1" n="31">
+                    <choice>
+                        <reg/>
+                        <orig>p. 307, n. 1</orig>
+                    </choice>St. Luke xvii. 32.</note>
+                <note xml:id="n307-2" target="#a307-2" n="32">
+                    <choice>
+                        <reg/>
+                        <orig>p. 307, n. 2</orig>
+                    </choice>Genesis xix. 26; and compare Ezekiel xvi. 4.</note>
+                <note xml:id="n309-1" target="#a309-1" n="33">
+                    <choice>
+                        <reg/>
+                        <orig>p. 309, n. 1</orig>
+                    </choice>St. Matthew xix. 27.</note>
+                <note xml:id="n310-1" target="#a310-1" n="34">
+                    <choice>
+                        <reg/>
+                        <orig>p. 310, n. 1</orig>
+                    </choice>St. John vi. 67.</note>
+                <note xml:id="n311-1" target="#a311-1" n="35">
+                    <choice>
+                        <reg/>
+                        <orig>p. 311, n. 1</orig>
+                    </choice>St. John vi. 68.</note>
+                <note xml:id="n311-2" target="#a311-2" n="36">
+                    <choice>
+                        <reg/>
+                        <orig>p. 311, n. 2</orig>
+                    </choice>St. Matthew xix. 28.</note>
+                <note xml:id="n312-1" target="#a312-1" n="37">
+                    <choice>
+                        <reg/>
+                        <orig>p. 312, n. 1</orig>
+                    </choice>Daniel vii. 10; Revelation v. 11.</note>
+                <note xml:id="n312-2" target="#a312-2" n="38">
+                    <choice>
+                        <reg/>
+                        <orig>p. 312, n. 2</orig>
+                    </choice>Isaiah vi. 3. </note>
+                <note xml:id="n312-3" target="#a312-3" n="39">
+                    <choice>
+                        <reg/>
+                        <orig>p. 312, n. 3</orig>
+                    </choice>Ezekiel x. 18; iii, 12.</note>
+                <note xml:id="n312-4" target="#a312-4" n="40">
+                    <choice>
+                        <reg/>
+                        <orig>p. 312, n. 4</orig>
+                    </choice>Hebrews i. 14.</note>
+                <note xml:id="n313-1" target="#a313-1" n="41">
+                    <choice>
+                        <reg/>
+                        <orig>p. 313, n. 1</orig>
+                    </choice>Romans viii. 17.</note>
+                <note xml:id="n313-2" target="#a313-2" n="42">
+                    <choice>
+                        <reg/>
+                        <orig>p. 313, n. 2</orig>
+                    </choice>Romans viii. 17.</note>
+                <note xml:id="n313-3" target="#a313-3" n="43">
+                    <choice>
+                        <reg/>
+                        <orig>p. 313, n. 3</orig>
+                    </choice>2 Timothy ii. 12.</note>
+                <note xml:id="n313-4" target="#a313-4" n="44">
+                    <choice>
+                        <reg/>
+                        <orig>p. 313, n. 4</orig>
+                    </choice>Philippians iii. 21.</note>
+                <note xml:id="n313-5" target="#a313-5" n="45">
+                    <choice>
+                        <reg/>
+                        <orig>p. 313, n. 5</orig>
+                    </choice>St. Matthew xix. 29.</note>
+                <note xml:id="n315-1" target="#a315-1" n="46">
+                    <choice>
+                        <reg/>
+                        <orig>p. 315, n. 1</orig>
+                    </choice>2 Corinthians iv. 18.</note>
+                <note xml:id="n315-2" target="#a315-2" n="47">
+                    <choice>
+                        <reg/>
+                        <orig>p. 315, n. 2</orig>
+                    </choice>Isaiah lxiv. 4; 1 Corinthians ii. 9. </note>
+                <note xml:id="n315-3" target="#a315-3" n="48">
+                    <choice>
+                        <reg/>
+                        <orig>p. 315, n. 3</orig>
+                    </choice>St. Luke xiv. 33.</note>
+                <note xml:id="n316-1" target="#a316-1" n="49">
+                    <choice>
+                        <reg/>
+                        <orig>p. 316, n. 1</orig>
+                    </choice>Compare St. Matthew x. 38; xvi. 24; St. Mark xiii. 34; St. Luke
                ix. 23; xiv. 33.</note>
-            <note xml:id="n316-2" target="#a316-2" n="316-2"><choice><reg/><orig>p. 316, n. 2</orig></choice>St. Luke ix. 23.</note>
-            <note xml:id="n316-3" target="#a316-3" n="316-3"><choice><reg/><orig>p. 316, n. 3</orig></choice>St. Luke xvii. 33; St. Matthew xvi. 25.</note>
-            <note xml:id="n316-4" target="#a316-4" n="316-4"><choice><reg/><orig>p. 316, n. 4</orig></choice>St. John xii. 25, 26.</note>
-            <note xml:id="n316-5" target="#a316-5" n="316-5"><choice><reg/><orig>p. 316, n. 5</orig></choice>St. John xiv. 31.</note>
-            <note xml:id="n316-6" target="#a316-6" n="316-6"><choice><reg/><orig>p. 316, n. 6</orig></choice>St. John xii. 26.</note>
-            <note xml:id="n319-1" target="#a319-1" n="319-1"><choice><reg/><orig>p. 319, n. 1</orig></choice>St. Mark x. 17 ff.</note>
-            <note xml:id="n319-2" target="#a319-2" n="319-2"><choice><reg/><orig>p. 319, n. 2</orig></choice>Psalm xxxiv. 14; I St. Peter iii, 11.</note>
-            <note xml:id="n319-3" target="#a319-3" n="319-3"><choice><reg/><orig>p. 319, n. 3</orig></choice>Romans xii. 21.</note>
-            <note xml:id="n319-4" target="#a319-4" n="319-4"><choice><reg/><orig>p. 319, n. 4</orig></choice>Romans xiii. 3.</note>
-            <note xml:id="n319-5" target="#a319-5" n="319-5"><choice><reg/><orig>p. 319, n. 5</orig></choice>Romans xii. 21.</note>
-            <note xml:id="n319-6" target="#a319-6" n="319-6"><choice><reg/><orig>p. 319, n. 6</orig></choice>St. Mark xii. 30, 31.</note>
-            <note xml:id="n319-7" target="#a319-7" n="319-7"><choice><reg/><orig>p. 319, n. 7</orig></choice>1 Timothy i. 9.</note>
-            <note xml:id="n320-1" target="#a320-1" n="320-1"><choice><reg/><orig>p. 320, n. 1</orig></choice>1 Timothy i. 9.</note>
-            <note xml:id="n321-1" target="#a321-1" n="321-1"><choice><reg/><orig>p. 321, n. 1</orig></choice>St. Matthew vii. 13.</note>
-            <note xml:id="n322-1" target="#a322-1" n="322-1"><choice><reg/><orig>p. 322, n. 1</orig></choice>St. Matthew xix. 21.</note>
-            <note xml:id="n323-1" target="#a323-1" n="323-1"><choice><reg/><orig>p. 323, n. 1</orig></choice>St. Matthew xix. 21.</note>
-            <note xml:id="n323-2" target="#a323-2" n="323-2"><choice><reg/><orig>p. 323, n. 2</orig></choice>Job i. 21.</note>
-            <note xml:id="n324-1" target="#a324-1" n="324-1"><choice><reg/><orig>p. 324, n. 1</orig></choice>1 Timothy vi. 7.</note>
-            <note xml:id="n326-1" target="#a326-1" n="326-1"><choice><reg/><orig>p. 326, n. 1</orig></choice>St. John iii. 1-7.</note>
-            <note xml:id="n328-1" target="#a328-1" n="328-1"><choice><reg/><orig>p. 328, n. 1</orig></choice>St. John iii. 3.</note>
-            <note xml:id="n330-1" target="#a330-1" n="330-1"><choice><reg/><orig>p. 330, n. 1</orig></choice>St. Matthew xix. 16.</note>
-            <note xml:id="n330-2" target="#a330-2" n="330-2"><choice><reg/><orig>p. 330, n. 2</orig></choice>St. Matthew xxv. 34, 35.</note>
-            <note xml:id="n331-1" target="#a331-1" n="331-1"><choice><reg/><orig>p. 331, n. 1</orig></choice>Ephesians iv. 13.</note>
-            <note xml:id="n331-2" target="#a331-2" n="331-2"><choice><reg/><orig>p. 331, n. 2</orig></choice>St. Luke xvi. 9.</note>
-            <note xml:id="n331-3" target="#a331-3" n="331-3"><choice><reg/><orig>p. 331, n. 3</orig></choice>Romans viii. 17.</note>
-            <note xml:id="n331-4" target="#a331-4" n="331-4"><choice><reg/><orig>p. 331, n. 4</orig></choice>Romans viii. 17.</note>
-            <note xml:id="n332-1" target="#a332-1" n="332-1"><choice><reg/><orig>p. 332, n. 1</orig></choice>Galatians vi. 14.</note>
-            <note xml:id="n332-2" target="#a332-2" n="332-2"><choice><reg/><orig>p. 332, n. 2</orig></choice>Colossians iii. 3.</note>
-            <note xml:id="n332-3" target="#a332-3" n="332-3"><choice><reg/><orig>p. 332, n. 3</orig></choice>Romans vi. 11.</note>
-            <note xml:id="n332-4" target="#a332-4" n="332-4"><choice><reg/><orig>p. 332, n. 4</orig></choice>Colossians ii. 20.</note>
-            <note xml:id="n331-1" target="#a331-1" n="331-1"><choice><reg/><orig>p. 331, n. 1</orig></choice>St. Matthew xix. 21.</note>
-            <note xml:id="n334-1" target="#a334-1" n="334-1"><choice><reg/><orig>p. 334, n. 1</orig></choice>St. Matthew xix. 21.</note>
-            <note xml:id="n335-1" target="#a335-1" n="335-1"><choice><reg/><orig>p. 335, n. 1</orig></choice>St. John iv. 24.</note>
-            <note xml:id="n336-1" target="#a336-1" n="336-1"><choice><reg/><orig>p. 336, n. 1</orig></choice>A reads—<quote>of the commandments of the holy <persName>Mâr Philoxenus</persName>,</quote> and C
+                <note xml:id="n316-2" target="#a316-2" n="50">
+                    <choice>
+                        <reg/>
+                        <orig>p. 316, n. 2</orig>
+                    </choice>St. Luke ix. 23.</note>
+                <note xml:id="n316-3" target="#a316-3" n="51">
+                    <choice>
+                        <reg/>
+                        <orig>p. 316, n. 3</orig>
+                    </choice>St. Luke xvii. 33; St. Matthew xvi. 25.</note>
+                <note xml:id="n316-4" target="#a316-4" n="52">
+                    <choice>
+                        <reg/>
+                        <orig>p. 316, n. 4</orig>
+                    </choice>St. John xii. 25, 26.</note>
+                <note xml:id="n316-5" target="#a316-5" n="53">
+                    <choice>
+                        <reg/>
+                        <orig>p. 316, n. 5</orig>
+                    </choice>St. John xiv. 31.</note>
+                <note xml:id="n316-6" target="#a316-6" n="54">
+                    <choice>
+                        <reg/>
+                        <orig>p. 316, n. 6</orig>
+                    </choice>St. John xii. 26.</note>
+                <note xml:id="n319-1" target="#a319-1" n="55">
+                    <choice>
+                        <reg/>
+                        <orig>p. 319, n. 1</orig>
+                    </choice>St. Mark x. 17 ff.</note>
+                <note xml:id="n319-2" target="#a319-2" n="56">
+                    <choice>
+                        <reg/>
+                        <orig>p. 319, n. 2</orig>
+                    </choice>Psalm xxxiv. 14; I St. Peter iii, 11.</note>
+                <note xml:id="n319-3" target="#a319-3" n="57">
+                    <choice>
+                        <reg/>
+                        <orig>p. 319, n. 3</orig>
+                    </choice>Romans xii. 21.</note>
+                <note xml:id="n319-4" target="#a319-4" n="58">
+                    <choice>
+                        <reg/>
+                        <orig>p. 319, n. 4</orig>
+                    </choice>Romans xiii. 3.</note>
+                <note xml:id="n319-5" target="#a319-5" n="59">
+                    <choice>
+                        <reg/>
+                        <orig>p. 319, n. 5</orig>
+                    </choice>Romans xii. 21.</note>
+                <note xml:id="n319-6" target="#a319-6" n="60">
+                    <choice>
+                        <reg/>
+                        <orig>p. 319, n. 6</orig>
+                    </choice>St. Mark xii. 30, 31.</note>
+                <note xml:id="n319-7" target="#a319-7" n="61">
+                    <choice>
+                        <reg/>
+                        <orig>p. 319, n. 7</orig>
+                    </choice>1 Timothy i. 9.</note>
+                <note xml:id="n320-1" target="#a320-1" n="62">
+                    <choice>
+                        <reg/>
+                        <orig>p. 320, n. 1</orig>
+                    </choice>1 Timothy i. 9.</note>
+                <note xml:id="n321-1" target="#a321-1" n="63">
+                    <choice>
+                        <reg/>
+                        <orig>p. 321, n. 1</orig>
+                    </choice>St. Matthew vii. 13.</note>
+                <note xml:id="n322-1" target="#a322-1" n="64">
+                    <choice>
+                        <reg/>
+                        <orig>p. 322, n. 1</orig>
+                    </choice>St. Matthew xix. 21.</note>
+                <note xml:id="n323-1" target="#a323-1" n="65">
+                    <choice>
+                        <reg/>
+                        <orig>p. 323, n. 1</orig>
+                    </choice>St. Matthew xix. 21.</note>
+                <note xml:id="n323-2" target="#a323-2" n="66">
+                    <choice>
+                        <reg/>
+                        <orig>p. 323, n. 2</orig>
+                    </choice>Job i. 21.</note>
+                <note xml:id="n324-1" target="#a324-1" n="67">
+                    <choice>
+                        <reg/>
+                        <orig>p. 324, n. 1</orig>
+                    </choice>1 Timothy vi. 7.</note>
+                <note xml:id="n326-1" target="#a326-1" n="68">
+                    <choice>
+                        <reg/>
+                        <orig>p. 326, n. 1</orig>
+                    </choice>St. John iii. 1-7.</note>
+                <note xml:id="n328-1" target="#a328-1" n="69">
+                    <choice>
+                        <reg/>
+                        <orig>p. 328, n. 1</orig>
+                    </choice>St. John iii. 3.</note>
+                <note xml:id="n330-1" target="#a330-1" n="70">
+                    <choice>
+                        <reg/>
+                        <orig>p. 330, n. 1</orig>
+                    </choice>St. Matthew xix. 16.</note>
+                <note xml:id="n330-2" target="#a330-2" n="71">
+                    <choice>
+                        <reg/>
+                        <orig>p. 330, n. 2</orig>
+                    </choice>St. Matthew xxv. 34, 35.</note>
+                <note xml:id="n331-1" target="#a331-1" n="72">
+                    <choice>
+                        <reg/>
+                        <orig>p. 331, n. 1</orig>
+                    </choice>Ephesians iv. 13.</note>
+                <note xml:id="n331-2" target="#a331-2" n="73">
+                    <choice>
+                        <reg/>
+                        <orig>p. 331, n. 2</orig>
+                    </choice>St. Luke xvi. 9.</note>
+                <note xml:id="n331-3" target="#a331-3" n="74">
+                    <choice>
+                        <reg/>
+                        <orig>p. 331, n. 3</orig>
+                    </choice>Romans viii. 17.</note>
+                <note xml:id="n331-4" target="#a331-4" n="75">
+                    <choice>
+                        <reg/>
+                        <orig>p. 331, n. 4</orig>
+                    </choice>Romans viii. 17.</note>
+                <note xml:id="n332-1" target="#a332-1" n="76">
+                    <choice>
+                        <reg/>
+                        <orig>p. 332, n. 1</orig>
+                    </choice>Galatians vi. 14.</note>
+                <note xml:id="n332-2" target="#a332-2" n="77">
+                    <choice>
+                        <reg/>
+                        <orig>p. 332, n. 2</orig>
+                    </choice>Colossians iii. 3.</note>
+                <note xml:id="n332-3" target="#a332-3" n="78">
+                    <choice>
+                        <reg/>
+                        <orig>p. 332, n. 3</orig>
+                    </choice>Romans vi. 11.</note>
+                <note xml:id="n332-4" target="#a332-4" n="79">
+                    <choice>
+                        <reg/>
+                        <orig>p. 332, n. 4</orig>
+                    </choice>Colossians ii. 20.</note>
+                <note xml:id="n331-1" target="#a331-1" n="80">
+                    <choice>
+                        <reg/>
+                        <orig>p. 331, n. 1</orig>
+                    </choice>St. Matthew xix. 21.</note>
+                <note xml:id="n334-1" target="#a334-1" n="81">
+                    <choice>
+                        <reg/>
+                        <orig>p. 334, n. 1</orig>
+                    </choice>St. Matthew xix. 21.</note>
+                <note xml:id="n335-1" target="#a335-1" n="82">
+                    <choice>
+                        <reg/>
+                        <orig>p. 335, n. 1</orig>
+                    </choice>St. John iv. 24.</note>
+                <note xml:id="n336-1" target="#a336-1" n="83">
+                    <choice>
+                        <reg/>
+                        <orig>p. 336, n. 1</orig>
+                    </choice>A reads—<quote>of the commandments of the holy <persName>Mâr Philoxenus</persName>,</quote> and C
                adds, <quote>Here endeth the writing of this volume, [and] the nine Discourses upon the
                Christian life and character, which were said by the blessed <persName>Mâr Philoxenus</persName>, Bishop
                of <placeName>Mabbôgh</placeName>. Glory be to the Father, and to the Son, and to the Holy Ghost, now,
-               and always, and for ever and ever; yea, Amen, Amen.</quote></note>
-         </noteGrp>
-      </body>
-   </text>
+               and always, and for ever and ever; yea, Amen, Amen.</quote>
+                </note>
+            </noteGrp>
+        </body>
+    </text>
 </TEI>

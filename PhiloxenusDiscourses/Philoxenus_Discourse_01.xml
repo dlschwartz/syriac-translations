@@ -3,97 +3,100 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8856">Discourse 1: Prologue</title>
-            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
-            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
-            <respStmt>
-               <resp>Data architecture and encoding by</resp>
-               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-                  >Daniel L. Schwartz</name>
-            </respStmt>
-            <respStmt>
-               <resp>OCR cleaning and initial markup of persons and places by</resp>
-               <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8856">Discourse 1: Prologue</title>
+                <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title>
+                <!-- series URI needed -->
+                <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <respStmt>
+                    <resp>Data architecture and encoding by</resp>
+                    <name type="person"
+                          ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>OCR cleaning and initial markup of persons and places by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
                   Chrisanthus</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <seriesStmt>
-            <title><!--The Syriac Library--></title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <seriesStmt>
-            <title>The Discourses of Philoxenus of Mabbug</title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <notesStmt>
-            <relatedItem type="next">
-               <ptr target="https://syriac-library/8857"/>
-            </relatedItem>
-         </notesStmt>
-         <sourceDesc>
-            <p>
-               <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <seriesStmt>
+                <title>The Discourses of Philoxenus of Mabbug</title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+                <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <notesStmt>
+                <relatedItem type="next">
+                    <ptr target="https://syriac-library/8857"/>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
                translated by E. A. Wallis Budge, Vol. 2, London: Asher &amp; Co., 1894, pp. 1-22. </p>
-            <p>Published in 1894, this translation is in the public domain.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="section" xml:id="section-1" n="1">
-            <head type="main">The Discourses upon discipline of life and character which were delivered by the
+                <p>Published in 1894, this translation is in the public domain.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" xml:id="section-1" n="1">
+                <head type="main">The Discourses upon discipline of life and character which were delivered by the
                blessed <persName>Mar Philoxenus</persName>, bishop of <placeName>Mabbogh</placeName>, in which is set forth the whole order
                of instruction—how a man should begin the discipleship of <persName>Christ</persName>, and in what laws
                and manner of life he should walk until he arriveth at spiritual love, from which is
                born perfection, and in which we become children of the likeness of <persName>Christ</persName>, even as
-               spake <persName>Paul the Apostle</persName><ptr type="noteAnchor" target="#n1-1"/>. Now the first Discourse is by the grace of our Lord
+               spake <persName>Paul the Apostle</persName>
+                    <ptr type="noteAnchor" target="#n1-1" n="1"/>. Now the first Discourse is by the grace of our Lord
                the prologue to all this volume.</head>
-            <ab xml:id="section-1.1" n="1">Our Lord and our Redeemer <persName>Jesus Christ</persName> in His living Gospel invited us to draw nigh
+                <ab xml:id="section-1.1" n="1">Our Lord and our Redeemer <persName>Jesus Christ</persName> in His living Gospel invited us to draw nigh
                in wisdom to the work of keeping His commandments, and to lay within ourselves the
                foundation of His discipline rightly, in order that the edifice of our life and
                character might mount up straightly. For he who knoweth not how to begin wisely the
                building of this tower which goeth up to heaven is not able to complete [it] or to
                bring it to the finish which is of wisdom. For knowledge and wisdom should order, and
                arrange, and <pb type="external" n="4"/>work the beginning and end and
-               founding<ptr type="noteAnchor" target="#n1-2"/> [of the edifice], <pb n="2"/>and whosoever beginneth thus is called a
+               founding<ptr type="noteAnchor" target="#n1-2" n="2"/> [of the edifice], <pb n="2"/>and whosoever beginneth thus is called a
                wise man by the word of our <persName>Redeemer</persName>, <quote>Whosoever heareth these My words, and doeth
                them, is like unto a wise man who hath dug, and made deep, and set his building upon
                the rock: and the rain descended, and the rivers came, and the winds blew, and beat
                upon that house; and it fell not; for its foundations were laid upon the rock. But
                whosoever heareth and doeth not, is like unto a foolish man who set his building upon
                the sand, and even if feeble things beat upon his building they will sweep it
-               away</quote>.<ptr type="noteAnchor" target="#n2-1"/> We are therefore bound by the word of our Teacher not to be constant
-               listeners only to the Word of God but also constant doers.<ptr type="noteAnchor" target="#n2-2"/> For the man who,
+               away</quote>.<ptr type="noteAnchor" target="#n2-1" n="3"/> We are therefore bound by the word of our Teacher not to be constant
+               listeners only to the Word of God but also constant doers.<ptr type="noteAnchor" target="#n2-2" n="4"/> For the man who,
                though listening not, doeth, is better than the man who is constant in listening and
                empty of works, even as the word of the apostle <persName>Paul</persName> teacheth us, <quote>For not the
                hearers of the law are righteous before God, but the doers of the law shall be
                justified: for if the Gentiles which have no law do by their own nature [the things]
                of the law, these, having no law, are a law unto themselves; and they show the work
                of the law written upon their hearts, and their conscience testifieth concerning
-               them</quote>.<ptr type="noteAnchor" target="#n2-3"/> The hearing of the law is good, for it bringeth to the works thereof,
+               them</quote>.<ptr type="noteAnchor" target="#n2-3" n="5"/> The hearing of the law is good, for it bringeth to the works thereof,
                   <pb type="external" n="5"/>and reading and meditation in the Scriptures, which
                purify our secret understanding from thoughts of evil things, are good, but if a man
                is constant in reading, and in hearing, and in the meditation of the word of </ab>
-            <pb n="3"/>
-            <ab xml:id="section-1.2" n="2">God, and yet perfecteth not by his reading the labour of works, against this man hath
+                <pb n="3"/>
+                <ab xml:id="section-1.2" n="2">God, and yet perfecteth not by his reading the labour of works, against this man hath
                the Spirit of God spoken by the hand of the blessed <persName>David</persName>, rebuking and reproving
                his wickedness, and restraining him from taking even the Holy Book into his polluted
                hands, saying, <quote>For to the sinner speaketh God, What hast thou [to do] with the books
                of My commandments, that thou hast taken My covenant in thy mouth? Thou hast hated My
-               instruction, and thou hast cast My words behind thee,</quote><ptr type="noteAnchor" target="#n3-1"/> together with the other
+               instruction, and thou hast cast My words behind thee,</quote>
+                    <ptr type="noteAnchor" target="#n3-1" n="6"/> together with the other
                things which are written after these. Now as for the man who is constant in reading
                and remote from deeds, his reading is his own condemnation, and he is the more
                deserving of judgment, in that while he listeneth every day, he mocketh and is
@@ -106,15 +109,14 @@
                into the sleep of death which is pleasant to it; and although dying, it perceiveth
                not its death that it might turn and seek life for itself. And as the man who hath
                died according to nature is not sensible of his death, even so the dead man who dieth
-               by his own will to the knowledge of God feeleth not his death, <pb type="external"
-                  n="6"/>nor perceiveth his destruction, that he might find <pb n="4"/>a way and
+               by his own will to the knowledge of God feeleth not his death, <pb type="external" n="6"/>nor perceiveth his destruction, that he might find <pb n="4"/>a way and
                seek out an invention of life for himself. For also when God saw the dying condition
                of the Jews who of their own will stopped their ears, and blinded their eyes, and
                made thick their hearts against the remembrance of the knowledge of God, He stirred
                up <persName>Isaiah</persName> to rouse them up, and cried to him to cry into their ears, saying, <quote>Cry
                with thy throat, and spare not, and lift up thy voice like a trumpet, and shew My
-               people their iniquity, and the house of <persName>Jacob</persName> their sins</quote>.<ptr type="noteAnchor" target="#n4-1"/> And again in
-               another place<ptr type="noteAnchor" target="#n4-2"/> the same prophet saith, <quote>He said to me, Cry. And I said, What
+               people their iniquity, and the house of <persName>Jacob</persName> their sins</quote>.<ptr type="noteAnchor" target="#n4-1" n="7"/> And again in
+               another place<ptr type="noteAnchor" target="#n4-2" n="8"/> the same prophet saith, <quote>He said to me, Cry. And I said, What
                shall I cry? All flesh is grass, and all the glory thereof is like the grass of the
                field</quote>. Yea, <quote>like the grass</quote> and like the herb which drieth up before the sun, which
                when once its natural juiciness and moisture have dried up neither the rain nor all
@@ -126,13 +128,12 @@
                annihilated therefrom. While the soul liveth in its natural state it is dying by its
                own desire; and while it is found in uprightness it is lost in respect of its
                freedom.</ab>
-            <ab xml:id="section-1.3" n="3">The disciple of God, then, should seek to have the remembrance of his Master <persName>Jesus
-               Christ</persName> fixed in his soul and to meditate upon it day and night, <pb type="external"
-                  n="7"/>And it is right for him to know where he should begin, and <pb n="5"/>how
+                <ab xml:id="section-1.3" n="3">The disciple of God, then, should seek to have the remembrance of his Master <persName>Jesus
+               Christ</persName> fixed in his soul and to meditate upon it day and night, <pb type="external" n="7"/>And it is right for him to know where he should begin, and <pb n="5"/>how
                and where he must raise the structure of his building, and how he should begin and
                finish it, that he be not laughed at by all those who pass along the road, even as
                our <persName>Lord</persName> spake concerning that man who began to build a tower and was not able to
-               finish it, that he became a laughing-stock and a mockery to all who saw him.<ptr type="noteAnchor" target="#n5-1"/>
+               finish it, that he became a laughing-stock and a mockery to all who saw him.<ptr type="noteAnchor" target="#n5-1" n="9"/>
                And who is this man who began the building of the tower of whom our <persName>Redeemer</persName> spake,
                if it be not the man who setteth out on the path of the Gospel of <persName>Christ</persName>? Now the
                beginning of the building of this disciple who hath agreed to go forth from the world
@@ -140,17 +141,16 @@
                begin, and run his course, and finish it, collecting and bringing together from all
                places fine stones of a noble life and character for the building of the tower which
                reacheth up to heaven. Now the foundation is set and laid, and is, according to the
-               word of <persName>Paul</persName>,<ptr type="noteAnchor" target="#n5-2"/> "<persName>Jesus Christ</persName> our God," and every man, howsoever he
+               word of <persName>Paul</persName>,<ptr type="noteAnchor" target="#n5-2" n="10"/> "<persName>Jesus Christ</persName> our God," and every man, howsoever he
                pleaseth, buildeth upon that foundation. For by His love the foundation hath been
                laid down once and for all to receive everything which might be set upon it, until
                the coming of the day of the revelation in which the work of every man will be tested
                and proved; and He who hath been the foundation stone in the corner of the building
                will go up and become the Judge and Head in the top of the building. And according to
-               what <persName>Paul</persName> himself spake, <quote>If any man buildeth on this foundation gold, <pb
-                  type="external" n="8"/>or silver, or stones of price, or wood, or hay, or stubble,
-               each man's work shall be revealed, for that day shall reveal it, inasmuch as <pb
-                  n="6"/>it shall be revealed by fire, and the fire shall prove each man's work of
-               what sort it is.</quote><ptr type="noteAnchor" target="#n6-1"/> Now <persName>Paul</persName> likeneth the conduct of Christian life and
+               what <persName>Paul</persName> himself spake, <quote>If any man buildeth on this foundation gold, <pb type="external" n="8"/>or silver, or stones of price, or wood, or hay, or stubble,
+               each man's work shall be revealed, for that day shall reveal it, inasmuch as <pb n="6"/>it shall be revealed by fire, and the fire shall prove each man's work of
+               what sort it is.</quote>
+                    <ptr type="noteAnchor" target="#n6-1" n="11"/> Now <persName>Paul</persName> likeneth the conduct of Christian life and
                character and the beauties of righteousness to gold and silver and precious stones,
                and among these faith is as gold, and the restraining of the passions and desires,
                and fasting, and self-denial and the other works of righteousness are as silver; and
@@ -165,7 +165,8 @@
                and raise upon it whatsoever he pleaseth, until the day which shall decide is
                revealed, and He shall come of Whom it is said, <quote>He holdeth His fan in His hand and
                He will purify His threshing-floors; and He will gather His wheat into the garner,
-               but the straw He will burn up with unquenchable fire.</quote><ptr type="noteAnchor" target="#n6-2"/> And the Husbandman who
+               but the straw He will burn up with unquenchable fire.</quote>
+                    <ptr type="noteAnchor" target="#n6-2" n="12"/> And the Husbandman who
                planted in the world the tree of our mankind will shew Himself [to be] the Judge, and
                He will hold in His hand the axe for cutting down, <pb type="external" n="9"/>and
                every tree which beareth not good fruit He will cut down and cast into the fire. When
@@ -174,22 +175,21 @@
                mankind, and the nations and tribes of the children of flesh, of divers tongues and
                innumerable kinds, shall appear He will strike and bring up His net to the sea shore,
                even as He Himself hath said, and He will gather together the fine fish and cast them
-               into His baskets,<ptr type="noteAnchor" target="#n7-1"/> which are the living treasuries of His kingdom, and the poor
+               into His baskets,<ptr type="noteAnchor" target="#n7-1" n="13"/> which are the living treasuries of His kingdom, and the poor
                ones He will cast forth into outer darkness, where there will be weeping and gnashing
                of teeth. These things are laid up to take place through Him at that time when the
                Prince of the shepherds shall be revealed in the glory of His kingdom. The time of
                trial is one, the time of teaching is another, the time of reading is another, and
                the time of proving is another; and as in this season of teaching there is no [time
                of] trial, even so in that season of trial there will be no [time of] teaching.</ab>
-            <ab xml:id="section-1.4" n="4">Let us therefore, my beloved, hearken unto the living voice of God Who hath called us
+                <ab xml:id="section-1.4" n="4">Let us therefore, my beloved, hearken unto the living voice of God Who hath called us
                to give us life everlasting. His voices are filled with life, and they give life unto
                him that will hearken unto them. With life are those living voices filled, and by the
                living voices is life given unto those who with a living hearing incline their ears
                unto their words.</ab>
-            <ab xml:id="section-1.5" n="5">But inasmuch as it is meet for us to speak separately concerning each matter in its
+                <ab xml:id="section-1.5" n="5">But inasmuch as it is meet for us to speak separately concerning each matter in its
                place, and to make known in our discourse which cometh first and which cometh last,
-               and how these good things, one after the other, should be kept and perfected, <pb
-                  type="external" n="10"/>we have composed this introduction to be an encouragement
+               and how these good things, one after the other, should be kept and perfected, <pb type="external" n="10"/>we have composed this introduction to be an encouragement
                to the <pb n="8"/>reader [to proceed] to the wealth of the things which follow after.
                For it is meet for the man who would begin in the way of the commandments of <persName>Christ</persName>
                to know where he should begin, and what stone should properly be the first in the
@@ -206,11 +206,10 @@
                that having laid the first stone in its place in the foundation of his teaching, he
                may build up the whole of the building according to the law. And in this manner both
                builders and architects work, for having begun to lay the foundation of their
-               building with fine, large stones, and great strong doorposts and sockets,<ptr type="noteAnchor" target="#n8-1"/> even
+               building with fine, large stones, and great strong doorposts and sockets,<ptr type="noteAnchor" target="#n8-1" n="14"/> even
                though they set in the building itself those which are inferior, the solid foundation
                is able to receive and to carry substances which are less strong. But if in the
-               foundations which <pb n="9"/>are beneath they were to lay <pb type="external" n="11"
-               />small or bad stones, and upon them massive and fine stones, all their building
+               foundations which <pb n="9"/>are beneath they were to lay <pb type="external" n="11"/>small or bad stones, and upon them massive and fine stones, all their building
                would be overturned and would fall down. And again, let us take an example also from
                the learned who transmit instruction to the young, and who teach them knowledge
                according to rule. They do not pass over [certain of the] canons of instruction and
@@ -228,7 +227,7 @@
                learn to exhibit towards each other the readiness of standing in position, and after
                this they must throw their hands each upon each, and thus they are stimulated, and
                draw nigh to the perfect contest.</ab>
-            <ab xml:id="section-1.6" n="6">And again also those who are chosen for the military service of [this] world learn
+                <ab xml:id="section-1.6" n="6">And again also those who are chosen for the military service of [this] world learn
                the art of war on this system, <pb type="external" n="12"/>and their instruction is
                neither confounded nor confused, but each of the things which they learn they learn
                in its proper place and order. And so with every <pb n="10"/>thing else in [this]
@@ -248,8 +247,7 @@
                who have [served] before him, or from the Holy Scriptures, or from men of the spirit
                who have walked in this path according to the law, and who began with works, and have
                finished in the spirit and have been made perfect in love.</ab>
-            <ab xml:id="section-1.7" n="7">Now those lusts which fight against us in the beginning <pb type="external" n="13"
-               />of our youth are well known, and also those which war against us in the middle of
+                <ab xml:id="section-1.7" n="7">Now those lusts which fight against us in the beginning <pb type="external" n="13"/>of our youth are well known, and also those which war against us in the middle of
                youth, and at the end of the period of youth. And those which fight against us in the
                beginning, and middle, and end of [our] manhood, and those [which fight against us]
                in the stage which is after manhood in the <pb n="11"/>self-same manner, even from
@@ -290,7 +288,7 @@
                that corporeal beings should do when they wish to overcome the lusts of the body, and
                what beings endowed with souls [should do] <pb type="external" n="15"/>to overcome
                the passions of the soul, and what spiritual beings [should do] to be delivered from
-               the failings<ptr type="noteAnchor" target="#n12-1"/> which befall spiritual beings in the country of the spirit. And
+               the failings<ptr type="noteAnchor" target="#n12-1" n="15"/> which befall spiritual beings in the country of the spirit. And
                [we should know] how far the fight can be extended in each one of these series, and
                how we may know when the emotion of lust springeth from ourselves, and how and when
                it befalleth us externally at the instigation of the Enemy, and by what things the
@@ -330,19 +328,17 @@
                may root out enmity from us. And [we should know] how and whence pure prayer is born
                in us, and what intuitions strike us by the admiration of God, and how we should move
                within ourselves at all times a passion for God, and how many are the feelings and
-               aspects which belong to this passion for God, and how when we come <pb
-                  type="external" n="17"/>into a life of contemplation we may preserve our thoughts
+               aspects which belong to this passion for God, and how when we come <pb type="external" n="17"/>into a life of contemplation we may preserve our thoughts
                from wandering outside ourselves. And [we should know] what loss will arise to a man
                from communion with heretics, and how by human conversations and meetings our heart
                is made thick, and how the remembrance and the thought of God are darkened. And it is
                meet that we should know what is fasting of the body, and what is fasting of the
-               soul, and what is fasting of the spirit; and what is purity of the body, and <pb
-                  n="15"/>purity of the soul, and purity of the spirit; and what is poverty of the
+               soul, and what is fasting of the spirit; and what is purity of the body, and <pb n="15"/>purity of the soul, and purity of the spirit; and what is poverty of the
                body, and poverty of the soul, and poverty of the spirit. And [we should know] what
                are the distinguishing characteristics of contemplation of the body, and of the soul,
                and of the spirit; and how the soul may be taught to fast from evil things, even also
                in like manner as the body is taught to fast from meats.</ab>
-            <ab xml:id="section-1.8" n="8">These and many other things like unto them the disciple of <persName>Christ</persName> is bound to learn
+                <ab xml:id="section-1.8" n="8">These and many other things like unto them the disciple of <persName>Christ</persName> is bound to learn
                and to know in order to walk confidently on the path of his service, and to do the
                will of the heavenly King Whom he serveth. For if those who learn the handicrafts of
                [this] world learn carefully all the secrets of their trades, and are incited to know
@@ -354,7 +350,7 @@
                hath been held worthy of the life of heavenly things, <pb type="external" n="18"/>and
                that, although he existeth in the flesh in [this] world, he should walk in the path
                which is superior to his nature.</ab>
-            <ab xml:id="section-1.9" n="9">We are bound then, if we be disciples, to ask and to learn all those things whereby
+                <ab xml:id="section-1.9" n="9">We are bound then, if we be disciples, to ask and to learn all those things whereby
                we may obtain our living like disciples; and as disciples learn their crafts from
                their masters, even so let us learn and receive [instruction] from our spiritual
                masters. Now no man is able to become a master except he be first of all a disciple,
@@ -377,7 +373,8 @@
                that all his <pb type="external" n="19"/>subsequent growth may receive goodly habits,
                and that the world may not exhaust the power of his soul and body, after which he may
                draw nigh to this service like an old and worn out vessel; but, according to what is
-               said by our <persName>Lord</persName>,<ptr type="noteAnchor" target="#n16-1"/> <quote>Let us put new wine into new bottles, and both will be
+               said by our <persName>Lord</persName>,<ptr type="noteAnchor" target="#n16-1" n="16"/>
+                    <quote>Let us put new wine into new bottles, and both will be
                preserved</quote>. And thus in the beginning of our youth, when as yet our foundation is
                new, and while our strength is yet in us, and our <pb n="17"/>freshness hath not been
                made old by sin, let us put within ourselves the new wine of the doctrine of
@@ -385,7 +382,7 @@
                <persName>Christ</persName>, so that while we preserve it we may ourselves be preserved through it from
                all evil things, more especially when the power of our soul hath not been violated
                and carried off by the work of the service of profane things.</ab>
-            <ab xml:id="section-1.10" n="10">Whosoever then would begin this course of life in his youth, it is meet for him to be
+                <ab xml:id="section-1.10" n="10">Whosoever then would begin this course of life in his youth, it is meet for him to be
                under the care of masters and to be obedient to their words without judging their
                shortcomings. And those teachers also should put themselves in the position of
                foster-parents to whom the bringing up of the children of the heavenly king, whose
@@ -396,8 +393,8 @@
                royalty, even so also should the master of disciples consider that he is educating
                the children of a king, and he should be watchful and take heed to their custody and
                to their growth and progress.</ab>
-            <pb type="external" n="20"/>
-            <ab xml:id="section-1.11" n="11">It is meet also that we should be like unto physicians towards ourselves and towards
+                <pb type="external" n="20"/>
+                <ab xml:id="section-1.11" n="11">It is meet also that we should be like unto physicians towards ourselves and towards
                each other. For there is no physician who, being smitten with pain in his own body,
                will not exercise care concerning it before [he attendeth] to the healing of the
                sicknesses of others; if however, other people fall sick, the law of the art of
@@ -421,7 +418,7 @@
                vessels prepared for the Spirit of God, so that He may dwell in us purely and holily,
                we having cured the diseases which smite us by knowledge and wisdom, and having
                healed in our souls the wounds of sin.</ab>
-            <ab xml:id="section-1.12" n="12">Now there is no single sickness of the lusts for which healing medicine is not given
+                <ab xml:id="section-1.12" n="12">Now there is no single sickness of the lusts for which healing medicine is not given
                to us by the word of God. For like as medicines are mixed and prepared by the
                physicians for bodily sicknesses, even so <pb n="19"/>are medicines made ready and
                prepared by the Spirit of God for the sufferings of sin, so that whosoever perceiveth
@@ -433,7 +430,7 @@
                through heat are helped to decrease by things of a cooling nature. Thus also is it
                with those which arise from dampness, for dryness cureth [them], and to heal those
                which arise from moisture medicines which dry up are given.</ab>
-            <ab xml:id="section-1.13" n="13">From this similitude then, take an example, O understanding man, who desirest to heal
+                <ab xml:id="section-1.13" n="13">From this similitude then, take an example, O understanding man, who desirest to heal
                the sicknesses of the soul, and do to thy soul what the art of healing doeth to thy
                body; for this work of things which are manifest is set before our eyes that it may
                be a demonstration of doctrine for the things which are hidden. And in the same way
@@ -453,8 +450,7 @@
                inactivity, activity; against negligence of the thoughts, keenness of understanding;
                against weariness, endurance; against cruelty, loving-kindness; against wickedness of
                the mind, piety of the soul; against haughtiness, humility; against boasting,
-               contempt; against the love of honour, subjection; against praise, contumely; <pb
-                  type="external" n="23"/>against riches, poverty; against possession, want; against
+               contempt; against the love of honour, subjection; against praise, contumely; <pb type="external" n="23"/>against riches, poverty; against possession, want; against
                enmity, peace; against hatred, love; against anger, conciliation; against wrath,
                propitiation; against envy, love; against evil jealousy, the love of mankind; against
                cursing, blessing; against smiting upon the cheek, the turning of the other cheek to
@@ -469,19 +465,18 @@
                against the bond of relationship which is in the human race, the bond of our
                understanding in our heavenly kinship; against a city and a <pb n="21"/>house on
                earth, the dwelling of <placeName>Jerusalem</placeName> which is above.</ab>
-            <ab xml:id="section-1.14" n="14">All these things then, and others which are like unto them, are healed by what is
+                <ab xml:id="section-1.14" n="14">All these things then, and others which are like unto them, are healed by what is
                opposite in nature to them, and are made whole by [their] antidotes; and it is meet
                that whosoever lusteth after spiritual things should deny [himself] corporeal things.
                For until one lust is dead in us another cannot live within us, that is, until the
                lust of the body is dead the lust of the spirit cannot live in our thoughts; for the
-               death of one of them is that which maketh its fellow come to life. When the body <pb
-                  type="external" n="24"/>with all its lusts liveth in us the soul with all its
+               death of one of them is that which maketh its fellow come to life. When the body <pb type="external" n="24"/>with all its lusts liveth in us the soul with all its
                lusts is dead, but when the soul is associated with the life which is in the spirit,
                all its members—which are its thoughts—live with it. Then riseth man from the dead,
                and liveth in the new life of the new world. Until we have cast off from us the old
                man we cannot put on the new man of the spirit; and even though, by grace, we may put
                him on yet we do not perceive him.</ab>
-            <ab xml:id="section-1.15" n="15">Now all these sicknesses which we have enumerated can be healed by these medicines,
+                <ab xml:id="section-1.15" n="15">Now all these sicknesses which we have enumerated can be healed by these medicines,
                and it belongeth therefore to the man that is sick to know his sickness, and to be a
                physician unto himself, and for each of these sicknesses which we have enumerated let
                him apply the medicine which is its antidote. For behold, by the side of the sickness
@@ -495,8 +490,7 @@
                written are thought by thee to be more difficult than thy strength [is able to bear],
                cry unto God for help, and from Him thou shalt obtain grace which will assist thee in
                the war in which thou standest.</ab>
-            <ab xml:id="section-1.16" n="16">We will then draw nigh, by the help of God, and in few <pb type="external" n="25"
-               />words we will write concerning each of these passions so far as power [lieth] in
+                <ab xml:id="section-1.16" n="16">We will then draw nigh, by the help of God, and in few <pb type="external" n="25"/>words we will write concerning each of these passions so far as power [lieth] in
                us—that is according as grace shall sustain [us]—for our own benefit and for the
                profit of others. And we will set these matters in order, one after the other, and we
                will show where it is meet that the disciple should begin, and how he should advance
@@ -506,30 +500,101 @@
                upon it he will be free from passions, and will be delivered from lusts, and he will
                have subdued all his enemies under his feet, and that man will speak with boldness
                the word of the <persName>Apostle</persName>, saying, <quote>Yet I live; [and yet] no longer I, but <persName>Christ</persName>
-               liveth in me</quote>:<ptr type="noteAnchor" target="#n22-1"/> to Whom be glory for ever. Amen.</ab>
-            <ab xml:id="section-1.17" n="17">Here endeth the First Discourse which is the Prologue of the volume.</ab>
-         </div>
-         <noteGrp>
-            <note xml:id="n1-1" target="#a1-1" n="1-1"><choice><reg/><orig>p. 1, n. 1</orig></choice>Compare 2 Corinthians iii. 18; Philippians iii. 21.</note>
-            <note xml:id="n1-2" target="#a1-2" n="1-2"><choice><reg/><orig>p. 1, n. 2</orig></choice><foreign xml:lang="syr" dir="rtl">ܢܘܨ ܒܬܐ</foreign></note>
-            <note xml:id="n2-1" target="#a2-1" n="2-1"><choice><reg/><orig>p. 2, n. 1</orig></choice>St. Matthew vii. 24-27.</note>
-            <note xml:id="n2-2" target="#a2-2" n="2-2"><choice><reg/><orig>p. 2, n. 2</orig></choice>"But be ye doers of the word, and not hearers only, deluding your
+               liveth in me</quote>:<ptr type="noteAnchor" target="#n22-1" n="17"/> to Whom be glory for ever. Amen.</ab>
+                <ab xml:id="section-1.17" n="17">Here endeth the First Discourse which is the Prologue of the volume.</ab>
+            </div>
+            <noteGrp>
+                <note xml:id="n1-1" target="#a1-1" n="1">
+                    <choice>
+                        <reg/>
+                        <orig>p. 1, n. 1</orig>
+                    </choice>Compare 2 Corinthians iii. 18; Philippians iii. 21.</note>
+                <note xml:id="n1-2" target="#a1-2" n="2">
+                    <choice>
+                        <reg/>
+                        <orig>p. 1, n. 2</orig>
+                    </choice>
+                    <foreign xml:lang="syr" dir="rtl">ܢܘܨ ܒܬܐ</foreign>
+                </note>
+                <note xml:id="n2-1" target="#a2-1" n="3">
+                    <choice>
+                        <reg/>
+                        <orig>p. 2, n. 1</orig>
+                    </choice>St. Matthew vii. 24-27.</note>
+                <note xml:id="n2-2" target="#a2-2" n="4">
+                    <choice>
+                        <reg/>
+                        <orig>p. 2, n. 2</orig>
+                    </choice>"But be ye doers of the word, and not hearers only, deluding your
                own selves". St. James i. 22.</note>
-            <note xml:id="n2-3" target="#a2-3" n="2-3"><choice><reg/><orig>p. 2, n. 3</orig></choice>Romans ii. 13-15.</note>
-            <note xml:id="n3-1" target="#a3-1" n="3-1"><choice><reg/><orig>p. 3, n. 1</orig></choice>Psalm l. 16, 17.</note>
-            <note xml:id="n4-1" target="#a4-1" n="4-1"><choice><reg/><orig>p. 4, n. 1</orig></choice>Isaiah lviii. 1.</note>
-            <note xml:id="n4-2" target="#a4-2" n="4-2"><choice><reg/><orig>p. 4, n. 2</orig></choice>Isaiah xl. 6.</note>
-            <note xml:id="n5-1" target="#a5-1" n="5-1"><choice><reg/><orig>p. 5, n. 1</orig></choice>St. Luke xiv. 29.</note>
-            <note xml:id="n5-2" target="#a5-2" n="5-2"><choice><reg/><orig>p. 5, n. 2</orig></choice>1 Corinthians iii. 11.</note>
-            <note xml:id="n6-1" target="#a6-1" n="6-1"><choice><reg/><orig>p. 6, n. 1</orig></choice>1 Corinthians iii. 13.</note>
-            <note xml:id="n6-2" target="#a6-2" n="6-2"><choice><reg/><orig>p. 6, n. 2</orig></choice>St. Matthew iii. 12; St. Luke iii. 17.</note>
-            <note xml:id="n7-1" target="#a7-1" n="7-1"><choice><reg/><orig>p. 7, n. 1</orig></choice>Literally "vessels."</note>
-            <note xml:id="n8-1" target="#a8-1" n="8-1"><choice><reg/><orig>p. 8, n. 1</orig></choice> Syr. <foreign xml:lang="syr" dir="rtl">ܒܘܟ̈ܫܐ</foreign>. There is no example of the use of this word in Payne
+                <note xml:id="n2-3" target="#a2-3" n="5">
+                    <choice>
+                        <reg/>
+                        <orig>p. 2, n. 3</orig>
+                    </choice>Romans ii. 13-15.</note>
+                <note xml:id="n3-1" target="#a3-1" n="6">
+                    <choice>
+                        <reg/>
+                        <orig>p. 3, n. 1</orig>
+                    </choice>Psalm l. 16, 17.</note>
+                <note xml:id="n4-1" target="#a4-1" n="7">
+                    <choice>
+                        <reg/>
+                        <orig>p. 4, n. 1</orig>
+                    </choice>Isaiah lviii. 1.</note>
+                <note xml:id="n4-2" target="#a4-2" n="8">
+                    <choice>
+                        <reg/>
+                        <orig>p. 4, n. 2</orig>
+                    </choice>Isaiah xl. 6.</note>
+                <note xml:id="n5-1" target="#a5-1" n="9">
+                    <choice>
+                        <reg/>
+                        <orig>p. 5, n. 1</orig>
+                    </choice>St. Luke xiv. 29.</note>
+                <note xml:id="n5-2" target="#a5-2" n="10">
+                    <choice>
+                        <reg/>
+                        <orig>p. 5, n. 2</orig>
+                    </choice>1 Corinthians iii. 11.</note>
+                <note xml:id="n6-1" target="#a6-1" n="11">
+                    <choice>
+                        <reg/>
+                        <orig>p. 6, n. 1</orig>
+                    </choice>1 Corinthians iii. 13.</note>
+                <note xml:id="n6-2" target="#a6-2" n="12">
+                    <choice>
+                        <reg/>
+                        <orig>p. 6, n. 2</orig>
+                    </choice>St. Matthew iii. 12; St. Luke iii. 17.</note>
+                <note xml:id="n7-1" target="#a7-1" n="13">
+                    <choice>
+                        <reg/>
+                        <orig>p. 7, n. 1</orig>
+                    </choice>Literally "vessels."</note>
+                <note xml:id="n8-1" target="#a8-1" n="14">
+                    <choice>
+                        <reg/>
+                        <orig>p. 8, n. 1</orig>
+                    </choice> Syr. <foreign xml:lang="syr" dir="rtl">ܒܘܟ̈ܫܐ</foreign>. There is no example of the use of this word in Payne
                Smith's Thesaurus.</note>
-            <note xml:id="n12-1" target="#a12-1" n="12-1"><choice><reg/><orig>p. 12, n. 1</orig></choice><foreign xml:lang="syr" dir="rtl">ܫܘܪܥܬܐ</foreign> = <foreign xml:lang="grc">τὸ παράπτωμα</foreign>, Romans v. 15.</note>
-            <note xml:id="n16-1" target="#a16-1" n="16-1"><choice><reg/><orig>p. 16, n. 1</orig></choice>St. Matthew ix. 17.</note>
-            <note xml:id="n22-1" target="#a22-1" n="22-1"><choice><reg/><orig>p. 22, n. 1</orig></choice>Galatians ii. 20.</note>
-         </noteGrp>
-      </body>
-   </text>
+                <note xml:id="n12-1" target="#a12-1" n="15">
+                    <choice>
+                        <reg/>
+                        <orig>p. 12, n. 1</orig>
+                    </choice>
+                    <foreign xml:lang="syr" dir="rtl">ܫܘܪܥܬܐ</foreign> = <foreign xml:lang="grc">τὸ παράπτωμα</foreign>, Romans v. 15.</note>
+                <note xml:id="n16-1" target="#a16-1" n="16">
+                    <choice>
+                        <reg/>
+                        <orig>p. 16, n. 1</orig>
+                    </choice>St. Matthew ix. 17.</note>
+                <note xml:id="n22-1" target="#a22-1" n="17">
+                    <choice>
+                        <reg/>
+                        <orig>p. 22, n. 1</orig>
+                    </choice>Galatians ii. 20.</note>
+            </noteGrp>
+        </body>
+    </text>
 </TEI>

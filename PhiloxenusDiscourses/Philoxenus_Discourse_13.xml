@@ -3,72 +3,72 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8868">Discourse 13: 2nd Discourse on Fornication</title>
-            <title xml:lang="en" level="s">The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
-            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
-            <respStmt>
-               <resp>Data architecture and encoding by</resp>
-               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-                  >Daniel L. Schwartz</name>
-            </respStmt>
-            <respStmt>
-               <resp>OCR cleaning and initial markup of persons and places by</resp>
-               <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8868">Discourse 13: 2nd Discourse on Fornication</title>
+                <title xml:lang="en" level="s">The Discourses of Philoxenus of Mabbug</title>
+                <!-- series URI needed -->
+                <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <respStmt>
+                    <resp>Data architecture and encoding by</resp>
+                    <name type="person"
+                          ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>OCR cleaning and initial markup of persons and places by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
                   Chrisanthus</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <seriesStmt>
-            <title><!--The Syriac Library--></title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <seriesStmt>
-            <title>The Discourses of Philoxenus of Mabbug</title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <notesStmt>
-            <relatedItem type="previous">
-               <ptr target="https://syriac-library/8867"/>
-            </relatedItem>
-         </notesStmt>
-         <sourceDesc>
-            <p>
-               <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <seriesStmt>
+                <title>The Discourses of Philoxenus of Mabbug</title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+                <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <notesStmt>
+                <relatedItem type="previous">
+                    <ptr target="https://syriac-library/8867"/>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
                translated by E. A. Wallis Budge, Vol. 2, London: Asher &amp; Co., 1894, pp. 524-97. </p>
-            <p>Published in 1894, this translation is in the public domain.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="section" xml:id="section-13" n="13">
-            <head type="main">The Thirteenth Discourse: which is on fornication, and the evil
+                <p>Published in 1894, this translation is in the public domain.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" xml:id="section-13" n="13">
+                <head type="main">The Thirteenth Discourse: which is on fornication, and the evil
                passion of the lust of the body—which maketh known how great is the struggle which is
                necessary for us who fight in this war, and how its external passions must be
                scattered before the internal motions, that we may thus be released from the external
                passions, until they flee therefrom in every way, and from the passions thereof in
                their outward and inward manifestations.</head>
-            <ab xml:id="section-13.1" n="1">When I consider the abominable passions which keep the soul from the divine
+                <ab xml:id="section-13.1" n="1">When I consider the abominable passions which keep the soul from the divine
                knowledge, and from the purity of prayer, I find that the passion of fornication
                preventeth the things which are good more than most, and that it is the passion which
                especially ruleth persons who are wanting in patient endurance, and setteth them on
                fire; for when an opportunity ariseth to this passion from the heat of the body, and
                it findeth minds which are empty of the thought of God and of the quest of excellent
                knowledge, like the flame in stubble doth the fire of this passion lay hold upon and
-               obtain dominion in all the members. And this destroying <pb type="external" n="552"
-               />passion is hotter and more active than all others, and the greatest bravery is
+               obtain dominion in all the members. And this destroying <pb type="external" n="552"/>passion is hotter and more active than all others, and the greatest bravery is
                necessary unto the soul when lust setteth battle in array against it, that it may
                fight therewith and overcome it. And it must in <pb n="525"/>this bc also invoke the
                aid of Divine Grace, and it must be a care unto the man who will do battle with it,
@@ -81,7 +81,7 @@
                discernment and doth not allow it to see even that it is passion, but like other
                things, the doing of which is not blameworthy, this lust also is accounted blameless
                by the mind.</ab>
-            <ab xml:id="section-13.2" n="2">Now sin taketh great car d bedb had e to root up from the soul the thought which
+                <ab xml:id="section-13.2" n="2">Now sin taketh great car d bedb had e to root up from the soul the thought which
                seeth that it is sin, in order that without fear and terror it may minister unto the
                thoughts which are within by the matters which are without, for so long as sin
                appeareth unto us in others, and is not ministered unto in our own person, by the
@@ -100,7 +100,7 @@
                fruit thereof appeareth externally, for if the heart is choked by lust, when shall it
                wake itself up? And as a tree, which hath been cut down, but the root of which
                remaineth in the ground, becometh green again and putteth forth shoots when the
-               moisture of water cometh thereto,<ptr type="noteAnchor" target="#n526-1"/> even so also doth lust which hath been cut
+               moisture of water cometh thereto,<ptr type="noteAnchor" target="#n526-1" n="1"/> even so also doth lust which hath been cut
                down, but the root of which remaineth in the mind, become green and grow in the
                thoughts and members through the moisture of meats and drink. Hence, therefore, war
                against this hidden lust is much more useful unto us than that which is waged
@@ -110,16 +110,14 @@
                taken may not consent [to the gratification thereof]; and because through all these
                things the working of lust is restrained, it seemeth as if the war against things
                external were not even difficult, for we do not fight against it by ourselves, but
-               all these things are helpers unto us. And moreover, when we ourselves <pb
-                  type="external" n="554"/>desire, and make plans with many things to fulfil the
+               all these things are helpers unto us. And moreover, when we ourselves <pb type="external" n="554"/>desire, and make plans with many things to fulfil the
                work of sin, these and such like things prevent [our doing so], and though because of
-               our will lust is ministered unto within us, yet externally it is restrained <pb
-                  n="527"/>by reason of the causes which impede it; and although because of our
+               our will lust is ministered unto within us, yet externally it is restrained <pb n="527"/>by reason of the causes which impede it; and although because of our
                exterior we are thought to be chaste by the children of men, yet because of our
                desire we are accounted whoremongers by God, Who looketh upon our inner man, for
                although we sin not before each other, yet before the knowledge of God our sin is
                manifest.</ab>
-            <ab xml:id="section-13.3" n="3">Let us then take good heed unto two things: we must not only be chaste in the sight
+                <ab xml:id="section-13.3" n="3">Let us then take good heed unto two things: we must not only be chaste in the sight
                of the children of men, but we must not only have shame before God; and it must also
                be a care unto us to please God first of all, for from that is produced the freedom
                of speech (or boldness) which is before the children of men. For because a man
@@ -139,12 +137,14 @@
                for everything which beginneth from the heart—whether in things <pb n="528"/>which
                are good, or whether in things which are bad—is accounted sin or righteousness by the
                testing of Divine knowledge.</ab>
-            <ab xml:id="section-13.4" n="4">Therefore, <persName>our Lord</persName> also wishing to pluck lust up by its root, and not to cut it
+                <ab xml:id="section-13.4" n="4">Therefore, <persName>our Lord</persName> also wishing to pluck lust up by its root, and not to cut it
                off only from external acts, said, <quote>Whosoever looketh upon a woman to lust after her
-               hath already committed adultery with her in his heart,</quote><ptr type="noteAnchor" target="#n528-1"/> and He placed these
+               hath already committed adultery with her in his heart,</quote>
+                    <ptr type="noteAnchor" target="#n528-1" n="2"/> and He placed these
                words here comparing adultery with adultery, and the test of the law concerning the
                works of sin with the minuteness of His own knowledge. <quote>Ye have heard that it hath
-               been said by the ancients, Thou shalt not commit adultery.</quote><ptr type="noteAnchor" target="#n528-2"/> Now the law
+               been said by the ancients, Thou shalt not commit adultery.</quote>
+                    <ptr type="noteAnchor" target="#n528-2" n="3"/> Now the law
                repulsed the ancients from the deed of lust, and that their fornication might not
                appear in the[ir] external members He gave them the command, for because they had not
                the strength within them to root up the thoughts of fornication from the heart, the
@@ -178,14 +178,13 @@
                His gaze. Now there are many <pb type="external" n="557"/>who, although they commit
                not adultery in very deed are, nevertheless, adulterers in wish, and who minister
                unto fornication continually in their souls, for they continually conceive and bring
-               forth forms of all kinds, and with the beauties of persons without <pb n="530"
-               />connection of the body do they commit fornication continually; and it never
+               forth forms of all kinds, and with the beauties of persons without <pb n="530"/>connection of the body do they commit fornication continually; and it never
                entereth into their minds that although men see not, yet God looketh upon the secret
                things of their thoughts. Sometimes the thought itself is sin, and sometimes the
                performance of the act thereof, for the thought which desireth wickedness wholly is
                sin, inasmuch as it is of the will, even though it performeth nothing in very
                deed.</ab>
-            <ab xml:id="section-13.5" n="5">Now <persName>our Lord</persName> laid down to us as to mighty men the commandment, <quote>Whosoever looketh
+                <ab xml:id="section-13.5" n="5">Now <persName>our Lord</persName> laid down to us as to mighty men the commandment, <quote>Whosoever looketh
                upon a woman to lust after her hath committed adultery with her in his heart,</quote> that
                He might pluck up sin by the root thereof, and that He might cut off and take up from
                the depth of the heart the lust which destroyeth; for He did not say unto thee, <quote>Thou
@@ -222,7 +221,7 @@
                of his repentance concerning it, but because another passion hath become strong in
                him, and hath led away <pb type="external" n="559"/>the new purpose, whatever it may
                be.</ab>
-            <ab xml:id="section-13.6" n="6">Now the victory over lust cannot be acknowledged when the mind, through converse with
+                <ab xml:id="section-13.6" n="6">Now the victory over lust cannot be acknowledged when the mind, through converse with
                another purpose, <pb n="532"/>ceaseth from the meditation of lust, but [only] when it
                overcometh it by itself, having first of all made ready in us the preparation for its
                victory; for many are the thoughts which are made quiet because other thoughts come
@@ -252,7 +251,8 @@
                being set free from sin, for after he hath felt that he is fettered he deviseth means
                to set himself free, but if he doth not even know that he is bound and fettered, how
                can he devise means and seek freedom for himself?</ab>
-            <ab xml:id="section-13.7" n="7"><quote>Thou shalt not look upon a woman to lust after her,</quote> and if thou dost, thou hast
+                <ab xml:id="section-13.7" n="7">
+                    <quote>Thou shalt not look upon a woman to lust after her,</quote> and if thou dost, thou hast
                committed adultery with her, but look upon her with a pure eye, as upon a beautiful
                work of God, and glorify the wise Creator because He hath framed, and His will hath
                ordered such fairness from such a despicable nature, and the beauty which leadeth
@@ -261,7 +261,7 @@
                hath thus become wholly beautiful and glorious, thou must wonder and admire Him Who
                is glorious in His nature, and the beauty of Whose appearance is all-satisfying unto
                those who are worthy to look upon Him.</ab>
-            <ab xml:id="section-13.8" n="8">Let it be, then, a care to thee, to purify thy soul, and to make thy body also be
+                <ab xml:id="section-13.8" n="8">Let it be, then, a care to thee, to purify thy soul, and to make thy body also be
                pure therewith, and be <pb type="external" n="561"/>thou holy in the body and spirit,
                because thou art the dwelling-place of the Spirit of God, for when thy thought is
                pure from the passion of fornication thy prayer also will be pure and light, and
@@ -283,7 +283,8 @@
                know not; the way of an eagle in heaven; <pb type="external" n="562"/>the way of a
                serpent upon a rock; the way of a ship in the heart of the sea; and the way of a man
                in his young manhood. So is the way of an adulterous woman; she eateth and wipeth her
-               mouth, and saith, I have done nothing.</quote><ptr type="noteAnchor" target="#n534-1"/> For he likeneth the lust of
+               mouth, and saith, I have done nothing.</quote>
+                    <ptr type="noteAnchor" target="#n534-1" n="4"/> For he likeneth the lust of
                fornication unto an adulterous woman whose ways and paths are not known, because she
                boldly casteth her gaze upon every one, and ministereth unto every one, and she
                committeth fornication with every one outside <pb n="535"/>the order of nature; even
@@ -300,15 +301,14 @@
                mightily and without hindrance, and the serpent glideth upon the rock, and the ship
                saileth swiftly through the sea, even so also in the time of young manhood are the
                thoughts of fornication easily performed in the soul.</ab>
-            <ab xml:id="section-13.9" n="9">Now if a man were to call young manhood <pb type="external" n="563"/>the path of
+                <ab xml:id="section-13.9" n="9">Now if a man were to call young manhood <pb type="external" n="563"/>the path of
                fornication he would not make a mistake, that is to say, he would call it exactly
                what <persName>Solomon</persName> called it, for <quote>The rock is an easy path for the serpent, because it
                is not tripped up thereupon, neither doth the heaviness of the dust there impede its
                course, and the air is the path of the eagle, and the sea of a ship; even so also is
                young manhood the path of fornication, because whithersoever he wisheth he flieth, as
                with wings,</quote> and with swift feet lust runneth everywhere. For in the time of young
-               manhood the heat of the body is abundant, and it becometh superabundant <pb n="536"
-               />material for the fulfilment of lust, and fire obtaining the cause thereof from
+               manhood the heat of the body is abundant, and it becometh superabundant <pb n="536"/>material for the fulfilment of lust, and fire obtaining the cause thereof from
                fire, that is to say, lust [taking fire] from that of nature, produceth the mighty
                blaze of sin. Hence it is right that constant war should be maintained at this period
                of life, together with buffetings, and labours, and tribulations, and meagre food,
@@ -318,7 +318,7 @@
                these, and because of this, moreover, every man who seeketh to overcome this lust
                must devise means to remove from before it the fuel and the material which kindle the
                flame, and behold it will not burn.</ab>
-            <ab xml:id="section-13.10" n="10">Now besides these causes lust entereth in either by the sight of women, or by the
+                <ab xml:id="section-13.10" n="10">Now besides these causes lust entereth in either by the sight of women, or by the
                conversation of continual stories about it, or by the meat and drink which are given
                   <pb type="external" n="564"/>to the body beyond its need, and if thou wilt remove
                from the midst these three, and dost meditate upon divine knowledge, the thought of
@@ -330,8 +330,8 @@
                found that the body is dead unto the world, and that the soul liveth in divine
                meditation, it turneth itself backwards straightway, and a place wherein to abide it
                findeth not. </ab>
-            <pb n="537"/>
-            <ab xml:id="section-13.11" n="11">If the pain of lust causeth thee to suffer pain, learn the cause thereof, and cut it
+                <pb n="537"/>
+                <ab xml:id="section-13.11" n="11">If the pain of lust causeth thee to suffer pain, learn the cause thereof, and cut it
                off; why shouldst thou be afflicted through thy ignorance with a sickness the cure of
                which is easy? for I am not acquainted with any other passion the cure of which is so
                easy. Food doth not make thee to sin when it is taken to sustain thy life, but it is
@@ -353,12 +353,13 @@
                not the power to give the life which is not our own unto others, for we are not our
                own, and <persName>the Apostle</persName> said unto us, <quote>Ye are not your own, for ye are bought with a
                price; glorify then God <pb n="538"/>in your body and in your spirit, which belong to
-               God.</quote><ptr type="noteAnchor" target="#n538-1"/> Thou seest then, [O disciple,] that also the body and the spirit
+               God.</quote>
+                    <ptr type="noteAnchor" target="#n538-1" n="5"/> Thou seest then, [O disciple,] that also the body and the spirit
                belong to God, and that we have no power over either of them, and whosoever hath no
                power over his life, how can he give it to others by the intercourse of lust? that is
                to say, how can he shew it in another person by begetting after the manner of human
                beings?</ab>
-            <ab xml:id="section-13.12" n="12">Now spiritual begetting was revealed in the world that it might annul the begetting
+                <ab xml:id="section-13.12" n="12">Now spiritual begetting was revealed in the world that it might annul the begetting
                of the body, and the other womb which is in baptism was constituted that it might
                make the natural womb to cease from bringing forth progeny, and if the whole of human
                nature had been able to keep this commandment, <pb type="external" n="566"/>the Will
@@ -372,8 +373,7 @@
                acceptable unto God is that all carnal beings shall become spiritual, because it was
                for this purpose that He came into the world, namely to create as another creation
                the children of men. And thou must not consider that He did not cut off marriage, nor
-               destroy the flow of lust, and think that, perhaps, He is gratified thereat, for <pb
-                  n="539"/>behold neither did He make all this world to pass away, nor take away the
+               destroy the flow of lust, and think that, perhaps, He is gratified thereat, for <pb n="539"/>behold neither did He make all this world to pass away, nor take away the
                pleasure, and riches, and power thereof, but He left it as it was in its original
                construction, and commanded thee to become an alien thereunto, and to cast it away
                like a worn out garment. That things have remained as they are—the world, or its
@@ -388,14 +388,13 @@
                spiritual life, and lust also remaineth in thy body that it may be the material for
                thy good will, and that it may take it little by little from the body, and place it
                upon the soul.</ab>
-            <ab xml:id="section-13.13" n="13">Do not, then, give unto thy lust a portion with the body, and thou shalt not allow
+                <ab xml:id="section-13.13" n="13">Do not, then, give unto thy lust a portion with the body, and thou shalt not allow
                thy natural gratification to be broken up, and the joy and gladness which are in thee
                to be brought to nought, but carry them, as it were, from house to house, from the
                body to the soul; for as a man bringeth his things of great price out from the house
                which he knoweth will fall, and carrieth them into another which is new and firmly
                built, and which he is confident will neither fall nor be broken into, even so also
-               do thou take all those passions which thy body hath, and which in name are <pb
-                  n="540"/>the material for that which is good, and lay them up in the dwelling of
+               do thou take all those passions which thy body hath, and which in name are <pb n="540"/>the material for that which is good, and lay them up in the dwelling of
                thy soul, in the house which neither falleth, nor is broken up, nor destroyed. Take
                the heat from the body, and lay it upon the soul; take lust therefrom, and mingle it
                with that of the soul; take the strength thereof, and mix it with the might of the
@@ -407,7 +406,7 @@
                time of strength, and it is well that together with the passions strength also should
                be revealed, that it may fight and deliver <pb type="external" n="568"/>thy good
                things from the body, and bear and carry thy riches from place to place.</ab>
-            <ab xml:id="section-13.14" n="14">Whosoever fighteth and overcometh his lusts in the time of his early manhood is able
+                <ab xml:id="section-13.14" n="14">Whosoever fighteth and overcometh his lusts in the time of his early manhood is able
                to become mighty in his soul, and he alone is able to profit by all the growth of
                that which is good, for he hath it to give and to take; for old age is empty of both,
                and childhood hath not as yet arrived at either of them, and the lust which is dried
@@ -443,7 +442,7 @@
                straightway thy work would be brought to nought, and there would not be exit for thy
                corruptible gratifications.</quote> These, and such like things must be said by thee to lust
                when thou bringest it from the body to the place of the soul.</ab>
-            <ab xml:id="section-13.15" n="15">Now, therefore, thou must not remove from thyself the promises and good grounds for
+                <ab xml:id="section-13.15" n="15">Now, therefore, thou must not remove from thyself the promises and good grounds for
                hope that thou art about to receive that which is more excellent than that which the
                soul leaveth, for in the manner in which lust is set in the body naturally the lust
                of things which are better is set even in the soul; <pb type="external" n="570"/>and
@@ -456,7 +455,7 @@
                to fight against the evil things which are contrary to its gratification; and when
                the soul hath tasted this sweetness which cometh unto it by the connection with the
                spirit, it bringeth unto itself the lust of marriage wholly therein.</ab>
-            <ab xml:id="section-13.16" n="16">Know, then, as by experience, that for want of the feeling of the lust of the spirit,
+                <ab xml:id="section-13.16" n="16">Know, then, as by experience, that for want of the feeling of the lust of the spirit,
                the lust of the flesh becometh stirred up in thy members, for that both of them
                should move in thee at one time is impossible; for in proportion as the spirit
                becometh hot in thee <pb n="543"/>the body cooleth, and in proportion as the body
@@ -486,12 +485,13 @@
                the fervour of this lust warmeth it immediately, and by its heat it driveth away from
                it the coldness of the body, and herefrom <pb type="external" n="572"/>a man becometh
                watchful and ready for divine deeds.</ab>
-            <ab xml:id="section-13.17" n="17">Now spiritual beings do not fulfil the rule of their works by the warmth of the
+                <ab xml:id="section-13.17" n="17">Now spiritual beings do not fulfil the rule of their works by the warmth of the
                nature of the body, but because they are fervent in the spirit are they active and
                ready for such like works, even as <persName>Paul</persName> also commanded that we should stir up this
                fervour of love by which all spiritual things are perfected, and by the power of
                which we complete the course of this journey, saying, <quote>Be ye fervent in
-               spirit;</quote><ptr type="noteAnchor" target="#n544-1"/> for that the lust of the body possesseth fervour <persName>Paul</persName> hath made
+               spirit;</quote>
+                    <ptr type="noteAnchor" target="#n544-1" n="6"/> for that the lust of the body possesseth fervour <persName>Paul</persName> hath made
                clear in his words, and he hath taught us with what lust we should be fervent,
                saying, <quote>Be ye fervent with the lust of the spirit, that all your course and work may
                be spiritual.</quote> For as the heat of the blood driveth away from the body the
@@ -504,11 +504,10 @@
                zealous towards the building up of himself, and towards the <pb n="545"/>things of
                heaven, instead of the world, and zealous to gather together spiritual merchandise,
                and to speak judgment against those who plunder his inheritance, and to desire with
-               longing the intercourse which is incorruptible, and to become a father unto <pb
-                  type="external" n="573"/>immortal children, and to care for, and to possess, and
+               longing the intercourse which is incorruptible, and to become a father unto <pb type="external" n="573"/>immortal children, and to care for, and to possess, and
                to think of, and to gather together, and to carry, and to preserve all these
                spiritual and heavenly things.</ab>
-            <ab xml:id="section-13.18" n="18">Now, therefore, through the fervour of the spirit a man becometh ready for all these
+                <ab xml:id="section-13.18" n="18">Now, therefore, through the fervour of the spirit a man becometh ready for all these
                things, and well hath <persName>Paul</persName> taught us to be <quote>fervent in the spirit,</quote> for as cold is
                dissipated and brought to nought before warmth, even so also before the fervour of
                this heat of the spirit doth sluggishness flee, and negligence is driven off, and
@@ -521,10 +520,9 @@
                light thereof are in proportion to the blaze, even so also according to the measure
                of the heat which is found in the soul hath it fervour towards spiritual things, and
                knowledge, and wisdom, and power over Divine treasures.</ab>
-            <ab xml:id="section-13.19" n="19">Now therefore in the time when there is still heat in thy body, and the lust of
+                <ab xml:id="section-13.19" n="19">Now therefore in the time when there is still heat in thy body, and the lust of
                nature liveth in thy members, be zealous to kindle in thee the heat of the spirit,
-               and stir up in thy thoughts divine lust, that through one lust being <pb n="546"
-               />jealous of the other, and the one fire emulating the other, the lust of the spirit
+               and stir up in thy thoughts divine lust, that through one lust being <pb n="546"/>jealous of the other, and the one fire emulating the other, the lust of the spirit
                may be strengthened and carry off the victory, which victory is seemly thereto
                naturally. For in the time <pb type="external" n="574"/>when thou hast in thee power
                to minister unto the lust of the body, be zealous and make thy power to become the
@@ -548,7 +546,7 @@
                lust, together with the heat of the <pb n="547"/>body, hath been cut off, the lust of
                the spirit abideth with thee, which at all seasons hath intercourse and beareth the
                fruit of spiritual offspring.</ab>
-            <ab xml:id="section-13.20" n="20">For seed time is one thing and harvest is another: sow then thy soul with the things
+                <ab xml:id="section-13.20" n="20">For seed time is one thing and harvest is another: sow then thy soul with the things
                which are good in the time of thy early manhood, that thou mayest reap therefrom in
                the time of thine old age. <pb type="external" n="575"/>If, therefore, thou desirest
                union, devise means and implant in thee this lust that in old age it may conceive and
@@ -571,7 +569,7 @@
                them, even so also wilt thou drive away the childishness and annoyance of lust, if
                   <pb type="external" n="576"/>thou shewest it a face full of wrath and
                threatening.</ab>
-            <ab xml:id="section-13.21" n="21">Pluck, then, from the noontide of thy early manhood the blossoms of things of
+                <ab xml:id="section-13.21" n="21">Pluck, then, from the noontide of thy early manhood the blossoms of things of
                excellence, and glean, and bring in, and carry for thyself fruits [of] all kinds that
                they may be laid up for the winter of thine old age; for the man who hath lived
                wholly in the body in the time of his old age will come to an end completely, but
@@ -590,7 +588,7 @@
                feebleness, draweth not nigh unto thee without thy will, but when thou hast taken
                this thought to be a guide unto thee, then it entereth in and kindleth its fire in
                thy members.</ab>
-            <ab xml:id="section-13.22" n="22">Do thou, then, when thou feelest the destructive <pb n="549"/>fire gaining power
+                <ab xml:id="section-13.22" n="22">Do thou, then, when thou feelest the destructive <pb n="549"/>fire gaining power
                within thy body, kindle the living fire which is in thy soul, and when thou hast
                perceived that thy members have tabernacled in the ministration of lust, occupy thy
                thoughts in the service of the knowledge of Divine Mysteries; let not lust come and
@@ -612,7 +610,7 @@
                be named or called a body of earth, but it was created by the Creator to become a
                soul, that is to say, a minister unto the desires thereof in everything, and a
                participator in all things that are good.</ab>
-            <ab xml:id="section-13.23" n="23">Therefore we are bound not to consider that the deeds <pb n="550"/>of the body arise
+                <ab xml:id="section-13.23" n="23">Therefore we are bound not to consider that the deeds <pb n="550"/>of the body arise
                from whence the body came, but that for which it was made must we consider to be the
                aim of its works, for it was made for the spirit, and not for the earth, and it was
                made to become a spiritual and not a corruptible being. It was called <quote>body,</quote> that it
@@ -633,9 +631,8 @@
                despise the soul because it was not a ministrant unto the things which are good
                through actions which are manifest, because it is the fountain of the thoughts of the
                things which are good.</ab>
-            <ab xml:id="section-13.24" n="24">Now the lust of the spirit is hot even as the lust of the body is hot, but they are
-               not of the one measure, for according to the subtlety of the soul also is the <pb
-                  n="551"/>heat of its lust, and according to the grossness of the body even so is
+                <ab xml:id="section-13.24" n="24">Now the lust of the spirit is hot even as the lust of the body is hot, but they are
+               not of the one measure, for according to the subtlety of the soul also is the <pb n="551"/>heat of its lust, and according to the grossness of the body even so is
                cold the fire of the lust thereof, and if it be imagined that it is hot in the things
                which are carnal and lax, it is not because its nature is powerful and hot, but
                because their will is cold and lax. And thou must understand how much colder is the
@@ -673,7 +670,7 @@
                moreover, becometh mightier, because that resistance which hath been removed from his
                sandals hath been added unto him, and that power which hath been taken from them
                turneth unto him.</ab>
-            <ab xml:id="section-13.25" n="25">But when the lust of the soul fighteth with the lust of the flesh, it not only
+                <ab xml:id="section-13.25" n="25">But when the lust of the soul fighteth with the lust of the flesh, it not only
                cooleth the heat thereof, but it turneth it unto itself that it may be a ministrant
                unto its will, and be mingled in spiritual fervour, and not minister unto the lust of
                the body in the union with another. Moreover, for this reason the Creator made the
@@ -713,7 +710,8 @@
                with the object of gaining possession of the strength of its nature, for when with
                this reason the soul maketh the body weak, and reduceth the strength of its power by
                afflictions, that is perfected with them which <persName>Paul</persName> spake, saying, <quote>As the outer
-               man is destroyed the inner man is renewed day by day.</quote><ptr type="noteAnchor" target="#n554-1"/> And for this reason
+               man is destroyed the inner man is renewed day by day.</quote>
+                    <ptr type="noteAnchor" target="#n554-1" n="7"/> And for this reason
                also <persName>Solomon</persName> counselled us to begin to do the labours for the things which are good
                from our youth up, and to be trained in this doctrine from the beginning of our life,
                that we may overcome that which is in us, but which agreeth not with us, and that we
@@ -722,7 +720,7 @@
                will be found in the time of his feebleness to be mighty, that is to say, if he
                taketh upon him in his early manhood the integrity of old <pb n="555"/>men, the
                strength of young men will be found in him in the time of his old age.</ab>
-            <ab xml:id="section-13.26" n="26">Take, then, O disciple, provisions for the time of thine old age from the field of
+                <ab xml:id="section-13.26" n="26">Take, then, O disciple, provisions for the time of thine old age from the field of
                thy early manhood, so that when thou ceasest from the labour of thy body thou shalt
                find rest of soul, for thou shalt not have war all the time of thy life, and thy
                Creator, having compassion upon thee, limited thy fight unto a determined period, but
@@ -742,7 +740,7 @@
                and the fructifying thereof is also laid under restriction, especially because the
                fruit itself is generated in and by the body, and therefore, like the body, it is
                itself restricted.</ab>
-            <ab xml:id="section-13.27" n="27">Now as the life of the body hath a limit, even so <pb n="556"/>is the strength
+                <ab xml:id="section-13.27" n="27">Now as the life of the body hath a limit, even so <pb n="556"/>is the strength
                thereof limited, although its power be not made known even during the whole span of
                its life, for as I have said, at the beginning and end of its life the body hath not
                the power of fructifying; but as concerning the soul, inasmuch as it hath no
@@ -769,7 +767,7 @@
                building of thyself, and the throwing down of thy old building are completed with thy
                strength, for thou throwest down fornication, which is the path of all wickedness,
                and thou buildest up chastity, which is the pure path that goeth up to heaven.</ab>
-            <ab xml:id="section-13.28" n="28">And what wickedness is there which is not in fornication? and what abominable thing
+                <ab xml:id="section-13.28" n="28">And what wickedness is there which is not in fornication? and what abominable thing
                is there which doth not enter by the door thereof? If it be lust of the belly,
                fornication strengtheneth it; and if it be the lust for gold, it ministereth
                thereunto; and anger and wrath cleave unto it, and with them it fighteth against its
@@ -786,9 +784,11 @@
                not only the fornication of the body, but more than that, the fornication of the
                soul, because with the worldly man adultery is the deed thereof, but with the
                coenobite it is the thoughts thereof; <pb n="558"/>and unto the worldly man it was
-               said, <quote>Thou shalt not commit adultery,</quote><ptr type="noteAnchor" target="#n558-1"/> but unto the coenobite, <quote>Thou shalt
-               not lust.</quote></ab>
-            <ab xml:id="section-13.29" n="29">Now the war of the thoughts is entirely unknown unto the worldly man, and because of
+               said, <quote>Thou shalt not commit adultery,</quote>
+                    <ptr type="noteAnchor" target="#n558-1" n="8"/> but unto the coenobite, <quote>Thou shalt
+               not lust.</quote>
+                </ab>
+                <ab xml:id="section-13.29" n="29">Now the war of the thoughts is entirely unknown unto the worldly man, and because of
                this he doth not overcome his lust with a mighty hand, but he ministereth thereunto
                according to the law, which is of nature; but the coenobite hath not this power, and
                his victory is not manifest in destroying the act of fornication, but in his victory
@@ -802,9 +802,8 @@
                in thy thoughts, for the material thereof is abundant with thee, especially when thou
                dwellest with the children of men, being increased at the remembrance of various
                persons, and through the beauty and appearance of the body.</ab>
-            <ab xml:id="section-13.30" n="30">Now because the lust of fornication is born of the flesh, it also lusteth after
-               flesh, and as the lust of the belly longeth earnestly for various tasty meats, <pb
-                  type="external" n="586"/>even so also doth the passion of fornication lust after
+                <ab xml:id="section-13.30" n="30">Now because the lust of fornication is born of the flesh, it also lusteth after
+               flesh, and as the lust of the belly longeth earnestly for various tasty meats, <pb type="external" n="586"/>even so also doth the passion of fornication lust after
                persons of beautiful appearance, and the love thereof doth not rest upon any one of
                them, because it is not the children of men which it loveth, but the beauty of
                passion; but when the excitement thereof is <pb n="559"/>great, it doth not take its
@@ -828,8 +827,7 @@
                   <pb type="external" n="587"/>of [certain] persons be depicted in our minds, for it
                showeth plainly that the passion is the remnant of wakefulness. And if the emission
                of the body take place without the appearance of certain persons it is because of the
-               superfluity which is found in the members, for except the body be subdued by <pb
-                  n="560"/>abstinence the material of lust will be found in its members, and if it
+               superfluity which is found in the members, for except the body be subdued by <pb n="560"/>abstinence the material of lust will be found in its members, and if it
                doth not feel at all that which taketh place it is [because] it is too deeply sunk in
                sleep. By all means possible, then, is the disciple bound to overcome passion, in
                deed, and in thought, and in the emission which taketh place in sleep, for that he is
@@ -850,8 +848,10 @@
                wandering of the thoughts, <pb type="external" n="588"/>but only in the mind which is
                collected, and which singeth psalms and prayeth, he must drive away this passion from
                the thoughts, and if it goeth forth from the soul it will not remain with the body. </ab>
-            <pb n="561"/>
-            <ab xml:id="section-13.31" n="31"><quote>Mortify therefore your members which are upon the earth,</quote><ptr type="noteAnchor" target="#n561-1"/> the blessed
+                <pb n="561"/>
+                <ab xml:id="section-13.31" n="31">
+                    <quote>Mortify therefore your members which are upon the earth,</quote>
+                    <ptr type="noteAnchor" target="#n561-1" n="9"/> the blessed
                <persName>Paul</persName> commandeth us, and if the members die according to the teaching of <persName>the
                Apostle</persName> there shall not be to thee in them a place for the motion of lust. For what
                can lust do in a dead body? That it is possible for the members to die the words of
@@ -865,14 +865,21 @@
                which are of earth are not received into them, for what have the passions to do with
                dead members? For the members of the new man <persName>Paul</persName> calleth <quote>the members which are in
                heaven,</quote> and concerning them he spake, <quote>they are from heaven,</quote> saying, <quote>As is the
-               <choice><sic>earthy</sic><corr>earthly</corr></choice>, such are they also that are <choice><sic>earthy</sic><corr>earthly</corr></choice>: and as is the
-               heavenly, such are they also that are heavenly.</quote><ptr type="noteAnchor" target="#n561-2"/> Therefore the members of
+               <choice>
+                            <sic>earthy</sic>
+                            <corr>earthly</corr>
+                        </choice>, such are they also that are <choice>
+                            <sic>earthy</sic>
+                            <corr>earthly</corr>
+                        </choice>: and as is the
+               heavenly, such are they also that are heavenly.</quote>
+                    <ptr type="noteAnchor" target="#n561-2" n="10"/> Therefore the members of
                the new man he calleth <quote>heavenly,</quote> and over these it is not right that passions
                should have dominion, for they <pb type="external" n="589"/>befit them not, and they
                belong not unto them; how then shall the passion of fornication have dominion over
                the members of the new man who hath become one body with <persName>Christ</persName>? </ab>
-            <pb n="562"/>
-            <ab xml:id="section-13.32" n="32">Now I do not say that it is right for us to overcome this passion of fornication by
+                <pb n="562"/>
+                <ab xml:id="section-13.32" n="32">Now I do not say that it is right for us to overcome this passion of fornication by
                reason of the greatness of the gift to us, and by reason of our exceedingly great
                honour only, but also because of the things which cling unto the passion, [I mean],
                shamefacedness, and grief, and repentance, and the want of freedom of speech, and
@@ -890,8 +897,7 @@
                lust, inasmuch as it hath taken place through the might of the soul, together with
                the help of Grace and the happiness also which ariseth from the healthy condition of
                its nature and from the gift of the Grace of God, and which cometh unto it after the
-               victory, is administered unto it conformably to rule. Now in that order, which is <pb
-                  type="external" n="590"/>twofold, are the enjoyment and pleasure of the body, for
+               victory, is administered unto it conformably to rule. Now in that order, which is <pb type="external" n="590"/>twofold, are the enjoyment and pleasure of the body, for
                sometimes it hath enjoyment from its natural health, and sometimes it receiveth
                enjoyment from foods and from things desired which are from without; and thus also it
                   <pb n="563"/>happeneth with the soul, for sometimes while standing in the purity
@@ -911,7 +917,7 @@
                describe this gratification with words, and because corporeal things give enjoyment
                unto the body, and it is pleased with a material and embodied voice, so long as he
                pleaseth a man may speak of the gratification which may be derived from them.</ab>
-            <ab xml:id="section-13.33" n="33">Now because the enjoyment of the soul is not derived from substances, nor from the
+                <ab xml:id="section-13.33" n="33">Now because the enjoyment of the soul is not derived from substances, nor from the
                action of corporeal things <pb type="external" n="591"/>and the corruptible things
                thereof, and because its enjoyment is derived from the spiritual contemplation of
                everything which it is able to feel when it hath acquired the health of its nature,
@@ -930,11 +936,10 @@
                world—praisings, and glorifyings, and sounds of singing, and the gratification of the
                bodily appearance of the things which are visible, in all of which, either through
                the body or through the world, hath the soul enjoyment— and these give it enjoyment
-               outside its nature, and it dependeth not upon its healthiness <pb type="external"
-                  n="592"/>but upon its unhealthiness, for there are lusts which minister unto the
+               outside its nature, and it dependeth not upon its healthiness <pb type="external" n="592"/>but upon its unhealthiness, for there are lusts which minister unto the
                health of the soul and body, and likewise there are lusts which minister unto their
                sickness.</ab>
-            <ab xml:id="section-13.34" n="34">Now therefore it is evident when the soul hath enjoyment in evil lusts that its
+                <ab xml:id="section-13.34" n="34">Now therefore it is evident when the soul hath enjoyment in evil lusts that its
                enjoyment is outside its nature, and that it doth not enjoy quietly that which is
                seemly thereto, but that which is alien unto its natural health. For behold, when the
                body committeth adultery and performeth this act of transgression of the law,
@@ -951,17 +956,15 @@
                perceive what I say, and though they feel their enjoyment they utter not words
                concerning it; for how can they describe that in which they have enjoyment in an
                incorporeal manner? But since all the things of the spirit are not of the body, we
-               must seek them in their proper place, and there will they be found, and where <pb
-                  type="external" n="593"/>they are found there must they be enjoyed, and where
+               must seek them in their proper place, and there will they be found, and where <pb type="external" n="593"/>they are found there must they be enjoyed, and where
                their enjoyment is, there also is the joy thereof, the joy which maketh glad and is
                invisible, and with which also there is power.</ab>
-            <ab xml:id="section-13.35" n="35">And as in the former case when lust overcometh the soul it sheweth itself a weak and
+                <ab xml:id="section-13.35" n="35">And as in the former case when lust overcometh the soul it sheweth itself a weak and
                miserable thing clothed with shame, even so also in this case when the soul
                overcometh lust, it is after the victory filled with strength, and joy, and freedom
                of speech, and it possesseth an enlightened eye that it may see with full power the
                knowledge of the spirit which is mingled in all things visible; but as the things
-               which fulfil the lusts of the body feel the gratification thereof, even so <pb
-                  n="566"/>also have the things which minister unto the spiritual lusts of the soul
+               which fulfil the lusts of the body feel the gratification thereof, even so <pb n="566"/>also have the things which minister unto the spiritual lusts of the soul
                enjoyment of spiritual gratification. And as the sickness of the soul feeleth the
                enjoyment which ariseth from the lusts of the body, even so also doth the health of
                the soul feel the gratification thereof, and if a man seeketh to feel by words which
@@ -982,13 +985,12 @@
                commands unto all the members, and it fulfilleth all its pleasures absolutely in the
                country of the body with which it dwelleth. But if the mind becometh a spectator of
                itself and perceiveth that an alien rule dwelleth within the domain of its body, and
-               that thievish and plundering passions dwell in its members, it straightway maketh <pb
-                  n="567"/>ready to expel them, and it beginneth to stir up a war to expel the
+               that thievish and plundering passions dwell in its members, it straightway maketh <pb n="567"/>ready to expel them, and it beginneth to stir up a war to expel the
                strangers which are found in its house; and because unto the lusts their habitation
                is pleasant, they also fight that they may not be expelled, whence is set in notion
                the war of the thoughts against the thoughts, and with which side the strength is the
                greatest victory is found.</ab>
-            <ab xml:id="section-13.36" n="36">Now therefore, the lust which is in the members would accomplish the act thereof, but
+                <ab xml:id="section-13.36" n="36">Now therefore, the lust which is in the members would accomplish the act thereof, but
                it cannot be fulfilled at all seasons, as it seeketh; but the lust which is hidden in
                the thoughts hath nothing to restrain it from being actually wrought except the
                appearance of God only, and therefore the prophet ascribeth <quote>Woe</quote> unto those who
@@ -996,7 +998,8 @@
                who imagine and say, <quote>The walls of my house surround <pb type="external" n="595"/>me,
                and the shadow of my house hideth me, and he knoweth not that the eyes of the Lord
                are ten thousand times brighter than the sun, and that He seeth all the reasonings of
-               the children of men.</quote><ptr type="noteAnchor" target="#n567-1"/> And although outwardly these words may be thought to
+               the children of men.</quote>
+                    <ptr type="noteAnchor" target="#n567-1" n="11"/> And although outwardly these words may be thought to
                have been spoken of the man who doeth iniquity upon his couch secretly within his
                house, and of those who fulfil their lusts in the dark in their habitations, being
                hidden from the sight of man, yet the words of the prophet rebuke especially that
@@ -1013,7 +1016,7 @@
                are concealed within the mind, and although the thought may not commit adultery
                actually, yet the Eye accounteth it an adulterer in will, and It judgeth it by its
                gratification, and not by its acts.</ab>
-            <ab xml:id="section-13.37" n="37">Now some gratify their lust in very deed, and some gratify it by a phantom; there is
+                <ab xml:id="section-13.37" n="37">Now some gratify their lust in very deed, and some gratify it by a phantom; there is
                the adultery which taketh place in the body, and that which is fulfilled in the soul.
                   <pb type="external" n="596"/>It is manifest then, that whosoever driveth adultery
                out from the heart will not leave it in the body, for the thoughts are the roots of
@@ -1034,14 +1037,15 @@
                without to minister unto it, wherefore we must the more take good heed, and must look
                with wise discernment, and from whatever side lust looketh upon us there must we shut
                the door before it.</ab>
-            <ab xml:id="section-13.38" n="38">For lust is mingled in the motion of our life, and so long as life hath motion in our
+                <ab xml:id="section-13.38" n="38">For lust is mingled in the motion of our life, and so long as life hath motion in our
                body, so long hath lust motion <pb type="external" n="597"/>and movement therein; but
                as death putteth a stop to the motion of natural life, even so also doth it silence
                the motions of lust by the slaughter of the old man. If then through the natural
                motions of the body lust attacketh us, we must know that the suppression and
                subjugation thereof are necessary for the body, and we must remember the helpful
                words of <persName>the Apostle</persName> which he spake unto us concerning his own person, saying, <quote>I
-               subdue my body, and I bring it into subjection.</quote><ptr type="noteAnchor" target="#n569-1"/> And looking at this example
+               subdue my body, and I bring it into subjection.</quote>
+                    <ptr type="noteAnchor" target="#n569-1" n="12"/> And looking at this example
                let us also bring our body into subjection, and let us subdue the beastly lust which
                hath its motion and leapeth up therein, and let us lay upon it the weight of
                protracted fasting, and of little meat, and of little drink, and if these, when
@@ -1059,7 +1063,8 @@
                gathered together much people for the war to go up against the camp of <placeName>Midian</placeName>—which
                symbolizeth the passion of fornication—God commanded him to blow a horn to warn the
                people, and to say before them, <quote>Whosoever is fearful and trembling, let him
-               return;</quote><ptr type="noteAnchor" target="#n570-1"/> and by reason of this cry a multitude of the people who were with
+               return;</quote>
+                    <ptr type="noteAnchor" target="#n570-1" n="13"/> and by reason of this cry a multitude of the people who were with
                him returned. And from this it appeareth that not every man who was called to the war
                was fit for the war, and because there were still among them those who lusted after
                victory with ardent mind, although they were afraid of the labour which it involved,
@@ -1070,12 +1075,15 @@
                mouths, he took with him to the <pb n="571"/>fight against that camp which
                symbolizeth fornication, and that this is so, according to what is said, the history
                which <persName>Moses</persName> wrote testifieth, saying, <quote>The people committed fornication with the
-               daughters of <placeName>Midian</placeName>, and they took part in the sacrifices of their gods.</quote><ptr type="noteAnchor" target="#n571-1"/>
+               daughters of <placeName>Midian</placeName>, and they took part in the sacrifices of their gods.</quote>
+                    <ptr type="noteAnchor" target="#n571-1" n="14"/>
                Now all the things which happened unto them are a type of our own spiritual life, and
                everything which is written concerning them indicateth that which belongeth to us,
-               even as <persName>Paul</persName> also saith, <pb type="external" n="599"/><quote>Let us not commit
+               even as <persName>Paul</persName> also saith, <pb type="external" n="599"/>
+                    <quote>Let us not commit
                fornication, as some of them committed, and there fell in one day four and twenty
-               thousand.</quote><ptr type="noteAnchor" target="#n571-2"/> For when the war of fornication came against this sluggish
+               thousand.</quote>
+                    <ptr type="noteAnchor" target="#n571-2" n="15"/> For when the war of fornication came against this sluggish
                generation which went forth from Egypt, it was not able to stand before it, but was
                conquered by the beauty of the daughters of <placeName>Midian</placeName>, and committed fornication with
                them, and in the track of this fornication a sudden pestilence had dominion over them
@@ -1092,30 +1100,38 @@
                pitchers, and they took the horns in their right hands and the pitchers in their
                left, and immediately they blew the horns, the pitchers were broken, and the light of
                the torches appeared.</ab>
-            <ab xml:id="section-13.39" n="39">Now the sound of the horn is the mark of the commandment of God, Who crieth out
+                <ab xml:id="section-13.39" n="39">Now the sound of the horn is the mark of the commandment of God, Who crieth out
                against this passion of fornication in all His Books, saying, <quote>Let us not commit
-               fornication, as some of them committed;</quote><ptr type="noteAnchor" target="#n572-1"/> and <quote>Let there be no <pb
-                  type="external" n="600"/>man found among you who is a fornicator or a slothful,
-               like <persName>Esau</persName>, who for one mess of meat sold his birthright;</quote><ptr type="noteAnchor" target="#n572-2"/> and, <quote>Be not
+               fornication, as some of them committed;</quote>
+                    <ptr type="noteAnchor" target="#n572-1" n="16"/> and <quote>Let there be no <pb type="external" n="600"/>man found among you who is a fornicator or a slothful,
+               like <persName>Esau</persName>, who for one mess of meat sold his birthright;</quote>
+                    <ptr type="noteAnchor" target="#n572-2" n="17"/> and, <quote>Be not
                deceived, neither fornicators, nor adulterers, nor idolaters, nor corrupt men, nor
                those who lie with men, nor thieves, nor gluttons, nor drunkards, nor plunderers,
-               shall inherit the kingdom of God;</quote><ptr type="noteAnchor" target="#n572-3"/> and, <quote>Every man who is a fornicator, or
+               shall inherit the kingdom of God;</quote>
+                    <ptr type="noteAnchor" target="#n572-3" n="18"/> and, <quote>Every man who is a fornicator, or
                unclean, or oppressor, or who is an idolater, hath no inheritance in the kingdom of
-               <persName>Christ</persName> and of God.</quote><ptr type="noteAnchor" target="#n572-4"/> And <persName>our Lord</persName> spake, saying, <quote>Whosoever looketh upon
+               <persName>Christ</persName> and of God.</quote>
+                    <ptr type="noteAnchor" target="#n572-4" n="19"/> And <persName>our Lord</persName> spake, saying, <quote>Whosoever looketh upon
                a woman to lust after her, hath straightway committed adultery with her in his
-               heart;</quote><ptr type="noteAnchor" target="#n572-5"/> and again <persName>James the Apostle</persName> said in his Epistle, <quote>Whence come wars
-               and strifes among you, except from the lusts which war in your members?</quote><ptr type="noteAnchor" target="#n572-6"/> And
+               heart;</quote>
+                    <ptr type="noteAnchor" target="#n572-5" n="20"/> and again <persName>James the Apostle</persName> said in his Epistle, <quote>Whence come wars
+               and strifes among you, except from the lusts which war in your members?</quote>
+                    <ptr type="noteAnchor" target="#n572-6" n="21"/> And
                again <persName>Peter</persName> saith, <quote>If a murderous lust come upon you, think ye that anything
-               strange hath happened unto you? now ye are to be tried [therewith];</quote><ptr type="noteAnchor" target="#n572-7"/> and
+               strange hath happened unto you? now ye are to be tried [therewith];</quote>
+                    <ptr type="noteAnchor" target="#n572-7" n="22"/> and
                again God with His voice cried out to the Jewish people, saying, <quote>Thou shalt not lust
-               after thy neighbour's wife.</quote><ptr type="noteAnchor" target="#n572-8"/> </ab>
-            <pb n="573"/>
-            <ab xml:id="section-13.40" n="40">Now the blasts of the horns which cried out against the camp of <placeName>Midian</placeName> were a type
+               after thy neighbour's wife.</quote>
+                    <ptr type="noteAnchor" target="#n572-8" n="23"/>
+                </ab>
+                <pb n="573"/>
+                <ab xml:id="section-13.40" n="40">Now the blasts of the horns which cried out against the camp of <placeName>Midian</placeName> were a type
                of these holy words which were uttered against the passion of fornication, and
                together with the sound of the horns there was straightway the breaking of pitchers,
-               for all the people were commanded by <persName>Gideon</persName>, saying, <quote>When ye hear me blow <pb
-                  type="external" n="601"/>the horn, blow ye also the horns, and break the pitchers,
-               and let the light of the torches which are hidden in the pitchers appear,</quote><ptr type="noteAnchor" target="#n573-1"/>
+               for all the people were commanded by <persName>Gideon</persName>, saying, <quote>When ye hear me blow <pb type="external" n="601"/>the horn, blow ye also the horns, and break the pitchers,
+               and let the light of the torches which are hidden in the pitchers appear,</quote>
+                    <ptr type="noteAnchor" target="#n573-1" n="24"/>
                and all these things are a type of our own spiritual life. For by the sound of the
                horns were made known the Divine commandments, by which immediately a man maketh use
                of them with his own voice, and crieth out with power against the passion of
@@ -1131,8 +1147,8 @@
                appeared at the breaking of the pitcher the light of the divine knowledge which
                riseth in the soul on the abatement of fornication; and these things will be readily
                accepted, especially by those who have had experience thereof. </ab>
-            <pb n="574"/>
-            <ab xml:id="section-13.41" n="41">Now this is the doctrine which <persName>Gideon</persName>'s war sheweth unto us, and these are the
+                <pb n="574"/>
+                <ab xml:id="section-13.41" n="41">Now this is the doctrine which <persName>Gideon</persName>'s war sheweth unto us, and these are the
                types which it maketh known to us, and because of this lust, those who went forth to
                the ending of the war drank little water, and looking at them let us be like unto
                them. And whosoever fighteth this fight let him not drink water to the fill, neither
@@ -1140,40 +1156,43 @@
                overcome even by the lust for common meats; and let him not be in the habit of
                filling his belly, but let him remember <persName>Esau</persName>, against whom an accusation was
                brought by the word of <persName>Paul</persName>, and he was called a <quote>fornicator</quote> and <quote>slack,</quote> because
-               he sold his birthright for one mess of meat.<ptr type="noteAnchor" target="#n574-1"/> Now in this place <persName>Esau</persName> was
+               he sold his birthright for one mess of meat.<ptr type="noteAnchor" target="#n574-1" n="25"/> Now in this place <persName>Esau</persName> was
                not blamed by reason of the rarity and great costliness of the food, for the meat was
                of lentiles; but because of his laxity and because he was overcome by his lust and
                ate greedily thereof, he was called <quote>fornicator</quote> and <quote>slack;</quote> and very rightly did
                <persName>Paul</persName> call this being overcome <quote>fornication,</quote> for how much more would the man who
                was overcome by the sight of a mess of lentiles be overcome by fair beauty?</ab>
-            <ab xml:id="section-13.42" n="42">Moreover, let us consider the word of God which was spoken unto the Jewish nation,
+                <ab xml:id="section-13.42" n="42">Moreover, let us consider the word of God which was spoken unto the Jewish nation,
                that not only was adultery in very deed prohibited, but also the lust of the
                thoughts, for He did not say, <quote>Thou shalt not commit adultery with thy neighbour's
-               wife,</quote> but <quote>Thou shalt not lust after thy neighbour's wife,</quote><ptr type="noteAnchor" target="#n574-2"/> and although
+               wife,</quote> but <quote>Thou shalt not lust after thy neighbour's wife,</quote>
+                    <ptr type="noteAnchor" target="#n574-2" n="26"/> and although
                their choice was according to that of youth, the commandment which He spake to them
                was perfect and full, for He warned them against the lust of the thoughts more than
                against the act of adultery. <quote>Thou shalt <pb n="575"/>not lust, for unless I had
-               lusted I had not committed adultery;</quote><ptr type="noteAnchor" target="#n575-1"/> and <persName>our Lord</persName> said, <quote>Whosoever
+               lusted I had not committed adultery;</quote>
+                    <ptr type="noteAnchor" target="#n575-1" n="27"/> and <persName>our Lord</persName> said, <quote>Whosoever
                looketh upon a woman to lust after her, hath straightway committed adultery with her
-               in his heart.</quote><ptr type="noteAnchor" target="#n575-2"/> For one looketh, and it is not for the sake of adultery, but
+               in his heart.</quote>
+                    <ptr type="noteAnchor" target="#n575-2" n="28"/> For one looketh, and it is not for the sake of adultery, but
                he looketh and seeth in the ordinary way, but whosoever looketh that he may lust,
-               this man is, in respect of his will and lust, an adulterer. And the two sayings, <pb
-                  type="external" n="603"/><quote>Thou shalt not covet thy neighbour's wife,</quote> and that
+               this man is, in respect of his will and lust, an adulterer. And the two sayings, <pb type="external" n="603"/>
+                    <quote>Thou shalt not covet thy neighbour's wife,</quote> and that
                which was spoken by <persName>our Lord</persName>, against the adultery of the thoughts, agree, each
                with each; for in old time He said, <quote>Thou shalt not lust,</quote> and here He saith, <quote>Thou
                shalt not look to lust,</quote> for it is not the looking alone which maketh to sin unless
                it agree also with the will which is within.</ab>
-            <ab xml:id="section-13.43" n="43">For one man looketh to lust, and another looketh to see; now the ordinary sight of
+                <ab xml:id="section-13.43" n="43">For one man looketh to lust, and another looketh to see; now the ordinary sight of
                nature is of the eye, but the sight of lust is not only of the eye, but also of the
                will and thought; for if <persName>David</persName> had not looked, he would not have lusted; and if he
                had not lusted, he would not have committed adultery, for <quote>He went up to the roof of
                his royal house, and saw a woman washing, and he lusted after her, and he sent and
-               brought her, and committed adultery with her.</quote><ptr type="noteAnchor" target="#n575-3"/> If he had looked simply, he
+               brought her, and committed adultery with her.</quote>
+                    <ptr type="noteAnchor" target="#n575-3" n="29"/> If he had looked simply, he
                would not have lusted; and if he had not lusted, he would not have committed
                adultery.</ab>
-            <ab xml:id="section-13.44" n="44">Let us, then, shut the door of sight before lust, that the sight may not in the
-               smallest degree depict phantoms within the soul, for for this reason lust setteth <pb
-                  n="576"/>itself in motion in our members in various ways, and it lusteth after
+                <ab xml:id="section-13.44" n="44">Let us, then, shut the door of sight before lust, that the sight may not in the
+               smallest degree depict phantoms within the soul, for for this reason lust setteth <pb n="576"/>itself in motion in our members in various ways, and it lusteth after
                various persons, and this happeneth unto it when the vision of God is not placed
                before the eyes of the soul; for if the remembrance of God be found therein, all the
                memorials of the evil lust vanish swiftly therefrom, and it is not severed from the
@@ -1183,26 +1202,26 @@
                conscience is polluted, which cling unto the nature of the body; and if a man look at
                their impurities they will quench the ardour of lust in no slight degree. And as the
                prophet of God, <persName>David</persName>, in suppressing the pride of human nature said unto it, <quote>Man
-               is like to vanity: and his days pass like a shadow;</quote><ptr type="noteAnchor" target="#n576-1"/> and again, to abate
+               is like to vanity: and his days pass like a shadow;</quote>
+                    <ptr type="noteAnchor" target="#n576-1" n="30"/> and again, to abate
                man's confidence in man, that no man, whoever he be, should bind his hope to his
                fellow man, he said, <quote>Ye shall put no confidence in man, nor in a ruler, for there is
                no redemption in his hand. His spirit goeth forth, and he returneth to his earth, and
-               on that day all his thoughts perish.</quote><ptr type="noteAnchor" target="#n576-2"/> And, moreover, let us act thus in
+               on that day all his thoughts perish.</quote>
+                    <ptr type="noteAnchor" target="#n576-2" n="31"/> And, moreover, let us act thus in
                respect of this passion of fornication: when it becometh hot in us, and disturbeth
                our thoughts, let us set against it either the remembrance of God and the fear of His
                judgment, or let us make use towards it of the repetition of the words of the
                Scriptures, or let us look at its corruptibility and weakness, and upon the diseases
                of human nature; for when a man looketh upon these wisely, and considereth the end
-               thereof by the power of his soul, and he observeth the emission of seed and <pb
-                  n="577"/>the impurity, and the diseases which come upon the body, and especially
+               thereof by the power of his soul, and he observeth the emission of seed and <pb n="577"/>the impurity, and the diseases which come upon the body, and especially
                the filth and corruption which exist in the members, and such like things which
                cleave to the body, he will be able through these to quench lust, and he will despise
                it, and treat it with contempt, because he seeth of what manner of things it hath
                need.</ab>
-            <ab xml:id="section-13.45" n="45">On the other hand, let him take heed unto [his] thoughts, lest when he looketh upon
+                <ab xml:id="section-13.45" n="45">On the other hand, let him take heed unto [his] thoughts, lest when he looketh upon
                the corruption and foulness of nature it be not rejected in his sight, for he must
-               not set these things in motion in him that he may despise them, <pb type="external"
-                  n="605"/>but that he may suppress his lust. Moreover, if a fortifying example, and
+               not set these things in motion in him that he may despise them, <pb type="external" n="605"/>but that he may suppress his lust. Moreover, if a fortifying example, and
                an encouraging sight be necessary unto him, let him remember the righteous men of
                old, not only those who have lived from [the time of] the revelation of <persName>our
                Redeemer</persName> onwards, but especially those who lived before His coming; for although
@@ -1220,8 +1239,9 @@
                to protect, and no good example to help, the remembrance of God took the place of all
                these things for him, and he himself in deed fulfilled beforehand that which was
                spoken by the word, <quote>I have set the Lord before me at all times, that I might not be
-               moved.</quote><ptr type="noteAnchor" target="#n578-1"/> And although his master's wife was led captive by lust for him by
-               reason of the beauty of his body, and was continually importuning him,<ptr type="noteAnchor" target="#n578-2"/> to
+               moved.</quote>
+                    <ptr type="noteAnchor" target="#n578-1" n="32"/> And although his master's wife was led captive by lust for him by
+               reason of the beauty of his body, and was continually importuning him,<ptr type="noteAnchor" target="#n578-2" n="33"/> to
                stir him up to the deed of sin, he learned beforehand the philosophy of the doctrine
                of <persName>Christ</persName>, <pb type="external" n="606"/>and he resisted, that he might not be
                overcome by his lust, even though a twofold war was attacking him from within and
@@ -1234,22 +1254,25 @@
                but they overturned not the mighty rock of his patient endurance, for like a ship
                which is beaten about and shaken by the waves which dash upon it, even so also did
                the ship of <persName>Joseph</persName>'s soul tremble and shake; but because the anchor of his soul was
-               fixed above, in the heaven— according to the word of <persName>Paul</persName><ptr type="noteAnchor" target="#n578-3"/>— and was not
+               fixed above, in the heaven— according to the word of <persName>Paul</persName>
+                    <ptr type="noteAnchor" target="#n578-3" n="34"/>— and was not
                cast into the depth beneath, his thought was at all times lifted up to heaven, and
                was against the lust which was roused up against him. And he stirred up also the
                remembrance of God, and he was terrified at the sight<pb n="579"/>of His judgment,
                and he said unto her who incited him corruptly, <quote>My master hath made me ruler of all
                his house, and hath kept back from me nothing, except thee who art his wife; how then
-               can I do this great wickedness and sin against God?</quote><ptr type="noteAnchor" target="#n579-1"/> For to sin against God
+               can I do this great wickedness and sin against God?</quote>
+                    <ptr type="noteAnchor" target="#n579-1" n="35"/> For to sin against God
                was more serious unto him than all harsh judgments, and all severe and cruel
                punishments, hence he was not prevented from sinning because of the judgment of God,
                but because he would not sin against God.</ab>
-            <pb type="external" n="607"/>
-            <ab xml:id="section-13.46" n="46">For what beating can make the soul to suffer—if it hath in it the perception of
+                <pb type="external" n="607"/>
+                <ab xml:id="section-13.46" n="46">For what beating can make the soul to suffer—if it hath in it the perception of
                divine life—like the sinning against God? That a man should sin against God <persName>Joseph</persName>
                calleth <quote>great wickedness,</quote> and in very truth the fall is great; the sin of a man
                against God hath no healing except by the Grace of God, even as the divine Book hath
-               said, <quote>If a man sin against the Lord, of whom shall he entreat?</quote><ptr type="noteAnchor" target="#n579-2"/> Now the
+               said, <quote>If a man sin against the Lord, of whom shall he entreat?</quote>
+                    <ptr type="noteAnchor" target="#n579-2" n="36"/> Now the
                wise and chaste <persName>Joseph</persName> considered sin against his master—even though it were
                committed with his wife—to be sin against God, because the commandment of God would
                be undone by the transgression of the law of nature; for although the words, <quote>Thou
@@ -1263,18 +1286,20 @@
                on the tablets of the heart by the act of the creation of God,</quote> and that as a man
                grew in his bodily stature he might meditate upon this instruction. And <persName>Joseph</persName>
                also, being only twenty years of age—now he was in this period of life when this war
-               was stirred up against him—meditated upon these letters inwardly, <pb type="external"
-                  n="608"/>and the instruction which he had received from them he proclaimed to his
+               was stirred up against him—meditated upon these letters inwardly, <pb type="external" n="608"/>and the instruction which he had received from them he proclaimed to his
                master's wife, saying, <quote>How can I do this great wickedness and sin against
-               God?<ptr type="noteAnchor" target="#n580-1"/> How can I condemn myself to do that thing from which I have separated
+               God?<ptr type="noteAnchor" target="#n580-1" n="37"/> How can I condemn myself to do that thing from which I have separated
                myself aforetime? How can I condemn myself with that which hath appeared to me
-               beforehand to be condemnation?</quote></ab>
-            <ab xml:id="section-13.47" n="47">Now that blessedness, which was ascribed by <persName>Paul</persName><ptr type="noteAnchor" target="#n580-2"/> unto whomsoever should
+               beforehand to be condemnation?</quote>
+                </ab>
+                <ab xml:id="section-13.47" n="47">Now that blessedness, which was ascribed by <persName>Paul</persName>
+                    <ptr type="noteAnchor" target="#n580-2" n="38"/> unto whomsoever should
                not condemn himself by that which he had set apart, <persName>Joseph</persName> fulfilled in very deed,
                and being [only] a few years old, he shewed forth a victory which was beyond his
                years; hence from him <persName>Moses</persName> took that which he spake, <quote>Every one who passeth over
                in the number, from twenty years old and upwards, shall give the offering of
-               separation unto the Lord.</quote><ptr type="noteAnchor" target="#n580-3"/> Behold a helpful and encouraging proof for the
+               separation unto the Lord.</quote>
+                    <ptr type="noteAnchor" target="#n580-3" n="39"/> Behold a helpful and encouraging proof for the
                disciple who fighteth against the lust of the flesh! although the cases are neither
                equal nor similar, for the promise of <persName>Joseph</persName> resembleth not thine own, and the
                divine dispensation had not set him apart to be a virgin and a solitary dweller, but
@@ -1282,7 +1307,8 @@
                had not there before him an example, nor the pattern <pb n="581"/>of another man
                whereby he might be helped, nor the written law to restrain him therefrom—for <persName>Moses</persName>
                was not as yet named—and none of the prophets had spoken, and the commandments which
-               teach the perfection of <persName>Christ</persName> <persName>our Redeemer</persName> had not, as yet, been heard in the
+               teach the perfection of <persName>Christ</persName>
+                    <persName>our Redeemer</persName> had not, as yet, been heard in the
                world, and the ascetic life—which is itself a mighty subduer of lust—had not been
                discovered therefor, and he had not been prohibited from the sight of and converse
                with women,—which itself inflameth lust, but he, so to speak, waged war with the lust
@@ -1315,7 +1341,7 @@
                case, if it happen that there be [to him] a victory, the praise thereof must be less
                than that of <persName>Joseph</persName>, because his helpers are many, and in proportion as the helpers
                of him that fighteth are numerous, so is made known his weakness.</ab>
-            <ab xml:id="section-13.48" n="48">And after the history of <persName>Joseph</persName>, the holy life of <persName>Moses</persName> was written, and the
+                <ab xml:id="section-13.48" n="48">And after the history of <persName>Joseph</persName>, the holy life of <persName>Moses</persName> was written, and the
                chastity of <persName>Joshua</persName>, and the abstinence of <persName>Samson</persName> and the fall which enfeebled his
                strength, and the rearing of <persName>Samuel</persName>, and the sin of <persName>David</persName> and the chastisement
                thereof, and the virginity of <persName>Elijah</persName>, and the poverty and purity of <persName>Elisha</persName>, and
@@ -1326,7 +1352,7 @@
                without an example had waged war and had vanquished, <pb n="583"/>might appear as the
                triumphant conqueror; but we are feeble folk and deserve all punishments, if after
                all these examples we stumble and fall.</ab>
-            <ab xml:id="section-13.49" n="49">Now the passion of fornication is, according to the teachings of the Fathers, a
+                <ab xml:id="section-13.49" n="49">Now the passion of fornication is, according to the teachings of the Fathers, a
                covering before the sight of the mind that it may not look upon Divine things, and as
                when a man spreadeth a garment over writing it will not be visible unto the eye to
                read, even so also doth this passion become a covering before the understanding so
@@ -1341,40 +1367,47 @@
                up and it troubleth the purity of the thoughts, and in proportion as it weakeneth the
                mind, it is itself enfeebled, and all the carnal and sensual things which are of the
                world, and which make it to grow become the things which strengthen it.</ab>
-            <ab xml:id="section-13.50" n="50">Now there are some who fight and are defeated, and there are some who never wage war
+                <ab xml:id="section-13.50" n="50">Now there are some who fight and are defeated, and there are some who never wage war
                at all, for he that fulfilleth his lusts fighteth not, nor he that hath conquered his
                lust completely; the former because he never began, and the latter because he hath
                accomplished it; for it is wholly a war [which happeneth] between [these two things],
                and for this reason <persName>Paul</persName> calleth those <pb n="584"/>who had ended this fight,
                <quote>dead,</quote> saying, <quote>Ye are dead unto the law in the body of <persName>Christ</persName>, that ye might be
                married unto Another, Who hath risen from the dead, that ye might bring forth fruit
-               unto God.</quote><ptr type="noteAnchor" target="#n584-1"/> And shewing forth the cause of the war which occupieth a middle
+               unto God.</quote>
+                    <ptr type="noteAnchor" target="#n584-1" n="40"/> And shewing forth the cause of the war which occupieth a middle
                place, he saith, <quote>While we were in the flesh, the passions of the sins which were in
                the law were working zealously in our members that we might bring forth fruit unto
-               death,</quote><ptr type="noteAnchor" target="#n584-2"/> that is, <quote>Those who live in the flesh are at all <choice><sic>season</sic><corr>seasons</corr></choice>
+               death,</quote>
+                    <ptr type="noteAnchor" target="#n584-2" n="41"/> that is, <quote>Those who live in the flesh are at all <choice>
+                            <sic>season</sic>
+                            <corr>seasons</corr>
+                        </choice>
                overcome by lust, and bring forth fruit unto death, but those who are led by the law
                stand in the place of the war, <pb type="external" n="612"/>and the law in which they
                stand is made a helper and a strengthener unto them.</quote> But when, in this intermediate
                place, they perfect the law and gain the victory, <persName>Paul</persName> saith unto them, <quote>Now we
                have been discharged from the law, and we are dead unto that which held us fast; so
                that we serve henceforth in newness of the spirit, and not in oldness of the
-               letter.</quote><ptr type="noteAnchor" target="#n584-3"/> For in the new life there is no lust; and where there is no lust,
+               letter.</quote>
+                    <ptr type="noteAnchor" target="#n584-3" n="42"/> For in the new life there is no lust; and where there is no lust,
                there is no war; and where there is no war, there is made known that peace which <persName>our
                Redeemer</persName> brought into the world; so then the new peace appeareth with the new man,
                for it is this that is brought into the new life, and in this country there is no war
                of lusts, but as he who liveth in the flesh is without the perception of sin, even so
                also doth he who is led by the spirit stand in the impassibility of sin, for want of
                perception knoweth not that it hath sinned, but impassibility remembereth not sin. </ab>
-            <pb n="585"/>
-            <ab xml:id="section-13.51" n="51">Now the old man hath cast off his lusts in two places; in baptism, and in the grave.
+                <pb n="585"/>
+                <ab xml:id="section-13.51" n="51">Now the old man hath cast off his lusts in two places; in baptism, and in the grave.
                Whosoever casteth off his lusts in baptism is called unto the adoption of sons, but
                whosoever serveth them during the whole period of his life, and putteth them away by
                war in haste for the resurrection, is called unto judgment; and whosoever after his
                baptism is led in the life of the spirit, is in very truth a new man, for he hath not
                put on the oldness which he cast off by baptism. And this man hath no war with lust,
                because he is dead unto the world, for <persName>Paul</persName> said, <quote>I had not known lust if the law
-               had not said unto me, Thou shalt not lust.</quote><ptr type="noteAnchor" target="#n585-1"/> <pb type="external" n="613"
-               />Whosoever, then, is led by the new man knoweth not lust, and he liveth not in the
+               had not said unto me, Thou shalt not lust.</quote>
+                    <ptr type="noteAnchor" target="#n585-1" n="43"/>
+                    <pb type="external" n="613"/>Whosoever, then, is led by the new man knoweth not lust, and he liveth not in the
                persistence, but in the impassibility of lust, even as did <persName>Adam</persName> before [the time
                of] the law which was laid down for him, for he knew not lust because it was not
                alive in motion, and the commandment brought lust into motion, and motion received
@@ -1389,38 +1422,42 @@
                man who hath been <pb n="586"/>vanquished by lust—when <quote>Thou shalt not lust</quote> was said
                unto him, for the thoughts are wont to receive memories, and memories set lust in
                motion.</ab>
-            <ab xml:id="section-13.52" n="52">Now therefore, it is necessary that the disciple should be remote from conversations
+                <ab xml:id="section-13.52" n="52">Now therefore, it is necessary that the disciple should be remote from conversations
                and sights that he may not receive memories, and that memories may not set the lusts
                in motion and disturb the thoughts; for when the mind is disturbed it is not able
                henceforth to see God. <quote>Let not sin reign in your dead body, that ye may be obedient
-               unto it in the lusts thereof;</quote><ptr type="noteAnchor" target="#n586-1"/> for if, according to the teaching of <persName>Paul</persName>,
+               unto it in the lusts thereof;</quote>
+                    <ptr type="noteAnchor" target="#n586-1" n="44"/> for if, according to the teaching of <persName>Paul</persName>,
                ye are dead—I mean those <pb type="external" n="614"/>who live in the spirit—it is
                evident that the lust also which is in you is dead, and it is a disgrace to the
                understanding, not that it should be overcome, but even that it should wage war, and
                how can that which is dead wage war?</ab>
-            <ab xml:id="section-13.53" n="53">But these things will be understood with difficulty by those who have had no
+                <ab xml:id="section-13.53" n="53">But these things will be understood with difficulty by those who have had no
                experience, and we do not write these things from our own experience, but by the
                power of the teaching of <persName>Paul</persName> [who said], <quote>The law hath dominion over a man, so
                long as he liveth. For the woman is bound unto her husband by law so long as he
                liveth; but if her husband be dead, she is free from the law of her husband. But if,
                while her husband be alive, she live with another man she becometh an adulteress; but
                if her husband die, she is free from the law, and she is not an adulteress if she be
-               [united] unto another man.</quote><ptr type="noteAnchor" target="#n586-2"/> What then doth the power of this proof seek? and
+               [united] unto another man.</quote>
+                    <ptr type="noteAnchor" target="#n586-2" n="45"/> What then doth the power of this proof seek? and
                what doth <persName>the Apostle</persName> teach us by these things? <quote>Ye yourselves are also dead unto
                the law in the body of <persName>Christ</persName>, that ye may be <pb n="587"/>[united] unto Another
-               Who hath risen from the dead.</quote><ptr type="noteAnchor" target="#n587-1"/> [That is to say,] <quote>So long as ye were members
+               Who hath risen from the dead.</quote>
+                    <ptr type="noteAnchor" target="#n587-1" n="46"/> [That is to say,] <quote>So long as ye were members
                of the first <persName>Adam</persName>, who received the first commandment, ye were subject unto the
                law, but now that ye have become members of Another, that is to say of <persName>Christ</persName>, Who
                hath risen from the dead, the law hath no dominion over you, because He, Whose
                members ye are, is not subject unto the law, for, like God, He is above the law. When
                He was a man Who was subject unto the law, He kept the law, and fulfilled all the
                commandments thereof, and He went forth to that freedom which is above the law,
-               according to that which was said by <persName>our Lord</persName>, If <persName>the Son</persName> shall make you free, <pb
-                  type="external" n="615"/>ye shall be free indeed.<ptr type="noteAnchor" target="#n587-2"/> But now that we have
+               according to that which was said by <persName>our Lord</persName>, If <persName>the Son</persName> shall make you free, <pb type="external" n="615"/>ye shall be free indeed.<ptr type="noteAnchor" target="#n587-2" n="47"/> But now that we have
                been discharged from the law, and we are dead unto that wherein we were holden,
                henceforth let us serve in newness of spirit, and not in the oldness of the
-               letter.</quote><ptr type="noteAnchor" target="#n587-3"/></ab>
-            <ab xml:id="section-13.54" n="54">Now, according to my opinion, these words of <persName>the Apostle</persName> are evident and clear unto
+               letter.</quote>
+                    <ptr type="noteAnchor" target="#n587-3" n="48"/>
+                </ab>
+                <ab xml:id="section-13.54" n="54">Now, according to my opinion, these words of <persName>the Apostle</persName> are evident and clear unto
                him that standeth in the life of the new man, and whosoever liveth this life is not a
                hearer of words, but a spectator of the power thereof, for the sight is more credible
                for being seen, and deeds are better understood by the doing thereof; for the things
@@ -1428,15 +1465,17 @@
                live the life of the new man become spectators of the words of <persName>the Apostle</persName>, and not
                hearers only, for he himself wrote not from the report of others, for he did not
                receive this doctrine from a man, or through a man, but even, as he said, <quote>By the
-               revelation of <persName>Jesus Christ</persName>,</quote><ptr type="noteAnchor" target="#n587-4"/> <pb n="588"/>and it is well known that a
+               revelation of <persName>Jesus Christ</persName>,</quote>
+                    <ptr type="noteAnchor" target="#n587-4" n="49"/>
+                    <pb n="588"/>and it is well known that a
                revelation maketh plain things which are hidden. For as the sight of the eye seeth
                that which is manifest, even so also doth the pure mind see spiritual things, but
                purity of mind—as I have said many times—is [only] acquired by putting to death all
                the works of the old man. And well did <persName>Paul</persName> say, <quote>The woman, so long as her husband
-               liveth, is bound by the law,</quote><ptr type="noteAnchor" target="#n588-1"/> and as in a type, he calleth the soul which is
+               liveth, is bound by the law,</quote>
+                    <ptr type="noteAnchor" target="#n588-1" n="50"/> and as in a type, he calleth the soul which is
                not free from the works of the old man <quote>woman,</quote> and the law to which she is subject
-               <quote>her husband,</quote> by union and obedience to which it is preserved <pb type="external"
-                  n="616"/>from adulteries with strangers. But if it happen that its husband
+               <quote>her husband,</quote> by union and obedience to which it is preserved <pb type="external" n="616"/>from adulteries with strangers. But if it happen that its husband
                dieth—to whom it is holden by the law of bodily union—it is free to be [united] unto
                whomsoever it wisheth, even also as it hath happened unto the law through the freedom
                of <persName>Christ</persName>, for every soul which was subject unto it, being holden by the works of
@@ -1446,23 +1485,28 @@
                doth it serve it in very deed; because the power of the law is not as strong to
                restrain the soul from wickedness as a beautiful thing which hath power to bind it
                unto itself when it hath perceived the pleasantness of its task.</ab>
-            <ab xml:id="section-13.55" n="55"><quote>Ye are dead unto the law in the body of <persName>Christ</persName>,</quote><ptr type="noteAnchor" target="#n588-2"/> or as if one should say,
+                <ab xml:id="section-13.55" n="55">
+                    <quote>Ye are dead unto the law in the body of <persName>Christ</persName>,</quote>
+                    <ptr type="noteAnchor" target="#n588-2" n="51"/> or as if one should say,
                <quote>Because ye are placed in another body, ye are free from the subjection of the law,
                for the dominion of the law is over the old man, <pb n="589"/>who had his beginning
                from [the time of] the transgression of the commandment by the first <persName>Adam</persName>, even as
                <persName>Paul</persName> said, The first <persName>Adam</persName> [became] a living soul. The last <persName>Adam</persName> [became] a
-               life-giving spirit.</quote><ptr type="noteAnchor" target="#n589-1"/> Therefore, since, according to the teaching of <persName>Paul</persName>,
+               life-giving spirit.</quote>
+                    <ptr type="noteAnchor" target="#n589-1" n="52"/> Therefore, since, according to the teaching of <persName>Paul</persName>,
                there are two <persName>Adams</persName>, the one who is led in the living soul and over whom the law
                hath dominion, and the other belonging to the life-giving spirit, who is above the
-               law, well did <persName>Paul</persName> say, <quote>The woman, so long as her husband liveth, <pb
-                  type="external" n="617"/>is bound [to him] in the law.</quote><ptr type="noteAnchor" target="#n589-2"/> Hence the soul
+               law, well did <persName>Paul</persName> say, <quote>The woman, so long as her husband liveth, <pb type="external" n="617"/>is bound [to him] in the law.</quote>
+                    <ptr type="noteAnchor" target="#n589-2" n="53"/> Hence the soul
                which is led after the manner of the soul is subject unto the law, but the soul which
                is moved by the living spirit is above the law, because the spirit which is the giver
                of the law is not subject unto the law, and those who are worthy to be led by the
                spirit are above the thoughts, and motions, and deeds of sin, and it is not because
                they fear the law that they do not work sin, but because they are dead unto sin.</ab>
-            <ab xml:id="section-13.56" n="56"><quote>Ye are dead unto the law in the body of <persName>Christ</persName>, that ye may be [united] unto
-               Another, Who hath risen from the dead.</quote><ptr type="noteAnchor" target="#n589-3"/> For as the members which are bound
+                <ab xml:id="section-13.56" n="56">
+                    <quote>Ye are dead unto the law in the body of <persName>Christ</persName>, that ye may be [united] unto
+               Another, Who hath risen from the dead.</quote>
+                    <ptr type="noteAnchor" target="#n589-3" n="54"/> For as the members which are bound
                in the natural body feel only the pain or suffering which ariseth in their body, and
                if their body be healthy they enjoy the health thereof, and they neither feel the
                sickness which is in the body of others, nor suffer pain thereat, even so also the
@@ -1474,12 +1518,15 @@
                the old man prevent the mind from perceiving the life and rule of the new man, yet
                the passion of fornication [doeth this] more than all, and for this reason <persName>Paul</persName>
                said, <quote>Every sin that a man doeth <pb type="external" n="618"/>is without the body;
-               but he that committeth fornication sinneth against his own body.</quote><ptr type="noteAnchor" target="#n590-1"/> And here
+               but he that committeth fornication sinneth against his own body.</quote>
+                    <ptr type="noteAnchor" target="#n590-1" n="55"/> And here
                he calleth <quote>body</quote> the body of <persName>Christ</persName>, of which he hath been esteemed worthy to be a
                member, even as he said, <quote>Ye are dead unto the law in the body of <persName>Christ</persName>, that ye
-               may be members unto Another Who hath risen from the dead;</quote><ptr type="noteAnchor" target="#n590-2"/> and again he
+               may be members unto Another Who hath risen from the dead;</quote>
+                    <ptr type="noteAnchor" target="#n590-2" n="56"/> and again he
                said, <quote>The body is not for fornication, but for <persName>our Lord</persName>; and <persName>our Lord</persName> for the
-               body.</quote><ptr type="noteAnchor" target="#n590-3"/> So then the body of him that liveth the life of the new man,
+               body.</quote>
+                    <ptr type="noteAnchor" target="#n590-3" n="57"/> So then the body of him that liveth the life of the new man,
                according to the words of <persName>Paul</persName>, belongeth to <persName>our Lord</persName>, and as in the body of <persName>our
                Lord</persName>'s Person there was no passion of fornication, even so also in him whose body
                hath become a member in the body of <persName>Christ</persName> it is not right that the passion of
@@ -1493,7 +1540,9 @@
                subject unto <pb n="591"/>the passions of the old man; and where it is not right for
                us to be led in the new life he bringeth straightway the words which are full of
                rebuke and teaching, saying, <quote>Know ye not that your bodies are members of
-               <persName>Christ</persName>?</quote><ptr type="noteAnchor" target="#n591-1"/> Now here <pb type="external" n="619"/><persName>Paul</persName> not only teacheth
+               <persName>Christ</persName>?</quote>
+                    <ptr type="noteAnchor" target="#n591-1" n="58"/> Now here <pb type="external" n="619"/>
+                    <persName>Paul</persName> not only teacheth
                us, but he blameth us, and sheweth that there are no means whereby the member may
                live outside His body, for all the members which are set in the natural body are
                established thereby, and live therein, even as ye also whose bodies have become
@@ -1501,7 +1550,7 @@
                holiness, chasteness from all wickednesses, impassibility unto sin, happiness, rest,
                peace, love, motion towards all things of the spirit, and finally all those things
                which the body hath to give unto its members.</ab>
-            <ab xml:id="section-13.57" n="57">Now if this be the life of the new man according to the law, it is not then by the
+                <ab xml:id="section-13.57" n="57">Now if this be the life of the new man according to the law, it is not then by the
                power of the law which restraineth [from] wickedness that he worketh that which is
                good, but because he conformeth unto the order of Him that ordained it. For by the
                incarnation of <persName>Christ</persName> of <persName>the Virgin</persName>, He received the members of the body of His
@@ -1519,8 +1568,10 @@
                accounted in the body of <persName>Christ</persName> a [single] member which hath an invisible
                constitution, and is placed in the body in an indescribable manner, and he becometh a
                spiritual member in the body of God, according to the words of <persName>the Apostle</persName>, <quote>Your
-               bodies are members of <persName>Christ</persName>.</quote><ptr type="noteAnchor" target="#n592-1"/></ab>
-            <ab xml:id="section-13.58" n="58">How then, can a member of <persName>Christ</persName>, through fighting, overcome lust? If the war of
+               bodies are members of <persName>Christ</persName>.</quote>
+                    <ptr type="noteAnchor" target="#n592-1" n="59"/>
+                </ab>
+                <ab xml:id="section-13.58" n="58">How then, can a member of <persName>Christ</persName>, through fighting, overcome lust? If the war of
                this lust [of fornication] existed in the holy body of <persName>Christ</persName>, there would be an
                excuse for them in that being members of that body they were disturbed by lust, but
                the Apostolic word doth not only command us that we shall not commit fornication, but
@@ -1530,7 +1581,9 @@
                but if there be no old life, there can be no feeling, and if there be no feeling,
                lust cannot be received, and therefore the war against lust cannot be set in motion.
                For how can a man fight against that which existeth not? <quote>Shall I take a member of
-               <persName>Christ</persName>, and make it a member of fornication?</quote><ptr type="noteAnchor" target="#n592-1"/> <quote>Shall I take,</quote> he saith, as
+               <persName>Christ</persName>, and make it a member of fornication?</quote>
+                    <ptr type="noteAnchor" target="#n592-1" n="60"/>
+                    <quote>Shall I take,</quote> he saith, as
                if one were to say, So long as it be placed in the natural body there are no means
                for it to become a member of fornication, <pb n="593"/>for so long as a member which
                is set in the natural body is in its place, it hath no means whereby it may receive
@@ -1539,7 +1592,8 @@
                though that body be alive, for when it is cut off it leaveth its life with its body,
                and it remaineth dead and senseless in the hand of him that holdeth it. In this
                manner <persName>Paul</persName> saith, <quote>Shall I take a member of <persName>Christ</persName>, and make it a member of
-               fornication?</quote><ptr type="noteAnchor" target="#n593-1"/> as if one were to say, If it be taken from <persName>Christ</persName>, it cannot
+               fornication?</quote>
+                    <ptr type="noteAnchor" target="#n593-1" n="61"/> as if one were to say, If it be taken from <persName>Christ</persName>, it cannot
                become a member of fornication, but if when it is in the body it committeth
                fornication—that is to say, if it become a receptable of this passion of
                fornication—it sinneth against all its body, that is to say, it maketh all its body
@@ -1547,20 +1601,24 @@
                passeth unto all the other members of the body, even so also the member, which, being
                placed in the body of <persName>Christ</persName>, receiveth the passion of fornication, maketh the
                whole body to be sick and to suffer pain, and this is that which he saith, <quote>He
-               sinneth against his own body,</quote><ptr type="noteAnchor" target="#n593-2"/> as if one were to say, Not only because he
+               sinneth against his own body,</quote>
+                    <ptr type="noteAnchor" target="#n593-2" n="62"/> as if one were to say, Not only because he
                causeth pain through the passion of fornication is it sin, but it also maketh the
                whole body suffer. For if the blow of him that smiteth the body of another placeth
                him under the obligation of sin, and the law commandeth that he shall be punished
                forthwith like a debtor, saying, <quote>Blow for blow, burning for burning, stripe for
-               stripe,</quote><ptr type="noteAnchor" target="#n593-3"/> it is also manifest that if the member which is set in the body <pb
-                  n="594"/>of <persName>Christ</persName> be holden with the passion of fornication, it maketh sick the
+               stripe,</quote>
+                    <ptr type="noteAnchor" target="#n593-3" n="63"/> it is also manifest that if the member which is set in the body <pb n="594"/>of <persName>Christ</persName> be holden with the passion of fornication, it maketh sick the
                whole body, and for this reason <persName>Paul</persName> rightly said, <quote>He sinneth against his own
-               body.</quote><ptr type="noteAnchor" target="#n594-1"/></ab>
-            <ab xml:id="section-13.59" n="59">Now there is no other sin which knoweth so well <pb type="external" n="622"/>how to
+               body.</quote>
+                    <ptr type="noteAnchor" target="#n594-1" n="64"/>
+                </ab>
+                <ab xml:id="section-13.59" n="59">Now there is no other sin which knoweth so well <pb type="external" n="622"/>how to
                defile the soul and body as the passion of fornication, and for this reason <persName>Moses</persName>
                also, in shewing the watchfulness which must be observed especially against this
                passion, said, <quote>The man from whom shall go forth the seed of copulation shall be
-               unclean;</quote><ptr type="noteAnchor" target="#n594-2"/> and he strengthened the blame to such a degree, that not only doth
+               unclean;</quote>
+                    <ptr type="noteAnchor" target="#n594-2" n="65"/> and he strengthened the blame to such a degree, that not only doth
                it defile him when it is set in motion voluntarily and he cometh unto the act of the
                adultery of fornication, but also by any way whatsoever, if it be that the seed of
                copulation go forth from him. And besides this there is another instance, for
@@ -1571,25 +1629,28 @@
                them unto the fire, together with the other members which are symbolized by the works
                of sin, [for he saith], <quote>Take the fat, and the fat tail, and all the fat that
                covereth the inwards, and the caul of the liver, and the two kidneys, and the fat
-               thereof, and burn them all in the fire;</quote><ptr type="noteAnchor" target="#n594-3"/> but with them all, and before them
+               thereof, and burn them all in the fire;</quote>
+                    <ptr type="noteAnchor" target="#n594-3" n="66"/> but with them all, and before them
                all, the two kidneys and the fatty parts thereof, which are the two passions of
                fornication and adultery. <quote>And they shall burn the kidneys, together with the fat
                thereof;</quote> now the fat is a sign of the <pb n="595"/>grossness of the mind, which doth
                not allow the odious sight of these passions to be seen.</ab>
-            <ab xml:id="section-13.60" n="60">So then the dumb law burneth the passion of fornication in the fire, and setteth
+                <ab xml:id="section-13.60" n="60">So then the dumb law burneth the passion of fornication in the fire, and setteth
                impurity upon every man from whom, for whatever cause, the seed of copulation hath
-               gone forth, and burneth also the adulterer and the adulteress<ptr type="noteAnchor" target="#n594-1"/> <pb
-                  type="external" n="623"/>in the fire; and <persName>our Lord</persName> in the teaching of His Gospel
+               gone forth, and burneth also the adulterer and the adulteress<ptr type="noteAnchor" target="#n594-1" n="67"/>
+                    <pb type="external" n="623"/>in the fire; and <persName>our Lord</persName> in the teaching of His Gospel
                not only cut off adultery, but also the thought which bringeth [a man] unto adultery;
                and <persName>Paul</persName> said, <quote>Neither fornicators nor adulterers shall inherit the kingdom of
-               God,</quote><ptr type="noteAnchor" target="#n595-2"/> and again, <quote>Whosoever is joined unto a harlot becometh one body with
+               God,</quote>
+                    <ptr type="noteAnchor" target="#n595-2" n="68"/> and again, <quote>Whosoever is joined unto a harlot becometh one body with
                her, and whosoever committeth fornication sinneth against his own body;</quote> and again he
                saith, <quote>Shall I take a member of <persName>Christ</persName>, and make it a member of fornication?</quote> and
                besides the words of the Scriptures actual experience teacheth those who are
                witnesses of their passions.</ab>
-            <ab xml:id="section-13.61" n="61">What disciple, who wisheth to live righteously and holily, will not watch against the
+                <ab xml:id="section-13.61" n="61">What disciple, who wisheth to live righteously and holily, will not watch against the
                fall which cometh of this passion, and receive with a living and wakeful hearing the
-               voice of God which crieth unto us, <quote>Be ye holy, even as I am holy?</quote><ptr type="noteAnchor" target="#n595-3"/> And
+               voice of God which crieth unto us, <quote>Be ye holy, even as I am holy?</quote>
+                    <ptr type="noteAnchor" target="#n595-3" n="69"/> And
                there would not, then, have been required from us by the commandment of God the
                holiness which is comparable unto His if it were not that He hath given unto us the
                spirit which sanctifieth us, and which becometh a soul unto our soul, and which
@@ -1599,8 +1660,7 @@
                its thoughts. For if old age and sicknesses suppress and extinguish this lust of
                fornication, how very much more should the healthy will which loveth spiritual
                things, and which longeth for Divine holiness [do thus]? Old age and sickness do not
-               eradicate lust, but they enfeeble it, and cause it to sleep; but the will <pb
-                  type="external" n="624"/>which is perfected in the Spirit, in the Holy Spirit,
+               eradicate lust, but they enfeeble it, and cause it to sleep; but the will <pb type="external" n="624"/>which is perfected in the Spirit, in the Holy Spirit,
                eradicateth lust completely, and it stablisheth man in impassibility, and maketh him
                to be moved in all his thoughts, and in all spiritual things, while it not only
                abateth in him the disturbance of the passions, but all the feeling of things which
@@ -1608,7 +1668,7 @@
                the love of other things quenched in him, even so also whosoever casteth it away
                wholly and is entirely bound by the love of spiritual things cannot receive the
                feeling of the things which set this passion in motion.</ab>
-            <ab xml:id="section-13.62" n="62">But do thou, O disciple, because as yet thou hast not arrived at these things,
+                <ab xml:id="section-13.62" n="62">But do thou, O disciple, because as yet thou hast not arrived at these things,
                meditate upon what hath been written above, and fulfil them in very deed; shut up the
                entrances of lust, which are external sights and conversations; and block up the
                fountain thereof, which is the natural passion and health of the body; and cleanse
@@ -1632,79 +1692,351 @@
                and have perceived His redemption, and have become the intermediaries of His gifts in
                all the generations of the worlds of light, and of the countries of the Spirit, for
                ever and ever. Amen.</ab>
-            <ab xml:id="section-13.63" n="63">Here endeth the Thirteenth Discourse: which is on Fornication and the Lust of the
+                <ab xml:id="section-13.63" n="63">Here endeth the Thirteenth Discourse: which is on Fornication and the Lust of the
                Body.</ab>
-         </div>
-         <noteGrp>
-            <note xml:id="n526-1" target="#a526-1" n="526-1"><choice><reg/><orig>p. 526, n. 1</orig></choice>Compare Job xiv. 8, 9.</note>
-            <note xml:id="n528-1" target="#a528-1" n="528-1"><choice><reg/><orig>p. 528, n. 1</orig></choice>St. Matthew v. 28.</note>
-            <note xml:id="n528-2" target="#a528-2" n="528-2"><choice><reg/><orig>p. 528, n. 2</orig></choice>St Matthew v. 27.</note>
-            <note xml:id="n534-1" target="#a534-1" n="534-1"><choice><reg/><orig>p. 534, n. 1</orig></choice>Proverbs xxx. 18-20.</note>
-            <note xml:id="n538-1" target="#a538-1" n="538-1"><choice><reg/><orig>p. 538, n. 1</orig></choice>1 Corinthians vi. 19.</note>
-            <note xml:id="n544-1" target="#a544-1" n="544-1"><choice><reg/><orig>p. 544, n. 1</orig></choice>Romans xii. 11.</note>
-            <note xml:id="n554-1" target="#a554-1" n="554-1"><choice><reg/><orig>p. 554, n. 1</orig></choice>2 Corinthians iv. 16.</note>
-            <note xml:id="n558-1" target="#a558-1" n="558-1"><choice><reg/><orig>p. 558, n. 1</orig></choice>Exodus xx. 14.</note>
-            <note xml:id="n561-1" target="#a561-1" n="561-1"><choice><reg/><orig>p. 561, n. 1</orig></choice>Colossians iii. 5.</note>
-            <note xml:id="n561-2" target="#a561-2" n="561-2"><choice><reg/><orig>p. 561, n. 2</orig></choice>1 Corinthians xv. 48.</note>
-            <note xml:id="n567-1" target="#a567-1" n="567-1"><choice><reg/><orig>p. 567, n. 1</orig></choice>Ecclesiasticus xxiii. 19.</note>
-            <note xml:id="n569-1" target="#a569-1" n="569-1"><choice><reg/><orig>p. 569, n. 1</orig></choice>1 Corinthians ix. 27.</note>
-            <note xml:id="n570-1" target="#a570-1" n="570-1"><choice><reg/><orig>p. 570, n. 1</orig></choice>Judges vii. 3.</note>
-            <note xml:id="n571-1" target="#a571-1" n="571-1"><choice><reg/><orig>p. 571, n. 1</orig></choice>Numbers xxv. 1.</note>
-            <note xml:id="n571-2" target="#a571-2" n="571-2"><choice><reg/><orig>p. 571, n. 2</orig></choice>1 Corinthians x. 8.</note>
-            <note xml:id="n572-1" target="#a572-1" n="572-1"><choice><reg/><orig>p. 572, n. 1</orig></choice>1 Corinthians x. 8.</note>
-            <note xml:id="n572-2" target="#a572-2" n="572-2"><choice><reg/><orig>p. 572, n. 2</orig></choice>Hebrews xii. 16.</note>
-            <note xml:id="n572-3" target="#a572-3" n="572-3"><choice><reg/><orig>p. 572, n. 3</orig></choice>1 Corinthians vi. 9. </note>
-            <note xml:id="n572-4" target="#a572-4" n="572-4"><choice><reg/><orig>p. 572, n. 4</orig></choice>Ephesians v. 5.</note>
-            <note xml:id="n572-5" target="#a572-5" n="572-5"><choice><reg/><orig>p. 572, n. 5</orig></choice>St. Matthew v. 28.</note>
-            <note xml:id="n572-6" target="#a572-6" n="572-6"><choice><reg/><orig>p. 572, n. 6</orig></choice>St. James iv. 1. </note>
-            <note xml:id="n572-7" target="#a572-7" n="572-7"><choice><reg/><orig>p. 572, n. 7</orig></choice>1 St. Peter iv. 12.</note>
-            <note xml:id="n572-8" target="#a572-8" n="572-8"><choice><reg/><orig>p. 572, n. 8</orig></choice>Exodus xx. 17.</note>
-            <note xml:id="n573-1" target="#a573-1" n="573-1"><choice><reg/><orig>p. 573, n. 1</orig></choice>Compare Judges vii. 17-20.</note>
-            <note xml:id="n574-1" target="#a574-1" n="574-1"><choice><reg/><orig>p. 574, n. 1</orig></choice>Hebrews xii. 16.</note>
-            <note xml:id="n574-2" target="#a574-2" n="574-2"><choice><reg/><orig>p. 574, n. 2</orig></choice>Exodus xx. 17.</note>
-            <note xml:id="n575-1" target="#a575-1" n="575-1"><choice><reg/><orig>p. 575, n. 1</orig></choice>Romans vii. 7. </note>
-            <note xml:id="n575-2" target="#a575-2" n="575-2"><choice><reg/><orig>p. 575, n. 2</orig></choice>St. Matthew v. 28.</note>
-            <note xml:id="n575-3" target="#a575-3" n="575-3"><choice><reg/><orig>p. 575, n. 3</orig></choice>2. Samuel xi. 2.</note>
-            <note xml:id="n576-1" target="#a576-1" n="576-1"><choice><reg/><orig>p. 576, n. 1</orig></choice>Psalm cxliv. 4.</note>
-            <note xml:id="n576-2" target="#a576-2" n="576-2"><choice><reg/><orig>p. 576, n. 2</orig></choice>Psalm cxlvi. 3.</note>
-            <note xml:id="n578-1" target="#a578-1" n="578-1"><choice><reg/><orig>p. 578, n. 1</orig></choice>Psalm xvi. 8.</note>
-            <note xml:id="n578-2" target="#a578-2" n="578-2"><choice><reg/><orig>p. 578, n. 2</orig></choice>Genesis xxxix. 10.</note>
-            <note xml:id="n578-3" target="#a578-3" n="578-3"><choice><reg/><orig>p. 578, n. 3</orig></choice>Hebrews vi. 19.</note>
-            <note xml:id="n579-1" target="#a579-1" n="579-1"><choice><reg/><orig>p. 579, n. 1</orig></choice>Genesis xxxix. 8.</note>
-            <note xml:id="n579-2" target="#a579-2" n="579-2"><choice><reg/><orig>p. 579, n. 2</orig></choice>1 Samuel ii. 25.</note>
-            <note xml:id="n580-1" target="#a580-1" n="580-1"><choice><reg/><orig>p. 580, n. 1</orig></choice>Genesis xxxix, 9.</note>
-            <note xml:id="n580-2" target="#a580-2" n="580-2"><choice><reg/><orig>p. 580, n. 2</orig></choice>Romans xiv. 22.</note>
-            <note xml:id="n580-3" target="#a580-3" n="580-3"><choice><reg/><orig>p. 580, n. 3</orig></choice>Exodus xxx. 14.</note>
-            <note xml:id="n584-1" target="#a584-1" n="584-1"><choice><reg/><orig>p. 584, n. 1</orig></choice>Romans vii. 4.</note>
-            <note xml:id="n584-2" target="#a584-2" n="584-2"><choice><reg/><orig>p. 584, n. 2</orig></choice>Romans vii. 5.</note>
-            <note xml:id="n584-3" target="#a584-3" n="584-3"><choice><reg/><orig>p. 584, n. 3</orig></choice>Romans vii. 6.</note>
-            <note xml:id="n585-1" target="#a585-1" n="585-1"><choice><reg/><orig>p. 585, n. 1</orig></choice>Romans vii. 7.</note>
-            <note xml:id="n586-1" target="#a586-1" n="586-1"><choice><reg/><orig>p. 586, n. 1</orig></choice>Romans vi. 12.</note>
-            <note xml:id="n586-2" target="#a586-2" n="586-2"><choice><reg/><orig>p. 586, n. 2</orig></choice>Romans vii. 1-3.</note>
-            <note xml:id="n587-1" target="#a587-1" n="587-1"><choice><reg/><orig>p. 587, n. 1</orig></choice>Romans vii. 4.</note>
-            <note xml:id="n587-2" target="#a587-2" n="587-2"><choice><reg/><orig>p. 587, n. 2</orig></choice>St. John viii. 36.</note>
-            <note xml:id="n587-3" target="#a587-3" n="587-3"><choice><reg/><orig>p. 587, n. 3</orig></choice>Romans vii. 6. </note>
-            <note xml:id="n587-4" target="#a587-4" n="587-4"><choice><reg/><orig>p. 587, n. 4</orig></choice>Galatians i. 12.</note>
-            <note xml:id="n588-1" target="#a588-1" n="588-1"><choice><reg/><orig>p. 588, n. 1</orig></choice>Romans vii. 2.</note>
-            <note xml:id="n588-2" target="#a588-2" n="588-2"><choice><reg/><orig>p. 588, n. 2</orig></choice>Romans vii. 4.</note>
-            <note xml:id="n589-1" target="#a589-1" n="589-1"><choice><reg/><orig>p. 589, n. 1</orig></choice>1 Corinthians xv. 45.</note>
-            <note xml:id="n589-2" target="#a589-2" n="589-2"><choice><reg/><orig>p. 589, n. 2</orig></choice>Romans vii. 2.</note>
-            <note xml:id="n589-3" target="#a589-3" n="589-3"><choice><reg/><orig>p. 589, n. 3</orig></choice>Romans vii. 4.</note>
-            <note xml:id="n590-1" target="#a590-1" n="590-1"><choice><reg/><orig>p. 590, n. 1</orig></choice>1 Corinthians vi. 18.</note>
-            <note xml:id="n590-2" target="#a590-2" n="590-2"><choice><reg/><orig>p. 590, n. 2</orig></choice>Romans vii, 4.</note>
-            <note xml:id="n590-3" target="#a590-3" n="590-3"><choice><reg/><orig>p. 590, n. 3</orig></choice>1 Corinthians vi. 13.</note>
-            <note xml:id="n590-4" target="#a590-4" n="590-4"><choice><reg/><orig>p. 590, n. 4</orig></choice>1 Corinthians vi. 15.</note>
-            <note xml:id="n592-1" target="#a592-1" n="592-1"><choice><reg/><orig>p. 592, n. 1</orig></choice>1 Corinthians vi. 15.</note>
-            <note xml:id="n593-1" target="#a593-1" n="593-1"><choice><reg/><orig>p. 593, n. 1</orig></choice>1 Corinthians vi. 15.</note>
-            <note xml:id="n593-2" target="#a593-2" n="593-2"><choice><reg/><orig>p. 593, n. 2</orig></choice>1 Corinthians vi. 18.</note>
-            <note xml:id="n593-3" target="#a593-3" n="593-3"><choice><reg/><orig>p. 593, n. 3</orig></choice>Exodus xxi. 25.</note>
-            <note xml:id="n594-1" target="#a594-1" n="594-1"><choice><reg/><orig>p. 594, n. 1</orig></choice>1 Corinthians vi. 18.</note>
-            <note xml:id="n594-2" target="#a594-2" n="594-2"><choice><reg/><orig>p. 594, n. 2</orig></choice>Leviticus xv. 16.</note>
-            <note xml:id="n594-3" target="#a594-3" n="594-3"><choice><reg/><orig>p. 594, n. 3</orig></choice>Leviticus iii. 9.</note>
-            <note xml:id="n595-1" target="#a595-1" n="595-1"><choice><reg/><orig>p. 595, n. 1</orig></choice>Leviticus xx. 10.</note>
-            <note xml:id="n595-2" target="#a595-2" n="595-2"><choice><reg/><orig>p. 595, n. 2</orig></choice>1 Corinthians vi. 9, 15, 16.</note>
-            <note xml:id="n595-3" target="#a595-3" n="595-3"><choice><reg/><orig>p. 595, n. 3</orig></choice>Leviticus xix. 2; 1 St. Peter i. 16.</note>
-         </noteGrp>
-      </body>
-   </text>
+            </div>
+            <noteGrp>
+                <note xml:id="n526-1" target="#a526-1" n="1">
+                    <choice>
+                        <reg/>
+                        <orig>p. 526, n. 1</orig>
+                    </choice>Compare Job xiv. 8, 9.</note>
+                <note xml:id="n528-1" target="#a528-1" n="2">
+                    <choice>
+                        <reg/>
+                        <orig>p. 528, n. 1</orig>
+                    </choice>St. Matthew v. 28.</note>
+                <note xml:id="n528-2" target="#a528-2" n="3">
+                    <choice>
+                        <reg/>
+                        <orig>p. 528, n. 2</orig>
+                    </choice>St Matthew v. 27.</note>
+                <note xml:id="n534-1" target="#a534-1" n="4">
+                    <choice>
+                        <reg/>
+                        <orig>p. 534, n. 1</orig>
+                    </choice>Proverbs xxx. 18-20.</note>
+                <note xml:id="n538-1" target="#a538-1" n="5">
+                    <choice>
+                        <reg/>
+                        <orig>p. 538, n. 1</orig>
+                    </choice>1 Corinthians vi. 19.</note>
+                <note xml:id="n544-1" target="#a544-1" n="6">
+                    <choice>
+                        <reg/>
+                        <orig>p. 544, n. 1</orig>
+                    </choice>Romans xii. 11.</note>
+                <note xml:id="n554-1" target="#a554-1" n="7">
+                    <choice>
+                        <reg/>
+                        <orig>p. 554, n. 1</orig>
+                    </choice>2 Corinthians iv. 16.</note>
+                <note xml:id="n558-1" target="#a558-1" n="8">
+                    <choice>
+                        <reg/>
+                        <orig>p. 558, n. 1</orig>
+                    </choice>Exodus xx. 14.</note>
+                <note xml:id="n561-1" target="#a561-1" n="9">
+                    <choice>
+                        <reg/>
+                        <orig>p. 561, n. 1</orig>
+                    </choice>Colossians iii. 5.</note>
+                <note xml:id="n561-2" target="#a561-2" n="10">
+                    <choice>
+                        <reg/>
+                        <orig>p. 561, n. 2</orig>
+                    </choice>1 Corinthians xv. 48.</note>
+                <note xml:id="n567-1" target="#a567-1" n="11">
+                    <choice>
+                        <reg/>
+                        <orig>p. 567, n. 1</orig>
+                    </choice>Ecclesiasticus xxiii. 19.</note>
+                <note xml:id="n569-1" target="#a569-1" n="12">
+                    <choice>
+                        <reg/>
+                        <orig>p. 569, n. 1</orig>
+                    </choice>1 Corinthians ix. 27.</note>
+                <note xml:id="n570-1" target="#a570-1" n="13">
+                    <choice>
+                        <reg/>
+                        <orig>p. 570, n. 1</orig>
+                    </choice>Judges vii. 3.</note>
+                <note xml:id="n571-1" target="#a571-1" n="14">
+                    <choice>
+                        <reg/>
+                        <orig>p. 571, n. 1</orig>
+                    </choice>Numbers xxv. 1.</note>
+                <note xml:id="n571-2" target="#a571-2" n="15">
+                    <choice>
+                        <reg/>
+                        <orig>p. 571, n. 2</orig>
+                    </choice>1 Corinthians x. 8.</note>
+                <note xml:id="n572-1" target="#a572-1" n="16">
+                    <choice>
+                        <reg/>
+                        <orig>p. 572, n. 1</orig>
+                    </choice>1 Corinthians x. 8.</note>
+                <note xml:id="n572-2" target="#a572-2" n="17">
+                    <choice>
+                        <reg/>
+                        <orig>p. 572, n. 2</orig>
+                    </choice>Hebrews xii. 16.</note>
+                <note xml:id="n572-3" target="#a572-3" n="18">
+                    <choice>
+                        <reg/>
+                        <orig>p. 572, n. 3</orig>
+                    </choice>1 Corinthians vi. 9. </note>
+                <note xml:id="n572-4" target="#a572-4" n="19">
+                    <choice>
+                        <reg/>
+                        <orig>p. 572, n. 4</orig>
+                    </choice>Ephesians v. 5.</note>
+                <note xml:id="n572-5" target="#a572-5" n="20">
+                    <choice>
+                        <reg/>
+                        <orig>p. 572, n. 5</orig>
+                    </choice>St. Matthew v. 28.</note>
+                <note xml:id="n572-6" target="#a572-6" n="21">
+                    <choice>
+                        <reg/>
+                        <orig>p. 572, n. 6</orig>
+                    </choice>St. James iv. 1. </note>
+                <note xml:id="n572-7" target="#a572-7" n="22">
+                    <choice>
+                        <reg/>
+                        <orig>p. 572, n. 7</orig>
+                    </choice>1 St. Peter iv. 12.</note>
+                <note xml:id="n572-8" target="#a572-8" n="23">
+                    <choice>
+                        <reg/>
+                        <orig>p. 572, n. 8</orig>
+                    </choice>Exodus xx. 17.</note>
+                <note xml:id="n573-1" target="#a573-1" n="24">
+                    <choice>
+                        <reg/>
+                        <orig>p. 573, n. 1</orig>
+                    </choice>Compare Judges vii. 17-20.</note>
+                <note xml:id="n574-1" target="#a574-1" n="25">
+                    <choice>
+                        <reg/>
+                        <orig>p. 574, n. 1</orig>
+                    </choice>Hebrews xii. 16.</note>
+                <note xml:id="n574-2" target="#a574-2" n="26">
+                    <choice>
+                        <reg/>
+                        <orig>p. 574, n. 2</orig>
+                    </choice>Exodus xx. 17.</note>
+                <note xml:id="n575-1" target="#a575-1" n="27">
+                    <choice>
+                        <reg/>
+                        <orig>p. 575, n. 1</orig>
+                    </choice>Romans vii. 7. </note>
+                <note xml:id="n575-2" target="#a575-2" n="28">
+                    <choice>
+                        <reg/>
+                        <orig>p. 575, n. 2</orig>
+                    </choice>St. Matthew v. 28.</note>
+                <note xml:id="n575-3" target="#a575-3" n="29">
+                    <choice>
+                        <reg/>
+                        <orig>p. 575, n. 3</orig>
+                    </choice>2. Samuel xi. 2.</note>
+                <note xml:id="n576-1" target="#a576-1" n="30">
+                    <choice>
+                        <reg/>
+                        <orig>p. 576, n. 1</orig>
+                    </choice>Psalm cxliv. 4.</note>
+                <note xml:id="n576-2" target="#a576-2" n="31">
+                    <choice>
+                        <reg/>
+                        <orig>p. 576, n. 2</orig>
+                    </choice>Psalm cxlvi. 3.</note>
+                <note xml:id="n578-1" target="#a578-1" n="32">
+                    <choice>
+                        <reg/>
+                        <orig>p. 578, n. 1</orig>
+                    </choice>Psalm xvi. 8.</note>
+                <note xml:id="n578-2" target="#a578-2" n="33">
+                    <choice>
+                        <reg/>
+                        <orig>p. 578, n. 2</orig>
+                    </choice>Genesis xxxix. 10.</note>
+                <note xml:id="n578-3" target="#a578-3" n="34">
+                    <choice>
+                        <reg/>
+                        <orig>p. 578, n. 3</orig>
+                    </choice>Hebrews vi. 19.</note>
+                <note xml:id="n579-1" target="#a579-1" n="35">
+                    <choice>
+                        <reg/>
+                        <orig>p. 579, n. 1</orig>
+                    </choice>Genesis xxxix. 8.</note>
+                <note xml:id="n579-2" target="#a579-2" n="36">
+                    <choice>
+                        <reg/>
+                        <orig>p. 579, n. 2</orig>
+                    </choice>1 Samuel ii. 25.</note>
+                <note xml:id="n580-1" target="#a580-1" n="37">
+                    <choice>
+                        <reg/>
+                        <orig>p. 580, n. 1</orig>
+                    </choice>Genesis xxxix, 9.</note>
+                <note xml:id="n580-2" target="#a580-2" n="38">
+                    <choice>
+                        <reg/>
+                        <orig>p. 580, n. 2</orig>
+                    </choice>Romans xiv. 22.</note>
+                <note xml:id="n580-3" target="#a580-3" n="39">
+                    <choice>
+                        <reg/>
+                        <orig>p. 580, n. 3</orig>
+                    </choice>Exodus xxx. 14.</note>
+                <note xml:id="n584-1" target="#a584-1" n="40">
+                    <choice>
+                        <reg/>
+                        <orig>p. 584, n. 1</orig>
+                    </choice>Romans vii. 4.</note>
+                <note xml:id="n584-2" target="#a584-2" n="41">
+                    <choice>
+                        <reg/>
+                        <orig>p. 584, n. 2</orig>
+                    </choice>Romans vii. 5.</note>
+                <note xml:id="n584-3" target="#a584-3" n="42">
+                    <choice>
+                        <reg/>
+                        <orig>p. 584, n. 3</orig>
+                    </choice>Romans vii. 6.</note>
+                <note xml:id="n585-1" target="#a585-1" n="43">
+                    <choice>
+                        <reg/>
+                        <orig>p. 585, n. 1</orig>
+                    </choice>Romans vii. 7.</note>
+                <note xml:id="n586-1" target="#a586-1" n="44">
+                    <choice>
+                        <reg/>
+                        <orig>p. 586, n. 1</orig>
+                    </choice>Romans vi. 12.</note>
+                <note xml:id="n586-2" target="#a586-2" n="45">
+                    <choice>
+                        <reg/>
+                        <orig>p. 586, n. 2</orig>
+                    </choice>Romans vii. 1-3.</note>
+                <note xml:id="n587-1" target="#a587-1" n="46">
+                    <choice>
+                        <reg/>
+                        <orig>p. 587, n. 1</orig>
+                    </choice>Romans vii. 4.</note>
+                <note xml:id="n587-2" target="#a587-2" n="47">
+                    <choice>
+                        <reg/>
+                        <orig>p. 587, n. 2</orig>
+                    </choice>St. John viii. 36.</note>
+                <note xml:id="n587-3" target="#a587-3" n="48">
+                    <choice>
+                        <reg/>
+                        <orig>p. 587, n. 3</orig>
+                    </choice>Romans vii. 6. </note>
+                <note xml:id="n587-4" target="#a587-4" n="49">
+                    <choice>
+                        <reg/>
+                        <orig>p. 587, n. 4</orig>
+                    </choice>Galatians i. 12.</note>
+                <note xml:id="n588-1" target="#a588-1" n="50">
+                    <choice>
+                        <reg/>
+                        <orig>p. 588, n. 1</orig>
+                    </choice>Romans vii. 2.</note>
+                <note xml:id="n588-2" target="#a588-2" n="51">
+                    <choice>
+                        <reg/>
+                        <orig>p. 588, n. 2</orig>
+                    </choice>Romans vii. 4.</note>
+                <note xml:id="n589-1" target="#a589-1" n="52">
+                    <choice>
+                        <reg/>
+                        <orig>p. 589, n. 1</orig>
+                    </choice>1 Corinthians xv. 45.</note>
+                <note xml:id="n589-2" target="#a589-2" n="53">
+                    <choice>
+                        <reg/>
+                        <orig>p. 589, n. 2</orig>
+                    </choice>Romans vii. 2.</note>
+                <note xml:id="n589-3" target="#a589-3" n="54">
+                    <choice>
+                        <reg/>
+                        <orig>p. 589, n. 3</orig>
+                    </choice>Romans vii. 4.</note>
+                <note xml:id="n590-1" target="#a590-1" n="55">
+                    <choice>
+                        <reg/>
+                        <orig>p. 590, n. 1</orig>
+                    </choice>1 Corinthians vi. 18.</note>
+                <note xml:id="n590-2" target="#a590-2" n="56">
+                    <choice>
+                        <reg/>
+                        <orig>p. 590, n. 2</orig>
+                    </choice>Romans vii, 4.</note>
+                <note xml:id="n590-3" target="#a590-3" n="57">
+                    <choice>
+                        <reg/>
+                        <orig>p. 590, n. 3</orig>
+                    </choice>1 Corinthians vi. 13.</note>
+                <note xml:id="n590-4" target="#a590-4" n="58">
+                    <choice>
+                        <reg/>
+                        <orig>p. 590, n. 4</orig>
+                    </choice>1 Corinthians vi. 15.</note>
+                <note xml:id="n592-1" target="#a592-1" n="59">
+                    <choice>
+                        <reg/>
+                        <orig>p. 592, n. 1</orig>
+                    </choice>1 Corinthians vi. 15.</note>
+                <note xml:id="n593-1" target="#a593-1" n="60">
+                    <choice>
+                        <reg/>
+                        <orig>p. 593, n. 1</orig>
+                    </choice>1 Corinthians vi. 15.</note>
+                <note xml:id="n593-2" target="#a593-2" n="61">
+                    <choice>
+                        <reg/>
+                        <orig>p. 593, n. 2</orig>
+                    </choice>1 Corinthians vi. 18.</note>
+                <note xml:id="n593-3" target="#a593-3" n="62">
+                    <choice>
+                        <reg/>
+                        <orig>p. 593, n. 3</orig>
+                    </choice>Exodus xxi. 25.</note>
+                <note xml:id="n594-1" target="#a594-1" n="63">
+                    <choice>
+                        <reg/>
+                        <orig>p. 594, n. 1</orig>
+                    </choice>1 Corinthians vi. 18.</note>
+                <note xml:id="n594-2" target="#a594-2" n="64">
+                    <choice>
+                        <reg/>
+                        <orig>p. 594, n. 2</orig>
+                    </choice>Leviticus xv. 16.</note>
+                <note xml:id="n594-3" target="#a594-3" n="65">
+                    <choice>
+                        <reg/>
+                        <orig>p. 594, n. 3</orig>
+                    </choice>Leviticus iii. 9.</note>
+                <note xml:id="n595-1" target="#a595-1" n="66">
+                    <choice>
+                        <reg/>
+                        <orig>p. 595, n. 1</orig>
+                    </choice>Leviticus xx. 10.</note>
+                <note xml:id="n595-2" target="#a595-2" n="67">
+                    <choice>
+                        <reg/>
+                        <orig>p. 595, n. 2</orig>
+                    </choice>1 Corinthians vi. 9, 15, 16.</note>
+                <note xml:id="n595-3" target="#a595-3" n="68">
+                    <choice>
+                        <reg/>
+                        <orig>p. 595, n. 3</orig>
+                    </choice>Leviticus xix. 2; 1 St. Peter i. 16.</note>
+            </noteGrp>
+        </body>
+    </text>
 </TEI>

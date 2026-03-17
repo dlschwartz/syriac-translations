@@ -3,66 +3,67 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8865">Discourse 10: On Gluttony</title>
-            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
-            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-               >Daniel L. Schwartz</editor>
-            <respStmt>
-               <resp>Data architecture and encoding by</resp>
-               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
-                  >Daniel L. Schwartz</name>
-            </respStmt>
-            <respStmt>
-               <resp>OCR cleaning and initial markup of persons and places by</resp>
-               <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8865">Discourse 10: On Gluttony</title>
+                <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title>
+                <!-- series URI needed -->
+                <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <respStmt>
+                    <resp>Data architecture and encoding by</resp>
+                    <name type="person"
+                          ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>OCR cleaning and initial markup of persons and places by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#echrisanthus">Evangelos
                   Chrisanthus</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <seriesStmt>
-            <title><!--The Syriac Library--></title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <seriesStmt>
-            <title>The Discourses of Philoxenus of Mabbug</title>
-            <editor role="general"
-               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <notesStmt>
-            <relatedItem type="previous">
-               <ptr target="https://syriac-library/8864"/>
-            </relatedItem>
-            <relatedItem type="next">
-               <ptr target="https://syriac-library/8866"/>
-            </relatedItem>
-         </notesStmt>
-         <sourceDesc>
-            <p>
-               <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <seriesStmt>
+                <title>The Discourses of Philoxenus of Mabbug</title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+                <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <notesStmt>
+                <relatedItem type="previous">
+                    <ptr target="https://syriac-library/8864"/>
+                </relatedItem>
+                <relatedItem type="next">
+                    <ptr target="https://syriac-library/8866"/>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
                translated by E. A. Wallis Budge, Vol. 2, London: Asher &amp; Co., 1894, pp. 337-402. </p>
-            <p>Published in 1894, this translation is in the public domain.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="section" xml:id="section-10" n="10">
-            <head type="main">The Tenth Discourse: which is against the lust of the belly, and which bringeth an
+                <p>Published in 1894, this translation is in the public domain.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" xml:id="section-10" n="10">
+                <head type="main">The Tenth Discourse: which is against the lust of the belly, and which bringeth an
                accusation against greediness, and which revealeth and sheweth all its forms, and
                which also blameth those who make their lives subject unto this passion, and which
                maketh known that it is impossible for those who labour in bondage unto their lusts
                to draw nigh unto the knowledge and working of any of the triumphs of virtue.</head>
-            <ab xml:id="section-10.1" n="1">Now although all the evil passions and the service of the lusts are abominated and
+                <ab xml:id="section-10.1" n="1">Now although all the evil passions and the service of the lusts are abominated and
                detested by the word of Divine knowledge, the filthy passion of the lust of the
                belly, which is wont to make those men who are subject thereto like unto beasts, is
                more abominated and detested than they all, because it taketh away from them the
@@ -134,8 +135,7 @@
                and the knowledge which is received from the world need moderation in food—which if
                it be taken in superabundance becometh an obstacle unto them—how much more doth
                superfluity of food become an obstacle unto the things which are fulfilled in the
-               spirit?]<ptr type="noteAnchor" target="#n340-1"/> And so also is it with those who receive <pb type="external"
-                  n="357"/>instruction, and who exercise themselves in the endurance of the things
+               spirit?]<ptr type="noteAnchor" target="#n340-1" n="1"/> And so also is it with those who receive <pb type="external" n="357"/>instruction, and who exercise themselves in the endurance of the things
                   <pb n="341"/>of the world; and others also who possess the knowledge of the world
                have themselves need of endurance. There is no man who hath drawn nigh unto learning,
                or unto the writing of books, or unto oratory, who is not sure that superfluity of
@@ -152,13 +152,11 @@
                abstinence, it gaineth association with the spirituality thereof; and so long as a
                too great weight [of food] be not laid thereupon, it acquireth the lightness
                wherewith it participateth in the lightness of the soul. Now therefore by a wise
-               dispensation a portion of the spirit was placed in a portion of the body, <pb
-                  type="external" n="358"/>and as the body becometh heavy with meats, it draweth and
+               dispensation a portion of the spirit was placed in a portion of the body, <pb type="external" n="358"/>and as the body becometh heavy with meats, it draweth and
                bringeth down the soul thereto, and it hangeth its own weight upon it, and it tieth
                and fettereth the wings of the thoughts of the soul; but if the life of the body be
                maintained constantly by a sparing use of food, it becometh light, and purified, and
-               refined, and the heaviness of its nature dwindleth away and it maketh <pb n="342"
-               />bright the soul which is in it, and maketh it glad, and is, moreover, itself
+               refined, and the heaviness of its nature dwindleth away and it maketh <pb n="342"/>bright the soul which is in it, and maketh it glad, and is, moreover, itself
                obedient readily unto its will. And because it is light and refined the soul leadeth
                it to whatsoever it desireth, and the body resisteth not the soul, and its heaviness
                doth not prevent the soul from stablishing it in the country which it seeketh. For
@@ -166,19 +164,19 @@
                will, because they are contrary to each other in their natures, and also in their
                wills, according to the word of <persName>the Apostle</persName>, who said, <quote>The body lusteth for that
                which injureth the spirit, and the spirit lusteth for that which injureth the body;
-               and the two are contrary each to each.</quote><ptr type="noteAnchor" target="#n342-1"/> Now if, according to the word of the
+               and the two are contrary each to each.</quote>
+                    <ptr type="noteAnchor" target="#n342-1" n="2"/> Now if, according to the word of the
                wise <persName>Apostle</persName>, all the lusts of the body are contrary to the soul, the lust of the
                belly must be more [contrary] than they all, because it is the door of all lusts, and
                among them all there is none so heavy as it is. For as a weight which is light and
                volatile by nature, if suspended, inclineth downwards, even so is this lust of the
                belly, for it is composed of moisture and weight, and although the body naturally
                possesseth weight—for its nature is so to do—yet by a superabundance of food, other
-               weight is added thereunto, and when weight is added unto weight, <pb type="external"
-                  n="359"/>and body is doubled upon body, that is to say, the body of food upon the
+               weight is added thereunto, and when weight is added unto weight, <pb type="external" n="359"/>and body is doubled upon body, that is to say, the body of food upon the
                body of nature, the weight upon the soul increaseth, and the mistress becometh a
                handmaid in subjection; for the soul cannot henceforth rule over the body like a free
                thing, but it beareth the weight thereof like a slave.</ab>
-            <ab xml:id="section-10.2" n="2">And the lust of the belly is also contrary to <pb n="343"/>loving-kindness, because
+                <ab xml:id="section-10.2" n="2">And the lust of the belly is also contrary to <pb n="343"/>loving-kindness, because
                everything which is distributed by the gift thereof it turneth towards itself, and
                maketh it its own; and if it should happen that it would perform an act of
                loving-kindness—which is impossible—the thought of benevolence never moveth in it
@@ -226,7 +224,7 @@
                after, and are not satisfied, and they ask for and seek after all the meats which are
                remote from them, if they had a belly as large as their desire what would they not
                do?</ab>
-            <ab xml:id="section-10.3" n="3">Now therefore the glutton is worse than any wild animal, for the beast, when it hath
+                <ab xml:id="section-10.3" n="3">Now therefore the glutton is worse than any wild animal, for the beast, when it hath
                filled its belly, leaveth what remains of its food in the manger, and it knoweth not
                how to keep it for another time or for another day; but with the glutton it is not
                so, for, because his lust is not satisfied when his belly is filled, when he hath
@@ -244,8 +242,7 @@
                concerning her with his inner man, and with his outer man he followeth her about
                earnestly; but like a mistress who is to be ministered unto, she is not satisfied;
                and like <placeName>Sheol</placeName> she received stinkingness, and is not filled; and like the fire she
-               receiveth fuel of meats, and she sayeth not, <quote>Enough;</quote> and like the earth she <pb
-                  n="346"/>drinketh, and is not satisfied; and like the eye, she lusteth for
+               receiveth fuel of meats, and she sayeth not, <quote>Enough;</quote> and like the earth she <pb n="346"/>drinketh, and is not satisfied; and like the eye, she lusteth for
                everything, but is not filled with anything; and the glutton wisheth that he had
                other members which would be sufficient to minister unto the iniquitous mistress
                which he hath gotten. The gaze of the eye of the glutton is also fixed upon him that
@@ -278,8 +275,7 @@
                [them], and feedeth [them], and worketh [them], and all wickedness is perfected
                therefrom; with it a man beginneth the path of the left hand, and it becometh the
                first step which a man taketh outside the path of that which is right. For, as
-               abstinence, that is to say the fasting from all meats, is the beginning <pb
-                  type="external" n="364"/>of the way of the strife of righteousness, even so also
+               abstinence, that is to say the fasting from all meats, is the beginning <pb type="external" n="364"/>of the way of the strife of righteousness, even so also
                is the lust of the belly the beginning of works of shame. And if thou wilt look with
                the eye of knowledge, O disciple, thou wilt see that all vices, one after the other,
                follow thereafter. For first of all it darkeneth the understanding from the
@@ -293,7 +289,7 @@
                service of things which are fair. And if a man doeth that which is good, and is not
                mindful of God when he doeth it, his good deed is not of God, but of that which his
                memory brought into his mind when he did it.</ab>
-            <ab xml:id="section-10.4" n="4">Behold then, to this virtue which is the beginning of all virtues—I speak now of the
+                <ab xml:id="section-10.4" n="4">Behold then, to this virtue which is the beginning of all virtues—I speak now of the
                remembrance of God—the lust of the belly is contrary, in addition also to its being
                the beginning of all wickedness, For as the remembrance of God standeth at the
                beginning of the path of virtues, even so also doth the lust of the belly stand at
@@ -307,11 +303,10 @@
                the virtues which are not built upon the remembrance of God, and they abide not in
                the firmness of their fabric, because there is no sure foundation to sustain
                them.</ab>
-            <ab xml:id="section-10.5" n="5">Now gluttony and the filling of the belly first of all remove the remembrance of God
+                <ab xml:id="section-10.5" n="5">Now gluttony and the filling of the belly first of all remove the remembrance of God
                from the soul, and when the foundation hath been uprooted, all the virtues are
                uprooted therewith. And gluttony is also the contrary of fasting, it is the destroyer
-               of prayer, it is that which polluteth the purity of the thoughts, it <pb n="349"
-               />obscureth the understanding, and darkeneth the mind, and defileth the intelligence,
+               of prayer, it is that which polluteth the purity of the thoughts, it <pb n="349"/>obscureth the understanding, and darkeneth the mind, and defileth the intelligence,
                and abrogateth instruction, and killeth knowledge. It is the bane of wisdom, and
                leadeth astray the memory, it depicteth phantoms, and is the mother of things which
                are imagined, it is the drunkenness of the soul, and it abaseth the mind, it
@@ -340,8 +335,7 @@
                the exactor of tribute from all, the oppressor of all, the nurse of fear, the
                destroyer of courage, the cause of sorrow and sickness, the food of hardness of
                heart, and the consort of the gluttonous dog which returneth to its vomit. It is
-               abounding in diseases, it is the possessor of sicknesses, the withholder <pb
-                  type="external" n="367"/>of the produce of labours, the first cause of straying
+               abounding in diseases, it is the possessor of sicknesses, the withholder <pb type="external" n="367"/>of the produce of labours, the first cause of straying
                away from God, and the worshipper of idols. And if a man were to collect ten thousand
                times ten thousand of such names as these, and were to apply them unto the lust of
                the belly, they would be too few [to describe] it, and it would not have been called
@@ -392,7 +386,7 @@
                mysteries of God, and the word of God, which is the sustenance of the soul, because
                it is not easy for him to blaspheme these things outwardly I say, he blasphemeth
                those who do them, and he thereby poureth contempt upon glorious things.</ab>
-            <ab xml:id="section-10.6" n="6">And he doth also blaspheme them openly, for he called the discoursing upon faith
+                <ab xml:id="section-10.6" n="6">And he doth also blaspheme them openly, for he called the discoursing upon faith
                <quote>prying,</quote> and the quest of truth <quote>debate,</quote> and the doctrine of the Holy Books
                <quote>superfluous seeking after proofs;</quote> for behold, he is not aware that he calleth
                virtues vices, and that he nameth as abominations things which are comely. Zeal for
@@ -402,8 +396,7 @@
                him, saying, <quote>Stand up, and shew zeal for God's sake,</quote> he crieth out to him, <quote>I am
                not intended for this, and I do not subject myself to such like things; for these are
                vain things to me, and I do not devote my attention to vain things.</quote> And if he be
-               asked by a man, <quote>What dost thou desire?</quote> he returneth <pb type="external" n="370"
-               />answer shamelessly, <quote>To eat what God hath provided for us, and to lead a quiet
+               asked by a man, <quote>What dost thou desire?</quote> he returneth <pb type="external" n="370"/>answer shamelessly, <quote>To eat what God hath provided for us, and to lead a quiet
                life,</quote> that is to say, to minister unto our bellies, and to forsake faith—for this is
                the meaning of the words—although we may dress them in a humbler garb than this. And
                he is not ashamed to seek for the bread of God, and to deny the truth of His
@@ -416,15 +409,17 @@
                faith is, is thought by him to be faith, and he saith, <quote>It is not necessary for us to
                learn anything else, for it is sufficient for us to believe and to be silent;</quote> and
                being an unbeliever, he taketh refuge in faith, not because he loveth it, but because
-               he is fond of his belly, and loveth himself. He <choice><sic>quieteth</sic><corr>quitteth</corr></choice> the course of
+               he is fond of his belly, and loveth himself. He <choice>
+                        <sic>quieteth</sic>
+                        <corr>quitteth</corr>
+                    </choice> the course of
                faith, that the quest of his lusts may go forward; outwardly his speech is for
                truth's sake, but inwardly he speaketh against the truth, and his contention is on
                   <pb n="354"/>behalf of himself. Where he is called to shew forth earnestness, he
                bringeth forward the life of contemplation into the midst [as an excuse], and where
                zeal and courage for faith's sake are demanded, he teacheth and exhorteth every man
                to lead a quiet life unto himself. If a healthy word is let fall he goeth to sleep,
-               but if baleful converse ariseth he waketh himself up; if <pb type="external" n="371"
-               />discourses concerning the interpretations of Scripture enter in, he slumbereth, but
+               but if baleful converse ariseth he waketh himself up; if <pb type="external" n="371"/>discourses concerning the interpretations of Scripture enter in, he slumbereth, but
                if riddles, and idle stories, and foolish parables of the world, and the foolish
                babbling of old women are mooted, behold he is ready and is the first to repeat them,
                and he is prepared and hath the habit to be the first to say them; for one knoweth
@@ -438,14 +433,12 @@
                things which he loveth; and to high and to low the story which he tells is of the
                lusts of his belly, and of the pleasures of his body, for he neither knoweth nor
                perceiveth that there existeth anything else except the service of his belly.</ab>
-            <ab xml:id="section-10.7" n="7">Now therefore the glutton beareth a resemblance unto wild beasts in all his ways and
-               manners, but his soul is, moreover, even more degraded and debased than <pb n="355"
-               />theirs. For the beasts were created by their Maker to do two things: that
+                <ab xml:id="section-10.7" n="7">Now therefore the glutton beareth a resemblance unto wild beasts in all his ways and
+               manners, but his soul is, moreover, even more degraded and debased than <pb n="355"/>theirs. For the beasts were created by their Maker to do two things: that
                sustaining their lives by their food, they should do work and service for the human
                race; but the glutton eateth and worketh not, and although he is diligent at the
                table, he is useless for every kind of work of excellence. The soul which ministereth
-               unto the belly feeleth not God, because it is asleep unto <pb type="external" n="372"
-               />all thoughts of knowledge, and unto the meditation of God, for the knowledge of the
+               unto the belly feeleth not God, because it is asleep unto <pb type="external" n="372"/>all thoughts of knowledge, and unto the meditation of God, for the knowledge of the
                soul springeth from the lightness of the senses and of members of the body, and the
                lightness of the body ariseth from the sparing use of food; but it is well known that
                the glutton is bowed down beneath two things, the thick darkness of the thoughts and
@@ -462,8 +455,8 @@
                the aim with which thou eatest, neither do they satisfy their lusts by their food;
                for they have not made themselves slaves of their belly, like unto thee, but they
                take food for their bare wants only. </ab>
-            <pb n="356"/>
-            <ab xml:id="section-10.8" n="8">And thou must not deprive them even of the food which they abase themselves to eat
+                <pb n="356"/>
+                <ab xml:id="section-10.8" n="8">And thou must not deprive them even of the food which they abase themselves to eat
                for want's sake, but consider also their abstinence, and look closely into the
                protracted period of their self-denial, for they eat not to fulfil lust, but for
                need's sake. That a man eateth for lust's sake is one thing, and that he eateth for
@@ -484,11 +477,10 @@
                him according to his own will, because the works by which it is known that the soul
                existeth in him are not found with him, and therefore the soul of the glutton maketh
                accusation against him and murmureth against him, even though he perceiveth not its
-               murmurings, because he is dead thereunto. For as a living body may cleave <pb n="357"
-               />unto a dead body perceiving it not, even so the soul of the glutton cleaveth unto
+               murmurings, because he is dead thereunto. For as a living body may cleave <pb n="357"/>unto a dead body perceiving it not, even so the soul of the glutton cleaveth unto
                his body while he perceiveth it not, and whoso liveth unto his lusts only, and not
                unto the soul, is a corpse which is borne and carried out to be buried.</ab>
-            <ab xml:id="section-10.9" n="9">And although the passions, as I have already said, deserve blame by the word of
+                <ab xml:id="section-10.9" n="9">And although the passions, as I have already said, deserve blame by the word of
                righteousness, <pb type="external" n="374"/>yet this unseemly passion deserveth blame
                most of all, not only because it is contrary unto knowledge, but because it is also
                the enemy of God. The man, who hath sunk into the useless life of the lust of the
@@ -500,14 +492,13 @@
                jest in speech at the vice of the lust of the belly cannot, I think, be found,
                especially one who has not had experience of the passions thereof; for fasting is its
                foe, and the report of abstinence and self-denial terrifieth and stupefieth it.</ab>
-            <ab xml:id="section-10.10" n="10">The glutton liveth for nothing except only to lead a life like unto that of the
+                <ab xml:id="section-10.10" n="10">The glutton liveth for nothing except only to lead a life like unto that of the
                beasts, and although he is a beast in very deed, if a man calleth him by this name,
                he is wrathful, and the fool doth not understand that that which another man sayeth
                of him in words, is found to exist in him in very deed; it is not another who abuseth
                him, but he himself is the abuser, for when opprobrious words are removed from him,
                he himself is the root of his own disgrace. Whom can this wretched man blame? and how
-               shall he chide those who speak <pb n="358"/>against him? For behold, he hath set <pb
-                  type="external" n="375"/>himself in the midst of the community to be the subject
+               shall he chide those who speak <pb n="358"/>against him? For behold, he hath set <pb type="external" n="375"/>himself in the midst of the community to be the subject
                of the discourse of others, for every man meditateth upon him, and every man speaketh
                about him; one shooteth out the lip, and another winketh with his eye, and another
                pointeth [at him] with his finger, and others whisper and repeat stories of his lax
@@ -538,7 +529,7 @@
                tremble; and the vessel of the person of the glutton breaketh up and becometh old
                before its time, by reason of the superfluous weights which he maketh it to
                carry.</ab>
-            <ab xml:id="section-10.11" n="11">Now the sicknesses which are born from an overabundance of food are many, and cannot
+                <ab xml:id="section-10.11" n="11">Now the sicknesses which are born from an overabundance of food are many, and cannot
                be counted, but asceticism doth not make in the body any sickness like unto that
                which gluttony produceth. And gluttons <quote>that they may not fall sick,</quote> as they say,
                devote themselves unto meats, and the fools do not perceive that that from which they
@@ -550,8 +541,7 @@
                testifieth, and they, that is to say their learning, or art, which hath been
                discovered for the stablishing of the body, know better than all other arts, that the
                health and sickness of the body arise from the food, <pb type="external" n="377"/>and
-               if they be asked, they will always advise sparingness in the use of meat, and in <pb
-                  n="360"/>addition to this also they will advise that the food of a man should be
+               if they be asked, they will always advise sparingness in the use of meat, and in <pb n="360"/>addition to this also they will advise that the food of a man should be
                meagre, and that he should guard against drinking wine freely. And if they allow a
                man to drink wine for need's sake they break the strength thereof with much water,
                and then give it to him to drink. And they command a man very fully to beware of
@@ -563,8 +553,9 @@
                strengthener of the body.</quote> And this [passage] also is written in their works: <quote>Meat
                is the cause of all the diseases of the body, and though by chance they may be
                produced from other causes, if thou increasest [the use of] meat it becometh a nurse
-               unto them, and preventeth wholly the benefits of the art of the physician.</quote></ab>
-            <ab xml:id="section-10.12" n="12">And in addition to the words of the physicians, it is right for us, like wise men, to
+               unto them, and preventeth wholly the benefits of the art of the physician.</quote>
+                </ab>
+                <ab xml:id="section-10.12" n="12">And in addition to the words of the physicians, it is right for us, like wise men, to
                understand from experience, that the cause of all wickedness, and of the pains and
                sicknesses of the body, ariseth from superfluity of food. And if thou wishest,
                consider carefully the rich, and the poor, and those who lead a quiet life, and those
@@ -575,7 +566,7 @@
                those who have rent their bellies by <pb n="361"/>overeating? is it not those who,
                before they have digested and emptied themselves of the food which they have just
                eaten, hasten after more for gluttony's sake?</ab>
-            <ab xml:id="section-10.13" n="13">And theirs are sore and difficult sicknesses, and these are the wages which their
+                <ab xml:id="section-10.13" n="13">And theirs are sore and difficult sicknesses, and these are the wages which their
                gluttony giveth unto them, and they deserve to receive this reward from that mistress
                of iniquity whom they serve. They have pains in the hands, and pains in the legs;
                they have the sores and ulcers which arise from superfluity of food; they have
@@ -591,11 +582,10 @@
                all hours; but overeating overcometh all these beneficial means, and createth for
                them in their bodies severe pains, <pb type="external" n="379"/>and sore sicknesses,
                which it is difficult even for wise physicians to heal.</ab>
-            <ab xml:id="section-10.14" n="14">Now the poor man, who passeth his life in labour and weariness, possesseth health of
+                <ab xml:id="section-10.14" n="14">Now the poor man, who passeth his life in labour and weariness, possesseth health of
                body, and his body is light and ready for any piece of work, and there hangeth not
                therein the weight of superabundance. And if by chance, in ignorance he eateth
-               immoderately of his meagre fare, the toil of his labour receiveth the <pb n="362"
-               />weight of his food immediately, and his labour becometh unto him a constant
+               immoderately of his meagre fare, the toil of his labour receiveth the <pb n="362"/>weight of his food immediately, and his labour becometh unto him a constant
                physician, wherefrom, without the intervention of medicines, he receiveth healing.
                And what physician knoweth so well how to heal the body as the toil of labour? and
                besides this labour, without expenses and without medicines—not like a
@@ -603,7 +593,7 @@
                And labour is the physician and the medicine, and the bandager and the bandage, and
                the healer and the medicine which healeth, and from it cometh that which is
                beneficial, and in it is the healing of all the members.</ab>
-            <ab xml:id="section-10.15" n="15">Now in this labour, from which fleeth sluggishness by reason of the love of luxuries,
+                <ab xml:id="section-10.15" n="15">Now in this labour, from which fleeth sluggishness by reason of the love of luxuries,
                poverty findeth healing. Now I do not say that pains never come unto the poor, nor
                that sicknesses never come [in the train of] labours and fatigues, but I do say that
                the pains of the rich are many and are difficult to heal, because they are idle all
@@ -627,22 +617,21 @@
                reason of his gluttony destroyeth the members of his body is an associate of the
                murderer, and he is the consort of a destroying thief, and that which is written in
                the Law, <quote>Everyone who slayeth shall be slain, and whosoever cutteth off a member of
-               his neighbour, one of his members shall be cut off,</quote><ptr type="noteAnchor" target="#n363-1"/> applieth unto him. Now
+               his neighbour, one of his members shall be cut off,</quote>
+                    <ptr type="noteAnchor" target="#n363-1" n="3"/> applieth unto him. Now
                the glutton destroyeth his own members, and little by little he maketh to perish and
                consumeth the power of his body and of his members, and whosoever ruineth the fair
                creation of God, and throweth down the building of his body which the will of the
-               Architect builded aforetime, bringeth together for every reason punishments <pb
-                  type="external" n="381"/>upon himself, according to the word of righteousness,
+               Architect builded aforetime, bringeth together for every reason punishments <pb type="external" n="381"/>upon himself, according to the word of righteousness,
                which was uttered before he had transgressed the command of God, Who had commanded
                man not to become a servant unto his lusts. And again, he is impeded [in doing] fair
                things, and in the service of all virtues, which the Holy Books exhort us continually
                to do; and again, he of his own freewill driveth out of himself the remembrance of
-               spiritual things; and again, he rejecteth lovingkindness to the poor; and his <pb
-                  n="364"/>gluttony stirreth him up to go forth therefrom unto oppression; and
+               spiritual things; and again, he rejecteth lovingkindness to the poor; and his <pb n="364"/>gluttony stirreth him up to go forth therefrom unto oppression; and
                again, together with these things, he with his own hands ruineth the fair building,
                and lusts destroy the members of the creation of God which He created in His grace
                for the service of His will.</ab>
-            <ab xml:id="section-10.16" n="16">See then, O glutton, the cause of thy being framed, and tremble before God, and waste
+                <ab xml:id="section-10.16" n="16">See then, O glutton, the cause of thy being framed, and tremble before God, and waste
                not thyself; for there is another hope which is not seen, and why is thy hope bound
                up in thy belly? There is another spiritual food, then why dost thou depart after
                vain meats? There is a table of <persName>Christ</persName> which is promised unto His friends, then why
@@ -678,8 +667,8 @@
                thy harp. Thy Lord loved thee so much that He gave thee all this, and also that thou
                shouldst eat, yet thou for love of Him wilt not make thyself to abstain from
                contemptible meats!</ab>
-            <pb type="external" n="383"/>
-            <ab xml:id="section-10.17" n="17">The Living One died, and was buried, that He might make thee to live, yet thou hast
+                <pb type="external" n="383"/>
+                <ab xml:id="section-10.17" n="17">The Living One died, and was buried, that He might make thee to live, yet thou hast
                made thyself a grave for meats! He had no pity upon His own life, but gave it unto
                death for thy life, yet thou wilt not cause thyself to acquire a little forbearance
                for love of Him! O degraded one, consider the life which hath <pb n="366"/>been
@@ -705,8 +694,8 @@
                and again clotheth himself with his laxity, like a garment above a garment, and he
                that is fast held by the lust of his belly looketh upon him, and tarrieth the more
                with the object of his love.</ab>
-            <pb n="367"/>
-            <ab xml:id="section-10.18" n="18">Now those who are athletes and ascetics lose thereby, because they are made to
+                <pb n="367"/>
+                <ab xml:id="section-10.18" n="18">Now those who are athletes and ascetics lose thereby, because they are made to
                stumble, and his affair leadeth them to the discourse which they love not. For on all
                sides he stirreth up war against them, either because they will not degrade
                themselves at the sight of his laxity and become like unto him, or because at the
@@ -723,13 +712,12 @@
                and in his old age the devouring of food and empty conversations. He not only hateth
                the doing of good works, but even hearing it repeated, and not only is the doing of
                them heavy upon him, but also speech concerning them if he heareth it. Therefore if a
-               man repeateth to him the triumph of the saints, <pb type="external" n="385"
-               />immediately sleepiness and gaping lay hold upon him, and his whole body beareth the
+               man repeateth to him the triumph of the saints, <pb type="external" n="385"/>immediately sleepiness and gaping lay hold upon him, and his whole body beareth the
                weight of listlessness, and he sheweth forth the signs of the deadness of his soul in
                the stretching of the limbs and in the turning about of his body; and if he is able
                to do so he goeth and he leaveth [the <pb n="368"/>narrator] and departeth, and if
                not, he immediately goeth to sleep where he is.</ab>
-            <ab xml:id="section-10.19" n="19">And the soul of the glutton is like unto a dog, and rightly should he be called by
+                <ab xml:id="section-10.19" n="19">And the soul of the glutton is like unto a dog, and rightly should he be called by
                the name thereof; for as a dog sleepeth through all things, and the converse and
                speech of men are alien things in his hearing, and only the sound of the platter and
                the sight of the food wake him up, even so also like him is the glutton sunk in the
@@ -739,14 +727,13 @@
                and immediately his soul rouseth up itself, and his thoughts are roused, and his body
                becometh straightway active, and he leapeth to the speech which he loveth, like a dog
                to the beckoning [of his master].</ab>
-            <ab xml:id="section-10.20" n="20">Now therefore by such names as these is it right that the glutton should be called,
+                <ab xml:id="section-10.20" n="20">Now therefore by such names as these is it right that the glutton should be called,
                that he may hear his names and be ashamed of his lust; for since he walloweth like a
                pig in the mire of lusts it is fitting for him to be called by its name. And because,
                like a dog which rouseth itself at the sound of the platter, discourses concerning
                the belly stir him up, he is fittingly also called <quote>dog;</quote> and because, like a beast
                to the manger, he runneth swiftly to the table, rightly is he called <quote>beast;</quote> and
-               because, like a wild beast, he is wanting in all the conversations of wisdom <pb
-                  type="external" n="386"/>and knowledge, and liveth unto his body only, he is
+               because, like a wild beast, he is wanting in all the conversations of wisdom <pb type="external" n="386"/>and knowledge, and liveth unto his body only, he is
                rightly called by that name which is applicable to him by reason of his works. And if
                there existed other names which were more disgraceful and loathsome than these, they
                would be suitably applied unto him, without <pb n="369"/>causing any disgrace to the
@@ -758,7 +745,7 @@
                man who runneth after that which is despicable, who shall praise? And the man who
                gathereth together upon himself mockery and abominable speech, unto whom more than
                himself should his fair name be a care?</ab>
-            <ab xml:id="section-10.21" n="21">Now therefore, even though I have spoken these things, it is right for me to speak
+                <ab xml:id="section-10.21" n="21">Now therefore, even though I have spoken these things, it is right for me to speak
                further and make manifest the behaviour of gluttons that they may be recognized by
                all men of discretion, and be properly held in contempt, and be despised by all those
                who see them; and these are the manners and customs of him that is subject unto his
@@ -770,8 +757,7 @@
                and his [former] praises of his friend turn <pb type="external" n="387"/>into blame,
                because his love is bound up in his belly. Every one who ministereth thereto is his
                friend, and whosoever payeth no heed thereto appeareth to him to be an enemy; and
-               moreover, he seeketh and searcheth out the friends who will be of use unto him, <pb
-                  n="370"/>and who will be able to minister unto his lust. The upright he loveth
+               moreover, he seeketh and searcheth out the friends who will be of use unto him, <pb n="370"/>and who will be able to minister unto his lust. The upright he loveth
                not, for the chaste he hath no affection, those who are burdened with labours are
                accounted stupid by him, the righteous he counteth as fools, and those who are
                constant in prayer are said by him to be without work. If he seeth a stranger he
@@ -787,12 +773,15 @@
                were not as swift as those of the glutton when he runneth to meet him that hath
                brought him food; for his whole longing is to receive, and if it happen that he
                giveth, it is in order that more may be given back to him.</ab>
-            <ab xml:id="section-10.23" n="23">And moreover he knoweth not how to gain a friend without the belly, for he would that
+                <ab xml:id="section-10.23" n="23">And moreover he knoweth not how to gain a friend without the belly, for he would that
                that which he loveth should be loved also by others. If indignation rise up against
                him he thinketh that it may be quieted by a gift of the belly, and if he have
                provoked a man to wrath by his folly and envy, he hasteneth to appease him by a gift
                of food; <pb type="external" n="388"/>upon it he resteth his hope, and through it he
-               thinketh that the <pb n="371"/>violence of his deeds <choice><sic>my be</sic><corr>may be</corr></choice> dissolved. The
+               thinketh that the <pb n="371"/>violence of his deeds <choice>
+                        <sic>my be</sic>
+                        <corr>may be</corr>
+                    </choice> dissolved. The
                madman thinketh that every man is, like himself, bowed in subjection unto the god
                which he himself serveth, and that, like himself, his belly is his god. He waiteth
                anxiously to see a friend, but if, when he hath come, he hath brought nothing, the
@@ -817,7 +806,7 @@
                   <pb n="372"/>neither in his conversation, <pb type="external" n="389"/>nor in his
                speech, nor in his behaviour, nor in his works, nor in his meditations, nor in his
                thoughts.</ab>
-            <ab xml:id="section-10.24" n="24">The glutton considereth the lust of the belly the greatest of all happiness, and all
+                <ab xml:id="section-10.24" n="24">The glutton considereth the lust of the belly the greatest of all happiness, and all
                his questions are moved thereupon. He knoweth also the varieties of meats, and he is
                acquainted with the luxuries of different places, what garden produceth beautiful
                fruits, and what river hath fish of fine flavour, and who [best] knoweth how to cook
@@ -836,13 +825,12 @@
                complaints. And what cause is not sufficient to make him cease from prayer? He will
                seek converse with men or any other matter which may happen, that he may be prevented
                from the service and the singing of the Psalms. The things of God are done by him
-               negligently, but those which belong to his lust are done with all <pb type="external"
-                  n="390"/>dili<pb n="373"/>gence and love. If he hath a small sore in his body he
+               negligently, but those which belong to his lust are done with all <pb type="external" n="390"/>dili<pb n="373"/>gence and love. If he hath a small sore in his body he
                holdeth it to be a malignant ulcer, and if he be slightly disordered he accounteth it
                a severe and difficult illness. Everything which is profitable he layeth hold upon as
                a reason only to cease from [the service of] the Cause of his life, and he is earnest
                in everything except the serving of God.</ab>
-            <ab xml:id="section-10.25" n="25">And also when the glutton hath no sickness, he planneth to appear to be sick, so that
+                <ab xml:id="section-10.25" n="25">And also when the glutton hath no sickness, he planneth to appear to be sick, so that
                when he hath ceased from service and prayer he may not be greatly blamed. For he
                repeateth his illnesses before every man, and although the cause of his sickness is
                small and contemptible, he increaseth and magnifieth it, and he calleth God to
@@ -858,15 +846,15 @@
                medicine to heal me [I will take it] with my food, but if not, it is better for me to
                eat than to become well.</quote> The glutton hath many carnal friends, whereby the needs of
                his lust may be gathered together unto him from all sides; he is crafty and skilful
-               in his planning, and he knoweth whom to chose and of whom to make <pb type="external"
-                  n="391"/><pb n="374"/>friends. And, moreover, he is not persuaded accidentally to
+               in his planning, and he knoweth whom to chose and of whom to make <pb type="external" n="391"/>
+                    <pb n="374"/>friends. And, moreover, he is not persuaded accidentally to
                make unto himself friends among blessed men, or among those who are poor, or of those
                who endure labours, or of those who love excellence, or of any one of those who
                possess the knowledge of <persName>Christ</persName>, neither can he be entreated to become loving unto
                them either in fact (?) or in name; and not only is he thus, but he is their secret
                enemy, for by their appearance, and speech, and works, they rebuke his gluttony, and
                for this reason he hateth and abominateth them.</ab>
-            <ab xml:id="section-10.26" n="26">And if thou seest the glutton doing honour unto one of the wise, or unto one of the
+                <ab xml:id="section-10.26" n="26">And if thou seest the glutton doing honour unto one of the wise, or unto one of the
                righteous, he doeth this only in form, that he may not be blamed by the believing men
                who love the things that are good, and also that he may quiet the murmuring of the
                many against him, and turn away from him the force of the zeal of those who honour
@@ -879,9 +867,7 @@
                counsel that he may quiet his zeal, and not because he delighteth in the service of
                that which is good. And when he hath brought him down from the virtue of a man
                standing up to fight for God's sake, he beginneth also to overthrow the good habits
-               which follow upon this, that is to say, the severity of labours and afflictions <pb
-                  type="external" n="392"/>for God's sake, and the fastings of the ascetic, and <pb
-                  n="375"/>protracted prayers, saying, <quote>These are unnecessary; a man should cleanse
+               which follow upon this, that is to say, the severity of labours and afflictions <pb type="external" n="392"/>for God's sake, and the fastings of the ascetic, and <pb n="375"/>protracted prayers, saying, <quote>These are unnecessary; a man should cleanse
                his soul and possess a good conscience;</quote> For he layeth hold upon a reason [to set
                before] the things of the inner man that he may destroy its outward acts, and he
                would justify himself by the belief that such things are unnecessary, because his
@@ -898,44 +884,59 @@
                when he wageth war with his speech against those who rebuke his gluttony. When he
                wisheth to eat everything, and not to restrain himself by forbearance from any meat,
                he beginneth to repeat that which was written by <persName>our Lord</persName>, <quote>It is not that which
-               goeth into a man which defileth him;</quote><ptr type="noteAnchor" target="#n375-1"/> for his ear is only pierced to hear
+               goeth into a man which defileth him;</quote>
+                    <ptr type="noteAnchor" target="#n375-1" n="4"/> for his ear is only pierced to hear
                such things as can be thought to support his lust, and in the face of the hearing of
                other things he shutteth the door of his attention. For he is not willing to hearken
                unto the <pb n="376"/>other verse which saith, <quote>Whosoever wisheth to be My disciple,
                   <pb type="external" n="393"/>let him deny himself, and take up his cross and
-               follow Me;</quote><ptr type="noteAnchor" target="#n376-1"/> nor unto the other which saith, <quote>Whosoever wisheth to make his
-               life to live shall destroy it,</quote><ptr type="noteAnchor" target="#n376-2"/> nor that which He spake unto His disciples,
-               saying, <quote>In the world ye shall have tribulations;</quote><ptr type="noteAnchor" target="#n376-3"/> nor the words, <quote>When the
+               follow Me;</quote>
+                    <ptr type="noteAnchor" target="#n376-1" n="5"/> nor unto the other which saith, <quote>Whosoever wisheth to make his
+               life to live shall destroy it,</quote>
+                    <ptr type="noteAnchor" target="#n376-2" n="6"/> nor that which He spake unto His disciples,
+               saying, <quote>In the world ye shall have tribulations;</quote>
+                    <ptr type="noteAnchor" target="#n376-3" n="7"/> nor the words, <quote>When the
                Bridegroom shall be taken from the children of the bridechamber, then shall ye
-               fast.</quote><ptr type="noteAnchor" target="#n376-4"/> And therefore [he would remember the passage concerning] the eating
+               fast.</quote>
+                    <ptr type="noteAnchor" target="#n376-4" n="8"/> And therefore [he would remember the passage concerning] the eating
                of <persName>our Lord</persName>, where it is written of Him that, <quote>He made the festival, and ate the
-               passover;</quote><ptr type="noteAnchor" target="#n376-5"/> or where it is said that, <quote>They set before Him a piece of broiled
-               fish and [a piece] of honeycomb;</quote><ptr type="noteAnchor" target="#n376-6"/> or where again it is written, <quote>They had
-               fishes and bread.</quote><ptr type="noteAnchor" target="#n376-7"/> And these and such like things doth the glutton bring
+               passover;</quote>
+                    <ptr type="noteAnchor" target="#n376-5" n="9"/> or where it is said that, <quote>They set before Him a piece of broiled
+               fish and [a piece] of honeycomb;</quote>
+                    <ptr type="noteAnchor" target="#n376-6" n="10"/> or where again it is written, <quote>They had
+               fishes and bread.</quote>
+                    <ptr type="noteAnchor" target="#n376-7" n="11"/> And these and such like things doth the glutton bring
                forward as proofs when he wisheth to eat everything freely, and the rule of the
                freedom of <persName>Christ</persName>, Who like God was above laws and commandments, doth he set forth
                to be a stumbling-block to his life, and he understandeth not the reason of that rule
                and conduct, and he perceiveth not that other types were inscribed therein. And
                again, when the <persName>Apostle Paul</persName> is read, and he heareth from him, <quote>Everything which
                was created by God is holy, and nothing is to be rejected if it be received with
-               thanksgiving; for it is sanctified through the word of God and prayer;</quote><ptr type="noteAnchor" target="#n376-8"/> or
-               another verse, <quote>The belly for meats, and meats for the belly;</quote><ptr type="noteAnchor" target="#n376-9"/> or that also
+               thanksgiving; for it is sanctified through the word of God and prayer;</quote>
+                    <ptr type="noteAnchor" target="#n376-8" n="12"/> or
+               another verse, <quote>The belly for meats, and meats for the belly;</quote>
+                    <ptr type="noteAnchor" target="#n376-9" n="13"/> or that also
                which he spake, </ab>
-            <pb n="377"/>
-            <ab xml:id="section-10.27" n="27"><quote>Let not him that eateth not judge him that eateth.</quote><ptr type="noteAnchor" target="#n377-1"/> And in the other things
-               like unto these which are written in the doctrine of <persName>Paul</persName>, <pb type="external"
-                  n="394"/>the fool rejoiceth, and receiveth them gladly, without understanding the
+                <pb n="377"/>
+                <ab xml:id="section-10.27" n="27">
+                    <quote>Let not him that eateth not judge him that eateth.</quote>
+                    <ptr type="noteAnchor" target="#n377-1" n="14"/> And in the other things
+               like unto these which are written in the doctrine of <persName>Paul</persName>, <pb type="external" n="394"/>the fool rejoiceth, and receiveth them gladly, without understanding the
                reason of the words.</ab>
-            <ab xml:id="section-10.28" n="28">And the glutton is not pleased to hear the other things which have been written by
+                <ab xml:id="section-10.28" n="28">And the glutton is not pleased to hear the other things which have been written by
                <persName>Paul</persName> upon fortitude and asceticism, either when he recounteth his numerous
                fastings, or when he crieth out to his disciples, saying, <quote>Ye are dead unto the
-               world,</quote><ptr type="noteAnchor" target="#n377-2"/> or when he writeth, <quote>It is good for [a man] not to eat flesh, and
-               not to drink wine,</quote><ptr type="noteAnchor" target="#n377-3"/> or his exhortation, <quote>Through many tribulations it is
-               meet for a man to enter into the kingdom of God,</quote><ptr type="noteAnchor" target="#n377-4"/> or his saying, <quote>God shall
-               bring both the belly and the food to nought;</quote><ptr type="noteAnchor" target="#n377-5"/> and the reading of these and
+               world,</quote>
+                    <ptr type="noteAnchor" target="#n377-2" n="15"/> or when he writeth, <quote>It is good for [a man] not to eat flesh, and
+               not to drink wine,</quote>
+                    <ptr type="noteAnchor" target="#n377-3" n="16"/> or his exhortation, <quote>Through many tribulations it is
+               meet for a man to enter into the kingdom of God,</quote>
+                    <ptr type="noteAnchor" target="#n377-4" n="17"/> or his saying, <quote>God shall
+               bring both the belly and the food to nought;</quote>
+                    <ptr type="noteAnchor" target="#n377-5" n="18"/> and the reading of these and
                such like passages the glutton considereth unnecessary, and he is not pleased even to
                hear them.</ab>
-            <ab xml:id="section-10.29" n="29">Now therefore in this manner standeth the life of him that loveth lusts, and as the
+                <ab xml:id="section-10.29" n="29">Now therefore in this manner standeth the life of him that loveth lusts, and as the
                remembrance of God is high unto the perfect, even so also is nigh unto him at all
                times the care for his belly. He singeth songs thereto, and meditateth upon it in his
                prayer and praise, his memory is burdened [therewith] at all seasons, and upon it he
@@ -943,8 +944,8 @@
                maketh his prayers light, and his constant thinking thereupon bringeth to nought in
                him all right and proper things. The glutton hath no seasons set apart for eating,
                but he eateth by day and by night, and when he eateth not he still eateth. </ab>
-            <pb n="378"/>
-            <ab xml:id="section-10.30" n="30">For thou must not consider that the times when he eateth are once or twice, but mark
+                <pb n="378"/>
+                <ab xml:id="section-10.30" n="30">For thou must not consider that the times when he eateth are once or twice, but mark
                carefully that it is his care [to eat] at all seasons throughout the night and day,
                   <pb type="external" n="395"/>and when his body eateth not his thought eateth. And
                he hath not even, like the beasts, times set apart for eating, for although the beast
@@ -962,7 +963,7 @@
                however much we were to describe him he would not cease from his lax habits; but in
                the things which we have spoken we have given a little example of his lax ways,
                wherefrom those who see him may recognize him.</ab>
-            <ab xml:id="section-10.31" n="31">Do thou then, O brave disciple, flee from such an example as this, and become not lax
+                <ab xml:id="section-10.31" n="31">Do thou then, O brave disciple, flee from such an example as this, and become not lax
                in thy strenuous rule of life through the sight of him. Thou thyself must know unto
                what thou hast become a disciple, and thy discipleship itself must be unto thee the
                cause of thy <pb n="379"/>course; be not like unto that contemptible man, but emulate
@@ -973,7 +974,8 @@
                and the <quote>Woe</quote> which was proclaimed for gluttons, <quote>Woe unto those who rise up early in
                the morning and pursue strong drink, and who tarry long [over it] in the evening
                while wine inflameth them. With harps, and stringed instruments, and drums, and
-               tabrets, they drink wine, and the works of God they understand not.</quote><ptr type="noteAnchor" target="#n379-1"/> And
+               tabrets, they drink wine, and the works of God they understand not.</quote>
+                    <ptr type="noteAnchor" target="#n379-1" n="19"/> And
                behold, the Spirit also hath taught thee that the man who ministereth unto his lusts
                is unable to understand the works of God. For as in our sleep we are not able to
                speak and to act as living beings who are awake, even so the man who is sunk in the
@@ -987,14 +989,13 @@
                and who do not understand the works of God <quote>Woe</quote> be given, contrariwise <quote>Blessing</quote> is
                ascribed unto those <pb n="380"/>who are abstinent and self-denying, and who at all
                times meditate upon the works of God.</ab>
-            <ab xml:id="section-10.32" n="32">Do thou then, O disciple, so run that thou mayest be worthy of blessing, and flee
+                <ab xml:id="section-10.32" n="32">Do thou then, O disciple, so run that thou mayest be worthy of blessing, and flee
                from the woe which is promised unto gluttons. And let those who are strenuous be unto
                thee an example for good, and not those who are fallen low, and those who fast
                instead of those who devour food, and those who lead ascetic lives instead of
                gluttons, and those who deny themselves instead of those who gorge, and those who
                serve God instead of those who serve their belly, and those who have fortitude
-               instead of those who are slack, and the good instead of the bad; for <pb
-                  type="external" n="397"/>good men are not wanting in the world to be an example
+               instead of those who are slack, and the good instead of the bad; for <pb type="external" n="397"/>good men are not wanting in the world to be an example
                unto thee of that which is good, and let us be like unto them and not unto the
                wicked. Thou shalt not examine closely those who stand beneath thee, but lift up
                thine eyes, and look at those who are greater than thou, and go up unto them; for as
@@ -1013,8 +1014,7 @@
                healing of his soul, nor can he occupy himself in his actions with anything that he
                wisheth or seeketh to do. As the members of a sick man do not respond to him when he
                wisheth to move them for some purpose, so also the thoughts of a glutton do not
-               respond to him when he wisheth to work with them something that is good; for all <pb
-                  type="external" n="398"/>beautiful things are difficult unto the man who is
+               respond to him when he wisheth to work with them something that is good; for all <pb type="external" n="398"/>beautiful things are difficult unto the man who is
                subject unto his belly, because he is the slave of all lusts. If the passion of
                eating be moved in him he is not easily able to overcome it, because he himself is
                one in subjection, and if the lust of fornication stir in his members, or wrath, or
@@ -1026,19 +1026,27 @@
                much more shall we be overcome by many masters? For, as I have said, with gluttony
                all the other passions enter in, because it is the means of entrance for all
                lusts.</ab>
-            <ab xml:id="section-10.33" n="33"><choice><sic>"</sic><corr></corr></choice>Now <persName>our Redeemer</persName> said in His Gospel, <quote>Ye cannot serve God and mammon,</quote><ptr type="noteAnchor" target="#n381-1"/>
+                <ab xml:id="section-10.33" n="33">
+                    <choice>
+                        <sic>"</sic>
+                        <corr/>
+                    </choice>Now <persName>our Redeemer</persName> said in His Gospel, <quote>Ye cannot serve God and mammon,</quote>
+                    <ptr type="noteAnchor" target="#n381-1" n="20"/>
                and if in our subjection unto one lord—that is to say, unto mammon only—we are not
                able to serve also God therewith, how, when <pb n="382"/>the masters who have brought
                us into subjection are many, and each one of them leadeth us forcibly after his own
                will, can we serve God, Who will not accept from man the service of any other thing
                together with His own service? What then? And if each one of all these sins, which
-               <choice><sic>collectwely</sic><corr>collectively</corr></choice> are contrary to the righteousness of God, is a drawback
+               <choice>
+                        <sic>collectwely</sic>
+                        <corr>collectively</corr>
+                    </choice> are contrary to the righteousness of God, is a drawback
                to its fellow in the service of Him, <pb type="external" n="399"/>how can the service
                of them collectively avoid being a hindrance to the keeping of the commandments of
                God? For they are different from one another in their actions, and the Will of God is
                contrary unto them all, and especially unto this lust of greediness, through which
                all other lusts are brought in and enter in.</ab>
-            <ab xml:id="section-10.34" n="34">Now therefore, when a man hath been led into subjection to minister unto the service
+                <ab xml:id="section-10.34" n="34">Now therefore, when a man hath been led into subjection to minister unto the service
                of his belly, he must give himself over to much toil that he may gather together
                [material] from all sides and bring it to [supply] its needs, for it not only seeketh
                to eat, but it also seeketh in what way it may eat; for if it rested only upon the
@@ -1054,7 +1062,7 @@
                trial of lust existeth not; but it is right for the disciple to know himself, and he
                must not be subjected unto the lust of his body, <pb type="external" n="400"/>and he
                must not open the door to bring in upon himself beasts which destroy.</ab>
-            <ab xml:id="section-10.35" n="35">For as when a strong door is closed fast, and evil beasts and noxious reptiles are
+                <ab xml:id="section-10.35" n="35">For as when a strong door is closed fast, and evil beasts and noxious reptiles are
                kept outside of it, if by chance it be opened for any cause whatsoever, they are all
                found to come inside to injure the inhabitants of the place, even so also when the
                door of the lust of the belly is shut, all the murderous passions of lusts which
@@ -1094,8 +1102,7 @@
                thoughts fly unto every face, and he committeth fornication secretly with every
                appearance. And although he fornicateth not outwardly, he fornicateth constantly
                inwardly, and although he is not an adulterer <pb n="385"/>in his body, he committeth
-               adultery within himself at all seasons and at every hour. <pb type="external" n="402"
-               />Now therefore meat and drink are the fuel of the fire of lust, and whosoever
+               adultery within himself at all seasons and at every hour. <pb type="external" n="402"/>Now therefore meat and drink are the fuel of the fire of lust, and whosoever
                wisheth to quench in his members this fire which is hidden in them, must withhold
                this fuel from himself, and behold, it will be extinguished; for fasting, and
                abstinence, and self-denial are the water which quencheth the fire of lust. For what
@@ -1110,17 +1117,17 @@
                the light of truth, for the stink of meats is the night of the enlightened mind. And
                as blacknesses and smoke darken pure and clean air, even so doth the stink of meat
                disturb the purity of the mind.</ab>
-            <ab xml:id="section-10.36" n="36">Now therefore it is right for the disciple of <persName>Christ</persName> not only to excuse himself
+                <ab xml:id="section-10.36" n="36">Now therefore it is right for the disciple of <persName>Christ</persName> not only to excuse himself
                from dainty and costly meats, but also to eat sparingly of the commonest foods, for
                it is not because the meat is costly that it disturbeth the understanding and
-               darkeneth the mind, but because of the abundance [that thou eatest], <pb
-                  type="external" n="403"/>and this defect is found in respect of the commonest
-               foods as well as of those that are costly. And well do the Holy Books <pb n="386"
-               />admonish the children of men against the overfeeding of the belly in every place,
+               darkeneth the mind, but because of the abundance [that thou eatest], <pb type="external" n="403"/>and this defect is found in respect of the commonest
+               foods as well as of those that are costly. And well do the Holy Books <pb n="386"/>admonish the children of men against the overfeeding of the belly in every place,
                for according to the teaching of <persName>Paul</persName>, <quote>Those who occupied themselves with meats
-               were not benefited by them,</quote><ptr type="noteAnchor" target="#n386-1"/> and not only were they deprived of any
+               were not benefited by them,</quote>
+                    <ptr type="noteAnchor" target="#n386-1" n="21"/> and not only were they deprived of any
                benefits, but they gathered together for their own persons loss and injury, but [he
-               saith], <quote>Gluttons and drunkards shall not inherit the kingdom of God;</quote><ptr type="noteAnchor" target="#n386-2"/> and
+               saith], <quote>Gluttons and drunkards shall not inherit the kingdom of God;</quote>
+                    <ptr type="noteAnchor" target="#n386-2" n="22"/> and
                read the passage, O disciple, and see unto what vices <persName>the Apostle</persName> compareth this
                wickedness—with soothsayers and destroyers, and other things like thereunto. And
                although the lust of the belly is not these, yet it leadeth unto them, for when the
@@ -1135,23 +1142,27 @@
                out of the rock, and oil out of the rock of flint: butter of kine, and milk of sheep,
                with the fat of <pb type="external" n="404"/>stalled beasts, rams, the offspring of
                ibexes, and kids, with the fat and fatty parts of wheat, and He made him to drink
-               wine of the blood of grapes. And <placeName>Israel</placeName> waxed fat and kicked, he grew fat, and <pb
-                  n="387"/>became thick, and acquired riches.</quote><ptr type="noteAnchor" target="#n387-1"/> And what happened unto him
+               wine of the blood of grapes. And <placeName>Israel</placeName> waxed fat and kicked, he grew fat, and <pb n="387"/>became thick, and acquired riches.</quote>
+                    <ptr type="noteAnchor" target="#n387-1" n="23"/> And what happened unto him
                because of these things? and to what pass did he come by reason of these desirable
                things? and what country did he possess through these dainties with which he
-               delighted himself? and into what <choice><sic>sicknessess</sic><corr>sicknesses</corr></choice> did the overfeeding of the
+               delighted himself? and into what <choice>
+                        <sic>sicknessess</sic>
+                        <corr>sicknesses</corr>
+                    </choice> did the overfeeding of the
                belly, and the superfluity of meats cast him? Now <persName>Moses</persName> himself hath explained and
                made known unto us what the people obtained from these possessions: <quote>He forgot the
                God Who made him, and he blasphemed the Might which redeemed him. He moved Him to
                jealousy with strange things, and provoked Him to wrath with idols. They sacrificed
-               unto devils which were not gods, and unto gods which they had not known.</quote><ptr type="noteAnchor" target="#n387-2"/>
+               unto devils which were not gods, and unto gods which they had not known.</quote>
+                    <ptr type="noteAnchor" target="#n387-2" n="24"/>
                These are the things which the people obtained from dainty foods, and this is the
                inheritance of the worship of devils which they inherited from the overabundance of
                the body. And from the table which was rich in meats they were drawn unto the unclean
                tables of idols, and from dainty foods they went forth to cast stinking things before
                graven images, and through the lust which taketh away the strength from nature they
                came to unclean thoughts which are alien unto nature.</ab>
-            <ab xml:id="section-10.37" n="37">Behold then, O disciple, and see how that people went from one thing to another, and
+                <ab xml:id="section-10.37" n="37">Behold then, O disciple, and see how that people went from one thing to another, and
                uproot from thee patiently the root which putteth forth as a sprout the worship of
                idols, a root which having begun [to spring] from the belly cometh to an end in the
                worship of devils. The prophet doth not say unto thee simply that the people
@@ -1166,10 +1177,11 @@
                provoked Him to jealousy with strange gods, and he moved Him to wrath with idols.</quote>
                And together with the testimony of the Word we may also see from the fact itself how
                they came to offer praises before the calf in the wilderness, <quote>The people sat down to
-               eat and to drink, and rose up to play;</quote><ptr type="noteAnchor" target="#n388-1"/> until food had entered in
+               eat and to drink, and rose up to play;</quote>
+                    <ptr type="noteAnchor" target="#n388-1" n="25"/> until food had entered in
                blasphemies did not go forth, and until wine had been poured into them they were not
                clothed with the fornication which is against God.</ab>
-            <ab xml:id="section-10.38" n="38">These then are the injurious things which meat hath wrought, and who will not flee
+                <ab xml:id="section-10.38" n="38">These then are the injurious things which meat hath wrought, and who will not flee
                from the overabundance thereof? Whosoever hath determined to become corrupt will
                become a devourer, for the glutton taketh within himself thoughts of corruptness, and
                then he draweth nigh unto dainty meats. A man is led to become a servant unto his
@@ -1177,8 +1189,7 @@
                is an enemy of the praise of <persName>Christ</persName>, for the lust of the body is opposed unto the
                lust of the spirit, and so long as the one liveth it is impossible for the other to
                live. From the time when the lust of <pb n="389"/>the body liveth in him, the lust of
-               the spirit is dead in him, and as the body is deprived of all <pb type="external"
-                  n="406"/>the things for which it lusteth when it becometh an alien unto its own
+               the spirit is dead in him, and as the body is deprived of all <pb type="external" n="406"/>the things for which it lusteth when it becometh an alien unto its own
                life, even so the soul becometh an alien unto all good when the lust of the spirit is
                removed from it: for the lust of the spirit is the beginning of the ascent unto all
                excellent things, but the lust of the body is the entrance of all wickedness. For
@@ -1204,7 +1215,7 @@
                doth the body love the grossness of earth and the heaviness of the dust, and while
                the soul leapeth to mount upwards, the body through its weight inclineth to go
                downwards, and also to crawl about upon the ground of lusts like a reptile.</ab>
-            <ab xml:id="section-10.39" n="39">The body which eateth overmuch maketh the soul an irrational thing, and it spoileth
+                <ab xml:id="section-10.39" n="39">The body which eateth overmuch maketh the soul an irrational thing, and it spoileth
                and carrieth away therefrom all the motions of wisdom, for the heart is the vessel of
                the discretion and intelligence of the soul, and when it hath become gross through
                the overabundance of meats, all the thoughts of the soul which are moved thereby
@@ -1236,9 +1247,11 @@
                active and free from the filth of meat; but if they are dense and heavy, they become
                like a dense body, and like a gross covering in front of its light, and instead of
                receiving help from them, they injure and impede the activity of its working. And
-               those who scrutinize <choice><sic>subtilly</sic><corr>subtly</corr></choice> the knowledge of nature <pb type="external"
-                  n="409"/>recognize these things and also others which are like unto them.</ab>
-            <ab xml:id="section-10.40" n="40">Now therefore if thou, even thou, O disciple, desirest to be a participator in this
+               those who scrutinize <choice>
+                        <sic>subtilly</sic>
+                        <corr>subtly</corr>
+                    </choice> the knowledge of nature <pb type="external" n="409"/>recognize these things and also others which are like unto them.</ab>
+                <ab xml:id="section-10.40" n="40">Now therefore if thou, even thou, O disciple, desirest to be a participator in this
                natural knowledge, and to ascend from it unto the knowledge of the spirit, keep
                thyself from the weight of meats, and let the natural grossness of thy body be
                sufficient for thee, and do not make it more gross and heavy <pb n="392"/>with
@@ -1265,7 +1278,7 @@
                knowledge of the soul are prevented from shedding their light fully unto all the
                parts of the body, and all <pb n="393"/>the motions of a man, whether of the external
                senses, or whether of the internal members, move stupidly and confusedly.</ab>
-            <ab xml:id="section-10.41" n="41">Now the knowledge of the soul is the hidden rudder of the whole body, which keepeth
+                <ab xml:id="section-10.41" n="41">Now the knowledge of the soul is the hidden rudder of the whole body, which keepeth
                the eye in chasteness, [that is to say,] in orderliness, and the ear in vigilance,
                and the hand in watchfulness, and the tongue in correct balance, and the feet in a
                prudent gait; and as the charioteer [holdeth] the bridles of his steeds, even so doth
@@ -1279,16 +1292,18 @@
                evident that we cannot [serve] both the belly and God, for it also was called <quote>god</quote>
                after the manner of mammon, and as <persName>Jesus</persName> called mammon <quote>master,</quote> even so also did
                <persName>His Apostle</persName> call the belly god [in the words,] <quote>Whose god is their belly, and whose
-               glory their shame.</quote><ptr type="noteAnchor" target="#n393-1"/> And the word of God mocketh those who lay fast hold upon
+               glory their shame.</quote>
+                    <ptr type="noteAnchor" target="#n393-1" n="26"/> And the word of God mocketh those who lay fast hold upon
                their art, who have hired themselves unto <persName>Christ</persName> for their belly's sake and not
                because of love for Him, even as there are also today many who are clothed with the
                precious garb of discipleship, and who feign to be teachers and good servants of God,
                not for love's sake, nor through <pb n="394"/>discretion and fear, but only that they
                may minister unto their belly, which they have made a god unto themselves, and unto
                which they minister.</ab>
-            <ab xml:id="section-10.42" n="42">Now <persName>the Apostle of God</persName> teacheth us plainly that the heaviness of the belly boweth
+                <ab xml:id="section-10.42" n="42">Now <persName>the Apostle of God</persName> teacheth us plainly that the heaviness of the belly boweth
                down the gaze of the soul from heaven to earth, saying, <quote>Their whole mind is [set]
-               upon earth.</quote><ptr type="noteAnchor" target="#n394-1"/> And he set forth first the words, <quote>Whose god is their belly,
+               upon earth.</quote>
+                    <ptr type="noteAnchor" target="#n394-1" n="27"/> And he set forth first the words, <quote>Whose god is their belly,
                and whose glory their shame,</quote> and afterwards he said, <quote>Their whole mind is [set] upon
                earth,</quote> in order that he might make known that the reason why they were fettered unto
                earth, and why their mind was contaminated with the dust, was because they possessed
@@ -1299,13 +1314,14 @@
                mire? For in this case also the service of this loathsome lust must needs be called
                loathsomeness, and filth, and mire, and shame, and if <persName>Paul</persName> called it so, how can we
                help calling it so likewise?</ab>
-            <ab xml:id="section-10.43" n="43">Now therefore we can see that the lust of the belly is the beginning of all
+                <ab xml:id="section-10.43" n="43">Now therefore we can see that the lust of the belly is the beginning of all
                wickedness, and that it leadeth us unto the ruin which [befell] <persName>Adam</persName>. For through
                it he transgressed the commandment of God, and through it he despised and cast away
                the law which [He had set] for him, and <persName>the Calumniator</persName> took it that it might be a
                helpmeet unto him, because he saw that it was the most powerful of all lusts, and
                that thereby he would be able to enter into him with all other wickedness. And <persName>the
-               Enemy</persName> <pb n="395"/>did not contend against the heads of our race with fornication,
+               Enemy</persName>
+                    <pb n="395"/>did not contend against the heads of our race with fornication,
                or with avarice, or with vain-glory, or with the adornment of apparel, or with envy
                and pride, or with any of the other passions, but only with the lust of the belly,
                because he saw that it was capable of becoming a leader of all the lusts; for <persName>the
@@ -1313,16 +1329,18 @@
                and he drew nigh thereunto, and stimulated it, and after that he sowed the seeds of
                laxity, and after that the seeds of lust, and then fornication also entered in, for
                immediately <quote>they had eaten, the eyes of both of them were opened, and they knew that
-               they were naked.</quote><ptr type="noteAnchor" target="#n395-1"/> And it is evident that it was because the lust for
+               they were naked.</quote>
+                    <ptr type="noteAnchor" target="#n395-1" n="28"/> And it is evident that it was because the lust for
                connexion moved in the members of union, that they also perceived [that they were
                naked], and were ashamed at the sight of each other, for until food had gone into
                them <pb type="external" n="413"/>lust was not stirred up, and until lust had been
                stirred up shame and fear did not rule [over them].</ab>
-            <ab xml:id="section-10.44" n="44">Behold, then, the beginning of shame is the lust of the belly, and well hath <persName>the
+                <ab xml:id="section-10.44" n="44">Behold, then, the beginning of shame is the lust of the belly, and well hath <persName>the
                blessed Apostle</persName> also called it thus, saying, <quote>The woman saw that the tree was fair,
                and that it was a thing for which the eyes lusted, and that it was desirable to look
                upon; and she took of its fruit, and she ate and gave also to her husband with her,
-               and he did eat.</quote><ptr type="noteAnchor" target="#n395-2"/> Thus thou mayest see that the lust of the belly was the
+               and he did eat.</quote>
+                    <ptr type="noteAnchor" target="#n395-2" n="29"/> Thus thou mayest see that the lust of the belly was the
                beginning of their common sin, and of the first transgression of the commandment, and
                that thereby all sins and all punishments were brought in and came upon us; for as
                envy was the beginning of wickedness with <persName>Satan</persName>, so also was the belly the
@@ -1343,7 +1361,7 @@
                nature of this lust is to be hasty and impatient, and it made haste and plucked one
                fruit, and was henceforth deprived of the table which was full of all the luxuries of
                Paradise.</ab>
-            <ab xml:id="section-10.45" n="45">Now therefore let that lust which came unto <persName>Adam</persName> be a type of that which cometh to
+                <ab xml:id="section-10.45" n="45">Now therefore let that lust which came unto <persName>Adam</persName> be a type of that which cometh to
                us, for as they, by of the eating of one fruit, were deprived of the food of the
                whole garden, even so also will one loaded table deprive us of the table of the
                kingdom of heaven. For as long as the belly is full, and is weighted with an
@@ -1354,19 +1372,20 @@
                whole of Paradise, how can the man who is laden with the lust of many meats help
                being deprived of the table of the kingdom? For, because of his having eaten, <persName>Adam</persName>
                lost Paradise, and inherited death with all its curses. <persName>Esau</persName>, because of his meat,
-               cast away the birthright together with the blessings,<ptr type="noteAnchor" target="#n397-1"/> and he became a slave
+               cast away the birthright together with the blessings,<ptr type="noteAnchor" target="#n397-1" n="30"/> and he became a slave
                unto sin, and one who was subject under the hand of his brother. The people [of
                <placeName>Israel</placeName>], because of their meat, forgot God, and instead of God, worshipped the
-               similitude of a dumb animal; and again, because of their meat, the wrath of God <pb
-                  type="external" n="415"/>went up against them;<ptr type="noteAnchor" target="#n397-2"/> and again, because of
+               similitude of a dumb animal; and again, because of their meat, the wrath of God <pb type="external" n="415"/>went up against them;<ptr type="noteAnchor" target="#n397-2" n="31"/> and again, because of
                their meat, they were led into the fornication with the Midianites, through which the
                pestilence had dominion over them suddenly, for it is written, <quote>While the flesh was
-               yet between their teeth the anger of God went up against them.</quote><ptr type="noteAnchor" target="#n397-3"/> And again,
+               yet between their teeth the anger of God went up against them.</quote>
+                    <ptr type="noteAnchor" target="#n397-3" n="32"/> And again,
                through meat and luxuries the Sodomites also were polluted with an unclean matter,
                and pleasures and the love of the belly brought them unto that limitless wickedness,
                even as the prophet of God maketh known concerning them, <quote>This was the iniquity of
                thy luxurious sister <placeName>Sodom</placeName>, who was satisfied with bread, and dwelt at
-               ease;</quote><ptr type="noteAnchor" target="#n397-4"/> for by reason of being filled with bread, and delicacies they
+               ease;</quote>
+                    <ptr type="noteAnchor" target="#n397-4" n="33"/> for by reason of being filled with bread, and delicacies they
                polluted themselves with unnatural lust. Let these things and others which are like
                unto them be in thy remembrance, O thou that wishest to <pb n="398"/>travel in the
                path of heaven, and cut off and cast away from thee the fettering weight of the
@@ -1388,7 +1407,7 @@
                mayest believe that thou wilt also be the conqueror over the lust for those which are
                more dainty, and that thou wilt gain the victory over those which are of great
                price.</ab>
-            <ab xml:id="section-10.46" n="46">The full belly produceth not pure prayer, and the stomach which is inflated with too
+                <ab xml:id="section-10.46" n="46">The full belly produceth not pure prayer, and the stomach which is inflated with too
                much food giveth not forth wakeful melody. Now if its own loss only were found in
                overfilling the belly, even though it would be blameworthy, it would not perchance be
                   <pb n="399"/>over-wicked to palliate it, but because of the other wickednesses
@@ -1420,20 +1439,20 @@
                and who are irritated at the sight of the depth of sleep into which he hath fallen;
                for if the glutton sleepeth, he is drowned in sleep, and if he be awakened he
                sleepeth, and if he singeth he is dumb, and if he standeth up, he falleth prone.</ab>
-            <ab xml:id="section-10.47" n="47">Observe then these defects, O thou that lovest spiritual excellence, and excuse
+                <ab xml:id="section-10.47" n="47">Observe then these defects, O thou that lovest spiritual excellence, and excuse
                thyself from this wickedness, that thou mayest not forget God and thine own self
                thereby, and thy discernment be darkened against all that is seemly; and with these
                remember also that which was spoken by the <persName>prophet Moses</persName> to the Jews, saying, <quote>Take
                heed when <pb type="external" n="418"/>thou eatest, and art satisfied, lest thou
-               forget the Lord thy God who brought thee forth out of the land of <placeName>Egypt</placeName>.</quote><ptr type="noteAnchor" target="#n400-1"/>
+               forget the Lord thy God who brought thee forth out of the land of <placeName>Egypt</placeName>.</quote>
+                    <ptr type="noteAnchor" target="#n400-1" n="34"/>
                And behold the Spirit of God hath taught thee openly that error is born of fulness of
                food, and that, when a man hath forgotten God, he marcheth fearlessly into all
                wickedness, and associateth himself with all evils. For as the sight of a stern
                master is to riotous slaves, even so is the remembrance of God [unto the soul]; for
                it maketh the tumultuousness of the thoughts shamefaced, and immediately the thought
                of Him falleth into the mind all the perturbed thoughts hasten to put themselves in
-               the order of fear, and the soul becometh suddenly a peaceful house, an ordered <pb
-                  n="401"/>temple, a pure dwelling, and a holy mansion of the Trinity. Whosoever
+               the order of fear, and the soul becometh suddenly a peaceful house, an ordered <pb n="401"/>temple, a pure dwelling, and a holy mansion of the Trinity. Whosoever
                then wisheth to travel along the path of heaven should unfasten the shackles of lusts
                from his feet, and should remove every weight from the wings of his mind, in order
                that his person may travel easily towards greatness, and may hear the promise of the
@@ -1441,8 +1460,10 @@
                among you any man who is wanton or slack like <persName>Esau</persName>, who for one [mess of] meat sold
                his birthright; for also when he afterwards desired to inherit the blessings, he was
                rejected, for he found no place for repentance, though he sought it with
-               tears.</quote><ptr type="noteAnchor" target="#n401-1"/></ab>
-            <ab xml:id="section-10.48" n="48">Let then these remembrances be unto thee, [O disciple,] and let such testimonies as
+               tears.</quote>
+                    <ptr type="noteAnchor" target="#n401-1" n="35"/>
+                </ab>
+                <ab xml:id="section-10.48" n="48">Let then these remembrances be unto thee, [O disciple,] and let such testimonies as
                these be written in thy heart. Let us be active, that we may become spiritual beings;
                let us shut the door of the lust of the belly, that all wickedness may be shut
                outside; let us put to death in us the lust of the body, that the lust of the spirit
@@ -1460,50 +1481,195 @@
                belly; let us overcome patiently the first lust, that we may thereby gain strength to
                vanquish all [other] lusts; let us say unto each other that which hath been said unto
                us by <persName>the Apostle</persName>, <quote>The belly for meats, and meats for the belly, but God will
-               bring them both to nought.</quote><ptr type="noteAnchor" target="#n402-1"/> The body then is not for fornication, but for
+               bring them both to nought.</quote>
+                    <ptr type="noteAnchor" target="#n402-1" n="36"/> The body then is not for fornication, but for
                the Lord, and the Lord for the body, to Whom be glory from us all for ever. Amen.</ab>
-            <ab xml:id="section-10.49" n="49">Here endeth the First Discourse on the lust of the belly by the holy man
+                <ab xml:id="section-10.49" n="49">Here endeth the First Discourse on the lust of the belly by the holy man
                <persName>Philoxenus</persName>, Bishop of <placeName>Mabbôgh</placeName>.</ab>
-         </div>
-         <noteGrp>
-            <note xml:id="n340-1" target="#a340-1" n="340-1"><choice><reg/><orig>p. 340, n. 1</orig></choice>The passage within [ ] is found in E und F only.</note>
-            <note xml:id="n343-1" target="#a343-1" n="343-1"><choice><reg/><orig>p. 343, n. 1</orig></choice>Galatians v. 17.</note>
-            <note xml:id="n364-1" target="#a364-1" n="364-1"><choice><reg/><orig>p. 364, n. 1</orig></choice>Leviticus xxiv. 17; Numbers xxxv. 30</note>
-            <note xml:id="n375-1" target="#a375-1" n="375-1"><choice><reg/><orig>p. 375, n. 1</orig></choice>St. Matthew xv. 11.</note>
-            <note xml:id="n376-1" target="#a376-1" n="376-1"><choice><reg/><orig>p. 376, n. 1</orig></choice>Compare St. Matthew xvi. 24.</note>
-            <note xml:id="n376-2" target="#a376-2" n="376-2"><choice><reg/><orig>p. 376, n. 2</orig></choice>St. Matthew xvi. 25. </note>
-            <note xml:id="n376-3" target="#a376-3" n="376-3"><choice><reg/><orig>p. 376, n. 3</orig></choice>St. John xvi. 33.</note>
-            <note xml:id="n376-4" target="#a376-4" n="376-4"><choice><reg/><orig>p. 376, n. 4</orig></choice>St. Matthew ix. 15.</note>
-            <note xml:id="n376-5" target="#a376-5" n="376-5"><choice><reg/><orig>p. 376, n. 5</orig></choice>Compare St. Matthew xxvi. 17-21.</note>
-            <note xml:id="n376-6" target="#a376-6" n="376-6"><choice><reg/><orig>p. 376, n. 6</orig></choice>St. Luke xxiv. 42.</note>
-            <note xml:id="n376-7" target="#a376-7" n="376-7"><choice><reg/><orig>p. 376, n. 7</orig></choice>Compare St. John vi. 9. </note>
-            <note xml:id="n376-8" target="#a376-8" n="376-8"><choice><reg/><orig>p. 376, n. 8</orig></choice>1 Timothy iv. 4.</note>
-            <note xml:id="n376-9" target="#a376-9" n="376-9"><choice><reg/><orig>p. 376, n. 9</orig></choice>1 Corinthians vi. 13.</note>
-            <note xml:id="n377-1" target="#a377-1" n="377-1"><choice><reg/><orig>p. 377, n. 1</orig></choice>Romans xiv. 3.</note>
-            <note xml:id="n377-2" target="#a377-2" n="377-2"><choice><reg/><orig>p. 377, n. 2</orig></choice>Compare Colossians iii. 3.</note>
-            <note xml:id="n377-3" target="#a377-3" n="377-3"><choice><reg/><orig>p. 377, n. 3</orig></choice>Romans xiv. 21.</note>
-            <note xml:id="n377-4" target="#a377-4" n="377-4"><choice><reg/><orig>p. 377, n. 4</orig></choice>Acts xiv. 22.</note>
-            <note xml:id="n377-5" target="#a377-5" n="377-5"><choice><reg/><orig>p. 377, n. 5</orig></choice>Acts xiv. 22; 1 Corinthians vi. 13.</note>
-            <note xml:id="n379-1" target="#a379-1" n="379-1"><choice><reg/><orig>p. 379, n. 1</orig></choice>Isaiah v. 11.</note>
-            <note xml:id="n381-1" target="#a381-1" n="381-1"><choice><reg/><orig>p. 381, n. 1</orig></choice>St. Matthew vi. 24.</note>
-            <note xml:id="n386-1" target="#a386-1" n="386-1"><choice><reg/><orig>p. 386, n. 1</orig></choice>Hebrews xiii. 9.</note>
-            <note xml:id="n386-2" target="#a386-2" n="386-2"><choice><reg/><orig>p. 386, n. 2</orig></choice>1 Corinthians vi. 10; and compare Galatians v. 21; Ephesians v.
+            </div>
+            <noteGrp>
+                <note xml:id="n340-1" target="#a340-1" n="1">
+                    <choice>
+                        <reg/>
+                        <orig>p. 340, n. 1</orig>
+                    </choice>The passage within [ ] is found in E und F only.</note>
+                <note xml:id="n343-1" target="#a343-1" n="2">
+                    <choice>
+                        <reg/>
+                        <orig>p. 343, n. 1</orig>
+                    </choice>Galatians v. 17.</note>
+                <note xml:id="n364-1" target="#a364-1" n="3">
+                    <choice>
+                        <reg/>
+                        <orig>p. 364, n. 1</orig>
+                    </choice>Leviticus xxiv. 17; Numbers xxxv. 30</note>
+                <note xml:id="n375-1" target="#a375-1" n="4">
+                    <choice>
+                        <reg/>
+                        <orig>p. 375, n. 1</orig>
+                    </choice>St. Matthew xv. 11.</note>
+                <note xml:id="n376-1" target="#a376-1" n="5">
+                    <choice>
+                        <reg/>
+                        <orig>p. 376, n. 1</orig>
+                    </choice>Compare St. Matthew xvi. 24.</note>
+                <note xml:id="n376-2" target="#a376-2" n="6">
+                    <choice>
+                        <reg/>
+                        <orig>p. 376, n. 2</orig>
+                    </choice>St. Matthew xvi. 25. </note>
+                <note xml:id="n376-3" target="#a376-3" n="7">
+                    <choice>
+                        <reg/>
+                        <orig>p. 376, n. 3</orig>
+                    </choice>St. John xvi. 33.</note>
+                <note xml:id="n376-4" target="#a376-4" n="8">
+                    <choice>
+                        <reg/>
+                        <orig>p. 376, n. 4</orig>
+                    </choice>St. Matthew ix. 15.</note>
+                <note xml:id="n376-5" target="#a376-5" n="9">
+                    <choice>
+                        <reg/>
+                        <orig>p. 376, n. 5</orig>
+                    </choice>Compare St. Matthew xxvi. 17-21.</note>
+                <note xml:id="n376-6" target="#a376-6" n="10">
+                    <choice>
+                        <reg/>
+                        <orig>p. 376, n. 6</orig>
+                    </choice>St. Luke xxiv. 42.</note>
+                <note xml:id="n376-7" target="#a376-7" n="11">
+                    <choice>
+                        <reg/>
+                        <orig>p. 376, n. 7</orig>
+                    </choice>Compare St. John vi. 9. </note>
+                <note xml:id="n376-8" target="#a376-8" n="12">
+                    <choice>
+                        <reg/>
+                        <orig>p. 376, n. 8</orig>
+                    </choice>1 Timothy iv. 4.</note>
+                <note xml:id="n376-9" target="#a376-9" n="13">
+                    <choice>
+                        <reg/>
+                        <orig>p. 376, n. 9</orig>
+                    </choice>1 Corinthians vi. 13.</note>
+                <note xml:id="n377-1" target="#a377-1" n="14">
+                    <choice>
+                        <reg/>
+                        <orig>p. 377, n. 1</orig>
+                    </choice>Romans xiv. 3.</note>
+                <note xml:id="n377-2" target="#a377-2" n="15">
+                    <choice>
+                        <reg/>
+                        <orig>p. 377, n. 2</orig>
+                    </choice>Compare Colossians iii. 3.</note>
+                <note xml:id="n377-3" target="#a377-3" n="16">
+                    <choice>
+                        <reg/>
+                        <orig>p. 377, n. 3</orig>
+                    </choice>Romans xiv. 21.</note>
+                <note xml:id="n377-4" target="#a377-4" n="17">
+                    <choice>
+                        <reg/>
+                        <orig>p. 377, n. 4</orig>
+                    </choice>Acts xiv. 22.</note>
+                <note xml:id="n377-5" target="#a377-5" n="18">
+                    <choice>
+                        <reg/>
+                        <orig>p. 377, n. 5</orig>
+                    </choice>Acts xiv. 22; 1 Corinthians vi. 13.</note>
+                <note xml:id="n379-1" target="#a379-1" n="19">
+                    <choice>
+                        <reg/>
+                        <orig>p. 379, n. 1</orig>
+                    </choice>Isaiah v. 11.</note>
+                <note xml:id="n381-1" target="#a381-1" n="20">
+                    <choice>
+                        <reg/>
+                        <orig>p. 381, n. 1</orig>
+                    </choice>St. Matthew vi. 24.</note>
+                <note xml:id="n386-1" target="#a386-1" n="21">
+                    <choice>
+                        <reg/>
+                        <orig>p. 386, n. 1</orig>
+                    </choice>Hebrews xiii. 9.</note>
+                <note xml:id="n386-2" target="#a386-2" n="22">
+                    <choice>
+                        <reg/>
+                        <orig>p. 386, n. 2</orig>
+                    </choice>1 Corinthians vi. 10; and compare Galatians v. 21; Ephesians v.
                5.</note>
-            <note xml:id="n387-1" target="#a387-1" n="387-1"><choice><reg/><orig>p. 387, n. 1</orig></choice>Deuteronomy xxxii. 13ff.</note>
-            <note xml:id="n387-2" target="#a387-2" n="387-2"><choice><reg/><orig>p. 387, n. 2</orig></choice>Deuteronomy xxxii. 15-17.</note>
-            <note xml:id="n388-1" target="#a388-1" n="388-1"><choice><reg/><orig>p. 388, n. 1</orig></choice>Exodus xxxii. 6.</note>
-            <note xml:id="n393-1" target="#a393-1" n="393-1"><choice><reg/><orig>p. 393, n. 1</orig></choice>Philippians iii. 19.</note>
-            <note xml:id="n394-1" target="#a394-1" n="394-1"><choice><reg/><orig>p. 394, n. 1</orig></choice>Philippians iii. 19.</note>
-            <note xml:id="n395-1" target="#a395-1" n="395-1"><choice><reg/><orig>p. 395, n. 1</orig></choice>Genesis iii. 7.</note>
-            <note xml:id="n395-2" target="#a395-2" n="395-2"><choice><reg/><orig>p. 395, n. 2</orig></choice>Genesis iii. 6.</note>
-            <note xml:id="n397-1" target="#a397-1" n="397-1"><choice><reg/><orig>p. 397, n. 1</orig></choice>Compare Genesis xxv. 33.</note>
-            <note xml:id="n397-2" target="#a397-2" n="397-2"><choice><reg/><orig>p. 397, n. 2</orig></choice>Compare Exodus xxxii. 10. </note>
-            <note xml:id="n397-3" target="#a397-3" n="397-3"><choice><reg/><orig>p. 397, n. 3</orig></choice>Numbers xi. 33.</note>
-            <note xml:id="n397-4" target="#a397-4" n="397-4"><choice><reg/><orig>p. 397, n. 4</orig></choice>Ezekiel xvi. 49.</note>
-            <note xml:id="n400-1" target="#a400-1" n="400-1"><choice><reg/><orig>p. 400, n. 1</orig></choice>Deuteronomy vi. 11, 12.</note>
-            <note xml:id="n401-1" target="#a401-1" n="401-1"><choice><reg/><orig>p. 401, n. 1</orig></choice>Hebrews xii. 16.</note>
-            <note xml:id="n402-1" target="#a402-1" n="402-1"><choice><reg/><orig>p. 402, n. 1</orig></choice>1 Corinthians vi. 13.</note>
-         </noteGrp>
-      </body>
-   </text>
+                <note xml:id="n387-1" target="#a387-1" n="23">
+                    <choice>
+                        <reg/>
+                        <orig>p. 387, n. 1</orig>
+                    </choice>Deuteronomy xxxii. 13ff.</note>
+                <note xml:id="n387-2" target="#a387-2" n="24">
+                    <choice>
+                        <reg/>
+                        <orig>p. 387, n. 2</orig>
+                    </choice>Deuteronomy xxxii. 15-17.</note>
+                <note xml:id="n388-1" target="#a388-1" n="25">
+                    <choice>
+                        <reg/>
+                        <orig>p. 388, n. 1</orig>
+                    </choice>Exodus xxxii. 6.</note>
+                <note xml:id="n393-1" target="#a393-1" n="26">
+                    <choice>
+                        <reg/>
+                        <orig>p. 393, n. 1</orig>
+                    </choice>Philippians iii. 19.</note>
+                <note xml:id="n394-1" target="#a394-1" n="27">
+                    <choice>
+                        <reg/>
+                        <orig>p. 394, n. 1</orig>
+                    </choice>Philippians iii. 19.</note>
+                <note xml:id="n395-1" target="#a395-1" n="28">
+                    <choice>
+                        <reg/>
+                        <orig>p. 395, n. 1</orig>
+                    </choice>Genesis iii. 7.</note>
+                <note xml:id="n395-2" target="#a395-2" n="29">
+                    <choice>
+                        <reg/>
+                        <orig>p. 395, n. 2</orig>
+                    </choice>Genesis iii. 6.</note>
+                <note xml:id="n397-1" target="#a397-1" n="30">
+                    <choice>
+                        <reg/>
+                        <orig>p. 397, n. 1</orig>
+                    </choice>Compare Genesis xxv. 33.</note>
+                <note xml:id="n397-2" target="#a397-2" n="31">
+                    <choice>
+                        <reg/>
+                        <orig>p. 397, n. 2</orig>
+                    </choice>Compare Exodus xxxii. 10. </note>
+                <note xml:id="n397-3" target="#a397-3" n="32">
+                    <choice>
+                        <reg/>
+                        <orig>p. 397, n. 3</orig>
+                    </choice>Numbers xi. 33.</note>
+                <note xml:id="n397-4" target="#a397-4" n="33">
+                    <choice>
+                        <reg/>
+                        <orig>p. 397, n. 4</orig>
+                    </choice>Ezekiel xvi. 49.</note>
+                <note xml:id="n400-1" target="#a400-1" n="34">
+                    <choice>
+                        <reg/>
+                        <orig>p. 400, n. 1</orig>
+                    </choice>Deuteronomy vi. 11, 12.</note>
+                <note xml:id="n401-1" target="#a401-1" n="35">
+                    <choice>
+                        <reg/>
+                        <orig>p. 401, n. 1</orig>
+                    </choice>Hebrews xii. 16.</note>
+                <note xml:id="n402-1" target="#a402-1" n="36">
+                    <choice>
+                        <reg/>
+                        <orig>p. 402, n. 1</orig>
+                    </choice>1 Corinthians vi. 13.</note>
+            </noteGrp>
+        </body>
+    </text>
 </TEI>
