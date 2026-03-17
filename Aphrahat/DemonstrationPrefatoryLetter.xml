@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -27,21 +27,17 @@
    </teiHeader>
    <text>
       <body>
-         <div type="section" n="1">
-            <head type="editorial">1</head>
-            <ab> Beloved, I send thee inquiries and questions, for I am compelled to seek further
+         <div type="section" xml:id="section-0" n="0">
+            <ab xml:id="section-0.1" n="1"> Beloved, I send thee inquiries and questions, for I am compelled to seek further
                instruction of thee on many points. Do not thou refuse to hear me. My spirit urges me
-               to warn thee about many topics<ptr type="noteAnchor" target="#n1"/> that thou mayest unfold for me the spiritual
+               to warn thee about many topics<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> that thou mayest unfold for me the spiritual
                perceptions of thy mind, and mayest show me of all that thou hast apprehended from
                the holy books, that so my deficiency may be supplied by thee and my hunger satisfied
                by thy doctrine, and that thou mayest assuage my thirst from the fountain of thine
                instruction. Yet though many things are set in my thought to ask thee, they all are
                notwithstanding reserved with me, that when I come to thee, thou mayest instruct me
                on all subjects. </ab>
-         </div>
-         <div type="section" n="2">
-            <head type="editorial">2</head>
-            <ab> But before all things I desire that thou wouldst write and instruct me concerning
+            <ab xml:id="section-0.2" n="2"> But before all things I desire that thou wouldst write and instruct me concerning
                this that straitens me, namely, concerning our faith; how it is, and what its
                foundation is, and on what structure it rises, on what it rests, and in what way is
                its fulfilment and consummation, and what are the works required for it. For I of

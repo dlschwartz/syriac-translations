@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -29,65 +29,66 @@
    </teiHeader>
    <text>
       <body>
-         <div type="section" n="1">
-            <head type="editorial">1</head>
-            <ab> Expedient is the word that I speak and worthy of acceptance:—Let us now awake from
-               our sleep,<ptr type="noteAnchor" target="#n1"/> and lift up both our hearts and hands to God towards heaven; lest
+         <div type="section" xml:id="section-6" n="6">
+            <ab xml:id="section-6.1" n="1"> Expedient is the word that I speak and worthy of acceptance:—Let us now awake from
+               our sleep,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and lift up both our hearts and hands to God towards heaven; lest
                suddenly the Lord of the house come, that when He comes He may find us in
-               watchfulness.<ptr type="noteAnchor" target="#n2"/> Let us observe the appointed time of the glorious bridegroom,<ptr type="noteAnchor" target="#n3"/>
+               watchfulness.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> Let us observe the 
+               appointed time of the glorious bridegroom,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>
                that we may enter with Him into His bride-chamber. Let us prepare oil for our lamps
                that we may go forth to meet Him with joy. Let us make ready provision for our
                abiding-place, for the way that is narrow and strait. And let us put away and cast
                from us all uncleanness, and put on wedding garments. Let us trade with the silver
-               that we have received,<ptr type="noteAnchor" target="#n4"/> that we may be called diligent servants. Let us be constant
+               that we have received,<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> that we may be called diligent servants. Let us be constant
                in prayer, that we may pass by the place where fear dwells. Let us cleanse our heart
                from iniquity, that we may see the Lofty One in His honour. Let us be merciful, as it
-               is written, that God may have mercy upon us.<ptr type="noteAnchor" target="#n5"/> Let there be peace amongst us, that
+               is written, that God may have mercy upon us.<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> Let there be peace amongst us, that
                we may be called the brethren of Christ. Let us hunger for righteousness, that we may
-               be satisfied<ptr type="noteAnchor" target="#n6"/> from the table of His Kingdom. Let us be the salt of truth, that we
+               be satisfied<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> from the table of His Kingdom. Let us be the salt of truth, that we
                may not become food for the serpent. Let us purge our seed from thorns, that we may
-               produce fruit a hundred-fold. Let us found our building on the rock,<ptr type="noteAnchor" target="#n7"/> that it may
-               not be shaken by the winds and waves. Let us be vessels unto honour<ptr type="noteAnchor" target="#n8"/> that we may be
+               produce fruit a hundred-fold. Let us found our building on the rock,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> that it may
+               not be shaken by the winds and waves. Let us be vessels unto honour<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> that we may be
                required by the Lord for His use. Let us sell all our possessions, and buy for
-               ourselves the pearl,<ptr type="noteAnchor" target="#n9"/> that we may be rich. Let us lay up our treasures in
-               heaven,<ptr type="noteAnchor" target="#n10"/> that when we come we may open them and have pleasure in them. Let us
-               visit our Lord in the persons of the sick,<ptr type="noteAnchor" target="#n11"/> that He may invite us to stand at His
+               ourselves the pearl,<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> that we may be rich. Let us lay up our treasures in
+               heaven,<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> that when we come we may open them and have pleasure in them. Let us
+               visit our Lord in the persons of the sick,<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> that He may invite us to stand at His
                right hand. Let us hate ourselves and love Christ, as He loved us and gave Himself up
-               for our sakes.<ptr type="noteAnchor" target="#n12"/> Let us honour the spirit of Christ, that we may receive grace from
-               Him. Let us be strangers to the world,<ptr type="noteAnchor" target="#n13"/> even as Christ was not of it. Let us be
+               for our sakes.<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> Let us honour the spirit of Christ, that we may receive grace from
+               Him. Let us be strangers to the world,<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> even as Christ was not of it. Let us be
                humble and mild, that we may inherit the land of life. Let us be unflagging in His
                service, that He may cause us to serve in the abode of the saints. Let us pray His
                prayer in purity, that it may have access to the Lord of Majesty. Let us be partakers
-               in His suffering, that so we may also rise up in His resurrection.<ptr type="noteAnchor" target="#n14"/> Let us bear
+               in His suffering, that so we may also rise up in His resurrection.<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> Let us bear
                His sign upon our bodies, that we may be delivered from the wrath to come. For
-               fearful is the day in which He will come, and who is able to endure it?<ptr type="noteAnchor" target="#n15"/> Furious
+               fearful is the day in which He will come, and who is able to endure it?<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> Furious
                and hot is His wrath, and it will destroy all the wicked. Let us set upon our head
-               the helmet of redemption,<ptr type="noteAnchor" target="#n16"/> that we may not be wounded and die in the battle. Let
+               the helmet of redemption,<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> that we may not be wounded and die in the battle. Let
                us gird our loins with truth, that we may not be found impotent in the contest. Let
                us arise and awaken Christ, that He may still the stormy blasts from us. Let us take
                as a shield against the Evil One, the preparation of the Gospel of our Redeemer. Let
-               us receive power from our Lord to tread upon snakes and scorpions.<ptr type="noteAnchor" target="#n17"/> Let us lay
+               us receive power from our Lord to tread upon snakes and scorpions.<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> Let us lay
                aside from us wrath, with all fury and malice. Let no reviling proceed out of our
                mouth, with which we pray unto God. Let us not be cursers, that we may be delivered
                from the curse of the law. Let us be diligent workers, that we may obtain our reward
                with those of old. Let us take up the burden of the day, that we may seek a more
                abundant reward. Let us not be idle workers, for lo! our Lord has hired us for His
-               vineyard.<ptr type="noteAnchor" target="#n18"/> Let us be planted as vines in the midst of His vineyard, for it is the
+               vineyard.<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> Let us be planted as vines in the midst of His vineyard, for it is the
                true vineyard. Let us be fruitful vines, that we may not be uprooted out of His
                vineyard. Let us be a sweet odour, that our fragrance may breathe forth to all
                around. Let us be poor in the world, and let us enrich many by the doctrine of our
-               Lord. Let us not call anyone our father in the earth,<ptr type="noteAnchor" target="#n19"/> that we may be the children
+               Lord. Let us not call anyone our father in the earth,<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> that we may be the children
                of the Father which is in heaven. Though we have nothing, yet we possess all
-               things.<ptr type="noteAnchor" target="#n20"/> Though no man know us, yet they that have knowledge of us are many. Let
-               us rejoice in our hope at every time,<ptr type="noteAnchor" target="#n21"/> that He Who is our hope and our Redeemer
+               things.<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/> Though no man know us, yet they that have knowledge of us are many. Let
+               us rejoice in our hope at every time,<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> that He Who is our hope and our Redeemer
                may rejoice in us. Let us judge ourselves righteously and condemn ourselves, that we
                may not hang down our faces before the judges who shall sit upon thrones and judge
-               the tribes.<ptr type="noteAnchor" target="#n22"/> Let us take to ourselves, as armour for the contest,<ptr type="noteAnchor" target="#n23"/> the
-               preparation of the Gospel. Let us knock at the door of heaven,<ptr type="noteAnchor" target="#n24"/> that it may be
+               the tribes.<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/> Let us take to ourselves, 
+               as armour for the contest,<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> the
+               preparation of the Gospel. Let us knock at the door of heaven,<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/> that it may be
                opened before us, and we may enter in through it. Let us diligently ask for mercy,
                that we may receive whatsoever is necessary for us. Let us seek His Kingdom and His
-               righteousness,<ptr type="noteAnchor" target="#n25"/> that we may receive increase in the land. Let us think upon the
-               things which are above,<ptr type="noteAnchor" target="#n26"/> on the heavenly things, and meditate on them, where
+               righteousness,<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/> that we may receive increase in the land. Let us think upon the
+               things which are above,<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> on the heavenly things, and meditate on them, where
                Christ has been lifted up and exalted. But let us forsake the world which is not
                ours, that we may arrive at the place to which we have been invited. Let us raise up
                our eyes on high, that we may see the splendour which shall be revealed. Let us lift
@@ -99,14 +100,14 @@
                Let us hearken to the voice of the bridegroom, that we may go in with Him into the
                bride-chamber. Let us prepare the marriage-gift for His bridal day, and let us go
                forth to meet Him with joy. Let us put on holy raiment, that we may recline in the
-               chief place of the elect. Whosoever puts not on wedding raiment,<ptr type="noteAnchor" target="#n27"/> they cast him
+               chief place of the elect. Whosoever puts not on wedding raiment,<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> they cast him
                out into outer darkness. Whosoever excuses himself from the wedding shall not taste
-               the feast.<ptr type="noteAnchor" target="#n28"/> Whosoever loves fields and merchandise, shall be shut out of the city
+               the feast.<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/> Whosoever loves fields and merchandise, shall be shut out of the city
                of Saints. Whosoever does not bear fruit in the vineyard, shall be uprooted and cast
                out to torment. Whosoever has received money from his Lord, let him return it to its
-               Giver with its increase.<ptr type="noteAnchor" target="#n29"/> Whosoever desires to become a merchant, let, him buy for
-               himself the field and the treasure that is in it.<ptr type="noteAnchor" target="#n30"/> Whosoever receives the good
-               seed, let him purge his land from thorns.<ptr type="noteAnchor" target="#n31"/> Whosoever desires to be a fisherman,
+               Giver with its increase.<ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/> Whosoever desires to become a merchant, let, him buy for
+               himself the field and the treasure that is in it.<ptr type="noteAnchor" xml:id="a30" target="#n30" n="30"/> Whosoever receives the good
+               seed, let him purge his land from thorns.<ptr type="noteAnchor" xml:id="a31" target="#n31" n="31"/> Whosoever desires to be a fisherman,
                let him cast forth his net at every time. Whosoever is training for the conflict, let
                him keep himself from the world. Whosoever wishes to gain the crown, let him run as a
                winner in the race. Whosoever wishes to go down into the course to contend, let him
@@ -121,45 +122,43 @@
                marriage-feast of the Bridegroom, let him not love the feast of this present time.
                Whosoever wishes to have pleasure in the banquet reserved there, let him remove
                drunkenness from himself. Whosoever prepares himself for the supper, let him not
-               excuse himself,<ptr type="noteAnchor" target="#n32"/> nor be a merchant. Whosoever he be on whom the good seed falls,
+               excuse himself,<ptr type="noteAnchor" xml:id="a32" target="#n32" n="32"/> nor be a merchant. Whosoever he be on whom the good seed falls,
                let him not allow the Evil One to sow tares in him. Whosoever has begun to build a
-               tower, let him count up all the cost thereof.<ptr type="noteAnchor" target="#n33"/> Whosoever builds ought to finish,
+               tower, let him count up all the cost thereof.<ptr type="noteAnchor" xml:id="a33" target="#n33" n="33"/> Whosoever builds ought to finish,
                that he be not a laughing-stock to them that pass by the way. Whosoever sets his
                building on the rock, let him make its foundations deep, that it may not be cast down
                by the billows. Whosoever wishes to fly from the darkness, let him walk while he has
-               light.<ptr type="noteAnchor" target="#n34"/> Whosoever fears to fly in winter,<ptr type="noteAnchor" target="#n35"/> let him prepare himself from the
-               summer-time. Whosoever looks forward to enter into rest,<ptr type="noteAnchor" target="#n36"/> let him make ready his
+               light.<ptr type="noteAnchor" xml:id="a34" target="#n34" n="34"/> Whosoever fears to fly 
+               in winter,<ptr type="noteAnchor" xml:id="a35" target="#n35" n="35"/> let him prepare himself from the
+               summer-time. Whosoever looks forward to enter into rest,<ptr type="noteAnchor" xml:id="a36" target="#n36" n="36"/> let him make ready his
                provision for the Sabbath. Whosoever begs forgiveness of his Lord, let him also
-               forgive his debtor.<ptr type="noteAnchor" target="#n37"/> Whosoever does not demand back a hundred dinars, his Lord
+               forgive his debtor.<ptr type="noteAnchor" xml:id="a37" target="#n37" n="37"/> Whosoever does not demand back a hundred dinars, his Lord
                forgives him ten thousand talents. Whosoever casts down his Lord’s money on the
-               banker’s table,<ptr type="noteAnchor" target="#n38"/> will not be called an unprofitable servant. Whosoever loves
+               banker’s table,<ptr type="noteAnchor" xml:id="a38" target="#n38" n="38"/> will not be called an unprofitable servant. Whosoever loves
                humility, shall be heir in the land of life. Whosoever wishes to make peace, shall be
-               one of the sons of God.<ptr type="noteAnchor" target="#n39"/> Whosoever knows the will of his Lord, let him do that
-               will, that he may not be beaten much.<ptr type="noteAnchor" target="#n40"/> Whosoever cleanses his heart from deceits,
-               His eyes shall behold the King in his beauty.<ptr type="noteAnchor" target="#n41"/> Whosoever receives the Spirit of
-               Christ, let him adorn his inner man. Whosoever is called the temple of God,<ptr type="noteAnchor" target="#n42"/> let
-               him purify his body from all uncleanness. Whosoever grieves the Spirit of Christ,<ptr type="noteAnchor" target="#n43"/>
+               one of the sons of God.<ptr type="noteAnchor" xml:id="a39" target="#n39" n="39"/> Whosoever knows the will of his Lord, let him do that
+               will, that he may not be beaten much.<ptr type="noteAnchor" xml:id="a40" target="#n40" n="40"/> Whosoever cleanses his heart from deceits,
+               His eyes shall behold the King in his beauty.<ptr type="noteAnchor" xml:id="a41" target="#n41" n="41"/> Whosoever receives the Spirit of
+               Christ, let him adorn his inner man. Whosoever is called the temple of God,<ptr type="noteAnchor" xml:id="a42" target="#n42" n="42"/> let
+               him purify his body from all uncleanness. Whosoever grieves the Spirit of Christ,<ptr type="noteAnchor" xml:id="a43" target="#n43" n="43"/>
                shall not raise up his head from griefs. Whosoever receives the body of Christ, let
-               him keep his body from all uncleanness. Whosoever casts off the old man,<ptr type="noteAnchor" target="#n44"/> let him
+               him keep his body from all uncleanness. Whosoever casts off the old man,<ptr type="noteAnchor" xml:id="a44" target="#n44" n="44"/> let him
                not turn back to his former works. Whosoever puts on the new man, let him keep
                himself from all filthiness. Whosoever has put on armour from the water (of baptism),
                let him not put off his armour that he may not be condemned. Whosoever takes up the
-               shield<ptr type="noteAnchor" target="#n45"/> against the Evil One, let him keep himself from the darts which he hurls
-               at him. Whosoever shall draw back, his Lord has no pleasure in him.<ptr type="noteAnchor" target="#n46"/> Whosoever
+               shield<ptr type="noteAnchor" xml:id="a45" target="#n45" n="45"/> against the Evil One, let him keep himself from the darts which he hurls
+               at him. Whosoever shall draw back, his Lord has no pleasure in him.<ptr type="noteAnchor" xml:id="a46" target="#n46" n="46"/> Whosoever
                thinks upon the Law of his Lord, shall not be troubled with the thoughts of this
                world. Whosoever meditates on the Law of his Lord, is like a tree planted by the
-               waters.<ptr type="noteAnchor" target="#n47"/> Whosoever again has trust in his Lord, is like a tree that is set out by
-               the river. Whosoever puts his trust in man shall receive the curses of Jeremiah.<ptr type="noteAnchor" target="#n48"/>
+               waters.<ptr type="noteAnchor" xml:id="a47" target="#n47" n="47"/> Whosoever again has trust in his Lord, is like a tree that is set out by
+               the river. Whosoever puts his trust in man shall receive the curses of Jeremiah.<ptr type="noteAnchor" xml:id="a48" target="#n48" n="48"/>
                Whosoever is invited to the Bridegroom, let him prepare himself. Whosoever has
                lighted his lamp, let him not suffer it to go out. Whosoever is expectant of the
-               marriage-cry, let him take oil in his vessel.<ptr type="noteAnchor" target="#n49"/> Whosoever is keeper of the door,
+               marriage-cry, let him take oil in his vessel.<ptr type="noteAnchor" xml:id="a49" target="#n49" n="49"/> Whosoever is keeper of the door,
                let him be on the watch for his Master. Whosoever loves virginity, let him become
                like Elijah. Whosoever takes up the yoke of the Saints, let him sit and be silent.
                Whosoever loves peace, let him look for his Master as the hope of life.</ab>
-         </div>
-         <div type="section" n="2">
-            <head type="editorial">2</head>
-            <ab> For, my beloved, our adversary is skilful. He that contends against us is crafty.
+            <ab xml:id="section-6.2" n="2"> For, my beloved, our adversary is skilful. He that contends against us is crafty.
                Against the brave and the renowned does he prepare himself, that they may be
                weakened. For the feeble are his own, nor does he fight with the captivity that are
                made captive to him. He that has wings flees from him and the darts that he hurls at
@@ -179,41 +178,36 @@
                to the poor. If he comes in as sweetness against them, they taste it not, knowing
                that he is bitter. If he inflames them with the desire of Eve, they dwell alone, and
                not with the daughters of Eve. </ab>
-         </div>
-         <div type="section" n="3">
-            <head type="editorial">3</head>
-            <ab> For it was through Eve that he came in upon Adam,<ptr type="noteAnchor" target="#n50"/> and Adam was enticed because
+            <ab xml:id="section-6.3" n="3"> For it was through Eve that he came in upon 
+               Adam,<ptr type="noteAnchor" xml:id="a50" target="#n50" n="50"/> and Adam was enticed because
                of his inexperience. And again he came in against Joseph through his master’s
-               wife,<ptr type="noteAnchor" target="#n51"/> but Joseph was acquainted with his craftiness and would not afford him a
-               hearing. Through a woman he fought with Samson,<ptr type="noteAnchor" target="#n52"/> until he took away his
+               wife,<ptr type="noteAnchor" xml:id="a51" target="#n51" n="51"/> but Joseph was acquainted with his craftiness and would not afford him a
+               hearing. Through a woman he fought with Samson,<ptr type="noteAnchor" xml:id="a52" target="#n52" n="52"/> until he took away his
                Nazariteship. Reuben was the first-born of all his brethren, and through his father’s
-               wife,<ptr type="noteAnchor" target="#n53"/> (the adversary) cast a blemish upon him. Aaron was the great high-priest of
-               the house of Israel, and through Miriam<ptr type="noteAnchor" target="#n54"/> his sister he envied Moses. Moses was
+               wife,<ptr type="noteAnchor" xml:id="a53" target="#n53" n="53"/> (the adversary) cast a blemish upon him. Aaron was the great high-priest of
+               the house of Israel, and through Miriam<ptr type="noteAnchor" xml:id="a54" target="#n54" n="54"/> his sister he envied Moses. Moses was
                sent to deliver the people from Egypt, and took with him the woman who advised him to
-               shameful acts,<ptr type="noteAnchor" target="#n55"/> and the Lord met with Moses, and desired to slay him, till he sent
+               shameful acts,<ptr type="noteAnchor" xml:id="a55" target="#n55" n="55"/> and the Lord met with Moses, and desired to slay him, till he sent
                back his wife to Midian. David was victorious in all his battles, yet through means
-               of a daughter of Eve<ptr type="noteAnchor" target="#n56"/> there was found a blemish in him. Amnon was beautiful and
+               of a daughter of Eve<ptr type="noteAnchor" xml:id="a56" target="#n56" n="56"/> there was found a blemish in him. Amnon was beautiful and
                fair in countenance, yet (the adversary) took him captive by desire for his
-               sister,<ptr type="noteAnchor" target="#n57"/> and Absalom slew him on account of the humbling of Tamar. Solomon was
+               sister,<ptr type="noteAnchor" xml:id="a57" target="#n57" n="57"/> and Absalom slew him on account of the humbling of Tamar. Solomon was
                greater than all the kings of the earth, yet in the days of his old age his wives led
-               his heart astray.<ptr type="noteAnchor" target="#n58"/> Through Jezebel, daughter of Ethbaal, the wickedness of Ahab
-               was increased,<ptr type="noteAnchor" target="#n59"/> and he became altogether a heathen. Furthermore, the adversary
-               tempted Job through his children and his possessions,<ptr type="noteAnchor" target="#n60"/> and when he could not
+               his heart astray.<ptr type="noteAnchor" xml:id="a58" target="#n58" n="58"/> Through Jezebel, daughter of Ethbaal, the wickedness of Ahab
+               was increased,<ptr type="noteAnchor" xml:id="a59" target="#n59" n="59"/> and he became altogether a heathen. Furthermore, the adversary
+               tempted Job through his children and his possessions,<ptr type="noteAnchor" xml:id="a60" target="#n60" n="60"/> and when he could not
                prevail over him, he went and brought against him his armour, and he came, bringing
                with him a daughter of Eve, who had caused Adam to sink, and through her mouth he
-               said to Job, her righteous husband:—Curse God.<ptr type="noteAnchor" target="#n61"/> But Job rejected her counsel. King
+               said to Job, her righteous husband:—Curse God.<ptr type="noteAnchor" xml:id="a61" target="#n61" n="61"/> But Job rejected her counsel. King
                Asa also conquered the Accursed-of-life, when he wished to come in against him,
-               through his mother.<ptr type="noteAnchor" target="#n62"/> For Asa knew his craftiness and removed his mother from her
+               through his mother.<ptr type="noteAnchor" xml:id="a62" target="#n62" n="62"/> For Asa knew his craftiness and removed his mother from her
                high estate, and cut in pieces her idol and cast it down. John was greater than all
-               the prophets, yet Herod slew him because of the dancing of a daughter of Eve.<ptr type="noteAnchor" target="#n63"/>
+               the prophets, yet Herod slew him because of the dancing of a daughter of Eve.<ptr type="noteAnchor" xml:id="a63" target="#n63" n="63"/>
                Haman was wealthy and third in honour from the King, yet his wife counselled him to
-               destroy the Jews.<ptr type="noteAnchor" target="#n64"/> Zimri was head of the tribe of Simeon, yet Cozbi, daughter of
+               destroy the Jews.<ptr type="noteAnchor" xml:id="a64" target="#n64" n="64"/> Zimri was head of the tribe of Simeon, yet Cozbi, daughter of
                the chiefs of Midian, overthrew him, and because of one woman twenty-four thousand of
-               Israel fell in one day.<ptr type="noteAnchor" target="#n65"/> </ab>
-         </div>
-         <div type="section" n="4">
-            <head type="editorial">4</head>
-            <ab> Therefore, my brethren, if any man who is a monk or a saint, who loves the solitary
+               Israel fell in one day.<ptr type="noteAnchor" xml:id="a65" target="#n65" n="65"/> </ab>
+            <ab xml:id="section-6.4" n="4"> Therefore, my brethren, if any man who is a monk or a saint, who loves the solitary
                life, yet desires that a woman, bound by monastic vow like himself, should dwell with
                him, it would be better for him in that case to take (to wife) a woman openly and not
                be made wanton by lust. So also again the woman, if she be not separated from the
@@ -226,16 +220,13 @@
                and becoming, that even if a man should be distressed, he should continue alone. And
                thus it becomes him to dwell, as it is written in the Prophet Jeremiah:—Blessed is
                the man who shall take up Thy yoke in his youth, and sit alone and be silent, because
-               he has taken upon him Thy yoke.<ptr type="noteAnchor" target="#n66"/> For thus, my beloved, it becomes him who takes up
+               he has taken upon him Thy yoke.<ptr type="noteAnchor" xml:id="a66" target="#n66" n="66"/> For thus, my beloved, it becomes him who takes up
                the yoke of Christ, to preserve his yoke in purity. </ab>
-         </div>
-         <div type="section" n="5">
-            <head type="editorial">5</head>
-            <ab> For thus it is written, my beloved, concerning Moses, that from the time the Holy
+            <ab xml:id="section-6.5" n="5"> For thus it is written, my beloved, concerning Moses, that from the time the Holy
                One was revealed to him, he also loved holiness. And from the time he was sanctified,
                his wife ministered not to him. But it is thus written:—Joshua, the son of Nun, was
-               the minister of Moses from his childhood.<ptr type="noteAnchor" target="#n67"/> And of Joshua again it is thus written
-               concerning him, that he used not to depart from the tabernacle.<ptr type="noteAnchor" target="#n68"/> And the temporal
+               the minister of Moses from his childhood.<ptr type="noteAnchor" xml:id="a67" target="#n67" n="67"/> And of Joshua again it is thus written
+               concerning him, that he used not to depart from the tabernacle.<ptr type="noteAnchor" xml:id="a68" target="#n68" n="68"/> And the temporal
                tabernacle was not ministered to by a woman, because the Law did not allow women to
                enter the temporal tabernacle, but even when they came to pray, they used to pray at
                the door of the temporal tabernacle, and then turn back. Moreover, he commanded the
@@ -245,23 +236,20 @@
                was ministered to by his disciple; and because his heart was in heaven, the bird of
                heaven used to bring sustenance to him; and because he took upon him the likeness of
                the angels of heaven, those very angels brought him bread and water when he was
-               fleeing from before Jezebel.<ptr type="noteAnchor" target="#n69"/> And because he set all his thought in heaven, he was
-               caught up in the chariot of fire to heaven,<ptr type="noteAnchor" target="#n70"/> and there his dwelling-place was
+               fleeing from before Jezebel.<ptr type="noteAnchor" xml:id="a69" target="#n69" n="69"/> And because he set all his thought in heaven, he was
+               caught up in the chariot of fire to heaven,<ptr type="noteAnchor" xml:id="a70" target="#n70" n="70"/> and there his dwelling-place was
                established for ever. Elisha also walked in the footsteps of his Master. He used to
                dwell in the upper chamber of the Shunamite, and was ministered to by his disciple.
                For thus the Shunamite said;—He is a holy Prophet of God and passes by us
                continually, for thus it becomes his holiness that we should make for him an upper
-               chamber and do for him the service that is (necessary) in it.<ptr type="noteAnchor" target="#n71"/> Now what was the
+               chamber and do for him the service that is (necessary) in it.<ptr type="noteAnchor" xml:id="a71" target="#n71" n="71"/> Now what was the
                service necessary in the upper chamber of Elisha? Clearly the bed and table and stool
                and lamp-stand only. But what shall we say of John? He also used to dwell amongst
                men, and preserved his virginity honourably, and received the Spirit of God.
                Moreover, the blessed Apostle said concerning himself and concerning Barnabas:—Had we
                then not power to eat and to drink and to lead about wives with us? But it was not
-               becoming or right.<ptr type="noteAnchor" target="#n72"/> </ab>
-         </div>
-         <div type="section" n="6">
-            <head type="editorial">6</head>
-            <ab> Therefore, brethren, because we know and have seen that from the beginning it was
+               becoming or right.<ptr type="noteAnchor" xml:id="a72" target="#n72" n="72"/> </ab>
+            <ab xml:id="section-6.6" n="6"> Therefore, brethren, because we know and have seen that from the beginning it was
                through woman that the adversary had access unto men, and to the end he will
                accomplish it by her—for she is the weapon of Satan, and through her he fights
                against the champions. Through her he makes music at every time, for she became as a
@@ -270,7 +258,9 @@
                bears children and delivers them to death. Because of her the earth was cursed, that
                it should bring forth thorns and tares. Accordingly, by the coming of the offspring
                of the Blessed Mary the thorns are uprooted, the sweat wiped away, the fig-tree
-               cursed,<ptr type="noteAnchor" target="#n73"/> the dust made salt,<ptr type="noteAnchor" target="#n74"/> the curse nailed to the cross,<ptr type="noteAnchor" target="#n75"/> the edge of
+               cursed,<ptr type="noteAnchor" xml:id="a73" target="#n73" n="73"/> the dust made 
+               salt,<ptr type="noteAnchor" xml:id="a74" target="#n74" n="74"/> the curse nailed to the 
+               cross,<ptr type="noteAnchor" xml:id="a75" target="#n75" n="75"/> the edge of
                the sword removed from before the tree of life and it given as food to the faithful,
                and Paradise promised to the blessed and to virgins and to the saints. So the fruit
                of the tree of life is given as food to the faithful and to virgins, and to those
@@ -291,45 +281,39 @@
                has gone by, and justice reigns. There is no repentance in that place. Winter is at
                hand; the summer has passed away. The Sabbath of rest has come; toil has ceased.
                Night has passed away; the light reigns. As to death, its sting is broken and it is
-               swallowed up in life.<ptr type="noteAnchor" target="#n76"/> Those that return to Sheol shall weep and gnash their
+               swallowed up in life.<ptr type="noteAnchor" xml:id="a76" target="#n76" n="76"/> Those that return to Sheol shall weep and gnash their
                teeth, and those that go to the Kingdom shall rejoice and exult and dance and sing
                praises. For those that take not wives shall be ministered to by the Watchers of
                heaven. Those that preserve chastity shall rest in the sanctuary of the Most High.
                The Only Begotten Who is from the bosom of His Father shall cause all the solitaries
-               to rejoice. There is there neither male nor female, neither bond nor free,<ptr type="noteAnchor" target="#n77"/> but
+               to rejoice. There is there neither male nor female, neither bond nor free,<ptr type="noteAnchor" xml:id="a77" target="#n77" n="77"/> but
                they all are the children of the Most High. And all the pure virgins who are
-               betrothed to Christ shall light their lamps<ptr type="noteAnchor" target="#n78"/> and with the Bridegroom shall they go
+               betrothed to Christ shall light their lamps<ptr type="noteAnchor" xml:id="a78" target="#n78" n="78"/> and with the Bridegroom shall they go
                into the marriage chamber. All those that are betrothed to Christ are far removed
                from the curse of the Law, and are redeemed from the condemnation of the daughters of
                Eve; for they are not wedded to men so as to receive the curses and come into the
                pains. They take no thought of death, because they do not deliver children to him.
                And in place of a mortal husband, they are betrothed to Christ. And because they do
                not bear children, there is Given to them the name that is better than sons and
-               daughters.<ptr type="noteAnchor" target="#n79"/> And instead of the groans of the daughters of Eve, they utter the
+               daughters.<ptr type="noteAnchor" xml:id="a79" target="#n79" n="79"/> And instead of the groans of the daughters of Eve, they utter the
                songs of the Bridegroom. The wedding-feast of the daughters of Eve continues for but
                seven days; but for these (virgins) is the Bridegroom who departs not for ever. The
                adornment of the daughters of Eve is wool that wears out and perishes, but the
                garments of these wear not out. Old age withers the beauty of the daughters of Eve,
                but the beauty of these shall be renewed in the time of the Resurrection. </ab>
-         </div>
-         <div type="section" n="7">
-            <head type="editorial">7</head>
-            <ab> O ye virgins who have betrothed yourselves to Christ, when one of the monks shall
+            <ab xml:id="section-6.7" n="7"> O ye virgins who have betrothed yourselves to Christ, when one of the monks shall
                say to one of you, “I will live with thee and minister thou to me,” thus shalt thou
                say unto him:—“To a royal husband am I betrothed, and Him do I serve; and if I leave
                His service and serve thee, my betrothed will be wroth with me, and will write me a
                letter of divorce, and will send me away from His house; and while thou seekest to be
                honoured by me, and I to be honoured by thee, take heed lest hurt come upon me and
-               thee. Take not fire into thy bosom,<ptr type="noteAnchor" target="#n80"/> lest it burn thy garments; but be thou in
+               thee. Take not fire into thy bosom,<ptr type="noteAnchor" xml:id="a80" target="#n80" n="80"/> lest it burn thy garments; but be thou in
                honour alone, and I also alone will abide in my honour. And as concerning these
                things which the Bridegroom has prepared for the eternity of his marriage feast, do
                thou make thee a wedding-gift and prepare thyself to meet Him. And as for me, I will
                make me ready oil, that I may enter in with the wise virgins and may not be kept
                outside the door with the foolish virgins.” </ab>
-         </div>
-         <div type="section" n="8">
-            <head type="editorial">8</head>
-            <ab> Hearken then, my beloved, unto that which I write unto thee, namely, whatsoever
+            <ab xml:id="section-6.8" n="8"> Hearken then, my beloved, unto that which I write unto thee, namely, whatsoever
                things become solitaries, monks, virgins, saints. Before all things it beseems the
                man on whom the yoke is laid, that his faith should be firm; as I wrote to thee in
                the first epistle; that he should be zealous in fasting and prayer; that he should be
@@ -364,37 +348,39 @@
                another man with speciousness of words. These things beseem solitaries who take up
                the heavenly yoke, and become disciples of Christ. For thus it befits the disciples
                of Christ to be like unto Christ their Master. </ab>
-         </div>
-         <div type="section" n="9">
-            <head type="editorial">9</head>
-            <ab> Let us take pattern, my beloved, from our Saviour, Who though He was rich, made
-               Himself poor;<ptr type="noteAnchor" target="#n81"/> and though He was lofty, humbled His Majesty; and though His
-               dwelling place was in heaven, He had no place to lay His head;<ptr type="noteAnchor" target="#n82"/> and though He is
-               to come upon the clouds,<ptr type="noteAnchor" target="#n83"/> yet rode on a colt and so entered Jerusalem;<ptr type="noteAnchor" target="#n84"/> and
-               though He is God and Son of God, He took upon Him the likeness of a servant;<ptr type="noteAnchor" target="#n85"/> and
+            <ab xml:id="section-6.9" n="9"> Let us take pattern, my beloved, from our Saviour, Who though He was rich, made
+               Himself poor;<ptr type="noteAnchor" xml:id="a81" target="#n81" n="81"/> and 
+               though He was lofty, humbled His Majesty; and though His dwelling place was in 
+               heaven, He had no place to lay His head;<ptr type="noteAnchor" xml:id="a82" target="#n82" n="82"/> and 
+               though He is to come upon the clouds,<ptr type="noteAnchor" xml:id="a83" target="#n83" n="83"/> yet 
+               rode on a colt and so entered Jerusalem;<ptr type="noteAnchor" xml:id="a84" target="#n84" n="84"/> and
+               though He is God and Son of God, He took upon Him the likeness of a 
+               servant;<ptr type="noteAnchor" xml:id="a85" target="#n85" n="85"/> and
                though He was (for others) rest from all weariness, yet was Himself tired with the
                weariness of the journey; though He was the fountain that quenches thirst, yet
-               Himself thirsted and asked for water;<ptr type="noteAnchor" target="#n86"/> though He was abundance and satisfied our
-               hunger, yet He Himself hungered when He went forth to the wilderness to be
-               tempted;<ptr type="noteAnchor" target="#n87"/> though He was a Watcher that slumbers not, He yet slumbered and slept in
-               the ship in the midst of the sea;<ptr type="noteAnchor" target="#n88"/> and though He was ministered to in the
+               Himself thirsted and asked for water;<ptr type="noteAnchor" xml:id="a86" target="#n86" n="86"/> though 
+               He was abundance and satisfied our hunger, yet He Himself hungered when He went 
+               forth to the wilderness to be tempted;<ptr type="noteAnchor" xml:id="a87" target="#n87" n="87"/> though 
+               He was a Watcher that slumbers not, He yet slumbered and slept in
+               the ship in the midst of the sea;<ptr type="noteAnchor" xml:id="a88" target="#n88" n="88"/> and 
+               though He was ministered to in the
                Tabernacle of His Father, yet let Himself be served by the hands of men; though He
                was the healer of all sick men, yet nails were fastened into His hands; though His
-               mouth brought forth things that were good, yet they gave Him gall to eat;<ptr type="noteAnchor" target="#n89"/> though
+               mouth brought forth things that were good, yet they gave Him gall to 
+               eat;<ptr type="noteAnchor" xml:id="a89" target="#n89" n="89"/> though
                He injured no man and harmed none, yet He was beaten with stripes and endured shame;
                and though he was Saviour of all mortals, He delivered Himself to the death of the
                cross. </ab>
-         </div>
-         <div type="section" n="10">
-            <head type="editorial">10</head>
-            <ab> All this humility did our Saviour show us in Himself. Let us then also humble
-               ourselves, my beloved. When our Lord went outside of His nature,<ptr type="noteAnchor" target="#n90"/> He walked in our
+            <ab xml:id="section-6.10" n="10"> All this humility did our Saviour show us in Himself. Let us then also humble
+               ourselves, my beloved. When our Lord went outside of His 
+               nature,<ptr type="noteAnchor" xml:id="a90" target="#n90" n="90"/> He walked in our
                nature. Let us abide in our nature, that in the day of judgment He may cause us to
                partake of His nature. Our Lord took from us a pledge when He went, and He left us a
                pledge of His own when he ascended. He that was without need, because of our need
                devised this expedient. What was ours was His even from the beginning, but that which
                was His, who would have given us? But true is that which our Lord promised us:—Where
-               I am there ye also shall be.<ptr type="noteAnchor" target="#n91"/> For whatsoever He took of ours, is in honour with
+               I am there ye also shall be.<ptr type="noteAnchor" xml:id="a91" target="#n91" n="91"/> For 
+               whatsoever He took of ours, is in honour with
                Him, and (as) a diadem is bound upon His Head. So also that, which of His we have
                received, we ought to honour. That which is ours is held in honour with Him who was
                not in our nature: let us honour that which is His in His own nature. If we honour
@@ -411,22 +397,22 @@
                because of us, because we have honoured Him. When He came to us, He had nothing of
                ours, and also we had nothing of His, though the two natures were His and His
                Father’s. For when Gabriel made announcement to the Blessed Mary who bore Him, the
-               word from on high set out and came, and the word became flesh and dwelt in us.<ptr type="noteAnchor" target="#n92"/>
+               word from on high set out and came, and the word became flesh and dwelt in 
+               us.<ptr type="noteAnchor" xml:id="a92" target="#n92" n="92"/>
                And when He returned to Him that sent Him, He took away, when He went, that which He
                had not brought, as the Apostle said:—He has taken us up and seated us with Himself
-               in the heavens.<ptr type="noteAnchor" target="#n93"/> And when He went to His Father, He sent to us His Spirit and said
+               in the heavens.<ptr type="noteAnchor" xml:id="a93" target="#n93" n="93"/> And when 
+               He went to His Father, He sent to us His Spirit and said
                to us I am with you till the world shall end. For Christ sitteth at the right hand of
-               His Father, and Christ dwelleth among men.<ptr type="noteAnchor" target="#n94"/> He is sufficient above and beneath, by
+               His Father, and Christ dwelleth among men.<ptr type="noteAnchor" xml:id="a94" target="#n94" n="94"/> He 
+               is sufficient above and beneath, by
                the wisdom of His Father. And He dwells in many, though He is one, and all the
                faithful each by each He overshadows from Himself, and fails not, as it is written:—I
-               will divide Him among many.<ptr type="noteAnchor" target="#n95"/> And though He is divided among many, yet He sits at
+               will divide Him among many.<ptr type="noteAnchor" xml:id="a95" target="#n95" n="95"/> And though He is divided among many, yet He sits at
                the right hand of His Father. And He is in us and we are in Him, as He said:—Ye are
-               in Me and I am in you.<ptr type="noteAnchor" target="#n96"/> And in another place He said:—I and Father are one.<ptr type="noteAnchor" target="#n97"/>
-            </ab>
-         </div>
-         <div type="section" n="11">
-            <head type="editorial">11</head>
-            <ab> And if anyone, whose conscience lacks knowledge, should dispute about this and
+               in Me and I am in you.<ptr type="noteAnchor" xml:id="a96" target="#n96" n="96"/> And in 
+               another place He said:—I and Father are one.<ptr type="noteAnchor" xml:id="a97" target="#n97" n="97"/></ab>
+            <ab xml:id="section-6.11" n="11"> And if anyone, whose conscience lacks knowledge, should dispute about this and
                say:—“Since Christ is one and His Father is one, how does Christ dwell, and His
                Father dwell, in faithful men? And how do righteous men become temples for God that
                He should dwell in them? If then it is thus, that to each several faithful man there
@@ -451,37 +437,31 @@
                whit diminished in heaven, when its power is poured out in the earth. How much
                greater then is the power of God, since by the power of God the very sun itself
                subsists. </ab>
-         </div>
-         <div type="section" n="12">
-            <head type="editorial">12</head>
-            <ab> Again I will remind thee, my beloved, also of that which is written. For thus it is
+            <ab xml:id="section-6.12" n="12"> Again I will remind thee, my beloved, also of that which is written. For thus it is
                written, that when it was a grievous burden to Moses to lead the camp alone, the Lord
                said to him:—Lo! will take away of the Spirit that is upon thee, and will put it upon
-               seventy men, elders of Israel.<ptr type="noteAnchor" target="#n98"/> But when He took away some of the Spirit of Moses,
+               seventy men, elders of Israel.<ptr type="noteAnchor" xml:id="a98" target="#n98" n="98"/> But when He took away some of the Spirit of Moses,
                and the seventy men were filled with it, Moses nothing lacked, nor could it be known
                that anything was taken away from his Spirit. Moreover the blessed apostle also
-               said:—God divided of the Spirit of Christ and sent it into the Prophets.<ptr type="noteAnchor" target="#n99"/> And
+               said:—God divided of the Spirit of Christ and sent it into the Prophets.<ptr type="noteAnchor" xml:id="a99" target="#n99" n="99"/> And
                Christ was in nothing injured, for it was not by measure that His Father gave unto
-               Him the Spirit.<ptr type="noteAnchor" target="#n100"/> By this reflection thou canst comprehend that Christ dwells in
+               Him the Spirit.<ptr type="noteAnchor" xml:id="a100" target="#n100" n="100"/> By this reflection thou canst comprehend that Christ dwells in
                faithful men; yet Christ suffers no loss though He is divided among many. For the
                Prophets received of the Spirit of Christ, each one of them as he was able to bear.
-               And of the Spirit of Christ again there is poured forth to-day upon all flesh,<ptr type="noteAnchor" target="#n101"/>
+               And of the Spirit of Christ again there is poured forth to-day upon all flesh,<ptr type="noteAnchor" xml:id="a101" target="#n101" n="101"/>
                and the sons and the daughters prophesy, the old men and the youths, the men-servants
                and the hand-maids. Something of Christ is in us, yet Christ is in heaven at the
                right hand of His Father. And Christ received the Spirit not by measure, but His
                Father loved Him and delivered all into His hands, and gave Him authority over all
                His treasure. For John said:—Not by measure did the Father give the Spirit to His
-               Son, but loved Him and gave all into His hands.<ptr type="noteAnchor" target="#n102"/> And also our Lord said:—All
-               things have been delivered unto Me by My Father.<ptr type="noteAnchor" target="#n103"/> Again he said:—The Father will
-               not judge any man, but all judgment will He give unto His Son.<ptr type="noteAnchor" target="#n104"/> Again also the
+               Son, but loved Him and gave all into His hands.<ptr type="noteAnchor" xml:id="a102" target="#n102" n="102"/> And also our Lord said:—All
+               things have been delivered unto Me by My Father.<ptr type="noteAnchor" xml:id="a103" target="#n103" n="103"/> Again he said:—The Father will
+               not judge any man, but all judgment will He give unto His Son.<ptr type="noteAnchor" xml:id="a104" target="#n104" n="104"/> Again also the
                Apostle said:—Everything shall be made subject unto Christ except His Father Who hath
                subjected all unto Him. And when everything is made subject unto Him by the Father,
                then He also shall be made subject to God His Father Who subjected all to Him, and
-               God shall be all in all, and in every man.<ptr type="noteAnchor" target="#n105"/> </ab>
-         </div>
-         <div type="section" n="13">
-            <head type="editorial">13</head>
-            <ab> Our Lord testifies concerning John, that he is the greatest of the Prophets. Yet he
+               God shall be all in all, and in every man.<ptr type="noteAnchor" xml:id="a105" target="#n105" n="105"/> </ab>
+            <ab xml:id="section-6.13" n="13"> Our Lord testifies concerning John, that he is the greatest of the Prophets. Yet he
                received the Spirit by limit, because in that measure in which Elijah received the
                Spirit, (in the same) John obtained it. And as Elijah used to dwell in the
                wilderness, so also the Spirit of God led John into the wilderness, and he used to
@@ -507,29 +487,26 @@
                descended to the abode of the dead, He quickened many and raised them up. And many
                are the signs that the Spirit of Christ wrought, which the Prophets received from
                Him. </ab>
-         </div>
-         <div type="section" n="14">
-            <head type="editorial">14</head>
-            <ab> Therefore, my beloved, we also have received of the Spirit of Christ, and Christ
+            <ab xml:id="section-6.14" n="14"> Therefore, my beloved, we also have received of the Spirit of Christ, and Christ
                dwelleth in us, as it is written that the Spirit said this through the mouth of the
-               Prophet:—I will dwell in them and will walk in them.<ptr type="noteAnchor" target="#n106"/> Therefore let us prepare
+               Prophet:—I will dwell in them and will walk in them.<ptr type="noteAnchor" xml:id="a106" target="#n106" n="106"/> Therefore let us prepare
                our temples for the Spirit of Christ, and let us not grieve it that it may not depart
                from us. Remember the warning that the Apostle gives us:—Grieve not the Holy Spirit
                whereby ye have been sealed unto the day of redemption. For from baptism do we
                receive the Spirit of Christ. For in that hour in which the priests invoke the
-               Spirit, the heavens open and it descends and moves upon the waters.<ptr type="noteAnchor" target="#n107"/> And those
+               Spirit, the heavens open and it descends and moves upon the waters.<ptr type="noteAnchor" xml:id="a107" target="#n107" n="107"/> And those
                that are baptized are clothed in it; for the Spirit stays aloof from all that are
                born of the flesh, until they come to the new birth by water, and then they receive
                the Holy Spirit. For in the first birth they are born with an animal souls which is
                created within man and is not thereafter subject to death, as he said:—Adam became a
-               living soul.<ptr type="noteAnchor" target="#n108"/> But in the second birth, that through baptism, they received the
+               living soul.<ptr type="noteAnchor" xml:id="a108" target="#n108" n="108"/> But in the second birth, that through baptism, they received the
                Holy Spirit from a particle of the Godhead, and it is not again subject to death. For
                when men die, the animal spirit is buried with the body, and sense is taken away from
                it, but the heavenly spirit that they receive goes according to its nature to Christ.
                And both these the Apostle has made known, for he said:—The body is buried in animal
-               wise, and rises again in spiritual wise.<ptr type="noteAnchor" target="#n109"/> The Spirit goes back again to Christ
+               wise, and rises again in spiritual wise.<ptr type="noteAnchor" xml:id="a109" target="#n109" n="109"/> The Spirit goes back again to Christ
                according to its nature, for the Apostle said again:—When we shall depart from the
-               body we shall be with our Lord.<ptr type="noteAnchor" target="#n110"/> For the Spirit of Christ, which the spiritual
+               body we shall be with our Lord.<ptr type="noteAnchor" xml:id="a110" target="#n110" n="110"/> For the Spirit of Christ, which the spiritual
                receive, goes to our Lord. And the animal spirit is buried in its nature, and sense
                is taken away from it. Whosoever guards the Spirit of Christ in purity, when it
                returns to Christ it thus addresses him:—“The body into which I went, and which put
@@ -543,7 +520,7 @@
                have approached, the Holy Spirit, that was kept in purity, receives great power from
                its nature and comes before Christ and stands at the door of the tombs, where the men
                are buried that kept it in purity, and awaits the (resurrection) shout. And when the
-               Watchers shall have opened the doors of heaven before the King,<ptr type="noteAnchor" target="#n111"/> then the cornet
+               Watchers shall have opened the doors of heaven before the King,<ptr type="noteAnchor" xml:id="a111" target="#n111" n="111"/> then the cornet
                shall summon, and the trumpets shall sound, and the Spirit that waits for the
                (resurrection) shout shall hear, and quickly shall open the tombs, and raise up the
                bodies and whatsoever was buried in them, and shall put on the glory that comes with
@@ -551,26 +528,20 @@
                shall be without for the adornment of the body. And the animal spirit shall be
                swallowed up in the heavenly Spirit, and the whole man shall become spiritual, since
                his body is possessed by it (the Spirit). And death shall be swallowed up in
-               life,<ptr type="noteAnchor" target="#n112"/> and body shall be swallowed up in Spirit. And by the power of the Spirit,
+               life,<ptr type="noteAnchor" xml:id="a112" target="#n112" n="112"/> and body shall be swallowed up in Spirit. And by the power of the Spirit,
                that man shall fly up to meet the King and He shall receive him with joy, and Christ
                shall give thanks for the body that has kept His Spirit in purity. </ab>
-         </div>
-         <div type="section" n="15">
-            <head type="editorial">15</head>
-            <ab> This is the Spirit, my beloved, that the Prophets received, and thus also have we
+            <ab xml:id="section-6.15" n="15"> This is the Spirit, my beloved, that the Prophets received, and thus also have we
                received. And it is not at every time found with those that receive it, but sometimes
                it returns to Him that sent it, and sometimes it goes to him that receives it.
                Hearken to that which our Lord said:—Despise not one of these little ones that
                believe on Me, for their angels in heaven do always behold the face of My
-               Father.<ptr type="noteAnchor" target="#n113"/> This Spirit then goes frequently and stands before God and beholds His
+               Father.<ptr type="noteAnchor" xml:id="a113" target="#n113" n="113"/> This Spirit then goes frequently and stands before God and beholds His
                face, and whosoever injures the temple in which it dwells, it will accuse him before
                God. </ab>
-         </div>
-         <div type="section" n="16">
-            <head type="editorial">16</head>
-            <ab> I will instruct thee of that which is written, that the Spirit is not at every time
+            <ab xml:id="section-6.16" n="16"> I will instruct thee of that which is written, that the Spirit is not at every time
                found with those that receive it. For thus it is written about Saul, that the Holy
-               Spirit, which he received when he was anointed, departed from him,<ptr type="noteAnchor" target="#n114"/> because he
+               Spirit, which he received when he was anointed, departed from him,<ptr type="noteAnchor" xml:id="a114" target="#n114" n="114"/> because he
                grieved it, and God sent to him instead of it a vexing spirit. And whenever he was
                afflicted by the evil spirit, David used to play upon the harp, and the Holy Spirit,
                which David received when he was anointed, would come, and the evil spirit that was
@@ -578,20 +549,17 @@
                not found with him at every time. As long as he was playing the harp, then it used to
                come. For had it been with him always, it would not have allowed him to sin with the
                wife of Uriah. For when he was praying about his sins, and was confessing his
-               offences before God, he said thus:—Take not Thy holy spirit from me.<ptr type="noteAnchor" target="#n115"/> Also
+               offences before God, he said thus:—Take not Thy holy spirit from me.<ptr type="noteAnchor" xml:id="a115" target="#n115" n="115"/> Also
                concerning Elisha it is thus written, that, while he played upon his harp, then the
                spirit came to him and he prophesied and said:—Thus saith the Lord, ye shall not see
-               wind nor rain, yet this valley shall be made many pits.<ptr type="noteAnchor" target="#n116"/> And also when the
+               wind nor rain, yet this valley shall be made many pits.<ptr type="noteAnchor" xml:id="a116" target="#n116" n="116"/> And also when the
                Shunamite came to him because of her son that was dead, he said thus to her:—The Lord
-               hid it from me and did cause me not to know it.<ptr type="noteAnchor" target="#n117"/> Yet, when the King of Israel
+               hid it from me and did cause me not to know it.<ptr type="noteAnchor" xml:id="a117" target="#n117" n="117"/> Yet, when the King of Israel
                sent against him to slay him, the Spirit informed him before the messenger came upon
-               him, and he said:—Lo! this son of iniquity has sent to take away my head.<ptr type="noteAnchor" target="#n118"/> And
+               him, and he said:—Lo! this son of iniquity has sent to take away my head.<ptr type="noteAnchor" xml:id="a118" target="#n118" n="118"/> And
                again he made known about the abundance that came about in Samaria the day after. And
                again the Spirit informed him when Gehazi stole the silver and concealed it. </ab>
-         </div>
-         <div type="section" n="17">
-            <head type="editorial">17</head>
-            <ab> Therefore, my beloved, when the Holy Spirit departs from a man who has received it,
+            <ab xml:id="section-6.17" n="17"> Therefore, my beloved, when the Holy Spirit departs from a man who has received it,
                until it returns and comes to him, then Satan draws near unto that man, to cause him
                to sin, and that the Holy Spirit may leave him altogether. For as long as the Spirit
                is with a man, Satan fears to come near him. And observe, my beloved, that our Lord
@@ -618,9 +586,9 @@
                then Satan knows that Christ is not with him, and he comes and accomplishes his will
                in him. For Christ dwells in the peaceful and the meek, and lodges in those that fear
                His word, as He says through the prophet:—On whom shall I look, and in whom shall I
-               dwell, but in the peaceful and the meek who fear My word?<ptr type="noteAnchor" target="#n119"/> And our Lord
+               dwell, but in the peaceful and the meek who fear My word?<ptr type="noteAnchor" xml:id="a119" target="#n119" n="119"/> And our Lord
                said:—Whoever walks in My commandments and keeps My love, We will come to him and
-               make Our abode with him.<ptr type="noteAnchor" target="#n120"/> But if he hears from a man that he is on his guard and
+               make Our abode with him.<ptr type="noteAnchor" xml:id="a120" target="#n120" n="120"/> But if he hears from a man that he is on his guard and
                is praying and meditating in the Law of his Lord by day and by night, then he turns
                back from him, for he knows that Christ is with him. And if thou shouldest say, “How
                manifold is Satan! for lo! he fights with many;” then hear and learn from that which
@@ -629,23 +597,20 @@
                of which a little sunlight enters, is altogether illumined, so the man into whom a
                little of Satan enters, is altogether darkened. Hear that which the Apostle said:—If
                Satan is transfigured to an angel of light, it is no wonder if his ministers also are
-               transfigured to ministers of righteousness.<ptr type="noteAnchor" target="#n121"/> And again our Lord said to His
+               transfigured to ministers of righteousness.<ptr type="noteAnchor" xml:id="a121" target="#n121" n="121"/> And again our Lord said to His
                disciples:—Lo, I have given you authority to tread upon the power of the
-               adversary.<ptr type="noteAnchor" target="#n122"/> And the Scriptures have made known that he has power and also
-               ministers. Moreover Job said concerning him:—God made him to wage his war.<ptr type="noteAnchor" target="#n123"/> These
+               adversary.<ptr type="noteAnchor" xml:id="a122" target="#n122" n="122"/> And the Scriptures have made known that he has power and also
+               ministers. Moreover Job said concerning him:—God made him to wage his war.<ptr type="noteAnchor" xml:id="a123" target="#n123" n="123"/> These
                ministers then that he has, he causes to run in the world, to wage war. But be sure
                that he will not fight openly; because from the time of the coming of our Saviour,
                (God) has given authority over him. But he will surely plunder and steal. </ab>
-         </div>
-         <div type="section" n="18">
-            <head type="editorial">18</head>
-            <ab> But I will explain to thee, my beloved, concerning that word which the Apostle said,
+            <ab xml:id="section-6.18" n="18"> But I will explain to thee, my beloved, concerning that word which the Apostle said,
                by which can be weighed the doctrines that are instruments of the Evil One and
                doctrines of deceit. For the Apostle said:—There is an animal body and there is a
                spiritual body, seeing that it is thus written:—The first Adam became a living soul
-               and the second Adam a quickening spirit.<ptr type="noteAnchor" target="#n124"/> So they<ptr type="noteAnchor" target="#n125"/> say that there will be two
+               and the second Adam a quickening spirit.<ptr type="noteAnchor" xml:id="a124" target="#n124" n="124"/> So they<ptr type="noteAnchor" xml:id="a125" target="#n125" n="125"/> say that there will be two
                Adams. But he said:—As we have put on the image of that Adam who was from the earth,
-               so we shall put on the image of that Adam who is from heaven.<ptr type="noteAnchor" target="#n126"/> For Adam who was
+               so we shall put on the image of that Adam who is from heaven.<ptr type="noteAnchor" xml:id="a126" target="#n126" n="126"/> For Adam who was
                from the earth was he that sinned, and the Adam who is from heaven is our Saviour,
                our Lord Jesus Christ. They then that receive the Spirit of Christ, come into the
                likeness of the heavenly Adam, Who is our Saviour, our Lord Jesus Christ. For the
@@ -657,14 +622,14 @@
                utter nakedness. And whosoever honours the Spirit, and it is guarded in him in
                purity, in that day the Holy Spirit shall protect him, and he shall become altogether
                spiritual, and shall not be found naked; as the Apostle said:—And when we shall have
-               clothed ourselves, may we not be found naked.<ptr type="noteAnchor" target="#n127"/> And again he said:—We shall all
-               sleep, but in the resurrection we shall not all be changed.<ptr type="noteAnchor" target="#n128"/> And again he
+               clothed ourselves, may we not be found naked.<ptr type="noteAnchor" xml:id="a127" target="#n127" n="127"/> And again he said:—We shall all
+               sleep, but in the resurrection we shall not all be changed.<ptr type="noteAnchor" xml:id="a128" target="#n128" n="128"/> And again he
                said:—This which dies shall put on that which dies not, and this which is corruptible
                that which is incorruptible, and when this which dies shall have put on that which
                dies not, and this corruptible that which is incorruptible, then shall be
-               accomplished that word which is written that death is swallowed up by victory.<ptr type="noteAnchor" target="#n129"/>
+               accomplished that word which is written that death is swallowed up by victory.<ptr type="noteAnchor" xml:id="a129" target="#n129" n="129"/>
                Again he said:—Suddenly as the twinkling of an eye, the dead shall rise incorruptible
-               and we shall be changed.<ptr type="noteAnchor" target="#n130"/> And they who shall be changed shall put on the form of
+               and we shall be changed.<ptr type="noteAnchor" xml:id="a130" target="#n130" n="130"/> And they who shall be changed shall put on the form of
                that heavenly Adam and shall become spiritual. And those who shall not be changed,
                shall continue animal in the created nature of Adam, namely, of dust; and shall
                continue in their nature in the earth below. And then the heavenly shall be caught up
@@ -672,25 +637,19 @@
                shall inherit the kingdom that was prepared for them from the beginning. And they
                that are animal shall remain on the earth by the weight of their bodies, and shall
                turn back to Sheol, and there shall be weeping and gnashing of teeth. </ab>
-         </div>
-         <div type="section" n="19">
-            <head type="editorial">19</head>
-            <ab> In writing this I have reminded myself, and also thee, my beloved; therefore love
+            <ab xml:id="section-6.19" n="19"> In writing this I have reminded myself, and also thee, my beloved; therefore love
                virginity, the heavenly portion, the fellowship of the Watchers of heaven. For there
                is nothing comparable with it. And in those that are thus, in them Christ dwells. The
                time of summer is at hand, and the fig-tree has budded and its leaves have come
-               out<ptr type="noteAnchor" target="#n131"/>—the signs that our Redeemer gave have begun to be fulfilled. For he
+               out<ptr type="noteAnchor" xml:id="a131" target="#n131" n="131"/>—the signs that our Redeemer gave have begun to be fulfilled. For he
                said:—People shall rise against people and kingdom against kingdom. And there shall
-               be famines and pestilences and terrors from heaven.<ptr type="noteAnchor" target="#n132"/> And lo! all these things are
+               be famines and pestilences and terrors from heaven.<ptr type="noteAnchor" xml:id="a132" target="#n132" n="132"/> And lo! all these things are
                being accomplished in our days. </ab>
-         </div>
-         <div type="section" n="20">
-            <head type="editorial">20</head>
-            <ab> Therefore read in this whatever I have written unto thee, thou and the brethren, the
+            <ab xml:id="section-6.20" n="20"> Therefore read in this whatever I have written unto thee, thou and the brethren, the
                monks that love virginity. And be on thy guard against scorners. For whosoever scorns
                and mocks his brother, the word that is written in the Gospel fitly applies to him;
                namely, when our Lord wished to take account with the avaricious and with the
-               Pharisees. For it is written:—Because they loved money, they mocked Him.<ptr type="noteAnchor" target="#n133"/> So also
+               Pharisees. For it is written:—Because they loved money, they mocked Him.<ptr type="noteAnchor" xml:id="a133" target="#n133" n="133"/> So also
                now those that do not agree with these things mock in the same way. Read then and
                learn. Be zealous for reading and for doing. And let the Law of God be thy meditation
                at every time. And when thou hast read this epistle, on thy life (I adjure thee), my

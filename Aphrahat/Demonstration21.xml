@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -29,9 +29,8 @@
    </teiHeader>
    <text>
       <body>
-         <div type="section" n="1">
-            <head type="editorial">1</head>
-            <ab> I have heard a reproach, which has greatly vexed me. The unclean (the heathen) say,
+         <div type="section" xml:id="section-21" n="21">
+            <ab xml:id="section-21.1" n="1"> I have heard a reproach, which has greatly vexed me. The unclean (the heathen) say,
                that this people, which is gathered together out of all nations, has no God. And thus
                say the impious:—“If they have a God, why does He not avenge His people?” And
                darkness more exceedingly has thickened upon me, because the Jews also reproach us,
@@ -40,38 +39,32 @@
                your Teacher, wrote for you, that If there shall be in you faith like one grain of
                mustard, ye shall say to this mountain, Remove, and it shall remove from before you;
                and (ye shall say) even, Be lifted up and fall into the sea, and it shall obey
-               you.<ptr type="noteAnchor" target="#n1"/> So apparently there is in all your people not one wise man, whose prayer is
+               you.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> So apparently there is in all your people not one wise man, whose prayer is
                heard, and who asks of God that your persecutors should cease from you. For clearly
                it is written for you in that passage, There is nothing which ye shall not be able to
                do. </ab>
-         </div>
-         <div type="section" n="2">
-            <head type="editorial">2</head>
-            <ab> And when I saw that he was blaspheming and speaking much against the Way (the
+            <ab xml:id="section-21.2" n="2"> And when I saw that he was blaspheming and speaking much against the Way (the
                Christian religion), my mind was disturbed, and I understood that he would not admit
                the interpretation of the words that he quoted to me. Then I also questioned him on
                sayings from the Law and from the Prophets, and said to him:—Do ye trust that even
                when ye are dispersed God is with you? And he professed to me, “God is with us,
                because that God said unto Israel:—Even in the lands of their enemies, I yet did not
-               forsake them, nor did I make void My covenant with them.”<ptr type="noteAnchor" target="#n2"/> In answer I said to
+               forsake them, nor did I make void My covenant with them.”<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> In answer I said to
                him:—“Right good is this that I have heard from thee, that God is with you. Against
                thy words will I also speak unto thee. For I said the Prophet said unto Israel, as
                from the mouth of God:—If thou shalt pass through the sea, I will be with thee, and
                the rivers shall not overflow thee; and if thou shalt walk upon fire, thou shalt not
                be burned, and the flame shall not search thee; because the Lord thy God is with
-               thee.<ptr type="noteAnchor" target="#n3"/> Thus there is not one righteous and good and wise man out of all your
+               thee.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> Thus there is not one righteous and good and wise man out of all your
                people, who could pass through the sea and live and not be drowned; or (through) the
                river without its overflowing him; or who could walk over fire and see whether he
                would not be scorched and whether the flame would not burn him. And if thou shalt
                bring to me an explanation, I will not be persuaded by thee, just as thou also dost
                not accept from me the interpretation of the words as to which thou hast questioned
                me.” </ab>
-         </div>
-         <div type="section" n="3">
-            <head type="editorial">3</head>
-            <ab> Furthermore I questioned him about another saying that is written in Ezekiel;
+            <ab xml:id="section-21.3" n="3"> Furthermore I questioned him about another saying that is written in Ezekiel;
                namely, that he said to Jerusalem:—Sodom and her daughters shall be built up as of
-               old, and thou and thy daughters shall become as of old.<ptr type="noteAnchor" target="#n4"/> So he explained this
+               old, and thou and thy daughters shall become as of old.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> So he explained this
                saying to me, and began to make a defence, and said to me “As to this that God said
                to Jerusalem by the Prophet, Sodom and her daughters shall be built up as of old, and
                thou and thy daughters shall become as of old; this is the force of the passage, that
@@ -85,32 +78,28 @@
                hear without contention and blaspheme not, and I will instruct thee about this
                saying. For from the top to the bottom the whole passage is said in wrath. For he
                said to Jerusalem:—As I live, saith the Lord God, Sodom and her daughters did not do
-               at all as thou and they daughters have done.<ptr type="noteAnchor" target="#n5"/> And he said to her (Jerusalem):—Be
+               at all as thou and they daughters have done.<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> And he said to her (Jerusalem):—Be
                abashed and accept thy shame, that thou hast overcome thy sisters in thy sins, and
-               they are justified rather than thou.<ptr type="noteAnchor" target="#n6"/> Since he says that Sodom and her daughters
+               they are justified rather than thou.<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> Since he says that Sodom and her daughters
                were justified rather than Jerusalem and her daughters, and that Jerusalem overcame
                Sodom in her sins, it is right that when Israel shall be gathered together, its seat
                should be in Sodom and Gomorrha. For their vine is of the vine of Sodom, and of the
-               planting of Gomorrha. Their grapes are bitter and their clusters gall unto them.<ptr type="noteAnchor" target="#n7"/>
-               And Isaiah also calls them rulers of Sodom, and people of Gomorrha.<ptr type="noteAnchor" target="#n8"/> For if Israel
+               planting of Gomorrha. Their grapes are bitter and their clusters gall unto them.<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>
+               And Isaiah also calls them rulers of Sodom, and people of Gomorrha.<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> For if Israel
                is gathered together, in Sodom and Gomorrha ought they to dwell with the rulers of
                Sodom and with the people of Gomorrha; and on the vine of Sodom and planting of
                Gomorrha to eat bitter grapes and gather clusters of gall; and to eat the eggs of the
-               basilisk and to clothe themselves with spiders’ webs,<ptr type="noteAnchor" target="#n9"/> to be used with wild grapes
-               of the vineyard,<ptr type="noteAnchor" target="#n10"/> and to be turned into reprobate silver.<ptr type="noteAnchor" target="#n11"/> And Sodom and her
+               basilisk and to clothe themselves with spiders’ webs,<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> to be used with wild grapes
+               of the vineyard,<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> and to be turned into reprobate silver.<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> And Sodom and her
                daughters, who were justified rather than Jerusalem, shall be built up as of old. And
                Jerusalem, that surpassed Sodom in her sins, shall continue in her sins, and shall
-               remain in desolation until the accomplishment of the things determined for ever.<ptr type="noteAnchor" target="#n12"/>
-            </ab>
-         </div>
-         <div type="section" n="4">
-            <head type="editorial">4</head>
-            <ab> And Ezekiel said:—This is the iniquity of Sodom and of her daughters, that they did
+               remain in desolation until the accomplishment of the things determined for ever.<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/></ab>
+            <ab xml:id="section-21.4" n="4"> And Ezekiel said:—This is the iniquity of Sodom and of her daughters, that they did
                not take by the hand the poor and needy; and when I saw these things in them, I
-               overthrew them.<ptr type="noteAnchor" target="#n13"/> And consider and see that, from the time that Sodom was
+               overthrew them.<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> And consider and see that, from the time that Sodom was
                overthrown until Jerusalem was built, there were eight hundred and ninety-six years.
                From the time that Abraham was informed by God through the Angel that at this time
-               next year I will return to thee, and Sarah thy wife shall have a son,<ptr type="noteAnchor" target="#n14"/> from that
+               next year I will return to thee, and Sarah thy wife shall have a son,<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> from that
                time till Jacob entered Egypt was a hundred and ninety-one years: and the children of
                Jacob were in Egypt two hundred and twenty-five years. So all the years from the time
                that Isaac was conceived and Sodom overthrown were four hundred and sixteen years,
@@ -124,21 +113,18 @@
                and twenty-one. These are all the years that Sodom and her daughters were laid waste
                before Jerusalem. And she that was more just than Jerusalem is not yet inhabited.
                Therefore the whole sum of the years from the overthrow of Sodom till the six hundred
-               and fifty-fifth year of the Kingdom of Alexander, the son of Philip of Macedon,<ptr type="noteAnchor" target="#n15"/>
+               and fifty-fifth year of the Kingdom of Alexander, the son of Philip of Macedon,<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/>
                is two thousand two hundred and seventy-six years. And from the time that Jerusalem
                was laid waste by the Babylonians until the present time is nine hundred and
                fifty-five years. And Jerusalem has been inhabited, after the Babylonians laid it
                waste, during those seventy weeks about which Daniel testified. Then it was laid
                waste in its last destruction by the Romans, and it shall not be inhabited again for
                ever, for it abideth in desolation until the accomplishment of the things
-               determined.<ptr type="noteAnchor" target="#n16"/> So then, all the years of the former and latter desolation of
+               determined.<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> So then, all the years of the former and latter desolation of
                Jerusalem have been four hundred and sixty-five years, and when thou dost deduct from
                them the seventy years of Babylon, they have been three hundred and ninety-five
                years. </ab>
-         </div>
-         <div type="section" n="5">
-            <head type="editorial">5</head>
-            <ab> All this argument have I written to thee, because the Jews pride themselves,
+            <ab xml:id="section-21.5" n="5"> All this argument have I written to thee, because the Jews pride themselves,
                (saying), “It has been covenanted to us, that we shall be gathered.” For if Sodom,
                whose iniquity was not so great as that of Jerusalem, is not as yet inhabited, and if
                we say thus, that it will not be restored for ever, how shall Jerusalem be restored,
@@ -147,12 +133,12 @@
                say that He will have mercy on Jerusalem? For up to the present there are but three
                hundred and ninety-five years from the day that she was laid waste, according to the
                calculation that has been written above. But as to this that he said, Sodom and her
-               daughters shall be possessed as of old,<ptr type="noteAnchor" target="#n17"/> and with regard to Jerusalem he said,
+               daughters shall be possessed as of old,<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> and with regard to Jerusalem he said,
                Thou and thy daughters shall become as of old, this is the force of the passage; that
                they shall not be inhabited for ever; for the Lord also thus cursed the land against
                which He was wroth:—It shall not be sown, nor shall it produce, nor shall any herb
                spring up in it, but it shall be like Sodom and Gomorrha, against which the Lord was
-               wroth and towards which He was not appeased.<ptr type="noteAnchor" target="#n18"/> Therefore be sure, my hearer, that
+               wroth and towards which He was not appeased.<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> Therefore be sure, my hearer, that
                Sodom and her daughters shall not be inhabited for ever; but they shall be as of old,
                namely, as in that time when they were not as yet inhabited, and as in the time when
                the Lord was wroth with them and was not appeased towards them. And Jerusalem and her
@@ -167,47 +153,41 @@
                her greatness, and those who were in her were rebelling against the King of Babylon.
                And that which the Prophet spoke, he said in wrath and reproach against Jerusalem.
             </ab>
-         </div>
-         <div type="section" n="6">
-            <head type="editorial">6</head>
-            <ab> Consider and observe, my hearer, that if God had given a hope to Sodom and to her
+            <ab xml:id="section-21.6" n="6"> Consider and observe, my hearer, that if God had given a hope to Sodom and to her
                fellows, He would not have overthrown them with fire and brimstone, the sign of the
                last day of the world, but would have delivered them over to one of the kingdoms to
                be chastised. As it is written that when Jeremiah caused the nations and kingdoms to
                drink the cup of wrath, he said concerning each one of the cities, that after they
                shall drink the cup, I will turn back the captivity of Elam, of Tyre, of Zidon, of
-               the children of Ammon, and of Moab, and of Edom.<ptr type="noteAnchor" target="#n19"/> Concerning each one of these
+               the children of Ammon, and of Moab, and of Edom.<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> Concerning each one of these
                kingdoms he said:—In the last days I well turn back her captivity. Now we see that
-               Tyre was inhabited, and was opulent after she had wandered seventy years,<ptr type="noteAnchor" target="#n20"/> and
+               Tyre was inhabited, and was opulent after she had wandered seventy years,<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/> and
                after she had received the reward of her harlotries and after she had committed
                fornication with all kingdoms. And she took the harp, and played it sweetly, and
                multiplied her music. And also the region of Elam is inhabited and opulent. And with
-               regard to Babylon Jeremiah said:—Babylon shall fall, and shall not rise.<ptr type="noteAnchor" target="#n21"/> And lo!
+               regard to Babylon Jeremiah said:—Babylon shall fall, and shall not rise.<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> And lo!
                unto this day does it continue in desolation, and will do so for ever. And also about
                Jerusalem he said:—The virgin of Israel shall fall, and shall not rise again. She is
-               forsaken upon the ground and there is none to raise her up.<ptr type="noteAnchor" target="#n22"/> For if the prophecy
+               forsaken upon the ground and there is none to raise her up.<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/> For if the prophecy
                is true which Jeremiah spoke about Babylon, also that about Jerusalem is true and
                worthy of faith. And Isaiah said unto Jerusalem:—I will not again be wroth with thee,
-               nor will I reprove thee.<ptr type="noteAnchor" target="#n23"/> Of a truth He will not again be wroth with her, nor will
+               nor will I reprove thee.<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> Of a truth He will not again be wroth with her, nor will
                He reprove her for ever; for that which is in desolation He will not reprove, nor
                will she provoke him to wrath. </ab>
-         </div>
-         <div type="section" n="7">
-            <head type="editorial">7</head>
-            <ab> As to those that reproach us (saying):—“Ye are persecuted and are not delivered,”
+            <ab xml:id="section-21.7" n="7"> As to those that reproach us (saying):—“Ye are persecuted and are not delivered,”
                let them be ashamed themselves, that at every time they have been persecuted, even
                for many years before they were delivered. They were made to serve in Egypt two
-               hundred and twenty-five years. And the Midianites<ptr type="noteAnchor" target="#n24"/> made Israel serve in the days
-               of Barak and Deborah.<ptr type="noteAnchor" target="#n25"/> The Moabites ruled over them in the days of Ehud;<ptr type="noteAnchor" target="#n26"/> the
-               Ammonites in the days of Jephthah;<ptr type="noteAnchor" target="#n27"/> the Philistines in the days of Samson,<ptr type="noteAnchor" target="#n28"/> and
-               also in the days of Eli and of Samuel the Prophet;<ptr type="noteAnchor" target="#n29"/> the Edomites in the days of
-               Ahab; the Assyrians in the days of Hezekiah.<ptr type="noteAnchor" target="#n30"/> The king of Babylon uprooted them
-               from their place and dispersed them;<ptr type="noteAnchor" target="#n31"/> and after he had tried and persecuted them
+               hundred and twenty-five years. And the Midianites<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/> made Israel serve in the days
+               of Barak and Deborah.<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/> The Moabites ruled over them in the days of Ehud;<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> the
+               Ammonites in the days of Jephthah;<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> the Philistines in the days of Samson,<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/> and
+               also in the days of Eli and of Samuel the Prophet;<ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/> the Edomites in the days of
+               Ahab; the Assyrians in the days of Hezekiah.<ptr type="noteAnchor" xml:id="a30" target="#n30" n="30"/> The king of Babylon uprooted them
+               from their place and dispersed them;<ptr type="noteAnchor" xml:id="a31" target="#n31" n="31"/> and after he had tried and persecuted them
                much, they did not amend, as He said to them:—In vain have I smitten your sons, for
-               they did not accept chastisement.<ptr type="noteAnchor" target="#n32"/> And again He said:—I have cut off the Prophets,
-               and slain them by the word of My mouth.<ptr type="noteAnchor" target="#n33"/> And to Jerusalem He said:—By afflictions
-               and scourges be instructed, O Jerusalem, lest thy life depart from thee.<ptr type="noteAnchor" target="#n34"/> But they
-               forsook Him, and worshipped idols, as Jeremiah said concerning them:<ptr type="noteAnchor" target="#n35"/>—Go to the
+               they did not accept chastisement.<ptr type="noteAnchor" xml:id="a32" target="#n32" n="32"/> And again He said:—I have cut off the Prophets,
+               and slain them by the word of My mouth.<ptr type="noteAnchor" xml:id="a33" target="#n33" n="33"/> And to Jerusalem He said:—By afflictions
+               and scourges be instructed, O Jerusalem, lest thy life depart from thee.<ptr type="noteAnchor" xml:id="a34" target="#n34" n="34"/> But they
+               forsook Him, and worshipped idols, as Jeremiah said concerning them:<ptr type="noteAnchor" xml:id="a35" target="#n35" n="35"/>—Go to the
                distant isles, and send to Kedar, and consider well and see, whether there has been
                (anything) like this, whether the nations change their gods, those that are no gods.
                But My people has changed My honour for that which is not profitable. Be astonished,
@@ -217,18 +197,12 @@
                cannot hold water. For the broken cisterns are the fear of images and idols. And He
                calls the heavens to astonishment, because they worshipped the hosts of the heavens.
                And the heavens shall receive as a penalty, that they shall be rolled up as a scroll,
-               and all the host of them shall fall down.<ptr type="noteAnchor" target="#n36"/> </ab>
-         </div>
-         <div type="section" n="8">
-            <head type="editorial">8</head>
-            <ab> All this discourse that I have written unto thee, my beloved, from the beginning,
+               and all the host of them shall fall down.<ptr type="noteAnchor" xml:id="a36" target="#n36" n="36"/> </ab>
+            <ab xml:id="section-21.8" n="8"> All this discourse that I have written unto thee, my beloved, from the beginning,
                was because the Jew reproached the children of our people; but now, as far as I can
                comprehend, I will instruct thee about the persecuted, that they have received a
                great reward, while the persecutors have come to scorn and contempt. </ab>
-         </div>
-         <div type="section" n="9">
-            <head type="editorial">9</head>
-            <ab> Jacob was persecuted, and Esau was a persecutor. Jacob received the blessings and
+            <ab xml:id="section-21.9" n="9"> Jacob was persecuted, and Esau was a persecutor. Jacob received the blessings and
                the birthright, while Esau was cast out from both. Joseph was persecuted, and his
                brothers were persecutors; Joseph was exalted and his persecutors bowed down before
                him, and so his dreams and his visions were fulfilled. Joseph who was persecuted was
@@ -239,11 +213,11 @@
                Prophets. Joseph was a shepherd with his brethren; and Jesus is the Chief of
                Shepherds. When his father sent Joseph to visit his brethren, they saw him coming and
                plotted to kill him; and when His Father sent Jesus to visit His brethren, they
-               said:—This is the heir; come, let us kill him.<ptr type="noteAnchor" target="#n37"/> His brethren cast Joseph into the
+               said:—This is the heir; come, let us kill him.<ptr type="noteAnchor" xml:id="a37" target="#n37" n="37"/> His brethren cast Joseph into the
                pit; and His brethren brought down Jesus into the abode of the dead. Joseph ascended
                from the pit and Jesus arose from the abode of the dead. Joseph, after he arose from
                the pit, had authority over his brethren; and after Jesus arose from the abode of the
-               dead, His Father gave Him a great and excellent name,<ptr type="noteAnchor" target="#n38"/> that His brethren should
+               dead, His Father gave Him a great and excellent name,<ptr type="noteAnchor" xml:id="a38" target="#n38" n="38"/> that His brethren should
                serve Him, and His enemies be put beneath His feet. After that Joseph was made known
                to his brethren, they were abashed and feared and were amazed at his greatness; and
                when Jesus shall come at the last time, when He shall be revealed in His Majesty, His
@@ -264,20 +238,17 @@
                Jerusalem. Joseph’s bones his brethren brought up from Egypt; and Jesus His Father
                raised from the abode of the dead, and took up His Body with Him to heaven
                uncorrupted. </ab>
-         </div>
-         <div type="section" n="10">
-            <head type="editorial">10</head>
-            <ab> Moses also was persecuted, as Jesus was persecuted. When Moses was born, they
+            <ab xml:id="section-21.10" n="10"> Moses also was persecuted, as Jesus was persecuted. When Moses was born, they
                concealed him that he might not be slain by his persecutors. When Jesus was born they
                carried Him off in flight into Egypt that Herod, His persecutor, might not slay Him.
                In the days when Moses was born, children used to be drowned in the river; and at the
                birth of Jesus the children of Bethlehem and in its borders were slain. To Moses God
-               said:—The men are dead who were seeking thy life;<ptr type="noteAnchor" target="#n39"/> and to Joseph the angel said in
+               said:—The men are dead who were seeking thy life;<ptr type="noteAnchor" xml:id="a39" target="#n39" n="39"/> and to Joseph the angel said in
                Egypt:—Arise, take up the child, and go into the land of Israel, for they are dead
-               who were seeking the life of the child to take it away.<ptr type="noteAnchor" target="#n40"/> Moses brought out his
+               who were seeking the life of the child to take it away.<ptr type="noteAnchor" xml:id="a40" target="#n40" n="40"/> Moses brought out his
                people from the service of Pharaoh; and Jesus delivered all nations from the service
                of Satan. Moses grew up in Pharaoh’s house; and Jesus grew up in Egypt when Joseph
-               brought Him there in flight. Miriam<ptr type="noteAnchor" target="#n41"/> stood on the edge of the river when Moses was
+               brought Him there in flight. Miriam<ptr type="noteAnchor" xml:id="a41" target="#n41" n="41"/> stood on the edge of the river when Moses was
                floating in the water; and Mary bare Jesus, after the Angel Gabriel had made the
                annunciation to her. When Moses sacrificed the lamb, the firstborn of Egypt were
                slain; and when they crucified Jesus the true Lamb, the people who slew Him perished
@@ -294,10 +265,7 @@
                laid His hand upon His apostles, and they received the Holy Spirit. Moses ascended
                the mountain and died there; and Jesus ascended into heaven and took his seat at the
                right hand of His Father. </ab>
-         </div>
-         <div type="section" n="11">
-            <head type="editorial">11</head>
-            <ab> Also Joshua the son of Nun was persecuted as Jesus our Redeemer was persecuted.
+            <ab xml:id="section-21.11" n="11"> Also Joshua the son of Nun was persecuted as Jesus our Redeemer was persecuted.
                Joshua the son of Nun was persecuted by the unclean nations; and Jesus our Redeemer
                was persecuted by the foolish people. Joshua the son of Nun took away the inheritance
                from his persecutors and gave it to his people; and Jesus our Redeemer took away the
@@ -316,19 +284,13 @@
                of the money of the poor. Joshua the son of Nun, when he was dying, laid down a
                testimony among his people; and Jesus our Redeemer, when He was taken up, laid down a
                testimony among His apostles. </ab>
-         </div>
-         <div type="section" n="12">
-            <head type="editorial">12</head>
-            <ab> Also Jephthah was persecuted, as Jesus was persecuted. Jephthah, his brethren drove
+            <ab xml:id="section-21.12" n="12"> Also Jephthah was persecuted, as Jesus was persecuted. Jephthah, his brethren drove
                out from the house of his father; and Jesus, His brethren drove out and lifted up and
                crucified. Jephthah though persecuted arose as leader to his people; Jesus though
                persecuted arose and became King of the Nations. Jephthah vowed a vow and offered up
                his firstborn daughter as a sacrifice; and Jesus was lifted up as a sacrifice to his
                Father for all the Gentiles. </ab>
-         </div>
-         <div type="section" n="13">
-            <head type="editorial">13</head>
-            <ab> Also David was persecuted, as Jesus was persecuted. David was anointed by Samuel to
+            <ab xml:id="section-21.13" n="13"> Also David was persecuted, as Jesus was persecuted. David was anointed by Samuel to
                be king instead of Saul who had sinned; and Jesus was anointed by John to be High
                Priest instead of the priests, the ministers of the Law. David was persecuted after
                his anointing; and Jesus was persecuted after His anointing. David reigned first over
@@ -338,18 +300,15 @@
                old received the imposition of the hand from John. David wedded two daughters of the
                king; and Jesus wedded two daughters of kings, the congregation of the People and the
                congregation of the Gentiles. David repaid good to Saul his enemy; and Jesus taught,
-               Pray for your enemies.<ptr type="noteAnchor" target="#n42"/> David was the heart of God;<ptr type="noteAnchor" target="#n43"/> and Jesus was the Son of
+               Pray for your enemies.<ptr type="noteAnchor" xml:id="a42" target="#n42" n="42"/> David was the heart of God;<ptr type="noteAnchor" xml:id="a43" target="#n43" n="43"/> and Jesus was the Son of
                God. David received the kingdom of Saul his persecutor; and Jesus received the
                kingdom of Israel His persecutor. David wept with dirges over Saul his enemy when he
                died; and Jesus wept over Jerusalem, His persecutor, which was to be laid waste.
                David handed over the kingdom to Solomon, and was gathered to his people; and Jesus
                handed over the keys to Simon, and ascended and returned to Him who sent Him. For
                David’s sake, sins were forgiven to his posterity; and for Jesus’ sake sins are
-               forgiven to the nations.<ptr type="noteAnchor" target="#n44"/> </ab>
-         </div>
-         <div type="section" n="14">
-            <head type="editorial">14</head>
-            <ab> Elijah also was persecuted as Jesus was persecuted. Jezebel the murderess persecuted
+               forgiven to the nations.<ptr type="noteAnchor" xml:id="a44" target="#n44" n="44"/> </ab>
+            <ab xml:id="section-21.14" n="14"> Elijah also was persecuted as Jesus was persecuted. Jezebel the murderess persecuted
                Elijah; and the persecuting and murderous congregation persecuted Jesus. Elijah
                restrained the heavens from rain because of the sins of Israel; and Jesus by His
                coming restrained the Spirit from the prophets, because of the sins of the people.
@@ -360,10 +319,7 @@
                bread. Elijah was taken up in a chariot to heaven; and our Redeemer ascended and took
                His seat on the right hand of His Father. Elisha received the spirit of Elijah; and
                Jesus breathed upon the faces of His Apostles. </ab>
-         </div>
-         <div type="section" n="15">
-            <head type="editorial">15</head>
-            <ab> Also Elisha was persecuted as Jesus was persecuted. Elisha was persecuted by the son
+            <ab xml:id="section-21.15" n="15"> Also Elisha was persecuted as Jesus was persecuted. Elisha was persecuted by the son
                of Ahab, the son of the murderer; and Jesus was persecuted by the murderous people.
                Elisha prophesied, and there came about abundance in Samaria; and Jesus
                said:—Whosoever eateth of My body and drinketh of My blood shall live for ever.
@@ -374,10 +330,7 @@
                and Jesus raised up that which was sunk in us, and sank that which was light. A dead
                man (laid) upon the bones of Elisha recovered life; and all the nations, who were
                dead in their sins, were cast upon the bones of Jesus and recovered life. </ab>
-         </div>
-         <div type="section" n="16">
-            <head type="editorial">16</head>
-            <ab> Hezekiah also was persecuted as Jesus was persecuted. Hezekiah was persecuted, and
+            <ab xml:id="section-21.16" n="16"> Hezekiah also was persecuted as Jesus was persecuted. Hezekiah was persecuted, and
                was reproached by Sennacherib his enemy; Jesus also was reproached by the foolish
                people. Hezekiah prayed and overcame his adversary; and by the crucifixion of Jesus
                was our Adversary overcome. Hezekiah was king of all Israel; and Jesus is King of all
@@ -385,50 +338,44 @@
                suffered, the sun was darkened from its light. The enemies of Hezekiah became dead
                corpses; and Jesus, His enemies shall be cast down beneath His feet. Hezekiah was of
                the family of the house of David; and Jesus was, in the flesh, the son of David.
-               Hezekiah said:—Peace and truth shall be in my days;<ptr type="noteAnchor" target="#n45"/> and Jesus said to His
-               disciples:—My peace I leave with you.<ptr type="noteAnchor" target="#n46"/> Hezekiah prayed, and was healed of his
+               Hezekiah said:—Peace and truth shall be in my days;<ptr type="noteAnchor" xml:id="a45" target="#n45" n="45"/> and Jesus said to His
+               disciples:—My peace I leave with you.<ptr type="noteAnchor" xml:id="a46" target="#n46" n="46"/> Hezekiah prayed, and was healed of his
                sickness; Jesus prayed, and arose from the abode of the dead. Hezekiah after he arose
                from his sickness added to his years; and Jesus after His Resurrection received great
                glory. Hezekiah, after the prolongation of his life, death was given dominion over
                him; but Jesus, after that He rose, death shall not again have dominion over Him for
                ever. </ab>
-         </div>
-         <div type="section" n="17">
-            <head type="editorial">17</head>
-            <ab> Josiah also was persecuted as Jesus was persecuted. Josiah was persecuted, and
-               Pharaoh the Lame<ptr type="noteAnchor" target="#n47"/> slew Him;<ptr type="noteAnchor" target="#n48"/> and Jesus was persecuted, and the people that were
+            <ab xml:id="section-21.17" n="17"> Josiah also was persecuted as Jesus was persecuted. Josiah was persecuted, and
+               Pharaoh the Lame<ptr type="noteAnchor" xml:id="a47" target="#n47" n="47"/> slew Him;<ptr type="noteAnchor" xml:id="a48" target="#n48" n="48"/> and Jesus was persecuted, and the people that were
                made lame by their sins slew Him. Josiah cleansed the land of Israel from
                uncleanness; and Jesus cleansed and caused to pass away uncleanness from all the
                earth. Josiah hallowed and glorified the name of his God; and Jesus said:—I have
-               glorified and will glorify (His Name).<ptr type="noteAnchor" target="#n49"/> Josiah because of the iniquity of Israel
-               rent his clothes;<ptr type="noteAnchor" target="#n50"/> and Jesus because of the iniquity of the people rent the vail
-               of the Holy Temple.<ptr type="noteAnchor" target="#n51"/> Josiah said:—Great is the wrath that shall come upon this
+               glorified and will glorify (His Name).<ptr type="noteAnchor" xml:id="a49" target="#n49" n="49"/> Josiah because of the iniquity of Israel
+               rent his clothes;<ptr type="noteAnchor" xml:id="a50" target="#n50" n="50"/> and Jesus because of the iniquity of the people rent the vail
+               of the Holy Temple.<ptr type="noteAnchor" xml:id="a51" target="#n51" n="51"/> Josiah said:—Great is the wrath that shall come upon this
                people; and Jesus said:—There shall come wrath upon this people, and they shall fall
-               by the edge of the sword.<ptr type="noteAnchor" target="#n52"/> Josiah cast out uncleanness from the Holy Temple; and
+               by the edge of the sword.<ptr type="noteAnchor" xml:id="a52" target="#n52" n="52"/> Josiah cast out uncleanness from the Holy Temple; and
                Jesus cast out the unclean traders from His Father’s house. For Josiah the daughters
                of Israel mourned and wailed, as Jeremiah said:—O daughters of Israel, weep for
-               Josiah;<ptr type="noteAnchor" target="#n53"/> and over Jesus did the daughters of Israel weep and mourn, as Zechariah
-               said:—The land shall mourn, families over families.<ptr type="noteAnchor" target="#n54"/> </ab>
-         </div>
-         <div type="section" n="18">
-            <head type="editorial">18</head>
-            <ab> Daniel also was persecuted as Jesus was persecuted. Daniel was persecuted by the
+               Josiah;<ptr type="noteAnchor" xml:id="a53" target="#n53" n="53"/> and over Jesus did the daughters of Israel weep and mourn, as Zechariah
+               said:—The land shall mourn, families over families.<ptr type="noteAnchor" xml:id="a54" target="#n54" n="54"/> </ab>
+            <ab xml:id="section-21.18" n="18"> Daniel also was persecuted as Jesus was persecuted. Daniel was persecuted by the
                Chaldeans, the congregation of heathen men; Jesus also the Jews, the congregation of
                wicked men, persecuted. Daniel the Chaldeans accused; and Jesus the Jews accused
                before the governor. Daniel they cast into the pit of lions, and he was delivered and
                came up out of its midst uninjured; and Jesus they sent down into the pit of the
                abode of the dead, and He ascended, and death had not dominion over him. Concerning
                Daniel they expected that when he had fallen into the pit he would not come up again;
-               and concerning Jesus they said, Since He has fallen, He shall not rise again.<ptr type="noteAnchor" target="#n55"/>
+               and concerning Jesus they said, Since He has fallen, He shall not rise again.<ptr type="noteAnchor" xml:id="a55" target="#n55" n="55"/>
                From (harming) Daniel the mouth of the ravenous and destructive lions was closed; and
                from (harming) Jesus was closed the mouth of death, (though) ravenous and destructive
                of (living) forms. They sealed the pit of Daniel, and guarded it with diligence; and
                the grave of Jesus did they guard with diligence, as they said, Set guards to watch
-               al the tomb.<ptr type="noteAnchor" target="#n56"/> When Daniel came up, his accusers were ashamed; and when Jesus rose,
+               al the tomb.<ptr type="noteAnchor" xml:id="a56" target="#n56" n="56"/> When Daniel came up, his accusers were ashamed; and when Jesus rose,
                all they who had crucified Him were ashamed. The King who judged Daniel was greatly
-               grieved<ptr type="noteAnchor" target="#n57"/> at the wickedness of his accusers the Chaldeans; and Pilate who judged
+               grieved<ptr type="noteAnchor" xml:id="a57" target="#n57" n="57"/> at the wickedness of his accusers the Chaldeans; and Pilate who judged
                Jesus was greatly grieved because he knew that for malice the Jews were accusing
-               Him.<ptr type="noteAnchor" target="#n58"/> At the prayer of Daniel, the captivity of his people went up from Babylon;
+               Him.<ptr type="noteAnchor" xml:id="a58" target="#n58" n="58"/> At the prayer of Daniel, the captivity of his people went up from Babylon;
                and Jesus by His prayer turned back the captivity of all the nations, Daniel
                interpreted the visions and dreams of Nebuchadnezzar; and Jesus explained and
                interpreted the visions of the Law and the Prophets. When Daniel explained the vision
@@ -441,16 +388,13 @@
                so that they were not slain; and for Jesus’ sake the wrath of His Father was appeased
                from all nations, so that they were not slain and died not because of their sins.
                Daniel besought of the king, and he gave his brethren authority over the affairs of
-               the province of Babylon;<ptr type="noteAnchor" target="#n59"/> and Jesus besought of God, and He gave His brethren, His
-               disciples, authority over Satan and his host.<ptr type="noteAnchor" target="#n60"/> Daniel said concerning Jerusalem,
+               the province of Babylon;<ptr type="noteAnchor" xml:id="a59" target="#n59" n="59"/> and Jesus besought of God, and He gave His brethren, His
+               disciples, authority over Satan and his host.<ptr type="noteAnchor" xml:id="a60" target="#n60" n="60"/> Daniel said concerning Jerusalem,
                that until the things determined, she should remain in desolation; and Jesus said
                concerning Jerusalem, There shall not be left in her stone upon stone, because she
-               knew not the day of her greatness.<ptr type="noteAnchor" target="#n61"/> Daniel foresaw the weeks that should remain
+               knew not the day of her greatness.<ptr type="noteAnchor" xml:id="a61" target="#n61" n="61"/> Daniel foresaw the weeks that should remain
                over for his people; and Jesus came and fulfilled them. </ab>
-         </div>
-         <div type="section" n="19">
-            <head type="editorial">19</head>
-            <ab> Hananiah also and his brethren were persecuted as Jesus was persecuted. Hananiah and
+            <ab xml:id="section-21.19" n="19"> Hananiah also and his brethren were persecuted as Jesus was persecuted. Hananiah and
                his brethren were persecuted by Nebuchadnezzar; and Jesus, the people of the Jews
                persecuted. Hananiah and his brethren were cast into the furnace of fire, and it was
                cold as dew upon the righteous. Jesus also descended to the place of darkness, and
@@ -463,14 +407,11 @@
                Hananiah and his brethren worshipped not the image of the King of Babylon; and Jesus
                restrained the nations from the worship of dead images. Because of Hananiah and his
                brethren, the nations and languages glorified God Who had delivered them from the
-               fire:<ptr type="noteAnchor" target="#n62"/> and because of Jesus, the nations and oil languages shall glorify (God) Who
+               fire:<ptr type="noteAnchor" xml:id="a62" target="#n62" n="62"/> and because of Jesus, the nations and oil languages shall glorify (God) Who
                delivered His Son, so that He saw no corruption. On the garments of Hananiah and his
                brethren the fire had no power; and on the bodies of the righteous, who have believed
-               in Jesus, the fire shall have no power at the end.<ptr type="noteAnchor" target="#n63"/> </ab>
-         </div>
-         <div type="section" n="20">
-            <head type="editorial">20</head>
-            <ab> Mordecai also was persecuted as Jesus was persecuted. Mordecai was persecuted by the
+               in Jesus, the fire shall have no power at the end.<ptr type="noteAnchor" xml:id="a63" target="#n63" n="63"/> </ab>
+            <ab xml:id="section-21.20" n="20"> Mordecai also was persecuted as Jesus was persecuted. Mordecai was persecuted by the
                wicked Haman; and Jesus was persecuted by the rebellious People. Mordecai by his
                prayer delivered his people from the hands of Haman; and Jesus by His prayer
                delivered His people from the hands of Satan. Mordecai was delivered from the hands
@@ -488,25 +429,22 @@
                instead of His persecutors who were of the foolish People. Mordecai trod upon the
                neck of Haman, his persecutor; and as for Jesus, His enemies shall be put under His
                feet. Before Mordecai, Haman proclaimed, Thus shall it be done to the man, in
-               honouring whom the king is pleased;<ptr type="noteAnchor" target="#n64"/> and as for Jesus, His preachers came out of
-               the People that persecuted Him, and they said:—This is Jesus the San of God.<ptr type="noteAnchor" target="#n65"/> The
-               blood of Mordecai was required at the hand of Haman and his sons;<ptr type="noteAnchor" target="#n66"/> and the blood
-               of Jesus, His persecutors took upon themselves and upon their children.<ptr type="noteAnchor" target="#n67"/> </ab>
-         </div>
-         <div type="section" n="21">
-            <head type="editorial">21</head>
-            <ab> These memorials that I have written unto thee, my beloved, concerning Jesus Who was
+               honouring whom the king is pleased;<ptr type="noteAnchor" xml:id="a64" target="#n64" n="64"/> and as for Jesus, His preachers came out of
+               the People that persecuted Him, and they said:—This is Jesus the San of God.<ptr type="noteAnchor" xml:id="a65" target="#n65" n="65"/> The
+               blood of Mordecai was required at the hand of Haman and his sons;<ptr type="noteAnchor" xml:id="a66" target="#n66" n="66"/> and the blood
+               of Jesus, His persecutors took upon themselves and upon their children.<ptr type="noteAnchor" xml:id="a67" target="#n67" n="67"/> </ab>
+            <ab xml:id="section-21.21" n="21"> These memorials that I have written unto thee, my beloved, concerning Jesus Who was
                persecuted, and the righteous who were persecuted, are in order that those who to-day
                are persecuted for the sake of the persecuted Jesus, may be comforted, for He wrote
                for us and comforted us Himself; for He said:—If they have persecuted Me, they will
                also persecute you. And because of this they will persecute you, that ye are not of
-               the world, even as I was not of it.<ptr type="noteAnchor" target="#n68"/> For He wrote before for us:—Your fathers and
+               the world, even as I was not of it.<ptr type="noteAnchor" xml:id="a68" target="#n68" n="68"/> For He wrote before for us:—Your fathers and
                your brothers and your family will deliver you up, and all men shall hate you for My
-               name’s sake.<ptr type="noteAnchor" target="#n69"/> And again He taught us:—When they shall bring you before rulers and
+               name’s sake.<ptr type="noteAnchor" xml:id="a69" target="#n69" n="69"/> And again He taught us:—When they shall bring you before rulers and
                before magistrates, and before kings that hold the world, meditate not before the
                time what ye shall say, and how ye shall make defence; and I will give you a mouth
                and wisdom, that your enemies may not be able to overcome you, because it is not ye
-               that speak, but the Holy Spirit of your Father; He shall speak in you.<ptr type="noteAnchor" target="#n70"/> This is
+               that speak, but the Holy Spirit of your Father; He shall speak in you.<ptr type="noteAnchor" xml:id="a70" target="#n70" n="70"/> This is
                the spirit which spoke by the mouth of Jacob to Esau, his persecutor; and the spirit
                of wisdom which spoke before Pharaoh by the mouth of the persecuted Joseph; and the
                spirit which spoke by the mouth of Moses in all the prodigies which he did in the
@@ -519,21 +457,18 @@
                and made known to the king his persecutor about all that was to happen thereafter;
                and the spirit which was fervent in the mouth of Micaiah when he reproved Ahab his
                persecutor saying:—If thou shalt at all return back, the Lord hath not spoken by
-               me;<ptr type="noteAnchor" target="#n71"/> and the spirit which strengthened Jeremiah, so that he stood boldly, and by
+               me;<ptr type="noteAnchor" xml:id="a71" target="#n71" n="71"/> and the spirit which strengthened Jeremiah, so that he stood boldly, and by
                it reproved Zedekiah; and the spirit that preserved Daniel and his brethren in the
                land of Babylon; and the spirit that delivered Mordecai and Esther in the place of
                their captivity. </ab>
-         </div>
-         <div type="section" n="22">
-            <head type="editorial">22</head>
-            <ab> Hear, my beloved, these names of martyrs, of confessors, and of the persecuted. Abel
+            <ab xml:id="section-21.22" n="22"> Hear, my beloved, these names of martyrs, of confessors, and of the persecuted. Abel
                was murdered, and his blood cried out from the earth. Jacob was persecuted, and fled
                and became an exile. Joseph was persecuted, and sold and cast into the pit. Moses was
                persecuted, and fled to Midian. Joshua the son of Nun was persecuted, and made war.
                Jephthah and Samson and Gideon and Barak, these also were persecuted. These are they
-               of whom the blessed Apostle said:—Time fails me to narrate their victories.<ptr type="noteAnchor" target="#n72"/> David
+               of whom the blessed Apostle said:—Time fails me to narrate their victories.<ptr type="noteAnchor" xml:id="a72" target="#n72" n="72"/> David
                also was persecuted at the hands of Saul, and he walked in the mountains and in dens,
-               and in caves.<ptr type="noteAnchor" target="#n73"/> Samuel also was persecuted, and mourned over Saul. Furthermore
+               and in caves.<ptr type="noteAnchor" xml:id="a73" target="#n73" n="73"/> Samuel also was persecuted, and mourned over Saul. Furthermore
                Hezekiah was persecuted, and bound up in affliction. Elijah was persecuted, and
                walked in the desert. Elisha was persecuted and became an exile; and Micaiah was
                persecuted, and cast into prison. Jeremiah was persecuted, and they cast him into the
@@ -541,13 +476,10 @@
                his brethren were persecuted, and cast into the furnace of fire. Mordecai and Esther
                and the children of their people were persecuted, at the hands of Haman. Judas
                Maccabæus and his brethren were persecuted, and they also endured reproach. The seven
-               brethren, sons of the blessed woman, endured torments by bitter scourgings,<ptr type="noteAnchor" target="#n74"/> and
+               brethren, sons of the blessed woman, endured torments by bitter scourgings,<ptr type="noteAnchor" xml:id="a74" target="#n74" n="74"/> and
                were confessors and true martyrs, and Eleazar, aged and advanced in years as he was,
-               proved a noble example and made (his) confession and became a true martyr.<ptr type="noteAnchor" target="#n75"/> </ab>
-         </div>
-         <div type="section" n="23">
-            <head type="editorial">23</head>
-            <ab> Great and excellent is the martyrdom of Jesus. He surpassed in affliction and in
+               proved a noble example and made (his) confession and became a true martyr.<ptr type="noteAnchor" xml:id="a75" target="#n75" n="75"/> </ab>
+            <ab xml:id="section-21.23" n="23"> Great and excellent is the martyrdom of Jesus. He surpassed in affliction and in
                confession all who were before or after. And after Him was the faithful martyr
                Stephen whom the Jews stoned. Simon (Peter) also and Paul were perfect martyrs. And
                James and John walked in the footsteps of their Master Christ. Also (others) of the
@@ -556,10 +488,9 @@
                great affliction and persecution to the whole Church of God, which was in all their
                region. The Churches were overthrown and uprooted, and many confessors and martyrs
                made confession. And (the Lord) turned in mercy to them after they were persecuted.
-               And also in our days these things happened to us also on account of our sins; but
                also that what is written might be fulfilled, even as our Redeemer said:—These things
-               are to be.<ptr type="noteAnchor" target="#n76"/> The Apostle also said:—Also over us is set this cloud of
-               confession;<ptr type="noteAnchor" target="#n77"/> which (is) our honour, wherein many confess and are slain. </ab>
+               are to be.<ptr type="noteAnchor" xml:id="a76" target="#n76" n="76"/> The Apostle also said:—Also over us is set this cloud of
+               confession;<ptr type="noteAnchor" xml:id="a77" target="#n77" n="77"/> which (is) our honour, wherein many confess and are slain. </ab>
          </div>
          <noteGrp>
             <note xml:id="n1" target="#a1" n="1"/>

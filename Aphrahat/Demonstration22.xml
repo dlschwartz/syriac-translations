@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -30,24 +30,20 @@
    </teiHeader>
    <text>
       <body>
-         <div type="section" n="1">
-            <head type="editorial">1</head>
-            <ab> The upright and righteous and good and wise fear not nor tremble at death, because
+         <div type="section" xml:id="section-22" n="22">
+            <ab xml:id="section-22.1" n="1"> The upright and righteous and good and wise fear not nor tremble at death, because
                of the great hope that is before them. And they at every time are mindful of death,
                their exodus, and of the last day in which the children of Adam shall be judged. They
                know that by the sentence of judgment death has held sway, because Adam transgressed
                the commandment; as the Apostle said:—Death ruled from Adam unto Moses even over
-               those who sinned not, so that also upon all the children of Adam it passed,<ptr type="noteAnchor" target="#n1"/> even
+               those who sinned not, so that also upon all the children of Adam it passed,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> even
                as it passed upon Adam. And how did death rule from Adam unto Moses? Clearly, when
                God laid down the commandment for Adam, He warned him, and said:—On the day that thou
-               shalt eat of the tree of the knowledge of good and evil, thou shalt die the death.<ptr type="noteAnchor" target="#n2"/>
+               shalt eat of the tree of the knowledge of good and evil, thou shalt die the death.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
                So when he transgressed the commandment and ate of the tree, death ruled over him and
                over all his progeny. Even over those who had not sinned, even over them did death
                rule through Adam’s transgression of the commandment. </ab>
-         </div>
-         <div type="section" n="2">
-            <head type="editorial">2</head>
-            <ab> And why did he say:—From Adam unto Moses did Death rule? And who is so ill-furnished
+            <ab xml:id="section-22.2" n="2"> And why did he say:—From Adam unto Moses did Death rule? And who is so ill-furnished
                with knowledge as to imagine that only from Adam to Moses has death had dominion? Yet
                let him understand from this that he said:—Upon all men it passed. Thus, upon all men
                it passed from Moses until the world shall end. Yet Moses preached that its kingdom
@@ -55,9 +51,9 @@
                death was passed upon his progeny, Death hoped that he would bind fast all the sons
                of man and would be king over them for ever. But when Moses came, he proclaimed the
                resurrection, and Death knew that his kingdom is to be made void. For Moses
-               said:—Reuben shall live and not die, and shall be in number.<ptr type="noteAnchor" target="#n3"/> And when the Holy One
+               said:—Reuben shall live and not die, and shall be in number.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> And when the Holy One
                called Moses from the bush he said thus to him:—I am the God of Abraham, of Isaac,
-               and of Jacob.<ptr type="noteAnchor" target="#n4"/> When Death heard this utterance, he trembled and feared and was
+               and of Jacob.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> When Death heard this utterance, he trembled and feared and was
                terrified and was perturbed, and knew that he had not become king for ever over the
                children of Adam. From the hour that he heard God saying to Moses:—I am the God of
                Abraham, of Isaac, and of Jacob, Death smote his hands together, for he learned that
@@ -65,23 +61,17 @@
                of Adam to come forth from his darkness, and arise with their bodies. And observe
                that our Redeemer Jesus also, when He repeated this utterance to the Sadducees, when
                they were disputing with Him about the Resurrection of the dead, thus said:—God is
-               not (God) of the dead, for all are alive unto Him.<ptr type="noteAnchor" target="#n5"/> </ab>
-         </div>
-         <div type="section" n="3">
-            <head type="editorial">3</head>
-            <ab> And that God might make known to Death that his authority is not for ever over all
+               not (God) of the dead, for all are alive unto Him.<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> </ab>
+            <ab xml:id="section-22.3" n="3"> And that God might make known to Death that his authority is not for ever over all
                the progeny of the world, He translated Enoch to Himself, because he was
                well-pleasing, and made him deathless. And again He took up Elijah to heaven, and
                Death had no dominion over him. And Hannah said:—The Lord maketh to die and causeth
-               to live; He bringeth down to Sheol and raiseth up.<ptr type="noteAnchor" target="#n6"/> Furthermore Moses said as from
-               the mouth of God:—I make to die and I cause to live.<ptr type="noteAnchor" target="#n7"/> Again the Prophet Isaiah also
+               to live; He bringeth down to Sheol and raiseth up.<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> Furthermore Moses said as from
+               the mouth of God:—I make to die and I cause to live.<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> Again the Prophet Isaiah also
                said:—Thy dead shall live, and their dead bodies shall rise again; and the sleepers
-               of the dust shall be awakened, and shall glorify Thee.<ptr type="noteAnchor" target="#n8"/> When Death heard all these
+               of the dust shall be awakened, and shall glorify Thee.<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> When Death heard all these
                things, amazement seized him, and he sat him down in mourning. </ab>
-         </div>
-         <div type="section" n="4">
-            <head type="editorial">4</head>
-            <ab> And when Jesus, the slayer of Death, came, and clothed Himself in a Body from the
+            <ab xml:id="section-22.4" n="4"> And when Jesus, the slayer of Death, came, and clothed Himself in a Body from the
                seed of Adam, and was crucified in His Body, and tasted death; and when (Death)
                perceived thereby that He had come down unto him, he was shaken from his place and
                was agitated when he saw Jesus; and he closed his gates and was not willing to
@@ -101,10 +91,7 @@
                His ministry amongst the dead, Death sent Him forth from his realm, and suffered Him
                not to remain there. And to devour Him like all the dead, he counted it not pleasure.
                He had no power over the Holy One, nor was He given over to corruption. </ab>
-         </div>
-         <div type="section" n="5">
-            <head type="editorial">5</head>
-            <ab> And when he had eagerly sent Him forth and He had come forth from his realm, He left
+            <ab xml:id="section-22.5" n="5"> And when he had eagerly sent Him forth and He had come forth from his realm, He left
                with him, as a poison, the promise of life; that by little and little his power
                should be done away. Even as when a man has taken a poison in the food which is given
                for (the support of) life, when he perceives in himself that he has received poison
@@ -112,11 +99,8 @@
                mingled; but the drug leaves its power in his limbs, so that by little and little the
                structure of his body is dissolved and corrupted. So Jesus dead was the bringer to
                nought of Death; for through Him life is made to reign, and through Him Death is
-               abolished, to whom it is said:—O Death, where is thy victory?<ptr type="noteAnchor" target="#n9"/> </ab>
-         </div>
-         <div type="section" n="6">
-            <head type="editorial">6</head>
-            <ab> Therefore, ye children of Adam, all ye over whom Death has ruled, be mindful of
+               abolished, to whom it is said:—O Death, where is thy victory?<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> </ab>
+            <ab xml:id="section-22.6" n="6"> Therefore, ye children of Adam, all ye over whom Death has ruled, be mindful of
                Death and remember life; and transgress not the commandment as your first father did.
                O Kings, crowned with the diadem, remember Death, which will take away the diadems
                that are set upon your heads, and he shall be king over you till the time, when ye
@@ -140,10 +124,7 @@
                but shall go to the place where man shall make no use of wealth. And he shall come to
                nought and pass away from his honour, but his sins shall be laid up against the day
                of judgment. </ab>
-         </div>
-         <div type="section" n="7">
-            <head type="editorial">7</head>
-            <ab> O ye that trust in this world, let this world be despised in your eyes; for ye are
+            <ab xml:id="section-22.7" n="7"> O ye that trust in this world, let this world be despised in your eyes; for ye are
                sojourners and aliens in the midst of it, and ye know not the day that ye shall be
                taken out of it. For suddenly shall Death come, and separate and lead away the loved
                children from their parents, and the parents from their darling children. He leads
@@ -160,7 +141,7 @@
                who supposed that even unto old age they would not see death. He leads away and
                gathers unto himself the loved infants of days, with whom their parents were not
                satiated. He leads away to himself the wealthy, the sons of luxury; And they leave
-               their possessions as the waves of the sea.<ptr type="noteAnchor" target="#n10"/> He leads away to himself the skilful
+               their possessions as the waves of the sea.<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> He leads away to himself the skilful
                artificers, who were raising up the world by their wonderful works. He leads away to
                himself the subtle and the wise, and they become simple, not distinguishing good from
                evil. He leads away to himself the richly endowed of this world, and their endowments
@@ -190,24 +171,18 @@
                these are stripped of their gains. He leads away to himself slaves and their masters;
                and there the masters are not honoured more than their servants. Small and great are
                there, and they hear not the voice of the oppressor. The slave who is freed from his
-               master<ptr type="noteAnchor" target="#n11"/> there pays no regard to him who used to oppress him. Death binds and makes
+               master<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> there pays no regard to him who used to oppress him. Death binds and makes
                captive to himself the keepers of prisoners, and the prisoners who were shut up. By
                means of Death the prisoners are released, and fear not again because of their
                oppressors. </ab>
-         </div>
-         <div type="section" n="8">
-            <head type="editorial">8</head>
-            <ab> They that live daintily fear death; but the afflicted look forward with hope that
+            <ab xml:id="section-22.8" n="8"> They that live daintily fear death; but the afflicted look forward with hope that
                they shall be speedily taken away. All the rich tremble because of death; but the
                poor desire it, that they may rest from their labour. Death terrifies the mighty when
                they remember him; but the sick look forward with hope to him that through him they
                may forget their pains. Again the young children are afraid of death, for when it
                comes upon them they shall leave their pleasures; but the old men advanced in years
                pray for it, they that are in need of daily bread. </ab>
-         </div>
-         <div type="section" n="9">
-            <head type="editorial">9</head>
-            <ab> The sons of peace remember death; and they forsake and remove from them wrath and
+            <ab xml:id="section-22.9" n="9"> The sons of peace remember death; and they forsake and remove from them wrath and
                enmity. As sojourners they dwell in this world, and prepare for themselves a
                provision for the journey before them. On that which is above they set their
                thoughts, on that which is above they meditate; and those things which are beneath
@@ -224,33 +199,24 @@
                shall not be left in them; and those that hasten and toil for anything, are in no
                wise to be distinguished from fools. O man without sense, whosoever he be whose trust
                is in this world! </ab>
-         </div>
-         <div type="section" n="10">
-            <head type="editorial">10</head>
-            <ab> Remember, my beloved, and compare and consider in thy mind, who is there of former
+            <ab xml:id="section-22.10" n="10"> Remember, my beloved, and compare and consider in thy mind, who is there of former
                generations who has been left in this world so as to continue for ever? Death has led
                away the former generations, the great ones and the mighty and the subtle. Who is
                there that acquired great possessions, and at the time when he departed took them
                with him? That which was gathered together from the earth returns back into its
                bosom; and naked does a man depart from his possessions. The wise, when they acquire
                goods, send some of them before them, as Job said:—My witnesses are heaven; and
-               again:—My brethren and my lovers are with God.<ptr type="noteAnchor" target="#n12"/> And our Lord commanded them that
+               again:—My brethren and my lovers are with God.<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> And our Lord commanded them that
                acquire possessions to make for themselves friends in heaven, and also to lay up
-               treasures there.<ptr type="noteAnchor" target="#n13"/> </ab>
-         </div>
-         <div type="section" n="11">
-            <head type="editorial">11</head>
-            <ab> Do thou also remember death, O wise scribe, that thy heart be not lifted up, so that
+               treasures there.<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> </ab>
+            <ab xml:id="section-22.11" n="11"> Do thou also remember death, O wise scribe, that thy heart be not lifted up, so that
                thou shouldest forget the sentence of judgment. Death leaves not aside the wise, nor
                respects the persons of the subtle. Death leads away to himself the wise scribes, so
                that they forget that which they have learned, until the time comes in which all the
                righteous shall rise again. </ab>
-         </div>
-         <div type="section" n="12">
-            <head type="editorial">12</head>
-            <ab> In that place they shall forget this world. There they have no want; and they shall
+            <ab xml:id="section-22.12" n="12"> In that place they shall forget this world. There they have no want; and they shall
                love one another with an abundant love. In their bodies there shall be no heaviness,
-               and lightly shall they fly as doves to their windows.<ptr type="noteAnchor" target="#n14"/> In their thoughts they
+               and lightly shall they fly as doves to their windows.<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> In their thoughts they
                shall not there remember wickedness at all, nor shall anything of uncleanness arise
                in their heart. In that place there shall be no natural desire, for there they shall
                be weaned from all appetites. There shall not arise in their heart anger or
@@ -272,17 +238,14 @@
                shall not marry wives there, nor shall they beget children; nor shall there the male
                be distinguished from the female; but all shall be sons of their Father Who is in
                heaven; as the Prophet said:—Is there not one Father of us all; is there not one God
-               Who created us?<ptr type="noteAnchor" target="#n15"/> </ab>
-         </div>
-         <div type="section" n="13">
-            <head type="editorial">13</head>
-            <ab> And as regards that which I said; that there they shall not take wives, nor is male
+               Who created us?<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> </ab>
+            <ab xml:id="section-22.13" n="13"> And as regards that which I said; that there they shall not take wives, nor is male
                distinguished from female, our Lord and His Apostles have taught us. For our Lord
                said:—They that are worthy of that world, and of that resurrection from the abode of
                the dead, shall not take wives, nor shall (women) become wives to men; for they
-               cannot die; but they are as the angels in heaven, and are the children of God.<ptr type="noteAnchor" target="#n16"/>
+               cannot die; but they are as the angels in heaven, and are the children of God.<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/>
                And the apostle said:—There is neither male nor female, neither bond nor free; but ye
-               are all one in Jesus Christ.<ptr type="noteAnchor" target="#n17"/> For, as for Eve, to spread abroad generation, God
+               are all one in Jesus Christ.<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> For, as for Eve, to spread abroad generation, God
                took her out from Adam, that she might become the mother of all living; but yet in
                that world there is no female; even as in heaven also there is no female, nor
                generation, nor use of concupiscence. In that place there is no deficiency, but
@@ -296,9 +259,9 @@
                There is not in that place any want at all; but it is full of light, and life, and
                grace, and fulness, and satisfaction and renewal, and love, and all the good promises
                that are written but not yet sealed. For there is there that which eye hath not seen
-               and ear hath not heard, and which hath not come up into the heart of man,<ptr type="noteAnchor" target="#n18"/> that
+               and ear hath not heard, and which hath not come up into the heart of man,<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> that
                which is unspeakable and which a man cannot utter. And the Apostle said:—That which
-               God hath prepared for them that love Him.<ptr type="noteAnchor" target="#n19"/> Though men shall say much, they shall
+               God hath prepared for them that love Him.<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> Though men shall say much, they shall
                not be able to express it. That which eye hath not seen, they are unable to relate;
                and that which ear hath not heard, it is not right to speak of in such wise as to
                compare it with anything that the ear has heard and the eye has seen. And that which
@@ -311,10 +274,7 @@
                of our treasure, the place that shall assuage our weariness and remove our
                afflictions, and soothe our sighs. To these things it is right for us to liken, and
                thus to call, that place. </ab>
-         </div>
-         <div type="section" n="14">
-            <head type="editorial">14</head>
-            <ab> Again, Death leads away to himself kings, the founders of cities, who strengthen
+            <ab xml:id="section-22.14" n="14"> Again, Death leads away to himself kings, the founders of cities, who strengthen
                themselves in splendour. And he does not leave aside the Lords of the countries.
                Death leads away and takes captive to himself the avaricious who are not satisfied
                nor say “Enough”; and he is greedy for them with a greater greed than theirs. Death
@@ -335,53 +295,41 @@
                the children of men, and binds them fast in his abode until the judgment. Also over
                those that have not sinned is he king, because of the sentence of judgment that Adam
                received for his sins. </ab>
-         </div>
-         <div type="section" n="15">
-            <head type="editorial">15</head>
-            <ab> And the Life-giver shall come, the Destroyer of Death, and shall bring to nought his
+            <ab xml:id="section-22.15" n="15"> And the Life-giver shall come, the Destroyer of Death, and shall bring to nought his
                power, from over the just and from over the wicked. And the dead shall arise with a
                mighty shout, and Death shall be emptied and stripped of all the captivity. And for
                judgment shall all the children of Adam be gathered together, and each shall go to
                the place prepared for him. The risen of the righteous shall go unto life, and the
                risen of the sinners shall be delivered unto death. The righteous who kept the
                commandment shall go, and shall not come nigh unto judgment in the day that they
-               shall rise; as David asked, And bring not thy servant into judgment;<ptr type="noteAnchor" target="#n20"/> nor will
+               shall rise; as David asked, And bring not thy servant into judgment;<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/> nor will
                their Lord terrify them in that day. </ab>
-         </div>
-         <div type="section" n="16">
-            <head type="editorial">16</head>
-            <ab> Remember that the Apostle also said, We shall judge angels.<ptr type="noteAnchor" target="#n21"/> And our Lord said to
+            <ab xml:id="section-22.16" n="16"> Remember that the Apostle also said, We shall judge angels.<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> And our Lord said to
                His disciples, Ye shall sit on twelve thrones, and judge twelve tribes of the house
-               of Israel.<ptr type="noteAnchor" target="#n22"/> And Ezekiel said concerning righteous men,<ptr type="noteAnchor" target="#n23"/> that they shall judge
+               of Israel.<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/> And Ezekiel said concerning righteous men,<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> that they shall judge
                Ahola and Aholibah. Since, then, the righteous are to judge the wicked, He has made
                clear concerning them that they shall not come into judgment. And as to what the
                apostles say, that We shall judge angels, hear, and I will instruct thee. The angels
                who shall be judged by the apostles are the priests who have violated the law; as the
                Prophet said, The lips of the priest shall guard knowledge, and the law shall they
-               inquire of his mouth; because he is the angel of the Lord, the most mighty.<ptr type="noteAnchor" target="#n24"/> The
+               inquire of his mouth; because he is the angel of the Lord, the most mighty.<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/> The
                angels who are the priests, of whose mouth the law is inquired, when they transgress
                the law, shall be judged at the last by the apostles, and the priests who observe the
                law. </ab>
-         </div>
-         <div type="section" n="17">
-            <head type="editorial">17</head>
-            <ab> And the wicked shall not arise in the judgment, nor sinners in the congregation of
-               the righteous.<ptr type="noteAnchor" target="#n25"/> And even as the righteous who are perfected in good works shall
+            <ab xml:id="section-22.17" n="17"> And the wicked shall not arise in the judgment, nor sinners in the congregation of
+               the righteous.<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/> And even as the righteous who are perfected in good works shall
                not come into the judgment to be judged, so of the wicked also whose sins are many,
                and the measure of whose offences is overflowing, it shall not be required that they
                should draw nigh unto the judgment, but when they have risen again they shall turn
                back to Sheol, as David said, The wicked shall turn back to Sheol, and all the
-               nations that forget God.<ptr type="noteAnchor" target="#n26"/> And Isaiah said, All the nations are as a drop from the
+               nations that forget God.<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> And Isaiah said, All the nations are as a drop from the
                bucket, and as the turning of the balance. And the isles as a grain of sand shall be
                cast away, and all the nations are esteemed as nothingness by Him. For destruction
-               and the sword are they esteemed by Him.<ptr type="noteAnchor" target="#n27"/> Therefore learn and be persuaded, that
+               and the sword are they esteemed by Him.<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> Therefore learn and be persuaded, that
                all the nations that know not God their Maker, are esteemed by God as nothingness,
                and shall not come nigh to judgment, but as soon as they have risen shall turn back
                to Sheol. </ab>
-         </div>
-         <div type="section" n="18">
-            <head type="editorial">18</head>
-            <ab> But all the rest of the world who are called sinners shall stand in the judgment and
+            <ab xml:id="section-22.18" n="18"> But all the rest of the world who are called sinners shall stand in the judgment and
                be rebuked. Those in whom there is a little shortcoming will the judge rebuke, and
                make known to them that they have offended. And He will give them the inheritance of
                life after the judgment. And understand that our Lord has made known to us in His
@@ -396,16 +344,13 @@
                in silence, and know that through grace they receive mercy and life. The sinners
                whose sins are many shall be condemned by the place of judgment, and shall go into
                torments. And from that time and onwards, judgment shall rule over them. </ab>
-         </div>
-         <div type="section" n="19">
-            <head type="editorial">19</head>
-            <ab> Furthermore, hearken unto the Apostle who said, Every man according his work shall
-               receive his reward.<ptr type="noteAnchor" target="#n28"/> He that toiled little, shall receive according to his
+            <ab xml:id="section-22.19" n="19"> Furthermore, hearken unto the Apostle who said, Every man according his work shall
+               receive his reward.<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/> He that toiled little, shall receive according to his
                remissness; and he that made much speed, shall be rewarded according to his speed.
                And Job also said, Far be it from God to do iniquity; and far be it from Him to do
                sin. For according to a man’s works will He reward him, and a man shall receive
-               according his ways.<ptr type="noteAnchor" target="#n29"/> And also the Apostle said, Star excels star in brightness. So
-               also is the resurrection of the dead.<ptr type="noteAnchor" target="#n30"/> Therefore know that, even when men shall
+               according his ways.<ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/> And also the Apostle said, Star excels star in brightness. So
+               also is the resurrection of the dead.<ptr type="noteAnchor" xml:id="a30" target="#n30" n="30"/> Therefore know that, even when men shall
                enter into life, yet reward shall excel reward, and glory shall excel glory, and
                recompense shall excel recompense. Degree is higher than degree; and light is more
                goodly than light in aspect. The sun excels the moon, and the moon is greater than
@@ -415,21 +360,14 @@
                night which has been separated from the day. And when the sun was created, he was
                called a luminary. And observe that the sun and the moon and the stars are all called
                luminaries; but luminary excels luminary. The sun obscures the light of the moon, and
-               the moon likewise darkens the light of the stars; and star excels star in its light.
-            </ab>
-         </div>
-         <div type="section" n="20">
-            <head type="editorial">20</head>
-            <ab> And understand (this) also, from that which is of this world, those who labour with
+               the moon likewise darkens the light of the stars; and star excels star in its light.</ab>
+            <ab xml:id="section-22.20" n="20"> And understand (this) also, from that which is of this world, those who labour with
                toil, and from the hired men who work with their fellows. There are some who hire
                their fellow-men by day-wages, and (these) receive the wage of their toil; and there
                are some who are hired for the month, and compute and receive the wage for the time,
                at the time agreed. And the day-wage is distinguished from the monthly wage; and
                yearly exceeds monthly wage. </ab>
-         </div>
-         <div type="section" n="21">
-            <head type="editorial">21</head>
-            <ab> And also again, understand it from the authority that is in this world. There are
+            <ab xml:id="section-22.21" n="21"> And also again, understand it from the authority that is in this world. There are
                some who please the king by their activity, and receive honour from those in
                authority. One receives a crown from the king, to become governor in one of the
                countries. And under the authority of another, the king places towns; and also he
@@ -437,25 +375,19 @@
                is distinguished from another. There is one to whom the king gives the honour of
                being steward over all the treasury. Another, according to his lower condition,
                serves the king, and his authority is only to provide the daily food. </ab>
-         </div>
-         <div type="section" n="22">
-            <head type="editorial">22</head>
-            <ab> Also in respect of penalty, I say that all men are not equal. He that has done great
+            <ab xml:id="section-22.22" n="22"> Also in respect of penalty, I say that all men are not equal. He that has done great
                wickedness is greatly tormented. And he that has offended not so much is less
                tormented. Some shall go into outer darkness, where there is weeping and gnashing of
-               teeth.<ptr type="noteAnchor" target="#n31"/> Others shall be cast into the fire, according as they deserve; for it is
+               teeth.<ptr type="noteAnchor" xml:id="a31" target="#n31" n="31"/> Others shall be cast into the fire, according as they deserve; for it is
                not written that they shall gnash their teeth, nor that there is darkness there. Some
                shall be cast into another place, a place where their worm shall not die, and their
-               fire shall not be quenched, and they shall became an astonishment to all flesh.<ptr type="noteAnchor" target="#n32"/>
+               fire shall not be quenched, and they shall became an astonishment to all flesh.<ptr type="noteAnchor" xml:id="a32" target="#n32" n="32"/>
                In the faces of others the door shall be closed and the Judge will say to them:—I
-               know you not.<ptr type="noteAnchor" target="#n33"/> And consider that, as the reward for good deeds is not equal for
+               know you not.<ptr type="noteAnchor" xml:id="a33" target="#n33" n="33"/> And consider that, as the reward for good deeds is not equal for
                all men, so it is also for evil deeds. Not in one fashion shall men be judged, but
                every man according to his works shall receive his requital, because the Judge is
                clothed in righteousness and regards not the persons of men. </ab>
-         </div>
-         <div type="section" n="23">
-            <head type="editorial">23</head>
-            <ab> And even as I have showed thee concerning the world, how one honour excels another,
+            <ab xml:id="section-22.23" n="23"> And even as I have showed thee concerning the world, how one honour excels another,
                of those that kings and rulers of this world give to those beneath them; also
                concerning this I have showed thee, that even as kings have good gifts to give to
                those honoured by them, so also they have prisons and chains and fetters, which are
@@ -466,31 +398,28 @@
                prison house he is kept in freedom, without chains and without bonds. He that is put
                to death is distinguished from him that is bound; and the punishment of one exceeds
                that of another, according to the desert of his offence. But come thou to our
-               Redeemer, Who said:—Many are the mansions in My Father’s house.<ptr type="noteAnchor" target="#n34"/> </ab>
-         </div>
-         <div type="section" n="24">
-            <head type="editorial">24</head>
-            <ab> My beloved, men who are inferior in understanding, dispute about this that I write
+               Redeemer, Who said:—Many are the mansions in My Father’s house.<ptr type="noteAnchor" xml:id="a34" target="#n34" n="34"/> </ab>
+            <ab xml:id="section-22.24" n="24"> My beloved, men who are inferior in understanding, dispute about this that I write
                to thee, and say:—“What is the place in which the righteous shall receive a good
                reward; and what is the place in which are torments, in which the wicked shall
                receive the punishments of their works?” O man that thinkest thus, I will ask thee,
                and tell thou me, why is death called death, and why is Sheol called Sheol? For it is
                written that when Korah and his companions made a schism against Moses, the earth
-               opened her mouth and swallowed them up, and they went down alive into Sheol.<ptr type="noteAnchor" target="#n35"/>
+               opened her mouth and swallowed them up, and they went down alive into Sheol.<ptr type="noteAnchor" xml:id="a35" target="#n35" n="35"/>
                Therefore that was the mouth of Sheol that was opened in the wilderness. David also
-               said, The wicked shall turn back to Sheol.<ptr type="noteAnchor" target="#n36"/> We say that to Sheol, in which Korah
+               said, The wicked shall turn back to Sheol.<ptr type="noteAnchor" xml:id="a36" target="#n36" n="36"/> We say that to Sheol, in which Korah
                and his companions were swallowed up, thither shall the wicked be turned back. For
                God has power, if He chooses, to give inheritance of life in heaven, and if it please
                Him, in the earth. Jesus our Lord said, Blessed are the poor in spirit, for theirs is
-               the kingdom of heaven.<ptr type="noteAnchor" target="#n37"/> And to one of those who were crucified with Him, who
-               believed on him He swore:—Thou shalt be with Me to-day in the garden Eden.<ptr type="noteAnchor" target="#n38"/> And
+               the kingdom of heaven.<ptr type="noteAnchor" xml:id="a37" target="#n37" n="37"/> And to one of those who were crucified with Him, who
+               believed on him He swore:—Thou shalt be with Me to-day in the garden Eden.<ptr type="noteAnchor" xml:id="a38" target="#n38" n="38"/> And
                the Apostle said, When the righteous shall rise again, they shall fly upwards to meet
-               our Redeemer.<ptr type="noteAnchor" target="#n39"/> But, however, we say thus: That which our Redeemer said to us is
-               true:—Heaven and earth shall pass away.<ptr type="noteAnchor" target="#n40"/> And the Apostle said, Hope which is seen
-               is not hope.<ptr type="noteAnchor" target="#n41"/> And the Prophet said, The heavens shall pass away as smoke, and the
-               earth as a garment shall wear away; and its inhabitants shall become like it.<ptr type="noteAnchor" target="#n42"/> And
+               our Redeemer.<ptr type="noteAnchor" xml:id="a39" target="#n39" n="39"/> But, however, we say thus: That which our Redeemer said to us is
+               true:—Heaven and earth shall pass away.<ptr type="noteAnchor" xml:id="a40" target="#n40" n="40"/> And the Apostle said, Hope which is seen
+               is not hope.<ptr type="noteAnchor" xml:id="a41" target="#n41" n="41"/> And the Prophet said, The heavens shall pass away as smoke, and the
+               earth as a garment shall wear away; and its inhabitants shall become like it.<ptr type="noteAnchor" xml:id="a42" target="#n42" n="42"/> And
                Job said concerning those that sleep, Till the heavens wear out, they shall not be
-               aroused, nor shall they wake out of their sleep.<ptr type="noteAnchor" target="#n43"/> From these things be thou
+               aroused, nor shall they wake out of their sleep.<ptr type="noteAnchor" xml:id="a43" target="#n43" n="43"/> From these things be thou
                persuaded that this earth, in which the children of Adam are sown, and the firmament
                that is over men, (even) that firmament which is set to divide the upper heavens from
                the earth and this life, shall pass away, and wear out, and be destroyed. And God
@@ -511,10 +440,7 @@
                of thy old age, thou knowest not where he runs in the night-time, so as to circle
                round to the place of its course. Is it necessary for thee to inquire into those
                things that are hidden from thee? </ab>
-         </div>
-         <div type="section" n="25">
-            <head type="editorial">25</head>
-            <ab> These memorials I have written for our brethren and beloved, the children of the
+            <ab xml:id="section-22.25" n="25"> These memorials I have written for our brethren and beloved, the children of the
                Church of God, that when these come into their hands in various places, and when they
                read in them, they may also remember my insignificance in their prayers, and may know
                that I am a sinner also, and fall short; but that this is my faith, that I have set
@@ -547,11 +473,8 @@
                the Macedonian, as is written in the end of them. And these twelve last I wrote in
                the six hundred and fifty-fifth year of the kingdom of the Greeks and of the Romans,
                which is the kingdom of Alexander, and in the thirty-fifth year of the Persian
-               King.<ptr type="noteAnchor" target="#n44"/> </ab>
-         </div>
-         <div type="section" n="20">
-            <head type="editorial">20</head>
-            <ab> These things I have written according to what I have attained to. But if anyone
+               King.<ptr type="noteAnchor" xml:id="a44" target="#n44" n="44"/> </ab>
+            <ab xml:id="section-22.26" n="26"> These things I have written according to what I have attained to. But if anyone
                shall read these discourses, and find words that do not agree with his thought, he
                ought not to scorn them; because whatsoever is written in these chapters was not
                written according to the thought of one man, nor for the persuasion of one reader;
@@ -575,9 +498,9 @@
                matter, let him accept that which pleases him; and if any please not him, let him not
                scorn the sages; for the word of God is like a pearl, that has a beautiful appearance
                on whatever side you turn it. And remember, O disciple, what David said, From all my
-               teachers have I learned.<ptr type="noteAnchor" target="#n45"/> And the Apostle said:—Thou readest every Scripture that
+               teachers have I learned.<ptr type="noteAnchor" xml:id="a45" target="#n45" n="45"/> And the Apostle said:—Thou readest every Scripture that
                is in the Spirit of God. And prove everything; hold fast that which is good; and flee
-               from every evil thing.<ptr type="noteAnchor" target="#n46"/> For if the days of a man should be many as all the days of
+               from every evil thing.<ptr type="noteAnchor" xml:id="a46" target="#n46" n="46"/> For if the days of a man should be many as all the days of
                the world from Adam to the end of the ages, and he should sit and meditate upon the
                Holy Scriptures, he would not comprehend all the force of the depth of the words. And
                man cannot rise up to the wisdom of God; as I have written in the tenth discourse.
@@ -589,16 +512,16 @@
                commanded him. I also according to my insignificance have written these things, a man
                sprung from Adam, and fashioned by the hands of God, a disciple of the Holy
                Scriptures. For our Lord said:—Every one that asketh receiveth, and he that seeketh
-               findeth, and for him that knocketh it shall be opened.<ptr type="noteAnchor" target="#n47"/> And the prophet said:—I
-               will pour out my spirit upon all flesh in the last days, and they shall prophesy.<ptr type="noteAnchor" target="#n48"/>
+               findeth, and for him that knocketh it shall be opened.<ptr type="noteAnchor" xml:id="a47" target="#n47" n="47"/> And the prophet said:—I
+               will pour out my spirit upon all flesh in the last days, and they shall prophesy.<ptr type="noteAnchor" xml:id="a48" target="#n48" n="48"/>
                Therefore whoever shall read anything that I have written above, let him read with
                persuasion, and pray for the author as a brother of the Body; that through the
                petition of all the Church of God; his sins may be forgiven. And let whoever reads
                understand what is written:—Let him that hears the word, communicate to him that
-               causes him to hear, in all good things.<ptr type="noteAnchor" target="#n49"/> And again it is written, The sower and
-               the reaper shall rejoice together.<ptr type="noteAnchor" target="#n50"/> And Every man according to his labours shall
-               receive his reward.<ptr type="noteAnchor" target="#n51"/> And There is nothing hidden that shall not be revealed to
-               every man.<ptr type="noteAnchor" target="#n52"/> </ab>
+               causes him to hear, in all good things.<ptr type="noteAnchor" xml:id="a49" target="#n49" n="49"/> And again it is written, The sower and
+               the reaper shall rejoice together.<ptr type="noteAnchor" xml:id="a50" target="#n50" n="50"/> And Every man according to his labours shall
+               receive his reward.<ptr type="noteAnchor" xml:id="a51" target="#n51" n="51"/> And There is nothing hidden that shall not be revealed to
+               every man.<ptr type="noteAnchor" xml:id="a52" target="#n52" n="52"/> </ab>
          </div>
          <noteGrp>
             <note xml:id="n1" target="#a1" n="1"/>

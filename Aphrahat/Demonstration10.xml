@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -29,27 +29,23 @@
    </teiHeader>
    <text>
       <body>
-         <div type="section" n="1">
-            <head type="editorial">1</head>
-            <ab> Pastors are set over the flock, and give the sheep the food of life. Whosoever is
+         <div type="section" xml:id="section-10" n="10">
+            <ab xml:id="section-10.1" n="1"> Pastors are set over the flock, and give the sheep the food of life. Whosoever is
                watchful, and toils in behalf of his sheep, is careful for his flock, and is the
-               disciple of our Good Shepherd, who gave Himself in behalf of His sheep.<ptr type="noteAnchor" target="#n1"/> And
+               disciple of our Good Shepherd, who gave Himself in behalf of His sheep.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> And
                whosoever brings not back his flock carefully, is likened to the hireling who has no
                care for the sheep. Be ye like, O Pastors, to those righteous Pastors of old. Jacob
                fed the sheep of Laban, and guarded them and toiled and was watchful, and so received
                the reward. For Jacob said to Laban:—Lo! twenty years am I with thee. Thy sheep and
                thy flocks I have not robbed and the males of thy sheep I have not eaten. That which
                was broken I did not bring unto thee, but thou required it at my hands! In the
-               daytime the heat devoured me and the cold by night.<ptr type="noteAnchor" target="#n2"/> My sleep departed from my
+               daytime the heat devoured me and the cold by night.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> My sleep departed from my
                eyes. Observe, ye Pastors, that Pastor, how he cared for his flock. He used to watch
                in the night-time to guard it and was vigilant; and he used to toil in the daytime to
                feed it. As Jacob was a pastor, so Joseph was a pastor and his brethren were pastors.
                Moses was a pastor, and David also was a pastor. So Amos was a pastor. These all were
                pastors who fed the sheep and led them well. </ab>
-         </div>
-         <div type="section" n="2">
-            <head type="editorial">2</head>
-            <ab> Now, why, my beloved, did these pastors first feed the sheep, and were then chosen
+            <ab xml:id="section-10.2" n="2"> Now, why, my beloved, did these pastors first feed the sheep, and were then chosen
                to be pastors of men? Clearly that they might learn how a pastor cares for his sheep,
                and is watchful and toils in behalf of his sheep. And when they had learned the
                manners of pastors, they were chosen for the pastoral office. Jacob fed the sheep of
@@ -63,7 +59,7 @@
                vigilant and toiled on behalf of his sheep, a diligent and good pastor. When his Lord
                wished to destroy them because of their sins, in that they worshipped the calf, Moses
                prayed and besought of his Lord and said:—Either pardon the people for their sins, or
-               else blot me out from Thy book that Thou hast written.<ptr type="noteAnchor" target="#n3"/> That is a most diligent
+               else blot me out from Thy book that Thou hast written.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> That is a most diligent
                pastor, who delivered over himself on behalf of his sheep. That is an excellent
                leader, who gave himself in behalf of his sheep. And that is a merciful father who
                cherished his children and reared them up. Moses the great and wise shepherd, who
@@ -72,18 +68,15 @@
                kings and subdued the land, and gave them the land as a place of pasturage, and
                divided the resting-places and the sheepfolds to his sheep. Furthermore, David fed
                his father’s sheep, and was taken from the sheep to tend his people. So he tended
-               them in the integrity of his heart and by the skill of his hands he guided them.<ptr type="noteAnchor" target="#n4"/>
+               them in the integrity of his heart and by the skill of his hands he guided them.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
                And when David numbered the flock of his sheep, wrath came upon them, and they began
                to be destroyed. Then David delivered himself over on behalf of his sheep, when he
                prayed, saying:—O Lord God, I have sinned in that I have numbered Israel. Let Thy
                hand be on me and on my father’s house. These innocent sheep, in what have they
-               sinned?<ptr type="noteAnchor" target="#n5"/> So also all the diligent pastors used thus to give themselves on behalf of
+               sinned?<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> So also all the diligent pastors used thus to give themselves on behalf of
                their sheep. </ab>
-         </div>
-         <div type="section" n="3">
-            <head type="editorial">3</head>
-            <ab> But those pastors who did not care for the sheep, those were hirelings who used to
-               feed themselves alone. On this account the Prophet<ptr type="noteAnchor" target="#n6"/> addresses them, saying to
+            <ab xml:id="section-10.3" n="3"> But those pastors who did not care for the sheep, those were hirelings who used to
+               feed themselves alone. On this account the Prophet<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> addresses them, saying to
                them:—O ye pastors who destroy and scatter the sheep of my pasture, hear the word of
                the Lord. Thus saith the Lord: Lo! I will visit My sheep as the pastor visits his
                flock in the day of the whirlwind, and I will require My sheep at your hands. O
@@ -106,24 +99,21 @@
                let that which dieth, die, and let that which perisheth perish, and whatever is left,
                let them devour the flesh of one another; therefore, behold I will make blind thy
                right eye and I will wither up thy right arm. Thy eye which regarded a bribe shall be
-               blinded, and thy hand which did not rule in righteousness shall waste away.<ptr type="noteAnchor" target="#n7"/> And as
+               blinded, and thy hand which did not rule in righteousness shall waste away.<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> And as
                for you, my sheep, the sheep of my pasture, ye are men; but I am the Lord your
-               God.<ptr type="noteAnchor" target="#n8"/> Behold henceforth will feed you in a good and rich pasture.<ptr type="noteAnchor" target="#n9"/> </ab>
-         </div>
-         <div type="section" n="4">
-            <head type="editorial">4</head>
-            <ab> The good shepherd giveth himself for the sake of his sheep.<ptr type="noteAnchor" target="#n10"/> And again He said:—I
+               God.<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> Behold henceforth will feed you in a good and rich pasture.<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> </ab>
+            <ab xml:id="section-10.4" n="4"> The good shepherd giveth himself for the sake of his sheep.<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> And again He said:—I
                have other sheep and I must bring them also hither. And the whole flock shall be one,
                and one shepherd, and My Father because of this loveth Me; that I give Myself for the
-               sake of the sheep.<ptr type="noteAnchor" target="#n11"/> And again He said;—I am the door of the sheep. Every one that
-               entereth by Me shall live and shall go in and go out and find pasture.<ptr type="noteAnchor" target="#n12"/> O ye
+               sake of the sheep.<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> And again He said;—I am the door of the sheep. Every one that
+               entereth by Me shall live and shall go in and go out and find pasture.<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> O ye
                pastors, be ye made like unto that diligent pastor, the chief of the whole flock, who
                cared so greatly for his flock. He brought nigh those that were afar off. He brought
                back the wanderers. He visited the sick. He strengthened the weak. He bound up the
                broken. He guarded the fatlings. He gave himself up for the sake of the sheep. He
                chose and instructed excellent leaders, and committed the sheep into their hands, and
                gave them authority over all his flock. For He said to Simon Cephas:—Feed My sheep
-               and My lambs and My ewes.<ptr type="noteAnchor" target="#n13"/> So Simon fed His sheep; and he fulfilled his time and
+               and My lambs and My ewes.<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> So Simon fed His sheep; and he fulfilled his time and
                handed over the flock to you, and departed. Do ye also feed and guide them well. For
                the pastor who cares for his sheep engages in no other pursuit along with that. He
                does not make a vineyard, nor plant gardens, nor does he fall into the troubles of
@@ -131,10 +121,7 @@
                became a merchant, or one who left his flock to wander and became a husbandman. But
                if he deserts his flock and does these things he thereby hands over his flock to the
                wolves. </ab>
-         </div>
-         <div type="section" n="5">
-            <head type="editorial">5</head>
-            <ab> And remember, my beloved, that I wrote to thee concerning our fathers of old that
+            <ab xml:id="section-10.5" n="5"> And remember, my beloved, that I wrote to thee concerning our fathers of old that
                they first learned the ways of tending sheep and in that received trial of
                carefulness, and then were chosen for the office of guides, that they might learn and
                observe how much the pastor cares for his flock, and as they used to guide the sheep
@@ -145,19 +132,16 @@
                following the sheep, and made him a prophet over his people. Elisha likewise was
                taken from behind the yoke, to become a prophet in Israel. Moses did not return to
                his sheep, nor did he leave his flock that was committed to him. David did not return
-               to his father’s sheep, but guided his people in the integrity of his heart.<ptr type="noteAnchor" target="#n14"/> Amos
+               to his father’s sheep, but guided his people in the integrity of his heart.<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> Amos
                did not turn back to feed his sheep, or to gather (the fruit of) trees, but he guided
                them and performed his office of prophecy. Elisha did not turn back to his yoke, but
-               served Elijah and filled his place. And he<ptr type="noteAnchor" target="#n15"/> who was for him as a shepherd, because
+               served Elijah and filled his place. And he<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> who was for him as a shepherd, because
                he loved fields and merchandise and vineyards and oliveyards and tillage, did not
                wish to become his disciple; and (therefore) he did not commit the flock into his
                hand. </ab>
-         </div>
-         <div type="section" n="6">
-            <head type="editorial">6</head>
-            <ab> I beseech you, ye pastors, that ye set not over the flock, leaders who are foolish
+            <ab xml:id="section-10.6" n="6"> I beseech you, ye pastors, that ye set not over the flock, leaders who are foolish
                and stupid, covetous also and lovers of possessions. Every one who feeds the flock
-               shall eat of their milk.<ptr type="noteAnchor" target="#n16"/> And every one who guides the yoke shall be ministered to
+               shall eat of their milk.<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> And every one who guides the yoke shall be ministered to
                from his labour. The priests have a right to partake of the altar, and the Levites
                shall receive their tithes. Whoever eats of the milk, let his heart be upon the
                flock; and let him that is ministered to from the labour of his yoke, take heed to
@@ -168,26 +152,20 @@
                dearer to Him than His sheep. Rear up the youths and bring up the maidens; and love
                the lambs and let them be reared in your bosoms; that when ye shall come to the Chief
                Pastor, ye may offer to Him all your sheep in completeness, and so He may give you
-               what He has promised: Where I am, ye also shall be.<ptr type="noteAnchor" target="#n17"/> These things, brief as they
+               what He has promised: Where I am, ye also shall be.<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> These things, brief as they
                are, will be sufficient for the good pastors and leaders. </ab>
-         </div>
-         <div type="section" n="7">
-            <head type="editorial">7</head>
-            <ab> Above, my beloved, I have written to remind thee of the character that becomes the
+            <ab xml:id="section-10.7" n="7"> Above, my beloved, I have written to remind thee of the character that becomes the
                whole flock. And in this discourse I have written to thee about the pastors, the
                guides of the flock. These reminders I have written to thee, beloved, as thou didst
                ask of me in thy dear letter. </ab>
-         </div>
-         <div type="section" n="8">
-            <head type="editorial">8</head>
-            <ab> The Steward brought me into the King’s treasury and showed me there many precious
+            <ab xml:id="section-10.8" n="8"> The Steward brought me into the King’s treasury and showed me there many precious
                things; and when I saw them my mind was captivated with the great treasury. And as I
                looked upon it, it dazzled my eyes, and took captive my thoughts, and caused my
                reflections to wander in many ways. Whosoever receives thereof, is himself enriched,
                and enriches (others). It lies open and unguarded before all that seek it; and though
                many take from it there is no deficiency; and when they give of that which they have
                received, their own portion is greatly multiplied. They that receive freely let them
-               give freely<ptr type="noteAnchor" target="#n18"/> as they have received. For (this treasure) cannot be sold for a
+               give freely<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> as they have received. For (this treasure) cannot be sold for a
                price, because there is nothing equivalent to it. Moreover the treasure fails not;
                and they that receive it are not satiated. They drink, and are still eager; they eat,
                and are hungry. Whosoever is not thirsty, finds not ought to drink; whoever is not
@@ -211,20 +189,17 @@
                he has received, it is not exhausted, nor has it come to an end for him. And
                remember, my beloved, what I wrote to thee, in the first discourse, about faith, that
                whoever has freely received ought to give freely as he has received, as our Lord
-               said:—Freely ye have received, freely give.<ptr type="noteAnchor" target="#n19"/> For whosoever keeps back part of
-               anything he has received,<ptr type="noteAnchor" target="#n20"/> even that which he has obtained shall be taken away
+               said:—Freely ye have received, freely give.<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> For whosoever keeps back part of
+               anything he has received,<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/> even that which he has obtained shall be taken away
                from him. Therefore, my beloved, as I have been able to obtain now from that treasure
                that fails not, I have sent unto thee from it. Yet though I have sent it to thee, it
                is all with me. For the treasure fails not, for it is the wisdom of God; and the
                steward is our Lord Jesus Christ, as He testified when He said:—All things have been
-               committed to Me by My Father.<ptr type="noteAnchor" target="#n21"/> And while He is the steward of the wisdom, again,
-               as the Apostle said:—Christ is the power of God and His wisdom.<ptr type="noteAnchor" target="#n22"/> This wisdom is
+               committed to Me by My Father.<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> And while He is the steward of the wisdom, again,
+               as the Apostle said:—Christ is the power of God and His wisdom.<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/> This wisdom is
                imparted to many, yet nothing is lacking, as I explained to thee above; the Prophets
                received of the spirit of Christ, yet Christ was not a whit diminished. </ab>
-         </div>
-         <div type="section" n="9">
-            <head type="editorial">9</head>
-            <ab> Ten treatises have I written unto thee, my beloved. Whatsoever thou hast asked of
+            <ab xml:id="section-10.9" n="9"> Ten treatises have I written unto thee, my beloved. Whatsoever thou hast asked of
                me, I have explained to thee without (receiving) ought from thee. And that which thou
                enquiredst not of me, I have given unto thee. I have asked thy name and written unto
                thee. I have asked of myself thy question, and I have answered thee as I was able,
