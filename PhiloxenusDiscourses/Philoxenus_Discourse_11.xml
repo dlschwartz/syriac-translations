@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Discourse 11 of <persName>Philoxenus</persName></title>
+            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8866">Discourse 11: On Abstinence</title>
+            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
+            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
             <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
                >Daniel L. Schwartz</editor>
             <respStmt>
@@ -23,6 +25,27 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Discourses of Philoxenus of Mabbug</title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target="https://syriac-library/8875"/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target="https://syriac-library/8867"/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
             <p>
                <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
@@ -33,13 +56,11 @@
    </teiHeader>
    <text>
       <body>
-         <div type="discourse">
-            <pb n="403"/>
-            <pb type="external" n="420"/>
-            <head type="title">The Eleventh Discourse: on abstinence and the subjection of the body,
+         <div type="section" xml:id="section-11" n="11">
+            <head type="main">The Eleventh Discourse: on abstinence and the subjection of the body,
                which sheweth that a man is, through tribulations, able to enter into the spiritual
                country of the enjoyments of the knowledge of <persName>Christ</persName>.</head>
-            <ab><quote>Enter ye in at the strait gate,</quote><ptr type="noteAnchor" target="#n403-1"/> proclaimeth the word of <persName>the Redeemer</persName>
+            <ab xml:id="section-11.1" n="1"><quote>Enter ye in at the strait gate,</quote><ptr type="noteAnchor" target="#n403-1"/> proclaimeth the word of <persName>the Redeemer</persName>
                unto all true disciples of His word, for without this gate a man cannot enter into
                the kingdom of God. For a man is not wholly worthy of the experience of the rule and
                life of <persName>Christ</persName> until he hath put to an end in him all feeling for the meats of the
@@ -65,7 +86,7 @@
                of the body which dissolveth the penalty, the will of each one of us is able to
                scatter the composition of the old man of lusts, and when this death hath been
                dissolved not even then is that nature firm.</ab>
-            <ab>Now the death which is of sin brought in the death which is of nature, and with the
+            <ab xml:id="section-11.2" n="2">Now the death which is of sin brought in the death which is of nature, and with the
                dissolution of the one, the other was brought to nought, and those who did not die
                aforetime died in very truth, but those, who of their own freewill put to death in
                them the man of lusts in this death, dissolved the death of the natural man; <pb
@@ -83,7 +104,7 @@
                the living flesh; and so must it be with us also when we have uprooted the matter of
                the lust of the belly, and have made accusations against its filthy and loathsome
                forms.</ab>
-            <ab>And now let us shew in our discourse the benefit of abstinence, and let us exhort
+            <ab xml:id="section-11.3" n="3">And now let us shew in our discourse the benefit of abstinence, and let us exhort
                disciples with profitable doctrine to lay hold in their souls upon this endurance
                which, although it is imagined to be laden with labours, is nevertheless the
                birth-pang which giveth us birth into the experience of the blessings of <persName>Christ</persName>.
@@ -98,7 +119,7 @@
                revealed and re-standeth in the appearance of his nature, then is it easy for him to
                see and be seen in the beauty of his soul from whence he receiveth the clothing of
                knowledge.</ab>
-            <ab>Now the beginning of abstinence is bitter and severe, but the end thereof is pleasant
+            <ab xml:id="section-11.4" n="4">Now the beginning of abstinence is bitter and severe, but the end thereof is pleasant
                and sweet. Its burden is heavy unto those who do not feel how light it is, and its
                load is difficult unto those who do not look into the spiritual riches which are
                therein, for it is the strait gate which leadeth into the broad country of spiritual
@@ -122,7 +143,7 @@
                henceforth he doth not sow strange lands with the seed of alms, but the rational
                field of himself, and in it he beginneth the service of the labours of
                righteousness.</ab>
-            <ab>Now the first rule of this field is the cultivation of fasting and abstinence, for
+            <ab xml:id="section-11.5" n="5">Now the first rule of this field is the cultivation of fasting and abstinence, for
                without these all the virtues of the person can be but feebly cultivated, and it is
                as if the power [to perform] them were weak and wanting in us; for our prayer cannot
                be pure, nor our singing wakeful, nor our thoughts sanctified, nor our knowledge
@@ -150,7 +171,7 @@
                and to cast out these things from it, the gift of the Spirit came to our support, in
                order that that which nature was not able to do of itself it might complete by
                Grace.</ab>
-            <ab>Therefore, O disciple, contend against the lusts of the body with all thy soul, and
+            <ab xml:id="section-11.6" n="6">Therefore, O disciple, contend against the lusts of the body with all thy soul, and
                cultivate virtues in the field of thyself which remaineth to thee from the world, for
                thou thyself alone of every thing which is in the world art reserved <pb
                   type="external" n="426"/>for life, and for thee the wedding chamber is opened, and
@@ -165,7 +186,7 @@
                kingdom for the coarse and common table of the bread of wheat, and more than this the
                table of meats of the body is smaller and inferior in comparison to that spiritual
                table.</ab>
-            <ab>Be thou wakeful, then, and watch thyself when this lust beginneth to fight against
+            <ab xml:id="section-11.7" n="7">Be thou wakeful, then, and watch thyself when this lust beginneth to fight against
                thee, and gather together all the host of thy thoughts, having as the general thereof
                a wakeful understanding, which is like the chief of a band of thieves, who are the
                passion of the lust of the belly. For this lust knoweth that it is too feeble to
@@ -188,7 +209,7 @@
                the hunger of nature, and if at the season of his power weakness gaineth dominion
                over him, he is easily conquered [and is made] to come to utter defeat when once a
                small portion of that feebleness hath gained the mastery over him.</ab>
-            <ab>Observe then, O thou [disciple], very carefully and with discerning knowledge, that
+            <ab xml:id="section-11.8" n="8">Observe then, O thou [disciple], very carefully and with discerning knowledge, that
                not all hunger is the hunger of nature, and that not all meat is the meat which
                satisfieth want, and observe the different kinds of hunger, and distinguish and
                select with knowledge thine own hunger from among them. One kind of hunger belongeth
@@ -222,7 +243,7 @@
                roused up and the lust for food be excited by thee instead of by want; and if this
                happeneth thy meal is one to be blamed, even though thou takest food because of
                hunger, and eatest sparingly.</ab>
-            <ab>Let thy thoughts then observe at all seasons all thy affairs, whether it be those
+            <ab xml:id="section-11.9" n="9">Let thy thoughts then observe at all seasons all thy affairs, whether it be those
                which are in the world, or those which are in thy body, or all the others which are
                wrought in the soul. For a man is not an animal that he should feed whenever he is
                hungry, but he is bound, like a rational being, whenever the body sheweth its natural
@@ -260,7 +281,7 @@
                are commanded to die; so then it is right that we should contend by rule and conduct
                on the side of <pb type="external" n="431"/>faith against all the needs of nature,
                but for the truth we must contend against the natural life.</ab>
-            <ab>Repress then, [O disciple,] thy passion of hunger when this lust is stirred up in
+            <ab xml:id="section-11.10" n="10">Repress then, [O disciple,] thy passion of hunger when this lust is stirred up in
                thee, and set in battle array against it all the powers of thy thoughts, that if it
                be not vanquished by one, it may be overcome by many. For how can that lust, which is
                wont to be overcome by one living motion for God's sake, avoid being vanquished by
@@ -272,7 +293,7 @@
                it to the war against lust, and lust (even though it happen that it hath held us fast
                   <pb n="414"/>habitually for a long time past), that is to say need, is not able to
                abide before it.</ab>
-            <ab>And observe that a distinction also existeth between one kind of need and another,
+            <ab xml:id="section-11.11" n="11">And observe that a distinction also existeth between one kind of need and another,
                for there is the need which ariseth from lust, and that which ariseth from a healthy
                state, and that which ariseth from strength, and that which ariseth from life; let us
                then forsake the former kinds of need, and make use of the last, so that when we are
@@ -298,7 +319,7 @@
                human life; and it is manifest that whosoever nourisheth his lust <pb type="external"
                   n="433"/>giveth birth to [other] lusts, for as is the nature of the ground, so is
                also the taste of the [fruit of] trees which grow up therefrom.</ab>
-            <ab>Thou shalt not then, [O disciple,] devour like a slave, but eat like a free man, and
+            <ab xml:id="section-11.12" n="12">Thou shalt not then, [O disciple,] devour like a slave, but eat like a free man, and
                let not thy food be unto others but unto thyself, for instead of ministering unto the
                bondage of lust thou must be a minister unto thyself. And who is there that
                understanding all this will diminish [the food of] his own mouth and put [it] into
@@ -336,7 +357,7 @@
                moreover, when all lusts are gathered together [against thee], <pb n="417"/>yet are
                they powerless, and how very much more easily are they made impotent when thou dost
                vanquish them one by one by the persistence of patient endurance!</ab>
-            <ab>And, moreover, it is right for thee to make a distinction between them, in order that
+            <ab xml:id="section-11.13" n="13">And, moreover, it is right for thee to make a distinction between them, in order that
                victory over them may be easy for thee. <pb type="external" n="435"/>For when the
                lusts desire to make an attack upon thy patient endurance in a body, thou shalt not
                give unto them that which they seek, but thou shalt engage in war with them all, only
@@ -356,7 +377,7 @@
                conquered, it is by no means overcome, but it removeth itself from the thought which
                is unworthy of it, even when it is held thereby, and it fighteth against abominable
                lust.</ab>
-            <ab>Now therefore it is good that we should overcome all <pb n="418"/>lusts, but
+            <ab xml:id="section-11.14" n="14">Now therefore it is good that we should overcome all <pb n="418"/>lusts, but
                especially <pb type="external" n="436"/>the first lust by which, if we overcome it,
                we receive the strength of victory against other lusts; for when this evil lust shall
                be vanquished in us, together therewith shall be conquered the others which follow in
@@ -374,7 +395,7 @@
                in His camp; for our defeat would show the ignorance of Him Who chose us, and
                therefore let us be victors, that the Wise Being may not be thought to be foolish
                through us.</ab>
-            <ab>Observe then by the experience of thy contest with what thoughts this lust of the
+            <ab xml:id="section-11.15" n="15">Observe then by the experience of thy contest with what thoughts this lust of the
                belly, when it troubleth thee, may be overcome, and by this habit, whenever it
                setteth itself in battle array against thee, do thou array in order of battle these
                thoughts against it, and after the victory thou wilt receive the sweets of conquest.
@@ -394,7 +415,7 @@
                thee, and if thy fighting be laboured and thou sweatest, this also cleaveth unto thy
                work; for if there be a battle, there must be labour therein, and if there be a
                contest, in weariness and sweat must run those who enter in to it.</ab>
-            <ab>Do thou, then, not consider the things which are near, but look beforehand at the
+            <ab xml:id="section-11.16" n="16">Do thou, then, not consider the things which are near, but look beforehand at the
                pleasures which [come] after the tribulations, and let not thy mind be fettered unto
                thy body, but let it hasten to see the things which are about to come, that thou
                mayest strengthen with the remembrance of victory the members which stand in battle.
@@ -412,7 +433,7 @@
                feebleness of thy will, and that that which is born of thee, not being a man of might
                but as yet a child and youth, which it would have been easy for thee to have set
                under thy heel, hath stood up in battle against thee, and hath laid thee low.</ab>
-            <ab>And see then also how the Spirit counselleth thee, saying, <quote>Dash the children of
+            <ab xml:id="section-11.17" n="17">And see then also how the Spirit counselleth thee, saying, <quote>Dash the children of
                <placeName>Babylon</placeName> upon the stones while they are young.</quote><ptr type="noteAnchor" target="#n420-1"/> And well hath the word of
                prophecy called these passions <quote>children,</quote> that it might show thee their
                powerlessness, and might encourage thee to victory; and it did not say <quote>thy
@@ -422,7 +443,7 @@
                the slavery which the word of prophecy hath symbolized by <placeName>Babylon</placeName> which hath been
                wasted, and which carrieth off rapaciously like spoil the <pb type="external" n="439"
                />power of the spiritual man, and plundereth his riches.</ab>
-            <ab>Now therefore when lust hath joined itself unto hunger <pb n="421"/>to wage war
+            <ab xml:id="section-11.18" n="18">Now therefore when lust hath joined itself unto hunger <pb n="421"/>to wage war
                against thee, do thou unite thy thought unto Grace, and stand up in prayer, and as if
                thou didst despise lust, do not even turn thy thoughts thereunto—now I mean that lust
                which is great—for even when thou fightest and dost overcome, thy victory will still
@@ -449,7 +470,7 @@
                overcome by the belly is akin unto the nature of the stature of a child, in that same
                age [I say], victory over it is to thee also akin, and as his childhood is subject
                unto defeat, even so doth victory cleave unto thine own full-grown stature.</ab>
-            <ab>Understand then from this also the feebleness of the lust of the belly, for its
+            <ab xml:id="section-11.19" n="19">Understand then from this also the feebleness of the lust of the belly, for its
                fighting belongeth unto the condition of children, for we see that all the other
                lusts renew themselves against our life in the various states of [our] growth which
                follow after [childhood], but this lust of the belly is stirred up in childhood; and
@@ -465,14 +486,14 @@
                fight, they do so with fear and terror, and because of this they fight with half
                their strength and not with [their] full force, for fear is wont to diminish and to
                dissipate their power.</ab>
-            <ab>Fight then, O disciple, and overcome like a man, <pb n="423"/>that thou mayest be
+            <ab xml:id="section-11.20" n="20">Fight then, O disciple, and overcome like a man, <pb n="423"/>that thou mayest be
                crowned gloriously like a warrior. Thou shalt not be conquered, for thou wast not set
                apart for this; thou shalt not fall because thou wert not chosen for this; thou shalt
                not surrender, because the mighty Hand is with thee; for the Hand of <persName>Christ</persName> will be
                with thee in the wars which thou shalt wage against all these things, if only thou
                wilt perceive the right Hand which graspeth thy right hand, and the mighty Arm which
                holdeth thy feeble hand.</ab>
-            <ab>And now, since it is fitting that I should teach thee the first kinds of this victory
+            <ab xml:id="section-11.22" n="21">And now, since it is fitting that I should teach thee the first kinds of this victory
                listen, and I will tell thee. Do not, then, attribute unto thyself victory when thou
                conquerest the lust for rare and costly meats only, but when thou conquerest [thy
                lust] for poor and common food, thou mayest consider this a genuine victory; for the
@@ -547,7 +568,7 @@
                   n="445"/>motion, I mean the motion which receiveth [something] from nature,
                because it receiveth what it needeth, and returneth; now I distinguish between that
                motion and the motion of lust, that I may not eat and be overcome.</ab>
-            <ab>Overcome therefore the lust for garden herbs, that thou mayest thereby overcome the
+            <ab xml:id="section-11.23" n="23">Overcome therefore the lust for garden herbs, that thou mayest thereby overcome the
                lust of fornication, and let not common food stir thee up, in order that what hath a
                fair guise may not excite thee. Despise thou poor and contemptible things, lest they
                gather together against thee the lusts of those which are mighty, for lust doth not
@@ -611,7 +632,7 @@
                is good that thou shouldst not eat flesh nor drink wine, nor anything by which our
                brother may stumble,<ptr type="noteAnchor" target="#n429-2"/> and also that thou mightest overcome lust by thine own
                will, and not by the restriction of the uncleanness of meats.</ab>
-            <ab>Now against the things which are unclean naturally lust doth not rise up, and
+            <ab xml:id="section-11.24" n="24">Now against the things which are unclean naturally lust doth not rise up, and
                therefore everything is holy before thee; therefore when on all sides the materials
                which provoke thy lust shall appear, thou shalt suppress and overcome them by the
                love of God, and moreover, because of this, it is seemly for thee to appear
@@ -624,7 +645,7 @@
                thyself is it read, and others who are outside thee see it not, and thy freedom, as
                by the law, is not prohibited from eating, that it may not transgress the law if it
                eateth.</ab>
-            <ab>For freedom is above the law, <pb type="external" n="449"/>and therefore it is the
+            <ab xml:id="section-11.25" n="25">For freedom is above the law, <pb type="external" n="449"/>and therefore it is the
                same to thee whether thou eatest, or whether thou eatest not, even as <persName>Paul</persName> spake
                concerning this freedom of the spirit, saying, <quote>He that regardeth the day, regardeth
                it unto the Lord, and he that regardeth it not, regardeth it not unto the Lord; and
@@ -637,7 +658,7 @@
                common, or whether it be permitted to be eaten according to custom or not; so then
                that from the eating of which lust ariseth not in us we may eat as of that which is
                clean, without our conscience pricking us during the eating thereof. </ab>
-            <ab>The prick of the conscience is the transgression of the <pb n="431"/>law, as hath
+            <ab xml:id="section-11.26" n="26">The prick of the conscience is the transgression of the <pb n="431"/>law, as hath
                been said also by <persName>the Apostle</persName>,<ptr type="noteAnchor" target="#n431-1"/> for if a man be in doubt, and he eateth, he
                is condemned. The Jews ate flesh in the wilderness, and it is written concerning them
                that, <quote>While the flesh was yet between their teeth the anger of God had dominion
@@ -661,7 +682,7 @@
                day, nor ten days, nor twenty days, but a whole month, until it come out from your
                nostrils, and it become indigestion unto you; because that ye have rejected the Lord
                Who is among you, and have said, Who will give us flesh to eat?</quote></ab>
-            <ab>Behold then, according to the word of <persName>Moses</persName> unto the Jews, every one that eateth in
+            <ab xml:id="section-11.27" n="27">Behold then, according to the word of <persName>Moses</persName> unto the Jews, every one that eateth in
                lust, <pb type="external" n="451"/>rejecteth the Lord Who is in him, and he resteth
                upon his lust's desire. Well then was indigestion made the limit of the meat which
                lust required, for need observeth a limit, but lust hath neither limit nor end.
@@ -682,7 +703,7 @@
                changed into all these varieties of food the eaters thereof were not condemned
                thereby, for <pb type="external" n="452"/>it was a gift of Grace, and not that which
                their lust had demanded.</ab>
-            <ab>Now that thou mayest understand that it is everything that is eaten with lust, even
+            <ab xml:id="section-11.28" n="28">Now that thou mayest understand that it is everything that is eaten with lust, even
                though it be common, that is reprehensible, set before thine eyes these two examples,
                the eating of <persName>Esau</persName>, and the eating of <persName>Elijah</persName>. <persName>Esau</persName>, because he ate lentiles,
                was condemned, and therefore <persName>Paul</persName> calleth him <quote>dissolute,</quote> and <quote>fornicator,</quote>
@@ -697,7 +718,7 @@
                censured for gathering the manna, and as <persName>Esau</persName> was condemned for eating the
                lentiles, and as the people also who perished, because they ate and drank with lust
                before the calf.</ab>
-            <ab>And that even the drinking of cold water with lust is reprehensible <persName>David</persName>, the wise
+            <ab xml:id="section-11.29" n="29">And that even the drinking of cold water with lust is reprehensible <persName>David</persName>, the wise
                man of God, shall prove unto thee, for when he lusted to drink water <pb n="434"
                />from the great cistern which was in <placeName>Bethlehem</placeName>, and those who did hear [him]
                obeyed and brought [it] to him,<ptr type="noteAnchor" target="#n434-1"/> he suppressed his lust, and poured it out
@@ -737,7 +758,7 @@
                purified in the matter of the things which are the contrary of purity, that they
                might overcome like mighty men that which was opposed to them, and that, like men of
                power and freemen, they might be uninjured by the things which cause injury.</ab>
-            <ab>But thou hast not arrived at this point, and to this grade thou hast not yet
+            <ab xml:id="section-11.30" n="30">But thou hast not arrived at this point, and to this grade thou hast not yet
                ascended, therefore it is necessary for thee to abstain from every thing, and to eat
                in moderation that thou mayest be pure, and <pb n="436"/>to eat and to drink by
                weight and measure that thou mayest be clean, because according to thy promise thou
@@ -767,7 +788,7 @@
                things, and especially in the matter of eating and not eating, he maketh known the
                power of his freedom and saith immediately after these words, <quote>Meats of the belly,
                and the belly of meats, but God will bring both of them to nought.</quote><ptr type="noteAnchor" target="#n437-2"/></ab>
-            <ab>Preserve then, O disciple, the habit of abstinence, that thou mayest also arrive at
+            <ab xml:id="section-11.31" n="31">Preserve then, O disciple, the habit of abstinence, that thou mayest also arrive at
                the power of freedom, and wean thyself, and eat not, that thou mayest draw nigh unto
                the state of eating without perceiving [it]; abstain from food by the power of thy
                soul, in order that the lusts which are mingled in thy members may be destroyed. Thou
@@ -808,7 +829,7 @@
                loveth to be seen by itself, and it layeth the foundation of slackness from the
                beginning of the growth of the stature of the body, so that beginning therefrom it
                may be found a helpmeet unto all lusts which spring up in every age of life.</ab>
-            <ab>Now this is the first lust which conquered the world, and because of it the first
+            <ab xml:id="section-11.32" n="32">Now this is the first lust which conquered the world, and because of it the first
                transgression of the law took place; and next <persName>Cain</persName> also, in turning unto this,
                meditated the killing of his brother that he might inherit the earth by
                himself.<ptr type="noteAnchor" target="#n439-1"/> It laid a blemish upon the righteous man <persName>Noah</persName>;<ptr type="noteAnchor" target="#n439-2"/> it
@@ -860,7 +881,7 @@
                were overcome, everything would become peaceful and quiet, and thou wouldst see
                nothing in the world which would rebel against the will of God, or lead us to
                transgress the command, and to tread the law under foot, except this only.</ab>
-            <ab>Now if any man shall say there are other causes for all the things which are
+            <ab xml:id="section-11.33" n="33">Now if any man shall say there are other causes for all the things which are
                ministered unto in the world, <pb type="external" n="461"/>let him that sayeth this
                know that the lust of the belly is also the primary cause of the other evils. And
                although passions are many and diverse, and they move themselves in various ways in
@@ -898,7 +919,7 @@
                which are bound up with the lust of the belly. And I permit myself to say that of
                labours, and afflictions, and diseases, and sicknesses, and all such like things
                which afflict us in the body, lust is the cause.</ab>
-            <ab>And whosoever fighteth by the power of forbearance, and conquereth this first evil,
+            <ab xml:id="section-11.34" n="34">And whosoever fighteth by the power of forbearance, and conquereth this first evil,
                is able thereby to conquer all sin, and well <pb type="external" n="463"/>have divine
                men also handed down to us the tradition, that whosoever wisheth to be perfect in the
                way of <persName>Christ</persName> must first of all fight against this passion; therefore also if those
@@ -921,7 +942,7 @@
                moved in a living manner like unto God Himself, and not in the manner of a dead man
                according to the nature of his body, <pb type="external" n="464"/>and briefly, after
                the victory over this lust, a man is worthy of every spiritual vision.</ab>
-            <ab>Now if those who are in the world and who work righteousness have need of fasting and
+            <ab xml:id="section-11.35" n="35">Now if those who are in the world and who work righteousness have need of fasting and
                abstinence, how much more do those need them who have gone forth therefrom for the
                practice of a spiritual rule and conduct? For the limit of abstinence is that we
                should fight against all the meats which are made use of by the body, not with the
@@ -943,12 +964,12 @@
                knowledge dwindleth, and the light of instruction is withheld from it; and so long as
                the body is found, the soul is lost, and so long as the body enjoyeth health, the
                soul is sick.</ab>
-            <ab>Whosoever, then, seeketh to find his soul, must deliver his body unto the destruction
+            <ab xml:id="section-11.36" n="36">Whosoever, then, seeketh to find his soul, must deliver his body unto the destruction
                of all afflictions, and behold, he will find his soul in the destruction of his body,
                and the health of the man of the spirit in the sickness of the carnal man, even as
                <persName>Paul</persName> also testifieth, saying, <quote>When I am sick, it is then that I am
                strong.</quote><ptr type="noteAnchor" target="#n445-1"/></ab>
-            <ab>Now when two opposing parties are engaged in battle with each other, so long as their
+            <ab xml:id="section-11.37" n="37">Now when two opposing parties are engaged in battle with each other, so long as their
                hosts are equal in number and are equally skilled in the art of war, there will be
                fighting between them continually, for they will always be conquered and conquering,
                and taking and giving the victory to each other, and plucking triumphs each from
@@ -967,7 +988,7 @@
                during these ascents and descents, and goings and comings, a man must not depart from
                his place, or he will not be able to grow in the stature which hath been given unto
                him by God that he may increase unto spiritual life thereby.</ab>
-            <ab>Now therefore if these, the motions of whose lives stand in equality of soul and
+            <ab xml:id="section-11.38" n="38">Now therefore if these, the motions of whose lives stand in equality of soul and
                body, are not able to grasp the victory and to go forth unto the end of the journey
                of their life and conduct, how can those who live in the body, and who feed it
                continually, and give it the fulness of its wants, and feed it as it were to
@@ -984,7 +1005,7 @@
                and speaketh like a living being, and the soul dwelleth within it like a dead thing
                which perceiveth not at all; and if it thought that it liveth—because the nature of
                the soul is immortal—it liveth to the body and not to itself.</ab>
-            <ab>Take away then from the body, and give to the soul, but take not away from the soul
+            <ab xml:id="section-11.39" n="39">Take away then from the body, and give to the soul, but take not away from the soul
                that thou mayest give to the body, and according to that which was promised should
                happen unto thee by thy Creator, so do thou thyself unto thyself. For this hope, that
                thy body should be exalted unto the grade of thy soul by the resurrection, was given
@@ -1004,7 +1025,7 @@
                body in its life, the carnalness of the body in its spirituality, and the members and
                senses of the body, together with all the labour of their ministration, in all the
                spiritual members of the soul.</ab>
-            <ab>Now this strife is of use unto us—especially to conquer therewith—from the beginning
+            <ab xml:id="section-11.40" n="40">Now this strife is of use unto us—especially to conquer therewith—from the beginning
                of our youth. For from the beginning of the foundation of the childhood of the
                children of men this passion cleaveth unto their lives, and maketh to shoot up in all
                stages of their growth the passions which are peculiar unto them. In children, and in
@@ -1026,7 +1047,7 @@
                been exercised in the training of patient endurance, is like a field which hath been
                cultivated and sown from its earliest times, that at the fitting season it may yield
                the fruits of knowledge.</ab>
-            <ab>And what shall I say in respect of children? Unto those of all ages, and even also
+            <ab xml:id="section-11.41" n="41">And what shall I say in respect of children? Unto those of all ages, and even also
                unto perfect and fullgrown men, the knowledge of contests appeareth not at the times
                when their thoughts are disturbed by fighting in the contests, but when they have
                ceased to war then they perceive [their] knowledge; if then the knowledge be found
@@ -1073,7 +1094,7 @@
                knowledge hath no need of these things, because it holdeth nothing of the
                perspicacity of carnal senses in the soul, but when all parts of the soul have been
                purified and cleansed from evil passions, then this knowledge riseth therein.</ab>
-            <ab>Now pure meats are helpful and beneficial in no slight degree to the activity of the
+            <ab xml:id="section-11.42" n="42">Now pure meats are helpful and beneficial in no slight degree to the activity of the
                senses of those who receive the knowledge of the soul, but spiritual beings <pb
                   type="external" n="472"/>have no need of anything thereof, and that thou mayest
                know that this is so, accept the testimony of these pure children, who instead of the
@@ -1130,7 +1151,7 @@
                being obliged or required to do so, by their own discernment chose these things. And
                thou, if thou wilt do as they did, wilt pay what is due from thee, and thou wilt
                fulfil thy promise by the word of God which thou hast.</ab>
-            <ab>Rouse thyself then, and observe these children of the Old Testament, who being born
+            <ab xml:id="section-11.43" n="43">Rouse thyself then, and observe these children of the Old Testament, who being born
                of one mother sucked the milk of another, for while the Old Testament brought them
                forth to the belief of God, they fulfilled the rule of life of the New Testament, and
                the milk of their mother was not sweet unto them, but they longed earnestly to suck
@@ -1165,7 +1186,7 @@
                things which are to come increaseth in us,</quote> even as he said in another place,
                <quote>Tribulation perfecteth patience in us; and patience, probation, and probation, hope;
                and patience putteth not to shame.</quote><ptr type="noteAnchor" target="#n455-4"/></ab>
-            <ab>Whosoever beareth not tribulations by his own constancy, in him it is evident that
+            <ab xml:id="section-11.44" n="44">Whosoever beareth not tribulations by his own constancy, in him it is evident that
                the remembrance of hope is not, for if he had hope, he would also be in tribulation
                because of his hope, even as all the <pb n="456"/>righteous who have come into the
                world were in tribulation with all kinds of labours, and in many afflictions they
@@ -1182,14 +1203,14 @@
                afflictions is not so hard as report saith, for a report from afar usually terrifieth
                every man, but when he hath tried and hath had experience of the matters in very
                deed, they become easy unto those who do them.</ab>
-            <ab>To thee then, O thou who hast cast off the world, belong the things which will help
+            <ab xml:id="section-11.45" n="45">To thee then, O thou who hast cast off the world, belong the things which will help
                thee greatly, and which will give thee power [to lead] the good life, for the fact of
                being removed from the affairs of the world, and from the sight and hearing thereof,
                keepeth thy life holy in no small degree. The beloved Children,<ptr type="noteAnchor" target="#n456-1"/> the example
                of whom I have brought before thee, although the royal table was set before their
                sight, rejected its pleasures, and chose tribulations instead of delights. </ab>
             <pb n="457"/>
-            <ab>And herefrom consider the power of their patient endurance, for having no teacher to
+            <ab xml:id="section-11.46" n="46">And herefrom consider the power of their patient endurance, for having no teacher to
                admonish, and none to help or encourage, nor the pattern of others who were before
                them, nor the fear of the law upon them, nor want and need, nor fear and terror which
                restrained them, nor being removed from the sight of meats—which also is helpful to
@@ -1203,7 +1224,7 @@
                victory over the passions, still had need to subdue his body, how much more have
                those, in whom there still live the lusts of the flesh, need to subdue their bodies
                by fasting and abstinence, and to fight and to overcome!</ab>
-            <ab>Unto thee then, O disciple, if thou wishest thy discipleship to be good, let the
+            <ab xml:id="section-11.47" n="47">Unto thee then, O disciple, if thou wishest thy discipleship to be good, let the
                table, which unto others is a place of pleasure, be a place of fighting, and set in
                array thereupon the battle against all meats, whether they be great or little, or
                rare or common, and despise not lust, because it is laid hold upon by small matters,
@@ -1239,7 +1260,7 @@
                of fine things—and by these three He overcame and brought to nought all the passions
                which cleave unto them, and then He began to preach the kingdom of His Father with
                power, and to deliver the doctrine of perfection unto the children of men.</ab>
-            <ab>Now as <persName>Christ our Lord</persName>, when He had finished the service of the Law and had begun
+            <ab xml:id="section-11.48" n="48">Now as <persName>Christ our Lord</persName>, when He had finished the service of the Law and had begun
                the rule of the spirit, began with fasting, even so also like Him art thou bound to
                make the beginning of thy discipleship, which is above the world therewith. For what
                abstinence could be as perfect as that of <persName>Jesus</persName>? Who not only made himself a
@@ -1260,7 +1281,7 @@
                hunger; but He fasted according to the body according to the capacity of the power of
                carnal beings, and He brought Himself down to us, and revealed unto us the limits of
                His natural endurance.</ab>
-            <ab>Now the power of endurance hath become weak in us by reason of a multitude of
+            <ab xml:id="section-11.49" n="49">Now the power of endurance hath become weak in us by reason of a multitude of
                dainties, and we think that without these our nature cannot live, and that if we
                diminish these dainties and supports of meat it will perish. <persName>Our Lord</persName> fasted forty
                days, and hath [thus] taught us that the power of our natural endurance can be
@@ -1273,7 +1294,7 @@
                beyond the power of human nature to do so, and it hath been performed solely by
                Grace, <pb type="external" n="482"/>because of many reasons, some of which are hidden
                from us, and some of which are manifest unto us.</ab>
-            <ab>Now therefore it is meet that the disciple should place this example before his eyes,
+            <ab xml:id="section-11.50" n="50">Now therefore it is meet that the disciple should place this example before his eyes,
                if he wisheth to be prosperous in the spiritual life, and as <persName>our Lord</persName> <pb n="461"
                />overcame the other passions, even so also for thee after abstinence will it be easy
                to vanquish the other lusts. And as after all lusts had been overcome <persName>Jesus</persName> began
@@ -1311,7 +1332,7 @@
                nigh thereunto, it giveth birth unto man that he may be in the world of the spirit,
                and a counterpart of the angels, although he still sojourneth in the world of the
                body.</ab>
-            <ab>And besides this, then, thou must understand that the blessed Apostles, even though
+            <ab xml:id="section-11.51" n="51">And besides this, then, thou must understand that the blessed Apostles, even though
                they had been chosen by divine Grace, <pb type="external" n="484"/>were not worthy of
                the gift of the Spirit until there had appeared in them first of all the life of
                abstinence, and behold, although they were going about with <persName>Jesus</persName> in the world, it
@@ -1336,7 +1357,7 @@
                of their endurance;</quote> and that there shall be a place for the spirit instead of the
                light [of which] <persName>Jesus</persName> [speaks] He himself will shine in their hidden places—which
                actually came to pass after His going up into heaven.</ab>
-            <ab>Now although they lived beforehand the life of freedom, as a pledge, yet they did not
+            <ab xml:id="section-11.52" n="52">Now although they lived beforehand the life of freedom, as a pledge, yet they did not
                receive this freedom in themselves until they had first of all laboured <pb n="464"
                />in the life of abstinence, for it is written concerning them that immediately <persName>our
                Redeemer</persName> was taken up they returned to that upper chamber in which they were
@@ -1366,7 +1387,7 @@
                his clothing they were not able to buy food for him and for those who were with him,
                and the constant labour which he did with his hands at nights, in order that he might
                be a burden upon no man.<ptr type="noteAnchor" target="#n465-3"/></ab>
-            <ab>And concerning <persName>Simon</persName>, moreover, it is written that <quote>he went up to the roof to pray
+            <ab xml:id="section-11.53" n="53">And concerning <persName>Simon</persName>, moreover, it is written that <quote>he went up to the roof to pray
                at the time of the ninth hour, and he was an hungered, and wished to eat,</quote> and he
                told [them] to make ready for him.<ptr type="noteAnchor" target="#n465-4"/> And by this [example the Book] teacheth
                thee that, in addition to constant instruction, <pb type="external" n="487"/>and
@@ -1382,7 +1403,7 @@
                him, it is evident that he became hungry through Divine dispensation, that by the
                passion of his hunger he might receive the teaching of the things which were spoken
                unto him, his fasting being continual.</ab>
-            <ab>And consider, the Apostles fasted not—now their rule of life is not suitable to come
+            <ab xml:id="section-11.54" n="54">And consider, the Apostles fasted not—now their rule of life is not suitable to come
                to testify unto thee, for when they had received the Spirit Paraclete they were
                perfect—and as <persName>our Lord</persName> did not fast after His temptation, so also was it not
                fitting for them to fast, according to the rule of freedom in which they stood, and
@@ -1396,7 +1417,7 @@
                time of perfection lived like those who were in danger, who would not tremble and
                excuse himself from slackness, and run and lay hold of the rule of patient
                endurance?</ab>
-            <ab>And thou must also understand from the testimony of the Prophets, that they too,
+            <ab xml:id="section-11.55" n="55">And thou must also understand from the testimony of the Prophets, that they too,
                whenever they were held worthy to receive a vision of God or of the angels, led a
                life of much fasting, and then were they worthy to receive the vision of revelations,
                even as it is written of that beloved man <persName>Daniel</persName>, that after his fast of three
@@ -1407,7 +1428,7 @@
                the perception which is above nature, are much fasting, and abstinence, and the
                subduing of the body necessary, if thou wouldst arrive at things which are greater
                than those of <persName>Daniel</persName>?</ab>
-            <ab>And so also <persName>Elijah</persName>, after his fast of forty days and forty nights,<ptr type="noteAnchor" target="#n467-2"/>
+            <ab xml:id="section-11.56" n="56">And so also <persName>Elijah</persName>, after his fast of forty days and forty nights,<ptr type="noteAnchor" target="#n467-2"/>
                received the sight of God in <placeName>Mount Horeb</placeName>, and he was alone in the wilderness, and
                in addition to the protracted fast he bore also the labour of the journey of the way;
                and besides these he was shut off from the children of men, and [lived in] silent
@@ -1432,7 +1453,7 @@
                belonged to the spirit; and by reason of the severity of his labours and
                tribulations, and through the pain and grief of his groanings his flesh clave to his
                bones.</ab>
-            <ab>And again, he teacheth thee also concerning <pb type="external" n="490"/>that which
+            <ab xml:id="section-11.57" n="57">And again, he teacheth thee also concerning <pb type="external" n="490"/>that which
                he took as a preparation for his meat, saying, <quote>For I have eaten ashes like
                bread:</quote><ptr type="noteAnchor" target="#n468-3"/> these were the condiments and dainties which were laid upon the
                table of this righteous king when he ate his food. Listen also concerning the
@@ -1461,7 +1482,7 @@
                on all sides, whether the afflictions arose from his own will, or from the
                chastisement of God which took place to try him, or from the wicked men who envied
                him his good works.</ab>
-            <ab>And besides this righteous king, listen also unto the words of the spiritual athlete
+            <ab xml:id="section-11.58" n="58">And besides this righteous king, listen also unto the words of the spiritual athlete
                <persName>Job</persName>, whom the healing of the spirit taught what manner of thing he should set <pb
                   n="470"/>upon his table before his food, <quote>For my sighing entereth in before I eat,
                and my roarings are poured out like water;</quote><ptr type="noteAnchor" target="#n470-1"/> these are the fruits which he
@@ -1478,7 +1499,7 @@
                disciple, thou wilt find that none of the righteous pleased God in the world without
                tribulations and labours, for this is the road of the royal city which is above, and
                that <quote>strait and narrow is the way which leadeth unto life.</quote><ptr type="noteAnchor" target="#n470-3"/></ab>
-            <ab>Let us travel then, in the narrow path which God hath trodden for us, and let us walk
+            <ab xml:id="section-11.59" n="59">Let us travel then, in the narrow path which God hath trodden for us, and let us walk
                in the way of the tribulations which He hath shewn us. Let us restrict ourselves
                here, that we may live in freedom there; let us hunger here, that we may be filled
                there; let us diminish our food and drink [here], that we may have spiritual food in
@@ -1495,95 +1516,95 @@
                us say each to each, <quote>If we suffer with <persName>Christ</persName>, <pb type="external" n="493"/>we
                shall be glorified with <persName>Christ</persName>,<ptr type="noteAnchor" target="#n471-2"/> and if we endure [with Him], we shall also
                reign with Him;</quote><ptr type="noteAnchor" target="#n471-3"/> to Whom be glory from us all, for ever and ever, Amen.</ab>
-            <ab>Here endeth the Eleventh Discourse, which is on Abstinence. </ab>
+            <ab xml:id="section-11.60" n="60">Here endeth the Eleventh Discourse, which is on Abstinence. </ab>
          </div>
          <noteGrp>
-            <note xml:id="n403-1" target="#a403-1" n="403-1">St. Matthew vii. 13.</note>
-            <note xml:id="n405-1" target="#a405-1" n="405-1">Isaiah xxviii. 16; 1 St. Peter ii. 6.</note>
-            <note xml:id="n408-1" target="#a408-1" n="408-1">St. Luke xii. 37.</note>
-            <note xml:id="n414-1" target="#a414-1" n="414-1">Deuteronomy viii. 3; St. Matthew iv. 4; St. Luke iv. 4.</note>
-            <note xml:id="n416-1" target="#a416-1" n="416-1">Romans iv. 17.</note>
-            <note xml:id="n420-1" target="#a420-1" n="420-1">Compare Psalm cxxxvii. 9.</note>
-            <note xml:id="n421-1" target="#a421-1" n="421-1">1 Samuel xvii. 42.</note>
-            <note xml:id="n424-1" target="#a424-1" n="424-1">1 Timothy iv. 4.</note>
-            <note xml:id="n425-1" target="#a425-1" n="425-1">Romans xiv. 3.</note>
-            <note xml:id="n425-2" target="#a425-2" n="425-2">Galatians v. 13.</note>
-            <note xml:id="n428-1" target="#a428-1" n="428-1">Genesis iii. 6.</note>
-            <note xml:id="n429-1" target="#a429-1" n="429-1">1 Timothy iv. 5.</note>
-            <note xml:id="n429-2" target="#a429-2" n="429-2">Romans xiv. 21.</note>
-            <note xml:id="n430-1" target="#a430-1" n="430-1">Romans xiv. 6.</note>
-            <note xml:id="n431-1" target="#a431-1" n="431-1">Compare 1 St. John iii. 4; Romans iv. 15.</note>
-            <note xml:id="n431-2" target="#a431-2" n="431-2">Numbers xi. 33.</note>
-            <note xml:id="n431-3" target="#a431-3" n="431-3">Psalm cvi. 14.</note>
-            <note xml:id="n431-4" target="#a431-4" n="431-4">Exodus xvi. 3.</note>
-            <note xml:id="n431-5" target="#a431-5" n="431-5">Numbers xi. 18.</note>
-            <note xml:id="n432-1" target="#a432-1" n="432-1">1 Kings xvii. 6.</note>
-            <note xml:id="n432-2" target="#a432-2" n="432-2">Exodus xvi. 20.</note>
-            <note xml:id="n433-1" target="#a433-1" n="433-1">Exodus xvi. 31; Numbers xi. 7. </note>
-            <note xml:id="n433-2" target="#a433-2" n="433-2">Hebrews xii. 16.</note>
-            <note xml:id="n434-1" target="#a434-1" n="434-1">2 Samuel xxiii. 16.</note>
-            <note xml:id="n434-2" target="#a434-2" n="434-2">Genesis viii. 20.</note>
-            <note xml:id="n434-3" target="#a434-3" n="434-3">1 Kings xvii. 4.</note>
-            <note xml:id="n434-4" target="#a434-4" n="434-4">Genesis xviii. 7.</note>
-            <note xml:id="n434-5" target="#a434-5" n="434-5">Genesis xxvii. 25.</note>
-            <note xml:id="n434-6" target="#a434-6" n="434-6">1 Samuel ix. 24.</note>
-            <note xml:id="n435-1" target="#a435-1" n="435-1">Compare Ephesians v. 18, and St. Luke xxi. 44.</note>
-            <note xml:id="n436-1" target="#a436-1" n="436-1">Genesis xviii. 8.</note>
-            <note xml:id="n347-1" target="#a347-1" n="347-1">1 Corinthians vi. 12; x. 23.</note>
-            <note xml:id="n437-2" target="#a437-2" n="437-2">1 Corinthians vi. 13.</note>
-            <note xml:id="n439-1" target="#a439-1" n="439-1">Genesis iii. 6; Genesis iv. 8.</note>
-            <note xml:id="n439-2" target="#a439-2" n="439-2">Genesis ix. 21.</note>
-            <note xml:id="n439-3" target="#a439-3" n="439-3">Genesis xxvii. 36.</note>
-            <note xml:id="n439-4" target="#a439-4" n="439-4">Genesis xix. 8.</note>
-            <note xml:id="n439-5" target="#a439-5" n="439-5">Genesis vi. 2.</note>
-            <note xml:id="n439-6" target="#a439-6" n="439-6">Numbers chaps, xi. xiv. xvi. xx. xxi.</note>
-            <note xml:id="n439-7" target="#a439-7" n="439-7">Exodus xxxii. 4.</note>
-            <note xml:id="n439-8" target="#a439-8" n="439-8">Deuteronomy xxxii. 15.</note>
-            <note xml:id="n439-9" target="#a439-9" n="439-9">Numbers xvi. 18, 35.</note>
-            <note xml:id="n439-10" target="#a439-10" n="439-10">Isaiah v. 11.</note>
-            <note xml:id="n440-1" target="#a440-1" n="440-1">Deuteronomy xxxii. 14.</note>
-            <note xml:id="n440-2" target="#a440-2" n="440-2">St. Matthew xxiii. 23.</note>
-            <note xml:id="n440-3" target="#a440-3" n="440-3">1 Samuel ii. 13-15.</note>
-            <note xml:id="n440-4" target="#a440-4" n="440-4">1 Samuel iv. 11.</note>
-            <note xml:id="n440-5" target="#a440-5" n="440-5">1 Kings xi. 5.</note>
-            <note xml:id="n445-1" target="#a445-1" n="445-1">2 Corinthians xii. 10.</note>
-            <note xml:id="n446-1" target="#a446-1" n="446-1">Galatians v. 17.</note>
-            <note xml:id="n450-1" target="#a450-1" n="450-1">1 Corinthians xv. 50.</note>
-            <note xml:id="n452-1" target="#a452-1" n="452-1">Daniel ii. 18, 19.</note>
-            <note xml:id="n455-1" target="#a455-1" n="455-1">St. Luke xvii. 21.</note>
-            <note xml:id="n455-2" target="#a455-2" n="455-2">St. Matthew iii. 2.</note>
-            <note xml:id="n455-3" target="#a455-3" n="455-3">1 Thessalonians v. 16.</note>
-            <note xml:id="n455-4" target="#a455-4" n="455-4">Romans v. 3.</note>
-            <note xml:id="n456-1" target="#a456-1" n="456-1">See above p. 452.</note>
-            <note xml:id="n457-1" target="#a457-1" n="457-1">1 Corinthians ix. 27.</note>
-            <note xml:id="n462-1" target="#a462-1" n="462-1">St. Matthew iii. 4.</note>
-            <note xml:id="n463-1" target="#a463-1" n="463-1">St. Mark ii. 18.</note>
-            <note xml:id="n464-1" target="#a464-1" n="464-1">Acts i. 13 ff.</note>
-            <note xml:id="n464-2" target="#a464-2" n="464-2">Acts xiii. 2.</note>
-            <note xml:id="n464-3" target="#a464-3" n="464-3">Acts vi. 3, 4.</note>
-            <note xml:id="n464-4" target="#a464-4" n="464-4">Acts xii. 5.</note>
-            <note xml:id="n464-5" target="#a464-5" n="464-5">Acts ix. 9.</note>
-            <note xml:id="n465-1" target="#a465-1" n="465-1">2 Corinthians xi. 27.</note>
-            <note xml:id="n465-2" target="#a465-2" n="465-2">Philippians iv. 12.</note>
-            <note xml:id="n465-3" target="#a465-3" n="465-3">1 Thessalonians ii. 9.</note>
-            <note xml:id="n465-4" target="#a465-4" n="465-4">Acts x. 9.</note>
-            <note xml:id="n467-1" target="#a467-1" n="467-1">Daniel x. 2, 7.</note>
-            <note xml:id="n467-2" target="#a467-2" n="467-2">1 Kings xix. 8.</note>
-            <note xml:id="n467-3" target="#a467-3" n="467-3">Exodus xxiv. 18; xxxiv. 28.</note>
-            <note xml:id="n467-4" target="#a467-4" n="467-4">Ezekiel iv.</note>
-            <note xml:id="n468-1" target="#a468-1" n="468-1">Psalm cix. 24.</note>
-            <note xml:id="n468-2" target="#a468-2" n="468-2">Psalm cii. 5.</note>
-            <note xml:id="n468-3" target="#a468-3" n="468-3">Psalm cii. 9.</note>
-            <note xml:id="n468-4" target="#a468-4" n="468-4">Psalm cii. 9.</note>
-            <note xml:id="n468-5" target="#a468-5" n="468-5">Psalm lxix. 10, 11.</note>
-            <note xml:id="n469-1" target="#a469-1" n="469-1">Psalm cxix. 83.</note>
-            <note xml:id="n469-2" target="#a469-2" n="469-2">Psalm lxvi. 12.</note>
-            <note xml:id="n470-1" target="#a470-1" n="470-1">Job iii. 24.</note>
-            <note xml:id="n470-2" target="#a470-2" n="470-2">Job xiii. 14, 15.</note>
-            <note xml:id="n470-3" target="#a470-3" n="470-3">St. Matthew vii. 14.</note>
-            <note xml:id="n471-1" target="#a471-1" n="471-1">Acts xiv. 22.</note>
-            <note xml:id="n471-2" target="#a471-2" n="471-2">Romans viii. 17.</note>
-            <note xml:id="n471-3" target="#a471-3" n="471-3">Timothy ii. 12.</note>
+            <note xml:id="n403-1" target="#a403-1" n="403-1"><choice><reg/><orig>p. 403, n. 1</orig></choice>St. Matthew vii. 13.</note>
+            <note xml:id="n405-1" target="#a405-1" n="405-1"><choice><reg/><orig>p. 405, n. 1</orig></choice>Isaiah xxviii. 16; 1 St. Peter ii. 6.</note>
+            <note xml:id="n408-1" target="#a408-1" n="408-1"><choice><reg/><orig>p. 408, n. 1</orig></choice>St. Luke xii. 37.</note>
+            <note xml:id="n414-1" target="#a414-1" n="414-1"><choice><reg/><orig>p. 414, n. 1</orig></choice>Deuteronomy viii. 3; St. Matthew iv. 4; St. Luke iv. 4.</note>
+            <note xml:id="n416-1" target="#a416-1" n="416-1"><choice><reg/><orig>p. 416, n. 1</orig></choice>Romans iv. 17.</note>
+            <note xml:id="n420-1" target="#a420-1" n="420-1"><choice><reg/><orig>p. 420, n. 1</orig></choice>Compare Psalm cxxxvii. 9.</note>
+            <note xml:id="n421-1" target="#a421-1" n="421-1"><choice><reg/><orig>p. 421, n. 1</orig></choice>1 Samuel xvii. 42.</note>
+            <note xml:id="n424-1" target="#a424-1" n="424-1"><choice><reg/><orig>p. 424, n. 1</orig></choice>1 Timothy iv. 4.</note>
+            <note xml:id="n425-1" target="#a425-1" n="425-1"><choice><reg/><orig>p. 425, n. 1</orig></choice>Romans xiv. 3.</note>
+            <note xml:id="n425-2" target="#a425-2" n="425-2"><choice><reg/><orig>p. 425, n. 2</orig></choice>Galatians v. 13.</note>
+            <note xml:id="n428-1" target="#a428-1" n="428-1"><choice><reg/><orig>p. 428, n. 1</orig></choice>Genesis iii. 6.</note>
+            <note xml:id="n429-1" target="#a429-1" n="429-1"><choice><reg/><orig>p. 429, n. 1</orig></choice>1 Timothy iv. 5.</note>
+            <note xml:id="n429-2" target="#a429-2" n="429-2"><choice><reg/><orig>p. 429, n. 2</orig></choice>Romans xiv. 21.</note>
+            <note xml:id="n430-1" target="#a430-1" n="430-1"><choice><reg/><orig>p. 430, n. 1</orig></choice>Romans xiv. 6.</note>
+            <note xml:id="n431-1" target="#a431-1" n="431-1"><choice><reg/><orig>p. 431, n. 1</orig></choice>Compare 1 St. John iii. 4; Romans iv. 15.</note>
+            <note xml:id="n431-2" target="#a431-2" n="431-2"><choice><reg/><orig>p. 431, n. 2</orig></choice>Numbers xi. 33.</note>
+            <note xml:id="n431-3" target="#a431-3" n="431-3"><choice><reg/><orig>p. 431, n. 3</orig></choice>Psalm cvi. 14.</note>
+            <note xml:id="n431-4" target="#a431-4" n="431-4"><choice><reg/><orig>p. 431, n. 4</orig></choice>Exodus xvi. 3.</note>
+            <note xml:id="n431-5" target="#a431-5" n="431-5"><choice><reg/><orig>p. 431, n. 5</orig></choice>Numbers xi. 18.</note>
+            <note xml:id="n432-1" target="#a432-1" n="432-1"><choice><reg/><orig>p. 432, n. 1</orig></choice>1 Kings xvii. 6.</note>
+            <note xml:id="n432-2" target="#a432-2" n="432-2"><choice><reg/><orig>p. 432, n. 2</orig></choice>Exodus xvi. 20.</note>
+            <note xml:id="n433-1" target="#a433-1" n="433-1"><choice><reg/><orig>p. 433, n. 1</orig></choice>Exodus xvi. 31; Numbers xi. 7. </note>
+            <note xml:id="n433-2" target="#a433-2" n="433-2"><choice><reg/><orig>p. 433, n. 2</orig></choice>Hebrews xii. 16.</note>
+            <note xml:id="n434-1" target="#a434-1" n="434-1"><choice><reg/><orig>p. 434, n. 1</orig></choice>2 Samuel xxiii. 16.</note>
+            <note xml:id="n434-2" target="#a434-2" n="434-2"><choice><reg/><orig>p. 434, n. 2</orig></choice>Genesis viii. 20.</note>
+            <note xml:id="n434-3" target="#a434-3" n="434-3"><choice><reg/><orig>p. 434, n. 3</orig></choice>1 Kings xvii. 4.</note>
+            <note xml:id="n434-4" target="#a434-4" n="434-4"><choice><reg/><orig>p. 434, n. 4</orig></choice>Genesis xviii. 7.</note>
+            <note xml:id="n434-5" target="#a434-5" n="434-5"><choice><reg/><orig>p. 434, n. 5</orig></choice>Genesis xxvii. 25.</note>
+            <note xml:id="n434-6" target="#a434-6" n="434-6"><choice><reg/><orig>p. 434, n. 6</orig></choice>1 Samuel ix. 24.</note>
+            <note xml:id="n435-1" target="#a435-1" n="435-1"><choice><reg/><orig>p. 435, n. 1</orig></choice>Compare Ephesians v. 18, and St. Luke xxi. 44.</note>
+            <note xml:id="n436-1" target="#a436-1" n="436-1"><choice><reg/><orig>p. 436, n. 1</orig></choice>Genesis xviii. 8.</note>
+            <note xml:id="n347-1" target="#a347-1" n="347-1"><choice><reg/><orig>p. 347, n. 1</orig></choice>1 Corinthians vi. 12; x. 23.</note>
+            <note xml:id="n437-2" target="#a437-2" n="437-2"><choice><reg/><orig>p. 437, n. 2</orig></choice>1 Corinthians vi. 13.</note>
+            <note xml:id="n439-1" target="#a439-1" n="439-1"><choice><reg/><orig>p. 439, n. 1</orig></choice>Genesis iii. 6; Genesis iv. 8.</note>
+            <note xml:id="n439-2" target="#a439-2" n="439-2"><choice><reg/><orig>p. 439, n. 2</orig></choice>Genesis ix. 21.</note>
+            <note xml:id="n439-3" target="#a439-3" n="439-3"><choice><reg/><orig>p. 439, n. 3</orig></choice>Genesis xxvii. 36.</note>
+            <note xml:id="n439-4" target="#a439-4" n="439-4"><choice><reg/><orig>p. 439, n. 4</orig></choice>Genesis xix. 8.</note>
+            <note xml:id="n439-5" target="#a439-5" n="439-5"><choice><reg/><orig>p. 439, n. 5</orig></choice>Genesis vi. 2.</note>
+            <note xml:id="n439-6" target="#a439-6" n="439-6"><choice><reg/><orig>p. 439, n. 6</orig></choice>Numbers chaps, xi. xiv. xvi. xx. xxi.</note>
+            <note xml:id="n439-7" target="#a439-7" n="439-7"><choice><reg/><orig>p. 439, n. 7</orig></choice>Exodus xxxii. 4.</note>
+            <note xml:id="n439-8" target="#a439-8" n="439-8"><choice><reg/><orig>p. 439, n. 8</orig></choice>Deuteronomy xxxii. 15.</note>
+            <note xml:id="n439-9" target="#a439-9" n="439-9"><choice><reg/><orig>p. 439, n. 9</orig></choice>Numbers xvi. 18, 35.</note>
+            <note xml:id="n439-10" target="#a439-10" n="439-10"><choice><reg/><orig>p. 439, n. 10</orig></choice>Isaiah v. 11.</note>
+            <note xml:id="n440-1" target="#a440-1" n="440-1"><choice><reg/><orig>p. 440, n. 1</orig></choice>Deuteronomy xxxii. 14.</note>
+            <note xml:id="n440-2" target="#a440-2" n="440-2"><choice><reg/><orig>p. 440, n. 2</orig></choice>St. Matthew xxiii. 23.</note>
+            <note xml:id="n440-3" target="#a440-3" n="440-3"><choice><reg/><orig>p. 440, n. 3</orig></choice>1 Samuel ii. 13-15.</note>
+            <note xml:id="n440-4" target="#a440-4" n="440-4"><choice><reg/><orig>p. 440, n. 4</orig></choice>1 Samuel iv. 11.</note>
+            <note xml:id="n440-5" target="#a440-5" n="440-5"><choice><reg/><orig>p. 440, n. 5</orig></choice>1 Kings xi. 5.</note>
+            <note xml:id="n445-1" target="#a445-1" n="445-1"><choice><reg/><orig>p. 445, n. 1</orig></choice>2 Corinthians xii. 10.</note>
+            <note xml:id="n446-1" target="#a446-1" n="446-1"><choice><reg/><orig>p. 446, n. 1</orig></choice>Galatians v. 17.</note>
+            <note xml:id="n450-1" target="#a450-1" n="450-1"><choice><reg/><orig>p. 450, n. 1</orig></choice>1 Corinthians xv. 50.</note>
+            <note xml:id="n452-1" target="#a452-1" n="452-1"><choice><reg/><orig>p. 452, n. 1</orig></choice>Daniel ii. 18, 19.</note>
+            <note xml:id="n455-1" target="#a455-1" n="455-1"><choice><reg/><orig>p. 455, n. 1</orig></choice>St. Luke xvii. 21.</note>
+            <note xml:id="n455-2" target="#a455-2" n="455-2"><choice><reg/><orig>p. 455, n. 2</orig></choice>St. Matthew iii. 2.</note>
+            <note xml:id="n455-3" target="#a455-3" n="455-3"><choice><reg/><orig>p. 455, n. 3</orig></choice>1 Thessalonians v. 16.</note>
+            <note xml:id="n455-4" target="#a455-4" n="455-4"><choice><reg/><orig>p. 455, n. 4</orig></choice>Romans v. 3.</note>
+            <note xml:id="n456-1" target="#a456-1" n="456-1"><choice><reg/><orig>p. 456, n. 1</orig></choice>See above p. 452.</note>
+            <note xml:id="n457-1" target="#a457-1" n="457-1"><choice><reg/><orig>p. 457, n. 1</orig></choice>1 Corinthians ix. 27.</note>
+            <note xml:id="n462-1" target="#a462-1" n="462-1"><choice><reg/><orig>p. 462, n. 1</orig></choice>St. Matthew iii. 4.</note>
+            <note xml:id="n463-1" target="#a463-1" n="463-1"><choice><reg/><orig>p. 463, n. 1</orig></choice>St. Mark ii. 18.</note>
+            <note xml:id="n464-1" target="#a464-1" n="464-1"><choice><reg/><orig>p. 464, n. 1</orig></choice>Acts i. 13 ff.</note>
+            <note xml:id="n464-2" target="#a464-2" n="464-2"><choice><reg/><orig>p. 464, n. 2</orig></choice>Acts xiii. 2.</note>
+            <note xml:id="n464-3" target="#a464-3" n="464-3"><choice><reg/><orig>p. 464, n. 3</orig></choice>Acts vi. 3, 4.</note>
+            <note xml:id="n464-4" target="#a464-4" n="464-4"><choice><reg/><orig>p. 464, n. 4</orig></choice>Acts xii. 5.</note>
+            <note xml:id="n464-5" target="#a464-5" n="464-5"><choice><reg/><orig>p. 464, n. 5</orig></choice>Acts ix. 9.</note>
+            <note xml:id="n465-1" target="#a465-1" n="465-1"><choice><reg/><orig>p. 465, n. 1</orig></choice>2 Corinthians xi. 27.</note>
+            <note xml:id="n465-2" target="#a465-2" n="465-2"><choice><reg/><orig>p. 465, n. 2</orig></choice>Philippians iv. 12.</note>
+            <note xml:id="n465-3" target="#a465-3" n="465-3"><choice><reg/><orig>p. 465, n. 3</orig></choice>1 Thessalonians ii. 9.</note>
+            <note xml:id="n465-4" target="#a465-4" n="465-4"><choice><reg/><orig>p. 465, n. 4</orig></choice>Acts x. 9.</note>
+            <note xml:id="n467-1" target="#a467-1" n="467-1"><choice><reg/><orig>p. 467, n. 1</orig></choice>Daniel x. 2, 7.</note>
+            <note xml:id="n467-2" target="#a467-2" n="467-2"><choice><reg/><orig>p. 467, n. 2</orig></choice>1 Kings xix. 8.</note>
+            <note xml:id="n467-3" target="#a467-3" n="467-3"><choice><reg/><orig>p. 467, n. 3</orig></choice>Exodus xxiv. 18; xxxiv. 28.</note>
+            <note xml:id="n467-4" target="#a467-4" n="467-4"><choice><reg/><orig>p. 467, n. 4</orig></choice>Ezekiel iv.</note>
+            <note xml:id="n468-1" target="#a468-1" n="468-1"><choice><reg/><orig>p. 468, n. 1</orig></choice>Psalm cix. 24.</note>
+            <note xml:id="n468-2" target="#a468-2" n="468-2"><choice><reg/><orig>p. 468, n. 2</orig></choice>Psalm cii. 5.</note>
+            <note xml:id="n468-3" target="#a468-3" n="468-3"><choice><reg/><orig>p. 468, n. 3</orig></choice>Psalm cii. 9.</note>
+            <note xml:id="n468-4" target="#a468-4" n="468-4"><choice><reg/><orig>p. 468, n. 4</orig></choice>Psalm cii. 9.</note>
+            <note xml:id="n468-5" target="#a468-5" n="468-5"><choice><reg/><orig>p. 468, n. 5</orig></choice>Psalm lxix. 10, 11.</note>
+            <note xml:id="n469-1" target="#a469-1" n="469-1"><choice><reg/><orig>p. 469, n. 1</orig></choice>Psalm cxix. 83.</note>
+            <note xml:id="n469-2" target="#a469-2" n="469-2"><choice><reg/><orig>p. 469, n. 2</orig></choice>Psalm lxvi. 12.</note>
+            <note xml:id="n470-1" target="#a470-1" n="470-1"><choice><reg/><orig>p. 470, n. 1</orig></choice>Job iii. 24.</note>
+            <note xml:id="n470-2" target="#a470-2" n="470-2"><choice><reg/><orig>p. 470, n. 2</orig></choice>Job xiii. 14, 15.</note>
+            <note xml:id="n470-3" target="#a470-3" n="470-3"><choice><reg/><orig>p. 470, n. 3</orig></choice>St. Matthew vii. 14.</note>
+            <note xml:id="n471-1" target="#a471-1" n="471-1"><choice><reg/><orig>p. 471, n. 1</orig></choice>Acts xiv. 22.</note>
+            <note xml:id="n471-2" target="#a471-2" n="471-2"><choice><reg/><orig>p. 471, n. 2</orig></choice>Romans viii. 17.</note>
+            <note xml:id="n471-3" target="#a471-3" n="471-3"><choice><reg/><orig>p. 471, n. 3</orig></choice>Timothy ii. 12.</note>
          </noteGrp>
       </body>
    </text>

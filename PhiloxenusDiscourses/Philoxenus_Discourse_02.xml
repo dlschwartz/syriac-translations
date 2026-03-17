@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Discourse 2 of <persName>Philoxenus</persName></title>
+            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8857">Discourse 2: On Faith</title>
+            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
+            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
             <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
                >Daniel L. Schwartz</editor>
             <respStmt>
@@ -23,6 +25,27 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Discourses of Philoxenus of Mabbug</title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target="https://syriac-library/8856"/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target="https://syriac-library/8858"/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
             <p>
                <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
@@ -33,12 +56,10 @@
    </teiHeader>
    <text>
       <body>
-         <div type="discourse">
-            <pb n="23"/>
-            <pb type="external" n="26"/>
-            <head type="title">The Second Discourse: Which teacheth which is which is the First Commandment that the
+         <div type="section" xml:id="section-2" n="2">
+            <head type="main">The Second Discourse: Which teacheth which is which is the First Commandment that the
                man who draweth nigh to the discipleship of <persName>Christ</persName> should lay hold upon.</head>
-            <ab>Whosoever wisheth to draw nigh in systematic order to the life and conduct of the
+            <ab xml:id="section-2.1" n="1">Whosoever wisheth to draw nigh in systematic order to the life and conduct of the
                discipleship of <persName>Christ</persName> before all things it is meet that he should within himself
                lay hold upon sure faith, which maketh certain that God is, and enquireth not; which
                holdeth His words to be sure; and seeketh not to investigate His nature; which
@@ -72,7 +93,7 @@
                form, and why He hath formed us, and placed us in the world in this order of
                constitution, so also none of His wishes can be found fault with by us, either as to
                why He willed thus, <pb type="external" n="28"/>or why He performed.</ab>
-            <ab><quote>He that would draw nigh to God is bound to believe that He is, and [that] to those
+            <ab xml:id="section-2.2" n="2"><quote>He that would draw nigh to God is bound to believe that He is, and [that] to those
                who seek Him He <pb n="25"/>will be a rewarder;</quote><ptr type="noteAnchor" target="#n25-1"/> this law hath <persName>Paul</persName>
                committed to the man who wisheth to draw nigh to God, and this obligation of
                rewarding [him] is laid upon God. He must believe only that God is, and whosoever
@@ -82,7 +103,7 @@
                commandment of God he will hearken unto and believe. That he should judge why, and in
                what form, and for what reason [He is] thus is the insolent investigation of the soul
                which hath not perceived God.</ab>
-            <ab>It is meet for every man that would draw nigh to God that he should possess the mind
+            <ab xml:id="section-2.3" n="3">It is meet for every man that would draw nigh to God that he should possess the mind
                of a child; and as a child is towards his father and mother, so should he be towards
                God and towards His dispensation. And as the child receiveth instruction from his
                master without searching into his words or examining his doctrine, and without
@@ -111,7 +132,7 @@
                restrain them not, for of those who are like these is the kingdom of God</quote>.<ptr type="noteAnchor" target="#n26-1"/>
                And again in another place He said, <quote>Whosoever will not receive the kingdom of God
                like a little child shall not enter into it.</quote><ptr type="noteAnchor" target="#n26-2"/></ab>
-            <ab>For as is the faith of little children in respect of the things of [this] world, so
+            <ab xml:id="section-2.4" n="4">For as is the faith of little children in respect of the things of [this] world, so
                is it meet <pb type="external" n="30"/>that our faith should be towards the words
                which are spoken to us by God, because thus is also the child <pb n="27"/>towards the
                word which he heareth from his father, and everything which is promised to him by him
@@ -154,7 +175,7 @@
                enquire, <quote>How, and in what manner, and what the kingdom is like;</quote> but let each of us
                keep the laws of the kingdom, and perform the commandments which have been committed
                unto us by the Ruler of the kingdom.</ab>
-            <ab>All these things by faith thou hast heard concerning God, that He is from everlasting
+            <ab xml:id="section-2.5" n="5">All these things by faith thou hast heard concerning God, that He is from everlasting
                   <pb type="external" n="32"/>and world <pb n="29"/>without end, and that He
                existeth in His own being, and that He hath not come into being from any other
                substance; and that He is not One Person, but a Nature, existing of Itself, which is
@@ -173,7 +194,7 @@
                and without faith man is not able to hear them [and believe them]. Even the ordinary
                hearing is not able to bear them unless faith be found to precede them and to accept
                them.</ab>
-            <ab>And thus also is it in respect of the spiritual natures and orders of celestial
+            <ab xml:id="section-2.6" n="6">And thus also is it in respect of the spiritual natures and orders of celestial
                beings, and it is faith which maketh it possible to receive every word which is
                spoken concerning them; <pb type="external" n="33"/>for otherwise there must
                necessarily be unbelief, since the Book calleth them <pb n="30"/><quote>absolute spiritual
@@ -198,7 +219,7 @@
                or when with that with which it thinketh it also tasteth; and we believe them to be
                undisturbed and undestroyed by each other. </ab>
             <pb n="31"/>
-            <ab>Now in respect of compacted bodily natures which have been discovered to be the
+            <ab xml:id="section-2.7" n="7">Now in respect of compacted bodily natures which have been discovered to be the
                opposites of these spiritual beings, in that they hear with one [member], and see
                with another, and taste with another, and smell with another, and feel with another,
                and think with another, contrary to the constitution of their members the movement of
@@ -221,7 +242,7 @@
                exist, and not they only, but also the Being Who existeth of Himself, their Creator,
                by faith we accept that He is.</ab>
             <pb n="32"/>
-            <ab>The stablishing of all our instruction (or doctrine) is in faith, for although the
+            <ab xml:id="section-2.8" n="8">The stablishing of all our instruction (or doctrine) is in faith, for although the
                appearance and march of things teacheth and maketh understanding men wise concerning
                   <pb type="external" n="35"/>their Creator, yet faith should precede even this, for
                behold, because there was no faith this became a lie unto many. And to speak briefly,
@@ -232,7 +253,7 @@
                they are corporeal in their nature, and man looketh at them corporeally; but the
                whole world of the spirit is perceived by faith, and it seems as if that world could
                not exist if there were no faith.</ab>
-            <ab>Observe then how great is the power of faith, for all the spiritual things which are
+            <ab xml:id="section-2.9" n="9">Observe then how great is the power of faith, for all the spiritual things which are
                would, without it, be as if they existed not; and not only living works or spiritual
                countries, but that Being which is, would be, if we had no faith, as if He existed
                not. For this reason <persName>Paul</persName> looked upon the mystery of our doctrine, and said, <quote>He
@@ -264,7 +285,7 @@
                   type="external" n="37"/>even as <persName>Paul</persName> saith, <quote>Through the wisdom of God the world
                knew not the wisdom of God.</quote><ptr type="noteAnchor" target="#n33-2"/> </ab>
             <pb n="34"/>
-            <ab>And thus also hath the natural faith which is in us been turned into error, and these
+            <ab xml:id="section-2.10" n="10">And thus also hath the natural faith which is in us been turned into error, and these
                things which have been given to us by the Creator for [our] advantage have been found
                by us to be a loss, for we have changed their profitable orderings, and we have made
                use of them in a manner other than that for which they were designed. Our faith hath
@@ -279,7 +300,7 @@
                should be in us, saying, <quote>Verily I say unto you if there be in you faith like a grain
                of mustard seed ye shall say to this mountain, Remove hence; and it shall remove; and
                nothing shall be too difficult for you.</quote><ptr type="noteAnchor" target="#n34-1"/></ab>
-            <ab>He taught us by faith that nothing should be too difficult for us, and according to
+            <ab xml:id="section-2.11" n="11">He taught us by faith that nothing should be too difficult for us, and according to
                this everything can be overcome by the power of faith, according to the command (or
                decision) of the word of <persName>Christ</persName>. For by faith signs took place, and wonderful deeds
                were wrought, and mighty works were completed, <pb type="external" n="38"/>and things
@@ -335,7 +356,7 @@
                faith rejoiceth thereat continually. The spring of life from which we drink there
                floweth, and faith at all times drinketh therefrom. The powers of life and ranks of
                light are in the country of life, and faith glorieth with them.</ab>
-            <ab>And why should I speak concerning things which, although they be glorious, are
+            <ab xml:id="section-2.12" n="12">And why should I speak concerning things which, although they be glorious, are
                externals, and although they be mighty and worthy of wonder, have been newly
                constituted? If they are remote from us now by reason of their hiddenness, yet are we
                about to draw nigh unto them when we have become [beings] of the spirit according to
@@ -370,7 +391,7 @@
                things obedient unto faith, but even the Creator Himself resisteth <pb n="39"/>not
                her will; whatsoever she seeketh she receiveth, and whatsoever she asketh from Him He
                giveth to her, and [when] she calleth to Him He answereth her.</ab>
-            <ab>The door of the Giver is opened to the petitions of faith, even as He said,
+            <ab xml:id="section-2.13" n="13">The door of the Giver is opened to the petitions of faith, even as He said,
                <quote>Whatsoever ye shall ask, not being doubtful, ye shall receive.</quote><ptr type="noteAnchor" target="#n39-1"/> In the house
                of God faith giveth her commands like a mistress of wealth and a ruler of
                possessions. The mystery of faith is a wonderful and exalted thing, and no man is
@@ -384,7 +405,7 @@
                reacheth not. Everything that it wisheth, it doeth, and whatsoever it seeketh is
                given unto it.</ab>
             <pb type="external" n="43"/>
-            <ab>The man who would draw nigh unto God is bound to lay hold upon faith in his soul, for
+            <ab xml:id="section-2.14" n="14">The man who would draw nigh unto God is bound to lay hold upon faith in his soul, for
                faith hath no thoughts which dissolve one the other, neither hath it opinions which
                annul each other. Faith retracteth not what it doeth and sayeth, and it blameth not
                itself when once it hath spoken and asked for what it desireth. And as in God there
@@ -411,14 +432,14 @@
                its variable forms. All creation became a submissive handmaid before the word of
                <persName>Elijah's</persName> faith, and, although disturbed by the <pb n="41"/>command which her
                mistress had spoken to her, [nevertheless] ministered thereunto.</ab>
-            <ab>And in another place, concerning the captains of the hosts who went up to bring him
+            <ab xml:id="section-2.15" n="15">And in another place, concerning the captains of the hosts who went up to bring him
                down with the others who were with them, it is written that he commanded and spake
                with Godlike authority, and the fire of God came down from heaven and burnt them all
                up. <quote>If I be a prophet, as thou sayest, let fire come down from heaven and consume
                thee and the fifty who are with thee,</quote><ptr type="noteAnchor" target="#n41-1"/> and straightway and without delay, the
                fire descended from heaven upon the unclean, and it burnt into them as it came down,
                and to the word of the prophet there was actual fulfilment.</ab>
-            <ab>Now in other places it is written that faith prayed and was afterwards heard,
+            <ab xml:id="section-2.16" n="16">Now in other places it is written that faith prayed and was afterwards heard,
                according to that which is written, <quote>And he bowed himself, and put his face between
                   his knees, and he sent his disciple to look by the way of the sea</quote>.<ptr type="noteAnchor" target="#n41-2"/> And again
                when he raised the widow's son, he prayed, and prostrated himself,<ptr type="noteAnchor" target="#n41-3"/> and then
@@ -429,7 +450,7 @@
                <quote>Ask whatsoever thou wishest, and I will give it to thee before I am taken from
                thee;</quote><ptr type="noteAnchor" target="#n41-4"/> and according to what the disciple asked and the master commanded, the
                Spirit ministered in very deed, and bestowed the gift upon <persName>Elisha</persName>.</ab>
-            <ab>Now when he was offering up sacrifices on <placeName>Mount Carmel</placeName> <pb n="42"/>in the sight of
+            <ab xml:id="section-2.17" n="17">Now when he was offering up sacrifices on <placeName>Mount Carmel</placeName> <pb n="42"/>in the sight of
                <persName>Ahab</persName> and of all <placeName>Israel</placeName>, <quote>Answer me, Lord, answer me, Lord,</quote> he cried out, <quote>that
                all this people may know that thou art the Lord, and that I am Thy servant, and that
                I have done everything by Thy command;</quote><ptr type="noteAnchor" target="#n42-1"/> and until he had prayed he was not
@@ -457,7 +478,7 @@
                say unto thee,</quote> He spake to the dumb spirit,<ptr type="noteAnchor" target="#n43-5"/> and immediately it departed from
                the man. <quote>I will, be thou clean,</quote> He spake to the leper,<ptr type="noteAnchor" target="#n43-6"/> and as He willed,
                straightway the leprosy fled from his body.</ab>
-            <ab>For in this manner <persName>Jesus</persName> also wrought marvellous things, so that He might also
+            <ab xml:id="section-2.18" n="18">For in this manner <persName>Jesus</persName> also wrought marvellous things, so that He might also
                bring Himself down to those whom, by His grace, He called, His <quote>brethren</quote>; and that
                it might not be grievous unto them that they were not answered until they had prayed
                He humbled Himself and prayed, and was afterwards answered. For the <persName>Lord</persName> took upon
@@ -472,7 +493,7 @@
                faith, saying, <quote>Thou sun, tarry in <placeName>Gibeon</placeName>, and thou moon, in the valley of
                <placeName>Ajalon</placeName>;</quote> and the sun was restrained, and the moon stood until the people had taken
                vengeance upon its enemies.</ab>
-            <ab>And why should I speak concerning the prophets [only] in the case of a nation in the
+            <ab xml:id="section-2.19" n="19">And why should I speak concerning the prophets [only] in the case of a nation in the
                whole of which—together with women and children—faith showed forth such mighty
                triumphs as these? For faith, as it had been commanded, cried out, and the
                walls<ptr type="noteAnchor" target="#n44-2"/> [of <placeName>Jericho</placeName>] were not able to stand against its voice. In every place
@@ -480,7 +501,7 @@
                Holy Books. He that hath perceived the power of faith, and hath had experience
                thereof in very deed, knoweth that it wrought these things, and he believeth also
                that it doeth [still] such things as these.</ab>
-            <ab>Therefore, O thou who wishest to become a disciple of God, do thou also get faith,
+            <ab xml:id="section-2.20" n="20">Therefore, O thou who wishest to become a disciple of God, do thou also get faith,
                the mistress of all possessions. Let this thing be to thee the beginning of thy
                instruction, and lay it as the foundation of the building of thy tower, in such a way
                that if it were to seize the height of heaven it would not fall, for the edifice of
@@ -495,7 +516,7 @@
                for all the generations of the world after His coming, and do thou make it the
                beginning of thy life which is in God. See then how great faith is, in that it is
                sufficient to bear all children of men!</ab>
-            <ab>And <persName>Jesus</persName> also made faith the foundation of the edifice of the Church because He
+            <ab xml:id="section-2.21" n="21">And <persName>Jesus</persName> also made faith the foundation of the edifice of the Church because He
                saw aforetime its invincible might, its unconquerable assurance, its
                never-diminishing strength, its irreproachable triumph, its power which cannot be
                overthrown, its unenfeebled strength, its irresistible command, its decree of
@@ -525,7 +546,7 @@
                life in every form through the service of all its members, so also in this manner are
                the members of the works of righteousness, and as long as the life of faith be not in
                them they are dead and useless.</ab>
-            <ab>For fasting is not fasting if faith be not therewith, and alms are accounted nothing
+            <ab xml:id="section-2.22" n="22">For fasting is not fasting if faith be not therewith, and alms are accounted nothing
                if they be not given in faith; <pb type="external" n="50"/>neither is loving-kindness
                anything if faith be not therewith. The life of the Nazarite and ascetic is nothing
                unless faith be mingled therewith, and humility and subjection are nothing unless
@@ -545,7 +566,7 @@
                no fruit at all, or if they bear any, the wild beast trampleth down and the birds of
                the air destroy it; and if it come to pass that they remain they are parched, and the
                sweetness of food is not in them.</ab>
-            <ab>This is the vineyard <pb type="external" n="51"/>for which the master of the house
+            <ab xml:id="section-2.23" n="23">This is the vineyard <pb type="external" n="51"/>for which the master of the house
                hired labourers, and every one whom he saw standing outside he accounted idle, and
                persuaded him to work in his vineyard. By faith the good things which have been
                discovered may be preserved, and by faith those things which are not [in us] may be
@@ -559,51 +580,51 @@
                Faith <pb n="48"/>scattereth seed, and faith reapeth and gathereth in the crops.
                Faith planteth the trees, and faith plucketh and carrieth in the fruit thereof. Faith
                is everything, for faith is sufficient to be everything.</ab>
-            <ab>Therefore, O disciple, lay hold upon this faith, and in this sure thing be strong and
+            <ab xml:id="section-2.24" n="24">Therefore, O disciple, lay hold upon this faith, and in this sure thing be strong and
                slacken not; and whatsoever thou believest, ask and thou shalt receive [it] from
                <persName>Christ</persName> Who hath promised to give it, to Whom, and to His Father, and to the Holy
                Ghost, be glory for ever and ever. Amen.</ab>
-            <ab>Here endeth the Second Discourse, which is on Faith.</ab>
+            <ab xml:id="section-2." n="">Here endeth the Second Discourse, which is on Faith.</ab>
          </div>
          <noteGrp>
-            <note xml:id="n25-1" target="#a25-1" n="25-1">Hebrews xi. 6.</note>
-            <note xml:id="n26-1" target="#a26-1" n="26-1">St. Matthew xix. 14.</note>
-            <note xml:id="n26-2" target="#a26-2" n="26-2">St. Mark x. 15.</note>
-            <note xml:id="n28-1" target="#a28-1" n="28-1">St. Matthew iii. 2.</note>
-            <note xml:id="n29-1" target="#a29-1" n="29-1">Literally <quote>cut.</quote></note>
-            <note xml:id="n30-1" target="#a30-1" n="30-1">Isaiah vi. 2; Ezekiel i. 7.</note>
-            <note xml:id="n30-2" target="#a30-2" n="30-2">Ezekiel x. 1-22. </note>
-            <note xml:id="n30-3" target="#a30-3" n="30-3">Ezekiel i. 18.</note>
-            <note xml:id="n30-4" target="#a30-4" n="30-4">Literally <quote>taste.</quote></note>
-            <note xml:id="n32-1" target="#a32-1" n="32-1">Hebrews xi. 6.</note>
-            <note xml:id="n33-1" target="#a33-1" n="33-1">Romans x. 17.</note>
-            <note xml:id="n33-2" target="#a33-2" n="33-2">1 Corinthians i. 21.</note>
-            <note xml:id="n34-1" target="#a34-1" n="34-1">St. Matthew xvii. 20.</note>
-            <note xml:id="n35-1" target="#a35-1" n="35-1">Romans iv. 17.</note>
-            <note xml:id="n35-2" target="#a35-2" n="35-2">Nahum i. 4. </note>
-            <note xml:id="n35-3" target="#a35-3" n="35-3">Psalm civ. 32.</note>
-            <note xml:id="n35-4" target="#a35-4" n="35-4">Isaiah xl. 17.</note>
-            <note xml:id="n39-1" target="#a39-1" n="39-1">St. Matthew xxi. 22.</note>
-            <note xml:id="n39-2" target="#a39-2" n="39-2">2 Timothy ii. 13.</note>
-            <note xml:id="n40-1" target="#a40-1" n="40-1">1 Kings xvii. 1.</note>
-            <note xml:id="n41-1" target="#a41-1" n="41-1">2 Kings i. 10.</note>
-            <note xml:id="n41-2" target="#a41-2" n="41-2">1 Kings xviii. 42. </note>
-            <note xml:id="n41-3" target="#a41-3" n="41-3">1 Kings xvii. 17 ff.</note>
-            <note xml:id="n41-4" target="#a41-4" n="41-4">2 Kings ii. 9.</note>
-            <note xml:id="n42-1" target="#a42-1" n="42-1">Kings xviii. 36, 37.</note>
-            <note xml:id="n42-2" target="#a42-2" n="42-2">St. John xi. 41. </note>
-            <note xml:id="n42-3" target="#a42-3" n="42-3">St. Matthew xiv. 19.</note>
-            <note xml:id="n42-4" target="#a42-4" n="42-4">St. Mark vii. 33, 34.</note>
-            <note xml:id="n43-1" target="#a43-1" n="43-1">St. Luke vii. 14.</note>
-            <note xml:id="n43-2" target="#a43-2" n="43-2">St. Mark v. 41, 42.</note>
-            <note xml:id="n43-3" target="#a43-3" n="43-3">St. Matthew viii. 26.</note>
-            <note xml:id="n43-4" target="#a43-4" n="43-4">St. John ii. 7.</note>
-            <note xml:id="n43-5" target="#a43-5" n="43-5">St. Mark ix. 25.</note>
-            <note xml:id="n43-6" target="#a43-6" n="43-6">St. Matthew viii. 3.</note>
-            <note xml:id="n43-7" target="#a43-7" n="43-7">Hebrews ii. 17.</note>
-            <note xml:id="n44-1" target="#a44-1" n="44-1">Joshua x. 12.</note>
-            <note xml:id="n44-2" target="#a44-2" n="44-2">Joshua vi. 20.</note>
-            <note xml:id="n44-3" target="#a44-3" n="44-3">Compare St. Matthew xvi. 18.</note>
+            <note xml:id="n25-1" target="#a25-1" n="25-1"><choice><reg/><orig>p. 25, n. 1</orig></choice>Hebrews xi. 6.</note>
+            <note xml:id="n26-1" target="#a26-1" n="26-1"><choice><reg/><orig>p. 26, n. 1</orig></choice>St. Matthew xix. 14.</note>
+            <note xml:id="n26-2" target="#a26-2" n="26-2"><choice><reg/><orig>p. 26, n. 2</orig></choice>St. Mark x. 15.</note>
+            <note xml:id="n28-1" target="#a28-1" n="28-1"><choice><reg/><orig>p. 28, n. 1</orig></choice>St. Matthew iii. 2.</note>
+            <note xml:id="n29-1" target="#a29-1" n="29-1"><choice><reg/><orig>p. 29, n. 1</orig></choice>Literally <quote>cut.</quote></note>
+            <note xml:id="n30-1" target="#a30-1" n="30-1"><choice><reg/><orig>p. 30, n. 1</orig></choice>Isaiah vi. 2; Ezekiel i. 7.</note>
+            <note xml:id="n30-2" target="#a30-2" n="30-2"><choice><reg/><orig>p. 30, n. 2</orig></choice>Ezekiel x. 1-22. </note>
+            <note xml:id="n30-3" target="#a30-3" n="30-3"><choice><reg/><orig>p. 30, n. 3</orig></choice>Ezekiel i. 18.</note>
+            <note xml:id="n30-4" target="#a30-4" n="30-4"><choice><reg/><orig>p. 30, n. 4</orig></choice>Literally <quote>taste.</quote></note>
+            <note xml:id="n32-1" target="#a32-1" n="32-1"><choice><reg/><orig>p. 32, n. 1</orig></choice>Hebrews xi. 6.</note>
+            <note xml:id="n33-1" target="#a33-1" n="33-1"><choice><reg/><orig>p. 33, n. 1</orig></choice>Romans x. 17.</note>
+            <note xml:id="n33-2" target="#a33-2" n="33-2"><choice><reg/><orig>p. 33, n. 2</orig></choice>1 Corinthians i. 21.</note>
+            <note xml:id="n34-1" target="#a34-1" n="34-1"><choice><reg/><orig>p. 34, n. 1</orig></choice>St. Matthew xvii. 20.</note>
+            <note xml:id="n35-1" target="#a35-1" n="35-1"><choice><reg/><orig>p. 35, n. 1</orig></choice>Romans iv. 17.</note>
+            <note xml:id="n35-2" target="#a35-2" n="35-2"><choice><reg/><orig>p. 35, n. 2</orig></choice>Nahum i. 4. </note>
+            <note xml:id="n35-3" target="#a35-3" n="35-3"><choice><reg/><orig>p. 35, n. 3</orig></choice>Psalm civ. 32.</note>
+            <note xml:id="n35-4" target="#a35-4" n="35-4"><choice><reg/><orig>p. 35, n. 4</orig></choice>Isaiah xl. 17.</note>
+            <note xml:id="n39-1" target="#a39-1" n="39-1"><choice><reg/><orig>p. 39, n. 1</orig></choice>St. Matthew xxi. 22.</note>
+            <note xml:id="n39-2" target="#a39-2" n="39-2"><choice><reg/><orig>p. 39, n. 2</orig></choice>2 Timothy ii. 13.</note>
+            <note xml:id="n40-1" target="#a40-1" n="40-1"><choice><reg/><orig>p. 40, n. 1</orig></choice>1 Kings xvii. 1.</note>
+            <note xml:id="n41-1" target="#a41-1" n="41-1"><choice><reg/><orig>p. 41, n. 1</orig></choice>2 Kings i. 10.</note>
+            <note xml:id="n41-2" target="#a41-2" n="41-2"><choice><reg/><orig>p. 41, n. 2</orig></choice>1 Kings xviii. 42. </note>
+            <note xml:id="n41-3" target="#a41-3" n="41-3"><choice><reg/><orig>p. 41, n. 3</orig></choice>1 Kings xvii. 17 ff.</note>
+            <note xml:id="n41-4" target="#a41-4" n="41-4"><choice><reg/><orig>p. 41, n. 4</orig></choice>2 Kings ii. 9.</note>
+            <note xml:id="n42-1" target="#a42-1" n="42-1"><choice><reg/><orig>p. 42, n. 1</orig></choice>Kings xviii. 36, 37.</note>
+            <note xml:id="n42-2" target="#a42-2" n="42-2"><choice><reg/><orig>p. 42, n. 2</orig></choice>St. John xi. 41. </note>
+            <note xml:id="n42-3" target="#a42-3" n="42-3"><choice><reg/><orig>p. 42, n. 3</orig></choice>St. Matthew xiv. 19.</note>
+            <note xml:id="n42-4" target="#a42-4" n="42-4"><choice><reg/><orig>p. 42, n. 4</orig></choice>St. Mark vii. 33, 34.</note>
+            <note xml:id="n43-1" target="#a43-1" n="43-1"><choice><reg/><orig>p. 43, n. 1</orig></choice>St. Luke vii. 14.</note>
+            <note xml:id="n43-2" target="#a43-2" n="43-2"><choice><reg/><orig>p. 43, n. 2</orig></choice>St. Mark v. 41, 42.</note>
+            <note xml:id="n43-3" target="#a43-3" n="43-3"><choice><reg/><orig>p. 43, n. 3</orig></choice>St. Matthew viii. 26.</note>
+            <note xml:id="n43-4" target="#a43-4" n="43-4"><choice><reg/><orig>p. 43, n. 4</orig></choice>St. John ii. 7.</note>
+            <note xml:id="n43-5" target="#a43-5" n="43-5"><choice><reg/><orig>p. 43, n. 5</orig></choice>St. Mark ix. 25.</note>
+            <note xml:id="n43-6" target="#a43-6" n="43-6"><choice><reg/><orig>p. 43, n. 6</orig></choice>St. Matthew viii. 3.</note>
+            <note xml:id="n43-7" target="#a43-7" n="43-7"><choice><reg/><orig>p. 43, n. 7</orig></choice>Hebrews ii. 17.</note>
+            <note xml:id="n44-1" target="#a44-1" n="44-1"><choice><reg/><orig>p. 44, n. 1</orig></choice>Joshua x. 12.</note>
+            <note xml:id="n44-2" target="#a44-2" n="44-2"><choice><reg/><orig>p. 44, n. 2</orig></choice>Joshua vi. 20.</note>
+            <note xml:id="n44-3" target="#a44-3" n="44-3"><choice><reg/><orig>p. 44, n. 3</orig></choice>Compare St. Matthew xvi. 18.</note>
          </noteGrp>
       </body>
    </text>

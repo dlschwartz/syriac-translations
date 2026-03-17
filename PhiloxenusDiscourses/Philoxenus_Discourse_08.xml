@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Discourse 8 of <persName>Philoxenus</persName></title>
+            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8863">Discourse 8: 1st Discourse on Poverty</title>
+            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
+            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
             <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
                >Daniel L. Schwartz</editor>
             <respStmt>
@@ -23,6 +25,27 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Discourses of Philoxenus of Mabbug</title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target="https://syriac-library/8862"/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target="https://syriac-library/8864"/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
             <p>
                <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
@@ -33,13 +56,11 @@
    </teiHeader>
    <text>
       <body>
-         <div type="discourse">
-            <pb n="214"/>
-            <pb type="external" n="222"/>
-            <head type="title">The Eighth Discourse; which teacheth that a man cannot become a perfect disciple of
+         <div type="section" xml:id="section-8" n="8">
+            <head type="main">The Eighth Discourse; which teacheth that a man cannot become a perfect disciple of
                <persName>Christ</persName>, unless he first of all make himself destitute of all human possessions, and
                go forth from the world openly with his inner man and with his outer man.</head>
-            <ab>The man who wisheth to travel along the open way of perfection hath need to make the
+            <ab xml:id="section-8.1" n="1">The man who wisheth to travel along the open way of perfection hath need to make the
                beginning of his journey in the fair order which is becoming to that way, and he
                should not begin his discipleship in the law which seemeth good unto him, but in that
                defined law which was delivered by the word of <persName>Christ</persName> our God unto His disciples,
@@ -107,7 +128,7 @@
                masters.</quote><ptr type="noteAnchor" target="#n217-1"/> Thou seest <pb type="external" n="226"/>that He shewed two masters
                in His discourse, and that in explaining who these were, He said, <quote>Ye cannot serve
                God and mammon.</quote></ab>
-            <ab>Behold then, whosoever hath made mammon his master cannot serve God, but he serveth
+            <ab xml:id="section-8.2" n="2">Behold then, whosoever hath made mammon his master cannot serve God, but he serveth
                that master whom he hath chosen of his own freewill, his service being especially
                dear unto him, and his dominion over him being beloved by him, because he hath become
                subject unto, him of his own freewill. For the children of men are wont to love
@@ -126,7 +147,7 @@
                />masters of them, their riches worked for them in all the good things which they
                wished [to do], and they did not serve them in all the wickedness which mammon
                demanded.</ab>
-            <ab>Now there are distinctions between the commandments, and it must be understood to
+            <ab xml:id="section-8.3" n="3">Now there are distinctions between the commandments, and it must be understood to
                whom each was spoken. For this commandment, <quote>Ye cannot serve two masters—God and
                mammon,</quote> must, according to the meaning of the passage, have been spoken to those who
                wished to be righteous while they were [still] in the world, and He advised and
@@ -207,7 +228,7 @@
                become a servant thereto, even so is it a disgrace also to him that hath been freed
                from the bondage of wealth, that there should be found with him the mastership of
                wealth.</ab>
-            <ab>The poor man possesseth the things of poverty, and the rich man the great and
+            <ab xml:id="section-8.4" n="4">The poor man possesseth the things of poverty, and the rich man the great and
                glorious things of wealth; now therefore since those which have possessions are poor,
                they possess poverty, [which is] riches and temporal possessions, but the destitute
                are rich, and it would be a disgrace to that excellent name if it became the
@@ -249,7 +270,7 @@
                those whose bonds were loosed bore the mark of freedom, and the sign of the Kingdom,
                and that He that loosed them might be believed in by them, especially when they saw
                that those from whom they had cut off the bonds of the world were free.</ab>
-            <ab>This similitude then did <persName>our Lord</persName> set in the place of these commandments which He
+            <ab xml:id="section-8.5" n="5">This similitude then did <persName>our Lord</persName> set in the place of these commandments which He
                delivered to the Apostles when He commanded them to possess nothing; He made them
                destitute of everything, and then He sent them to be ministers of His will in the
                conversion of others, so that therefrom we might learn, that everyone who wisheth to
@@ -313,7 +334,7 @@
                Apostle</persName> taught that it was meet that the man of God should be in all perfection,
                [saying], <quote>The man of God shall be perfect [to do] every good and perfect
                thing.</quote><ptr type="noteAnchor" target="#n227-1"/></ab>
-            <ab>Now this perfection <persName>Jesus</persName> delivered unto His disciples by those commandments
+            <ab xml:id="section-8.6" n="6">Now this perfection <persName>Jesus</persName> delivered unto His disciples by those commandments
                concerning absolute poverty which He gave to them, when He denied to them the whole
                world, and everything that is therein, and not them only, but also, in them and with
                them, every man <pb type="external" n="237"/>who followeth after perfection. For when
@@ -326,7 +347,7 @@
                left their nets and their ship, and went after Him.</quote><ptr type="noteAnchor" target="#n228-1"/> And He saw also <persName>James</persName>
                and <persName>John</persName> in a ship with <persName>Zebedee</persName> their father, and He called them also, and
                straightway they left the net with <persName>Zebedee</persName> their father, and went after Him.</ab>
-            <ab>Behold the law of the going forth after God! And behold the straight rule which hath
+            <ab xml:id="section-8.7" n="7">Behold the law of the going forth after God! And behold the straight rule which hath
                been marked for us in the Holy Books! Therefore it is right that every man who
                desireth to go forth after God should emulate the going forth of the Apostles, and
                that he should despise and reject everything which is visible, and deny the whole
@@ -339,7 +360,7 @@
                delivered? And I do not speak these things of myself, but I follow after the desire
                of the Holy Books, and I take my stand upon the law which hath been ordained by the
                King.</ab>
-            <ab>The disciples are the beginning of the discipleship of Christians, and their calling
+            <ab xml:id="section-8.8" n="8">The disciples are the beginning of the discipleship of Christians, and their calling
                was such—as it is written concerning them—that immediately they were called <pb
                   n="229"/>they forsook everything, and went forth after Him. And whosoever wisheth
                to become a disciple let him consider this example, and let him look at this mark
@@ -388,7 +409,7 @@
                submit himself to their appetites which will retard and injure their recovery, but he
                treateth them according to the beneficial law of healing, and teacheth them to fight
                against their desire that they may be healed.</ab>
-            <ab>Let us then receive the yoke of poverty according as <persName>our Redeemer</persName> commanded, even
+            <ab xml:id="section-8.9" n="9">Let us then receive the yoke of poverty according as <persName>our Redeemer</persName> commanded, even
                though it be heavy upon us, for it will not be heavy to the will which agreeth with
                the commandments of <persName>Christ</persName>. For there is no man who doth not desire to be a free
                man, and to be free from the yoke of bondage, and moreover, unto every man the name
@@ -419,7 +440,7 @@
                had neither a nest nor a den which have even the beast and bird! <quote>The foxes have
                holes, and the bird of heaven hath a covert, but the <persName>Son of Man</persName> hath not even where
                to lay His head.</quote><ptr type="noteAnchor" target="#n232-1"/></ab>
-            <ab>Behold, O disciple, thy course of life and action are marked out by the words of thy
+            <ab xml:id="section-8.10" n="10">Behold, O disciple, thy course of life and action are marked out by the words of thy
                Master: that which He had not, thou shalt not have, and that which He possessed not,
                thou shalt not possess. Disciples are not known by [their] outward appearance, but by
                the similarity and agreement of works, and by their treading in the footsteps of
@@ -500,7 +521,7 @@
                some who are held back therefrom because they would [rather] do the things which are
                good, for unless a man bringeth wickedness to nought, he is not able to do good
                things.</ab>
-            <ab>Up to [the time of] baptism <persName>our Lord</persName> delivered the rule and life of righteousness
+            <ab xml:id="section-8.11" n="11">Up to [the time of] baptism <persName>our Lord</persName> delivered the rule and life of righteousness
                to the children of men that they might do the good things which are written in the
                law, and offer up offerings of their possessions to God, and vow vows and pay [them],
                and be constant in the Temple of God, and receive blessings in faith from the
@@ -543,7 +564,7 @@
                in the world, to go forth to the saints, and to run to the solitary dwellers, and to
                honour the prophets and righteous men, and to be obedient to the admonition of their
                words by the discretion of their faith?</ab>
-            <ab>Now therefore this righteousness did our <persName>Redeemer</persName> deliver, and this rule and
+            <ab xml:id="section-8.12" n="12">Now therefore this righteousness did our <persName>Redeemer</persName> deliver, and this rule and
                conduct did He shew to the faithful in the time which preceded [His] baptism, and He
                admonished those who had possessions to possess these virtues, for He did not give
                this rule and conduct of life to the solitary dwellers, neither did He deliver it to
@@ -557,7 +578,7 @@
                And of whom shall the man who hath no conversation with the children of men ask, and
                from whom shall he learn? if he hath need to learn, the Spirit of God instead of a
                man will teach him.</ab>
-            <ab>Now therefore this doctrine until [the time of His] baptism was delivered unto
+            <ab xml:id="section-8.13" n="13">Now therefore this doctrine until [the time of His] baptism was delivered unto
                righteous believers, <pb type="external" n="249"/>and it was given unto righteous
                owners of possessions, and to those who had not entirely gone forth from the world,
                in order that those who were suitable for the condition in which they lived might not
@@ -664,7 +685,7 @@
                shew that henceforth He would do everything with authority like One that was free,
                and not according to the feebleness of human nature, and not according to the
                subjection of parents, and not according to the law's command.</ab>
-            <ab>Now we have shewn the power of these things which we have spoken from the Holy Book,
+            <ab xml:id="section-8.14" n="14">Now we have shewn the power of these things which we have spoken from the Holy Book,
                and it is right, moreover, for him that readeth, that while he readeth our discourse,
                he should examine the Holy Book, and see that these matters are, in their several
                places, known to be thus; and in order that this meaning should be marked out for us
@@ -695,50 +716,50 @@
                priests and teachers, or whether he do good deeds unto every man, that is to say, if
                as he would that men should do unto him, so he doeth unto them. </ab>
             <pb n="246"/>
-            <ab>This is the righteousness which the old law taught, and <persName>Jesus</persName> fulfilled it until
+            <ab xml:id="section-8.15" n="15">This is the righteousness which the old law taught, and <persName>Jesus</persName> fulfilled it until
                [His] baptism, and all believing men, who have not yet made themselves destitute of
                their riches, are bound to perform [it]; <pb type="external" n="256"/>but the
                spiritual rule and conduct of life, and perfection, <persName>Jesus</persName> delivered unto us from
                [His] baptism unto the cross. May we all, through His grace, be accounted worthy by
                Him, to Whom be glory for ever. Amen.</ab>
-            <ab>Here endeth the Eighth Discourse, which is on Poverty, and which was composed by the
+            <ab xml:id="section-8.16" n="16">Here endeth the Eighth Discourse, which is on Poverty, and which was composed by the
                blessed <persName>Mâr Philoxenus</persName>, Bishop of <placeName>Mabbôgh</placeName>.</ab>
          </div>
          <noteGrp>
-            <note xml:id="n216-1" target="#a216-1" n="216-1">St. Matthew vi. 24.</note>
-            <note xml:id="n217-1" target="#a217-1" n="217-1">St. Matthew vi. 24; St. Luke xvi. 13.</note>
-            <note xml:id="n219-1" target="#a219-1" n="219-1">St. Matthew vi. 19, 20.</note>
-            <note xml:id="n219-2" target="#a219-2" n="219-2">St. Matthew vi. 34.</note>
-            <note xml:id="n219-3" target="#a219-3" n="219-3">St. Matthew x. 9,10; and compare St. Mark vi. 8; St.Luke
+            <note xml:id="n216-1" target="#a216-1" n="216-1"><choice><reg/><orig>p. 216, n. 1</orig></choice>St. Matthew vi. 24.</note>
+            <note xml:id="n217-1" target="#a217-1" n="217-1"><choice><reg/><orig>p. 217, n. 1</orig></choice>St. Matthew vi. 24; St. Luke xvi. 13.</note>
+            <note xml:id="n219-1" target="#a219-1" n="219-1"><choice><reg/><orig>p. 219, n. 1</orig></choice>St. Matthew vi. 19, 20.</note>
+            <note xml:id="n219-2" target="#a219-2" n="219-2"><choice><reg/><orig>p. 219, n. 2</orig></choice>St. Matthew vi. 34.</note>
+            <note xml:id="n219-3" target="#a219-3" n="219-3"><choice><reg/><orig>p. 219, n. 3</orig></choice>St. Matthew x. 9,10; and compare St. Mark vi. 8; St.Luke
                ix.3.</note>
-            <note xml:id="n221-1" target="#a221-1" n="221-1">Psalm cxv. 5-7.</note>
-            <note xml:id="n221-2" target="#a221-2" n="221-2">Colossians iii. 5. Ephesians v. 5.</note>
-            <note xml:id="n223-1" target="#a223-1" n="223-1">St. Matthew x. 9, 10; St. Luke x. 4, 7.</note>
-            <note xml:id="n225-1" target="#a225-1" n="225-1">St. Matthew xvii. 27.</note>
-            <note xml:id="n225-2" target="#a225-2" n="225-2">St. John ii. 2.</note>
-            <note xml:id="n225-3" target="#a225-3" n="225-3">St. Matthew xix. 13.</note>
-            <note xml:id="n226-1" target="#a226-1" n="226-1">St. Luke x. 42.</note>
-            <note xml:id="n227-1" target="#a227-1" n="227-1">2 Timothy iii. 17.</note>
-            <note xml:id="n228-1" target="#a228-1" n="228-1">Compare St. Matthew iv. 20, 22; St. Mark i. 16-19: St. Luke v.
+            <note xml:id="n221-1" target="#a221-1" n="221-1"><choice><reg/><orig>p. 221, n. 1</orig></choice>Psalm cxv. 5-7.</note>
+            <note xml:id="n221-2" target="#a221-2" n="221-2"><choice><reg/><orig>p. 221, n. 2</orig></choice>Colossians iii. 5. Ephesians v. 5.</note>
+            <note xml:id="n223-1" target="#a223-1" n="223-1"><choice><reg/><orig>p. 223, n. 1</orig></choice>St. Matthew x. 9, 10; St. Luke x. 4, 7.</note>
+            <note xml:id="n225-1" target="#a225-1" n="225-1"><choice><reg/><orig>p. 225, n. 1</orig></choice>St. Matthew xvii. 27.</note>
+            <note xml:id="n225-2" target="#a225-2" n="225-2"><choice><reg/><orig>p. 225, n. 2</orig></choice>St. John ii. 2.</note>
+            <note xml:id="n225-3" target="#a225-3" n="225-3"><choice><reg/><orig>p. 225, n. 3</orig></choice>St. Matthew xix. 13.</note>
+            <note xml:id="n226-1" target="#a226-1" n="226-1"><choice><reg/><orig>p. 226, n. 1</orig></choice>St. Luke x. 42.</note>
+            <note xml:id="n227-1" target="#a227-1" n="227-1"><choice><reg/><orig>p. 227, n. 1</orig></choice>2 Timothy iii. 17.</note>
+            <note xml:id="n228-1" target="#a228-1" n="228-1"><choice><reg/><orig>p. 228, n. 1</orig></choice>Compare St. Matthew iv. 20, 22; St. Mark i. 16-19: St. Luke v.
                10.</note>
-            <note xml:id="n228-2" target="#a228-2" n="228-2">St. Matthew xvi. 24.</note>
-            <note xml:id="n231-1" target="#a231-1" n="231-1">Philippians ii. 7.</note>
-            <note xml:id="n232-1" target="#a232-1" n="232-1">St. Matthew viii. 20.</note>
-            <note xml:id="n233-1" target="#a233-1" n="233-1">St. Matthew iv. 17.</note>
-            <note xml:id="n234-1" target="#a234-1" n="234-1">Compare St. Matthew xxi. 12; St. Mark xi. 11; St. Luke xix. 45;
+            <note xml:id="n228-2" target="#a228-2" n="228-2"><choice><reg/><orig>p. 228, n. 2</orig></choice>St. Matthew xvi. 24.</note>
+            <note xml:id="n231-1" target="#a231-1" n="231-1"><choice><reg/><orig>p. 231, n. 1</orig></choice>Philippians ii. 7.</note>
+            <note xml:id="n232-1" target="#a232-1" n="232-1"><choice><reg/><orig>p. 232, n. 1</orig></choice>St. Matthew viii. 20.</note>
+            <note xml:id="n233-1" target="#a233-1" n="233-1"><choice><reg/><orig>p. 233, n. 1</orig></choice>St. Matthew iv. 17.</note>
+            <note xml:id="n234-1" target="#a234-1" n="234-1"><choice><reg/><orig>p. 234, n. 1</orig></choice>Compare St. Matthew xxi. 12; St. Mark xi. 11; St. Luke xix. 45;
                St. John ii. 15.</note>
-            <note xml:id="n235-1" target="#a235-1" n="235-1">1 Timothy i. 9.</note>
-            <note xml:id="n237-1" target="#a237-1" n="237-1">St. John ii. 13, 14; v. 1; vii. 10; x. 22, 23; xii. 12.</note>
-            <note xml:id="n237-2" target="#a237-2" n="237-2">St. Luke ii. 46.</note>
-            <note xml:id="n238-1" target="#a238-1" n="238-1">St. Matthew iii. 1, 13.</note>
-            <note xml:id="n240-1" target="#a240-1" n="240-1">St. Luke ii. 51.</note>
-            <note xml:id="n240-2" target="#a240-2" n="240-2">St. Matthew xii. 48.</note>
-            <note xml:id="n240-3" target="#a240-3" n="240-3">St. John v. 30.</note>
-            <note xml:id="n241-1" target="#a241-1" n="241-1">Compare St. Matthew xvi. 24; St. Mark viii. 34; and St. Luke ix.
+            <note xml:id="n235-1" target="#a235-1" n="235-1"><choice><reg/><orig>p. 235, n. 1</orig></choice>1 Timothy i. 9.</note>
+            <note xml:id="n237-1" target="#a237-1" n="237-1"><choice><reg/><orig>p. 237, n. 1</orig></choice>St. John ii. 13, 14; v. 1; vii. 10; x. 22, 23; xii. 12.</note>
+            <note xml:id="n237-2" target="#a237-2" n="237-2"><choice><reg/><orig>p. 237, n. 2</orig></choice>St. Luke ii. 46.</note>
+            <note xml:id="n238-1" target="#a238-1" n="238-1"><choice><reg/><orig>p. 238, n. 1</orig></choice>St. Matthew iii. 1, 13.</note>
+            <note xml:id="n240-1" target="#a240-1" n="240-1"><choice><reg/><orig>p. 240, n. 1</orig></choice>St. Luke ii. 51.</note>
+            <note xml:id="n240-2" target="#a240-2" n="240-2"><choice><reg/><orig>p. 240, n. 2</orig></choice>St. Matthew xii. 48.</note>
+            <note xml:id="n240-3" target="#a240-3" n="240-3"><choice><reg/><orig>p. 240, n. 3</orig></choice>St. John v. 30.</note>
+            <note xml:id="n241-1" target="#a241-1" n="241-1"><choice><reg/><orig>p. 241, n. 1</orig></choice>Compare St. Matthew xvi. 24; St. Mark viii. 34; and St. Luke ix.
                23.</note>
-            <note xml:id="n241-2" target="#a241-2" n="241-2">St. John ii. 1-4.</note>
-            <note xml:id="n243-1" target="#a243-1" n="243-1">St. John xix. 26, 27.</note>
-            <note xml:id="n243-2" target="#a243-2" n="243-2">St. John vii. 8.</note>
+            <note xml:id="n241-2" target="#a241-2" n="241-2"><choice><reg/><orig>p. 241, n. 2</orig></choice>St. John ii. 1-4.</note>
+            <note xml:id="n243-1" target="#a243-1" n="243-1"><choice><reg/><orig>p. 243, n. 1</orig></choice>St. John xix. 26, 27.</note>
+            <note xml:id="n243-2" target="#a243-2" n="243-2"><choice><reg/><orig>p. 243, n. 2</orig></choice>St. John vii. 8.</note>
          </noteGrp>
       </body>
    </text>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Discourse 6 of <persName>Philoxenus</persName></title>
+            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8861">Discourse 6: 1st Discourse on the Fear of God</title>
+            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
+            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
             <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
                >Daniel L. Schwartz</editor>
             <respStmt>
@@ -23,6 +25,27 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Discourses of Philoxenus of Mabbug</title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target="https://syriac-library/8860"/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target="https://syriac-library/8862"/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
             <p>
                <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
@@ -33,13 +56,11 @@
    </teiHeader>
    <text>
       <body>
-         <div type="discourse">
-            <pb n="153"/>
-            <pb type="external" n="159"/>
-            <head type="title">The Sixth Discourse: which maketh known therein that, after that faith which is born
+         <div type="section" xml:id="section-6" n="6">
+            <head type="main">The Sixth Discourse: which maketh known therein that, after that faith which is born
                of the simplicity of nature, the fear of God is stirred up in man, and how it is
                produced, and by what things faith is established and confirmed within us.</head>
-            <ab>Let us now with a mind fearing God again draw nigh to the doctrine of the word of the
+            <ab xml:id="section-6.1" n="1">Let us now with a mind fearing God again draw nigh to the doctrine of the word of the
                fear of God, and according to our power, and as we are able, that is to say,
                according as the grace of God shall grant, let us make use of [our] speech for our
                own help, and for the advantage of others. For we do not write in order that we may
@@ -52,7 +73,7 @@
                things which have been heard by us, so that by repetition we may remember them, and
                so that our thoughts may be kept from wandering after empty things which benefit not. </ab>
             <pb n="154"/>
-            <ab>For as long as the mind is not held fast <pb type="external" n="160"/>by beneficial
+            <ab xml:id="section-6.2" n="2">For as long as the mind is not held fast <pb type="external" n="160"/>by beneficial
                thoughts it wandereth outside itself, and goeth hither and thither in a place which
                is outside the help of God. And as when it meditateth upon virtues it dwelleth in the
                light of the remembrance of God, so also when it constructeth and meditateth upon
@@ -81,7 +102,7 @@
                it, because both the man who teacheth and the man who learneth hear his word gladly
                if he be an exact teacher, and if he be not a mere passage for the doctrine of
                others.</ab>
-            <ab>Now continuous labour at a handicraft addeth unto the knowledge thereof, and a man
+            <ab xml:id="section-6.3" n="3">Now continuous labour at a handicraft addeth unto the knowledge thereof, and a man
                traineth all [his] faculties in working at it. And thus also meditation at all times
                in the word of doctrine moveth the thoughts to knowledge, and sharpeneth the tongue
                for speech, and bindeth the understanding in the contemplation of God. And whosoever
@@ -168,7 +189,7 @@
                draweth nigh to it, or which it itself approacheth. And thus also the life of the
                soul is the knowledge of God, and it is known that it liveth from the fact that it is
                sensible of God.</ab>
-            <ab>For the body which is dead cannot feel any harm, neither can the soul which is slain
+            <ab xml:id="section-6.4" n="4">For the body which is dead cannot feel any harm, neither can the soul which is slain
                feel the remembrance of the judgment of God. And whatever pains and tortures thou
                mayest bring upon the dead body it feeleth them not, and if thou wert to make the
                soul which is once dead to God a participator in all wickedness it would feel it not.
@@ -180,7 +201,7 @@
                   type="external" n="166"/>when it fulfilleth naturally the things which are its
                natural need, even so the soul which is destroyed by sin, and is once dead to God, is
                not condemned by its conscience for the things which are wrought by it.</ab>
-            <ab>So then the remembrance of God is the life of the <pb n="160"/>soul. And as all the
+            <ab xml:id="section-6.5" n="5">So then the remembrance of God is the life of the <pb n="160"/>soul. And as all the
                motions of the body are constant, and it moveth and is moved throughout by all its
                nerves and members so long as it participateth in life, even so the soul which hath
                therein the knowledge of God, moveth and is moved at all times by the remembrance of
@@ -192,7 +213,7 @@
                sin in repentance; for it is the habit of all those with whom the fear of God or the
                fear of man is found, that they either offend not, or when they have offended they
                rectify their wrongdoing.</ab>
-            <ab>The fear of God then is a shield against all wickedness; it guardeth the man who is
+            <ab xml:id="section-6.6" n="6">The fear of God then is a shield against all wickedness; it guardeth the man who is
                behind it from being harmed, and it is a wall of protection against all abominable
                things; now there are times when it becometh the healer of wickedness, even as both
                qualities <pb type="external" n="167"/>—that of healer and that of protector—may be
@@ -270,7 +291,7 @@
                as the body which is alive perceiveth all the material things of this world, so also
                doth the soul which is alive feel all the spiritual things of the world which is to
                come, and it beholdeth them spiritually.</ab>
-            <ab>So therefore the remembrance of God is the light which sheweth the things which are
+            <ab xml:id="section-6.7" n="7">So therefore the remembrance of God is the light which sheweth the things which are
                to come, and where there is sin the making mention of His name causeth terror; but
                unless the conscience of a man in sin prick him, the fear of the future Judge will
                not prick him, for as is every man towards himself, even so is he towards the
@@ -286,7 +307,7 @@
                he at all times observeth the incomprehensibility of the works of God, and those
                things also which are thought to be simple he maketh sure that they are beyond [his]
                knowledge.</ab>
-            <ab>Now if a man standeth in the exalted state of <pb n="165"/>spiritual love, according
+            <ab xml:id="section-6.8" n="8">Now if a man standeth in the exalted state of <pb n="165"/>spiritual love, according
                to the state in which he is doth God appear to him, that is, He is wholly and
                entirely love. And this is a thing to be wondered at; although God is single in His
                nature, and He hath neither parts nor members, He appeareth unto every man in many
@@ -341,7 +362,7 @@
                unto the man who imagineth himself to be good while he is evil, and while he
                fulfilleth all abominable things, or unto the man who imagineth himself to be rich
                while he is actually the poorest of men.</ab>
-            <ab>Everyone then who is conscious of his own follies and evil doings is bound to
+            <ab xml:id="section-6.9" n="9">Everyone then who is conscious of his own follies and evil doings is bound to
                increase within himself at all times the fear of God, and he must meditate upon it in
                his going out and coming in, and he must deliberate upon it when he sitteth down, and
                when he riseth up, and during all his acts and deeds must his thoughts be filled with
@@ -375,7 +396,7 @@
                straightway fleeth, and is destroyed before the fear of the soul, even as a bird
                which riseth up unexpectedly before a man, who is thereby suddenly startled out of
                his composure.</ab>
-            <ab>Now fear and shame of the children of men preserve the body from lusts, but the fear
+            <ab xml:id="section-6.10" n="10">Now fear and shame of the children of men preserve the body from lusts, but the fear
                and shame which man hath of God preserve the motions of the soul from thoughts of
                evil things; and because man seeth that at all times God seeth him, he becometh
                perpetually an observer <pb type="external" n="176"/>of himself that he sin not, and
@@ -414,7 +435,7 @@
                be filled with gaping wounds it presseth them together; and if it happen that it hath
                grown old, and hath become worn out in sin, straightway the remembrance of God,
                together with the fear of Him, maketh it new.</ab>
-            <ab>Therefore the experience of the fear of God <pb n="171"/>belongeth to the soul, and
+            <ab xml:id="section-6.11" n="11">Therefore the experience of the fear of God <pb n="171"/>belongeth to the soul, and
                man himself is alone able to know by it whether he feareth God or not. Each one of us
                is bound to take this good thing within himself. If thou art mindful of God, and if
                thou art moved when thou rememberest him, and art straightway filled with fear, and
@@ -457,7 +478,7 @@
                the fire which is near cooleth the lust of his members, and maketh its motions to be
                at rest; and another through the remembrance of the <placeName>Gehenna</placeName> which is afar off
                allayeth his lust and destroyeth it.</ab>
-            <ab>So therefore the labours which are visible are not <pb n="173"/>alone sufficient to
+            <ab xml:id="section-6.12" n="12">So therefore the labours which are visible are not <pb n="173"/>alone sufficient to
                prove a man to be a fearer of God; do thou then, O man of understanding, examine
                thyself, and let thy testimony be from and in thyself, if the fear of God be in thy
                soul. For by the righteousness which dwelleth within is the fear of God made, but
@@ -465,7 +486,7 @@
                the sight of man inciteth thereto, and its agency is external, and not internal, and
                it is only seen by the eyes of men, and it is not wrought for the sight of God
                inwardly.</ab>
-            <ab>The afflictions which can be seen are good because they compel <pb type="external"
+            <ab xml:id="section-6.13" n="13">The afflictions which can be seen are good because they compel <pb type="external"
                   n="180"/>the limbs to become obedient to the thoughts, and they subdue the stony
                nature of the body, and make it to become subservient to the soul, but they do not
                cleanse the understanding from the motions of sins, and they do not make the soul to
@@ -487,7 +508,7 @@
                with virtues the outer man; <pb type="external" n="181"/>He Who is the Judge of thy
                works shall also be the One Who shall approve of thy contest, and the fear of Him
                must be set before thine eyes continually.</ab>
-            <ab>For if the fear of masters is set before the sight of their servants, and the dread
+            <ab xml:id="section-6.14" n="14">For if the fear of masters is set before the sight of their servants, and the dread
                of kings, and of judges, and of generals clotheth always those who have been subdued
                by them, and those who are subject unto them—and moreover the fear of teachers and
                masters preserveth and guardeth continually the innocency of childhood—how much more
@@ -511,7 +532,7 @@
                before Him, and sin not, and let thy thought be shamefaced, and commit no wickedness.
                For if the shame of the children of men driveth us from sin, how much more should the
                shame of God restrain us from wickedness?</ab>
-            <ab>Remember thou then at all times that God looketh at thee, and do thou thyself also
+            <ab xml:id="section-6.15" n="15">Remember thou then at all times that God looketh at thee, and do thou thyself also
                look at Him inwardly, even as He seeth thee inwardly, and sin shall not abide in thy
                thoughts. For as in the place whereupon the sun looketh darkness abideth not, even so
                in the soul upon which God looketh, and which itself also feeleth that He is
@@ -540,7 +561,7 @@
                before lust, and thou must stand up like a man against the sin which warreth against
                thee to overcome thee, and against the secret Enemy who with the motions of thy lust
                fighteth with thy life.</ab>
-            <ab>The thoughts of the soul hide within the members of the body, and as the body hideth
+            <ab xml:id="section-6.16" n="16">The thoughts of the soul hide within the members of the body, and as the body hideth
                within the house, even so do the thoughts of the soul hide themselves under the
                covering of the body. And because the man who is within cannot easily be seen
                corporeally, he <pb n="177"/>sinneth quickly, and every time he wisheth, he doeth
@@ -557,7 +578,7 @@
                cast is silently dumb to the motions of hateful thoughts, and if it happen that it be
                seized suddenly, this remembrance checketh it, and turneth it back that it may look
                upon its own person.</ab>
-            <ab>Now therefore there is none of the virtues which is not preserved by the fear of God,
+            <ab xml:id="section-6.17" n="17">Now therefore there is none of the virtues which is not preserved by the fear of God,
                and if a man were to call the fear of God <quote>a guard-house of virtues,</quote> he would not do
                wrong. For faith is confirmed thereby, it preserveth fasting, through the remembrance
                of it prayers are made constant with us, it urgeth [us] to give alms, it quieteth the
@@ -588,7 +609,7 @@
                delivered into him. And because he cast out the fear of God from his mind, he forsook
                the faith, and trod the law under foot. </ab>
             <pb n="179"/>
-            <ab>For He that ordained the law <pb type="external" n="186"/>involved the commandment
+            <ab xml:id="section-6.18" n="18">For He that ordained the law <pb type="external" n="186"/>involved the commandment
                with fear: <quote>In the day that thou eatest of the tree, thou shalt die the
                death.</quote><ptr type="noteAnchor" target="#n179-1"/> And because <persName>Adam</persName> had cast out from him that fear, he believed the
                crafty one instead of God, and trod under foot the law which had been ordained by the
@@ -608,7 +629,7 @@
                adultery shall be slain;</quote><ptr type="noteAnchor" target="#n179-3"/> and fear keepeth [this] commandment from being
                held in contempt. </ab>
             <pb n="180"/>
-            <ab>For by fear He checked them from doing wickedness to one another, and because He saw
+            <ab xml:id="section-6.19" n="19">For by fear He checked them from doing wickedness to one another, and because He saw
                that they loved wickedness, He restrained them from their [evil] deed by the fear of
                the judgment. Where there is no love, <pb type="external" n="187"/>it is fear that
                keepeth the commandments. There are three things through which all commandments are
@@ -628,7 +649,7 @@
                the schoolmaster receiveth them that he may be unto them at all times a reminder of
                what they have heard, so also doth a man receive the doctrine of the commandments
                from God, Who is the true Teacher and Doctor.</ab>
-            <ab>So then fear must straightway be used, that, like the schoolmaster, it may remind a
+            <ab xml:id="section-6.20" n="20">So then fear must straightway be used, that, like the schoolmaster, it may remind a
                man of what he hath <pb n="181"/>received; and that if he forgetteth, it may remind
                him; and if he be negligent, it may stir him up; and if <pb type="external" n="188"
                />he sleep, it may awake him; and if he love foolish talk, it may rebuke him; and if
@@ -636,7 +657,7 @@
                contemptuously, it may remind him of authority; and if he act scornfully, it may
                remind him of the instructor; for these things a life of fear accompanieth not, for
                it wandereth among all wickedness.</ab>
-            <ab>For every one who hath need to learn fear is necessary to remind him of his
+            <ab xml:id="section-6.21" n="21">For every one who hath need to learn fear is necessary to remind him of his
                instruction, for without fear instruction is not perfected, or if it be perfected
                without it, it is not acceptable, and if it be accepted without it, it is not
                preserved. And <persName>the prophet of God</persName> reproacheth<ptr type="noteAnchor" target="#n181-1"/> severely those who have
@@ -655,7 +676,7 @@
                bondage in the fear of tribulation. Before his face He displayed all the various
                forms of punishment, so that as long <pb type="external" n="189"/>as he looked
                thereupon he might take heed to the commandments, and keep the law.</ab>
-            <ab>Let us then study to fix the fear of God in our mind, and let us meditate thereupon
+            <ab xml:id="section-6.22" n="22">Let us then study to fix the fear of God in our mind, and let us meditate thereupon
                by day and by night. If the fire of lust kindleth in us, let us set in opposition
                thereto the fire of <placeName>Gehenna</placeName>.<ptr type="noteAnchor" target="#n182-1"/> If greediness of the belly seize upon us, let
                us remember the worm which dieth not.<ptr type="noteAnchor" target="#n182-2"/> If the beauty of the face excite us,
@@ -666,7 +687,7 @@
                If vainglory raise a tumult within us, let us bring up in our minds the disgrace and
                contempt [which we shall feel] before our Judge. By fear let us make fear of none
                effect, and by death let us vanquish death.</ab>
-            <ab>And together with these things, whosoever wisheth to keep his life with all diligence
+            <ab xml:id="section-6.23" n="23">And together with these things, whosoever wisheth to keep his life with all diligence
                from sin hath need of the perpetual remembrance of death; for whosoever is
                continually mindful of the day of his <pb n="183"/>departure, and who at all seasons
                meditateth upon the hour of his death doth not easily march on to iniquity, and doth
@@ -680,22 +701,22 @@
                virtues, we may be worthy to enjoy the heavenly delights with all the saints, and
                that, together with them, we may praise Father, Son, and Holy Ghost for ever,
                Amen.</ab>
-            <ab>Here endeth the First Discourse upon the Fear of God.</ab>
+            <ab xml:id="section-6.24" n="24">Here endeth the First Discourse upon the Fear of God.</ab>
          </div>
          <noteGrp>
-            <note xml:id="n162-1" target="#a162-1" n="162-1">St. Matthew x. 28; St. Luke xli. 4.</note>
-            <note xml:id="n163-1" target="#a163-1" n="163-1">St. Matthew x. 28; St. Luke xii. 4.</note>
-            <note xml:id="n176-1" target="#a176-1" n="176-1">Ecclesiasticus xxiii. 19.</note>
-            <note xml:id="n176-2" target="#a176-2" n="176-2">Ecclesiasticus xvii. 19.</note>
-            <note xml:id="n179-1" target="#a179-1" n="179-1">Genesis ii. 17.</note>
-            <note xml:id="n179-2" target="#a179-2" n="179-2">Exodus xx. 13; and compare Exodus xxi. 12; Leviticus xxiv. 17;
+            <note xml:id="n162-1" target="#a162-1" n="162-1"><choice><reg/><orig>p. 162, n. 1</orig></choice>St. Matthew x. 28; St. Luke xli. 4.</note>
+            <note xml:id="n163-1" target="#a163-1" n="163-1"><choice><reg/><orig>p. 163, n. 1</orig></choice>St. Matthew x. 28; St. Luke xii. 4.</note>
+            <note xml:id="n176-1" target="#a176-1" n="176-1"><choice><reg/><orig>p. 176, n. 1</orig></choice>Ecclesiasticus xxiii. 19.</note>
+            <note xml:id="n176-2" target="#a176-2" n="176-2"><choice><reg/><orig>p. 176, n. 2</orig></choice>Ecclesiasticus xvii. 19.</note>
+            <note xml:id="n179-1" target="#a179-1" n="179-1"><choice><reg/><orig>p. 179, n. 1</orig></choice>Genesis ii. 17.</note>
+            <note xml:id="n179-2" target="#a179-2" n="179-2"><choice><reg/><orig>p. 179, n. 2</orig></choice>Exodus xx. 13; and compare Exodus xxi. 12; Leviticus xxiv. 17;
                Numbers xxxv. 16-21, 30, 31.</note>
-            <note xml:id="n179-3" target="#a179-3" n="179-3">Exodus xx. 14; Leviticus xx. 10; Deuteronomy xxii. 22.</note>
-            <note xml:id="n181-1" target="#a181-1" n="181-1">Jeremiah v. 5; and compare Jeremiah ii. 22.</note>
-            <note xml:id="n181-2" target="#a181-2" n="181-2">Compare Jeremiah xxxii. 32.</note>
-            <note xml:id="n182-1" target="#a182-1" n="182-1">Compare St. Mark ix. 43.</note>
-            <note xml:id="n182-2" target="#a182-2" n="182-2">Compare Isaiah Ixvi. 24; St. Mark ix. 46.</note>
-            <note xml:id="n182-3" target="#a182-3" n="182-3">Compare St. Matthew viii. 12.</note>
+            <note xml:id="n179-3" target="#a179-3" n="179-3"><choice><reg/><orig>p. 179, n. 3</orig></choice>Exodus xx. 14; Leviticus xx. 10; Deuteronomy xxii. 22.</note>
+            <note xml:id="n181-1" target="#a181-1" n="181-1"><choice><reg/><orig>p. 181, n. 1</orig></choice>Jeremiah v. 5; and compare Jeremiah ii. 22.</note>
+            <note xml:id="n181-2" target="#a181-2" n="181-2"><choice><reg/><orig>p. 181, n. 2</orig></choice>Compare Jeremiah xxxii. 32.</note>
+            <note xml:id="n182-1" target="#a182-1" n="182-1"><choice><reg/><orig>p. 182, n. 1</orig></choice>Compare St. Mark ix. 43.</note>
+            <note xml:id="n182-2" target="#a182-2" n="182-2"><choice><reg/><orig>p. 182, n. 2</orig></choice>Compare Isaiah Ixvi. 24; St. Mark ix. 46.</note>
+            <note xml:id="n182-3" target="#a182-3" n="182-3"><choice><reg/><orig>p. 182, n. 3</orig></choice>Compare St. Matthew viii. 12.</note>
          </noteGrp>
       </body>
    </text>

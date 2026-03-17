@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Discourse 5 of <persName>Philoxenus</persName></title>
+            <title xml:lang="en" level="a" ref="http://syriaca.org/work/8860">Discourse 5: 2nd Discourse on Simplicity</title>
+            <title xml:lang="en" level="s"> The Discourses of Philoxenus of Mabbug</title><!-- series URI needed -->
+            <author ref="http://syriaca.org/person/44">Philoxenus of Mabbug</author>
             <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
                >Daniel L. Schwartz</editor>
             <respStmt>
@@ -23,6 +25,27 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <seriesStmt>
+            <title>The Discourses of Philoxenus of Mabbug</title>
+            <editor role="general"
+               ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+            <idno type="syriacaWork"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem type="previous">
+               <ptr target="https://syriac-library/8859"/>
+            </relatedItem>
+            <relatedItem type="next">
+               <ptr target="https://syriac-library/8861"/>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
             <p>
                <title>The Discourses of Philoxenus, Bishop of Mabbough, A.D. 485-519</title>,
@@ -33,11 +56,9 @@
    </teiHeader>
    <text>
       <body>
-         <div type="discourse">
-            <pb n="115"/>
-            <pb type="external" n="120"/>
-            <head type="title">The Second Discourse which is on simplicity.</head>
-            <ab>At all times it is meet for us to direct our discourse to spiritual excellencies in
+         <div type="section" xml:id="section-5" n="5">
+            <head type="main">The Second Discourse which is on simplicity.</head>
+            <ab xml:id="section-5.1" n="1">At all times it is meet for us to direct our discourse to spiritual excellencies in
                this place—which is the market-place of virtues—for I see that ye yourselves desire
                to hear a profitable discourse, and not one which is to give pleasure only and to be
                the cause of cries of approbation. For the words which are composed to give pleasure
@@ -48,7 +69,7 @@
                with simple words, which bear profit alike to him that speaketh and to them that
                listen, for it is written, <quote>Let him that heareth the word communicate it to him that
                listeneth to him in all good things.</quote><ptr type="noteAnchor" target="#n115-1"/></ab>
-            <ab>The discourse which cometh before this was upon simplicity and innocency, and in this
+            <ab xml:id="section-5.2" n="2">The discourse which cometh before this was upon simplicity and innocency, and in this
                also I desire to speak again concerning this excellent matter—for it is a thing which
                befitteth us, and simplicity belongeth to us—and that we could live without it in the
                service of the virtues <pb type="external" n="121"/>is by no means possible. For as
@@ -157,7 +178,7 @@
                craftiness is a disease of the soul, just as simplicity is its certain cure. Where
                   <pb type="external" n="126"/>didst thou ever see a sick man boasting of his
                sickness, or a diseased man who boasted of his pains?</ab>
-            <ab>It is meet that the monk who is crafty should be ashamed, because he is found in that
+            <ab xml:id="section-5.3" n="3">It is meet that the monk who is crafty should be ashamed, because he is found in that
                which is not seemly for him. For as converse with a harlot is a shame to him, even so
                it is right that he should be ashamed if craftiness, which is the similitude of a
                harlot, be found with him. Craftiness in the soul is like a harlot in the street; for
@@ -226,7 +247,7 @@
                thee of crime. I am thy tongue, O wickedness, and I have made myself ready to be for
                thee a mouth which speaketh; against every tongue which wisheth to pronounce judgment
                against thee I will stand up, and I will condemn it.</quote></ab>
-            <ab>Now these encouragements are offered to wickedness <pb n="124"/>by craftiness, and
+            <ab xml:id="section-5.4" n="4">Now these encouragements are offered to wickedness <pb n="124"/>by craftiness, and
                with such speech as this it corrupteth it to stir it up to pass on to iniquity.
                Therefore cunning is the wicked principle of wickedness, it is the power of sin, and
                it is the life of the body of abominable things; and if craftiness existed not, in
@@ -294,7 +315,7 @@
                those who knew nothing instead of those who thought that they knew themselves
                everything. </ab>
             <pb n="127"/>
-            <ab>At all times truth prevaileth by simplicity, and faith shineth forth in innocency.
+            <ab xml:id="section-5.5" n="5">At all times truth prevaileth by simplicity, and faith shineth forth in innocency.
                And moreover, after <persName>our Lord</persName> had rejected the companies of the wise, and the bands
                of cunning and crafty men, and had chosen those fishermen who were innocent and
                without instruction, He moreover taught them also to increase their simplicity, and
@@ -358,7 +379,7 @@
                [turned by] an ass should be hanged about thy neck, and that thou shouldst be cast
                into the depths of the sea, rather than that thou <pb n="130"/>shouldst cause one of
                these little ones who believe <choice><sic>on</sic><corr>in</corr></choice> <persName>the Son</persName> to stumble.</ab>
-            <ab>Observe thou also that <persName>our Lord</persName> Himself called them <quote>little ones,</quote> because they
+            <ab xml:id="section-5.6" n="6">Observe thou also that <persName>our Lord</persName> Himself called them <quote>little ones,</quote> because they
                make themselves smaller than all men, and He did so to teach thee not to despise them
                because they followed after littleness, but rather that they might be magnified in
                thy sight, <pb type="external" n="136"/>For the appearance of the simple is common,
@@ -382,7 +403,7 @@
                more especially is he great and honourable in their eyes. For the children of the
                world do not go forth to the spiritual folds which are outside the world to see
                crafty and cunning man.</ab>
-            <ab>Lift up thine eyes, O disciple, and look upon these who come to thee, and who run to
+            <ab xml:id="section-5.7" n="7">Lift up thine eyes, O disciple, and look upon these who come to thee, and who run to
                thy door in love, for they run to see the children of the spirit, and not those who
                are trained and experienced <pb type="external" n="137"/>in the deeds and affairs of
                the world. For when those who are exercised and skilled in the wisdom of the world
@@ -397,12 +418,12 @@
                bring with Him thoughts of cunning, but the simplicity of faith; when He cometh into
                thy dwelling, let Him not come and find that which He left in the world in the
                country of spiritual things.</ab>
-            <ab>And hearken unto <persName>the prophet</persName> who also proclaimed <persName>our Lord</persName> with his simple
+            <ab xml:id="section-5.8" n="8">And hearken unto <persName>the prophet</persName> who also proclaimed <persName>our Lord</persName> with his simple
                teaching, and who likened Him unto a lamb and a sheep, the most innocent of all
                animals: — <quote>Like a lamb was He led to the slaughter, and like a sheep before the
                shearer He was silent.</quote><ptr type="noteAnchor" target="#n131-1"/> </ab>
             <pb n="132"/>
-            <ab>The lion and the wolf and bear are crafty, together with the other wild beasts,
+            <ab xml:id="section-5.9" n="9">The lion and the wolf and bear are crafty, together with the other wild beasts,
                because craftiness was mingled with their evil nature when they were made; but sheep
                and lambs and ewes are simple and innocent in their ways and movements, and to them
                was <persName>our Lord</persName> likened, and by their name are believers called. <persName>Our Lord</persName> did not
@@ -452,7 +473,7 @@
                For in order that thou mayest finish thy course it is meet that thou shouldst endure
                everything, and thou must fashion thy journey for the end of the path.</ab>
             <pb type="external" n="140"/>
-            <ab>For behold <persName>David</persName> the prophet also in [his] scheme for delivering his life from
+            <ab xml:id="section-5.10" n="10">For behold <persName>David</persName> the prophet also in [his] scheme for delivering his life from
                death feigned himself to the Philistines to be a madman and without sense, and let
                his spittle fall down upon his beard after the manner of a man who lacked
                understanding, that he might save his life from death.<ptr type="noteAnchor" target="#n134-1"/> And if <persName>David</persName>
@@ -528,7 +549,7 @@
                it make him to descend from the height of the knowledge of the kingdom of <persName>Christ</persName> to
                the schemes and plans and anxious cares <pb n="138"/>belonging to infirm passions,
                which are at all times sick, and which move to and fro in their minds.</ab>
-            <ab>Now it befitteth not the mind, in the simplicity of which the faith of <persName>Christ</persName>
+            <ab xml:id="section-5.11" n="11">Now it befitteth not the mind, in the simplicity of which the faith of <persName>Christ</persName>
                moveth, to turn and take anxious care concerning the deceits of the flesh, and
                concerning the craftinesses of destruction. Let it not then be accounted to thee a
                disgrace that thou art not acquainted with the craftinesses of the world, but let it
@@ -568,7 +589,7 @@
                perfect will have with <persName>Christ</persName>, and for the sake of which <persName>Christ</persName> Himself even came
                down from heaven to earth, and in the end this man's loss is his own person, together
                with the good things which are above nature.</ab>
-            <ab>For the mind which is able to receive these things is sincere and simple. And as the
+            <ab xml:id="section-5.12" n="12">For the mind which is able to receive these things is sincere and simple. And as the
                mind of the child is more sincere and receiveth instruction in everything more easily
                than the full-grown man, so also is <pb n="140"/>the mind of the simple man of better
                disposition in the learning of spiritual things than crafty and cunning thoughts. For
@@ -583,7 +604,7 @@
                hold of the doctrine, and it is accepted by it, the growth which is therein is
                strangled by the brambles and thorns of doubts and thoughts which are always throwing
                down and building up those who are the adversaries of faith and of simplicity.</ab>
-            <ab>Rejoice then in simplicity, O disciple, for not only will it make thee beloved before
+            <ab xml:id="section-5.13" n="13">Rejoice then in simplicity, O disciple, for not only will it make thee beloved before
                God, but also will it make thee dear in the sight of men; and thou mayest observe and
                see, if thou wilt from the experience of facts, that the simple are more beloved in
                the sight of the children of men than the cunning and crafty. Every man loveth
@@ -598,7 +619,7 @@
                his childhood hath not power to make him become a spectator of that which will cause
                him loss, so also no man is on his guard against the simple man in the things which
                he wisheth to do, for he beareth the similitude of a child in his thoughts.</ab>
-            <ab>Who then would not earnestly desire to be beloved by God, and to be accounted dear by
+            <ab xml:id="section-5.14" n="14">Who then would not earnestly desire to be beloved by God, and to be accounted dear by
                man? <pb type="external" n="147"/>and both these things are possible through
                simplicity. Why therefore, O disciple, shouldst thou flee from becoming beloved by
                God and dear unto man, seeing that thou canst obtain love from the Creator and from
@@ -647,7 +668,7 @@
                distinguisheth not when it entereth, it must overcome in contest, and in wisdom must
                reject, and expel, and cast forth from the place of its purity. These things purity
                doeth.</ab>
-            <ab>Now simplicity is the beginning of the path, and a field cleansed from thorns to
+            <ab xml:id="section-5.15" n="15">Now simplicity is the beginning of the path, and a field cleansed from thorns to
                receive good seed. That a man should root up thorns, and hoe up weeds, and clean the
                ground and make it ready and prepare it to receive good seed and beautiful plants is
                one thing, but the field which is sown, and planted, and beareth fruit, and which
@@ -689,7 +710,7 @@
                which flee before the storms of craftiness, and everything which entereth therein it
                maketh to abide in peace, and it turneth all disturbance into the condition of
                peace.</ab>
-            <ab>Not only is the simple man himself simple, but that which cometh into him he turneth
+            <ab xml:id="section-5.16" n="16">Not only is the simple man himself simple, but that which cometh into him he turneth
                to his own condition. For to simplicity is also closely joined obedience, and besides
                that it judgeth not the things which are spoken into it, it doth not dispute against
                the things which [men] command it to do. The dwelling of the simple man is restful to
@@ -706,7 +727,7 @@
                solitaries, and integrity is meet for the life of the anchorite, and sincerity
                becometh the monastic life, and gladness is meet for self-denial, and simpleness
                belongeth unto poverty.</ab>
-            <ab>The chief priests of the Jews marvelled at the Apostles, because being simple and
+            <ab xml:id="section-5.17" n="17">The chief priests of the Jews marvelled at the Apostles, because being simple and
                unlettered men they were making answers like wise men to questions concerning the
                life which is to come, and they became advocates of <persName>Christ</persName> through their
                simplicity. For <persName>Christ</persName> took foolish advocates to speak for Him, that through them
@@ -788,7 +809,7 @@
                kernel of his deformities; and it is meet that whosoever is thus should be despised
                by all men, <pb type="external" n="156"/>in order that his wickedness may be smitten
                through contempt of him. </ab>
-            <ab>And the prophet of God abuseth those who are <pb n="150"/>foolish in respect of good
+            <ab xml:id="section-5.18" n="18">And the prophet of God abuseth those who are <pb n="150"/>foolish in respect of good
                things, and wise in respect of evil things. <quote><persName>Ephraim</persName> is like a silly dove, without
                understanding; he cometh to Egypt and he goeth to Assyria, and in the way of
                repentance towards Me he walketh not.</quote><ptr type="noteAnchor" target="#n150-1"/> Now the prophet maketh an accusation
@@ -838,7 +859,7 @@
                one master only. And if any other teacher wisheth to give him another doctrine
                besides that which he holdeth he receiveth it not; for his simpleness is the
                sincerity of nature, and not the destructive error of [other] opinions.</ab>
-            <ab>Let us then, like disciples of <persName>Christ</persName>, run in the path which He hath shewn us, and
+            <ab xml:id="section-5.19" n="19">Let us then, like disciples of <persName>Christ</persName>, run in the path which He hath shewn us, and
                let us walk in the way which He hath trodden for us, and let the invention of
                simplicity be precious in our sight, and let us be simple children to receive the
                doctrine which is good. And let us be wise as serpents against the Enemy who schemeth
@@ -847,30 +868,30 @@
                like a little child shall not enter therein;</quote><ptr type="noteAnchor" target="#n152-1"/> may we by His grace be held
                worthy of this kingdom, and may we inherit it together with all the saints, through
                the mercy of <persName>Christ God</persName>, to Whom be glory for ever and ever. Amen.</ab>
-            <ab>Here endeth the Second Discourse on Simplicity.</ab>
+            <ab xml:id="section-5.20" n="20">Here endeth the Second Discourse on Simplicity.</ab>
          </div>
          <noteGrp>
-            <note xml:id="n115-1" target="#a115-1" n="115-1">Galatians vi. 6.</note>
-            <note xml:id="n118-1" target="#a118-1" n="118-1">The Wisdom of Solomon i. 4.</note>
-            <note xml:id="n119-1" target="#a119-1" n="119-1">2 Corinthians x. 3.</note>
-            <note xml:id="n121-1" target="#a121-1" n="121-1">1 Corinthians ix. 22.</note>
-            <note xml:id="n126-1" target="#a126-1" n="126-1">St. Luke iii. 2; Acts iv. 6.</note>
-            <note xml:id="n126-2" target="#a126-2" n="126-2">2 St. Luke iii. 2.</note>
-            <note xml:id="n127-1" target="#a127-1" n="127-1">St. Matthew xviii. 2, 3.</note>
-            <note xml:id="n129-1" target="#a129-1" n="129-1">St. Matthew xviii. 6.</note>
-            <note xml:id="n131-1" target="#a131-1" n="131-1">Isaiah liii. 7; Jeremiah xi. 19.</note>
-            <note xml:id="n132-1" target="#a132-1" n="132-1">St. Matthew xxvi. 52.</note>
-            <note xml:id="n133-1" target="#a133-1" n="133-1">Philippians ii. 7.</note>
-            <note xml:id="n133-2" target="#a133-2" n="133-2">1 Corinthians i. 25.</note>
-            <note xml:id="n134-1" target="#a134-1" n="134-1">1 Samuel xxi. 13.</note>
-            <note xml:id="n134-2" target="#a134-2" n="134-2">St. John xxi. 15-17.</note>
-            <note xml:id="n135-1" target="#a135-1" n="135-1">St. John i. 29, 36.</note>
-            <note xml:id="n142-1" target="#a142-1" n="142-1">Psalm xxv. 21.</note>
-            <note xml:id="n146-1" target="#a146-1" n="146-1">Acts iv. 13.</note>
-            <note xml:id="n150-1" target="#a150-1" n="150-1">Hosea vii. 11.</note>
-            <note xml:id="n150-2" target="#a150-2" n="150-2">Proverbs vii. 22.</note>
-            <note xml:id="n151-1" target="#a151-1" n="151-1">Ephesians iv. 14; St. James i. 6.</note>
-            <note xml:id="n152-1" target="#a152-1" n="152-1">St. Mark x. 15; St. Matthew xviii. 3.</note>
+            <note xml:id="n115-1" target="#a115-1" n="115-1"><choice><reg/><orig>p. 115, n. 1</orig></choice>Galatians vi. 6.</note>
+            <note xml:id="n118-1" target="#a118-1" n="118-1"><choice><reg/><orig>p. 118, n. 1</orig></choice>The Wisdom of Solomon i. 4.</note>
+            <note xml:id="n119-1" target="#a119-1" n="119-1"><choice><reg/><orig>p. 119, n. 1</orig></choice>2 Corinthians x. 3.</note>
+            <note xml:id="n121-1" target="#a121-1" n="121-1"><choice><reg/><orig>p. 121, n. 1</orig></choice>1 Corinthians ix. 22.</note>
+            <note xml:id="n126-1" target="#a126-1" n="126-1"><choice><reg/><orig>p. 126, n. 1</orig></choice>St. Luke iii. 2; Acts iv. 6.</note>
+            <note xml:id="n126-2" target="#a126-2" n="126-2"><choice><reg/><orig>p. 126, n. 2</orig></choice>2 St. Luke iii. 2.</note>
+            <note xml:id="n127-1" target="#a127-1" n="127-1"><choice><reg/><orig>p. 127, n. 1</orig></choice>St. Matthew xviii. 2, 3.</note>
+            <note xml:id="n129-1" target="#a129-1" n="129-1"><choice><reg/><orig>p. 129, n. 1</orig></choice>St. Matthew xviii. 6.</note>
+            <note xml:id="n131-1" target="#a131-1" n="131-1"><choice><reg/><orig>p. 131, n. 1</orig></choice>Isaiah liii. 7; Jeremiah xi. 19.</note>
+            <note xml:id="n132-1" target="#a132-1" n="132-1"><choice><reg/><orig>p. 132, n. 1</orig></choice>St. Matthew xxvi. 52.</note>
+            <note xml:id="n133-1" target="#a133-1" n="133-1"><choice><reg/><orig>p. 133, n. 1</orig></choice>Philippians ii. 7.</note>
+            <note xml:id="n133-2" target="#a133-2" n="133-2"><choice><reg/><orig>p. 133, n. 2</orig></choice>1 Corinthians i. 25.</note>
+            <note xml:id="n134-1" target="#a134-1" n="134-1"><choice><reg/><orig>p. 134, n. 1</orig></choice>1 Samuel xxi. 13.</note>
+            <note xml:id="n134-2" target="#a134-2" n="134-2"><choice><reg/><orig>p. 134, n. 2</orig></choice>St. John xxi. 15-17.</note>
+            <note xml:id="n135-1" target="#a135-1" n="135-1"><choice><reg/><orig>p. 135, n. 1</orig></choice>St. John i. 29, 36.</note>
+            <note xml:id="n142-1" target="#a142-1" n="142-1"><choice><reg/><orig>p. 142, n. 1</orig></choice>Psalm xxv. 21.</note>
+            <note xml:id="n146-1" target="#a146-1" n="146-1"><choice><reg/><orig>p. 146, n. 1</orig></choice>Acts iv. 13.</note>
+            <note xml:id="n150-1" target="#a150-1" n="150-1"><choice><reg/><orig>p. 150, n. 1</orig></choice>Hosea vii. 11.</note>
+            <note xml:id="n150-2" target="#a150-2" n="150-2"><choice><reg/><orig>p. 150, n. 2</orig></choice>Proverbs vii. 22.</note>
+            <note xml:id="n151-1" target="#a151-1" n="151-1"><choice><reg/><orig>p. 151, n. 1</orig></choice>Ephesians iv. 14; St. James i. 6.</note>
+            <note xml:id="n152-1" target="#a152-1" n="152-1"><choice><reg/><orig>p. 152, n. 1</orig></choice>St. Mark x. 15; St. Matthew xviii. 3.</note>
          </noteGrp>
       </body>
    </text>
