@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a" ref="http://syriaca.org/work/229">Ḥabib</title>
+            <author><persName ref="http://syriaca.org/person/42">Jacob of Sarug</persName></author>
+            <editor role="translator">Benjamin Plummer Pratten</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title><!--The Syriac Library--></title>
+            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <idno type="URI"><!-- URI NEEDED! --></idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Jacob of Sarug, <title>Homily on Habib the Martyr</title>. In <title>Ante-Nicene Fathers Vol. VIII, Memoirs of 
+                  Edessa And Other Ancient Syriac Documents, Homilies, Composed by Mar Jacob Various</title>.
+               Translated by Benjamin Plummer Pratten. Translation in the public domain.</p>
+            <p>Original transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                  target="https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VIII/Memoirs_of_Edessa_And_Other_Ancient_Syriac_Documents/Homilies,_Composed_by_Mar_Jacob/Homily_on_Habib_the_Martyr"
+                  >
+                  https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VIII/Memoirs_of_Edessa_And_Other_Ancient_Syriac_Documents/Homilies,_Composed_by_Mar_Jacob/Homily_on_Habib_the_Martyr
+               </ref>. This Wikisource transcription was made available under a <ref
+                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution-ShareAlike License</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="work" xml:id="work">
+         <head type="main">Homily on <persName>Habib the Martyr</persName>, Composed
+            by Mar <persName>Jacob</persName>.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+         </head>
+            <lg xml:id="section-1" n="1">
+               <l xml:id="line-1.1" n="1"><persName>Habib</persName> the martyr, clad in flame, hath called to me out of the fire,</l>
+               <l xml:id="line-1.2" n="2">That for him likewise I should fashion an image of beauty among the glorious.</l>
+            </lg>
+            <lg xml:id="section-2" n="2">
+               <l xml:id="line-2.1" n="3">Comrade of conquerors, lo! he beckoneth to me out of the burning,</l>
+               <l xml:id="line-2.2" n="4">That, as for the glory of his Lord, I should sing concerning him.</l>
+            </lg>
+            <lg xml:id="section-3" n="3">
+               <l xml:id="line-3.1" n="5">In the midst of live coals stands the heroic man, and lo! he calleth to me,</l>
+               <l xml:id="line-3.2" n="6">That I should fashion his image: but the blazing fire permits me not.</l>
+            </lg>
+            <lg xml:id="section-4" n="4">
+               <l xml:id="line-4.1" n="7">His love is fervid, glowing is his faith;</l>
+               <l xml:id="line-4.2" n="8">His fire also burneth, and who is adequate to recount his love?</l>
+            </lg>
+            <lg xml:id="section-5" n="5">
+               <l xml:id="line-5.1" n="9">Nay, by reason of that love which led the martyr into the fire,</l>
+               <l xml:id="line-5.2" n="10">No man is able to recount his beauties divine.</l>
+            </lg>
+            <lg xml:id="section-6" n="6">
+               <l xml:id="line-6.1" n="11">For who shall dare enter and see in the blazing fire</l>
+               <l xml:id="line-6.2" n="12">To whom he is like, and after what pattern he is to be fashioned among the glorious?</l>
+            </lg>
+            <lg xml:id="section-7" n="7">
+               <l xml:id="line-7.1" n="13">Shall I fashion his image by the side of the youths, the children of the furnace?</l>
+               <l xml:id="line-7.2" n="14">With Hananiah shall I reckon <persName>Habib</persName>? I know not.</l>
+            </lg>
+            <lg xml:id="section-8" n="8">
+               <l xml:id="line-8.1" n="15">Lo! these were not burned there: how, then, is he like?</l>
+               <l xml:id="line-8.2" n="16">He, I say, like them, when he was burned and the youths not?</l>
+            </lg>
+            <lg xml:id="section-9" n="9">
+               <l xml:id="line-9.1" n="17">Which, I ask, the more beautiful—<persName>Habib</persName> the martyr, or <persName>Azariah</persName>?</l>
+               <l xml:id="line-9.2" n="18">Difficult for me is the image: how I am to look upon it, I know not.</l>
+            </lg>
+            <lg xml:id="section-10" n="10">
+               <l xml:id="line-10.1" n="19">Lo! <persName>Michael</persName> was not burned by the flame;</l>
+               <l xml:id="line-10.2" n="20">But <persName>Habib</persName> was burned: which, then, the more beautiful to him that looketh upon him?</l>
+            </lg>
+            <lg xml:id="section-11" n="11">
+               <l xml:id="line-11.1" n="21">Who shall dare say that this is repulsive, or that;</l>
+               <l xml:id="line-11.2" n="22">Or not so comely this as that, to him that beholdeth him?</l>
+            </lg>
+            <lg xml:id="section-12" n="12">
+               <l xml:id="line-12.1" n="23">Three there are in the fire, and the flame cometh not near them;</l>
+               <l xml:id="line-12.2" n="24">But one was burned: and how shall I suffice to tell</l>
+            </lg>
+            <lg xml:id="section-13" n="13">
+               <l xml:id="line-13.1" n="25">That the Fourth form is that of Him who went down into the midst of the furnace,</l>
+               <l xml:id="line-13.2" n="26">That He might fashion an image for <persName>Habib</persName> there along with those of the three?</l>
+            </lg>
+            <lg xml:id="section-14" n="14">
+               <l xml:id="line-14.1" n="27">He giveth a place in the fire to him who was burned,</l>
+               <l xml:id="line-14.2" n="28">That he may be, instead of Him the Fourth, by the side of the conquerors.</l>
+            </lg>
+            <lg xml:id="section-15" n="15">
+               <l xml:id="line-15.1" n="29">And, if of the three the beauties be glorious, though they were not burned,</l>
+               <l xml:id="line-15.2" n="30">How shall not this one, who was burned, be mingled with the glorious?</l>
+            </lg>
+            <lg xml:id="section-16" n="16">
+               <l xml:id="line-16.1" n="31">If a man have the power either to be burned or not to be burned,</l>
+               <l xml:id="line-16.2" n="32">Of this man, who was burned, more exalted was the beauty than that of the three.</l>
+            </lg>
+            <lg xml:id="section-17" n="17">
+               <l xml:id="line-17.1" n="33">But, inasmuch as the Lord is the control of all things,</l>
+               <l xml:id="line-17.2" n="34">He is to be praised, both where He rescues and where He delivers up.</l>
+            </lg>
+            <lg xml:id="section-18" n="18">
+               <l xml:id="line-18.1" n="35">Moreover, too, the will of the three who were not burned,</l>
+               <l xml:id="line-18.2" n="36">And of him who was burned, is one and the same, in this case and in that;<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/></l>
+            </lg>
+            <lg xml:id="section-19" n="19">
+               <l xml:id="line-19.1" n="37">And, had its Lord commanded the fire to burn them,</l>
+               <l xml:id="line-19.2" n="38">Even those three on their part, burned they would have been;</l>
+            </lg>
+            <lg xml:id="section-20" n="20">
+               <l xml:id="line-20.1" n="39">And, if He had signified to it that it should not burn that one man also,</l>
+               <l xml:id="line-20.2" n="40">He would not have been burned; nor had it been of himself that he was rescued.</l>
+            </lg>
+            <lg xml:id="section-21" n="21">
+               <l xml:id="line-21.1" n="41">To go into the fire was of their own will, when they went in;</l>
+               <l xml:id="line-21.2" n="42">But that they were not burned—because the Lord of the fire willed and commanded it.</l>
+            </lg>
+            <lg xml:id="section-22" n="22">
+               <l xml:id="line-22.1" n="43">Therefore one equal beauty is that of him who was burned,</l>
+               <l xml:id="line-22.2" n="44">And that of him who was not burned, because the will also was equal.</l>
+            </lg>
+            <lg xml:id="section-23" n="23">
+               <l xml:id="line-23.1" n="45">Beloved martyr! exalted is thy beauty; exalted is thy rank:</l>
+               <l xml:id="line-23.2" n="46">Graceful too thy crown, and mingled thy story with that of the glorious.</l>
+            </lg>
+            <lg xml:id="section-24" n="24">
+               <l xml:id="line-24.1" n="47">Choice gold art thou, and the fire hath tried thee, and resplendent is thy beauty.</l>
+               <l xml:id="line-24.2" n="48">And lo! into the King’s crown art thou wrought, along with the victorious.</l>
+            </lg>
+            <lg xml:id="section-25" n="25">
+               <l xml:id="line-25.1" n="49">Good workman! who, in the doctrine of the Son of God,</l>
+               <l xml:id="line-25.2" n="50">Pursueth his course like a valiant<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> man, because of the beauty of his faith.</l>
+            </lg>
+            <lg xml:id="section-26" n="26">
+               <l xml:id="line-26.1" n="51"><persName>Habib</persName> the martyr was a teacher of that which is true;</l>
+               <l xml:id="line-26.2" n="52">A preacher also, whose mouth was full of faith.</l>
+            </lg>
+            <lg xml:id="section-27" n="27">
+               <l xml:id="line-27.1" n="53">Watchful was he, and prompt for service; and he encouraged with his teaching</l>
+               <l xml:id="line-27.2" n="54">The household of the house of God, through his faith.</l>
+            </lg>
+            <lg xml:id="section-28" n="28">
+               <l xml:id="line-28.1" n="55">Of light was he full, and he wrestled with the darkness</l>
+               <l xml:id="line-28.2" n="56">Which overspread the country from the paganism which had darkened it.</l>
+            </lg>
+            <lg xml:id="section-29" n="29">
+               <l xml:id="line-29.1" n="57">With the Gospel of the Son was his mouth filled in the congregations;</l>
+               <l xml:id="line-29.2" n="58">And as it were a leader of the way did he become to the villages when he arrived in them.</l>
+            </lg>
+            <lg xml:id="section-30" n="30">
+               <l xml:id="line-30.1" n="59">Zealous he was, because he was concerned for the doctrine</l>
+               <l xml:id="line-30.2" n="60">Divine, that he might establish the adherents<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> of the faith.</l>
+            </lg>
+            <lg xml:id="section-31" n="31">
+               <l xml:id="line-31.1" n="61">At the time when the winds of the pagans blew, a lamp was he,</l>
+               <l xml:id="line-31.2" n="62">And flamed forth whilst they blew upon him, and went not out.</l>
+            </lg>
+            <lg xml:id="section-32" n="32">
+               <l xml:id="line-32.1" n="63">All on fire was he, and filled with the love of his Lord, and was concerned</l>
+               <l xml:id="line-32.2" n="64">For this—that he might speak of Him without hindrance.<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/></l>
+            </lg>
+            <lg xml:id="section-33" n="33">
+               <l xml:id="line-33.1" n="65">The thorns of errour sprang up in the land from paganism;</l>
+               <l xml:id="line-33.2" n="66">And, as much as in him lay, he rooted them out by his diligence.</l>
+            </lg>
+            <lg xml:id="section-34" n="34">
+               <l xml:id="line-34.1" n="67">He taught, admonished, and confirmed in the faith,</l>
+               <l xml:id="line-34.2" n="68">The friends of <persName>Christ</persName>,<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> who were harassed by persecutors.</l>
+            </lg>
+            <lg xml:id="section-35" n="35">
+               <l xml:id="line-35.1" n="69">Against sword and against fire did he wrestle,</l>
+               <l xml:id="line-35.2" n="70">With love hot as the flame, and was not afraid.</l>
+            </lg>
+            <lg xml:id="section-36" n="36">
+               <l xml:id="line-36.1" n="71">Like a two-edged brand,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> keen was</l>
+               <l xml:id="line-36.2" n="72">His faith, and against error did he contend.</l>
+            </lg>
+            <lg xml:id="section-37" n="37">
+               <l xml:id="line-37.1" n="73">Leaven did he prove to be in this land which had become exhausted<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/></l>
+               <l xml:id="line-37.2" n="74">Through fondness for the idols of vanity which error had brought in.</l>
+            </lg>
+            <lg xml:id="section-38" n="38">
+               <l xml:id="line-38.1" n="75">He was like salt by reason of his savoury doctrine</l>
+               <l xml:id="line-38.2" n="76">To this region, which had become insipid through unbelief.</l>
+            </lg>
+            <lg xml:id="section-39" n="39">
+               <l xml:id="line-39.1" n="77">A deacon was he, and filled the place of a high-priest</l>
+               <l xml:id="line-39.2" n="78">By the preaching and teaching of that which is true.</l>
+            </lg>
+            <lg xml:id="section-40" n="40">
+               <l xml:id="line-40.1" n="79">He was to the flock a good shepherd whilst he was its overseer;</l>
+               <l xml:id="line-40.2" n="80">And his life laid he down for the flock while he tended it.</l>
+            </lg>
+            <lg xml:id="section-41" n="41">
+               <l xml:id="line-41.1" n="81">He chased away the wolf, and drove off from it the beast of prey.</l>
+               <l xml:id="line-41.2" n="82">And he repaired the breaches, and gathered the lambs into their folds.</l>
+            </lg>
+            <lg xml:id="section-42" n="42">
+               <l xml:id="line-42.1" n="83">He went out secretly and encouraged the congregations:</l>
+               <l xml:id="line-42.2" n="84">He strengthened them, and exhorted them, and held them up.</l>
+            </lg>
+            <lg xml:id="section-43" n="43">
+               <l xml:id="line-43.1" n="85">And he forged armour of faith, and put it on them,</l>
+               <l xml:id="line-43.2" n="86">That they might not be ignominiously overthrown<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> by the paganism which abounded.</l>
+            </lg>
+            <lg xml:id="section-44" n="44">
+               <l xml:id="line-44.1" n="87">The flocks of the fold of the Son of God were being laid waste</l>
+               <l xml:id="line-44.2" n="88">By persecutors: and he encouraged the lambs and the ewes.</l>
+            </lg>
+            <lg xml:id="section-45" n="45">
+               <l xml:id="line-45.1" n="89">And he was an advocate to the household of faith;</l>
+               <l xml:id="line-45.2" n="90">And he taught them not to be daunted by persecutors.</l>
+            </lg>
+            <lg xml:id="section-46" n="46">
+               <l xml:id="line-46.1" n="91">He taught them to run to meet death,</l>
+               <l xml:id="line-46.2" n="92">Without being afraid either of sword or of fire.</l>
+            </lg>
+            <lg xml:id="section-47" n="47">
+               <l xml:id="line-47.1" n="93">In the teaching of the Son of God he prospered,</l>
+               <l xml:id="line-47.2" n="94">So that his faith pursued its course without dread.</l>
+            </lg>
+            <lg xml:id="section-48" n="48">
+               <l xml:id="line-48.1" n="95">Then errour grew envious, became furious, and was maddened, because of him;</l>
+               <l xml:id="line-48.2" n="96">And she pursued after him, that she might shed upon the earth innocent blood.</l>
+            </lg>
+            <lg xml:id="section-49" n="49">
+               <l xml:id="line-49.1" n="97">The Defamer, who hates the race of men,</l>
+               <l xml:id="line-49.2" n="98">Laid snares for him, that he might rid the place of his presence.<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/></l>
+            </lg>
+            <lg xml:id="section-50" n="50">
+               <l xml:id="line-50.1" n="99">He who hateth the truth pursued after him to put him to death,</l>
+               <l xml:id="line-50.2" n="100">That he might make his voice to cease<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> from the teaching of the house of God.</l>
+            </lg>
+            <lg xml:id="section-51" n="51">
+               <l xml:id="line-51.1" n="101">And errour raised an outcry demanding that <persName>Habib</persName> should die, because she hated him;</l>
+               <l xml:id="line-51.2" n="102">Vexation goaded her on, and she sought to take away his life.</l>
+            </lg>
+            <lg xml:id="section-52" n="52">
+               <l xml:id="line-52.1" n="103">His story was talked about<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> before the pagan judge of the country,</l>
+               <l xml:id="line-52.2" n="104">And the dear fame of him reached the king: who in great rage,</l>
+            </lg>
+            <lg xml:id="section-53" n="53">
+               <l xml:id="line-53.1" n="105">And because the diadem was interwoven with paganism, decreed<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> death</l>
+               <l xml:id="line-53.2" n="106">Against <persName>Habib</persName>, because he was full of faith.</l>
+            </lg>
+            <lg xml:id="section-54" n="54">
+               <l xml:id="line-54.1" n="107">And, when the command reached the judge, he armed himself</l>
+               <l xml:id="line-54.2" n="108">With rage and fury; and, with a mind thirsting for blood,</l>
+            </lg>
+            <lg xml:id="section-55" n="55">
+               <l xml:id="line-55.1" n="109">And like hunters who lay nets for the young stag,</l>
+               <l xml:id="line-55.2" n="110">After <persName>Habib</persName> did they go out to catch him.</l>
+            </lg>
+            <lg xml:id="section-56" n="56">
+               <l xml:id="line-56.1" n="111">But this man was a preacher of the faith,</l>
+               <l xml:id="line-56.2" n="112">Who in the highway of the crucifixion was prospering;</l>
+            </lg>
+            <lg xml:id="section-57" n="57">
+               <l xml:id="line-57.1" n="113">And, that he might benefit by his teaching the children of his people,</l>
+               <l xml:id="line-57.2" n="114">His work embraced the countries round about him.</l>
+            </lg>
+            <lg xml:id="section-58" n="58">
+               <l xml:id="line-58.1" n="115">So, when error went out after him, she found him not:</l>
+               <l xml:id="line-58.2" n="116">Not that he was fled, but that he had gone out to preach the Gospel.</l>
+            </lg>
+            <lg xml:id="section-59" n="59">
+               <l xml:id="line-59.1" n="117">Then, because of the fury of the pagans, which was great beyond all that was meet,</l>
+               <l xml:id="line-59.2" n="118">His kindred and his mother did they seize for his sake.</l>
+            </lg>
+            <lg xml:id="section-60" n="60">
+               <l xml:id="line-60.1" n="119">Blessed art thou, O woman! mother since thou art of the martyr.</l>
+               <l xml:id="line-60.2" n="120">For wherefore was it that they seized thee and bound thee, iniquitously?</l>
+            </lg>
+            <lg xml:id="section-61" n="61">
+               <l xml:id="line-61.1" n="121">What do they require of thee, O thou full of beauty? What, I ask, have they required of thee?</l>
+               <l xml:id="line-61.2" n="122">Lo! they require of thee that thou bring the martyr, that he may be a sacrifice.</l>
+            </lg>
+            <lg xml:id="section-62" n="62">
+               <l xml:id="line-62.1" n="123">Bring, oh bring thy sweet fruit to the place of the oblation—</l>
+               <l xml:id="line-62.2" n="124">The fruit whose smell is fragrant, that it may be incense to the Godhead.</l>
+            </lg>
+            <lg xml:id="section-63" n="63">
+               <l xml:id="line-63.1" n="125">Fair shoot, thy cluster bring from where it is,</l>
+               <l xml:id="line-63.2" n="126">That its wine may be for a libation whose taste is sweet.</l>
+            </lg>
+            <lg xml:id="section-64" n="64">
+               <l xml:id="line-64.1" n="127">The lamb heard that they were seeking him, that he might be a sacrifice;</l>
+               <l xml:id="line-64.2" n="128">And he set out and came to the sacrificers rejoicing.</l>
+            </lg>
+            <lg xml:id="section-65" n="65">
+               <l xml:id="line-65.1" n="129">He heard that others also were being afflicted for his sake,</l>
+               <l xml:id="line-65.2" n="130">And he came that he might bear the suffering which was his, in the stead of many.</l>
+            </lg>
+            <lg xml:id="section-66" n="66">
+               <l xml:id="line-66.1" n="131">The lot fell on him, to be himself alone a sacrifice;</l>
+               <l xml:id="line-66.2" n="132">And the fire that was to offer him up was looking out for him until he came.</l>
+            </lg>
+            <lg xml:id="section-67" n="67">
+               <l xml:id="line-67.1" n="133">Of the many who were bound for his sake</l>
+               <l xml:id="line-67.2" n="134">Not one single person was seized to die, but only he.</l>
+            </lg>
+            <lg xml:id="section-68" n="68">
+               <l xml:id="line-68.1" n="135">He it was that was worthy, and for him was martyrdom reserved;</l>
+               <l xml:id="line-68.2" n="136">And to snatch the martyr’s place no man was able.</l>
+            </lg>
+            <lg xml:id="section-69" n="69">
+               <l xml:id="line-69.1" n="137">And therefore of his own will did he present himself</l>
+               <l xml:id="line-69.2" n="138">To the judge, that he might be seized, and die for <persName>Jesus</persName>’ sake.</l>
+            </lg>
+            <lg xml:id="section-70" n="70">
+               <l xml:id="line-70.1" n="139">He heard that they sought him, and he came that he might be seized, even as they sought
+                  him:</l>
+               <l xml:id="line-70.2" n="140">And he went in of himself before the judge, and dauntless was his look.</l>
+            </lg>
+            <lg xml:id="section-71" n="71">
+               <l xml:id="line-71.1" n="141">He hid not himself, nor did he wish to flee from the judge:</l>
+               <l xml:id="line-71.2" n="142">For with light was he imbued, and from the darkness he would not flee.</l>
+            </lg>
+            <lg xml:id="section-72" n="72">
+               <l xml:id="line-72.1" n="143">No robber was he, no murderer, no thief,</l>
+               <l xml:id="line-72.2" n="144">No child of night: but all his course was run in open day.</l>
+            </lg>
+            <lg xml:id="section-73" n="73">
+               <l xml:id="line-73.1" n="145">Wherefore from his flock should the good shepherd flee,</l>
+               <l xml:id="line-73.2" n="146">And leave his fold to be devoured by robbers?</l>
+            </lg>
+            <lg xml:id="section-74" n="74">
+               <l xml:id="line-74.1" n="147">Wherefore should the physician flee, who goeth forth to heal diseases,</l>
+               <l xml:id="line-74.2" n="148">And to cure souls by the blood of the Son of God?</l>
+            </lg>
+            <lg xml:id="section-75" n="75">
+               <l xml:id="line-75.1" n="149">A fearless countenance<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> did the brave man carry with him, and a great heart;</l>
+               <l xml:id="line-75.2" n="150">And to meet death he ran, rejoicing, for <persName>Jesus</persName>’ sake.</l>
+            </lg>
+            <lg xml:id="section-76" n="76">
+               <l xml:id="line-76.1" n="151">He went in, he stood before the judge, saying to him:</l>
+               <l xml:id="line-76.2" n="152">I am <persName>Habib</persName>, whom ye sought: lo! here I stand.</l>
+            </lg>
+            <lg xml:id="section-77" n="77">
+               <l xml:id="line-77.1" n="153">And the pagan trembled, and amazement seized him, and he marvelled at him—</l>
+               <l xml:id="line-77.2" n="154">At the man who was not afraid, either of sword or of fire.</l>
+            </lg>
+            <lg xml:id="section-78" n="78">
+               <l xml:id="line-78.1" n="155">While he thought that he was fleeing apace, he entered in and mocked him;</l>
+               <l xml:id="line-78.2" n="156">And the judge shook, for he saw him courageous in the very face of death.</l>
+            </lg>
+            <lg xml:id="section-79" n="79">
+               <l xml:id="line-79.1" n="157">A disciple he of that Son of God who said:</l>
+               <l xml:id="line-79.2" n="158">“Rise, come, let us go: for he that betrayeth me lo! is here.”</l>
+            </lg>
+            <lg xml:id="section-80" n="80">
+               <l xml:id="line-80.1" n="159">And to the crucifiers, again, He said: <quote>Whom seek ye?</quote></l>
+               <l xml:id="line-80.2" n="160">They say: <quote><persName>Jesus</persName>.</quote> And He said to them: <quote>I am He.</quote></l>
+            </lg>
+            <lg xml:id="section-81" n="81">
+               <l xml:id="line-81.1" n="161">The Son of God of His own will came to the cross;</l>
+               <l xml:id="line-81.2" n="162">And on Him the martyr looked, and presented himself uncompelled before the judge.</l>
+            </lg>
+            <lg xml:id="section-82" n="82">
+               <l xml:id="line-82.1" n="163">And the pagan beheld him, and was smitten with fear, and was exasperated against
+                  him.</l>
+               <l xml:id="line-82.2" n="164">His rage was excited, and he began in his fury to put to him questions.<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/></l>
+            </lg>
+            <lg xml:id="section-83" n="83">
+               <l xml:id="line-83.1" n="165">And, as if he had been one who had shed on the ground the blood of the slain,</l>
+               <l xml:id="line-83.2" n="166">He proceeded to question the saintly man, but he was not ashamed:</l>
+            </lg>
+            <lg xml:id="section-84" n="84">
+               <l xml:id="line-84.1" n="167">Menacing him, and trying to terrify him, and to frighten him,</l>
+               <l xml:id="line-84.2" n="168">And recounting the sufferings which were being prepared by him on his account.</l>
+            </lg>
+            <lg xml:id="section-85" n="85">
+               <l xml:id="line-85.1" n="169">But <persName>Habib</persName>, when questioned, was not afraid,</l>
+               <l xml:id="line-85.2" n="170">Was not ashamed, and was not frightened by the menaces he heard.</l>
+            </lg>
+            <lg xml:id="section-86" n="86">
+               <l xml:id="line-86.1" n="171">Lifting up his voice, he confessed <persName>Jesus</persName>, the Son of God—</l>
+               <l xml:id="line-86.2" n="172">That he was His servant, and was His priest, and His minister.<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/></l>
+            </lg>
+            <lg xml:id="section-87" n="87">
+               <l xml:id="line-87.1" n="173">At the fury of the pagans, roaring at him like lions,</l>
+               <l xml:id="line-87.2" n="174">He trembled not, nor ceased<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> from the confession of the Son of God.</l>
+            </lg>
+            <lg xml:id="section-88" n="88">
+               <l xml:id="line-88.1" n="175">He was scourged, and the scourgings were very dear to him,</l>
+               <l xml:id="line-88.2" n="176">Seeing that he bore a little of the stripes of the Son of God.</l>
+            </lg>
+            <lg xml:id="section-89" n="89">
+               <l xml:id="line-89.1" n="177">He was put into bonds,<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> and he looked on his Lord, whom also they had bound;</l>
+               <l xml:id="line-89.2" n="178">And his heart rejoiced that in the path of His sufferings he had begun to walk.</l>
+            </lg>
+            <lg xml:id="section-90" n="90">
+               <l xml:id="line-90.1" n="179">He ascended the block,<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> and they tore him with combs, but his soul was radiant with
+                  light,</l>
+               <l xml:id="line-90.2" n="180">Because he was deemed worthy that on him should come the agony of the sufferings of
+                  crucifixion.</l>
+            </lg>
+            <lg xml:id="section-91" n="91">
+               <l xml:id="line-91.1" n="181">In the pathway of death had he set his face to walk,</l>
+               <l xml:id="line-91.2" n="182">And what could he desire to find in it but sufferings?</l>
+            </lg>
+            <lg xml:id="section-92" n="92">
+               <l xml:id="line-92.1" n="183">The fire of sacrifice<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/> was betrothed to him, and for her did he look;</l>
+               <l xml:id="line-92.2" n="184">And she on her part sent him combs, and stripes, and pains, to taste.</l>
+            </lg>
+            <lg xml:id="section-93" n="93">
+               <l xml:id="line-93.1" n="185">All the while that she was coming, she sent him sufferings, that by means of them</l>
+               <l xml:id="line-93.2" n="186">He might be prepared, so that when she met him she might not dismay him.</l>
+            </lg>
+            <lg xml:id="section-94" n="94">
+               <l xml:id="line-94.1" n="187">Sufferings purged him, so that, when the blazing fire should put him to the proof,</l>
+               <l xml:id="line-94.2" n="188">There might not be any dross found in his choice gold.</l>
+            </lg>
+            <lg xml:id="section-95" n="95">
+               <l xml:id="line-95.1" n="189">And he endured the whole of the pains that came upon him,</l>
+               <l xml:id="line-95.2" n="190">That he might have experience of suffering, and in the burning stand like a brave
+                  man.</l>
+            </lg>
+            <lg xml:id="section-96" n="96">
+               <l xml:id="line-96.1" n="191">And he accepted rejoicing the sufferings which he had to bear:</l>
+               <l xml:id="line-96.2" n="192">For he knew that at their termination he should find death.</l>
+            </lg>
+            <lg xml:id="section-97" n="97">
+               <l xml:id="line-97.1" n="193">And he was not afraid, either of death or of sufferings:</l>
+               <l xml:id="line-97.2" n="194">For with that wine of the crucifixion his heart was drunk.</l>
+            </lg>
+            <lg xml:id="section-98" n="98">
+               <l xml:id="line-98.1" n="195">He despised his body, while it was being dragged along by the persecutors;</l>
+               <l xml:id="line-98.2" n="196">And his limbs, while they were being torn asunder in bitter agony.<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/></l>
+            </lg>
+            <lg xml:id="section-99" n="99">
+               <l xml:id="line-99.1" n="197">Scourges on his back, combs on his sides, stocks on his feet,</l>
+               <l xml:id="line-99.2" n="198">And fire in front of him: still was he brave and full of faith.</l>
+            </lg>
+            <lg xml:id="section-100" n="100">
+               <l xml:id="line-100.1" n="199">They taunted him: Lo! thou worshippest a man;</l>
+               <l xml:id="line-100.2" n="200">But he said: A man I worship not,</l>
+            </lg>
+            <lg xml:id="section-101" n="101">
+               <l xml:id="line-101.1" n="201">But God, who took a body and became man:</l>
+               <l xml:id="line-101.2" n="202">Him do I worship, because He is God with Him that begat Him.</l>
+            </lg>
+            <lg xml:id="section-102" n="102">
+               <l xml:id="line-102.1" n="203">The faith of <persName>Habib</persName>, the martyr, was full of light</l>
+               <l xml:id="line-102.2" n="204">And by it was enlightened <placeName>Edessa</placeName>, the faithful city.</l>
+            </lg>
+            <lg xml:id="section-103" n="103">
+               <l xml:id="line-103.1" n="205">The daughter of <persName>Abgar</persName>, whom <persName>Addaeus</persName> betrothed to the crucifixion—</l>
+               <l xml:id="line-103.2" n="206">Through it is her light, through it her truth and her faith.</l>
+            </lg>
+            <lg xml:id="section-104" n="104">
+               <l xml:id="line-104.1" n="207">Her king is from it, her martyrs from it, her truth from it;</l>
+               <l xml:id="line-104.2" n="208">The teachers also of her faith are from it.</l>
+            </lg>
+            <lg xml:id="section-105" n="105">
+               <l xml:id="line-105.1" n="209"><persName>Abgar</persName> believed that Thou art God, the Son of God;</l>
+               <l xml:id="line-105.2" n="210">And he received a blessing because of the beauty of his faith.</l>
+            </lg>
+            <lg xml:id="section-106" n="106">
+               <l xml:id="line-106.1" n="211"><persName>Sharbil</persName> the martyr, son of the <persName>Edessaeans</persName>, more-ever said:</l>
+               <l xml:id="line-106.2" n="212">My heart is led captive by God, who became man.</l>
+            </lg>
+            <lg xml:id="section-107" n="107">
+               <l xml:id="line-107.1" n="213">And <persName>Habib</persName> the martyr, who also was crowned at <placeName>Edessa</placeName>,</l>
+               <l xml:id="line-107.2" n="214">Confessed these things: that He took a body and became man;</l>
+            </lg>
+            <lg xml:id="section-108" n="108">
+               <l xml:id="line-108.1" n="215">That He is the Son of God, and also is God, and became man.</l>
+               <l xml:id="line-108.2" n="216"><placeName>Edessa</placeName> learned from teachers the things that are true:</l>
+            </lg>
+            <lg xml:id="section-109" n="109">
+               <l xml:id="line-109.1" n="217">Her king taught her, her martyrs taught her, the faith;</l>
+               <l xml:id="line-109.2" n="218">But to others, who were fraudulent teachers, she would not hearken.</l>
+            </lg>
+            <lg xml:id="section-110" n="110">
+               <l xml:id="line-110.1" n="219"><persName>Habib</persName> the martyr, in the ear of <placeName>Edessa</placeName>, thus cried aloud</l>
+               <l xml:id="line-110.2" n="220">Out of the midst of the fire: A man I worship not,</l>
+            </lg>
+            <lg xml:id="section-111" n="111">
+               <l xml:id="line-111.1" n="221">But God, who took a body and became man</l>
+               <l xml:id="line-111.2" n="222">Him do I worship. Thus confessed the martyr with uplifted voice.</l>
+            </lg>
+            <lg xml:id="section-112" n="112">
+               <l xml:id="line-112.1" n="223">From confessors torn with combs, burnt, raised up on the block, slain</l>
+               <l xml:id="line-112.2" n="224">And from a righteous king, did <placeName>Edessa</placeName> learn the faith,</l>
+            </lg>
+            <lg xml:id="section-113" n="113">
+               <l xml:id="line-113.1" n="225">And she knows our Lord—that He is even God, the Son of God;</l>
+               <l xml:id="line-113.2" n="226">She also learned and firmly believed that He took a body and became man.</l>
+            </lg>
+            <lg xml:id="section-114" n="114">
+               <l xml:id="line-114.1" n="227">Not from common scribes did she learn the faith:</l>
+               <l xml:id="line-114.2" n="228">Her king taught her, her martyrs taught her; and she firmly believed them:</l>
+            </lg>
+            <lg xml:id="section-115" n="115">
+               <l xml:id="line-115.1" n="229">And, if she be calumniated as having ever worshipped a man,</l>
+               <l xml:id="line-115.2" n="230">She points to her martyrs, who died for Him as being God.</l>
+            </lg>
+            <lg xml:id="section-116" n="116">
+               <l xml:id="line-116.1" n="231">A man I worship not, said <persName>Habib</persName>,</l>
+               <l xml:id="line-116.2" n="232">Because it is written: <quote>Cursed is he that putteth his trust in a man.</quote><ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/></l>
+            </lg>
+            <lg xml:id="section-117" n="117">
+               <l xml:id="line-117.1" n="233">Forasmuch as He is God, I worship Him, yea submit to be burned</l>
+               <l xml:id="line-117.2" n="234">For His sake, nor will I renounce His faith.</l>
+            </lg>
+            <lg xml:id="section-118" n="118">
+               <l xml:id="line-118.1" n="235">This truth has <placeName>Edessa</placeName> held fast from her youth,</l>
+               <l xml:id="line-118.2" n="236">And in her old age she will not barter it away as a daughter of the poor.</l>
+            </lg>
+            <lg xml:id="section-119" n="119">
+               <l xml:id="line-119.1" n="237">Her righteous king became to her a scribe, and from him she learned</l>
+               <l xml:id="line-119.2" n="238">Concerning our Lord—that He is the Son of God, yea God.</l>
+            </lg>
+            <lg xml:id="section-120" n="120">
+               <l xml:id="line-120.1" n="239"><persName>Addaeus</persName>, who brought the bridegroom’s ring and put it on her hand,</l>
+               <l xml:id="line-120.2" n="240">Betrothed her thus to the Son of God, who is the Only-begotten.</l>
+            </lg>
+            <lg xml:id="section-121" n="121">
+               <l xml:id="line-121.1" n="241"><persName>Sharbil</persName> the priest, who made trial and proof of all gods,</l>
+               <l xml:id="line-121.2" n="242">Died, even as he said, <quote>for God who became man.</quote></l>
+            </lg>
+            <lg xml:id="section-122" n="122">
+               <l xml:id="line-122.1" n="243"><persName>Shamuna</persName> and <persName>Guria</persName>, for the sake of the Only-begotten,</l>
+               <l xml:id="line-122.2" n="244">Stretched out their necks to receive the stroke, and for Him died, forasmuch as He is
+                  God.</l>
+            </lg>
+            <lg xml:id="section-123" n="123">
+               <l xml:id="line-123.1" n="245">And <persName>Habib</persName> the martyr, who was teacher of congregations,</l>
+               <l xml:id="line-123.2" n="246">Preached of Him, that He took a body and became man.</l>
+            </lg>
+            <lg xml:id="section-124" n="124">
+               <l xml:id="line-124.1" n="247">For a man the martyr would not have submitted to be burned in the fire;</l>
+               <l xml:id="line-124.2" n="248">But he was burned “for the sake of God who became man.”</l>
+            </lg>
+            <lg xml:id="section-125" n="125">
+               <l xml:id="line-125.1" n="249">And <placeName>Edessa</placeName> is witness that thus he confessed while he was being burned:</l>
+               <l xml:id="line-125.2" n="250">And from the confession of a martyr that has been burned who is he that can escape?</l>
+            </lg>
+            <lg xml:id="section-126" n="126">
+               <l xml:id="line-126.1" n="251">All minds does faith reduce to silence and despise—</l>
+               <l xml:id="line-126.2" n="252">She that is full of light and stoopeth not to shadows.</l>
+            </lg>
+            <lg xml:id="section-127" n="127">
+               <l xml:id="line-127.1" n="253">She despiseth him that maligns the Son by denying that He is God;</l>
+               <l xml:id="line-127.2" n="254">Him too that saith <quote>He took not a body and became man.</quote></l>
+            </lg>
+            <lg xml:id="section-128" n="128">
+               <l xml:id="line-128.1" n="255">In faith which was full of truth he stood upon the fire;</l>
+               <l xml:id="line-128.2" n="256">And he became incense, and propitiated with his fragrance the Son of God.</l>
+            </lg>
+            <lg xml:id="section-129" n="129">
+               <l xml:id="line-129.1" n="257">In all his afflictions, and in all his tortures, and in all his sufferings,</l>
+               <l xml:id="line-129.2" n="258">Thus did he confess, and thus did he teach the blessed city.</l>
+            </lg>
+            <lg xml:id="section-130" n="130">
+               <l xml:id="line-130.1" n="259">And this truth did <placeName>Edessa</placeName> hold fast touching our Lord—</l>
+               <l xml:id="line-130.2" n="260">Even that He is God, and of <persName>Mary</persName> became a man.</l>
+            </lg>
+            <lg xml:id="section-131" n="131">
+               <l xml:id="line-131.1" n="261">And the bride hates him that denies His God-head,</l>
+               <l xml:id="line-131.2" n="262">And despises and contemns him that maligns His corporeal nature.</l>
+            </lg>
+            <lg xml:id="section-132" n="132">
+               <l xml:id="line-132.1" n="263">And she recognises Him as One in Godhead and in manhood—</l>
+               <l xml:id="line-132.2" n="264">The Only-begotten, whose body is inseparable from Him.</l>
+            </lg>
+            <lg xml:id="section-133" n="133">
+               <l xml:id="line-133.1" n="265">And thus did the daughter of the Parthians learn to believe,</l>
+               <l xml:id="line-133.2" n="266">And thus did she firmly hold, and thus does she teach him that listens to her.</l>
+            </lg>
+            <lg xml:id="section-134" n="134">
+               <l xml:id="line-134.1" n="267">The judge, therefore, full of zeal for paganism, commanded</l>
+               <l xml:id="line-134.2" n="268">That the martyr should be led forth and burned in the fire which was reserved for
+                  him.</l>
+            </lg>
+            <lg xml:id="section-135" n="135">
+               <l xml:id="line-135.1" n="269">And forthwith a strap was thrust into his mouth, as though he had been a murderer,</l>
+               <l xml:id="line-135.2" n="270">His confession being kept within his heart towards God.</l>
+            </lg>
+            <lg xml:id="section-136" n="136">
+               <l xml:id="line-136.1" n="271">And they hurried him away, and he went out from the judgment-hall, rejoicing</l>
+               <l xml:id="line-136.2" n="272">That the hour was come when the crown should be given to his faith.</l>
+            </lg>
+            <lg xml:id="section-137" n="137">
+               <l xml:id="line-137.1" n="273">And there went out with him crowds of people, that they might bear him company,</l>
+               <l xml:id="line-137.2" n="274">Looking upon him, not as a dead man accompanied to his burial,</l>
+            </lg>
+            <lg xml:id="section-138" n="138">
+               <l xml:id="line-138.1" n="275">But as a man who was going away that by means of fire he might become a bridegroom,</l>
+               <l xml:id="line-138.2" n="276">And that there might be bestowed the crown which was by righteousness reserved for
+                  him.</l>
+            </lg>
+            <lg xml:id="section-139" n="139">
+               <l xml:id="line-139.1" n="277">They looked upon him as upon a man entering into battle,</l>
+               <l xml:id="line-139.2" n="278">And around him were spears, and lances, and swords, but he vanquished them.</l>
+            </lg>
+            <lg xml:id="section-140" n="140">
+               <l xml:id="line-140.1" n="279">They beheld him going up like a champion from the contest,</l>
+               <l xml:id="line-140.2" n="280">And in his triumph chaplets were brought to him by those who beheld.</l>
+            </lg>
+            <lg xml:id="section-141" n="141">
+               <l xml:id="line-141.1" n="281">They looked upon him as he vanquished principalities and powers,</l>
+               <l xml:id="line-141.2" n="282">Which all made war with him, and he put them to shame.</l>
+            </lg>
+            <lg xml:id="section-142" n="142">
+               <l xml:id="line-142.1" n="283">The whole congregation of the followers of <persName>Christ</persName> exulted over him,</l>
+               <l xml:id="line-142.2" n="284">Because he raised up the friends<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> of the faith by the sufferings which he bore.</l>
+            </lg>
+            <lg xml:id="section-143" n="143">
+               <l xml:id="line-143.1" n="285">There went forth with him the Church, a bride full of light;</l>
+               <l xml:id="line-143.2" n="286">And her face was beaming on the beloved martyr who was united to her.</l>
+            </lg>
+            <lg xml:id="section-144" n="144">
+               <l xml:id="line-144.1" n="287">Then did his mother, because it was the marriage-feast for her son,</l>
+               <l xml:id="line-144.2" n="288">Deck herself in garments nobler than her wont.</l>
+            </lg>
+            <lg xml:id="section-145" n="145">
+               <l xml:id="line-145.1" n="289">Since sordid raiment suited not the banquet-hall,</l>
+               <l xml:id="line-145.2" n="290">In magnificent attire all white she clad herself right tastefully.</l>
+            </lg>
+            <lg xml:id="section-146" n="146">
+               <l xml:id="line-146.1" n="291">Hither to the battle came down love to fight</l>
+               <l xml:id="line-146.2" n="292">In the mother’s soul—the love of nature, and the love of God.</l>
+            </lg>
+            <lg xml:id="section-147" n="147">
+               <l xml:id="line-147.1" n="293">She looked upon her son as he went forth to be put into the flame;</l>
+               <l xml:id="line-147.2" n="294">And, forasmuch as there was in her the love of the Lord, she suffered not.</l>
+            </lg>
+            <lg xml:id="section-148" n="148">
+               <l xml:id="line-148.1" n="295">The yearnings of her mother’s womb cried out on behalf of its fruit;</l>
+               <l xml:id="line-148.2" n="296">But faith silenced them, so that their tumult ceased.</l>
+            </lg>
+            <lg xml:id="section-149" n="149">
+               <l xml:id="line-149.1" n="297">Nature shrieked over the limb which was severed from her;</l>
+               <l xml:id="line-149.2" n="298">But the love of the Lord intoxicated the soul, that she should not perceive it.</l>
+            </lg>
+            <lg xml:id="section-150" n="150">
+               <l xml:id="line-150.1" n="299">Nature loved, but the love of the Lord did conquer in the strife</l>
+               <l xml:id="line-150.2" n="300">Within the soul of the mother, that she should not grieve for her beloved.</l>
+            </lg>
+            <lg xml:id="section-151" n="151">
+               <l xml:id="line-151.1" n="301">And instead of suffering, her heart was filled with all emotions of joy;</l>
+               <l xml:id="line-151.2" n="302">And, instead of mourning, she went forth in splendid apparel.</l>
+            </lg>
+            <lg xml:id="section-152" n="152">
+               <l xml:id="line-152.1" n="303">And she accompanied him as he went out to be burned, and was elate,</l>
+               <l xml:id="line-152.2" n="304">Because the love of the Lord vanquished that of nature.</l>
+            </lg>
+            <lg xml:id="section-153" n="153">
+               <l xml:id="line-153.1" n="305">And clad in white, as for a bridegroom, she made a marriage-feast—</l>
+               <l xml:id="line-153.2" n="306">She the mother of the martyr, and was blithe because of him.</l>
+            </lg>
+            <lg xml:id="section-154" n="154">
+               <l xml:id="line-154.1" n="307"><quote><persName>Shamuna</persName> the Second</quote> may we call this blessed one:</l>
+               <l xml:id="line-154.2" n="308">Since, had seven been burned instead of one, she had been well content.</l>
+            </lg>
+            <lg xml:id="section-155" n="155">
+               <l xml:id="line-155.1" n="309">One she had, and she gave him to be food for the fire;</l>
+               <l xml:id="line-155.2" n="310">And, even as that one, if she had had seven, she had given them all.</l>
+            </lg>
+            <lg xml:id="section-156" n="156">
+               <l xml:id="line-156.1" n="311">He was cast into the fire, and the blaze kindled around him;</l>
+               <l xml:id="line-156.2" n="312">And his mother looked on, and grieved not at his burning.</l>
+            </lg>
+            <lg xml:id="section-157" n="157">
+               <l xml:id="line-157.1" n="313">Another eye, which gazeth upon the things unseen,</l>
+               <l xml:id="line-157.2" n="314">Was in her soul, and by reason of this she exulted when he was being burned.</l>
+            </lg>
+            <lg xml:id="section-158" n="158">
+               <l xml:id="line-158.1" n="315">On the gems of light which are in martyrs’ crowns she looked,</l>
+               <l xml:id="line-158.2" n="316">And on the glory which is laid up for them after their sufferings;</l>
+            </lg>
+            <lg xml:id="section-159" n="159">
+               <l xml:id="line-159.1" n="317">And on the promised blessings which they inherit yonder through their afflictions,</l>
+               <l xml:id="line-159.2" n="318">And on the Son of God who clothes their limbs with light;</l>
+            </lg>
+            <lg xml:id="section-160" n="160">
+               <l xml:id="line-160.1" n="319">And on the manifold beauties of that kingdom which shall not be dissolved,</l>
+               <l xml:id="line-160.2" n="320">And on the ample door which is opened for them to enter in to God.</l>
+            </lg>
+            <lg xml:id="section-161" n="161">
+               <l xml:id="line-161.1" n="321">On these did the martyr’s mother look when he was being burned,</l>
+               <l xml:id="line-161.2" n="322">And she rejoiced, she exalted, and in white did she go forth with him.</l>
+            </lg>
+            <lg xml:id="section-162" n="162">
+               <l xml:id="line-162.1" n="323">She looked upon him while the fire consumed his frame,</l>
+               <l xml:id="line-162.2" n="324">And, forasmuch as his crown was very noble, she grieved not.</l>
+            </lg>
+            <lg xml:id="section-163" n="163">
+               <l xml:id="line-163.1" n="325">The sweet root was thrown into the fire, upon the coals;</l>
+               <l xml:id="line-163.2" n="326">And it turned to incense, and cleansed the air from pollution.</l>
+            </lg>
+            <lg xml:id="section-164" n="164">
+               <l xml:id="line-164.1" n="327">With the fumes of sacrifice had the air been polluted,</l>
+               <l xml:id="line-164.2" n="328">And by the burning of this martyr was it cleansed.</l>
+            </lg>
+            <lg xml:id="section-165" n="165">
+               <l xml:id="line-165.1" n="329">The firmament was fetid with the exhalations from<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/> the altars;</l>
+               <l xml:id="line-165.2" n="330">And there rose up the sweet perfume of the martyr, and it grew sweet thereby.</l>
+            </lg>
+            <lg xml:id="section-166" n="166">
+               <l xml:id="line-166.1" n="331">And the sacrifices ceased, and there was peace in the assemblies;</l>
+               <l xml:id="line-166.2" n="332">And the sword was blunted, that it should no more lay waste the friends of <persName>Christ</persName>.</l>
+            </lg>
+            <lg xml:id="section-167" n="167">
+               <l xml:id="line-167.1" n="333">With <persName>Sharbil</persName> it began, with <persName>Habib</persName> it ended, in our land;</l>
+               <l xml:id="line-167.2" n="334">And from that time<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/> even until now not one has it slain, since he was burned.</l>
+            </lg>
+            <lg xml:id="section-168" n="168">
+               <l xml:id="line-168.1" n="335">Constantine, chief of conquerors, took the empire,</l>
+               <l xml:id="line-168.2" n="336">And the cross has trampled on the diadem of the emperor, and is set upon his head.</l>
+            </lg>
+            <lg xml:id="section-169" n="169">
+               <l xml:id="line-169.1" n="337">Broken is the lofty horn of idolatry,</l>
+               <l xml:id="line-169.2" n="338">And from the burning of the martyr even until now not one has it pierced.</l>
+            </lg>
+            <lg xml:id="section-170" n="170">
+               <l xml:id="line-170.1" n="339">His smoke arose, and it became incense to the Godhead;</l>
+               <l xml:id="line-170.2" n="340">And by it was the air purged which was tainted by paganism,</l>
+            </lg>
+            <lg xml:id="section-171" n="171">
+               <l xml:id="line-171.1" n="341">And by his burning was the whole land cleansed:</l>
+               <l xml:id="line-171.2" n="342">Blessed be he that gave him a crown, and glory, and a good name!</l>
+            </lg>
+            <trailer>Here endeth the Homily on <persName>Habib</persName> the martyr, composed by Mar <persName>Jacob</persName>.</trailer>
+         </div>
+         <noteGrp>
+            <note xml:id="n1" target="#a1" n="1">The ms. from which this is taken is Cod. Add. 17,158, fol. 30 vers. Mar
+               Jacob, bishop of Sarug, or Batnae, was one of the most learned and celebrated among
+               all the Syriac writers. He was born a.d. 452, made bishop of Sarug a.d. 519, and died
+               a.d. 521. He was the author of several liturgical works, epistles, and sermons, and,
+               amongst these, of numerous metrical homilies, of which two are given here. Assemani
+               enumerates no less than 231. Ephraem Syrus also wrote a similar homily on Habib,
+               <persName>Shamuna</persName>, and <persName>Guria</persName>. The metre of the original in this and the following homily
+               consists of twelve syllables, and six dissyllabic feet; but whether they were read as
+               iambs ortroches, or as both, appears to depend on the nature of the Syriac
+               accentuation, which is still an unsettled question. Hoffmann, in his slight notice of
+               the subject (Gram. Syr., § 13), merely says: <quote><foreign xml:lang="la">Scimus, poësin Syriacam non quantitatis
+               sed accentus tantum rationem habere, versusque suos syllabarum numero metiri. Quâ
+               tamen poëseos Syriacae conditione varietas morarum in pronuntiandis vocalibus
+               observandarum non tollitur.</foreign></quote>—Tr.</note>
+            <note xml:id="n2" target="#a2" n="2">Lit. <quote>here and there.</quote>—Tr.</note>
+            <note xml:id="n3" target="#a3" n="3">Cureton has <quote>prosperous,</quote> which Dr. Payne Smith condemns, remarking:
+               <quote><foreign xml:lang="syr" dir="rtl">ܛܪܩܐ</foreign> I find generally used for the Gk. <foreign xml:lang="grc">ἄριστος</foreign>, and once or twice for <foreign xml:lang="grc">κράτιστος</foreign> . It
+               answers more frequently to <foreign xml:lang="la">strenuus</foreign> = courageous, heroic.</quote>—Tr.</note>
+            <note xml:id="n4" target="#a4" n="4">Lit. <hi rend="singleQuotes">the party</hi> or <hi rend="singleQuotes">side.</hi>—Tr.</note>
+            <note xml:id="n5" target="#a5" n="5">As in Gal. v. 7, answering to the Gk. <foreign xml:lang="grc">ἐγκόπτω</foreign>. The verb <foreign xml:lang="syr" dir="rtl">ܕܘܕ</foreign> (Pa.)
+               properly means to disquiet (as in John xiv. 1), then to hinder.—Tr.</note>
+            <note xml:id="n6" target="#a6" n="6">The ordinary word for <hi rend="singleQuotes">Christians</hi> in these documents is the borrowed
+               <foreign xml:lang="grc">Χριστιανοί</foreign> here a native word is used, formed from the one which we read as <hi rend="singleQuotes">Messiah.</hi>—Tr.</note>
+            <note xml:id="n7" target="#a7" n="7">A corruption of the word <foreign xml:lang="grc">σαμψηρά</foreign> is used here. It is said by Josephus,
+               Antiq., xx. 2, 3, to have been the name given by the Assyrians to some kind of sword.
+               Suidas mentions it as a barbarian word for <foreign xml:lang="grc">σπάθη</foreign>, a broadsword. Cureton’s <quote>scimetar</quote>
+               would be preferable, as being somewhat more distinctive, if it appeared that a
+               scimetar could have two edges.—Tr.</note>
+            <note xml:id="n8" target="#a8" n="8">The temptation was strong to render <foreign xml:lang="syr" dir="rtl">ܦܛܪ</foreign>, <quote>became unleavened</quote> (or,
+               <quote>tasteless</quote>), a sense apparently required by the decided figure employed and by the
+               language of the next couplet, where <quote>insipid</quote> corresponds to <quote>salt.</quote> The word <foreign xml:lang="syr" dir="rtl">ܦܛܝܪܐ</foreign> (=
+               <foreign xml:lang="grc">ἄζυμον</foreign>), moreover, if not the Arabic <foreign xml:lang="ar">فطر</foreign> (to which Schaaf, though it does not appear
+               on what authority, assigns the meaning <quote>sine fermento massam subegit</quote>), seems to
+               point in the same direction. Dr. Payne Smith, however, is not aware of any instance
+               of the proposed meaning: he says, <quote>My examples make <foreign xml:lang="syr" dir="rtl">ܦܛܪ</foreign> = <foreign xml:lang="grc">ἐκλείπω</foreign>, to
+               fail.</quote>—Tr.</note>
+            <note xml:id="n9" target="#a9" n="9">Or <hi rend="singleQuotes">brought to contempt.</hi>—Tr.</note>
+            <note xml:id="n10" target="#a10" n="10">Lit. <hi rend="singleQuotes">society.</hi>—Tr.</note>
+            <note xml:id="n11" target="#a11" n="11">Or <hi rend="singleQuotes">that his voice might cease.</hi>—Tr.</note>
+            <note xml:id="n12" target="#a12" n="12">Lit. <hi rend="singleQuotes">mooted.</hi>—Tr.</note>
+            <note xml:id="n13" target="#a13" n="13">Lit. <hi rend="singleQuotes">reached the king in great rage (i.e., so as to cause great rage,
+               <foreign xml:lang="syr" dir="rtl">ܒ</foreign> being often = <foreign xml:lang="grc">εἰς</foreign> denoting result), and, because…, he decreed.</hi>—Dr. Payne
+               Smith.</note>
+            <note xml:id="n14" target="#a14" n="14">Lit. <hi rend="singleQuotes">openness of countenance.</hi>—Tr.</note>
+            <note xml:id="n15" target="#a15" n="15">Prop. <hi rend="singleQuotes">agitate questions.</hi>—Tr.</note>
+            <note xml:id="n16" target="#a16" n="16">Or <hi rend="singleQuotes">deacon.</hi>—Tr.</note>
+            <note xml:id="n17" target="#a17" n="17">Or <hi rend="singleQuotes">so as to cease.</hi>—Tr.</note>
+            <note xml:id="n18" target="#a18" n="18">Lit. <hi rend="singleQuotes">he entered into bondage.</hi>—Tr.</note>
+            <note xml:id="n19" target="#a19" n="19">The <foreign xml:lang="la">equuleus</foreign> is meant.—Tr.</note>
+            <note xml:id="n20" target="#a20" n="20">Or <hi rend="singleQuotes">of the sacrifices.</hi>—Tr.</note>
+            <note xml:id="n21" target="#a21" n="21">Lit. <hi rend="singleQuotes">bitterly.</hi>—Tr.</note>
+            <note xml:id="n22" target="#a22" n="22">Jer. xvii. 5.—Tr.</note>
+            <note xml:id="n23" target="#a23" n="23">Lit. <hi rend="singleQuotes">side,</hi> or <hi rend="singleQuotes">party.</hi>—Tr.</note>
+            <note xml:id="n24" target="#a24" n="24">Lit. <hi rend="singleQuotes">the sacrifices of.</hi>—Tr.</note>
+            <note xml:id="n25" target="#a25" n="25">Lit. <hi rend="singleQuotes">from him.</hi>—Tr.</note>
+         </noteGrp>
+      </body>
+   </text>
+</TEI>
