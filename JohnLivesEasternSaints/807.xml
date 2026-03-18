@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" ref="http://syriaca.org/work/807">Two Monks</title>
+                <title level="s" ref="http://syriaca.org/work/9501">Lives of the Eastern Saints</title>
+                <author>
+                    <persName ref="http://syriaca.org/person/74">John of Ephesus</persName>
+                </author>
+                <editor role="translator">E. W. Brooks</editor>
+                <editor role="creator"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Syriaca.org: The Syriac Reference Portal</authority>
+                <idno type="URI"><!-- URI NEEDED --></idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0//">
+                        <p>This work is licensed under a Creative Commons Attribution 4.0 International
+                     License (CC BY 4.0).</p>
+                        <p>This work incorporates public domain material from the following work(s): <listBibl>
+                                <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                                <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                            </listBibl>
+                            <note type="license"> used under a Creative Commons Attribution license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                            </note>
+                        </p>
+                    </licence>
+                </availability>
+                <date>2026-03-02</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <seriesStmt>
+                <title>The Lives of the Eastern Saints</title>
+                <editor role="general"
+                        ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+                <idno type="syriacaWork">http://syriaca.org/work/9501</idno>
+            </seriesStmt>
+            <notesStmt>
+                <relatedItem type="previous">
+                    <ptr target="https://syriac-library/806"/>
+                </relatedItem>
+                <relatedItem type="next">
+                    <ptr target="https://syriac-library/808"/>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>John of Ephesus. Lives of the Eastern Saints. Translated and edited by E. W. Brooks.
+               Patrologia Orientalis 17–19. Firmin-Didot, 1923.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+         <!-- See spear/807.xml -->
+            <div type="work" xml:id="work-15" n="15">
+                <div type="section" xml:id="section-15">
+                    <head type="main">Next the Fifteenth History, of <persName>Two Brothers</persName> From the Self-
+                  Same Community, at the Same Time of Persecution.</head>
+                    <ab xml:id="section-15.1" n="1"> Great caution therefore is required of us, my brethren,
+                  to provide that we may escape from the craftiness of the evil one, and again, that
+                  we may fear the divine words (especially men who are highly reputed for modes of
+                  life or for knowledge), when they caution us and say: <quote>Let him that standeth
+                     take heed lest he fall</quote>.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+                  For the sake then of cautioning those who are running on the road of virtue, I
+                  have determined to commit to record an act also that is well worthy to be an
+                  object of great commiseration which the <pb type="vol" n="221"/><pb type="running" rend="brackets" n="221"/>fiends did to
+                  two brothers who were in truth running with all their strength in the way of
+                  virtue, and whom the fiends made such a laughing-stock that the like was never
+                  heard among men of older or of recent times. These blessed men therefore, that is
+                  one of them especially, who was called <persName ref="http://syriaca.org/person/1933">James</persName>,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> – this man employed himself in a marvellous way in the
+                  same community in great practices of standing and of watching and of abstinence
+                  and great quietude; and he came from <placeName ref="http://syriaca.org/place/1528">the convent called that of the
+                     Edessenes</placeName> adjoining <placeName ref="http://syriaca.org/place/2736">Amida</placeName> itself.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> And
+                  this brother was so laborious and humble and meek that these seven hundred men<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> were all amazed at his labours, and
+                  at his asceticism; so that I also was with him on the weekly duties,<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and particularly marvelled at his
+                  gentleness and his quietude, and further at the way in which he crucified his body
+                  by night and by day. This man then had many who for the purpose of imitating his
+                  modes of life used to attach themselves to him and keep themselves close to him.
+                  And, while he was of <pb type="vol" n="222"/><pb type="running" rend="brackets" n="222"/>this character, as God himself
+                  knows, possessed persons were found to come outside the gate, and wail before him,
+                  and say: <quote>
+                            <persName ref="http://syriaca.org/person/1933">James</persName>
+                     drives us out, and it is he who expels us</quote>. When he and many besides
+                  heard these things, they continued laughing at these demons, and saying:
+                     <quote>See these evil beings, how they deceive and mock</quote>. Then the great
+                  seniors who were there, inasmuch as they knew the craftiness of the demons,
+                  commanded that they should be driven from the place. But they contended the more
+                  and said, <quote>
+                            <persName ref="http://syriaca.org/person/1933">James</persName>
+                     bound us and brought us here; and we cannot depart before he releases
+                     us</quote>, while they had not seen <persName ref="http://syriaca.org/person/1933">James</persName> at all. Then they came
+                  in, and say to him: <quote>Release these fiend-possessed persons that they may go
+                     hence, since they are pestering us</quote>. But he crossed himself, and said:
+                     <quote>What is it that you say, my brethren, since I do not understand
+                     it?</quote> But they continued in the same way to press him to go out and make
+                  the sign over them, saying: <quote>Perhaps these souls will receive
+                     deliverance</quote>. While he on his side continued declining and repudiating
+                  this proposal, they on the other hand continued to press bim the more to do this,
+                     <quote>that they may only <pb type="vol" n="223"/><pb type="running" rend="brackets" n="223"/>depart hence</quote>. And,
+                  when under great pressure he went out, these persons saw him, and began to foam;
+                  and he came up and made the sign over them, and immediately these persons were
+                  healed from that hour, and they departed. And thenceforth a multitude used to
+                  repair thither foaming, men and women, and boys and girls, and all ages; and from
+                  that time he was under the necessity (<foreign xml:lang="grc">άνάγκη</foreign>) of
+                  going out. But he on his side would go out to a certain small martyrs' chapel
+                  outside the gate, and would fill it; and he would put them to silence and drive
+                  them out one by one; and the persons from whom they came out no longer suffered
+                  from them. And thus he would drive them out in countless numbers; and they would
+                  come outside and cause annoyance, and cry out. And, if it was not in his power to
+                  come out, he would send them an order to go and lie down in that martyrs' chapel
+                  till he came out. And thus they would go away foaming, and would lie down there;
+                  and, if he waited two days, none of them dared to stretch himself out or to remove
+                  from the place till he came out. But, when the numbers of those who used to come
+                  there and cause annoyance increased, there were agitations there against this
+                  blessed man, both on the part of the inmates of his monastery <pb type="vol" n="224"/><pb type="running" rend="brackets" n="224"/>and also on the part of others; and accordingly he wished to give up
+                  this business, and could not, on account of the multitude who used to come. And in
+                  consequence of such annoyances it became necessary (<foreign xml:lang="grc">άνάγκη</foreign>) for him to withdraw from the community; and so he withdrew
+                  under the instigation (I believe) of the demons themselves, in company with the
+                  other who was attached to him, and they set out, and went in the direction of
+                     Hamimtha,<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> to a certain village
+                  called <placeName ref="http://syriaca.org/place/2754">Beth Musika</placeName>;<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> and they had a certain monastery
+                  that was there given to them, and they resided in it. And in a similar way again
+                  there also multitudes began to flock together to them; and then also the blessed
+                     <persName ref="http://syriaca.org/person/1933">James</persName> would again
+                  command them authoritatively, and by means of his word demons without number were
+                  expelled. Then the evil one, who by means of his crafty tricks finds methods of
+                  deceiving men, contrived a method of making a mockery of these blessed men. One
+                  night, when the possessed persons were assembled there, there was also a certain
+                  young woman there of whom he had taken possession, who was also of worldly
+                     appearance.<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> Her accordingly the
+                  demons took, and they clothed <pb type="vol" n="225"/><pb type="running" rend="brackets" n="225"/>her in awe-striking forms
+                  of phantasmal<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> rays; and they led
+                  her up and seated her on the bishops' throne (<foreign xml:lang="grc">θρόνος</foreign>), which is usually placed in the churches or in the chief
+                  martyrs' chapels on the dais (<foreign xml:lang="grc">κατάστρωμα</foreign>) of the
+                  altar. Then they filled the whole martyrs' chapel again with phantasmal<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> forms, as if forsooth they were
+                  angels of God; and some of them flew away and entered the chapel<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> where the blessed men were sleeping;
+                  and there also as well they emitted rays with the appearance of light, according
+                  to the text <quote>maketh himself like an angel of light</quote>.<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> And they roused the blessed men and
+                  urged them to haste, hastily alarming them and saying, <quote>Take incense,
+                     incense, and haste to the martyrs' chapel; for <persName ref="http://syriaca.org/person/624">the holy Mary the God-bearer</persName>
+                     has been sent to you, with a great host of angels; and she has sent us for you,
+                     come straightway</quote>. But the blessed men were terrified by the sight, not
+                  perceiving the craftiness of the evil one; and they hurriedly took incense and
+                  spices, and ran to the martyrs' chapel; and on entering they found the whole house
+                  full of phantasmal<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> forms, in the
+                  semblance forsooth of angels <pb type="vol" n="226"/><pb type="running" rend="brackets" n="226"/>of brilliant light, and the
+                  woman moreover sitting on the throne (<foreign xml:lang="grc">θρόνος</foreign>),
+                  and a semblance of light flashing from her; and their wits were yet more taken
+                  from them by reason of their agitation, and they fell on their faces. Then (it is
+                  said) she that was sitting commanded them<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> to approach and raise them up; and the fiends approached and took hold
+                  of their hands, and they say to them: <quote>Rise, for she has commanded you; and
+                     approach, and make obeisance to her</quote>. And they on their part rose
+                  smitten with fear and robbed of their wits by the sight; and they approached and
+                  made obeisance on their faces, as if they supposed that they saw a genuine sight.
+                  But that young woman, being unaware even herself of what had happened, spoke with
+                  them (that is, the fiend spoke in her), and said to them: <quote>Come, approach
+                     me, and fear not. I myself am <persName ref="http://syriaca.org/person/624">Mary the Mother of Christ</persName>; and my Son sent me to you, because he
+                     saw your righteousness and your love toward him, and that you are perfect in
+                     your modes of life; and he commanded me to ordain you, and that you should
+                     receive the priesthood from me because of your virtuousness. But come approach
+                     and receive it</quote>. But they, inasmuch as they supposed that they had in
+                  truth been granted some heavenly privilege <pb type="vol" n="227"/><pb type="running" rend="brackets" n="227"/>beyond other
+                  men, approached, and bowed their heads; and she rose, and laid her hand upon the
+                  heads of both of them, and said to them: <quote>You have both received from me the
+                     presbyterate. You have been made presbyters, perform the functions of your
+                     priesthood</quote>. When the fiends had done this, a sound of great laughter
+                  was heard in the air (<foreign xml:lang="grc">άήρ</foreign>), since the demons
+                  were saying, <quote>Those who used to drive us out have to-day become as they
+                     supposed great</quote>. And at the same cry that girl was stripped of the
+                  phantasms (<foreign xml:lang="grc">φαντασίας</foreign>), and it was found that it
+                  was a girl who was a Greek who was sitting on the throne (<foreign xml:lang="grc">θρόνος</foreign>), and it was she who had done these things. When these men
+                  saw what had happened to them and came to their senses, they continued beating on
+                  their faces and saying: <quote>Woe to us! what has happened to us? Anything like
+                     this deceit never happened to men before. What to do, we know not</quote>. But,
+                  when they brought that young woman down from the throne (<foreign xml:lang="grc">θρόνος</foreign>), she continued laughing at them at the instigation of the
+                  demon and saying: <quote>What has come to you? Why are you troubled?</quote> . But
+                  they on their side resolved to find means of subjecting their case to the cure of
+                  penitence; and they left that place, weeping and sobbing at what had <pb type="vol" n="228"/><pb type="running" rend="brackets" n="228"/>happened to them, and they went down to <placeName ref="http://syriaca.org/place/762">Marde</placeName> to the holy <persName ref="http://syriaca.org/person/50">John</persName> bishop of
+                     <placeName>Thella</placeName>,<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/>
+                  who ended his life in the conflicts (<foreign xml:lang="grc">άγών</foreign>) of
+                  persecution for Christ's sake. And, when they informed him of the affair, even the
+                  blessed man also marvelled at the wily, crafty artfulness of the rebellious evil
+                  beings. But he received them, and laid upon them three years' penance, and then
+                  they were to be admitted to communion. And from that time again they led even more
+                  severe lives than before, with sorrow and tears, until they attained to their
+                  former standing, and were admitted to the communion that is obtained by
+                  absolution. These things which we have written we have not received through
+                  hearsay, but they are all matters which were enacted in our knowledge and in our
+                  presence and before our eyes,<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> and
+                  we have brought comparatively few of them to the record of writing on account of
+                  the length of the narrative, that a man who is granted any gift may be especially
+                  cautious against the craft of the adversary, who uses all artifices in plotting to
+                  deceive. </ab>
+                </div>
+                <div type="trailer" xml:id="trailer-15">
+                    <ab xml:id="trailer-15.1" n="2"> The history of <persName>two brothers</persName> from the
+                  selſsame community at the same time of persecution is ended. </ab>
+                </div>
+            </div>
+            <noteGrp>
+                <note xml:id="n1" target="#a1" n="1">
+                    <choice>
+                        <reg/>
+                        <orig>p. 220, n. 1</orig>
+                    </choice>I Cor., X, 12.</note>
+                <note xml:id="n2" target="#a2" n="2">
+                    <choice>
+                        <reg/>
+                        <orig>p. 221, n. 1</orig>
+                    </choice>The sentence is here broken off.</note>
+                <note xml:id="n3" target="#a3" n="3">
+                    <choice>
+                        <reg/>
+                        <orig>p. 221, n. 2</orig>
+                    </choice>B Marg. <hi rend="singleQuotes">All these are sons of Mar Eugenius the
+                  Egyptian. Let him who reads pray for the sinner who restored it.</hi>
+                </note>
+                <note xml:id="n4" target="#a4" n="4">
+                    <choice>
+                        <reg/>
+                        <orig>p. 221, n. 3</orig>
+                    </choice>See p. 214.</note>
+                <note xml:id="n5" target="#a5" n="5">
+                    <choice>
+                        <reg/>
+                        <orig>p. 221, n. 4</orig>
+                    </choice>The duties of the <foreign>hebdomadarii</foreign>; see p. 62, n. 2, and ch.
+               35.</note>
+                <note xml:id="n6" target="#a6" n="6">
+                    <choice>
+                        <reg/>
+                        <orig>p. 224, n. 1</orig>
+                    </choice>Hot spring or <hi rend="singleQuotes">hot bath</hi>; see 'Zach Rh.', XII,
+               6.</note>
+                <note xml:id="n7" target="#a7" n="7">
+                    <choice>
+                        <reg/>
+                        <orig>p. 224, n. 2</orig>
+                    </choice>
+                    <hi rend="singleQuotes">House of mosaic</hi>(?); cf. Theoph. Cont. p. 146,
+               l. 7, where <foreign xml:lang="grc">μουσικός</foreign> has this meaning.</note>
+                <note xml:id="n8" target="#a8" n="8">
+                    <choice>
+                        <reg/>
+                        <orig>p. 224, n. 3</orig>
+                    </choice>This seems to mean <hi rend="singleQuotes">smartly dressed</hi>; cf. ch.
+               44.</note>
+                <note xml:id="n9" target="#a9" n="9">
+                    <choice>
+                        <reg/>
+                        <orig>p. 225, n. 1</orig>
+                    </choice>Of <foreign xml:lang="grc">φαντασία</foreign>.</note>
+                <note xml:id="n10" target="#a10" n="10">
+                    <choice>
+                        <reg/>
+                        <orig>p. 225, n. 2</orig>
+                    </choice>Lit. <hi rend="singleQuotes">house of service</hi>. i. e. the private chapel
+               of monastery, different from the martyrs' chapel (<hi rend="singleQuotes">house of
+                  martyrs</hi>). At p. 204 also we find monks sleeping in the chapel.</note>
+                <note xml:id="n11" target="#a11" n="11">
+                    <choice>
+                        <reg/>
+                        <orig>p. 225, n. 3</orig>
+                    </choice>II Cor., XI, 14.</note>
+                <note xml:id="n12" target="#a12" n="12">
+                    <choice>
+                        <reg/>
+                        <orig>p. 225, n. 1</orig>
+                    </choice>Of <foreign xml:lang="grc">φαντασία</foreign>.</note>
+                <note xml:id="n13" target="#a13" n="13">
+                    <choice>
+                        <reg/>
+                        <orig>p. 226, n. 1</orig>
+                    </choice>Sc. the demons.</note>
+                <note xml:id="n14" target="#a14" n="14">
+                    <choice>
+                        <reg/>
+                        <orig>p. 228, n. 1</orig>
+                    </choice>Constantina. John's life is given below (ch. 24). See Severus, Selected
+               Letters, V, 14, 15, from which it appears that he was not at Marde after 527 (see p.
+               395 ad fin. and transl., p. 358, note).</note>
+                <note xml:id="n15" target="#a15" n="15">
+                    <choice>
+                        <reg/>
+                        <orig>p. 228, n. 2</orig>
+                    </choice>I cannot reconcile this with the fact that the central event happened in a
+               distant monastery. Moreover the word (text, p. 226, l. 3) indicates that the author
+               is not speaking at first hand.</note>
+            </noteGrp>
+        </body>
+    </text>
+</TEI>
