@@ -8,8 +8,34 @@
                 <title xml:lang="en" level="m" ref="http://syriaca.org/work/225"> The Acts of Sharbil </title>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <authority>Syriaca.org: The Syriac Reference Portal</authority>
+                <idno type="URI"><!-- URI NEEDED --></idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0//">
+                        <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                        <p>This work incorporates public domain material from the following work(s): 
+                            <listBibl>
+                                <bibl>
+                                    <!-- What goes here and what goes in the sourceDesc? -->
+                                </bibl>
+                                <bibl>
+                                    <!-- What goes here and what goes in the sourceDesc? -->
+                                </bibl>
+                            </listBibl>
+                            <note type="license">
+                                used under a Creative Commons Attribution license 
+                                <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                            </note>
+                        </p>
+                    </licence>
+                </availability>
+                <date>2026-03-02</date>
             </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
             <sourceDesc>
                 <p>ANF, Vol. VIII -- Translation in the public domain.</p>
                 <p>Original transcription of the text downloaded from Wikisource on 9/15/2024: <ref
