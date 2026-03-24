@@ -2,458 +2,713 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="en" level="m" ref="http://syriaca.org/work/227">Guria and Shamuna</title>
-            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Syriaca.org: The Syriac Reference Portal</authority>
-            <idno type="URI"><!-- URI NEEDED --></idno>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0//">
-                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
-                  <p>This work incorporates public domain material from the following work(s): 
-                     <listBibl>
-                        <bibl>
-                           <!-- What goes here and what goes in the sourceDesc? -->
-                        </bibl>
-                        <bibl>
-                           <!-- What goes here and what goes in the sourceDesc? -->
-                        </bibl>
-                     </listBibl>
-                     <note type="license">
-                        used under a Creative Commons Attribution license 
-                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
-                     </note>
-                  </p>
-               </licence>
-            </availability>
-            <date>2026-03-02</date>
-         </publicationStmt>
-         <seriesStmt>
-            <title><!--The Syriac Library--></title>
-            <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
-            <idno type="URI"><!-- URI NEEDED! --></idno>
-         </seriesStmt>
-         <sourceDesc>
-            <p>ANF, Vol. VIII -- Translation in the public domain.</p>
-            <p>Original transcription of the text downloaded from Wikisource on 9/15/2024: <ref
-                  target="https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VIII/Memoirs_of_Edessa_And_Other_Ancient_Syriac_Documents/Homilies,_Composed_by_Mar_Jacob/Homily_on_Guria_and_Shamuna"
-                  >
-                  https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VIII/Memoirs_of_Edessa_And_Other_Ancient_Syriac_Documents/Homilies,_Composed_by_Mar_Jacob/Homily_on_Guria_and_Shamuna
-               </ref>. This Wikisource transcription was made available under a <ref
-                  target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-                  Attribution-ShareAlike License</ref></p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div>
-            <head>A Homily on <persName>Guria</persName> and <persName>Shamuna</persName>, Composed by Mar <persName>Jacob</persName>.</head>
-         <l><persName>Shamuna</persName> and <persName>Guria</persName>, martyrs who made themselves illustrious in their afflictions,</l>
-         <l>Have in love required of me to tell of their illustrious deeds.</l>
-         <l>To champions of the faith the doctrine calleth me,</l>
-         <l>That I should go and behold their contests and their crowns.</l>
-         <l>Children of the right hand, who have done battle against the left,</l>
-         <l>Have called me this day to recite the marvellous tale of their conflicts:—</l>
-         <l>Simple old men, who entered into the fight like heroes,</l>
-         <l>And nobly distinguished themselves in the strife of blood:</l>
-         <l>Those who were the salt of our land, and it was sweetened thereby,</l>
-         <l>And its savour was restored, which had become insipid through unbelief:</l>
-         <l>Candlesticks of gold, which were full of the oil of the crucifixion,</l>
-         <l>By which was lighted up all our region, which had turned to darkness:</l>
-         <l>Two lamps, of which, when all the winds were blowing</l>
-         <l>Of every kind of error, the lights were not put out;</l>
-         <l>Good labourers, who from the spring of day laboured</l>
-         <l>In the blessed vineyard of the house of God right duteously:</l>
-         <l>Bulwarks of our land, who became to us as it were a defence</l>
-         <l>Against all spoilers in all the wars that surrounded us:</l>
-         <l>Havens of peace, a place also of retreat for all that were distressed,</l>
-         <l>And a resting-place for the head of every one that was in need of succour:</l>
-         <l>Two precious pearls, which were</l>
-         <l>An ornament for the bride of my lord <persName>Abgar</persName>, the <persName>Aramaean</persName>’s son.</l>
-         <l>Teachers they were who practised their teaching in blood,</l>
-         <l>And whose faith was known by their sufferings.</l>
-         <l>On their bodies they wrote the story of the Son of God</l>
-         <l>With the marks of combs and scourges which thickly covered them.</l>
-         <l>They showed their love, not by words of the mouth alone,</l>
-         <l>But by tortures and by the rending of their limbs asunder.</l>
-         <l>For the love of the Son of God they gave up their bodies:</l>
-         <l>Since it beseemeth the lover that for his love he should give up himself.</l>
-         <l>Fire and sword proved their love, how true it was;</l>
-         <l>And more beautiful than silver tried in a furnace of earth were their necks.</l>
-         <l>They looked on God, and, because they saw His exalted beauties,</l>
-         <l>Therefore did they look with contempt upon their sufferings for His sake.</l>
-         <l>The Sun of righteousness had arisen in their hearts;</l>
-         <l>And they were enlightened by it, and with His light chased they away the darkness.</l>
-         <l>At the idols of vanity, which error had brought in, they laughed,</l>
-         <l>Instinct with the faith of the Son of God which is full of light.</l>
-         <l>The love of the Lord was as a fire in their hearts;</l>
-         <l>Nor could all the brambles of idolatry stand before it.</l>
-         <l>Fixed was their love on God unchangeably:<ptr type="noteAnchor" target="#n1"/></l>
-         <l>And therefore did they look with scorn upon the sword,<ptr type="noteAnchor" target="#n2"/> all athirst as it was for
-            blood.</l>
-         <l>With guilelessness and yet with wisdom stood they in the judgment-hall,</l>
-         <l>As they had been commanded by the Teacher of that which is true.</l>
-         <l>Despising as they did kindred and family, guileless were they;</l>
-         <l>Forasmuch, also, as possessions and wealth were held in no account by them.</l>
-         <l>Nor guileless only: for in the judgment-hall with the wisdom of serpents too</l>
-         <l>They were heedful of the faith of the house of God.</l>
-         <l>When a serpent is seized and struck, he guards his head,</l>
-         <l>But gives up and leaves exposed all his body to his captors:</l>
-         <l>And, so long as his head is kept from harm, his life abideth in him;</l>
-         <l>But, if the head be struck, his life is left a prey to destruction.</l>
-         <l>The head of the soul is men’s faith;</l>
-         <l>And, if this be preserved unharmed, by it is also preserved their life:<ptr type="noteAnchor" target="#n3"/></l>
-         <l>Even though the whole body be lacerated with blows,</l>
-         <l>Yet, so long as faith is preserved, the soul is alive;</l>
-         <l>But, if faith is struck down by unbelief,</l>
-         <l>Lost is the soul, and life has perished from the man.</l>
-         <l><persName>Shamuna</persName> and <persName>Guria</persName> of the faith as men<ptr type="noteAnchor" target="#n4"/></l>
-         <l>Were heedful, that it should not be struck down by persecutors:</l>
-         <l>For they knew that, if faith is preserved,</l>
-         <l>Both soul and body are preserved from destruction.</l>
-         <l>And, because of this, touching their faith were they solicitous,</l>
-         <l>That that should not be struck down in which their very life was hidden.</l>
-         <l>They gave up their bodies both to blows and to dislocation,<ptr type="noteAnchor" target="#n5"/></l>
-         <l>Yea to every kind of torture, that their faith should not be stricken down;</l>
-         <l>And, even as the serpent also hides his head from blows,</l>
-         <l>So hid they their faith within their hearts;</l>
-         <l>And the body was smitten, and endured stripes, and bore sufferings:</l>
-         <l>But overthrown was not their faith which was within their hearts.</l>
-         <l>The mouth betrayeth the soul to death when it speaks,</l>
-         <l>And with the tongue, as with a sword, worketh slaughter.</l>
-         <l>And from it spring up both life and death to men:</l>
-         <l>Denying a man dies, confessing he lives, and the mouth hath power over it.</l>
-         <l>Denial is death, and in confession is the soul’s life;</l>
-         <l>And power hath the mouth over them both, like a judge.</l>
-         <l>The word of the mouth openeth the door for death to enter in;</l>
-         <l>This, too, calleth for life, and it beameth forth upon the man.</l>
-         <l>Even the robber by one word of faith</l>
-         <l>Won him the kingdom, and became heir of paradise,<ptr type="noteAnchor" target="#n6"/> all fraught with blessings.</l>
-         <l>The wicked judges too, from the martyrs, the sons of the right hand,</l>
-         <l>Demanded that by word of mouth only they should blaspheme;</l>
-         <l>But, like true men holding fast the faith,</l>
-         <l>They uttered not a word by which unbelief might be served.</l>
-         <l><persName>Shamuna</persName>, beauty of our faith, who is adequate to tell of thee?</l>
-         <l>All too narrow is my mouth for thy praise, too mean for thee to be spoken of by it.</l>
-         <l>Thy truth is thy beauty, thy crown thy suffering, thy wealth thy stripes,</l>
-         <l>And by reason of thy blows magnificent is the beauty of thy championship.</l>
-         <l>Proud of thee is our country, as of a treasury which is full of gold:</l>
-         <l>Since wealth art thou to us, and a coveted store which cannot be stolen from us.</l>
-         <l><persName>Guria</persName>, martyr, staunch hero of our faith,</l>
-         <l>Who shall suffice thee, to recount thy beauties divine?</l>
-         <l>Lo! tortures on thy body are set like gems of beryl,</l>
-         <l>And the sword on thy neck like a chain of choice gold.</l>
-         <l>Thy blood upon thy form is a robe of glory full of beauty,</l>
-         <l>And the scourging of thy back a vesture with which the sun may not compare.</l>
-         <l>Radiant thou art and comely by virtue of these thy sufferings, so abounding;</l>
-         <l>And resplendent are thy beauties, because of the pains which are so severe upon
-            thee.</l>
-         <l><persName>Shamuna</persName>, our riches, richer art thou than the rich:</l>
-         <l>For lo! the rich stand at thy door, that thou mayest relieve them.</l>
-         <l>Small thy village, poor thy country: who, then, gave thee</l>
-         <l>That lords of villages and cities should court thy favour?</l>
-         <l>Lo! judges in their robes and vestments</l>
-         <l>Take dust from thy threshold, as though it were the medicine of life.</l>
-         <l>The cross is rich, and to its worshippers increaseth riches;</l>
-         <l>And its poverty despiseth all the riches of the world.</l>
-         <l><persName>Shamuna</persName> and <persName>Guria</persName>, sons of the poor, lo! at your doors</l>
-         <l>Bow down the rich, that they may receive from you supplies for their wants.</l>
-         <l>The Son of God in poverty and want</l>
-         <l>Showed to the world that all its riches are as nothing,</l>
-         <l>His disciples, all fishermen, all poor, all weak,</l>
-         <l>All men of little note, became illustrious through His faith.</l>
-         <l>One fisherman, whose <quote>village</quote> too was a home of fishermen,<ptr type="noteAnchor" target="#n7"/></l>
-         <l>He made chief over the twelve, yea head of the house.<ptr type="noteAnchor" target="#n8"/></l>
-         <l>One a tentmaker, who aforetime was a persecutor,</l>
-         <l>He seized upon, and made him a chosen vessel for the faith.</l>
-         <l><persName>Shamuna</persName> and <persName>Guria</persName> came from villages that were not wealthy,</l>
-         <l>And lo! in a great city became they lords;</l>
-         <l>And its chief men, its judges also, stand before their doors,</l>
-         <l>And they solicit their charity to satisfy their wants.</l>
-         <l>From their confession of the faith of the Son of God</l>
-         <l>These blessed men acquired riches beyond compute.</l>
-         <l>Poor did He Himself become, and the poor made He rich;</l>
-         <l>And lo! enriched is the whole creation through His poverty.</l>
-         <l>The chosen martyrs did battle against error,</l>
-         <l>And in the confession of the Son of God stood they firm like valiant men.</l>
-         <l>They went in and confessed Him before the judge with look undaunted,<ptr type="noteAnchor" target="#n9"/></l>
-         <l>That He too might confess them, even as they confessed Him, before His Father.</l>
-         <l>There arose against them the war of pagans like a tempest;</l>
-         <l>But the cross was their helmsman, and steered them on.</l>
-         <l>They were required to sacrifice to lifeless images,</l>
-         <l>But they departed not from their confession of the Son of God.</l>
-         <l>The wind of idolatry blew in their faces,</l>
-         <l>But they themselves were as rocks piled up against the hurricane.</l>
-         <l>Like a swift whirlwind, error snatched at them;</l>
-         <l>But, forasmuch as they were sheltered by the crucifixion, it hurt them not.</l>
-         <l>The Evil One set on all his dogs to bark, that they might bite them;</l>
-         <l>But, forasmuch as they had the cross for a staff, they put them all to flight.</l>
-         <l>But who is sufficient to tell of their contests,</l>
-         <l>Or their sufferings, or the rending asunder of their limbs?</l>
-         <l>Or who can paint the picture of their coronation,<ptr type="noteAnchor" target="#n10"/></l>
-         <l>How they went up from the contest covered with glory?</l>
-         <l>To judgment they went in, but of the judge they took no account;</l>
-         <l>Nor were they anxious what they should say when questioned.</l>
-         <l>The judge menaced them, and multiplied his words of threatening;</l>
-         <l>And recounted tortures and all kinds of inflictions, that he might terrify them.</l>
-         <l>He spake great words,<ptr type="noteAnchor" target="#n11"/> that by fright and intimidation,</l>
-         <l>By menaces too, he might incline them to sacrifice.</l>
-         <l>Yet the combatants despised the menaces, and the intimidations,</l>
-         <l>And the sentence of judgment, and all bodily deaths;</l>
-         <l>And they prepared themselves for insult and stripes, and for blows,</l>
-         <l>And for provocation, and to be dragged along, and to be burnt;</l>
-         <l>For imprisonment also, and for bonds, and for all evil things,</l>
-         <l>And for all tortures, and for all sufferings, rejoicing all the while.</l>
-         <l>They were not alarmed nor affrighted, nor dismayed,</l>
-         <l>Nor did the sharpness of the tortures bend them to sacrifice.</l>
-         <l>Their body they despised, and as dung upon the ground accounted they it:</l>
-         <l>For they knew that, the more it was beaten, the more would its beauty increase;</l>
-         <l>And, the more the judge increased his menaces to alarm them,</l>
-         <l>The more did they show their contempt of him, having no fear of his threats.</l>
-         <l>He kept telling them what tortures he had prepared for them;</l>
-         <l>And they continued telling him about <placeName>Gehenna</placeName> which was reserved for him.</l>
-         <l>By those things which he told them he tried to frighten them to sacrifice;</l>
-         <l>And they spoke to him about the fearful judgment yonder.</l>
-         <l>Truth is wiser than wise words,</l>
-         <l>And very hateful, however much it may be adorned, is falsehood.</l>
-         <l><persName>Shamuna</persName> and <persName>Guria</persName> went on speaking truth,</l>
-         <l>While the judge continued to utter falsehood.</l>
-         <l>And therefore were they not afraid of his threatening,</l>
-         <l>Because all his menaces against the truth were accounted by them as empty sound.<ptr type="noteAnchor" target="#n12"/></l>
-         <l>The intercourse of the world they despised, they contemned and scorned, yea they
-            abandoned;</l>
-         <l>And to return to it they had no wish, or to enter it again.</l>
-         <l>From the place of judgment they set their faces to depart</l>
-         <l>To that meeting-place for them all, the life of the new world.</l>
-         <l>They cared neither for possessions nor for houses,</l>
-         <l>Nor for the advantages of this world, so full of evil.</l>
-         <l>In the world of light was their heart bound captive with God,</l>
-         <l>And to “that” country did they set their face to depart;</l>
-         <l>And they looked to the sword, to come and be a bridge</l>
-         <l>To let them pass over to God, for whom they were longing.</l>
-         <l>This world they accounted as a little tent,</l>
-         <l>But that yonder as a city full of beauties;</l>
-         <l>And they were in haste by the sword to depart hence</l>
-         <l>To the land of light, which is full of blessing for those who are worthy of it.</l>
-         <l>The judge commanded to hang them up by their arms,</l>
-         <l>And without mercy did they stretch them out in bitter agony.</l>
-         <l>A demon’s fury breathed rage into the heart of the judge,</l>
-         <l>And embittered him against the stedfast ones, inciting him to crush them;</l>
-         <l>And between the height and the depth he stretched them out to afflict them:</l>
-         <l>And they were a marvel to both sides, when they saw how much they endured.</l>
-         <l>At the old men’s frame heaven and earth marvelled,</l>
-         <l>To see how much suffering it bore nor cried out for help under their affliction.</l>
-         <l>Hung up and dragged along are their feeble bodies by their arms,</l>
-         <l>Yet is there deep silence, nor is there one that cries out for help or that murmurs.</l>
-         <l>Amazed were all who beheld their contests,</l>
-         <l>To see how calmly the outstretched forms bore the inflictions laid upon them.<ptr type="noteAnchor" target="#n13"/></l>
-         <l>Amazed too was <persName>Sata</persName>n at their spotless frames,</l>
-         <l>To see what weight of affliction they sustained without a groan.</l>
-         <l>Yea, and gladdened too were the angels by that fortitude of theirs,</l>
-         <l>To see how patiently it bore that contest so terrible that was.</l>
-         <l>But, as combatants who were awaiting their crowns,</l>
-         <l>There entered no sense of weariness into their minds.</l>
-         <l>Nay, it was the judge that grew weary; yea, he was astonished:</l>
-         <l>But the noble men before him felt no weariness in their afflictions.</l>
-         <l>He asked them whether they would consent to sacrifice;</l>
-         <l>But the mouth was unable to speak from pain.</l>
-         <l>Thus did the persecutors increase their inflictions,</l>
-         <l>Until they gave no place for the word to be spoken.</l>
-         <l>Silent was the mouth from the inflictions laid on their limbs;</l>
-         <l>But the will, like that of a hero, was nerved with fortitude from itself.</l>
-         <l>Alas for the persecutors! how destitute were they of righteousness!</l>
-         <l>But the children of light—how were they clad in faith!</l>
-         <l>They demand speech, when there is no place for speaking,</l>
-         <l>Since the word of the mouth was forbidden them by pain.</l>
-         <l>Fast bound was the body, and silent the mouth, and it was unable</l>
-         <l>To utter the word when unrighteously questioned.</l>
-         <l>And what should the martyr do, who had no power to say,</l>
-         <l>When he was questioned, that he would not sacrifice?</l>
-         <l>All silent were the old men full of faith,</l>
-         <l>And from pain they were incapable of speaking.</l>
-         <l>Yet questioned they were: and in what way, if a man is silent</l>
-         <l>When he is questioned, shall he assent to that which is said?</l>
-         <l>But the old men, that they might not be thought to assent,</l>
-         <l>Expressed clearly by signs the word which it behoved them to speak.</l>
-         <l>Their heads they shook, and, instead of speech, by a dumb sign they showed</l>
-         <l>The resolve of the new man that was within.</l>
-         <l>Their heads hung down, signifying amidst their pains</l>
-         <l>That they were not going to sacrifice, and every one understood their meaning.</l>
-         <l>As long as there was in them place for speech, with speech did they confess;</l>
-         <l>But, when it was forbidden them by pain, they spake with a dumb sign.</l>
-         <l>Of faith they spoke both with the voice and without the voice:</l>
-         <l>So that, when speaking and also when silent, they were alike stedfast.</l>
-         <l>Who but must be amazed at the path of life, how narrow it is,</l>
-         <l>And how straight to him that desires to walk in it?</l>
-         <l>Who but must marvel to see that, when the will is watchful and ready,</l>
-         <l>It is very broad and full of light to him that goeth therein?</l>
-         <l>About the path are ditches; full also is it of pitfalls;</l>
-         <l>And, if one turn but a little aside from it, a ditch receives him.</l>
-         <l>That dumb sign only is there between the right and the left,</l>
-         <l>And on <quote>Yea</quote> and <quote>Nay</quote> stand<ptr type="noteAnchor" target="#n14"/> sin and righteousness.</l>
-         <l>By a dumb sign only did the blessed men plainly signify that they would not
-            sacrifice,</l>
-         <l>And in virtue of a single dumb sign did the path lead them to <placeName>Eden</placeName>;</l>
-         <l>And, if this same dumb sign had inclined and turned down but a little</l>
-         <l>Toward the depth, the path of the old men would have been to <placeName>Gehenna</placeName>.</l>
-         <l>Upwards they made a sign, to signify that upwards were they prepared to ascend;</l>
-         <l>And in consequence of that sign they ascended and mingled with the heavenly ones.</l>
-         <l>Between sign and sign were Paradise and <placeName>Gehenna</placeName>:</l>
-         <l>They made a sign that they would not sacrifice, and they inherited the place of the
-            kingdom.</l>
-         <l>Even while they were silent they were advocates for the Son of God:</l>
-         <l>For not in multitude of words doth faith consist.</l>
-         <l>That fortitude of theirs was a full-voiced confession,</l>
-         <l>And as though with open mouth declared they their faith by signs;</l>
-         <l>And every one knew what they were saying, though silent,</l>
-         <l>And enriched and increased was the faith of the house of God;</l>
-         <l>And error was put to shame by reason of two old men, who, though they spake not,</l>
-         <l>Vanquished it; and they kept silence, and their faith stood fast.</l>
-         <l>And, though tempestuous accents were heard from the judge,</l>
-         <l>And the commands of the emperor were dreadful, yea violent,</l>
-         <l>And paganism had a bold face and an open mouth,</l>
-         <l>And its voice was raised, and silent were the old men with pain,</l>
-         <l>Yet null and void became the command and drowned was the voice of the judge,</l>
-         <l>And without speech the mute sign of the martyrs bore off the palm.</l>
-         <l>Talking and clamour, and the sound of stripes, on the left;</l>
-         <l>And deep silence and suffering standing on the right;</l>
-         <l>And, by one mute sign with which the old men pointed above their heads,</l>
-         <l>The head of faith was lifted up, and error was put to shame.</l>
-         <l>Worsted in the encounter were they who spoke, and the victory was to the silent:</l>
-         <l>For, voiceless they uttered by signs the discourse of faith.</l>
-         <l>They took them down, because they had vanquished while silent;</l>
-         <l>And they put them in bonds, threatening yet to vanquish them.</l>
-         <l>Bonds and a dungeon void of light were by the martyrs</l>
-         <l>Held of no account—yea rather as the light which has no end.</l>
-         <l>To be without bread, and without water, and without light,</l>
-         <l>Pleased them well, because of the love of the Son of God.</l>
-         <l>The judge commanded by their feet to hang them up</l>
-         <l>With their heads downwards, by a sentence all unrighteous:</l>
-         <l>Hanged up was <persName>Shamuna</persName> with his head downwards; and he prayed</l>
-         <l>In prayer pure and strained clear by pain.</l>
-         <l>Sweet fruit was hanging on the tree in that judgment-hall,</l>
-         <l>And its taste and smell made the very denizens of heaven to marvel.</l>
-         <l>Afflicted was his body, but sound was his faith;</l>
-         <l>Bound fast was his person, but unfettered was his prayer over his deed.</l>
-         <l>For, prayer nothing whatsoever turneth aside,</l>
-         <l>And nothing hindereth it—not even sword, not even fire.</l>
-         <l>His form was turned upside down, but his prayer was unrestrained,</l>
-         <l>And straight was its path on high to the abode of the angels.</l>
-         <l>The more the affliction of the chosen martyr was increased,</l>
-         <l>The more from his lips was all confession heard.</l>
-         <l>The martyrs longed for the whetted sword affectionately,</l>
-         <l>And sought it as a treasure full of riches.</l>
-         <l>A new work has the Son of God wrought in the world—</l>
-         <l>That dreadful death should be yearned for<ptr type="noteAnchor" target="#n15"/> by many.</l>
-         <l>That men should run to meet the sword is a thing unheard of,</l>
-         <l>Except they were those whom Jesus has enlisted in His service by His crucifixion.</l>
-         <l>That death is bitter, every one knoweth lo! from earliest time:</l>
-         <l>To martyrs alone is it not bitter to be slain.</l>
-         <l>They laughed at the whetted sword when they saw it,</l>
-         <l>And greeted it with smiles: for it was that which was the occasion of their crowns.</l>
-         <l>As though it had been something hated, they left the body to be beaten:</l>
-         <l>Even though loving it, they held it not back from pains.</l>
-         <l>For the sword they waited, and the sword went forth and crowned them:</l>
-         <l>Because for it they looked; and it came to meet them, even as they desired.</l>
-         <l>The Son of God slew death by His crucifixion;</l>
-         <l>And, inasmuch as death is slain, it caused no suffering to the martyrs.</l>
-         <l>With a wounded serpent one playeth without fear;</l>
-         <l>A slain lion even a coward will drag along:</l>
-         <l>The great serpent our Lord crushed by His crucifixion;</l>
-         <l>The dread lion did the Son of God slay by His sufferings.</l>
-         <l>Death bound He fast, and laid him prostrate and trampled on him at <placeName>the gate of
-            Hades</placeName>;</l>
-         <l>And now whosoever will draweth near and mocketh at him, because he is slain.</l>
-         <l>These old men, <persName>Shamuna</persName> and <persName>Guria</persName>, mocked at death,</l>
-         <l>As at that lion which by the Son of God was slain.</l>
-         <l>The great serpent, which slew Adam among the trees,</l>
-         <l>Who could seize, so long as he drank not of the blood of the cross?</l>
-         <l>The Son of God crushed the dragon by His crucifixion,</l>
-         <l>And lo! boys and old men mock at the wounded serpent.</l>
-         <l>Pierced is the lion with the spear which pierced the side of the Son of God;</l>
-         <l>And whosoever will trampleth on him, yea mocketh at him.</l>
-         <l>The Son of God—He is the cause of all good things,</l>
-         <l>And Him doth it behove every mouth to celebrate.</l>
-         <l>He did Himself espouse<ptr type="noteAnchor" target="#n16"/> the bride with the blood which flowed from His wounds,</l>
-         <l>And of His wedding-friends He demanded as a nuptial gift<ptr type="noteAnchor" target="#n17"/> the blood of their
-            necks.</l>
-         <l>The Lord of the wedding-feast hung on the cross in nakedness,</l>
-         <l>And whosoever came to be a guest, He let fall His blood upon him.</l>
-         <l><persName>Shamuna</persName> and <persName>Guria</persName> gave up their bodies for His sake</l>
-         <l>To sufferings and tomes and to all the various forms of woe.<ptr type="noteAnchor" target="#n18"/></l>
-         <l>At Him they looked as He was mocked by wicked men,</l>
-         <l>And thus did they themselves endure mockery without a groan.</l>
-         <l><placeName>Edessa</placeName> was enriched by your slaughter, O blessed ones:</l>
-         <l>For ye adorned her with your crowns and with your sufferings.</l>
-         <l>Her beauty are ye, her bulwark ye, her salt ye,</l>
-         <l>Her riches and her store, yea her boast and all her treasure.</l>
-         <l>Faithful stewards are ye:<ptr type="noteAnchor" target="#n19"/></l>
-         <l>Since by your sufferings ye did array the bride in beauty.</l>
-         <l>The daughter of the <persName>Parthians</persName>, who was espoused to the cross,<ptr type="noteAnchor" target="#n20"/></l>
-         <l>Of you maketh her boast: since by your teaching lo! she was enlightened.</l>
-         <l>Her advocates are ye; scribes who, though silent, vanquished</l>
-         <l>All error, whilst its voice was uplifted high in unbelief.</l>
-         <l>Those old men<ptr type="noteAnchor" target="#n21"/> of the daughter of the <persName>Hebrews</persName> were sons of <persName>Belial</persName>,<ptr type="noteAnchor" target="#n22"/></l>
-         <l>False witnesses, who killed <persName>Naboth</persName>, feigning themselves to be true.</l>
-         <l>Her did <placeName><placeName>Edessa</placeName></placeName> outdo by her two old men full of beauty,</l>
-         <l>Who were witnesses to the Son of God, and died like <persName>Naboth</persName>.</l>
-         <l>Two were there, and two here, old men;</l>
-         <l>And these were called witnesses, and witnesses those.</l>
-         <l>Let us now see which of them were witnesses chosen of God,</l>
-         <l>And which city is beloved by reason of her old men and of her honourable ones.</l>
-         <l>Lo! the sons of <persName>Belial</persName> who slew <persName>Naboth</persName> are witnesses;</l>
-         <l>And here <persName>Shamuna</persName> and <persName>Guria</persName>, again, are witnesses.</l>
-         <l>Let us now see which witnesses, and which old men,</l>
-         <l>And which city can stand with confidence<ptr type="noteAnchor" target="#n23"/> before God.</l>
-         <l>Sons of <persName>Belial</persName> were those witnesses of that adulterous woman,</l>
-         <l>And lo! their shame is all portrayed in their names.</l>
-         <l><placeName>Edessa</placeName>’s just and righteous old men, her witnesses,</l>
-         <l>Were like <persName>Naboth</persName>, who himself also was slain for righteousness’ sake.</l>
-         <l>They were not like the two lying sons of <persName>Belial</persName>,</l>
-         <l>Nor is <placeName>Edessa</placeName> like <placeName>Zion</placeName>, which also crucified the Lord.</l>
-         <l>Like herself her old men were false, yea dared</l>
-         <l>To shed on the ground innocent blood wickedly.</l>
-         <l>But by these witnesses here lo! the truth is spoken.—</l>
-         <l>Blessed be He who gave us the treasure-store of their crowns!</l>
-         <l>Here endeth the Homily on <persName>Guria</persName> and <persName>Shamuna</persName>.</l>
-         </div>
-         <noteGrp>
-            <note xml:id="n1" target="#a1" n="1">Or <hi rend="singleQuote">who changes not.</hi>—Tr.</note>
-            <note xml:id="n2" target="#a2" n="2"><foreign xml:lang="grc">Σαμψηρά.</foreign>— Tr.</note>
-            <note xml:id="n3" target="#a3" n="3">Or <hi rend="singleQuote">salvation:</hi> a different word from that used in speaking of the
-               serpent.—Tr.</note>
-            <note xml:id="n4" target="#a4" n="4">Lit. <hi rend="singleQuote">as a man.</hi>—Tr.</note>
-            <note xml:id="n5" target="#a5" n="5">Or <hi rend="singleQuote">rending asunder.</hi>—Tr.</note>
-            <note xml:id="n6" target="#a6" n="6">Lit. <hi rend="singleQuote">the garden.</hi>—Tr.</note>
-            <note xml:id="n7" target="#a7" n="7">i.e., <hi rend="singleQuote">Bethsaida.</hi>—Tr.</note>
-            <note xml:id="n8" target="#a8" n="8">Or <hi rend="singleQuote">steward.</hi>—Tr.</note>
-            <note xml:id="n9" target="#a9" n="9">Lit. <hi rend="singleQuote">with openness of countenance.</hi>—Tr.</note>
-            <note xml:id="n10" target="#a10" n="10">Lit. <hi rend="singleQuote">portray the image of their crowns.</hi>—Tr.</note>
-            <note xml:id="n11" target="#a11" n="11">Lit. <hi rend="singleQuote">magnified his words.</hi>—Tr.</note>
-            <note xml:id="n12" target="#a12" n="12">Lit. <hi rend="singleQuote">as breath.</hi>—Tr.</note>
-            <note xml:id="n13" target="#a13" n="13">Lit. <hi rend="singleQuote">“how much the outstretched forms bore in consequence of the inflictions.”</hi>—Tr.</note>
-            <note xml:id="n14" target="#a14" n="14">Or <hi rend="singleQuote">depend.</hi>—Tr.</note>
-            <note xml:id="n15" target="#a15" n="15">Or <hi rend="singleQuote">beloved.</hi>—Tr.</note>
-            <note xml:id="n16" target="#a16" n="16">Lit. <hi rend="singleQuote">purchase.</hi>—Tr.</note>
-            <note xml:id="n17" target="#a17" n="17"><foreign xml:lang="">***<!-- Add Syriac/Arabic/etc. --></foreign>, though not 
-               in the lexicons, is the same word that appears in Castel as <foreign xml:lang="">***<!-- Add Syriac/Arabic/etc. --></foreign>.</note>
-            <note xml:id="n18" target="#a18" n="18">Lit. <hi rend="singleQuote">to the forms (<foreign xml:lang="grc">σχήματα</foreign>) of all afflictions.</hi>—Tr.</note>
-            <note xml:id="n19" target="#a19" n="19">This seems preferable to Cureton’s <quote>Ye are the stewards of (her)
-               faith.</quote> The expression exactly corresponds in form to that in Luke xvi. 8 (Peshito):
-               <quote>the steward of injustice</quote> =<quote>the unjust steward.</quote></note>
-            <note xml:id="n20" target="#a20" n="20">Lit. <hi rend="singleQuote">crucifixion.</hi>—Tr.</note>
-            <note xml:id="n21" target="#a21" n="21">Or <hi rend="singleQuote">elders.</hi>—Tr.</note>
-            <note xml:id="n22" target="#a22" n="22">By this name the men referred to (not, however, the elders, but the two
-               false witnesses suborned by them) are called in 1 Kings xxi. 10, 13. The expression
-               in the text is literally <hi rend="singleQuote">sons of iniquity,</hi> and that is used by the
-               Peshito.—Tr.</note>
-            <note xml:id="n23" target="#a23" n="23">Or <hi rend="singleQuote">have an open countenance.</hi>—Tr.</note>
-         </noteGrp>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="m" ref="http://syriaca.org/work/227">Guria and
+                    Shamuna</title>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                    >Daniel L. Schwartz</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Syriaca.org: The Syriac Reference Portal</authority>
+                <idno type="URI"><!-- URI NEEDED --></idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0//">
+                        <p>This work is licensed under a Creative Commons Attribution 4.0
+                            International License (CC BY 4.0).</p>
+                        <p>This work incorporates public domain material from the following work(s): <listBibl>
+                                <bibl>
+                                    <!-- What goes here and what goes in the sourceDesc? -->
+                                </bibl>
+                                <bibl>
+                                    <!-- What goes here and what goes in the sourceDesc? -->
+                                </bibl>
+                            </listBibl>
+                            <note type="license" n="1"> used under a Creative Commons Attribution
+                                license <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                            </note>
+                        </p>
+                    </licence>
+                </availability>
+                <date>2026-03-02</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title><!--The Syriac Library--></title>
+                <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                    >Daniel L. Schwartz</editor>
+                <idno type="URI"><!-- URI NEEDED! --></idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>ANF, Vol. VIII -- Translation in the public domain.</p>
+                <p>Original transcription of the text downloaded from Wikisource on 9/15/2024: <ref
+                        target="https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VIII/Memoirs_of_Edessa_And_Other_Ancient_Syriac_Documents/Homilies,_Composed_by_Mar_Jacob/Homily_on_Guria_and_Shamuna"
+                        >
+                        https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VIII/Memoirs_of_Edessa_And_Other_Ancient_Syriac_Documents/Homilies,_Composed_by_Mar_Jacob/Homily_on_Guria_and_Shamuna
+                    </ref>. This Wikisource transcription was made available under a <ref
+                        target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                        Attribution-ShareAlike License</ref>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="work" xml:id="work">
+                <head type="main">A Homily on <persName>Guria</persName> and
+                        <persName>Shamuna</persName>, Composed by Mar
+                    <persName>Jacob</persName>.</head>
+                <lg type="section" xml:id="section-1" n="1">
+                    <l n="1">
+                        <persName>Shamuna</persName> and <persName>Guria</persName>, martyrs who
+                        made themselves illustrious in their afflictions,</l>
+                    <l n="2">Have in love required of me to tell of their illustrious deeds.</l>
+                    <l n="3">To champions of the faith the doctrine calleth me,</l>
+                    <l n="4">That I should go and behold their contests and their crowns.</l>
+                    <l n="5">Children of the right hand, who have done battle against the left,</l>
+                    <l n="6">Have called me this day to recite the marvellous tale of their
+                        conflicts:—</l>
+                </lg>
+                <lg type="section" xml:id="section-2" n="2">
+                    <l n="7">Simple old men, who entered into the fight like heroes,</l>
+                    <l n="8">And nobly distinguished themselves in the strife of blood:</l>
+                    <l n="9">Those who were the salt of our land, and it was sweetened thereby,</l>
+                    <l n="10">And its savour was restored, which had become insipid through
+                        unbelief:</l>
+                    <l n="11">Candlesticks of gold, which were full of the oil of the
+                        crucifixion,</l>
+                    <l n="12">By which was lighted up all our region, which had turned to
+                        darkness:</l>
+                    <l n="13">Two lamps, of which, when all the winds were blowing</l>
+                    <l n="14">Of every kind of error, the lights were not put out;</l>
+                    <l n="15">Good labourers, who from the spring of day laboured</l>
+                    <l n="16">In the blessed vineyard of the house of God right duteously:</l>
+                    <l n="17">Bulwarks of our land, who became to us as it were a defence</l>
+                    <l n="18">Against all spoilers in all the wars that surrounded us:</l>
+                    <l n="19">Havens of peace, a place also of retreat for all that were
+                        distressed,</l>
+                    <l n="20">And a resting-place for the head of every one that was in need of
+                        succour:</l>
+                    <l n="21">Two precious pearls, which were</l>
+                    <l n="22">An ornament for the bride of my lord <persName>Abgar</persName>, the
+                        Aramaean’s son.</l>
+                </lg>
+                <lg type="section" xml:id="section-3" n="3">
+                    <l n="23">Teachers they were who practised their teaching in blood,</l>
+                    <l n="24">And whose faith was known by their sufferings.</l>
+                    <l n="25">On their bodies they wrote the story of the Son of God</l>
+                    <l n="26">With the marks of combs and scourges which thickly covered them.</l>
+                    <l n="27">They showed their love, not by words of the mouth alone,</l>
+                    <l n="28">But by tortures and by the rending of their limbs asunder.</l>
+                    <l n="29">For the love of the Son of God they gave up their bodies:</l>
+                    <l n="30">Since it beseemeth the lover that for his love he should give up
+                        himself.</l>
+                    <l n="31">Fire and sword proved their love, how true it was;</l>
+                    <l n="32">And more beautiful than silver tried in a furnace of earth were their
+                        necks.</l>
+                </lg>
+                <lg type="section" xml:id="section-4" n="4">
+                    <l n="33">They looked on God, and, because they saw His exalted beauties,</l>
+                    <l n="34">Therefore did they look with contempt upon their sufferings for His
+                        sake.</l>
+                    <l n="35">The Sun of righteousness had arisen in their hearts;</l>
+                    <l n="36">And they were enlightened by it, and with His light chased they away
+                        the darkness.</l>
+                    <l n="37">At the idols of vanity, which error had brought in, they laughed,</l>
+                    <l n="38">Instinct with the faith of the Son of God which is full of light.</l>
+                    <l n="39">The love of the Lord was as a fire in their hearts;</l>
+                    <l n="40">Nor could all the brambles of idolatry stand before it.</l>
+                    <l n="41">Fixed was their love on God unchangeably:<ptr type="noteAnchor"
+                            xml:id="a1" target="#n1" n="1"/>
+                    </l>
+                    <l n="42">And therefore did they look with scorn upon the sword,<ptr
+                            type="noteAnchor" xml:id="a2" target="#n2" n="2"/> all athirst as it was
+                        for blood.</l>
+                </lg>
+                <lg type="section" xml:id="section-5" n="5">
+                    <l n="43">With guilelessness and yet with wisdom stood they in the
+                        judgment-hall,</l>
+                    <l n="44">As they had been commanded by the Teacher of that which is true.</l>
+                    <l n="45">Despising as they did kindred and family, guileless were they;</l>
+                    <l n="46">Forasmuch, also, as possessions and wealth were held in no account by
+                        them.</l>
+                    <l n="47">Nor guileless only: for in the judgment-hall with the wisdom of
+                        serpents too</l>
+                    <l n="48">They were heedful of the faith of the house of God.</l>
+                </lg>
+                <lg type="section" xml:id="section-6" n="6">
+                    <l n="49">When a serpent is seized and struck, he guards his head,</l>
+                    <l n="50">But gives up and leaves exposed all his body to his captors:</l>
+                    <l n="51">And, so long as his head is kept from harm, his life abideth in
+                        him;</l>
+                    <l n="52">But, if the head be struck, his life is left a prey to
+                        destruction.</l>
+                    <l n="53">The head of the soul is men’s faith;</l>
+                    <l n="54">And, if this be preserved unharmed, by it is also preserved their
+                        life:<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>
+                    </l>
+                    <l n="55">Even though the whole body be lacerated with blows,</l>
+                    <l n="56">Yet, so long as faith is preserved, the soul is alive;</l>
+                    <l n="57">But, if faith is struck down by unbelief,</l>
+                    <l n="58">Lost is the soul, and life has perished from the man.</l>
+                    <l n="59">
+                        <persName>Shamuna</persName> and <persName>Guria</persName> of the faith as
+                        men<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
+                    </l>
+                    <l n="60">Were heedful, that it should not be struck down by persecutors:</l>
+                    <l n="61">For they knew that, if faith is preserved,</l>
+                    <l n="62">Both soul and body are preserved from destruction.</l>
+                    <l n="63">And, because of this, touching their faith were they solicitous,</l>
+                    <l n="64">That that should not be struck down in which their very life was
+                        hidden.</l>
+                </lg>
+                <lg type="section" xml:id="section-7" n="7">
+                    <l n="65">They gave up their bodies both to blows and to dislocation,<ptr
+                            type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
+                    </l>
+                    <l n="66">Yea to every kind of torture, that their faith should not be stricken
+                        down;</l>
+                    <l n="67">And, even as the serpent also hides his head from blows,</l>
+                    <l n="68">So hid they their faith within their hearts;</l>
+                    <l n="69">And the body was smitten, and endured stripes, and bore
+                        sufferings:</l>
+                    <l n="70">But overthrown was not their faith which was within their hearts.</l>
+                </lg>
+                <lg type="section" xml:id="section-8" n="8">
+                    <l n="71">The mouth betrayeth the soul to death when it speaks,</l>
+                    <l n="72">And with the tongue, as with a sword, worketh slaughter.</l>
+                    <l n="73">And from it spring up both life and death to men:</l>
+                    <l n="74">Denying a man dies, confessing he lives, and the mouth hath power over
+                        it.</l>
+                    <l n="75">Denial is death, and in confession is the soul’s life;</l>
+                    <l n="76">And power hath the mouth over them both, like a judge.</l>
+                    <l n="77">The word of the mouth openeth the door for death to enter in;</l>
+                    <l n="78">This, too, calleth for life, and it beameth forth upon the man.</l>
+                    <l n="79">Even the robber by one word of faith</l>
+                    <l n="80">Won him the kingdom, and became heir of paradise,<ptr
+                            type="noteAnchor" xml:id="a6" target="#n6" n="6"/> all fraught with
+                        blessings.</l>
+                    <l n="81">The wicked judges too, from the martyrs, the sons of the right
+                        hand,</l>
+                    <l n="82">Demanded that by word of mouth only they should blaspheme;</l>
+                    <l n="83">But, like true men holding fast the faith,</l>
+                    <l n="84">They uttered not a word by which unbelief might be served.</l>
+                </lg>
+                <lg type="section" xml:id="section-9" n="9">
+                    <l n="85">
+                        <persName>Shamuna</persName>, beauty of our faith, who is adequate to tell
+                        of thee?</l>
+                    <l n="86">All too narrow is my mouth for thy praise, too mean for thee to be
+                        spoken of by it.</l>
+                    <l n="87">Thy truth is thy beauty, thy crown thy suffering, thy wealth thy
+                        stripes,</l>
+                    <l n="88">And by reason of thy blows magnificent is the beauty of thy
+                        championship.</l>
+                    <l n="89">Proud of thee is our country, as of a treasury which is full of
+                        gold:</l>
+                    <l n="90">Since wealth art thou to us, and a coveted store which cannot be
+                        stolen <hi rend="italics">from us</hi>.</l>
+                </lg>
+                <lg type="section" xml:id="section-10" n="10">
+                    <l n="91">
+                        <persName>Guria</persName>, martyr, staunch hero of our faith,</l>
+                    <l n="92">Who shall suffice thee, to recount thy beauties divine?</l>
+                    <l n="93">Lo! tortures on thy body are set like gems of beryl,</l>
+                    <l n="94">And the sword on thy neck like a chain of choice gold.</l>
+                    <l n="95">Thy blood upon thy form is a robe of glory full of beauty,</l>
+                    <l n="96">And the scourging of thy back a vesture with which the sun may not
+                        compare.</l>
+                    <l n="97">Radiant thou art and comely by virtue of these thy sufferings, so
+                        abounding;</l>
+                    <l n="98">And resplendent are thy beauties, because of the pains which are so
+                        severe upon thee.</l>
+                    
+                </lg>
+                <lg type="section" xml:id="section-11" n="11">
+                    <l n="99">
+                        <persName>Shamuna</persName>, our riches, richer art thou than the rich:</l>
+                    <l n="100">For lo! the rich stand at thy door, that thou mayest relieve
+                        them.</l>
+                    <l n="101">Small thy village, poor thy country: who, then, gave thee</l>
+                    <l n="102">That lords of villages and cities should court thy favour?</l>
+                    <l n="103">Lo! judges in their robes and vestments</l>
+                    <l n="104">Take dust from thy threshold, as though it were the medicine of
+                        life.</l>
+                    <l n="105">The cross is rich, and to its worshippers increaseth riches;</l>
+                    <l n="106">And its poverty despiseth all the riches of the world.</l>
+                </lg>
+                <lg type="section" xml:id="section-12" n="12">
+                    <l n="107">
+                        <persName>Shamuna</persName> and <persName>Guria</persName>, sons of the
+                        poor, lo! at your doors</l>
+                    <l n="108">Bow down the rich, that they may receive from you supplies for their
+                        wants.</l>
+                    <l n="109">The Son of God in poverty and want</l>
+                    <l n="110">Showed to the world that all its riches are as nothing,</l>
+                    <l n="111">His disciples, all fishermen, all poor, all weak,</l>
+                    <l n="112">All men of little note, became illustrious through His faith.</l>
+                    <l n="113">One fisherman, whose <quote>village</quote> too was a home of
+                        fishermen,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>
+                    </l>
+                    <l n="114">He made chief over the twelve, yea head of the house.<ptr
+                            type="noteAnchor" xml:id="a8" target="#n8" n="8"/>
+                    </l>
+                    <l n="115">One a tentmaker, who aforetime was a persecutor,</l>
+                    <l n="116">He seized upon, and made him a chosen vessel for the faith.</l>
+                </lg>
+                <lg type="section" xml:id="section-13" n="13">
+                    <l n="117">
+                        <persName>Shamuna</persName> and <persName>Guria</persName> came from
+                        villages that were not wealthy,</l>
+                    <l n="118">And lo! in a great city became they lords;</l>
+                    <l n="119">And its chief men, its judges also, stand before their doors,</l>
+                    <l n="120">And they solicit their charity to satisfy their wants.</l>
+                    <l n="121">From their confession of the faith of the Son of God</l>
+                    <l n="122">These blessed men acquired riches beyond compute.</l>
+                    <l n="123">Poor did He Himself become, and the poor made He rich;</l>
+                    <l n="124">And lo! enriched is the whole creation through His poverty.</l>
+                </lg>
+                <lg type="section" xml:id="section-14" n="14">
+                    <l n="125">The chosen martyrs did battle against error,</l>
+                    <l n="126">And in the confession of the Son of God stood they firm like valiant
+                        men.</l>
+                    <l n="127">They went in and confessed Him before the judge with look
+                        undaunted,<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>
+                    </l>
+                    <l n="128">That He too might confess them, even as they confessed Him, before
+                        His Father.</l>
+                    <l n="129">There arose against them the war of pagans like a tempest;</l>
+                    <l n="130">But the cross was their helmsman, and steered them on.</l>
+                    <l n="131">They were required to sacrifice to lifeless images,</l>
+                    <l n="132">But they departed not from their confession of the Son of God.</l>
+                    <l n="133">The wind of idolatry blew in their faces,</l>
+                    <l n="134">But they themselves were as rocks piled up against the hurricane.</l>
+                    <l n="135">Like a swift whirlwind, error snatched at them;</l>
+                    <l n="136">But, forasmuch as they were sheltered by the crucifixion, it hurt
+                        them not.</l>
+                    <l n="137">The Evil One set on all his dogs to bark, that they might bite
+                        them;</l>
+                    <l n="138">But, forasmuch as they had the cross for a staff, they put them all
+                        to flight.</l>
+                </lg>
+                <lg type="section" xml:id="section-15" n="15">
+                    <l n="139">But who is sufficient to tell of their contests,</l>
+                    <l n="140">Or their sufferings, or the rending asunder of their limbs?</l>
+                    <l n="141">Or who can paint the picture of their coronation,<ptr
+                            type="noteAnchor" xml:id="a10" target="#n10" n="10"/>
+                    </l>
+                    <l n="142">How they went up from the contest covered with glory?</l>
+                </lg>
+                <lg type="section" xml:id="section-16" n="16">
+                    <l n="143">To judgment they went in, but of the judge they took no account;</l>
+                    <l n="144">Nor were they anxious what they should say when questioned.</l>
+                    <l n="145">The judge menaced them, and multiplied his words of threatening;</l>
+                    <l n="146">And recounted tortures and all kinds of inflictions, that he might
+                        terrify them.</l>
+                    <l n="147">He spake great words,<ptr type="noteAnchor" xml:id="a11"
+                            target="#n11" n="11"/> that by fright and intimidation,</l>
+                    <l n="148">By menaces too, he might incline them to sacrifice.</l>
+                    <l n="149">Yet the combatants despised the menaces, and the intimidations,</l>
+                    <l n="150">And the sentence of judgment, and all bodily deaths;</l>
+                    <l n="151">And they prepared themselves for insult and stripes, and for
+                        blows,</l>
+                    <l n="152">And for provocation, and to be dragged along, and to be burnt;</l>
+                    <l n="153">For imprisonment also, and for bonds, and for all evil things,</l>
+                    <l n="154">And for all tortures, and for all sufferings, rejoicing all the
+                        while.</l>
+                    <l n="155">They were not alarmed nor affrighted, nor dismayed,</l>
+                    <l n="156">Nor did the sharpness of the tortures bend them to sacrifice.</l>
+                    <l n="157">Their body they despised, and as dung upon the ground accounted they
+                        it:</l>
+                    <l n="158">For they knew that, the more it was beaten, the more would its beauty
+                        increase;</l>
+                    <l n="159">And, the more the judge increased his menaces to alarm them,</l>
+                    <l n="160">The more did they show their contempt of him, having no fear of his
+                        threats.</l>
+                    <l n="161">He kept telling them what tortures he had prepared for them;</l>
+                    <l n="162">And they continued telling him about <placeName>Gehenna</placeName>
+                        which was reserved for him.</l>
+                </lg>
+                <lg type="section" xml:id="section-17" n="17">
+                    <l n="163">By those things which he told them he tried to frighten them to
+                        sacrifice;</l>
+                    <l n="164">And they spoke to him about the fearful judgment yonder.</l>
+                    <l n="165">Truth is wiser than wise words,</l>
+                    <l n="166">And very hateful, however much it may be adorned, is falsehood.</l>
+                    <l n="167">
+                        <persName>Shamuna</persName> and <persName>Guria</persName> went on speaking
+                        truth,</l>
+                    <l n="168">While the judge continued to utter falsehood.</l>
+                    <l n="169">And therefore were they not afraid of his threatening,</l>
+                    <l n="170">Because all his menaces against the truth were accounted <hi rend="italics">by them</hi> as
+                        empty sound.<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>
+                    </l>
+                </lg>
+                <lg type="section" xml:id="section-18" n="18">
+                    <l n="171">The intercourse of the world they despised, they contemned and
+                        scorned, yea they abandoned;</l>
+                    <l n="172">And to return to it they had no wish, or to enter it again.</l>
+                    <l n="173">From the place of judgment they set their faces to depart</l>
+                    <l n="174">To that meeting-place for them all, the life of the new world.</l>
+                    <l n="175">They cared neither for possessions nor for houses,</l>
+                    <l n="176">Nor for the advantages of this world, so full of evil.</l>
+                    <l n="177">In the world of light was their heart bound captive with God,</l>
+                    <l n="178">And to “that” country did they set their face to depart;</l>
+                    <l n="179">And they looked to the sword, to come and be a bridge</l>
+                    <l n="180">To let them pass over to God, for whom they were longing.</l>
+                    <l n="181">This world they accounted as a little tent,</l>
+                    <l n="182">But that yonder as a city full of beauties;</l>
+                    <l n="183">And they were in haste by the sword to depart hence</l>
+                    <l n="184">To the land of light, which is full of blessing for those who are
+                        worthy of it.</l>
+                </lg>
+                <lg type="section" xml:id="section-19" n="19">
+                    <l n="185">The judge commanded to hang them up by their arms,</l>
+                    <l n="186">And without mercy did they stretch them out in bitter agony.</l>
+                    <l n="187">A demon’s fury breathed rage into the heart of the judge,</l>
+                    <l n="188">And embittered him against the stedfast ones, inciting him to crush
+                        them;</l>
+                    <l n="189">And between the height and the depth he stretched them out to afflict
+                        them:</l>
+                    <l n="190">And they were a marvel to both sides, when they saw how much they
+                        endured.</l>
+                    <l n="191">At the old men’s frame heaven and earth marvelled,</l>
+                    <l n="192">To see how much suffering it bore nor cried out for help under their
+                        affliction.</l>
+                    <l n="193">Hung up and dragged along are their feeble bodies by their arms,</l>
+                    <l n="194">Yet is there deep silence, nor is there one that cries out for help
+                        or that murmurs.</l>
+                </lg>
+                <lg type="section" xml:id="section-20" n="20">
+                    <l n="195">Amazed were all who beheld their contests,</l>
+                    <l n="196">To see how calmly the outstretched forms bore the inflictions laid
+                        upon them.<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>
+                    </l>
+                    <l n="197">Amazed too was <persName>Sata</persName>n at their spotless
+                        frames,</l>
+                    <l n="198">To see what weight of affliction they sustained without a groan.</l>
+                    <l n="199">Yea, and gladdened too were the angels by that fortitude of
+                        theirs,</l>
+                    <l n="200">To see how patiently it bore that contest so terrible that was.</l>
+                    <l n="201">But, as combatants who were awaiting their crowns,</l>
+                    <l n="202">There entered no sense of weariness into their minds.</l>
+                    <l n="203">Nay, it was the judge that grew weary; yea, he was astonished:</l>
+                    <l n="204">But the noble men before him felt no weariness in their
+                        afflictions.</l>
+                </lg>
+                <lg type="section" xml:id="section-21" n="21">
+                    <l n="205">He asked them whether they would consent to sacrifice;</l>
+                    <l n="206">But the mouth was unable to speak from pain.</l>
+                    <l n="207">Thus did the persecutors increase their inflictions,</l>
+                    <l n="208">Until they gave no place for the word to be spoken.</l>
+                    <l n="209">Silent was the mouth from the inflictions laid on their limbs;</l>
+                    <l n="210">But the will, like that of a hero, was nerved with fortitude from
+                        itself.</l>
+                    <l n="211">Alas for the persecutors! how destitute were they of
+                        righteousness!</l>
+                    <l n="212">But the children of light—how were they clad in faith!</l>
+                    <l n="213">They demand speech, when there is no place for speaking,</l>
+                    <l n="214">Since the word of the mouth was forbidden them by pain.</l>
+                    <l n="215">Fast bound was the body, and silent the mouth, and it was unable</l>
+                    <l n="216">To utter the word when unrighteously questioned.</l>
+                </lg>
+                <lg type="section" xml:id="section-22" n="22">
+                    <l n="217">And what should the martyr do, who had no power to say,</l>
+                    <l n="218">When he was questioned, that he would not sacrifice?</l>
+                    <l n="219">All silent were the old men full of faith,</l>
+                    <l n="220">And from pain they were incapable of speaking.</l>
+                    <l n="221">Yet questioned they were: and in what way, if a man is silent</l>
+                    <l n="222">When he is questioned, shall he assent to that which is said?</l>
+                    <l n="223">But the old men, that they might not be thought to assent,</l>
+                    <l n="224">Expressed clearly by signs the word which it behoved them to
+                        speak.</l>
+                    <l n="225">Their heads they shook, and, instead of speech, by a dumb sign they
+                        showed</l>
+                    <l n="226">The resolve of the new man that was within.</l>
+                    <l n="227">Their heads hung down, signifying amidst their pains</l>
+                    <l n="228">That they were not going to sacrifice, and every one understood their
+                        meaning.</l>
+                    <l n="229">As long as there was in them place for speech, with speech did they
+                        confess;</l>
+                    <l n="230">But, when it was forbidden them by pain, they spake with a dumb
+                        sign.</l>
+                    <l n="231">Of faith they spoke both with the voice and without the voice:</l>
+                    <l n="232">So that, when speaking and also when silent, they were <hi rend="italics">alike</hi>
+                        stedfast.</l>
+                </lg>
+                <lg type="section" xml:id="section-23" n="23">
+                    <l n="233">Who but must be amazed at the path of life, how narrow it is,</l>
+                    <l n="234">And how straight to him that desires to walk in it?</l>
+                    <l n="235">Who but must marvel to see that, when the will is watchful and
+                        ready,</l>
+                    <l n="236">It is very broad and full of light to him that goeth therein?</l>
+                    <l n="237">About the path are ditches; full also is it of pitfalls;</l>
+                    <l n="238">And, if one turn but a little aside from it, a ditch receives
+                        him.</l>
+                    <l n="239">That dumb sign only is there between the right and the left,</l>
+                    <l n="240">And on <quote>Yea</quote> and <quote>Nay</quote> stand<ptr
+                            type="noteAnchor" xml:id="a14" target="#n14" n="14"/> sin and
+                        righteousness.</l>
+                    <l n="241">By a dumb sign only did the blessed men plainly signify that they
+                        would not sacrifice,</l>
+                    <l n="242">And in virtue of a single dumb sign did the path lead them to
+                        <placeName>Eden</placeName>;</l>
+                    <l n="243">And, if this same dumb sign had inclined and turned down but a
+                        little</l>
+                    <l n="244">Toward the depth, the path of the old men would have been to
+                        <placeName>Gehenna</placeName>.</l>
+                    <l n="245">Upwards they made a sign, to signify that upwards were they prepared
+                        to ascend;</l>
+                    <l n="246">And in consequence of that sign they ascended and mingled with the
+                        heavenly ones.</l>
+                    <l n="247">Between sign and sign were Paradise and
+                        <placeName>Gehenna</placeName>:</l>
+                    <l n="248">They made a sign that they would not sacrifice, and they inherited
+                        the place of the kingdom.</l>
+                </lg>
+                <lg type="section" xml:id="section-24" n="24">
+                    <l n="249">Even while they were silent they were advocates for the Son of
+                        God:</l>
+                    <l n="250">For not in multitude of words doth faith consist.</l>
+                    <l n="251">That fortitude of theirs was a full-voiced confession,</l>
+                    <l n="252">And as though with open mouth declared they their faith by signs;</l>
+                    <l n="253">And every one knew what they were saying, though silent,</l>
+                    <l n="254">And enriched and increased was the faith of the house of God;</l>
+                    <l n="255">And error was put to shame by reason of two old men, who, though they
+                        spake not,</l>
+                    <l n="256">Vanquished it; and they kept silence, and their faith stood fast.</l>
+                    <l n="257">And, though tempestuous accents were heard from the judge,</l>
+                    <l n="258">And the commands of the emperor were dreadful, yea violent,</l>
+                    <l n="259">And paganism had a bold face and an open mouth,</l>
+                    <l n="260">And its voice was raised, and silent were the old men with pain,</l>
+                    <l n="261">Yet null and void became the command and drowned was the voice of the
+                        judge,</l>
+                    <l n="262">And without speech the mute sign of the martyrs bore off the
+                        palm.</l>
+                    <l n="263">Talking and clamour, and the sound of stripes, on the left;</l>
+                    <l n="264">And deep silence and suffering standing on the right;</l>
+                    <l n="265">And, by one mute sign with which the old men pointed above their
+                        heads,</l>
+                    <l n="266">The head of faith was lifted up, and error was put to shame.</l>
+                    <l n="267">Worsted in the encounter were they who spoke, and the victory was to
+                        the silent:</l>
+                    <l n="268">For, voiceless they uttered by signs the discourse of faith.</l>
+                </lg>
+                <lg type="section" xml:id="section-25" n="25">
+                    <l n="269">They took them down, because they had vanquished while silent;</l>
+                    <l n="270">And they put them in bonds, threatening yet to vanquish them.</l>
+                    <l n="271">Bonds and a dungeon void of light were by the martyrs</l>
+                    <l n="272">Held of no account—yea rather as the light which has no end.</l>
+                    <l n="273">To be without bread, and without water, and without light,</l>
+                    <l n="274">Pleased them well, because of the love of the Son of God.</l>
+                </lg>
+                <lg type="section" xml:id="section-26" n="26">
+                    <l n="275">The judge commanded by their feet to hang them up</l>
+                    <l n="276">With their heads downwards, by a sentence all unrighteous:</l>
+                    <l n="277">Hanged up was <persName>Shamuna</persName> with his head downwards;
+                        and he prayed</l>
+                    <l n="278">In prayer pure and strained clear by pain.</l>
+                    <l n="279">Sweet fruit was hanging on the tree in that judgment-hall,</l>
+                    <l n="280">And its taste and smell made the very denizens of heaven to
+                        marvel.</l>
+                    <l n="281">Afflicted was his body, but sound was his faith;</l>
+                    <l n="282">Bound fast was his person, but unfettered was his prayer over his
+                        deed.</l>
+                    <l n="283">For, prayer nothing whatsoever turneth aside,</l>
+                    <l n="284">And nothing hindereth it—not even sword, not even fire.</l>
+                    <l n="285">His form was turned upside down, but his prayer was unrestrained,</l>
+                    <l n="286">And straight was its path on high to the abode of the angels.</l>
+                    <l n="287">The more the affliction of the chosen martyr was increased,</l>
+                    <l n="288">The more from his lips was all confession heard.</l>
+                    <l n="289">The martyrs longed for the whetted sword affectionately,</l>
+                    <l n="290">And sought it as a treasure full of riches.</l>
+                </lg>
+                <lg type="section" xml:id="section-27" n="27">
+                    <l n="291">A new work has the Son of God wrought in the world—</l>
+                    <l n="292">That dreadful death should be yearned for<ptr type="noteAnchor"
+                            xml:id="a15" target="#n15" n="15"/> by many.</l>
+                    <l n="293">That men should run to meet the sword is a thing unheard of,</l>
+                    <l n="294">Except they were those whom Jesus has enlisted in His service by His
+                        crucifixion.</l>
+                    <l n="295">That death is bitter, every one knoweth lo! from earliest time:</l>
+                    <l n="296">To martyrs alone is it not bitter to be slain.</l>
+                    <l n="297">They laughed at the whetted sword when they saw it,</l>
+                    <l n="298">And greeted it with smiles: for it was that which was the occasion of
+                        their crowns.</l>
+                    <l n="299">As though it had been something hated, they left the body to be
+                        beaten:</l>
+                    <l n="300">Even though loving it, they held it not back from pains.</l>
+                    <l n="301">For the sword they waited, and the sword went forth and crowned
+                        them:</l>
+                    <l n="302">Because for it they looked; and it came to meet them, even as they
+                        desired.</l>
+                    <l n="303">The Son of God slew death by His crucifixion;</l>
+                    <l n="304">And, inasmuch as death is slain, it caused no suffering to the
+                        martyrs.</l>
+                </lg>
+                <lg type="section" xml:id="section-28" n="28">
+                    <l n="305">With a wounded serpent one playeth without fear;</l>
+                    <l n="306">A slain lion even a coward will drag along:</l>
+                    <l n="307">The great serpent our Lord crushed by His crucifixion;</l>
+                    <l n="308">The dread lion did the Son of God slay by His sufferings.</l>
+                    <l n="309">Death bound He fast, and laid him prostrate and trampled on him at
+                        <placeName>the gate of Hades</placeName>;</l>
+                    <l n="310">And now whosoever will draweth near and mocketh at him, because he is
+                        slain.</l>
+                    <l n="311">These old men, <persName>Shamuna</persName> and
+                        <persName>Guria</persName>, mocked at death,</l>
+                    <l n="312">As at that lion which by the Son of God was slain.</l>
+                    <l n="313">The great serpent, which slew Adam among the trees,</l>
+                    <l n="314">Who could seize, so long as he drank not of the blood of the
+                        cross?</l>
+                    <l n="315">The Son of God crushed the dragon by His crucifixion,</l>
+                    <l n="316">And lo! boys and old men mock at the wounded serpent.</l>
+                    <l n="317">Pierced is the lion with the spear which pierced the side of the Son
+                        of God;</l>
+                    <l n="318">And whosoever will trampleth on him, yea mocketh at him.</l>
+                </lg>
+                <lg type="section" xml:id="section-29" n="29">
+                    <l n="319">The Son of God—He is the cause of all good things,</l>
+                    <l n="320">And Him doth it behove every mouth to celebrate.</l>
+                    <l n="321">He did Himself espouse<ptr type="noteAnchor" xml:id="a16"
+                            target="#n16" n="16"/> the bride with the blood which flowed from His
+                        wounds,</l>
+                    <l n="322">And of His wedding-friends He demanded as a nuptial gift<ptr
+                            type="noteAnchor" xml:id="a17" target="#n17" n="17"/> the blood of their
+                        necks.</l>
+                    <l n="323">The Lord of the wedding-feast hung on the cross in nakedness,</l>
+                    <l n="324">And whosoever came to be a guest, He let fall His blood upon him.</l>
+                    <l n="325">
+                        <persName>Shamuna</persName> and <persName>Guria</persName> gave up their
+                        bodies for His sake</l>
+                    <l n="326">To sufferings and tomes and to all the various forms of woe.<ptr
+                            type="noteAnchor" xml:id="a18" target="#n18" n="18"/>
+                    </l>
+                    <l n="327">At Him they looked as He was mocked by wicked men,</l>
+                    <l n="328">And thus did they themselves endure mockery without a groan.</l>
+                </lg>
+                <lg type="section" xml:id="section-30" n="30">
+                    <l n="329">
+                        <placeName>Edessa</placeName> was enriched by your slaughter, O blessed
+                        ones:</l>
+                    <l n="330">For ye adorned her with your crowns and with your sufferings.</l>
+                    <l n="331">Her beauty are ye, her bulwark ye, her salt ye,</l>
+                    <l n="332">Her riches and her store, yea her boast and all her treasure.</l>
+                    <l n="333">Faithful stewards are ye:<ptr type="noteAnchor" xml:id="a19"
+                            target="#n19" n="19"/>
+                    </l>
+                    <l n="334">Since by your sufferings ye did array the bride in beauty.</l>
+                    <l n="335">The daughter of the <persName>Parthians</persName>, who was espoused
+                        to the cross,<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/>
+                    </l>
+                    <l n="336">Of you maketh her boast: since by your teaching lo! she was
+                        enlightened.</l>
+                    <l n="337">Her advocates are ye; scribes who, though silent, vanquished</l>
+                    <l n="338">All error, whilst its voice was uplifted high in unbelief.</l>
+                </lg>
+                <lg type="section" xml:id="section-31" n="31">
+                    <l n="339">Those old men<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"
+                    /> of the daughter of the <persName>Hebrews</persName> were sons of
+                        <persName>Belial</persName>,<ptr type="noteAnchor" xml:id="a22"
+                            target="#n22" n="22"/>
+                    </l>
+                    <l n="340">False witnesses, who killed <persName>Naboth</persName>, feigning
+                        themselves to be true.</l>
+                    <l n="341">Her did <placeName>Edessa</placeName> outdo by her two old men full
+                        of beauty,</l>
+                    <l n="342">Who were witnesses to the Son of God, and died like
+                        <persName>Naboth</persName>.</l>
+                    <l n="343">Two were there, and two here, old men;</l>
+                    <l n="344">And these were called witnesses, and witnesses those.</l>
+                    <l n="345">Let us now see which of them were witnesses chosen of God,</l>
+                    <l n="346">And which city is beloved by reason of her old men and of her
+                        honourable ones.</l>
+                    <l n="347">Lo! the sons of <persName>Belial</persName> who slew
+                        <persName>Naboth</persName> are witnesses;</l>
+                    <l n="348">And here <persName>Shamuna</persName> and <persName>Guria</persName>,
+                        again, are witnesses.</l>
+                    <l n="349">Let us now see which witnesses, and which old men,</l>
+                    <l n="350">And which city can stand with confidence<ptr type="noteAnchor"
+                            xml:id="a23" target="#n23" n="23"/> before God.</l>
+                    <l n="351">Sons of <persName>Belial</persName> were those witnesses of that
+                        adulterous woman,</l>
+                    <l n="352">And lo! their shame is all portrayed in their names.</l>
+                    <l n="353">
+                        <placeName>Edessa</placeName>’s just and righteous old men, her
+                        witnesses,</l>
+                    <l n="354">Were like <persName>Naboth</persName>, who himself also was slain for
+                        righteousness’ sake.</l>
+                    <l n="355">They were not like the two lying sons of
+                        <persName>Belial</persName>,</l>
+                    <l n="356">Nor is <placeName>Edessa</placeName> like
+                        <placeName>Zion</placeName>, which also crucified the Lord.</l>
+                    <l n="357">Like herself her old men were false, yea dared</l>
+                    <l n="358">To shed on the ground innocent blood wickedly.</l>
+                    <l n="359">But by these witnesses here lo! the truth is spoken.—</l>
+                    <l n="360">Blessed be He who gave us the treasure-store of their crowns!</l>
+                </lg>
+            </div>
+            <div type="trailer" xml:id="trailer-1">
+                <ab xml:id="trailer-1.1" n="1">Here endeth the Homily on <persName>Guria</persName> and
+                    <persName>Shamuna</persName>.</ab>
+            </div>
+            <noteGrp>
+                <note xml:id="n1" target="#a1" n="1">Or <hi rend="singleQuotes">who changes
+                        not.</hi>—Tr.</note>
+                <note xml:id="n2" target="#a2" n="2">
+                    <foreign xml:lang="grc">Σαμψηρά.</foreign>— Tr.</note>
+                <note xml:id="n3" target="#a3" n="3">Or <hi rend="singleQuotes">salvation:</hi> a
+                    different word from that used in speaking of the serpent.—Tr.</note>
+                <note xml:id="n4" target="#a4" n="4">Lit. <hi rend="singleQuotes">as a
+                    man.</hi>—Tr.</note>
+                <note xml:id="n5" target="#a5" n="5">Or <hi rend="singleQuotes">rending
+                        asunder.</hi>—Tr.</note>
+                <note xml:id="n6" target="#a6" n="6">Lit. <hi rend="singleQuotes">the
+                    garden.</hi>—Tr.</note>
+                <note xml:id="n7" target="#a7" n="7">i.e., <hi rend="singleQuotes"
+                    >Bethsaida.</hi>—Tr.</note>
+                <note xml:id="n8" target="#a8" n="8">Or <hi rend="singleQuotes"
+                    >steward.</hi>—Tr.</note>
+                <note xml:id="n9" target="#a9" n="9">Lit. <hi rend="singleQuotes">with openness of
+                        countenance.</hi>—Tr.</note>
+                <note xml:id="n10" target="#a10" n="10">Lit. <hi rend="singleQuotes">portray the
+                        image of their crowns.</hi>—Tr.</note>
+                <note xml:id="n11" target="#a11" n="11">Lit. <hi rend="singleQuotes">magnified his
+                        words.</hi>—Tr.</note>
+                <note xml:id="n12" target="#a12" n="12">Lit. <hi rend="singleQuotes">as
+                    breath.</hi>—Tr.</note>
+                <note xml:id="n13" target="#a13" n="13">Lit. <hi rend="singleQuotes">“how much the
+                        outstretched forms bore in consequence of the inflictions.”</hi>—Tr.</note>
+                <note xml:id="n14" target="#a14" n="14">Or <hi rend="singleQuotes"
+                    >depend.</hi>—Tr.</note>
+                <note xml:id="n15" target="#a15" n="15">Or <hi rend="singleQuotes"
+                    >beloved.</hi>—Tr.</note>
+                <note xml:id="n16" target="#a16" n="16">Lit. <hi rend="singleQuotes"
+                    >purchase.</hi>—Tr.</note>
+                <note xml:id="n17" target="#a17" n="17">
+                    <foreign xml:lang="syr">ܪܘܡܝܢܐ</foreign>, though not in the lexicons, is the
+                    same word that appears in Castel as <foreign xml:lang="syr"
+                    >ܪܘܡܝܘܢܐ</foreign>.</note>
+                <note xml:id="n18" target="#a18" n="18">Lit. <hi rend="singleQuotes">to the forms
+                            (<foreign xml:lang="grc">σχήματα</foreign>) of all
+                    afflictions.</hi>—Tr.</note>
+                <note xml:id="n19" target="#a19" n="19">This seems preferable to Cureton’s <quote>Ye
+                        are the stewards of (her) faith.</quote> The expression exactly corresponds
+                    in form to that in Luke xvi. 8 (Peshito): <quote>the steward of
+                        injustice</quote> =<quote>the unjust steward.</quote>
+                </note>
+                <note xml:id="n20" target="#a20" n="20">Lit. <hi rend="singleQuotes"
+                        >crucifixion.</hi>—Tr.</note>
+                <note xml:id="n21" target="#a21" n="21">Or <hi rend="singleQuotes"
+                    >elders.</hi>—Tr.</note>
+                <note xml:id="n22" target="#a22" n="22">By this name the men referred to (not,
+                    however, the elders, but the two false witnesses suborned by them) are called in
+                    1 Kings xxi. 10, 13. The expression in the text is literally <hi
+                        rend="singleQuotes">sons of iniquity,</hi> and that is used by the
+                    Peshito.—Tr.</note>
+                <note xml:id="n23" target="#a23" n="23">Or <hi rend="singleQuotes">have an open
+                        countenance.</hi>—Tr.</note>
+            </noteGrp>
+        </body>
+    </text>
 </TEI>
