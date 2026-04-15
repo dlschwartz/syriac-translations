@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="http://syriaca.org/work/8559">Chronicle of Edessa</title>
+            <editor role="translator">Benjamin Harris Cowper</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#eboyd">Ethan Boyd</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Syriaca.org: The Syriac Reference Portal</authority>
+            <idno type="URI"><!-- URI NEEDED --></idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0//">
+                  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+                  <p>This work incorporates public domain material from the following work(s): 
+                     <listBibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                        <bibl>
+                           <!-- What goes here and what goes in the sourceDesc? -->
+                        </bibl>
+                     </listBibl>
+                     <note type="license">
+                        used under a Creative Commons Attribution license 
+                        <ptr target="http://creativecommons.org/licenses/by/4.0"/>
+                     </note>
+                  </p>
+               </licence>
+            </availability>
+            <date>2026-03-02</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><title>Chronicle of Edessa</title>. In <title>Journal of Sacred Literature and Biblical Recors, NS.</title>. V, 9(1864): 28-45. 
+               Translated by <persName>Benjamin Harris Cowper</persName>. Translation in the public domain.</p> 
+            <p>Original transcription of the text downloaded from Tertullian.org on 5 June 2024: 
+               <ref target="https://www.tertullian.org/fathers/chronicle_of_edessa.htm">
+                  https://www.tertullian.org/fathers/chronicle_of_edessa.htm
+               </ref>. 
+               This transcription by <persName>Rober Pearse</persName> was released into the public domain.
+            </p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="work" xml:id="work">
+            <head type="main">The Chronicle of Edessa</head>   <!-- [place name inside title?] -->
+           <div type="section" xml:id="section-1" n="1">
+              <ab xml:id="section-1.1" n="1">In the year 180 kings began to rule in <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.
+                 <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/></ab>
+           </div>
+            <div type="section" xml:id="section-2" n="2">
+              <ab xml:id="section-2.1" n="2">In the year 266 <persName ref="http://syriaca.org/person/2238">Augustus Caesar</persName> was made emperor.</ab>
+           </div>
+           <div type="section" xml:id="section-3" n="3">
+              <ab xml:id="section-3.1" n="3">In the year 309 our Lord was born.
+                 <ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/></ab>
+           </div>
+           <div type="section" xml:id="section-4" n="4">
+              <ab xml:id="section-4.1" n="4">In the year 400 <persName ref="http://syriaca.org/person/2201">Abgar</persName> the king built a mausoleum for himself.
+                 <ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/></ab>
+           </div>
+           <div type="section" xml:id="section-5" n="5">
+              <ab xml:id="section-5.1" n="5">In the year 449 <persName ref="http://syriaca.org/person/616">Marcion</persName> forsook the Catholic Church.
+                 <ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/></ab>
+           </div>
+           <div type="section" xml:id="section-6" n="6">
+              <ab xml:id="section-6.1" n="6">The year 465, in the month Tammuz, on the eleventh day i.e., July 11th, 154  
+                 
+                 A.D.), <persName>Bardesanes</persName> was born.
+                 <ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/></ab>
+           </div>
+           <div type="section" xml:id="section-7" n="7">
+              <ab xml:id="section-7.1" n="7"><persName ref="http://syriaca.org/person/2288">Lucius Caesar</persName>, with his brother, subjugated the Parthians to the <persName>Romans</persName> in the fifth
+                 year of his reign.
+                 <ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/></ab>
+           </div>
+           <div type="section" xml:id="section-8" n="8">
+              <ab xml:id="section-8.1" n="8"> 8. In the year 513, in the reign of <persName ref="http://syriaca.org/person/2302">Severus</persName>, and in the reign of <persName ref="http://syriaca.org/person/2201">Abgar</persName> the king, son of
+                 <persName ref="http://syriaca.org/person/2291">Maano the king</persName>, in the month Tishrin the latter (i.e., November), the fountain
+                 of water which proceeds from the <placeName ref="http://syriaca.org/place/2579">great palace</placeName> of <persName ref="http://syriaca.org/person/2201">Abgar</persName> the great king increased, and it
+                 prevailed, and it went up according to its former manner, and overflowed and ran out on
+                 all sides, so that the courts and the porches and <placeName ref="http://syriaca.org/place/2583">the royal houses</placeName> began to be filled
+                 with water. And when our lord <persName ref="http://syriaca.org/person/2201">Abgar</persName> the king saw it, he went up to the level ground on
+                 the hill above his palace, where dwell and reside those who do the work for the
+                 government. And while <persName ref="http://syriaca.org/person/2220">the wise men</persName> considered what to do to the waters which had so
+                 greatly increased, it happened that there was a great and violent rain in the night, and
+                 <placeName ref="http://syriaca.org/place/191">the Daisan (river)</placeName> came, neither in its day, nor in its month. And strange waters came;
+                 and they encountered the <hi rend="italics">cataracts</hi>(? flood gates) which were fastened with great
+                 pieces of iron which were overlaid upon them, and with bars of iron which supported
+                 them. But not prevailing against them, the waters rose like a great sea beyond the walls
+                 of the city. And the waters began to come down from the apertures of the wall into the
+                 city. And <persName ref="http://syriaca.org/person/2201">Abgar</persName> the king stood on the great tower which was called that of the <persName>Persians</persName>,
+                 and saw the water by the light of torches, and he commanded, and they took away the
+                 gates and the eight <hi rend="italics">cataracts</hi>(? flood-gates) of the western wall of the city
+                 where the river flowed out. But that very hour the waters broke down the western wall of
+                 the city, and entered the city, and overthrew the great and beautiful palace of our lord
+                 the king, and they carried away everything that was found before them, the desirable and
+                 beautiful edifices of the city, whatever <pb n="31"/>
+                 was near the river on the south and on the north of it. And they destroyed the temple of
+                 <placeName ref="http://syriaca.org/place/2580">the church of the Christians</placeName>. And there were killed by that occurrence more than
+                 <persName ref="http://syriaca.org/person/2228">two thousand men</persName>, upon many of whom as they slept in the night the waters came suddenly, and
+                 they were drowned, and the city was filled with the sound of lamentation.</ab>
+              <ab xml:id="section-8.2" n="9"> And when <persName ref="http://syriaca.org/person/2201">Abgar</persName> the king saw this destruction which had befallen, he commanded that all
+                 the craftsmen of the city should remove their cottages (or huts) from near the river,
+                 and that no man should build near the river any cottage. And by the wisdom of <persName ref="http://syriaca.org/person/2230">measurers and men of skill</persName>
+                 the cottages were placed so that the breadth of the river might be
+                 increased, and they added to its former measure. For if the waters were many and strong,
+                 the width of the river was too small to receive the water of twenty-five brooks with
+                 what they gathered from all sides. And <persName ref="http://syriaca.org/person/2201">Abgar</persName> the king commanded that 
+                 <persName ref="http://syriaca.org/person/2231">all who lived in the porch</persName>, and were occupied over against the river, from Tishrin the former to Nisan
+                 (October to April), should not lodge in their cottages, except <persName ref="http://syriaca.org/person/2232">the islanders</persName> (Gazireans)
+                 who kept the city, five of whom should lodge on the wall above the place where the
+                 waters entered the city all the time of winter, and when they perceived by night and
+                 heard the sound of strange waters, which began to enter the city, and whoever heard the
+                 sound and neglected it, and did not publish it, behold the waters should drown the
+                 contempt of him that despised the command of the king. And this commandment was decreed
+                 from this time wherein it was so to the end of the world.</ab>
+              <ab xml:id="section-8.3" n="10"> Our lord <persName ref="http://syriaca.org/person/2201">Abgar</persName> the king commanded, and there was built for him a building for his royal
+                 house----a winter house at <placeName>Tabara</placeName> ----and there he dwelt all the time of winter; and in
+                 summer he came down to the new palace which was built for him at the fountain head. And
+                 his nobles also built for themselves buildings to live in, in the neighbourhood in which
+                 the king was, in the high street (?) which is called <placeName>Beth Saharoye</placeName>. And in order to
+                 restore the welfare of the former city, <persName ref="http://syriaca.org/person/2201">Abgar</persName> the king commanded, and the tributes due
+                 from those within, and from those who dwelt in towns, and in hamlets, were remitted: and
+                 tribute was not demanded from them for five years, until the city was enriched with men,
+                 and was crowned with buildings.</ab>
+              <ab xml:id="section-8.4" n="11"> Now <persName ref="http://syriaca.org/person/2313">Mar Yahab Bar Shemesh</persName>, and <persName ref="http://syriaca.org/person/2285">Kajuma Bar Magartat</persName>, the scribes of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, recorded this
+                 event, and the command of <persName ref="http://syriaca.org/person/2201">Abgar</persName> the king: and <persName ref="http://syriaca.org/person/2239">Bar Din</persName> and <persName ref="http://syriaca.org/person/2243">Bulid</persName>, who are prefects over
+                 the archives of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, received and deposited it within them as trusted of the city
+                 (i.e., archivists.) <pb n="32"/>.
+                 <ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/></ab>
+           </div>
+           <div type="section" xml:id="section-9" n="9">
+              <ab xml:id="section-9.1" n="12">And in the year 517, <persName ref="http://syriaca.org/person/2201">Abgar</persName> built a palace in his 
+                 own citadel (? town).
+                 <ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/></ab>
+           </div>
+           <div type="section" xml:id="section-10" n="10">
+              <ab xml:id="section-10.1" n="13">The year 551 <persName ref="http://syriaca.org/person/608">Manes</persName> was born.
+                 <ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/></ab>
+           </div>
+           <div type="section" xml:id="section-11" n="11">
+              <ab xml:id="section-11.1" n="14">The year 614, were broken down the walls of <placeName ref="http://syriaca.org/place/78">Edessa</placeName> the second time in the days of
+                 <persName>Diocletian</persName> the king.
+                 <ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>
+                 <ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/></ab>
+           </div>
+           <div type="section" xml:id="section-12" n="12">
+              <ab xml:id="section-12.1" n="15">In the year 624, <persName ref="http://syriaca.org/person/2247">Conon</persName> the bishop laid the foundations of the Church of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>; and
+                 <persName>Sha'ad</persName>, the bishop who came after him, built and finished the structure.</ab>
+           </div>
+           <div type="section" xml:id="section-13" n="13">
+              <ab xml:id="section-13.1" n="16">In the year 635, the cemetery of <placeName ref="http://syriaca.org/place/78">Edessa</placeName> was built, in the days of <persName ref="http://syriaca.org/person/326">Ethalaha</persName> the
+                 bishop, the year before the great synod of <placeName>Nicea</placeName> was held.
+                 <ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/></ab>
+           </div>
+           <div type="section" xml:id="section-14" n="14">
+              <ab xml:id="section-14.1" n="17">The year 635, <persName ref="http://syriaca.org/person/326">Ethalaha</persName> became bishop in <placeName ref="http://syriaca.org/place/78">Edessa</placeName>; and he constructed the cemetery, and
+                 the eastern side
+                 <ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> of the church.</ab>
+           </div>
+           <div type="section" xml:id="section-15" n="15">
+              <ab xml:id="section-15.1" n="18">And the year after, a synod of three hundred and eighteen bishops was assembled at
+                 <placeName>Nicea</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-16" n="16">
+              <ab xml:id="section-16.1" n="19">The year 639, there was building and enlargement in the church of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-17" n="17">
+              <ab xml:id="section-17.1" n="20">In the year 649, died Mar <persName ref="http://syriaca.org/person/811">Jacob</persName>, 
+                 bishop of <placeName ref="http://syriaca.org/place/2351">Nisibis</placeName>.
+                 <ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/></ab>
+           </div>
+           <div type="section" xml:id="section-18" n="18">
+              <ab xml:id="section-18.1" n="21">The year 657, <persName ref="http://syriaca.org/person/2202">Abraham</persName> became bishop in <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, and he built the house (or church) of
+                 the Confessors.</ab>
+           </div>
+           <div type="section" xml:id="section-19" n="19">
+              <ab xml:id="section-19.1" n="22">The year 660, <persName ref="http://syriaca.org/person/2249">Constantius</persName>, the son of <persName ref="http://syriaca.org/person/1655">Constantine</persName>, built the city of <placeName ref="http://syriaca.org/place/8">Amida</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-20" n="20">
+              <ab xml:id="section-20.1" n="23">And in the year 661, <persName ref="http://syriaca.org/person/2249">Constantius</persName> built <placeName>Tela</placeName>, a city which was before called
+                 <placeName>Antipolis</placeName>.
+                 <ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/></ab>
+           </div>
+           <div type="section" xml:id="section-21" n="21">
+              <ab xml:id="section-21.1" n="24">The year 667, <persName ref="http://syriaca.org/person/2202">Abraham</persName> of 
+                 <placeName ref="http://syriaca.org/place/3056">Chidon</placeName>, a recluse, became (bishop).
+                 <ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/></ab>
+           </div>
+           <div type="section" xml:id="section-22" n="22">
+              <ab xml:id="section-22.1" n="25">In the year 670, <placeName ref="http://syriaca.org/place/502">Nicomedia</placeName> was overthrown.
+                 <ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/></ab>
+           </div>
+           <div type="section" xml:id="section-23" n="23">
+              <ab xml:id="section-23.1" n="26">In the year 672, Mar <persName ref="http://syriaca.org/person/2202">Abraham</persName>, bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, left the world.</ab>
+           </div>
+           <div type="section" xml:id="section-24" n="24">
+              <ab xml:id="section-24.1" n="27">And in the same year, <persName ref="http://syriaca.org/person/2312">Vologesh</persName>, bishop of <placeName ref="http://syriaca.org/place/2351">Nisibis</placeName>, departed from this world.</ab>
+           </div>
+           <div type="section" xml:id="section-25" n="25">
+              <ab xml:id="section-25.1" n="28">And in the same year came <persName ref="http://syriaca.org/person/2241">Barses</persName>, the bishop from 
+                 <placeName>Haran</placeName> to <placeName ref="http://syriaca.org/place/78">Edessa</placeName> by command of the
+                 king (i.e., the emperor <persName ref="http://syriaca.org/person/2249">Constantius</persName>, then in that region).
+                 <ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/></ab>
+           </div>
+           <div type="section" xml:id="section-26" n="26">
+              <ab xml:id="section-26.1" n="29">And in the year 674, in the month Haziran (June), <persName ref="http://syriaca.org/person/2283">Julian</persName> went down and made war with <!-- [months with altearnate language foring language or persname? line 214] -->
+                 
+                 the <persName>Persians</persName>, and died there.</ab>
+           </div>
+           <div type="section" xml:id="section-27" n="27">
+              <ab xml:id="section-27.1" n="30">In the year 675, in the month Shebat (February), <persName ref="http://syriaca.org/person/2310">Valentinian</persName> the Great became king,
+                 and <persName ref="http://syriaca.org/person/2309">Valens</persName> his brother. <pb n="33"/>.</ab>
+           </div>
+           <div type="section" xml:id="section-28" n="28">
+              <ab xml:id="section-28.1" n="31">In the year 678, Mar <persName ref="http://syriaca.org/person/834">Julian Saba</persName> departed from the world.</ab>
+           </div>
+           <div type="section" xml:id="section-29" n="29">
+              <ab xml:id="section-29.1" n="32">The year 681, was built the great <hi rend="italics">Beth-ma'amuditho</hi>(House of Baptizing) of
+                 <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.
+                 <ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/></ab>
+           </div>
+           <div type="section" xml:id="section-30" n="30">
+              <ab xml:id="section-30.1" n="33">In the year 684, in the month Haziran (June), on the ninth in it, departed from the <!-- [months with altearnate language foring language or persname? line 231] -->
+                 world Mar <persName ref="http://syriaca.org/person/2274">Ephraim</persName> <quote>of his wisdoms</quote> (= the wise).
+                 <ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/></ab>
+           </div>
+           <div type="section" xml:id="section-31" n="31">
+              <ab xml:id="section-31.1" n="34">And in the month Elul (September) of that year, the people departed from the church <!-- [months with altearnate language foring language or persname? line 236] -->
+                 of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, through the persecution of the <persName ref="http://syriaca.org/person/2211">Arians</persName>.</ab>
+           </div>
+           <div type="section" xml:id="section-32" n="32">
+              <ab xml:id="section-32.1" n="35">In the year 689, in the month Adar, Mar <persName ref="http://syriaca.org/person/2241">Barses</persName>, bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, departed from the <!-- [months with altearnate language foring language or persname? line 240] -->
+                 world.</ab>
+           </div>
+           <div type="section" xml:id="section-33" n="33">
+              <ab xml:id="section-33.1" n="36">And on the twenty-seventh day in the mouth Canun the former (December), of the same <!-- [months with altearnate language foring language or persname? line 244] -->
+                 year, the orthodox came in and recovered the church of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.
+                 <ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/></ab>
+           </div>
+           <div type="section" xml:id="section-34" n="34">
+              <ab xml:id="section-34.1" n="37">And in those days Mar <persName ref="http://syriaca.org/person/1718">Eulogius</persName> became bishop in the year that <persName ref="http://syriaca.org/person/2271">Theodosius</persName> the Great <!-- [Mar? name place or month?] -->
+                 
+                 became king; and that Mar <persName ref="http://syriaca.org/person/1718">Eulogius</persName> built the house of Mar <persName ref="http://syriaca.org/person/2257">Daniel</persName>, which was called the
+                 house of Mar <persName ref="http://syriaca.org/person/2258">Demet</persName>.
+                 <ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/></ab>
+           </div>
+           <div type="section" xml:id="section-35" n="35">
+              <ab xml:id="section-35.1" n="38">The year 692, <persName ref="http://syriaca.org/person/2271">Theodosius</persName> the Great built in 
+                 <placeName ref="http://syriaca.org/place/145">Osrhoene</placeName> the city <placeName>Resaina</placeName>.
+                 <ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/></ab>
+           </div>
+           <div type="section" xml:id="section-36" n="36">
+              <ab xml:id="section-36.1" n="39">The year 693, was gathered the synod of one hundred and fifty bishops in
+                 <placeName>Constantinople</placeName>.
+                 <ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/></ab>
+           </div>
+           <div type="section" xml:id="section-37" n="37">
+              <ab xml:id="section-37.1" n="40">In the year 698, Mar <persName ref="http://syriaca.org/person/1718">Eulogius</persName> the bishop departed from the world on the Friday of
+                 the crucifixion.
+                 <ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/></ab>
+           </div>
+           <div type="section" xml:id="section-38" n="38">
+              <ab xml:id="section-38.1" n="41">The year 705, in the month Ab (August), on the twenty-second day in it, they brought
+                 the <foreign rend="italics">glossocom</foreign> (i.e., coffin) of <persName ref="http://syriaca.org/person/2123">Mar Thomas the Apostle</persName> to his great temple
+                 in the days of Mar <persName ref="http://syriaca.org/person/2253">Cyrus</persName> the bishop.
+                 <ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/></ab>
+           </div>
+           <div type="section" xml:id="section-39" n="39">
+              <ab xml:id="section-39.1" n="42">In the year 706, and on the seventeenth of Canun the latter (January), departed from
+                 the world <persName ref="http://syriaca.org/person/2271">Theodosius</persName> the great king; and on the twenty-seventh in Nisan (April),
+                 <persName ref="http://syriaca.org/person/2266">Arcadius</persName> entered <placeName>Constantinople</placeName>; and on the eighth in Tishrin the latter (November), the
+                 body of <persName ref="http://syriaca.org/person/2271">Theodosius</persName> entered <placeName>Constantinople</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-40" n="40">
+              <ab xml:id="section-40.1" n="43">And in the month of Tammuz (July) of the same year, the <persName ref="http://syriaca.org/person/2224">Huns</persName> crossed over to the
+                 territory of the <persName>Romans</persName>.
+                 <ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/></ab>
+           </div>
+           <div type="section" xml:id="section-41" n="41">
+              <ab xml:id="section-41.1" n="44">In the year 707, in the month Tammuz (July), on its twenty-second, departed from the
+                 world Mar <persName ref="http://syriaca.org/person/2253">Cyrus</persName>, bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-42" n="42">
+              <ab xml:id="section-42.1" n="45">And in the year 708 Mar <persName ref="http://syriaca.org/person/2304">Silvanus</persName> became bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-43" n="43">
+              <ab xml:id="section-43.1" n="46">In the year 710, on the seventeenth of Tishrin the former (October), Mar <persName ref="http://syriaca.org/person/2304">Silvanus</persName>,
+                 bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, departed from the world.</ab>
+           </div>
+           <div type="section" xml:id="section-44" n="44">
+              <ab xml:id="section-44.1" n="47">And on the twenty-third of the month Tishrin the latter <pb n="34"/> (November) of that year, Mar <persName>Pakida</persName> became bishop in
+                 <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-45" n="45">
+              <ab xml:id="section-45.1" n="48">And in that year arose <persName ref="http://syriaca.org/person/573">Johanan Chrysostomos</persName>, bishop in <placeName>Constantinople</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-46" n="46">
+              <ab xml:id="section-46.1" n="49">The year 714 began <persName ref="http://syriaca.org/person/780">Theodorus</persName>, bishop of <placeName ref="http://syriaca.org/place/2345">Mompsesta</placeName>, to expound the Scriptures.</ab>
+           </div>
+           <div type="section" xml:id="section-47" n="47">
+              <ab xml:id="section-47.1" n="50">The year 715, '<persName ref="http://syriaca.org/person/16">Absamia</persName> <persName>Kashisha</persName>(presbyter), son of the sister of the blessed
+                 Mar <persName ref="http://syriaca.org/person/2274">Ephraim</persName>, composed madroshé(poems?) and discourses upon the coming of the
+                 <persName ref="http://syriaca.org/person/2224">Huns</persName> to the territory of the <persName>Romans</persName>.
+                 <ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/></ab>
+           </div>
+           <div type="section" xml:id="section-48" n="48">
+              <ab xml:id="section-48.1" n="51">The year 720, Mar <persName ref="http://syriaca.org/person/2262">Diogenes</persName> became bishop in <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, and he began to build the house
+                 of Mar <persName ref="http://syriaca.org/person/2240">Barlaha</persName>.
+                 <ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/></ab>
+           </div>
+           <div type="section" xml:id="section-49" n="49">
+              <ab xml:id="section-49.1" n="52">And in that year, in the <foreign xml:lang="la">neomenia</foreign> of Ab (August), Mar <persName>Pakida</persName>, bishop of
+                 <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, departed from the world.
+                 <ptr type="noteAnchor" xml:id="a30" target="#n30" n="30"/></ab>
+           </div>
+           <div type="section" xml:id="section-50" n="50">
+              <ab xml:id="section-50.1" n="53">The year 721, <persName ref="http://syriaca.org/person/430">Cyrillus</persName> became bishop in <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName> the great.</ab>
+           </div>
+           <div type="section" xml:id="section-51" n="51">
+              <ab xml:id="section-51.1" n="54">The year 723, <persName ref="http://syriaca.org/person/26">Rabula</persName> became bishop in <placeName ref="http://syriaca.org/place/78">Edessa</placeName>. And he built the house of Mar
+                 <persName ref="http://syriaca.org/person/1710">Stephanus</persName>, which had been formerly a house of Sabbath (synagogue) of the Jews. Now he
+                 built it by command of the king.
+                 <ptr type="noteAnchor" xml:id="a31" target="#n31" n="31"/></ab>
+           </div>
+           <div type="section" xml:id="section-52" n="52">
+              <ab xml:id="section-52.1" n="55">The year 724, the walls of <placeName ref="http://syriaca.org/place/78">Edessa</placeName> were again broken down by water the third time, in
+                 the days of <persName>Honorius</persName> and <persName ref="http://syriaca.org/person/2266">Arcadius</persName> the victorious kings.
+                 <ptr type="noteAnchor" xml:id="a32" target="#n32" n="32"/>.</ab> <!-- [note 32 empty] -->
+           </div>
+           <div type="section" xml:id="section-53" n="53">
+              <ab xml:id="section-53.1" n="56">The year 732, <persName ref="http://syriaca.org/person/482">Eutychius</persName> the monk arose, 
+                 who rejected the incarnation.
+                 <ptr type="noteAnchor" xml:id="a33" target="#n33" n="33"/></ab>
+           </div>
+           <div type="section" xml:id="section-54" n="54">
+              <ab xml:id="section-54.1" n="57">At that time the blessed <persName ref="http://syriaca.org/person/1296">Jacob</persName>, 
+                 the mutilated, was a martyr.
+                 <ptr type="noteAnchor" xml:id="a34" target="#n34" n="34"/></ab>
+           </div>
+           <div type="section" xml:id="section-55" n="55">
+              <ab xml:id="section-55.1" n="58">The year 739, the heresy of those who say that sin is implanted in nature, became
+                 known.
+                 <ptr type="noteAnchor" xml:id="a35" target="#n35" n="35"/></ab>
+           </div>
+           <div type="section" xml:id="section-56" n="56">
+              <ab xml:id="section-56.1" n="59">The year 740, <persName ref="http://syriaca.org/person/891">Andrew</persName>, bishop of <placeName ref="http://syriaca.org/place/2607">Samosata</placeName>, became famous.</ab>
+           </div>
+           <div type="section" xml:id="section-57" n="57">
+              <ab xml:id="section-57.1" n="60">The year 741, dust came down from heaven.
+                 <ptr type="noteAnchor" xml:id="a36" target="#n36" n="36"/></ab>
+           </div>
+           <div type="section" xml:id="section-58" n="58">
+              <ab xml:id="section-58.1" n="61">The year 742, was assembled the first synod at <placeName ref="http://syriaca.org/place/623">Ephesus</placeName>.
+                 <ptr type="noteAnchor" xml:id="a37" target="#n37" n="37"/></ab>
+           </div>
+           <div type="section" xml:id="section-59" n="59">
+              <ab xml:id="section-59.1" n="62">The year 746, <persName ref="http://syriaca.org/person/26">Rabula</persName>, bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, departed from the world on the eighth of Ab
+                 (August), and the great <persName ref="http://syriaca.org/person/534">Hiba</persName> became (bishop) instead of him. He built the new church
+                 which now is called the house of the apostles.</ab>
+           </div>
+           <div type="section" xml:id="section-60" n="60">
+              <ab xml:id="section-60.1" n="63">The year 749, in. the days of the excellent <persName ref="http://syriaca.org/person/534">Hiba</persName>, Senator brought a great table of
+                 silver, in which were seven hundred and twenty pounds (of silver), and it was put in the
+                 old church of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.<ptr type="noteAnchor" xml:id="a38" target="#n38" n="38"/>
+                 </ab>
+           </div>
+           <pb n="35"/>
+           <div type="section" xml:id="section-61" n="61">
+              <ab xml:id="section-61.1" n="64">The year 753, <persName ref="http://syriaca.org/person/2204">Anatolius</persName>, the <foreign rend="italics">stratelates</foreign>(military commander) made a coffin
+                 of silver, in honour of the bones of <persName ref="http://syriaca.org/person/2123">Thomas</persName>  <!-- [honor or honour? fix spelling issues or not an issue?] -->
+                 the holy apostle.
+                 <ptr type="noteAnchor" xml:id="a39" target="#n39" n="39"/></ab>
+           </div>
+           <div type="section" xml:id="section-62" n="62">
+              <ab xml:id="section-62.1" n="65">The year 756, <persName>Dioscurus</persName> became bishop in 
+                 <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName> the great.</ab>
+           </div>
+           <div type="section" xml:id="section-63" n="63">
+              <ab xml:id="section-63.1" n="66">And there was assembled again at <placeName ref="http://syriaca.org/place/623">Ephesus</placeName> another synod. This anathematized the great
+                 <persName>Flavianus</persName> bishop of <placeName>Constantinople</placeName>, and <persName ref="http://syriaca.org/person/2264">Domnus</persName> of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>, and <persName ref="http://syriaca.org/person/847">Irenaeus</persName> of <placeName ref="http://syriaca.org/place/195">Tyre</placeName>, and
+                 <persName ref="http://syriaca.org/person/534">Hiba</persName> of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, and <persName ref="http://syriaca.org/person/2280">Eusebius</persName> of <placeName ref="http://syriaca.org/place/2572">Dorylaeum</placeName>, and <persName ref="http://syriaca.org/person/2257">Daniel</persName> of <placeName>Haran</placeName>, and <persName ref="http://syriaca.org/person/2306">Sophronius</persName> of <placeName>Tela</placeName>,
+                 and <persName ref="http://syriaca.org/person/781">Theodoret</persName> of 
+                 <placeName ref="http://syriaca.org/place/65">Cyrus</placeName>.
+                 <ptr type="noteAnchor" xml:id="a40" target="#n40" n="40"/></ab>
+           </div>
+           <div type="section" xml:id="section-64" n="64">
+              <ab xml:id="section-64.1" n="67">The year 759, <persName ref="http://syriaca.org/person/534">Hibas</persName> the bishop departed from <placeName ref="http://syriaca.org/place/78">Edessa</placeName> on the first day in the month
+                 Canun the latter (January 1), and on the twenty-first day of the month Tammuz (July),
+                 <persName ref="http://syriaca.org/person/2292">Nonnus</persName> came in in his stead, and continued two years, and made a <foreign rend="italics">hierateion
+                 </foreign> (sacristy) in the church.</ab>
+           </div>
+           <div type="section" xml:id="section-65" n="65">
+              <ab xml:id="section-65.1" n="68">Anno 760, arose <persName ref="http://syriaca.org/person/2299">Leo</persName> 
+                 bishop in <placeName ref="http://syriaca.org/place/166">Rome</placeName>.
+                 <ptr type="noteAnchor" xml:id="a41" target="#n41" n="41"/></ab>
+           </div>
+           <div type="section" xml:id="section-66" n="66">
+              <ab xml:id="section-66.1" n="69">Anno 762, a synod was assembled in the city of <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-67" n="67">
+              <ab xml:id="section-67.1" n="70">An. 763, Mar <persName>Isaac</persName>, a composer (an author) and <persName>abbot</persName> (or <persName>Archimandrite</persName>) was famous.
+                 <ptr type="noteAnchor" xml:id="a42" target="#n42" n="42"/></ab>
+           </div>
+           <div type="section" xml:id="section-68" n="68">
+              <ab xml:id="section-68.1" n="71">An. 769, in the month Tishriu the former (October), on the twenty-eighth, <persName ref="http://syriaca.org/person/534">Hiba</persName>,
+                 bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, went to rest; and <persName ref="http://syriaca.org/person/2292">Nonnus</persName> came into his place, and built the house of
+                 Mar <persName>Johanan the Baptist</persName>, and (he constructed) a place for poor invalids, outside the
+                 gate of <placeName ref="http://syriaca.org/place/2601">Beth Shemesh</placeName>; and in the place for the poor he built the house of martyrs to Mar
+                 <persName ref="http://syriaca.org/person/1650">Cosma</persName> and Mar <persName ref="http://syriaca.org/person/1669">Damian</persName>. Now he built also convents and towers, and made bridges, and
+                 levelled the roads.
+                 <ptr type="noteAnchor" xml:id="a43" target="#n43" n="43"/></ab>
+           </div>
+           <div type="section" xml:id="section-69" n="69">
+              <ab xml:id="section-69.1" n="72">In the year 771, departed the blessed <persName>Simeon</persName> of <quote>his column</quote> (Stylites) from the
+                 world, on Elul the second (September 2), on Wednesday (the fourth day in the week), the
+                 time the eleventh hour.
+                 <ptr type="noteAnchor" xml:id="a44" target="#n44" n="44"/></ab>
+           </div>
+           <div type="section" xml:id="section-70" n="70">
+              <ab xml:id="section-70.1" n="73">The year 777, <persName ref="http://syriaca.org/person/2270">Leo</persName> built <placeName ref="http://syriaca.org/place/109">Callinicns</placeName> in <placeName ref="http://syriaca.org/place/145">Osrhoene</placeName>, and named it after his own name
+                 <placeName ref="http://syriaca.org/place/109">Leontopolis</placeName>; and set in it also a bishop.</ab>
+           </div>
+           <div type="section" xml:id="section-71" n="71">
+              <ab xml:id="section-71.1" n="74">An. 782, <persName ref="http://syriaca.org/person/2292">Nonnus</persName>, bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, rested, and <persName ref="http://syriaca.org/person/2253">Cyrus</persName> became (bishop) in his stead.</ab>
+           </div>
+           <div type="section" xml:id="section-72" n="72">
+              <ab xml:id="section-72.1" n="75">An. 795, <persName ref="http://syriaca.org/person/2287">Leontios</persName> rebelled against <persName ref="http://syriaca.org/person/2273">Zeno</persName>, and reigned in <placeName ref="http://syriaca.org/place/10">Antioch</placeName> two years.</ab>
+           </div>
+           <div type="section" xml:id="section-73" n="73">
+              <ab xml:id="section-73.1" n="76">An. 800, <persName ref="http://syriaca.org/person/2225">the school of the Persians</persName> was eradicated from <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-74" n="74">
+              <ab xml:id="section-74.1" n="77">An. 809, the (tribute of) gold was remitted to the artificers in all the land, in
+                 the month Iyar (May).
+                 <ptr type="noteAnchor" xml:id="a45" target="#n45" n="45"/></ab>
+           </div>
+           <div type="section" xml:id="section-75" n="75">
+              <ab xml:id="section-75.1" n="78">And on the sixth in the month Haziran (June), <persName ref="http://syriaca.org/person/2253">Cyrus</persName>, bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, rested, and
+                 <persName ref="http://syriaca.org/person/2297">Peter</persName> became (bishop) in his stead, <pb n="36"/> and he
+                 entered <placeName ref="http://syriaca.org/place/78">Edessa</placeName> on the twelfth of Elul (September) of the same year.</ab>
+           </div>
+           <div type="section" xml:id="section-76" n="76">
+              <ab xml:id="section-76.1" n="79">An. 810, many locusts appeared, but did no great damage that year: but the herbage
+                 grew again. And there was a great earthquake. And the warm bath of the <persName>Iberians</persName> failed
+                 three days. And the city of <placeName ref="http://syriaca.org/place/2574">Nicopolis</placeName> was overthrown, and buried in it all its
+                 inhabitants, save the temple, and the bishop, and two Syncelli (sons of his cell). And a <!-- [Syncelli is a name? last name ? ] -->
+                 sign that was like a spear appeared in heaven many days, in the month Canun the latter
+                 (January).
+                 <ptr type="noteAnchor" xml:id="a46" target="#n46" n="46"/></ab>
+           </div>
+           <div type="section" xml:id="section-77" n="77">
+              <ab xml:id="section-77.1" n="80">Now <persName ref="http://syriaca.org/person/2265">Anastasius</persName> the king deposed <persName ref="http://syriaca.org/person/2277">Euphemius</persName>, bishop of <placeName>Constantinople</placeName>, from his place,
+                 and <persName ref="http://syriaca.org/person/2696">Macedon</persName> became bishop in his stead.</ab>
+           </div>
+           <div type="section" xml:id="section-78" n="78">
+              <ab xml:id="section-78.1" n="81">An. 811, many locusts came and destroyed and devoured all the produce.</ab>
+           </div>
+           <div type="section" xml:id="section-79" n="79">
+              <ab xml:id="section-79.1" n="82">An. 813, a great fire appeared on the side of the north, which blazed all night on
+                 the twenty-second of Ab (August).
+                 <ptr type="noteAnchor" xml:id="a47" target="#n47" n="47"/></ab>
+           </div>
+           <div type="section" xml:id="section-80" n="80">
+              <ab xml:id="section-80.1" n="83">An. 814, <persName ref="http://syriaca.org/person/2286">Cavades</persName>, king of the <persName>Persians</persName>, encamped against <placeName ref="http://syriaca.org/place/8">Amida</placeName>, a <placeName>city of Beth
+                 Naharotha</placeName> (Mesopotamia), on the fifth day in the month Tishrin the former (October), and
+                 fought with it, and took it in ninety-seven days.</ab>
+           </div>
+           <div type="section" xml:id="section-81" n="81">
+              <ab xml:id="section-81.1" n="84">And in the month Elul (September) of that year, he came and encamped against <placeName ref="http://syriaca.org/place/78">Edessa</placeName>,
+                 and by the grace of God, did it no harm, except that he burnt the house of Mar <persName ref="http://syriaca.org/person/1466">Sergius</persName>
+                 and the northern basilica of <foreign rend="italics">Beth-maudiné</foreign>(the House of Confessors, see above,
+                 No. 18.</ab>
+           </div>
+           <div type="section" xml:id="section-82" n="82">
+              <ab xml:id="section-82.1" n="85">An. 821, <persName ref="http://syriaca.org/person/2297">Peter</persName>, bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, rested on the day of the Sabbath of the
+                 resurrection (Saturday, April 10, 510 A.D.), and <persName ref="http://syriaca.org/person/2296">Paul</persName> 
+                 was appointed instead of him.
+                 <ptr type="noteAnchor" xml:id="a48" target="#n48" n="48"/></ab>
+           </div>
+           <div type="section" xml:id="section-83" n="83">
+              <ab xml:id="section-83.1" n="86">And in the year twenty-one of the reign of <persName ref="http://syriaca.org/person/2265">Anastus</persName> (<persName ref="http://syriaca.org/person/2265">Anastasius</persName>), he commanded them
+                 to open the coffin of <persName ref="http://syriaca.org/person/479">Euphemia</persName> the martyr, and to bring forth from thence the book which
+                 the synod that was assembled at <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName> had put there, and to burn it; and there came
+                 forth fire from thence, and smote upon the faces of those who wished to bring it out,
+                 and because of this <persName ref="http://syriaca.org/person/2265">Anastasius</persName> 
+                 refrained from taking it away from thence and burning it.
+                 <ptr type="noteAnchor" xml:id="a49" target="#n49" n="49"/></ab>
+           </div>
+           <div type="section" xml:id="section-84" n="84">
+              <ab xml:id="section-84.1" n="87">But he removed <persName ref="http://syriaca.org/person/2696">Macedon</persName>, the bishop of <placeName>Constantinople</placeName>, because he did not
+                 anathematize the synod, and <persName>Timothy</persName> became (bishop) instead of him.</ab>
+           </div>
+           <div type="section" xml:id="section-85" n="85">
+              <ab xml:id="section-85.1" n="88">And in the twenty-fourth of the same <persName ref="http://syriaca.org/person/2265">Anastasius</persName> <persName ref="http://syriaca.org/person/2311">Vitalian</persName> rebelled against him.</ab>
+           </div>
+           <div type="section" xml:id="section-86" n="86">
+              <ab xml:id="section-86.1" n="89">An. 829, in the month Tammuz (July), on the ninth, <persName ref="http://syriaca.org/person/2265">Anastasius</persName> the king departed from
+                 the world, and <persName ref="http://syriaca.org/person/2268">Justin</persName> became (king) in his stead. <pb n="37"/>.</ab>
+           </div>
+           <div type="section" xml:id="section-87" n="87">
+              <ab xml:id="section-87.1" n="90">And in the second year of the reign of <persName ref="http://syriaca.org/person/2268">Justin</persName>, which was An. 830, he thrust out of
+                 <placeName ref="http://syriaca.org/place/10">Antioch</placeName> <persName ref="http://syriaca.org/person/2302">Severus</persName>, and <persName ref="http://syriaca.org/person/44">Xenaias</persName> from <placeName>Mabug</placeName>, and everybody that received not the four
+                 synods.
+                 <ptr type="noteAnchor" xml:id="a50" target="#n50" n="50"/></ab>
+           </div>
+           <div type="section" xml:id="section-88" n="88">
+              <ab xml:id="section-88.1" n="91">Now such was the care and concern of the friend of God, king <persName ref="http://syriaca.org/person/2268">Justinian</persName>, that he
+                 wrote in the <hi rend="italics">diptychs</hi> of the church the four holy synods, that is to say, that of
+                 <placeName>Nicea</placeName>, and that of <placeName>Constantinople</placeName>, and the first of <placeName ref="http://syriaca.org/place/623">Ephesus</placeName>, and that of <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName>.</ab>
+           </div>
+           <div type="section" xml:id="section-89" n="89">
+              <ab xml:id="section-89.1" n="92">And in An. 831 came the <persName>patrician</persName> (or Patricius) to <placeName ref="http://syriaca.org/place/78">Edessa</placeName> to remove <persName ref="http://syriaca.org/person/2296">Paul</persName> in the
+                 month Tishrin the latter (November) on the fourth, and he urged him to do one of two
+                 things, either to receive the synod and continue on his seat, or if he would not be
+                 persuaded he would remove him from his seat. But he was not persuaded to do one of
+                 these, but fled and went in and stayed in the <placeName>House of Baptism</placeName>. Now when the patrician
+                 (or Patricius) saw that he was unpersuaded to do one of these, and was afraid of the
+                 command of the king, he was compelled to remove him from the <placeName>House of Baptism</placeName>, and
+                 conveyed him to <placeName ref="http://syriaca.org/place/174">Seleucia</placeName>. And when the king heard that he had taken him from the <placeName>House
+                 of Baptism</placeName>, he commanded that he should return to his seat, in hope that he would repent
+                 and receive the synod. And <persName ref="http://syriaca.org/person/2296">Paul</persName> re-entered his seat in forty-four days, and he was a
+                 long time without receiving the synod, and when the king saw that he was not persuaded,
+                 he sent him to <placeName>Euchata</placeName>. And <persName ref="http://syriaca.org/person/2296">Paul</persName> departed from <placeName ref="http://syriaca.org/place/78">Edessa</placeName> on Tammuz (July) 27, of the year
+                 833, and <persName ref="http://syriaca.org/person/2236">Asclepius</persName> was (bishop) instead of him, and entered <placeName ref="http://syriaca.org/place/78">Edessa</placeName> on the 23rd of
+                 Tishrin the former (October), of the year 834, three months after <persName ref="http://syriaca.org/person/2296">Paul</persName> the bishop
+                 departed from <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.
+                 <ptr type="noteAnchor" xml:id="a51" target="#n51" n="51"/>
+                 <ptr type="noteAnchor" xml:id="a52" target="#n52" n="52"/></ab>
+           </div>
+           <div type="section" xml:id="section-90" n="90">
+              <ab xml:id="section-90.1" n="93">And in the month Canun the former (December), on the 24th in it, after the entering
+                 of <persName ref="http://syriaca.org/person/2236">Asclepius</persName> the bishop to <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, he expelled the Oriental monks, and all the monks
+                 their allies who were like them, because they did not consent to the synod of 
+                 <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName>.
+                 <ptr type="noteAnchor" xml:id="a53" target="#n53" n="53"/></ab>
+           </div>
+           <div type="section" xml:id="section-91" n="91">
+              <ab xml:id="section-91.1" n="94">And in the year 836 many waters entered <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, the fourth time, and broke down the
+                 walls of it, and overturned its dwellings and drowned its children, and made in it much
+                 destruction.</ab>
+           </div>
+           <div type="section" xml:id="section-92" n="92">
+              <ab xml:id="section-92.1" n="95">And through this circumstance <persName ref="http://syriaca.org/person/2236">Asclepius</persName> fled from <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, and went up to <placeName ref="http://syriaca.org/place/10">Antioch</placeName> the
+                 city to <persName ref="http://syriaca.org/person/2278">Euphrasius the patriarch</persName>, and he was there, more or less, seventy days, and he
+                 died there in <placeName ref="http://syriaca.org/place/10">Antioch</placeName> on the 27th in the month Haziran of that year, and was buried
+                 there in <placeName ref="http://syriaca.org/place/10">Antioch</placeName>. And on the 4th in the month Elul of the same year they brought his
+                 body from <placeName ref="http://syriaca.org/place/10">Antioch</placeName> 
+                 and buried it at Beth Mar <persName ref="http://syriaca.org/person/2240">Barlaha</persName>, 
+                 by Mar <persName ref="http://syriaca.org/person/2292">Nonnus</persName> the bishop. <pb n="38"/>.
+                 <ptr type="noteAnchor" xml:id="a54" target="#n54" n="54"/></ab>
+           </div>
+           <div type="section" xml:id="section-93" n="93">
+              <ab xml:id="section-93.1" n="96">And when <persName ref="http://syriaca.org/person/2296">Paul</persName> heard that <persName ref="http://syriaca.org/person/2236">Asclepius</persName> was dead he repented and offered a petition to
+                 Mar <persName ref="http://syriaca.org/person/2284">Justinian</persName> the patrician (<foreign xml:lang="la">Patricius</foreign>), and he made also a <foreign xml:lang="la">libellum
+                 </foreign> to <persName ref="http://syriaca.org/person/2278">Euphrasius the patriarch</persName>, and because of the <foreign xml:lang="la">libellum</foreign> that he made, and
+                 because of the epistle of the illustrious and friend of God, Mar <persName ref="http://syriaca.org/person/2284">Justinian</persName> the patrician
+                 (<foreign xml:lang="la">Patricius</foreign>), he was returned and restored to his seat, and he entered <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                 on the 8th in Adar (March) of the year 837, eight months after the death of <persName ref="http://syriaca.org/person/2236">Asclepius</persName>.</ab>
+           </div>
+           <div type="section" xml:id="section-94" n="94">
+              <ab xml:id="section-94.1" n="97">Now <persName ref="http://syriaca.org/person/2296">Paul</persName> the bishop lived after he returned to his seat the third time, eight months
+                 <hi rend="italics">minus</hi> eight days; and on the 30th in the month Tishrin the former (October)
+                 of the year 838 <persName ref="http://syriaca.org/person/2296">Paul</persName> the bishop rested.</ab>
+           </div>
+           <div type="section" xml:id="section-95" n="95">
+              <ab xml:id="section-95.1" n="98">And <persName>Andreas</persName> became (bishop) in his stead, and entered <placeName ref="http://syriaca.org/place/78">Edessa</placeName> on the 7th of the month
+                 Shebat of the same year 838.</ab>
+           </div>
+           <div type="section" xml:id="section-96" n="96">
+              <ab xml:id="section-96.1" n="99">And in the year 837 in the month Iyar (May), on the 29th in it on Friday at the
+                 seventh hour, there was a great and violent earthquake, and there fell by it much of
+                 <placeName ref="http://syriaca.org/place/10">Antioch</placeName>, and overwhelmed its children, and suffocated its inhabitants.</ab>
+           </div>
+           <div type="section" xml:id="section-97" n="97">
+              <ab xml:id="section-97.1" n="100">And in that earthquake died also <persName ref="http://syriaca.org/person/2278">Euphrasius the patriarch</persName>, and was buried under the
+                 houses, and as they say he was crying out all day beneath the houses. Now after him
+                 <persName ref="http://syriaca.org/person/2274">Ephraim</persName> of 
+                 <placeName ref="http://syriaca.org/place/8">Amida</placeName> became bishop in 
+                 <placeName ref="http://syriaca.org/place/10">Antioch</placeName>, who had been 
+                 <foreign xml:lang="la">Comes</foreign> of the East.
+                 <ptr type="noteAnchor" xml:id="a55" target="#n55" n="55"/></ab>
+           </div>
+           <div type="section" xml:id="section-98" n="98">
+              <ab xml:id="section-98.1" n="101">An. 838 on day 1 in the month of Nisan, <persName ref="http://syriaca.org/person/2284">Mar Justinian</persName> became Caesar, and on the 10th
+                 in the month Ab of the same year king <persName ref="http://syriaca.org/person/2268">Justinian</persName> (<persName ref="http://syriaca.org/person/2268">Justin</persName>) rested, and <persName ref="http://syriaca.org/person/2284">Mar Justinian</persName>
+                 reigned alone.</ab>
+           </div>
+           <div type="section" xml:id="section-99" n="99">
+              <ab xml:id="section-99.1" n="102">And in An. 839, in the month Tishrin the latter, on the 15th in it, a great fire
+                 happened at <placeName ref="http://syriaca.org/place/10">Antioch</placeName>, and burned much of what remained from the earthquake; but
+                 whence the origin of the fire remains unknown.</ab>
+           </div>
+           <div type="section" xml:id="section-100" n="100">
+              <ab xml:id="section-100.1" n="103">An. 842, in the month Tammuz, came down Mar <persName ref="http://syriaca.org/person/2259">Demosthenes</persName> to <placeName ref="http://syriaca.org/place/78">Edessa</placeName> to command the
+                 Roman forces.</ab>
+           </div>
+           <div type="section" xml:id="section-101" n="101">
+              <ab xml:id="section-101.1" n="104">And in the month Canun the former of An. 843, on the 18th in the month, the <persName ref="http://syriaca.org/person/2224">Huns</persName>
+                 entered the Roman territory, and plundered and wasted as far as <placeName>the country of the
+                 Alepponians</placeName>, and to the <foreign rend="italics">dodecaton</foreign>[twelfth milestone] from <placeName ref="http://syriaca.org/place/10">Antioch</placeName>. And through
+                 this affliction Mar <persName ref="http://syriaca.org/person/2259">Demosthenes</persName> fell sick and died at the city of <placeName>Tela</placeName>, on the 10th in
+                 the month Canun the latter of the same year.
+                 <ptr type="noteAnchor" xml:id="a56" target="#n56" n="56"/></ab>
+           </div>
+           <div type="section" xml:id="section-102" n="102">
+              <ab xml:id="section-102.1" n="105">And in An. 843, in the month Elul of the same year, Mar <persName ref="http://syriaca.org/person/2300">Rufinus</persName> the patrician made
+                 peace between the <persName>Persians</persName> and the <persName>Romans</persName>, 
+                 and this peace was prolonged to the year 851.
+                 <ptr type="noteAnchor" xml:id="a57" target="#n57" n="57"/></ab>
+           </div>
+           <div type="section" xml:id="section-103" n="103">
+              <ab xml:id="section-103.1" n="106">And in An. 844, in the month Canun the former in that year, Mar <persName>Andreas</persName>, bishop,
+                 departed from the world, and he <pb n="39"/> was
+                 deposited at Mar <persName ref="http://syriaca.org/person/2240">Barlaha</persName>'s by the bones of Mar <persName ref="http://syriaca.org/person/2292">Nonnus</persName> and Mar <persName ref="http://syriaca.org/person/2236">Asclepius</persName>; and <persName ref="http://syriaca.org/person/2203">Addi</persName> became
+                 bishop instead of him, and entered <placeName ref="http://syriaca.org/place/78">Edessa</placeName> on the 28th in the month Ab of An. 844.</ab>
+           </div>
+           <div type="section" xml:id="section-104" n="104">
+              <ab xml:id="section-104.1" n="107">In An. 13 of the reign of <persName ref="http://syriaca.org/person/2284">Justinian</persName>, which was the year 850, indiction <foreign rend="italics">deutra</foreign>(the second), a sign like a spear appeared in heaven on the 5th of Tishrin the
+                 former (October).
+                 <ptr type="noteAnchor" xml:id="a58" target="#n58" n="58"/></ab>
+           </div>
+           <div type="section" xml:id="section-105" n="105">
+              <ab xml:id="section-105.1" n="108">And in the same year in the month Iyar (May) <persName ref="http://syriaca.org/person/2244">Chosroes</persName> king of the <persName>Persians</persName> broke
+                 the peace, and crossed over to the territory of the <persName>Romans</persName>, and laid waste <placeName ref="http://syriaca.org/place/185">Shura</placeName>, and
+                 Haleb (Aleppo) and <placeName ref="http://syriaca.org/place/10">Antioch</placeName>, and also took possession of <placeName>Apamea</placeName>, and turned and came as
+                 far as <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, but by the grace of God protecting it, he did no harm in it; but the
+                 great men of the city brought out to him, and he took away two <foreign xml:lang="la">centenaria
+                 </foreign>(hundreds of pounds <hi rend="italics">or</hi> talents) of gold, and he returned to his place.
+                 <ptr type="noteAnchor" xml:id="a59" target="#n59" n="59"/></ab>
+           </div>
+           <div type="section" xml:id="section-106" n="106">
+              <ab xml:id="section-106.1" n="109">As we learn from the former histories, behold the waters have four times broken down
+                 the walls of the blessed [city] and overthrown its towers, and choked its children,
+                 since Messiah ascended to his glorious Father. The first time its walls were broken down
+                 was in the days of <persName ref="http://syriaca.org/person/2302">Severus</persName> the king of the <persName>Romans</persName>, which was An. 513, by the reckoning
+                 of the <persName>Ionians (Greeks)</persName>, in the month Tishrin the latter. And the second time its walls
+                 were broken down was in the days of <persName>Diocletian</persName> the king, which was the year 614 in the
+                 month Iyar. And the third time its walls were broken down was in the days of <persName>Honorius</persName>
+                 and <persName ref="http://syriaca.org/person/2271">Theodosius</persName> the illustrious kings, which was. An. 724 in the month Adar, on the 18th
+                 in it, on the 3rd in the week (Tuesday), when Mar <persName ref="http://syriaca.org/person/26">Rabula</persName> had become bishop in <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.
+                 And the fourth time they were broken down was in the days of <persName ref="http://syriaca.org/person/2268">Justin</persName> the king, which was
+                 the year 836, when <persName ref="http://syriaca.org/person/2236">Asclepius</persName> had become bishop in 
+                 <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.
+                 <ptr type="noteAnchor" xml:id="a60" target="#n60" n="60"/>
+                 <ptr type="noteAnchor" xml:id="a61" target="#n61" n="61"/>
+              </ab>
+           </div>
+        </div>
+         <noteGrp>
+            <desc>Notes renumbered sequentially.</desc>
+            <note xml:id="n1" target="#a1" n="1">The year 180, i.e. of the <persName>Greeks</persName>, of the <persName>Seleucidae</persName>, or of the
+               <persName>Syro-Macedonians</persName>, coincides, says <persName>Assemani</persName>, with B.C. 129. <persName>Dionysius</persName> places the
+               commencement of <placeName>the Edessene kingdom</placeName> in B.C. 136, or, as he calls it, in the year of
+               <persName ref="http://syriaca.org/person/2202">Abraham</persName> 1880.----<quote>The year 1880 of 
+               <persName ref="http://syriaca.org/person/2202">Abraham</persName>, there began to reign over <placeName ref="http://syriaca.org/place/78">Edessa</placeName> (Urhoi) the
+               first <persName>King Orhoi</persName>, son of <persName>Hevia</persName>, five years, and after his name it was called <persName>Urhoi</persName>.</quote> No
+               great antiquity is ascribed to the name of the city by this version of its story.</note>
+            <note xml:id="n2" target="#a2" n="2">The chronicle of Edessa says, <quote>In the year 309 our Lord was born,</quote> i.e., in
+               the forty-fourth of <persName ref="http://syriaca.org/person/2238">Augustus</persName>. See Pagi in <title>Apparatu</title>, No. 157.</note>
+            <note xml:id="n3" target="#a3" n="3">The Syriac is remarkable. <persName ref="http://syriaca.org/person/2201">Abgar</persName> <quote>built 
+               a <hi rend="italics">naphsho</hi> in  honour of his death.</quote> The 
+               word <hi rend="italics">naphsho</hi>  is usually translated <quote>soul</quote>, or <quote>self</quote>, but 
+               is said sometimes to denote a sepulchre or mausoleum. Perhaps the word should 
+               be <hi rend="italics">nauso</hi>, a shrine or temple. <persName>Assemani</persName> says this 
+               <persName ref="http://syriaca.org/person/2201">Abgar</persName> was <persName ref="http://syriaca.org/person/2201">Abgar</persName> Bar Ajazat, the nineteenth King of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>. <persName>Bayer</persName> thinks he 
+               was old when he began to reign, because he built a mausoleum 
+               for himself. <title>Bibl. Or.</title>, i., 421; Bayer, <title>Hist. Osrhoena</title>, 
+               p. 147.</note>
+            <note xml:id="n4" target="#a4" n="4"><persName ref="http://syriaca.org/person/616">Marcion</persName> is joined with <persName>Manetes</persName> in the extracts from the Syriac Chronicle quoted in
+               <title>Syriac Miscellanies</title>, p. 87. <quote>In the year 448, <persName ref="http://syriaca.org/person/616">Marcion</persName> and <persName>Manetes</persName>, heretics
+               in <placeName>Phrygia</placeName>, were famous.</quote> This is a year earlier than the date above given.</note>
+            <note xml:id="n5" target="#a5" n="5">Other dates have been given for <persName>Bardesanes</persName>. Thus in <title>Syriac Miscellanies</title>, p.
+               87, we read that <persName>Bardesanes</persName>, who promulgated the doctrine of <persName>Valentinus</persName>, was famous or
+               flourished in the year 479. If he were only born in 465 (A.D. 154) this can hardly be
+               correct; but other authorities clearly imply an earlier date than that of the Edessene
+               Chronicle.</note>
+            <note xml:id="n6" target="#a6" n="6">This event really occupies an earlier place in the chronicle under the year 449,
+               which <persName>Assemani</persName> says is wrong, and he has therefore corrected it.</note>
+            <note xml:id="n7" target="#a7" n="7"><persName>Dionysius</persName> places this flood in A.D. 216.</note>
+            <note xml:id="n8" target="#a8" n="8">This palace probably stood upon the hill where the citadel of modern <placeName>Urfah</placeName> now
+               stands.</note>
+            <note xml:id="n9" target="#a9" n="9">See <title>Syrian Miscellanies</title>, p. 87; 
+               <quote>In the year 448, <persName ref="http://syriaca.org/person/616">Marcion</persName> and <persName>Manetes</persName> (i.e., Manichaeus), heretics in <placeName>Phrygia</placeName>, 
+                  were famous (i.e., flourished);</quote> and again, 
+               <quote>In the year 573 arose the deceiver <persName ref="http://syriaca.org/person/608">Manes</persName>.</quote></note>
+            <note xml:id="n10" target="#a10" n="10">At the end we read, 
+               <quote>And again a second time were broken down its walls, in the days of 
+                  <persName>Diocletian</persName> who was king,----the year 614, in the month Iyar (May).</quote></note>
+            <note xml:id="n11" target="#a11" n="11">This overthrow of the walls in 303 was also caused by a flood, as shewn by <persName>Dionysius</persName>
+               in his chronicle, and as stated below. The account of <persName>Dionysius</persName>, as quoted by <persName>Assemani</persName>,
+               is to this effect,----<quote>In the year 614 of <persName>Alexander</persName>, <placeName ref="http://syriaca.org/place/78">Edessa</placeName> was taken by the waters,
+               and its eastern walls were broken down and fell, and (the river) carried away and
+               removed all that was in it; and the flood made great havoc in it, both upon men and
+               cattle, and in all the plain of <placeName ref="http://syriaca.org/place/78">Edessa</placeName> and <placeName>Haran</placeName>.</quote> <pb n="41"/></note>
+            <note xml:id="n12" target="#a12" n="12">This cemetery is perhaps the first on record constructed for the special use of
+               Christians.</note>
+            <note xml:id="n13" target="#a13" n="13"><persName>Assemani</persName> says <quote>southern side,</quote> 
+               and we may guess why.</note>
+            <note xml:id="n14" target="#a14" n="14"><persName ref="http://syriaca.org/person/811">Jacob of Nisibis</persName> was one of the most famous of the bishops of his time. He was at
+               the council of <placeName>Nicea</placeName>, and so was <persName>Ethilhas</persName> or <persName ref="http://syriaca.org/person/326">Ethalaha</persName> of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.</note>
+            <note xml:id="n15" target="#a15" n="15"><persName ref="http://syriaca.org/person/2249">Constantius</persName> is said to have built <placeName>Tela</placeName>, but probably he restored or enlarged it, and
+               called it <placeName>Constantina</placeName>. <persName>Dionysius</persName> refers this restoration to <persName ref="http://syriaca.org/person/1655">Constantine</persName>. <persName>Assemani</persName> says
+               the new name was <placeName>Constantina</placeName>, and not <placeName>Constantinople</placeName>, as <persName>Dionysius</persName> affirms.</note>
+            <note xml:id="n16" target="#a16" n="16"><placeName ref="http://syriaca.org/place/3056">Chidon</placeName> was not far from <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.</note>
+            <note xml:id="n17" target="#a17" n="17">This happened in consequence of an earthquake, at the very time a council was being
+               held in the city. The bishops removed to <placeName ref="http://syriaca.org/place/174">Seleucia</placeName>, in <placeName>Isauria</placeName>, and finished their
+               business there.</note>
+            <note xml:id="n18" target="#a18" n="18"><persName ref="http://syriaca.org/person/2241">Barses</persName> seems to have been translated from <placeName>Haran</placeName> to <placeName ref="http://syriaca.org/place/78">Edessa</placeName> simply by the command of
+               the emperor.</note>
+            <note xml:id="n19" target="#a19" n="19">The great baptistery may have stood where Mr. Badger says a mosque now
+               stands,----<quote>The mosque called <placeName>Oloor Jamesi</placeName> was an old Christian church, as is evident
+               from the hexangular belfry which is now converted into a minaret, and from the lower
+               parts of the building. As in the case of the <placeName>Great Mosque at Diarbekir</placeName>, the nave of the
+               church has been turned into a court-yard, in which a fountain has been introduced for
+               the religious ablutions of the Mussulmans; and the southern wall of the church is now
+               the northern wall of the mosque. The fountain is surmounted by a dome raised upon four
+               Corinthian pillars taken from some more ancient building.</quote> (Nestorians, i., 326). May
+               not the fountain be really of ancient origin?</note>
+            <note xml:id="n20" target="#a20" n="20">The grave of <persName ref="http://syriaca.org/person/2274">Ephraim</persName>, or rather his tomb in a cave, is still shewn at <placeName>Urfah</placeName>, and
+               upon it the <persName>Jacobites</persName> consecrate the Eucharistic elements.</note>
+            <note xml:id="n21" target="#a21" n="21">Certainly not in the same year as the death of <persName ref="http://syriaca.org/person/2241">Barses</persName>. It is not clear when these
+               years begin. They are usually supposed to begin Sept. 1, but our author seems to have
+               some other day, as several of his entries suggest. Above in No. 31 he reckons September,
+               as in the same year with the preceding June. <persName>Assemani</persName> says this belongs to the year 690.</note>
+            <note xml:id="n22" target="#a22" n="22">Mar <persName ref="http://syriaca.org/person/2258">Demet</persName> is rendered by <persName>Assemani</persName> as if it were a contraction of <placeName>Domitius</placeName>, <quote><foreign xml:lang="la">Domus
+                     Mar <persName>Domitii</persName>.</foreign>.</quote> He prints it in italics, apparently as if in doubt. The vowels are
+               as we give them, and therefore we prefer to think <persName>Demetrius</persName> is meant, both here
+               and elsewhere (<title>B. O.</title>, i., 215).</note>
+            <note xml:id="n23" target="#a23" n="23"><placeName>Resaina</placeName> signifies Fountain-head, and was restored by <persName ref="http://syriaca.org/person/2271">Theodosius</persName>. <pb n="42"/></note>
+            <note xml:id="n24" target="#a24" n="24">The second general council in A.D. 381. It began in October, hence the author
+               assigns it to 693, and not 692; <persName>Assemani</persName> at least puts it in October, with which however
+               others do not agree. <persName>Socrates</persName> assigns it to May; and the very ancient MS. quoted in
+               <title>Syriac Miscellanies</title>(A.D. 500) refers it to August. So also the Syriac
+               Chronicle quoted, in <title>Syriac Miscellanies</title>, p. 89. <persName ref="http://syriaca.org/person/1718">Eulogius</persName> of <placeName ref="http://syriaca.org/place/78">Edessa</placeName> attended the
+               council.</note>
+            <note xml:id="n25" target="#a25" n="25"><persName ref="http://syriaca.org/person/1718">Eulogius</persName> died on Good Friday.</note>
+            <note xml:id="n26" target="#a26" n="26">It does not appear where they obtained the relics of <persName>the Apostle</persName>. They were,
+               however, deposited in <quote>his great temple,</quote> i.e., a church dedicated to his name,
+               or called after him.</note>
+            <note xml:id="n27" target="#a27" n="27">This invasion of the <persName ref="http://syriaca.org/person/2224">Huns</persName> or <persName>Asiatic Tartars</persName> (A.D. 395) was probably the first in
+               that direction; it was not the last.</note>
+            <note xml:id="n28" target="#a28" n="28">The Madrashé of <persName ref="http://syriaca.org/person/16">Absamia</persName> may have been poems, but the word is also used of prose.
+               <persName>Assemani</persName> says <quote><foreign xml:lang="la">odas et sermones composuit.</foreign></quote></note>
+            <note xml:id="n29" target="#a29" n="29">Who was <persName ref="http://syriaca.org/person/2240">Barlaha</persName>, <quote>the son of God?</quote> A writer of the name copied <persName ref="http://syriaca.org/person/2274">Ephraim</persName>'s works in
+               A.D. 551, and is spoken of by <persName>Assemani</persName> as an <foreign xml:lang="la">egregius scriptor</foreign>. <title>B. O.</title>, i., 83.</note>
+            <note xml:id="n30" target="#a30" n="30">The Syriac text has the word <foreign xml:lang="la">neomenia</foreign></note>
+            <note xml:id="n31" target="#a31" n="31">This adaptation of a Jewish synagogue for Christian worship at the emperor's
+               bidding, was probably an act of spoliation perpetrated upon the Jews.</note>
+            <note xml:id="n32" target="#a32" n="32"></note> <!-- [note 32 empty] -->
+            <note xml:id="n33" target="#a33" n="33">The Eutychian heresy began later than A.D. 421, and probably later than 431 by a few
+               years at least. <persName ref="http://syriaca.org/person/482">Eutyches</persName> affirmed that there was but one nature in <persName>Christ</persName>, and there are
+               many Monophysites to this day.</note>
+            <note xml:id="n34" target="#a34" n="34">Possibly <persName ref="http://syriaca.org/person/1296">Jacob</persName> the <quote>utilated,</quote> had misunderstood and misapplied Matthew xix. 12.
+               <persName ref="http://syriaca.org/person/1296">Jacob</persName> was, however, doubtless a real martyr; as he was certainly a famous one.</note>
+            <note xml:id="n35" target="#a35" n="35"><persName>Assemani</persName> understands this to allude to the heresy of <persName ref="http://syriaca.org/person/780">Theodore</persName> of <placeName ref="http://syriaca.org/place/2345">Mopsuestia</placeName>, and
+               thinks the writer favoured him and <persName>Pelagius</persName>, from the form in which he puts the record.
+               The orthodox held that <quote>sin was implanted in nature</quote>; it was the heterodox who
+               maintained that it was not. The scribe then makes the orthodox the heretics.</note>
+            <note xml:id="n36" target="#a36" n="36">A shower of dust at <placeName ref="http://syriaca.org/place/78">Edessa</placeName> must have been a rare event.</note>
+            <note xml:id="n37" target="#a37" n="37">For 742 the MS. had 744, which <persName>Assemani</persName> corrected.</note>
+            <note xml:id="n38" target="#a38" n="38">The weight of the table offered by Senator is put down at 
+               720 litra, the same as the Latin <foreign xml:lang="la">libra,</foreign> a pound of about twelve 
+               ounces <foreign xml:lang="fr">avoirdupois</foreign>. This would make
+               about 540 lbs. <foreign xml:lang="fr">avoirdupois</foreign>.</note>
+            <note xml:id="n39" target="#a39" n="39">In the Syriac we read that <persName ref="http://syriaca.org/person/2204">Anatol</persName> the <foreign rend="italics">Stratelates</foreign> made 
+               a <foreign rend="italics">nauso</foreign> of
+               silver. The name <persName ref="http://syriaca.org/person/2204">Anatol</persName> is, of course, a shortened form of <persName ref="http://syriaca.org/person/2204">Anatolius</persName>,----proper names
+               are frequently abbreviated in this
+               chronicle, but we have not always indicated the fact. The <foreign xml:lang="la">Nauso</foreign> seems to be a
+               mere variation of <foreign rend="italics">Naos,</foreign> a temple or shrine. Christianity was now looking up the
+               trappings of exploded idolatry. The reader will be reminded of the silver shrines of
+               Artemis in Acts xix. 24, where the Greek has this very word, and so has the Syriac
+               Peshito. The other word <foreign rend="italics">Stratelates</foreign>, <foreign xml:lang="grc">στρατηλάτης.</foreign>, a commander of soldiers, is as old as <persName>Sophocles</persName> and
+               <persName>Euripides</persName>.</note>
+            <note xml:id="n40" target="#a40" n="40">The second synod of <placeName ref="http://syriaca.org/place/623">Ephesus</placeName>, says <persName>Assemani</persName>, was held, not in 756, but in 760, or
+               A.D. 449. Although <persName>Ibas</persName> of <placeName ref="http://syriaca.org/place/78">Edessa</placeName> was anathematised on that occasion, the fact is
+               recorded without a remark. The bishop, we are told in the following article, left <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+               on January 1st, 759; if, however, the synod was held in 760, the bishop could not have
+               been removed till the next year. <persName ref="http://syriaca.org/person/2292">Nounus</persName>, called <persName ref="http://syriaca.org/person/2292">Nono</persName> in the Syriac text, <quote>made a
+               <foreign rend="italics">hierateion</foreign> in the church.</quote> A <quote><foreign rend="italics">hierateion</foreign></quote> is a 
+               <quote><foreign xml:lang="la">locus sacer ac venerandus, tabulate inclusus, clericis tantum, viris saecularibus raro, mulieribus
+                     nunquam penetrabilis</foreign>.</quote></note>
+            <note xml:id="n41" target="#a41" n="41">This reference to a <quote>bishop <hi rend="italics">in</hi> <placeName ref="http://syriaca.org/place/166">Rome</placeName></quote> (as the Syriac has it), 
+               is the first and only indication given by the chronicle that there were bishops there at all. From first
+               to last there is no sign of dependence upon <placeName ref="http://syriaca.org/place/166">Rome</placeName>, or of any connection with it.</note>
+            <note xml:id="n42" target="#a42" n="42">Mar <persName>Isaac</persName> is called an Archimandrite by <persName>Assemani</persName>, but the Syriac is <quote>head of a
+               convent,</quote> or monastery,----the Greek word is not used.</note>
+            <note xml:id="n43" target="#a43" n="43"><persName>Ibas</persName> was restored and <persName ref="http://syriaca.org/person/2292">Nonnus</persName> removed; but when <persName>Ibas</persName> died <persName ref="http://syriaca.org/person/2292">Nonnus</persName> resumed episcopal
+               functions. <persName ref="http://syriaca.org/person/2292">Nonnus</persName> was no doubt a zealous churchman, for he not only made a sacristy in
+               the church, he built <placeName ref="http://syriaca.org/place/2599">the Church of John the Baptist</placeName>, etc. As <persName>Assemani</persName> renders it, he
+               also built <quote><foreign xml:lang="la">a nosocomium pauperum invalidorum extra portam Beth-Semes</foreign></quote>. The Syriac is
+               here peculiar, and might be rendered <quote>he field of the house of poor invalids.</quote>
+               <persName>Michaelis</persName> says <quote><foreign xml:lang="la">videtur significare hortos, subdio sed porticibus cinctos, in quibus
+               obambulari aegroti poterant.</foreign></quote>Within this inclosure <persName ref="http://syriaca.org/person/2292">Nonnus</persName> built a church. His
+               philanthropy and religious zeal further appear in his erection of convents, towers and
+               bridges, and in the improvement of the highways. These things certainly indicate wealth,
+               influence and public spirit.</note>
+            <note xml:id="n44" target="#a44" n="44">The death of this famous enthusiast, whom <persName>Assemani</persName> calls <quote><foreign xml:lang="la">Sanctissimum Stylitam</foreign></quote>, is
+               said to have happened in the year 770, or A.D. 459. So the Chronicle quoted in <title>Syriac
+                  Miscellanies</title>(p. 83), <quote>In 730 Mar Simeon ascended the pillar, and in 770 he died
+                     on the 2nd of Elul.</quote></note>
+            <note xml:id="n45" target="#a45" n="45">All artificers were required to pay a tax of one <foreign xml:lang="la">Aureus</foreign>
+               <pb n="44"/> every fourth year. The taxes levied are
+               enumerated in the extracts given by <persName>Assemani</persName> (<title>B. O.</title>, i., 268), and are very
+               curious, including horses, oxen, mules, asses, dogs, beggars, and dunghills.</note>
+            <note xml:id="n46" target="#a46" n="46">The <foreign xml:lang="la">Syncelli</foreign> were the personal attendants and assistants of the bishop.
+               <persName>Assemani</persName> overlooks in his translation the clause about the sign which appeared in the
+               sky, and which was probably a comet.</note>
+            <note xml:id="n47" target="#a47" n="47">The great fire in the north was no doubt the <foreign xml:lang="la">aurora borealis.</foreign> From this
+               record we should infer that it is seldom seen in those parts.</note>
+            <note xml:id="n48" target="#a48" n="48">The sabbath of the resurrection is, of course, the day before Easter Sunday. In the
+               tables of lessons appended by <persName>Widmanstadt</persName> to his Syriac Testament, the day after Good
+               Friday is called the <quote>sabbath of the annunciation.</quote></note>
+            <note xml:id="n49" target="#a49" n="49">The receptacle in question was probably the shrine of St. <persName ref="http://syriaca.org/person/479">Euphemia</persName>. According to
+               <persName>Theophanes</persName>, the book was laid up in the altar, and was actually conveyed to the emperor.
+               The miracle was of course an after-thought.</note>
+            <note xml:id="n50" target="#a50" n="50">To this item <persName>Assemani</persName> appends the words <quote><foreign xml:lang="la">exilio mulctavit</foreign></quote>, probably because
+               he supposed this implied by the previous verb.</note>
+            <note xml:id="n51" target="#a51" n="51">Lower down, said to have been on 
+               Tuesday the eighteenth of March, and the name of <persName ref="http://syriaca.org/person/2271">Theodosius</persName> properly substituted 
+               for that of <persName ref="http://syriaca.org/person/2266">Arcadius</persName>, who had been dead five or six years.</note>
+            <note xml:id="n52" target="#a52" n="52">This <persName ref="http://syriaca.org/person/2296">Paul</persName> was Bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName> twice. The Syrians call him an <quote>interpreter of
+               books</quote>, either because he translated out of Greek into Syriac, or because he wrote
+               expositions of Scripture. Respecting him <persName>Assemani</persName> gives an interesting extract from <persName>John</persName>
+               of <placeName>Asia</placeName> (or of <placeName ref="http://syriaca.org/place/623">Ephesus</placeName>) preserved by <persName>Dionysius</persName> in his Chronicle. The baptistery alluded
+               to in the text is probably the one mentioned above, number 29.</note>
+            <note xml:id="n53" target="#a53" n="53">For <quote>December</quote> <persName>Assemani</persName> has <quote>October</quote> by mistake. Who were the <hi rend="italics">oriental</hi> monks
+               so summarily ejected? They were monophysites, but how came they to be styled <quote>orientals</quote>
+               at <placeName ref="http://syriaca.org/place/78">Edessa</placeName>?</note>
+            <note xml:id="n54" target="#a54" n="54">The remains of <persName ref="http://syriaca.org/person/2236">Asclepius</persName> were exhumed and transferred to <placeName ref="http://syriaca.org/place/78">Edessa</placeName> to be buried in the
+               Church of St. <persName ref="http://syriaca.org/person/2240">Barlaha</persName>, <hi rend="italics">upon</hi> or <hi rend="italics">beside</hi> those of <persName ref="http://syriaca.org/person/2292">Nonnus</persName>.</note>
+            <note xml:id="n55" target="#a55" n="55"><persName ref="http://syriaca.org/person/2274">Ephraim</persName> 
+               of <placeName ref="http://syriaca.org/place/8">Amida</placeName> is called <quote><foreign xml:lang="la">Comes Orientis</foreign>,</quote> a dignity which he appears not
+               to have retained, although <persName>Assemani</persName> passes over the verbs which we translate <quote>had been</quote>.</note>
+            <note xml:id="n56" target="#a56" n="56">The <persName ref="http://syriaca.org/person/2224">Huns</persName> who thus come upon the 
+               scene, it is needless to say, were <persName>Asiatic Tartars</persName>.</note>
+            <note xml:id="n57" target="#a57" n="57"><persName ref="http://syriaca.org/person/2300">Rufinus</persName> is 
+               called <quote><foreign xml:lang="la">patricius</foreign></quote> or the patrician, a name borne by the presidents or
+               prefects of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>. (See Nos. 89, 93.)</note>
+            <note xml:id="n58" target="#a58" n="58">The word <quote>indiction</quote> occurs in the text. This mode of reckoning is often given in
+               old Syriac writers. <persName>Procopius</persName> <pb n="45"/> says that a
+               comet appeared in the thirteenth of <persName ref="http://syriaca.org/person/2284">Justinian</persName>, and hence <persName>Assemani</persName> infers that for 850 we
+               should read 851 in the text.</note>
+            <note xml:id="n59" target="#a59" n="59"><placeName ref="http://syriaca.org/place/185">Shura</placeName> or <placeName ref="http://syriaca.org/place/185">Sura</placeName> is mentioned by <persName>Procopius</persName>, <title>De Aedific. <persName ref="http://syriaca.org/person/2268">Justin</persName>,</title> ii. 9. See
+               Martiniere <foreign xml:lang="la">sub voc. Surum.</foreign> <persName>D'Anville</persName> places it on <placeName>the Euphrates</placeName>, and with others
+               calls it <placeName ref="http://syriaca.org/place/185">Sura</placeName>. <persName>Procopius</persName> terms it <foreign xml:lang="grc">Συρων πολισμα.</foreign> ----the town
+               of <placeName>Suron</placeName>. The Syriac word means usually <quote>a wall.</quote> Instead of two hundred pounds of gold,
+               or, as the Syriac text has it, <quote>two centenaria of gold,</quote> <persName>Assemani</persName> writes 
+               <quote><foreign xml:lang="la">duobus auri pondo</foreign>,</quote> but surely <quote><foreign xml:lang="la">pondo</foreign></quote> 
+               does not equal <quote><foreign xml:lang="la">centenaria</foreign>;</quote> probably we should read
+               <quote><foreign xml:lang="la">ducentis auri pondo</foreign>.</quote></note>
+            <note xml:id="n60" target="#a60" n="60">Observe, July was in 833, and October in 834.</note>
+            <note xml:id="n61" target="#a61" n="61">This Chronicle is followed in <persName>Assemani</persName> by a list of the kings of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, and a list
+               of its bishops from A.D. 313 to 769. We may note that the Chronicle mentions no Bishop
+               of <placeName ref="http://syriaca.org/place/78">Edessa</placeName> before <persName ref="http://syriaca.org/person/2247">Conon</persName>, <quote>who laid the foundation of the Church of <placeName ref="http://syriaca.org/place/78">Edessa</placeName></quote> in A.D. 313.
+               But we must not misinterpret this indication. There had long been Christians in <placeName ref="http://syriaca.org/place/78">Edessa</placeName>,
+               as authentic records prove. Not only so, this very Chronicle, in recording the overthrow
+               of the city by water in 513 (A.D. 202), mentions the destruction of the <quote>temple of the
+               church of the Christians</quote>. This remarkable phrase shews not only that the disciples had
+               a house of worship then, but that it was called a temple. More than this, the Christian
+               community seems to monopolize the word Church, which was not yet applied to the building
+               in which they assembled. <persName>Assemani</persName> observes that the words under notice shew that the
+               Archivists were still heathen, although the king was a Christian, as <persName ref="http://syriaca.org/person/2280">Eusebius</persName> notes from
+               <placeName>Africanus</placeName> (in <placeName>Chron</placeName>). <persName ref="http://syriaca.org/person/2247">Conon</persName>, above-named, refounded the church at <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, and hoped to
+               rebuild it, but this work was accomplished by his successor. It can hardly be supposed
+               that the reference is to the restoration of the <quote>temple</quote> destroyed in A.D. 202; it is
+               rather to what is called <quote>the old church</quote> in number 60; restored by <persName ref="http://syriaca.org/person/2268">Justinian</persName> with
+               immense splendour.---- (Vid. Bayer, p. 250).</note>
+         </noteGrp>
+      </body>
+  </text>
+</TEI>
