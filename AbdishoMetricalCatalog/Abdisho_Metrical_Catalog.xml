@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en" level="m">Metrical Catalogue of Syriac Writers</title>
+        <!-- series URI needed -->
+        <author ref="http://syriaca.org/person/310">ʿAbdishoʿ bar Brikha</author>
+        <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel
+          L. Schwartz</editor>
+        <respStmt>
+          <resp>Data architecture and encoding by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L.
+            Schwartz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Syriac Sourcebook</title>
+        <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel
+          L. Schwartz</editor>
+        <idno type="URI"><!-- URI NEEDED! --></idno>
+      </seriesStmt>
+      <sourceDesc>
+        <p>
+          'Abdisho' bar Brika (Ebed-Jesu), <title>Metrical Catalogue of Syriac Writers</title>. From G.P.Badger, 
+          <title>The Nestorians and their rituals</title> (1852) vol. 2, pp.361-379. Published in 1852, 
+          this translation is in the public domain.
+        </p>
+        <p>
+          Initial transcription of this text performed by Roger Peerse in 2005 and released into the 
+          public domain:  
+          <ref target="https://www.tertullian.org/fathers/abdisho_bar_brika_syriac_writers_01_text.htm">
+            https://www.tertullian.org/fathers/abdisho_bar_brika_syriac_writers_01_text.htm
+          </ref>. The text was downloaded on 20 April 2026.
+        </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="work" xml:id="work">
+        <head type="main"> Index of Biblical and Ecclesiastical Writings Drawn up by <persName>Mar
+            Abd Yeshua</persName>, Metropolitan of <placeName>Nisibis</placeName> and
+            <placeName>Armenia</placeName>, A.D. 1298. </head>
+        <div type="section" xml:id="section-1" n="1">
+          <head type="main">
+            <title>Old Testament Scriptures</title>
+          </head>
+          <ab xml:id="section-1.1" n="1"> Moses wrote the Law in five books, viz.:
+              <title>Genesis</title>, <title>Exodus</title>, <title>Leviticus</title>,
+              <title>Numbers</title>, and <title>Deuteronomy</title>. After these follow <title>the
+              book of Joshua</title> the son of <persName>Nun</persName>, <title>Judges</title>,
+              <title>Samuel</title>, <title>the book of Kings</title>, the
+            <title>Chronicles</title>, the <title>Psalms</title> of <persName>David</persName>, the
+              <title>Proverbs</title> of <persName>Solomon</persName>, <title>Ecclesiastes</title>,
+              <title>the Song of Songs</title>, the <title>Great Wisdom</title>, <title>the Wisdom
+              of the son of Sirach</title>, <title>Job</title>, <title>Isaiah</title>, <pb n="362"/>
+            <title>Hosea</title>, <title>Joel</title>, <title>Amos</title>, <title>Obadiah</title>,
+              <title>Jonah</title>, <title>Micah</title>, <title>Nahum</title>,
+              <title>Habbacuc</title>, <title>Zephaniah</title>, <title>Haggai</title>,
+              <title>Zechariah</title>, <title>Malachi</title>, <title>Jeremiah</title>,
+              <title>Ezekiel</title>, <title>Daniel</title>, <title>Judith</title>,
+              <title>Esther</title>, <title>Susanna</title>, <title>Ezra</title>, <title>Daniel the
+              Less</title>, <title>the Epistle of Baruch</title>, the <title>Traditions [or
+              Expositions] of the Elders</title>, <title>Josephus the historian</title>, the book of
+              <title>Proverbs</title>, the <title>Narrative of the sons of Solomona</title>, the
+              <title>Maccabees</title>, <title>an account of Herod the king</title>, <title>the book
+              of the destruction of the latter Jerusalem</title> by <persName>Titus</persName>,
+              <title>the book of Asenath</title> the <persName>wife of Joseph</persName>
+            <persName>the son of Jacob the righteous</persName>, and <title>the book of Tobias and
+              Tobit the Israelites</title>.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+          </ab>
+        </div>
+        <div type="section" xml:id="section-2" n="2">
+          <head type="main">
+            <title>New Testament Scriptures</title>
+          </head>
+          <ab xml:id="section-2.1" n="2"> Having enumerated the books of the <title>Old
+              Testament</title>, we shall now record those of the <title>New Testament</title>.
+            First, <title>Matthew</title> wrote in <placeName>Palestine</placeName>, in the Hebrew
+            tongue. After him comes <title>Mark</title>, who wrote in Latin at
+              <placeName>Rome</placeName>. <title>Luke</title>, in
+            <placeName>Alexandria</placeName>, spoke and wrote in Greek. <title>John</title> also
+            wrote his Gospel in Greek at <placeName>Ephesus</placeName>. <title>The Acts of the
+              Apostles</title> were written by <persName>Luke</persName> to
+              <persName>Theophilus</persName>; and the three Epistles of <title>James</title>,
+              <title>Peter</title>, and <title>John</title>, were written in all languages, and
+            called Catholic. Besides these there are fourteen Epistles of the great
+              <persName>Apostle Paul</persName>, viz., <title>the Epistle to the Romans</title>,
+            written from <placeName>Corinth</placeName>; <title>the First Epistle to the
+              Corinthians</title>, written from <placeName>Ephesus</placeName> and sent by the <pb
+              n="363"/>hands of <persName>Timothy</persName>; <title>the Second to the
+              Corinthians</title>, written from <placeName>Philippi of Macedonia the
+              great</placeName>, and sent by the hands of <persName>Titus</persName>; <title>the
+              Epistle to the Galatians</title>, written at <placeName>Rome</placeName>, and sent by
+            the same person; <title>the Epistle to the Ephesians</title>, also written at
+              <placeName>Rome</placeName>, and sent by <persName>Tychicus</persName>; <title>the
+              Epistle to the Philippians</title>, written at the same place, and sent by the hands
+            of <persName>Epaphroditus</persName>; <title>the Epistle to the Colossians</title>,
+            written at <placeName>Rome</placeName>, and sent by <persName>Tychicus</persName> the
+            true disciple; <title>the First Epistle to the Thessalonians</title>, written at
+              <placeName>Athens</placeName>, and sent by the hands of <persName>Timothy</persName>;
+              <title>the Second to the Thessalonians</title>, written at <placeName>Laodicea of
+              Pisidia</placeName>, and sent also by <persName>Timothy</persName>; <title>the First
+              Epistle to Timothy</title>, also written from <title>Laodicea of Pisidia</title>, and
+            sent by the hands of <persName>Luke</persName>; <title>the Second to Timothy</title>,
+            written from <placeName>Rome</placeName>, and sent by the hands of <persName>Luke, the
+              Physician and Evangelist</persName>; <title>the Epistle to Titus</title>, written at
+              <placeName>Nicapolis</placeName>, and sent by the hands of
+              <persName>Epaphroditus</persName>; <title>the Epistle to Philemon</title>, written at
+              <placeName>Rome</placeName>, and sent by <persName>Onesimus</persName>, the slave of
+              <persName>Philemon</persName>; <title>the Epistle to the Hebrews</title>, written in
+              <placeName>Italy</placeName>, and sent by the hands of <persName>Timothy</persName>,
+            the spiritual son. And the [Harmony of the] Gospels, called the
+              <title>Diatesseron</title>, collated by a man of <placeName>Alexandria</placeName>
+            named Amonis, who is <persName>Tatian</persName>. </ab>
+        </div>
+        <div type="section" xml:id="section-3" n="3">
+          <head type="main">Writing of the Western Fathers</head>
+          <ab type="section" xml:id="section-3.1" n="3"> The following were written by disciples of
+            the Apostles : the book of Dionysius, the heavenly philosopher; the book of Clemens, one
+            of the Seventy; the Narratives of Peter, Paul, and John, and the other Apostles ; and
+            the Apostolic Constitutions. </ab>
+          <ab type="section" xml:id="section-3.2" n="4"> Africanus the Happy, Bishop of Emmaus,
+            wrote a Commentary on the New Testament and a Chronicon. </ab>
+          <pb n="364"/>
+          <ab type="section" xml:id="section-3.3" n="5"> Hippolytus, Bishop and Martyr, wrote a book
+            on the Life and Actions of Christ, an Exposition of Daniel the Less and Susanna, also
+            Sentences against Gaius, an Introduction on the Advent of Christ, and an Exposition of
+            the Gospel of S. John. </ab>
+          <ab type="section" xml:id="section-3.4" n="6"> Damasus, Bishop of Rome, wrote an account
+            of the Faith, and drew up several Canons, as did also Ignatius. </ab>
+          <ab type="section" xml:id="section-3.5" n="7"> Symmachus is mentioned by the Expositor
+            [Theodorus of Mopsuestia] as having written several works, one of which is entitled the
+            Distinction of the Commandments. </ab>
+          <ab type="section" xml:id="section-3.6" n="8"> Eusebius of Caesarea wrote a history in two
+            volumes, a treatise on the Divine Advent, a Chronicon, a book solving the contradictions
+            contained in the Gospels, another entitled a Picture of the World, an account of
+            Constantine and of the Martyrs of the West, and an epic poem in their praise, a
+            narrative of a drought of rain, and a defence of Origen which was condemned by
+            Theodorus. </ab>
+          <ab type="section" xml:id="section-3.7" n="9"> Athanasius the Great, Patriarch of
+            Alexandria, wrote many epistles and treatises on the orthodox faith, an account of his
+            flight, and a narrative of S. Anthony, which was sent by him to Epictetus. </ab>
+          <ab type="section" xml:id="section-3.8" n="10"> Basil the Great wrote a work on the Six
+            days of Creation, besides many other dissertations, narratives, and epistles. </ab>
+          <ab type="section" xml:id="section-3.9" n="11"> Gregory of Nyssa wrote many treatises,
+            among which are an Exposition of the Lord's Prayer and of the Beatitudes, a book of
+            poems, a dissertation on the Resurrection, a dissertation on the Creation of Man which
+            he sent to his sister, another on Natural Philosophy, one against the Gentiles, an
+            exposition of the Song of Solomon in two volumes, and a treatise on the soul. </ab>
+          <ab type="section" xml:id="section-3.10" n="12"> Gregory Nazianzen the Great wrote five
+            volumes, and a collection of Poems, several Essays for Caesar, a work called Tragoedia,
+            and a book against the Theopaschites. </ab>
+          <ab type="section" xml:id="section-3.11" n="13"> John Chrysostom wrote an exposition of
+            the Gospels of SS. Matthew and John, each consisting of two volumes, an Exposition of
+            the Apostolic writings, a book on the Priesthood, another on Baptism, a treatise against
+            the Jews, a book on the Monks of Egypt, a book of Consolations, a treatise on <pb
+              n="365"/>Repentance, a treatise written to Justinian, another to Mitidus the Bishop,
+            another on Generations, besides many epistles on various subjects. </ab>
+          <ab type="section" xml:id="section-3.12" n="14"> Diodorus of Tarsus wrote sixty books,
+            most of which were burnt by the Arians; among those remaining are the book entitled the
+            Division of Food, one written against Chaldeanism, one against the Eunomians, another
+            against the Manicheans, another against Apollinaris, and an exposition of a portion of
+            S. Matthew's Gospel. </ab>
+          <ab type="section" xml:id="section-3.13" n="15"> Theodorus the Expositor wrote forty-one
+            volumes containing one hundred and fifty prophecies, each prophecy divided into thirty
+            chapters. He also wrote a theoretical and practical exposition of Genesis in three
+            books, which he sent to Elipia the great; an exposition of the Psalms in five books,
+            sent by him to Cedron and his brother; an exposition of the Twelve Prophets in two
+            volumes for Maurice; an exposition of Samuel in one book, which he sent to Marius; an
+            exposition of Job, sent to Cyril of Egypt; an exposition of Ecclesiastes in one book,
+            written at the request of Porphyry ; also an exposition of Isaiah, Ezekiel, Jeremiah,
+            and Daniel, each in one book. These were his labours on the Old Testament. </ab>
+          <ab type="section" xml:id="section-3.14" n="16"> On the New Testament, he wrote an
+            exposition of S. Matthew to Julia in one book, and another of SS. Luke and John, in two
+            books, to Eusebius; an exposition of the Acts in one book, to Basil; on the Epistle to
+            the Romans, also to Eusebius; on the Epistles to the Corinthians, in two books, at the
+            request of Theodora; and on the Epistles to the Galatians, Ephesians, Philippians, and
+            Colossians, for Staurachius. The Epistles to the Thessalonians he expounded for Jacob,
+            and the two Epistles to Timothy for Peter, and those to Titus and Philemon for Corinne,
+            and the Epistle to the Hebrews he expounded for the same person. All his expositions of
+            the Apostle Paul he collected in five volumes, and he wrote, besides these, a work on
+            the Sacraments, and another on Faith, and another on the Priesthood, also two books on
+            the Holy Spirit, and one on the Incarnation, in two volumes; and two other books against
+            such as say that man cannot help sinning, and two against the Magians, and one addressed
+            to the Monks, and one on Perfection, and another for Basil, and another on the union of
+            the two <pb n="366"/>natures and persons in Christ, and a book of Jewels in which he
+            collected all his epistles, and a treatise on the enacting of Laws, with which he
+            concluded his writings. </ab>
+          <ab type="section" xml:id="section-3.15" n="17"> Nestorius the Patriarch wrote many
+            celebrated works, most of which were destroyed by the blasphemers. Of those remaining,
+            one is entitled the Tragoedia, one dedicated to Heraclides, and an epistle to Cosmas,
+            which was written in the time of Paul. He wrote, moreover, a large liturgy which was
+            translated [into Syriac] by Tooma and Mar Awa. There is also of his a book of epistles,
+            an Antiphonary, and a collection of epic poems. </ab>
+          <ab type="section" xml:id="section-3.16" n="18"> Theodotus, the disciple of Theodorus the
+            Expositor, wrote an exposition of Isaiah in two volumes, and in another work he has
+            explained the occasion of the writing of the different Psalms of David, and to what
+            occasions their use is adapted. </ab>
+          <ab type="section" xml:id="section-3.17" n="19"> Aquilinus wrote a commentary on S.
+            Matthew and S. John the son of Zebedee after the traditions of the ancients. </ab>
+          <ab type="section" xml:id="section-3.18" n="20"> Basilius wrote several Antiphonaries, and
+            other treatises. </ab>
+          <ab type="section" xml:id="section-3.19" n="21"> Chiore wrote on the different kinds of
+            worship, and several narratives. </ab>
+          <ab type="section" xml:id="section-3.20" n="22"> Irenaeus of Tyre wrote five histories on
+            the persecution of Mar Nestorius, and on all the events which transpired during that
+            period. </ab>
+          <ab type="section" xml:id="section-3.21" n="23"> Phileteus expounded Ezekiel in two
+            volumes, and wrote a book named, from its subject, the Healer. </ab>
+          <ab type="section" xml:id="section-3.22" n="24"> Theodoret of Cyprus wrote a book entitled
+            "Phileteus," one against Origen, another called the "Division of Food," an exposition of
+            Daniel, excellent histories, Apologies for our righteous Fathers in two volumes, a
+            solution of the Sentences of Cyril, a book against the Philosophers, and many epistles
+            containing much learning and knowledge. </ab>
+          <ab type="section" xml:id="section-3.23" n="25"> Socrates wrote two volumes of History,
+            and an account of the Emperors Constantine and Jovian. </ab>
+          <ab type="section" xml:id="section-3.24" n="26"> Titus wrote a work against Manes. </ab>
+          <ab type="section" xml:id="section-3.25" n="27"> Arniastataeus also wrote a work against
+            Manes. </ab>
+          <ab type="section" xml:id="section-3.26" n="28"> Theophilus, the Persian, wrote against
+            Dostseus, and another work in which he solved the Sentences of Cyril. </ab>
+          <ab type="section" xml:id="section-3.27" n="29"> Eutheris wrote a book against the
+            Patripassians, several narratives, antiphonae, and expositions of the Gospel. </ab>
+          <pb n="367"/>
+          <ab type="section" xml:id="section-3.28" n="30"> Epiphanes wrote a work on the Divine
+            Advent, and another on the different heresies which had arisen up to his time. </ab>
+          <ab type="section" xml:id="section-3.29" n="31"> Zenobius wrote against Marcion and
+            Pamphilus, and epistles to Isidore, Lycullus, Abraham and Job. </ab>
+          <ab type="section" xml:id="section-3.30" n="32"> Eusebius of Emesa wrote a book against
+            the Jews, and on the ceremonies of the Old Testament, and a narrative of Stephen. </ab>
+          <ab type="section" xml:id="section-3.31" n="33"> Father Macarius wrote three books on the
+            right mode of living. </ab>
+          <ab type="section" xml:id="section-3.32" n="34"> Marcus wrote a book of chapters. </ab>
+          <ab type="section" xml:id="section-3.33" n="35"> John wrote histories. </ab>
+          <ab type="section" xml:id="section-3.34" n="36"> Evagrius wrote three books. </ab>
+          <ab type="section" xml:id="section-3.35" n="37"> Father Isaiah wrote one book. </ab>
+          <ab type="section" xml:id="section-3.36" n="38"> Ammonius wrote epistles. </ab>
+          <ab type="section" xml:id="section-3.37" n="39"> Macarius, not the same just mentioned,
+            wrote several narratives. </ab>
+          <ab type="section" xml:id="section-3.38" n="40"> Xistus wrote a book of sacred poems, and
+            a work on the Lovers of God. </ab>
+          <ab type="section" xml:id="section-3.39" n="41"> Nilus the Monk wrote two wonderful
+            volumes. </ab>
+          <ab type="section" xml:id="section-3.40" n="42"> Palladius and Hierome wrote the book of
+            Paradise, and the sayings and injunctions of the Elders in three volumes. </ab>
+          <ab type="section" xml:id="section-3.41" n="43"> John of Apamea, wrote three books, and
+            several epistles on the Spiritual Life, on the Effects of Sin, and on Perfection. </ab>
+          <ab type="section" xml:id="section-3.42" n="44"> Jacob, the disciple, wrote a short
+            exposition of S. Matthew, of the Epistles, and of the Prophet Jeremiah. </ab>
+        </div>
+        <div type="section" xml:id="section-4" n="4">
+          <head type="main">Writing of the Syrian Fathers</head>
+          <ab type="section" xml:id="section-4.1" n="45"> After having enumerated the writings of
+            the Greek Fathers we now begin to record the writings of the Syrian<ptr
+              type="noteAnchor" xml:id="a2" target="#n2" n="2"/> Fathers. </ab>
+          <ab type="section" xml:id="section-4.2" n="46"> Shimeon Barsabbaï wrote epistles to Mar
+            Acac. </ab>
+          <pb n="364"/>
+          <ab type="section" xml:id="section-4.3" n="47"> Meelis wrote epistles and treatises on
+            various subjects. </ab>
+          <ab type="section" xml:id="section-4.4" n="48"> Mar Yaw-ahui wrote an epistle to the
+            Eastern Papa, in whose days a letter was written by the Westerns raising this Eastern
+              <pb n="368"/>See into a Patriarchate. The letter was sent, with all honour, by the
+            hands of Agepta of Elam. </ab>
+          <ab type="section" xml:id="section-4.5" n="49"> Ephraem the Great, called the Prophet of
+            the Syrians, wrote a commentary on Genesis, Exodus, Leviticus, Joshua, Judges, Samuel,
+            the Kings, the Psalms, Isaiah, the Twelve Prophets, Jeremiah, Ezekiel, and Daniel;
+            besides other books and Epistles on the faith of the Church, poems, anthems, and hymns,
+            and the Anneedhé, [Services for the dead]. He wrote also on the alphabet, a controversy
+            with the Jews, and treatises against Manes, Bardassenes, and Marcion, and an answer to
+            the blasphemy of Julian. </ab>
+          <ab type="section" xml:id="section-4.6" n="50"> Narsai, the Harp of the Soul, wrote an
+            exposition of Genesis, Exodus, Leviticus, Numbers, Joshua, Judges, Ecclesiastes, Isaiah,
+            the twelve minor Prophets, Jeremiah, Ezekiel, and Daniel. He wrote also twelve other
+            books, three hundred and sixty poems, a Liturgy, an exposition of the Sacraments, and a
+            treatise on Baptism. He wrote, moreover, Consolations, Antiphonae, hymns, litanies,
+            homilies, and a treatise on an Evil Life. </ab>
+          <ab type="section" xml:id="section-4.7" n="51"> Barsoma wrote homilies, anthems, and other
+            poems : also a liturgy, and many epistles. </ab>
+          <ab type="section" xml:id="section-4.8" n="52"> Auraham of Beit Rabban wrote an exposition
+            of Joshua, Judges, Kings, the Wisdom of the son of Sirach, and Isaiah, in two volumes;
+            also a Commentary on the twelve minor Prophets, on Daniel, and the Song of Solomon, and
+            a book of Moutwé,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> divided into
+            chapters. </ab>
+          <ab type="section" xml:id="section-4.9" n="53"> Johanan of Beit Rabban, wrote a commentary
+            on Genesis, Leviticus, Numbers, Job, Jeremiah, Ezekiel, Proverbs, a book against the
+            Magi, one on the Customs of the Jews, and another against heretics. He wrote also a poem
+            on the humiliation of the Ninevites, one on the death of Chosroes, and another on the
+            plague which visited Nisibis, together with consolations for all conditions of men, a
+            Catechism on the Old and New Testament, hymns, poems, and a treatise on Chanting. </ab>
+          <ab type="section" xml:id="section-4.10" n="54"> Marootha, Bishop of Meiparket, the
+            learned physician, wrote a book of Evidences, Antiphonae, and hymns in honour of the <pb
+              n="369"/>Martyrs. He also expounded the Canons of the 318 [of Nice], and wrote a full
+            account of that Holy Synod. </ab>
+          <ab type="section" xml:id="section-4.11" n="55"> Mar Awa the Great translated the entire
+            Old Testament from the Greek into this Syriac tongue; he also wrote an exposition of
+            Genesis, the Psalms, Proverbs, the Epistle to the Romans, the second to the Corinthians,
+            the three following Epistles, and that also to the Hebrews. He wrote, moreover, several
+            poems and anthems for the Canons<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
+            of the Psalter, a synodal epistle on the Discipline of the Church, and other
+            Ecclesiastical Rules and Canons. </ab>
+          <ab type="section" xml:id="section-4.12" n="56"> Hnâna of Hdheiyyeb wrote a Commentary on
+            the Psalms, Genesis, Job, the Proverbs, Ecclesiastes, the Song of Solomon, the Twelve
+            Prophets, on the Gospel of S. Mark, and the Epistles of S. Paul. Also an exposition of
+            the Faith and Sacraments, a Catechism and a Treatise on the Origin of the Festival of
+            Palms, with poems thereon. Besides these he wrote on the origin of the festivals of
+            Golden Friday,<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of that in
+            commemoration of the Humiliation of the Ninevites, and on the Invention of the Cross,
+            with many other works condemned by Theodorus of Mopsuestia. </ab>
+          <ab type="section" xml:id="section-4.13" n="57"> Eprahat, the wise Persian, of happy
+            memory, wrote two books, and many poems alphabetically arranged. </ab>
+          <ab type="section" xml:id="section-4.14" n="58"> Heeba, Comar, and Proba, translated the
+            writings of Theodorus of Mopsuestia from Greek into Syriac, as they did also the works
+            of Aristotle. This same Heeba wrote also a commentary on the Proverbs, Antiphons, and
+            other poems, and a polemical work against the heretics. </ab>
+          <ab type="section" xml:id="section-4.15" n="59"> The Disciples of Mar Awa wrote many
+            poems, and an exposition of the prophecy of Daniel. </ab>
+          <ab type="section" xml:id="section-4.16" n="60"> Tooma of Edessa wrote on the origin of
+            the Feasts of the Nativity and Epiphany, an epistle to Kâlé, a work against astrology, a
+            book of Consolations, and a polemical treatise against heretics. </ab>
+          <ab type="section" xml:id="section-4.17" n="61"> Serghees of Reish Aina wrote a treatise
+            on Logic. </ab>
+          <ab type="section" xml:id="section-4.18" n="62"> Paul of Nisibis wrote a Commentary on the
+            Bible, a treatise against Caesar, and various epistles. </ab>
+          <pb n="370"/>
+          <ab type="section" xml:id="section-4.19" n="63"> Babai the Great wrote eighty-three books,
+            in one of which he gives an account of the origin of the Feast of Palms, a dissertation
+            on the union of Christ's humanity and divinity, and an exposition of the Book of
+              Hundreds.<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> He also expounded the
+            book written by the Father Marcos, wrote an account of Diodorus and his followers, of
+            the Feast of the Cross, and of the Saints for the cycle of the year, such as the Feasts
+            of S. Mary, S. John, and the other feasts and commemorations. He moreover wrote a book
+            for conventual Novices, an epistle to Joseph the Seer, rules for Monks, and an
+            exposition of the whole Bible. Also a work on the Causes of Things, in which he speaks
+            of Mattai who was translated, of Auraharn of Nisibis, and of Gawrièl of Kutr [or Kutra.] </ab>
+          <ab type="section" xml:id="section-4.20" n="64"> Dad-Yeshua expounded the "Paradise" of
+            the Westerns, and the work of Father Isaiah, and wrote other books on the right mode of
+            living. He also wrote a hymn on the consecration of a Cell, a funeral Dirge, several
+            Epistles, and a Catechism on the Spiritual Life and Quiet. </ab>
+          <ab type="section" xml:id="section-4.21" n="65"> Joseph the Seer wrote 1900 chapters on
+            various theological subjects, and a book called the "Treasure," in which he solves many
+            difficult questions. He also wrote a work on Calamities, an Exposition of the work
+            entitled the "Merchant's Book," and another, in two volumes, on the Paradise of the
+            Easterns, which contains many historical notices. Besides these, he composed a
+            commentary on the Prophet Ezekiel, a treatise on the Festivals, and an exposition of the
+            Heads of Knowledge, and of the works of Dionysius. He moreover expounded the Vision of
+            Mar Gregorius, and wrote epistles on the life of Anchorites. </ab>
+          <ab type="section" xml:id="section-4.22" n="66"> John of Dilyâtha wrote two books, besides
+            epistles on the monastic life. </ab>
+          <ab type="section" xml:id="section-4.23" n="67"> Ishâk of Nineveh wrote seven books on the
+            spiritual and divine Sacraments, and one on the Distribution of Food. </ab>
+          <ab type="section" xml:id="section-4.24" n="68"> Yeshua-yau, of Gadhla, wrote a commentary
+            on the Psalms, together with epistles, dissertations, and poems on various subjects. </ab>
+          <pb n="371"/>
+          <ab type="section" xml:id="section-4.25" n="69"> Yeshua-yau, of Erzona, wrote a work
+            against Eunomius, and another against an heretical Bishop. Also twenty-three Queries on
+            the Sacraments of the Church, a Synodal Preface, Epistles, and Canons. </ab>
+          <ab type="section" xml:id="section-4.26" n="70"> Cyprian, of Nisibis, expounded the
+            Theology of Gregory the Great, and compiled an Ordination Office. </ab>
+          <ab type="section" xml:id="section-4.27" n="71"> Yeshua-yau, of Hdheyyeb, wrote on a
+            Change of Mind, and an Advice to Monastic Novices. He also arranged the Khudhra, and the
+            Baptismal Office, and wrote an Office for the Consecration of a New Church, as also an
+            Ordination Office, and the Office of Hoosâyé. He wrote, moreover, many antiphons, epic
+            poems, epistles, anthems, and Consolations, in the most beautiful style, and a
+            controversial treatise against certain persons. </ab>
+          <ab type="section" xml:id="section-4.28" n="72"> Hnan-Yeshua wrote a treatise on Chanting. </ab>
+          <ab type="section" xml:id="section-4.29" n="73"> Michael composed a book of Inquiries into
+            the Bible, in three volumes. </ab>
+          <ab type="section" xml:id="section-4.30" n="74"> Theodore, Metropolitan of Marro, wrote an
+            account of Mar Eughène, and of the Greek doctors, in poetry; also an Exposition of the
+            Psalms, and other poems, in which he answered the ten theses of Serghees. He composed
+            another excellent book, moreover, at the instance of Mar Awa, the Catholicos. </ab>
+          <ab type="section" xml:id="section-4.31" n="75"> Gawrièl, brother of the above, and Bishop
+            of Hormuzdshir, wrote a work against Manes, and another against the Chaldeans, besides
+            Homilies and other treatises on various subjects, to the extent of about three hundred
+            chapters. </ab>
+          <ab type="section" xml:id="section-4.32" n="76"> Elîa, Metropolitan of Marro, wrote
+            antiphons, Consolations, and a Commentary on all the Gospel Lessons; also epistles, and
+            an account of the origin of the Moutwé, and an Exposition of the Proverbs, Genesis, the
+            Psalms, Ecclesiastes, the Song of Solomon, the Wisdom of the Son of Sirach, Isaiah, the
+            Twelve Prophets, and the Epistles of the Apostle Paul. He also compiled an authentic
+            History. </ab>
+          <ab type="section" xml:id="section-4.33" n="77"> Gheorghees, Catholicos, wrote hymns,
+            anthems, a Litany for the Fast of the Ninevites, and a few other Canons and poems. </ab>
+          <ab type="section" xml:id="section-4.34" n="78"> Gawrièl Arya, of the family of Ishâk of
+            Nineveh, wrote an Exposition of many extracts taken from the whole Bible. </ab>
+          <ab type="section" xml:id="section-4.35" n="79"> Hnan-Yeshua, surnamed Hgheera [the lame]
+            wrote <pb n="372"/>antiphons, epistles, Consolations, homilies, poems, and several
+            catechisms: also a book of Thanksgiving, on account of Serghees Doda, Two Reasons for
+            Schools, and an Analogical exposition. </ab>
+          <ab type="section" xml:id="section-4.36" n="80"> Awa, of Cashgar, wrote several homilies
+            and epistles, a book on the rules of Logic, and another in which he explains the Logic
+            of Aristotle. </ab>
+          <ab type="section" xml:id="section-4.37" n="81"> Hnan-Yeshua, Catholicos, wrote a
+            collection of epistles, Consolations, and anthems, in five books, besides other poems
+            and ten dissertations. </ab>
+          <ab type="section" xml:id="section-4.38" n="82"> Awa bar Brikh Sowyâne wrote a work on
+            Strategy, several expositions, and antiphons full of wisdom. </ab>
+          <ab type="section" xml:id="section-4.39" n="83"> Timatheos wrote a book on the Stars,
+            another against the Mehdi, another on Church Matters, with many Synodal Canons, two
+            hundred epistles collected into two volumes, a catechism, and a dissertation against
+            heretics. </ab>
+          <ab type="section" xml:id="section-4.40" n="84"> Ephràm, of Elam, wrote a work on the
+            Faith. </ab>
+          <ab type="section" xml:id="section-4.41" n="85"> Tooris, the Anchorite, composed a book in
+            two volumes. </ab>
+          <ab type="section" xml:id="section-4.42" n="86"> Hoonein, the physician, the son of Ishâk,
+            wrote a book on the fear of God, a Grammar, and a Vocabulary. </ab>
+          <ab type="section" xml:id="section-4.43" n="87"> Yeshua bar Nun wrote a work called
+            "Theologia," Inquiries into the Bible, in two volumes, a book of sentences, of the
+            Causes of things, Consolations, and epistles. He wrote also on the different Church
+            Services, antiphons, and anthems. </ab>
+          <ab type="section" xml:id="section-4.44" n="88"> Elisha, the Expounder, wrote a Commentary
+            on Job, and on the Second Epistle to the Corinthians, and on the three following
+            epistles. He also composed an account of the Moutwé, and another of the Martyrs, a book
+            of Thanksgivings, and a poem on Shimoon of Germakh. Besides which he explained the
+            Chronicon of Eusebius. </ab>
+          <ab type="section" xml:id="section-4.45" n="89"> Soreen, the Expounder, wrote in Greek
+            against the heretics, and a book of evidences. </ab>
+          <ab type="section" xml:id="section-4.46" n="90"> Bar Had-Bshabba, the Arab, wrote a work
+            entitled "The Book of Treasures," in three volumes, and other polemical treatises,
+            against the Gentiles, such as idolaters and others. He also wrote a history, and an
+            account of Mar Diodorus and his followers, and an exposition of Mark the Evangelist, and
+            of the Psalter. </ab>
+          <ab type="section" xml:id="section-4.47" n="91"> Mikha, the Doctor, wrote Five Causes of
+            the Moutwé, a poem <pb n="373"/>on Cantropos [?], and another on Mar Sawr-Yeshua, of
+            Lashum. Also an exposition of the books of the Kings of Israel. </ab>
+          <ab type="section" xml:id="section-4.48" n="92"> Kioré wrote various dissertations,
+            homilies, and anaphoras. </ab>
+          <ab type="section" xml:id="section-4.49" n="93"> Paulona wrote poems, a dissertation
+            against inquirers, a treatise against Marcion, a book on Believers, and another on the
+            Creed. </ab>
+          <ab type="section" xml:id="section-4.50" n="94"> Serghees wrote an exposition of Jeremiah,
+            Ezekiel, and of Daniel, after the style of the ancients. </ab>
+          <ab type="section" xml:id="section-4.51" n="95"> Mari, the Persian, wrote a Commentary on
+            Daniel, an explanation of the epistle of Akak, and a work against the Magi of Nisibis. </ab>
+          <ab type="section" xml:id="section-4.52" n="96"> Auraham, of Mahozé, wrote Consolations,
+            Epistles, an account of all the Festivals, and a book of Antiphons. </ab>
+          <ab type="section" xml:id="section-4.53" n="97"> Paulos, of Ambar, wrote a work against
+            the epistle of Omar, Consolations, and Antiphons, and a treatise against different
+            persons. </ab>
+          <ab type="section" xml:id="section-4.54" n="98"> Gawrièl, of Kotra, wrote a poem on the
+            union of Christ, and a solution of the difficulties of the Faith. </ab>
+          <ab type="section" xml:id="section-4.55" n="99"> Yakoob, of Kelta, wrote an exposition of
+            the Proverbs, poems on Diodorus, and a book on the Faith of the Church. </ab>
+          <ab type="section" xml:id="section-4.56" n="100"> Barsoma, of Kerkook, wrote a work called
+            "the Liver," and another containing thanksgivings, Consolations, and Antiphons. </ab>
+          <ab type="section" xml:id="section-4.57" n="101"> Ab Yeshua, Bar Bahrees, Metropolitan of
+            Athur, wrote on the Division of Inheritances, and an Explanation of the different Church
+            Services. </ab>
+          <ab type="section" xml:id="section-4.58" n="102"> Daniel, of Toowaneetha, Bishop of Tahl,
+            wrote a work entitled "the Book of Lilies," Consolations, and Antiphons. Also a book
+            solving the difficulties contained in Holy Scripture, Replies to different Queries, one
+            of Thanksgiving, another of Poems, a Solution of the difficulties in the writings of Mar
+            Ishak of Nineveh, and an exposition of the Heads of Knowledge. </ab>
+          <ab type="section" xml:id="section-4.59" n="103"> Auraham, Metropolitan of Basra, wrote
+            several epistles. </ab>
+          <ab type="section" xml:id="section-4.60" n="104"> Ahoob, of Kotra, wrote a Commentary on
+            the Old and New Testaments with the exception of the Pentateuch. </ab>
+          <ab type="section" xml:id="section-4.61" n="105"> Dinha expounded the Psalms, and wrote
+            Consolations, and other treatises on Church subjects. He also explained the two books of
+            Gregory, and the Logic of Aristotle. </ab>
+          <ab type="section" xml:id="section-4.62" n="106"> Shallecta, Bishop of Reish Aina, wrote
+            Antiphons, <pb n="374"/>Consolations, Prayers, Canons, and hootamât, [collects for the
+            conclusion of Divine Service]. He also expounded two Litanies. </ab>
+          <ab type="section" xml:id="section-4.63" n="107"> Babai, the Persian, who became Bishop of
+            Riu Ardsheer, wrote a work solving various difficult questions. </ab>
+          <ab type="section" xml:id="section-4.64" n="108"> Shehdost, of Teheran, wrote several
+            Synodal Epistles and Letters, besides many small poems and Antiphons. </ab>
+          <ab type="section" xml:id="section-4.65" n="109"> Habeeb, the Anchorite, wrote Meditations
+            on the Life of Christ, Elements of Knowledge, and made several chants and tunes for
+            Anthems. </ab>
+          <ab type="section" xml:id="section-4.66" n="110"> Babai of Nisibis, wrote poems, epistles,
+            hymns, narratives, and several homilies. </ab>
+          <ab type="section" xml:id="section-4.67" n="111"> Shimoon of Taibootha, wrote a work
+            entitled "the way to live," another on Medicine, and an Exposition of the Sacraments. </ab>
+          <ab type="section" xml:id="section-4.68" n="112"> Yohanan el-Ezrak, of Heerta, wrote a
+            book of Homilies, a Guide, and two hundred and eighty epistles. </ab>
+          <ab type="section" xml:id="section-4.69" n="113"> Yohanan of Deilom wrote nine poems. </ab>
+          <ab type="section" xml:id="section-4.70" n="114"> Mar Yau, wrote an epistle and an
+            exposition of the same for Epni Mâran. </ab>
+          <ab type="section" xml:id="section-4.71" n="115"> Yeshua Pâna, of Kotra, wrote hortatory
+            poems, an exposition of the "Book of Hundreds," another on the Philosophy of the Soul,
+            and many poems, anthems, epistles, Consolations, and hymns, arranged alphabetically. </ab>
+          <ab type="section" xml:id="section-4.72" n="116"> Babai, the Scribe, of Maarra, wrote a
+            work on the Distinction of Things. </ab>
+          <ab type="section" xml:id="section-4.73" n="117"> The Turkish Expounder wrote a work on
+            the Joys of Heaven. </ab>
+          <ab type="section" xml:id="section-4.74" n="118"> Mar Shooha'l Mâran, of Seleucia, wrote a
+            work called the "Book of Portions," another on Elements of Knowledge, besides many
+            useful epistles. </ab>
+          <ab type="section" xml:id="section-4.75" n="119"> Yohanan bar Pinkhâyé wrote seven books,
+            one on the Education of Children, a controversial treatise against the "Words of a
+            Merchant," one against Idolatry, one on the Seven Eyes of the Lord, one on Perfection,
+            and a Catechism. </ab>
+          <ab type="section" xml:id="section-4.76" n="120"> Auraham, of Nethpra, wrote many works. </ab>
+          <ab type="section" xml:id="section-4.77" n="121"> Gregorius, of Deir, wrote one book and
+            several epistles. </ab>
+          <ab type="section" xml:id="section-4.78" n="122"> Akb-Shma wrote homilies, Consolations,
+            anthems, on the Principles of Knowledge and Proverbs. </ab>
+          <ab type="section" xml:id="section-4.79" n="123"> Akhoodemé wrote against the Philosophers
+            and Magi, and on the limits of things. He also wrote a book on Logic, another on the
+            Persons [of Christ], and a third on the inquiry : "Has <pb n="375"/>the will power over
+            the nature of man?" in two parts. He also wrote on the Soul, showing that man is a small
+            world in himself, besides many other instructive treatises in beautiful style and
+            language. </ab>
+          <ab type="section" xml:id="section-4.80" n="124"> Auraham bar Dishended, wrote a Book of
+            Advice, an exposition of the writings of Father Marcos, a treatise against the Jews,
+            another entitled "the Way of the King," poems on Repentance, and many epistles on
+            various subjects. </ab>
+          <ab type="section" xml:id="section-4.81" n="125"> Yeshua-Bukht wrote a book on All Things,
+            and another on Church Matters, and poems on the Air. </ab>
+          <ab type="section" xml:id="section-4.82" n="126"> Yeshua-Dnah, of Basra, wrote three books
+            of History, an exposition of Logic, Consolations, Anthems, and Poems, and a treatise on
+            Chastity, in which he collected an account of all the Saints. </ab>
+          <ab type="section" xml:id="section-4.83" n="127"> Auraham bar Lipah wrote a Rationale of
+            the different Services. </ab>
+          <ab type="section" xml:id="section-4.84" n="128"> Alexandros wrote a work against the
+            blasphemy of Julian. </ab>
+          <ab type="section" xml:id="section-4.85" n="129"> Poplius wrote two books, one on Holy
+            Things, and a Remembrancer. </ab>
+          <ab type="section" xml:id="section-4.86" n="130"> Abd Mesheeh, of Heerta, wrote a book
+            rich in meaning. </ab>
+          <ab type="section" xml:id="section-4.87" n="131"> Theodorus bar Coozai wrote a Scholion, a
+            History, and many other dissertations. </ab>
+          <ab type="section" xml:id="section-4.88" n="132"> Abd Yeshua bar Akarwé wrote several
+            anthems, and a work on the origin of Things. </ab>
+          <ab type="section" xml:id="section-4.89" n="133"> Andraos wrote antiphons, and a work on
+            the diacritical and vowel points. </ab>
+          <ab type="section" xml:id="section-4.90" n="134"> Gawrièl, of Basra, collected all the
+            Synodal Canons, in two volumes, and added thereto several dissertations. </ab>
+          <ab type="section" xml:id="section-4.91" n="135"> Yohanan, of Germaka, wrote on the
+            Principles of Knowledge, Rules for Novices, a short Chronicon, an account of Mar
+            Koodehwi, and many poems and anthems. </ab>
+          <ab type="section" xml:id="section-4.92" n="136"> Auraham, of Beit Hâlé, wrote a treatise
+            against the Tai [Arabs.] </ab>
+          <ab type="section" xml:id="section-4.93" n="137"> Mar Shlemon, Bishop of Hdhetta near
+            Mosul, wrote several narratives, and a treatise on the Monastic Life. </ab>
+          <ab type="section" xml:id="section-4.94" n="138"> Yeshua-dad, also of Hdhetta, wrote a
+            Commentary on the New Testament, and a short exposition of the Pentateuch. </ab>
+          <ab type="section" xml:id="section-4.95" n="139"> Aboo-Nuah wrote a work against the
+            Koran, a treatise against Heretics, and on several other subjects. </ab>
+          <pb n="376"/>
+          <ab type="section" xml:id="section-4.96" n="140"> Kindi wrote an excellent work on
+            Polemics, and another on the Faith. </ab>
+          <ab type="section" xml:id="section-4.97" n="141"> Dad-Yeshua wrote a wonderful exposition
+            of Daniel, of the Kings, and of the book of Wisdom, in three volumes. </ab>
+          <ab type="section" xml:id="section-4.98" n="142"> Yohanan, of Nineveh, wrote a work on
+            Controversy. </ab>
+          <ab type="section" xml:id="section-4.99" n="143"> Kuriakòs wrote an exposition of the
+            Faith and Sacraments, another work on the Nativity and Epiphany, and a Commentary on the
+            Epistles of S. Paul. </ab>
+          <ab type="section" xml:id="section-4.100" n="144"> Shimoon bar Tabbâhé wrote a History. </ab>
+          <ab type="section" xml:id="section-4.101" n="145"> Meshikha Skha also wrote a History. </ab>
+          <ab type="section" xml:id="section-4.102" n="146"> Mar Athken, the Anchorite, wrote a
+            Controversy with the Wise Brother, and many epistles on the right way of living. </ab>
+          <ab type="section" xml:id="section-4.103" n="147"> Gheorghees, of Nishra, wrote a book on
+            Obedience. </ab>
+          <ab type="section" xml:id="section-4.104" n="148"> Anos, of Piros-Shaboor, wrote poems,
+            Consolations, and many other works. </ab>
+          <ab type="section" xml:id="section-4.105" n="149"> Bood Piryadotha wrote poems on the
+            Faith, a treatise against the Manichees, and another against the followers of Marcion.
+            He also wrote a work in Greek, entitled "Alep-Megheen," and it was he who translated
+            "Kleilagh oo Dimnagh"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> from the
+            Indian language. </ab>
+          <ab type="section" xml:id="section-4.106" n="150"> Danièl, of Reish Aina, wrote poems
+            against the Marcionites, Manichees, Heretics, and Chaldeans. </ab>
+          <pb n="377"/>
+          <ab type="section" xml:id="section-4.107" n="151"> Auraham bar Kardâkhé wrote anthems,
+            Consolations, poems, and homilies, and an Epistle against Shisban. </ab>
+          <ab type="section" xml:id="section-4.108" n="152"> Nathnièl wrote against the followers of
+            Severus, against Manes, and against the Kanthi and Mandri [Sabaeans], and an Exposition
+            of the Psalms. </ab>
+          <ab type="section" xml:id="section-4.109" n="153"> Elisha bar Sabîné wrote an Exposition
+            of the Psalter, on Different Opinions, and a chapter of Proverbs. </ab>
+          <ab type="section" xml:id="section-4.110" n="154"> Auraham Katteena wrote Catechisms. </ab>
+          <ab type="section" xml:id="section-4.111" n="155"> Shimoon, of Kurdlah, wrote 1,028 poems
+            and anthems. </ab>
+          <ab type="section" xml:id="section-4.112" n="156"> Father Yazeedad wrote a vocabulary
+            called "Lookaté." </ab>
+          <ab type="section" xml:id="section-4.113" n="157"> Bar Shhak wrote one book. </ab>
+          <ab type="section" xml:id="section-4.114" n="158"> Damanis wrote poems. </ab>
+          <ab type="section" xml:id="section-4.115" n="159"> Susai, of Sus, wrote a book of
+            Thanksgivings. </ab>
+          <ab type="section" xml:id="section-4.116" n="160"> Auraham Saba wrote a beautiful
+            Catechism. </ab>
+          <ab type="section" xml:id="section-4.117" n="161"> Gregor, of Shushtre, wrote a work
+            against Heathenism, on Natural Evidences, Consolations, anthems, a narrative of Auraham
+            of Shushtre, a History, and an account of the different Festivals. It was he who
+            originated the chant "Ittayyeb b'awadheicon."<ptr type="noteAnchor" xml:id="a8"
+              target="#n8" n="8"/>
+          </ab>
+          <ab type="section" xml:id="section-4.118" n="162"> Bar Sehde, of Kerkook, wrote a History,
+            and a work against the Magi, the disciples of Zoroaster. </ab>
+          <ab type="section" xml:id="section-4.119" n="163"> Jacob, of Edessa, wrote a Book of the
+            Times, and a Chronicon. </ab>
+          <ab type="section" xml:id="section-4.120" n="164"> Shimoon, of Bedhka, wrote a History. </ab>
+          <ab type="section" xml:id="section-4.121" n="165"> Ara wrote a work against the Magi, and
+            another against Bardassenes, entitled "Beetles." </ab>
+          <ab type="section" xml:id="section-4.122" n="166"> Pâkor wrote one book. </ab>
+          <ab type="section" xml:id="section-4.123" n="167"> Bar Dkôsi wrote two volumes against the
+            Chaldeans, and another against Porphyry the heretic. </ab>
+          <ab type="section" xml:id="section-4.124" n="168"> Danièl ibn Mariam wrote a History in
+            four volumes, and another expounding the Chronicon. </ab>
+          <ab type="section" xml:id="section-4.125" n="169"> Zacchai, of Supna, wrote on the Wonders
+            of the World. </ab>
+          <ab type="section" xml:id="section-4.126" n="170"> Bar Daknâna wrote poems for the
+            consolation of the sorrowing. </ab>
+          <ab type="section" xml:id="section-4.127" n="171"> Yohanan bar Abgaré wrote Canons and
+            Homilies on Church matters, and on the Division of Inheritances. </ab>
+          <pb n="378"/>
+          <ab type="section" xml:id="section-4.128" n="172"> Mar Daweedh, of Beit Rabban, wrote on
+            the Boundaries of countries, and on the Changes of nights and days. </ab>
+          <ab type="section" xml:id="section-4.129" n="173"> Yohanan, of Estooni, wrote a Grammar. </ab>
+          <ab type="section" xml:id="section-4.130" n="174"> Yohanan bar Khâmees, Bishop of Temnoon,
+            also wrote a Grammar. </ab>
+          <ab type="section" xml:id="section-4.131" n="175"> Bar Bahlool collated a Lexicon from
+            many books, assisted by Yeshua bar Ali the Physician, Marozi, and Gawrièl. </ab>
+          <ab type="section" xml:id="section-4.132" n="176"> Elîa, of Azak, wrote three books of
+            poetry, questions, epistles, prefaces and anthems. </ab>
+          <ab type="section" xml:id="section-4.133" n="177"> Dad-Yeshua, Bishop of Heerta, called
+            Mattushuah, wrote a Catechism on the Holy Scriptures, and Anthems. </ab>
+          <ab type="section" xml:id="section-4.134" n="178"> Andor, the Scholar, wrote a
+            dissertation on many things, arranged alphabetically, which he sent to his friend
+            Koorta. </ab>
+          <ab type="section" xml:id="section-4.135" n="179"> Elîa bar Kanosh wrote Benedictions,
+            Narratives, a treatise on the use of the Psalms, and on the Sacraments of the Church. </ab>
+          <ab type="section" xml:id="section-4.136" n="180"> Mar Elîa, the First, wrote Decrees, a
+            treatise on Church matters, and a Grammar. </ab>
+          <ab type="section" xml:id="section-4.137" n="181"> Yohanan bar Keldon wrote a valuable
+            work called "Busnâya," another on the Most Beautiful, and a third on the Merchandize of
+            the Monks. </ab>
+          <ab type="section" xml:id="section-4.138" n="182"> Elîa bar Yeshnâya, Metropolitan of
+            Nisibis, wrote a History, a Grammar, poems, four books of Church rules, and epistles on
+            various subjects in Syriac and Arabic. </ab>
+          <ab type="section" xml:id="section-4.139" n="183"> Behishua, of Kamool, wrote on the
+            Monastic life. </ab>
+          <ab type="section" xml:id="section-4.140" n="184"> Yohanan Hermis wrote poems. </ab>
+          <ab type="section" xml:id="section-4.141" n="185"> Emmanuèl, the Doctor, wrote a work on
+            the six days of Creation in poetry, homilies, and expositions. </ab>
+          <ab type="section" xml:id="section-4.142" n="186"> Gawrièl, Bishop of Shabookhwest, wrote
+            a catechism, homilies, controversies, Consolations, and anthems. </ab>
+          <ab type="section" xml:id="section-4.143" n="187"> The Greek Emperors Constantine, Leo,
+            and Theodosius the Great, convened the Synods of the Westerns, that of the Apostles, of
+            Nice, of Byzantium, of Gangra, the false one of Ephesus, that of Chalcedon, of Antioch,
+            and the -- -- of the Greek Emperors.<ptr type="noteAnchor" xml:id="a9" target="#n9"
+              n="9"/>
+          </ab>
+          <ab type="section" xml:id="section-4.144" n="188"> And we possess the Eastern Synods of
+            Ishâk, of Barsoma, of Mar Awa, of Mar Hezkièl, of Yosep, of Yeshua-yau, of Mar <pb
+              n="379"/>Timataos, of Yeshua bar Nun, of Yohanan, the Acts of Shimoon, the Acts of
+            Yeshua-Bukht, Metropolitan of Persia, and those of Abd Yeshua and of Gheorghees,
+            Metropolitans of Athor, besides two volumes of Synods collated by Gawrièl, Metropolitan
+            of Basra, and another of the Catholicos Mar Elîa the First, and four of Elîa of Nisibis,
+            surnamed Bar Ishnâya. We possess, moreover, many other books whose authors' names are
+            unknown; such as the book entitled "the Enlightenment," and the book on the Union. [Here
+            several lines of the original are destroyed.] </ab>
+          <ab type="section" xml:id="section-4.145" n="189"> Shlemon, of Khlàt, of Basra [prob.
+            Metrop.], wrote a work entitled Debboreetha [lit. The Bee], another on the Heavens and
+            the Earth, and several poems. </ab>
+          <ab type="section" xml:id="section-4.146" n="190"> Abd Yeshua, my vile self, wrote a
+            Commentary on the Bible [MS. defaced], the book of the Paradise of Eden, a collection of
+            Synods in Arabic, the book entitled Marghianeetha<ptr type="noteAnchor" xml:id="a10"
+              target="#n10" n="10"/> on the Truth of the Faith, a treatise on the Mysteries of the
+            Grecian Philosophers, and another called "Scholasticus," against heresy. I also collated
+            a book of Church Laws and Discipline, and another consisting of twelve treatises on
+            knowledge in general, besides Consolations, antiphons, and anthems, for various
+            occasions, an explanation of the Epistle sent by Aristotle to Alexander the Great [MS.
+            defaced], also a work solving many difficult questions, and one of arguments, proverbs,
+            and riddles. </ab>
+          <ab type="section" xml:id="section-4.147" n="191"> After the best of our ability we have
+            recorded the books which we have seen, our object being to show that the perusal of them
+            is profitable. The authors spake by the Spirit, according to the testimony of Paul the
+            Apostle; may their prayers keep and invest with glory us, the sheep of Christ, and may
+            their memory endure for ever, inasmuch as they enlightened the Church by their wisdom,
+            and enriched her children by their attainments. Glory be to that Spirit by whom they
+            themselves were enriched. </ab>
+          <ab type="section" xml:id="section-4.148" n="192"> Here endeth the catalogue of all the
+            Church books, written by the undeserving Abd Yeshua, Metropolitan of Nisibis and
+            Armenia. To God be thanksgiving and glory for ever. Amen. </ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <choice>
+            <reg/>
+            <orig>p. 362, n. *</orig>
+          </choice>The " Narratives," and several of the other works enumerated in the latter part
+          of this paragraph, are probably legends such as are frequently met with in the East. Some
+          of these are written with much pathos, and form epic poems, set to the most plaintive
+          chants. The Legend of Joseph is very common among Mohammedans as well as Christians, and
+          many strolling derweeshes obtain a living by reciting it from house to house.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <choice>
+            <reg/>
+            <orig>p. 367, n. *</orig>
+          </choice>"Syro-Nestorian" Fathers are doubtless intended. The Syrian authors in this list
+          who existed prior to the Council of Ephesus, are claimed as co-religionists by the
+          Nestorians.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <choice>
+            <reg/>
+            <orig>p. 368, n. *</orig>
+          </choice>Literally, "Thrones," as in Coloss. i. 16, of the Syriac version. The term is
+          here applied to certain prayers appointed to be used at the Nocturns, and which are
+          recited alternately by priest and people, all being seated on the ground.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <choice>
+            <reg/>
+            <orig>p. 369, n. *</orig>
+          </choice>Canons here signify the occasional collects introduced into the Psalms as used in
+          the Church.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <choice>
+            <reg/>
+            <orig>p. 369, n. †</orig>
+          </choice>The first Friday after Whitsunday: so called from the answer of S. Peter to the
+          impotent man : "Silver and gold have I none," etc. Acts iii. 6.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <choice>
+            <reg/>
+            <orig>p. 370, n. *</orig>
+          </choice>Kthâwa d'Mawâtha, a learned but very difficult treatise, of which there are a few
+          copies still extant. It is divided into a hundred sections, and is supposed to have been
+          written by Evagrius.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <choice>
+            <reg/>
+            <orig>p. 376, n. *</orig>
+          </choice>
+          <p>This famous collection of Fables is recorded by all Arabian historians to have been
+            translated from the original into Pehlvi by one Barzooyah, who was commissioned to
+            execute the task by the then reigning king of Persia Nooshirwan, about the year a.d.
+            510. Baron de Sacy, who published in 1816 an excellent edition of the Arabic Version
+            translated from the Pehlvi by Abdallah bin 'ool Mukatta, after expressing his doubt of
+            this testimony to Bood's labour as recorded by Mar Abd-Yeshua, suggests the following
+            adjustment of the apparent contradiction existing between him and the Arabian historians
+            : "On the other hand, we may suppose that Barzooyah was a Christian monk, who had been
+            employed in the Indian territory bordering on Persia, and that to a knowledge of his own
+            native tongue, and the Syriac of his Church, he joined an acquaintance with the language
+            of India, and hence was employed by Nooshirwan to translate the work called Calila oo
+            Dimna. Abd-Yeshua does not state that the translation made by Bood was into Syriac ; he
+            moreover speaks of it as a fact generally known ; hence it is not improbable that he
+            understood Bood and Barzooyah to be the same person." De Sacy adduces several plausible
+            reasons in support of this hypothesis, in his "Memoire Historique," appended to his
+            Arabic edition of the work in question.</p>
+          <p>Assemanni, as quoted by the learned Baron, states that Bood lived during the
+            patriarchate of Ezekiel. This is a mistake, since the name of the Patriarch who filled
+            the Eastern See during the reign of Chosroes Anooshirwan was "Sheela" [Silas.]</p>
+          <p>"Piryadotha," the title given to Bood, signifies "Presbyter circuitor, seu visitator;"
+            and seems to be cognate with our "Dean." I have so translated it wherever it has
+            occurred throughout this work.</p>
+        </note>
+        <note xml:id="n8" target="#a8" n="8">
+          <choice>
+            <reg/>
+            <orig>p. 377, n. *</orig>
+          </choice>This chant is still in use among the Nestorians.</note>
+        <note xml:id="n9" target="#a9" n="9">
+          <choice>
+            <reg/>
+            <orig>p. 378, n. *</orig>
+          </choice>The meaning of the original is somewhat obscure in this passage, but I conceive
+          the writer to signify that the Nestorians possess the Acts of these Councils and
+          Synods.</note>
+        <note xml:id="n10" target="#a10" n="10">
+          <choice>
+            <reg/>
+            <orig>p. 379, n. *</orig>
+          </choice>For a translation, see the next page.</note>
+      </noteGrp>
+    </body>
+  </text>
+</TEI>

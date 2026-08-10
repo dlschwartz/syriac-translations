@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="http://syriaca.org/work/5528" level="a" xml:lang="en">Ethikon 4— <foreign xml:lang="syr">[Add Syriac]</foreign>
+        </title>
+        <author>
+          <persName ref="http://syriaca.org/person/239">Gregorius bar Hebraeus — <foreign xml:lang="syr">ܓܪܝܓܘܪܝܘܣ ܒܪ ܥܒܪܝܐ</foreign>
+          </persName>
+        </author>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>National Endowment for the Humanities</funder>
+        <funder>The Ahmanson Foundation</funder>
+        <editor role="translator">Arent Jan Wensinck</editor>
+        <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</editor>
+        <editor role="creator" ref="http://syriaca.org/person.xml#echrisanthus">Evangelos Chrisanthus</editor>
+        <respStmt>
+          <resp>Data model, customized schema, and data editing by</resp>
+          <name ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription, proofreading, data cleaning, and initial encoding of persons and places by</resp>
+          <name ref="http://syriaca.org/person.xml#echrisanthus">Evangelos Chrisanthus</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">https://syriac-sourcebook.org/5528/tei</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0//">
+            <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Syriac Sourcebook</title>
+        <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+        <idno type="URI">https://syriac-sourcebook.org</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <p>
+                 The translation encoded here comes from 
+                 <title ref="http://syriaca.org/cbss/2CMS7CFD">Bar Hebraeus’s Book of the Dove, together with Some Chapters from his Ethikon</title> 
+                 by 
+                 Arent Jan Wensinck.
+              </p>
+        <p>The initial transcription of this work is based on <ref target="https://archive.org/details/barhebraeussbook00barh_0/page/n9/mode/2up">https://archive.org/details/barhebraeussbook00barh_0/page/n9/mode/2up</ref>.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div/>
+    </body>
+  </text>
+</TEI>
