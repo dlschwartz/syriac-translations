@@ -19,9 +19,9 @@
    </teiHeader>
    <text>
       <body>
-         <div type="book" n="4">
-            <head>Book 4</head>
-            <div type="section" n="4.0">
+         <div type="section" xml:id="section-4" n="4">
+            <head type="main">Book 4</head>
+            <div type="section" xml:id="section-4.0" n="4.0">
                <ab>This fourth Book also, in as much as it is from<ptr type="noteAnchor" target="#n61-1"/> the History of <persName>Zachariah</persName> the
                   Rhetorican, relates (in its twelve chapters that are written down distinctly
                   below) and makes known the events occurring after the death of <persName>Marcian</persName>, and
@@ -90,9 +90,9 @@
                   which occurred in the days of King <persName>Leo</persName> the First, and <persName>Leo</persName> the Second.</ab>
             </div>
             <pb type="page" n="64"/>
-            <div type="chapter" n="4.1">
-               <head>Chapter 1</head>
-               <head>The first chapter of the fourth book, telling about the consecration of <persName>Timothy</persName>
+            <div type="section" xml:id="section-4.1" n="4.1">
+               <head type="section">Chapter 1</head>
+               <head type="sub">The first chapter of the fourth book, telling about the consecration of <persName>Timothy</persName>
                   the Great,surnamed <persName>Aelurus</persName>,<ptr type="noteAnchor" target="#n64-1"/> and the events whichhappened then</head>
                <ab>The Alexandrian Church being in the condition that we have described above,
                   suddenly the report of the death of <persName>Marcian</persName> reached them, and they all took
@@ -142,9 +142,9 @@
                   <persName>Timothy</persName> that they drove <persName>Proterius</persName> out of the church of <placeName>Quirinus</placeName>; and slaughter
                   ensued.</ab>
             </div>                    
-            <div type="chapter" n="4.2">     
-               <head>Chapter 2</head>
-               <head>The second chapter shows how <persName>Proterius</persName> was slain,and dragged through the city;
+            <div type="section" xml:id="section-4.2" n="4.2">     
+               <head type="section">Chapter 2</head>
+               <head type="sub">The second chapter shows how <persName>Proterius</persName> was slain,and dragged through the city;
                   and how his body was, at last, burned with fire</head>
                <ab>And<ptr type="noteAnchor" target="#n66-3"/> when <persName>Proterius</persName> continued to threaten the Romans, and to display his
                   rage against them; because they took his gold, but did not fill their hands with
@@ -162,9 +162,9 @@
                   him.</ab>
             </div>
             <pb type="page" n="67"/>
-            <div type="chapter" n="4.3">
-               <head>Chapter 3</head>
-               <head>The third chapter tells how, after <persName>Timothy</persName> appearedas the sole bishop, the
+            <div type="section" xml:id="section-4.3" n="4.3">
+               <head type="section">Chapter 3</head>
+               <head type="sub">The third chapter tells how, after <persName>Timothy</persName> appearedas the sole bishop, the
                   other clergy also expressed, by means of a libel, their desire to repent and be
                   united with him; but the people and the zealous priests of his party would not
                   allow them</head>
@@ -190,9 +190,9 @@
                   but they prepared the others to cry out, <quote>Not one <pb type="page" n="68"/>of them
                   shall set his foot here, neither shall the transgressors be received.</quote></ab>
             </div>
-            <div type="chapter" n="4.4">
-               <head>Chapter 4</head>
-               <head>The fourth chapter tells how these men got ready and went up to <placeName>Rome</placeName>, and gave
+            <div type="section" xml:id="section-4.4" n="4.4">
+               <head type="section">Chapter 4</head>
+               <head type="sub">The fourth chapter tells how these men got ready and went up to <placeName>Rome</placeName>, and gave
                   information respecting the treatment which they had suffered</head>
                <ab>This was the reason why matters were disturbed and thrown into confusion. For when
                   these men were ignominiously refused, they betook themselves to <placeName>Rome</placeName>, and there
@@ -203,9 +203,9 @@
                   they rendered the latter odious, and made the whole business appear disgraceful in
                   the eyes of <persName>Leo</persName>; and they stirred him up against <persName>Timothy</persName>.</ab>
             </div>
-            <div type="chapter" n="4.5">
-               <head>Chapter 5</head>
-               <head>The fifth chapter tells the following matters respecting <persName>Timothy</persName>; and also what
+            <div type="section" xml:id="section-4.5" n="4.5">
+               <head type="section">Chapter 5</head>
+               <head type="sub">The fifth chapter tells the following matters respecting <persName>Timothy</persName>; and also what
                   happened in <placeName>Ephesus</placeName> to <persName>John</persName> the successor of <persName>Bassianus</persName></head>
                <ab>But how it came about that <persName>Timothy</persName> was given up, I shall now relate. <persName>Marcian</persName> the
                   king having died, and <persName>Anthemius</persName>, and <persName>Severus</persName>, and <persName>Olybrius</persName> having reigned for only
@@ -219,7 +219,7 @@
                   upon the entrance of <persName>John</persName>, after <persName>Bassianus</persName> had resigned and fled because he would
                   not subscribe the transactions of <placeName>Chalcedon</placeName>. But this <persName>John</persName>, being inflamed with <!-- Chalcedon not sure if it is a person or a place, found it is a council?  -->
                   desire for pre-eminence, betrayed the rights and honours of the see; so that in
-                  <persName>Ephesus</persName> they call him <hi rend="/doubleQuote">the traitor</hi>. unto this day; and they blotted his name out
+                  <persName>Ephesus</persName> they call him <hi rend="/doubleQuotes">the traitor</hi>. unto this day; and they blotted his name out
                   of the book of life. He accordingly, when he received a letter from <persName>Timothy</persName> of
                   <placeName>Alexandria</placeName>, was willing to convene a Synod. But <persName>Anatolius</persName>, the bishop of the royal
                   city, prevented him; not, indeed, that he was able to find any fault with the
@@ -252,9 +252,9 @@
                   upon the receipt of it, the latter wrote a petition<ptr type="noteAnchor" target="#n70-3"/> to the king as
                   follows.</ab>
             </div>
-            <div type="chapter" n="4.6">
-               <head>Chapter 6</head>
-               <head>The sixth chapter, declaring, by his petition, the faith of <persName>Timothy</persName> and the
+            <div type="section" xml:id="section-4.6" n="4.6">
+               <head type="section">Chapter 6</head>
+               <head type="sub">The sixth chapter, declaring, by his petition, the faith of <persName>Timothy</persName> and the
                   charges that he made against the letter of <persName>Leo</persName></head>
                <ab><quote>O kind and indulgent king! Since among wise men<ptr type="noteAnchor" target="#n70-4"/> there is nothing more
                   honourable than the soul, and also we have learned to despise the things of the
@@ -336,9 +336,9 @@
                   Grammarian;<ptr type="noteAnchor" target="#n73-3"/> and by Cosmas; and by <persName>Simeon</persName> of <placeName>Lʾgino</placeName>; and by the letter of
                   the Alexandrines.</ab>
             </div>
-            <div type="chapter" n="4.7">
-               <head>Chapter 7</head>
-               <head>The seventh chapter tells what the other bishops wrote to Leo; and how<ptr type="noteAnchor" target="#n73-4"/>
+            <div type="section" xml:id="section-4.7" n="4.7">
+               <head type="section">Chapter 7</head>
+               <head type="sub">The seventh chapter tells what the other bishops wrote to Leo; and how<ptr type="noteAnchor" target="#n73-4"/>
                   they all (with the exception of <persName>Amplilochius</persName> of Side) made known their views in
                   conformity with the doctrine of the Synod, and agreed to it</head>
                <ab>But <persName>Timothy</persName> wrote confidently, as above, concerning the letter of <persName>Leo</persName> and the
@@ -373,9 +373,9 @@
                   below.</ab>
             </div>
             <pb type="page" n="75"/>
-            <div type="chapter" n="4.8">
-               <head>Chapter 8</head>
-               <head>The eighth chapter, indeed, tells about the letter of <persName>Anatolius</persName> to the King
+            <div type="section" xml:id="section-4.8" n="4.8">
+               <head type="section">Chapter 8</head>
+               <head type="sub">The eighth chapter, indeed, tells about the letter of <persName>Anatolius</persName> to the King
                   about the Synod, saying that he had influenced the bishops by
                   writing<ptr type="noteAnchor" target="#n75-1"/></head>
                <ab><quote><persName>Anatolius</persName>, bishop of <placeName>Constantinople</placeName>, to the believing and Christ-loving king,
@@ -397,9 +397,9 @@
                   having learned this respecting <persName>Anatolius</persName>, withdrew from his communion.</ab>
             </div>
             <pb type="page" n="76"/>
-            <div type="chapter" n="4.9">
-               <head>Chapter 9</head>
-               <head>The ninth chapter tells about the banishment of <persName>Timothy</persName>, and the events which
+            <div type="section" xml:id="section-4.9" n="4.9">
+               <head type="section">Chapter 9</head>
+               <head type="sub">The ninth chapter tells about the banishment of <persName>Timothy</persName>, and the events which
                   happened at his departure from <placeName>Alexandria</placeName></head>
                <ab>But, because the king's order<ptr type="noteAnchor" target="#n76-1"/> respecting the departure of <persName>Timothy</persName> was sent
                   to <placeName>Alexandria</placeName> at this time, the general<ptr type="noteAnchor" target="#n76-2"/> was consequently much distressed,
@@ -451,9 +451,9 @@
                   <placeName>Gangra</placeName>.</ab>
             </div>
             <pb type="page" n="78"/>
-            <div type="chapter" n="4.10">
-               <head>Chapter 10</head>
-               <head>The tenth chapter explains about another <persName>Timothy</persName>, who was the bishop of the
+            <div type="section" xml:id="section-4.10" n="4.10">
+               <head type="section">Chapter 10</head>
+               <head type="sub">The tenth chapter explains about another <persName>Timothy</persName>, who was the bishop of the
                   Proterian party, and was called <persName>Salophaciolus</persName><ptr type="noteAnchor" target="#n78-1"/></head>
                <ab>But<ptr type="noteAnchor" target="#n78-2"/> the members of the Proterian party, because of the order<ptr type="noteAnchor" target="#n78-3"/> of
                   the king and the governors of the cities who were obedient to the command, elected
@@ -490,9 +490,9 @@
                   to their original constitution. And he made this known to the king.</ab>
                <ab>So much about this <persName>Timothy</persName> <persName>Salophaciolus</persName>.</ab>
             </div>
-            <div type="chapter" n="4.11">
-               <head>Chapter 11</head>
-               <head>The eleventh chapter tells how <persName>Timothy</persName> was driven from <placeName>Gangra</placeName> to <placeName>Cherson</placeName>, in
+            <div type="section" xml:id="section-4.11" n="4.11">
+               <head type="section">Chapter 11</head>
+               <head type="sub">The eleventh chapter tells how <persName>Timothy</persName> was driven from <placeName>Gangra</placeName> to <placeName>Cherson</placeName>, in
                   consequence of the hatred which the party of Chalcedon entertained against
                   him</head>
                <ab>But <persName>Gennadius</persName> of <placeName>Constantinople</placeName> and his adherents did not desist from their
@@ -533,12 +533,12 @@
                   <persName>Leo</persName>, and the Synod of <placeName>Chalcedon</placeName>, <pb type="page" n="81"/>and the innovations and
                   additions which had been imposed upon the faith in it.</ab>
             </div>
-            <div type="chapter" n="4.12">
-               <head>Chapter 12</head>
-               <head>The twelfth chapter tells about the Eutychianists, <persName>Isaiah</persName>, bishop of
+            <div type="section" xml:id="section-4.12" n="4.12">
+               <head type="section">Chapter 12</head>
+               <head type="sub">The twelfth chapter tells about the Eutychianists, <persName>Isaiah</persName>, bishop of
                   <placeName>Hermopolis</placeName>, and <persName>Theophilus</persName>, a presbyter of <placeName>Alexandria</placeName>; and about the letter
                   written by <persName>Timothy</persName> respecting them, in which he exposed their errors</head>
-               <div type="chapterParagraphs" n="4.12.1">
+               <div type="section" xml:id="section-4.12.1" n="4.12.1">
                   <ab>The affairs of the Church of the royal city, indeed, were in the condition
                      described above.</ab>
                   <ab>But <persName>Timothy</persName>, when in banishment, wrote not alone against the Nestorians, but
@@ -557,7 +557,7 @@
                      sent again another letter respecting them, confirming it by quotations from the
                      fathers. And it was to the following effect:—</ab>
                </div>
-               <div type="section" n="4.12.2">
+               <div type="section" xml:id="section-4.12.2" n="4.12.2">
                   <head>The Letter of <persName>Timothy</persName></head>
                   <ab>Our Lord and God, <persName>Jesus Christ</persName>, in order that He might redeem us and set us
                      free from the dominion of <persName>Satan</persName>, and <pb type="page" n="82"/>make us meet for
@@ -623,7 +623,7 @@
                      like manner, any who do not hold their doctrines.</ab>
                   <ab>But we have, moreover, in our letter added some quotations from them, attesting
                      the truth of this doctrine:—</ab>
-                  <div type="subsection" n="4.12.2.1">
+                  <div type="section" xml:id="section-4.12.2.1" n="4.12.2.1">
                      <head type="sub">Of <persName>Athanasius</persName><ptr type="noteAnchor" target="#n84-1"/></head>
                      <ab>For this, indeed, the apostle writes expressly, that, <quote>other foundation can
                         no man lay (than that which is laid),<ptr type="noteAnchor" target="#n84-2"/> even <persName>Christ</persName>; but let every man
@@ -648,7 +648,7 @@
                         with the flesh in which He is clothed, is to be worshipped with one
                         worship.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.2">
+                  <div type="section" xml:id="section-4.12.2.2" n="4.12.2.2">
                      <head>Of the Same, in his Letter to <persName>Epictetus</persName><ptr type="noteAnchor" target="#n85-1"/></head>
                      <ab>Now there are many, hiding themselves and blushing, who imagine that, if we
                         affirm the body of our Lord to be from <persName>Mary</persName>, we introduce a fourth Person
@@ -670,13 +670,13 @@
                         addition. What then must be the mind of these persons, and how can they be
                         Christians who hold that there is another besides Him who is God?</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.3">
+                  <div type="section" xml:id="section-4.12.2.3" n="4.12.2.3">
                      <head>Of the Same, from the same Letter<ptr type="noteAnchor" target="#n85-4"/></head>
                      <ab>The body of our Redeemer, derived from <persName>Mary</persName>, was in reality and truth human
                         in nature, because it was like our body; <pb type="page" n="86"/>since <persName>Mary</persName>
                         is our sister, we being all descended from our father <persName>Adam</persName>.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.4">
+                  <div type="section" xml:id="section-4.12.2.4" n="4.12.2.4">
                      <head>Of <persName>Julius</persName> of <placeName>Rome</placeName><ptr type="noteAnchor" target="#n86-1"/></head>
                      <ab>And there is no change whatsoever in the Divine Nature, for It is not
                         subject to diminution or increase. And when He says, <quote>Glorify Me,</quote> that is
@@ -694,7 +694,7 @@
                         not changed by the conjunction of the human body, and by the appellation of
                         a body of our nature.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.5">
+                  <div type="section" xml:id="section-4.12.2.5" n="4.12.2.5">
                      <head>Of the Same, from his Letter to <persName>Dionysius</persName><ptr type="noteAnchor" target="#n86-3"/></head>
                      <ab>They indeed, who confess that the God of heaven became incarnate from the
                         <persName>Virgin</persName>, and that He being joined to His flesh was one, give themselves
@@ -710,7 +710,7 @@
                         soul, is one nature, so also He, Who is in the likeness of men, is one J<persName>esus
                         Christ</persName>.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.6">
+                  <div type="section" xml:id="section-4.12.2.6" n="4.12.2.6">
                      <head>Of <persName>Gregory</persName> the Miracle-Worker<ptr type="noteAnchor" target="#n87-1"/></head>
                      <ab>Whosoever says that <persName>Christ</persName> appeared in the world in phantasy, and does not
                         confess Him to have come in the body, as it is written: let him be
@@ -767,7 +767,7 @@
                         a man, our Lord <persName>Jesus Christ</persName>.<ptr type="noteAnchor" target="#n88-5"/></ab>
                   </div>
                   <pb type="page" n="89"/>
-                  <div type="subsection" n="4.12.2.7">
+                  <div type="section" xml:id="section-4.12.2.7" n="4.12.2.7">
                      <head>Of <persName>Basil</persName> of <placeName>Caesarea</placeName><ptr type="noteAnchor" target="#n89-1"/></head>
                      <ab>That which is made is not of the same nature as its maker, but that which is
                         begotten is of the same essence as its begetter. Accordingly, that which is
@@ -783,12 +783,12 @@
                         was from <persName>Mary</persName>, who was from a virgin alone. And, indeed, the same might be
                         said with respect to birds and beasts.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.8">
+                  <div type="section" xml:id="section-4.12.2.8" n="4.12.2.8">
                      <head>Of <persName>Gregory</persName>, his Brother<ptr type="noteAnchor" target="#n89-2"/></head>
                      <ab>The nature, indeed, of those who are begotten must of necessity be like
                         their begetters.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.9">
+                  <div type="section" xml:id="section-4.12.2.9" n="4.12.2.9">
                      <head>Of <persName>Gregory</persName> of <placeName>Nazianzum</placeName><ptr type="noteAnchor" target="#n89-3"/></head>
                      <ab>Now these are generally accepted doctrines, that He Who was exalted far
                         above us, for our sake took our qualities upon Him and became man; not that
@@ -804,7 +804,7 @@
                         (natural) law, and who gave Him birth in a manner superior to nature, and
                         not after the (natural) law.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.10">
+                  <div type="section" xml:id="section-4.12.2.10" n="4.12.2.10">
                      <head>Of <persName>Julius</persName> of <placeName>Rome</placeName><ptr type="noteAnchor" target="#n90-1"/></head>
                      <ab>But, again, with respect to the dispensation of our Redeemer in the flesh,
                         we believe that God the Word remaining unchanged, became flesh, with the
@@ -826,7 +826,7 @@
                         the Word is one Son, and the man whom He took another, and does not confess
                         Him to be one and the same: let him be accursed.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.11">
+                  <div type="section" xml:id="section-4.12.2.11" n="4.12.2.11">
                      <head>Of <persName>John</persName> <persName>Chrysostom</persName></head>
                      <ab>He Who transcends all our conceptions and surpasses <pb type="page" n="91"
                         />all our thoughts, and is exalted above angels and above all intelligent
@@ -847,7 +847,7 @@
                         came to her having become man. And how did He become man? He was conceived
                         in the womb, and He grew gradually.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.12">
+                  <div type="section" xml:id="section-4.12.2.12" n="4.12.2.12">
                      <head>Of the Same<ptr type="noteAnchor" target="#n91-4"/></head>
                      <ab>This is the day on which the Eternal One was born and became man, a thing
                         which never took place before, though He did not change from being God, for
@@ -858,7 +858,7 @@
                         body, and cannot be touched, was embraced by human hands. He <pb type="page"
                            n="92"/>Who severs the chains of sin, was wrapped in swathing- bands.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.13">
+                  <div type="section" xml:id="section-4.12.2.13" n="4.12.2.13">
                      <head>Of <persName>Athanasius</persName><ptr type="noteAnchor" target="#n92-1"/></head>
                      <ab>If any man teaches doctrine contrary to the Holy Scriptures, and says that
                         the Son of God is One, and he who is man from <persName>Mary</persName> is another, who became a
@@ -874,7 +874,7 @@
                         <quote>Whosoever preaches to you a gospel different from that which we have
                         preached to you, let him be accursed.</quote><ptr type="noteAnchor" target="#n92-3"/></ab>
                   </div>
-                  <div type="subsection" n="4.12.2.14">
+                  <div type="section" xml:id="section-4.12.2.14" n="4.12.2.14">
                      <head>Of Bishop <persName>Ambrose</persName></head>
                      <ab>He is the same Person Who speaks, though not always in the same manner. But
                         He had regard in it at one time to the glory of God, and at another time to
@@ -882,7 +882,7 @@
                         Word; and as man, He teaches human things, because He speaks in our
                         nature.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.15">
+                  <div type="section" xml:id="section-4.12.2.15" n="4.12.2.15">
                      <head>Of <persName>Theophilus</persName> of <placeName>Alexandria</placeName><ptr type="noteAnchor" target="#n92-4"/></head>
                      <ab>The Word, the living God, the Lord of all, and Creator of the worlds, did
                         not clothe Himself in a heavenly <pb type="page" n="93"/>body<ptr type="noteAnchor" target="#n93-1"/> as in
@@ -907,7 +907,7 @@
                         with men, even though in His holy Incarnation the sensual intercourse of man
                         and woman had no part.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.16">
+                  <div type="section" xml:id="section-4.12.2.16" n="4.12.2.16">
                      <head>Of the Same<ptr type="noteAnchor" target="#n93-3"/></head>
                      <ab>Now it was not difficult for God the Word to prepare for Himself a temple
                         from the Virgin's body, for the purpose of our redemption. For consider,
@@ -916,14 +916,14 @@
                            type="page" n="94"/>incarnate from the blood of the Virgin, for the
                         purpose of our redemption.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.17">
+                  <div type="section" xml:id="section-4.12.2.17" n="4.12.2.17">
                      <head>Of <persName>Cyril</persName></head>
                      <ab>So, truly, the <persName>Theotokos</persName> still remained a virgin after giving birth to
                         <persName>Christ</persName> by a miracle; and He was partaker, in like manner as we, of flesh and
                         blood, not of His own nature, as the heretics say, but of our nature,
                         according to the saying, <quote>He took the seed of <persName>Abraham</persName>.</quote><ptr type="noteAnchor" target="#n94-1"/></ab>
                   </div>
-                  <div type="subsection" n="4.12.2.18">
+                  <div type="section" xml:id="section-4.12.2.18" n="4.12.2.18">
                      <head>Of the Same<ptr type="noteAnchor" target="#n94-2"/></head>
                      <ab>We assert that the body of the Word was His own, and not that of some other
                         man separately and distinctly who is held to be different from <persName>Christ</persName> the
@@ -941,7 +941,7 @@
                         to believe this truth, <persName>Christ</persName> will enlighten their knowledge also of Himself
                         by His mysteries.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.19">
+                  <div type="section" xml:id="section-4.12.2.19" n="4.12.2.19">
                      <head>Of the Same</head>
                      <ab>It is right, indeed, for us to say and believe that God the Word, still
                         remaining of the same Nature with God the Father, was sent and became man,
@@ -949,7 +949,7 @@
                         He is, and by becoming man He was not changed. And He was sent to preach
                         deliverance to the captives and light to the blind.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.20">
+                  <div type="section" xml:id="section-4.12.2.20" n="4.12.2.20">
                      <head>Of the Same, from his Letter to <persName>Succensus</persName><ptr type="noteAnchor" target="#n95-1"/></head>
                      <ab>They say, if <persName>Christ</persName> be perfect God and perfect man, and the same is of the
                         Nature of the Father in the Godhead and of our nature in the manhood,
@@ -963,7 +963,7 @@
                         Nature by saying that He became flesh, therefore let them cease from these
                         objections, and not lean upon a broken reed.</ab>
                   </div>
-                  <div type="subsection" n="4.12.2.21">
+                  <div type="section" xml:id="section-4.12.2.21" n="4.12.2.21">
                      <head>Of the Same</head>
                      <ab>In the might, indeed, of His Godhead He took the hand of the daughter of
                         <persName>Jairus</persName>, saying, <quote>Maid, arise.</quote><ptr type="noteAnchor" target="#n95-4"/> And<ptr type="noteAnchor" target="#n95-5"/> He did not give the
@@ -973,30 +973,30 @@
                         raised above our measure, it being also His own. He wrought in it. For which
                         reason, also, He called His own body the  <quote>Bread of Life.</quote><ptr type="noteAnchor" target="#n95-8"/></ab>
                   </div>
-                  <div type="paragraph" n="4.12.2.22">
+                  <div type="section" xml:id="section-4.12.2.22" n="4.12.2.22">
                      <ab>And so these fathers and holy men like them have with <pb type="page" n="96"
                         />one consent anathematised every man who is not obedient to their
                         doctrine.</ab>
                   </div>
-                  <div type="paragraph" n="4.12.2.23">
+                  <div type="section" xml:id="section-4.12.2.23" n="4.12.2.23">
                      <ab>And I have written to <placeName>Alexandria</placeName>, to the clergy, to the monks, to the
                         sisters the virgins in <persName>Christ</persName>, and to the believing people; and I have sent
                         the letter to you, my dear friends; and that ye may know what I have
                         written, I, <persName>Timothy</persName>, have marked the salutation with my own handwriting.</ab>
                   </div>
-                  <div type="paragraph" n="4.12.2.24">
+                  <div type="section" xml:id="section-4.12.2.24" n="4.12.2.24">
                      <ab>Whosoever does not believe in the doctrine of the holy fathers, in
                         accordance with the tradition of our Lord <persName>Jesus Christ</persName>: let him be accursed.
                         For it is right for each one of us either to stand fast in the faith and to
                         live in it, or else to die on behalf of it, and to live for evermore.</ab>
                   </div>
-                  <div type="paragraph" n="4.12.2.25">
+                  <div type="section" xml:id="section-4.12.2.25" n="4.12.2.25">
                      <ab>My brother <persName>Anatolius</persName> the presbyter, and <persName>Theophilus</persName>, and <persName>Cyrus</persName>, and
                         <persName>Christodorus</persName>, and <persName>Gennadius</persName> the deacons, and the members of the brotherhood
                         who are with me, send you their greeting.</ab>
                   </div>
                </div>
-               <div type="chapterParagraphs" n="4.12.3">
+               <div type="section" xml:id="section-4.12.3" n="4.12.3">
                   <ab>The foregoing letter, with the quotations appended thereto, we have written
                      down here. By reading and considering it, lovers of the doctrine will find in
                      it a sufficient refutation of the notion of Nestorius, who holds that there are
@@ -1006,7 +1006,7 @@
                   <ab>And, besides this letter, we have subjoined another explaining the right method
                      of reception in the case of those who repent and turn from heresy.</ab>
                </div>
-               <div type="section" n="4.12.4">
+               <div type="section" xml:id="section-4.12.4" n="4.12.4">
                   <head>The letter of <persName>Timothy</persName> which he wrote to <placeName>Alexandria</placeName>, and by which he cut off
                      <persName>Isaiah</persName> and <persName>Theophilus</persName> from communion with the believers</head>
                   <ab><persName>Timothy</persName> to the God-loving bishops, and presbyters, and deacons, and
@@ -1086,7 +1086,7 @@
                   <ab>Pray for me that God may help me in this conflict; the Lord be with you.
                      Amen!</ab>
                </div>
-               <div type="chapterParagraphs" n="4.12.6">
+               <div type="section" xml:id="section-4.12.6" n="4.12.6">
                   <ab>Such letters he wrote advising them how they should receive converts from the
                      Proterian party.<ptr type="noteAnchor" target="#n99-3"/></ab>
                   <ab>And he became so celebrated, even with the people of <placeName>India</placeName>, that when their
@@ -1122,183 +1122,183 @@
             </div>
          </div>
          <noteGrp>
-            <note xml:id="n62-1" target="#a62-1" n="62-1"><!--  Add Syriac  -->, <quote>shaking cap</quote>; again (ch. 10)
+            <note xml:id="n62-1" target="#a62-1" n="62-1"><choice><reg/><orig>p. 62, n. 1</orig></choice><!--  Add Syriac  -->, <quote>shaking cap</quote>; again (ch. 10)
                <!--  Add Syriac  -->, <quote>crooked cap,</quote> from  <foreign xml:lang="grc">Σαλοφακίολος </foreign>, hence I translate uniformly
                Salophaciolus.</note>
-            <note xml:id="n62-2" target="#a62-2" n="62-2">Probably <!--  Add Syriac  --> has dropped out of the text, and the
+            <note xml:id="n62-2" target="#a62-2" n="62-2"><choice><reg/><orig>p. 62, n. 2</orig></choice>Probably <!--  Add Syriac  --> has dropped out of the text, and the
                translation should be as in the heading of Chap. III.</note>
-            <note xml:id="n62-3" target="#a62-3" n="62-3"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">δέησις</foreign>.</note>
-            <note xml:id="n64-1" target="#a64-1" n="64-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">αἴλουρος</foreign>.</note>
-            <note xml:id="n64-2" target="#a64-2" n="64-2">Evag. ii. 8; Liberat. 15.</note>
-            <note xml:id="n64-3" target="#a64-3" n="64-3"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στρατηγός</foreign>.</note>
-            <note xml:id="n64-4" target="#a64-4" n="64-4">I.e. Upper Egypt, see Evag.</note>
-            <note xml:id="n64-5" target="#a64-5" n="64-5"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πρακτικός</foreign>.</note>
-            <note xml:id="n65-1" target="#a65-1" n="65-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στρατηγός</foreign>.</note>
-            <note xml:id="n65-2" target="#a65-2" n="65-2"><!--  Add Syriac  -->, otherwise called <!--  Add Syriac  -->, i.e.
+            <note xml:id="n62-3" target="#a62-3" n="62-3"><choice><reg/><orig>p. 62, n. 3</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">δέησις</foreign>.</note>
+            <note xml:id="n64-1" target="#a64-1" n="64-1"><choice><reg/><orig>p. 64, n. 1</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">αἴλουρος</foreign>.</note>
+            <note xml:id="n64-2" target="#a64-2" n="64-2"><choice><reg/><orig>p. 64, n. 2</orig></choice>Evag. ii. 8; Liberat. 15.</note>
+            <note xml:id="n64-3" target="#a64-3" n="64-3"><choice><reg/><orig>p. 64, n. 3</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στρατηγός</foreign>.</note>
+            <note xml:id="n64-4" target="#a64-4" n="64-4"><choice><reg/><orig>p. 64, n. 4</orig></choice>I.e. Upper Egypt, see Evag.</note>
+            <note xml:id="n64-5" target="#a64-5" n="64-5"><choice><reg/><orig>p. 64, n. 5</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πρακτικός</foreign>.</note>
+            <note xml:id="n65-1" target="#a65-1" n="65-1"><choice><reg/><orig>p. 65, n. 1</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στρατηγός</foreign>.</note>
+            <note xml:id="n65-2" target="#a65-2" n="65-2"><choice><reg/><orig>p. 65, n. 2</orig></choice><!--  Add Syriac  -->, otherwise called <!--  Add Syriac  -->, i.e.
                <!--  Add Syriac  --> (Life of <persName>Peter</persName> lb., ed. Raabe, p. 67) = <foreign xml:lang="grc">Ταφοσίριον</foreign> (see Euseb.
                H. E. vi. 40). Clearly then <!--  Add Syriac  --> <foreign xml:lang="grc">τάφος</foreign>, and the name was taken to
                mean <quote>Tomb of <persName>Osiris</persName></quote> (Brooks).</note>
-            <note xml:id="n65-3" target="#a65-3" n="65-3"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+            <note xml:id="n65-3" target="#a65-3" n="65-3"><choice><reg/><orig>p. 65, n. 3</orig></choice><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
                prints.</note>
-            <note xml:id="n65-4" target="#a65-4" n="65-4">For <!--  Add Syriac  --> I read <!--  Add Syriac  -->.</note>
-            <note xml:id="n65-5" target="#a65-5" n="65-5"><!--  Add Syriac  -->.I cannot even guess what this word may
+            <note xml:id="n65-4" target="#a65-4" n="65-4"><choice><reg/><orig>p. 65, n. 4</orig></choice>For <!--  Add Syriac  --> I read <!--  Add Syriac  -->.</note>
+            <note xml:id="n65-5" target="#a65-5" n="65-5"><choice><reg/><orig>p. 65, n. 5</orig></choice><!--  Add Syriac  -->.I cannot even guess what this word may
                mean.</note>
-            <note xml:id="n65-6" target="#a65-6" n="65-6"><!--  Add Syriac  -->, unleavened bread.</note>
-            <note xml:id="n66-1" target="#a66-1" n="66-1"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.</note>
-            <note xml:id="n66-2" target="#a66-2" n="66-2"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n66-3" target="#a66-3" n="66-3">Evag. ii. 8; Liberat. 15.</note>
-            <note xml:id="n66-4" target="#a66-4" n="66-4"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n67-1" target="#a67-1" n="67-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">οὐσίας</foreign>.</note>
-            <note xml:id="n69-1" target="#a69-1" n="69-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">χειροτονία</foreign>.</note>
-            <note xml:id="n69-2" target="#a69-2" n="69-2">Liberat. 15; Evag. ii. 9.</note>
-            <note xml:id="n70-1" target="#a70-1" n="70-1">Evag. ii. 10.</note>
-            <note xml:id="n70-2" target="#a70-2" n="70-2">For <!--  Add Syriac  --> I read <!--  Add Syriac  -->.</note>
-            <note xml:id="n70-3" target="#a70-3" n="70-3"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">δέησις</foreign>.</note>
-            <note xml:id="n70-4" target="#a70-4" n="70-4"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n71-1" target="#a71-1" n="71-1">Matt. xxviii. 19.</note>
-            <note xml:id="n71-2" target="#a71-2" n="71-2">Migne, Patr. Graec. vi. p. 274.</note>
-            <note xml:id="n71-3" target="#a71-3" n="71-3"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n71-4" target="#a71-4" n="71-4">Matt. xxii. 29.</note>
-            <note xml:id="n72-1" target="#a72-1" n="72-1"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n72-2" target="#a72-2" n="72-2"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n73-1" target="#a73-1" n="73-1">Imperfectly written in MS. <!--  Add Syriac  -->. <quote>Mich. has <quote>that
+            <note xml:id="n65-6" target="#a65-6" n="65-6"><choice><reg/><orig>p. 65, n. 6</orig></choice><!--  Add Syriac  -->, unleavened bread.</note>
+            <note xml:id="n66-1" target="#a66-1" n="66-1"><choice><reg/><orig>p. 66, n. 1</orig></choice><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.</note>
+            <note xml:id="n66-2" target="#a66-2" n="66-2"><choice><reg/><orig>p. 66, n. 2</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n66-3" target="#a66-3" n="66-3"><choice><reg/><orig>p. 66, n. 3</orig></choice>Evag. ii. 8; Liberat. 15.</note>
+            <note xml:id="n66-4" target="#a66-4" n="66-4"><choice><reg/><orig>p. 66, n. 4</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n67-1" target="#a67-1" n="67-1"><choice><reg/><orig>p. 67, n. 1</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">οὐσίας</foreign>.</note>
+            <note xml:id="n69-1" target="#a69-1" n="69-1"><choice><reg/><orig>p. 69, n. 1</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">χειροτονία</foreign>.</note>
+            <note xml:id="n69-2" target="#a69-2" n="69-2"><choice><reg/><orig>p. 69, n. 2</orig></choice>Liberat. 15; Evag. ii. 9.</note>
+            <note xml:id="n70-1" target="#a70-1" n="70-1"><choice><reg/><orig>p. 70, n. 1</orig></choice>Evag. ii. 10.</note>
+            <note xml:id="n70-2" target="#a70-2" n="70-2"><choice><reg/><orig>p. 70, n. 2</orig></choice>For <!--  Add Syriac  --> I read <!--  Add Syriac  -->.</note>
+            <note xml:id="n70-3" target="#a70-3" n="70-3"><choice><reg/><orig>p. 70, n. 3</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">δέησις</foreign>.</note>
+            <note xml:id="n70-4" target="#a70-4" n="70-4"><choice><reg/><orig>p. 70, n. 4</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n71-1" target="#a71-1" n="71-1"><choice><reg/><orig>p. 71, n. 1</orig></choice>Matt. xxviii. 19.</note>
+            <note xml:id="n71-2" target="#a71-2" n="71-2"><choice><reg/><orig>p. 71, n. 2</orig></choice>Migne, Patr. Graec. vi. p. 274.</note>
+            <note xml:id="n71-3" target="#a71-3" n="71-3"><choice><reg/><orig>p. 71, n. 3</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n71-4" target="#a71-4" n="71-4"><choice><reg/><orig>p. 71, n. 4</orig></choice>Matt. xxii. 29.</note>
+            <note xml:id="n72-1" target="#a72-1" n="72-1"><choice><reg/><orig>p. 72, n. 1</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n72-2" target="#a72-2" n="72-2"><choice><reg/><orig>p. 72, n. 2</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n73-1" target="#a73-1" n="73-1"><choice><reg/><orig>p. 73, n. 1</orig></choice>Imperfectly written in MS. <!--  Add Syriac  -->. <quote>Mich. has <quote>that
                they hold fast,</quote> reading <!--  Add Syriac  -->; but it is hard to explain the
                corruption in the text</quote> (Brooks).</note>
-            <note xml:id="n73-2" target="#a73-2" n="73-2">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
-            <note xml:id="n73-3" target="#a73-3" n="73-3">See bk. 7, ch. 10.</note>
-            <note xml:id="n73-4" target="#a73-4" n="73-4">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
-            <note xml:id="n73-5" target="#a73-5" n="73-5">Mansi, vol. vii. p. 539 ff.</note>
-            <note xml:id="n74-1" target="#a74-1" n="74-1">Leo, Ep. 156, ch. ii.</note>
-            <note xml:id="n74-2" target="#a74-2" n="74-2">Evag. ii. 10.</note>
-            <note xml:id="n74-3" target="#a74-3" n="74-3">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
-            <note xml:id="n74-4" target="#a74-4" n="74-4"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στρατηλάτης</foreign>.</note>
-            <note xml:id="n74-5" target="#a74-5" n="74-5">Evag. ii. 11.</note>
-            <note xml:id="n75-1" target="#a75-1" n="75-1">Mansi, vol. vii. p. 537.</note>
-            <note xml:id="n75-2" target="#a75-2" n="75-2"><!--  Add Syriac  --> i.e. <foreign xml:lang="grc">ὑπομνήματα</foreign>.</note>
-            <note xml:id="n75-3" target="#a75-3" n="75-3">Prov. xviii. 3 (LXX).</note>
-            <note xml:id="n75-4" target="#a75-4" n="75-4">Read <!--  Add Syriac  --> for<!--  Add Syriac  -->.</note>
-            <note xml:id="n75-5" target="#a75-5" n="75-5">MS. <!--  Add Syriac  -->, not <!--  Add Syriac  -->.</note>
-            <note xml:id="n76-1" target="#a76-1" n="76-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πρόσταγμα</foreign>.</note>
-            <note xml:id="n76-2" target="#a76-2" n="76-2"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στρατηγός</foreign>.</note>
-            <note xml:id="n76-3" target="#a76-3" n="76-3"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.</note>
-            <note xml:id="n76-4" target="#a76-4" n="76-4"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n76-5" target="#a76-5" n="76-5">Liberat. 15 and 16.</note>
-            <note xml:id="n76-6" target="#a76-6" n="76-6"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+            <note xml:id="n73-2" target="#a73-2" n="73-2"><choice><reg/><orig>p. 73, n. 2</orig></choice>Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n73-3" target="#a73-3" n="73-3"><choice><reg/><orig>p. 73, n. 3</orig></choice>See bk. 7, ch. 10.</note>
+            <note xml:id="n73-4" target="#a73-4" n="73-4"><choice><reg/><orig>p. 73, n. 4</orig></choice>Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n73-5" target="#a73-5" n="73-5"><choice><reg/><orig>p. 73, n. 5</orig></choice>Mansi, vol. vii. p. 539 ff.</note>
+            <note xml:id="n74-1" target="#a74-1" n="74-1"><choice><reg/><orig>p. 74, n. 1</orig></choice>Leo, Ep. 156, ch. ii.</note>
+            <note xml:id="n74-2" target="#a74-2" n="74-2"><choice><reg/><orig>p. 74, n. 2</orig></choice>Evag. ii. 10.</note>
+            <note xml:id="n74-3" target="#a74-3" n="74-3"><choice><reg/><orig>p. 74, n. 3</orig></choice>Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n74-4" target="#a74-4" n="74-4"><choice><reg/><orig>p. 74, n. 4</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στρατηλάτης</foreign>.</note>
+            <note xml:id="n74-5" target="#a74-5" n="74-5"><choice><reg/><orig>p. 74, n. 5</orig></choice>Evag. ii. 11.</note>
+            <note xml:id="n75-1" target="#a75-1" n="75-1"><choice><reg/><orig>p. 75, n. 1</orig></choice>Mansi, vol. vii. p. 537.</note>
+            <note xml:id="n75-2" target="#a75-2" n="75-2"><choice><reg/><orig>p. 75, n. 2</orig></choice><!--  Add Syriac  --> i.e. <foreign xml:lang="grc">ὑπομνήματα</foreign>.</note>
+            <note xml:id="n75-3" target="#a75-3" n="75-3"><choice><reg/><orig>p. 75, n. 3</orig></choice>Prov. xviii. 3 (LXX).</note>
+            <note xml:id="n75-4" target="#a75-4" n="75-4"><choice><reg/><orig>p. 75, n. 4</orig></choice>Read <!--  Add Syriac  --> for<!--  Add Syriac  -->.</note>
+            <note xml:id="n75-5" target="#a75-5" n="75-5"><choice><reg/><orig>p. 75, n. 5</orig></choice>MS. <!--  Add Syriac  -->, not <!--  Add Syriac  -->.</note>
+            <note xml:id="n76-1" target="#a76-1" n="76-1"><choice><reg/><orig>p. 76, n. 1</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πρόσταγμα</foreign>.</note>
+            <note xml:id="n76-2" target="#a76-2" n="76-2"><choice><reg/><orig>p. 76, n. 2</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">στρατηγός</foreign>.</note>
+            <note xml:id="n76-3" target="#a76-3" n="76-3"><choice><reg/><orig>p. 76, n. 3</orig></choice><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.</note>
+            <note xml:id="n76-4" target="#a76-4" n="76-4"><choice><reg/><orig>p. 76, n. 4</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n76-5" target="#a76-5" n="76-5"><choice><reg/><orig>p. 76, n. 5</orig></choice>Liberat. 15 and 16.</note>
+            <note xml:id="n76-6" target="#a76-6" n="76-6"><choice><reg/><orig>p. 76, n. 6</orig></choice><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
                prints.</note>
-            <note xml:id="n76-7" target="#a76-7" n="76-7">Perhaps we should read <!--  Add Syriac  -->, and trans. <quote>more than
+            <note xml:id="n76-7" target="#a76-7" n="76-7"><choice><reg/><orig>p. 76, n. 7</orig></choice>Perhaps we should read <!--  Add Syriac  -->, and trans. <quote>more than
                ten thousand persons were killed there in the attempt to rescue,</quote> etc.</note>
-            <note xml:id="n77-1" target="#a77-1" n="77-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πάραλος</foreign>, the province of Phœnice
+            <note xml:id="n77-1" target="#a77-1" n="77-1"><choice><reg/><orig>p. 77, n. 1</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πάραλος</foreign>, the province of Phœnice
                Maritima.</note>
-            <note xml:id="n77-2" target="#a77-2" n="77-2">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
-            <note xml:id="n78-1" target="#a78-1" n="78-1"><!--  Add Syriac  -->, see note 1, p. 62.</note>
-            <note xml:id="n78-2" target="#a78-2" n="78-2">Liberat. 16.</note>
-            <note xml:id="n78-3" target="#a78-3" n="78-3"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πρόσταγμα</foreign>.</note>
-            <note xml:id="n78-4" target="#a78-4" n="78-4"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">δημοτικός</foreign></note>
-            <note xml:id="n78-5" target="#a78-5" n="78-5"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
+            <note xml:id="n77-2" target="#a77-2" n="77-2"><choice><reg/><orig>p. 77, n. 2</orig></choice>Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n78-1" target="#a78-1" n="78-1"><choice><reg/><orig>p. 78, n. 1</orig></choice><!--  Add Syriac  -->, see note 1, p. 62.</note>
+            <note xml:id="n78-2" target="#a78-2" n="78-2"><choice><reg/><orig>p. 78, n. 2</orig></choice>Liberat. 16.</note>
+            <note xml:id="n78-3" target="#a78-3" n="78-3"><choice><reg/><orig>p. 78, n. 3</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">πρόσταγμα</foreign>.</note>
+            <note xml:id="n78-4" target="#a78-4" n="78-4"><choice><reg/><orig>p. 78, n. 4</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">δημοτικός</foreign></note>
+            <note xml:id="n78-5" target="#a78-5" n="78-5"><choice><reg/><orig>p. 78, n. 5</orig></choice><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.
                prints.</note>
-            <note xml:id="n80-1" target="#a80-1" n="80-1">Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
-            <note xml:id="n80-2" target="#a80-2" n="80-2"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">Ὀρφανοτροφεῖον</foreign>.</note>
-            <note xml:id="n80-3" target="#a80-3" n="80-3">Evag. ii. 11.</note>
-            <note xml:id="n80-4" target="#a80-4" n="80-4"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">Ὀρφανοτρόφος</foreign>.</note>
-            <note xml:id="n81-1" target="#a81-1" n="81-1">For <!--  Add Syriac  --> read <!--  Add Syriac  -->; and for the
+            <note xml:id="n80-1" target="#a80-1" n="80-1"><choice><reg/><orig>p. 80, n. 1</orig></choice>Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n80-2" target="#a80-2" n="80-2"><choice><reg/><orig>p. 80, n. 2</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">Ὀρφανοτροφεῖον</foreign>.</note>
+            <note xml:id="n80-3" target="#a80-3" n="80-3"><choice><reg/><orig>p. 80, n. 3</orig></choice>Evag. ii. 11.</note>
+            <note xml:id="n80-4" target="#a80-4" n="80-4"><choice><reg/><orig>p. 80, n. 4</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">Ὀρφανοτρόφος</foreign>.</note>
+            <note xml:id="n81-1" target="#a81-1" n="81-1"><choice><reg/><orig>p. 81, n. 1</orig></choice>For <!--  Add Syriac  --> read <!--  Add Syriac  -->; and for the
                defective word<!--  Add Syriac  --> read <!--  Add Syriac  -->.</note>
-            <note xml:id="n82-1" target="#a82-1" n="82-1"> Num. xx. 17; Prov. iv. 27.</note>
-            <note xml:id="n82-2" target="#a82-2" n="82-2">A free quotation from Eccles. vii. 16-18.</note>
-            <note xml:id="n82-3" target="#a82-3" n="82-3"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n82-4" target="#a82-4" n="82-4">Ps. cxlii. (Syr. cxli.) 3.</note>
-            <note xml:id="n82-5" target="#a82-5" n="82-5"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n82-6" target="#a82-6" n="82-6"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.</note>
-            <note xml:id="n82-7" target="#a82-7" n="82-7"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  --> as L.</note>
-            <note xml:id="n82-8" target="#a82-8" n="82-8">John i. 42; Matt. xvi. 18.</note>
-            <note xml:id="n83-1" target="#a83-1" n="83-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">μοχλοί</foreign>.</note>
-            <note xml:id="n83-2" target="#a83-2" n="83-2"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n83-3" target="#a83-3" n="83-3">Heb. ii. 14-18.</note>
-            <note xml:id="n83-4" target="#a83-4" n="83-4">Read <!--  Add Syriac  --> for <!--  Add Syriac  --> before
+            <note xml:id="n82-1" target="#a82-1" n="82-1"><choice><reg/><orig>p. 82, n. 1</orig></choice> Num. xx. 17; Prov. iv. 27.</note>
+            <note xml:id="n82-2" target="#a82-2" n="82-2"><choice><reg/><orig>p. 82, n. 2</orig></choice>A free quotation from Eccles. vii. 16-18.</note>
+            <note xml:id="n82-3" target="#a82-3" n="82-3"><choice><reg/><orig>p. 82, n. 3</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n82-4" target="#a82-4" n="82-4"><choice><reg/><orig>p. 82, n. 4</orig></choice>Ps. cxlii. (Syr. cxli.) 3.</note>
+            <note xml:id="n82-5" target="#a82-5" n="82-5"><choice><reg/><orig>p. 82, n. 5</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n82-6" target="#a82-6" n="82-6"><choice><reg/><orig>p. 82, n. 6</orig></choice><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as L.</note>
+            <note xml:id="n82-7" target="#a82-7" n="82-7"><choice><reg/><orig>p. 82, n. 7</orig></choice><!--  Add Syriac  -->, MS., not <!--  Add Syriac  --> as L.</note>
+            <note xml:id="n82-8" target="#a82-8" n="82-8"><choice><reg/><orig>p. 82, n. 8</orig></choice>John i. 42; Matt. xvi. 18.</note>
+            <note xml:id="n83-1" target="#a83-1" n="83-1"><choice><reg/><orig>p. 83, n. 1</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">μοχλοί</foreign>.</note>
+            <note xml:id="n83-2" target="#a83-2" n="83-2"><choice><reg/><orig>p. 83, n. 2</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n83-3" target="#a83-3" n="83-3"><choice><reg/><orig>p. 83, n. 3</orig></choice>Heb. ii. 14-18.</note>
+            <note xml:id="n83-4" target="#a83-4" n="83-4"><choice><reg/><orig>p. 83, n. 4</orig></choice>Read <!--  Add Syriac  --> for <!--  Add Syriac  --> before
                <!--  Add Syriac  -->.</note>
-            <note xml:id="n84-1" target="#a84-1" n="84-1">Orat. ii., contra Arian. 74.</note>
-            <note xml:id="n84-2" target="#a84-2" n="84-2">The words <!--  Add Syriac  --> must have dropped out of the
+            <note xml:id="n84-1" target="#a84-1" n="84-1"><choice><reg/><orig>p. 84, n. 1</orig></choice>Orat. ii., contra Arian. 74.</note>
+            <note xml:id="n84-2" target="#a84-2" n="84-2"><choice><reg/><orig>p. 84, n. 2</orig></choice>The words <!--  Add Syriac  --> must have dropped out of the
                MS.</note>
-            <note xml:id="n84-3" target="#a84-3" n="84-3">1 Cor. iii. 11, 12.</note>
-            <note xml:id="n84-4" target="#a84-4" n="84-4">De Incarn. Dei Verbi (Migne, Patr. Graec. vol. xxviii. p.
+            <note xml:id="n84-3" target="#a84-3" n="84-3"><choice><reg/><orig>p. 84, n. 3</orig></choice>1 Cor. iii. 11, 12.</note>
+            <note xml:id="n84-4" target="#a84-4" n="84-4"><choice><reg/><orig>p. 84, n. 4</orig></choice>De Incarn. Dei Verbi (Migne, Patr. Graec. vol. xxviii. p.
                25).</note>
-            <note xml:id="n85-1" target="#a85-1" n="85-1">Athan. ad Epict. 8, 9.</note>
-            <note xml:id="n85-2" target="#a85-2" n="85-2"> Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
-            <note xml:id="n85-3" target="#a85-3" n="85-3">This is the best I can make of it, the text may be corrupt.</note>
-            <note xml:id="n85-4" target="#a85-4" n="85-4">Ibid. 7.</note>
-            <note xml:id="n86-1" target="#a86-1" n="86-1">Migne, Patr. Lat. vol. viii. p. 874.</note>
-            <note xml:id="n86-2" target="#a86-2" n="86-2">John xvii. 5.</note>
-            <note xml:id="n86-3" target="#a86-3" n="86-3">Migne, Patr. Lat. vol. viii. p. 929.</note>
-            <note xml:id="n86-4" target="#a86-4" n="86-4">John i. 14.</note>
-            <note xml:id="n86-5" target="#a86-5" n="86-5">1 Cor. vi. 8.</note>
-            <note xml:id="n87-1" target="#a87-1" n="87-1">Migne, Patr. Græc. vol. x. p. 1128ff.</note>
-            <note xml:id="n87-2" target="#a87-2" n="87-2"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n87-3" target="#a87-3" n="87-3">0010, MS., which L. omits.</note>
-            <note xml:id="n87-4" target="#a87-4" n="87-4">Supplied from the Greek.</note>
-            <note xml:id="n87-5" target="#a87-5" n="87-5">Heb. xiii. 8. This quotation is not in the Greek.</note>
-            <note xml:id="n88-1" target="#a88-1" n="88-1">Phil. ii. 7.</note>
-            <note xml:id="n88-2" target="#a88-2" n="88-2">Luke xxiv. 36-43; John xx. 19-27.</note>
-            <note xml:id="n88-3" target="#a88-3" n="88-3">MS. has <!--  Add Syriac  --> before <!--  Add Syriac  -->, which
+            <note xml:id="n85-1" target="#a85-1" n="85-1"><choice><reg/><orig>p. 85, n. 1</orig></choice>Athan. ad Epict. 8, 9.</note>
+            <note xml:id="n85-2" target="#a85-2" n="85-2"><choice><reg/><orig>p. 85, n. 2</orig></choice> Read <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n85-3" target="#a85-3" n="85-3"><choice><reg/><orig>p. 85, n. 3</orig></choice>This is the best I can make of it, the text may be corrupt.</note>
+            <note xml:id="n85-4" target="#a85-4" n="85-4"><choice><reg/><orig>p. 85, n. 4</orig></choice>Ibid. 7.</note>
+            <note xml:id="n86-1" target="#a86-1" n="86-1"><choice><reg/><orig>p. 86, n. 1</orig></choice>Migne, Patr. Lat. vol. viii. p. 874.</note>
+            <note xml:id="n86-2" target="#a86-2" n="86-2"><choice><reg/><orig>p. 86, n. 2</orig></choice>John xvii. 5.</note>
+            <note xml:id="n86-3" target="#a86-3" n="86-3"><choice><reg/><orig>p. 86, n. 3</orig></choice>Migne, Patr. Lat. vol. viii. p. 929.</note>
+            <note xml:id="n86-4" target="#a86-4" n="86-4"><choice><reg/><orig>p. 86, n. 4</orig></choice>John i. 14.</note>
+            <note xml:id="n86-5" target="#a86-5" n="86-5"><choice><reg/><orig>p. 86, n. 5</orig></choice>1 Cor. vi. 8.</note>
+            <note xml:id="n87-1" target="#a87-1" n="87-1"><choice><reg/><orig>p. 87, n. 1</orig></choice>Migne, Patr. Græc. vol. x. p. 1128ff.</note>
+            <note xml:id="n87-2" target="#a87-2" n="87-2"><choice><reg/><orig>p. 87, n. 2</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n87-3" target="#a87-3" n="87-3"><choice><reg/><orig>p. 87, n. 3</orig></choice>0010, MS., which L. omits.</note>
+            <note xml:id="n87-4" target="#a87-4" n="87-4"><choice><reg/><orig>p. 87, n. 4</orig></choice>Supplied from the Greek.</note>
+            <note xml:id="n87-5" target="#a87-5" n="87-5"><choice><reg/><orig>p. 87, n. 5</orig></choice>Heb. xiii. 8. This quotation is not in the Greek.</note>
+            <note xml:id="n88-1" target="#a88-1" n="88-1"><choice><reg/><orig>p. 88, n. 1</orig></choice>Phil. ii. 7.</note>
+            <note xml:id="n88-2" target="#a88-2" n="88-2"><choice><reg/><orig>p. 88, n. 2</orig></choice>Luke xxiv. 36-43; John xx. 19-27.</note>
+            <note xml:id="n88-3" target="#a88-3" n="88-3"><choice><reg/><orig>p. 88, n. 3</orig></choice>MS. has <!--  Add Syriac  --> before <!--  Add Syriac  -->, which
                L. omits.</note>
-            <note xml:id="n88-4" target="#a88-4" n="88-4">Migne, Patr. Græc. vol. x. p. 1117. Here Mich. has "of the
+            <note xml:id="n88-4" target="#a88-4" n="88-4"><choice><reg/><orig>p. 88, n. 4</orig></choice>Migne, Patr. Græc. vol. x. p. 1117. Here Mich. has "of the
                same."</note>
-            <note xml:id="n88-5" target="#a88-5" n="88-5">This is only an attempt at translating the sentence; a comparison
+            <note xml:id="n88-5" target="#a88-5" n="88-5"><choice><reg/><orig>p. 88, n. 5</orig></choice>This is only an attempt at translating the sentence; a comparison
                with the Greek shows that the text is corrupt.</note>
-            <note xml:id="n89-1" target="#a89-1" n="89-1">Migne, Patr. Graec. vol. xxix. pp. 673, 680, 681.</note>
-            <note xml:id="n89-2" target="#a89-2" n="89-2">Ibid. vol. xlv. p. 601.</note>
-            <note xml:id="n89-3" target="#a89-3" n="89-3">The source of this quotation we are not able to find.</note>
-            <note xml:id="n90-1" target="#a90-1" n="90-1">Not in any of the extant works of Pseudo-Julius.</note>
-            <note xml:id="n91-1" target="#a91-1" n="91-1"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n91-2" target="#a91-2" n="91-2">De Capt. Eutrop. 8. Here, and at the beginning of the next
+            <note xml:id="n89-1" target="#a89-1" n="89-1"><choice><reg/><orig>p. 89, n. 1</orig></choice>Migne, Patr. Graec. vol. xxix. pp. 673, 680, 681.</note>
+            <note xml:id="n89-2" target="#a89-2" n="89-2"><choice><reg/><orig>p. 89, n. 2</orig></choice>Ibid. vol. xlv. p. 601.</note>
+            <note xml:id="n89-3" target="#a89-3" n="89-3"><choice><reg/><orig>p. 89, n. 3</orig></choice>The source of this quotation we are not able to find.</note>
+            <note xml:id="n90-1" target="#a90-1" n="90-1"><choice><reg/><orig>p. 90, n. 1</orig></choice>Not in any of the extant works of Pseudo-Julius.</note>
+            <note xml:id="n91-1" target="#a91-1" n="91-1"><choice><reg/><orig>p. 91, n. 1</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n91-2" target="#a91-2" n="91-2"><choice><reg/><orig>p. 91, n. 2</orig></choice>De Capt. Eutrop. 8. Here, and at the beginning of the next
                quotation, Mich. has <quote>of the same,</quote> which must therefore have dropped out of our text
                (Brooks).</note>
-            <note xml:id="n91-3" target="#a91-3" n="91-3">Ibid. 11.</note>
-            <note xml:id="n91-4" target="#a91-4" n="91-4">This quotation does not occur in either of the extant sermons on
+            <note xml:id="n91-3" target="#a91-3" n="91-3"><choice><reg/><orig>p. 91, n. 3</orig></choice>Ibid. 11.</note>
+            <note xml:id="n91-4" target="#a91-4" n="91-4"><choice><reg/><orig>p. 91, n. 4</orig></choice>This quotation does not occur in either of the extant sermons on
                the Nativity.</note>
-            <note xml:id="n92-1" target="#a92-1" n="92-1"> Migne, Patr. Graec. vol. xxviii. p. 28.</note>
-            <note xml:id="n92-2" target="#a92-2" n="92-2"> Probably for <!--  Add Syriac  --> we should read
+            <note xml:id="n92-1" target="#a92-1" n="92-1"><choice><reg/><orig>p. 92, n. 1</orig></choice> Migne, Patr. Graec. vol. xxviii. p. 28.</note>
+            <note xml:id="n92-2" target="#a92-2" n="92-2"><choice><reg/><orig>p. 92, n. 2</orig></choice> Probably for <!--  Add Syriac  --> we should read
                <!--  Add Syriac  --> (Gk. <foreign xml:lang="grc">υἱὸν Θεοῦ</foreign>), and transl. <quote>two dwelling together, One the
                Son of God, of the same nature,</quote> etc.</note>
-            <note xml:id="n92-3" target="#a92-3" n="92-3"> Gal. i. 8, 9.</note>
-            <note xml:id="n92-4" target="#a92-4" n="92-4">Sixth Paschal Letter, Migne, Patr. Græc. vol. Ixv. p. 60.</note>
-            <note xml:id="n93-1" target="#a93-1" n="93-1">The Greek <foreign xml:lang="grc">οὐρανίου λαβόμενος σώματος</foreign> shows that for
+            <note xml:id="n92-3" target="#a92-3" n="92-3"><choice><reg/><orig>p. 92, n. 3</orig></choice> Gal. i. 8, 9.</note>
+            <note xml:id="n92-4" target="#a92-4" n="92-4"><choice><reg/><orig>p. 92, n. 4</orig></choice>Sixth Paschal Letter, Migne, Patr. Græc. vol. Ixv. p. 60.</note>
+            <note xml:id="n93-1" target="#a93-1" n="93-1"><choice><reg/><orig>p. 93, n. 1</orig></choice>The Greek <foreign xml:lang="grc">οὐρανίου λαβόμενος σώματος</foreign> shows that for
                <!--  Add Syriac  --> we should read <!--  Add Syriac  -->.</note>
-            <note xml:id="n93-2" target="#a93-2" n="93-2">For <!--  Add Syriac  --> read <!--  Add Syriac  --> (Gr. <foreign xml:lang="grc">πηλῷ</foreign>),
+            <note xml:id="n93-2" target="#a93-2" n="93-2"><choice><reg/><orig>p. 93, n. 2</orig></choice>For <!--  Add Syriac  --> read <!--  Add Syriac  --> (Gr. <foreign xml:lang="grc">πηλῷ</foreign>),
                and for <!--  Add Syriac  --> read<!--  Add Syriac  -->.</note>
-            <note xml:id="n93-3" target="#a93-3" n="93-3">This and the latter part of the preceding are probably from the
+            <note xml:id="n93-3" target="#a93-3" n="93-3"><choice><reg/><orig>p. 93, n. 3</orig></choice>This and the latter part of the preceding are probably from the
                lost part of the fifth Paschal Letter.</note>
-            <note xml:id="n93-4" target="#a93-4" n="93-4">For <!--  Add Syriac  --> read <!--  Add Syriac  -->.</note>
-            <note xml:id="n94-1" target="#a94-1" n="94-1">Heb. ii. i6.</note>
-            <note xml:id="n94-2" target="#a94-2" n="94-2">Migne, Pair. Grac. vol. Ixxvi. p. 372.</note>
-            <note xml:id="n94-3" target="#a94-3" n="94-3">The rest is not in the Greek. Mich, has <quote>OF THE SAME,</quote> which must
+            <note xml:id="n93-4" target="#a93-4" n="93-4"><choice><reg/><orig>p. 93, n. 4</orig></choice>For <!--  Add Syriac  --> read <!--  Add Syriac  -->.</note>
+            <note xml:id="n94-1" target="#a94-1" n="94-1"><choice><reg/><orig>p. 94, n. 1</orig></choice>Heb. ii. i6.</note>
+            <note xml:id="n94-2" target="#a94-2" n="94-2"><choice><reg/><orig>p. 94, n. 2</orig></choice>Migne, Pair. Grac. vol. Ixxvi. p. 372.</note>
+            <note xml:id="n94-3" target="#a94-3" n="94-3"><choice><reg/><orig>p. 94, n. 3</orig></choice>The rest is not in the Greek. Mich, has <quote>OF THE SAME,</quote> which must
                therefore have dropped out of our text (Brooks).</note>
-            <note xml:id="n95-1" target="#a95-1" n="95-1">Cyr. Ep. 46. 3.</note>
-            <note xml:id="n95-2" target="#a95-2" n="95-2">We must insert <!--  Add Syriac  -->; the Greek is <foreign xml:lang="grc">ποῦ τὸ
+            <note xml:id="n95-1" target="#a95-1" n="95-1"><choice><reg/><orig>p. 95, n. 1</orig></choice>Cyr. Ep. 46. 3.</note>
+            <note xml:id="n95-2" target="#a95-2" n="95-2"><choice><reg/><orig>p. 95, n. 2</orig></choice>We must insert <!--  Add Syriac  -->; the Greek is <foreign xml:lang="grc">ποῦ τὸ
                τέλειον</foreign>.</note>
-            <note xml:id="n95-3" target="#a95-3" n="95-3"> For <!--  Add Syriac  --> read <!--  Add Syriac  -->, Gk.
+            <note xml:id="n95-3" target="#a95-3" n="95-3"><choice><reg/><orig>p. 95, n. 3</orig></choice> For <!--  Add Syriac  --> read <!--  Add Syriac  -->, Gk.
                <foreign xml:lang="grc">εἰ</foreign>.</note>
-            <note xml:id="n95-4" target="#a95-4" n="95-4">Mark v. 41.</note>
-            <note xml:id="n95-5" target="#a95-5" n="95-5">Reading <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
-            <note xml:id="n95-6" target="#a95-6" n="95-6"><!--  Add Syriac  -->, L., <!--  Add Syriac  -->, MS.</note>
-            <note xml:id="n95-7" target="#a95-7" n="95-7">Pusey's Libr. of the Fathers (Cyr. 5 Tomes, p. 368); cf. Migne,
+            <note xml:id="n95-4" target="#a95-4" n="95-4"><choice><reg/><orig>p. 95, n. 4</orig></choice>Mark v. 41.</note>
+            <note xml:id="n95-5" target="#a95-5" n="95-5"><choice><reg/><orig>p. 95, n. 5</orig></choice>Reading <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n95-6" target="#a95-6" n="95-6"><choice><reg/><orig>p. 95, n. 6</orig></choice><!--  Add Syriac  -->, L., <!--  Add Syriac  -->, MS.</note>
+            <note xml:id="n95-7" target="#a95-7" n="95-7"><choice><reg/><orig>p. 95, n. 7</orig></choice>Pusey's Libr. of the Fathers (Cyr. 5 Tomes, p. 368); cf. Migne,
                Patr. Græc. 76, p. 1429, where, however, the extract begins after this
                sentence.</note>
-            <note xml:id="n95-8" target="#a95-8" n="95-8">John vi. 48.</note>
-            <note xml:id="n97-1" target="#a97-1" n="97-1"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">ὕπαρχοι</foreign>.</note>
-            <note xml:id="n97-2" target="#a97-2" n="97-2"><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">φάλσον</foreign>.</note>
-            <note xml:id="n97-3" target="#a97-3" n="97-3"><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
-            <note xml:id="n97-4" target="#a97-4" n="97-4">A word has been erased here from the MS.</note>
-            <note xml:id="n98-1" target="#a98-1" n="98-1"><!--  Add Syriac  --> MS., not <!--  Add Syriac  -->, as L.</note>
-            <note xml:id="n98-2" target="#a98-2" n="98-2">1 <persName>John</persName> iv. 1-3; 2 John 7.</note>
-            <note xml:id="n98-3" target="#a98-3" n="98-3">2 <persName>John</persName> 10, 11.</note>
-            <note xml:id="n98-4" target="#a98-4" n="98-4">Gal. i. 8.</note>
-            <note xml:id="n98-5" target="#a98-5" n="98-5">Tit. iii. 10, 11.</note>
-            <note xml:id="n99-1" target="#a99-1" n="99-1">Reading <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
-            <note xml:id="n99-2" target="#a99-2" n="99-2"><!--  Add Syriac  --> read <!--  Add Syriac  --> (or
+            <note xml:id="n95-8" target="#a95-8" n="95-8"><choice><reg/><orig>p. 95, n. 8</orig></choice>John vi. 48.</note>
+            <note xml:id="n97-1" target="#a97-1" n="97-1"><choice><reg/><orig>p. 97, n. 1</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">ὕπαρχοι</foreign>.</note>
+            <note xml:id="n97-2" target="#a97-2" n="97-2"><choice><reg/><orig>p. 97, n. 2</orig></choice><!--  Add Syriac  -->, i.e. <foreign xml:lang="grc">φάλσον</foreign>.</note>
+            <note xml:id="n97-3" target="#a97-3" n="97-3"><choice><reg/><orig>p. 97, n. 3</orig></choice><!--  Add Syriac  -->, MS., <!--  Add Syriac  -->, L.</note>
+            <note xml:id="n97-4" target="#a97-4" n="97-4"><choice><reg/><orig>p. 97, n. 4</orig></choice>A word has been erased here from the MS.</note>
+            <note xml:id="n98-1" target="#a98-1" n="98-1"><choice><reg/><orig>p. 98, n. 1</orig></choice><!--  Add Syriac  --> MS., not <!--  Add Syriac  -->, as L.</note>
+            <note xml:id="n98-2" target="#a98-2" n="98-2"><choice><reg/><orig>p. 98, n. 2</orig></choice>1 <persName>John</persName> iv. 1-3; 2 John 7.</note>
+            <note xml:id="n98-3" target="#a98-3" n="98-3"><choice><reg/><orig>p. 98, n. 3</orig></choice>2 <persName>John</persName> 10, 11.</note>
+            <note xml:id="n98-4" target="#a98-4" n="98-4"><choice><reg/><orig>p. 98, n. 4</orig></choice>Gal. i. 8.</note>
+            <note xml:id="n98-5" target="#a98-5" n="98-5"><choice><reg/><orig>p. 98, n. 5</orig></choice>Tit. iii. 10, 11.</note>
+            <note xml:id="n99-1" target="#a99-1" n="99-1"><choice><reg/><orig>p. 99, n. 1</orig></choice>Reading <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n99-2" target="#a99-2" n="99-2"><choice><reg/><orig>p. 99, n. 2</orig></choice><!--  Add Syriac  --> read <!--  Add Syriac  --> (or
                <!--  Add Syriac  -->, Brooks).</note>
-            <note xml:id="n99-3" target="#a99-3" n="99-3">Reading <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
-            <note xml:id="n99-4" target="#a99-4" n="99-4"><!--  Add Syriac  --> i.e. <foreign xml:lang="grc">στάσις</foreign>.</note>
-            <note xml:id="n100-1" target="#a100-1" n="100-1">The MS. here adds <!--  Add Syriac  -->, <quote>Fourth Book.</quote></note>
-            <note xml:id="n100-2" target="#a100-2" n="100-2"><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as
+            <note xml:id="n99-3" target="#a99-3" n="99-3"><choice><reg/><orig>p. 99, n. 3</orig></choice>Reading <!--  Add Syriac  --> for <!--  Add Syriac  -->.</note>
+            <note xml:id="n99-4" target="#a99-4" n="99-4"><choice><reg/><orig>p. 99, n. 4</orig></choice><!--  Add Syriac  --> i.e. <foreign xml:lang="grc">στάσις</foreign>.</note>
+            <note xml:id="n100-1" target="#a100-1" n="100-1"><choice><reg/><orig>p. 100, n. 1</orig></choice>The MS. here adds <!--  Add Syriac  -->, <quote>Fourth Book.</quote></note>
+            <note xml:id="n100-2" target="#a100-2" n="100-2"><choice><reg/><orig>p. 100, n. 2</orig></choice><!--  Add Syriac  -->, MS., not <!--  Add Syriac  -->, as
                L.</note>
          </noteGrp>
       </body>
