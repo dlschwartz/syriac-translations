@@ -7,6 +7,8 @@
       <titleStmt>
         <title ref="http://syriaca.org/work/782" level="a" xml:lang="en">Simeon the Elder (text) — <foreign xml:lang="syr">ܫܡܥܘܢ</foreign>
         </title>
+        <title ref="http://syriaca.org/work/6063" level="s">Simeon the Elder</title>
+        <title ref="http://syriaca.org/work/" level="s"></title><!-- Hymns of Severus -->
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>National Endowment for the Humanities</funder>
         <funder>The Ahmanson Foundation</funder>
@@ -36,6 +38,14 @@
         <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
         <idno type="URI">https://syriac-sourcebook.org</idno>
       </seriesStmt>
+      <notesStmt>
+        <relatedItem type="previous">
+          <ptr target="https://syriac-sourcebook.org/6062"/>
+        </relatedItem>
+        <relatedItem type="next">
+          <ptr target="https://syriac-sourcebook.org/"/><!-- The second of the two hymns by the anonymous Edessene slipped through the cracks somehow, so there will need to be a URI created -->
+        </relatedItem>
+      </notesStmt>
       <sourceDesc>
         <p>
                  The translation encoded here comes from 

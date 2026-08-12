@@ -7,6 +7,7 @@
       <titleStmt>
         <title ref="http://syriaca.org/work/777" level="a" xml:lang="en">John bar Aphthonia (text) — <foreign xml:lang="syr">ܝܘܚܢܢ ܒܪ ܐܦܬܘܢܝܐ</foreign>
         </title>
+        <title ref="http://syriaca.org/work/" level="s"></title><!-- Hymns of Severus -->
         <author>
           <persName ref="http://syriaca.org/person/78">John the Chanter — <foreign xml:lang="syr">ܝܘܚܢܢ ܦܣܐܠܛܘܣ</foreign>
           </persName>
@@ -40,6 +41,14 @@
         <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
         <idno type="URI">https://syriac-sourcebook.org</idno>
       </seriesStmt>
+      <notesStmt>
+        <relatedItem type="previous">
+          <ptr target="https://syriac-sourcebook.org/776"/>
+        </relatedItem>
+        <relatedItem type="next">
+          <ptr target="https://syriac-sourcebook.org/5892"/>
+        </relatedItem>
+      </notesStmt>
       <sourceDesc>
         <p>
                  The translation encoded here comes from 
