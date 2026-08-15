@@ -5,8 +5,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title ref="http://syriaca.org/work/740" level="a" xml:lang="en">The Himyarite Martyrs (text) — <foreign xml:lang="syr">ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ</foreign>
+        <title ref="http://syriaca.org/work/740" level="a" xml:lang="en">The Forty Martyrs (text) — <foreign xml:lang="syr">ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ</foreign>
         </title>
+        <title ref="http://syriaca.org/work/5884" level="s">The Forty Martyrs (collection)</title>
+        <title ref="http://syriaca.org/work/" level="s"></title><!-- Hymns of Severus -->
         <author>
           <persName ref="http://syriaca.org/person/51">Severus of Antioch — <foreign xml:lang="syr">ܣܘܝܪܝܘܣ ܕܐܢܛܝܘܟܝܐ</foreign>
           </persName>
@@ -44,6 +46,14 @@
         <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
         <idno type="URI">https://syriac-sourcebook.org</idno>
       </seriesStmt>
+      <notesStmt>
+        <relatedItem type="previous">
+          <ptr target="https://syriac-sourcebook.org/739"/>
+        </relatedItem>
+        <relatedItem type="next">
+          <ptr target="https://syriac-sourcebook.org/741"/>
+        </relatedItem>
+      </notesStmt>
       <sourceDesc>
         <p>
                  The translation encoded here comes from 

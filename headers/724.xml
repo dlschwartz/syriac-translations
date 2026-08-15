@@ -7,6 +7,8 @@
       <titleStmt>
         <title ref="http://syriaca.org/work/724" level="a" xml:lang="en">Sergius and Bacchus (text) — <foreign xml:lang="syr">ܣܐܪܓܝܣ ܘܒܐܟܘܣ</foreign>
         </title>
+        <title ref="http://syriaca.org/work/5882" level="s">Sergius and Bacchus (collection)</title>
+        <title ref="http://syriaca.org/work/" level="s"></title><!-- Hymns of Severus -->
         <author>
           <persName ref="http://syriaca.org/person/51">Severus of Antioch — <foreign xml:lang="syr">ܣܘܝܪܝܘܣ ܕܐܢܛܝܘܟܝܐ</foreign>
           </persName>
@@ -44,6 +46,14 @@
         <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
         <idno type="URI">https://syriac-sourcebook.org</idno>
       </seriesStmt>
+      <notesStmt>
+        <relatedItem type="previous">
+          <ptr target="https://syriac-sourcebook.org/723"/>
+        </relatedItem>
+        <relatedItem type="next">
+          <ptr target="https://syriac-sourcebook.org/725"/>
+        </relatedItem>
+      </notesStmt>
       <sourceDesc>
         <p>
                  The translation encoded here comes from 
