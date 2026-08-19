@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -124,7 +124,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="21">
+         <div type="work" xml:id="work-21" n="21">
             <head type="main" resp="#compiler">Of the Same, From the Letter to <persName ref="http://syriaca.org/person/2665">Isidore</persName> the Count, Which
                Begins, " From the letter of your religious and learning-loving magnificence". </head>
             <dateline resp="#ebrooks">
@@ -135,9 +135,9 @@
             </dateline>
             <ab>But may the Lord of the seeds, who by coming in the flesh shone upon us, and came to cast good
                seed upon the earth, the one of the Holy Trinity, who together with the Father and the Holy
-               Spirit is theologically defined<note type="footnote" n="98" resp="#ebrooks">This represents
+               Spirit is theologically defined<note type="footnote" n="98">This represents
                   <foreign xml:lang="grc">θεολογεῖται</foreign>.</note> and glorified (for in these things
-               Godhead consists to us, or rather<note type="footnote" n="99" resp="#ebrooks"><foreign
+               Godhead consists to us, or rather<note type="footnote" n="99"><foreign
                   xml:lang="grc">μᾶλλον</foreign>.</note> these things are Godhead) multiply in you many times
                the seed of religion, especially because you are inflamed with watchfulness, burning with divine
                zeal, against the seed of heretical tares.</ab>

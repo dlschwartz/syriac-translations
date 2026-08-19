@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,18 +155,18 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="67">
+         <div type="work" xml:id="work-67" n="67">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2647">Eupraxius</persName> the
                Chamberlain. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0508" notAfter="0511">508-11</date>
             </dateline>
             <ab> First he says, "I am he who formed light", and then he added, "and made darkness;"<note
-               type="footnote" n="643" resp="#ebrooks">Isaiah XLV, 7.</note> meaning this; that, because he
+               type="footnote" n="643">Isaiah XLV, 7.</note> meaning this; that, because he
                formed light, he himself <pb n="240"/> made darkness. If light had not existed first, darkness
                would not have been brought into being, from the shield of the heavenly body. When light was
                formed, and heaven was stretched like a roof over the earth, the space between became of
-               necessity<note type="footnote" n="644" resp="#ebrooks"><foreign xml:lang="grc">ἀνάγκη</foreign>.</note> not light, and so darkness was accidentally brought into being, not
+               necessity<note type="footnote" n="644"><foreign xml:lang="grc">ἀνάγκη</foreign>.</note> not light, and so darkness was accidentally brought into being, not
                having existed before; and for this reason the maker of all had need to say, in order to
                illuminate the darkness that was in the world, "Let there be light"<note type="footnote" n="645">Genesis I, 3.</note>. All darkness is brought about by reason of shadowing bodies; because, if
                bodies did not exist in the way of the light, darkness would not result. The words are moreover
@@ -181,7 +181,7 @@
                Lord and turned aside to idolatry, God delivered them into the hand of the Moabites, and at
                times to the sons of <persName>Ammon</persName>, and to the rest of the nations: and this <persName>Micah</persName> declares when he
                says, "Evils came down from the Lord upon <placeName>Jerusalem</placeName>, noise of chariots and horsemen"<note
-                  type="footnote" n="646" resp="#ebrooks">Micah 1:12, 13.</note>.</ab>
+                  type="footnote" n="646">Micah 1:12, 13.</note>.</ab>
          </div>
       </body>
    </text>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -93,7 +93,7 @@
    </teiHeader>
   <text>
       <body>
-         <div type="letter" n="1.54">
+         <div type="work" xml:id="work-1.54" n="1.54">
             <ab> [...] in truth that the mouth should be silent which never grows weary and seems as
                if it had been set apart for prayers, the mouth which in very deed says "I will bless
                the Lord at all times,"<note n="1">Proverbs 38:1.</note> and at all times circulates His praises. You did well and

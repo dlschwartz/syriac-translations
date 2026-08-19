@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -130,7 +130,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="47">
+         <div type="work" xml:id="work-47" n="47">
             <head type="main" resp="#compiler">Of the Same From Another Letter to the Same <persName>Hippocrates</persName>, the
                Beginning of Which Is, "That which brings your wisdom". </head>
             <dateline resp="#ebrooks">
@@ -139,9 +139,9 @@
             <ab>But this you may keep firmly and fixedly in your mind, that no one shall be our
                fellow-communicant, nor will we consent to greet by letter any man who at the same time receives
                the wicked synod at <placeName>Chalcedon</placeName> contrary to the law, and does not anathematize the Tome of <persName>Leo</persName>.
-               But, if any concession is necessary<note type="footnote" n="418" resp="#ebrooks"><foreign
+               But, if any concession is necessary<note type="footnote" n="418"><foreign
                   xml:lang="grc">ἀνάγκη</foreign>.</note>, I will stand within the ordinances of the holy
-               <persName>Timothy</persName><note type="footnote" n="419" resp="#ebrooks">See p. 105.</note>, considering the
+               <persName>Timothy</persName><note type="footnote" n="419">See p. 105.</note>, considering the
                general benefit of a union of the holy churches, and demanding an open anathema of the things
                done at <placeName>Chalcedon</placeName> against the orthodox faith, and of the wicked Tome of <persName>Leo</persName>, and of those who
                speak of two natures after the union, and the operations of these and their properties. But, if

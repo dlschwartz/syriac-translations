@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,9 +155,9 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="81">
+         <div type="work" xml:id="work-81" n="81">
             <head type="main" resp="#compiler">Of the Same to <persName ref="http://syriaca.org/person/2681">John</persName> of Bostra<note type="footnote" n="795"
-               resp="#ebrooks">Select Letters of Severus, viii, 4.</note>, Explaining Why, When the Gospels
+              >Select Letters of Severus, viii, 4.</note>, Explaining Why, When the Gospels
                and the Other Divine Scriptures Say That <persName>Christ</persName> Dawned Upon Us in the Last Day, We See That Many
                Revolutions of Years Have Passed Since That Time. </head>
             <dateline resp="#ebrooks">
@@ -169,34 +169,34 @@
                is long-suffering toward us not wishing that any should perish, but that all men should come to
                repentance, but the day of the Lord will come as a thief, wherein the heavens shall pass away
                with a cry, the elements shall be burnt and dissolved"<note type="footnote" n="796"
-                  resp="#ebrooks">2 Peter iii, 8-10.</note>. But, since those men are under no obligation<note
-                     type="footnote" n="797" resp="#ebrooks"><foreign xml:lang="grc">ἀνάγκη</foreign></note> to bow
-               to the writings of the New Testament<note type="footnote" n="798" resp="#ebrooks"><foreign
+                 >2 Peter iii, 8-10.</note>. But, since those men are under no obligation<note
+                     type="footnote" n="797"><foreign xml:lang="grc">ἀνάγκη</foreign></note> to bow
+               to the writings of the New Testament<note type="footnote" n="798"><foreign
                   xml:lang="grc">διαθήκη</foreign></note>, but from this source yet more increase their
                unbelief, we will produce a demonstration for them from the prophetic words. <persName>Daniel</persName> the seer of
                those divine visions hard of interpretation, when he was explaining <persName>Nebuchadnezzar</persName>'s dream, and
                was revealing the heterogeneousness of the image that appeared to him in the dream, which was
                composed of gold and silver and bronze and iron and earthenware, and by the diversity of the
-               materials<note type="footnote" n="799" resp="#ebrooks"><foreign xml:lang="grc">ὕλας</foreign></note> signified the various kingdoms, said of <persName>Christ</persName>'s kingdom as follows:
+               materials<note type="footnote" n="799"><foreign xml:lang="grc">ὕλας</foreign></note> signified the various kingdoms, said of <persName>Christ</persName>'s kingdom as follows:
                "And in the days of those kings the God of heaven shall set up a kingdom which shall not be
                destroyed for ever; and his kingdom shall not pass to another people. It shall break in pieces
                and scatter all the kingdoms and itself shall stand for ever"<note type="footnote" n="800"
-                  resp="#ebrooks">Daniel ii, 44.</note>. Those therefore who proclaimed <pb n="300"/> the gospel
+                 >Daniel ii, 44.</note>. Those therefore who proclaimed <pb n="300"/> the gospel
                applied the term 'last days' to the days of <persName>Christ</persName>'s kingdom and the evangelic life.</ab>
             <ab><persName>John</persName> the Evangelist also when he said in his epistle, "Children, it is the last season"<note
-               type="footnote" n="801" resp="#ebrooks">1 John ii, 18.</note>, did not speak falsely. For it is
-               in fact the custom to apply the term 'seasons'<note type="footnote" n="802" resp="#ebrooks">Or
+               type="footnote" n="801">1 John ii, 18.</note>, did not speak falsely. For it is
+               in fact the custom to apply the term 'seasons'<note type="footnote" n="802">Or
                   'hours'. The double meaning cannot be preserved.</note> not only to those of the days, but also
                to those of the whole year: for the whole course of the year is divided into the spring season,
                the summer season, the autumn season, and the winter season; and the winter was in truth that of
                godlessness, which covered the whole world, in which there was all spiritual barrenness, and
                coldness as regards the fervour of the divine Spirit, and the whole earth was completely devoid
                of the gifts from heaven, when <persName>Christ</persName> 'the Sun of righteousness'<note type="footnote" n="803"
-                  resp="#ebrooks">Mai., iv, 2. 4. Cf. ep. 79.</note> by his coming in the flesh dawned upon
+                 >Mai., iv, 2. 4. Cf. ep. 79.</note> by his coming in the flesh dawned upon
                us.</ab>
             <ab>And, to put it in another way, since 5000 years and more had passed since the world came into
                being, as the writings of <persName>Moses</persName> have handed down to us, and from <persName>Christ</persName>'s coming there has not
-               yet been completed as much as 600 or 700 or 1000 years<note type="footnote" resp="#ebrooks">Cf.
+               yet been completed as much as 600 or 700 or 1000 years<note type="footnote">Cf.
                   ep. 79.</note> (let us concede this), how can it appear unreasonable to apply the term ' last'
                to the days of the 600 years or may be 1000, <pb n="301"/> 'when compared with those of the
                5000? <persName>Johannes</persName> also in the 34th homily of the Commentary on the Gospel of <persName>John</persName> uses these words,
@@ -205,7 +205,7 @@
                   translator has misunderstood the Greek, where <foreign xml:lang="grc">οὐ</foreign> covers both
                   clauses.</note>? For, as we do not say that the last day is the end of the year, but also the
                last month, although it contains 30 days, so also, even if I call 400 years the end of so large
-               a number of years, I shall not be wrong"<note type="footnote" n="805" resp="#ebrooks">In Joh.
+               a number of years, I shall not be wrong"<note type="footnote" n="805">In Joh.
                   Hom.XXXIV, 3 (ed. Par. 2a, VIII, 230).</note>.</ab>
          </div>
       </body>

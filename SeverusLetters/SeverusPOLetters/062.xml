@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,12 +155,12 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="62">
-            <head type="number">LXII. (XIX)<note type="footnote" n="469" resp="#ebrooks">See p. 41, n.
+         <div type="work" xml:id="work-62" n="62">
+            <head type="number">LXII. (XIX)<note type="footnote" n="469">See p. 41, n.
                2.</note></head>
             <head type="main" resp="#compiler">Our God-Inspired Father <persName ref="http://syriaca.org/person/51">Severus</persName> Says in the Letter to <persName ref="http://syriaca.org/person/2665">Isidore</persName>
                the Count, the Beginning of Which Is, "I rejoiced greatly when I received the letter of your
-               Christ-loving illustriousness".<note type="footnote" resp="#ebrooks">From the work of <persName>Peter</persName> of
+               Christ-loving illustriousness".<note type="footnote">From the work of <persName>Peter</persName> of
                   <persName>Callinicus</persName> against <persName>Damian</persName>.</note></head>
             <dateline resp="#ebrooks">
                <date notBefore="0508" notAfter="0511">
@@ -170,12 +170,12 @@
             </dateline>
             <ab> As regards these things therefore I think that we ought to avoid this composite term, that we
                should call the Holy Trinity or the Father uni-essential, both because it is not found among the
-               accurate fathers, and<note type="footnote" n="470" resp="#ebrooks">Sic Syr.</note> it gives
+               accurate fathers, and<note type="footnote" n="470">Sic Syr.</note> it gives
                occasions for the evil deviations of the heretics: but they called the Trinity co-essential, in
                order that by means of this word so plainly and very excellently stated there might be expressed
-               in the same phrase both the oneness of the essence<note type="footnote" n="471" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note> and the separation of the hypostases, and by
+               in the same phrase both the oneness of the essence<note type="footnote" n="471"><foreign xml:lang="grc">οὐσία</foreign>.</note> and the separation of the hypostases, and by
                means of this one word unity and division: for by being called co-essential with the Father and
-               the Holy Spirit the Son claims to share essence<note type="footnote" n="3" resp="#ebrooks"></note> with those who are reckoned with him, but to be distinct in hypostasis; for a man is
+               the Holy Spirit the Son claims to share essence<note type="footnote" n="3"></note> with those who are reckoned with him, but to be distinct in hypostasis; for a man is
                not co-essential with himself, but one man with another.</ab>
          </div>
       </body>

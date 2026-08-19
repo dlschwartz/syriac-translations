@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -124,7 +124,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="3">
+         <div type="work" xml:id="work-3" n="3">
             <head type="main" resp="#compiler">Of the Same From the 5th Letter to <persName ref="http://syriaca.org/person/56">Oecumenius</persName>, Which Begins,
                "When I read the letter addressed to the God-loving Peter the presbyter<note type="footnote"
                   n="57">Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 11; perhaps <persName ref="http://syriaca.org/person/51">Severus</persName>' brother (id., p. 150).</note>". </head>
@@ -134,7 +134,7 @@
             <ab>It is not confessing the particularity of the natures from which Emmanuel comes that we avoid,
                so long as we maintain the unity without confusion (the particularity is that which is expressed
                in natural characteristics), but distributing and dividing the properties to each of the 
-               natures<note type="footnote" n="58" resp="#ebrooks">A Greek fragment of a letter to <persName ref="http://syriaca.org/person/56">Oecumenius</persName> is
+               natures<note type="footnote" n="58">A Greek fragment of a letter to <persName ref="http://syriaca.org/person/56">Oecumenius</persName> is
                   preserved in Mansi, X, 1116.</note>.</ab>
          </div>
       </body>

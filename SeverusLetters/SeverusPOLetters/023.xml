@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -131,10 +131,10 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="23">
+         <div type="work" xml:id="work-23" n="23">
             <head type="main" resp="#compiler">Again of the Same, From the Letter to the Presbyters and
                Archimandrites, <persName ref="http://syriaca.org/person/2689">Jonathan</persName> and <persName ref="http://syriaca.org/person/2709">Samuel</persName> and <persName ref="http://syriaca.org/person/2670">John</persName>, Who Were Standing <pb n="45"/> On Pillars, and All
-               The Rest of the Orthodox<note type="footnote" n="107" resp="#ebrooks"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note> Who Assembled in the Church of the City of an Bar, and in The
+               The Rest of the Orthodox<note type="footnote" n="107"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note> Who Assembled in the Church of the City of an Bar, and in The
                Church of Hirtha Dnu’Man. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">
@@ -143,9 +143,9 @@
                </date>
             </dateline>
             <ab>For he said, "Go make disciples of all nations, baptizing them in the name of the Father and
-               the Son, and the Holy Spirit"<note type="footnote" n="108" resp="#ebrooks">Matthew xxviii,
+               the Son, and the Holy Spirit"<note type="footnote" n="108">Matthew xxviii,
                   19.</note>; so that there is aHoly Trinity, divided and distinct in hypostases, but not divided
-               in one essence<note type="footnote" n="109" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note> and Godhead, and kingship and glory and eternity and the other
+               in one essence<note type="footnote" n="109"><foreign xml:lang="grc">οὐσία</foreign>.</note> and Godhead, and kingship and glory and eternity and the other
                attributes which God has by nature. For the Father has one thing hypostatically, fatherhood, and
                the fact that he is unbegotten; and the Son again has one thing hypostatically, sonship, and the
                fact that he was begotten by the Father; and the Holy Spirit again has one thing, the fact that
@@ -153,7 +153,7 @@
                these things distinctness of person belongs to each one of them, that is, is marked out and
                defined for the hypostases, but all the other attributes are, as I have said, common, equal in
                honour and undivided, and such as show that we for our part have believed in one God, and in one
-               <pb n="46"/> essence<note type="footnote" n="109" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>, and he exists and is made known in three hypostases. For the Son was
+               <pb n="46"/> essence<note type="footnote" n="109"><foreign xml:lang="grc">οὐσία</foreign>.</note>, and he exists and is made known in three hypostases. For the Son was
                begotten by the Father, and the Spirit proceeds from the Father, although eternally and without
                time, and their ascent is to him, as to a root and source, and from him they are, though they
                are not after him. And for this reason, while we confess three hypostases, we do not believe in
@@ -162,7 +162,7 @@
                generation of the Son is, or what the procession of the Holy Spirit is; for these things are
                known only by the Father who begot and the Son who was begotten, and the Holy Spirit who
                proceeds from the Father: but he requires us to know 'through these things that we are to
-               confess one essence<note type="footnote" n="110" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note> and Godhead, made known in three distinct hypostases.</ab>
+               confess one essence<note type="footnote" n="110"><foreign xml:lang="grc">οὐσία</foreign>.</note> and Godhead, made known in three distinct hypostases.</ab>
          </div>
       </body>
    </text>

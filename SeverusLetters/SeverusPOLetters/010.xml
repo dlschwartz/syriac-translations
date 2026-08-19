@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -131,9 +131,9 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="10">
+         <div type="work" xml:id="work-10" n="10">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to
-               <persName ref="http://syriaca.org/person/2567">Eleusinius</persName><note type="footnote" n="74" resp="#ebrooks">See ep. 46, from which it
+               <persName ref="http://syriaca.org/person/2567">Eleusinius</persName><note type="footnote" n="74">See ep. 46, from which it
                   would seem that communication with the Cappadocian bishops did not begin much
                   before the accession of Dioscorus.</note>, Which Begins, "As the great Moses
                appeared". </head>
@@ -168,7 +168,7 @@
                   distinct existence; for here with difference is understood also division, and
                   again from the difference of the qualities which naturally belong to each singly
                   we recognise <pb n="31"/> division. When therefore out of things that differ in
-                  kind and are not of one essence<note type="footnote" n="75" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note> with one another, the
+                  kind and are not of one essence<note type="footnote" n="75"><foreign xml:lang="grc">οὐσία</foreign>.</note> with one another, the
                   suprasensual I mean and the perceptible, a combination or natural union takes
                   place in order to make up one animal, as we see in the case of a man, the division
                   into two ceases, for of this the notion of unity does not admit, but the
@@ -176,7 +176,7 @@
                   elements which have come together into one is preserved, since the body has not
                   refused to be body, nor has the soul passed into the nature of the body. The same
                   thing, and something higher, is understood with regard to Emmanuel also.<note
-                     type="footnote" n="76" resp="#ebrooks">A Greek fragment of a letter to
+                     type="footnote" n="76">A Greek fragment of a letter to
                      <persName ref="http://syriaca.org/person/2567">Eleusinius</persName>, probably either this or ep. 11, is preserved in Mansi, X,
                      1116.</note></ab>
             </div>

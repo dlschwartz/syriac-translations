@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,10 +155,10 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="73">
+         <div type="work" xml:id="work-73" n="73">
             <head type="main" resp="#compiler">Of the Same, as to What Is the Meaning of the Saying That
                Those Who Have Received the Heavenly Seed Will Produce Fruit a Hundredfold and Sixtyfold and
-               Thirtyfold<note type="footnote" n="768" resp="#ebrooks">Matthew 13:23.</note>, from The
+               Thirtyfold<note type="footnote" n="768">Matthew 13:23.</note>, from The
                Letter to <persName ref="http://syriaca.org/person/2639">Dorotheus</persName> the Count. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">
@@ -167,7 +167,7 @@
                </date>
             </dateline>
             <ab> Those therefore who love the Lord as it is written with all their heart and with all their
-               soul<note type="footnote" n="769" resp="#ebrooks">Matthew 22:37.</note>, and observe the
+               soul<note type="footnote" n="769">Matthew 22:37.</note>, and observe the
                commandments that were given <pb n="289"/> by him, and follow him as far as men can rise to the
                height, are said to produce fruits to the number of a hundred; and to the number of sixty those
                who hold a middle place; and after the same fashion those who produce thirtyfold also, who are
@@ -175,14 +175,14 @@
                all were with equal honour termed 'good soil', yet all had not the same capacity. Accordingly
                therefore among the crowns that are provided in the future blessed life they will receive abodes
                and honours on different scales, those which our Lord signified when he said in the gospel,
-               "Many are the abodes in my Father's house"<note type="footnote" n="770" resp="#ebrooks">John
+               "Many are the abodes in my Father's house"<note type="footnote" n="770">John
                   xiv, 2.</note>. And, when as in a parable he was about to go on a journey, he distributed
                talents among his bondmen to use, for it is plainly written thus: "To one he gave five talents,
                to another two, and to another one, to each of them according to his own capacity, and
                immediately started on his journey"<note type="footnote" n="771">Matthew xxv, 15.</note>. Words
                agreeing with these were spoken by <persName>Paul</persName> also in writing to the Corinthians, "Every man shall
                receive his own reward, according to his own labour"<note type="footnote" n="772"
-                  resp="#ebrooks">1 Corinthians iii, 8.</note>. <pb n="290"/>
+                 >1 Corinthians iii, 8.</note>. <pb n="290"/>
             </ab>
          </div>
       </body>

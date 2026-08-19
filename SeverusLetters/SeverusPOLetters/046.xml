@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -130,11 +130,11 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="46">
+         <div type="work" xml:id="work-46" n="46">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2658">Hippocrates</persName> The
-               Scholastic<note type="footnote" n="398" resp="#ebrooks">Select Letters of Severus, p.
+               Scholastic<note type="footnote" n="398">Select Letters of Severus, p.
                   147.</note>, Which Begins, "I have not learned to jest at divine things as on a stage<note
-                     type="footnote" n="399" resp="#ebrooks">Marg. "He here culls a theatre (<foreign xml:lang="grc">θέατρον</foreign>) a stage (tent)".</note>". </head>
+                     type="footnote" n="399">Marg. "He here culls a theatre (<foreign xml:lang="grc">θέατρον</foreign>) a stage (tent)".</note>". </head>
             <dateline resp="#ebrooks">
                <date notBefore="0516" notAfter="0517">516-7</date>
             </dateline>
@@ -142,19 +142,19 @@
                <ab>For the holy <persName ref="http://syriaca.org/person/430">Cyril</persName> also, after he had written a derisive book against <persName ref="http://syriaca.org/person/780">Theodore</persName> and <persName>Diodorus</persName>,
                   the teachers of the impiety of <persName>Nestorius</persName> (and he contends against them and says, "You have
                   surpassed the open-mouthedness of the heathen, you have shown the impieties of Jewish pride to
-                  be nothing"<note type="footnote" n="400" resp="#ebrooks">Mansi, IX, 235.</note>), sent a
+                  be nothing"<note type="footnote" n="400">Mansi, IX, 235.</note>), sent a
                   message by letter to <persName ref="http://syriaca.org/person/688">Proclus</persName> of saintly memory bishop of <placeName>Constantinople</placeName> not to remove the name
                   of such men from the sacred diptychs, because those of the East clung to the memory of this
-                  man<note type="footnote" n="401" resp="#ebrooks"><persName ref="http://syriaca.org/person/780">Theodore</persName>, to whom alone the letter (ep. 72,
+                  man<note type="footnote" n="401"><persName ref="http://syriaca.org/person/780">Theodore</persName>, to whom alone the letter (ep. 72,
                      in P. G., LXXVII, 345) refers.</note>.</ab>
             </div>
             <div type="excerpt">
                <head type="excerpt" resp="#compiler">Of the holy <persName ref="http://syriaca.org/person/51">Severus</persName>, from the letter to <persName ref="http://syriaca.org/person/2658">Hippocrates</persName>, which
                   begins, "Not to jest as on a stage".</head>
-               <ab>For I believe that we incur equal danger<note type="footnote" n="402" resp="#ebrooks"><foreign xml:lang="grc">κίνδυνος</foreign>.</note> if we abate anything from <pb n="145"/>
+               <ab>For I believe that we incur equal danger<note type="footnote" n="402"><foreign xml:lang="grc">κίνδυνος</foreign>.</note> if we abate anything from <pb n="145"/>
                   strictness in the case of strict and perfect men, and if we show untimely strictness in the
                   case of men who need a dispensation and lawful concession, and give our neighbour, as it is
-                  written, turbid dregs to drink<note type="footnote" n="403" resp="#ebrooks">Isaiah LI, 17
+                  written, turbid dregs to drink<note type="footnote" n="403">Isaiah LI, 17
                      (?).</note>.</ab>
             </div>
             <div type="excerpt">
@@ -163,14 +163,14 @@
                <ab>Being pricked by these words and divine laws as by goads, and fearing and trembling, I
                   mentioned the matter of those from <placeName>Cappadocia</placeName> who wish to be united to us to the saintly
                   <persName ref="http://syriaca.org/person/2430">Dioscorus</persName> bishop of <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName> and our fellow-minister, and<note type="footnote" n="1"
-                     resp="#ebrooks"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> consulted with your learning
+                    ><foreign xml:lang="grc">μᾶλλον</foreign>.</note> consulted with your learning
                   also, revealing to you all my affairs from the beginning, and hiding nothing whatever; and I do
                   not know how it is that you have thrown over the letters and consultations that have passed
                   since that time, and tell us to take no account of those from <placeName>Cappadocia</placeName> the waste country, but
                   to treat the divine laws that I have just mentioned with contempt. In the first place the same
                   account is due to one soul <pb n="146"/> and to many; and next how can we call the two
                   <placeName>Cappadocias</placeName> and <placeName>Armenia</placeName> waste places? But in this you thought or spoke rather<note
-                     type="footnote" n="404" resp="#ebrooks"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> like
+                     type="footnote" n="404"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> like
                   the natives of the country (allow me with your pardon to say), and not truly. For it is the
                   habit of the Alexandrines to think that the sun rises for them only, and towards them only the
                   lamp burns, so that they even jestingly term outside cities 'lampless'. If for the purpose of
@@ -180,24 +180,24 @@
                   case of men who make right requests we should have regard to our understanding. But in this
                   also we have a better principle, as we showed in what we said a little before, having countless
                   other texts of the God-inspired Scriptures also which command us, that those that are strong
-                  should bear the infirmities of those that are weak<note type="footnote" n="405" resp="#ebrooks">Romans XV, 1.</note>, and that we should not have regard to our own affairs but to the interest
-                  of others<note type="footnote" n="406" resp="#ebrooks">Philipp. II, 4.</note>, and texts that
+                  should bear the infirmities of those that are weak<note type="footnote" n="405">Romans XV, 1.</note>, and that we should not have regard to our own affairs but to the interest
+                  of others<note type="footnote" n="406">Philipp. II, 4.</note>, and texts that
                   agree with those. And, while was writing and speaking <pb n="147"/> these things, I showed
                   caution in every point, and did not trust to myself in everything, but awaited the assent of
                   the saintly <persName ref="http://syriaca.org/person/2430">Dioscorus</persName> my fellow-minister who shares my opinions, and <persName ref="http://syriaca.org/person/2567">Eleusinius</persName><note
-                     type="footnote" n="407" resp="#ebrooks">Bishop of Sasima (Select Letters of Severus, vi, 1; p.
+                     type="footnote" n="407">Bishop of Sasima (Select Letters of Severus, vi, 1; p.
                      93, 321; Theoph., A. M. 5999; above, ep. 10-12).</note> and <persName ref="http://syriaca.org/person/688">Proclus</persName><note type="footnote"
-                        n="408" resp="#ebrooks">Bishop of <placeName>Colonia</placeName> (Select Letters of Severus, i, 56; v, 13; p. 93; Mich.,
+                        n="408">Bishop of <placeName>Colonia</placeName> (Select Letters of Severus, i, 56; v, 13; p. 93; Mich.,
                         p. 266).</note> the God-loving bishops from <placeName>Cappadocia</placeName> I took from the beginning as my
                   fellow-communicants and now hold them as such, since they have anathematized the synod of
                   <placeName>Chalcedon</placeName> by many signatures in no small number of tomes: but <persName ref="http://syriaca.org/person/2551">Soteric</persName><note type="footnote"
-                     n="409" resp="#ebrooks">Bishop of <placeName ref="http://syriaca.org/place/2637">Caesarea</placeName>; see ep. 45.</note> who offered us a covenant of union
+                     n="409">Bishop of <placeName ref="http://syriaca.org/place/2637">Caesarea</placeName>; see ep. 45.</note> who offered us a covenant of union
                   and conjunction I passed over, for I did not wish to term him our fellow-communicant by letter
                   (how could I so term one who is not bound in communion?) Wherefore also <persName ref="http://syriaca.org/person/2609">Asterius</persName>, his
                   God-loving brother, and bishop of <placeName>Nyssa</placeName>, is ready to leave the see. So for our part we held to
                   our own principles and did not give any man, to speak in the words of Scripture, cause of
                   offence<note type="footnote" n="410">1 Corinthians X, 32 (?).</note>. For we know positively and we
-                  say openly<note type="footnote" n="411" resp="#ebrooks">With <foreign xml:lang="grc">παρρησία</foreign>.</note> that you have formed an execrable purpose that is not pleasing to
+                  say openly<note type="footnote" n="411">With <foreign xml:lang="grc">παρρησία</foreign>.</note> that you have formed an execrable purpose that is not pleasing to
                   God. And I beg your learning not to bestow this foolish favour on me at all, and hide what was
                   written by me, but make it known, if possible, to everyone. What sense is there in <pb n="148"
                   /> our promising something difficult on account of an insignificant cause of fear, and in fact
@@ -208,7 +208,7 @@
                   Alexandrine scholastic, the beginning of which is, "And I have not learned to jest at divine
                   things as on a stage". </head>
                <ab>But as to the edict I have often said to your wisdom what my position is, and it seems a
-                  piece of perversity that we should sing<note type="footnote" n="412" resp="#ebrooks">Perh. read
+                  piece of perversity that we should sing<note type="footnote" n="412">Perh. read
                      <foreign xml:lang="syr">ܢܐܡܪ</foreign> (speak).</note> to no purpose about the same things;
                   for whether you remember or do not remember is the same to me. While the things wickedly done
                   at <placeName>Chalcedon</placeName> against the orthodox faith are not anathematized by name, no argument can persuade
@@ -221,14 +221,14 @@
             <div type="excerpt">
                <head type="excerpt" resp="#compiler">Of the same from the same letter.</head>
                <ab>And, when all the bishops of the East were present at <placeName ref="http://syriaca.org/place/2610">Antioch</placeName><note type="footnote" n="413"
-                  resp="#ebrooks">In 512 (Zach. Rh., vii, 10).</note>, and anathematized the synod in writing,
+                 >In 512 (Zach. Rh., vii, 10).</note>, and anathematized the synod in writing,
                   and we addressed a synodical letter to <persName>Timothy</persName> the prelate of the royal city, we anathematized
                   what was done at <placeName>Chalcedon</placeName> against the orthodox faith, and the Jewish Tome of <persName ref="http://syriaca.org/person/2299">Leo</persName>, and those
                   who call our one Lord and God <persName>Jesus</persName> Christ two natures after the incomprehensible union. And
                   afterwards, when innumerable attacks were made upon me, insomuch that the glorious <persName ref="http://syriaca.org/person/2609">Asterius</persName>,
-                  the ex-prefect<note type="footnote" n="414" resp="#ebrooks"><foreign xml:lang="grc">ἀπὸ
+                  the ex-prefect<note type="footnote" n="414"><foreign xml:lang="grc">ἀπὸ
                      ἐπάρχων</foreign>.</note> of the city, who held the office called a secretis<note
-                        type="footnote" n="415" resp="#ebrooks">As an ex-prefect could not hold this inferior office,
+                        type="footnote" n="415">As an ex-prefect could not hold this inferior office,
                         the meaning must be that he was au ex-prefect at the time of writing, and his prefecture must
                         therefore be dated between 513 and 516.</note>, was sent after me, I was not in the least
                   frightened, nor did I fear, nor yield to the time, though he said, "The kingdom of the Romans
@@ -236,7 +236,7 @@
                   on account of this", but I plainly said, "I am ready to leave the city and resign the see,
                   rather than upset one stroke of what I wrote from the beginning in the synodical words
                   addressed to <persName>Timothy</persName>": and this I did not say without writing it down, but I expressed myself
-                  with freedom<note type="footnote" n="417" resp="#ebrooks"><foreign xml:lang="grc">παρρησία</foreign>.</note> in writing to the religious king also. </ab>
+                  with freedom<note type="footnote" n="417"><foreign xml:lang="grc">παρρησία</foreign>.</note> in writing to the religious king also. </ab>
             </div>
          </div>
       </body>

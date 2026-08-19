@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -133,10 +133,10 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="22">
+         <div type="work" xml:id="work-22" n="22">
             <head type="main" resp="#compiler">The Teacher of the Truth Said Therefore in the Letter
                To <persName ref="http://syriaca.org/person/2427">John</persName> and <persName ref="http://syriaca.org/person/2428">John</persName> Presbyters and Archimandrites<note type="footnote" n="100"
-                  resp="#ebrooks">Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, i, 49,50; ii, 2; v, 11,12; p. 395. The
+                 >Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, i, 49,50; ii, 2; v, 11,12; p. 395. The
                   two <persName>Johns</persName> seem to have been <persName ref="http://syriaca.org/person/51">Severus</persName>' representatives in <placeName>Syria</placeName> after his expulsion
                   (id., p. 148). If however this letter was written after expulsion, it must have
                   been written very soon after.</note> And the Rest, The <pb n="43"/> Beginning Of
@@ -149,34 +149,34 @@
                flesh one of the Trinity, lest we subject the Holy Trinity to numeration". But this
                is full of utter ignorance and impiety, and is a pretext of men who seize pretexts
                for sins, or of those who know not what they say and about what they affirm<note
-                  type="footnote" n="101" resp="#ebrooks">1 Timothy i, 7.</note>, as <persName>Paul</persName> the apostle
+                  type="footnote" n="101">1 Timothy i, 7.</note>, as <persName>Paul</persName> the apostle
                somewhere says about certain persons. The Holy Trinity is capable of numeration in
                respect of hypostases; but, in that it is one and of the same essence<note
                   type="footnote" n="102"><foreign xml:lang="grc">οὐσία</foreign>.</note>, it stands
                outside number. <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And again a
                      little lower down.</emph>)</supplied> Accordingly therefore the Romans, who are very
                wise, are infected with profound error, not knowing that in essence<note
-                  type="footnote" n="102" resp="#ebrooks">
+                  type="footnote" n="102">
                   <foreign xml:lang="grc">οὐσία</foreign>.</note> the Trinity is incapable either of
                numeration or of division, but in respect of hypostases it is both divided and
                separated, in order that distinctness may be maintained in the individual likenesses
                of the Father and <pb n="44"/> the Son and the Holy Spirit. But at those who resemble
                the Romans both in impiety and in ignorance, the Jebusites<note type="footnote"
-                  n="103" resp="#ebrooks">I. e. the inhabitants of <placeName>Jerusalem</placeName>.</note>, I am greatly
+                  n="103">I. e. the inhabitants of <placeName>Jerusalem</placeName>.</note>, I am greatly
                surprised, since they have in clumsy fashion and by a new and very crass expression
                named the Holy Trinity a Trinity of hypostases'<note type="footnote" n="104"
-                  resp="#ebrooks">The word is perh. <foreign xml:lang="grc">τριυπόστατος</foreign>.</note>. A word compounded in this way I have never till
+                 >The word is perh. <foreign xml:lang="grc">τριυπόστατος</foreign>.</note>. A word compounded in this way I have never till
                this day heard; for it leads us to understand that three glorified hypostases do not
                exist apart, but one that takes three forms and changes now into the hypostasis of
                the Father, now into that of the Son, now into the hypostasis of the Holy Spirit, and
-               that it is one, but changes person<note type="footnote" n="105" resp="#ebrooks">Or
+               that it is one, but changes person<note type="footnote" n="105">Or
                   'mask' or 'character' (<foreign xml:lang="grc">πρόσωπον</foreign>).</note> as in a
                   theatre<note type="footnote" n="106"><foreign xml:lang="grc">θέατρον</foreign>.</note>, and speaks or acts now as from the person<note
-                  type="footnote" n="105" resp="#ebrooks">Or 'mask' or 'character' (<foreign
+                  type="footnote" n="105">Or 'mask' or 'character' (<foreign
                      xml:lang="grc">πρόσωπον</foreign>).</note> of the Father, now as from the
-                  person<note type="footnote" n="105" resp="#ebrooks">Or 'mask' or 'character'
+                  person<note type="footnote" n="105">Or 'mask' or 'character'
                      (<foreign xml:lang="grc">πρόσωπον</foreign>).</note> of the Son, now as from
-               the person<note type="footnote" n="105" resp="#ebrooks">Or 'mask' or 'character'
+               the person<note type="footnote" n="105">Or 'mask' or 'character'
                      (<foreign xml:lang="grc">πρόσωπον</foreign>).</note> of the Holy Spirit, as the
                witless <persName>Sabellius</persName> the Libyan was pleased to hold.</ab>
          </div>

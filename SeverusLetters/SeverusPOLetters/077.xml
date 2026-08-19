@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,27 +155,27 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="77">
+         <div type="work" xml:id="work-77" n="77">
             <head type="main" resp="#compiler">Of Mar <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/44">Philoxenus</persName> the Bishop. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
             <ab> This saying refers to teaching; and this is plain from the words that precede: for he said,
                "According to the grace of God that was given to me like a wise master-builder I laid a
-               foundation"<note type="footnote" n="777" resp="#ebrooks">1 Corinthians iii, 10.</note>. But what is
+               foundation"<note type="footnote" n="777">1 Corinthians iii, 10.</note>. But what is
                the foundation that Paul laid in the souls of believers except the gospel-preaching? </ab>
             <pb n="293"/>
             <ab>What he here said therefore is this. If a man has expounded the genuine message of the gospels
                to those who listen, like gold or silver or precious stones, this man's work, that is his
                teaching, will by the test of the last fire, and by the impartial judgment, be shown to be
-               genuine, and of necessity<note type="footnote" n="778" resp="#ebrooks"><foreign xml:lang="grc">ἀνάγκη</foreign>.</note> it abides and is not destroyed. But, if one of the falsely-named
+               genuine, and of necessity<note type="footnote" n="778"><foreign xml:lang="grc">ἀνάγκη</foreign>.</note> it abides and is not destroyed. But, if one of the falsely-named
                teachers has used defiled and spurious doctrines, like pieces of wood and reeds and hay, this
                man's doctrine does not endure the fire, but, as soon as it is brought into contact with the
                flame, it will be burnt and consumed. But the expounder and teacher of this doctrine will not be
                destroyed, nor come to annihilation, but he shall be saved, continuing to maintain a'strange
                kind of existence, painful and grievous, being consumed by the fire without being consumed. This
                Isaiah the prophet also said, "Such mens' worm shall not die, and their fire shall not be
-               quenched"<note type="footnote" n="779" resp="#ebrooks">Isaiah LXVI, 24.</note>. <pb n="294"/>
+               quenched"<note type="footnote" n="779">Isaiah LXVI, 24.</note>. <pb n="294"/>
             </ab>
          </div>
       </body>

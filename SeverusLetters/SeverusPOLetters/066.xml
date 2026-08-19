@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,7 +155,7 @@
    </teiHeader>
    <text>
       <body>
-       <div type="letter" n="66">
+       <div type="work" xml:id="work-66" n="66">
           <head type="main" resp="#compiler">Of the Holy Severus From the Letter to <persName ref="http://syriaca.org/person/2647">Eupraxius</persName>.</head>
         <dateline resp="#ebrooks">
          <date notBefore="0508" notAfter="0511">508-11</date>
@@ -166,13 +166,13 @@
          hath not done?" And, explaining what an evil of this kind is, which is brought to pass by God in
          order to benefit, he said as his mouthpiece: " 'I smote you with heat and with jaundice, ye
          increased your gardens: your vines and your olives and your figs the caterpillar ate, and even
-         so ye turned not to me', saith the Lord"<note type="footnote" n="641" resp="#ebrooks">Amos, iii,
+         so ye turned not to me', saith the Lord"<note type="footnote" n="641">Amos, iii,
           6; iv, 9.</note>.</ab>
         <ab><supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">A little farther on.</emph>)</supplied>Of
          these chastisements and calamities therefore God is the maker, for our reproof and the
          repression of our sins. Indeed we also call the things that are brought upon us by way of
          chastisement evils: and the holy prophet also speaks and composed according to our custom, or
-         rather<note type="footnote" n="642" resp="#ebrooks"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> the Lord himself who spoke in him.</ab>
+         rather<note type="footnote" n="642"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> the Lord himself who spoke in him.</ab>
        </div>
       </body>
    </text>

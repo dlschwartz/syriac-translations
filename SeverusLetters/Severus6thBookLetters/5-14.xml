@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -96,7 +96,7 @@
    </teiHeader>
   <text>
       <body>
-         <div type="letter" n="5.14">
+         <div type="work" xml:id="work-5.14" n="5.14">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/50">John</persName> and <persName ref="http://syriaca.org/person/2574">Philoxenus</persName> and <persName ref="http://syriaca.org/person/2771">Thomas</persName> the
                bishops, confessors on the hill of <placeName ref="http://syriaca.org/place/762">Marde</placeName>.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 4th book the 21st

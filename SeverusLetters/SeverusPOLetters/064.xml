@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,19 +155,19 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="64">
+         <div type="work" xml:id="work-64" n="64">
             <head type="letter" resp="#compiler">And Let the God-Glad <persName ref="http://syriaca.org/person/51">Severus</persName> Also Bear Witness, He Who In
                All Such Matters Has More Knowledge Than Many Men. In the Letter to <persName ref="http://syriaca.org/person/56">Oecumenius</persName><note
-                  type="footnote" n="476" resp="#ebrooks">See ep. 1.</note> Of Which the Beginning Is, "Neither
+                  type="footnote" n="476">See ep. 1.</note> Of Which the Beginning Is, "Neither
                did I forget when I was writing the letter", In Speaking on This Subject He Uses the Following
-               Words.<note type="footnote" n="475" resp="#ebrooks">From the work of <persName>Peter</persName> against
+               Words.<note type="footnote" n="475">From the work of <persName>Peter</persName> against
                   Damian.</note></head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
             <ab> For those therefore who wish to learn the purport of what has been written by me in brief and
                in few words it was right that these things should be put forward: but to those who desire to
-               know the reasons and the argument<note type="footnote" n="477" resp="#ebrooks"><foreign
+               know the reasons and the argument<note type="footnote" n="477"><foreign
                   xml:lang="grc">θεωρία</foreign>.</note> contained in this composition let the whole letter be
                given. But it is certain that even a man who has received summaries of what has been said will
                need the whole: for a summary is an epitome of many words; therefore he must first know those
@@ -177,7 +177,7 @@
                spirit prayeth, but my understanding is unfruitful": and afterwards he adds what he thinks
                right, saying, "I will pray with my spirit, but I will pray also with my understanding. I will
                sing with my spirit, but I will sing also with my understanding"<note type="footnote" n="478"
-                  resp="#ebrooks">1 Corinthians xiv, 14, 15.</note>. And I therefore, making a slight change, say: It is
+                 >1 Corinthians xiv, 14, 15.</note>. And I therefore, making a slight change, say: It is
                right to argue with words; but it is right to argue also with the understanding. I do not know
                if any of the God-clad fathers pronounced it right for us to speak in brief when giving
                teaching; for in these matters it is a welcome thing if even by expending the whole power of

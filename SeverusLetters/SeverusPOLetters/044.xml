@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -130,7 +130,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="44">
+         <div type="work" xml:id="work-44" n="44">
             <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2776">Urban</persName> the Grammarian, Which
                Begins, "When I read the letter of your learning". </head>
             <dateline resp="#ebrooks">
@@ -142,29 +142,29 @@
                cisterns containing many streams, they cause no stain or pollution. For the law of the divine
                Spirit said thus: "And every drink that ye shall drink in any vessel shall be polluted; and
                everything on which anything from a dead body falls is polluted. However fountains of water and
-               pools and cisterns of water shall be pure"<note type="footnote" n="380" resp="#ebrooks">Leviticus xi,
+               pools and cisterns of water shall be pure"<note type="footnote" n="380">Leviticus xi,
                   25, 26.</note>. This principle then ought to be observed in the present case also. If a man
                separates from many on the ground that they are infected with heresy, or that they communicate
                with those who are infected, let him with all his power maintain abstention from the dead body,
                and not mention even the name of those who are under suspicion and not genuine, lest it fall and
                pollute the <pb n="139"/> purity of the communion. But, if the holding of the orthodox faith,
                and an anathema of every heresy reigns in the churches, and whole countries and provinces<note
-                  type="footnote" n="381" resp="#ebrooks"><foreign xml:lang="grc">ὑπαρχίας</foreign> (for
+                  type="footnote" n="381"><foreign xml:lang="grc">ὑπαρχίας</foreign> (for
                   <foreign xml:lang="grc">ἐπαρχίας</foreign>).</note>, and populous churches, confess one
                uncorrupted confession, then names which are thought to pollute are inundated by the multitude
                of streams. It is good that no particle of a dead body should be introduced even into a large
                quantity of water; but if perchance<note type="footnote" n="382"><foreign xml:lang="grc">ἆρα</foreign>.</note> it in fact happen to be introduced, it is cleansed by the quantity of
-               streams, and swamped by the quantity of cleansing<note type="footnote" n="383" resp="#ebrooks">Cf. Select Letters of Severus, p. 289.</note>. We find that in fact the holy fathers also who
+               streams, and swamped by the quantity of cleansing<note type="footnote" n="383">Cf. Select Letters of Severus, p. 289.</note>. We find that in fact the holy fathers also who
                were in former times upholders of the right word managed these things in this way. Show us from
                the compositions of the doctors of the church that, after so large a number had found fault with
                the faith of the 318 at <placeName>Ariminus</placeName> [sic], any question was raised about the names of those who had
                died. And, not to make the letter tedious by using many words, let us pass on in mind to times
                that are near and not far removed. We find that the holy <persName>Timothy</persName>, he who underwent long
-               exiles<note type="footnote" n="384" resp="#ebrooks"><foreign xml:lang="grc">ἐξορίας</foreign>.</note>, united with everyone in the Encyclical, and communicated with <persName>Paul</persName>
+               exiles<note type="footnote" n="384"><foreign xml:lang="grc">ἐξορίας</foreign>.</note>, united with everyone in the Encyclical, and communicated with <persName>Paul</persName>
                bishop of the city of the <placeName>Ephesians</placeName>, and <persName>Peter</persName> who had become prelate of <pb n="140"/> this
                great Christ-loving city of <placeName>Antioch</placeName>, while names under suspicion were preserved in the sacred
                tablets; and the holy <persName>Cyril</persName>, when he united with the Easterns after the deprivation<note
-                  type="footnote" n="385" resp="#ebrooks"><foreign xml:lang="grc">καθαίρεσις</foreign>.</note> of
+                  type="footnote" n="385"><foreign xml:lang="grc">καθαίρεσις</foreign>.</note> of
                <persName>Nestorius</persName>, when many bishops had died, and had departed under the stain of the Nestorian heresy,
                made no inquiry about names. If therefore those who set great store by strictness in respect of
                such names say that the oblation is not pure, let them know that their strictness also draws its
@@ -175,7 +175,7 @@
                some of the bishops in the cities of the Easterns set even this also straight, and ceased to
                mention all such names: for others found it impossible to set this same thing straight; and it
                was not right for such a reason for them to enter on wrangles<note type="footnote" n="386"
-                  resp="#ebrooks"><foreign xml:lang="grc">ζυγομάχας</foreign>.</note>, and set themselves in
+                 ><foreign xml:lang="grc">ζυγομάχας</foreign>.</note>, and set themselves in
                array against the enthusiasm of the people of the cities, in order that they might suffer
                shipwreck in the most essential things. </ab>
          </div>

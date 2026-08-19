@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,23 +155,23 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="65">
+         <div type="work" xml:id="work-65" n="65">
           <head type="main" resp="#compiler">From the Letter of the Same Holy <persName ref="http://syriaca.org/person/51">Severus</persName> to <persName ref="http://syriaca.org/person/2647">Eupraxius</persName> the
-           Chamberlain<note type="footnote" n="479" resp="#ebrooks">Zach. Rh., iii, 1; P. O., II,
+           Chamberlain<note type="footnote" n="479">Zach. Rh., iii, 1; P. O., II,
             104.</note>, and About the Questions Which He Addressed to Him.</head>
    <dateline resp="#ebrooks">
     <date notBefore="0508" notAfter="0511">508-11</date>
    </dateline>
    <note resp="#compiler">(And the first question is this, as to how we say that God the Word was
     begotten without beginning by the Father: and the beginning of the letter is this: "You, <pb
-     n="177"/> God-loving <persName ref="http://syriaca.org/person/2647">Eupraxius</persName>, are<note type="footnote" resp="#ebrooks">In the heading of the
+     n="177"/> God-loving <persName ref="http://syriaca.org/person/2647">Eupraxius</persName>, are<note type="footnote">In the heading of the
      extracts at G 8 vo a (p. 180) and G 13o vo b (p. 181) 'being'.</note> smitten with divine
     love": and a little farther on the defence).</note>
    <ab>First therefore you seek to learn how we say that God the Word was begotten without beginning
     by the Father. But I from the very appellation 'Father' say that the generation of the Son is
     without beginning. If the Father was from eternity, the Son also, who shows forth the Father,
     existed from eternity: for, if there was a time when the Son did not exist, there was then<note
-     type="footnote" resp="#ebrooks"><foreign xml:lang="grc">ἄρα</foreign></note> a time when the
+     type="footnote"><foreign xml:lang="grc">ἄρα</foreign></note> a time when the
     Father was not a father. We, because we are a corruptible nature, come into being in time, and
     again pass away from being: therefore also the names applied to us vary; and at one time we are
     sons of certain persons, and after this we cease to be sons, and we become fathers, and we beget
@@ -197,27 +197,27 @@
     And, as when we hear the divine Scripture calling the Son a ray, <pb n="179"/> we think of the
     Father from whom, he radiated, so, when we hear that he is the Word of God, according to the
     passage, "In the beginning was the Word, and the Word was with God"<note type="footnote" n="482"
-     resp="#ebrooks">John i, 1.</note>, we regularly think of the Father who is the subject of the
+    >John i, 1.</note>, we regularly think of the Father who is the subject of the
     Word, who begot the Son from his own nature without passion, the Word so to speak of a great
     intellect, and the messenger in whom he displays and makes known and on whom he impresses the
     hypostasis of the Father, who is a great intellect, and a mind above all . things. And, as our
     mind begets the word without passion, and makes known the thought that is in the heart, and the
     word is a true image of the mind and an exact likeness, and in conjunction with the word, so to
     speak, there proceeds forth, also the emission of the breath of the mouth, in the same way from
-    the essence<note type="footnote" n="483" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note> of the Father also the Son proceeds by way of birth, and the Holy
+    the essence<note type="footnote" n="483"><foreign xml:lang="grc">οὐσία</foreign>.</note> of the Father also the Son proceeds by way of birth, and the Holy
     Spirit by way of procession. And of the person of the Son who is the wisdom of the Father it is
-    written, "I was born before all the mountains"<note type="footnote" n="484" resp="#ebrooks">Proverbs
+    written, "I was born before all the mountains"<note type="footnote" n="484">Proverbs
      viii, 25.</note>, and about the Spirit it is said, "The Holy Spirit which proceedeth from the
-     Father"<note type="footnote" n="485" resp="#ebrooks">John XV, 26.</note>. And the divine
+     Father"<note type="footnote" n="485">John XV, 26.</note>. And the divine
     Scripture does not use such words at random, saying that the Son is begotten and the Spirit
-    proceeds<note type="footnote" n="486" resp="#ebrooks">In Z this comes in the work of <persName>Peter</persName> against
+    proceeds<note type="footnote" n="486">In Z this comes in the work of <persName>Peter</persName> against
      Damian, and, as G (2) has the same version, the compiler must have taken the extracts from the
      Syriac version of <persName>Peter</persName>'s work, not directly from <persName ref="http://syriaca.org/person/51">Severus</persName></note>, <pb n="180"/>
      but that we may not confuse the
-    hypostases, and that<note type="footnote" n="487" resp="#ebrooks">The grammar is here
+    hypostases, and that<note type="footnote" n="487">The grammar is here
      confused.</note> we may know definitely that the Son is one in his hypostasis, and the Holy
     Spirit another, and that, though they are both from the same essence<note type="footnote"
-     n="488" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>, and from the same one
+     n="488"><foreign xml:lang="grc">οὐσία</foreign>.</note>, and from the same one
     Father, one is begotten and the other proceeds: whence it follows that the Holy Spirit is not
     the Son; for he is not begotten but proceeds. But, if anyone say, "How is the Son begotten, and
     how does the Spirit proceed?", we discreetly say that it is as the Father knows that he begot
@@ -225,22 +225,22 @@
     very angels are not allowed to understand, and we too will not contuse ourselves by
     investigating it. But, inasmuch as we are variable, our mind, being subject to variations and
     changes, emits a word that proceeds and is dissolved in the air<note type="footnote" n="489"
-     resp="#ebrooks"><foreign xml:lang="grc">ἀήρ</foreign>.</note>, and a breath in the same way
+    ><foreign xml:lang="grc">ἀήρ</foreign>.</note>, and a breath in the same way
     that as soon as it proceeds is diffused over the same air<note type="footnote" n="3"
-     resp="#ebrooks"></note>. But God and the Father, the living and <pb n="181"/> hypostatic mind,
+    ></note>. But God and the Father, the living and <pb n="181"/> hypostatic mind,
     being incorruptible and invariable, and everlastingly the same, consequently begets a living and
     hypostatic Word, and emits a living and hypostatic Spirit. And, as the Father is the Creator, so
     the Son is the Creator, and the Holy Spirit: for 'by the word of the Lord were the heavens
     established, and by the spirit of his mouth all the strength of them'<note type="footnote"
      n="490">Psalm xxxii, 6.</note>: and, since they are of the same essence<note type="footnote"
-     n="491" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note> of the Father, they are
-    of necessity<note type="footnote" n="492" resp="#ebrooks"><foreign xml:lang="grc">ἀνάγκη</foreign></note> of the same glory and kingship and eternity; for the fact that they
+     n="491"><foreign xml:lang="grc">οὐσία</foreign>.</note> of the Father, they are
+    of necessity<note type="footnote" n="492"><foreign xml:lang="grc">ἀνάγκη</foreign></note> of the same glory and kingship and eternity; for the fact that they
     are of the same essence<note type="footnote" n="491"><foreign xml:lang="grc">οὐσία</foreign>.</note> brings with it identity in every respect. And, when we hear of the
     Son, we immediately understand that he himself is of the same essence<note type="footnote"
-     n="491" resp="#ebrooks"><foreign xml:lang="grc">οὐσία. </foreign></note> as the Father; for
+     n="491"><foreign xml:lang="grc">οὐσία. </foreign></note> as the Father; for
     every father certainly begets a son of the same essence<note type="footnote" n="491"
-     resp="#ebrooks"><foreign xml:lang="grc">οὐσία. </foreign></note> as himself. Thus also from
-    every appellation<note type="footnote" n="493" resp="#ebrooks">(G [1]) ins. 'concerning God'
+    ><foreign xml:lang="grc">οὐσία. </foreign></note> as himself. Thus also from
+    every appellation<note type="footnote" n="493">(G [1]) ins. 'concerning God'
      and om. 'about the Son'.</note> we draw <pb n="182"/> God-befitting thoughts about the Son,
     from that of 'ray' the thought of co-eternity with the Father, from that of 'Word' impassibility
     of birth, from that of 'Son' the thought of co-essentiality. It is impossible for us in one
@@ -257,14 +257,14 @@
     the peculiar characteristics, and the Father is not converted into the Son or the Holy Spirit,
     nor does the Son pass into the Holy Spirit or the Father, nor yet is the Holy Spirit transformed
     so as to become the Father or the Son, the three are one, in that they are of the same
-     essence<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note> of
-     the<note type="footnote" resp="#ebrooks">(G (3) L) 'and'.</note> Godhead; for the Father is
+     essence<note type="footnote"><foreign xml:lang="grc">οὐσία</foreign>.</note> of
+     the<note type="footnote">(G (3) L) 'and'.</note> Godhead; for the Father is
     God, and the Son God, and the Holy Spirit God, and, while <pb n="184"/> the hypostases remain
     unconfused, the Trinity is invariable in all points: for its essence<note type="footnote"
-     n="494" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note> is one, its glory one,
+     n="494"><foreign xml:lang="grc">οὐσία</foreign>.</note> is one, its glory one,
     its everlastingness one, its kingship one, its power one, its will one, its operation one, and
     through it we hold that the Trinity is one God. And, though each appears by himself, yet there
-    is one Godhead, in the same essence<note type="footnote" n="495" resp="#ebrooks"><foreign
+    is one Godhead, in the same essence<note type="footnote" n="495"><foreign
       xml:lang="grc">οὐσία</foreign>. Here some words seem to have fallen out.</note>
     <damage><supplied resp="#ebrooks">......</supplied></damage>the Son the fact that he is begotten, and the Spirit the fact that
     he proceeds. And these are from the Father as from a root and we refer their Godhead eternally
@@ -280,7 +280,7 @@
     Son and the Son in the Father, as he says, 'He who hath seen me hath seen the Father', and, 'I
     and my Father are one', and, 'I am in my Father, and my Father in me', being numerically divided
     into a duality, and being so in hypostases, but in that they are one in nature restricted to one
-     Godhead")<note type="footnote" n="496" resp="#ebrooks">Thes. 12 (P. G., LXXV, 181, 184, 185),
+     Godhead")<note type="footnote" n="496">Thes. 12 (P. G., LXXV, 181, 184, 185),
      put together from several passages. The fact that this citation is introduced without preface
      makes it very doubtful if it is really part of the letter.</note>. Next the second question,
     'Why and in what way do we say that God the Word was humanized?'. The defence. But now it is
@@ -288,50 +288,50 @@
     humanized; for this is the second question that you put. But we without going outside the divine
     Scriptures say that the reason for which he shone upon and gave light to this world by the
     coming of his Humanization in the flesh was that, as in <persName>Adam</persName> we die, so in <persName>Christ</persName> himself we
-    might live<note type="footnote" n="497" resp="#ebrooks">1 Corinthians 15:22.</note>, and, as it is
+    might live<note type="footnote" n="497">1 Corinthians 15:22.</note>, and, as it is
     said, "By man is death, so also by man is the resurrection of the dead"<note type="footnote"
-     n="498" resp="#ebrooks">1 Corinthians 15:21.</note>. Since <persName>Adam</persName> was condemned to death after the
+     n="498">1 Corinthians 15:21.</note>. Since <persName>Adam</persName> was condemned to death after the
     transgression which was committed through the deceitfulness of the serpent, and heard the words,
      <pb n="186"/> "Dust thou art and to dust shalt thou return", and, "Cursed is the ground in the
     work of thine hands", and, "In the sweat of thy face shalt thou eat thy bread", and <persName>Eve</persName> too was
     also condemned with him by hearing the words, "In pains shalt thou bear children"<note
-     type="footnote" n="499" resp="#ebrooks">Genesis 3:16, 17, 19.</note>, so with us also who are
+     type="footnote" n="499">Genesis 3:16, 17, 19.</note>, so with us also who are
     sprung from them the charges of disobedience have been confirmed, and we ourselves are dust and
     to dust we return, and we are condemned to the curse and are creatures born in pains: and from
     that time we have been in subjection, being subject to lust and to the varied pleasure of this,
-    according to the saying of the blessed <persName>Paul</persName><note type="footnote" n="500" resp="#ebrooks">Titus
+    according to the saying of the blessed <persName>Paul</persName><note type="footnote" n="500">Titus
      iii, 3.</note>. For it was right that against the cunning contriver of evil, the serpent and
     the destroyer of our life, we should contend with him with the same weapons (?)<note
-     type="footnote" n="501" resp="#ebrooks">The substantive has perh. fallen out.</note> with which
+     type="footnote" n="501">The substantive has perh. fallen out.</note> with which
     he deceived those founders of our race: and, since it was not the part of another power to annul
     the punishment fixed by our Lord himself, he did not send an envoy nor an angel, but, as <persName>Isaiah</persName>
-    cries, the Lord himself saved us<note type="footnote" n="502" resp="#ebrooks">Isaiah LXIII,
+    cries, the Lord himself saved us<note type="footnote" n="502">Isaiah LXIII,
      9.</note>. The only God the Word who is before the ages, the power and wisdom of the Father, in
     whose image he created rational man, became flesh, I mean man according to the words of
-     "John<note type="footnote" n="503" resp="#ebrooks">John 1:14.</note>, not that he was changed
+     "John<note type="footnote" n="503">John 1:14.</note>, not that he was changed
     into flesh (far be it!), but, while he remained invariable as God, he himself assumed the whole
     of me by a true <pb n="187"/> and hypostatic union, but still without the sin which had come in
-    upon us<note type="footnote" n="504" resp="#ebrooks">Marg. 'everything that is is included in
+    upon us<note type="footnote" n="504">Marg. 'everything that is is included in
      that which has past, and in the things that are present and in the things that are
      future'.</note>. For, immediately after <persName>Gabriel</persName> had made announcement to the Virgin and said to
     her, "Rejoice greatly, thou that art made glad, the Lord is with thee"<note type="footnote"
-     n="505" resp="#ebrooks">Luke 1:28.</note>, at the very moment of time, we believe that God the
+     n="505">Luke 1:28.</note>, at the very moment of time, we believe that God the
     Word himself came to dwell in her womb, and was incarnate of the Holy Spirit, and olthe very
     leaven of the holy Virgin, in flesh of our nature possessing an intelligent soul. For he says,
-    "That which is born in thee is of the Holy Spirit"<note type="footnote" n="506" resp="#ebrooks">Luke 1:35; Matthew, 1:21 (?).</note>, since the Holy Spirit operatively effected the
+    "That which is born in thee is of the Holy Spirit"<note type="footnote" n="506">Luke 1:35; Matthew, 1:21 (?).</note>, since the Holy Spirit operatively effected the
     fertilization of the conception, while <persName>Mary</persName> contributed the birth according to the natural
     manner of mothers. Wherefore also the period of conception was one of nine months (for he says,
     "But, when the days were accomplished that she should bring forth"<note type="footnote" n="507"
-     resp="#ebrooks">Luke 2:6.</note>), and all these things were devoid of phantasy<note
-     type="footnote" n="508" resp="#ebrooks"><foreign xml:lang="grc">φαντασία</foreign>.</note>,
-    since he who was conceived took the seed of <persName>Abraham</persName><note type="footnote" n="509" resp="#ebrooks">Hebrews II, 16.</note>: for a descendant of <persName>Abraham</persName> is the Virgin, who also is of our nature,
+    >Luke 2:6.</note>), and all these things were devoid of phantasy<note
+     type="footnote" n="508"><foreign xml:lang="grc">φαντασία</foreign>.</note>,
+    since he who was conceived took the seed of <persName>Abraham</persName><note type="footnote" n="509">Hebrews II, 16.</note>: for a descendant of <persName>Abraham</persName> is the Virgin, who also is of our nature,
     from whom the Lord took flesh and became a babe. For he himself became a babe, and the babe was
     not first formed separately, while he afterwards came to be with him by way of indwelling, as
     those who divide him into two natures say. This unsound opinion is <pb n="188"/> rejected by the
     blessed <persName>Paul</persName> when he says, "For, since the children partook of flesh and blood, he himself also
     similarly partook of the same, in order that through death he might destroy him who hath the
-    power of death, who is the devil"<note type="footnote" n="510" resp="#ebrooks">Hebrews ii,
-     14.</note>. If then<note type="footnote" n="511" resp="#ebrooks"><foreign xml:lang="grc">ἄρα</foreign>.</note> he partook of flesh and blood similarly to the children and in the same
+    power of death, who is the devil"<note type="footnote" n="510">Hebrews ii,
+     14.</note>. If then<note type="footnote" n="511"><foreign xml:lang="grc">ἄρα</foreign>.</note> he partook of flesh and blood similarly to the children and in the same
     way, it is plain that, as the soul of a man is born with its own body, though in its nature it
     is incorporeal, but is nevertheless reckoned to be one with it because of the union, so too he
     who was born is also said to be united to the body that was born that has a rational and
@@ -344,15 +344,15 @@
     as he remained that which he is, so also he became truly man. That the body which he united to
      <pb n="189"/> him was not without a soul is certain from the words of the angel: for he said,
     "Rise, take the boy and his mother, and go to the land of <placeName>Israel</placeName>, for they are dead who sought
-    the boy's soul"<note type="footnote" n="512" resp="#ebrooks">Matthew ii, 20.</note>: concerning
+    the boy's soul"<note type="footnote" n="512">Matthew ii, 20.</note>: concerning
     which he also said, "I have power to lay it down, and I have power to take it again"<note
-     type="footnote" n="513" resp="#ebrooks">John x, 18.</note>. But it was not without intelligence
+     type="footnote" n="513">John x, 18.</note>. But it was not without intelligence
     and imperfect, according to the statement of the proverbs of Apollinaris, but was in fact
     intelligent, as indeed the very term 'boy' and the fact that he was named 'man' is enough to
     show this same thing: for a boy's soul is not without reason, but it is reasonable because it is
     human. However this very same thing is also clearly shown even by the sacred writings of the
     gospel; for it said of him, "Then he began to be distressed and grieved, and to say, 'My soul is
-    sorrowful, even unto death'"<note type="footnote" n="514" resp="#ebrooks">Matthew xxvi,
+    sorrowful, even unto death'"<note type="footnote" n="514">Matthew xxvi,
      28.</note>. But it is plain to everyone that distress and grief happen to a rational and
     intellectual soul. But, if they say that the Godhead of the Only one took the place of
     intellect, this is in truth a thing without intellect, for us to assign the passion of distress
@@ -360,22 +360,22 @@
     might:bestow upon us perfect salvation: for, as soon as he was born, he did away <pb n="190"/>
     the punishment laid upon <persName>Eve</persName>, who was first led astray by the serpent. If Emmanuel had not been
     born, who is the Word of God who took flesh, who according to the saying of the prophet 'removed
-    weeping from all faces'<note type="footnote" n="515" resp="#ebrooks">Isaiah xxv, 8.</note>, the
-    curse, "In pains shalt thou bear children"<note type="footnote" n="516" resp="#ebrooks">Genesis
+    weeping from all faces'<note type="footnote" n="515">Isaiah xxv, 8.</note>, the
+    curse, "In pains shalt thou bear children"<note type="footnote" n="516">Genesis
      iii, 16.</note>, would not have ceased: nevertheless it ceased because God was born. Further
     witness is borne to this by the actual unerring words of the gospel also: for it introduces to
     us the angel saying, "I announce unto you great joy, which belongeth to all the world, that
     to-day there hath been born to us a Saviour, who is the Lord <persName>Christ</persName>, in the city of <persName>David</persName>"<note
-     type="footnote" n="517" resp="#ebrooks">Luke II, 10, 11.</note>. <persName>Mark</persName> clearly that, if it were
+     type="footnote" n="517">Luke II, 10, 11.</note>. <persName>Mark</persName> clearly that, if it were
     not that hé who was born was the Lord, the joy that came to all the world, which is also the joy
     of the whole race of men, the curse, "In pains shalt thou bear children", would not have ceased.
     But, if the birth is the cause of the joy, she who bore is also free from the punishment; and
     thenceforth the joy necessarily passes to those who believe in him: for he said, "Those who
     received him he gave them power to become sons of God"<note type="footnote" n="518"
-     resp="#ebrooks">John i. 12.</note>, those who attained to the adoption through the Spirit,
+    >John i. 12.</note>, those who attained to the adoption through the Spirit,
     after he became man.</ab>
    <ab>And next the third question, as to how we should, understand <persName>Paul</persName>'s <pb n="191"/> saying, "In
-    him all the fulness of the Godhead dwelleth bodily"<note type="footnote" n="519" resp="#ebrooks">Colossians ii, 9.</note>. The defence.</ab>
+    him all the fulness of the Godhead dwelleth bodily"<note type="footnote" n="519">Colossians ii, 9.</note>. The defence.</ab>
    <ab>In the same God-befitting frame of mind let us also understand (and that is what in your third
     question you thought good to ask) the words which the wise <persName>Paul</persName> wrote and sent to the Colossians
     about <persName>Christ</persName>, how that in him all the fulness of the Godhead came to dwell bodily; for we do not
@@ -385,15 +385,15 @@
     decline from the proper opinion and reckon the Incarnation of the Word a mere indwelling, as
     happened in the case of a man, <persName>Paul</persName> is sufficient to meet this false tenet when he says that it
     came to dwell in him 'bodily', that is hypostatically and naturally, even as the statement that
-    he similarly partook with us of flesh and blood<note type="footnote" n="520" resp="#ebrooks">Hebrews 11, 14.</note> unconfusedly 
+    he similarly partook with us of flesh and blood<note type="footnote" n="520">Hebrews 11, 14.</note> unconfusedly 
     and immutably, in a Unity that is not dissipated, all
-    mingling and phantasy<note type="footnote" n="521" resp="#ebrooks"><foreign xml:lang="grc">φαντασία</foreign>.</note> being far from it; for it is alien to a bodiless nature that in
+    mingling and phantasy<note type="footnote" n="521"><foreign xml:lang="grc">φαντασία</foreign>.</note> being far from it; for it is alien to a bodiless nature that in
     consequence of its union with a body it should be mingled or changed, a thing which in its
     nature does <pb n="192"/> not touch anything bodily. As to the fact that the word 'dwell' is
     also used of those who are hypostatically united, we have the testimony of the wise <persName>Paul</persName>
     himself; for in writing to the Corinthians he said, "We know that, even if this our house, our
     tent on earth, is dissolved, we have a building from God, a house not made with hands, that
-    abideth for ever in heaven"<note type="footnote" n="522" resp="#ebrooks">2 Corinthians v, 1.</note>. As
+    abideth for ever in heaven"<note type="footnote" n="522">2 Corinthians v, 1.</note>. As
     we are said to dwell in a body as in a house, so too God the Word is said to dwell in a body, as
     being hypostatically united to a body that has a rational and intelligent soul. But he said that
     all the fulness of the Godhead dwells, that is, not one operation, nor yet a partial grace of
@@ -408,16 +408,16 @@
     that God the Word was united to flesh, the Father also, inasmuch as he is named as being of the
     same nature, is necesarily said to have become incarnate, and the Holy Spirit also, we fitly say
     what we can and what we have believed, fixing our mind on the divine Scriptures, and not crying
-    from the earth according to the prophet's saying<note type="footnote" n="523" resp="#ebrooks">Isaiah xix, 3 (?).</note>, 
+    from the earth according to the prophet's saying<note type="footnote" n="523">Isaiah xix, 3 (?).</note>, 
     nor yet making up things that come from our heart<note type="footnote"
-     n="524" resp="#ebrooks">Jeremiah xxiii, 16.</note>. But this objection has occurred to them in this
+     n="524">Jeremiah xxiii, 16.</note>. But this objection has occurred to them in this
     way. If so be that <persName>Christ</persName> cries in the gospel, "I am in my Father and my Father in me"<note
-     type="footnote" n="525" resp="#ebrooks">John xiv, 10.</note>, and <persName>Paul</persName> again says that the Son
-    is the image of the invisible God<note type="footnote" n="526" resp="#ebrooks">Colossians i,
+     type="footnote" n="525">John xiv, 10.</note>, and <persName>Paul</persName> again says that the Son
+    is the image of the invisible God<note type="footnote" n="526">Colossians i,
      15.</note>, and the Holy Spirit also the image of the Son, in that he said of those who had
     been admitted to the adoption as sons by the Spirit, "they became conformed to the image of his
      Son"<note type="footnote" n="527">Romans viii, 29.</note>, that it might be shown as following
-    from this that the Holy Trinity is one essence<note type="footnote" n="528" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>, when it is said that the Son became
+    from this that the Holy Trinity is one essence<note type="footnote" n="528"><foreign xml:lang="grc">οὐσία</foreign>.</note>, when it is said that the Son became
     incarnate, how can we not also allow that the Father and the Holy Spirit too became incarnate,
     inasmuch as they are in the Son and appear in him? This is what these say. But we say with
     intelligence: These, my good men, are the words of those who confuse the hypostases. But, if the
@@ -434,11 +434,11 @@
     delineates and copies a design and pattern from an original tablet on to another, and draws it
     correctly in all points, and makes the copy like the original, in no <pb n="195"/> point falling
     short of the pattern that was first designed, but makes the colour and form<note type="footnote"
-     n="529" resp="#ebrooks"><foreign xml:lang="grc">σχῆμα</foreign>.</note> and stature and size
+     n="529"><foreign xml:lang="grc">σχῆμα</foreign>.</note> and stature and size
     and pose of the limbs also alike, and those who see it for the first time do not know, if one
     may so say, which is the original from which it was drawn and designed, on account of the exact
     resemblance of the appearance in both, and after this he takes the copy and fixes it on a wall,
-     then<note type="footnote" n="530" resp="#ebrooks"><foreign xml:lang="grc">ἄρα</foreign>.</note>
+     then<note type="footnote" n="530"><foreign xml:lang="grc">ἄρα</foreign>.</note>
     will anyone of right understanding say that the original tablet has been fixed on the wall,
     because it is a copy of it and contains all that belongs to the original pattern? So we say that
     the Son became incarnate, the true image of the Father, who has by nature everything that
@@ -448,45 +448,45 @@
     defective and obscure example, because the whole force of the example does not follow in the
     footsteps of the truth, since here the image is without soul and immoveable, and is limited by
     the appearance of colours, but above there is a living and moveable image, suprasensual and
-    unlimited and without appearance<note type="footnote" n="531" resp="#ebrooks"><foreign
+    unlimited and without appearance<note type="footnote" n="531"><foreign
       xml:lang="grc">σχῆμα</foreign>.</note>, and possessing immutability by nature. But, if we look
     into the divine Scriptures, we may through the mystery that has been richly revealed in them by
     another example also reįoive an illustration of what is stated. It is everywhere known that our
-     speech<note type="footnote" n="532" resp="#ebrooks">Word.</note> is the offspring of our mind,
+     speech<note type="footnote" n="532">Word.</note> is the offspring of our mind,
     and not the offspring only, but also the clear image, which represents the disposition<note
-     type="footnote" n="533" resp="#ebrooks"><foreign xml:lang="grc">διάθεσις</foreign>.</note> that
+     type="footnote" n="533"><foreign xml:lang="grc">διάθεσις</foreign>.</note> that
     is in the depths of the mind, and with the speech comes forth also the <pb n="197"/> breath<note
-     type="footnote" n="534" resp="#ebrooks">Spirit.</note> of the mouth. The example is defective,
+     type="footnote" n="534">Spirit.</note> of the mouth. The example is defective,
     and is a kind of similitude and shadow of the truth itself for those who are able to listen
     properly and intelligently. However, as our speech comes out through the organ<note
-     type="footnote" n="535" resp="#ebrooks"><foreign xml:lang="grc">ὄργανον</foreign>.</note> of
+     type="footnote" n="535"><foreign xml:lang="grc">ὄργανον</foreign>.</note> of
     the voice and moves the hearing and passes inside him who hears, and no one says that the speech
     which is begotten by the mind, exists hypostatically, the speech which enters into the hearing
     of him who hears, or says that the breath which comes out in the speech through the voice exists
-    in hypostasis<note type="footnote" n="536" resp="#ebrooks">I cannot render this otherwise, but
+    in hypostasis<note type="footnote" n="536">I cannot render this otherwise, but
      do not follow the argument.</note>, but only calls it a help to the hearing, so understand also
     with regard to the mystery of God the Word, because he himself alone hypostatically and
     ineffably and as he himself only knows came to dwell in the Virgin's womb and became incarnate
     from her, and neither the Father his begetter nor the Spirit which proceeds shared in this, but
     according to the saying of <persName>John</persName>, "The Word became flesh, and he was God, and was with God"<note
-     type="footnote" n="537" resp="#ebrooks">John, i, 1, 14.</note>, as one with another, because
+     type="footnote" n="537">John, i, 1, 14.</note>, as one with another, because
     the hypostases exist severally. Since then these things are so, that question of theirs which
     arises from ignorance <pb n="198"/> is superfluous and vain, a question that amounts to actual
     impiety. "If" (they say) "you say that the Trinity is one nature, and say that there is one
     nature of the incarnate Word, how are you not driven to saying that the whole Trinity became
     incarnate?" I am surprised at the cunning rusticity of those men, as shown by the way in which
     they display courage without consideration against the right opinion. We<note type="footnote"
-     n="538" resp="#ebrooks">Cf. ep. 6.</note> use the name 'nature' sometimes generally of
-     'essence'<note type="footnote" n="539" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>, and sometimes specifically signifying the hypostasis of a man. We
+     n="538">Cf. ep. 6.</note> use the name 'nature' sometimes generally of
+     'essence'<note type="footnote" n="539"><foreign xml:lang="grc">οὐσία</foreign>.</note>, and sometimes specifically signifying the hypostasis of a man. We
     term all mankind one nature, as in the text "Every nature of beasts and of birds and of things
     that are in the water is subjected and made subject to human nature"<note type="footnote"
-     n="540" resp="#ebrooks">James iii, 7.</note>: and again we call a man 'nature', <persName>Paul</persName> for
+     n="540">James iii, 7.</note>: and again we call a man 'nature', <persName>Paul</persName> for
     instance or <persName>Peter</persName> or <persName>James</persName>. Where we name all mankind one nature, we use the name 'nature'
     generically in place of 'essence': but, where we speak of one nature of <persName>Paul</persName>, we employ the name
     'nature' in place of 'individual hypostasis'. So also, when we say that the Holy Trinity is one
     nature, as in the text, "In order that we may be sharers of the divine nature"<note
-     type="footnote" n="541" resp="#ebrooks">2 Peter i, 4</note>, we use the name 'nature' in place
-    of the general <pb n="199"/> designation 'essence'<note type="footnote" n="542" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>. And to say that the Holy Trinity is one
+     type="footnote" n="541">2 Peter i, 4</note>, we use the name 'nature' in place
+    of the general <pb n="199"/> designation 'essence'<note type="footnote" n="542"><foreign xml:lang="grc">οὐσία</foreign>.</note>. And to say that the Holy Trinity is one
     nature is the same as to say that it is one Godhead, as we are in fact accustomed to call all
     mankind one nature. But, when we say 'one incarnate nature of God the Word', we say 'nature' in
     place of an individual designation, and thereby we denote the one actual hypostasis of the Word,
@@ -502,7 +502,7 @@
     hypostasis, nor yet of the Spirit as being dissipated in the air<note type="footnote" n="543"><foreign xml:lang="grc">ἀήρ</foreign>.</note>. <pb n="200"/>
    </ab>
    <ab>Next the fifth question, as to how the Only one, who is a quickening blessing, was termed a
-     curse<note type="footnote" n="544" resp="#ebrooks">Galatians iii, 13.</note>. The defence.</ab>
+     curse<note type="footnote" n="544">Galatians iii, 13.</note>. The defence.</ab>
    <ab>We will now go on to give you an answer with regard to the fifth question also, how the Only
     one, who is a quickening blessing, was termed a curse. If he became man to free our race from
     the bonds of former crimes, and took upon him the seed of <persName>Abraham</persName>, and flesh of our nature, and
@@ -510,7 +510,7 @@
     which we were liable his own: for we are accursed, and we came under, the penalty of the curse,
     and heard the words, "Dust thou art and to dust shalt thou return", and, "Cursed is the earth in
     the work of thine hands", and, "In the sweat of thy face shalt thou eat bread"<note
-     type="footnote" n="545" resp="#ebrooks">Genesis iii, 17, 19.</note>; and he became the
+     type="footnote" n="545">Genesis iii, 17, 19.</note>; and he became the
     firstfruits of our nature. For in that he took upon him the seed of <persName>Abraham</persName> he is consequently
     said to have become<note type="footnote" n="546">We rather require 'been subject to'; but an
      emendation cannot be made without violent alteration. But cf. p. 202, 1. 10.</note> those
@@ -523,7 +523,7 @@
     immediately heard from <persName>Elizabeth</persName> who had been divinely moved, that is the servant of the
     Baptist, the words, "Blessed art thou among women, and blessed is the fruit of thy womb. And
     whence is this to me, that the mother of my Lord should come to me?"<note type="footnote"
-     n="547" resp="#ebrooks">Luke i, 42, 43.</note>. If she had not known that it was the Lord who
+     n="547">Luke i, 42, 43.</note>. If she had not known that it was the Lord who
     was conceived of the God-bearer <persName>Mary</persName>, she would not have cried, "Blessed is the fruit of thy
     womb". In agreement with this our Lord himself also in his words dispelled the curse, that the
     earth might no more be 'cursed in the work of thine hands', saying, "Work not the food that
@@ -532,30 +532,30 @@
     came down from heaven, and if any man eat of this bread he shall live for ever", and no more,
     "Dust thou art and to dust shalt thou return", but, "This is the will of my Father, that
     everyone who seeth the Son and believeth on him shall have eternal life, and I will raise him up
-    at the last day"<note type="footnote" n="548" resp="#ebrooks">John vi, 27, 40, 51.</note>. You
+    at the last day"<note type="footnote" n="548">John vi, 27, 40, 51.</note>. You
     see that on all points by <pb n="202"/> being himself made a curse he becomes a dispeller of the
     curse, and this curse he takes up on to the cross, and thence puts it to flight: for it was
     overcome by the law which said, "Cursed of God is everyone who shall be hanged upon wood"<note
-     type="footnote" n="549" resp="#ebrooks">Deuteronomy xxi, 23.</note>. And he himself underwent the
+     type="footnote" n="549">Deuteronomy xxi, 23.</note>. And he himself underwent the
     accursed death that was for our sake, and thence blessed the whole human race; and the blessed
     <persName>Paul</persName> bears witness who writes to the Galatians and says, "<persName>Christ</persName> redeemed us from the curse of
     the law, and became a curse for our sake, because it is written, 'Cursed is everyone who is
     hanged upon wood', in order that the blessing of <persName>Abraham</persName> might be among the nations in <persName>Jesus
-     Christ</persName>"<note type="footnote" n="550" resp="#ebrooks">Galatians iii, 13, 14.</note>. So also he is
-    said to have become sin<note type="footnote" n="551" resp="#ebrooks">2 Corinthians v, 21.</note>,
+     Christ</persName>"<note type="footnote" n="550">Galatians iii, 13, 14.</note>. So also he is
+    said to have become sin<note type="footnote" n="551">2 Corinthians v, 21.</note>,
     because he endured the death that was the due of sinners; for, while he is himself the pure
     justice of the Father, he is crucified between two robbers; but these on account of their
     offences, and in accordance with the passage in the Gospel of <persName>Mark</persName> who says, "And with him they
     crucified two robbers, one on the right hand and one on the left, and the Scripture was
     fulfilled which saith, 'He was numbered with the unjust'"<note type="footnote" n="552"
-     resp="#ebrooks">Mark xv, 27, 28.</note>. So he became sin to remit the sins of others: so also
+    >Mark xv, 27, 28.</note>. So he became sin to remit the sins of others: so also
     he paid the debt that was incurred for us, and we ourselves became righteousness in him; for
     those who have been freed from debts are righteous, and <pb n="203"/> are not termed liable.
     And, because during the time of his Humanization he did no sin, therefore also iniquity was not
     found in him, but he showed himself righteous, that is, he is righteousness; and, when he became
     flesh, all our nature again was justified in him as in firstfruits; and this is what the wise
     <persName>Paul</persName> said to the <persName>Corinthians</persName> about the Father, "He made him sin for our sake, who knew no sin,
-    that we might be the righteousness of God in him"<note type="footnote" n="553" resp="#ebrooks">2
+    that we might be the righteousness of God in him"<note type="footnote" n="553">2
      Corinthians v, 21.</note>. This too was carried out in the ritual of the law also; for the two goats
     on whom lots were laid were a type of <persName>Christ</persName> our Saviour, who is made up of two elements, the
     perfect Godhead I mean and the manhood: and the one, on whom the Lord's lot fell, was
@@ -566,30 +566,30 @@
     head of the living goat, and shall confess over him all the sin of the sons of <placeName>Israel</placeName>, and all
     their wickedness and their iniquity, and shall lay them on the head of the living goat, and
     shall dismiss him by means of a man who is ready into the wilderness; <pb n="204"/> and the goat
-    shall take upon him all their iniquity"<note type="footnote" n="554" resp="#ebrooks">Leviticus xvi,
+    shall take upon him all their iniquity"<note type="footnote" n="554">Leviticus xvi,
      20-22.</note>. This therefore was thus performed in the case of the two goats also, that the
     one was slaughtered and the other dismissed. We clearly see the hidden meaning which relates to
     the Cross: for the type denotes that the same one <persName>Christ</persName> suffered in the flesh, but remained
     without suffering in that he is considered to he true God. For the same person both is separated
     by lots to the Lord and slaughtered (for 'he delivered himself for our sake as an offering and a
-    sacrifice to God the Father for a sweet savour'<note type="footnote" n="555" resp="#ebrooks">Ephesians v, 2.</note>), and 
+    sacrifice to God the Father for a sweet savour'<note type="footnote" n="555">Ephesians v, 2.</note>), and 
     goes away without suffering bearing the sins of all <placeName>Israel</placeName>, which in
     the type of <persName>Aaron</persName> were confessed over the head of the goat: for he clearly displays himself as
     being himself true God, over whom we confess our sins according to law; for "I will make
     confession", he saith, "unto thee, Lord, concerning my sins, and thou wilt forgive the
-    wickedness of my heart"<note type="footnote" n="556" resp="#ebrooks">Psalm xxxi, 5.</note>; for,
+    wickedness of my heart"<note type="footnote" n="556">Psalm xxxi, 5.</note>; for,
     though 'he was led as a lamb to the slaughter', yet, 'who shall tell his generation, because his
-    life is taken away from the earth?'<note type="footnote" n="557" resp="#ebrooks">Isaiah LIII, 7,
+    life is taken away from the earth?'<note type="footnote" n="557">Isaiah LIII, 7,
      8.</note>, for he is without descent as God, and he is life in his nature, for he was taken
     away and lifted up from the earth. Truly is it said of him in reference to the type that he
     shall be dismissed into the wilderness that is not passed; for that country is impassable to all
     outside <pb n="205"/> nature, and is passable to him who became incarnate only, I mean the
     throne of the kingdom, on which he sits at the Father's right hand, bearing our sins; for so too
     <persName>John</persName> also the loud-voiced preacher and ambassador of the Word himself cried and said, "Behold!
-    the Lamb of God who beareth the sin of the world"<note type="footnote" n="558" resp="#ebrooks">John i, 29.</note>. For the same person is termed at one time a goat, at another a lamb; and
+    the Lamb of God who beareth the sin of the world"<note type="footnote" n="558">John i, 29.</note>. For the same person is termed at one time a goat, at another a lamb; and
     he shows that he came to suffer not only for the sake of sinners, but also for the sake of the
     righteous; for death reigned 'even over those who had not sinned' also, as <persName>Paul</persName> also said<note
-     type="footnote" n="559" resp="#ebrooks">Romans v, 14.</note>. Accordingly the lamb is the type of
+     type="footnote" n="559">Romans v, 14.</note>. Accordingly the lamb is the type of
     the righteous, and the goat of sinners; for the righteous stand as lambs on the right hand, and
     the sinners as goats on the left. Let no one think- that through the symbol of the two goats he
     shows us two <persName>Christs</persName>, one passible and the other impassible, but one and the same, passible in
@@ -626,7 +626,7 @@
     "And ye shall not make mention of the name of other gods, and it shall not be heard from your
     mouth"; and again, "Thou shalt not worship their gods, nor serve them, nor do according to their
     deeds, but shalt utterly overturn them and destroy their pillars, and shalt serve the Lord <pb
-     n="208"/> thy God only"<note type="footnote" n="561" resp="#ebrooks">Exodus xxiii, 13, 24,
+     n="208"/> thy God only"<note type="footnote" n="561">Exodus xxiii, 13, 24,
      25.</note>. How then should he in the same mind break in pieces and overturn their pillars (and
     he did not allow the name of other gods to be mentioned at all beside the one Lord God), and on
     the other hand separate the goat to another beside him as to some evil fiend, and propitiate
@@ -639,21 +639,21 @@
     dismissible"; for it is plain that the one was separated for the purpose of slaughter, and the
     other was dismissed to the Lord, not to another different from him; for this is what the divine
     Scripture said, "And he shall set' the living one before the Lord, in order to dismiss him in
-     dismissal"<note type="footnote" n="562" resp="#ebrooks">Leviticus xvi, 10. I do not follow the
+     dismissal"<note type="footnote" n="562">Leviticus xvi, 10. I do not follow the
      argument in this passage.</note>. But some of the learned Hebrews, that is rather those who are
     earlier than those who are of the Hebrews, said <pb n="209"/> "One lot to the Lord, and one lot
-    to him that was dismissed"<note type="footnote" n="563" resp="#ebrooks">I do not know the
+    to him that was dismissed"<note type="footnote" n="563">I do not know the
      source of this quotation.</note>, in order that in all points and that even from the very
     imagination of the heathen, or, to speak fittingly, from their lack of instruction, it might be
     seen that their charge against the holy laws of <persName>Moses</persName> is without plausibility. For those who
     after the Christian religion were lifted up in philosophy, and endeavoured to adorn
-    demon-worship in a reverend fashion<note type="footnote" n="564" resp="#ebrooks"><persName>Julian</persName>
+    demon-worship in a reverend fashion<note type="footnote" n="564"><persName>Julian</persName>
      (?).</note>, as they themselves say on behalf of others, say of their god who is called
     <persName><choice><orig>'mblkhywn</orig><reg>ʾmblqywn</reg></choice></persName>, "We should not sacrifice to the gods, but by purity of mind propitiate and honour
-     them"<note type="footnote" n="563" resp="#ebrooks">I do not know the source of this
+     them"<note type="footnote" n="563">I do not know the source of this
      quotation.</note>: but men who were fettered in the same chain as they said that men should
     sedulously offer sacrifices to the evil spirits who delight in blood, not that they may help,
-    but that they may not injure<note type="footnote" n="565" resp="#ebrooks">Porphyry, De Abstin.,
+    but that they may not injure<note type="footnote" n="565">Porphyry, De Abstin.,
      ii, 37 ff.; <lang xml:lang="ln">De sacrificiis et diis atque daemonibus</lang>, ap. Iamblichum, ed. Ficinus (1577), p.
      317.</note>. If then <persName>Moses</persName> separated and dismissed one of the goats to a demon, according to
     the madness of those men he ought to have ordered this goat to be slaughtered to the demon, and
@@ -669,13 +669,13 @@
     our sake, he who for the sins of us all became one that is subject, he who knows not sin, for
     according to the prophet's saying, "He came to death for the sins of my people, and for our sake
     he suffered pain, and was smitten, and he endured sickness for our iniquity"<note
-     type="footnote" n="566" resp="#ebrooks">Isaiah LIII, 5 (loose quotation).</note>. So also <persName>Paul</persName>
+     type="footnote" n="566">Isaiah LIII, 5 (loose quotation).</note>. So also <persName>Paul</persName>
     wrote to the Hebrews and said, "<persName>Christ</persName> was offered once, that he might bear the sins of many" ,
     and he says that 'by his sacrifice he hath been revealed once for all at the last for the doing
     away of sin', and 'he offered one eternal offering for our sins'<note type="footnote" n="567"
-     resp="#ebrooks">Hebrews ix, 26, 28; x, 12.</note>: and Peter the eminent among the apostles said,
+    >Hebrews ix, 26, 28; x, 12.</note>: and Peter the eminent among the apostles said,
     "The same carried up our sins in his body on to the cross, that we, being freed from sins, might
-    live in righteousness"<note type="footnote" n="568" resp="#ebrooks">1 Peter ii, 24.</note>.</ab>
+    live in righteousness"<note type="footnote" n="568">1 Peter ii, 24.</note>.</ab>
    <ab>And again the sixth question, as to how we say that the same suffered in <pb n="211"/> the
     flesh, and in his Godhead remained without suffering, and, while we do not make him alien to
     suffering, we keep him without suffering. The defence. Now we will give a sufficient answer to
@@ -683,8 +683,8 @@
     Godhead, and, while we do not make him alien to suffering, we keep him without suffering. On the
     same subject we will lay before you an example which has come to us from our fathers. The force
     of examples is in truth small, and far removed from the truth; nevertheless, if only in some
-    thin and shadowy phantasies<note type="footnote" n="569" resp="#ebrooks"><foreign xml:lang="grc">φαντασίας</foreign>.</note>, it offers to the understanding a beginning of conceptions. As,
-    when iron or another similar substance<note type="footnote" n="570" resp="#ebrooks"><foreign
+    thin and shadowy phantasies<note type="footnote" n="569"><foreign xml:lang="grc">φαντασίας</foreign>.</note>, it offers to the understanding a beginning of conceptions. As,
+    when iron or another similar substance<note type="footnote" n="570"><foreign
       xml:lang="grc">ὕλη</foreign>.</note> is abundantly warmed by fire, and is heated by flame, we
     know that, while the iron does not pass out of its own nature, the iron which has passed into a
     complete flame, and has been made to hiss and to glow by it, it appears to be all fire, and,
@@ -702,7 +702,7 @@
     touched by suffering. He is said also to have tasted death for us, in that his soul was
     separated from his body; not that his soul was cut away from his Godhead, or his body left
     without Godhead; but he showed that he was in both without separation, for neither was his soul
-    left in Sheol, nor did his flesh see corruption<note type="footnote" n="571" resp="#ebrooks">Psalm
+    left in Sheol, nor did his flesh see corruption<note type="footnote" n="571">Psalm
      xv, 10.</note>, according to the saying of the Psalmist. For he was not separated from his body
     that was buried, and therefore he annihilated corruption; for, if it had been separated from him
     who is life and incorruption, perhaps it would have been constantly <pb n="213"/> attacked by
@@ -711,28 +711,28 @@
     fill everything as one that is infinite. It was necessary for him to give light even to the
     lower regions also, and to have mercy on the souls there imprisoned, and, according to the
     saying of the prophet, "to say to those that are in bonds, 'Come forth', and to those also that
-    are in darkness, 'Be revealed'"<note type="footnote" n="572" resp="#ebrooks">Isaiah XLIX,
+    are in darkness, 'Be revealed'"<note type="footnote" n="572">Isaiah XLIX,
      9.</note>. This he accomplished in action. The gates of Sheol which saw him trembled, and he
-    broke the bars of iron and gates of bronze<note type="footnote" n="573" resp="#ebrooks">Psalm cvi,
+    broke the bars of iron and gates of bronze<note type="footnote" n="573">Psalm cvi,
      16.</note>, and opened <placeName>Paradise</placeName> which was shut, and "many bodies of just men among those who
     had fallen asleep came out of their graves after his resurrection, and went into the holy city,
-    and appeared to many"<note type="footnote" n="574" resp="#ebrooks">Matthew, xxvii, 53.</note>.
+    and appeared to many"<note type="footnote" n="574">Matthew, xxvii, 53.</note>.
     Very properly the evangelist added, 'after his resurrection'; for it was necessary that he who
     is life in his nature should himself first begin the resurrection, and that the very one who was
     able to dissolve the power of death should himself tread the way for the rest who came after
     him. He did not deal arbitrarily with the devil, the same who led the first man astray, when he
     was defeated as by God, but, as one who is just and 'taketh the wise in their craftiness'<note
-     type="footnote" n="575" resp="#ebrooks">Job, v, 13.</note>, he brought the <pb n="214"/> crafty
+     type="footnote" n="575">Job, v, 13.</note>, he brought the <pb n="214"/> crafty
     one into subjection by means of his devices. He who led <persName>Adam</persName> astray and said to him, "You will
     be a god, if you transgress the law", fell by the device of craft. He fought with the second
     <persName>Adam</persName> who is <persName>Christ</persName>, and found him to be God and man at the same time; and he won a just victory
     over him; and henceforth we confidently sing songs of praise for his victory over death and say,
     "Where is thy victory, death? and where is thy sting, Sheol?" For <persName>Paul</persName> says that 'the sting of
-    death is sin'<note type="footnote" n="576" resp="#ebrooks">1 Corinthians xv, 55, 56.</note>.</ab>
+    death is sin'<note type="footnote" n="576">1 Corinthians xv, 55, 56.</note>.</ab>
    <ab>Next the seventh question, why the law was given to the fathers that they should circumcise
     their foreskin. The defence.</ab>
    <ab>Now we pass on to discuss the subject of circumcision. This<note type="footnote" n="577"
-     resp="#ebrooks">This passage to 'kin' (p. 215,1.1) is published in Greek in Cramer, Cat. in
+    >This passage to 'kin' (p. 215,1.1) is published in Greek in Cramer, Cat. in
      Act. Apost., p. 108.</note> is what you ask, "Why was the law given to the fathers that they
     should circumcise their foreskin?" Some have simply and easily handed down a reason like this.
     They say, "Because <persName>Abraham</persName> migrated from the land of the <placeName>Chaldees</placeName>, and the <placeName>Chaldees</placeName> were
@@ -741,7 +741,7 @@
     therefore he circumcised his foreskin, that he might shun kindred flesh, <pb n="215"/> and
     renounce marriage with those of his kin, and on this account God gave the law to the sons of
     <placeName>Israel</placeName> through <persName>Moses</persName> and said, 'A man shall not go in to any that is related to him in the flesh
-    to uncover his shame'<note type="footnote" n="578" resp="#ebrooks">Leviticus XVIII, 6. What follows
+    to uncover his shame'<note type="footnote" n="578">Leviticus XVIII, 6. What follows
      to 'ever' (1. 6) is in Cramer, l. c., headed <foreign xml:lang="grc">μετ᾽
      ὀλίγα</foreign>.</note>". And others say that the reason why <persName>Abraham</persName> was commanded to
     circumcise his progeny also besides was that it might be plain that <persName>Christ</persName> should come of them
@@ -751,25 +751,25 @@
     God the lawgiver, and that is very sublime and to which testimony is borne by the Scriptures,
     that circumcision promises renunciation of fleshly birth, and acquisition of the adoption of the
     Spirit, by which we are called sons of God; for it is written, "Thus saith the Lord, '<placeName>Israel</placeName> is
-    my son, my firstborn'"<note type="footnote" n="579" resp="#ebrooks">Exodus iv, 22.</note>. After
+    my son, my firstborn'"<note type="footnote" n="579">Exodus iv, 22.</note>. After
     the fall from <placeName>Paradise</placeName> and the' destruction of immortality, <persName>Adam</persName> knew <persName>Eve</persName>, and she conceived and
     bare; and this unstable intercourse, intercourse befitting beasts, was given for the propagation
     of our race, it being a kind of healing of the sickness, that the race of men might <pb n="216"
     /> not be cut off through death. The woman was not at first given to <persName>Adam</persName> for the sake of the
     procreation of children, but that she might be a helper to him; for the Lord God said, "It is
     not good for <persName>Adam</persName> to be alone; let us make him a helper like to him"<note type="footnote"
-     n="580" resp="#ebrooks">Genesis II, 18.</note>. He did not say from the beginning that he would
+     n="580">Genesis II, 18.</note>. He did not say from the beginning that he would
     make her be fruitful and multiply, in order that by means of fertility the race might go on to
     multiplication; for God might have done this even without the intercourse of marriage, and have
     made our race increase and multiply like the myriads of angels, as the Lord himself actually
     said in a place in the gospel, "In the resurrection there is no marriage, nor yet are they
     joined in marriage, but they will be as the angels in heaven"<note type="footnote" n="581"
-     resp="#ebrooks">Matthew xxii, 30.</note>. If anyone says, "What is the help that the woman was
+    >Matthew xxii, 30.</note>. If anyone says, "What is the help that the woman was
     to give the man?", we easily say: In the worship in <placeName>Paradise</placeName> and in the keeping of the law; as
     Solomon also said of a similar woman, "Who can find a manly woman?"<note type="footnote" n="582"
-     resp="#ebrooks">Proverbs xxix, 28.</note>, and again another wise man says, "A manly woman
+    >Proverbs xxix, 28.</note>, and again another wise man says, "A manly woman
     gladdeneth her husband", and, "A good woman is a good portion<note type="footnote" n="583"
-     resp="#ebrooks">Sirach xxvi, 2, 3.</note>": and for this reason they also received the law in
+    >Sirach xxvi, 2, 3.</note>": and for this reason they also received the law in
     common, that through union and conjunction of breath<note type="footnote" n="584">This probably
      represents some Greek compound (<foreign xml:lang="grc">ὁμοπνοία</foreign>?).</note> they might
     be cautious, and not liable to be overcome by the <pb n="217"/> deceit of the serpent; for he
@@ -782,13 +782,13 @@
     herself also became an evil counsellor to the man, and immediately they were alien to God, and
     also to the life in <placeName>Paradise</placeName>, and by means of death were condemned; and <persName>Adam</persName> knew his wife, and
     she becomes a helper to him in the second line, through the procreation of children<note
-     type="footnote" n="586" resp="#ebrooks">Cf. ep. 63.</note>. And at first she was given him as a
+     type="footnote" n="586">Cf. ep. 63.</note>. And at first she was given him as a
     helper in the worship in <placeName>Paradise</placeName>; for such is God's care for us that, even when we change, he
     continues to help us: for he made man his own master, and to honour that which is good; and,
     having foreseen that he would change, he provided a helper for him beforehand. Therefore also
     <persName>Adam</persName> by the grace of God, as soon as the woman was created, foretold that a man should 'leave
     his father and his <pb n="218"/> mother, and cleave to his wife, and they two should be one
-     flesh'<note type="footnote" n="587" resp="#ebrooks">Genesis ii,24.</note>. This bodily birth
+     flesh'<note type="footnote" n="587">Genesis ii,24.</note>. This bodily birth
     circumcision renounces, which was given after the fall from the life in <placeName>Paradise</placeName> in the
     character of a remedy, and causes us to approach to the impassibility which existed during the
     residence in <placeName>Paradise</placeName>; by which we are named sons of God, inasmuch as it slays our members upon
@@ -802,13 +802,13 @@
     the body of your flesh, by the circumcision of <persName>Christ</persName>, and were buried with him in baptism, and
     rose in him through faith in the operation of God who raised him from the place of the dead; and
     you also, who had died in your sins and in the foreskin of your flesh, he quickened <pb n="219"
-    /> with him, and he forgave you all your sins"<note type="footnote" n="588" resp="#ebrooks">Colossians
+    /> with him, and he forgave you all your sins"<note type="footnote" n="588">Colossians
      ii, 11-13.</note>. You see that circumcision is the destruction of the foreskin, and contains a
     renunciation of fleshly birth and of the body's pleasure in mortality; for it confesses the
     passionless and new-fashioned life, as the actual truth of baptism showed, of which circumcision
     is a type, which in a shadow cuts away the foreskin of the flesh, while baptism cuts away the
     foreskin of the soul, and, so to speak, destroys its excessive wickedness. Such was the legal
-    ceremony, and the covenant with <persName>Abraham</persName>, and of<note type="footnote" n="589" resp="#ebrooks">Sic
+    ceremony, and the covenant with <persName>Abraham</persName>, and of<note type="footnote" n="589">Sic
      Syr.</note> his descendants, which by the ancients was carried out in a bodily and sensual
     fashion, but signified beforehand the allegorical conceptions, which the spiritual and
     suprasensual ceremony in <persName>Christ</persName> revealed and brought to pass, for through baptism we are
@@ -816,8 +816,8 @@
     longer sons of the flesh, for we are named sons of God. Hear what <persName>John</persName> the thunder and trumpet
     of the divine words says, "For those who received him he gave them power to become sons of God,
     those who believed on his name, who were born not of blood, nor of the will of man, but of
-     God"<note type="footnote" n="590" resp="#ebrooks">John i, 12, 13.</note>. <persName>Joshua</persName><note
-     type="footnote" n="591" resp="#ebrooks">Syriac: '<persName>Jesus</persName>'.</note> also the son of <persName>Nun</persName>, who typified
+     God"<note type="footnote" n="590">John i, 12, 13.</note>. <persName>Joshua</persName><note
+     type="footnote" n="591">Syriac: '<persName>Jesus</persName>'.</note> also the son of <persName>Nun</persName>, who typified
     <persName>Jesus</persName> who is God and our Saviour, shows this clearly, that circumcision is the baptism which is
      <pb n="220"/> perfected in <persName>Christ</persName>, and was given to the sons of <placeName>Israel</placeName> as to a kind of sons
     without passibility; but, because they had lived forty years in the wilderness, it happened that
@@ -825,29 +825,29 @@
     circumcise. But this did not happen by chance, but because God was directing this matter in
     order to reveal the future mystery; and neither did <persName>Moses</persName> circumcise them, the exact observer of
     the fathers' customs, who ordered that anyone who collected sticks on the sabbath-day should
-     die<note type="footnote" n="592" resp="#ebrooks">Numbers xv, 32-35.</note>, who knew all things
+     die<note type="footnote" n="592">Numbers xv, 32-35.</note>, who knew all things
     beforehand, and among them the threat pronounced by God who said, "Whoever is not circumcised in
     the flesh of his foreskin on the eighth day, that soul shall perish from among its people,
-    because it hath set at naught my covenant"<note type="footnote" n="593" resp="#ebrooks">Genesis
-     xvii, 14.</note>; nor yet did <persName>Joshua</persName><note type="footnote" n="594" resp="#ebrooks">Syriac: '<persName>Jesus</persName>'.</note> again, 
+    because it hath set at naught my covenant"<note type="footnote" n="593">Genesis
+     xvii, 14.</note>; nor yet did <persName>Joshua</persName><note type="footnote" n="594">Syriac: '<persName>Jesus</persName>'.</note> again, 
     who succeeded to the government after <persName>Moses</persName>, circumcise them before they
     crossed <placeName>Jordan</placeName>; but, after they had crossed <placeName>Jordan</placeName>, then he took knives of rock and cut away
     their foreskins from them. And this is plain, that he who has crossed <placeName>Jordan</placeName> and by the laver is
     admitted to regeneration is circumcised with a rock-knife, which is <persName>Christ</persName>: for "the <pb n="221"
     /> Word of God is living, and effectual and sharp beyond a two-edged knife"<note type="footnote"
-     n="595" resp="#ebrooks">Hebrews iv, 12.</note>; and according to <persName>Paul</persName>'s saying <persName>Christ</persName> also is a
-     rock<note type="footnote" n="596" resp="#ebrooks">1 Corinthians x, 4.</note>. Let no one hold the
+     n="595">Hebrews iv, 12.</note>; and according to <persName>Paul</persName>'s saying <persName>Christ</persName> also is a
+     rock<note type="footnote" n="596">1 Corinthians x, 4.</note>. Let no one hold the
     unreasonable supposition that they had no iron-knives in the wilderness; for they were armed,
     and slew those who opposed them. <persName>Mark</persName> again the same type in other mysteries also; for the
     blessed <persName>Paul</persName> said, "Those who were baptized in <persName>Christ</persName> were baptized in his death"<note
-     type="footnote" n="597" resp="#ebrooks">Romans vi, 3.</note>, and. <persName>Joshua</persName><note type="footnote"
-     n="598" resp="#ebrooks">Syriac: '<persName>Jesus</persName>'.</note> the son of <persName>Nun</persName> presents the same figure, for he
+     type="footnote" n="597">Romans vi, 3.</note>, and. <persName>Joshua</persName><note type="footnote"
+     n="598">Syriac: '<persName>Jesus</persName>'.</note> the son of <persName>Nun</persName> presents the same figure, for he
     provided that the knives with which he circumcised the sons of <placeName>Israel</placeName> should be buried with him,
     that thereby he might show that those who are baptized in the name of <persName>Jesus</persName> the true God with
     the baptism that is completed in his death are by it circumcised. And, when we examine the sense
     of Scripture, we find an unlimited abundance of thoughts, and a primary union and agreement of
     the types with the truth, and praise the one God, the giver of the two covenants<note
-     type="footnote" n="599" resp="#ebrooks"><foreign xml:lang="grc">διαθήκας</foreign>.</note>.
+     type="footnote" n="599"><foreign xml:lang="grc">διαθήκας</foreign>.</note>.
     And, as to the manner again in which we on being admitted to the divine laver and regeneration
     and putting off from us our old man are both invited by <persName>Christ</persName> to the mystic table and eat the
     angelic heavenly bread, <persName>Joshua</persName> the son of <persName>Nun</persName> himself again showed us this mystery. For, <pb
@@ -855,11 +855,11 @@
     the first time those who were circumcised ate of the wheat of the land of promise, and
     celebrated the Passover, not with the old leaven, but with the pure true leavens: and, as, when
     <persName>Jesus Christ</persName> ate the legal Passover with his disciples, and thereby fulfilled the law, and took
-    the bread of thanksgiving in the midst, and blessed<note type="footnote" n="600" resp="#ebrooks">(G (2) L) 'blessed in the midst the eucharistia and'.</note> the cup, and put an end to the
-    legal Passover, the new<note type="footnote" n="601" resp="#ebrooks">A.v, (G (1))
+    the bread of thanksgiving in the midst, and blessed<note type="footnote" n="600">(G (2) L) 'blessed in the midst the eucharistia and'.</note> the cup, and put an end to the
+    legal Passover, the new<note type="footnote" n="601">A.v, (G (1))
      'spiritual'.</note> suprasensual sacrifice received a beginning and entrance, so also, when
-     <persName>Joshua</persName><note type="footnote" n="602" resp="#ebrooks">Syr. '<persName>Jesus</persName>'.</note> the son of <persName>Nun</persName> as in a
-    kind of prefigurement and type kneaded<note type="footnote" n="603" resp="#ebrooks">A. v. (G
+     <persName>Joshua</persName><note type="footnote" n="602">Syr. '<persName>Jesus</persName>'.</note> the son of <persName>Nun</persName> as in a
+    kind of prefigurement and type kneaded<note type="footnote" n="603">A. v. (G
      (1)) ins. 'and made'.</note> unleavened loaves out of new wheat and kept the Passover, the old
     eating of manna ceased, and on that same day came to an end. Thus in every single point the type
     set forth the truth, It is proper also for us to hear the actual words of divine Scripture: <pb
@@ -867,24 +867,24 @@
     evening, to the west of <placeName>Jericho</placeName>, beyond <placeName>Jordan</placeName> in the plain. And they ate of the produce of the
     land, and the next day they ate of the unleavened loaves of the Passover. And that same day the
     manna was taken away, after they had eaten of the wheat and the fruits of the land, and the sons
-    of <placeName>Israel</placeName> had no longer manna"<note type="footnote" n="604" resp="#ebrooks">Josh. v,
+    of <placeName>Israel</placeName> had no longer manna"<note type="footnote" n="604">Josh. v,
      10-12.</note>. The fact again that he who was bom was circumcised on the eighth day shows
     clearly that that circumcision is a type of the life of impassibility in which we truly live,
     not the life that is spent by those who are bom to destruction; "for in the resurrection there
     is no marriage, nor yet persons given in marriage, but they are as the angels in heaven"<note
-     type="footnote" n="605" resp="#ebrooks">Matthew xxii, 30.</note>: for the eighth day itself is
+     type="footnote" n="605">Matthew xxii, 30.</note>: for the eighth day itself is
     the beginning also on which our Lord rose, when he became firstfruits for our resurrection. He
     who is circumcised on the eighth day, which is the beginning of the future world<note
-     type="footnote" n="606" resp="#ebrooks">Cf. ep. 79, 80.</note>, is raised above this world, for
+     type="footnote" n="606">Cf. ep. 79, 80.</note>, is raised above this world, for
     the rest of which the seventh day was appointed, the end of which brings us to that day which is
     the beginning and the eighth, on which is the impassible life, and he does not know the words,
-    "Be fruitful and multiply"<note type="footnote" n="607" resp="#ebrooks">Genesis i, 28.</note>.
+    "Be fruitful and multiply"<note type="footnote" n="607">Genesis i, 28.</note>.
     These, we think, are the <pb n="224"/> things which through circumcision were given to the sons
     of <placeName>Israel</placeName>. But you perhaps, conversant as you are in divine things, can think of something else
     that is greater and more sublime.</ab>
    <ab>And next the eighth question, how we ought to understand the saying of our Saviour in the
     gospel, "Agree with thine adversary quickly, while thou art in the way with him"<note
-     type="footnote" n="608" resp="#ebrooks">Matthew v, 25.</note>. The defence.</ab>
+     type="footnote" n="608">Matthew v, 25.</note>. The defence.</ab>
    <ab>It agrees with the order of your questions that we should also shortly refer to your other
     question about the words spoken by our Saviour in the gospel by way of persuasion and advice,
     "Agree with thine adversary quickly, while thou art in the way with him, lest thine adversary
@@ -892,7 +892,7 @@
     prison, and thou shalt not come out thence till thou pay the last mite"<note type="footnote"
      n="609">Ibid., 25, 26.</note>. This commandment is almost the same which says, "He that will
     sue thee and take away thy tunic, let him have thy coat also"<note type="footnote" n="610"
-     resp="#ebrooks">Ibid., 40.</note>. However this needs a great effort in order that we may
+    >Ibid., 40.</note>. However this needs a great effort in order that we may
     restrain and cut away the corruptions of sin. For what he said is like this. "If you are
     standing in the <pb n="225"/> court that is trying the case itself, and are prosecuting before
     the judge, and are altogether wrapt up in the court, rouse yourself on the way, and change from
@@ -906,11 +906,11 @@
     judge, make it thy business to be quit of him, lest he deliver thee to the judge, and the judge
     deliver thee to the exactor, and the exactor cast thee into prison. And verily, verily I say
     unto thee that thou shalt not come out thence till thou pay the last mite"<note type="footnote"
-     n="611" resp="#ebrooks">Luke xii, 57-59.</note>. To strip off your cloak also for the man who
+     n="611">Luke xii, 57-59.</note>. To strip off your cloak also for the man who
     has a suit with you about your tunic and with great power overcome the rapacity of him who is
     contending with you is an act of sublime and exalted wisdom. Think only of getting rid of the
     running to, the judge <pb n="226"/> and duly preventing it during the time that is pressing upon
-    you, when<note type="footnote" n="612" resp="#ebrooks">We rather require 'before'. There is
+    you, when<note type="footnote" n="612">We rather require 'before'. There is
      probably some error in this sentence.</note> you are not master of yourself, either to ruin
     your enemy or to reconcile him; and this needs the labour and toil of philosophy. For he
     commands us not only not to become adversaries, but to agree with our adversaries, and by
@@ -918,33 +918,33 @@
     reconcile our present enemies by agreement. This is the simple conclusion of this in the form of
     exposition; for some have taken this saying in a higher sense. They say that a man's adversary
     is the reminder that comes from his conscience, and our Lord says this: "When you sin or wish to
-     sin<note type="footnote" n="613" resp="#ebrooks">(G) 'your neighbour offends against
+     sin<note type="footnote" n="613">(G) 'your neighbour offends against
      you'.</note>, agree with your adversary"; that is, accept the admonition that comes from your
     conscience, when it reminds you and blames you, if you have sinned or wished to sin; and, if you
     neglect the reminder from your conscience, and do not obey nor restrain yourself<note
-     type="footnote" n="614" resp="#ebrooks">3: (V) 'be admonished'.</note>, you do not agree <pb
+     type="footnote" n="614">3: (V) 'be admonished'.</note>, you do not agree <pb
      n="227"/> with your adversary, but rather use force against your adversary. So also is it
     written in the prophet Hosea: "<persName>Ephraim</persName> used force against his adversary and forgot judgment,
-    because he began to go after vanity"<note type="footnote" n="615" resp="#ebrooks">Hosea v,
+    because he began to go after vanity"<note type="footnote" n="615">Hosea v,
      11.</note>. So also <persName>Paul</persName> wrote to the Romans and said: "Our conscience beareth witness, or
     maketh defence, on the day on which God shall judge the secrets of men"<note type="footnote"
-     n="616" resp="#ebrooks">Romans ii, 15, 16.</note>. The words, 'as long as thou art in the way
+     n="616">Romans ii, 15, 16.</note>. The words, 'as long as thou art in the way
     with him', have this meanmg, 'as far as this world extends', and the way is trodden by all men:
     and this is what he said: "While you are walking in this world as on a way,<note
-     type="footnote" n="617" resp="#ebrooks"> (G) om.</note> accept the reminder that comes from
+     type="footnote" n="617"> (G) om.</note> accept the reminder that comes from
     your conscience and do not refuse it. If you refuse it and pass out of this world without having
-     agreed<note type="footnote" n="617" resp="#ebrooks">In another version (G) om.</note>, the
+     agreed<note type="footnote" n="617">In another version (G) om.</note>, the
     conscience will take the place of an adversary and accuse you before the judge and place you
     under his sentence, and the judge will deliver you to the torture<note type="footnote" n="618"
-     resp="#ebrooks"> (G) 'you will be delivered to unending judgments'.</note>; <pb n="228"/> and
+    > (G) 'you will be delivered to unending judgments'.</note>; <pb n="228"/> and
     these things would not have befallen you if you had made union with your adversary in this way
     of the world, when admonition was offered to you, and you did not accept this in agreement. This
     <persName>John</persName> the Evangelist also wrote in an epistle and said: "If our conscience condemneth us not, we
-    have confidence towards God"<note type="footnote" n="619" resp="#ebrooks">1 John iii,
+    have confidence towards God"<note type="footnote" n="619">1 John iii,
     21.</note>.</ab>
    <ab>And next the ninth question, as to how we ought to understand the words used by <persName>Paul</persName> in the
     first epistle to the <persName>Corinthians</persName>, "Every sin that a man may sin is outside his body; but he who
-    committeth fornication sinneth against his body"<note type="footnote" n="620" resp="#ebrooks">1
+    committeth fornication sinneth against his body"<note type="footnote" n="620">1
      Corinthians vi, 18.</note>. The defence.</ab>
    <ab>Since you wished to have that other saying of the wise <persName>Paul</persName> also explained to you which is
     made in the first epistle to the <persName>Corinthians</persName>, "Every sin that a man may sin is outside his body,
@@ -975,9 +975,9 @@
     highest, that is the nearest to the apostle's meaning. <persName>Paul</persName> desired, so to speak, to show that
     the sin of fornication is beyond forgiveness; and above this he says, "Know ye not that your
     bodies are members of <persName>Christ</persName>?", and he turns reprovingly and says, "Shall I<note
-     type="footnote" n="621" resp="#ebrooks"> (G) 'Wilt thou'.</note> then take a member of <persName>Christ</persName>
-    and make it a member of a harlot<note type="footnote" n="622" resp="#ebrooks">(V) 'fornication.
-     Far be it'.</note>?"<note type="footnote" n="623" resp="#ebrooks">1 Corinthians vi, 15.</note>: and
+     type="footnote" n="621"> (G) 'Wilt thou'.</note> then take a member of <persName>Christ</persName>
+    and make it a member of a harlot<note type="footnote" n="622">(V) 'fornication.
+     Far be it'.</note>?"<note type="footnote" n="623">1 Corinthians vi, 15.</note>: and
     by this he <pb n="231"/> showed that he who commits fornication offends against the members of
     <persName>Christ</persName>; and so he goes on to say, "Every sin that a man may sin is outside the hody, but he who
     commits fornication sins against his own body". A slanderer or a thief or a robber or a covetous
@@ -989,9 +989,9 @@
     against God, and they are believed, so to speak, to be without <pb n="232"/> forgiveness, as
     also <persName>Eli</persName> the priest and old in days who was negligent concerning his sons, who were evil men as
     it is written and unlawfully offended against the divine service; for<note type="footnote"
-     n="624" resp="#ebrooks">Sic Syr.</note> he testified to them and said, "If a man sin against a
+     n="624">Sic Syr.</note> he testified to them and said, "If a man sin against a
     man, they shall pray to the Lord for him: but, if he sin against the Lord, to whom shall they
-    pray for him?"<note type="footnote" n="625" resp="#ebrooks">1 Samuel ii, 25.</note> So therefore
+    pray for him?"<note type="footnote" n="625">1 Samuel ii, 25.</note> So therefore
     <persName>Paul</persName> also wishes to make it appear that the sin of fornication is committed against <persName>Christ</persName>
     himself: and just as, if a man take a harlot and bring her into the holy temple of the Saviour
     of all, and there commit fornication, he will not merely be called to account for fornication,
@@ -1004,23 +1004,23 @@
     says, "He who commits fornication sins against his own body". Immediately without any
     intervening words he went on to say, "Know ye not that your body is the temple of the Spirit
     that is in you, which ye have from God? And ye are not your own, for ye were bought with a
-    price. Praise God therefore in your body"<note type="footnote" n="627" resp="#ebrooks">1 Corinthians
+    price. Praise God therefore in your body"<note type="footnote" n="627">1 Corinthians
      vi, 19,20.</note>. Accordingly it is plain that through the adoption of the Spirit, which is
     the Spirit of <persName>Christ</persName>, we both become a temple of God, and, as it is said, "<persName>Christ</persName> dwelleth in
-    our hearts"<note type="footnote" n="628" resp="#ebrooks">Ephesians iii, 17.</note>; and let no one say
+    our hearts"<note type="footnote" n="628">Ephesians iii, 17.</note>; and let no one say
     that he who slanders and he who robs pollutes the one the tongue, the other the hand only; for
     the pollution is not the same, nor are the stain and the mire the same; and, even if we allow it
     to be the same, yet the pollution does not affect the whole body equally, nor is the whole
     temple of God so to speak defiled. For he who commits fornication with a woman who commits
     fornication intertwines his whole body. <pb n="234"/> This objection the blessed <persName>Paul</persName> demolished
     beforehand by having recourse to the divine Scriptures and saying, "They two shall be one
-     flesh"<note type="footnote" n="629" resp="#ebrooks">1 Corinthians vi. 16.</note>. That the sin and
+     flesh"<note type="footnote" n="629">1 Corinthians vi. 16.</note>. That the sin and
     pollution of the other sins and those of fornication are not the same, but that the sin that
     arises from fornication is far removed from these, because it renders the man who commits
     fornication with his body, or with the temple of God, suddenly void of divine grace, this is
     clearly signified by the story of <persName>Samson</persName>. He even before his conception received a commandment
     by the voice of an angel, his mother being barren and his father Manoah<note type="footnote"
-     n="630" resp="#ebrooks">Sic Syr.</note>; and, when he had been conceived and grown up, his
+     n="630">Sic Syr.</note>; and, when he had been conceived and grown up, his
     affairs were determined according to the commandment of the angel who appeared; for he said,
     "Thou shall observe and not drink either wine or strong drink, and thou shalt not eat aught that
     is defiled; for lo! thou shalt conceive and shalt bear a son, and iron shall not go up upon his
@@ -1031,12 +1031,12 @@
     forgiveness, and the grace of the Spirit did not yet depart from him; but the sin of fornication
     rendered him bereft of the grace of the Spirit. First he transgressed against the law which
     commands the sons of <placeName>Israel</placeName> that it is not right to take in marriage women alien to their
-    tribes, who<note type="footnote" n="632" resp="#ebrooks">Some words have perhaps fallen out. The
+    tribes, who<note type="footnote" n="632">Some words have perhaps fallen out. The
      pronoun in masc.</note> were the peoples round them whose land they inherited. For <persName>Samson</persName> said,
     "I have seen a beautiful woman in <placeName>Timnath</placeName>, of the daughters of the Philistines: now, take her
     for me to wife". And his father said to him, "Is there not a woman in the house of thy brethren
     of thy people to take, that thou goest to the uncircumcised Philistines to take thee a
-     wife?"<note type="footnote" n="633" resp="#ebrooks">Judges xiv, 2, 3.</note>: however, they did
+     wife?"<note type="footnote" n="633">Judges xiv, 2, 3.</note>: however, they did
     not persuade him, but on the contrary even went with him to make the unlawful betrothal. And God
     suffered this wickedness to be carried out, in order that he might requite the Philistines, even
     against the wish of the sons of <placeName>Israel</placeName>; for <persName>Samson</persName>'s going down became an occasion for their
@@ -1044,10 +1044,10 @@
     little out of the way, and he came upon a lion and killed him as a man might kill a little kid.
     And the divine Scripture states that the Spirit of the Lord worked mightily upon him', or
     according to the text <pb n="236"/> contained in other manuscripts, 'the Spirit of the Lord
-    prospered his way'<note type="footnote" n="634" resp="#ebrooks">Judges xiv, 6.</note>; and, though
+    prospered his way'<note type="footnote" n="634">Judges xiv, 6.</note>; and, though
     he opposed himself to God's laws, the grace of the Holy Spirit did not abandon him. However it
     was not fornication on which they were bent, but marriage. And again at the wedding-feast he
-    composed a certain question, or rather<note type="footnote" n="635" resp="#ebrooks"><foreign
+    composed a certain question, or rather<note type="footnote" n="635"><foreign
       xml:lang="grc">μᾶλλον</foreign>.</note> a riddle, and asked it of those Philistines, fixing
     gifts for them and promising them so many garments and articles of clothing, if they told him
     the solution of that riddle; but, if they failed to find the origin of it and did not tell it,
@@ -1057,14 +1057,14 @@
     as was in fact done. And thereupon those garments had to be exacted from him; for the holy
     Scripture said, "The spirit of the Lord came mightily upon him; and he went down to Ascalon, and
     there killed thirty men; and he took their spoils, and gave their garments to those who
-    interpreted the riddle to him"<note type="footnote" n="636" resp="#ebrooks">Judges XIV,
+    interpreted the riddle to him"<note type="footnote" n="636">Judges XIV,
     19.</note>. Now mark here again also how it said that the spirit of the Lord came mightily upon
     him, because he killed men alien to his race in fight, since God, as we have said, permitted
     this <pb n="237"/> same thing, that these men should perish, as men who had oppressed <placeName>Israel</placeName>:
     and at every great and wonderful and glorious deed that he did Scripture stated and said that
-    the Spirit of the Lord came mightily upon him<note type="footnote" n="637" resp="#ebrooks">Judges 15:14.</note>. 
+    the Spirit of the Lord came mightily upon him<note type="footnote" n="637">Judges 15:14.</note>. 
     And, after he had gone down to Gaza as is written<note type="footnote" n="638"
-     resp="#ebrooks">Judges 16:1.</note>, and had there seen a harlot and gone in to her, he shone
+    >Judges 16:1.</note>, and had there seen a harlot and gone in to her, he shone
     with the same brilliant deeds and was resplendent with the same good successes, and with great
     power advanced to such acts, God instigating him to these. Nevertheless after the fornication on
     the occasion of the successes gained by him the divine Scripture no longer stated that the
@@ -1077,14 +1077,14 @@
     root; because the <pb n="238"/> Corinthians sinned wickedly in this respect; for he said, "Such
     fornication is reported among you, and fornication of such a kind that is not even named among
     the peoples, that a man should have his father's wife"<note type="footnote" n="639"
-     resp="#ebrooks">1 Corinthians v, 1.</note>. He began with an accusation of this kind, founded upon the
+    >1 Corinthians v, 1.</note>. He began with an accusation of this kind, founded upon the
     particular unlawful intercourse, and he went on to use the spiritual knife against all
     fornication; and he raised a charge of this kind to a height. Look at the strict mercifulness of
     God, as in the history of <persName>Samson</persName>. As soon as he had committed fornication, the grace of the
     sanctifying power of the Spirit departed from him, but it was nevertheless poured out upon him
     in the power and operation of the successes obtained by him, giving an opportunity for
     repentance by means of which every sin is overthrown and cast out, unless we throw ourselves
-    into the pit of despair<note type="footnote" n="640" resp="#ebrooks">A Greek extract <foreign
+    into the pit of despair<note type="footnote" n="640">A Greek extract <foreign
       xml:lang="grc">ἐκ τῶν πρὸς Ε. κουβικουλάριον ἀποκρισέων</foreign> is published in Cramer, Cat.
      in Luc et Jo., p 255, but the passage is not in our text.</note>.</ab>
   </div>

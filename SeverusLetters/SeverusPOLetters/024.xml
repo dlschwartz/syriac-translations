@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -131,14 +131,14 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="24">
+         <div type="work" xml:id="work-24" n="24">
             <head type="main" resp="#compiler">Of the Holy Mar <persName>Severus</persName>, From the Letter Which He
-               Wrote to <persName>John</persName> the Christ-loving Roman<note type="footnote" n="111" resp="#ebrooks">I.
+               Wrote to <persName>John</persName> the Christ-loving Roman<note type="footnote" n="111">I.
                   e. soldier, in Greek <foreign xml:lang="grc">στρατιώτην</foreign> (p. 50, n.
                   1).</note>, Showing What Is Signified by a Person Being Dipped Three Times, And
-               Why <persName>Christ</persName> Came to Baptism When He Was<note type="footnote" n="30" resp="#ebrooks"></note> Years 
+               Why <persName>Christ</persName> Came to Baptism When He Was<note type="footnote" n="30"></note> Years 
                Old; And He Shows Further What Is the Nature <pb n="47"/> Of The
-               Confirmation by Ointment<note type="footnote" n="112" resp="#ebrooks"><foreign
+               Confirmation by Ointment<note type="footnote" n="112"><foreign
                   xml:lang="grc">μύρον</foreign>.</note> With Which Those Who Have Been Baptized
                Are Confirmed After Baptism. </head>
             <div type="excerpt">
@@ -165,20 +165,20 @@
                   to show that the new birth begets men full-grown in reasonable age, for so also
                   the first man was created full-grown, and immediately as full-grown received a
                   commandment and a law, and was given permission to till and keep <placeName>Paradise</placeName>, and the
-                  words which follow<note type="footnote" n="113" resp="#ebrooks">Mai, Class. Auct.,
+                  words which follow<note type="footnote" n="113">Mai, Class. Auct.,
                      X, 415. The 2nd reason is not in the printed text.</note>; and at another that
                   by means of three periods comprised in three decads which make 30 years he
                   signified the mystery that was revealed on the <placeName>Jordan</placeName>, that one Godhead is made
                   known in three complete hypostases, by which holy baptism in the Father and the
                   Son and the Holy Spirit was to be performed. That these things introduce no
                   confusion <persName>Gregory</persName> the Theologian in the sermon on the Passover states as follows:
-                  "The Lord's passion<note type="footnote" resp="#ebrooks">Greg. <foreign
+                  "The Lord's passion<note type="footnote">Greg. <foreign
                         xml:lang="grc">πάσχα</foreign>, which the translator has
-                     misunderstood.</note>, the passion<note type="footnote" resp="#ebrooks">Greg.
+                     misunderstood.</note>, the passion<note type="footnote">Greg.
                         <foreign xml:lang="grc">πάσχα</foreign>, which the translator has
                      misunderstood.</note>, and again I say the passion<note type="footnote" n="114">Greg. <foreign xml:lang="grc">πάσχα</foreign>, which the translator has
                      misunderstood.</note>, in honour of the Holy Trinity"<note type="footnote"
-                     n="115" resp="#ebrooks">Or. XLV, 2.</note>; though I know that no other <pb
+                     n="115">Or. XLV, 2.</note>; though I know that no other <pb
                      n="49"/> undertook the saving passion on our behalf in the flesh except God the
                   Word, who became incarnate for our race. For the whole of the saving Humanization
                   has this effect, that the mystery of the Holy Trinity is revealed to us, although
@@ -197,7 +197,7 @@
                   was humanized, but on the three together, the Father, the Son, and the Holy
                   Spirit, indicating that it is by the power of the Cross that we have partaken of
                   all these things and have obtained knowledge in them<note type="footnote" n="116"
-                     resp="#ebrooks">A Greek extract from a letter to John the soldier is published
+                    >A Greek extract from a letter to John the soldier is published
                      in Cramer, Cat. in Act. Apost., p. 136, which from the subject seems to belong
                      to this letter.</note>.</ab>
             </div>

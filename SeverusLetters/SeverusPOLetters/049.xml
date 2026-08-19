@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -130,7 +130,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="49">
+         <div type="work" xml:id="work-49" n="49">
             <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2432">Dioscorus</persName> Patriarch Of
                Alexandria. </head>
             <dateline resp="#ebrooks">
@@ -139,7 +139,7 @@
             <ab>But perhaps it is good to say, both to our people and to all strangers, <pb n="152"/> that, if
                the time of concession call, to catch one who is separated and to gain him, I prescribe a
                formula that does not exceed what is right, but goes in the middle of the king's highway<note
-                  type="footnote" n="421" resp="#ebrooks">Numbers xx, 17; xxi, 22.</note>, a formula which
+                  type="footnote" n="421">Numbers xx, 17; xxi, 22.</note>, a formula which
                anathematizes by name the things done at <placeName>Chalcedon</placeName> against the orthodox faith, and against those
                who contended on behalf of this, and the wicked Tome of <persName>Leo</persName>, who became chief of the church of
                the Romans, and those who call our one Lord and God <persName>Jesus Christ</persName> two natures after the divine
@@ -149,7 +149,7 @@
                of <persName>Leo</persName>, and those who after the union divide the one <persName>Christ</persName> into a duality of natures, are not
                anathematized, though the edict or Henotikon is taken as a rejection of these things, I do not
                consider this sufficient for persuasion, as was also declared in the proceedings<note
-                  type="footnote" n="422" resp="#ebrooks"><foreign xml:lang="grc">πρᾶξις</foreign>.</note> held
+                  type="footnote" n="422"><foreign xml:lang="grc">πρᾶξις</foreign>.</note> held
                among you. <pb n="153"/>
             </ab>
          </div>

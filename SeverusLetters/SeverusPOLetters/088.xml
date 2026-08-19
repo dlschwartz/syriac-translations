@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,28 +155,28 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="88">
+         <div type="work" xml:id="work-88" n="88">
             <head type="main" resp="#compiler">Of the Same From the 69th Letter of the 4th Book of Those
                Apter Banishment, Which Was Addressed to <persName ref="http://syriaca.org/person/2751">Sergius</persName> Bishop of <placeName ref="http://syriaca.org/place/2660">Cyrrhus</placeName><note type="footnote" n="871"
-                  resp="#ebrooks">Select Letters of Severus, v, 15, p. 121, 198; Mansi, VIII, 817; Mich., p.
+                 >Select Letters of Severus, v, 15, p. 121, 198; Mansi, VIII, 817; Mich., p.
                   267.</note>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
             <ab> But, since your saintliness asked with regard to <persName>Enoch</persName> and <persName>Elijah</persName>, of whom one was translated
-               that he should not see death, as the apostle said<note type="footnote" n="872" resp="#ebrooks">Hebrews XI, 5.</note>, <pb n="321"/> while the other was caught up towards heaven, if they will
+               that he should not see death, as the apostle said<note type="footnote" n="872">Hebrews XI, 5.</note>, <pb n="321"/> while the other was caught up towards heaven, if they will
                undergo the common death, it is incumbent upon us to state, in proportion to the small capacity
                which we possess, the things that have reached our comprehension from the teaching of the
                fathers. It is believed therefore according to the testimonies of the divine words that <persName>Enoch</persName>
                was translated, and <persName>Elijah</persName> was caught up towards heaven, and was carried by the air<note
-                  type="footnote" n="873" resp="#ebrooks"><foreign xml:lang="grc">ἀήρ</foreign>.</note>, and that
+                  type="footnote" n="873"><foreign xml:lang="grc">ἀήρ</foreign>.</note>, and that
                they are alive, and that they are in such places as God knows, and that he<note type="footnote"
-                  n="874" resp="#ebrooks">A. v. (M) 'Who'.</note> bestowed upon them such a marvellous
+                  n="874">A. v. (M) 'Who'.</note> bestowed upon them such a marvellous
                translation hence, and that they are in a mortal body, having not yet received the blessing of
                immortality. For let us agree with <persName>Paul</persName> who says generally of all the holy men who pleased God,
                "And all these to whom testimony was borne through faith received not the promises, God having
                foreseen , some better thing for our sakes. that they might not be perfected without us"<note
-                  type="footnote" n="875" resp="#ebrooks">Hebrews XI, 39, 40.</note>. And it is manifest that
+                  type="footnote" n="875">Hebrews XI, 39, 40.</note>. And it is manifest that
                perfection <pb n="322"/> is nothing else except a state of immortality and glory, and
                impassibility, that does not grow old, in the kingdom of heaven. That this is so is confirmed by
                <persName ref="http://syriaca.org/person/573">John</persName> also the wise in the Spirit, who became bishop of <placeName>Constantinople</placeName>, in the 22nd homily of the
@@ -186,12 +186,12 @@
                superfluous for us to inquire into these things. For that the one was translated and the other
                was taken up the Scriptures stated; but where they exist or how they exist they did not go on to
                say; for they do not say anything beyond what is necessary"<note type="footnote" n="876"
-                  resp="#ebrooks">In Ep. ad Heb. Hom, xxii, 8 (ed. Field).</note>. And the same doctor delivered
+                 >In Ep. ad Heb. Hom, xxii, 8 (ed. Field).</note>. And the same doctor delivered
                an expository discourse in <placeName>Constantinople</placeName> in the church of <persName>Marth Anastasia</persName><note type="footnote"
-                  n="877" resp="#ebrooks">In the Greek title it is called the church of <persName>S. Thomas</persName>, and the
+                  n="877">In the Greek title it is called the church of <persName>S. Thomas</persName>, and the
                   biblical citation and the mention of the martyrs are absent.</note> about the saying of the
                apostle who says, "Henceforth, my brethren, be strong in our Lord and in the power of his
-               might"<note type="footnote" n="878" resp="#ebrooks">Ephesians vi, 10.</note>, and, it being the day
+               might"<note type="footnote" n="878">Ephesians vi, 10.</note>, and, it being the day
                of the actual commemoration of the martyrs, and the king <pb n="323"/> having come to the
                martyrs' chapel and withdrawn before the sermon, he delivered a discourse after the king's
                departure, of which the beginning is: "Blessed is God for the greatness of the power of the
@@ -205,7 +205,7 @@
                and did not allow him to die. He did not yet make him immortal, in order that he might not do
                away the fear, but he remains without dying. And he is not immortal; but he gave continuance of
                life in the mortal body, opening up, as I said, obscurely the hope of the resurrection"<note
-                  type="footnote" n="879" resp="#ebrooks">Ed. Par. 2a, XII, 474, 477.</note>. <pb n="324"/>
+                  type="footnote" n="879">Ed. Par. 2a, XII, 474, 477.</note>. <pb n="324"/>
             </ab>
          </div>
       </body>

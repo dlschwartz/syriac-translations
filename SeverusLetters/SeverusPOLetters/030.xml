@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -130,8 +130,8 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="30">
-            <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to the Presbyter <persName ref="http://syriaca.org/person/2433">Victor</persName><note type="footnote" n="219" resp="#ebrooks">S .L., 
+         <div type="work" xml:id="work-30" n="30">
+            <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to the Presbyter <persName ref="http://syriaca.org/person/2433">Victor</persName><note type="footnote" n="219">S .L., 
                p. 154, 474. These references make it probable that the letters to <persName ref="http://syriaca.org/person/2433">Victor</persName> were written soon after episcopacy. See also below, p. 103, 106.</note>, 
                Because Someone When Reading With the Same <persName ref="http://syriaca.org/person/2433">Victor</persName> in the Book of the Same
                Patriarch Said to Him That It Is Not Proper to Say That the Bread Which Is Consecrated Upon The

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -131,7 +131,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="42">
+         <div type="work" xml:id="work-42" n="42">
             <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2769">Theophanes</persName> the
                Scholastic. </head>
             <dateline resp="#ebrooks">
@@ -139,12 +139,12 @@
             </dateline>
             <ab>For that to be devoid of dispensation is a subversal of every action is testified
                also by the text of Proverbs which says thus: "They that have not dispensation fall
-               like leaves"<note type="footnote" n="375" resp="#ebrooks">Proverbs XI, 14.</note>.</ab>
+               like leaves"<note type="footnote" n="375">Proverbs XI, 14.</note>.</ab>
             <ab>
                <supplied reason="ellipsis" resp="#compiler"><emph rend="ital">Of the same, from the
                      same letter.</emph></supplied>
             </ab>
-            <ab>We see that the champion<note type="footnote" n="376" resp="#ebrooks"><foreign
+            <ab>We see that the champion<note type="footnote" n="376"><foreign
                      xml:lang="grc">ἀγωνιστής</foreign>.</note> of the truth also, the man of
                blessed and very beloved memory, <persName>Timothy</persName> archbishop of <placeName>Alexandria</placeName>, walks in the same
                paths, and through the Encyclical letter communicated with <persName>Paul</persName> of <placeName>Ephesus</placeName> and <persName>Peter</persName>
@@ -154,11 +154,11 @@
                foundations, and to show that it had been unanimously condemned, and to free the
                right confession from every evil species of heresy, and from the mist that arises
                therefrom. For all those, inasmuch as they were like Moses faithful servants in all
-               God's house<note type="footnote" n="377" resp="#ebrooks">Hebrews iii, 5. Marg. "For
+               God's house<note type="footnote" n="377">Hebrews iii, 5. Marg. "For
                   all who like <persName>Moses</persName> are faithful in all God's house: but he means one to understand
                   the church".</note>, were instructed in the sacred text of Proverbs which wisely
                teaches and says, "He that dispenseth not his house aright inheriteth winds"<note
-                  type="footnote" n="378" resp="#ebrooks">Proverbs xi, 29.</note>.</ab>
+                  type="footnote" n="378">Proverbs xi, 29.</note>.</ab>
          </div>
       </body>
    </text>

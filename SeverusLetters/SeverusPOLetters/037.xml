@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -131,13 +131,13 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="37">
+         <div type="work" xml:id="work-37" n="37">
             <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2625">Charisius</persName> the Monk,
                The Beginning of Which Is, "It did not escape our smallness". </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab>Who among the orthodox<note type="footnote" n="323" resp="#ebrooks"><foreign
+            <ab>Who among the orthodox<note type="footnote" n="323"><foreign
                      xml:lang="grc">ὀρθόδοξοι</foreign>.</note> would agree that the synod at
                <placeName>Chalcedon</placeName> <pb n="121"/> should be suppressed in conjunction with all the religious
                synods, so that from the silence it might be inferred that it too enjoys equal
@@ -153,10 +153,10 @@
                confession, but not reject the blasphemies with the persons themselves and the words,
                is neither lawful nor conducive to peace. But, even if we be willing to shut our
                eyes, no one among the congregations of the orthodox<note type="footnote" n="324"
-                  resp="#ebrooks"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>, especially
+                 ><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>, especially
                after so much agitation, would agree to such a spurious union, since the apostle
                plainly says, "If anyone preacheth to you outside what ye have received, let him be
-                  anathema"<note type="footnote" n="325" resp="#ebrooks">Galatians i, 9.</note>. What has
+                  anathema"<note type="footnote" n="325">Galatians i, 9.</note>. What has
                thrown the churches into confusion down to the present day is this, the fact that
                those who are in power halt between the two sides, and wish always to please both
                sides.</ab>

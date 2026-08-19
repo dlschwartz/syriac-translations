@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -130,28 +130,28 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="32">
+         <div type="work" xml:id="work-32" n="32">
             <head type="main" resp="#compiler">Of the Same From the Letter to the Orthodox<note
-               type="footnote" n="232" resp="#ebrooks"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+               type="footnote" n="232"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
                Brothers in the City of <placeName ref="http://syriaca.org/place/195">Tyre</placeName>, Which Is Sur. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
             <ab>Since you have thought fit to ask me for what reason <persName ref="http://syriaca.org/person/482">Eutyches</persName> is anathematized, the man of ill
-               name<note type="footnote" n="233" resp="#ebrooks">This represents <foreign xml:lang="grc">δυσώνυμος</foreign> and perh. means 
+               name<note type="footnote" n="233">This represents <foreign xml:lang="grc">δυσώνυμος</foreign> and perh. means 
                   that he was falsely named <persName ref="http://syriaca.org/person/482">Eutyches</persName> (fortunate).</note>
                and impious, and how it is that he was received by <persName ref="http://syriaca.org/person/2432">Dioscorus</persName> of saintly memory, we say in a few
                words that he was <pb n="95"/> received on presenting a document<note type="footnote" n="234"
-                  resp="#ebrooks"><foreign xml:lang="grc">λίβελλον</foreign>.</note> which contained a right
+                 ><foreign xml:lang="grc">λίβελλον</foreign>.</note> which contained a right
                confession of faith and anathematized <persName>Mani</persName> and <persName>Valentine</persName>, and <persName>Apollinaris</persName>, and those who say
                that the flesh of our Lord and God Jesus Christ came down from heaven; to which he further added
                the words that follow (though those who assembled at <placeName>Chalcedon</placeName> interrupted the reading, when the
                things that were written at <placeName>Ephesus</placeName> in the transactions<note type="footnote" n="235"
-                  resp="#ebrooks"><foreign xml:lang="grc">πρᾶξις</foreign>.</note> concerning him were put in),
+                 ><foreign xml:lang="grc">πρᾶξις</foreign>.</note> concerning him were put in),
                that the things which they wished to impute to him were slanders<note type="footnote" n="236"
-                  resp="#ebrooks">Mansi, VI, 633, 639-643.</note>. But the man of ill name seems again to have
-               'returned to his vomit'<note type="footnote" n="237" resp="#ebrooks">2 Peter ii, 22.</note>. And
-               that<damage><supplied resp="#ebrooks">.....</supplied></damage><note type="footnote" n="238" resp="#ebrooks">Here the ms.
+                 >Mansi, VI, 633, 639-643.</note>. But the man of ill name seems again to have
+               'returned to his vomit'<note type="footnote" n="237">2 Peter ii, 22.</note>. And
+               that<damage><supplied resp="#ebrooks">.....</supplied></damage><note type="footnote" n="238">Here the ms.
                   breaks off.</note></ab>
          </div>
       </body>

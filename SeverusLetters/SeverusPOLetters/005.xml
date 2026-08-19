@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -124,7 +124,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="5">
+         <div type="work" xml:id="work-5" n="5">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2585">Eusebius</persName> the
                Scholastic, Which Begins, " Since you have raised objection against me through your letter". </head>
             <dateline resp="#ebrooks">
@@ -134,13 +134,13 @@
                </date>
             </dateline>
             <ab>But now also we will come to what is required, and, we will again say, that 'essence'<note
-               type="footnote" n="62" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>
+               type="footnote" n="62"><foreign xml:lang="grc">οὐσία</foreign>.</note>
                signifies a generality, and 'hypostasis' a particularity, but 'being' and 'nature' introduce
                sometimes a general signification, sometimes a partial or particular one. This is stated on
                account of the varying use that is found in the holy fathers: for you knew both that
-               'essence'<note type="footnote" n="62" resp="#ebrooks"></note> is sometimes employed in the
+               'essence'<note type="footnote" n="62"></note> is sometimes employed in the
                particular signification of 'hypostasis ', and occasionally also <pb n="24"/> 'hypostasis' is
-               found employed in place of 'essence'<note type="footnote" n="63" resp="#ebrooks"><foreign
+               found employed in place of 'essence'<note type="footnote" n="63"><foreign
                   xml:lang="grc">οὐσία</foreign>.</note>. For this reason we decline to use such a signification
                as being unscientific.</ab>
          </div>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,28 +155,28 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="80">
+         <div type="work" xml:id="work-80" n="80">
             <head type="main" resp="#compiler">Of the Same Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2595">Ammonius</persName> the
-               Presbyter of <placeName>Alexandria</placeName><note type="footnote" n="791" resp="#ebrooks">Ep. 38.</note>. </head>
+               Presbyter of <placeName>Alexandria</placeName><note type="footnote" n="791">Ep. 38.</note>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0515" notAfter="0518">515-8</date>
             </dateline>
             <ab> That which you say is staled by <persName>Koheleth</persName>, "There is nothing new under the sun; whosoever
                shall speak and say 'Lo! this is new'; whatever happened is already", and, "All things that are
-               to be lo! they have been already"<note type="footnote" n="792" resp="#ebrooks">Ecclesiastes I, 9, 10;
+               to be lo! they have been already"<note type="footnote" n="792">Ecclesiastes I, 9, 10;
                   iii, 15.</note>, does not apply to everything, but only to those things that belong to the
                weekly circle, and to this limited and temporal life, which revolves upon itself by means of
                nights and days, and blooms and withers by means of birth and death, and to the distraction and
                vanity to which <persName>Adam</persName> was condemned after the disobedience, and the fall from the immaterial and
                blessed life in <placeName>Paradise</placeName>.</ab>
             <ab>But all things that occurred in <persName>Christ</persName> and after <persName>Christ</persName> are the appointed time<note
-               type="footnote" n="793" resp="#ebrooks"><foreign xml:lang="grc">προθεσμία</foreign>.</note> or
+               type="footnote" n="793"><foreign xml:lang="grc">προθεσμία</foreign>.</note> or
                beginnings of that eighth day, and of that new life without evening and without end. Therefore
                also the torments that are applied to those who come afterwards are terrible and beyond
                conception, and such as the <pb n="298"/> previous time did not display. What also shall we in
                fact say, when our Saviour himself cries in the gospel about the things that shall happen in the
                last times, "For there shall be then great tribulation, such as hath not been from the beginning
-               of the world unto now, and shall not be"<note type="footnote" n="794" resp="#ebrooks">Matthew
+               of the world unto now, and shall not be"<note type="footnote" n="794">Matthew
                   xxiv, 21.</note>? Or what solution shall we devise in consideration of the plagues beyond
                conception which <placeName>John</placeName> the son of thunder named, when he had mysteries revealed to him in the
                wonderful revelation? Shall we say that these things also fall under the words of <persName>Koheleth</persName>? But

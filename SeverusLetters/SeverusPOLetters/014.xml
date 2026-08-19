@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -124,10 +124,10 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="14">
+         <div type="work" xml:id="work-14" n="14">
             <head type="main" resp="#compiler">Of the Same From the Solution or Defence in Answer to the 15th
                Question of Those That Were Sent to Him by <persName ref="http://syriaca.org/person/2770">Thomas</persName> His Syncellus<note type="footnote" n="91"
-                  resp="#ebrooks">Perh. the presbyter of Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 37, 166, 182, 383; see ep.
+                 >Perh. the presbyter of Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 37, 166, 182, 383; see ep.
                   17.</note>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
@@ -136,13 +136,13 @@
                truth, to banish the confession that <persName>Christ</persName> is to be recognised as from two natures, and to
                introduce instead the confession that he is to be recognised as in two natures, as the company
                of <persName>Nestorius</persName> desire, to be abominable and also impious, and we will never propound the same
-               teaching (?) as those who, in order to open the gates to the doctrines of <persName>Nestorius</persName>, .....<note type="footnote" n="92" resp="#ebrooks">Some words have fallen
+               teaching (?) as those who, in order to open the gates to the doctrines of <persName>Nestorius</persName>, .....<note type="footnote" n="92">Some words have fallen
                      out.</note> so we also require the opposite, that the one be openly proclaimed, and the other
                completely suppressed and banished in accordance <pb n="37"/> with the laws of the holy church.
                For let the means of remedy be introduced by the same similar drugs as those by which it was
                desired to produce the sickness; and let us not neglect things that are so manifest, and go
                about and pick out, or search as among reeds, and seek if anywhere in the writings of the holy
-               fathers of the orthodox<note type="footnote" n="93" resp="#ebrooks"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note> we occasionally find 'difference' or 'in two' or 'from two'
+               fathers of the orthodox<note type="footnote" n="93"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note> we occasionally find 'difference' or 'in two' or 'from two'
                indiscriminately and incautiously stated. Indeed in the 11th book of the interpretative
                narrative of the Gospel of <persName>John</persName> the holy <persName ref="http://syriaca.org/person/430">Cyril</persName> used the expression 'in two' of the separate
                hypostases as follows: "Everywhere and under all circumstances there will follow and coincide
@@ -150,7 +150,7 @@
                indeed the converse also is true. But, if the statement is true and is unhesitatingly received,
                that the Father is understood together with and enters together with the Son, and the Son also
                with the Father, and the knowledge of each of them runs in the two, how can the Son be a
-               creature, as. some impious men say?"<note type="footnote" n="94" resp="#ebrooks">In Jo. Ev., ed.
+               creature, as. some impious men say?"<note type="footnote" n="94">In Jo. Ev., ed.
                   Pusey, III, p. 13, 14.</note>; even as no one says that the name and fact of division and union
                are the same, as they themselves indeed suppressed the one and stated the other. <pb n="38"/>
             </ab>

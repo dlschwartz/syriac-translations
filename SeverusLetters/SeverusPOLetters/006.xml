@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -124,7 +124,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="6">
+         <div type="work" xml:id="work-6" n="6">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2702">Maron</persName>, of Which The
                Beginning Is, "When <persName>Naaman</persName> the Syrian". </head>
             <dateline resp="#ebrooks">
@@ -133,25 +133,25 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <div type="excerpt"><ab>Enough has, I think, been said about essence<note type="footnote" n="63" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note> and 
+            <div type="excerpt"><ab>Enough has, I think, been said about essence<note type="footnote" n="63"><foreign xml:lang="grc">οὐσία</foreign>.</note> and 
                hypostasis. But the name 'nature' is sometimes taken in place of essence',
                   sometimes in place of hypostasis. For even the whole of mankind we call comprehensively
                   'nature', as it is indeed written: "For all natures of beasts and of birds, and of reptiles and
                   of things that are in the water are subjected and are made subject to human nature"<note
-                     type="footnote" n="64" resp="#ebrooks">James iii, 7.</note>: and again we speak of one nature
+                     type="footnote" n="64">James iii, 7.</note>: and again we speak of one nature
                   in reference to a single man, <persName>Paul</persName> for example or <persName>Peter</persName>, or maybe <persName>James</persName>. Where therefore we
                   name all mankind one nature, we use the name 'nature' generically in place of 'essence'<note
-                     type="footnote" n="63" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>; but,
+                     type="footnote" n="63"><foreign xml:lang="grc">οὐσία</foreign>.</note>; but,
                   where we say that there is one nature of <persName>Paul</persName>, the name 'nature' is employed in place of
                   'individual hypostasis'. So <pb n="25"/> also we call the Holy Trinity one nature, employing
                   the term 'nature' in place of the general designation 'essence'<note type="footnote" n="65"
-                     resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>; as <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian the
+                    ><foreign xml:lang="grc">οὐσία</foreign>.</note>; as <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian the
                   bishop of Nazianzus also said in the sermon on the Holy Pentecost: "Confess the Trinity to be
                   of one Godhead, my friends; or, if you like, of one nature; and we will ask for you from the
                   Spirit the expression 'God'"<note type="footnote" n="66">Or. XLI, 8.</note>. But, when we say
                'one incarnate nature of God the Word', as <persName ref="http://syriaca.org/person/354">Athanasius</persName> the prop of the truth and the apostolic
                   faith said in the books on the Incarnation of the Word<note type="footnote" n="67"
-                     resp="#ebrooks">P. G., XXVIII, 28.</note>, we use 'nature' in place of 'individual
+                    >P. G., XXVIII, 28.</note>, we use 'nature' in place of 'individual
                   designation', denoting the one hypostasis of the Word himself, like that of <persName>Peter</persName> also or of
                   <persName>Paul</persName>, or of any other single man. Wherefore also, when we say 'one nature which became
                   incarnate', we do not say it absolutely, but by adding 'one nature of the Word himself clearly
@@ -159,17 +159,17 @@
                   use the name 'nature' in place of 'individual designation', saying that the Word of God is one
                   nature, and the man as they say from <persName>Mary</persName> another. For they do not reach such a height of
                   fatuity as to say that they are using the name 'natures' in place <pb n="26"/> of 'general
-                  designation', I mean in the same sense as essence<note type="footnote" n="68" resp="#ebrooks"><foreign xml:lang="grc">οὐσία</foreign>.</note>: for, if the Holy Trinity is one nature, and
+                  designation', I mean in the same sense as essence<note type="footnote" n="68"><foreign xml:lang="grc">οὐσία</foreign>.</note>: for, if the Holy Trinity is one nature, and
                   all mankind one nature, in the same sense as anything which is shown to be so on this
                   principle, the Holy Trinity will be found (to say a very absurd thing) to have become incarnate
                   in all mankind, that is the human race.</ab></div>
             <div type="excerpt">
                <head type="excerpt" resp="#compiler">Of the same, from the letter to <persName ref="http://syriaca.org/person/2702">Maron</persName>, which begins, "When
                   Naaman the Syrian".</head>
-               <ab>But the Holy Scriptures instruct<note type="footnote" n="69" resp="#ebrooks">Lit. 'initiate',
+               <ab>But the Holy Scriptures instruct<note type="footnote" n="69">Lit. 'initiate',
                   rendering <foreign xml:lang="grc">μυοῦσι</foreign> or <foreign xml:lang="grc">μυσταγωγοῦσι</foreign>.</note> us otherwise, teaching us that God the Word one only of the
                   three hypostases became incarnate and humanized. For 'the Word became flesh, and dwelt in
-                  us'<note type="footnote" n="70" resp="#ebrooks">John i, 14.</note>.</ab>
+                  us'<note type="footnote" n="70">John i, 14.</note>.</ab>
             </div>
             <div type="excerpt">
                <head type="excerpt" resp="#compiler">Of the same, from the letter to <persName ref="http://syriaca.org/person/2702">Maron</persName> the reader, which
@@ -184,7 +184,7 @@
                   invented, as if they were truth, and flee to their mothers' bosoms. If on account of the
                   blasphemies contained in the opinions of those men we yield to them words and names which
                   establish the truth, together with the sound of the words the great mystery of religion<note
-                     type="footnote" n="71" resp="#ebrooks">1 Timothy iii, 16.</note> goes from us. But, if we be
+                     type="footnote" n="71">1 Timothy iii, 16.</note> goes from us. But, if we be
                   right-minded, we shall both religiously hold to the words and cast out the foul opinions as
                   evil speaking.</ab>
             </div>

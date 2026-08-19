@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -132,8 +132,8 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="26">
-            <head type="main" resp="#compiler">Of the Same, From the Letter to <persName ref="http://syriaca.org/person/2427">John</persName> and <persName ref="http://syriaca.org/person/2428">John</persName> and <persName ref="http://syriaca.org/person/2764">Theodore</persName><note type="footnote" n="189" resp="#ebrooks">Perh. 
+         <div type="work" xml:id="work-26" n="26">
+            <head type="main" resp="#compiler">Of the Same, From the Letter to <persName ref="http://syriaca.org/person/2427">John</persName> and <persName ref="http://syriaca.org/person/2428">John</persName> and <persName ref="http://syriaca.org/person/2764">Theodore</persName><note type="footnote" n="189">Perh. 
                the archimandrite of the monastery of <persName>Romanus</persName> (Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, i, 55), who may have been <persName ref="http://syriaca.org/person/51">Severus</persName>' representative in 
                <placeName>Palestine</placeName>, where there was no monophysite patriarch (cf. Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 148). For <persName ref="http://syriaca.org/person/2427">John</persName> and <persName ref="http://syriaca.org/person/2428">John</persName> see ep. 22.</note> 
                the Archimandrites. </head>

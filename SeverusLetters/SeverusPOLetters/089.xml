@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -154,18 +154,18 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="89">
+         <div type="work" xml:id="work-89" n="89">
             <head type="main" resp="#compiler">Of Mar <persName ref="http://syriaca.org/person/51">Severus</persName> to <persName ref="http://syriaca.org/person/2594">Ammonius</persName> the Scholastic of <placeName ref="http://syriaca.org/place/40">Bostra</placeName>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
             <ab> For <persName>Paul</persName> says, " [Those who sinned without the law] shall also perish without the
                law; [and] those who sinned in the law shall also be judged in the law."<note
-                  type="footnote" n="880" resp="#ebrooks">Romans 2:12.</note><damage><supplied
+                  type="footnote" n="880">Romans 2:12.</note><damage><supplied
                      resp="#ebrooks">.......</supplied></damage>every created thing<damage><supplied resp="#ebrooks">.......</supplied></damage>good and evil who are creatures and a rational soul<damage><supplied resp="#ebrooks">....................</supplied></damage> 'shall stand before the judgment-seat of
                   Christ'<note type="footnote" n="881">Romans 14:10.</note><damage><supplied
                      resp="#ebrooks">..............</supplied></damage> [shall give account]<note
-                  type="footnote" n="882" resp="#ebrooks">This is the sense required.</note> for all
+                  type="footnote" n="882">This is the sense required.</note> for all
                the contempt and<damage><supplied resp="#ebrooks"
                   >................</supplied></damage> renounced the recognition of
                      God<damage><supplied resp="#ebrooks">....................</supplied></damage>
@@ -188,11 +188,11 @@
                [generations] permitted all nations to go [their own] ways; and that without [leaving
                himself] without witness, in that he did good, since from heaven [itself] he gave
                them [rains and] fruitful [seasons], filling their own [hearts] with food and
-                  gladness"<note type="footnote" n="883" resp="#ebrooks">Acts xiv, 15.17.</note><damage><supplied resp="#ebrooks"
+                  gladness"<note type="footnote" n="883">Acts xiv, 15.17.</note><damage><supplied resp="#ebrooks"
                         >...............................</supplied></damage>
                <pb n="326"/> performed unlawful deeds, and from lack of perception did not know
                their own Maker, shall be bereft of this grace<note type="footnote" n="884"
-                  resp="#ebrooks">A Greek extract from a letter to A. the scholastic is published in
+                 >A Greek extract from a letter to A. the scholastic is published in
                   S. V. N. G., I, ii, 177.</note>.</ab>
          </div>
       </body>

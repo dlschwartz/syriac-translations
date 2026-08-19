@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,7 +155,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="97">
+         <div type="work" xml:id="work-97" n="97">
             <head type="main" resp="#compiler">Of the Same From the 74th Letter. Of the 3rd Book of Those
                After Exile Which Was Addressed to <persName ref="http://syriaca.org/person/2620">Caesaria</persName> the <placeName>Hypatissa</placeName> Which Begins, "The various
                communications addressed to me by your highness". </head>
@@ -163,20 +163,20 @@
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
             <ab> And the other thing also which you ask is a question of the Phantasiasts<note type="footnote"
-               resp="#ebrooks"><foreign xml:lang="grc">φαντασιασταί</foreign></note> who hold the opinions of
+              ><foreign xml:lang="grc">φαντασιασταί</foreign></note> who hold the opinions of
                the Manichees, since they think that they are propounding and saying something against which it
                is impossible to argue: "If our Lord underwent the circumcision required by the law, 'when', as
                the gospel says, 'eight days were accomplished for circumcising him, and his name was called
-               <persName>Jesus</persName>'<note type="footnote" n="965" resp="#ebrooks">Luke II, 21.</note>, what happened to his
+               <persName>Jesus</persName>'<note type="footnote" n="965">Luke II, 21.</note>, what happened to his
                foreskin?"; for those wretched men think that they are driving us into a corner, and do not
                understand that it would be an act of their own godless lack of intelligence <pb n="365"/> for
                us to refuse to acknowledge things that are written on account of things that are not written.
                It is not the gospel only which testifies through these words which have been cited that <persName>Christ</persName>
                was circumcised according to the law, but <persName>Paul</persName> also, who in writing to the <persName>Romans</persName> says, "For I
                say that <persName>Christ</persName> became a minister of circumcision on behalf of the truth of God, that he might
-               confirm the promises made to the fathers"<note type="footnote" n="966" resp="#ebrooks">Romans xv,
+               confirm the promises made to the fathers"<note type="footnote" n="966">Romans xv,
                   8.</note>. For to <persName>Abraham</persName> and <persName>Isaac</persName> and <persName>Jacob</persName> our fathers both the covenant<note
-                     type="footnote" resp="#ebrooks"><foreign xml:lang="grc">διαθήκη</foreign>.</note> of
+                     type="footnote"><foreign xml:lang="grc">διαθήκη</foreign>.</note> of
                circumcision was given, and the promise was made, "In thy seed shall all the families of the
                nations be blessed"<note type="footnote" n="967">Genesis xxii, 18; xxvi, 4; xxviii, 14.</note>; for
                <persName>Christ</persName> was their seed. Therefore also in writing the epistle to the <persName>Galatians</persName> he says, "But to
@@ -188,42 +188,42 @@
                and so he caught all the nations by faith in him and made them <persName>Abraham</persName>'s sons. Since therefore
                the God-inspired Scripture says that he was circumcised in reality, who is he who presumes to
                say that he did not undergo circumcision? a thing which those who teach the phantasy<note
-                  type="footnote" n="969" resp="#ebrooks"><foreign xml:lang="grc">φαντασία</foreign>.</note> seek
+                  type="footnote" n="969"><foreign xml:lang="grc">φαντασία</foreign>.</note> seek
                to deny along with the other things. Because nothing is written about the portion of himself
                that was cut off (I refer to the foreskin), we will not therefore refrain from confessing that
                he was circumcised in reality, he who said, "For so it becometh us to fulfil all justice"<note
-                  type="footnote" n="970" resp="#ebrooks">Matthew iii, 15.</note>, and was in everything made like
-               unto us except sin<note type="footnote" n="971" resp="#ebrooks">Hebrews ii, 17; IV, 15.</note>.
+                  type="footnote" n="970">Matthew iii, 15.</note>, and was in everything made like
+               unto us except sin<note type="footnote" n="971">Hebrews ii, 17; IV, 15.</note>.
                Perhaps indeed some God-befitting miracle was performed with regard to the portion that was cut
                off, which Scripture left unknown to us; and for us to guess about unknown matters is a thing of
-               great danger<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc">κίνδυνος</foreign></note>. But what <pb n="367"/> is assuredly already known is this, that,
+               great danger<note type="footnote"><foreign xml:lang="grc">κίνδυνος</foreign></note>. But what <pb n="367"/> is assuredly already known is this, that,
                when he rose from the dead, he took that also, inasmuch as it is a portion of the whole body,
                and he preserved it with this without corruption according to ineffable methods which he
                understands. For we also shall receive our own body complete at the resurrection, not carrying
                the diminution caused by sores or other injuries, but whole and perfect. It is a good thing to
                ask the impious men, who think that by such questions they frighten those who believe rightly,
-               so as to reduce us not to acknowledge<note type="footnote" n="972" resp="#ebrooks">A.v. (K) 'and
+               so as to reduce us not to acknowledge<note type="footnote" n="972">A.v. (K) 'and
                   they will be caught not acknowledging'.</note> that our Lord suffered real sufferings in the
                body, what they themselves say about the blood which came out from the pure rib mixed with
                water. Did it reach the earth? For this also is <pb n="368"/> not declared by the holy Scripture
                of the gospel. But let them themselves be frightened by the fear of loss; and it is consistent
                for them to say that the blood was poured, out in semblance only, and did not flow in reality.
                But <persName>John</persName>, who became bishop of <placeName>Constantinople</placeName> and was a preacher of the true dispensation with
-               boldness<note type="footnote" resp="#ebrooks"><foreign xml:lang="grc">παρρησία</foreign>.</note>, in the homily entitled 'Concerning the cross and concerning the
+               boldness<note type="footnote"><foreign xml:lang="grc">παρρησία</foreign>.</note>, in the homily entitled 'Concerning the cross and concerning the
                robber, and concerning the fact that we should frequently pray for enemies' was not frightened
                by the fear of these impious men, but said that the blood dropped upon the earth and purified
                the whole of it, inasmuch as he wrote thus: "But why is he slaughtered at the height of the
                tree, and not under a roof? In order to purify the nature of the air, therefore it is done high
                up, without a roof above him, but heaven. For <pb n="369"/> the air was purified by the sheep
                being sacrificed high up. But the earth also was purified; for the blood dropped from the rib
-               upon it"<note type="footnote" n="973" resp="#ebrooks">Ed. Par. 2a, II. 477.</note>. Accordingly
+               upon it"<note type="footnote" n="973">Ed. Par. 2a, II. 477.</note>. Accordingly
                therefore, if on this analogy the foreskin that was cut off touched the earth, it assuredly also
                sanctified it, and by methods which he himself understands who was voluntarily circumcised, he
                assuredly, as I said before, preserved it; and at the time of the Resurrection he rose with the
                whole body complete and without corruption, having this portion also undiminished, although he
                showed the scars of the nails and the lance; with which he will also appear to those who pierced
                him, according to the unerring words of the God-inspired Scripture<note type="footnote" n="974"
-                  resp="#ebrooks">John, xix, 37.</note>. </ab>
+                 >John, xix, 37.</note>. </ab>
          </div>
       </body>
    </text>

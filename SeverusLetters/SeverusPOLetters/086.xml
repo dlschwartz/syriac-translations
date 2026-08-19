@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,10 +155,10 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="86">
+         <div type="work" xml:id="work-86" n="86">
             <head type="main" resp="#compiler">Of the Same From the 70th Letter of the 6th Book of Those
                Written After Banishment, Which Was Addressed to <persName ref="http://syriaca.org/person/2748">Sergius</persName> the Count and archiatros<note
-                  type="footnote" n="856" resp="#ebrooks">This extract to 'honour' (317, I. ult.) is published in
+                  type="footnote" n="856">This extract to 'honour' (317, I. ult.) is published in
                   Greek in Cramer, Cat. in Luc. et Jo., p. 407, where it begins: <foreign xml:lang="grc">Σ. πρὸς
                      Σεργ. ἀρχιεπίσκοπον <foreign xml:lang="en">(sic)</foreign> ἐπιστολῆς. Τὸ δὲ τοὺς περ #correct
                      transcription still needed# μετὰ τὴν ἀνάστασιν ἐπιφανέντος αὐτοῖς τοῦ Θ. κ. Σωτῆρος ἡμῶν Ι. Χ.
@@ -169,7 +169,7 @@
             <ab> As to the fact that our Lord and God <persName>Jesus Christ</persName> appeared after the Resurrection to <persName>Peter</persName>
                and <persName>John</persName> and their companions, and commanded them to cast the net on the right side of the ship,
                and to catch a multitude of great fish, making up the number of 153, I say in brief language
-               that its meaning <pb n="317"/> is this<note type="footnote" n="857" resp="#ebrooks">Greek: <foreign
+               that its meaning <pb n="317"/> is this<note type="footnote" n="857">Greek: <foreign
                   xml:lang="grc">ὡς ἐν βραχεῖ φρᾶσαι ταύτην ἔχει τὴν ἄπλωσιν</foreign><!-- CHECK TRANSCRIPTION -->.</note>. 
                The gospel related that that night after toiling greatly they caught nothing whatever;
                and this narrative, when transferred to spiritual and suprasensual sublimity, suggests to us
@@ -181,16 +181,16 @@
                men, and for this reason had the right side allotted to it. For <persName>Moses</persName> and the prophets, when
                they let down the fishing-net, during the past night, caught the people of <placeName>Israel</placeName> only, while
                these often jumped out of the net and served demons, and the present state is understood to be
-               the same as if they had not been caught<note type="footnote" n="859" resp="#ebrooks">Gr.
+               the same as if they had not been caught<note type="footnote" n="859">Gr.
                   <foreign xml:lang="grc">ἐν ἴσῳ τοῦ μηδὲ τεθηρᾶσθαι το παράπαν νοούμενον</foreign>.</note>.
-               Wherefore, also they<note type="footnote" n="860" resp="#ebrooks">Sc. <persName>Moses</persName> and the
+               Wherefore, also they<note type="footnote" n="860">Sc. <persName>Moses</persName> and the
                   prophets.</note> left for the apostles the most honourable place on the right, while they
                themselves occupied the left station, which according to our custom is inferior in honour. But
                in respect of the fish which were caught the number 100 shows the great <pb n="318"/> multitude
                from the nations who were caught by the proclamation of the gospel; and, when <placeName>Israel</placeName> did not
                succeed, the teaching of the gospel seized that which is perfect;for the number 100 is perfect,
                being composed of 10 times 10. Wherefore also our Saviour likened all rational creation to 100
-               sheep, saying that 99<note type="footnote" n="861" resp="#ebrooks">Matthew xviii, 12. Here the
+               sheep, saying that 99<note type="footnote" n="861">Matthew xviii, 12. Here the
                   ms. breaks off.</note><damage><supplied resp="#ebrooks">............</supplied></damage></ab>
          </div>
       </body>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,26 +155,26 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="115">
+         <div type="work" xml:id="work-115" n="115">
             <head type="main" resp="#compiler">Of Mar <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2478">Heracliana</persName><note
-               type="footnote" n="1161" resp="#ebrooks">Deaconess and archimandritess (Select Letters of
+               type="footnote" n="1161">Deaconess and archimandritess (Select Letters of
                Severus, p. 214, 215).</note>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0525">519-25</date>
             </dateline>
-            <ab> But <persName>Isaiah</persName><note type="footnote" n="1162" resp="#ebrooks">This passage to 'distresses' is
+            <ab> But <persName>Isaiah</persName><note type="footnote" n="1162">This passage to 'distresses' is
                published in Greek in S. V. N. G., IX, 729; but the words from 'in that' to the end of the
                citation following are there omitted, and the text is thereby rendered meaningless.</note> also
                the prophet, beholding beforehand with foreseeing eyes the holy order of the monks, who take
                upon themselves the voluntary distresses for the sake of the law of the Lord, said that their
                tribulation was offered to God in place of sacrifices and offerings, in that he wrote thus: "At
                that time there shall come up offerings to the Lord of Sabaoth from a people distressed and
-               plucked"<note type="footnote" n="1163" resp="#ebrooks">Isaiah xviii, 7.</note>. But the word
-               'plucked'<note type="footnote" resp="#ebrooks">Read therefore <foreign xml:lang="grc">τετιλμένου</foreign>for <foreign xml:lang="grc">τετιμημένου</foreign>in the Greek.</note>
+               plucked"<note type="footnote" n="1163">Isaiah xviii, 7.</note>. But the word
+               'plucked'<note type="footnote">Read therefore <foreign xml:lang="grc">τετιλμένου</foreign>for <foreign xml:lang="grc">τετιμημένου</foreign>in the Greek.</note>
                shows the abundance of the distresses; for, if one grasp the hair of a man's head, and pluck
                this out by force, one causes him intolerable pain and injury. Wherefore also the great <persName>Job</persName> too,
                when he wished to show the abundance of his own pains, said, "Having grasped me by my locks he
-               tore" (or "plucked") "me"<note type="footnote" n="1164" resp="#ebrooks">Job, xvi, 13.</note>.
+               tore" (or "plucked") "me"<note type="footnote" n="1164">Job, xvi, 13.</note>.
                Accordingly therefore, since you have been marked for such a life, you ought to have souls ready
                and prepared for every trial that is thought to be hard. <pb n="451"/>
             </ab>

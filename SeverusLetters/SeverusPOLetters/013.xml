@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -124,9 +124,9 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="13">
+         <div type="work" xml:id="work-13" n="13">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2546">Estorechius</persName> (?)<note
-               type="footnote" n="89" resp="#ebrooks"><persName ref="http://syriaca.org/person/2546">Entrechius</persName> is meant (Select Letters of Severus, 1, 13;
+               type="footnote" n="89"><persName ref="http://syriaca.org/person/2546">Entrechius</persName> is meant (Select Letters of Severus, 1, 13;
                vi, 1; p. 407, 408).</note> Bishop of Anazarba, About the Disputation That Took Place in The
                Royal City, From Those Before Episcopacy, When He Was Speaking Against Macedonius Bishop Of
                Constantinople. </head>
@@ -135,7 +135,7 @@
             </dateline>
             <ab>But know that the great Basil did not call <persName>Christ</persName> a God-clad man (far <pb n="36"/> be it!),
                but called <persName>Christ</persName>'s flesh God-clad flesh. But the same immediately afterwards termed the same
-               flesh <persName>Christ</persName>-clad<note type="footnote" n="90" resp="#ebrooks">Ep. 261, 2. Migne's text has
+               flesh <persName>Christ</persName>-clad<note type="footnote" n="90">Ep. 261, 2. Migne's text has
                   <foreign xml:lang="grc">θεοφόρος</foreign> in both places, with <foreign xml:lang="grc">χριστοφόρος</foreign> as a variant in the second.</note>. But if the expression 'God-clad'
                and '<persName>Christ</persName>-clad' is the same, the conclusion is that <persName>Christ</persName> the Word who became incarnate and
                was humanized for our sakes is true God, not a God-clad man.</ab>

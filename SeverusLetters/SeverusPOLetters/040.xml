@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -130,10 +130,10 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="40">
+         <div type="work" xml:id="work-40" n="40">
             <head type="main" resp="#compiler">Of the Same From the Letter to the Inmates of the Convent Of
                the House of Mar Bassus, Which Was Written on the Subject of Names<note type="footnote" n="363"
-                  resp="#ebrooks">The letters on this subject may be presumed to have been written about the same
+                 >The letters on this subject may be presumed to have been written about the same
                   time, and the date is fixed by ep. 45 and 46, which were written while <persName>Dioscorus</persName> was patriarch
                   of <placeName>Alexandria</placeName>.</note>. </head>
             <dateline resp="#ebrooks">

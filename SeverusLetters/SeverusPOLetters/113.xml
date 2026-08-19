@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,21 +155,21 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="113">
+         <div type="work" xml:id="work-113" n="113">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/3788">Zacharias</persName><note
-               type="footnote" n="1155" resp="#ebrooks">This may be either the biographer of <persName ref="http://syriaca.org/person/51">Severus</persName> or Z. of
+               type="footnote" n="1155">This may be either the biographer of <persName ref="http://syriaca.org/person/51">Severus</persName> or Z. of
                Pelusium (Select Letters of Severus, IV., 1).</note>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
             <ab> God said to <persName>Moses</persName>, "Choose thee seventy old men and I will take of thy spirit and lay it upon
-               them"<note type="footnote" n="1156" resp="#ebrooks">Numbers xi, 16, 17.</note>. And the God of all
+               them"<note type="footnote" n="1156">Numbers xi, 16, 17.</note>. And the God of all
                said and did these things by way of giving instruction and teaching in the direction of humility
                (for the gifts of the Spirit are not scanty or defective), and it was not because he took away
                some of the spirit that was upon <persName>Moses</persName> that he filled others with this. For the whole of it was
                both with the recipients and with him, just as one may also see in the nature of fire. When a
                man has lighted several <pb n="448"/> torches from one torch<note type="footnote"
-                  resp="#ebrooks"><foreign xml:lang="grc">λαμπάδα</foreign>.</note>, he has not diminished the
+                 ><foreign xml:lang="grc">λαμπάδα</foreign>.</note>, he has not diminished the
                one, and yet has from it caused many to be in equal honour. For the grace that was upon <persName>Moses</persName>
                appeared as it were to be darkened by the fact that the seventy shared in the same honour and
                prophesied in the Spirit. But this type was fulfilled by the future; for, when after the coming

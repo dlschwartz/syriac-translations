@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/translations-app/refs/heads/main/documentation/schema/out/translations.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -155,7 +155,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="102">
+         <div type="work" xml:id="work-102" n="102">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Words Written to <persName ref="http://syriaca.org/person/2620">Caesaria</persName>
                the Patrician.</head>
             <dateline resp="#ebrooks">
@@ -167,7 +167,7 @@
                withdrawing outside the world. But, if, when a man is named a brother, that is one who has the
                same spirit of adoption with us and is judged among the sons of faith, he fall away to idolatry
                or any such abominable thing, with such a one it is good for us not even to eat<note
-                  type="footnote" n="1102" resp="#ebrooks">1 Corinthians v; 10-12.</note>. Otherwise, by disregarding
+                  type="footnote" n="1102">1 Corinthians v; 10-12.</note>. Otherwise, by disregarding
                foul behaviour of such a kind we fall under God's judgment.</ab>
          </div>
       </body>
