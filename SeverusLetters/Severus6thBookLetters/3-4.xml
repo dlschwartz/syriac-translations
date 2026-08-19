@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,24 +98,22 @@
   <text>
       <body>
          <div type="work" xml:id="work-3.4" n="3.4">
-            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2620">Caesaria</persName> the patrician.<note n="1">Cf. Land., Anec. Syr. ii. 264 ff. This letter seems to have been
-               written at the end of Cresaria's life; and, as at the time of x 7, written
-               during exile, she had not yet entered the convent in which she lived
-               15 years (Land., p. 267 ), it should probably be placed not earlier than
-               533.</note></head>
-            <head type="sub" resp="#compiler">From those after banishment, from the 8th book the 54th<note n="2">B '44th.'</note>
+        <div type="section" xml:id="section-3.4">
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2620">Caesaria</persName> the patrician.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+          </head>
+            <head type="sub" resp="#compiler">From those after banishment, from the 8th book the 54th<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
                letter.</head>
-            <ab> May our Lord <persName>Jesus Christ</persName> the great God and our Saviour rebuke the spirit of
-               infirmity, as is written in <pb n="245"/> Luke<note n="3">Luke 4:39.</note>, and free your glorious modesty from
+            <ab xml:id="section-3.4.1" n="1"> May our Lord <persName>Jesus Christ</persName> the great God and our Saviour rebuke the spirit of
+               infirmity, as is written in <pb n="245"/> Luke<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, and free your glorious modesty from
                this long trouble (for it is He who chastises and slays not, and smites and heals, as
-               the divine Scripture teaches<note n="4">Psalms 117:18; Deuteronomy 32:39.</note>), and render you sound and strong. This is our prayer
+               the divine Scripture teaches<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>), and render you sound and strong. This is our prayer
                by night and day and at all times, as God knows who hears us when we entreat: and we
-               believe that He will complete His mercy towards you.<note n="5">Masc. pl.</note> Since you also ask<note n="6">Masc. pl.</note> for the
-               communion, and say that you have not communicated<note n="7">Masc. pl.</note> all this long time, see! we have
-               now sent you<note n="8">Masc. pl.</note> this also, conceding on account of your infirmity a thing that is
-               against the strictness of the sacred ordinances. But henceforth we beg you,<note n="9">Masc. pl.</note> and we
-               adjure you<note n="10">Masc. pl.</note> by the divine power, and by <persName>Christ</persName>'s infallible tribunal, before which we
-               shall all stand, not to meditate,<note n="11">Masc. pl.</note> not to say do, anything of the kind again. It is a
+               believe that He will complete His mercy towards you.<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> Since you also ask<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> for the
+               communion, and say that you have not communicated<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> all this long time, see! we have
+               now sent you<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> this also, conceding on account of your infirmity a thing that is
+               against the strictness of the sacred ordinances. But henceforth we beg you,<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> and we
+               adjure you<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> by the divine power, and by <persName>Christ</persName>'s infallible tribunal, before which we
+               shall all stand, not to meditate,<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> not to say do, anything of the kind again. It is a
                great and unpardonable sin that, when the faith of the orthodox priests is one, a man
                should take the holy and reverend communion from this one, and not take it from that.
                For it is <persName>Christ</persName> Himself and His mysterious words which are pronounced over the bread
@@ -120,14 +122,14 @@
                the Old and of the New Testament, and by those who at different times fed the
                churches in an approved manner: the transgression of whose precepts brings great
                danger upon him who transgresses them: from which may <pb n="246"/> God deliver both
-               you and our poor self! In the case of the religious deacon <persName ref="http://syriaca.org/person/2558">Misael</persName> also,<note n="12">lll. 3.</note> as well as
+               you and our poor self! In the case of the religious deacon <persName ref="http://syriaca.org/person/2558">Misael</persName> also,<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> as well as
                the Christ-loving brothers <persName ref="http://syriaca.org/person/2593">Ammian</persName> and <persName ref="http://syriaca.org/person/2642">Epagathus</persName>, who about two years ago sent me a
                box and asked to have it filled full for them with the communion or holy oblation, I
                did not fall in with the impiety and superfluity of the request, writing as follows:
                [Here follows a citation from ep. 2, extending from 'But, when you enjoy' (p. 234
                l.17) to the end]. But it is incumbent upon us to lay down as a law concerning these
                things the utterances of <persName>Gregory</persName> the teacher of truth which we have mentioned, the
-               actual words<note n="13"><foreign xml:lang="grc">λέχεις</foreign>.</note> of which are as follows: [Here follows the extract from Greg. Naz. given
+               actual words<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> of which are as follows: [Here follows the extract from Greg. Naz. given
                on p. 242 ff.]. If therefore both the divine laws of the sacred Scripture and the
                precepts of the saintly fathers and teachers give these commands, how is it not
                manifest breach of the law for a man to say, "I will not consent to partake of any
@@ -145,7 +147,7 @@
                their commandments, says these words: "Let every soul be subject to higher powers,
                for there is no power that is not from God: and those that exist are appointed by
                God. Whoever therefore opposeth the power opposeth the commandment of God. And those
-               that oppose them shall receive judgment."<note n="14">Romans 13:1,2.</note> If these words apply to political or
+               that oppose them shall receive judgment."<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> If these words apply to political or
                military powers, how great will be the condemnation of those. that oppose the rulers
                of the holy church and their ordinances! For the difference and distinction is as
                great as between heavenly and earthly things. Withdraw therefore and dissociate
@@ -167,7 +169,7 @@
                have been consummated by so-and-so." Hear also what the legal commandment says: "But,
                if her father dissent in the day on which he heard her vows and decrees which she
                decreed against her soul, they shall not stand. And the Lord shall absolve her,
-               because her father dissented."<note n="15">Numbers 30:6.</note> Do not therefore seek to accomplish in fact the things
+               because her father dissented."<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> Do not therefore seek to accomplish in fact the things
                which you decreed, but which the father resisted and disowned; and the Lord will
                absolve you, and will free you from al! sickness of soul and of body, and will grant
                you power to follow His laws in all things, and to impute divine things, as divine
@@ -178,11 +180,35 @@
                twelve years, and had spent all her wealth on physicians, and like her draw near to
                <persName>Jesus</persName>, and, as <persName>Mark the Evangelist</persName> says, tell Him as God the whole case and the
                truth. If you do this in a pure fashion He will assuredly say to you, "My daughter,
-               thy faith hath saved thee: go in peace, and be whole of thy plague."<note n="16">Mark 5:33,34.</note> Such illnesses
+               thy faith hath saved thee: go in peace, and be whole of thy plague."<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> Such illnesses
                need only the divine working in order to be healed, and this right-minded souls draw
                upon themselves in its entirety by confessing the sins that they have committed. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Cf. Land., Anec. Syr. ii. 264 ff. This letter seems to have been
+               written at the end of Cresaria's life; and, as at the time of x 7, written
+               during exile, she had not yet entered the convent in which she lived
+               15 years (Land., p. 267 ), it should probably be placed not earlier than
+               533.</note>
+        <note xml:id="n2" target="#a2" n="2">B '44th.'</note>
+        <note xml:id="n3" target="#a3" n="3">Luke 4:39.</note>
+        <note xml:id="n4" target="#a4" n="4">Psalms 117:18; Deuteronomy 32:39.</note>
+        <note xml:id="n5" target="#a5" n="5">Masc. pl.</note>
+        <note xml:id="n6" target="#a6" n="6">Masc. pl.</note>
+        <note xml:id="n7" target="#a7" n="7">Masc. pl.</note>
+        <note xml:id="n8" target="#a8" n="8">Masc. pl.</note>
+        <note xml:id="n9" target="#a9" n="9">Masc. pl.</note>
+        <note xml:id="n10" target="#a10" n="10">Masc. pl.</note>
+        <note xml:id="n11" target="#a11" n="11">Masc. pl.</note>
+        <note xml:id="n12" target="#a12" n="12">lll. 3.</note>
+        <note xml:id="n13" target="#a13" n="13">
+          <foreign xml:lang="grc">λέχεις</foreign>.</note>
+        <note xml:id="n14" target="#a14" n="14">Romans 13:1,2.</note>
+        <note xml:id="n15" target="#a15" n="15">Numbers 30:6.</note>
+        <note xml:id="n16" target="#a16" n="16">Mark 5:33,34.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

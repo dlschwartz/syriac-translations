@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,11 +98,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.14" n="1.14">
+        <div type="section" xml:id="section-1.14">
             <pb n="57"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2552">Antiochus</persName>, bishop of <placeName ref="http://syriaca.org/place/3055">Berrhoea</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 4th book the 65th
                letter.</head>
-            <ab> We were glad to see even the illustrious tribune <persName ref="http://syriaca.org/person/2552">Antiochus</persName> inasmuch as he came from
+            <ab xml:id="section-1.14.1" n="1"> We were glad to see even the illustrious tribune <persName ref="http://syriaca.org/person/2552">Antiochus</persName> inasmuch as he came from
                you, and we encouraged him to converse constantly with us, and to ask for everything
                that is in our power, and is for the spiritual assistance of your love of God. And we
                praised him to the God-loving bishop <persName ref="http://syriaca.org/person/2587">Thomas</persName>, and, although we are sinful and vile, we
@@ -106,18 +111,17 @@
                mistake in the address of the letters did not fall into the error without some divine
                providence. For this showed clearly that the two of us are wrapped up in one another,
                being joined together by the love that is in <persName>Christ</persName>, and that we have all things
-               common according to the commandment,<note n="1">Acts 4:32(?).</note> and have nothing of our own. Know however that
+               common according to the commandment,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and have nothing of our own. Know however that
                the letter which properly belonged to you but was addressed to us we have not yet
                received. As to the ordination at <placeName ref="http://syriaca.org/place/162">Chalcis</placeName> (I call the truth to bear witness to my
                words) no letter has come to us, or any information or indication. But, if you have
                in a philosophic manner been brought to a state of exasperation on account of the
                things that have happened among you, there is no cause for wonder: since this also is
-               proper to the orderliness of your habits and to your discretion, which allots all <pb
-                  n="58"/> things to the times suited for them. But, since we know that your
+               proper to the orderliness of your habits and to your discretion, which allots all <pb n="58"/> things to the times suited for them. But, since we know that your
                holiness delights in words of admonition, and that you are eager to amass all things
                that conduce to the salvation of the soul and the acquisition of divine wisdom (for
-               it is written, "The ear that heareth the reproof of life shall dwell among the wise,"<note n="2">Proverbs 15:31 (Hex.).</note>
-               and, "He that keepeth reproof loveth his soul"<note n="3">Proverbs 16:3.</note>), we say with boldness the things
+               it is written, "The ear that heareth the reproof of life shall dwell among the wise,"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
+               and, "He that keepeth reproof loveth his soul"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>), we say with boldness the things
                that seem to us to be right. You also were not ignorant that those who managed <persName ref="http://syriaca.org/person/2554">Simeon</persName>
                whose soul is at rest (for he did not rule himself but was ruled by others) performed
                no sacred or ecclesiastical action except for money or under the influence of
@@ -152,6 +156,12 @@
                aforesaid ordination. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Acts 4:32(?).</note>
+        <note xml:id="n2" target="#a2" n="2">Proverbs 15:31 (Hex.).</note>
+        <note xml:id="n3" target="#a3" n="3">Proverbs 16:3.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

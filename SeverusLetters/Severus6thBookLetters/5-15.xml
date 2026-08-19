@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,32 +99,35 @@
   <text>
       <body>
          <div type="work" xml:id="work-5.15" n="5.15">
+        <div type="section" xml:id="section-5.15">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2751">Sergius</persName>, bishop of <placeName>Cyrrhus</placeName>, and <persName ref="http://syriaca.org/person/2407">Marion</persName>,
                bishop of Sura.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 4th book the 81st
                letter.</head>
-            <ab> I have read your sanctities' letter in no negligent way but very carefully indeed:
+            <ab xml:id="section-5.15.1" n="1"> I have read your sanctities' letter in no negligent way but very carefully indeed:
                for it was such as to <pb n="351"/> attract even those whose mind wanders and who
-               stare vacantly at the stage-play of the life here and cleave to it. <add><emph>And
-                  after other things.</emph></add> As to the sub-deacon who has fallen under a
+               stare vacantly at the stage-play of the life here and cleave to it. <add>
+              <emph>And
+                  after other things.</emph>
+            </add> As to the sub-deacon who has fallen under a
                decree of separation from the miserable wicked <persName ref="http://syriaca.org/person/2630">Cyriac</persName>, if he repent of the sins that
                he has committed, the merciful sentence of God will absolve him through your
                holinesses. And, if anyone else also has committed or shall commit any such sin, as
                we pray may not be the case, he shall in an exactly similar way attain absolution
                according to your legal judgment, on account of Him who does "not wish the death of
-               the sinner so much as that he be converted and live."<note n="1">Ezekiel 33:2.</note> In fact even in the ordinance
+               the sinner so much as that he be converted and live."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> In fact even in the ordinance
                regarding <persName ref="http://syriaca.org/person/2630">Cyriac</persName> we have mixed with the severity the mild drug of penitence by
                inviting him also to recognise the sin that has been committed. For we hear <persName>Paul</persName>
                saying in his epistle to the <persName>Romans</persName> as follows: "Behold therefore the mildness and
                severity of God; on them which fell severity, but upon thee the mildness of God if
-               thou continue in mildness."<note n="2">Romans 11:22.</note> For by everything this is what we are taught, to look to
+               thou continue in mildness."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> For by everything this is what we are taught, to look to
                Him who sought the sheep that was lost, and bore it on His shoulders and carried it
                up and counted it in the flock of those that are being saved. Greatly did I rejoice
-               in the Lord, as the wise <persName>Paul</persName> somewhere said,<note n="3">Philemon 9:10.</note> that the religious presbyter and
+               in the Lord, as the wise <persName>Paul</persName> somewhere said,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> that the religious presbyter and
                archimandrite <persName>John</persName>, trained as he is to do all things with understanding and guided
                by the divine Spirit, <pb n="352"/> brought first to your sanctities the letter
                written by me to the saintly bishops <persName>Philoxenus</persName>, <persName>Thomas</persName>, and <persName>John</persName>, who were then
-               living on the hill called that of <placeName>Marde</placeName>.<note n="4"> v. 14.</note> For my part I say that your ears and your
+               living on the hill called that of <placeName>Marde</placeName>.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> For my part I say that your ears and your
                tranquil and thoughtful mind, which is built up with all devoutness, are like a
                furnace of fire, in that they have the capacity of distinguishing what is alloyed
                from what is sound. Wherefore also I have gladly accepted your action in keeping with
@@ -130,10 +137,11 @@
                of the reception of the children who were baptized by heretics, I concur with your
                purpose: only unless perhaps the long delay cause those who have turned their eyes
                towards penitence to become inert, and despair of being received by you, and return
-               to their first vomit as it is written, and wallow again in the same mire."<note n="5">2 Peter 2:22.</note>
+               to their first vomit as it is written, and wallow again in the same mire."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
                Nevertheless the form of penitence that was once approved by the holy oecumenical
                synod that assembled at <placeName>Ephesus</placeName> in the case of those who have been baptized by men
-               who hold the hateful profane doctrines of <persName>Nestorius</persName><note n="6">Cf. p. 299.</note> must be maintained in full force,
+               who hold the hateful profane doctrines of <persName>Nestorius</persName>
+            <ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> must be maintained in full force,
                and there must be no thought either of second baptism or of chrism. Indeed those who
                did this when the impiety introduced as an innovation at <placeName>Chalcedon</placeName> first prevailed
                were repudiated both by the <pb n="353"/> holy <persName>Timothy</persName> who fed the great
@@ -157,7 +165,7 @@
                also and causes the Spirit to come down upon the water, on account of Him who
                graciously allowed <pb n="354"/> us who creep upon earth to share in this power. For
                He cleanses the washing of water by His word, as <persName>Paul</persName> says in his epistle to the
-               <persName>Ephesians</persName>.<note n="7">Ephesians 5:26.</note> So also the word of the anointer is mingled with the chrism, and applies
+               <persName>Ephesians</persName>.<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> So also the word of the anointer is mingled with the chrism, and applies
                curative treatment and brings the grace of the Spirit into play. After the
                same fashion also an anathema of the heresy, when enjoined upon those who utter the
                condemnation by order of orthodox high-priests, and proffered by the mouth of those,
@@ -168,15 +176,15 @@
                according to the commandment plainly laid down in the Gospels of Him who said to
                <persName>Peter</persName>, "I will give thee the keys of the kingdom of heaven, and whatsoever thou shalt
                bind on earth shall be bound in heaven, and whatsoever thou shalt loose on earth
-               shall be loosed in heaven,"<note n="8">Matthew 16:19.</note> and repeated the same again to all the disciples and
+               shall be loosed in heaven,"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> and repeated the same again to all the disciples and
                said, "All things that ye shall bind on earth shall be bound in heaven, and all
-               things that ye shall loose on earth shall be loosed in heaven."<note n="9"> Id. xviii. r8.</note> For there is nothing
+               things that ye shall loose on earth shall be loosed in heaven."<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> For there is nothing
                lawfully said by the orthodox high-priests, and performed in accordance with the
                divine commandments and canons, that is not full of the Holy Spirit, as <persName>David</persName>
                also the spiritual singer said, <pb n="355"/> "I opened my mouth and breathed in
-               spirit because I longed for thy commandments."<note n="10">Psalms 118:131.</note> I beg your sanctities also to consult
+               spirit because I longed for thy commandments."<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> I beg your sanctities also to consult
                carefully the words written by me in <placeName>Antiochus' city</placeName> against those who dare to
-               re-anoint contrary to the law,<note n="11"> v. 6.</note> and to reflect what unhallowed objections we met on
+               re-anoint contrary to the law,<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> and to reflect what unhallowed objections we met on
                their part, and that we have not held different opinions at different times, but
                always have the same thoughts, endeavouring as we do all the days of our life to
                guide our short-sighted mind by the writings of our holy fathers and their lawful
@@ -185,11 +193,11 @@
                admitted, that is, to expiation through your holy prayers and entreaties, and the
                outstretching of your saintly hands. Wherefore like <persName>Jacob</persName> the divine patriarch show
                them the rod of orthodox teaching, which is white and shines with sound doctrines,
-               and is cleared of every green and dead hue of heresy:<note n="12">Genesis 30:37 ff.</note> in order that these rational
+               and is cleared of every green and dead hue of heresy:<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> in order that these rational
                sheep, fired by your teachings, may cast from them all the murkiness and darkness of
                heresy, and in its stead put on the white and full light of the orthodox faith: and
                may clothe themselves in the many colours of virtues, and may cease to be counted
-               among the heretics unknown<note n="13">Marg. "late".</note> sheep, and may mix with those that are known, making up
+               among the heretics unknown<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> sheep, and may mix with those that are known, making up
                the one flock of the one Shepherd and God and our Saviour <persName>Christ</persName>. <pb n="356"/> I for
                my part have written these things to you the ministers of <persName>Christ</persName>, and careful
                stewards of God's mysteries, But it will rest with your discriminations at the
@@ -207,12 +215,11 @@
                keep His laws, "Hearken unto me, ye that know judgment, my people in whose heart is
                my law; fear not the reproach of men, and be not overcome by their derision; for like
                a garment shall it be consumed by lapse of time, and like wool shall it be eaten by a
-               moth; but my righteousness shall be for ever, and my salvation to generations."<note n="14">Is. li. 7,8.</note> <pb
-                  n="357"/> This point also I have thought necessary to bring to the knowledge of
+               moth; but my righteousness shall be for ever, and my salvation to generations."<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> <pb n="357"/> This point also I have thought necessary to bring to the knowledge of
                your perfections in <persName>Christ</persName> our God: that the religious presbyter and archimandrite of
                the holy cloister of the blessed Bassus has sent two of his devout monks to the great
                Christ-loving <placeName>city of Alexander</placeName>, bearing a letter which states that they are in
-               straits with regard to the sacred ministry, and in want of presbyters and deacons.<note n="15">Cf i. 59.</note>
+               straits with regard to the sacred ministry, and in want of presbyters and deacons.<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/>
                Wherefore also he begged me to write to your holinesses, or else to some other of the
                saintly bishops who share the same persecution with us, in order that you may satisfy
                this their need by your saintly and lawful hand. And, since it was then the winter
@@ -236,20 +243,41 @@
                stated in the previous letter: and we moreover give him loving greeting through your
                sanctities. Against the last fatuous work of the wickedly impious <persName ref="http://syriaca.org/person/2465">Julian</persName>, which
                promulgates the same arguments upon the same subjects, I have not up to to-day begun
-               to write,<note n="16">The last work of Julian must be the Appendices; and, as the answer of Severus to this is contained in the translation of Paul of Callinicus published in Apr. 528 (Assem. B. 0. ii. 46), this letter cannot be placed later than 527.</note>
+               to write,<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/>
                although it is refuted beforehand by what has been already written by me
                before, so that everyone who meets with it will know its feebleness and the futility
                of the erroneous phantasy which he confessed. During the whole time of the summer,
                and that though I have been hiding in corners, I have never ceased being worried by
                constant letters from men who in various ways ask different questions at different
                times, and beg to have now scriptural expres<pb n="359"/>sions, now doctrinal
-               theories<note n="17"><foreign xml:lang="grc">θεωρήματα</foreign>.</note> explained to them. Also the loneliness of solitude, and the fact that I have
+               theories<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> explained to them. Also the loneliness of solitude, and the fact that I have
                not men at hand to serve as scribes when I want it in addition to the other things
                hinder me from writing. But I think that I shall be strengthened through your saintly
                prayers, and that I shall be sufficient for everything, if <persName>Christ</persName> our God grant me
                life and grace from above. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Ezekiel 33:2.</note>
+        <note xml:id="n2" target="#a2" n="2">Romans 11:22.</note>
+        <note xml:id="n3" target="#a3" n="3">Philemon 9:10.</note>
+        <note xml:id="n4" target="#a4" n="4"> v. 14.</note>
+        <note xml:id="n5" target="#a5" n="5">2 Peter 2:22.</note>
+        <note xml:id="n6" target="#a6" n="6">Cf. p. 299.</note>
+        <note xml:id="n7" target="#a7" n="7">Ephesians 5:26.</note>
+        <note xml:id="n8" target="#a8" n="8">Matthew 16:19.</note>
+        <note xml:id="n9" target="#a9" n="9"> Id. xviii. r8.</note>
+        <note xml:id="n10" target="#a10" n="10">Psalms 118:131.</note>
+        <note xml:id="n11" target="#a11" n="11"> v. 6.</note>
+        <note xml:id="n12" target="#a12" n="12">Genesis 30:37 ff.</note>
+        <note xml:id="n13" target="#a13" n="13">Marg. "late".</note>
+        <note xml:id="n14" target="#a14" n="14">Is. li. 7,8.</note>
+        <note xml:id="n15" target="#a15" n="15">Cf i. 59.</note>
+        <note xml:id="n16" target="#a16" n="16">The last work of Julian must be the Appendices; and, as the answer of Severus to this is contained in the translation of Paul of Callinicus published in Apr. 528 (Assem. B. 0. ii. 46), this letter cannot be placed later than 527.</note>
+        <note xml:id="n17" target="#a17" n="17">
+          <foreign xml:lang="grc">θεωρήματα</foreign>.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

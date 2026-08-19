@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,15 +98,16 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.5" n="1.5">
+        <div type="section" xml:id="section-1.5">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2514">Peter </persName>, bishop of Apamea.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 3rd book the 5th
                letter.</head>
-            <ab> When the letters of your love of God came before me, not that only which was written
+            <ab xml:id="section-1.5.1" n="1"> When the letters of your love of God came before me, not that only which was written
                to me, but that also which was written to the religious presbyter <persName ref="http://syriaca.org/person/2515">Thomas</persName>, I thought
                it right not to judge words which were put forward, as you yourself also say, under a
                feeling of wrath and anger, but only to declare my mind as if God himself were
                listening, and to say to Him like <persName>Jeremiah</persName>, "The things which came forth from my lips
-               are before Thy face."<note n="1">Jeremiah 17:16.</note> In the first place you bring a charge against us, which is not
+               are before Thy face."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> In the first place you bring a charge against us, which is not
                known to the canons, nor to the church laws or precepts. For what law of the
                God-inspired scripture, or precept of the holy fathers, encloses and confines the
                laity in cities and in countries, and prevents these from going to receive ordination
@@ -146,7 +151,7 @@
                another another: but the grace of the fisher was one, because the faith also is one,
                and the church under the whole heaven of those who hold the same things is one. That
                therefore which <pb n="37"/> was done in the case of the devout <persName ref="http://syriaca.org/person/2519">Leontius</persName> is the
-               action of the Holy Spirit, not of us. For it "bloweth where it listeth,"<note n="2">John 3:8.</note> as is said
+               action of the Holy Spirit, not of us. For it "bloweth where it listeth,"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> as is said
                by our God and Saviour. If therefore you also catch one of the Antiochenes in your
                net, we shall find no fault at all with your fishing, but we shall praise the Holy
                Spirit which distributes to each man individually its own grace, and does everything
@@ -162,8 +167,7 @@
                inspiration. However I shall not dispute whether they are to be drawn in by my hand
                or yours: but so far am I from being jealous of you in respect of the fishing, that I
                will even help you and catch hold of the net with you above. Every matter whatever
-               that is not contrary to the canons surely urges us to give help and to act <pb n="38"
-               /> in unison with one another. How is it anything but shameful that, while those who
+               that is not contrary to the canons surely urges us to give help and to act <pb n="38"/> in unison with one another. How is it anything but shameful that, while those who
                hunt birds reckon the air common property, and fishers, as I have said, the sea, we
                should dispute about things that lie not in our power but in God's? However, not to
                use many words and interfere with the moderate length of the letter (I think that
@@ -173,6 +177,11 @@
                as these, it is not our endeavour to subserve to the best of our power human
                purposes, but to walk according to the divine laws only. </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Jeremiah 17:16.</note>
+        <note xml:id="n2" target="#a2" n="2">John 3:8.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

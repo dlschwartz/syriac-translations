@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,25 +98,26 @@
   <text>
       <body>
          <div type="work" xml:id="work-4.4" n="4.4">
+        <div type="section" xml:id="section-4.4">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2520">Dionysios</persName> bishop of <placeName ref="http://syriaca.org/place/2722">Tarsus</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 2nd book the 4th
                letter.</head>
-            <ab> How I behaved with all attention and respect towards you when you came here it is
+            <ab xml:id="section-4.4.1" n="1"> How I behaved with all attention and respect towards you when you came here it is
                not mine to say, but it belongs to you who had the experience to declare this, if
                need demand. Of this also I think your religiousness is not unaware, that of your own
                accord and without pressure from anyone you confessed everything that ts required for
                a confession of the orthodox faith and a renunciation of the offences that have
                divided the unity of God's holy churches, and ratified it in writing and in a letter.
                How is it then that you have treated things thus done with piety and of your own
-               accord as nothing and do not keep them "with all observance," as it is written,<note n="1">Proverbs 4:23.</note> but
+               accord as nothing and do not keep them "with all observance," as it is written,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> but
                admit to the ministry men who do not share your belief, and by the expressions which
                you carelessly and lightly utter to these show that you entered into union with the
                cause of piety rather because you gave way before the time than because you
                deliberately chose what was right? Perhaps it is time for me to say <pb n="261"/> to
                you the words of <persName>the Apostle</persName> also, I mean, "Ye have not yet withstood unto blood in
                the combat against sin, and ye have forgotten the exhortation which speaketh unto you
-               as unto sons."<note n="2">Hebrews 12:4.</note> I shall in fact be very much ashamed, and hide myself, if we, whose
-               duty it is to see "the Lord's glory with open face"<note n="3">2 Corinthians 3:18.</note> and with boldness and after the
+               as unto sons."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> I shall in fact be very much ashamed, and hide myself, if we, whose
+               duty it is to see "the Lord's glory with open face"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and with boldness and after the
                manner of apostles, have the veil of fear and of respect of persons laid upon our
                hearts. Therefore let that which has been neglected receive the required correction
                and care. If the deed that has been done had been a case of rejecting my meanness, I
@@ -122,7 +127,13 @@
                threatened. For the holy <persName ref="http://syriaca.org/person/376">Basil</persName> also in writing to a certain <persName>Urbicius</persName> a monk speaks as
                follows: [Here follows the citation given on p. 259]. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Proverbs 4:23.</note>
+        <note xml:id="n2" target="#a2" n="2">Hebrews 12:4.</note>
+        <note xml:id="n3" target="#a3" n="3">2 Corinthians 3:18.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

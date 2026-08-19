@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,11 +99,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-10.8" n="10.8">
+        <div type="section" xml:id="section-10.8">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2656">Georgia</persName> daughter of <persName ref="http://syriaca.org/person/2596">Anastasia</persName> the
                hypatissa.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 5th book the 22nd
                letter.</head>
-            <ab> Since for my part I never regard your glorious modesty's affairs with indifference,
+            <ab xml:id="section-10.8.1" n="1"> Since for my part I never regard your glorious modesty's affairs with indifference,
                but with great earnestness concern myself for your salvation, as for that of a
                beloved <persName ref="http://syriaca.org/person/2656">daughter</persName>, and I look into God's deep judgments, by the evidence of actual
                facts I perceive that you are supported by great help from above, and conduct your
@@ -109,7 +114,7 @@
                I regard it as a thing of <pb n="456"/> great profit and pronounce it to be so. This,
                I think, is the meaning to which the statement made by the wise <persName>Paul</persName> to <persName>the
                Corinthians</persName> also points; "If any man thinketh that he is put to shame in his virgin
-               if she hath passed the flower of her age, so also ought it to be."<note n="1">1 Corinthians 7:36.</note> What he says is in
+               if she hath passed the flower of her age, so also ought it to be."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> What he says is in
                fact something like this; "What is thought by some to be a cause of shame, I mean
                that a virgin should reach an advanced time of life, this I have thought to be both
                advantageous and beneficial." Just as the fruit of a tree, when taken before the
@@ -121,8 +126,7 @@
                has not yet come is unstable and not constant, but rather easily excited and driven
                to childish wrath, and disturbed perhaps by melancholy and irrational gloominess. How
                is it anything but shameful that, while a wrestler does not go down into the violence
-               of the arena [unless he has been thoroughly trained in wrestling, or a soldier]<note n="2">This is clearly the sense required, but more than this is needed
-                  to fill the gap.</note> into
+               of the arena [unless he has been thoroughly trained in wrestling, or a soldier]<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> into
                the battle array, unless he has been thoroughly trained <pb n="457"/> in military
                matters, a virgin should be introduced into the society of marriage, and should pass
                to the headship and government of <persName ref="http://syriaca.org/person/3119">her husband</persName>'s house without having been perfectly
@@ -138,9 +142,8 @@
                some image and statue that is perfect in beauty and not lacking in anything, and you
                will be to him "a helper like unto him"; since woman was in fact created by Him who
                said in the beginning, "It is not good that the man should be alone; let us make him
-               a helper like unto him."<note n="3">Genesis 2:18.</note> A woman who is trained and skilled in governing a house, and
-               intelligent and a real helper in the world's difficulties, is in truth a <pb n="458"
-               /> haven fora man. For in fact, when a man has gone out to [...] in a law-court,
+               a helper like unto him."<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> A woman who is trained and skilled in governing a house, and
+               intelligent and a real helper in the world's difficulties, is in truth a <pb n="458"/> haven fora man. For in fact, when a man has gone out to [...] in a law-court,
                either because he is doing or because he is suffering wrong, or again he is often
                inflamed to anger, and wantonly insults or on the contrary is insulted in his turn,
                the anger of another blowing against him like some storm. But, when the time calls
@@ -150,16 +153,25 @@
                gently looks into the hidden sources of trouble: she touches his heart with
                intelligent words, and learns the causes. And, when she has found that he has been
                excited without good reason, she appeases the fury of his mind by offering peaceful
-               [...] that<note n="4">Possibly from another letter.</note> I have written these things also. And I beg you, lady, not to tell anyone
+               [...] that<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> I have written these things also. And I beg you, lady, not to tell anyone
                whatever that you have received this letter from me, even if he be an angel from
                heaven. You will in fact both bring danger upon me by telling it and vex God; and you
                will make many angry with me, because I did not write to them too just as I have done
                to you. But we believe that <persName>Christ</persName>, the God of orthodoxy, who every day carries out
                the words that say, "Other sheep also <pb n="459"/> I have which are not of this
                fold; and I must bring them also and they shall hear my voice, and they shall be one
-               flock and one Shepherd,"<note n="5">John 10:16.</note> will make your glorious and exalted father also His own. </ab>
+               flock and one Shepherd,"<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> will make your glorious and exalted father also His own. </ab>
             <trailer>Not the end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">1 Corinthians 7:36.</note>
+        <note xml:id="n2" target="#a2" n="2">This is clearly the sense required, but more than this is needed
+                  to fill the gap.</note>
+        <note xml:id="n3" target="#a3" n="3">Genesis 2:18.</note>
+        <note xml:id="n4" target="#a4" n="4">Possibly from another letter.</note>
+        <note xml:id="n5" target="#a5" n="5">John 10:16.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

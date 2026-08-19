@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,15 +98,16 @@
   <text>
       <body>
          <div type="work" xml:id="work-5.2" n="5.2">
+        <div type="section" xml:id="section-5.2">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2526">Nicias</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 3rd book the
                323rd letter.</head>
-            <ab> We were surprised when your sanctity's letter came before us, by which we learned
+            <ab xml:id="section-5.2.1" n="1"> We were surprised when your sanctity's letter came before us, by which we learned
                that <persName ref="http://syriaca.org/person/2655">Gennadius</persName> the devout presbyter of the village called <placeName ref="http://syriaca.org/place/2688">Minidus</placeName> had any doubt
                whether those who have received and undergone the spurious ordination, and have
                purged themselves of these dregs by petitions of confession which they presented to
                you, and have once put off by a written legal renunciation the strange and foreign
-               clothing<note n="1">Zephaniah 1:8.</note> in which they thought themselves to have been clothed by the heretics, ought
+               clothing<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> in which they thought themselves to have been clothed by the heretics, ought
                to return to their former grade in the ministry. Therefore they must show this in
                deed by returning to the former grade, and in it performing their sacred
                ministrations, if we are not sinning in using this same expression, and mentioning
@@ -114,10 +119,16 @@
                illegal hand. Therefore as I said, the devout <persName ref="http://syriaca.org/person/2655">Gennadius</persName> must know clearly that it is
                by deeds that they ought to unite to themselves those who have cast from them in
                writing the strange and accursed laying on of a heretical hand, if "the kingdom of
-               God is not in word but in power,"<note n="2">1 Corinthians 4:20.</note> and not he that says "Lord, Lord!" but he that does
-               the will of the heavenly Father enters into the kingdom of heaven.<note n="3">Matthew 7:21.</note> </ab>
+               God is not in word but in power,"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and not he that says "Lord, Lord!" but he that does
+               the will of the heavenly Father enters into the kingdom of heaven.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Zephaniah 1:8.</note>
+        <note xml:id="n2" target="#a2" n="2">1 Corinthians 4:20.</note>
+        <note xml:id="n3" target="#a3" n="3">Matthew 7:21.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,18 +98,19 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.34" n="1.34">
+        <div type="section" xml:id="section-1.34">
             <pb n="101"/>
             <head type="main" resp="#compiler">Of the same a letter of summons to the <rs ref="http://syriaca.org/person/3066">bishops</rs> under
                <placeName ref="http://syriaca.org/place/2630"> Apamea </placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, From the 7th book the
                127th letter.</head>
-            <ab> Though we are weak and in deeds fail to keep to the way of the fathers, in that we
+            <ab xml:id="section-1.34.1" n="1"> Though we are weak and in deeds fail to keep to the way of the fathers, in that we
                are inclined to sloth and negligence, yet still as regards the orthodox faith, in
                accordance with the apostolic command, we prove ourselves to see if we are in the
-               faith, and examine ourselves to see if <persName>Christ</persName> is in us:<note n="1">2 Corinthians 13:5.</note> and we know that in this we
+               faith, and examine ourselves to see if <persName>Christ</persName> is in us:<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and we know that in this we
                are not reprobate through grace from above. Whereas it is written in the holy canons
                of the fathers that the God-loving bishops in each administrative district ought to
-               assemble together twice a year to deal with urgent matters that occur,<note n="2">Mansi ii. 669.</note> in due season
+               assemble together twice a year to deal with urgent matters that occur,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> in due season
                we summon your love of God and urge you to come at once to us, and betake yourselves
                to the apostolic throne with the other saintly bishops, respecting matters that will
                assist and further the union of God's holy churches; which is a matter of concern and
@@ -114,6 +119,11 @@
                reason we have sent you so-and-so the devout reader of our apostolic see. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">2 Corinthians 13:5.</note>
+        <note xml:id="n2" target="#a2" n="2">Mansi ii. 669.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -97,11 +101,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.12" n="1.12">
+        <div type="section" xml:id="section-1.12">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2544">Cosmas</persName> and <persName ref="http://syriaca.org/person/2542">Polyeuctus</persName> and <persName ref="http://syriaca.org/person/2543">Zeno</persName> the
                presbyters.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 3rd book the
                354th letter.</head>
-            <ab> Even in the case of things that are acknowledged and manifest we are not justified
+            <ab xml:id="section-1.12.1" n="1"> Even in the case of things that are acknowledged and manifest we are not justified
                either by the form of human laws or by the ordinances of the Holy Spirit in judging
                on the statement of one side. Wherefore neither did we consent to agree to the things
                that were written by your devoutness; not because we do not believe you, but to
@@ -119,6 +124,8 @@
                have been stirred. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp/>
       </body>
   </text>
 </TEI>

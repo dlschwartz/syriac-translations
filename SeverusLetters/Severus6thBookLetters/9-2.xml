@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,11 +98,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-9.2" n="9.2">
+        <div type="section" xml:id="section-9.2">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2439">Theodore</persName> bishop of <placeName ref="http://syriaca.org/place/2698">Olbe</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 9th book the 8th
                letter.</head>
-            <ab> The questions asked by your love of God no one will be able to decide, from the
-               written laws of divine scripture, or from the spiritual constitutions<note n="1">διατάξεις.</note> of those who
+            <ab xml:id="section-9.2.1" n="1"> The questions asked by your love of God no one will be able to decide, from the
+               written laws of divine scripture, or from the spiritual constitutions<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> of those who
                at one time and another instructed the holy churches. To some extent it seems to be a
                dangerous thing for us to say anything at all on such matters. But again, on account
                of the importance of the question and its bearing on salvation, I considered it an
@@ -135,25 +140,35 @@
                unbaptized ought to be admitted to holy baptism. This action was very right, and not
                outside the scope of the divine laws of the Holy Spirit. For, since our Lord plainly
                decreed and said to <persName>Nicodemus</persName>, "Verily verily I say unto thee; unless a man be born
-               of water and the Spirit, he cannot enter into the kingdom of God,"<note n="2">John 3:5.</note> it is absolutely
+               of water and the Spirit, he cannot enter into the kingdom of God,"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> it is absolutely
                necessary to follow the safe course, and to use the holy <persName ref="http://syriaca.org/person/430">Cyril</persName>'s expression and say,
                "So-and-so is baptized if he has not been baptized, in the name of the Father and of
                the Son and of the Holy Spirit." <pb n="423"/> For in fact by ineffable graciousness
                the immanent power of the Holy Spirit baptizes at the word of the baptizer and
                accompanies it. For the wise <persName>Paul</persName> also says that we are cleansed "by the laver of
-               water by the word," and so put off every spot and wrinkle of sin.<note n="3">Ephesians 5:26,27.</note> This power He who
+               water by the word," and so put off every spot and wrinkle of sin.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> This power He who
                became poor for our sake gave to those that perform priestly functions, in order that
-               we "through his poverty might be rich";<note n="4">2 Corinthians 8:9.</note> and He said also to the holy apostles, and to
+               we "through his poverty might be rich";<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and He said also to the holy apostles, and to
                those who succeeded these afterwards, "Verily I say unto you, all things that ye
                shall bind on earth shall be bound in heaven; and all things that ye shall loose on
                earth shall be loosed in heaven." This same power He also named "the keys of the
-               kingdom of heaven."<note n="5">Matthew 18:18,19.</note> Therefore with the knowledge of these things direct your steps to
+               kingdom of heaven."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> Therefore with the knowledge of these things direct your steps to
                that which it is right to do, and follow the safe course as I said before, not as by
-               stealth and with fear, but "with open face":<note n="6">Corinthians 2:18.</note> because "we are not of fear that leadeth
-               unto perdition, but of faith that gaineth the soul,"<note n="7">Hebrews 10:39.</note> as the same wise <persName>Paul</persName> again
+               stealth and with fear, but "with open face":<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> because "we are not of fear that leadeth
+               unto perdition, but of faith that gaineth the soul,"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> as the same wise <persName>Paul</persName> again
                somewhere says. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">διατάξεις.</note>
+        <note xml:id="n2" target="#a2" n="2">John 3:5.</note>
+        <note xml:id="n3" target="#a3" n="3">Ephesians 5:26,27.</note>
+        <note xml:id="n4" target="#a4" n="4">2 Corinthians 8:9.</note>
+        <note xml:id="n5" target="#a5" n="5">Matthew 18:18,19.</note>
+        <note xml:id="n6" target="#a6" n="6">Corinthians 2:18.</note>
+        <note xml:id="n7" target="#a7" n="7">Hebrews 10:39.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

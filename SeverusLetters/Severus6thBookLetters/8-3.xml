@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,10 +98,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-8.3" n="8.3">
+        <div type="section" xml:id="section-8.3">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2614">Aurelius</persName> the scholastic.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 7th book the
                376th, 378th letter.</head>
-            <ab> The fact that your wisdom has been pleased to show a kind disposition<note n="1">Or, with an easy emendation, " The fact that your wisdom is benevolently disposed."</note> towards those
+            <ab xml:id="section-8.3.1" n="1"> The fact that your wisdom has been pleased to show a kind disposition<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> towards those
                who are distressed by any vexation is good and of great profit. But for those who
                like my meanness are entrusted with the government of rational souls it is not a safe
                thing to walk contrary to the laws of the Spirit, and by granting indulgence do
@@ -108,21 +113,29 @@
                the devout <persName ref="http://syriaca.org/person/2772">Thomas</persName>, if on account of some infirmity <pb n="396"/> his genital members
                have been removed by the skill of physicians, whether cut by the knife or burnt by
                drugs, he has under the canons liberty to minister, and there is no difficulty as to
-               his performing priestly functions, and standing before God's altar "with open face"<note n="2">2 Corinthians 3:18.</note>
+               his performing priestly functions, and standing before God's altar "with open face"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
                as <persName>the Apostle</persName> says. But, if he presumptuously mutilated himself, we will not put
                force upon the determination of the canons concerning him, and give occasion for
                blame against us to those who are eagerly and malignantly observing what we do. It
                may in fact happen that we cannot do all that we wish, unless it be by setting at
                naught the offence caused to many, and wounding "the weak conscience" of our
-               brethren, as it is written.<note n="3">1 Corinthians 8:12.</note> If it were not so know well that I too inasmuch as I am
+               brethren, as it is written.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> If it were not so know well that I too inasmuch as I am
                clad in bodily weakness am much inclined to benevolence. However, since I am "bought
-               with a price,"<note n="4">Id. 6:20.</note> with the blood I mean of the great God and our Saviour <persName>Christ</persName>, I
+               with a price,"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> with the blood I mean of the great God and our Saviour <persName>Christ</persName>, I
                coerce my will according to His laws and check the unrestrained impulse. These things
-               I have written to the saintly <persName ref="http://syriaca.org/person/2425">Cassian</persName> also the bishop of your resplendent metropolis:<note n="5">Id. 8:2.</note>
+               I have written to the saintly <persName ref="http://syriaca.org/person/2425">Cassian</persName> also the bishop of your resplendent metropolis:<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
                for I think I heard from his love of God that it was rather on account of an
                infirmity and under the skill of physicians that the aforesaid man was mutilated. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Or, with an easy emendation, " The fact that your wisdom is benevolently disposed."</note>
+        <note xml:id="n2" target="#a2" n="2">2 Corinthians 3:18.</note>
+        <note xml:id="n3" target="#a3" n="3">1 Corinthians 8:12.</note>
+        <note xml:id="n4" target="#a4" n="4">Id. 6:20.</note>
+        <note xml:id="n5" target="#a5" n="5">Id. 8:2.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

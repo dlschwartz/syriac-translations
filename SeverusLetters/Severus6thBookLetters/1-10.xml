@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,21 +98,27 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.10" n="1.10">
+        <div type="section" xml:id="section-1.10">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2536">Eucharius</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from — book the 142nd,
                143rd letter.</head>
-            <ab> The transactions in the Christ-loving, believing <placeName>city of the Paltians</placeName> concerning
+            <ab xml:id="section-1.10.1" n="1"> The transactions in the Christ-loving, believing <placeName>city of the Paltians</placeName> concerning
                <persName ref="http://syriaca.org/person/2537">Firminus</persName> have come to my notice, and I have agreed to them. Otherwise you would not
-               have written,<note n="1">Acts 25:16.</note> as may with most probability be inferred. It is however impossible to
+               have written,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> as may with most probability be inferred. It is however impossible to
                pass sentence upon a guilty man before he has had an opportunity of defence, having
                his accusers also face to face as is written. Therefore, as form requires, our
                judgment <pb n="47"/> is that the man who has sinned be sent here, and the actual men
                who are able to convict him, and to confirm the transactions regarding him, so that
                in this way we may cause him to be subjected to canonical sentences. For it is
                written, as your love of God who teach others also knows, "The innocent and righteous
-               thou shalt not slay, and thou shalt not acquit the wicked."<note n="2">Exodus 23:7.</note> </ab>
+               thou shalt not slay, and thou shalt not acquit the wicked."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Acts 25:16.</note>
+        <note xml:id="n2" target="#a2" n="2">Exodus 23:7.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

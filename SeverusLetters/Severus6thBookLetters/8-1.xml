@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,17 +98,18 @@
   <text>
       <body>
          <div type="work" xml:id="work-8.1" n="8.1">
+        <div type="section" xml:id="section-8.1">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2762">Stephen</persName> the reader.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 7th book the
                392nd letter.</head>
-            <ab> I confess that I rejoiced greatly when I received the letter which your
+            <ab xml:id="section-8.1.1" n="1"> I confess that I rejoiced greatly when I received the letter which your
                religiousness sent me by the <pb n="392"/> magnificent <persName ref="http://syriaca.org/person/2750">Sergius</persName>, the governor of 
-               <placeName ref="http://syriaca.org/place/176">the second people of the Syrians</placeName>,<note n="1">I.e. the province of Syria II.</note> for two reasons: both because it was yours, and because
+               <placeName ref="http://syriaca.org/place/176">the second people of the Syrians</placeName>,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> for two reasons: both because it was yours, and because
                its contents were what they are. For we have now by experience found the man such as
                you described him in your words to be: and in this great thanks are due to your
                God-loving soul. By asking after you have received the discourse produced by us upon
-               the saintly <persName ref="http://syriaca.org/person/744">Simeon</persName><note n="2">Wright C.B.M. 536, 791. The order of the homilies shows that
-                  it was delivered in spring 513.</note> that we should compose another also in the form of a historical
+               the saintly <persName ref="http://syriaca.org/person/744">Simeon</persName>
+            <ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> that we should compose another also in the form of a historical
                Narrative you seem to me to be doing the same as a covetous and strict lender, who,
                when he sees that his debtor is unfruitful, desires to receive the principal only,
                but, when he has received it and seen the gold in his hands, is induced to demand the
@@ -116,13 +121,13 @@
                might be more gratified at receiving a history adorned with flowers of praises, and
                at the same time as far as possible not failing in ecclesiastical gravity. That the
                praises of the saints are read even in <pb n="393"/> churches is witnessed by the
-               discourse of the wise <persName>Basil</persName> on the forty martyrs,<note n="3">P. G. xxxi. 568.</note> which is read to the people in <placeName>the
+               discourse of the wise <persName>Basil</persName> on the forty martyrs,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> which is read to the people in <placeName>the
                city of the men of Berytus</placeName>, as well as by that of the holy <persName>Pamphilus</persName>, both there and
                in <placeName>the city of the men of Caesarea</placeName>, which is the <placeName>metropolis of First Palestine</placeName>. The
-               laudatory discourse also that was delivered upon <persName>Gregory</persName> the Wonder-worker<note n="4">Id. xlvi. 893.</note> we
+               laudatory discourse also that was delivered upon <persName>Gregory</persName> the Wonder-worker<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> we
                ourselves have known to be read in many churches, and in the royal city itself:
                similarly also that upon the great <persName>Basil</persName>. We who are scrutinizers of the laws must do
-               you an injury, and so stop your greedy ears. I think that the preface<note n="5">προοίμιον.</note> of the same
+               you an injury, and so stop your greedy ears. I think that the preface<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of the same
                discourse that we wrote on the same holy <persName ref="http://syriaca.org/person/744">Simeon</persName> will cause you difficulty, seeing
                that it is unacceptable to the <persName>Byzantines</persName>, But it is easy for you to use three or
                four passages that stand at the beginning, and leave out the things that cause
@@ -131,7 +136,16 @@
                we have heard from others. And you are blessed both in the distinction enjoyed here,
                and in the expected reward, which is promised to those who have fought well. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">I.e. the province of Syria II.</note>
+        <note xml:id="n2" target="#a2" n="2">Wright C.B.M. 536, 791. The order of the homilies shows that
+                  it was delivered in spring 513.</note>
+        <note xml:id="n3" target="#a3" n="3">P. G. xxxi. 568.</note>
+        <note xml:id="n4" target="#a4" n="4">Id. xlvi. 893.</note>
+        <note xml:id="n5" target="#a5" n="5">προοίμιον.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

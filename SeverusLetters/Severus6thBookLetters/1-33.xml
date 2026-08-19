@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,11 +98,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.33" n="1.33">
+        <div type="section" xml:id="section-1.33">
             <pb n="100"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2520">Dionysius</persName>, bishop of <placeName ref="http://syriaca.org/place/2722">Tarsus</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 6th book the
                186th letter.</head>
-            <ab> Time has, it seems, brought a new thing, I mean a military force demanding as if it
+            <ab xml:id="section-1.33.1" n="1"> Time has, it seems, brought a new thing, I mean a military force demanding as if it
                were part of its pay that ordination be conferred by high-priests upon certain
                persons; for such is the unreasonable treatment which the God-loving bishop of
                <placeName ref="http://syriaca.org/place/2706">Pompeiupolis</placeName> has informed the apostolic see that he has received; and he says that
@@ -114,6 +119,8 @@
                law. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp/>
       </body>
   </text>
 </TEI>

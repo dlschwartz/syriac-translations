@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -96,22 +100,22 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.60" n="1.60">
+        <div type="section" xml:id="section-1.60">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2467">Photius</persName> and <persName ref="http://syriaca.org/person/2466">Andrew</persName> the presbyters and
                archimandrites of the holy cloisters in <placeName ref="http://syriaca.org/place/1472">Caria</placeName>.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 7th book the 15th
                letter.</head>
-            <ab> Since you loyally fulfil the active part of the ascetic and philosophic life,
+            <ab xml:id="section-1.60.1" n="1"> Since you loyally fulfil the active part of the ascetic and philosophic life,
                therefore you also gather the fruits of knowledge from your labours, which are sound
                faith and zeal on its behalf which raises itself to God, and devoutness and a spirit
-               of understanding and of discretion. [...] [You<note n="1">The bracketed portion is supplied from another version : see text
-                  p. 199 note I.</note> also therefore, who through practice
+               of understanding and of discretion. [...] [You<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> also therefore, who through practice
                in asceticism are pure in your minds, in the same manner burn in the spirit, and
                carry the flame of zeal blazing in you: knowing as you do that all zeal is not
                praiseworthy, but that which is according to knowledge. <pb n="180"/> For you listen
                to <persName>Paul</persName> accusing the Jews and saying, "For I bear record of them that there is a zeal
-               of God in them: but not according to knowledge":<note n="2">Romans 10:2.</note> and you have restrained the ardour
+               of God in them: but not according to knowledge":<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and you have restrained the ardour
                of zeal with the cords of devoutness: for "blessed is the man that feareth all things
-               on account of devoutness."<note n="3">Proverbs 28:14.</note> The case of the man who was received by you to communion
+               on account of devoutness."<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> The case of the man who was received by you to communion
                and was converted from the heresy of the <persName>Nestorians</persName> and the <persName>Diphysites</persName> and the
                believers in two persons to the orthodox faith and said that he had received
                ordination to the diaconate you have thought fit to bring to the knowledge of my
@@ -130,7 +134,7 @@
                of hands afresh, those also who have been baptized by those very same heresies are
                baptized afresh: as the synod of the three hundred and eighteen holy fathers ordered
                in the case of the heresy of <persName ref="http://syriaca.org/person/2470">Paul</persName> of Samosata, and the heresies of those who are like
-               them in impiety.<note n="4">Mansi ii. 676.</note> And no one has ever been shown to have perfected by a second baptism
+               them in impiety.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> And no one has ever been shown to have perfected by a second baptism
                those who flee from] the <persName>Nestorian</persName> and Diphysite heresy, and have taken
                refuge in the church, of the orthodox. <persName ref="http://syriaca.org/person/792">Timothy</persName> also of saintly memory, archbishop of
                the <placeName>city of the Alexandrines</placeName>, who wrote in more severe terms from exile owing to the
@@ -140,7 +144,7 @@
                city of the Ephesians</placeName> and head of the holy churches in Asia, in the Encyclical
                formula, upon his anathematizing with the bishops under him the Chalcedonian impiety:
                and also, after he had reached <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName>, received those who came from the heresy of
-               the <persName>Diphysites</persName> in the rank in which they were,<note n="5">CJ. v, 6.</note> bishops I mean and presbyters and
+               the <persName>Diphysites</persName> in the rank in which they were,<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> bishops I mean and presbyters and
                deacons, upon their anathematizing the heresy itself in writing, and accepting such a
                period of separation for peni<pb n="182"/>tence only as he judged and determined to
                be good. In such cases in fact it is in the discretion of high-priests to shorten and
@@ -156,11 +160,12 @@
                as it were by some disorderly madness and self-willed ardour, separated from
                communion with him, while they did their best to inflame others also among those who
                were more than ordinarily weak, like those who said, "We have no part in <persName>David</persName>,
-               neither inheritance in the son of <persName>Jesse</persName>,"<note n="6">1 Kings 12:24 t.</note> and divided <placeName>Israel</placeName> into two. Hence also
-               they ascribed to them the name of the <persName>Novatians</persName><note n="7">Cf, Zach. Rh. v. 4.</note> who do not accept penitence for sins
+               neither inheritance in the son of <persName>Jesse</persName>,"<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> and divided <placeName>Israel</placeName> into two. Hence also
+               they ascribed to them the name of the <persName>Novatians</persName>
+            <ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> who do not accept penitence for sins
                committed; and for a long time they disturbed the church, although they gradually
                melted away, and as the book of the Acts says "were scattered and <pb n="183"/> came
-               to naught,"<note n="8">Act 5:36.</note> like the rebellious band and seditious flock of Theudas and of <persName>Judas</persName> the
+               to naught,"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> like the rebellious band and seditious flock of Theudas and of <persName>Judas</persName> the
                Galilean. These things we have related, not because we would reckon acts done by
                heretics valid (they are in fact invalid and without foundation and unsubstantial),
                but because we would explain that healing is not applied to converts from heresy in
@@ -179,13 +184,13 @@
                another man, as is written about <persName>Saul</persName> when he heard the voice of the prophet <persName>Samuel</persName>,
                and went in the way that he ordered <pb n="184"/> him to go: and the sacred scripture
                speaks thus: "And it was so that, when he turned his shoulder to go from <persName>Samuel</persName>, God
-               gave him a changed heart, and all these signs came upon him that day."<note n="9">1 Samuel 10:9.</note> Those also who
+               gave him a changed heart, and all these signs came upon him that day."<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> Those also who
                are in the rank of laymen, if they repudiate by anathema the <persName>Nestorian</persName> and Jewish
                heresy of the <persName>Diphysites</persName>, and by sincerely repenting place themselves within the
                bounds of the orthodox apostolic church, and are included among the sheep of the
                great God and chief shepherd <persName>Christ</persName>, will immediately cast from them everyone soever
                who is an alien, and will be invisibly adorned with the manifestations of the Holy
-               Spirit. If a man on entering by night a house full of torches<note n="10"><foreign xml:lang="grc">λαμπάδα</foreign>.</note> is completely pervaded
+               Spirit. If a man on entering by night a house full of torches<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> is completely pervaded
                by the flashing light, who doubts that the church of the orthodox, which is full of
                the gifts of the Holy Spirit, causes the man who opens the eyes of a repentant heart
                to be pervaded by the light that is suprasensual and divine? The power of the true
@@ -196,7 +201,7 @@
                David. And they saw the church of the prophets, and <persName>Samuel</persName> was standing at their
                head. And the Spirit of God came upon the messengers of <persName>Saul</persName>, and they prophesy. And
                it was told <pb n="185"/> <persName>Saul</persName> and he sent other messengers and they also prophesy.
-               And <persName>Saul</persName> again sent a third set of messengers, and they also prophesied."<note n="11">1 Samuel 19:20,21.</note> If
+               And <persName>Saul</persName> again sent a third set of messengers, and they also prophesied."<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> If
                therefore at a time when the practices of the legal shadowy service prevailed the
                Holy Spirit granted such things to the assembly and the name of a church, what great
                and wonderful thing will it not do in the church that was bought by the divine blood
@@ -205,21 +210,21 @@
                instances might have been added to those mentioned. At the very beginning when I was
                set over the Christ-loving <placeName>city of the Antiochenes</placeName>, and immediately, so to speak,
                upon my being raised to the episcopal throne (unworthily indeed, but still by God's
-               mercy), certain men who were infected with the self-created religion<note n="12">i.e. <foreign xml:lang="grc">έθελοθρησκεία</foreign> (Colossians 1:23).</note> of the
-               Re-anointers, following a certain deceiver named <persName ref="http://syriaca.org/person/2472">Theodotus</persName>,<note n="13">CJ. Zach. Rh. v. 5.</note> who unlawfully
+               mercy), certain men who were infected with the self-created religion<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> of the
+               Re-anointers, following a certain deceiver named <persName ref="http://syriaca.org/person/2472">Theodotus</persName>,<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> who unlawfully
                re-anointed converts from the Nestorian heresy to the orthodox faith, composed a
-               petition consisting of uncanonical propositions,<note n="14"><foreign xml:lang="grc">προτάσεις</foreign>.</note> and had this given to me as I was
+               petition consisting of uncanonical propositions,<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> and had this given to me as I was
                going out into the street by a certain man who was himself also a victim of their
                disease; and ] have composed a certain short treatise against it. Accordingly out of
                respect for the love of teaching and the strictness of your religiousnesses I have
                thought it necessary to look <pb n="186"/> for this and copy it out and send it you,
-               in order that nothing bearing upon this subject<note n="15"><foreign xml:lang="grc">ύπόθεσις</foreign>.</note> may remain unknown to you, so far
+               in order that nothing bearing upon this subject<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> may remain unknown to you, so far
                as the power and the limited capacity that has fallen to the lot of my meanness
-               extends. For we must "walk in the royal road," as it is written,<note n="16">Numbers 20:17.</note> and "not turn aside
+               extends. For we must "walk in the royal road," as it is written,<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> and "not turn aside
                to the right or to the left." For many, starting from considerations that are rather
                upon the right side than otherwise, have been led into excess, and so fallen into the
                very pit of destruction. For this reason also the text of the law commands that he
-               that pursues after justice shall pursue it justly:<note n="17">Deuteronomy 16:20.</note> that is, know the principles of
+               that pursues after justice shall pursue it justly:<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> that is, know the principles of
                justice and be instructed in them when you pursue that which is just: and be free
                from all passion, and be in this respect a just seeker of justice, and restrain
                yourself on all sides, and stand within the bounds of justice. Many by the very fact
@@ -229,13 +234,13 @@
                of the church and the wisdom and the sublime and substantial power of God and the
                Father), checking excess, even if directed to the right side, gives admonition,
                saying, "Be not very righteous nor contrive superfluous wisdom, lest thou be
-               astonied."<note n="18">Eclesiastes 7:17.</note> On all points therefore I praise your religiousnesses for having informed
+               astonied."<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> On all points therefore I praise your religiousnesses for having informed
                us of this present question, in order that you may wisely follow the precepts of the
                Holy <pb n="187"/> Spirit: for it is written, "The wise turn not aside from the mouth
-               of the Lord: but they reason in assemblies."<note n="19">Proverbs 24:7,8.</note> Accordingly, when a man is not so
+               of the Lord: but they reason in assemblies."<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> Accordingly, when a man is not so
                minded, but, making his will law, does what comes into his mind, death is the
-               penalty.<note n="20"><foreign xml:lang="grc">ζημία</foreign>.</note> For he that said these things said also this: "Death lights upon the
-               uninstructed."<note n="21">Proverbs 24:8.</note> In answer to your other question I shrink and hesitate to say
+               penalty.<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/> For he that said these things said also this: "Death lights upon the
+               uninstructed."<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> In answer to your other question I shrink and hesitate to say
                anything, and I tardily and reluctantly bring myself to answer, lest I be thought to
                be a cruel and harsh man, when I bring forward the strictness of the church
                tradition. For indeed this custom has prevailed in the holy churches up to the
@@ -250,23 +255,22 @@
                that are consecrated in the mysterious sacrifice are about to be brought out into the
                church, and to be placed on the holy altar, the first of the deacons, looking out of
                the door of the deacons' chamber, utters the <pb n="188"/> fearful and awful words,
-               "No catechumen, no possessed person, no one that is incapable<note n="22">I.e. under penance ; cf. Liturgy of Antioch ap. Brightman Liturgies, i. 471, 472.</note>," and so those that
+               "No catechumen, no possessed person, no one that is incapable<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/>," and so those that
                consecrate and those that have been consummated begin the ineffable sacred sacrifice,
                and send upwards the mysterious words. But I have nowhere found in the divine canons
                that such a distinction as this concerning those that are possessed is contained in
                them, the tenor of which is that if a man fights with a fierce demon, and is in the
                habit of assailing and attacking those who come in his way, and rends chains and
-               fetters asunder like the man mentioned [in the Gospels which<note n="23">The subject of this fragment seems to show that it belongs to
-                  this letter.</note> <persName>Paul</persName> the great also in
+               fetters asunder like the man mentioned [in the Gospels which<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> <persName>Paul</persName> the great also in
                writing to the <persName>Corinthians</persName> commands men to do, and to discern what is the power of
-               the all-holy body, and to consider its greatness, and what the disposition<note n="24"><foreign xml:lang="grc">διάθεσις</foreign>.</note> is in the
+               the all-holy body, and to consider its greatness, and what the disposition<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/> is in the
                heart of him who is to communicate in it. This is what he says: "But let a man
                examine himself, and so let him eat of the bread and drink of the cup. For he that
                eateth and drinketh when he is unworthy eateth and drinketh condemnation to himself,
                in that he hath not discerned the Lord's body. For this cause the sick and diseased
                among you are many, and there are many that sleep. For, if we judged ourselves, we
                should not be judged. But, being judged by the Lord, we are chastised, that we may
-               not be condemned with the world:"<note n="25">1 Corinthians 11:28-32.</note> even as <pb n="189"/> He that cares for our souls
+               not be condemned with the world:"<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/> even as <pb n="189"/> He that cares for our souls
                and is their benign instructor directs everything to this end, that He may not
                condemn us on the day on which He will judge the world and the earth in
                righteousness, in the last condemnation to which there is no end. Those that do not
@@ -279,12 +283,12 @@
                better life, and does not "owing to his hardness and impenitent heart," as <persName>the
                Apostle</persName> says, "lay up" for himself "a store of wrath for the day of wrath, and for
                the revelation of the just judgment of God, who will render to every man according to
-               his deeds."<note n="26">Romans 2:5,6.</note> Therefore he also who is possessed by an invasion of evil spirits must
+               his deeds."<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> Therefore he also who is possessed by an invasion of evil spirits must
                submit to the canon of the apostolic church, and endure the chastening with
                devoutness, and take upon him thoughts and expressions of thanksgiving and make
                confession to the Lord and say, "I have submitted to the Lord and made supplication
                to him": and He will assuredly have pity upon him (for "He is one that loveth mercy,"
-               as the prophet <persName>Micah</persName> says<note n="27">Micah 7:18.</note>), and will <pb n="190"/> rebuke the operation of the evil
+               as the prophet <persName>Micah</persName> says<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/>), and will <pb n="190"/> rebuke the operation of the evil
                spirit, and will deliver His creature. For a man to be contemptuously disposed, and
                to communicate in the sacraments or take part in the sacred ministry contrary to what
                is commanded makes the assault of man-hating spirits yet more fierce. This is also
@@ -299,12 +303,49 @@
                constantly assails and attacks, as he attacked <persName>Judas</persName> then. For privileges benefit
                those who are worthy: but, when men enjoy them undeservedly, they expose them to
                greater punishment. And these things I do not say in order to frighten, but in order
-               to secure."<note n="28">P.G. xhx. 380.</note> As I said before, the intention of the disciplinary regulations of the
+               to secure."<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/> As I said before, the intention of the disciplinary regulations of the
                canons is to preserve the visible appearance of the church blameless. For this reason
                they forbade those also who are possessed by an invasion of demons to communicate in
-               the holy mysteries: but invisible and secret afflictions [they left] to the <pb
-                  n="191"/> conscience of each man. [...] </ab>
+               the holy mysteries: but invisible and secret afflictions [they left] to the <pb n="191"/> conscience of each man. [...] </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">The bracketed portion is supplied from another version : see text
+                  p. 199 note I.</note>
+        <note xml:id="n2" target="#a2" n="2">Romans 10:2.</note>
+        <note xml:id="n3" target="#a3" n="3">Proverbs 28:14.</note>
+        <note xml:id="n4" target="#a4" n="4">Mansi ii. 676.</note>
+        <note xml:id="n5" target="#a5" n="5">CJ. v, 6.</note>
+        <note xml:id="n6" target="#a6" n="6">1 Kings 12:24 t.</note>
+        <note xml:id="n7" target="#a7" n="7">Cf, Zach. Rh. v. 4.</note>
+        <note xml:id="n8" target="#a8" n="8">Act 5:36.</note>
+        <note xml:id="n9" target="#a9" n="9">1 Samuel 10:9.</note>
+        <note xml:id="n10" target="#a10" n="10">
+          <foreign xml:lang="grc">λαμπάδα</foreign>.</note>
+        <note xml:id="n11" target="#a11" n="11">1 Samuel 19:20,21.</note>
+        <note xml:id="n12" target="#a12" n="12">i.e. <foreign xml:lang="grc">έθελοθρησκεία</foreign> (Colossians 1:23).</note>
+        <note xml:id="n13" target="#a13" n="13">CJ. Zach. Rh. v. 5.</note>
+        <note xml:id="n14" target="#a14" n="14">
+          <foreign xml:lang="grc">προτάσεις</foreign>.</note>
+        <note xml:id="n15" target="#a15" n="15">
+          <foreign xml:lang="grc">ύπόθεσις</foreign>.</note>
+        <note xml:id="n16" target="#a16" n="16">Numbers 20:17.</note>
+        <note xml:id="n17" target="#a17" n="17">Deuteronomy 16:20.</note>
+        <note xml:id="n18" target="#a18" n="18">Eclesiastes 7:17.</note>
+        <note xml:id="n19" target="#a19" n="19">Proverbs 24:7,8.</note>
+        <note xml:id="n20" target="#a20" n="20">
+          <foreign xml:lang="grc">ζημία</foreign>.</note>
+        <note xml:id="n21" target="#a21" n="21">Proverbs 24:8.</note>
+        <note xml:id="n22" target="#a22" n="22">I.e. under penance ; cf. Liturgy of Antioch ap. Brightman Liturgies, i. 471, 472.</note>
+        <note xml:id="n23" target="#a23" n="23">The subject of this fragment seems to show that it belongs to
+                  this letter.</note>
+        <note xml:id="n24" target="#a24" n="24">
+          <foreign xml:lang="grc">διάθεσις</foreign>.</note>
+        <note xml:id="n25" target="#a25" n="25">1 Corinthians 11:28-32.</note>
+        <note xml:id="n26" target="#a26" n="26">Romans 2:5,6.</note>
+        <note xml:id="n27" target="#a27" n="27">Micah 7:18.</note>
+        <note xml:id="n28" target="#a28" n="28">P.G. xhx. 380.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

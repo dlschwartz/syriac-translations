@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,11 +99,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-4.5" n="4.5">
+        <div type="section" xml:id="section-4.5">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2629">Cosmas</persName> archimandrite of the <placeName ref="http://syriaca.org/place/1474">monastery</placeName> of
                the blessed <placeName ref="http://syriaca.org/place/2660">Cyrus</placeName> or <placeName ref="http://syriaca.org/place/2660">Khurish</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 2nd book the 16th
                letter.</head>
-            <ab> We have readily forgiven the devout <persName ref="http://syriaca.org/person/2691">Julian</persName> the sin that was involuntarily committed
+            <ab xml:id="section-4.5.1" n="1"> We have readily forgiven the devout <persName ref="http://syriaca.org/person/2691">Julian</persName> the sin that was involuntarily committed
                by him. Ignorance and the fact that the man who has sinned confesses this, and in
                consciousness of his fault asks for forgive<pb n="262"/>ness, is a sufficient
                defence. In fact, even when the service of <persName>Moses</persName>' law prevailed, a man's ignorance,
@@ -107,10 +112,10 @@
                except on his offering the sacrifice for sin: and now also, when the bloodless
                sacrifice has taken its place, and the truth has expelled the shadow, in place of a
                sin-ram, or. a pair of turtledoves or young pigeons, and in place of offering fine
-               wheat flour,<note n="1">Leviticus 5:1-11.</note> we have "the Lamb of God which taketh away the sin of the world"<note n="2">John 1:29.</note>: only
+               wheat flour,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> we have "the Lamb of God which taketh away the sin of the world"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>: only
                if we duly confess the sin. For <persName>David</persName> also the speaker of divine things somewhere
                says in song, "I said 'I will confess my transgression to the Lord against myself,'
-               and thou forgavest the iniquity of my heart."<note n="3">Psalms 31:5.</note> This also you must clearly know: that
+               and thou forgavest the iniquity of my heart."<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> This also you must clearly know: that
                the Lord has forgiven through our meanness not only the man who committed the sin,
                but also all who in ignorance communicated with him. For do not think that the sin
                committed by the brother is less. For a man to associate in communion with heretics
@@ -120,15 +125,27 @@
                enemies of God, or that we should communicate with those that are wrongfully
                presented for ordination by them as with holy men, when <persName>the Apostle</persName> cries, "What
                communion hath light with darkness? or <pb n="263"/> what part hath a believer with
-               an unbeliever?",<note n="4">1 Corinthians 6:14,15.</note> and <persName>John</persName> the son of thunder writes to the believers, "If any man
+               an unbeliever?",<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and <persName>John</persName> the son of thunder writes to the believers, "If any man
                cometh unto you and bringeth not this teaching, receive him not in the house and say
-               not to him 'Hail'; for he that saith to him 'Hail' is partaker of his evil deeds."?<note n="5">2 John 10,11.</note>
+               not to him 'Hail'; for he that saith to him 'Hail' is partaker of his evil deeds."?<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
                Therefore, these things being so, keep your heart "with all observance," as it is
-               written.<note n="6">Proberbs 4:23.</note> For that "without faith it is impossible to please" 
-               is a declaration<note n="7"><foreign xml:lang="grc">άπόφασις</foreign>.</note> of the
-               Holy Spirit.<note n="8">Hebrews 11:6.</note> </ab>
+               written.<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> For that "without faith it is impossible to please" 
+               is a declaration<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> of the
+               Holy Spirit.<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Leviticus 5:1-11.</note>
+        <note xml:id="n2" target="#a2" n="2">John 1:29.</note>
+        <note xml:id="n3" target="#a3" n="3">Psalms 31:5.</note>
+        <note xml:id="n4" target="#a4" n="4">1 Corinthians 6:14,15.</note>
+        <note xml:id="n5" target="#a5" n="5">2 John 10,11.</note>
+        <note xml:id="n6" target="#a6" n="6">Proberbs 4:23.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">άπόφασις</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">Hebrews 11:6.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

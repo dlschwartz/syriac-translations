@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -96,17 +100,18 @@
   <text>
       <body>
          <div type="work" xml:id="work-5.11" n="5.11">
+        <div type="section" xml:id="section-5.11">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2427">John</persName> and <persName ref="http://syriaca.org/person/2428">John</persName> the presbyters and the
                rest.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 2nd book the 71st
                letter.</head>
-            <ab> I owe thanks to God that after the winter-season I have again through your letter
+            <ab xml:id="section-5.11.1" n="1"> I owe thanks to God that after the winter-season I have again through your letter
                heard your sweet and cheerful voice. For to me to hold communication with you seems
                more cheerful and joyful than any spring. To delight and adorn ourselves with flowers
                from the meadows. that quickly bloom and wither is not like weaving together blossoms
                of spiritual words. The first blossom, one very well adapted for giving joy, was
                contained in your letter in the fact that the celebration of the saintly <persName ref="http://syriaca.org/person/2540">Theodore</persName> the
-               presbyter<note n="1">The first Saturday in Lent (Sachau Verz. d. syr. Hdschr. zu Berlin, p. 486).</note> provided a crowded festival and feast to those who assembled, so that the
+               presbyter<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> provided a crowded festival and feast to those who assembled, so that the
                believers are confirmed in future hope even by what is seen now. For the departure
                hence of holy men and the remembrance of them on the occasion of this is a means of
                instruction and of meditation on the blessed life: the life which <persName>Christ</persName> promised
@@ -115,19 +120,20 @@
                that were also stated in your letter: and nothing beyond. Nevertheless the pangs
                caused by the impiety compel us to bring the foul birth out. It rests therefore with
                you, saintly men, and with all who love God to make supplication and to stir up your
-               fervent prayers like a censer, and cast upon them "fine composite incense"<note n="2">Exodus 3:7.</note> which is
+               fervent prayers like a censer, and cast upon them "fine composite incense"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> which is
                earnest and laborious supplication, supplication that at the same time reminds the
                divine ears of their wonders from eternity and is able to stop the corruption so that
                the Lord's congregation may not utterly perish, and the peoples say, "Where is their
-               God?"<note n="3">Psalms 88:10.</note> As to <persName ref="http://syriaca.org/person/2752">Silvanus</persName> who is of heretical ordination, but begs to be received, you
-               ought not to be in difficulty seeing that the regulations of the holy <persName ref="http://syriaca.org/person/792">Timothy</persName><note n="4">Cf· pp. 320, 339.</note> have
+               God?"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> As to <persName ref="http://syriaca.org/person/2752">Silvanus</persName> who is of heretical ordination, but begs to be received, you
+               ought not to be in difficulty seeing that the regulations of the holy <persName ref="http://syriaca.org/person/792">Timothy</persName>
+            <ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> have
                marked out the proper course for you, and have laid down for you the method to be
                followed in this case: so that everything that goes beyond and surpasses him falls
                outside the limits of what is proper. However it will rest with you who are at hand
                and know the man to shorten or lengthen his time according to the character of his
                repentance. If possible therefore, the God-loving <persName ref="http://syriaca.org/person/2545">Isidore</persName> bishop of <placeName>the city of the
                Chalcidians</placeName> will release this man. But, if it is thought that this will stir up
-               affliction to his bonds, as <persName>the Apostle</persName> says,<note n="5">Philippians 1:16.</note> it is easy for him to go with a letter
+               affliction to his bonds, as <persName>the Apostle</persName> says,<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> it is easy for him to go with a letter
                from you to the God-loving <persName ref="http://syriaca.org/person/2643">Epimachus</persName> bishop of <placeName ref="http://syriaca.org/place/2709">Rhinocorura</placeName>, and receive forgiveness.
                Only beware <pb n="327"/> lest, when the man ts forgiven, he use the freedom as an
                assistance in causing disturbance in various places, since such is the character that
@@ -153,20 +159,20 @@
                the proclamation of the faith, and in the rejection of the evil Chalcedonian impiety,
                and in purging itself of heretics and holding no association with them, this
                communion I so hold and to it I so draw near, as I drew near in it with the highest
-               assurance<note n="6"><foreign xml:lang="grc">πληροφορία</foreign>.</note> and a fixed mind, when our holy father <persName ref="http://syriaca.org/person/2736">Peter</persName> the bishop from <placeName>Iberia</placeName> was
+               assurance<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> and a fixed mind, when our holy father <persName ref="http://syriaca.org/person/2736">Peter</persName> the bishop from <placeName>Iberia</placeName> was
                offering, and was performing the rational sacrifice. We did not by our concession
                give anything like what we received. We waived the strict observance of names
                according to the fathers' ordinances for the sake of the salvation of so many cities,
                and instead of it we obtained besides <placeName ref="http://syriaca.org/place/2604">the East</placeName> the whole of <placeName ref="http://syriaca.org/place/715">Egypt</placeName> also supporting us
                and ranging itself on our side with a pure heart, and not bound in a yoke with
-               unbelievers, to speak in the words of <persName>the Apostle</persName>.<note n="7">2 Corinthians 6:14.</note> Having cast this seed, we gained
+               unbelievers, to speak in the words of <persName>the Apostle</persName>.<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> Having cast this seed, we gained
                for fruits banishment of bishops: confession on the part of cities: martyr-like
                contests, such that men reckon every kind of torture small. This is to be seen not
                only in men, but also in women and in every sex, and every age: insomuch that the
                inhabitants of the whole of <placeName ref="http://syriaca.org/place/715">Egypt</placeName> are ready to strip themselves for like contests, if
                the time summon. What manner of man then were we when we had these things granted us,
                a man deprived of bishops <pb n="329"/> and sitting in a corner, and resembling a
-               pelican of the wilderness as the prophet sings,<note n="8">Psalms 101:7.</note> and possessing a fruitless accuracy,
+               pelican of the wilderness as the prophet sings,<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> and possessing a fruitless accuracy,
                insomuch that some were eager to proceed to new and different divisions? But God,
                knowing clearly that our holy fathers and His true servants always endeavoured to
                walk in the royal road, cut away these things and made them cease as if they had
@@ -174,7 +180,7 @@
                that we had never desired or been able to conceive in our mind. He exposed the
                feebleness of human thoughts and efforts, but by means of facts themselves said, "For
                what the holy God hath purposed who shall annul? and His high hand who shall turn
-               away?"<note n="9">Isaiah 14:27.</note> How then shall we be found speaking in a contrary sense, we whose duty it is
+               away?"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> How then shall we be found speaking in a contrary sense, we whose duty it is
                to exhort those who communicate with us to show freedom of speech regarding these
                things? Indeed according to my information the wonderful <persName ref="http://syriaca.org/person/2436">Mitras</persName> showed himself more
                irrational even than irrational things by continually saying that he is not in
@@ -185,13 +191,13 @@
                Who is there who will not be disgusted with men who like <persName>Abimelech</persName> the <pb n="330"/>
                offspring of <persName>Gideon</persName>'s concubine, who illegally became king in <placeName>Shechem</placeName> by gathering
                round him depraved and profligate men, as the God-inspired scripture somewhere
-               narrates,<note n="10">Judges 9:1-6.</note> illegally receive bishops who have been canonically repudiated and received
-               deprivation, and make prayers over them, and crucify <persName>Christ</persName> afresh, as it is said,<note n="11">Hebrews 6:6.</note>
+               narrates,<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> illegally receive bishops who have been canonically repudiated and received
+               deprivation, and make prayers over them, and crucify <persName>Christ</persName> afresh, as it is said,<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>
                and think that they are practising religion: men, whom God has rendered more naked
                than a pebble as the text of Proverbs says, as their evil disposition deserves: men
                who have fallen so far into conflict with God as to presume to anathematize the
                Edict, under which, as those men say in so many words, the followers of <persName ref="http://syriaca.org/person/2692">Julian</persName> the
-               presbyter,<note n="12">Cf. Zach. Rh. vi. 1, 2, 4.</note> whose soul is at rest; continued joined in communion with <persName ref="http://syriaca.org/person/2736">Peter</persName>, who
+               presbyter,<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> whose soul is at rest; continued joined in communion with <persName ref="http://syriaca.org/person/2736">Peter</persName>, who
                became bishop of the <placeName>city of the Alexandrines</placeName> after <persName ref="http://syriaca.org/person/792">Timothy</persName>, unto this day, and went
                into the church with him; not knowing that they are laying under an anathema men
                whom, as they think, they ascribe to themselves as their fathers. For how is it that,
@@ -201,11 +207,11 @@
                have assented to this at the beginning: but have demanded that it also be repudiated,
                like one of the repudiated doctrines. So great is the lack of instruction and the
                desire of amassing money: an object <pb n="331"/> that "blinds" even "the eyes of the
-               wise," as the sacred text says,<note n="13">Deuteronomy 16:19.</note> not to speak of men who turn their attention to their
+               wise," as the sacred text says,<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> not to speak of men who turn their attention to their
                belly only: which they fatten every day and carry about like some honoured sister,
                making their cheeks red by constant feastings, and presenting them swollen with fat
                to those that meet them, and not hiding themselves at all. The good <persName ref="http://syriaca.org/person/2602">Anatolius</persName> also is
-               one of these, who foretold death to some men who had in full assurance<note n="14"><foreign xml:lang="grc">πληροφορία</foreign>.</note> communicated
+               one of these, who foretold death to some men who had in full assurance<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> communicated
                with the holy church in <placeName>Alexandria</placeName>, claiming to draw prophecies from that fat belly
                of his: but, when the prophecy failed to be fulfilled, he changed his tack and acted
                as a suppliant to those who had received his menaces. Having fallen in with them on
@@ -221,11 +227,11 @@
                venerated sign; and I sent this man away expecting to die. And on the next day the
                Lord of hosts made the swelling caused by the tumours to disappear, and he did not
                keep his bed for one single hour: but, going about and following his usual pursuits,
-               he was delivered from the affliction, "walking and leaping and praising God";<note n="15">Acts 3:8.</note> for the
+               he was delivered from the affliction, "walking and leaping and praising God";<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> for the
                sacred scripture will again express this also. But, if I have become a fool by
                relating this, <persName ref="http://syriaca.org/person/2602">Anatolius</persName> the false prophet compelled me, even as the false apostles
-               did <persName>Paul</persName>;<note n="16">2 Corinthians 12:11.</note> though I am not <persName>Paul</persName>, and am a sinner, yet not a breaker of the law or the
-               canons, but an observer of the law of <persName>Christ</persName>.<note n="17">1 Corinthians 9:21.</note> Many other things also might have been
+               did <persName>Paul</persName>;<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> though I am not <persName>Paul</persName>, and am a sinner, yet not a breaker of the law or the
+               canons, but an observer of the law of <persName>Christ</persName>.<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> Many other things also might have been
                related, which expose the foolishness of those men, but confirm the power of the
                truth: but the limits of a letter are not suited for such stories, seeing that they
                need the extended range of oral conversation. For the same <persName ref="http://syriaca.org/person/2602">Anatolius</persName> thought fit to
@@ -276,12 +282,12 @@
                have grown old in the flock and yet survive showed this by many proofs. And in order
                to exclude the impiety I made this manifest in the discourse, and prevented the
                deception of the believing peoples who by this plea were being brought to what the
-               heretics desired, and were spurning the substance<note n="17"><foreign xml:lang="grc">κεφάλαιον</foreign>.</note> of the sound faith." So far said J.
+               heretics desired, and were spurning the substance<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> of the sound faith." So far said J.
                But I find that the holy fathers also defend conspicuous men who are capable of
-               attracting many by their reputation,<note n="18"><foreign xml:lang="grc">ύπόληψις</foreign>.</note> and this while knowing that those men did not
+               attracting many by their reputation,<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> and this while knowing that those men did not
                keep the accuracy of the faith, whom they enthusiastically and with many praises
                defended. Such was the conduct of <persName ref="http://syriaca.org/person/354">Athanasius</persName> when he wrote on behalf of <persName ref="http://syriaca.org/person/2456">Dionysius</persName>
-               against the Arians,<note n="19">P. G. xxv. 480.</note> who wished to snatch for themselves the reputation of the man in
+               against the Arians,<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/> who wished to snatch for themselves the reputation of the man in
                support of their heresy. The purpose of <persName ref="http://syriaca.org/person/354">Athanasius</persName> that made him compose the defence
                and the encomium was very plain: and this was, not to give the adversaries a chance
                of priding themselves upon him, and of putting forward the glory of <persName ref="http://syriaca.org/person/2456">Dionysius</persName> as a
@@ -292,7 +298,7 @@
                the substances, now accepting it and making a defence to his name<pb n="336"/>sake.
                In addition to these things he has regarding the Holy Spirit also left utterances
                that do not at all beseem a spiritual man, exiling Him from the adorable Godhead, and
-               reckoning Him with created and ministering nature in some lower place."<note n="20">Ephesians 9:2.</note> What then?
+               reckoning Him with created and ministering nature in some lower place."<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> What then?
                When we hear these things, shall we bring a just accusation against <persName ref="http://syriaca.org/person/354">Athanasius</persName> on the
                ground that by his defence he extolled and praised a man who thus fell from the right
                standard of accuracy? or shall we accept him the more on account of this high
@@ -303,20 +309,54 @@
                churches, and to the end that they might hinder the plots of the heretics, and might
                bar every opening for deceit against them, and that they might remove the stones from
                the royal road that no one might go astray. I have given vent to these utterances, —
-               I have grieved in my spirit as it is somewhere written<note n="21">Psalms 106:7(?).</note> over the wonderful <persName ref="http://syriaca.org/person/2436">Mitras</persName>,
+               I have grieved in my spirit as it is somewhere written<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/> over the wonderful <persName ref="http://syriaca.org/person/2436">Mitras</persName>,
                who, as was said by the wise <persName>Paul</persName> to the <persName>Corinthians</persName>, suffers fools though he is
-               wise.<note n="22">2 Corinthians 11:19.</note> For this reason I said like <persName>Job</persName>, "Wherefore neither will I refrain my mouth; I
+               wise.<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> For this reason I said like <persName>Job</persName>, "Wherefore neither will I refrain my mouth; I
                will speak in the anguish of my spirit; I will open my mouth being <pb n="337"/>
-               constrained by the bitterness of my soul."<note n="23">Job 7:11.</note> I beg and entreat your holinesses, since
+               constrained by the bitterness of my soul."<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/> I beg and entreat your holinesses, since
                still even now I have not had an opportunity of speaking with him (if I shall. find
                an opportunity, I will not neglect it), yourselves to fill my place, and suggest to
                his smallness of soul not only these few things which I have said, but all that it is
                in the power of your understandings to say. But, if I too "have erred" (I will again
-               quote the words of <persName>Job</persName>), "and a deceiver dwells with me,"<note n="24">Id. xix. 4.</note> "teach me: and I will be
-               dumb";<note n="25">Id. vi. 24.</note> and "I will lay mine hand upon my mouth: and, having once spoken, I will not
-               go on to speak a second time."<note n="26">Id. xxxix. 34, 35.</note> </ab>
+               quote the words of <persName>Job</persName>), "and a deceiver dwells with me,"<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/> "teach me: and I will be
+               dumb";<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> and "I will lay mine hand upon my mouth: and, having once spoken, I will not
+               go on to speak a second time."<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">The first Saturday in Lent (Sachau Verz. d. syr. Hdschr. zu Berlin, p. 486).</note>
+        <note xml:id="n2" target="#a2" n="2">Exodus 3:7.</note>
+        <note xml:id="n3" target="#a3" n="3">Psalms 88:10.</note>
+        <note xml:id="n4" target="#a4" n="4">Cf· pp. 320, 339.</note>
+        <note xml:id="n5" target="#a5" n="5">Philippians 1:16.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">πληροφορία</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">2 Corinthians 6:14.</note>
+        <note xml:id="n8" target="#a8" n="8">Psalms 101:7.</note>
+        <note xml:id="n9" target="#a9" n="9">Isaiah 14:27.</note>
+        <note xml:id="n10" target="#a10" n="10">Judges 9:1-6.</note>
+        <note xml:id="n11" target="#a11" n="11">Hebrews 6:6.</note>
+        <note xml:id="n12" target="#a12" n="12">Cf. Zach. Rh. vi. 1, 2, 4.</note>
+        <note xml:id="n13" target="#a13" n="13">Deuteronomy 16:19.</note>
+        <note xml:id="n14" target="#a14" n="14">
+          <foreign xml:lang="grc">πληροφορία</foreign>.</note>
+        <note xml:id="n15" target="#a15" n="15">Acts 3:8.</note>
+        <note xml:id="n16" target="#a16" n="16">2 Corinthians 12:11.</note>
+        <note xml:id="n17" target="#a17" n="17">1 Corinthians 9:21.</note>
+        <note xml:id="n18" target="#a18" n="18">
+          <foreign xml:lang="grc">κεφάλαιον</foreign>.</note>
+        <note xml:id="n19" target="#a19" n="19">
+          <foreign xml:lang="grc">ύπόληψις</foreign>.</note>
+        <note xml:id="n20" target="#a20" n="20">P. G. xxv. 480.</note>
+        <note xml:id="n21" target="#a21" n="21">Ephesians 9:2.</note>
+        <note xml:id="n22" target="#a22" n="22">Psalms 106:7(?).</note>
+        <note xml:id="n23" target="#a23" n="23">2 Corinthians 11:19.</note>
+        <note xml:id="n24" target="#a24" n="24">Job 7:11.</note>
+        <note xml:id="n25" target="#a25" n="25">Id. xix. 4.</note>
+        <note xml:id="n26" target="#a26" n="26">Id. vi. 24.</note>
+        <note xml:id="n27" target="#a27" n="27">Id. xxxix. 34, 35.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

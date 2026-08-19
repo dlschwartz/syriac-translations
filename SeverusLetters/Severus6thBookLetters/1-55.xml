@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,23 +99,24 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.55" n="1.55">
+        <div type="section" xml:id="section-1.55">
             <pb n="164"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2455">Theodore</persName> presbyter and archimandrite of
                the monastery of father Romanus among the saints.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 3rd book the 32nd
                letter.</head>
-            <ab> Even I, though am in hiding and live in different places at different times on
+            <ab xml:id="section-1.55.1" n="1"> Even I, though am in hiding and live in different places at different times on
                account of the present stress, was not unaware of your religiousness' praiseworthy
                life. Wherefore also I thought the expressions of <persName>John</persName> the Evangelist and Apostle
                fitted to be addressed to you by me, which he composed when writing an epistle to
                someone and speaking thus: "I rejoiced greatly when brethren came and testified to
-               the truth that is in thee, how that thou walkest in the truth."<note n="1">3 John 3.</note> Continue therefore to
+               the truth that is in thee, how that thou walkest in the truth."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Continue therefore to
                show the same energy, and press forwards, and enlarge the rational flock of those who
                practise with you the ascetic life of solitariness, and let them henceforth have a
                'measure of wheat' of the doctrines of philosophy with understanding, as the gospel
                text advises; which also promises a blessing to him who does this carefully and with
                diligence, saying, "Blessed is the bondservant whom his lord shall come and find so
-               doing. Of a truth I say unto you that he will set him over all that he hath."<note n="2">Luke 12:42-44.</note> The
+               doing. Of a truth I say unto you that he will set him over all that he hath."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> The
                question also that you have now been pleased to ask of the religious presbyter <persName ref="http://syriaca.org/person/2515">Thomas</persName>
                by your letter was in truth in consonance with your <pb n="165"/> understanding. For
                he sent me the letter that you wrote, and, when it came to my knowledge, I praised
@@ -124,8 +129,8 @@
                communion, and is most pure and free from the no-association with the heretics; and
                that you must also have no vain hesitation about ordinations: but that both your
                religiousness and the other religious archimandrites of the holy cloisters that have
-               been banished from <placeName ref="http://syriaca.org/place/149">Palestine</placeName><note n="3">This was therefore written during the exile of the monks (Zach
-                  Rh. viii. 5).</note> on account of the word of truth must after probation
+               been banished from <placeName ref="http://syriaca.org/place/149">Palestine</placeName>
+            <ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> on account of the word of truth must after probation
                present your own brethren to the God-loving bishops in <placeName ref="http://syriaca.org/place/2298">Egypt</placeName>, in order that they may
                ordain presbyters and deacons for you, and satisfy the requirements of your need. How
                is it anything but an unreasonable state of affairs and one fraught with matter for
@@ -142,12 +147,12 @@
                and fixedness of the saintly archbishop <persName ref="http://syriaca.org/person/2440">Timothy</persName>, and of the God-loving bishops under
                him, and of the churches in their cities: so that one may fitly utter the celebrated
                expressions of <placeName>Isaiah</placeName> the prophet, "Tabernacles that shall not shake; nor shall the
-               pegs of her tabernacle be moved for ever, and her cords shall not be broken asunder."<note n="4">Isaiah 33:20.</note>
+               pegs of her tabernacle be moved for ever, and her cords shall not be broken asunder."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
                Therefore for a man to try to separate by vain thoughts things that are so admirably
                united, and to divide things that are so indivisible through the inspiration of grace
                from above is a thing fraught with matter for every kind of evil-speaking and
                fault-finding. This we warn both your love of God and all who communicate with us to
-               shun, and to cast such stones of stumbling out of the Lord's ways as it is written,<note n="5">Isaiah 42:14 (?).</note>
+               shun, and to cast such stones of stumbling out of the Lord's ways as it is written,<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
                and, as we said before, to reckon the ordination of the saintly bishops of the <placeName ref="http://syriaca.org/place/2604">East</placeName>
                and that of those of <placeName ref="http://syriaca.org/place/2298">Egypt</placeName> to be one, and not recognise any distinction between
                these. If you wish to read <pb n="167"/> this letter to any other persons also, in
@@ -156,6 +161,15 @@
                think and do? </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">3 John 3.</note>
+        <note xml:id="n2" target="#a2" n="2">Luke 12:42-44.</note>
+        <note xml:id="n3" target="#a3" n="3">This was therefore written during the exile of the monks (Zach
+                  Rh. viii. 5).</note>
+        <note xml:id="n4" target="#a4" n="4">Isaiah 33:20.</note>
+        <note xml:id="n5" target="#a5" n="5">Isaiah 42:14 (?).</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

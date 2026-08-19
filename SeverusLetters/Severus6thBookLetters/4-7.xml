@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,24 +98,26 @@
   <text>
       <body>
          <div type="work" xml:id="work-4.7" n="4.7">
-            <head type="main" resp="#compiler">Of the same to father <persName ref="http://syriaca.org/person/2438">John Canopites</persName><note n="1">Cf Vit. Sev. p. 23; Vit. Pet. lb. p. 132.</note>.</head>
+        <div type="section" xml:id="section-4.7">
+            <head type="main" resp="#compiler">Of the same to father <persName ref="http://syriaca.org/person/2438">John Canopites</persName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
             <head type="sub" resp="#compiler">From those that were found outside the 23 books, the 4th
                letter.</head>
-            <ab> We for our part, feeble although we are, write everything written by your holiness
-               upon the tablets of our heart, as it is written<note n="2">2 Corinthians 3:3.</note>, and do not, as a man might think,
+            <ab xml:id="section-4.7.1" n="1"> We for our part, feeble although we are, write everything written by your holiness
+               upon the tablets of our heart, as it is written<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, and do not, as a man might think,
                read it over hastily. And we pray, as sinners, that your words may with God's help be
                continued to us in the time of trial. For I am in the habit of mentioning <persName>Basil</persName> and
                <persName>Gregory</persName>, and having their names constantly upon my tongue: but there is nothing
                resembling their virtue in me, seeing that I have passed all my life in negligence.
                As for those who, as your holiness says, starting from this place, go to other
-               provinces<note n="3"><foreign xml:lang="grc">έπαρχίας</foreign>.</note> and communicate indifferently, my conscience does not smite me as not
+               provinces<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and communicate indifferently, my conscience does not smite me as not
                having given this injunction with all my power and all my capacity for <pb n="267"/>
                teaching, and said that want of carefulness in these things is great wickedness;
                whence I did not shrink from giving personal demonstration and proof even to women,
-               when need called, that there is a great gulf, as in the passage in the Gospels<note n="4">Luke 16:26.</note>,
+               when need called, that there is a great gulf, as in the passage in the Gospels<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>,
                between the orthodox communion and that of the adversaries, and that we have no
                communion or association with those of adverse opinions. But, if some men
-               associate secretly in so great a number of cities and of provinces,<note n="5"><foreign xml:lang="grc">έπαρχίας</foreign>.</note> your sanctity
+               associate secretly in so great a number of cities and of provinces,<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> your sanctity
                knows that this reflects no blame on us. So far was I from being satisfied with the
                matter that I even wrote an epistle to some of our brothers in <placeName>Alexandria</placeName> to say that
                they ought not, on the pretext of worshipping in the holy places, to associate in
@@ -119,16 +125,28 @@
                position in which they stand. However matters are placed as in a balance and a scale
                of a balance, and we do not know what will be the result of the things that are being
                stirred in the royal city and the things reported concerning the synod that is to be
-               held,<note n="6">Perhaps the conference of 532 (see Intr. p. viii).</note> seeing that they are variously told and differently at different times. But of
+               held,<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> seeing that they are variously told and differently at different times. But of
                this one thing we for our part are assured, that, while God extends His hand, no one
                will be able to lead us away from the right faith, From places and from sees removal
                by force is possible: but from belief it is wholly impossible, unless we ourselves
                <pb n="268"/> desire it, and the fear of God be lacking in our souls. For "the
-               Lord taketh pleasure in them that fear Him and in those that hope for His grace,"<note n="7">Psalms 146:11.</note> as
+               Lord taketh pleasure in them that fear Him and in those that hope for His grace,"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> as
                the singing prophet somewhere says. But you, father, help us with all the power that
                is in you by stretching forth your saintly hands. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Cf Vit. Sev. p. 23; Vit. Pet. lb. p. 132.</note>
+        <note xml:id="n2" target="#a2" n="2">2 Corinthians 3:3.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">έπαρχίας</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">Luke 16:26.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">έπαρχίας</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">Perhaps the conference of 532 (see Intr. p. viii).</note>
+        <note xml:id="n7" target="#a7" n="7">Psalms 146:11.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

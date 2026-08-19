@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,20 +73,21 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/2513"
-               >Constantine</persName>
+            <persName ref="http://syriaca.org/person/2513">Constantine</persName>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -95,57 +98,50 @@
    <text>
       <body>
          <div type="work" xml:id="work-1.1" n="1.1">
+        <div type="section" xml:id="section-1.1">
             <pb n="3"/>
-            <head type="main" resp="#compiler">To <persName ref="http://syriaca.org/person/2513"
-               >Constantine</persName> the bishop.</head>
+            <head type="main" resp="#compiler">To <persName ref="http://syriaca.org/person/2513">Constantine</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those before episcopacy, from the 2nd book the 12th
                letter.</head>
-            <ab> The contents of your sanctity's former epistle to me are as far from applying to my
-               vileness as the heaven is far from the earth, to use the words of the prophet.<note n="1">Psalm 102:11.</note> For
+            <ab xml:id="section-1.1.1" n="1"> The contents of your sanctity's former epistle to me are as far from applying to my
+               vileness as the heaven is far from the earth, to use the words of the prophet.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> For
                you thought fit to recite to me the passage of the Song of Songs, I mean, "Thou art
-               all fair, my neighbour, and there is no spot [in thee."<note n="2">Song of Songs 4:7.</note> ...]. I [am turned] into
-               another man, as it is written<note n="3">1 Kings 10:6.</note> and prophesy, and that not one of all your words shall
+               all fair, my neighbour, and there is no spot [in thee."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> ...]. I [am turned] into
+               another man, as it is written<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and prophesy, and that not one of all your words shall
                fall <pb n="4"/> to the ground. For he is faithful who said to you high priests, "Ye
-               shall call my name upon the sons of <placeName>Israel</placeName>, and I the Lord will hallow them."!<note n="5">Numbers 6:27.</note>
-               However, let these things be so. But know, father ours, that, after the holy <persName ref="http://syriaca.org/person/2528" >Asterius</persName>
+               shall call my name upon the sons of <placeName>Israel</placeName>, and I the Lord will hallow them."!<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
+               However, let these things be so. But know, father ours, that, after the holy <persName ref="http://syriaca.org/person/2528">Asterius</persName>
                the bishop and those with him came here, many various [...] will cast those that are
                deceived into a pit of destruction. But all, so to speak, have the one object only,
-               to bring to naught the <foreign rend="transliteration">typos</foreign> or formula of satisfaction<note n="6"><foreign xml:lang="grc">πληροφορία</foreign>.</note> which
+               to bring to naught the <foreign rend="transliteration">typos</foreign> or formula of satisfaction<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> which
                seemed good to the pious king, which he also sent to <persName ref="http://syriaca.org/person/2530">Flavian</persName>, the prelate of the city
                of <placeName ref="http://syriaca.org/place/10">Antiochus</placeName>, and either altogether to remove and abolish it, or to cut away some of
                its exactitude, because they do not intend to drink the still water, as says <persName>Ezekiel</persName>,
-               but strive to foul it with their own feet,<note n="7">Ezekial 34:18.</note> in order that the sheep which have learned
+               but strive to foul it with their own feet,<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> in order that the sheep which have learned
                to hear the voice of the Good Shepherd, and to drink "the water of <placeName>Shiloah</placeName> that goeth
-               softly,"<note n="8">Isaiah 8:6.</note> may not be able to avoid the pollution of the drink. Which <persName ref="http://syriaca.org/person/2529">John</persName> of
+               softly,"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> may not be able to avoid the pollution of the drink. Which <persName ref="http://syriaca.org/person/2529">John</persName> of
                <placeName>Claudiupolis</placeName> also tried to do when he came here. When he received me in the house of
-               the glorious <persName ref="http://syriaca.org/person/2281">Patrick</persName>, the Master of the Soldiers,<note n="9"><foreign xml:lang="grc">στρατηλάτης</foreign>.</note> and conversed with me by order of
+               the glorious <persName ref="http://syriaca.org/person/2281">Patrick</persName>, the Master of the Soldiers,<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> and conversed with me by order of
                our pious king, he said, "There ought to be introduced into the formula of
                satisfaction <pb n="5"/> this statement, 'We receive the synod at <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName>, not as a
-               definition of faith, but as a rejection of <persName ref="http://syriaca.org/person/655">Nestorius</persName> and of <persName ref="http://syriaca.org/person/482"> Eutyches </persName>.'<note n="9">Cf. Zach. Rh. ix. 20 ad fin.;Evag. iii. 31.</note> Thus both
+               definition of faith, but as a rejection of <persName ref="http://syriaca.org/person/655">Nestorius</persName> and of <persName ref="http://syriaca.org/person/482"> Eutyches </persName>.'<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> Thus both
                those that are pleased with the Synod will not be angry, and you will receive
                contentment in that the doctrines which offend you are rejected." But I said, "This
                argument is silly, and the offspring of a drunken mind. Who is there among
                right-minded persons who will accept and praise us on account of this disturbance and
-               confusion? If the Synod of <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName> introduced the doctrine of <persName ref="http://syriaca.org/person/655"
-                  >Nestorius</persName> into the
-               churches, though it called <persName ref="http://syriaca.org/person/655"
-                  >Nestorius</persName> 'of small intelligence'<note n="10">Mansi 7:113.</note> in order to entice and
+               confusion? If the Synod of <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName> introduced the doctrine of <persName ref="http://syriaca.org/person/655">Nestorius</persName> into the
+               churches, though it called <persName ref="http://syriaca.org/person/655">Nestorius</persName> 'of small intelligence'<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> in order to entice and
                deceive those that are more simple, how can we say that it rejected the opinion of
-               <persName ref="http://syriaca.org/person/655"
-                  >Nestorius</persName>? But, if the formula of satisfaction<note n="11"><foreign xml:lang="grc">πληροφορία</foreign>.</note> in so many words rejects the doctrines
+               <persName ref="http://syriaca.org/person/655">Nestorius</persName>? But, if the formula of satisfaction<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> in so many words rejects the doctrines
                of the Synod and of the impious Tome of <persName ref="http://syriaca.org/person/2299"> Leo </persName>, which are the life blood of the
-               abomination of <persName ref="http://syriaca.org/person/655"
-                  >Nestorius</persName>, how can we honestly say that we accept this synod as
-               against <persName ref="http://syriaca.org/person/655"
-                  >Nestorius</persName>? [...] rather we shall be tripped up as by [...]" "What then? Were
+               abomination of <persName ref="http://syriaca.org/person/655">Nestorius</persName>, how can we honestly say that we accept this synod as
+               against <persName ref="http://syriaca.org/person/655">Nestorius</persName>? [...] rather we shall be tripped up as by [...]" "What then? Were
                not those at <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName> rightly moved against <persName ref="http://syriaca.org/person/482">Eutyches</persName>? why, [if] you accept them on
                this point, do you think them fit [...] an anathema?" [But] I said, "What I am about to
                say is strange, but nevertheless true. It is especially for this reason that we say
-               that they are men that deserve anathema, because they unnecessarily extended the <pb
-                  n="6"/> heresy of <persName ref="http://syriaca.org/person/482"> Eutyches </persName>. Owing to the fact that they wished to heal the
+               that they are men that deserve anathema, because they unnecessarily extended the <pb n="6"/> heresy of <persName ref="http://syriaca.org/person/482"> Eutyches </persName>. Owing to the fact that they wished to heal the
                disorder in an unintelligent way by means of an opposite infection, mean by the evil
-               impiety of <persName ref="http://syriaca.org/person/655"
-                  >Nestorius</persName>, thenceforward those who were infected with the belief in a
+               impiety of <persName ref="http://syriaca.org/person/655">Nestorius</persName>, thenceforward those who were infected with the belief in a
                phantasy, seeing that they were inviting them to man-worship, recoiled from this
                vicious remedy, and thought themselves all the more pious, and carried their own
                corruption further. But, if they had been cured and healed by means of right
@@ -153,8 +149,7 @@
                [who] met together [at] <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName> as being adversaries [of] the heresy of <persName ref="http://syriaca.org/person/482"> Eutyches </persName>,
                and praise them on the ground that they spoke well up to a certain point, and do not
                rather blame them, it is time for us to accept also the Arian heresy, which contends
-               against the evil opinion of <persName ref="http://syriaca.org/person/2555"
-                  >Sabellius</persName>, and agrees up to a certain point with the
+               against the evil opinion of <persName ref="http://syriaca.org/person/2555">Sabellius</persName>, and agrees up to a certain point with the
                right doctrines of the Church, in that it glorifies God the unbegotten Father, and in
                that it does not confound the three substances, but confines them within their own
                attributes or persons. But we do not extol it on this account, nor do we judge it to
@@ -162,19 +157,18 @@
                creatures, and degrades them to a servile position, on this account it is utterly
                repudiated by the orthodox doctors of the Church. This same trick we find practised
                by the other heresies also. By displaying a certain part of the sound faith as a
-               decoy and mixing<note n="12">This is the meaning needed, though I cannot supply the word.</note> with this the vanity of their <pb n="7"/> own profane words they
+               decoy and mixing<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> with this the vanity of their <pb n="7"/> own profane words they
                thus appear plausible to those that are more innocent and simple; but we do not, on
                account of the sound part, hold back and shrink from repudiating them, but we
                anathematize them with all our power." When the good and excellent <persName ref="http://syriaca.org/person/2529">John</persName> had heard
-               these things, he betook himself to another topic<note n="13"><foreign xml:lang="grc">κεφάλαιον</foreign>.</note>. He asked me whether <persName ref="http://syriaca.org/person/2562">Epiphanius</persName> the
-               bishop<note n="14">Cf Zach. Rh. v. 5.</note>," who is among the saints, performed our ordinations fitly and in accordance
+               these things, he betook himself to another topic<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>. He asked me whether <persName ref="http://syriaca.org/person/2562">Epiphanius</persName> the
+               bishop<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/>," who is among the saints, performed our ordinations fitly and in accordance
                with the canon. But I said, "Very well and most properly," and "after the pattern of
                the doctors and stablishers of the word of the orthodox faith. For he in his boyhood
                was brought up in monasteries, and practised a virginity modelled on the angelic and
                unembodied life, being a citizen of Perga: a man of no ignoble city, as it is
-               written<note n="14">Acts 21:39.</note>, yes, and a man of noble birth also, if these things are not small to the
-               citizens of <placeName>Jerusalem</placeName> above. Having been advanced to the bishopric of <placeName ref="http://syriaca.org/place/2681"
-                  >Magydum</placeName> (this
+               written<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/>, yes, and a man of noble birth also, if these things are not small to the
+               citizens of <placeName>Jerusalem</placeName> above. Having been advanced to the bishopric of <placeName ref="http://syriaca.org/place/2681">Magydum</placeName> (this
                also is a city in <placeName ref="http://syriaca.org/place/1531"> Pamphylia
                </placeName>) at the time of the Encyclical which repudiated the
                impiety that was confirmed at <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName>, under which <persName ref="http://syriaca.org/person/792">Timothy</persName>, who was sent into exile
@@ -186,18 +180,18 @@
                his fathers, and the blessed man came as a fugitive to <persName>Alexander</persName>'s city, and embraced
                communion with the saintly <persName ref="http://syriaca.org/person/792">Timothy</persName>, the champion of the right faith, having taken
                joyfully upon him the spoiling of his goods, and knowing that he had in heaven a
-               better and enduring inheritance, as the wise <persName>Paul</persName> says<note n="15">Hebrews 10:34.</note>. But, when <persName ref="http://syriaca.org/person/792">Timothy</persName> of holy
-               memory had finished his course and kept his faith<note n="16">2 Timothy 4:7.</note> and departed to God, the zealots
+               better and enduring inheritance, as the wise <persName>Paul</persName> says<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/>. But, when <persName ref="http://syriaca.org/person/792">Timothy</persName> of holy
+               memory had finished his course and kept his faith<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> and departed to God, the zealots
                of the orthodox faith were again persecuted in <persName>Alexander</persName>'s city, and the correct word
                was perturbed by certain men's mixture. Then therefore the blessed <persName ref="http://syriaca.org/person/2562">Epiphanius</persName>
                withdrew to <placeName ref="http://syriaca.org/place/149">Palestine</placeName>, the stranger on the earth, who did not know any city of his
                own, or rather knew that only as his own in which God over all is purely worshipped.
                And, having associated with <persName ref="http://syriaca.org/person/680">Peter</persName> 
-               of <placeName ref="http://syriaca.org/place/2674"  >Iberia</placeName> of holy memory, the God-clad man, who was
+               of <placeName ref="http://syriaca.org/place/2674">Iberia</placeName> of holy memory, the God-clad man, who was
                bishop of one of the cities in <placeName ref="http://syriaca.org/place/149">Palestine</placeName>, and with the other holy fathers and
                orthodox peoples, he was persuaded by them and ordained priests, not going beyond the
                meaning of the sacred canons (far be it!) The canon that forbids a bishop to perform
-               an ordination in provinces<note n="17"><foreign xml:lang="grc">έπαρχίας</foreign>.</note> or parishes which do not belong to him<note n="18">Mansi ii. 1313, 1317.</note> comes into play in
+               an ordination in provinces<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> or parishes which do not belong to him<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> comes into play in
                cases where he forces himself upon other men's countries in a disorderly fashion and
                without an invita<pb n="9"/>tion from anyone, not when he is persuaded to ordain by
                the bishop of the country or city and by the orthodox clergymen, especially in time
@@ -210,8 +204,8 @@
                were in need; who also put on a crown of martyrdom, having his head crushed by a
                stone by the heterodox, and migrated in saintly fashion to <persName>Jesus</persName> who longed for him,
                and was admitted to the heavenly mansions. These things are clearly stated by
-               <persName ref="http://syriaca.org/person/781">Theodoret</persName> in his church history <note n="19">Theod. H.E. v. 4.</note>. The great light of the <persName>Cappadocians</persName> also, or rather
-               of the whole world, <persName ref="http://syriaca.org/person/376">Basil</persName> the bishop, the pillar of the church, the 'sure foundation'<note n="20">2 Timothy 2:19.</note>
+               <persName ref="http://syriaca.org/person/781">Theodoret</persName> in his church history <ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/>. The great light of the <persName>Cappadocians</persName> also, or rather
+               of the whole world, <persName ref="http://syriaca.org/person/376">Basil</persName> the bishop, the pillar of the church, the 'sure foundation'<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/>
                (for these words of the apostle fit him more than any man, as fine raiment a bride),
                was raised to the throne of the bishopric, receiving ordination to the episcopacy, by
                bishops outside the boundaries. This <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian says in the funeral
@@ -220,10 +214,10 @@
                of the prelates of the country, and of the worst men of the city who ranged
                themselves with these; however, the Holy Spirit was bound to conquer: yes, and it
                does conquer, gaining an easy victory. For from outside the boundaries it stirs up
-               men to anoint, men distinguished and zealous in the matter of piety.'<note n="21">Prayer of Manasses 43:37.</note> But, if <persName ref="http://syriaca.org/person/376">Basil</persName>,
+               men to anoint, men distinguished and zealous in the matter of piety.'<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/> But, if <persName ref="http://syriaca.org/person/376">Basil</persName>,
                the teacher of orthodoxy and rule and law of all church discipline, was anointed and
                received ordination (for this is the anointing of a high-priest) from those outside
-               the boundaries, because the people of the country or province<note n="22"><foreign xml:lang="grc">έπαρχία</foreign>.</note> were jealous of him, on
+               the boundaries, because the people of the country or province<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> were jealous of him, on
                account of the Arian heresy or for other human reasons, which is a very small thing,
                how can we say that the ordinations that were performed among us by a man outside the
                boundaries, when the transgression of <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName> and the Nestorian heresy bare rule
@@ -242,18 +236,55 @@
                religious presbyter <persName ref="http://syriaca.org/person/680">Peter</persName> has once already given you information by letter upon each
                several point. Still it is a matter for your saintly prayers that the Lord, as is
                said in the Psalms, after we have "passed through fire and water" may 'bring us out
-               into a place of refreshment."<note n="23">Psalms 65:12.</note> But you as watchful shepherds and strict disciples of
+               into a place of refreshment."<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/> But you as watchful shepherds and strict disciples of
                the chief shepherd <persName>Jesus</persName>, who brought us up with Him from among the dead by the blood
                of the everlasting covenant, "stand fast in the faith, quit you like men, and be
-               strong. Let all your things be done with"<note n="24">1 Corinthians 16:13.</note> orthodoxy or the right opinions. For you
-               have "chosen the good part, which shall not be taken away from"<note n="25">Luke 10:42.</note> you. And we believe
-               that the whole lump also will coalesce with your holy first fruit<note n="26">Romans 11:16.</note> and be kneaded: for
+               strong. Let all your things be done with"<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/> orthodoxy or the right opinions. For you
+               have "chosen the good part, which shall not be taken away from"<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> you. And we believe
+               that the whole lump also will coalesce with your holy first fruit<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> and be kneaded: for
                through your prayers we have in all our troubles gained experience of the help of
                God, and the comfort of hopes of success has not departed from us. </ab>
             <trailer>The end.</trailer>
-            <note resp="#compiler">Letters like this, of the same tenour, were written to the
-               patricians also, and to <persName ref="http://syriaca.org/person/56">Oecumenius</persName>.</note>
+            <ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Psalm 102:11.</note>
+        <note xml:id="n2" target="#a2" n="2">Song of Songs 4:7.</note>
+        <note xml:id="n3" target="#a3" n="3">1 Kings 10:6.</note>
+        <note xml:id="n4" target="#a4" n="4">Numbers 6:27.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">πληροφορία</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">Ezekial 34:18.</note>
+        <note xml:id="n7" target="#a7" n="7">Isaiah 8:6.</note>
+        <note xml:id="n8" target="#a8" n="8">
+          <foreign xml:lang="grc">στρατηλάτης</foreign>.</note>
+        <note xml:id="n9" target="#a9" n="9">Cf. Zach. Rh. ix. 20 ad fin.;Evag. iii. 31.</note>
+        <note xml:id="n10" target="#a10" n="10">Mansi 7:113.</note>
+        <note xml:id="n11" target="#a11" n="11">
+          <foreign xml:lang="grc">πληροφορία</foreign>.</note>
+        <note xml:id="n12" target="#a12" n="12">This is the meaning needed, though I cannot supply the word.</note>
+        <note xml:id="n13" target="#a13" n="13">
+          <foreign xml:lang="grc">κεφάλαιον</foreign>.</note>
+        <note xml:id="n14" target="#a14" n="14">Cf Zach. Rh. v. 5.</note>
+        <note xml:id="n15" target="#a15" n="15">Acts 21:39.</note>
+        <note xml:id="n16" target="#a16" n="16">Hebrews 10:34.</note>
+        <note xml:id="n17" target="#a17" n="17">2 Timothy 4:7.</note>
+        <note xml:id="n18" target="#a18" n="18">
+          <foreign xml:lang="grc">έπαρχίας</foreign>.</note>
+        <note xml:id="n19" target="#a19" n="19">Mansi ii. 1313, 1317.</note>
+        <note xml:id="n20" target="#a20" n="20">Theod. H.E. v. 4.</note>
+        <note xml:id="n21" target="#a21" n="21">2 Timothy 2:19.</note>
+        <note xml:id="n22" target="#a22" n="22">Prayer of Manasses 43:37.</note>
+        <note xml:id="n23" target="#a23" n="23">
+          <foreign xml:lang="grc">έπαρχία</foreign>.</note>
+        <note xml:id="n24" target="#a24" n="24">Psalms 65:12.</note>
+        <note xml:id="n25" target="#a25" n="25">1 Corinthians 16:13.</note>
+        <note xml:id="n26" target="#a26" n="26">Luke 10:42.</note>
+        <note xml:id="n27" target="#a27" n="27">Romans 11:16.</note>
+        <note xml:id="n28" target="#a28" n="28">Letters like this, of the same tenour, were written to the
+               patricians also, and to <persName ref="http://syriaca.org/person/56">Oecumenius</persName>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

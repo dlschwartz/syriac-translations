@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,11 +98,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.3" n="1.3">
+        <div type="section" xml:id="section-1.3">
             <head type="main" resp="#compiler">Of the same to the same <persName ref="http://syriaca.org/person/2417">Solon</persName>, bishop and metropolitan
                of <placeName ref="http://syriaca.org/place/2714"> Seleucia </placeName> in <placeName ref="http://syriaca.org/place/99">Isauria</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 2nd book the 24th
                letter.</head>
-            <ab> The letter of your religiousness was enough to bring even those who are not easily
+            <ab xml:id="section-1.3.1" n="1"> The letter of your religiousness was enough to bring even those who are not easily
                roused to wrath into a state of anger and indignation. But for our. part, because we
                are accustomed to endure such things philosophically, especially when they are done
                and <pb n="17"/> said by honoured and beloved men like you, we have thought it right
@@ -107,7 +112,7 @@
                with the judgments of God, and to show that we are free from all cause of blame on
                your part. <persName ref="http://syriaca.org/person/2459">Callistus</persName> was not dragged before us by anyone upon any new charges being
                made against him by you. Then he would have had ground for complaint, inasmuch as
-               discipline would, as you say, have been violated, and a judgment and cause<note n="1"><foreign xml:lang="grc">ύπόθεσις</foreign>.</note> that
+               discipline would, as you say, have been violated, and a judgment and cause<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> that
                belonged to the holy throne of the metropolitan would have been forcibly removed
                before examination or pardon by being called up, as one may say, to the exaltation
                and height of the patriarchal and apostolic throne. But, if the matters upon which
@@ -118,12 +123,11 @@
                faults, and to the bitter attacks of the accusers, and that with much wise moderation
                we tempered the vehemence of those men, and the gravity of the accusations in which
                he was involved; and that after this we further in some sort sent a request, which
-               otherwise would not have beseemed us, to each of the bishops, asking them, <pb n="18"
-               /> inasmuch as he had repented, to vote unanimously for the forgiveness which was to
+               otherwise would not have beseemed us, to each of the bishops, asking them, <pb n="18"/> inasmuch as he had repented, to vote unanimously for the forgiveness which was to
                be granted him; and, upon our showing such solicitude, he received letters from each
                of the bishops, and we received these with joy, and immediately the things written
                were read, and the decree of pardon followed? But, as for the matter which is now
-               thought by <persName ref="http://syriaca.org/person/2458">Hilarian</persName> to be connected with the same subject,<note n="2"><foreign xml:lang="grc">ύπόθεσις</foreign>.</note> how will it be suited for
+               thought by <persName ref="http://syriaca.org/person/2458">Hilarian</persName> to be connected with the same subject,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> how will it be suited for
                the hearing of your love of God, and that when the sin was directed against me, I
                mean that of the forged letter? For I do not know if anyone else among men, or an
                angel from heaven, will come and disprove its spuriousness, seeing that its prejudice
@@ -136,10 +140,9 @@
                upside down; and whether we ourselves have not now the right to use your words, "I am
                insulted and contemned." I forbear to mention that, even after the conviction from
                the letter, <persName ref="http://syriaca.org/person/2468">Paul</persName>, the God-loving bishop of the city of the <persName>Olbians</persName>, came here, and
-               bore witness and said that <persName ref="http://syriaca.org/person/2458">Hilarian</persName> said in the presence of his love of God that <pb
-                  n="19"/> with <persName ref="http://syriaca.org/person/2460">Musonius</persName>' assent he wrote that the diaconate ought to be restored to
+               bore witness and said that <persName ref="http://syriaca.org/person/2458">Hilarian</persName> said in the presence of his love of God that <pb n="19"/> with <persName ref="http://syriaca.org/person/2460">Musonius</persName>' assent he wrote that the diaconate ought to be restored to
                <persName ref="http://syriaca.org/person/2459">Callistus</persName>, but that he should not in addition be archdeacon also, and hold the first
-               place.<note n='3'>CJ. p. 3 I.</note> But what is the modest defence to these things, which is given even by your
+               place.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> But what is the modest defence to these things, which is given even by your
                sanctity (for this is the wonderful thing)? "<persName ref="http://syriaca.org/person/2459">Callistus</persName> is not subject to reproof for
                saying of himself that he does not communicate with us in the matter of the mention
                of <persName ref="http://syriaca.org/person/2474">Peter</persName> and <persName ref="http://syriaca.org/person/2473">Palladius</persName>, who are by a violation of strict accuracy named in the sacred
@@ -147,7 +150,7 @@
                <placeName ref="http://syriaca.org/place/122">Hierapolitans</placeName>, <persName>Philoxenus</persName>, who names a man who signed the things unlawfully done at
                <placeName>Chalcedon</placeName>." May the all-holy soul of <persName ref="http://syriaca.org/person/2513">Constantine</persName> hear these words, against whom that
                wicked man armed himself, both by writing to those on the other side and by creeping
-               into the archive-house, and arming and inciting the governor<note n="4"><foreign xml:lang="grc">ήγμών</foreign>.</note> of the province<note n="5"><foreign xml:lang="grc">έπαρχία</foreign>.</note> to do
+               into the archive-house, and arming and inciting the governor<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> of the province<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> to do
                everything that could bow down his venerable old age and subvert the orthodox faith!
                For so much did he infuriate him, I mean the governor of <placeName ref="http://syriaca.org/place/99">Isauria</placeName> at that time, that
                death alone put a stop to his fury against piety. May <persName ref="http://syriaca.org/person/2417">Solon</persName> also, who succeeded to
@@ -161,9 +164,9 @@
                names of those who unlawfully signed at <placeName>Chalcedon</placeName>"; for it is time for me also to say
                what the well-disposed robber, who was crucified with our Lord and Saviour Christ,
                said to the blasphemous robber, "Dost not even thou fear God, seeing thou art in the
-               same judgment?"<note n="6">Luke 23:40.</note> These things we for our part say out of an abundant choice. But
+               same judgment?"<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> These things we for our part say out of an abundant choice. But
                anyone who makes a careful investigation will find that your love of God has not
-               maintained the order of things<note n="7"><foreign xml:lang="grc">κατάστασις</foreign>.</note> which you took over from <persName ref="http://syriaca.org/person/2513">Constantine</persName> the metropolitan
+               maintained the order of things<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> which you took over from <persName ref="http://syriaca.org/person/2513">Constantine</persName> the metropolitan
                who is among the saints, but that your feathers have gradually fallen off after the
                manner of a bird, while our meanness has carried out a gradual progress, and has in
                no way fallen short of the beginning previously made. Indeed every one of those who
@@ -176,12 +179,12 @@
                as <persName ref="http://syriaca.org/person/2474">Peter</persName> and <persName ref="http://syriaca.org/person/2473"> Palladius </persName> we for our part have for the present not promised to any man.
                The things that must be yielded to junctions or general unions of God's holy churches
                are both regulated and defined, and we never stretch ourselves to things outside the
-               bounds of moderation, "being vainly puffed up,"<note n="8">Colossians 2:18.</note> as the apostle says, and wandering
+               bounds of moderation, "being vainly puffed up,"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> as the apostle says, and wandering
                outside the royal road. If we had in the beginning yielded this difficulty in these
                other names to you who did this, but had stopped at this one only, that of those who
                signed as you say several times, how could I on my own authority have laid either
                upon myself-or upon those who have in no way attained to this strictness "heavy
-               burdens and grievous to be borne,"<note n="9">Matthew 23:4.</note> according to the Gospel saying, which injure the
+               burdens and grievous to be borne,"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> according to the Gospel saying, which injure the
                right teaching of the faith and upset everything owing to the stress and difficulty
                of the present time? The things done in the case of <persName ref="http://syriaca.org/person/2459">Callistus</persName> are therefore as stated
                above. But your love of God ought also to reflect upon the accusations that <persName ref="http://syriaca.org/person/2460">Musonius</persName>
@@ -189,8 +192,7 @@
                with the affair in a proper way and in a seemly fashion; and to see with your eyes
                how honourable is the place that you hold before us, though you show an appearance of
                forgetting. Indeed I know clearly that in the matters in which it is my duty to
-               trouble my mind: have not relaxed at all But, if any man seeks to be burdened <pb
-                  n="22"/> by God's laws, "we have no such custom, neither the churches of God."<note n="10">1 Colossians 11:16.</note> But
+               trouble my mind: have not relaxed at all But, if any man seeks to be burdened <pb n="22"/> by God's laws, "we have no such custom, neither the churches of God."<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> But
                may the Lord be witness. for me of my words and of the feelings of my heart, that I
                am still even now praying that <persName ref="http://syriaca.org/person/2459">Callistus</persName> may be found upon manifest proofs to be
                innocent of the charges made against him, as the previous proceedings also and the
@@ -198,13 +200,15 @@
                road of defence and take refuge in an accuracy of names that does not exist, and in
                the fact that he does not communicate with us, it is time for me to say to him
                appropriately the words of <persName>Jeremiah</persName>, "'If thou whiten thyself with natron and take
-               thee much soap, thy sins have scarred thee before me' saith the Lord."<note n="11">Jeremiah 2:22.</note> But neither
+               thee much soap, thy sins have scarred thee before me' saith the Lord."<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> But neither
                will the religious <persName ref="http://syriaca.org/person/2458">Hilarian</persName> escape from the strict execution of the canons, if he be
                proved to be lying. A certain term of days has been fixed for him, and this has been
                set down in writing; and, if he fail to appear and make no defence to the accusation
                against him, <persName ref="http://syriaca.org/person/2459">Callistus</persName> will be released from the interdict, and the position of a man
                under a charge will rightly pass to him, as disturbing the discipline of the Church.
-               <add><emph>And after other things.</emph></add> But you must believe that,
+               <add>
+              <emph>And after other things.</emph>
+            </add> But you must believe that,
                after I had given the letter to the devout <persName ref="http://syriaca.org/person/2503">Stephen</persName>, something that had been omitted
                came into my mind, I mean, to tell you the time within which the religious bishop
                <persName ref="http://syriaca.org/person/2458">Hilarian</persName> is to come, or else the things stated in the letter about <persName ref="http://syriaca.org/person/2459">Callistus</persName> and
@@ -212,6 +216,25 @@
                extends to the end of the month of September. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">ύπόθεσις</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">ύπόθεσις</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">CJ. p. 3 I.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">ήγμών</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">έπαρχία</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">Luke 23:40.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">κατάστασις</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">Colossians 2:18.</note>
+        <note xml:id="n9" target="#a9" n="9">Matthew 23:4.</note>
+        <note xml:id="n10" target="#a10" n="10">1 Colossians 11:16.</note>
+        <note xml:id="n11" target="#a11" n="11">Jeremiah 2:22.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

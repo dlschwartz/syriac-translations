@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,22 +99,23 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.26" n="1.26">
+        <div type="section" xml:id="section-1.26">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2417">Solon</persName>, bishop of Seleucia in
                Isauria.</head>
             <head type="sub" resp="#compiler">from those during episcopacy, from the 4th book the
                338th letter.</head>
-            <ab> <persName ref="http://syriaca.org/person/2468">Paul</persName> the bishop of <placeName ref="http://syriaca.org/place/2698">Olba</placeName>, as may be inferred from his so long and protracted absence,
+            <ab xml:id="section-1.26.1" n="1"> <persName ref="http://syriaca.org/person/2468">Paul</persName> the bishop of <placeName ref="http://syriaca.org/place/2698">Olba</placeName>, as may be inferred from his so long and protracted absence,
                has done the work of a hireling and not of a shepherd, one who, when he sees the wolf
                coming, as the sacred book of the gospels says, "leaveth the sheep and fleeth: and
                the wolf catcheth and scattereth them; and he careth not for the sheep because he is
-               an hireling and not the shepherd."<note n="1">John 10:12,13.</note> Henceforth therefore we also ought no longer to
+               an hireling and not the shepherd."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Henceforth therefore we also ought no longer to
                wait for a man of such unstable character as his (it is right for us to speak in this
                gentle language), but to settle the things that lie before us on a good basis, and in
                accordance with the purpose of the laws of the Spirit. The same <persName ref="http://syriaca.org/person/2468">Paul</persName> charged the
                God-loving <persName ref="http://syriaca.org/person/2458">Hilarian</persName> bishop of Diocaesarea with having performed an ordination,
                contrary to the holy canons, in a monastery which is not in his jurisdiction; and we
                thought it right to prohibit those who were ordained from exercising the sacred
-               ministry until the details of the case<note n="2"><foreign xml:lang="grc">ύπόθεσις</foreign>.</note> should be examined;<note n="3">Cf p. 70.</note> for the matter was not
+               ministry until the details of the case<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> should be examined;<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> for the matter was not
                clear but in fact much involved and in need of ex<pb n="87"/>amination and a correct
                decision. But now we have determined it to be right to release the said men from the
                inhibition and to allow them to exercise the ministry, since it is not possible to
@@ -122,6 +127,13 @@
                future season, if the time should invite us to this. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">John 10:12,13.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">ύπόθεσις</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">Cf p. 70.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

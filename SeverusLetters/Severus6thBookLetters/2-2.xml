@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,21 +99,24 @@
   <text>
       <body>
          <div type="work" xml:id="work-2.2" n="2.2">
+        <div type="section" xml:id="section-2.2">
             <pb n="204"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2427">John</persName> and <persName ref="http://syriaca.org/person/2428">John</persName> the presbyters.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 1st book the 6th
                letter.</head>
-            <ab> Your holinesses' letter, which was brought me by <persName ref="http://syriaca.org/person/2489">Zenobius</persName> the devout deacon, has
+            <ab xml:id="section-2.2.1" n="1"> Your holinesses' letter, which was brought me by <persName ref="http://syriaca.org/person/2489">Zenobius</persName> the devout deacon, has
                refreshed me greatly, and has been to me, as in the words of the proverb, "as cool
-               water that relieveth a thirsty soul."<note n="1">Proverbs 25:25.</note> <add><emph>And after other things.</emph></add>
+               water that relieveth a thirsty soul."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> <add>
+              <emph>And after other things.</emph>
+            </add>
                As to what you say about those who are residing in <placeName>Byzantium</placeName>, the report that has
                been received is true, that they contended about precedence. In fact at an earlier
-               time also they discussed this doubtful point, and the proper regulation<note n="2"><foreign xml:lang="grc">τύπος</foreign>.</note> was given.
-               Now however, when they are outside the phantasy<note n="3"><foreign xml:lang="grc">φαντασία</foreign>.</note> of worldly sleep, they ought not to
+               time also they discussed this doubtful point, and the proper regulation<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> was given.
+               Now however, when they are outside the phantasy<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> of worldly sleep, they ought not to
                have contended as with a shadow and seen dreams. But may the hateful passion of
                jealousy and envy perish from among men, a passion that goes down with a man even to
                Hades itself and is a thing unendurable! For this reason the God-inspired scripture
-               says, "Wrath is merciless and anger sharp, but nothing endureth jealousy."<note n="4">Proverbs 27:4</note> For both
+               says, "Wrath is merciless and anger sharp, but nothing endureth jealousy."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> For both
                the merciless wrath and the sharp anger eat away and destroy those against whom they
                are whetted: but still it is sometimes possible for us to assuage them and turn them
                aside, by lapse of time and by methods of treatment and by gifts. But jealousy there
@@ -117,9 +124,9 @@
                <pb n="205"/> who is its object, and his ruin: and in the same fashion also the
                death of the man himself who is jealous: especially that of the soul before that of
                the body. For the very wise book of Job says, "Jealousy slayeth him that is in
-               error."<note n="5">Job 5:5.</note> Such annoyances I received from the two aforesaid men: and He who came down
+               error."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> Such annoyances I received from the two aforesaid men: and He who came down
                from on high and humbled Himself for our sake and said,: "My peace I give unto you,
-               my tranquillity leave unto you," breathed<note n="6">John 14:27.</note> upon them and extinguished their gall, and
+               my tranquillity leave unto you," breathed<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> upon them and extinguished their gall, and
                even caused them wholly to disappear. Do not wonder if these strove about precedence.
                Such things indeed happened even in former times. When in old days <persName ref="http://syriaca.org/person/2491">Helladius</persName>
                succeeded to the see of the men of Caesarea after the great and renowned <persName ref="http://syriaca.org/person/376">Basil</persName>, a man
@@ -147,10 +154,10 @@
                and yielded to the violence of the time. <persName ref="http://syriaca.org/person/2493">Hosius</persName> also the bishop of <placeName ref="http://syriaca.org/place/2654">Corduba</placeName> (a little
                city so named), who had always been arrayed on the side of the orthodox, owing to his
                extreme old age and advanced time of life, was overcome at <placeName>Nice</placeName> in <placeName>Thrace</placeName>, and
-               submitted to compulsion. And <persName ref="http://syriaca.org/person/354">Athanasius</persName> the champion<note n="6"><foreign xml:lang="grc">άγωνιστής</foreign>.</note> of the truth in word and in
+               submitted to compulsion. And <persName ref="http://syriaca.org/person/354">Athanasius</persName> the champion<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> of the truth in word and in
                deed, a man of practised skill in doing service, who discharges the rational shafts
                against enemies with understanding, <pb n="207"/> both in epistles and in treatises
-               against the <persName>Ariomanita</persName>: calls <persName ref="http://syriaca.org/person/2493">Hosius</persName> "of honourable old age,"<note n="7">Ap. c. Ar. 44 (?). This is in a letter of the Synod of Sardica.</note> and mentions him with
+               against the <persName>Ariomanita</persName>: calls <persName ref="http://syriaca.org/person/2493">Hosius</persName> "of honourable old age,"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> and mentions him with
                distinction: while in respect of the contests undergone by <persName ref="http://syriaca.org/person/2494">Liberius</persName> he praises and
                extols the man; saying not a word of what happened to them under violence, but like a
                wise man passing rapidly over it with closed eyes, as the saying is. Let us also
@@ -163,6 +170,20 @@
                the contest with everyone through your prayers. </ab>
             <trailer>Not the end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Proverbs 25:25.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">τύπος</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">φαντασία</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">Proverbs 27:4</note>
+        <note xml:id="n5" target="#a5" n="5">Job 5:5.</note>
+        <note xml:id="n6" target="#a6" n="6">John 14:27.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">άγωνιστής</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">Ap. c. Ar. 44 (?). This is in a letter of the Synod of Sardica.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

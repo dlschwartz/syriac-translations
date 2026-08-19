@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,16 +98,17 @@
   <text>
       <body>
          <div type="work" xml:id="work-4.2" n="4.2">
+        <div type="section" xml:id="section-4.2">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2595">Ammonius</persName> a presbyter of <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName>, in
                which he gave him information as to the mention of <persName ref="http://syriaca.org/person/2736">Peter</persName> who was bishop of
                <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 1st book the 22nd
                letter.</head>
-            <ab> You bear witness to a wisdom in us which we do not possess, and you call yourself
+            <ab xml:id="section-4.2.1" n="1"> You bear witness to a wisdom in us which we do not possess, and you call yourself
                weak in comparison with this, as if we were inviting you to a wrestling-arena or a
                contest: but for my part I will in due season use the words of Job who says, "But
                where was wisdom found? and what is the place of understanding? Man knoweth not the
-               way thereof, neither is it found among men."<note n="1">Job 28:12,13.</note> Wherefore I looked to the Giver of
+               way thereof, neither is it found among men."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Wherefore I looked to the Giver of
                wisdom, and to Him I yielded abundance of <pb n="254"/> understanding thoughts, and I
                do not come to your brotherly person with many words, but: use as few words as
                possible. For I think that either you have forgotten what I wrote to you before, or
@@ -111,7 +116,9 @@
                but communicate with you when the mention of Peter was inserted in the sacred
                tablets, without raising any objection but I ought not also to be required to praise
                and call distinguished a man who is not at heart so regarded by me, although you are
-               otherwise minded. <add><emph>And after other things.</emph></add> Whereas you say of
+               otherwise minded. <add>
+              <emph>And after other things.</emph>
+            </add> Whereas you say of
                <persName ref="http://syriaca.org/person/2736">Peter</persName> who was bishop of your city that he wrote to those who were at one time and
                another bishops of <placeName>the city of Antiochus</placeName>, and openly anathematized the things done at
                <placeName>Chalcedon</placeName> against the right faith, and the impious Tome of Leo, know that we too are
@@ -122,8 +129,7 @@
                <persName>Chalcedonian Synod</persName>, or the blasphemous Tome of Leo. Tell me: if now also upon our
                writing to the prelate of the royal city maybe, and anathematizing the things that we
                actually anathematize he were to draw up a trimming letter, containing only a
-               confession of the right faith, but not further an anathema of the offending <pb
-                  n="255"/> things also, would this suffice for a pure, sincere, firm conjunction?
+               confession of the right faith, but not further an anathema of the offending <pb n="255"/> things also, would this suffice for a pure, sincere, firm conjunction?
                Not in the least. For instance, when <persName ref="http://syriaca.org/person/2773">Timothy</persName> was instituted after the expulsion of
                <persName>Macedonius</persName>, and sent a synodical letter to the saintly <persName ref="http://syriaca.org/person/2572">John</persName>, archbishop of <placeName>the city
                of the Alexandrines</placeName>, with nothing satisfactory about it, his holiness both wrote an
@@ -141,7 +147,7 @@
                bishops who were outside: which had been produced at an earlier time also in <placeName>the city
                of the Sidonians</placeName>, when the synod of bishops was assembled there, and cast great shame
                upon us who were combating on behalf of orthodoxy, and nothing else was left to us
-               <pb n="256"/> except only to hide ourselves and yield to manifest refutations.<note n="2">CJ. Zach. Rh. vii. 10.</note> To
+               <pb n="256"/> except only to hide ourselves and yield to manifest refutations.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> To
                these was also attached a letter of the pious <persName ref="http://syriaca.org/person/2572">John</persName> the archbishop written to
                <persName ref="http://syriaca.org/person/2636">Dioscorus</persName> and <persName ref="http://syriaca.org/person/2624">Chaeremon</persName>, to the effect that he did not ask for anything beyond the
                Henotikon only with no further addition. Do not therefore tell me that <persName ref="http://syriaca.org/person/2736">Peter</persName> wrote
@@ -152,17 +158,24 @@
                you bring yourself, and that though you are firm on all points, to write this
                assertion: "We for our part have done nothing new or great in anathematizing the
                <persName>Synod of Chalcedon</persName> and the impious <title>Tome of Leo</title>" 
-               The analogy<note n="3"><foreign xml:lang="grc">θεωρία</foreign>.</note> of the dead man, who
+               The analogy<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> of the dead man, who
                defiles or does not defile water, and the difficulty arising from it you must not
                take in this way, subjecting the mind to bodily conceptions, and restricting
                pollution to the effect of a multitude of bodies. In the mind of those who examine
                with intelligence, a mention whether one or many of men who have committed impiety
                causes the same abomination: which nothing else can extinguish except an abundance as
-               I have said of the water of right faith, copiously poured upon everyone, <pb n="257"
-               /> and a loyal anathema of the offending things, like much water which covers the sea
-               according to the expression of the prophet.<note n="4">Isaiah 11:9.</note> </ab>
+               I have said of the water of right faith, copiously poured upon everyone, <pb n="257"/> and a loyal anathema of the offending things, like much water which covers the sea
+               according to the expression of the prophet.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> </ab>
             <trailer>Not the end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Job 28:12,13.</note>
+        <note xml:id="n2" target="#a2" n="2">CJ. Zach. Rh. vii. 10.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">θεωρία</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">Isaiah 11:9.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

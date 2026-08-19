@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,12 +99,16 @@
   <text>
       <body>
          <div type="work" xml:id="work-5.13" n="5.13">
+        <div type="section" xml:id="section-5.13">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2569">Proclus</persName> and <persName ref="http://syriaca.org/person/2650">Eusebuna</persName> the bishops.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 3rd book the 35th
                letter.</head>
-            <ab> It was not without sorrow nor with a mind free from affliction that [ read the
+            <ab xml:id="section-5.13.1" n="1"> It was not without sorrow nor with a mind free from affliction that [ read the
                letter of your love of God: but, as is sung in the Psalms, "My heart was disturbed
-               within me." <add><emph><note n="1"> Cf. p. 167.</note>And after other things.</emph></add> But what? If, even after
+               within me." <add>
+              <emph>
+                <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>And after other things.</emph>
+            </add> But what? If, even after
                taking all these offences that are so manifest into account we allow him to be
                purified by association only as <persName ref="http://syriaca.org/person/2632">Cyrus</persName> said, he will reckon this a <pb n="343"/> small
                thing, and a thing that does not injure the soul on the most important points, and in
@@ -129,13 +137,13 @@
                added to the former and will laugh and say, "<persName ref="http://syriaca.org/person/2632">Cyrus</persName> has lapsed: <persName>Soteric</persName> has fallen:
                <persName ref="http://syriaca.org/person/2569">Proclus</persName> and <persName ref="http://syriaca.org/person/2650">Eusebuna</persName> after many circuitous courses and useless movements have been
                cast down into the same ditch: and the whole trap has been spread abroad. Great
-               champions<note n="2"><foreign xml:lang="grc">άγωνισταί</foreign>.</note> of the faith <placeName>Cappadocia</placeName> displays to us." Therefore, even though there were
+               champions<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> of the faith <placeName>Cappadocia</placeName> displays to us." Therefore, even though there were
                nothing grievous to expect in the world to come, are these things tolerable to the
                ears of the pious? Will they not seem fraught with lamentations and tears to those
                that hope in <persName>Christ</persName>? Will they not mourn and instead of their garments rend their
-               hearts, as the prophetic text says?<note n="3">Joel 2:12,13.</note> Be not, I beg and pray you, be not the cause of
+               hearts, as the prophetic text says?<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> Be not, I beg and pray you, be not the cause of
                such lamentation. Short is our time: and "yet a very little while and He that cometh
-               will come and will not tarry,"<note n="4">Hebrews 10:37.</note> and "will reward every man according to his works":<note n="5">Matthew 16:27.</note>
+               will come and will not tarry,"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and "will reward every man according to his works":<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
                and, while we are now gaping after the shadowy things of this world, He will come
                upon us and seize us in the midst of our pleasures: whereas we ought to have gone
                while watching. For, as the end of the life here finds us, so will He that shall
@@ -145,14 +153,25 @@
                giving us a share in the good things that are prepared for those that have hoped in
                Him! I have committed these things to writing in fear and trembling, and with caution
                lest anywhere I should think or utter anything contrary to the divine laws, and be
-               found with those that are accused by the prophet as perverting justice,<note n="5">Micah 3:9.</note> or as
-               possessing two weights contrary to the law,<note n="6">Deuteronomy 25:13(?).; Proverbs 20:17(?).</note> and to be weighing the words of the
+               found with those that are accused by the prophet as perverting justice,<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> or as
+               possessing two weights contrary to the law,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> and to be weighing the words of the
                Spirit not worthily nor intelligently, but inclining the balances of truth like a
                huckster, and making myself liable to the divine sentence. Pray therefore, saintly
                men, that I may receive forgiveness from <persName>Christ</persName> the great God and our Saviour, both
                for what has been written and for what has been omitted. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"> Cf. p. 167.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">άγωνισταί</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">Joel 2:12,13.</note>
+        <note xml:id="n4" target="#a4" n="4">Hebrews 10:37.</note>
+        <note xml:id="n5" target="#a5" n="5">Matthew 16:27.</note>
+        <note xml:id="n6" target="#a6" n="6">Micah 3:9.</note>
+        <note xml:id="n7" target="#a7" n="7">Deuteronomy 25:13(?).; Proverbs 20:17(?).</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

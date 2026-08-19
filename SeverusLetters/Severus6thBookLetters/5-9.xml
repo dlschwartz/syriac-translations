@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,29 +99,35 @@
   <text>
       <body>
          <div type="work" xml:id="work-5.9" n="5.9">
+        <div type="section" xml:id="section-5.9">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2754">Simeon</persName> the presbyter and archimandrite
                of <placeName ref="http://syriaca.org/place/233">the monastery at Teleda</placeName>.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 2nd book the 28th
                letter.</head>
-            <ab> Joyfully I have received the greeting of your love of God, which refreshed me
+            <ab xml:id="section-5.9.1" n="1"> Joyfully I have received the greeting of your love of God, which refreshed me
                greatly even before reading it because even in its mere superscription only it bore
                your honoured name. And after other things. Since therefore the sacred text says of
-               kings who act in this spiritual mind that "by patience kings prosper,"<note n="1">Proverbs 25:15.</note> it beseems
-               your statesmanship,<note n="2">πολιτεία.</note> and is very consonant to it, with patience and in very great
+               kings who act in this spiritual mind that "by patience kings prosper,"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> it beseems
+               your statesmanship,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and is very consonant to it, with patience and in very great
                humility readily to receive those who wish to come to the orthodox faith and share
                with you in the same struggles, and to go forward to meet them and embrace and
                welcome them readily, so that the word of truth also may go on in the right way and
                make progress. It has in fact come to the hearing of our meanness that the flock of
-               <persName ref="http://syriaca.org/person/2754">Simeon</persName> who has the lot: of the saints have repudiated the impiety in writing, and <pb
-                  n="324"/> have stripped themselves for the same stadium as you,<note n="3">Hence this letter seems to have been written during the banishment of the monks, which began according to Jo. Eph. in 521 (Land
-                     Anec. Syr ii. 5 12 ), according to the so-called Zacharias (viii. 5) in
-                     525, and ended according to both authors in 531.</note> and that your
+               <persName ref="http://syriaca.org/person/2754">Simeon</persName> who has the lot: of the saints have repudiated the impiety in writing, and <pb n="324"/> have stripped themselves for the same stadium as you,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and that your
                sanctity used some strict words that are not suited to the present time: and I am
                astonished and cannot believe that this mind is yours. It was in fact you that they
                imitated because they are settled in your neighbourhood, and it was you who brought
                about this change for the better in them. </ab>
             <trailer>Not the end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Proverbs 25:15.</note>
+        <note xml:id="n2" target="#a2" n="2">πολιτεία.</note>
+        <note xml:id="n3" target="#a3" n="3">Hence this letter seems to have been written during the banishment of the monks, which began according to Jo. Eph. in 521 (Land
+                     Anec. Syr ii. 5 12 ), according to the so-called Zacharias (viii. 5) in
+                     525, and ended according to both authors in 531.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

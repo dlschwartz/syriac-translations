@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,15 +99,16 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.59" n="1.59">
+        <div type="section" xml:id="section-1.59">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2465">Julian</persName> the presbyter and archimandrite
                of the monastery of the blessed <rs ref="http://syriaca.org/place/571">Bassus</rs>.</head>
             <head type="sub" resp="#compiler">From those during banishment, from the 5th book the 52nd
                letter.</head>
-            <ab> Those who loyally follow the ascetic and solitary life grow rich in the spirit of
+            <ab xml:id="section-1.59.1" n="1"> Those who loyally follow the ascetic and solitary life grow rich in the spirit of
                understanding, and from it learn the paths of right action. Wherefore also the sacred
-               text of Proverbs says, "The thoughts of an understanding man are ways of life":<note n="1">Proverbs 15:24.  </note> and
+               text of Proverbs says, "The thoughts of an understanding man are ways of life":<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and
                again "Let the heart of a man think just things, in order that his steps may be
-               directed by the Lord."<note n="2">Proverbs 16:1.</note> Sharing in this instruction therefore and being guided by the
+               directed by the Lord."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> Sharing in this instruction therefore and being guided by the
                divine Spirit, your religiousness also has not treated church order with contempt:
                but, when the holy monastery of the blessed <rs ref="http://syriaca.org/place/571">Bassus</rs>, in which you have been appointed
                to be governor, was lacking in the needful provision for the ministry of priests and
@@ -112,13 +117,21 @@
                soever of the God-loving bishops who is of the same confession and the same communion
                with us in everything may properly supply the need of any among the orthodox who is
                in need. On this principle I have written to <pb n="179"/> the saintly <persName ref="http://syriaca.org/person/2408">Sergius</persName> bishop
-               of <placeName ref="http://syriaca.org/place/2660">Cyrrhus</placeName>, and to the saintly <persName ref="http://syriaca.org/person/2407">Marion</persName> bishop of the fortress called <placeName ref="http://syriaca.org/place/2720">Sura</placeName><note n="3">v. 15.</note> to satisfy
+               of <placeName ref="http://syriaca.org/place/2660">Cyrrhus</placeName>, and to the saintly <persName ref="http://syriaca.org/person/2407">Marion</persName> bishop of the fortress called <placeName ref="http://syriaca.org/place/2720">Sura</placeName>
+            <ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> to satisfy
                your need: and under the inspiration of the Holy Spirit to apply their sacred hand,
                and impart to those that are in need the gift that was given them from above, about
                which <persName>Jesus</persName> Himself the giver of the Spirit cries in the Gospels, "Freely ye have
-               received freely give."<note n="4">Matthew 10:8.</note> </ab>
+               received freely give."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Proverbs 15:24.  </note>
+        <note xml:id="n2" target="#a2" n="2">Proverbs 16:1.</note>
+        <note xml:id="n3" target="#a3" n="3">v. 15.</note>
+        <note xml:id="n4" target="#a4" n="4">Matthew 10:8.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

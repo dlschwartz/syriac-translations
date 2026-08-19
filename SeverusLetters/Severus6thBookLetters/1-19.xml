@@ -58,8 +58,7 @@
                   </editor>
                   <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
                      of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
-                        Antioch</persName> in the Syriac Version of <persName
-                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                        Antioch</persName> in the Syriac Version of <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part I</title>
                   <idno type="URI">http://syriaca.org/bibl/668</idno>
@@ -83,8 +82,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
          <correspDesc>
             <correspAction type="sent">
@@ -102,11 +101,12 @@
    <text>
       <body>
          <div type="work" xml:id="work-1.19" n="1.19">
+        <div type="section" xml:id="section-1.19">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2417">Solon</persName>, bishop of <placeName ref="http://syriaca.org/place/2714">Seleucia</placeName> in
                <placeName ref="http://syriaca.org/place/99">Isauria</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 4th book the
                149th letter.</head>
-            <ab> The constant evil things that are being done in close succession and in various ways
+            <ab xml:id="section-1.19.1" n="1"> The constant evil things that are being done in close succession and in various ways
                in <placeName ref="http://syriaca.org/place/99">Isauria</placeName> counsel us to silence. But still, when we turn over in our mind the
                judgments of God, we are again distressed, and cannot keep within us the cause of the
                distress, and we are brought round to the necessity of speaking. We have been in the
@@ -114,7 +114,7 @@
                speak in his name'"; and afterwards he was confounded and broke through the restraint
                that was <pb n="68"/> upon his mind, and he changed his mind and said, "And it became
                in my heart as fire burning and blazing and flaming in my bones, and I am dissolved
-               on all sides and cannot endure."<note n="1">Jeremiah 20:9.</note> What indeed am I to do? Last year I compelled the
+               on all sides and cannot endure."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> What indeed am I to do? Last year I compelled the
                God-loving bishop <persName ref="http://syriaca.org/person/2468">Paul</persName> of 
                <placeName ref="http://syriaca.org/place/2698">Olba</placeName> to return to the flock which it has fallen to his lot
                to feed; and now again I see him being disturbed in the same way by certain men who
@@ -127,7 +127,7 @@
                the sacred tablets the names of those who signed the impious deeds of <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName>, but,
                as to the others, should remain silent and wait for a fitting season for progress to
                excellence. For there is no objection to ascent, as <persName>Gregory</persName> the Theologian also
-               somewhere says."<note n="2">Oratio Manassae regis 19:7(?).</note> But, as the old man, I mean the God-loving bishop <persName ref="http://syriaca.org/person/2468">Paul</persName> whom I
+               somewhere says."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> But, as the old man, I mean the God-loving bishop <persName ref="http://syriaca.org/person/2468">Paul</persName> whom I
                mentioned before, is of a more than ordinarily simple disposition, I do not know how
                it is that you have been frightening him like a child with the signatures of
                documents, and <pb n="69"/> have thus thrown him again into perturbation, when you
@@ -135,18 +135,18 @@
                that satisfactory professions have been made in common, and there is no doubt about
                them. So long therefore as the man remains of the same mind, receive him readily and
                honour him, on account of his venerable old age. Again as to the dispute that he had
-               with the God-loving bishop <persName ref="http://syriaca.org/person/2458">Hilarian</persName> about a monastery,<note n="3"> CJ. p. 27.</note> when we heard of it, we should
+               with the God-loving bishop <persName ref="http://syriaca.org/person/2458">Hilarian</persName> about a monastery,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> when we heard of it, we should
                perhaps have given a proper solution and decision, had it not been that he flew to
                the royal city, as we have heard, separating himself from communion with you, on
                account of the presumptuous and illegal deed of <persName ref="http://syriaca.org/person/2459">Callistus</persName>. For he charges him with
-               interpolating or forging or garbling the letter that was sent by him?<note n="4">CJ. p. 18.</note> (I do not know
+               interpolating or forging or garbling the letter that was sent by him?<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> (I do not know
                what expression to use on account of the many methods of committing the crime). For,
                on comparing the signature of the letter that was produced with the other signatures
                of the aforesaid God-loving bishop <persName ref="http://syriaca.org/person/2458">Hilarian</persName> that are preserved here in synodal
                documents, we found them to be as far removed and as different from one another as
                sheep differ in appearance from elephants. And, to say nothing of the strictness of
                the canons, it is manifest to everyone that the laws of the Romans also, which
-               contain excellent enactments upon these matters, fix beheading as the punishment:<note n="5"> C.J. IX. xxii. 22 (?).</note> and
+               contain excellent enactments upon these matters, fix beheading as the punishment:<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and
                this is an offence against public law. We wish therefore that <pb n="70"/> the man
                who has acted so impiously in this affair should for the present abstain from all
                sacred ministration: and, as soon as he comes back, we will submit the matter to
@@ -164,6 +164,14 @@
                thorough investigation of the matter is held. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Jeremiah 20:9.</note>
+        <note xml:id="n2" target="#a2" n="2">Oratio Manassae regis 19:7(?).</note>
+        <note xml:id="n3" target="#a3" n="3"> CJ. p. 27.</note>
+        <note xml:id="n4" target="#a4" n="4">CJ. p. 18.</note>
+        <note xml:id="n5" target="#a5" n="5"> C.J. IX. xxii. 22 (?).</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

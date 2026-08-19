@@ -57,8 +57,7 @@
                   </editor>
                   <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
                      of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
-                        Antioch</persName> in the Syriac Version of <persName
-                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                        Antioch</persName> in the Syriac Version of <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part I</title>
                   <idno type="URI">http://syriaca.org/bibl/668</idno>
@@ -82,8 +81,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -101,10 +100,11 @@
    <text>
       <body>
          <div type="work" xml:id="work-1.6" n="1.6">
+        <div type="section" xml:id="section-1.6">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2526">Nicias</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 3rd book the
                171st letter.</head>
-            <ab> A wicked and unlawful action, one that conflicts with the laws of the catholic and
+            <ab xml:id="section-1.6.1" n="1"> A wicked and unlawful action, one that conflicts with the laws of the catholic and
                apostolic church, has come to our ears. We hear that some of the inhabitants of the
                hamlet of <placeName ref="http://syriaca.org/place/2688"> Minidus </placeName> and <placeName>Uaris</placeName> have presumed to sail westwards, and to receive an
                unhallowed ordination from those who hold the opinions of <persName ref="http://syriaca.org/person/655">Nestorius</persName> and cut our one
@@ -121,6 +121,8 @@
                associating with these men, that they may not communicate in the impiety, and call
                down upon themselves the wrath from God. </ab>
          </div>
+      </div>
+      <noteGrp/>
       </body>
    </text>
 </TEI>

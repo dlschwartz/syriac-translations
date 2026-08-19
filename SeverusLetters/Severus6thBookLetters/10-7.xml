@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,16 +98,19 @@
   <text>
       <body>
          <div type="work" xml:id="work-10.7" n="10.7">
+        <div type="section" xml:id="section-10.7">
             <pb n="448"/>
-            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2621">Caesaria</persName> the patrician.<note n="1">Cf p. 244 note 3. If the inference there drawn is correct, this
-               letter cannot be placed later than 5 2 r.</note></head>
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2621">Caesaria</persName> the patrician.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+          </head>
             <head type="sub" resp="#compiler">From those after banishment, from the 3rd book the 46th
                letter.</head>
-            <ab> It seemed to me perfectly credible that, as stated by your glorious modesty, you
+            <ab xml:id="section-10.7.1" n="1"> It seemed to me perfectly credible that, as stated by your glorious modesty, you
                gained so much profit from reading my mean letter with understanding. The good soil
                that is like your God-loving soul knows, it knows indeed, how, even when receiving
                barren seed, to give forth fruitful produce in plenty, insomuch as to reach to the
-               perfect measure of a hundred.<note n="2">Matthew 13:8.</note> <add><emph>And after other things.</emph></add> As to
+               perfect measure of a hundred.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> <add>
+              <emph>And after other things.</emph>
+            </add> As to
                the short treatise that is being circulated and carried about by certain persons,
                which you say is inscribed with my name and bears such an ascription, a treatise that
                I shrink from even taking upon my lips, seeing that it is full of ignorance and
@@ -116,7 +123,7 @@
                highness: that a <persName ref="http://syriaca.org/person/3114">certain devout presbyter</persName> also came from <placeName>the East</placeName>, and showed us
                other letters also purporting to be mine, that are in part forged and falsified; the
                forgery and garbling having been done by certain persons whose business it is to
-               forge such things to their own destruction as the <persName>Apostle</persName> says.<note n="3">2 Peter 3:16.</note> And we brought him
+               forge such things to their own destruction as the <persName>Apostle</persName> says.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> And we brought him
                the documents themselves: and after comparing the genuine documents he reprobated and
                condemned the falsehood, and cursed the wicked men who commit such wanton wickedness
                against the truth. And no wonder if the devil through his own instruments wrought
@@ -132,7 +139,7 @@
                showed that certain persons were also inventing dreams against him, thinking by this
                also to cast aspersions upon his <pb n="450"/> faith: about whom even while laughing
                at their absurdity he says, "Men who acted so shamelessly against us as even to
-               invent certain dreams against us, bringing charges against our teachings as hurtful."<note n="4">Epistle 207:1.</note>
+               invent certain dreams against us, bringing charges against our teachings as hurtful."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
                But, since I do not read negligently anything that is written to me by your believing
                excellency, but do so with much consideration and diligently, I think it to be
                necessary for us to give you some short answer on another matter also. You besought
@@ -142,7 +149,7 @@
                revere above everyone, that the apostle <persName>Paul</persName> in his epistle to Titus lays down a law
                for women that are yoked in marriage in these terms; "Let the young women be lovers
                of their husbands, lovers of their children, chaste, pure, good housekeepers, subject
-               to their husbands, that the word of God be not blasphemed."<note n="5">Titus 2:4,5.</note> It is therefore manifest
+               to their husbands, that the word of God be not blasphemed."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> It is therefore manifest
                that, if anyone depart from the canon of this statute, and be carried though but a
                little to the right side or the left, he will be judged as a transgressor against the
                law. A woman who fears God and obeys <persName>Christ</persName>'s commands must practise love of her
@@ -154,7 +161,7 @@
                presides over a church and wisely administers the sacred things on the care of those
                that are in need. That every believer's house also is a church the same <persName>Paul</persName> further
                bears witness when in greeting certain believers in his epistles he says, "Greet also
-               the church that is in your house."<note n="6">1 Corinthians 16:19.</note> One may fitly admire the way in which the <persName>Apostle</persName>,
+               the church that is in your house."<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> One may fitly admire the way in which the <persName>Apostle</persName>,
                after saying that women who love God ought to be such as keep their houses,
                immediately added "good housekeepers." For there are women who from their great
                carefulness in housekeeping are induced to make profit out of the goods, and are
@@ -165,17 +172,16 @@
                will through beneficence lay down beforehand a good foundation for themselves in the
                future life. At. the same time by naming them good he also inculcates kindness to
                menservants and bondmaids, and all that are bound under the yoke of slavery. Of the
-               love of a husband also and of chastity this is the criterion, not that a wife <pb
-                  n="452"/> look at her personal chastity only, but how far she regards her
+               love of a husband also and of chastity this is the criterion, not that a wife <pb n="452"/> look at her personal chastity only, but how far she regards her
                husband's preservation also with watchful eyes, and makes every effort that he too
                may be content with intercourse with her only, not that he may turn himself to
                another connexion. If she herself be chaste, but do not concern herself about her
                husband falling into fornication, she has, unknown to herself, become chaste in half
                her body and in half of it defiled, in that she is transgressing against the divine
-               laws. If in fact they are not two, according to our Saviour's saying,<note n="7">Matthew 19:16.</note> but the two are
+               laws. If in fact they are not two, according to our Saviour's saying,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> but the two are
                reckoned as making one flesh, what profit is there in the chastity of one portion,
                when the conjoined portion is led away to lasciviousness? Marriage is then
-               "honourable and the bed unsullied,"<note n="8">Hebrews 13:4.</note> when the whole of it is hallowed in the whole
+               "honourable and the bed unsullied,"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> when the whole of it is hallowed in the whole
                body. But the whole body is husband and wife, having the same mind, and treating the
                marriage as a mystery of God, and hence making the procreation of children to be
                blessed, and from all sides bringing praise and glory, not reviling, upon the word of
@@ -199,11 +205,13 @@
                exposition the beginning of which is "But <persName>Jesus</persName> stood before the governor wrote in
                these terms about the cunning of the devil, by which he has cheated specially fervent
                souls: "He has also a third evil trap: as for example: when he
-               <sic><reg>throws</reg><orig>thows</orig></sic> an appearance of devoutness over
+               <sic>
+              <reg>throws</reg>
+              <orig>thows</orig>
+            </sic> an appearance of devoutness over
                a sin. 'And how has the devil succeeded so far as to cheat even in these things?'
                Hear, and beware of his counsels. <persName>Christ</persName> commanded through <persName>Paul</persName> that wife should not
-               separate from husband, and they should not defraud one another, except perhaps by <pb
-                  n="454"/> consent. But some women, having on the ground of a desire for continence
+               separate from husband, and they should not defraud one another, except perhaps by <pb n="454"/> consent. But some women, having on the ground of a desire for continence
                separated themselves from their husbands as if they were doing some devout action,
                have thrust them down into adultery. Reflect therefore what an evil thing it is that,
                while undergoing so much toil, they should be charged with having done the greatest
@@ -211,25 +219,40 @@
                destruction. Other persons again by abstaining from foods under the law of fasting
                have gradually come to reject these: a thing which itself also brings heavy
                punishment. And this happens when they assign greater validity to their own thoughts
-               than to the determinations of the scriptures."<note n="9">P. G. lviii. 768.</note> Therefore I beg your glorious modesty
+               than to the determinations of the scriptures."<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> Therefore I beg your glorious modesty
                to turn the glances of your understanding on all sides, and hear the divine laws, and
-               listen to <persName>Paul</persName> who says, "Let every man wherein he was called therein abide."<note n="10">1 Corinthians 7:14.</note> Since
+               listen to <persName>Paul</persName> who says, "Let every man wherein he was called therein abide."<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> Since
                God called you under the yoke of marriage, in it also maintain a loyal contest, and
                show prowess: and be one that loves her husband and loves her children and is a good
                housekeeper, in order that through these things you may at the same time be also one
                that loves God. Never on account of these things term yourself one buried in the mire
                of evils, and flee from the bonds of the world: but flee from the bonds of evil. For
-               in these we are all in the same fashion bound. The divine text somewhere says, <pb
-                  n="455"/> "Who will boast that he hath a pure heart? Or who will be confident of
-               being pure from sins?"<note n="11">Proverbs 20:9.</note> But we who have believed the gospel try, as far as is possible
+               in these we are all in the same fashion bound. The divine text somewhere says, <pb n="455"/> "Who will boast that he hath a pure heart? Or who will be confident of
+               being pure from sins?"<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> But we who have believed the gospel try, as far as is possible
                for men, to purify our soul through commandments: in order that God, looking upon the
-               readiness of our heart as is sung in the Psalms,<note n="12">Psalms 9:38.</note> not upon the weakness of our nature,
+               readiness of our heart as is sung in the Psalms,<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> not upon the weakness of our nature,
                may admit us to mercy and graciousness in the day of judgment, and make us sharers in
                the kingdom of heaven, because the heavenly One became man and consorted with those
                that are on the earth, having become a man in truth and without difference and not in
                semblance. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Cf p. 244 note 3. If the inference there drawn is correct, this
+               letter cannot be placed later than 5 2 r.</note>
+        <note xml:id="n2" target="#a2" n="2">Matthew 13:8.</note>
+        <note xml:id="n3" target="#a3" n="3">2 Peter 3:16.</note>
+        <note xml:id="n4" target="#a4" n="4">Epistle 207:1.</note>
+        <note xml:id="n5" target="#a5" n="5">Titus 2:4,5.</note>
+        <note xml:id="n6" target="#a6" n="6">1 Corinthians 16:19.</note>
+        <note xml:id="n7" target="#a7" n="7">Matthew 19:16.</note>
+        <note xml:id="n8" target="#a8" n="8">Hebrews 13:4.</note>
+        <note xml:id="n9" target="#a9" n="9">P. G. lviii. 768.</note>
+        <note xml:id="n10" target="#a10" n="10">1 Corinthians 7:14.</note>
+        <note xml:id="n11" target="#a11" n="11">Proverbs 20:9.</note>
+        <note xml:id="n12" target="#a12" n="12">Psalms 9:38.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

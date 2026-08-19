@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,15 +98,16 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.9" n="1.9">
+        <div type="section" xml:id="section-1.9">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2533">Stephen</persName>, bishop of <placeName ref="http://syriaca.org/place/2726">Tripolis</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 8th book the
                276th, 277th letter.</head>
-            <ab> Sinful and vile man though we are, nothing pleases us so much as to try to do
+            <ab xml:id="section-1.9.1" n="1"> Sinful and vile man though we are, nothing pleases us so much as to try to do
                everything that we wish to do with reason. Wherefore also we accept and praise your
                love of God for having been in doubt with regard to one of the paragraphs that were
                written by us: regarding which we must by all means make a canonical answer; for it
                is written, "The lips of a priest shall keep knowledge, and they shall ask for law
-               from his mouth."<note n="1">Mal ii. 7.</note> What is the question which you ask because you were in doubt?
+               from his mouth."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> What is the question which you ask because you were in doubt?
                Whether the devout presbyter <persName ref="http://syriaca.org/person/2533">Stephen</persName> ought to be reckoned among the holy clergy of
                the holy church in <placeName ref="http://syriaca.org/place/2726">Tripolis</placeName>, when he does not bring with him a dimissory letter from
                him who ordained him. <pb n="45"/> Now in the first place we hear that the man was
@@ -119,7 +124,7 @@
                had been separated by him, and had received from him either a ban of excommunication
                or a decree of deprivation, in these words: "But we are all in communion with all who
                have been separated by your devoutness and deprived on account of the faith, laymen
-               and clergymen."<note n="2">P.G. lxxvii. 108.</note> Do therefore the things which have been decided by us to be right
+               and clergymen."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> Do therefore the things which have been decided by us to be right
                without any doubt or hesitation, and know clearly that, if we had not taken much
                account of the saintly memory of <persName ref="http://syriaca.org/person/2534">Severus</persName> the presbyter whose is the lot of the
                saints, we should not perhaps have written to you any such thing. For your love of
@@ -136,6 +141,11 @@
                peaceful manners and customs of those who are fed by them. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Mal ii. 7.</note>
+        <note xml:id="n2" target="#a2" n="2">P.G. lxxvii. 108.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

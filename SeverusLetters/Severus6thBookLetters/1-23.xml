@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,12 +99,13 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.23" n="1.23">
+        <div type="section" xml:id="section-1.23">
             <pb n="81"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2417">Solon</persName>, bishop of <placeName ref="http://syriaca.org/place/2714">Seleucia</placeName> in
                Isauria.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 4th book the
                270th letter.</head>
-            <ab> Your sanctity has acted rightly and has shown a disposition consonant to the divine
+            <ab xml:id="section-1.23.1" n="1"> Your sanctity has acted rightly and has shown a disposition consonant to the divine
                canons in thinking it right to ask me about <persName ref="http://syriaca.org/person/2460">Musonius</persName> and <persName ref="http://syriaca.org/person/2468">Paul</persName>. But, seeing that they
                have left their own flock, and played the part of hirelings and not of shepherds,
                whatever else can one say except that it is necessary that these men should be
@@ -109,7 +114,7 @@
                that is an hireling and is not the shepherd, whose own the sheep are not, when he
                hath seen the wolf coming, leaveth the sheep and fleeth, And the wolf catcheth the
                sheep, and scattereth them. But the hireling fleeth because he is an hireling, and
-               careth not for the sheep."<note n="1">John 10:12,13.</note> You therefore, in order that you may not be found liable
+               careth not for the sheep."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> You therefore, in order that you may not be found liable
                to the very same punishments, are bound quickly to appoint shepherds for the rational
                sheep: for those that are at <placeName ref="http://syriaca.org/place/2686">Meloe</placeName> immediately and without delay, since, as I said,
                <persName ref="http://syriaca.org/person/2460">Musonius</persName> took to flight like a hireling, and made this excuse for his absence as you
@@ -124,9 +129,9 @@
                of those who have been deprived. But, if you resolve to ask our pious king about
                this, I mean whether the God-loving bishops in <placeName ref="http://syriaca.org/place/99">Isauria</placeName> ought to assemble and discuss
                the matter, and to compose a clear epistle and to report to his hearing that the men
-               who have departed have fled to those who are eager to support their schism,<note n="2">Cf p. 79·</note> you will
+               who have departed have fled to those who are eager to support their schism,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> you will
                be doing very rightly, and, as far as one can guess, not contrary to the intention of
-               his<note n="3">Syr. 'their.'</note> God-loving sovereignty. In my judgment this is a necessary and very advantageous
+               his<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> God-loving sovereignty. In my judgment this is a necessary and very advantageous
                step, and one which may show his piety that we avoid the rocks on all sides, and keep
                to the royal road and to the unity of the holy churches. While writing these things
                we weep and groan, and do not rejoice at our brothers' fall, and we consider how,
@@ -134,7 +139,7 @@
                devoting his attention only to judging others, we were unaware of the fact that he
                was feeding his belly, and <pb n="83"/> that he was inflamed with the passion of
                avarice. We have also letters of his which lay bare his passions that are so
-               shameful.<note n="4">Cf. PP· 2 5, 80</note> As to the question I have thought it best to refer to the magnificent
+               shameful.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> As to the question I have thought it best to refer to the magnificent
                <persName ref="http://syriaca.org/person/56">Oecumenius</persName>, since have great confidence in your perfection, and because you love the
                man just as we do. Moreover by referring the matter to a man who has already
                discussed this with us we shall escape the necessity of using many words; for we have
@@ -142,6 +147,13 @@
                subjects of concern. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">John 10:12,13.</note>
+        <note xml:id="n2" target="#a2" n="2">Cf p. 79·</note>
+        <note xml:id="n3" target="#a3" n="3">Syr. 'their.'</note>
+        <note xml:id="n4" target="#a4" n="4">Cf. PP· 2 5, 80</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

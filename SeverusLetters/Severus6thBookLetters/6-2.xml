@@ -62,8 +62,7 @@
                   </editor>
                   <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
                      of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
-                        Antioch</persName> in the Syriac Version of <persName
-                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                        Antioch</persName> in the Syriac Version of <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part II</title>
                   <idno type="URI">http://syriaca.org/bibl/669</idno>
@@ -87,8 +86,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -105,26 +104,36 @@
    </teiHeader>
    <text>
       <body>
-         <div type="work" xml:id="work-6.2" n="6.2"> 
-            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2606">Archaelaus</persName> the reader of <placeName  ref="http://syriaca.org/place/2729"> Tyre </placeName>.</head>
+         <div type="work" xml:id="work-6.2" n="6.2">
+        <div type="section" xml:id="section-6.2"> 
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2606">Archaelaus</persName> the reader of <placeName ref="http://syriaca.org/place/2729"> Tyre </placeName>.</head>
             <head type="sub" resp="#compiler">from those during episcopacy, from the 1st book the
                141st letter.</head>
-            <ab> Our Christ-loving brothers the lord <persName ref="http://syriaca.org/person/2705"
-               >Menas</persName> and <persName ref="http://syriaca.org/person/2667">Isidore</persName> informed us that some of the
-               readers, moved <pb n="364"/> by divine zeal, recoiled from communion with <persName ref="http://syriaca.org/person/2580">that wicked man</persName>,<note n="1">Epiphanius; cf. p. 97.</note><note resp="http://syriaca.org/person.xml#ewbrooks" rend="footer"><persName ref="http://syriaca.org/person/2580">Epiphanius</persName>;
-                  cf. p. 97</note> and he laid upon them, as he thought, a ban of excommunication;
+            <ab xml:id="section-6.2.1" n="1"> Our Christ-loving brothers the lord <persName ref="http://syriaca.org/person/2705">Menas</persName> and <persName ref="http://syriaca.org/person/2667">Isidore</persName> informed us that some of the
+               readers, moved <pb n="364"/> by divine zeal, recoiled from communion with <persName ref="http://syriaca.org/person/2580">that wicked man</persName>,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+            <ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and he laid upon them, as he thought, a ban of excommunication;
                and that it is necessary for this to be removed by us. For my part I was surprised if
                they considered a ban laid upon them by a man repudiated for his faith to be a ban at
                all. Indeed <persName ref="http://syriaca.org/person/430">the holy Cyril</persName> also in writing to <persName ref="http://syriaca.org/person/655">Nestorius</persName> says this; "Those who spoke
                against you on account of the faith and have been separated by you are in communion
-               with us. For it is not right that such men should be injured by your sentences."<note n="2">Epistle 17 (P.G. 77:108).</note><note
-                  resp="http://syriaca.org/person.xml#ewbrooks" rend="footer"/><!-- eb, This note seemed to have been previously parsed through with letters like this one. Should I leave them? --> If therefore it is
+               with us. For it is not right that such men should be injured by your sentences."<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>
+            <ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
+            <!-- eb, This note seemed to have been previously parsed through with letters like this one. Should I leave them? --> If therefore it is
                on account of the orthodox faith only, and not for any other sin, that these too have
                received such a ban and have seceded from him, they are released. How could men who,
                as we said before, were never even placed under a ban at the beginning be under a
                ban? </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Epiphanius; cf. p. 97.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <persName ref="http://syriaca.org/person/2580">Epiphanius</persName>;
+                  cf. p. 97</note>
+        <note xml:id="n3" target="#a3" n="3">Epistle 17 (P.G. 77:108).</note>
+        <note xml:id="n4" target="#a4" n="4"/>
+      </noteGrp>
       </body>
    </text>
 </TEI>

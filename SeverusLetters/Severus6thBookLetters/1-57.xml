@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,22 +98,23 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.57" n="1.57">
+        <div type="section" xml:id="section-1.57">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2462">Didymus</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 3rd book the 50th
                letter.</head>
-            <ab> The news of the attack of the barbarians<note n="1">Probably the incursion of <persName>Al Mundhir</persName> (Zach. Rh. viii. 5).</note> and of the captivity that has fallen upon
+            <ab xml:id="section-1.57.1" n="1"> The news of the attack of the barbarians<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and of the captivity that has fallen upon
                those who live in your neighbourhood, and the siege and war that have been hanging
                over your city have caused intolerable grief and sorrow to all who hear of it, but
                especially to us. Our anxiety on other grounds and general sorrow was further
                increased by thinking of your religiousness, who have had to endure such an
                unexpected attack at the very beginning of your episcopate: since men who have been
-               admitted to feed rational souls reckon common and public<note n="2"><foreign xml:lang="grc">δημόσια</foreign>.</note> calamities as their own.
+               admitted to feed rational souls reckon common and public<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> calamities as their own.
                Wherefore <persName>David</persName> also the great among prophets and kings, when he saw his subjects
                being destroyed in the death-dealing plague by the divine wrath, being unable to
                endure the sight, begged that he might suffer instead of those under his rule, saying
                to the Lord, "It is I who have sinned, and I the shepherd have done wickedly: and
                these the sheep what have they done? Let thine hand be upon me, and upon my father's
-               house."<note n="3">2 Samuel 24:17.</note> <pb n="172"/> And by so saying he changed the wrath to mercy, and stayed the
+               house."<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> <pb n="172"/> And by so saying he changed the wrath to mercy, and stayed the
                plague. Therefore you also must know that such events are fraught with no small
                hardship: but, when men consider things in the right spirit, and accept the
                chastisement as a help, they bring them great profit, and lead them into close
@@ -128,8 +133,7 @@
                but even be deprived of the customary emoluments? <persName>David</persName>'s soldiers also once thought
                something like this, when they went down with him to fight against the barbarians who
                had come against them, and mightily overcame them, and stripped them of all the booty
-               <pb n="173"/> that had been carried off by them from the wars<note n="4">The translator 
-                  therefore read <foreign xml:lang="grc">πολέμων</foreign> for <foreign xml:lang="grc">πόλεων</foreign>.</note> with Israel. For,
+               <pb n="173"/> that had been carried off by them from the wars<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> with Israel. For,
                when they returned from the war and their minds were somewhat uplifted on account of
                their victory, they claimed that they alone should take all the things that they had
                captured from the barbarians, and not give an equal portion to those who stayed in
@@ -140,14 +144,14 @@
                repressed their greed and said to them in rebuke, "And who will hearken to these
                words of yours? For they are not inferior to you. But, as his portion is that went
                down to the war, so shall his portion be that stayed by the baggage. They shall part
-               alike."<note n="5">1 Samuel 30:24.</note> Knowing therefore from the divine writings that these things are laid down as
+               alike."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> Knowing therefore from the divine writings that these things are laid down as
                law, give greater gratification, if possible, to those who have grown old, both in
                stipends and in honour. For honour is the due of. elders, and the enjoyment of the
                good things that: come after war. The great governor <persName>Moses</persName> also wrote in Numbers that
                he said to <persName>Hobab</persName> his wife's brother, who was journeying with <placeName>Israel</placeName> in the way in the
                wilderness, "Leave us not, forasmuch as thou wast with us in the wilderness. And thou
                shalt be an <pb n="174"/> elder among us. And it shall be, if thou go with us, we
-               will do thee good out of all the good things which the Lord shall do unto us."<note n="6">Numbers 10:31,32.</note> But I
+               will do thee good out of all the good things which the Lord shall do unto us."<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> But I
                beg your love of God not to associate indiscriminately with those who unreasonably
                cut themselves off from our communion, men who magnify with lips only an orthodoxy
                that is inactive and runs no risk, while they take no part in the sufferings of the
@@ -157,32 +161,50 @@
                that we blame ourselves as if there had been something wanting in our conduct, and
                honour and praise them as men of strictness. We listen also to our Saviour in the
                Gospels crying, "He that is not with me is against me: and he that. gathereth not
-               with me scattereth."<note n="7">Luke 11:23.</note> <persName ref="http://syriaca.org/person/544">Ignatius</persName> also the great bishop and martyr, who fed the church of
+               with me scattereth."<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> <persName ref="http://syriaca.org/person/544">Ignatius</persName> also the great bishop and martyr, who fed the church of
                the Antiochenes after Peter the captain of the apostles, and, because he was full of
                the Holy Spirit, was called "the God-clad," says in his letter to the men of <placeName ref="http://syriaca.org/place/2719">Smyrna</placeName>,
-               "Shun divisions, as the beginning of evils."<note n="8">Smyrnaeans 8.</note> Further also in another letter of his to
+               "Shun divisions, as the beginning of evils."<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> Further also in another letter of his to
                those at <placeName>Philadelphia</placeName> he says thus: "If anyone follows a man who makes a schism, he
-               does not inherit the kingdom of God."<note n="9">Philadelphians 3.</note> Again in writing to the <persName>Ephesians</persName> he
-               expresses the same thing in a more fearful form, saying, "He therefore that <pb
-                  n="175"/> does not join in the assembly has already behaved proudly, and separated
-               himself. For it is written, 'The proud God resisteth."<note n="10">Ephesians 5.</note> <persName ref="http://syriaca.org/person/2463">Irenaeus</persName> also a man of ancient
+               does not inherit the kingdom of God."<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> Again in writing to the <persName>Ephesians</persName> he
+               expresses the same thing in a more fearful form, saying, "He therefore that <pb n="175"/> does not join in the assembly has already behaved proudly, and separated
+               himself. For it is written, 'The proud God resisteth."<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> <persName ref="http://syriaca.org/person/2463">Irenaeus</persName> also a man of ancient
                times, bishop of the city of <placeName ref="http://syriaca.org/place/2680">Lyons</placeName> (this is one of the cities of the men called
                Gauls), who was a hearer of <persName ref="http://syriaca.org/person/2020">Polycarp</persName> bishop of <placeName ref="http://syriaca.org/place/2719">Smyrna</placeName> and martyr, who was a disciple
                of <persName ref="http://syriaca.org/person/1826">John</persName> the Evangelist, wrote thus, in his fourth book against heresies, about the
                Lord who will judge every breathing thing, and as it is written the whole "world in
-               righteousness"<note n="11">Psalms 9:9.</note>: "But he will also judge those who create schisms, who are men void of
+               righteousness"<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>: "But he will also judge those who create schisms, who are men void of
                the love of God, and seek that which is for their profit but not the union of the
                church, and for small and contemptible reasons cleave and divide the great and
                glorious body of <persName>Christ</persName> and, as far as in them lies, destroy it, men who speak peace
                and make war, who truly strain out the gnat, but swallow the camel. For it is
                impossible that any benefit can spring from them of the same kind as is the injury
-               that springs from their schism."<note n="12">Adv. Hrer. IV. xxxiii. 7 (62).</note> To these things therefore direct your mind, and
+               that springs from their schism."<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> To these things therefore direct your mind, and
                beware of the obstructive forces everywhere: especially of those that arise from
-               thoughts on the right side, which lead astray from the "royal road"<note n="13">Numbers 20:17.</note>: and, looking to
+               thoughts on the right side, which lead astray from the "royal road"<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>: and, looking to
                heaven and making God your guide in all things, cry, "Direct my paths according to
-               thy word"<note n="14">Proverbs 3:6 (?).</note>; and you will surely go straight, and not fail to do what is right. </ab>
+               thy word"<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/>; and you will surely go straight, and not fail to do what is right. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Probably the incursion of <persName>Al Mundhir</persName> (Zach. Rh. viii. 5).</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">δημόσια</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">2 Samuel 24:17.</note>
+        <note xml:id="n4" target="#a4" n="4">The translator 
+                  therefore read <foreign xml:lang="grc">πολέμων</foreign> for <foreign xml:lang="grc">πόλεων</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">1 Samuel 30:24.</note>
+        <note xml:id="n6" target="#a6" n="6">Numbers 10:31,32.</note>
+        <note xml:id="n7" target="#a7" n="7">Luke 11:23.</note>
+        <note xml:id="n8" target="#a8" n="8">Smyrnaeans 8.</note>
+        <note xml:id="n9" target="#a9" n="9">Philadelphians 3.</note>
+        <note xml:id="n10" target="#a10" n="10">Ephesians 5.</note>
+        <note xml:id="n11" target="#a11" n="11">Psalms 9:9.</note>
+        <note xml:id="n12" target="#a12" n="12">Adv. Hrer. IV. xxxiii. 7 (62).</note>
+        <note xml:id="n13" target="#a13" n="13">Numbers 20:17.</note>
+        <note xml:id="n14" target="#a14" n="14">Proverbs 3:6 (?).</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

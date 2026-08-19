@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,31 +98,31 @@
   <text>
       <body>
          <div type="work" xml:id="work-8.4" n="8.4">
+        <div type="section" xml:id="section-8.4">
             <pb n="397"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2681">John</persName> the scholastic of <placeName ref="http://syriaca.org/place/40">Bostra</placeName>.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 5th book the 39th
                letter.</head>
-            <ab> I praise the man who addressed an epistle to your Christ-loving erudition, and is
+            <ab xml:id="section-8.4.1" n="1"> I praise the man who addressed an epistle to your Christ-loving erudition, and is
                earnestly desirous of learning the intention of the commandments of the Spirit, and
                rightly shrinks from the crime of transgressing the commandment of the divine laws,
                which leads to manifest death. For the God-inspired writings somewhere say, "The
                commandment of the Lord is a fountain of life: and it makes one turn aside from the
-               snare of death."<note n="1">Proverbs 14:27.</note> Wherefore I also of necessity answer with what comes to my
+               snare of death."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Wherefore I also of necessity answer with what comes to my
                knowledge, since it is not a safe thing for me to keep silence and neglect the
                question. If men who have been admitted to act as priests to God do not make manifest
                to those that are in need the path of what ought to be done, it is equivalent to
                committing murder. For He that speaks in <persName>Hosea</persName> the prophet says, "Priests have hidden
                the Lord's way: they have slain <placeName>Shechem</placeName>: because they have wrought iniquity in the
-               house of <placeName>Israel</placeName>."<note n="2">Hosea 6:9,10.</note> For the sharp sword that provides the devil with an instrument for
+               house of <placeName>Israel</placeName>."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> For the sharp sword that provides the devil with an instrument for
                the slaughter of our souls is an iniquity. Wherefore we will set the question of him
-               who asks before our answer, as he requested. It is word for word as follows. <pb
-                  n="398"/> Question one. "The loud-voiced <persName>Isaiah</persName> admonishes those that thirst to go
-               to the water.<note n="3">Isaiah 55:1.</note> Having therefore for a long time disputed about the points<note n="4">κεφάλαια.</note> to be
+               who asks before our answer, as he requested. It is word for word as follows. <pb n="398"/> Question one. "The loud-voiced <persName>Isaiah</persName> admonishes those that thirst to go
+               to the water.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> Having therefore for a long time disputed about the points<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> to be
                mentioned without being able to find anyone here to explain these clearly to us, and
                yearning greatly in thirst, we have now had recourse to your wisdom as to fountains
                of salvation, you who are able from your own resources and by the help of the
                God-taught men there to explain to us what the right opinion is concerning the
-               propositions<note n="4">προτάσεις.</note> submitted by us. But let the story be taken as relating to imaginary
+               propositions<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> submitted by us. But let the story be taken as relating to imaginary
                persons. There were with a certain man two deacons who had received the habit from
                him, and were admitted to the diaconate by his hands: not both at one time: but each
                of them separately. These concerted a partnership in wickedness: and having corrupted
@@ -127,7 +131,7 @@
                Therefore, after they had withdrawn themselves, these men's archimandrite, wishing to
                check the evil, immediately through a certain brother placed them under an anathema,
                the exact terms of which were that they were not to be together nor talk with one
-               another, nor taste wine for some short stated time.<note n="5">προθεσμία.</note> For it was thought that what had
+               another, nor taste wine for some short stated time.<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> For it was thought that what had
                been done was chiefly due to the indulgence of the belly. But these men treated the
                anathema with contempt, and on the very day <pb n="399"/> were together and in
                company, and did not refrain from the drinking of wine even for the space of one day
@@ -150,12 +154,12 @@
                danger for the author of the ban? and does God grant forgiveness with him, and judge
                the man who has sinned inno<pb n="400"/>cent? I ask further also whether
                pronouncement and anathema and separation differ from one another in meaning, or if,
-               the meaning being one, it is only the articulation of the syllables<note n="6">συλλάβια.</note> that is
-               different." Answer. Since <persName>Moses</persName> who was named a faithful servant in all God's house<note n="7">Hebrew 3:5.</note>
+               the meaning being one, it is only the articulation of the syllables<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> that is
+               different." Answer. Since <persName>Moses</persName> who was named a faithful servant in all God's house<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>
                says to those who are to judge, "Ye shall not recognise a person in judgment; judge
                according to the small and according to the great; thou shalt not be afraid of the
-               person of a man, since the judgment is God's,"<note n="8">Deuteronomy 1:17.</note> and Koheleth too gives us wise
-               instruction, speaking plainly thus, "There is a time for everything under the sun,"<note n="9">Ecclesiastes 3:1.</note>
+               person of a man, since the judgment is God's,"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> and Koheleth too gives us wise
+               instruction, speaking plainly thus, "There is a time for everything under the sun,"<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>
                we the mean one also must, as far as is possible for us, so make answer to the
                question as if the judgment were divine and not human, and produce a solution of the
                doubt in accordance with the distinctive character of the time. If therefore the head
@@ -183,7 +187,7 @@
                sin, even one that is very grievous, is cured by the method of sincere penitence, and
                those who show penitence worthy the name have nothing incurable about them; and the
                man himself also who laid the ordinance upon them can remove the interdict: not
-               introducing thereby human favour, but serving the divine will.<note n="10">Galatians 6:5.</note> But, if he shall be
+               introducing thereby human favour, but serving the divine will.<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> But, if he shall be
                wrathfully and <pb n="402"/> hostilely disposed, and be unwilling to release those
                who sincerely repent, it rests with another authority higher than his, viz., that of
                the bishops, upon learning the truth, to remove that which out of human bitterness
@@ -191,18 +195,17 @@
                authority to remove the interdict to approve the measure and character of sincere
                penitence, where nothing is explicitly stated by the church canons, as in the case of
                certain sins. Such pronouncements the divine scripture is able to term both
-               "ordinances" and "pronouncement"<note n="11">Marg. " word."</note>. For it is written in Numbers as follows: "This is
-               the word<note n="12">Marg. "pronouncement."</note> which the Lord commanded. Any man who shall vow a vow unto the Lord, or
+               "ordinances" and "pronouncement"<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>. For it is written in Numbers as follows: "This is
+               the word<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> which the Lord commanded. Any man who shall vow a vow unto the Lord, or
                swear oaths, or lay down an ordinance concerning himself, shall not make his
-               pronouncement void. All that proceedeth out of his mouth he shall perform."<note n="13">Numbers 30:2,3.</note> Also,
+               pronouncement void. All that proceedeth out of his mouth he shall perform."<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> Also,
                when <persName>Samuel</persName> the prophet had commanded <persName>Saul</persName>, and had ordered him to arm himself
                against <persName>Amalek</persName>, and deliver to death everything soever that he captured of men and of
                cattle, and he was victorious and gained mighty success in war, and he transgressed
                the ordinance and kept the goats and oxen alive, and he angered God, the divine
                scripture introduces the prophet himself saying thus: "Because thou hast. rejected
                the pronouncement of the Lord, the Lord shall reject thee from being king over
-               <placeName>Israel</placeName>." And <persName>Saul</persName> said to <persName>Samuel</persName>: "I have sinned in that I have transgressed <pb
-                  n="403"/> against the word of the Lord."<note n="14">1 Samuel 15:23,24.</note> You see <persName>Samuel</persName> called the divine
+               <placeName>Israel</placeName>." And <persName>Saul</persName> said to <persName>Samuel</persName>: "I have sinned in that I have transgressed <pb n="403"/> against the word of the Lord."<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> You see <persName>Samuel</persName> called the divine
                commandment and ordinance "the pronouncement of the Lord", and <persName>Saul</persName> "the word of the
                Lord." <persName>Jeremiah</persName> the prophet also applied the term "commandment" to the ordinance that
                the righteous <persName>Jonadab</persName> established for his sons and his sons' sons, commanding them
@@ -216,17 +219,17 @@
                <persName>Jonadab</persName> our father commanded us." And thereupon He that commanded the prophet to do
                these things, in order to convict the disobedient people of <placeName>Israel</placeName>, speaks thus: "The
                sons of <persName>Jonadab</persName> the son of Rechab have maintained the commandment of their father:
-               but this people hath not hearkened unto me."<note n="15">Jeremiah 42:8-10,16.</note> This ordinance the Spirit-inspired
-               writings are also in the habit of calling "covenant."<note n="16">διαθήκη.</note> For instance, when the chiefs
+               but this people hath not hearkened unto me."<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> This ordinance the Spirit-inspired
+               writings are also in the habit of calling "covenant."<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> For instance, when the chiefs
                of the Jews had with the knowledge of King <persName>Zedekiah</persName> agreed after the space of six
                years to let the Hebrew <pb n="404"/> handmaid and slave go free according to what is
-               written in the law,<note n="17">Exodus 21:2.</note> and they had transgressed the ordinance that was enacted by them,
+               written in the law,<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> and they had transgressed the ordinance that was enacted by them,
                the same prophet <persName>Jeremiah</persName> speaks thus; "The word that came from the Lord unto
                <persName>Jeremiah</persName>, after King <persName>Zedekiah</persName> had completed a covenant with the people in <placeName>Jerusalem</placeName>
                to proclaim a release, and to let every man his Hebrew slave and his Hebrew bondmaid
                go free, that no man might be in bondage from <placeName>Jerusalem</placeName>; and all the great men and
                all the people who entered into the covenant turned aside from dismissing every man
-               his bondman and his bondwoman, and releasing their bondmen and their bondwomen."<note n="18">Jeremiah 41:8-11.</note>
+               his bondman and his bondwoman, and releasing their bondmen and their bondwomen."<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/>
                Also, when those who had returned from Babylon joined themselves to foreign women, of
                the peoples of the countries that were near them, from among whom God had forbidden
                them to make marriages, and <persName>Ezra</persName> was roused to wrath on account of the sin, those who
@@ -237,9 +240,9 @@
                concerning this. And let us now make a covenant to our God, to put away all the women
                and such as are born of them. As thou willest, arise, and frighten them by the
                commandments of our <pb n="405"/> God: and let it be done according to the law.
-               Arise, because the word is upon thee and we are with thee. Be strengthened, and act."<note n="19">Nehemiah 10:2-4.</note>
+               Arise, because the word is upon thee and we are with thee. Be strengthened, and act."<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/>
                You see here also he called that which was resolved and ordained both "word" and
-               "covenant"<note n="20">διαθήκη.</note>: so that in the God-inspired writings the same thing was named "word" and
+               "covenant"<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/>: so that in the God-inspired writings the same thing was named "word" and
                "ordinance" (or "prescription") and "pronouncement" and "commandment" and "covenant."
                An anathema fills the place of punishment for him who transgresses what has been
                ordained. But you must know that there are two kinds of anathema. For the expression
@@ -247,26 +250,26 @@
                may be and silver, and garments and slaves, and cattle and fields: in some cases for
                the honour and adornment of a prayer-house building, in others for the service or
                support of those who are in need, or "those who constantly attend upon the altar" as
-               <persName>Paul</persName> says.<note n="21">1 Corinthians 9:13.</note> Such things it is in no way lawful to transfer to private use after they
+               <persName>Paul</persName> says.<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/> Such things it is in no way lawful to transfer to private use after they
                have been consecrated, and to remove from the use whereby they are appropriated to
                God. This principle is stated as follows in Leviticus: "Every anathema that a man
                shall devote unto the Lord of all that he hath, from man unto head of cattle, and
                from the plot of his inheritance, he shall not sell it, nor redeem it. It shall be a
-               holy thing unto the Lord."<note n="22">Leviticus 27:28.</note> Thus it is written that <persName>Judith</persName> acted. <pb n="406"/> 
+               holy thing unto the Lord."<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> Thus it is written that <persName>Judith</persName> acted. <pb n="406"/> 
                <persName>Judith</persName> set apart all the goods of Holophernes that the people gave
                her, and the net that she took for herself from his chamber, and gave it as an
-               anathema to the Lord."<note n="23">Judith xvi. 19.</note> But the other kind of anathema is when persons are by the
+               anathema to the Lord."<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/> But the other kind of anathema is when persons are by the
                sentence and judgment of God set apart for death, as <persName>Joshua</persName> the son of <persName>Nun</persName> ordained
                in the case of <placeName>Jericho</placeName> according to the determination of the Lord, saying, "This city
                and all that is therein shall be anathema to the Mighty Lord; however <persName>Rahab</persName> the
-               harlot and all whom she hath in the house save alive."<note n="24">Joshua 6:17.</note> After the same fashion the
+               harlot and all whom she hath in the house save alive."<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/> After the same fashion the
                divine <persName>Samuel</persName> also said to <persName>Saul</persName> about <persName>Amalek</persName>: "And thou shalt destroy and make
                anathema him and all that he hath, and shalt not spare him: and thou shalt slay from
                man unto woman: from babe unto suckling: and from ox unto sheep: and from camel unto
-               ass."<note n="25">1 Samuel 15:3.</note> Wherefore also <persName>Moses</persName> to the words cited shortly before from Leviticus adds
+               ass."<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> Wherefore also <persName>Moses</persName> to the words cited shortly before from Leviticus adds
                these expressions which distinguish this other kind of anathema as we said: "And
                every anathema which shall be set apart by men shall not be redeemed, but shall
-               surely die."<note n="26">Leviticus 27:29.</note> The anathema therefore that is laid upon those who transgress against
+               surely die."<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> The anathema therefore that is laid upon those who transgress against
                the divine ordinances, or commandments or commands, is of the second kind, the
                anathema which ordains death to the man who transgresses or sins. But death is
                separation from God. For God is life. Accordingly it follows <pb n="407"/> that death
@@ -275,25 +278,25 @@
                what we ourselves have received: and he said in the epistle to <persName>the Galatians</persName>, "But,
                even if we or an angel from heaven preach unto you contrary to what we preached unto
                you, let him be anathema. As we have said before, I say now also again: if any man
-               preach to you contrary to what ye received, let him be anathema."<note n="27">Galatians 1:8,9.</note> In, the first
+               preach to you contrary to what ye received, let him be anathema."<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/> In, the first
                epistle to <persName>the Corinthians</persName> also he wrote in a similar fashion: "If any man loveth not
-               our Lord, let him be anathema."<note n="28">1 Corinthians 16:22.</note> However he that tramples upon an anathema decrees
+               our Lord, let him be anathema."<ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/> However he that tramples upon an anathema decrees
                against him double and manifold death, and he is alien to the blessed calling and
                name of Christians: whence by transgressing against the pronouncements of the laws
                that hold the church of God together he becomes disobedient to the church: and the
                man who becomes disobedient to the church our Saviour and Lord and God <persName>Jesus Christ</persName>
                in the Gospels consigned to the lot of the nations, saying, "But, if he also hear not
-               the church, let him be unto thee as a Gentile and as a tax-gatherer."<note n="29">Matthew 18:17.</note> In general
+               the church, let him be unto thee as a Gentile and as a tax-gatherer."<ptr type="noteAnchor" xml:id="a30" target="#n30" n="30"/> In general
                therefore an anathema is a separation. For it separates the man who is guilty and is
                removed from God's people, as is said by <persName>Isaiah</persName>, "Let not a foreigner that is nigh
-               unto the Lord say, 'The Lord shall then separate me from His people.'"<note n="30">Isaiah 56:3.</note> <pb n="408"/>
+               unto the Lord say, 'The Lord shall then separate me from His people.'"<ptr type="noteAnchor" xml:id="a31" target="#n31" n="31"/> <pb n="408"/>
                But the word "separation" is also used when a man is separated for a time from
                ministering, or from communicating in the sacrifice that is offered. Question two.
                "Men who cut off their own members are rejected by the great synod: with the
                qualification that it grants remission to those who have suffered this at the hands
-               of masters or of barbarians, or by reason of disease, or some other imperative cause.<note n="31">Mansi ii. 668.</note>
+               of masters or of barbarians, or by reason of disease, or some other imperative cause.<ptr type="noteAnchor" xml:id="a32" target="#n32" n="32"/>
                This is manifest to those who look at the canon: but for the sake of a searching
-               investigation let a case in point<note n="32">ύπόθεσις.</note> such as this be presupposed. A certain man among
+               investigation let a case in point<ptr type="noteAnchor" xml:id="a33" target="#n33" n="33"/> such as this be presupposed. A certain man among
                those with us, who had worn the monastic habit from his childhood, as soon as he
                began to reach physical puberty, fearing the enticements of nature, and thinking that
                he was doing a great thing, did not consider the consequences beforehand: but, being
@@ -327,20 +330,20 @@
                fear, or a devout life after the presumptuous deed and evil act, the exactitude of
                the canons, pronounced as they were through the inspiration of the divine Spirit, by
                the holy apostles and by the saintly shepherds who were after them, would have
-               foreseen it. The twenty-first canon of the Constitutions<note n="33">διατάξεις.</note> published to the nations by
+               foreseen it. The twenty-first canon of the Constitutions<ptr type="noteAnchor" xml:id="a34" target="#n34" n="34"/> published to the nations by
                the apostles through <persName>Clement</persName> speaks thus: "Let not a man who has mutilated himself
                become a clergyman. For he is a self-slayer, and an enemy of God's creation." And the
                twenty-second canon also speaks thus: "If a man being a clergyman shall mutilate
                himself, let his deprivation be effected. For he is a slayer of himself." Next
                follows the twenty-third canon also, which says these words: "Let a layman who has
                mutilated himself be separated for three years. For he is an offender against his own
-               life."<note n="34">Mansi i. 33.</note> The first canon also of the great synod of the three hundred and eighteen holy
+               life."<ptr type="noteAnchor" xml:id="a35" target="#n35" n="35"/> The first canon also of the great synod of the three hundred and eighteen holy
                men, of which the question also made mention, proclaimed principles consonant with
-               the declarations of these apostolic constitutions,<note n="35">διατάξεις.</note> placing those who have cut off
+               the declarations of these apostolic constitutions,<ptr type="noteAnchor" xml:id="a36" target="#n36" n="36"/> placing those who have cut off
                their own members outside the whole clergy, even those who have already been admitted
                to any kind of ordination. For it spoke thus: "But, if any man being sound in health
                has cut off his own members, this man even if enrolled in the clergy must be set
-               aside. And henceforth no such man ought to be presented."<note n="36">Id. ii. 668.</note> But the practice of
+               aside. And henceforth no such man ought to be presented."<ptr type="noteAnchor" xml:id="a37" target="#n37" n="37"/> But the practice of
                penitence prepares those who have com<pb n="411"/>mitted this presumption for
                forgiveness in respect of the sins committed, in order that they may not fail to
                attain the expected life and the kingdom of heaven. But, if any man thinks penitence
@@ -352,19 +355,19 @@
                penitent and conscious of his own position, even if he is a man free from every
                canonical impediment that might prevent him from officiating as a priest and
                ministering, shuns such an honour. In fact a man does not take "honour unto himself,
-               but by being called of God, as also was <persName>Aaron</persName>"<note n="37">Hebrews 5:4.</note>, as said the apostle <persName>Paul</persName> in the
+               but by being called of God, as also was <persName>Aaron</persName>"<ptr type="noteAnchor" xml:id="a38" target="#n38" n="38"/>, as said the apostle <persName>Paul</persName> in the
                epistle to the Hebrews. The ninth canon also makes these general provisions about
                those who have fallen under canonical impediments and been presented to the
                priesthood: "If any have been presented as presbyters without examination, and when
                examined have confessed the sins committed by them, and after they have confessed any
                men being moved in a direction contrary to the canon have laid a hand upon them, such
                men the canon does not accept. For the catholic church <pb n="412"/> requires
-               blamelessness"<note n="38">Mansi ii. 672.</note>. To the same object the tenth canon also is directed. These things I
+               blamelessness"<ptr type="noteAnchor" xml:id="a39" target="#n39" n="39"/>. To the same object the tenth canon also is directed. These things I
                for my part have considered and written down in answer to the questions sent me by
                your believing wisdom; not as one who has high thoughts (far be it!), and who exalts
                himself above those who sin; but I have poured forth a flood of sympathetic tears
                over the sinners, and I also am clad in weakness of flesh, as <persName>the Apostle</persName> somewhere
-               says;<note n="39">Galatians 4:13.</note> and of necessity as well as in consequence my speech has borrowed the
+               says;<ptr type="noteAnchor" xml:id="a40" target="#n40" n="40"/> and of necessity as well as in consequence my speech has borrowed the
                exactitude of the canons, and has uttered their words; to listen to which and delight
                oneself even for a short time in this transitory life that flits away sooner than a
                dream is a cause of great and unending joy, and of the exaltation of the angels and
@@ -374,7 +377,50 @@
                blamelessly in the evangelic commandments; and may It admit you to the future endless
                life in the kingdom of heaven, through the prayers of all the saints, Amen! </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Proverbs 14:27.</note>
+        <note xml:id="n2" target="#a2" n="2">Hosea 6:9,10.</note>
+        <note xml:id="n3" target="#a3" n="3">Isaiah 55:1.</note>
+        <note xml:id="n4" target="#a4" n="4">κεφάλαια.</note>
+        <note xml:id="n5" target="#a5" n="5">προτάσεις.</note>
+        <note xml:id="n6" target="#a6" n="6">προθεσμία.</note>
+        <note xml:id="n7" target="#a7" n="7">συλλάβια.</note>
+        <note xml:id="n8" target="#a8" n="8">Hebrew 3:5.</note>
+        <note xml:id="n9" target="#a9" n="9">Deuteronomy 1:17.</note>
+        <note xml:id="n10" target="#a10" n="10">Ecclesiastes 3:1.</note>
+        <note xml:id="n11" target="#a11" n="11">Galatians 6:5.</note>
+        <note xml:id="n12" target="#a12" n="12">Marg. " word."</note>
+        <note xml:id="n13" target="#a13" n="13">Marg. "pronouncement."</note>
+        <note xml:id="n14" target="#a14" n="14">Numbers 30:2,3.</note>
+        <note xml:id="n15" target="#a15" n="15">1 Samuel 15:23,24.</note>
+        <note xml:id="n16" target="#a16" n="16">Jeremiah 42:8-10,16.</note>
+        <note xml:id="n17" target="#a17" n="17">διαθήκη.</note>
+        <note xml:id="n18" target="#a18" n="18">Exodus 21:2.</note>
+        <note xml:id="n19" target="#a19" n="19">Jeremiah 41:8-11.</note>
+        <note xml:id="n20" target="#a20" n="20">Nehemiah 10:2-4.</note>
+        <note xml:id="n21" target="#a21" n="21">διαθήκη.</note>
+        <note xml:id="n22" target="#a22" n="22">1 Corinthians 9:13.</note>
+        <note xml:id="n23" target="#a23" n="23">Leviticus 27:28.</note>
+        <note xml:id="n24" target="#a24" n="24">Judith xvi. 19.</note>
+        <note xml:id="n25" target="#a25" n="25">Joshua 6:17.</note>
+        <note xml:id="n26" target="#a26" n="26">1 Samuel 15:3.</note>
+        <note xml:id="n27" target="#a27" n="27">Leviticus 27:29.</note>
+        <note xml:id="n28" target="#a28" n="28">Galatians 1:8,9.</note>
+        <note xml:id="n29" target="#a29" n="29">1 Corinthians 16:22.</note>
+        <note xml:id="n30" target="#a30" n="30">Matthew 18:17.</note>
+        <note xml:id="n31" target="#a31" n="31">Isaiah 56:3.</note>
+        <note xml:id="n32" target="#a32" n="32">Mansi ii. 668.</note>
+        <note xml:id="n33" target="#a33" n="33">ύπόθεσις.</note>
+        <note xml:id="n34" target="#a34" n="34">διατάξεις.</note>
+        <note xml:id="n35" target="#a35" n="35">Mansi i. 33.</note>
+        <note xml:id="n36" target="#a36" n="36">διατάξεις.</note>
+        <note xml:id="n37" target="#a37" n="37">Id. ii. 668.</note>
+        <note xml:id="n38" target="#a38" n="38">Hebrews 5:4.</note>
+        <note xml:id="n39" target="#a39" n="39">Mansi ii. 672.</note>
+        <note xml:id="n40" target="#a40" n="40">Galatians 4:13.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

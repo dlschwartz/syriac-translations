@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,19 +98,20 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.13" n="1.13">
+        <div type="section" xml:id="section-1.13">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2546">Entrechius</persName>, bishop of Anazarba.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 3rd book the
                397th, 398th letter.</head>
-            <ab> I do not know whether should lay the blame of the events that are happening upon my
+            <ab xml:id="section-1.13.1" n="1"> I do not know whether should lay the blame of the events that are happening upon my
                sins, or upon the operation of an evil demon. Though there is nothing else that I
                have had so much at heart or for 'which I have prayed so much as that every Christian
                should conduct himself blamelessly, but especially those who are high-priests, giving
                no cause for reproach or blame against themselves, but being "in everything a pattern
                of good works, in gravity and in holiness," as the Apostle<!-- ethan boyd, this is referencing Paul the Apostile --> says, "in order that he
-               that is of the contrary part may be ashamed, having no evil thing to say of us,"<note n="1">Titus 2:7,8.</note> I see
+               that is of the contrary part may be ashamed, having no evil thing to say of us,"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> I see
                that not once only but twice also am worried about the same matters. Indeed, though
                some of the devout clergymen of the holy church of <placeName ref="http://syriaca.org/place/2667">Flavias</placeName> had presented to us
-               certain accusations upon <pb n="54"/> certain subjects<note n="2"><foreign xml:lang="grc">κεφάλαια</foreign>.</note> against their God-loving
+               certain accusations upon <pb n="54"/> certain subjects<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> against their God-loving
                bishop, and we managed the affair ourselves, and brought things that else would have
                been troublesome to a peaceful typos or conclusion and so settled them, now again old
                men bowed down with age have risen up to make more serious charges, men who, if one
@@ -121,14 +126,15 @@
                thing) and resolved to send the religious <persName ref="http://syriaca.org/person/2548">Theodosius</persName> a presbyter of our apostolic see
                that he may examine the facts in conjunction with your love of God, and a decision
                consonant to the canons may be given by you, and: a conclusion reached upon each of
-               the subjects<note n="3"><foreign xml:lang="grc">ύπόθεσις</foreign>.</note> with the greatest possible accuracy. But at the same time we have
+               the subjects<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> with the greatest possible accuracy. But at the same time we have
                resolved to say this much, that the said religious bishop <persName ref="http://syriaca.org/person/2547">Procopius</persName> should not, after
                the first warning, have received a gift at ordinations on the pretext of making a
                profit for the church, as he <pb n="55"/> used to say, and again been detected in the
                same practices, as those who make the accusation against him say: nor should he have
-               named <persName ref="http://syriaca.org/person/2550">Lampetius</persName><note n="4"> CJ. vit. Sev. p. 28. l. 24.</note> at the divine sacrifice, a man who was infected with the heresy of
-               <persName ref="http://syriaca.org/person/2549">Adelphius</persName>, and for this reason was condemned at <placeName>Commanus</placeName> in <placeName ref="http://syriaca.org/place/576">Armenia</placeName>, as the minutes<note n="5"><foreign xml:lang="grc">πράξις</foreign>.</note>
-               of the records<note n="6"><foreign xml:lang="grc">ύπομνήματα</foreign>.</note> of that synod also show. Indeed, to pass over old matters, it is easy
+               named <persName ref="http://syriaca.org/person/2550">Lampetius</persName>
+            <ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> at the divine sacrifice, a man who was infected with the heresy of
+               <persName ref="http://syriaca.org/person/2549">Adelphius</persName>, and for this reason was condemned at <placeName>Commanus</placeName> in <placeName ref="http://syriaca.org/place/576">Armenia</placeName>, as the minutes<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
+               of the records<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> of that synod also show. Indeed, to pass over old matters, it is easy
                for your love of God to learn what canonical discussion the abominable flock of the
                Adelphians received in Second <placeName ref="http://syriaca.org/place/2763">Cappadocia</placeName>, seeing that the saintly <persName ref="http://syriaca.org/person/2551">Soteric</persName> bishop of
                the city of the men of <placeName ref="http://syriaca.org/place/2637">Caesarea</placeName> and the holy bishops who sat with him, from <placeName ref="http://syriaca.org/place/2763">Cappadocia</placeName>
@@ -141,7 +147,7 @@
                heresy is not a heresy: for they count up all the heretics in order and anathematize
                them, but <persName ref="http://syriaca.org/person/2549">Adelphius</persName> they honour by silence. The celebrated freedom from passions of
                which they boast they do not display at all: and concerning matters on which charges
-               are made against them they give no satisfaction,<note n="7"><foreign xml:lang="grc">πληροφορία</foreign>.</note> but from <pb n="56"/> matters on
+               are made against them they give no satisfaction,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> but from <pb n="56"/> matters on
                which they are not accused they gather the reputation of not being godless. It lies
                therefore with your love of God in conjunction with the religious <persName ref="http://syriaca.org/person/2548">Theodosius</persName> the
                presbyter of our apostolic see to see that the whole matter is as I have said
@@ -162,6 +168,21 @@
                reflect. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Titus 2:7,8.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">κεφάλαια</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">ύπόθεσις</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4"> CJ. vit. Sev. p. 28. l. 24.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">πράξις</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">ύπομνήματα</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">πληροφορία</foreign>.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

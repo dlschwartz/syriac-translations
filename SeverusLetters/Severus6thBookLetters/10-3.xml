@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,27 +98,28 @@
   <text>
       <body>
          <div type="work" xml:id="work-10.3" n="10.3">
+        <div type="section" xml:id="section-10.3">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2766">Theodore</persName> the tribune and notary.</head>
             <head type="sub" resp="#compiler">From those before episcopacy, from the 4th book the 80th
                letter.</head>
-            <ab> I think that I still see the torch<note n="1"><foreign xml:lang="grc">λαμπάδα</foreign>.</note> of the divine light shining in you, under the
+            <ab xml:id="section-10.3.1" n="1"> I think that I still see the torch<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> of the divine light shining in you, under the
                influence of which you would have almost gone so far as to betake yourself to the
                philosophic life, had it not been that you restrained that tyrannical desire like
                some fiery steed by the bits of God's laws. What are the bits? "Art thou bound to a
                wife? seek not release." And again "Let every man in the calling wherein he was
                called therein abide." And again, "Deprive not one another, except it be by consent
                for a time, in order that ye may give yourselves up to prayer, and again come
-               together."<note n="2">1 Corinthians 7:27,29,5.</note> If then you have by devout and God-loving conduct attached your spouse to
+               together."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> If then you have by devout and God-loving conduct attached your spouse to
                the same zeal and yearning for <pb n="437"/> the good life, fly, and withdraw to
                philosophy. But, if she has not attained to this excellence, and cleaves to the life
                here, and is unable to restrain the impulse of the flesh, seek not your own good but
-               your fellow's.<note n="2">Id. 10:24.</note> The whole force of Christianity as well as the commandment supporting
-               the law and the prophets that says, "Thou shalt love thy neighbour as thyself,"<note n="3">Matthew 22:39,40.</note>
+               your fellow's.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> The whole force of Christianity as well as the commandment supporting
+               the law and the prophets that says, "Thou shalt love thy neighbour as thyself,"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
                points to this: the commandment which the Lord above all fulfilled when He graciously
                showed Himself to us by His coming in the flesh, and He said "A new commandment I
                give unto you that ye love one another as I have loved you, that ye also may love one
                another; and by this shall every man know that ye are my disciples, if ye love one
-               another."<note n="4">John 13:34,35.</note> How then shall we not offend against the laws of love, if we suffer the
+               another."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> How then shall we not offend against the laws of love, if we suffer the
                wife who has been reckoned to be one and the same flesh with us to perish? for, just
                as no man of sense prays that his head may be sound, while his other members are
                afflicted with paralysis, or are filled with disease, (for the head also will
@@ -122,7 +127,7 @@
                for us to concern ourselves about our own salvation, while we neglect our wife's,
                when we shall on her account be brought to hell. Although in the Gospels with leaving
                father or mother or children there is also included without division the leaving of a
-               wife,<note n="5">Matthew 19:29.</note> yet this must necessarily be subject to the later apostolic distinction. In
+               wife,<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> yet this must necessarily be subject to the later apostolic distinction. In
                fact in <pb n="438"/> external laws also, and in fine in every statute and conception
                general loose statements assuredly follow later distinctions. That the wise <persName>Paul</persName>
                understands the meaning of the Lord's laws better than we do we shall admit even
@@ -136,7 +141,7 @@
                contrariwise "the wife." This epistle I have written to you in proportion to my
                poverty. If you obey this, you will obtain the reward for the choice of philosophy,
                and that for the education of your children, training them "in the training and
-               teaching of the Lord".<note n="6">Ephesians 6:4.</note> I forbear to say that you can also in all characters practise
+               teaching of the Lord".<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> I forbear to say that you can also in all characters practise
                philosophy, seeing that you have a soul-possessing pillar of excellence in that
                sharer of your name and your belief and man of God: whom also I beg you greet. Who
                could voluntarily forget you, good couple that you are, the modesty of your
@@ -148,13 +153,26 @@
                amassed the profits derived from law-courts. For alone, if I may so say, with few
                others he failed to conform to the passage of Koheleth that says, "There is a
                sickness which I have seen under the sun, riches kept for him that springs from them
-               to his hurt."<note n="7">Ecclesiastes 5:12.</note> Wherefore also you seem in your sleep to see him feasting when you are
+               to his hurt."<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> Wherefore also you seem in your sleep to see him feasting when you are
                justified. Accordingly as one that is wise in the Lord take the same Koheleth as a
-               good counsellor and "all that thy hand findeth to do do according to thy might";<note n="8">Id. 9:10.</note> and
+               good counsellor and "all that thy hand findeth to do do according to thy might";<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> and
                reverse the order, and feed your children by good works, and leave them to God as a
                patron. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">λαμπάδα</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">1 Corinthians 7:27,29,5.</note>
+        <note xml:id="n3" target="#a3" n="3">Id. 10:24.</note>
+        <note xml:id="n4" target="#a4" n="4">Matthew 22:39,40.</note>
+        <note xml:id="n5" target="#a5" n="5">John 13:34,35.</note>
+        <note xml:id="n6" target="#a6" n="6">Matthew 19:29.</note>
+        <note xml:id="n7" target="#a7" n="7">Ephesians 6:4.</note>
+        <note xml:id="n8" target="#a8" n="8">Ecclesiastes 5:12.</note>
+        <note xml:id="n9" target="#a9" n="9">Id. 9:10.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

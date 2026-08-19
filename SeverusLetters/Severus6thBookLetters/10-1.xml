@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,13 +98,16 @@
   <text>
       <body>
          <div type="work" xml:id="work-10.1" n="10.1">
+        <div type="section" xml:id="section-10.1">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2591">Alypius</persName>.</head>
             <head type="sub" resp="#compiler">From those before episcopacy, from the 3rd book the
                257th letter.</head>
-            <ab> In many instances, when it was necessary for some sanction to be given to an action,
+            <ab xml:id="section-10.1.1" n="1"> In many instances, when it was necessary for some sanction to be given to an action,
                I have known your illustriousness to set great store by the judgments of my erring
-               and uncertain mind, as I persuade myself that it is. <add><emph>And after other
-                  things.</emph></add> You certainly, I think, <pb n="428"/> remember that I
+               and uncertain mind, as I persuade myself that it is. <add>
+              <emph>And after other
+                  things.</emph>
+            </add> You certainly, I think, <pb n="428"/> remember that I
                engaged in. a. discussion with you about your consort, whom, having been struck by
                some unexpected suspicion, you drove from your house, and acted like men whose
                marriage has been dissolved, not even giving her the necessary sustenance; and how I
@@ -110,30 +117,31 @@
                which is manifestly detected, and demonstrated by witnesses or manifest proofs, so
                that, if any suspicion otherwise occur, we do not define this as fornication: but
                rather we turn the supposition into a gentler channel. For "in matters that are in
-               doubt we must incline to clemency," as the Theologian <persName>Gregory</persName> says.<note n="1">Oratio Manassæ regis 21:15.</note> I have indeed
+               doubt we must incline to clemency," as the Theologian <persName>Gregory</persName> says.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> I have indeed
                gained sure knowledge that the woman is not liable to charges of fornication so much
                as to going out freely. But such a thing as this invites you to forgiveness, and does
                not give you cause for separation. But, if you are strict in requiring modest
                conduct, know clearly that you are commanded to practise the same observance towards
                your <persName ref="http://syriaca.org/person/3775">wife</persName> as you wish her to practise towards yourself. <persName>Christ</persName> our lawgiver speaking
                through <persName>Paul</persName> said, "The wife hath not power over her body: but the husband: and in
-               the same fashion the husband also hath not power over his body: but the wife."<note n="2">1 Corinthians 7:4.</note> Re<pb
-                  n="429"/>flect therefore whether you also have never been discovered to have been
+               the same fashion the husband also hath not power over his body: but the wife."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> Re<pb n="429"/>flect therefore whether you also have never been discovered to have been
                seduced by the pleasures of the body. But why do I say "pleasures"? Whether you have
                not in curiosity gratified your eye with greedy gazing, making yourself in no lovely
                fashion a spectator of another's loveliness; the eye which the divine word condemns
                to be plucked out, in. order that it may not bring eternal torture upon the whole
-               body:<note n="3">Mattew 5:29.</note> whether you have not relaxed under the influence of the touch: whether you have
+               body:<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> whether you have not relaxed under the influence of the touch: whether you have
                not indulged the sense of smell: whether your ears have never taken delight in
                dissolute songs: whether you have kept all your senses untainted. He that is a strict
                examiner of the doings of others shall have the same judgment exacted from him in the
-               case of his: own sins also. If "the head of the wife is the husband,"<note n="4">1 Corinthians 11:3.</note> how is he to
+               case of his: own sins also. If "the head of the wife is the husband,"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> how is he to
                find fault with the rest of his body as being diseased, when he himself is not in
-               sound health? <add><emph>And again after other things.</emph></add> And many think in
+               sound health? <add>
+              <emph>And again after other things.</emph>
+            </add> And many think in
                the case of a man that when he sins with his body he deserves forgiveness, but a
                woman deserves to be afflicted with grievous punishments. But this is not so: but
                exactly the contrary. For scripture says that a woman shall be admitted to
-               forgiveness, inasmuch as she is the "weaker vessel":<note n="5">1 Peter 3:7.</note> but a man, inasmuch as he holds
+               forgiveness, inasmuch as she is the "weaker vessel":<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> but a man, inasmuch as he holds
                the place of head, must be an example to the other members of the same body.
                Therefore be <pb n="430"/> not merciless or hard to your member, if you obey <persName>Christ</persName>'s
                laws; and do not apply amputation and cut it off from you: but claim it as part of
@@ -145,9 +153,9 @@
                them beyond what is right, and that when they are not committing unpardonable sins?
                In fact <persName>Christ</persName> plainly proclaims to us that we ought not casually and lightly to cut
                off her who has been united to us in one flesh through trusting vain suspicions: and
-               He says that separation was introduced into the polity<note n="6"><foreign xml:lang="grc">πολτεία</foreign>.</note> or social life by <persName>Moses</persName> on
+               He says that separation was introduced into the polity<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> or social life by <persName>Moses</persName> on
                account of our own hardness of heart: but "from the beginning it was not so," He
-               proclaims to the discerning.<note n="7">Matthew 19:5-9.</note> How therefore, tell me, shall we ourselves have
+               proclaims to the discerning.<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> How therefore, tell me, shall we ourselves have
                forgiveness, when we do not conduct ourselves, I do not say according to the gospel
                laws, but not even according to the figurative laws used by Israel who conducted
                himself according to the flesh and was a child? For such statutes were given to them
@@ -167,17 +175,17 @@
                drink the water of conviction, the priest having first prayed over the same water,
                and shall either repel the evil suspicion from her by suffering no evil in her body,
                or shall be found to be guilty of the charges, and fall into God's hands by her belly
-               being rent and the penalty for the deeds that have been done paid by her on the spot.<note n="8">Numbers 5:12-31.</note>
+               being rent and the penalty for the deeds that have been done paid by her on the spot.<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>
                Wherefore have I repeated this to you? That you may learn that we also ought not to
                entrust the judgment upon this matter to ourselves, but to refer everything to our
                sacrifice which is <persName>Christ</persName>. He is no liar who said that <pb n="432"/> unless our
                "righteousness exceed that of the scribes and of the Pharisees" we shall not "enter
-               into the kingdom of heaven".<note n="9">Matthew 5:20.</note> Therefore both according to the old law and according to
-               the gospel polity,<note n="10"><foreign xml:lang="grc">πολιτεία</foreign>.</note> where the suspicion is not clear, let us not take ourselves but
+               into the kingdom of heaven".<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> Therefore both according to the old law and according to
+               the gospel polity,<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> where the suspicion is not clear, let us not take ourselves but
                God as the judge of these things. And we must obey <persName>Paul</persName> who gives wiser advice than
                we do. He says, "Therefore judge nothing before the time, until the Lord come and
                make light the hidden things of darkness, and reveal the counsels of the hearts; and
-               then shall every man have praise from God."<note n="11">1 Corinthians 4:5.</note> That you have just cause for making the
+               then shall every man have praise from God."<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> That you have just cause for making the
                charge we are clearly persuaded: but that the woman has not offended beyond
                forgiveness I think you have already been persuaded by what has been written. But, if
                this does not persuade, we say this. She has sinned, she has done all that is evil as
@@ -188,9 +196,26 @@
                instability of human things. We are certainly not walking upon ground that is firm
                and not to be shaken. Let us expect ourselves also to fall, and let us set upright
                those that have fallen. The saying <pb n="433"/> is not mine: "Let him that thinketh
-               he standeth take heed lest he fall,"<note n="12">Id. 10:12.</note> says divine scripture. </ab>
+               he standeth take heed lest he fall,"<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> says divine scripture. </ab>
             <trailer>Not the end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Oratio Manassæ regis 21:15.</note>
+        <note xml:id="n2" target="#a2" n="2">1 Corinthians 7:4.</note>
+        <note xml:id="n3" target="#a3" n="3">Mattew 5:29.</note>
+        <note xml:id="n4" target="#a4" n="4">1 Corinthians 11:3.</note>
+        <note xml:id="n5" target="#a5" n="5">1 Peter 3:7.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">πολτεία</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">Matthew 19:5-9.</note>
+        <note xml:id="n8" target="#a8" n="8">Numbers 5:12-31.</note>
+        <note xml:id="n9" target="#a9" n="9">Matthew 5:20.</note>
+        <note xml:id="n10" target="#a10" n="10">
+          <foreign xml:lang="grc">πολιτεία</foreign>.</note>
+        <note xml:id="n11" target="#a11" n="11">1 Corinthians 4:5.</note>
+        <note xml:id="n12" target="#a12" n="12">Id. 10:12.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

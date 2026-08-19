@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,20 +98,21 @@
   <text>
       <body>
          <div type="work" xml:id="work-4.1" n="4.1">
+        <div type="section" xml:id="section-4.1">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2717">Zacharias</persName> of <placeName ref="http://syriaca.org/place/1473">Pelusium</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 1st book the
                208th, 209th Letter.</head>
-            <ab> You say, "What can be made pure by that which is impure?" But I say that this
+            <ab xml:id="section-4.1.1" n="1"> You say, "What can be made pure by that which is impure?" But I say that this
                expression, inasmuch <pb n="250"/> as it was uttered in the right spirit, makes your
                offering pure, although it was by nature impure and a thing acquired by iniquity (we
                will refrain from mentioning this in words). For there is nothing that makes God so
                glad as for a man to be the first to blame himself, even though he be a man who is
                free from all blame. He who has been the first to blame himself, progressing by
                degrees, will certainly give up the iniquity also. Wherefore He cries through the
-               prophet, "Tell thou thy sins first, that thou mayest be justified."<note n="1">Isaiah 43:26.</note> So also that
+               prophet, "Tell thou thy sins first, that thou mayest be justified."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> So also that
                <persName>Canaanite woman</persName>, when she was compared to a dog and accepted the insult as true,
                heard the high and loud testimony, "O woman, great is thy faith, be it unto thee as
-               thou wilt."<note n="2">Matthew 15:28.</note> You deserve admiration for giving, and giving in such a spirit: but you
+               thou wilt."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> You deserve admiration for giving, and giving in such a spirit: but you
                would certainly have deserved greater admiration, if while doing this you
                communicated with us the orthodox. Do not think to yourself that, because you
                communicate with those who have prayer-house buildings, and for this reason say that
@@ -125,7 +130,7 @@
                yet higher than my faith and heaven to which I am going. Small is my flock, but it
                does not go towards the rock. Narrow is my fold, yet it cannot be leaped over by
                wolves: yet it is not such as to admit a robber, or to be captured by thieves and
-               strangers."<note n="3">Oratio Manassæ regis 33:15.</note> So far he. And we might have further quoted many other testimonies of the
+               strangers."<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> So far he. And we might have further quoted many other testimonies of the
                God-clad fathers, which say this same thing. But, not to extend the discussion to a
                great length, I leave the rest on one. side, but will cite for you a passage from a
                certain presbyter (<persName ref="http://syriaca.org/person/564">Isidore</persName>, I mean, a native of your city of <placeName ref="http://syriaca.org/place/1473">Pelusium</placeName>, who was wise
@@ -159,9 +164,16 @@
                embellished in this way did not exist, but the church was crowned with heavenly and
                divine gifts, rather than in these, in which the church-buildings are embellished
                with all kinds of marbles, but the church is stripped and bare of those spiritual
-               gifts."<note n="4">Ephesians 2:246.</note> </ab>
+               gifts."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> </ab>
             <trailer>Not the end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Isaiah 43:26.</note>
+        <note xml:id="n2" target="#a2" n="2">Matthew 15:28.</note>
+        <note xml:id="n3" target="#a3" n="3">Oratio Manassæ regis 33:15.</note>
+        <note xml:id="n4" target="#a4" n="4">Ephesians 2:246.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

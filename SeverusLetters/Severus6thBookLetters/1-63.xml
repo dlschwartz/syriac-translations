@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,32 +98,38 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.63" n="1.63">
+        <div type="section" xml:id="section-1.63">
             <pb n="195"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2558">Misael</persName> the deacon.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 9th book the 43rd
                letter.</head>
-            <ab> I received the letter of your religiousness, which was forwarded to me from
-               <placeName>Alexandria</placeName>, from the devout <persName ref="http://syriaca.org/person/2480">Andrew</persName> the reader on the eighth of July. <add><emph>And
-                  after other things.</emph></add> The holy <persName>Basil</persName> also, the teacher of truth,
+            <ab xml:id="section-1.63.1" n="1"> I received the letter of your religiousness, which was forwarded to me from
+               <placeName>Alexandria</placeName>, from the devout <persName ref="http://syriaca.org/person/2480">Andrew</persName> the reader on the eighth of July. <add>
+              <emph>And
+                  after other things.</emph>
+            </add> The holy <persName>Basil</persName> also, the teacher of truth,
                says in his ascetic treatise that he who is entrusted with the duty of ministering to
                the needs of a monastery, even if it be the archimandrite, ought not to use or spend
                any of the property of the brother. hood on any pious object, for example on the
                support of the poor and needy or on the ransoming of captives. Therefore neither
                would the case of the saintly man, though it seems to be a matter of piety, have
                given you a right to do anything without my consent, if you are certain from the laws
-               and from the will<note n="1"><foreign xml:lang="grc">διάθεσις</foreign>.</note> 
-               which left the legacy<note n="2"><foreign xml:lang="grc">λεγάτον</foreign>.</note> that it is mine. For you must excuse me from
+               and from the will<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> 
+               which left the legacy<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> that it is mine. For you must excuse me from
                adopting the honorary expressions used by friends or by men who are otherwise on
                familiar terms with one another, "My things are yours," and, "You are my lord, lord
                both of my own person and of what possess." For the subject of the present argument
-               is the true state of the facts. Moreover also the saintly man<note n="3">Marg. "he speaks of Theodosius."</note> does not need a gift
+               is the true state of the facts. Moreover also the saintly man<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> does not need a gift
                from us, seeing that he has the serene queen, who will provide him <pb n="196"/> if
                he wish even with more than he needs, and now he has all the orthodox also on account
                of his attested steadfastness in the matter of the confession of the faith. These
                things I have written for the sake of the principles of the evangelic laws, and for
                the sake of preserving a blameless conscience. If it were not so, I reckon things
-               once given by you just as if they had been given by me. <add><emph>And after other
-                  things.</emph></add> As to the impious <persName ref="http://syriaca.org/person/2483">Sergius</persName>, who is called <persName ref="http://syriaca.org/person/2483">Bar Fathya</persName><note n="4">I.e. son of the broad. Probably a rendering of some Greek name (Platys?).</note> and
+               once given by you just as if they had been given by me. <add>
+              <emph>And after other
+                  things.</emph>
+            </add> As to the impious <persName ref="http://syriaca.org/person/2483">Sergius</persName>, who is called <persName ref="http://syriaca.org/person/2483">Bar Fathya</persName>
+            <ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and
                has become broad in impiety, so far am from saying that it was by my advice that he
                was ordained deacon that I even anathematize him and the man who, if even in this: he
                speaks truth, ordained him: the one for unlawfully sleeping with his father's wife or
@@ -127,16 +137,19 @@
                men's cities which do not belong to him at all, without an invitation and on his own
                authority, and not even without price but for filthy lucre. Under the same anathema
                lies also <persName ref="http://syriaca.org/person/2481">Anatolius</persName>, who after ordination to the diaconate has married a second time
-               and is godless in his doctrines, even if it is not stated by us, and <persName ref="http://syriaca.org/person/2482">Podolirius</persName><note n="5">Sic.</note> who
+               and is godless in his doctrines, even if it is not stated by us, and <persName ref="http://syriaca.org/person/2482">Podolirius</persName>
+            <ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> who
                has taught his children to play the harp and dance, and has made them serve the
                devil, and has fallen under the divine canons of the apostles. To the same anathema
                those also are liable who cause confusion <pb n="197"/> besides these, and imagine
                vain things against the orthodox faith, like those who once "imagined vain things
-               against the Lord and against his Anointed,"<note n="6">Psalms 2:1,2.</note> and fell from His glory. For these too by
+               against the Lord and against his Anointed,"<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> and fell from His glory. For these too by
                always reckoning the belly and the passions that are subject to the belly as a god
                inflicted a stain and a blot upon us by being numbered with the orthodox. Therefore
                they must plead not to us but to God, whose name they are profaning among the nations
-               as <persName>Isaiah</persName> and <persName>Paul</persName> say.<note n="7">Isaiah 42:5; Romans 2:24.</note> <add><emph>And after other things.</emph></add> But I was
+               as <persName>Isaiah</persName> and <persName>Paul</persName> say.<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> <add>
+              <emph>And after other things.</emph>
+            </add> But I was
                much distressed that the serene queen presumes to say such grievous, not to say
                blasphemous, things against the holy fathers in respect of doctrines which she does
                not understand, and mocks at the holy <persName ref="http://syriaca.org/person/2485">Alexander</persName> the archbishop, who is one of the
@@ -144,13 +157,13 @@
                <persName ref="http://syriaca.org/person/354">Athanasius</persName>, on the ground that even in the theology of the Trinity he termed person
                "nature," and jeers at him as one of those who practise manual crafts, a coppersmith
                for instance or a carpenter of the name of <persName ref="http://syriaca.org/person/2485">Alexander</persName>, or as she says by way of
-               accusation an advocate of the treasure-chambers.<note n="8"> I.e. advocatus jisci.</note> Let her then mock and jeer at the
+               accusation an advocate of the treasure-chambers.<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> Let her then mock and jeer at the
                other saintly <persName ref="http://syriaca.org/person/2485">Alexander</persName> also, who was in the same times bishop of <placeName ref="http://syriaca.org/place/2290">Constantinople</placeName>, and
                by stretching out his hands all night and praying brought it about that, when the
                impious <persName>Arius</persName> was going to communicate hypocritically with the orthodox, his entrails
                fell through his belly and he gave up the <pb n="198"/> ghost; if the fact that a man
                is called <persName ref="http://syriaca.org/person/2485">Alexander</persName> is a jest, 
-               and an occasion and subject<note n="9"><foreign xml:lang="grc">ύπόθεσις</foreign>.</note> for jeering. What are we
+               and an occasion and subject<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> for jeering. What are we
                to do about these things, except be silent and grieve our heart, and ask God to have
                mercy upon our many lawlessnesses? For, though much might have been said in answer to
                these things, it is better for us to be silent. As to the mischievous words that the
@@ -158,9 +171,9 @@
                they do like some lightning-flash their keen eyes, and enlightening the minds of the
                orthodox and understanding, while the uninstructed and unlearned see that God is
                glorified and admired among His saints, as <persName>David</persName> says in song,
-               <note n="10">Psalms 88:8.</note> for the things at
+               <ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> for the things at
                which they jest and against which they blaspheme. I speak the truth and do not lie
-               when I say that, since I wrote the treatise <title>Against the Grammarian</title>,<note n="11">Add. 17, 154; cf. Zach. Rh. vii. 1.0.</note>
+               when I say that, since I wrote the treatise <title>Against the Grammarian</title>,<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>
                there has been no one among the believers who had a high or moderate or small share
                in divine knowledge who was not astonished when he found such expressions of the holy
                fathers collected there, some expressed at length others in few words, and stopping
@@ -177,6 +190,23 @@
                answer should reply to all the points contained in the letter. </ab>
             <trailer>Not the end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">διάθεσις</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">λεγάτον</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">Marg. "he speaks of Theodosius."</note>
+        <note xml:id="n4" target="#a4" n="4">I.e. son of the broad. Probably a rendering of some Greek name (Platys?).</note>
+        <note xml:id="n5" target="#a5" n="5">Sic.</note>
+        <note xml:id="n6" target="#a6" n="6">Psalms 2:1,2.</note>
+        <note xml:id="n7" target="#a7" n="7">Isaiah 42:5; Romans 2:24.</note>
+        <note xml:id="n8" target="#a8" n="8"> I.e. advocatus jisci.</note>
+        <note xml:id="n9" target="#a9" n="9">
+          <foreign xml:lang="grc">ύπόθεσις</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">Psalms 88:8.</note>
+        <note xml:id="n11" target="#a11" n="11">Add. 17, 154; cf. Zach. Rh. vii. 1.0.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

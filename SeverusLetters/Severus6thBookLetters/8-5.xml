@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,19 +98,22 @@
   <text>
       <body>
          <div type="work" xml:id="work-8.5" n="8.5">
+        <div type="section" xml:id="section-8.5">
             <pb n="413"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2480">Andrew</persName> the reader and notary.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 9th book the 61st,
                51st letter.</head>
-            <ab> The letter of your devoutness which has now been brought, I received on the last day
+            <ab xml:id="section-8.5.1" n="1"> The letter of your devoutness which has now been brought, I received on the last day
                of the month of July, on which was the commemoration of the saintly <persName ref="http://syriaca.org/person/792">Timothy</persName>, who was
                archbishop of <placeName>the city of the Alexandrines</placeName>, who completed a long residence in exile
                after the manner of a martyr, and of King <persName ref="http://syriaca.org/person/1529">Theodosius</persName> the younger, piously deceased,
                who in zeal and in the maturity of his intellect surpassed all who reigned before
                him: to whose prayers I also ascribed the receipt of the letter, since I had been
                expecting it for many days, and I was disturbed by various anxieties, and I was
-               anxious lest it too had been overlooked and lost. <add><emph>And after other
-                  things.</emph></add> As to <persName ref="http://syriaca.org/person/2682">John</persName> the scribe who threw himself into a river and
+               anxious lest it too had been overlooked and lost. <add>
+              <emph>And after other
+                  things.</emph>
+            </add> As to <persName ref="http://syriaca.org/person/2682">John</persName> the scribe who threw himself into a river and
                departed from this life, I am in doubt, and I have no sure decision to give. Know
                that since the times of Christ's coming in the flesh we find in church histories that
                this is allowed to women, to remove themselves I mean from this life, and throw
@@ -117,29 +124,34 @@
                about one of the holy Maccabean martyrs that the torturers thought he was drawing
                back, and that he was showing signs of change: and upon their releasing him for a
                short time he leaped upon the implements of torment glowing from the fire and the
-               instruments<note n="1">όργανα.</note> of torture, and separated his soul from his body and flew to heaven.<note n="2">4 M. xii. 20.</note>
+               instruments<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> of torture, and separated his soul from his body and flew to heaven.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
                Therefore, what has thus happened must certainly be judged according to the
-               disposition<note n="3">διάθεσις.</note> of his heart and the character of the words that <persName ref="http://syriaca.org/person/2682">John</persName> said. But may the
+               disposition<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> of his heart and the character of the words that <persName ref="http://syriaca.org/person/2682">John</persName> said. But may the
                God of mercy, who desires our salvation rather than our destruction, grant him the
                portion of those that are saved! Indeed the holy <persName ref="http://syriaca.org/person/573">John</persName> the bishop not only treats such
                a death as a subject of praise in the case of the holy <persName ref="http://syriaca.org/person/400">Pelagia</persName> the martyr, but also
                pronounces a festal discourse over three other women, I mean <persName ref="http://syriaca.org/person/2637">Domnina</persName> and <persName ref="http://syriaca.org/person/2708">Prosdocia</persName>
                and <persName ref="http://syriaca.org/person/2618">Berenice</persName>, who by reason of the urgent dangers to which they were exposed threw
-               themselves into the waves of the Euphrates.<note n="4">P. G. xlix. 579, 629.</note> <persName>Eusebius</persName> also in his Church History
-               recorded acts like these on the part of females.<note n="5">H. E. viii, 12.</note> <add><emph>And after other
-                  things.</emph></add> But you did well in sending <foreign>isa</foreign> or
+               themselves into the waves of the Euphrates.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> <persName>Eusebius</persName> also in his Church History
+               recorded acts like these on the part of females.<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> <add>
+              <emph>And after other
+                  things.</emph>
+            </add> But you did well in sending <foreign>isa</foreign> or
                copies of the synodical letter and of the other letter to those in <placeName>the East</placeName>, for
-               their comfort and establishment in the faith. <add><emph>And again after otherd
-                  things.</emph></add> But the fact that <pb n="415"/> you have continued to
+               their comfort and establishment in the faith. <add>
+              <emph>And again after otherd
+                  things.</emph>
+            </add> But the fact that <pb n="415"/> you have continued to
                reside at <placeName>Alexandria</placeName> we also regard as the effect of great prayer, although I am inn
                no small degree weary, since I write letters to everyone with my own hands, and fill
                the place of a notary, and I am moreover annoyed at the confusion of the letters,
                since my handwriting is ill-regulated, although the recipients of them are good
                believers. If you are obliged to come to us, seek the lord <persName ref="http://syriaca.org/person/2668">James</persName> the man of the
-               count's retinue (?),<note n="6">This perhaps represents κομιτιανός.; or we might render "of
-                  Beth Kumis ". </note> and he will appear before you more quickly than words can
+               count's retinue (?),<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> and he will appear before you more quickly than words can
                express, and with God's help you will be free from care in other things.
-               <add><emph>And again after other things.</emph></add> But as for those who,
+               <add>
+              <emph>And again after other things.</emph>
+            </add> But as for those who,
                after knowing of the death of the wicked <persName ref="http://syriaca.org/person/2654">Gaian</persName>, hold assemblies in which a dead
                service is performed in his name, and commit impieties like those of the heathen, who
                celebrate symbolic services in honour of dead men as of gods, it is quite clear that
@@ -163,7 +175,7 @@
                "Therefore the names indeed are of exalted nature and great like these, and names
                that have not indeed any excess of glory. But of what kind are the operations?
                Ineffable indeed on account of their greatness, but innumerable on account of their
-               abundance."<note n="7">De Sp. S. 48, 49 (P. G. xxxii. 156).</note> You notice, I think, how the doctor after saying "Therefore the names
+               abundance."<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> You notice, I think, how the doctor after saying "Therefore the names
                indeed are like these," again employed another conjunction "indeed", saying "names
                that have not indeed any excess of glory." But this clause is a parenthesis, and the
                sentence composed by him fits together as if it had never been inserted at all: as if
@@ -173,7 +185,18 @@
                lying at hand by me, I have quoted this to you from it. If it had not been so, as I
                said before, one may find similar constructions like showers of rain in every book. </ab>
             <trailer>Not the end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">όργανα.</note>
+        <note xml:id="n2" target="#a2" n="2">4 M. xii. 20.</note>
+        <note xml:id="n3" target="#a3" n="3">διάθεσις.</note>
+        <note xml:id="n4" target="#a4" n="4">P. G. xlix. 579, 629.</note>
+        <note xml:id="n5" target="#a5" n="5">H. E. viii, 12.</note>
+        <note xml:id="n6" target="#a6" n="6">This perhaps represents κομιτιανός.; or we might render "of
+                  Beth Kumis ". </note>
+        <note xml:id="n7" target="#a7" n="7">De Sp. S. 48, 49 (P. G. xxxii. 156).</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

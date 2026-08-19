@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,19 +73,21 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <persName ref="http://syriaca.org/person/"/>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -94,11 +98,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.11" n="1.11">
+        <div type="section" xml:id="section-1.11">
             <head type="main" resp="#compiler">Of the same to the archimandrite of the monastery of
                <placeName>Bassus</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 3rd book the
                345th letter.</head>
-            <ab> The letter of your love of God which has just been brought to me I have taken into
+            <ab xml:id="section-1.11.1" n="1"> The letter of your love of God which has just been brought to me I have taken into
                my hands, and received as yours. For I rejoice and exult when I read your name even
                on the mere outside address, and I am brought to a more lively memory of your holy
                monastery, and draw away my thoughts from the worry of affairs, and in this way am
@@ -152,7 +157,7 @@
                consideration consent to the request itself: and in this hope I went to visit the
                afore-mentioned man. However, knowing as I did his unyielding character, said to
                those who were with me: "Believe me when I say that I am going out against my will
-               and without any confidence."<note n="1"><foreign xml:lang="grc">πληροφορία</foreign>.</note> And, when I had gone, I made a prayer in the expectation
+               and without any confidence."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> And, when I had gone, I made a prayer in the expectation
                that he would repent: but to give him a greeting or to ask a greeting from him I
                would not consent, far be it! For with what reason could I have given a greeting of
                peace to a man who refused the mystical peace before the holy altars and communion
@@ -164,20 +169,20 @@
                on the point of giving up the ghost, I rose, and prayed to God in private to forgive
                me the inconsiderate visit. To a man who was so disposed I <pb n="51"/> ought not to
                have gone out at all. Even when he was dead and many thought I should go there, I did
-               not go; considering that "everything that is not of faith is sin,"<note n="2">Romans 14:23.</note> according to the
+               not go; considering that "everything that is not of faith is sin,"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> according to the
                words of the <rs ref="http://syriaca.org/person/2468">Apostle</rs>. For I for my part consider a man who separated himself without
                reason from our orthodox communion an enemy not a brother, even if he is deceived by
-               the devil, who "is transformed into an angel of light,"<note n="3">2 Corinthians 11:14.</note> by considerations that are
+               the devil, who "is transformed into an angel of light,"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> by considerations that are
                rather upon the right side. For hear the Lord say, "He that is not with me is against
-               me: and he that gathereth not with me scattereth."<note n="4">Matthew 12:30.</note> Indeed by the prayers of the
+               me: and he that gathereth not with me scattereth."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> Indeed by the prayers of the
                saints and of your holiness, when church histories and the labours of the holy
                fathers from the coming of the great God and our Saviour <persName>Jesus Christ</persName> down to this
-               time come before me, I find that this present condition<note n="5"><foreign xml:lang="grc">κατάστασις</foreign>.</note> of the holy churches in the
-               East and in <placeName>Egypt</placeName> is purer than the condition<note n="6"><foreign xml:lang="grc">καταστάσεις</foreign>.</note> in former times, when the facts are
+               time come before me, I find that this present condition<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of the holy churches in the
+               East and in <placeName>Egypt</placeName> is purer than the condition<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> in former times, when the facts are
                examined side by side. They therefore that trouble the simple "shall themselves bear
-               the judgment whosoever"<note n="7">Galatians 5:10.</note> they are, and shall themselves "give account in the day of
-               judgment,<note n="8">Matthew 12:36.</note> when "he shall come who knoweth the hidden things of darkness and revealeth
-               the counsels of the hearts."<note n="9">1 Corinthians 4:5.</note> As for me, may have no part with such men, either in
+               the judgment whosoever"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> they are, and shall themselves "give account in the day of
+               judgment,<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> when "he shall come who knoweth the hidden things of darkness and revealeth
+               the counsels of the hearts."<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> As for me, may have no part with such men, either in
                this world or in that which is to come! For, shunning as I do harshness of speech, do
                not wish to declare in detail what is the judgment <pb n="52"/> of those who turn
                aside. Wherefore also I am urgent in entreating every one of those who have been
@@ -186,6 +191,21 @@
                And so forth. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">πληροφορία</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Romans 14:23.</note>
+        <note xml:id="n3" target="#a3" n="3">2 Corinthians 11:14.</note>
+        <note xml:id="n4" target="#a4" n="4">Matthew 12:30.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">κατάστασις</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">καταστάσεις</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">Galatians 5:10.</note>
+        <note xml:id="n8" target="#a8" n="8">Matthew 12:36.</note>
+        <note xml:id="n9" target="#a9" n="9">1 Corinthians 4:5.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

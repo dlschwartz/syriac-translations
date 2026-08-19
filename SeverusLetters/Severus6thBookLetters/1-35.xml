@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,17 +98,18 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.35" n="1.35">
+        <div type="section" xml:id="section-1.35">
             <pb n="102"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2402">Eustace</persName> the presbyter.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 7th book the
                140th, and 142nd letter.</head>
-            <ab> When I had read the letter of your love of God, I was desirous of carrying out what
+            <ab xml:id="section-1.35.1" n="1"> When I had read the letter of your love of God, I was desirous of carrying out what
                you ask and begging <persName>Jesus</persName>, who is God, to bestow the ordination of a deacon upon the
                devout brother <persName ref="http://syriaca.org/person/2400">John</persName> through my sinful and unworthy hand. But I was greatly opposed in
                this and my readiness hindered by the strictness of the canons, which do not on any
                other condition allow a man who has been afflicted with the yoke of slavery to enter
                the sacred clergy unless he has received manumission and removed from him the bond of
-               slavery.<note n="1">Mansi i. 45.</note> This principle was in fact observed by <persName ref="http://syriaca.org/person/680">Peter</persName> who is among the saints, the
+               slavery.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> This principle was in fact observed by <persName ref="http://syriaca.org/person/680">Peter</persName> who is among the saints, the
                bishop from <placeName ref="http://syriaca.org/place/2674">Iberia</placeName>, a man who in all things acted in accordance with the judgments of
                God. When father <persName ref="http://syriaca.org/person/2401">Timothy</persName>, an inmate of what is called the convent of <placeName ref="http://syriaca.org/place/2653">Majuma</placeName>, had been
                approved for admission to the presbyterate, he would not on any other conditpion allow
@@ -120,6 +125,10 @@
                seeing he is a man who deserves any trouble or effort. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Mansi i. 45.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

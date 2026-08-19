@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,16 +99,17 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.52" n="1.52">
+        <div type="section" xml:id="section-1.52">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2427">John</persName> and <persName ref="http://syriaca.org/person/2428">John</persName> the presbyters and the
                rest.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 2nd book the 42nd
                letter.</head>
-            <ab> I sent an answer at once to the earlier letter which reached me from your sanctity:
+            <ab xml:id="section-1.52.1" n="1"> I sent an answer at once to the earlier letter which reached me from your sanctity:
                and, because no ship was at hand, the letter was delayed several days: but I expect
                that you have by this time received it. As to the epistle that has just been sent,
                about the slave who was sold by the Jews and the question regarding him, I have
                nothing to write. For a letter was written by me about a similar matter to a certain
-               <persName ref="http://syriaca.org/person/2439">Theodore</persName> the God-loving bishop of Olba (this is a city in <placeName ref="http://syriaca.org/place/2799">Isauria</placeName>),<note n="1">IX. 2.</note> and I have
+               <persName ref="http://syriaca.org/person/2439">Theodore</persName> the God-loving bishop of Olba (this is a city in <placeName ref="http://syriaca.org/place/2799">Isauria</placeName>),<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and I have
                thought well to give an <foreign>ison</foreign> or <pb n="149"/> copy of it at the
                end of this letter, so that from it you may know what our own conclusion was. As to
                clergymen who come from outside, who hold the correct faith but are not united in
@@ -129,12 +134,12 @@
                unaware of his treachery and falseness and the evil habits ingrained in him. The
                wretched man has even presumed to send some of the clergymen who have been corrupted
                by him here also to the <persName>saintly Isaurian bishops</persName> in banishment, as if summoning them
-               to him, and heaping vanities upon vanities, as is written,<note n="2">Ecclesiastes 1:3 (?).</note> and "beating the air" in
-               vain, as <persName>the Apostle</persName> says.<note n="3">1 Corinthians 9:26.</note> However these impious men do not cease from making
+               to him, and heaping vanities upon vanities, as is written,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and "beating the air" in
+               vain, as <persName>the Apostle</persName> says.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> However these impious men do not cease from making
                confusion, and from audaciously attempting to no purpose even things that are
                impossible, and from polluting the water for drinking with their feet, in order to
                give those who are not cautious turbid pollution to drink according to the prophetic
-               saying.<note n="4">Ezekiel 34:18,19.</note> <persName ref="http://syriaca.org/person/2441">Isidore</persName> the illustrious tribune has started in peace for <placeName ref="http://syriaca.org/place/1473">Pelusium</placeName>, after
+               saying.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> <persName ref="http://syriaca.org/person/2441">Isidore</persName> the illustrious tribune has started in peace for <placeName ref="http://syriaca.org/place/1473">Pelusium</placeName>, after
                promising the devout presbyter <persName ref="http://syriaca.org/person/2515">Thomas</persName> to do all things in accordance with God's
                pleasure. He had also after the conversation held here written to the devout
                presbyter <persName ref="http://syriaca.org/person/2431">Epimachus</persName> to tell his religiousness to go in the direction of <placeName ref="http://syriaca.org/place/1473">Pelusium</placeName>. In
@@ -148,6 +153,13 @@
                learned that he had been again seized with the same kind of infirmity. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">IX. 2.</note>
+        <note xml:id="n2" target="#a2" n="2">Ecclesiastes 1:3 (?).</note>
+        <note xml:id="n3" target="#a3" n="3">1 Corinthians 9:26.</note>
+        <note xml:id="n4" target="#a4" n="4">Ezekiel 34:18,19.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

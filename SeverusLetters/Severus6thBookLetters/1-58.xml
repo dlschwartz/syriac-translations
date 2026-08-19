@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,11 +98,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.58" n="1.58">
+        <div type="section" xml:id="section-1.58">
             <pb n="176"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2462">Didymus</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 3rd book the 90th
                letter.</head>
-            <ab> I have learned with accuracy the whole story of the devout deacon <persName ref="http://syriaca.org/person/3118">Sannus</persName>: and how
+            <ab xml:id="section-1.58.1" n="1"> I have learned with accuracy the whole story of the devout deacon <persName ref="http://syriaca.org/person/3118">Sannus</persName>: and how
                before coming to the see where your love of God is priest he lived an indiscriminate
                or disordered life, and how you brought him back to devout habits, and how you laid
                down an injunction for him to keep. Now after examining the whole matter I have found
@@ -113,20 +118,19 @@
                impossible for everything to be reformed at once. This is the practice of teachers
                also, gently to bear with pupils once and twice and many times, when they are at
                fault and do not repeat without mistake, until they attain to perfection. Physicians
-               also after the same fashion, when they warn patients to abstain from things <pb
-                  n="177"/> that are pleasant and harmful, are often defeated and grant them
+               also after the same fashion, when they warn patients to abstain from things <pb n="177"/> that are pleasant and harmful, are often defeated and grant them
                indulgences, allowing them to taste some of the things that they like: and they do
                not in every point insist upon strict observance of the irksome methods demanded by
                science, but they treat the patient in accordance with what is possible. This method
                of gradual treatment and cure was shown in a figurative manner by our Lord and God
                <persName>Jesus Christ</persName> also in the Gospels. When He might have healed, one of the blind men who
                were brought to Him by word only, as He did in the case of that leper, saying in a
-               manner befitting God, "I will be thou clean,"<note n="1">Matthew 8:3.</note> and immediately upon the word completed
+               manner befitting God, "I will be thou clean,"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and immediately upon the word completed
                the cure, He cured him with a certain delay and procrastination. For "He led him," he
                says, "out of the village. And, when He had spat on his eyes, He put His hands upon
                him and was asking him if he saw aught. And, his eyes having been opened, he said, 'I
                see the men walking like trees.' Then He put His hands again upon his eyes and his
-               sight was restored and his eyes were opened, and he saw everything clearly."<note n="2">Mark 8:23-25.</note>
+               sight was restored and his eyes were opened, and he saw everything clearly."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
                Therefore He that is our God and the instructor of our souls by working this cure
                with a certain wise delay instructs us that the bishops in His holy churches, who are
                His representatives, ought to make use of gradual modes of treatment in order to
@@ -136,6 +140,11 @@
                pattern. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Matthew 8:3.</note>
+        <note xml:id="n2" target="#a2" n="2">Mark 8:23-25.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

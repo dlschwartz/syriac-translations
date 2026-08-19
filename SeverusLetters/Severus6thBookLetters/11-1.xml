@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,23 +98,24 @@
   <text>
       <body>
          <div type="work" xml:id="work-11.1" n="11.1">
-            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2558">Misael</persName> the chamberlain.<note n="1">Cf Land, Anec. Syr. ii. 275. 12, 22, iii. 356. 11.</note></head>
+        <div type="section" xml:id="section-11.1">
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2558">Misael</persName> the chamberlain.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+          </head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 4th book the
                100th letter.</head>
-            <ab> How can I express my admiration of the labours of your magnificence which you
+            <ab xml:id="section-11.1.1" n="1"> How can I express my admiration of the labours of your magnificence which you
                display towards my meanness in the way that they deserve, seeing that I have one
                mouth and one tongue? Still however, since you do not care about praises upon earth,
                but make it your one and only endeavour that through good works your name may be
                written in the book of life, I pray as a sinner that this grace may be abundantly
                bestowed upon you by God the bestower of gifts that are so great. For by your
                faithful care you have delivered our church that was in a pitiful condition through
-               the hostile contrivances of the illustrious <persName ref="http://syriaca.org/person/2588">Ægilas</persName> from a heavy burden. <pb n="460"
-               /> But it wounds me deeply that, because your soul has been smitten with divine love,
+               the hostile contrivances of the illustrious <persName ref="http://syriaca.org/person/2588">Ægilas</persName> from a heavy burden. <pb n="460"/> But it wounds me deeply that, because your soul has been smitten with divine love,
                it should conceive the idea of adopting the philosophic and solitary life, though it
                is living in a philosophic manner and has within that which it seeks as if it were at
                a distance. By God's grace, while you conduct yourself in so chaste and ascetic a
                fashion, you have this privilege also that has been bestowed from above, I mean not
-               only to believe on <persName>Christ</persName>, but also to suffer for His sake,<note n="2">Philippians 1:29.</note> and endure distress with
+               only to believe on <persName>Christ</persName>, but also to suffer for His sake,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and endure distress with
                Israel when in turmoil; whence also the illustrious crown of martyrdom is being woven
                for you. By desiring retreat or solitariness at a time so unsuited for it you are
                doing the same as if one of those three boys, of one of whom you are namesake, when
@@ -122,18 +127,18 @@
                virtue, and gaining God as a witness to their modest and humble mind by saying, "Our
                God is in heaven whom we serve, one that is able to deliver us from the burning
                furnace of fire; and if not be it known unto thee, O king, that we do not serve thy
-               gods, and the golden image <pb n="461"/> which thou hast set up we do not worship";<note n="3">Daniel 3:17,18.</note>
+               gods, and the golden image <pb n="461"/> which thou hast set up we do not worship";<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>
                in order that these words might be an instruction and a pattern in piety to all in
                later times too who should love God. How then can you, when the king is pious, flee
                from the fight with the heretics, instigated as you are by a God-loving thought, and
                refusing to endure their blasphemies, and looking at this only, and reckoning our
                nakedness as nothing? If this is carried into effect, you will now double for me
-               personally the grief that I felt by reason of the departure of <persName>Peter</persName> the presbyter<note n="4">CJ. p. v, and Wright C.B.M. 335.</note>
+               personally the grief that I felt by reason of the departure of <persName>Peter</persName> the presbyter<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
                who is among the saints, and will throw me "fall after fall," as the great <persName>Job</persName>
-               somewhere says:<note n="5">Job 16:14.</note> and then I shall know clearly from facts themselves that God has
+               somewhere says:<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and then I shall know clearly from facts themselves that God has
                utterly abandoned us, and has turned away His face from those that praise Him in the
                right way: and we will say as is written "to the mountains, 'Fall upon us,' and to
-               the hills, 'Cover us.'"<note n="6">Hosea 10:8.</note> I forbear to say that neither will you obtain that desire,
+               the hills, 'Cover us.'"<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> I forbear to say that neither will you obtain that desire,
                seeing it will not be in accordance with God's judgment that you will be abandoning
                the life in the world. Further also a story like this has been conveyed to us by
                those who have grown old in asceticism. In the times of <persName>the Arians</persName>, two men who lived
@@ -158,15 +163,28 @@
                written as a mere admonition only so to speak, by which we urge you, inasmuch as you
                live not to yourself but to God, immediately to say what has been written and has
                been handed down by our Lord as a teacher, "Nevertheless not as I will but as thou
-               wilt."<note n="7">Mark 14:36.</note> <pb n="463"/> It is in truth a great sin for us to desert <persName>Christ</persName> when He needs
+               wilt."<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> <pb n="463"/> It is in truth a great sin for us to desert <persName>Christ</persName> when He needs
                help. Such a man acts in the same way as a man who is rich and quickly passes by one
                who is hungry, and one who is naked or sick, or shut up in prison; for the need of
                all these <persName>Christ</persName> makes His own. Wherefore also He bitterly inveighs against the crime
-               and holds it up to reprobation before the theatre<note n="8"><foreign xml:lang="grc">θέατρον</foreign>.</note> of the world or rather before all
+               and holds it up to reprobation before the theatre<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> of the world or rather before all
                rational nature, saying, "Inasmuch as ye did it not to one of these little ones,
-               neither did ye it to me."<note n="9">Matthew 25:45.</note> May we all escape having experience of these words! </ab>
+               neither did ye it to me."<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> May we all escape having experience of these words! </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Cf Land, Anec. Syr. ii. 275. 12, 22, iii. 356. 11.</note>
+        <note xml:id="n2" target="#a2" n="2">Philippians 1:29.</note>
+        <note xml:id="n3" target="#a3" n="3">Daniel 3:17,18.</note>
+        <note xml:id="n4" target="#a4" n="4">CJ. p. v, and Wright C.B.M. 335.</note>
+        <note xml:id="n5" target="#a5" n="5">Job 16:14.</note>
+        <note xml:id="n6" target="#a6" n="6">Hosea 10:8.</note>
+        <note xml:id="n7" target="#a7" n="7">Mark 14:36.</note>
+        <note xml:id="n8" target="#a8" n="8">
+          <foreign xml:lang="grc">θέατρον</foreign>.</note>
+        <note xml:id="n9" target="#a9" n="9">Matthew 25:45.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

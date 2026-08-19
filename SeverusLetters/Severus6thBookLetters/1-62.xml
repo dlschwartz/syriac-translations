@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -91,13 +95,13 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.62" n="1.62">
-            <ab>[...] And it seems to me that it was owing to this moderation of character and
+        <div type="section" xml:id="section-1.62">
+            <ab xml:id="section-1.62.1" n="1">[...] And it seems to me that it was owing to this moderation of character and
                humility of mind that the God-inspired scripture in Omissions named <persName>Moses</persName> "the man of
                God," the words of the context being as follows: "And <persName>Moses</persName>, the man of God. And his
-               sons were called to the observance<note n="1"> The translator therefore read 
-                  <foreign xml:lang="grc">φυλακήν</foreign> for <foreign xml:lang="grc">φυλήν</foreign>.</note> 
-               of <persName>Levi</persName>."<note n="2">1 Chronicles 23:14.</note> 
-               As to your<note n="3">Fern. pl.; so throughout.</note> saying, "We were afraid on
+               sons were called to the observance<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> 
+               of <persName>Levi</persName>."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> 
+               As to your<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> saying, "We were afraid on
                account of the present <pb n="194"/> time of confusion and persecution, lest we and
                the places in which we live should lack bishops to ordain," as far as the ordination
                of a presbyter or of a male deacon, by whom the bloodless sacrifice is of necessity
@@ -109,14 +113,23 @@
                compelled to repeat owing to my wish and prayer that in accordance with your high and
                praiseworthy character you may do everything in a lawful manner and, as it is written
                in Proverbs and in <persName>the Apostle</persName>, "provide things honest not only before the Lord but
-               also before men,"<note n="4">Proverbs 3:4; 2 Corinthians 8:21.</note> so that, in accordance with the testimony of our God and Saviour
+               also before men,"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> so that, in accordance with the testimony of our God and Saviour
                Jesus, "your light may shine before men" and "they may glorify your Father in
-               heaven,"<note n="5">Matthew 5:16.</note> and we ourselves may justly boast of you. And, now that these words have
+               heaven,"<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and we ourselves may justly boast of you. And, now that these words have
                been thus spoken, we pray that God may grant a good ending to the things which have
                once in whatever way been done by you, and may cover them with the abundance of His
                graciousness. </ab>
             <trailer>Not the end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"> The translator therefore read 
+                  <foreign xml:lang="grc">φυλακήν</foreign> for <foreign xml:lang="grc">φυλήν</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">1 Chronicles 23:14.</note>
+        <note xml:id="n3" target="#a3" n="3">Fern. pl.; so throughout.</note>
+        <note xml:id="n4" target="#a4" n="4">Proverbs 3:4; 2 Corinthians 8:21.</note>
+        <note xml:id="n5" target="#a5" n="5">Matthew 5:16.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

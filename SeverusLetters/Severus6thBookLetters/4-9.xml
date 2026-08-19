@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,19 +98,22 @@
   <text>
       <body>
          <div type="work" xml:id="work-4.9" n="4.9">
+        <div type="section" xml:id="section-4.9">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2480">Andrew</persName> the reader and notary.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 9th book the 62nd
                letter.</head>
-            <ab> By a wonderful chance, such as no one expects before it happens, the letter of your
+            <ab xml:id="section-4.9.1" n="1"> By a wonderful chance, such as no one expects before it happens, the letter of your
                devoutness was delivered to me on the fourth day of the present month of September,
                on which is celebrated the memory of the thrice-blessed <persName ref="http://syriaca.org/person/2432">Dioscorus</persName>, the archbishop and
                holy martyr, who is now counted among the heretics in <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName> and anathematized by
                the impious. With this letter was also joined a letter of <persName ref="http://syriaca.org/person/3126">the holy virgins</persName> who were
                expelled from <placeName ref="http://syriaca.org/place/10">Antioch</placeName>: which in us <pb n="271"/> excited many sighs and tears, but
                for them has prepared right glorious heavenly blessings, such as are described in the
-               book of life. <add><emph>And after other things.</emph></add> But you have rightly
+               book of life. <add>
+              <emph>And after other things.</emph>
+            </add> But you have rightly
                determined that the Christ-loving <persName ref="http://syriaca.org/person/3127">freewomen</persName> shall in no way be afraid to visit their
-               <foreign>anepsios</foreign> or cousin,"<note n="1">Syr. "uncle's son."</note> who is laid in <placeName ref="http://syriaca.org/place/3050">the martyr's chapel</placeName> of the
+               <foreign>anepsios</foreign> or cousin,"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> who is laid in <placeName ref="http://syriaca.org/place/3050">the martyr's chapel</placeName> of the
                holy <persName ref="http://syriaca.org/person/2735">Peter</persName> the archbishop and martyr. Where the bones of holy martyrs have previously
                been laid, it is right to pray without hesitation: especially when the place is in
                silence, and the heretics are not unlawfully conducting services or singing inside.
@@ -130,7 +137,11 @@
                in them lies, they have given strength to the noose of error to destroy the souls of
                many. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Syr. "uncle's son."</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

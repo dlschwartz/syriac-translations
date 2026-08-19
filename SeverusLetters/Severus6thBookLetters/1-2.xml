@@ -57,8 +57,7 @@
                   </editor>
                   <title type="main" xml:lang="en" level="m"> The Sixth Book of the Select Letters
                      of <persName ref="http://syriaca.org/person/51">Severus Patriarch of
-                        Antioch</persName> in the Syriac Version of <persName
-                        ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
+                        Antioch</persName> in the Syriac Version of <persName ref="http://syriaca.org/person/1014">Athanasius of Nisibis</persName>
                   </title>
                   <title type="sub" xml:lang="en" level="m">Vol. II (Translation) Part I</title>
                   <idno type="URI">http://syriaca.org/bibl/668</idno>
@@ -82,8 +81,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -101,13 +100,16 @@
    <text>
       <body>
          <div type="work" xml:id="work-1.2" n="1.2">
+        <div type="section" xml:id="section-1.2">
             <pb n="12"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2417">Solon</persName>, bishop and metropolitan.</head>
             <head type="sub" resp="#compiler">From those before episcopacy, from the 4th book the
                105th, 106th letter.</head>
-            <ab> If anyone who knows how to discern spiritually the dispensations of the Lord, who
+            <ab xml:id="section-1.2.1" n="1"> If anyone who knows how to discern spiritually the dispensations of the Lord, who
                does all things with wisdom, will recall to mind your struggles on behalf of the
-               orthodox faith— <add><emph>And after other things.</emph></add> Henceforth clothe
+               orthodox faith— <add>
+              <emph>And after other things.</emph>
+            </add> Henceforth clothe
                yourself in the immaterial dress of the priesthood, and stand firm. Instead of the
                ephod take upon your shoulders the Lord's cross; and instead of the tunic woven of
                fine linen and blue stuff put on the many-coloured tunic of virtues; and strengthen
@@ -120,13 +122,13 @@
                fair-sounding bells. And you are girt with a girdle and a breastpiece, a solitary and
                unwedded walk in life. Wherefore also <persName>Christ</persName> shall lie upon your breast, the Word of
                God, who took flesh for us, who was typified beforehand by the robe and knowledge and
-               truth.<note n= "1">Exodus 28:4-35; Leviticus 8:7-9.</note> When therefore things are thus <pb n="13"/> with you, who will dare to find
+               truth.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> When therefore things are thus <pb n="13"/> with you, who will dare to find
                fault with the innovation in the matter of your institution, when so many bishops
                with one accord canonically performed the ordination? That a patriarch or a
                metropolitan or the synod of the province should according to custom ordain such and
                such a man is not a matter of the strictness of the canons, but rather of church
                discipline. But this discipline we see to have been often neglected in times of
-               persecution. Take the holy <persName ref="http://syriaca.org/person/376">Basil</persName>. Because the bishops of the province<note n="2"><foreign xml:lang="grc">έπαρχία</foreign>.</note> were adversely
+               persecution. Take the holy <persName ref="http://syriaca.org/person/376">Basil</persName>. Because the bishops of the province<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> were adversely
                disposed towards him, partly from envy, partly because they were attached to the
                madness of <persName ref="http://syriaca.org/person/2486">Arius</persName>, <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian says that he was ordained by bishops outside
                the boundaries, writing thus in the funeral discourse on him: [Here follows the
@@ -151,7 +153,7 @@
                love the supposition that there was against us: and to this extent we changed the
                order of things, that the gift should not follow the election, but the election the
                gift; and we made use of other men's hands in this matter, having been a little
-               anticipated by the Spirit."<note n="2'">Prayer of Mansasses 6:2.</note> From the citation it is possible to discern clearly that
+               anticipated by the Spirit."<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> From the citation it is possible to discern clearly that
                the innovation which was thought to have been introduced at that time was one similar
                to the present position, and that, while the election and the right of ordaining
                belonged to one set of men, others ordained, especially from his expression, "and we
@@ -164,7 +166,7 @@
                "and for this reason we made the loss our gain, silently removing by love the
                supposition that: there was against us; and to this extent we changed the order of
                things, that. the gift should not follow the election, but the election the gift." </ab>
-            <ab> If <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian, and that being orthodox, or rather a guide and teacher of
+            <ab xml:id="section-1.2.2" n="2"> If <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian, and that being orthodox, or rather a guide and teacher of
                orthodoxy, bore with and endured those who seceded from him out of superfluous zeal,
                and accepted the things done by them by way of innovation, let <persName ref="http://syriaca.org/person/2530">Flavian</persName>, who is
                infected with heresy, either change his evil belief under teaching, and rejoice with
@@ -191,6 +193,13 @@
                with understanding. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Exodus 28:4-35; Leviticus 8:7-9.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">έπαρχία</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">Prayer of Mansasses 6:2.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

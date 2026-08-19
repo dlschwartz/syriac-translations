@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,19 +73,21 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <persName ref="http://syriaca.org/person/"/>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -94,10 +98,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.28" n="1.28">
+        <div type="section" xml:id="section-1.28">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2574">Philoxenus</persName>, bishop of <placeName ref="http://syriaca.org/place/2661">Doliche</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 5th book the 66th
                letter.</head>
-            <ab> After your love of God had departed hence, and had left this great Christ-loving
+            <ab xml:id="section-1.28.1" n="1"> After your love of God had departed hence, and had left this great Christ-loving
                city, in the venerated days of the holy fast, many of the prominent men came up to my
                meanness, and presented to me a petition and a unanimous entreaty on behalf of the
                devout Romulus, asking that he might be allowed to conduct prayers without fear of
@@ -111,9 +116,14 @@
                so say, worrying me, and entreating me to assent to this easy and humane request. The
                position in which we stand I have described in writing to the saintly metropolitan
                the lord <persName ref="http://syriaca.org/person/2574">Philoxenus</persName>; and he will no doubt inform you of it, and will stir you up to
-               offer prayers concerning the general state of things.<note n="1"><foreign xml:lang="grc">κατάστασις</foreign>.</note> </ab>
+               offer prayers concerning the general state of things.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">κατάστασις</foreign>.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,19 +73,23 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"><!-- eb, not exactly sure who the receiver is--></persName>
+            <persName ref="http://syriaca.org/person/">
+            <!-- eb, not exactly sure who the receiver is-->
+          </persName>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -94,9 +100,10 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.54" n="1.54">
-            <ab> [...] in truth that the mouth should be silent which never grows weary and seems as
+        <div type="section" xml:id="section-1.54">
+            <ab xml:id="section-1.54.1" n="1"> [...] in truth that the mouth should be silent which never grows weary and seems as
                if it had been set apart for prayers, the mouth which in very deed says "I will bless
-               the Lord at all times,"<note n="1">Proverbs 38:1.</note> and at all times circulates His praises. You did well and
+               the Lord at all times,"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and at all times circulates His praises. You did well and
                conferred a great service upon us by relating in the course of your letter how you
                celebrated the memories of the holy fathers, and which of you have departed to God,
                one among whom is the religious presbyter <persName ref="http://syriaca.org/person/2453">Patrick</persName>. We are much profited <pb n="163"/>
@@ -110,15 +117,21 @@
                more earnest remembrance, and to ask that endurance may be granted them all by God.
                In trials which are so unendurable it is in fact impossible to be steadfast without
                help from that source. Wherefore <persName>Jeremiah</persName> also said to God over all, "Lord, the
-               endurance of <placeName>Israel</placeName>! Thou savest in the time of evils."<note n="2">Jeremaiah 14:8.</note> But I beg your holinesses to
+               endurance of <placeName>Israel</placeName>! Thou savest in the time of evils."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> But I beg your holinesses to
                grant a place among those who are remembered by you over the rational sacrifice and
                have already gone to God to <persName ref="http://syriaca.org/person/2454">Eustochius</persName> of God-loving memory, deacon of the holy
                church in <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName>, who has now put off his life in much zeal for the orthodox
-               faith, with all accuracy and in knowledge as <persName>the divine Apostle</persName> says,<note n="3">1 Corinthians 1:5; Philippians 1:9 (?).</note> so that he
+               faith, with all accuracy and in knowledge as <persName>the divine Apostle</persName> says,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> so that he
                often longed for the bodily sight of your love of God also. Of him the religious
                presbyter <persName ref="http://syriaca.org/person/2437">Philip</persName> also made trial to a moderate extent. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Proverbs 38:1.</note>
+        <note xml:id="n2" target="#a2" n="2">Jeremaiah 14:8.</note>
+        <note xml:id="n3" target="#a3" n="3">1 Corinthians 1:5; Philippians 1:9 (?).</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

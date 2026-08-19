@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -97,15 +101,17 @@
   <text>
       <body>
          <div type="work" xml:id="work-5.14" n="5.14">
+        <div type="section" xml:id="section-5.14">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/50">John</persName> and <persName ref="http://syriaca.org/person/2574">Philoxenus</persName> and <persName ref="http://syriaca.org/person/2771">Thomas</persName> the
                bishops, confessors on the hill of <placeName ref="http://syriaca.org/place/762">Marde</placeName>.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 4th book the 21st
                letter.</head>
-            <ab> On reading your sanctities' letter I thought of <persName>Elijah</persName> the Tishbite prophet, who
+            <ab xml:id="section-5.14.1" n="1"> On reading your sanctities' letter I thought of <persName>Elijah</persName> the Tishbite prophet, who
                when persecuted by impiety betook himself to the hill of <placeName>Horeb</placeName>, and as a reward for
                his tribulation gained the privilege of seeing and conversing with God, so far as is
                possible <pb n="346"/> for men. When He that knows all things before they are as it
-               is written<note n="1">Ecclesiastes 23:20.</note><!-- eb, the footnotes say "Sir." which means Ecclesiastes istead of Ecclesiasticus. Do you want me to keep it as "Sir" or simply change it to Ecclesiastes.--> approached him like a father, and assumed the appearance of ignorance in
+               is written<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+            <!-- eb, the footnotes say "Sir." which means Ecclesiastes istead of Ecclesiasticus. Do you want me to keep it as "Sir" or simply change it to Ecclesiastes.--> approached him like a father, and assumed the appearance of ignorance in
                order to comfort him, like a father who comforts his beloved son by playing with him,
                and in order to lighten the weariness and distress that he had incurred from the long
                journey, and said to him, "What doest thou here, <persName>Elijah</persName>?", he stirred up the zeal
@@ -113,16 +119,16 @@
                knows all things and whom nothing escapes), "I have been zealous for the Lord the
                All-Ruler, because the sons of <placeName>Israel</placeName> have forsaken thee. Thine altars they have
                thrown down: and thy prophets they have slain with the sword. And I only am left: and
-               they seek my life to take it away."<note n="2">1 Kings 19:13,14.</note> And He put fresh heart in him by revealing
+               they seek my life to take it away."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> And He put fresh heart in him by revealing
                Himself to him in mightier fashion and initiating him in more perfect knowledge.
                Therefore I am convinced and assured that your love of God also, who have imitated
-               the same pattern of zeal, and walk in the footsteps of a like mode of life,<note n="3"><foreign xml:lang="grc">πολιτεία</foreign>.</note> who
+               the same pattern of zeal, and walk in the footsteps of a like mode of life,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> who
                engage as combatants not only in the contest of confession after the manner of
                martyrs, but also in the patient labours of the ascetic life, will also be gratified
                with the conversation and sight of God, and that you will render the hill called in
                the tongue of the country <placeName ref="http://syriaca.org/place/762">Marde</placeName> no meaner than the hill of <placeName>Horeb</placeName>, but even more
                glorious than that. For by drawing to you companies of holy monks, and <pb n="347"/>
-               of men who are living the coenobitic life<note n="4">The letter therefore seems to have been written after the expulsion of the monks (cf. p. 324 n. 1). The terminus ad quem is fixed by the date of v. 15: seep. 352 and p. 358 note.</note> while cleaving to orthodoxy, and by
+               of men who are living the coenobitic life<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> while cleaving to orthodoxy, and by
                recalling and healing like shepherds and fathers at the same time those who have
                transgressed or otherwise become remiss and been swept away to follow the violence of
                the time you have also appropriated to your hill the glory of another higher and
@@ -133,7 +139,7 @@
                day, as <persName>the Apostle</persName> says. Indeed I see many running and hastening to the summit of
                your hill also, even as to that hill, and saying the words of the prophecy that have
                been carried out in actual deeds, "Come let us go up to the hill of the Lord and to
-               the house of the God of <persName>Jacob</persName>, and He will show us His way and we will walk in it."<note n="5">Isaiah 2:3.</note>
+               the house of the God of <persName>Jacob</persName>, and He will show us His way and we will walk in it."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
                And I have confidence in saying that they will not be disappointed of their hope. For
                you teach those who stand to keep the orthodox faith, and to practise a devout and
                just life: while to those who have been led away to error you teach the way of
@@ -141,7 +147,7 @@
                humility in this point too, you ask <pb n="348"/> our meanness how those who have
                been baptized by this heresy that now prevails ought to be received. To this I made
                answer in writing at an earlier time also when I was living in the <placeName>city of the
-               Antiochenes</placeName>,<note n="6">v.6.</note> because certain persons in unthinking fervour had supposed that these
+               Antiochenes</placeName>,<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> because certain persons in unthinking fervour had supposed that these
                ought to be perfected by chrism, just as the custom is for Arians and Fighters
                against the Spirit to be received. I think that the religious presbyter and
                archimandrite <persName ref="http://syriaca.org/person/50">John</persName> also, who sent me your revered letter, has with him the treatise
@@ -149,23 +155,23 @@
                sanctities in a few words a thing of which you too are not unaware: that at the holy
                oecumenical synod that assembled at <placeName>Ephesus</placeName> and effected the deposition of <persName>Nestorius</persName>,
                who raised the heresy of this Diphysite man-worship to a higher position, when
-               <persName ref="http://syriaca.org/person/2626">Charisius</persName> a presbyter who came from the <placeName ref="http://syriaca.org/place/2811">province<note n="7"><foreign xml:lang="grc">έπαρχία</foreign>.</note> of the Lydians</placeName>, and registered his
+               <persName ref="http://syriaca.org/person/2626">Charisius</persName> a presbyter who came from the <placeName ref="http://syriaca.org/place/2811">province<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> of the Lydians</placeName>, and registered his
                fathers' house at <placeName ref="http://syriaca.org/place/1476">Philadelphia</placeName>, with many others who had been swept into the error of
                that heresy, presented petitions to it and exposed the creed previously concocted by
                the impious <persName>Theodore</persName> of <placeName>Mopsuestia</placeName>, it both received him and admitted him to
                clemency, not making any canonical pronouncement in their case about chrism or about
-               anything else of this kind:<note n="8">Mansi iv. 1344; cf.p.299.</note> but it lawfully decided that they were to renounce the
+               anything else of this kind:<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> but it lawfully decided that they were to renounce the
                heresy itself in writing and condemn it by anathema, and so be received and become
                members of <persName>Christ</persName>'s flock. <pb n="349"/> And all from that time to the present day
                have been received on these terms by the orthodox bishops who lived at different
-               times; who did not do anything further with regard to them, nor abrogate the covenant<note n="9"><foreign xml:lang="grc">διαθήκη</foreign>.</note>
+               times; who did not do anything further with regard to them, nor abrogate the covenant<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>
                confirmed by the fathers, or lay down any additional commandment beyond what were
-               laid down, as <persName>Paul</persName> somewhere says in writing to the <persName>Galatians</persName>.<note n="10">Galatians 1:8,9.</note> Whence also a certain
-               <persName ref="http://syriaca.org/person/2472">Theodotus</persName>, one of the bishops of <placeName ref="http://syriaca.org/place/2701">Palestine</placeName>,<note n="11">Cf.p.185.</note> because he presumed to anoint certain
+               laid down, as <persName>Paul</persName> somewhere says in writing to the <persName>Galatians</persName>.<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> Whence also a certain
+               <persName ref="http://syriaca.org/person/2472">Theodotus</persName>, one of the bishops of <placeName ref="http://syriaca.org/place/2701">Palestine</placeName>,<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> because he presumed to anoint certain
                persons, was repudiated and expelled, both by <persName>Timothy</persName> of holy memory, archbishop of
                the <placeName>city of the Alexandrines</placeName>, and by all who shared his opinions and were zealous
-               with zeal that is "according to knowledge"<note n="12">Romans 10:2.</note> and is pleasing to God. To remove in any
-               matter whatsoever the landmarks that our fathers set up is wholly unlawful,<note n="13">Proverbs 22:28.</note> even if a
+               with zeal that is "according to knowledge"<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> and is pleasing to God. To remove in any
+               matter whatsoever the landmarks that our fathers set up is wholly unlawful,<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> even if a
                man is deceived by considerations that seem to be rather on the right side. Upon this
                point these things are sufficient for your perfection in <persName>Christ</persName>. But I beg you also
                to extend your diligent watchfulness which becomes shepherds to the God-loving
@@ -177,18 +183,40 @@
                answer for his blasphemy and evil belief to the Judge of all, and shall then regret
                that he was not converted to a right state of mind by the warnings that he received,
                and this though he was admonished in a gentle and brotherly manner, as your
-               sanctities also who saw what was written will bear witness.<note n="14">Zach. Rh. ix. 9-13.</note> It has come to my
+               sanctities also who saw what was written will bear witness.<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> It has come to my
                knowledge that certain men who do not perform any service as is written except things
-               that are vain<note n="15">James 1:26.</note> have torn away an occasional line or two from what I wrote, and have
+               that are vain<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> have torn away an occasional line or two from what I wrote, and have
                tried to lead astray those that are easily cheated. And no wonder, when even about
                the wise <persName>Paul</persName>'s epistles <persName>Peter</persName> the divine, who was instigated by the same Spirit of
                concord and apostleship, wrote, "which the unlearned and unstable wrest to their
-               destruction, as they do also the other scriptures."<note n="16">2 Peter 3:16.</note> Therefore you will do an act
+               destruction, as they do also the other scriptures."<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> Therefore you will do an act
                worthy of you if you write a common letter to all who have been driven from the holy
                cloisters, condemning the unlawful statements, and warning them to adhere to the
                teachings of the holy fathers which our meanness has cited. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Ecclesiastes 23:20.</note>
+        <note xml:id="n2" target="#a2" n="2">1 Kings 19:13,14.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">πολιτεία</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">The letter therefore seems to have been written after the expulsion of the monks (cf. p. 324 n. 1). The terminus ad quem is fixed by the date of v. 15: seep. 352 and p. 358 note.</note>
+        <note xml:id="n5" target="#a5" n="5">Isaiah 2:3.</note>
+        <note xml:id="n6" target="#a6" n="6">v.6.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">έπαρχία</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">Mansi iv. 1344; cf.p.299.</note>
+        <note xml:id="n9" target="#a9" n="9">
+          <foreign xml:lang="grc">διαθήκη</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">Galatians 1:8,9.</note>
+        <note xml:id="n11" target="#a11" n="11">Cf.p.185.</note>
+        <note xml:id="n12" target="#a12" n="12">Romans 10:2.</note>
+        <note xml:id="n13" target="#a13" n="13">Proverbs 22:28.</note>
+        <note xml:id="n14" target="#a14" n="14">Zach. Rh. ix. 9-13.</note>
+        <note xml:id="n15" target="#a15" n="15">James 1:26.</note>
+        <note xml:id="n16" target="#a16" n="16">2 Peter 3:16.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

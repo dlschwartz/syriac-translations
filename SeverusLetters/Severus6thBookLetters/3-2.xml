@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,17 +99,19 @@
   <text>
       <body>
          <div type="work" xml:id="work-3.2" n="3.2">
+        <div type="section" xml:id="section-3.2">
             <pb n="233"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2593">Ammian</persName> and <persName ref="http://syriaca.org/person/2642">Epagathus</persName>.</head>
             <head type="sub" resp="#compiler">from those after banishment, from the 7th book the 29th
-               letter.</head><note n="1"> This was written two years before iii. 4 (p. 246), so that, if the
-                  inference as to the date of that letter (p. 244, note 3) is correct, this
-                  must be placed not earlier than 53 I.</note>
-            <ab> I am astonished at the extent of your admirable goodness, that after such expenses
+               letter.</head>
+          <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+            <ab xml:id="section-3.2.1" n="1"> I am astonished at the extent of your admirable goodness, that after such expenses
                on my behalf, who am not worthy of anything of the kind, expenses which you have
                incurred from love of God, you have considered it right to bestow these things upon
                me even when I am at a distance in greater abundance and with greater generosity.
-               <add><emph>And after other things.</emph></add> But I rejoiced greatly, and
+               <add>
+              <emph>And after other things.</emph>
+            </add> But I rejoiced greatly, and
                offered prayers of thanksgiving to <persName>Christ</persName> who is God and the giver of all good, who
                has willed that a male child should be born to you the Christ-loving <persName ref="http://syriaca.org/person/2593">Ammian</persName> beyond
                all human hope. Since you have submitted the choice of his name to my judgment, out
@@ -114,8 +120,7 @@
                fitting thing that he should be named <persName ref="http://syriaca.org/person/2683">John</persName>: since <rs>the holy Baptist and Forerunner</rs>
                also was born to his parents beyond hope and expectation; and I believe that through
                his intercession he will live and reach the due length of life and advanced old age.
-               Indeed on the very day on which I received your welcome letter that notified <pb
-                  n="234"/> his birth to me I placed it on the holy mysteries: and, when I was about
+               Indeed on the very day on which I received your welcome letter that notified <pb n="234"/> his birth to me I placed it on the holy mysteries: and, when I was about
                to communicate after my custom in the divine communion (for it was a day of
                assembly), after the other lessons and the sacred song of Alleluia, I began to read
                the revered gospel: and I found the appointed lesson to be the story of <rs>the holy
@@ -145,7 +150,7 @@
                do not inflict any injurious stain on those who partake, nor does the uncleanness and
                loose character of those who administer the divine grace cause any detriment to those
                who are fed, provided of course that their faith is orthodox and sound (you are not
-               unaware that the law inserts the raven among the unclean kinds of birds).<note n="2">Leviticus 11:14.</note> <persName ref="http://syriaca.org/person/511">Gregory</persName> the
+               unaware that the law inserts the raven among the unclean kinds of birds).<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> <persName ref="http://syriaca.org/person/511">Gregory</persName> the
                Theologian also, who was bishop of <persName>Nazianzus</persName> and teacher of all that is under heaven,
                in the discourse on holy baptism teaches that there is no difference whatever between
                the divine laver of regeneration performed by a priest of lax character and that
@@ -160,15 +165,26 @@
                worthlessness of lead by reason of the remissness of his life, so long as they
                possess the one seal of the orthodox faith alike in all points, and in no way
                adulterated by heretical doctrine, both perform one baptism and one oblation, of the
-               same power and glory, and nothing inferior in any point whatever.<note n="3">Oratio Manassæ regis 40:26.</note> Therefore your
-               intelligences in the Lord must with all assurance<note n="4"><foreign xml:lang="grc">πληροφορία</foreign>.</note> approach the divine communion of
+               same power and glory, and nothing inferior in any point whatever.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> Therefore your
+               intelligences in the Lord must with all assurance<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> approach the divine communion of
                the saintly bishops who are living among you and of the God-loving presbyters who
                confess the same faith as we in all points and proclaim it with boldness, and do not
-               shrink from fear, nor craftily adulterate it, as <rs>the Apostle</rs> says:<note n="5">2 Corinthians 2:19.</note> for men such as
+               shrink from fear, nor craftily adulterate it, as <rs>the Apostle</rs> says:<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> for men such as
                these one ought to shun as manifest heretics. But, to speak with God's permission,
                you have plenty both of bishops and of presbyters that are genuine and have no
                adulteration about them. </ab>
             <trailer>Not the end.</trailer>
-         </div>      </body>
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"> This was written two years before iii. 4 (p. 246), so that, if the
+                  inference as to the date of that letter (p. 244, note 3) is correct, this
+                  must be placed not earlier than 53 I.</note>
+        <note xml:id="n2" target="#a2" n="2">Leviticus 11:14.</note>
+        <note xml:id="n3" target="#a3" n="3">Oratio Manassæ regis 40:26.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">πληροφορία</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">2 Corinthians 2:19.</note>
+      </noteGrp>      </body>
   </text>
 </TEI>

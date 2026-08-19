@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,19 +74,23 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"><!-- eb, I'm not sure who th archimandrite is. --></persName>
+            <persName ref="http://syriaca.org/person/">
+            <!-- eb, I'm not sure who th archimandrite is. -->
+          </persName>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -95,10 +101,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.43" n="1.43">
+        <div type="section" xml:id="section-1.43">
             <head type="main" resp="#compiler">Of the same to the archimandrite of <placeName ref="http://syriaca.org/place/635">the monastery of the holy lord Simeon</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 8th book the
                134th letter.</head>
-            <ab> Whereas <persName ref="http://syriaca.org/person/2418">Nonnus</persName> even before entering the holy <persName>Simeon</persName>'s flock was often summoned to
+            <ab xml:id="section-1.43.1" n="1"> Whereas <persName ref="http://syriaca.org/person/2418">Nonnus</persName> even before entering the holy <persName>Simeon</persName>'s flock was often summoned to
                answer the charges and accusations that were being brought against him and did not
                obey, but, even when placed under an injunction by the God-loving
                <foreign>ekklesiekdikoi</foreign>, trampled upon this with similar impudence, like
@@ -107,7 +114,7 @@
                and darkness, thought that he had thus done enough <pb n="121"/> to give satisfaction
                (?), and at last after receiving an explicit letter through your religiousness
                continued in the same shameless state, I for my part endured, and was not roused to
-               just indignation: but after appointing him a limit<note n="1"><foreign xml:lang="grc">προθεσμία</foreign>.</note> of ten days I allowed him to have
+               just indignation: but after appointing him a limit<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> of ten days I allowed him to have
                this doubled. And he behaved exactly as one who had not been summoned, alleging only
                pretexts founded upon sins, and answered through your religiousness that he asked
                that clergymen should not be present at his trial, because they are clergymen who
@@ -117,7 +124,7 @@
                and those who have thus suffered by adultery and those who have suffered by murder
                ought not to be present at their trial. No wonder if, being guilty of such evil
                deeds, he belches forth such words. What will they say who 'hate judgment and pervert
-               all right things, and build <placeName>Zion</placeName> with blood and <placeName>Jerusalem</placeName> with iniquity,"<note n="2">Micah 3:9,10.</note> as one of
+               all right things, and build <placeName>Zion</placeName> with blood and <placeName>Jerusalem</placeName> with iniquity,"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> as one of
                the prophets somewhere said? For how can one help saying that the hands are full of
                blood which have sold the gifts of the Holy Spirit, which he had no right to give to
                some men, or to take away from those who possess them? For this is the wonderful
@@ -125,7 +132,7 @@
                mean in hypocrisy, while hearing at <pb n="122"/> every ordination the anathemas and
                terrific curses that I pronounced against such unlawful gains, and to stop his ears
                "like the deaf asp that stoppeth her ears, which will not hearken to the voice of the
-               charmer,"<note n="3">Psalms 58:5,6.</note> as the singing prophet says. However, that I may not by using many words
+               charmer,"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> as the singing prophet says. However, that I may not by using many words
                protract the letter unnecessarily, this is the second and third summons that I am
                addressing to him through your love of God, or, rather to speak more truly, a summons
                that has the force of the tenth and twentieth (for one may justly reckon them as
@@ -133,20 +140,35 @@
                time or other to induce him to make a defence, with the saintly bishops present
                according to the intention of the holy canons, and ready to conduct his trial, with
                the holy Gospels laid in the midst, and the terrific threat pronounced by them
-               hanging over those who turn aside justice."<note n="4">Luke 13:27(?).</note> But, if even after this letter he shall
+               hanging over those who turn aside justice."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> But, if even after this letter he shall
                dare to delay, then after this the same divine statutes of church discipline shall
-               pronounce judgment and the fitting verdict<note n="5"><foreign xml:lang="grc">άπόφασις</foreign>.</note> upon him. For we for our part in no way
+               pronounce judgment and the fitting verdict<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> upon him. For we for our part in no way
                wished the circumstances of his case to remain unknown to the glorious notables also
                in <placeName ref="http://syriaca.org/place/10">Antioch</placeName>' city: but we even brought these as far as was possible to their
                knowledge; and we would have urged them and some of the learned rhetors to be judges
-               of the cause,<note n="6"><foreign xml:lang="grc">ύπόθεσις</foreign>.</note> had it not been that we were hindered by reflecting upon the order of
+               of the cause,<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> had it not been that we were hindered by reflecting upon the order of
                the holy canons, which command that ecclesi<pb n="123"/>astical cases shall be tried
-               and decided by saintly bishops,<note n="6">Cj. Mansi vii. 361.</note> and subject to penalties those who pass over these
-               and turn to civil courts.<note n="7"><foreign xml:lang="grc">δικαστήρια</foreign>.</note> And it was for this same reason that we sent the religious
+               and decided by saintly bishops,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> and subject to penalties those who pass over these
+               and turn to civil courts.<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> And it was for this same reason that we sent the religious
                <persName ref="http://syriaca.org/person/2419">Eusebius</persName> the deacon also; for we cannot consent, after the lapse of so many days, to
                keep the saintly bishops here, when they ought to return to their own flock. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">προθεσμία</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Micah 3:9,10.</note>
+        <note xml:id="n3" target="#a3" n="3">Psalms 58:5,6.</note>
+        <note xml:id="n4" target="#a4" n="4">Luke 13:27(?).</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">άπόφασις</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">ύπόθεσις</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">Cj. Mansi vii. 361.</note>
+        <note xml:id="n8" target="#a8" n="8">
+          <foreign xml:lang="grc">δικαστήρια</foreign>.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

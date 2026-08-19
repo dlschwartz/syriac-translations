@@ -7,7 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title ref="http://syriaca.org/work/3053">To Theotecnus the
-               <foreign>Archiatros</foreign></title>
+               <foreign>Archiatros</foreign>
+        </title>
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
@@ -32,8 +33,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +75,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,23 +100,24 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.24" n="1.24">
+        <div type="section" xml:id="section-1.24">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2568">Theotecnus</persName> the
                <foreign>archiatros</foreign> or chief physician</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 4th book the
                293rd letter.</head>
-            <ab> The things that have been indicated or announced to us from the royal city are many
+            <ab xml:id="section-1.24.1" n="1"> The things that have been indicated or announced to us from the royal city are many
                and various. But the sum of them is this. The bishops who assembled there have
                separated without coming to an agreement, since the majority of them or, if one may
                so say, all except the Romans, were found to be orthodox, but were obliged to
-               associate themselves with the state of affairs<note n="1"><foreign xml:lang="grc">κατάστασις</foreign>.</note> prevailing in the royal city, the
+               associate themselves with the state of affairs<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> prevailing in the royal city, the
                saintly bishops <persName ref="http://syriaca.org/person/2567">Eleusinius</persName> and <persName ref="http://syriaca.org/person/2569">Proclus</persName> having for the time run away. Some said that
                the object of their endeavours was not to accept the impious. synod that assembled at
                <pb n="84"/> <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName> in respect of the definition of faith but "in respect of
-               the rejection of <persName ref="http://syriaca.org/person/482">Eutyches</persName> and of his doctrines."<note n="2">Cf. p. 5·</note> But that this endeavour or trick is
+               the rejection of <persName ref="http://syriaca.org/person/482">Eutyches</persName> and of his doctrines."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> But that this endeavour or trick is
                the action of heretics your Christ-loving eloquence also is not unaware. But there is
                yet another thing which it is right that you should know: that is that our pious king
                and the glorious <rs ref="http://syriaca.org/person/2564">Master of the Offices</rs> wrote to my meanness by <persName ref="http://syriaca.org/person/2565">Leontius</persName> the
-               illustrious magistrian<note n="3">CJ. p. 73.</note> who is called <persName ref="http://syriaca.org/person/2565">Tapitoleon</persName> to ask that the deprivation of those
+               illustrious magistrian<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> who is called <persName ref="http://syriaca.org/person/2565">Tapitoleon</persName> to ask that the deprivation of those
                <rs ref="http://syriaca.org/person/3071">no-bishops</rs> and wicked men in Second Syria might be annulled. And I wrote in answer to
                this, "Since this is your pleasure, if they lawfully repent, the intention of the
                canons receives them, provided all the bishops who deposed them assemble together and
@@ -130,6 +136,13 @@
                therefore a thing that contains in it comfort for soul and body. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">κατάστασις</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Cf. p. 5·</note>
+        <note xml:id="n3" target="#a3" n="3">CJ. p. 73.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

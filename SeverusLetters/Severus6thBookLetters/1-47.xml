@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,10 +98,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.47" n="1.47">
+        <div type="section" xml:id="section-1.47">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2425">Cassian</persName> bishop of <placeName ref="http://syriaca.org/place/2636">Bostra</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 8th book the
                288th letter.</head>
-            <ab> It is nothing surprising if the prelate of the city of the men of <placeName ref="http://syriaca.org/place/2801">Jerusalem</placeName>,<note n="1">CJ. p. 119.</note> being
+            <ab xml:id="section-1.47.1" n="1"> It is nothing surprising if the prelate of the city of the men of <placeName ref="http://syriaca.org/place/2801">Jerusalem</placeName>,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> being
                such in his character and in his faith as everyone knows him to be, but as I for my
                part loathe even to take upon my lips, has done this act also which you have
                mentioned in violation of the holy canons, I mean the act of raising to the bishopric
@@ -108,13 +113,20 @@
                to <persName ref="http://syriaca.org/person/2426">Agapius</persName> the devout bishop, we have this much to say, that, if the offences
                committed by him are of such a nature, this man must be corrected by canonical
                reproofs: with moderation however on account of the difficulty of the time, and
-               because the man has now "grown old in evil days," as the sacred scripture says,<note n="2">Su. 52.</note> and
+               because the man has now "grown old in evil days," as the sacred scripture says,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and
                has already come near to being reckoned with those that are in Hades. For "God is
-               faithful, who will not suffer"<note n="3">1 Corinthians 10:13.</note> those that are not rightly disposed towards Him to
+               faithful, who will not suffer"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> those that are not rightly disposed towards Him to
                outrage the sacred prelacy for a great length of time, so that through them His name
-               should be "blasphemed among the nations," as it is written.<note n="4">Romans 2:24.</note> </ab>
+               should be "blasphemed among the nations," as it is written.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">CJ. p. 119.</note>
+        <note xml:id="n2" target="#a2" n="2">Su. 52.</note>
+        <note xml:id="n3" target="#a3" n="3">1 Corinthians 10:13.</note>
+        <note xml:id="n4" target="#a4" n="4">Romans 2:24.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

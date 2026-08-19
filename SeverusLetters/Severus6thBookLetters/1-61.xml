@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,7 +98,8 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.61" n="1.61">
-            <ab>[...] a law-court, or to cry out or to annoy in return those who annoyed him, or to
+        <div type="section" xml:id="section-1.61">
+            <ab xml:id="section-1.61.1" n="1">[...] a law-court, or to cry out or to annoy in return those who annoyed him, or to
                insult in return those who insulted him, or to bring an action against them for the
                insult to him, similarly and much more is it unbecoming for him who has just received
                the high-priestly chrism upon the crown of his head, and from whom the sweet savour
@@ -103,24 +108,26 @@
                raiment, that he is without the garments that are suprasensual and shine more
                brightly than the brilliancy of the sun, and are as much better than those of men who
                have just been baptized as a high-priest is greater than one who is among the people,
-               and as a shepherd is higher than a sheep. <add><emph>And again after other
-                  things.</emph></add> But you say that the devout brother <persName ref="http://syriaca.org/person/2475">Joseph</persName> told you
+               and as a shepherd is higher than a sheep. <add>
+              <emph>And again after other
+                  things.</emph>
+            </add> But you say that the devout brother <persName ref="http://syriaca.org/person/2475">Joseph</persName> told you
                such-and-such a thing about the devout brother <persName ref="http://syriaca.org/person/2477">John</persName>, and the devout father <persName ref="http://syriaca.org/person/2476">Zacharias</persName>
-               such-and-such a thing about another topic.<note n="1"><foreign xml:lang="grc">κεφάλαιον</foreign>.</note> But know that in every matter it is not
+               such-and-such a thing about another topic.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> But know that in every matter it is not
                the word of one man that is needed, but that of two or three witnesses. For the
                sacred law says of everyone soever who is tried, whether he be good or whether he be
                evil, that "under two or under three witnesses he shall die that dieth: he shall not
-               die under one wit<pb n="192"/>ness:<note n="2">Deuteronomy 17:6.</note> and again, "One witness shall not continue to
+               die under one wit<pb n="192"/>ness:<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and again, "One witness shall not continue to
                testify against a man, [in all] iniquity and in all sin and in all sinfulness soever
                that he commit. At the mouth of two witnesses, and at the mouth of three witnesses
-               shall every word be established."<note n="3">Deuteronomy 9:15.</note> I have used these arguments not in order to show
+               shall every word be established."<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> I have used these arguments not in order to show
                that your religiousness is lying (I am convinced that you wrote as you heard): but in
                order to establish the fact that, according to church regulations and the precepts of
                the holy fathers, and the laws of the God-inspired scripture, I cannot upon this
                report pronounce a sentence of censure or of condemnation against anyone, while I am
                far away. Your love of God ought therefore to have devoted that evening to thoughts
                of patience: and on the next day taken with you in the morning the saintly bishops
-               the lord <persName ref="http://syriaca.org/person/2443">Constantine</persName> and the lord <persName ref="http://syriaca.org/person/2479"></persName>, as in fact you actually did, and [with] all
+               the lord <persName ref="http://syriaca.org/person/2443">Constantine</persName> and the lord <persName ref="http://syriaca.org/person/2479"/>, as in fact you actually did, and [with] all
                gentleness and humility, [and with] God....also present....at the discussion [first
                described] the circumstances of the annoyance that the deaconess and archimandritess
                <persName ref="http://syriaca.org/person/2478">Heracliana</persName> inflicted upon you, and the insults which, as you write, were levelled
@@ -136,10 +143,19 @@
                had been thus decided by discussion, and made known to my meanness, would without any
                hesitation have confirmed them, seeing that they would have been carried out in
                accordance with the custom of the holy churches, and in accordance with the rules of
-               the monastic life. <add><emph>And again after other things.</emph></add> But, since
+               the monastic life. <add>
+              <emph>And again after other things.</emph>
+            </add> But, since
                these things are thus recorded and supported by evidence, if anything displeasing to
                God be done in secret, know that it is not possible that until the end [...] </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">κεφάλαιον</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Deuteronomy 17:6.</note>
+        <note xml:id="n3" target="#a3" n="3">Deuteronomy 9:15.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,19 +73,22 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/2425">Cassian, Bishop of<placeName ref="http://syriaca.org/place/2636">Bostra</placeName></persName>
+            <persName ref="http://syriaca.org/person/2425">Cassian, Bishop of<placeName ref="http://syriaca.org/place/2636">Bostra</placeName>
+          </persName>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -94,30 +99,41 @@
   <text>
       <body>
          <div type="work" xml:id="work-8.2" n="8.2">
+        <div type="section" xml:id="section-8.2">
             <pb n="394"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2425">Cassian</persName> bishop of <placeName ref="http://syriaca.org/place/2636">Bostra</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 7th book the
                372nd letter.</head>
-            <ab> In this one letter I make answer to all those written at different times by your
-               sanctity. <add><emph>And after other things.</emph></add> As to the case of the man
+            <ab xml:id="section-8.2.1" n="1"> In this one letter I make answer to all those written at different times by your
+               sanctity. <add>
+              <emph>And after other things.</emph>
+            </add> As to the case of the man
                whose genital members have been cut off, you are not right in saying that the fact
-               that his name is not mentioned in the transactions against the impious <persName ref="http://syriaca.org/person/2690">Julian</persName><note n="1">Bp. of Bostra (Zach. vit. Sev. p. 30; Evagr. iii. 33).</note> is
+               that his name is not mentioned in the transactions against the impious <persName ref="http://syriaca.org/person/2690">Julian</persName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> is
                enough to secure acquittal in our eyes. In fact, if a time of inquiry come, we shall
-               certainly insist upon saying why such a count<note n="2">κεφάλαιον.</note> was drawn up. But this principle must
+               certainly insist upon saying why such a count<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> was drawn up. But this principle must
                be observed, that according to the provisions of the canon this shall be a great
                defence for him, that he in truth suffered this at the hands of physicians, by reason
                of some infirmity that had arisen in him, and he was not himself his own destroyer:
                for this is what falls under accusation and the canonical punishment. If therefore
                this appear to be so, out of benevolence place him among the clergy: you will not be
                in any way whatever relaxing the ordinances of the church. <persName ref="http://syriaca.org/person/2690">Julian</persName> of the hateful name
-               was deprived for other reasons greater than these: and this count<note n="3">Mansi ii. 668.</note> was added to those
+               was deprived for other reasons greater than these: and this count<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> was added to those
                by way of addition: and, even if it is not true, it cannot benefit him in any way.
                Since you <pb n="395"/> have written to us about the gentle <persName ref="http://syriaca.org/person/2638">Dorotheus</persName>, it seems you
                have forgotten the points on which he caused us just vexation, which I made known to
                your love of God in another letter: and for your perfect knowledge I have thought
-               good to insert a copy<note n="4">ίσον.</note> of that in this letter. </ab>
+               good to insert a copy<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> of that in this letter. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Bp. of Bostra (Zach. vit. Sev. p. 30; Evagr. iii. 33).</note>
+        <note xml:id="n2" target="#a2" n="2">κεφάλαιον.</note>
+        <note xml:id="n3" target="#a3" n="3">Mansi ii. 668.</note>
+        <note xml:id="n4" target="#a4" n="4">ίσον.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

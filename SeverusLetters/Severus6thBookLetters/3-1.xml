@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,12 +99,13 @@
   <text>
       <body>
          <div type="work" xml:id="work-3.1" n="3.1">
+        <div type="section" xml:id="section-3.1">
             <pb n="231"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2600">Anastasius</persName> the count, the son of
                <persName ref="http://syriaca.org/person/2749">Sergius</persName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 7th book the
                406th letter.</head>
-            <ab> See! overcome by the fervour and purity of your gracious father's faith we have sent
+            <ab xml:id="section-3.1.1" n="1"> See! overcome by the fervour and purity of your gracious father's faith we have sent
                you the communion or oblation, as seemed to you to be desirable: because, while one
                and the same faith prevails in the holy churches in the East and those in <placeName>Egypt</placeName>, one
                must reckon the communion also to be one and of the same value, since priests,
@@ -112,13 +117,17 @@
                orthodox faith, and consummate a baptism, it may be, or the bloodless sacrifice, it
                is impossible to discern in which case the consecration or consummation was performed
                by the man who is golden or pure in his character, and in which by the man who by
-               reason of the faultiness of his character resembles lead.<note n="1">Oratio Manassæ regis 40:26.</note> For the operation and grace
+               reason of the faultiness of his character resembles lead.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> For the operation and grace
                of the sound faith which consummated both of them is one: but let no one look at the
                greater and less arising from the character of those who officiated. However, as I
                said, having been overcome by the abundance of fervent love which you have towards
                <persName>Christ</persName>, we have done what was commanded by you. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Oratio Manassæ regis 40:26.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

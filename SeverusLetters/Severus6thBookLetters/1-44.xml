@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,10 +98,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.44" n="1.44">
+        <div type="section" xml:id="section-1.44">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2420">Eutychian</persName>, governor of <placeName ref="http://syriaca.org/place/2630">Apamea</placeName>.</head>
             <head type="sub" resp="#compiler">from those during episcopacy, from the 8th book the
                190th letter.</head>
-            <ab> When I compare the reports that have recently come to my hearing with the words
+            <ab xml:id="section-1.44.1" n="1"> When I compare the reports that have recently come to my hearing with the words
                spoken by your magnificence when I was leaving the royal city and had reached this
                <placeName>city of Antiochus</placeName>, I still even now consider these untrustworthy and shrink from
                setting them down in so many words in this letter. I learn that, when one of those
@@ -118,9 +123,9 @@
                opportunity of defence: but those also who communicate with him shall all be expelled
                from the church, and especially if they have presumed to communicate with the
                aforesaid persons after they have learned the verdict that has been put forth against
-               them."<note n="1">Mansi ii. 1309.</note> Do you think even after reading this law that it is about small or
+               them."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Do you think even after reading this law that it is about small or
                contemptible matters that we are speaking; or that we do so out of concern for your
-               soul and for your reputation?<note n="2"><foreign xml:lang="grc">ύπόληψις</foreign>.</note> You must therefore abandon this discreditable state of
+               soul and for your reputation?<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> You must therefore abandon this discreditable state of
                mind, if indeed it really is a state of mind at all, and reflect upon the purpose of
                God and of our pious king, and of the glorious notables who are earnest upholders of
                the orthodox faith, and not set yourself in hostility to the saintly <persName ref="http://syriaca.org/person/2514">Peter</persName> bishop of
@@ -128,6 +133,12 @@
                hostile and hateful to God, and to our triumphant, serene, Christ-loving king. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Mansi ii. 1309.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">ύπόληψις</foreign>.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

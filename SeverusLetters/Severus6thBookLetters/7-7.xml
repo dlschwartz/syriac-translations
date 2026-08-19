@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,42 +99,54 @@
   <text>
       <body>
          <div type="work" xml:id="work-7.7" n="7.7">
-            <head type="main" resp="#compiler">Of the same to the wife of <persName ref="http://syriaca.org/person/2622">Calliopius</persName> the patrician<note n="1">Cf Jo. Mai. p. 401, and Wright, C.B.M. 335.</note> on
+        <div type="section" xml:id="section-7.7">
+            <head type="main" resp="#compiler">Of the same to the wife of <persName ref="http://syriaca.org/person/2622">Calliopius</persName> the patrician<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> on
                a diptych.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 8th book the
                157th letter.</head>
-            <ab> Being engaged in hearing a certain cause, I had not time to attend to what was
+            <ab xml:id="section-7.7.1" n="1"> Being engaged in hearing a certain cause, I had not time to attend to what was
                written by your highness immediately. But, now that I have read it, I have this much
                to say: that concerning the confession of faith it is necessary for me to give you an
                admonition. For in such things as these it is not right to be negligent. For we hear
                <persName>the Apostle</persName> saying, "For necessity is laid upon me: and woe unto me if I preach not
-               the gospel."<note n="2">1 Corinthians 9:16.</note> Indeed, even when such a <pb n="383"/> thing is said in simplicity as
+               the gospel."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> Indeed, even when such a <pb n="383"/> thing is said in simplicity as
                you say, it is foreign and alien to the right confession, I mean that <persName>Christ</persName> should
                be reckoned as an addition to the Holy Trinity, or, vice versa, that we should place
-               Him before and in this way confess the Trinity. Having positive knowledge that you<note n="3">Masc. pl.</note>
+               Him before and in this way confess the Trinity. Having positive knowledge that you<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>
                are sound in the faith, and that you rejoice at such an admonition, I have written to
                you, and that with very just confidence. But, since the same apostle says in writing
-               in another place, "Let your speech be always seasoned with grace as with salt,"<note n="4">Colossians 4:6.</note> with
+               in another place, "Let your speech be always seasoned with grace as with salt,"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> with
                grace that does not fall outside the limits of devoutness I have added also the case
                of that woman: and that though it is certainly in no way alien to believing women to
                help one another, especially in such urgent matters. The practice of women teaching
                in public and giving expositions to men the wise <persName>Paul</persName> disallowed, saying, "I suffer
-               not a woman to teach, nor to usurp authority over a man: but let her be in silence."<note n="5">1 Timothy 2:12.</note>
+               not a woman to teach, nor to usurp authority over a man: but let her be in silence."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
                But that they should correct their sisters in their assemblies and conversations he
                properly permitted, especially those who are advanced in age, calling them "teachers
-               of good things,"<note n="6">Titus 2:3.</note> in order that they may give an example to the others also in
+               of good things,"<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> in order that they may give an example to the others also in
                everything. Also the women who were taught at that time by the Lord show that
                instruction in religion is not foreign even to the female sex. For this reason too he
                accepted <persName>Mary</persName> who was industrious in this matter, saying, "<persName>Mary</persName> hath chosen for
-               herself the good part, <pb n="384"/> which shall not be taken from her."<note n="7">Luke 10:42.</note> Accordingly
+               herself the good part, <pb n="384"/> which shall not be taken from her."<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> Accordingly
                both to learn and to teach such things, in a proper manner and according to the
                character of each person, belongs to every sex and is praiseworthy and blessed. I
                forbear to go on to refer to <persName>Paul</persName> who says in his epistle to the Philippians about
                certain women, "Which combated with me in the gospel with <persName>Clement</persName> and my other
-               helpers,"<note n="8">Philemon 4:3.</note> in order not to be thought to be prolonging the argument, and doing
+               helpers,"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> in order not to be thought to be prolonging the argument, and doing
                detriment to the brevity of an admonitory letter. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Cf Jo. Mai. p. 401, and Wright, C.B.M. 335.</note>
+        <note xml:id="n2" target="#a2" n="2">1 Corinthians 9:16.</note>
+        <note xml:id="n3" target="#a3" n="3">Masc. pl.</note>
+        <note xml:id="n4" target="#a4" n="4">Colossians 4:6.</note>
+        <note xml:id="n5" target="#a5" n="5">1 Timothy 2:12.</note>
+        <note xml:id="n6" target="#a6" n="6">Titus 2:3.</note>
+        <note xml:id="n7" target="#a7" n="7">Luke 10:42.</note>
+        <note xml:id="n8" target="#a8" n="8">Philemon 4:3.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

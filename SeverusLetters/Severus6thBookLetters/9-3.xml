@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,10 +98,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-9.3" n="9.3">
+        <div type="section" xml:id="section-9.3">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2764">Thecla</persName> the countess.</head>
             <head type="sub" resp="#compiler">From those after banishment, from the 3rd book the 53rd
                letter.</head>
-            <ab> The letter of reminder that was given by your magnificence to the learned and
+            <ab xml:id="section-9.3.1" n="1"> The letter of reminder that was given by your magnificence to the learned and
                believing grammarian Stephen <pb n="424"/> showed me by the reading of it that still
                even now you remain that <persName ref="http://syriaca.org/person/2764">Thecla</persName> whom <persName ref="http://syriaca.org/person/2568">Theotecnus</persName> the presbyter, who is in all things
                steadfast and religious, would depict to me in words of piety, tracing the likeness
@@ -109,7 +114,7 @@
                had not confidence enough to presume to things to which it is not proper to presume
                before being confirmed by a lawful utterance of high-priests. And now you are blessed
                on account of your praiseworthy fear, by the text of the sacred writings that says,
-               "Blessed is he that feareth everything through devoutness."<note n="1">Proverbs 28:14.</note> Further praise I assign
+               "Blessed is he that feareth everything through devoutness."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Further praise I assign
                to you from the divine law also which ordered a man in disputed causes, and that
                while the service consisting in shadowy things and types yet prevailed, to repair to
                the place where the Levites and priests dwelt, and the judge who had the headship
@@ -126,7 +131,7 @@
                there: and thou shalt observe well to do according to all things that shall be
                ordained for thee. According to the law and according to the judgment which they
                shall pronounce to thee do: thou shalt not decline from the sentence which they shall
-               pronounce to thee, neither to the right hand, nor to the left."<note n="2">Deuteronomy 17:8-11.</note> The intention of
+               pronounce to thee, neither to the right hand, nor to the left."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> The intention of
                these expressions of the law you have fulfilled in actual deed, both by feeling
                intelligent doubt, and by referring the question as to the doubt to the pronouncement
                of the high-priests, in that you have stated that a certain baby, having been seized
@@ -134,33 +139,44 @@
                a prayer house building to receive the laver of regeneration, and the communion of
                the divine light; and, it so happening that the presbyter of that place was not
                there, you say that the deacon by reason of the urgency of the case dipped the boy in
-               the water of life, and performed the legal ceremony; and after the action <pb n="426"
-               /> the presbyter came and complained of what had been done as unlawful, and sought to
+               the water of life, and performed the legal ceremony; and after the action <pb n="426"/> the presbyter came and complained of what had been done as unlawful, and sought to
                subject the deacon to punishment. For it was doubted among you whether the boy who
                was baptized received the perfect grace. You must know that in matters that are
                doubtful and rarely occur one cannot find broad statutes: since those who made the
                statutes took care to avoid giving occasion through absence of restraint for the
-               rules of strictness to be corrupted. Therefore concerning this problem<note n="3">πρότασις.</note> also and
-               concerning its rareness it is written in the Constitutions<note n="4">διατάξεις.</note> or in the Commands of the
-               Apostles, which they named the Testament<note n="5">διαθήκη.</note> of the Lord, that a deacon also may
+               rules of strictness to be corrupted. Therefore concerning this problem<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> also and
+               concerning its rareness it is written in the Constitutions<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> or in the Commands of the
+               Apostles, which they named the Testament<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of the Lord, that a deacon also may
                administer the laver of regeneration when a presbyter is not present, by reason of
                the imminence of the necessary end of death: this same rare observance being
                proclaimed in these words: "In case of necessity, if a presbyter is not present, let
-               a deacon baptize".<note n="6">Test. Dom. ii. 10.</note> Therefore the presbyter did well in paying attention to what was
+               a deacon baptize".<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> Therefore the presbyter did well in paying attention to what was
                done by the deacon out of necessity, and performing the ceremonies that follow
                baptism, and laying upon the boy who had been baptized the anointing with the holy
-               chrism,<note n="7">μύρον.</note> and the seal of the perfection that results from this. As to the other
+               chrism,<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> and the seal of the perfection that results from this. As to the other
                question about the other strange and unknown boy who could not repeat any mystic
                symbol, by which you might have been able to learn whether he is a believer or an
                unbeliever, as not having received <pb n="427"/> the laver of regeneration, a letter
                has been written by me to the God-loving bishop <persName ref="http://syriaca.org/person/2439">Theodore</persName> of a certain city in <placeName ref="http://syriaca.org/place/99">Isauria</placeName>
-               named <placeName ref="http://syriaca.org/place/2698">Olbe</placeName>,<note n="8">IX. 2</note> and I have determined to quote the same to you at the end of this letter,
+               named <placeName ref="http://syriaca.org/place/2698">Olbe</placeName>,<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> and I have determined to quote the same to you at the end of this letter,
                as being sufficient to provide you with a solution of the doubt. May you be preserved
                to us, noble God-loving woman, who show your strict practice regarding faith in God
                even by the questions which you ask in doubt! That strictness continue to keep till
-               your last breath: for "without faith it is impossible to please"<note n="9">Hebrews 11:6.</note> says <persName>the Apostle</persName>. </ab>
+               your last breath: for "without faith it is impossible to please"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> says <persName>the Apostle</persName>. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Proverbs 28:14.</note>
+        <note xml:id="n2" target="#a2" n="2">Deuteronomy 17:8-11.</note>
+        <note xml:id="n3" target="#a3" n="3">πρότασις.</note>
+        <note xml:id="n4" target="#a4" n="4">διατάξεις.</note>
+        <note xml:id="n5" target="#a5" n="5">διαθήκη.</note>
+        <note xml:id="n6" target="#a6" n="6">Test. Dom. ii. 10.</note>
+        <note xml:id="n7" target="#a7" n="7">μύρον.</note>
+        <note xml:id="n8" target="#a8" n="8">IX. 2</note>
+        <note xml:id="n9" target="#a9" n="9">Hebrews 11:6.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

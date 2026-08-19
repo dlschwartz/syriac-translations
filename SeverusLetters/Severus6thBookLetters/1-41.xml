@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,11 +98,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.41" n="1.41">
+        <div type="section" xml:id="section-1.41">
             <pb n="116"/>
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2417">Solon</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 7th book the
                51st, 42nd letter.</head>
-            <ab> It is written somewhere in the legal writings that the divine <persName>Moses</persName>, after
+            <ab xml:id="section-1.41.1" n="1"> It is written somewhere in the legal writings that the divine <persName>Moses</persName>, after
                appointing judges over <placeName>Israel</placeName>, allowed them to judge unimportant causes (I must quote
                the actual expression of the God-inspired utterances): but a hard matter they were to
                report to him, and from him to receive the solution that God "the knower of secrets"
@@ -150,6 +155,8 @@
                words and phrases. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp/>
       </body>
   </text>
 </TEI>

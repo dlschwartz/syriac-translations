@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,29 +98,30 @@
   <text>
       <body>
          <div type="work" xml:id="work-5.5" n="5.5">
+        <div type="section" xml:id="section-5.5">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2520">Dionysius</persName> bishop of Tarsus.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, the 6th book the 178th
                letter.</head>
-            <ab> Having by many circuitous and roundabout methods succeeded in mastering the various
-               aspects of the case<note n="1">ύπόθεσις.</note> of the devout monk and presbyter <persName ref="http://syriaca.org/person/2701">Mark</persName>, and having considered all
+            <ab xml:id="section-5.5.1" n="1"> Having by many circuitous and roundabout methods succeeded in mastering the various
+               aspects of the case<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> of the devout monk and presbyter <persName ref="http://syriaca.org/person/2701">Mark</persName>, and having considered all
                the circumstances that had come to my knowledge, and finding that he is repeatedly
                changing, I remembered Him who speaks through Jeremiah the prophet and says to Israel
                who had sinned, "Behold! I will enter into judgment with thee when thou sayest, 'I
                have not sinned'; because thou hast been very scornful so as to repeat thy ways"; and
                again, "if a man put away his wife, and she go from him and become another man's,
                shall she return to him again?"; and again, "Lift up thine eyes to uprightness and
-               see where thou hast not been defiled."<note n="2">Jer. ii. 35, 36. iii. 1, 2.</note> But the same may be seen holding forth the
+               see where thou hast not been defiled."<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> But the same may be seen holding forth the
                broad path of repentance and saying through Isaiah the gracious words, "I held forth
                my hands all the day unto a disobedient and gainsaying people, who walk in a way that
-               is not good but after their sins";<note n="3">Isaiah 65:2.</note> and the day is the whole of this life according to
+               is not good but after their sins";<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and the day is the whole of this life according to
                <persName>Paul the Apostle</persName> who says, "Exhort yourselves daily while it is called to-day, that
-               none of <pb n="291"/> you may be hardened by the deceitfulness of sin."<note n="4">Hebrews 3:13.</note> Therefore my
+               none of <pb n="291"/> you may be hardened by the deceitfulness of sin."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> Therefore my
                conclusion and judgment is that an opportunity for penitence be given to the said
                devout presbyter and monk <persName ref="http://syriaca.org/person/2701">Mark</persName>, in order that he may anathematize in writing the
                heresies in which he has shared, viz., that of those who divide our one Lord and God
                <persName>Jesus Christ</persName> into two natures after the union, and that also of the Massalians with
                the persons themselves and the doctrines, as we also here caused him to draw up a
-               form of satisfaction<note n="5">πληροφορία.</note> here in writing. For indeed we find certain men in the times of
+               form of satisfaction<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> here in writing. For indeed we find certain men in the times of
                the Arians who removed themselves from the communion of the holy fathers and fell
                away to the error of the heretics, and were again converted and were not repelled.
                However the devout <persName ref="http://syriaca.org/person/2701">Mark</persName> must henceforth be cautious and know clearly that it is not
@@ -127,26 +132,26 @@
                speaks thus; [ Here follows the citation given on p. 263]. And <persName ref="http://syriaca.org/person/376">Basil</persName>, who was moved
                by the same Spirit as these, and is an accurate teacher of the sacred laws, wrote in
                the letter to <persName ref="http://syriaca.org/person/2778">Urbicius</persName> the monk as follows; [Here follows the citation given on p.
-               259]. If the circumstances of the present case<note n="6">ύπόθεσις.</note> concerned <pb n="292"/> only the
+               259]. If the circumstances of the present case<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> concerned <pb n="292"/> only the
                person of the devout presbyter and monk <persName ref="http://syriaca.org/person/2701">Mark</persName>, I would perhaps have closed the letter
                with these texts. But, since it is a habitation of many brethren, and a headship of
                rational souls that have taken upon them the philosophic life, in singing of the
                comeliness of which and the pleasure that it gives to God and in chanting those
                harmonious spiritual songs the prophet <persName>David</persName> sang crying, "Behold! what is good and
                what beautiful except that brethren should dwell together, as Ointment upon the head
-               that runs down upon the beard, the beard of <persName>Aaron</persName>?",<note n="7">Psalms 131:1,2.</note> it is your sanctity's duty to
+               that runs down upon the beard, the beard of <persName>Aaron</persName>?",<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> it is your sanctity's duty to
                look at the number of the brethren dwelling in the monastery, and to comply with the
                opinion of those who are the majority, provided firstly that the often-mentioned
                devout <persName ref="http://syriaca.org/person/2701">Mark</persName> did not intrude himself by force and violence, and secondly that he is
                not by his association disturbing and dissolving the bond of unity, to speak in the
-               language of <persName>the Apostle</persName>,<note n="8">Ephesians 4:3(?).</note> and the concord of those who are living a life that has no
+               language of <persName>the Apostle</persName>,<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> and the concord of those who are living a life that has no
                association with the world's confusions, and is beautiful and lovely and resembles
                ointment. Repentance is not a thing of the same kind as the spiritual headship and
                superintendence of a monastery. Such men must be of approved character, and men who
                have walked in all virtue, according to the utterance of the Lord which says in the
                Gospels, "Who then is the faithful and wise bondman, whom his lord set over his house
                to give them the food in due season? blessed is the bondman <pb n="293"/> whom his
-               lord shall come and find so doing."<note n="9">Matthew 24:45,46.</note> I therefore upon the devout monk and presbyter
+               lord shall come and find so doing."<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> I therefore upon the devout monk and presbyter
                <persName ref="http://syriaca.org/person/2701">Mark</persName> showing penitence in canonical form and confessing his sin have opened to him
                the door of repentance. But it rests with you, as I said, to determine the question
                of the headship and superintendence of the monastery, according to the opinion of the
@@ -161,13 +166,26 @@
                loss in regard to the brothers themselves, give a proper decision upon the disputed
                questions with help and inspiration and grace from above, without which it is
                impossible for any right action to be done. As to the devout presbyter <persName ref="http://syriaca.org/person/2410">Julian</persName>, the
-               brother of the God-loving bishop <persName>Serenus</persName>,<note n="10">Cf p. r14.</note> I forbear to say anything, being convinced
+               brother of the God-loving bishop <persName>Serenus</persName>,<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> I forbear to say anything, being convinced
                that after such an experience he would never have dared to convey false <pb n="294"/>
                information to the pious ears of our serene Christ-loving king. If in addition to
                what has already been done he have presumed to do this also, he falls by divine and
                human laws, from which there is no possibility of escape. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">ύπόθεσις.</note>
+        <note xml:id="n2" target="#a2" n="2">Jer. ii. 35, 36. iii. 1, 2.</note>
+        <note xml:id="n3" target="#a3" n="3">Isaiah 65:2.</note>
+        <note xml:id="n4" target="#a4" n="4">Hebrews 3:13.</note>
+        <note xml:id="n5" target="#a5" n="5">πληροφορία.</note>
+        <note xml:id="n6" target="#a6" n="6">ύπόθεσις.</note>
+        <note xml:id="n7" target="#a7" n="7">Psalms 131:1,2.</note>
+        <note xml:id="n8" target="#a8" n="8">Ephesians 4:3(?).</note>
+        <note xml:id="n9" target="#a9" n="9">Matthew 24:45,46.</note>
+        <note xml:id="n10" target="#a10" n="10">Cf p. r14.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

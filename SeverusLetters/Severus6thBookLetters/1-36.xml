@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,22 +98,23 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.36" n="1.36">
+        <div type="section" xml:id="section-1.36">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2404">Eusebius</persName> the deacon at <placeName ref="http://syriaca.org/place/2630">Apamea</placeName>.</head>
             <head type="sub" resp="#compiler">from those during episcopacy, from the 7th book the
                218th letter.</head>
-            <ab> Those who bring you this letter came to us with the information that <persName ref="http://syriaca.org/person/2405">Libanius</persName> the
+            <ab xml:id="section-1.36.1" n="1"> Those who bring you this letter came to us with the information that <persName ref="http://syriaca.org/person/2405">Libanius</persName> the
                devout presbyter, who is enrolled in the holy clergy at <placeName ref="http://syriaca.org/place/2630">Apamea</placeName>, wishes to exact
                interest from them as arising from a loan of his, contrary to the intention of the
                sacred canons. They say that they often entreated him to extend to them a hand of
-               sympathy, and to be content with the amount of the principal<note n="1"><foreign xml:lang="grc">κεφάλαιον</foreign>.</note> only, and they gained
+               sympathy, and to be content with the amount of the principal<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> only, and they gained
                nothing. Be so good therefore as to remind this man through the religious
                <foreign>oeconomi</foreign>, or stewards, and the devout archdeacon, or chief of
                the deacons, of the divine laws which say, "Thou shalt not exact interest from thy
-               brother,"<note n="2">Deuteronomy23:19(?); Exodus 22:25(?).</note> and "He giveth not his money upon <pb n="104"/> interest,"<note n="3">Psalms 14:5.</note> and "Interest
-               and guile departed not from her streets,"<note n="4">Psalms 54:12.</note> and things like these. Following in the
-               tracks of these texts, the God-clad instructors<note n="5">Marzane = <foreign xml:lang="grc">μϋσται</foreign>.</note> of the church also forbade interest
+               brother,"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and "He giveth not his money upon <pb n="104"/> interest,"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and "Interest
+               and guile departed not from her streets,"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and things like these. Following in the
+               tracks of these texts, the God-clad instructors<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of the church also forbade interest
                and usury to those who act as priests to God, fixing a fitting punishment and penalty
-               for such unjust acquisition.<note n="6">Mansi ii. 676.</note> Put him therefore, the aforesaid devout presbyter
+               for such unjust acquisition.<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> Put him therefore, the aforesaid devout presbyter
                <persName ref="http://syriaca.org/person/2405">Libanius</persName>, in memory of these things, and persuade him to do what beseems him and not
                to do despite either to his own spiritual office, or to God's laws. But let him yield
                to the kinship and consanguinity of nature, lest he call down upon himself the
@@ -117,6 +122,16 @@
                necessity but of his own will. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">κεφάλαιον</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Deuteronomy23:19(?); Exodus 22:25(?).</note>
+        <note xml:id="n3" target="#a3" n="3">Psalms 14:5.</note>
+        <note xml:id="n4" target="#a4" n="4">Psalms 54:12.</note>
+        <note xml:id="n5" target="#a5" n="5">Marzane = <foreign xml:lang="grc">μϋσται</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">Mansi ii. 676.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

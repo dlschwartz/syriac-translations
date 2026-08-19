@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,17 +98,19 @@
   <text>
       <body>
          <div type="work" xml:id="work-10.5" n="10.5">
+        <div type="section" xml:id="section-10.5">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2712">Theodore</persName> the Byzantine monk,
-               brother-in-law of prefects.<note n="1"><foreign xml:lang="grc">έπαρχοι</foreign>.</note></head>
+               brother-in-law of prefects.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+          </head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 4th book the 18th
                letter.</head>
-            <ab> It was perfectly obvious that your devoutness would fall into "a later mind" as is
-               written<note n="2">Proverbs 24:71.</note> after thus inconsiderately beginning the solitary life; and this after many
+            <ab xml:id="section-10.5.1" n="1"> It was perfectly obvious that your devoutness would fall into "a later mind" as is
+               written<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> after thus inconsiderately beginning the solitary life; and this after many
                arguments had often been discussed between you and <pb n="443"/> me, and scriptural
                principles and patristic admonitions; which the God-clad doctors of the holy church
                left to us, directing every man in every order and kind of life known to the gospel
                to the royal road, and handing down the advice that we should beware of turning aside
-               to the right or to the left, as the divine scripture says.<note n="3">Id. 4:27.</note> However, as you have in
+               to the right or to the left, as the divine scripture says.<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> However, as you have in
                fervour betaken yourself to such a garb and mode of life, you need another
                exposition. Before attaching yourself to <persName>Jesus</persName> and taking up the cross you were
                yourself free to consider what mode of life was best for you to choose. But, as. you
@@ -113,16 +119,16 @@
                accord with reasons of nature: but even this was thought a secondary matter after
                following <persName>Jesus</persName>. You should at the beginning have listened to Koheleth who says, "Let
                not thine heart be hasty to utter thy speech before God's face; since a dream cometh
-               through a multitude of trials."<note n="4">Ecclesiastes 5:1,2.</note> However, since as I said we have come to this, we
+               through a multitude of trials."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> However, since as I said we have come to this, we
                will now quote the admonition of the same Koheleth which says, "Better is it for thee
-               that thou shouldst not vow than vow and not pay."<note n="5">Id. 5:4.</note> This too is worthy of
+               that thou shouldst not vow than vow and not pay."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> This too is worthy of
                consideration: that, when <persName>Moses</persName> the great was prescribing the array of physical war
                (which however signified the nature of the spiritual array), he ordered the rulers
                of the sons <pb n="444"/> of <placeName>Israel</placeName> in time of battle to cry to those that were going
                out to combat and say, "Who is the man that hath built a new house and hath not
                dedicated it? let him go and return to his house, lest he die in the war and another
                man dedicate it. And who is the man that hath planted a vineyard? And who is the man
-               that hath betrothed a wife?",<note n="6">Deuteronomy 20:5-7.</note> and things like these. If a man then, when the law gave
+               that hath betrothed a wife?",<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> and things like these. If a man then, when the law gave
                him liberty to stay at home for one of these reasons, had in ready ardour taken up
                arms and hastened to join battle with the foemen, and accordingly stood even at the
                very pinnacle of danger: and afterwards had come to remember the passibility of the
@@ -131,16 +137,16 @@
                going out to the combat he had permission from the law to remain within the house?
                Certainly not. Accordingly you also, who have joined battle with invisible enemies,
                and stripped yourself not against blood and flesh, but against principalities and
-               powers and spirits of wickedness,"<note n="7">Ephesians 6:12.</note> must not trade upon laws which you rendered
+               powers and spirits of wickedness,"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> must not trade upon laws which you rendered
                superfluous by taking arms: but keep the same excellent mind in which you made light
                of children and of wife, and perform true service to the "Father of the orphans and
-               Judge of the widows,"<note n="8">Psalms 67:6.</note> and He will be more truly a husband to the wife, and a father
+               Judge of the widows,"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> and He will be more truly a husband to the wife, and a father
                to the children. We must also examine the character of <pb n="445"/> times and of
                persons, and so apply the divine commandments to deeds to be done, and choose those
                that are good instead of those that are bad. For this reason among animals also some
                are clean and allowed to be eaten and hallowed for sacrifice, those whose hoof is
                parted, and those that besides this chew their food also and masticate it, and chew
-               the cud as it is written.<note n="9">Leviticus 11:3.</note> Often, when a thing a short time before appeared to be
+               the cud as it is written.<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> Often, when a thing a short time before appeared to be
                lawful and a matter of duty, the interposition of some small circumstance has at once
                and immediately rendered it unlawful. For instance, after the twelve men whom <persName>Moses</persName>
                sent had explored the land of promise, together with <persName>Caleb</persName> and <persName>Joshua</persName> the son of Nun
@@ -148,7 +154,7 @@
                hung back and turned to contention and abuse, and after the transgression against
                God's commandment and the wrath threatened against them prayed the next day that they
                might go up, he who the day before had been urging them to go up prevented them from
-               doing so, saying, "Ye shall not prosper. Go not up, for the Lord is not with you;"<note n="10">Numbers 14:41,42.</note>
+               doing so, saying, "Ye shall not prosper. Go not up, for the Lord is not with you;"<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>
                and nevertheless they went up, and they roused God to double exasperation. You too
                therefore, who put on the angelic garb of the monastic life without restraining the
                fervour that led you to this by the strict letter of the canons, have other men also
@@ -162,19 +168,35 @@
                hallowed in some sort his own life, to turn back to the claims and judgments of the
                flesh. Say farewell therefore to the thoughts that call you to live in the world, and
                keep to the road that lies before you, until you reach, as it is written, "the goal
-               of victory of the upward calling of God, which is in <persName>Christ Jesus</persName> our Lord."<note n="11">Philippians 3:14.</note> There is
+               of victory of the upward calling of God, which is in <persName>Christ Jesus</persName> our Lord."<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> There is
                only one thing which I would have wished added to, the beginning that you have made;
                that you had joined yourself in everything, both in community of opinion concerning
                the faith and in community of habitation, to the holy fathers of the house of the
                saintly presbyter <persName ref="http://syriaca.org/person/2712">Theodore</persName>; which also you were in the beginning impelled to do and
                for which you were very eager; and I do not know how the hater of what is good
                hindered you. But it is easy for us not to be cheated by Satan to use the language of
-               the divine <persName>Apostle</persName>.<note n="12">2 Corinthians 2:11.</note> These things we have written while much harassed <pb n="447"/>
+               the divine <persName>Apostle</persName>.<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> These things we have written while much harassed <pb n="447"/>
                with many affairs and not able even to breathe, because we are inflamed with love
                towards you, and know that we owe even more to your excellent person. Never at any
                time shall we be forgetful of the good deeds that you have shown towards us. </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">έπαρχοι</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Proverbs 24:71.</note>
+        <note xml:id="n3" target="#a3" n="3">Id. 4:27.</note>
+        <note xml:id="n4" target="#a4" n="4">Ecclesiastes 5:1,2.</note>
+        <note xml:id="n5" target="#a5" n="5">Id. 5:4.</note>
+        <note xml:id="n6" target="#a6" n="6">Deuteronomy 20:5-7.</note>
+        <note xml:id="n7" target="#a7" n="7">Ephesians 6:12.</note>
+        <note xml:id="n8" target="#a8" n="8">Psalms 67:6.</note>
+        <note xml:id="n9" target="#a9" n="9">Leviticus 11:3.</note>
+        <note xml:id="n10" target="#a10" n="10">Numbers 14:41,42.</note>
+        <note xml:id="n11" target="#a11" n="11">Philippians 3:14.</note>
+        <note xml:id="n12" target="#a12" n="12">2 Corinthians 2:11.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,22 +98,24 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.30" n="1.30">
-            <head type="main" resp="#compiler"><rs ref="http://syriaca.org/person/3080">Of the same to the clergy</rs> of the metropolis of
+        <div type="section" xml:id="section-1.30">
+            <head type="main" resp="#compiler">
+            <rs ref="http://syriaca.org/person/3080">Of the same to the clergy</rs> of the metropolis of
                <placeName ref="http://syriaca.org/place/2630">Apamea</placeName>.</head>
             <head type="sub" resp="#compiler">from those during episcopacy, from the 5th book the
                135th letter.</head>
-            <ab> Your love of God, marked out as you are by the orders of the holy clergy of the
-               church, and addressing a <pb n="93"/> bishop, and upon a spiritual subject,<note n="1"><foreign xml:lang="grc">ύπόθεσις</foreign>.</note> ought not
-               to have cited the <rs ref="http://syriaca.org/person/3082">rhetor of Greece</rs> in the preludes<note n="2"><foreign xml:lang="grc">προοίμμια</foreign>.</note> or beginnings of your admirable
+            <ab xml:id="section-1.30.1" n="1"> Your love of God, marked out as you are by the orders of the holy clergy of the
+               church, and addressing a <pb n="93"/> bishop, and upon a spiritual subject,<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> ought not
+               to have cited the <rs ref="http://syriaca.org/person/3082">rhetor of Greece</rs> in the preludes<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> or beginnings of your admirable
                letter. In due time <persName>Elijah</persName> the Tishbite, urged by the same zeal, will now say to you
                also, "Is it because there is not a prophet in <placeName>Israel</placeName> that ye go to inquire of the
-               fly-Baal, the abomination of the gods of <placeName>Ekron</placeName>?"<note n="3">2 Kings 1:3.</note> Fitly also will the book of Proverbs
+               fly-Baal, the abomination of the gods of <placeName>Ekron</placeName>?"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> Fitly also will the book of Proverbs
                reprove you which says, "Drink waters out of thy vessels and out of the spring of thy
-               wells."<note n="4">Proverbs 5:15.</note> You did not make search in order to draw from the divine scripture a saying
+               wells."<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> You did not make search in order to draw from the divine scripture a saying
                that would prove the swiftness and weakness of human life. For the prophet David
-               says, "Our days pass away like a shadow."<note n="5">Psalms 143:4.</note> And the divine <persName>Job</persName>, while playing the
+               says, "Our days pass away like a shadow."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> And the divine <persName>Job</persName>, while playing the
                philosopher during the grievous trial caused by his suffering, said, "For we are of
-               yesterday, and we know not":<note n="6">Job 8:9.</note> and again, "My life was swifter than a runner."<note n="7">Id. ix. 25.</note> We are
+               yesterday, and we know not":<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> and again, "My life was swifter than a runner."<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> We are
                not unaware that the wise <persName>Paul</persName> also often quoted the words of poets in speaking to
                certain persons. But the character of the hearers, who had not been instructed out of
                the God-inspired words, in itself made the use of testimony from these seemly in his
@@ -125,12 +131,12 @@
                saving Passion and of the Resurrection of <persName>Christ</persName>. Make haste therefore and draw up
                quickly a <foreign>psephismata</foreign> in favour of three men of favourable repute
                and well known for virtue and, as it is written, "powerful men and religious, men
-               that are just and hate pride."<note n="8">Exodus 18:21.</note> But the powerful man is defined by the divine law as
+               that are just and hate pride."<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> But the powerful man is defined by the divine law as
                the man who through his life and conduct has power over the passions of the flesh,
                and possesses accurate and well-tried faith, which is greater than everything and is
                the foundation of our salvation. For the man who is to stand at the head of rational
                souls must have power in him, and is "able to comfort by sound teaching and to refute
-               the gainsayers,"<note n="9">Titus 1:9.</note> as the Apostle, who had <persName>Christ</persName> speaking in him, handed down to us.
+               the gainsayers,"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> as the Apostle, who had <persName>Christ</persName> speaking in him, handed down to us.
                This besides pleasing God will also gladden our pious king, seeing that he is much
                concerned for the apostolic faith, and has been brought up in such doctrines from his
                boyhood: who also in some sort did not praise our meanness for having delayed until
@@ -144,7 +150,7 @@
                things that are divine and not subjects for mockery. Let no one think that I shall
                acquiesce in a vote in favour of such men, no not if I be very mad. It does not suit
                me because of the inconsiderate action of certain persons to "partake in other men's
-               sins," as it is written,<note n="10">1 Timothy 5:22.</note> or for no purpose to be sent to the eternal fire. When
+               sins," as it is written,<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> or for no purpose to be sent to the eternal fire. When
                therefore you have duly drawn up a <foreign>psephisma</foreign> in accordance with
                our counsels, or rather according as the sacred ordinances and laws provide, let
                there come according to custom devout men, men modest in their conduct and earnest in
@@ -161,6 +167,21 @@
                for the whole of his administration in time past. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">ύπόθεσις</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">προοίμμια</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">2 Kings 1:3.</note>
+        <note xml:id="n4" target="#a4" n="4">Proverbs 5:15.</note>
+        <note xml:id="n5" target="#a5" n="5">Psalms 143:4.</note>
+        <note xml:id="n6" target="#a6" n="6">Job 8:9.</note>
+        <note xml:id="n7" target="#a7" n="7">Id. ix. 25.</note>
+        <note xml:id="n8" target="#a8" n="8">Exodus 18:21.</note>
+        <note xml:id="n9" target="#a9" n="9">Titus 1:9.</note>
+        <note xml:id="n10" target="#a10" n="10">1 Timothy 5:22.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -92,10 +96,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-10.6" n="10.6">
+        <div type="section" xml:id="section-10.6">
             <head type="main" resp="#compiler">Of the same to the inmates of <placeName ref="http://syriaca.org/place/2690">the monastery of the blessed Bassus</placeName>.</head>
             <head type="sub" resp="#compiler">from those during episcopacy: From the 7th book the
                354th letter.</head>
-            <ab> Some respectable men have come to us, asking me to write to your love of God, in
+            <ab xml:id="section-10.6.1" n="1"> Some respectable men have come to us, asking me to write to your love of God, in
                order that you may, dismiss the <persName ref="http://syriaca.org/person/3773">man</persName> who has renounced the world, who is from the
                village and has in unapproved fashion put on the garb of monasticism among you, so
                that he may continue to till the soil and not dishonour the holy profession of monks,
@@ -105,9 +110,13 @@
                certainly seem a crime to you also, and a thing contrary to the divine laws. Either
                therefore explain what the truth of the matter is, or, if the case is as we have been
                informed, send the man to live in the world. We must provide "things honest," as it
-               is written, "not only before God, but also before men."<note n="1">Id. 8:21.</note> </ab>
+               is written, "not only before God, but also before men."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Id. 8:21.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

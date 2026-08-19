@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,10 +98,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.45" n="1.45">
+        <div type="section" xml:id="section-1.45">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2421">Conon</persName> the brigand-chaser.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 8th book the
                237th letter.</head>
-            <ab> Concerning <rs ref="http://syriaca.org/person/3097">the unholy woman</rs> who in an unhallowed manner thrust herself into the
+            <ab xml:id="section-1.45.1" n="1"> Concerning <rs ref="http://syriaca.org/person/3097">the unholy woman</rs> who in an unhallowed manner thrust herself into the
                degree of the diaconate I both wrote to your magnificence before, and am now again
                writing, though I ascribe the whole affair to an evil demon and to my sins, not to
                you. However, since much contumely is being poured upon me, and for the sake of the
@@ -109,13 +114,17 @@
                a thing that has been once condoned by me: but you should have been glad and have
                known clearly that we for our part love you sincerely, and hold you in all veneration
                and respect. In another letter also I made known to your greatness that <rs ref="http://syriaca.org/person/3097">the glorious
-               patrician and lieutenant of the Master of the Soldiers</rs>?<note n="στρατηλάτης; cf. p. 60."></note> <pb n="126"/> in the East
+               patrician and lieutenant of the Master of the Soldiers</rs>?<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> <pb n="126"/> in the East
                excellent in all good qualities has composed a letter to you which has the force of a
                command, in which he gives you leave to support the orthodox and the interests of the
                church with ample freedom and liberty. To speak plainly, in order not to make a long
                story, you have abundant warrant for displaying your qualities against God's enemies. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"/>
+      </noteGrp>
       </body>
   </text>
 </TEI>

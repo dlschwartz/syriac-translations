@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,20 +98,21 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.4" n="1.4">
+        <div type="section" xml:id="section-1.4">
             <head type="main" resp="#compiler">Of the same to the same <persName ref="http://syriaca.org/person/2417">Solon</persName> the bishop.</head>
             <head type="sub" resp="#compiler">from those during episcopacy, from the 2nd book the
                42nd, 50th letter.</head>
-            <ab> That there are limits even to long-suffering the sacred scripture clearly teaches
+            <ab xml:id="section-1.4.1" n="1"> That there are limits even to long-suffering the sacred scripture clearly teaches
                us, in that it speaks thus in the person of God over all, "All the day I have spread
-               out my hands unto a gainsaying and disobedient people":<note n="1">Isaiah 65:2; Romans 10:21.</note> and again: "Thus saith the
+               out my hands unto a gainsaying and disobedient people":<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and again: "Thus saith the
                Lord, 'Have I become a wilderness to them of the house of Israel, or a desert land?
                Because my people said, "We will not be brought into subjection, and we will come no
-               more unto thee."'"<note n="2">Jeremiah 2:31.</note> What therefore is one to say about <persName ref="http://syriaca.org/person/2460">Musonius</persName>, who was known to us
+               more unto thee."'"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> What therefore is one to say about <persName ref="http://syriaca.org/person/2460">Musonius</persName>, who was known to us
                for impudence and rustic denseness, and for love of money which is greater than all
                evil things, which <persName ref="http://syriaca.org/person/2468">Paul</persName> who had <persName>Christ</persName> speaking in him said is "the root of all
-               evil?"<note n="3">1 Timothy 6:10.</note> Being excited by these same passions, he did not notice that he was blinded by
+               evil?"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> Being excited by these same passions, he did not notice that he was blinded by
                beams and searching for other men's motes through love of fault-finding and not in
-               order to guard the salvation of the brethren; insomuch as to upset the whole province<note n="4"><foreign xml:lang="grc">έπαρχία</foreign>.</note>
+               order to guard the salvation of the brethren; insomuch as to upset the whole province<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
                as far as his power extends, disturbing both bishops and laity, and on his own
                authority adding burdens to burdens, and <pb n="24"/> not allowing them to arrive at
                excellence by gradual advance, but by his arrogance to cause those who were standing
@@ -116,19 +121,19 @@
                and drank the water that, was fouled by your feet; and ye thrust them with your sides
                and with your shoulders, and ye pushed them with your horns; everyone that was sick
                ye oppressed, till ye had driven them out, and my sheep were scattered upon every
-               crossway";<note n="5">Ezekiel 34:19,21.</note> and again, "That which was weak ye did not strengthen, and that which was
+               crossway";<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and again, "That which was weak ye did not strengthen, and that which was
                sick ye did not heal, and that which was broken ye did not bind up, and that which
                was in evil plight ye did not comfort, and that which was wandering ye did not bring
                again, and that which was lost ye did not seek, and that which was sound ye subjected
-               by force."<note n="6">Ibid. 4.</note> Of all these things he has been guilty, and as far as in him lies he has
-               made havoc of the province.<note n="7"><foreign xml:lang="grc">έπαρκία</foreign>.</note> To the orthodox he is burdensome and hostile, and is
+               by force."<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> Of all these things he has been guilty, and as far as in him lies he has
+               made havoc of the province.<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> To the orthodox he is burdensome and hostile, and is
                always kicking his neighbours and pushing them with his horns and gnashing his teeth,
                like unbroken asses or bulls or wild boars which feed in bestial fashion; but against
                the adversaries he has never dared to speak so much as a word, but sits inside his
                house and lives in fear; for such is the boldness which in face of those against whom
                it is right to be bold shrinks and draws back, but in committing illegal <pb n="25"/>
                deeds is precipitous and easily moved to action, and turns everything upside down.
-               Finally, saying that he had become a man according to the saying of the prophet,<note n="8">Job 33:25 (?).</note>
+               Finally, saying that he had become a man according to the saying of the prophet,<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>
                because he loved strange men and went after them, he went away and found those who
                could satisfy his avarice and fill his hand. And he did not even think it wrong to
                exact interest: but, when the God-loving bishops were assembled here, he piteously
@@ -140,12 +145,12 @@
                entrusted to him; for this he used, so to speak, to bewail every day, going so far as
                to speak to one of our religious presbyters, whose name is <persName ref="http://syriaca.org/person/2510">Hesychius</persName>, in so many
                words thus, with the rusticity that is natural to him, "By God! what do you care, you
-               who receive the stipend<note n="9"><foreign xml:lang="grc">διάρια</foreign>.</note> of the clergy of <placeName ref="http://syriaca.org/place/2610">Antioch</placeName>, while I possess nothing in my city,
+               who receive the stipend<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> of the clergy of <placeName ref="http://syriaca.org/place/2610">Antioch</placeName>, while I possess nothing in my city,
                not so much as six denarii?" When I wrote to you before also, I quoted in the letter
                his abominable, unholy words, full of sacrilege, which he dared to write in an
                epistle to our religious presbyter <persName ref="http://syriaca.org/person/2511">Longinus</persName>; and they also are word for word as
-               follows:<note n="10">Cf p. 80.</note>—"But you remember that I said to you, <pb n="26"/> 'He ought to have sent
-               something to our church as treasures.<note n="11"><foreign xml:lang="grc">κειμήλια</foreign>.</note> By this means not only do the men themselves
+               follows:<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>—"But you remember that I said to you, <pb n="26"/> 'He ought to have sent
+               something to our church as treasures.<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> By this means not only do the men themselves
                become more enthusiastic, but the other cities also which are in error, as if they
                were jealous of us, would have come over and entered into accord with us. In this way
                Flavian also acted to the bishop of <placeName ref="http://syriaca.org/place/2671">Germanicupolis</placeName>, when he gave both robes and
@@ -157,7 +162,7 @@
                because the money-lover called moderate means poverty, and because, now that he has
                reached this incurable depth of wickedness, it is absolutely necessary to strip him
                of the priestly functions, and to subject him to the punishment prescribed by the
-               holy canons.<note n="12">Cj. i. 23.</note> For the seventeenth canon runs thus:—"Since many, while enrolled in the
+               holy canons.<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> For the seventeenth canon runs thus:—"Since many, while enrolled in the
                canon, by pursuing after covetousness and base gains have forgotten the divine text
                that says, 'He hath not put out his money upon interest,' and exact
                <foreign>hekatostai</foreign> or one per cent. when they lend, the holy synod has
@@ -165,25 +170,25 @@
                the matter by commerce or otherwise, and <pb n="27"/> exacting
                <foreign>hemioliai</foreign> or half the whole, or contriving anything else for
                the sake of filthy lucre, his deposition from the clergy shall follow, and that he
-               shall be an alien to the canon."<note n="13">Mansi ii. 676.</note> The hundred and seventh law also, laying down the
+               shall be an alien to the canon."<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> The hundred and seventh law also, laying down the
                same principles, says plainly as follows:—"Priests must not lend and receive
-               interest, and what are called <foreign>hemioliai</foreign>."<note n="14">Ibid 563.</note> </ab>
-            <ab> But as to <persName ref="http://syriaca.org/person/2468">Paul</persName>, who I would had never become bishop of the city of the <persName>Olbians</persName>, who
+               interest, and what are called <foreign>hemioliai</foreign>."<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> </ab>
+            <ab xml:id="section-1.4.2" n="2"> But as to <persName ref="http://syriaca.org/person/2468">Paul</persName>, who I would had never become bishop of the city of the <persName>Olbians</persName>, who
                because of a provocation that deserves to be treated with contempt left his flock,
                and was often admonished by me and calmed his savageness, and said that he would be
-               calm and remain at peace and stay in his church, and "returned again to his vomit,"<note n="15">Proverbs 26:2.</note>
+               calm and remain at peace and stay in his church, and "returned again to his vomit,"<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/>
                it is necessary for us to use the prophetic words and say, "We healed Babylon, and
-               she was not healed. Let us leave her."<note n="16">Jeremiah 28:9.</note> Having a dispute with the religious Hilarian,
-               bishop of Diocaesarea, about a certain monastery,<note n="17">CJ. pp. 69, 86.</note> an unhallowed and unseemly dispute,
+               she was not healed. Let us leave her."<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> Having a dispute with the religious Hilarian,
+               bishop of Diocaesarea, about a certain monastery,<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> an unhallowed and unseemly dispute,
                but still a dispute, he closed his ears to the apostolic statutes, and would not give
                them any admission, the statutes that say, "Behold! already ye are utterly in fault
                that ye go to law with one another; why do ye not rather take wrong? why do ye not
                rather suffer yourselves to be defrauded? but ye wrong and defraud and that your
                brethren; or know ye not that unrighteous persons shall not inherit the kingdom of
-               God?"<note n="18">1 Corinthians 6:7-9.</note>; and often, when he argued. in a childish and rustic manner about this, I
+               God?"<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/>; and often, when he argued. in a childish and rustic manner about this, I
                persuaded <pb n="28"/> him and restored him to a proper state of mind. For he used
                always to swear and say that he had great faith in me, and that he revered my labours
-               and struggles on behalf of the orthodox faith (I am even compelled to become a fool<note n="18">2 Corinthians 12:11.</note>
+               and struggles on behalf of the orthodox faith (I am even compelled to become a fool<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/>
                by quoting words in my own praise in order to show his disposition). And he would
                depart from our presence, as if he had been delivered from thoughts that wallow on
                the earth. But, being bound up in earthly things and infected with the perversity of
@@ -200,7 +205,7 @@
                mad and wicked strife about a place which was subject to pay tribute to the lord
                Hilarian the bishop, while he wished to make this <pb n="29"/> subject to himself;
                and the afore-mentioned saintly bishop Hilarian bore with him as long as possible,
-               but, not finding in him any advance towards settling the affair,<note n="19"><foreign xml:lang="grc">κατάστασις</foreign>.</note> at last appropriated
+               but, not finding in him any advance towards settling the affair,<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/> at last appropriated
                the place to himself by setting up an altar there. For it was a monastery. But <persName ref="http://syriaca.org/person/2468">Paul</persName>
                went out of his mind and became like a demon and wrought every kind of disorder,
                reviling me also. He says he will come there to you. If this happens, write to me and
@@ -221,7 +226,7 @@
                his complete deposition from the ministry shall follow, so that he shall not again
                have a chance of returning to his place; but, if when his deposition takes place for
                this reason, another bishop should receive him, he also shall receive punishment from
-               a general synod, as breaking the church laws."<note n="20">Mansi ii. I 309.</note> And moreover the purport of the
+               a general synod, as breaking the church laws."<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> And moreover the purport of the
                eighty-seventh canon also is the same, and it says thus: "The bishops in each of the
                provinces must know that the bishop who stands at their head in the metropolis is
                himself entrusted with the care of the whole province, because those who have
@@ -229,13 +234,13 @@
                he shall also be the first in honour, and the other bishops shall do nothing outside
                the ordinary course without him, in accordance with the canon that has prevailed from
                the beginning from the time of the fathers, but only those things which belong to
-               each man's province<note n="21"><foreign xml:lang="grc">έπαρχία</foreign> (Gk. <foreign xml:lang="grc">παροικία</foreign>).</note> and to the districts under this; for each of the bishops has
+               each man's province<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/> and to the districts under this; for each of the bishops has
                authority to administer his own parish, in proportion to the devoutness that has
                fallen to the lot of each, and to undertake the care of all the district that is
                under his city, in so far as to ordain presbyters and deacons, and to administer each
                matter with judgment or examination, but not to do anything outside the course, or
                even try to do so, without the <pb n="31"/> bishop of the metropolis. Neither shall
-               he again do this without the consent of the other bishops."<note n="22">Mansi ii. 1311.</note> It is a long task to
+               he again do this without the consent of the other bishops."<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> It is a long task to
                quote the things that are laid down in various places by the holy canons. However it
                is manifest from the citations made that, since <persName ref="http://syriaca.org/person/2460">Musonius</persName> and <persName ref="http://syriaca.org/person/2468">Paul</persName> have offended
                against the intention of all church discipline by leaving their country, they have
@@ -244,31 +249,31 @@
                an hireling and is not the shepherd, and whose own the sheep are not, when he hath
                seen the wolf coming, leaveth the sheep and fleeth, and the wolf seizeth and
                scattereth them: but the hireling fleeth because he is an hireling, and careth not
-               for the sheep."<note n="23">John 10:11-13.</note> I had nearly omitted yet another fact which also affords a manifest
+               for the sheep."<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/> I had nearly omitted yet another fact which also affords a manifest
                proof of the madness and of the foolish impulses of <persName ref="http://syriaca.org/person/2460">Musonius</persName>. When he was making a
                charge against the devout archdeacon <persName ref="http://syriaca.org/person/2459">Callistus</persName> on the ground that he had bought the
                priestly order and status, thereby satisfying his wrathful inclination, and not
                actuated in any way by religious motives, he wrote to us to the effect that such a
                man as that ought to retire from the archidiaconate, but minister in the order of
-               deacons.<note n="24">Cf p. 19.</note> And he heard me quote, and with great justice, the passage of holy scripture
-               that says, "May thine own mouth convict thee and not I!",<note n="25">Job 15:6.</note> and that also which was
+               deacons.<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/> And he heard me quote, and with great justice, the passage of holy scripture
+               that says, "May thine own mouth convict thee and not I!",<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> and that also which was
                spoken by the divine <persName>Daniel</persName> to the <pb n="32"/> presumptuous elders, on one occasion,
                "Rightly hast thou also lied against thine head," and on another, "O thou that hast
                grown old in evil days, now have thy sins come near which thou usedst to commit
                aforetime, in judging unjust judgments, and in condemning the innocent, and in
                acquitting the guilty, when the Lord saith, 'The innocent and righteous thou shalt
-               not slay.'"<note n="26">Su. 59, 52 1 53·</note> "For, if, as you say, he bought for money the grace that may not be
+               not slay.'"<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> "For, if, as you say, he bought for money the grace that may not be
                bought, such a man ought to be removed not only from the archidiaconate, but also
                from the diaconate itself." What then is his ignorant and very rustic defence to
                this? "<persName ref="http://syriaca.org/person/2459">Callistus</persName>, while archdeacon, puts a stumbling-block in the others' way by
-               carrying the holy gospel on his breast." "What does he<note n="27">A 'What shall I.'</note> say then, madman, to the
+               carrying the holy gospel on his breast." "What does he<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/> say then, madman, to the
                ignorant person who is near him? Do you think that the cup of salvation of the divine
                blood has less virtue than the book of the holy gospels, and that the onlookers will
                not strike upon a greater stumbling-block, when a man who has bought the ministry
                carries this?" It seems to me that I am doing a superfluous thing in insisting on
                speaking words without eloquence to men who have contracted this unholy infection.
                These words your sanctity ought to speak to those who have remained sound, and to
-               call to you the saintly bishops of your province,<note n="28"><foreign xml:lang="grc">έπαρχία</foreign>.</note> who confess the orthodox faith, and
+               call to you the saintly bishops of your province,<ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/> who confess the orthodox faith, and
                hold the same communion with us, but strip those men of the priesthood, inasmuch as
                they did not spare the rational <pb n="33"/> sheep, but reckoned the salvation of
                these secondary to their own passions, and left these as in a night in which is no
@@ -283,19 +288,61 @@
                will seek out my sheep, and will visit them. As the shepherd visiteth his flock on a
                day of storm and darkness when his sheep are scattered, so will I seek my sheep, and
                I will deliver them from every place wherein they have been scattered on the day of
-               storm and darkness."<note n="29">Ezekial 34:11,12.</note> Therefore visit these sheep with the help of God, and do not
+               storm and darkness."<ptr type="noteAnchor" xml:id="a30" target="#n30" n="30"/> Therefore visit these sheep with the help of God, and do not
                show negligence or give any occasion for delay, lest you bring yourself under the
                condemnation of these men, and draw upon your head the sentence hanging over them.
                For we may hear yet another sacred utterance of the prophet which says, "Cursed is he
                that shall do the works of the Lord negligently, and cursed is he that shall keep
-               back his sword from blood."<note n="30">Jeremiah 31:10.</note> As there is a time for mercy, so also there is a time for
+               back his sword from blood."<ptr type="noteAnchor" xml:id="a31" target="#n31" n="31"/> As there is a time for mercy, so also there is a time for
                cutting off: for we hear the same Spirit saying in Koheleth, "There is a time to
                plant, and a time to pluck up that which is planted: a time to kill, and a time to
-               heal: a <pb n="34"/> time to break down and a time to build,"<note n="31">Ecclesiastes 3: 2,3.</note> and the other passages
+               heal: a <pb n="34"/> time to break down and a time to build,"<ptr type="noteAnchor" xml:id="a32" target="#n32" n="32"/> and the other passages
                through which we understand how that it is with judgment that we must handle the
                divine words and fulfil the ministry of these. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Isaiah 65:2; Romans 10:21.</note>
+        <note xml:id="n2" target="#a2" n="2">Jeremiah 2:31.</note>
+        <note xml:id="n3" target="#a3" n="3">1 Timothy 6:10.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">έπαρχία</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">Ezekiel 34:19,21.</note>
+        <note xml:id="n6" target="#a6" n="6">Ibid. 4.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">έπαρκία</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">Job 33:25 (?).</note>
+        <note xml:id="n9" target="#a9" n="9">
+          <foreign xml:lang="grc">διάρια</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">Cf p. 80.</note>
+        <note xml:id="n11" target="#a11" n="11">
+          <foreign xml:lang="grc">κειμήλια</foreign>.</note>
+        <note xml:id="n12" target="#a12" n="12">Cj. i. 23.</note>
+        <note xml:id="n13" target="#a13" n="13">Mansi ii. 676.</note>
+        <note xml:id="n14" target="#a14" n="14">Ibid 563.</note>
+        <note xml:id="n15" target="#a15" n="15">Proverbs 26:2.</note>
+        <note xml:id="n16" target="#a16" n="16">Jeremiah 28:9.</note>
+        <note xml:id="n17" target="#a17" n="17">CJ. pp. 69, 86.</note>
+        <note xml:id="n18" target="#a18" n="18">1 Corinthians 6:7-9.</note>
+        <note xml:id="n19" target="#a19" n="19">2 Corinthians 12:11.</note>
+        <note xml:id="n20" target="#a20" n="20">
+          <foreign xml:lang="grc">κατάστασις</foreign>.</note>
+        <note xml:id="n21" target="#a21" n="21">Mansi ii. I 309.</note>
+        <note xml:id="n22" target="#a22" n="22">
+          <foreign xml:lang="grc">έπαρχία</foreign> (Gk. <foreign xml:lang="grc">παροικία</foreign>).</note>
+        <note xml:id="n23" target="#a23" n="23">Mansi ii. 1311.</note>
+        <note xml:id="n24" target="#a24" n="24">John 10:11-13.</note>
+        <note xml:id="n25" target="#a25" n="25">Cf p. 19.</note>
+        <note xml:id="n26" target="#a26" n="26">Job 15:6.</note>
+        <note xml:id="n27" target="#a27" n="27">Su. 59, 52 1 53·</note>
+        <note xml:id="n28" target="#a28" n="28">A 'What shall I.'</note>
+        <note xml:id="n29" target="#a29" n="29">
+          <foreign xml:lang="grc">έπαρχία</foreign>.</note>
+        <note xml:id="n30" target="#a30" n="30">Ezekial 34:11,12.</note>
+        <note xml:id="n31" target="#a31" n="31">Jeremiah 31:10.</note>
+        <note xml:id="n32" target="#a32" n="32">Ecclesiastes 3: 2,3.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

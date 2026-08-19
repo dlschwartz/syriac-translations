@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://syriaca.org/work/3045">To Entrechius, Bishop of <placeName ref="http://syriaca.org/place/2624">Anazarba </placeName></title>
+            <title ref="http://syriaca.org/work/3045">To Entrechius, Bishop of <placeName ref="http://syriaca.org/place/2624">Anazarba </placeName>
+        </title>
             <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
             <sponsor>Center of Digital Humanities Research, Texas A&amp;M University</sponsor>
             <principal>Daniel L. Schwartz</principal>
@@ -31,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,11 +99,12 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.18" n="1.18">
+        <div type="section" xml:id="section-1.18">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2546">Entrechius</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 4th book the
                123rd letter.</head>
-            <ab> The devout <rs ref="http://syriaca.org/person/3062">clergymen</rs> of the holy church in the city of <placeName ref="http://syriaca.org/place/173">Rhosus</placeName> and the other
-               <rs ref="http://syriaca.org/person/3063">inhabitants</rs> of it<note n="1">So B. Correct the text.</note> have presented a petition to us in which they beg that that man may
+            <ab xml:id="section-1.18.1" n="1"> The devout <rs ref="http://syriaca.org/person/3062">clergymen</rs> of the holy church in the city of <placeName ref="http://syriaca.org/place/173">Rhosus</placeName> and the other
+               <rs ref="http://syriaca.org/person/3063">inhabitants</rs> of it<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> have presented a petition to us in which they beg that that man may
                be instituted their bishop by grace from above and the ministration of your sanctity,
                in whose favour they shall themselves according to the legal custom make a
                <foreign>psephisma</foreign>. These were the <pb n="67"/> contents of their
@@ -107,11 +113,16 @@
                <foreign>psephisma</foreign> to you, and hold your judgment in this matter final.
                This is in other ways pleasing to God, and is also the proper course. In fact we
                argued with them and said that on no other terms but these would your piety, whose
-               endeavour it is in everything to follow after blamelessness as it is written,<note n="2">1 Timothy 3:2,6:11 (?).</note> be
+               endeavour it is in everything to follow after blamelessness as it is written,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> be
                ready to comply. Wherefore also we immediately determined to draw up this letter of
                reminder to you. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">So B. Correct the text.</note>
+        <note xml:id="n2" target="#a2" n="2">1 Timothy 3:2,6:11 (?).</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

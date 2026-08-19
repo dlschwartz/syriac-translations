@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,10 +98,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-6.1" n="6.1">
+        <div type="section" xml:id="section-6.1">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2567">Eleusinius</persName> the bishop.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 1st book the
                121st letter.</head>
-            <ab> Many men after gazing on the likenesses of those whom they love are refreshed and
+            <ab xml:id="section-6.1.1" n="1"> Many men after gazing on the likenesses of those whom they love are refreshed and
                comforted, and think that by this they satisfy their affection. But I, not having
                fashioned a likeness of your sanctity for myself, but having joined it. to myself, am
                the more attracted to the picture, and every hour, if I may so Say, am smitten in my
@@ -113,10 +118,10 @@
                solitary, who for the destruction of the holy churches, as he thought, emulated the
                character of the cunning fox, and who composes his outward appearance only to an
                expression pleasing to everyone, but within carries a smoking firebrand according to
-               the prophetic saying:<note n="1">Isaiah 7:4.</note> by which we believe that he will be utterly consumed, and will
+               the prophetic saying:<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> by which we believe that he will be utterly consumed, and will
                become fuel for it like faggot-material, and will not be changed into another man but
                reduced to ashes. As to the man who has just been instituted and holds the prelacy of
-               the royal city, we have learned that he is <persName ref="http://syriaca.org/person/2686">John</persName> called by the name of <persName ref="http://syriaca.org/person/2773">Florentinus</persName>,<note n="2">Lit. "John of Florentinus," i.e. Ίωάννης ό Φλωεντίνου, not necessarily "son of Florentinus." </note>
+               the royal city, we have learned that he is <persName ref="http://syriaca.org/person/2686">John</persName> called by the name of <persName ref="http://syriaca.org/person/2773">Florentinus</persName>,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
                who held the post of syncellus to him who is dead; who is thought to be inclined to
                the right opinions, <pb n="361"/> and holds out some pleasing hopes to the orthodox,
                but is more desirous of adopting a deceitful middle course, and of walking himself
@@ -124,7 +129,7 @@
                letter. There are therefore two ways; for we must say briefly what ought to be done
                as it occurs to my feeble mind. Either you must accept the synodical letter, thoughc
                it does not contain the same sense as the document of the ten bishops or anathematize
-               the transactions<note n="3">πεπραγμένα.</note> of <placeName>Chalcedon</placeName> and the Tome of Leo and those who called and call our
+               the transactions<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> of <placeName>Chalcedon</placeName> and the Tome of Leo and those who called and call our
                one Lord and God <persName>Jesus Christ</persName> two natures after the union; or you must write what is
                repugnant to you and say that if he show himself such and such you will accept
                communion with him. But I am wondering whether a man who accepts a synodical letter
@@ -145,7 +150,7 @@
                make use of such rumours, and they were exposed and it became known by whom they were
                employed to do this: and the bishop who has now been instituted never consented to
                turn his attention to the rumours put about by those men: but on the next day we hear
-               that some of them were actually arrested. However on New Sunday<note n="4">Apr. 22,518.</note> so great an assembly
+               that some of them were actually arrested. However on New Sunday<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> so great an assembly
                of orthodox was purposely collected that those who were collected by a gleaning
                process by the heretics did not dare even to appear, but only to slink away and hide,
                and they were in great fear, and by flight gained freedom from all harm. The
@@ -160,12 +165,21 @@
                similar to what one would consider those to be that were pronounced by the Arians
                against the holy Athanasius and decreed his complete deposition without touching his
                faith at all) He who on account of his sound faith was able to hear from <persName>Christ</persName> the
-               words, "Thou art <persName>Cephas</persName> and upon this rock I will build my church,"<note n="5">Matthew 16:18.</note> has consequently
+               words, "Thou art <persName>Cephas</persName> and upon this rock I will build my church,"<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> has consequently
                also the power of binding and loosing, inasmuch as the heavenly mandate also
                sanctions such things. But, if he is carried beyond this rock, it is manifest that
-               such a man does not escape detection as beating the air, as the Apostle says.<note n="6">1 Corinthians 9:26.</note> </ab>
+               such a man does not escape detection as beating the air, as the Apostle says.<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> </ab>
             <trailer>The end.</trailer>
-         </div>      
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Isaiah 7:4.</note>
+        <note xml:id="n2" target="#a2" n="2">Lit. "John of Florentinus," i.e. Ίωάννης ό Φλωεντίνου, not necessarily "son of Florentinus." </note>
+        <note xml:id="n3" target="#a3" n="3">πεπραγμένα.</note>
+        <note xml:id="n4" target="#a4" n="4">Apr. 22,518.</note>
+        <note xml:id="n5" target="#a5" n="5">Matthew 16:18.</note>
+        <note xml:id="n6" target="#a6" n="6">1 Corinthians 9:26.</note>
+      </noteGrp>      
       </body>
   </text>
 </TEI>

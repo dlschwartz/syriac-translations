@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,20 +98,22 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.8" n="1.8">
-            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2531">Timostratus</persName> the duke.<note n="1">Cj. Zach. Rh. ix. 1 (Eng. transl., p. 2 2 2 note 2 ).</note></head>
+        <div type="section" xml:id="section-1.8">
+            <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2531">Timostratus</persName> the duke.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+          </head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 3rd book the
                256th 258th letter.</head>
-            <ab> To me it appears something to be prayed for and desirable to communicate with your
+            <ab xml:id="section-1.8.1" n="1"> To me it appears something to be prayed for and desirable to communicate with your
                greatness by letter: and to return the greeting that is owed to you as if it were
                some necessary debt, and not make this the accidental result of causes about which I
                am even <pb n="42"/> ashamed to write. Though I was glad to see your magnificence's
                recent epistle, it was in sorrow that I ceased the reading of it. For I found the
-               cause or subject<note n="2"><foreign xml:lang="grc">ύπόθεσις</foreign>.</note> of the letter to be grievous when tested by the divine purpose, and
-               difficult and impossible and "after the flesh"<note n="3">2 Corinthians 1:17 (?).</note> to speak in the language of scripture,
-               and one that is sensually judged.<note n="4">1 Corinthians 2:14.</note> Whereas the divine apostle, or rather <persName>Christ</persName> who
+               cause or subject<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> of the letter to be grievous when tested by the divine purpose, and
+               difficult and impossible and "after the flesh"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> to speak in the language of scripture,
+               and one that is sensually judged.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> Whereas the divine apostle, or rather <persName>Christ</persName> who
                speaks in him, limits and restricts the gift of ordination under a certain threat,
                and says, "Lay thine hand suddenly on no man, neither be partaker of other men's
-               sins; keep thyself in purity,"<note n="5">1 Timothy 5: 22,23.</note> by many the thing is considered as one of the ordinary
+               sins; keep thyself in purity,"<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> by many the thing is considered as one of the ordinary
                trades, that of a smith let us say or a carpenter, or as some office that brings with
                it the gift of sustenance, and an occasion of <foreign>dapane</foreign> or expense
                and a relief for need; as if it were not permissible for us to acquire the means of
@@ -145,6 +151,15 @@
                still difficult to satisfy on account of its frequency. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Cj. Zach. Rh. ix. 1 (Eng. transl., p. 2 2 2 note 2 ).</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">ύπόθεσις</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">2 Corinthians 1:17 (?).</note>
+        <note xml:id="n4" target="#a4" n="4">1 Corinthians 2:14.</note>
+        <note xml:id="n5" target="#a5" n="5">1 Timothy 5: 22,23.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

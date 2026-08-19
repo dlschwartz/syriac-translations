@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,14 +98,15 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.7" n="1.7">
+        <div type="section" xml:id="section-1.7">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/2527">Castor</persName>, bishop of <placeName ref="http://syriaca.org/place/3054">Perga</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 3rd book the
                232nd letter.</head>
-            <ab> The order of devout <rs ref="http://syriaca.org/person/3038">subdeacons</rs> in your see has asked a certain petition of us, which
+            <ab xml:id="section-1.7.1" n="1"> The order of devout <rs ref="http://syriaca.org/person/3038">subdeacons</rs> in your see has asked a certain petition of us, which
                does not pass beyond the holy canons, but is contained within the fathers' landmarks
                as the sacred scripture says. For your. sanctity well knows that there is a legal
                commandment in <persName>Moses</persName>, or rather a commandment of <persName>Christ</persName> who spoke through him, "Thou
-               shalt not remove the landmarks that are from of old, which thy fathers set up."<note n="1">Deuteronomy 19:14.</note> What
+               shalt not remove the landmarks that are from of old, which thy fathers set up."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> What
                this is it is necessary for <pb n="40"/> us to say clearly. Those of the said order
                of subdeacons who presented the petition to us say that they are greatly contemned
                and insulted by the <rs ref="http://syriaca.org/person/3039">readers</rs> and <rs ref="http://syriaca.org/person/3040">psaltai or singers</rs> of the holy church that is under
@@ -118,20 +123,30 @@
                another, those which are high as well as those which are low, those which ascend as
                well as those which descend. For <persName>Paul</persName> who was caught up to the third heaven shows
                this, when he writes to the Colossians and says, "Whether they be thrones or
-               dominions, whether they be principalities or powers,"<note n="2">Colossians 1:16.</note> and by such names shows that
-               there is some order which bestows fair adornment<note n="3">Misunderstanding of <foreign xml:lang="grc">εύκοσμία</foreign>.</note> even upon the heavenly and invisible
+               dominions, whether they be principalities or powers,"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and by such names shows that
+               there is some order which bestows fair adornment<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> even upon the heavenly and invisible
                spirits, and thence descends to <pb n="41"/> the church also, which was founded by
                God the Word who became incarnate and made the things that are seen and the things
                that are not seen, but differs in no way in its similitude from heaven, by reason of
                the great mystery of religion that is every day administered in it Wherefore also the
                same wise <persName>Paul</persName> in his epistle to the Ephesians writes thus about it: "And he himself
                gave: some apostles: and some prophets: and some preachers: and some pastors, and
-               teachers:"<note n="4">Ephesians 4:11.</note> and in another place, "For God" (he says) "set first in his church
-               apostles: next prophets: next teachers;"<note n="5">1 Corinthians 12:28.</note> and all that follow. By all these things we
+               teachers:"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and in another place, "For God" (he says) "set first in his church
+               apostles: next prophets: next teachers;"<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and all that follow. By all these things we
                are taught to honour order, and to shun disorder and confusion: which principle we
-               urge your sanctity also to observe in this present matter<note n="6"><foreign xml:lang="grc">κεφάλαιον</foreign>.</note> also, which gave occasion
+               urge your sanctity also to observe in this present matter<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> also, which gave occasion
                for this letter. </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Deuteronomy 19:14.</note>
+        <note xml:id="n2" target="#a2" n="2">Colossians 1:16.</note>
+        <note xml:id="n3" target="#a3" n="3">Misunderstanding of <foreign xml:lang="grc">εύκοσμία</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">Ephesians 4:11.</note>
+        <note xml:id="n5" target="#a5" n="5">1 Corinthians 12:28.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">κεφάλαιον</foreign>.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

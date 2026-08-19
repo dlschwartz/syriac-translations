@@ -32,8 +32,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -72,12 +74,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -95,18 +99,19 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.39" n="1.39">
+        <div type="section" xml:id="section-1.39">
             <head type="main" resp="#compiler">Of <rs ref="http://syriaca.org/person/3080">the same to the clergy</rs> and notables of
                <placeName ref="http://syriaca.org/place/2630">Apamea</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 7th book the
                289th letter.</head>
-            <ab> The name and fact of concord is pleasing even in God's sight, for He himself said in
+            <ab xml:id="section-1.39.1" n="1"> The name and fact of concord is pleasing even in God's sight, for He himself said in
                the Gospel, "If <pb n="111"/> two of you shall agree on earth touching any matter
                whatsoever they shall ask, it shall be done for them by my Father which is in
-               heaven";<note n="1">Matthew 18:19.</note> and in the statute of piety also concerning the nomination of bishops it is
+               heaven";<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and in the statute of piety also concerning the nomination of bishops it is
                ordained that a deliberate vote upon this must by all means be put forward by the
                common consent of the religious clergymen and of the eloquent and illustrious
-               notables; a principle which our pious Christ-loving king also ratified.<note n="2">C.J. I. iv. 17 (?).</note> Wherefore we
-               urge you again, as we have also already done,<note n="3">1. 30.</note> and that many times, to come to a
+               notables; a principle which our pious Christ-loving king also ratified.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> Wherefore we
+               urge you again, as we have also already done,<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and that many times, to come to a
                united election of him to whom the bishopric of the illustrious <placeName>metropolis of the
                Apamenes</placeName> is to be entrusted. When you were divided, we, who were not under the
                influence of passion, were obliged ourselves to choose by a judgment that did not
@@ -130,13 +135,20 @@
                under their authority, and not themselves be ruled by them, but also be men practised
                in divine doctrines. For he who stands at the head must also be a man "apt to teach,"
                and one who in character and speech shows himself "a pattern of good works," as <persName>the
-               Apostle</persName> says.<note n="4">1 Timothy 3:2;Titus 2:7.</note> For we have in fact no other reason for using strict language about
+               Apostle</persName> says.<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> For we have in fact no other reason for using strict language about
                such things- except to avoid straying from what is right, and becoming liable to
                endless torment. For it is manifest that, although we are sinners, yet still in the
                nomination of bishops we in no point fall short of the principles about which many
                concern themselves. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Matthew 18:19.</note>
+        <note xml:id="n2" target="#a2" n="2">C.J. I. iv. 17 (?).</note>
+        <note xml:id="n3" target="#a3" n="3">1. 30.</note>
+        <note xml:id="n4" target="#a4" n="4">1 Timothy 3:2;Titus 2:7.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>

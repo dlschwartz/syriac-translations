@@ -31,8 +31,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -71,12 +73,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -94,10 +98,11 @@
   <text>
       <body>
          <div type="work" xml:id="work-1.48" n="1.48">
+        <div type="section" xml:id="section-1.48">
             <head type="main" resp="#compiler">Of the same to <persName ref="http://syriaca.org/person/44">Philoxenus</persName> bishop of <placeName ref="http://syriaca.org/place/2344">Hierapolis</placeName>.</head>
             <head type="sub" resp="#compiler">From those during episcopacy, from the 10th book the
                295th letter.</head>
-            <ab> Hearing the divine writings which say, "Salvation cometh by much counsel,"<note n="1">Proverbs 24:6.</note> I wish
+            <ab xml:id="section-1.48.1" n="1"> Hearing the divine writings which say, "Salvation cometh by much counsel,"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> I wish
                yet now again to ask your sanctity even about a matter upon which we have often
                already counselled and deliberated. You <pb n="131"/> know that those who received
                ordination for payment and bought for themselves from <persName ref="http://syriaca.org/person/2530">Flavian</persName> the trafficker in all
@@ -128,6 +133,10 @@
                gain-hunters, and it deceived them. </ab>
             <trailer>The end.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Proverbs 24:6.</note>
+      </noteGrp>
       </body>
   </text>
 </TEI>
