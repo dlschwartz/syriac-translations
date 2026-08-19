@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">325 [151]-326 [152]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">325 [151]-326 [152]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,15 +131,15 @@
    <text>
       <body>
          <div type="work" xml:id="work-51" n="51">
+        <div type="section" xml:id="section-51">
             <head type="main" resp="#compiler">And This Again the Holy <persName ref="http://syriaca.org/person/51">Severus</persName> States in the Letter To
-               <persName>Amantius</persName> the Chamberlain, in Reference to <persName ref="http://syriaca.org/person/2580">Epiphanius</persName> Metropolitan of <placeName>Tyre</placeName><note type="footnote"
-                  n="423">Select Letters of Severus, I, 31; vi, 2; P. O., II, 30; Evagr., iii, 33; Mansi, VIII,
-                  1074.</note>, "Even if he repents, I cannot receive him, lest the church be rent asunder in
+               <persName>Amantius</persName> the Chamberlain, in Reference to <persName ref="http://syriaca.org/person/2580">Epiphanius</persName> Metropolitan of <placeName>Tyre</placeName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, "Even if he repents, I cannot receive him, lest the church be rent asunder in
                that he has wounded the feelings of many"; For He Said Thus: </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab>Now therefore I have thought it necessary to write this present short letter and inform you
+            <ab xml:id="section-51.1" n="1">Now therefore I have thought it necessary to write this present short letter and inform you
                that the good and gentle <persName ref="http://syriaca.org/person/2580">Epiphanius</persName> of the city <pb n="154"/> of the Tyrians exalted himself
                against my great weakness, and he became an example to others to secede; but he has also wounded
                the hearts of all the believers, as if I, who confess the right faith, were hurling myself
@@ -147,6 +147,11 @@
                order; so that, if I wish, it is no longer permissible for me to receive him in communion, even
                if he repents, since every man's conscience has already been wounded because of him.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Select Letters of Severus, I, 31; vi, 2; P. O., II, 30; Evagr., iii, 33; Mansi, VIII,
+                  1074.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

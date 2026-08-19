@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">269 [97]-279 [107]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">269 [97]-279 [107]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,29 +131,26 @@
    <text>
       <body>
          <div type="work" xml:id="work-34" n="34">
+        <div type="section" xml:id="section-34">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, a Letter to <persName ref="http://syriaca.org/person/2641">Elisha</persName> the Presbyter And
-               Archimandrite, and the Rest<note type="footnote" n="247">rammarian of Caesarea
-                  (Joh., Vit. <persName ref="http://syriaca.org/person/51">Severus</persName>, in P. O., II, 278), a work which exists only in fragments: see Wright,
-                  Catalogue of Syriac MSS. in the British Meseum, p. 1323; Lebon, Le Monophysisme Severien, p.
-                  147.</note>. </head>
+               Archimandrite, and the Rest<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0521">
                   519-21(?)
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab>The saintly presbyter <persName ref="http://syriaca.org/person/2673">John</persName> has removed and gone to the place of light of the righteous, and to
+            <ab xml:id="section-34.1" n="1">The saintly presbyter <persName ref="http://syriaca.org/person/2673">John</persName> has removed and gone to the place of light of the righteous, and to
                the rest above in which those who have so lived abide, expecting the day of the perfect and full
                promise, and not without us to be made perfect, as <persName>Paul</persName> who was initiated into the deep and
-               ineffable things of the foreknowledge of God somewhere says<note type="footnote" n="248"
-                 >Hebrews xi, 40.</note>. What need is there even to say <pb n="98"/> what
+               ineffable things of the foreknowledge of God somewhere says<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. What need is there even to say <pb n="98"/> what
                poignant and heavy sorrow has shaken my soul? For it is a great loss that this wretched
                turbidity of times in which we ourselves have been left alive should by such men being snatched
                away be gradually laid bare and reduced so to speak to the last dregs. About him there is much
                that I might write on the laudatory side, but, overcome by the multitude of subjects, I say this
                briefly, that he alone taught us and caused us to see before our eyes, what is the kingdom of
                heaven that is spoiled, which spoilers 
-               seize<note type="footnote" n="249">Matthew, xi, 12.</note>. In such a a way, 
+               seize<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. In such a a way, 
                clad in the feeble body as in a chain of lead, he
                parted and dispersed all things outside, and by taking little thought for things that draw
                downwards, and receiving strength through desire of heavenly things, he fitted himself wholly
@@ -162,27 +159,24 @@
                since we ought to bow our neck before the just scales of the judgments of God, we praise him who
                so orders these things and brings them to pass: for the wise and strenuous Job somewhere says,
                "But if he too hath so judged, who is he that gainsaith him? For what he himself wished he also
-               did"<note type="footnote" n="250">Job, xxiii, 13.</note>. And for <pb n="99"/>
+               did"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. And for <pb n="99"/>
                the rest we pray that by the saintly prayers of those who have made a good departure hence we
                may be saved, and as far as possible be kept unharmed, and not wander from the faith of these
                men, and may be raised to them in memory.</ab>
-            <ab>May these things be so. But in respect of what has been written by your love of God about the
+            <ab xml:id="section-34.2" n="2">May these things be so. But in respect of what has been written by your love of God about the
                sustenance of the poor, and our necessity or refreshment, and that you wish to share with us in
                everything, and give readily, know this, that we accept the full purpose of your mind, but,
                being small and weak, we look to <persName>Paul</persName> the doctor of the church, and as regards our needs set
                ourselves to feel shame and refrain, and look at him who says, "In all things I have kept myself
-               without being burdensome to you and will keep myself"<note type="footnote" n="251"
-                 >2 Corinthians xi, 9.</note>. But with respect to the relief of our brethren who are
+               without being burdensome to you and will keep myself"<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>. But with respect to the relief of our brethren who are
                labouring under the same distresses, by which life is oppressed, I will exert myself, and will
-               be importunate, or rather<note type="footnote" n="252"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> will use lawful boldness of speech<note type="footnote" n="253"
-                    ><foreign xml:lang="grc">παρρησία</foreign>.</note>, and will beg, and
-               grasp<note type="footnote" n="254">Perh. read <foreign xml:lang="syr">ܘܐܚܦܛ
-               </foreign> 'and urge'.</note>, and incite to liberal giving; and I will again use his words and
+               be importunate, or rather<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> will use lawful boldness of speech<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>, and will beg, and
+               grasp<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>, and incite to liberal giving; and I will again use his words and
                say, "He that soweth sparingly shall reap sparingly; and he that soweth bountifully shall reap
                bountifully": and this he seals by the <pb n="100"/> very wise and understanding addition,
                "Every man as his heart willeth, not grudgingly nor of necessity: for God loveth a cheerful
-               giver"<note type="footnote" n="255">2 Corinthians ix, 6, 7.</note>.</ab>
-            <ab>As to the book that I have composed against the heretical fatuity of the wicked grammarian, by
+               giver"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>.</ab>
+            <ab xml:id="section-34.3" n="3">As to the book that I have composed against the heretical fatuity of the wicked grammarian, by
                often writing and asking for it to be sent to you before it was completely finished you were
                acting like men who urge a boy who is healthy and well-prepared, and instructed in military
                affairs, to appear in the line of battle when he has not yet put on his armour. But, now that by
@@ -194,22 +188,18 @@
                grammarian, but also the whole web of impiety contained in what was defined and done by way of
                innovation at Chalcedon by the synod which met there, and the impious Tome of <persName>Leo</persName>, taking
                occasion from the very <pb n="101"/> things stated by him (I mean that grammarian) to expose the
-               dishonesty of the adversaries, and cut the very root so to speak of bitterness<note
-                  type="footnote" n="256">Hebrews xii, 15.</note>, and to show whence it sprang,
+               dishonesty of the adversaries, and cut the very root so to speak of bitterness<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>, and to show whence it sprang,
                and that these things are not new, but were evolved long ago by the impious company of those who
                unlearnedly held this evil opinion; and not only so, but also to show the agreement of the
-               doctors of the orthodox<note type="footnote" n="257"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>, and of things which to men who are not practised in divine
+               doctors of the orthodox<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>, and of things which to men who are not practised in divine
                doctrines seem to be contrary, and have the same purpose before them, and to guard myself as far
                as possible against contention from all sides. Immediately therefore after the holy Cyril and
                Gregory the Theologian, and all who so to speak taught the same things, had also said that we
-               must note the distinction in theory<note type="footnote" n="258"><foreign
-                  xml:lang="grc">θεωρία</foreign>.</note> and in thought of the natures of which Emmanuel is
-               composed, from which natures the different character and diverse essence<note type="footnote"
-                  n="259"><foreign xml:lang="grc">οὐσία</foreign>.</note> of the elements that
+               must note the distinction in theory<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> and in thought of the natures of which Emmanuel is
+               composed, from which natures the different character and diverse essence<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> of the elements that
                were joined in union is recognised, <persName ref="http://syriaca.org/person/2472">Theodotus</persName> of saintly memory, bishop of Ancyra in <placeName>Galatia</placeName>,
-               seems to deny this and not to accept the division in thought<note type="footnote" n="260"
-                 >Exp. Syn. Nic., 10 (P. G., LXXVII, 1328).</note>. On this account many of the
-               orthodox<note type="footnote" n="257"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note> also were confounded by the heretics as if they were adducing
+               seems to deny this and not to accept the division in thought<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/>. On this account many of the
+               orthodox<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> also were confounded by the heretics as if they were adducing
                fathers who said <pb n="102"/> contradictory things, though the objectors could not discern even
                the reading of the words of <persName ref="http://syriaca.org/person/2472">Theodotus</persName>, but read them differently, not as the words stand. This
                therefore and all such points we have brought together from all quarters, and, God stretching
@@ -220,83 +210,133 @@
                be futile. Therefore it was indeed a task replete with great difficulties to find these
                passages, and lay bare the evil dealing and expose the deceit contained in them. These things
                the prophet's words fit, which were spoken in the name of God to those of <placeName>Israel</placeName>, "Ephraim hath
-               surrounded me with falsehood, and the house of <placeName>Israel</placeName> and of <placeName>Judah</placeName> with impiety"<note
-                  type="footnote" n="261">Hosea xi, 12.</note>: and still better that also which
+               surrounded me with falsehood, and the house of <placeName>Israel</placeName> and of <placeName>Judah</placeName> with impiety"<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/>: and still better that also which
                is written in Daniel, "They worked zealously to strengthen their deceit which consisted in
-               transgressions"<note type="footnote" n="262">Not in our texts of Daniel</note>.
+               transgressions"<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/>.
                Having therefore as far as possible read all the books, thoroughly and not negligently, I made
                myself acquainted with their evil purpose after <pb n="103"/> much labour and after searching
                for each one of them (often it could not be found at all), and this though I am in a
-               condition<note type="footnote" n="263"><foreign xml:lang="grc">σχῆμα</foreign>.</note> of exile, and flee from one place to another for refuge like
-               boats<note type="footnote" n="264"><foreign xml:lang="grc">καράβια</foreign>.</note> upon the sea. To me also it was gratifying that the wise and
-               Christ-loving <persName ref="http://syriaca.org/person/58">Zachariah</persName>s the scholastic<note type="footnote" n="265">The
-                  biographer of <persName ref="http://syriaca.org/person/51">Severus</persName> (P. O., II, 7).</note> should read the dissertation mentioned: for in the
+               condition<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> of exile, and flee from one place to another for refuge like
+               boats<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> upon the sea. To me also it was gratifying that the wise and
+               Christ-loving <persName ref="http://syriaca.org/person/58">Zachariah</persName>s the scholastic<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/> should read the dissertation mentioned: for in the
                royal city also I used to bring my works to him, when he would listen attentively with all care
                fulness, and received from God the privilege of being a wise hearer of <placeName>Jerusalem</placeName>, I mean of the
                church of God, and did not shrink from being an admirable adviser, on account of the great
                experience and instruction in the sacred books which he has enjoyed from his boyhood. And we
-               believe that upon you the religious presbyter <persName>Victor</persName><note type="footnote" n="266"
-                 >See above, ep. 30.</note> the same grace blooms, and that it in no way falls
+               believe that upon you the religious presbyter <persName>Victor</persName>
+            <ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> the same grace blooms, and that it in no way falls
                short of that which was given to him, or certainly it was even greater, and reaches a still
                higher standard on account of the order of the presbyterate, and the priestly seat to which you
                have been called by God. I therefore beg you all to read the composition diligently and with
                attentive thoughts and, as your habit is, wisely, and if as weak men we have anywhere gone wrong
                to point it out. "That a brother should be helped by a brother, this also is the firm strength
-               of a fortified <pb n="104"/> city"<note type="footnote" n="267">Proverbs xviii,
-                  19.</note>, the God-inspired words teach. Therefore also we made it our business, as far as
+               of a fortified <pb n="104"/> city"<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/>, the God-inspired words teach. Therefore also we made it our business, as far as
                possible, to bring this dissertation also to certain men of intelligence and skilled in
                argument, who are not without a share in divine and profane learning, and read it to them,
                generally stealing an opportunity for reading, and doing this in secret, on account of the
-               present time. The beginning of this treatise I have put in such a form<note type="footnote"
-                  n="268"><foreign xml:lang="grc">σχῆμα</foreign>.</note>, in order that I may seem to have
+               present time. The beginning of this treatise I have put in such a form<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/>, in order that I may seem to have
                prepared this while I was living in Antioch, lest perhaps these adversaries might kindle a
                greater flame of prejudice against me, if they perceived that this had been composed by me in
                exile: and in truth when I was there I began to prepare material for an answer, though, when the
                persecution came, it scattered these things.</ab>
-            <ab>Since you, the God-loving presbyter Philip<note type="footnote" n="269">Select
-               Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, i, 51; p. 181, 384; see below, ep. 52.</note>, have often asked for the
+            <ab xml:id="section-34.4" n="4">Since you, the God-loving presbyter Philip<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/>, have often asked for the
                Book of Dispensations as you say to be sent you, the only reason for which we have put off doing
                this is that we are desirous of first carrying out your request, and casting an eye of criticism
                on what is written in it; which down to this day we have been confident of being able to do,
                though all our attention was occupied with the said composition. Therefore, when we have read
-               your book also hastily, we will send it as soon as possible. <pb n="105"/></ab>
-            <ab>As to those who have been converted from the error of <persName ref="http://syriaca.org/person/2472">Theodotus</persName><note type="footnote" n="270"
-              >Bishop of Joppa (op. cit., p. 207, 356, 392, 472; Zach. Rh., v, 4; Evagr., in,
-               6).</note>, we say this much, that, if there are some who received ordination from <persName ref="http://syriaca.org/person/2472">Theodotus</persName>
+               your book also hastily, we will send it as soon as possible. <pb n="105"/>
+          </ab>
+            <ab xml:id="section-34.5" n="5">As to those who have been converted from the error of <persName ref="http://syriaca.org/person/2472">Theodotus</persName>
+            <ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/>, we say this much, that, if there are some who received ordination from <persName ref="http://syriaca.org/person/2472">Theodotus</persName>
                himself, since he was a bishop legally appointed, but was afterwards perverted to the abominable
-               tenet of a self-created observance<note type="footnote" n="271">This represents
-                  <foreign xml:lang="grc">ἐθελοθρησκεία</foreign> (Colossians ii, 23).</note>, I mean that of the
+               tenet of a self-created observance<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/>, I mean that of the
                illegal re-anointing, and to a change as to the faith, so that he does not confess that our Lord
-               and God <persName>Jesus Christ</persName>, who is of one essence<note type="footnote" n="272"><foreign xml:lang="grc">οὐσία</foreign>.</note> with the Father in the Godhead, himself
-               became also of one essence<note type="footnote" n="272"></note> with us without
+               and God <persName>Jesus Christ</persName>, who is of one essence<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> with the Father in the Godhead, himself
+               became also of one essence<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/> with us without
                variation, and took our likeness, except sin only, let these be subject to the periods of
                penance which <persName>Timothy</persName> of saintly memory, archbishop of <persName>Alexandria</persName>, laid down with regard to
-               those who are converted from the heresy of the Diphysites<note type="footnote" n="273"
-                 >Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 201, 368, 382; Zach. Rh., iv, 12 (Land, p. 162);
-                  Wright, Catalogue of Syriac MSS. in the British Meseum, p. 643.</note>. But, if there are some
+               those who are converted from the heresy of the Diphysites<ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/>. But, if there are some
                others who derive the ordinations alleged to have been performed over them from the man called
-               Gregory<note type="footnote" n="274">Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 232,
-                  472.</note> or from others, who are not even bishops, let these be reckoned as laymen, and not
+               Gregory<ptr type="noteAnchor" xml:id="a30" target="#n30" n="30"/> or from others, who are not even bishops, let these be reckoned as laymen, and not
                dream of the name of service or priesthood; but eventually after some time, if some of them
                receive a report for good works, let these <pb n="106"/> be ordained, as if they had been
-               advanced from the lay standing to the priestly chancel<note type="footnote" n="275"
-                 ><foreign xml:lang="grc">βῆμα</foreign>.</note>. But I was surprised to see that
+               advanced from the lay standing to the priestly chancel<ptr type="noteAnchor" xml:id="a31" target="#n31" n="31"/>. But I was surprised to see that
                in your letter, though you termed them laymen, you afterwards asked the question "How long a
-               period ought to be appointed for these men", as if they were clergymen<note type="footnote"
-                  n="276"><foreign xml:lang="grc">κληρικοί</foreign>.</note>, men who never became such at all.
+               period ought to be appointed for these men", as if they were clergymen<ptr type="noteAnchor" xml:id="a32" target="#n32" n="32"/>, men who never became such at all.
                Therefore also I praised the ignorance of the religious presbyter Victor about these men.</ab>
-            <ab>As to the complete manuscript<note type="footnote" n="277"><foreign
-               xml:lang="grc">πανδέκτης</foreign>.</note> of the divine Scriptures which belonged to <persName>John</persName>
+            <ab xml:id="section-34.6" n="6">As to the complete manuscript<ptr type="noteAnchor" xml:id="a33" target="#n33" n="33"/> of the divine Scriptures which belonged to <persName>John</persName>
                whose soul is at rest, which may fill many bellies of poor men, sell it: for we by God's grace
-               have books<note type="footnote" n="278">Or 'the Scriptures'.</note>, and would
+               have books<ptr type="noteAnchor" xml:id="a34" target="#n34" n="34"/>, and would
                we had also perfect knowledge of these, which we pray may be given to us by God.</ab>
-            <ab>We were not surprised to hear that those without are at peace with you, since we recalled to
+            <ab xml:id="section-34.7" n="7">We were not surprised to hear that those without are at peace with you, since we recalled to
                mind the divine declaration which says to the righteous man, "For the beasts of the field shall
-               be at peace with thee"<note type="footnote" n="279">Job, v, 23.</note>.
+               be at peace with thee"<ptr type="noteAnchor" xml:id="a35" target="#n35" n="35"/>.
                Therefore also we again praised him who confessed these things without falsehood.</ab>
             <trailer resp="#compiler">The end of the letter to <persName ref="http://syriaca.org/person/2641">Elisha</persName> the presbyter and
                archimandrite.</trailer>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">rammarian of Caesarea
+                  (Joh., Vit. <persName ref="http://syriaca.org/person/51">Severus</persName>, in P. O., II, 278), a work which exists only in fragments: see Wright,
+                  Catalogue of Syriac MSS. in the British Meseum, p. 1323; Lebon, Le Monophysisme Severien, p.
+                  147.</note>
+        <note xml:id="n2" target="#a2" n="2">Hebrews xi, 40.</note>
+        <note xml:id="n3" target="#a3" n="3">Matthew, xi, 12.</note>
+        <note xml:id="n4" target="#a4" n="4">Job, xxiii, 13.</note>
+        <note xml:id="n5" target="#a5" n="5">2 Corinthians xi, 9.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">παρρησία</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">Perh. read <foreign xml:lang="syr">ܘܐܚܦܛ
+               </foreign> 'and urge'.</note>
+        <note xml:id="n9" target="#a9" n="9">2 Corinthians ix, 6, 7.</note>
+        <note xml:id="n10" target="#a10" n="10">Hebrews xii, 15.</note>
+        <note xml:id="n11" target="#a11" n="11">
+          <foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+        <note xml:id="n12" target="#a12" n="12">
+          <foreign xml:lang="grc">θεωρία</foreign>.</note>
+        <note xml:id="n13" target="#a13" n="13">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n14" target="#a14" n="14">Exp. Syn. Nic., 10 (P. G., LXXVII, 1328).</note>
+        <note xml:id="n15" target="#a15" n="15">
+          <foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+        <note xml:id="n16" target="#a16" n="16">Hosea xi, 12.</note>
+        <note xml:id="n17" target="#a17" n="17">Not in our texts of Daniel</note>
+        <note xml:id="n18" target="#a18" n="18">
+          <foreign xml:lang="grc">σχῆμα</foreign>.</note>
+        <note xml:id="n19" target="#a19" n="19">
+          <foreign xml:lang="grc">καράβια</foreign>.</note>
+        <note xml:id="n20" target="#a20" n="20">The
+                  biographer of <persName ref="http://syriaca.org/person/51">Severus</persName> (P. O., II, 7).</note>
+        <note xml:id="n21" target="#a21" n="21">See above, ep. 30.</note>
+        <note xml:id="n22" target="#a22" n="22">Proverbs xviii,
+                  19.</note>
+        <note xml:id="n23" target="#a23" n="23">
+          <foreign xml:lang="grc">σχῆμα</foreign>.</note>
+        <note xml:id="n24" target="#a24" n="24">Select
+               Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, i, 51; p. 181, 384; see below, ep. 52.</note>
+        <note xml:id="n25" target="#a25" n="25">Bishop of Joppa (op. cit., p. 207, 356, 392, 472; Zach. Rh., v, 4; Evagr., in,
+               6).</note>
+        <note xml:id="n26" target="#a26" n="26">This represents
+                  <foreign xml:lang="grc">ἐθελοθρησκεία</foreign> (Colossians ii, 23).</note>
+        <note xml:id="n27" target="#a27" n="27">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n28" target="#a28" n="28"/>
+        <note xml:id="n29" target="#a29" n="29">Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 201, 368, 382; Zach. Rh., iv, 12 (Land, p. 162);
+                  Wright, Catalogue of Syriac MSS. in the British Meseum, p. 643.</note>
+        <note xml:id="n30" target="#a30" n="30">Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 232,
+                  472.</note>
+        <note xml:id="n31" target="#a31" n="31">
+          <foreign xml:lang="grc">βῆμα</foreign>.</note>
+        <note xml:id="n32" target="#a32" n="32">
+          <foreign xml:lang="grc">κληρικοί</foreign>.</note>
+        <note xml:id="n33" target="#a33" n="33">
+          <foreign xml:lang="grc">πανδέκτης</foreign>.</note>
+        <note xml:id="n34" target="#a34" n="34">Or 'the Scriptures'.</note>
+        <note xml:id="n35" target="#a35" n="35">Job, v, 23.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

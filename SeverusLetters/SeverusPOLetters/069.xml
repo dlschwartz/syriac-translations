@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">75 [245]-104 [274]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">75 [245]-104 [274]</biblScope>
+                  <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,17 +138,17 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+            <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
-      <correspDesc>
-         <correspAction type="sent">
-            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
-         </correspAction>
-         <correspAction type="received">
-            <persName ref="http://syriaca.org/person/2597">Anastasia the deaconess</persName>
-         </correspAction>
-      </correspDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://syriaca.org/person/2597">Anastasia the deaconess</persName>
+            </correspAction>
+         </correspDesc>
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2019-11" who="http://syriaca.org/person.xml#dschwartz">Created file</change>
@@ -156,15 +157,13 @@
    <text>
       <body>
          <div type="work" xml:id="work-69" n="69">
-            <head type="main" resp="#compiler">The Letter of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName>, Patriarch of <placeName>Antioch</placeName>, To
-               <persName ref="http://syriaca.org/person/2597">Anastasia</persName> the Deaconess<note type="footnote" n="664">Ep. v, 1 after exile (see
-                  text, p. 249). A so-called life of <persName ref="http://syriaca.org/person/2597">Anastasia</persName> (there called 'patrician') exists in Add. 14649
-     (f. 99v), but is historically worthless. This letter was written after the work against <persName>Julian</persName>
-     of <placeName>Halicarnassus</placeName> (p. 272), but the allusion to <persName ref="http://syriaca.org/person/2496">Isaiah</persName> (ibid.) forbids a late date.</note>. </head>
-   <dateline resp="#ebrooks">
-    <date notBefore="0522" notAfter="0526">522-6</date>
-   </dateline>
-   <ab> While walking in the way of righteousness (I mean that of asceticism), and the monastic life,
+            <div type="section" xml:id="section-69">
+               <head type="main" resp="#compiler">The Letter of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName>, Patriarch of <placeName>Antioch</placeName>, To
+               <persName ref="http://syriaca.org/person/2597">Anastasia</persName> the Deaconess<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
+               <dateline resp="#ebrooks">
+                  <date notBefore="0522" notAfter="0526">522-6</date>
+               </dateline>
+               <ab xml:id="section-69.1" n="1"> While walking in the way of righteousness (I mean that of asceticism), and the monastic life,
     you meditate on the sublime thoughts of the God-inspired Scriptures, and gather benefit from
     them, and shun lack of knowledge and the poverty arising therefrom as something alien to the
     commandments of religion, and for this disposition therefore you are an object of praise. For
@@ -172,111 +171,83 @@
     things, but fools die in scarcity". For this reason it has decreed for you a blessing from
     above, and a life that is without sorrow and blessed: for it adds, 'The blessing of the Lord
     upon the head of the righteous, this maketh rich, and sorrow in heart shall not be added unto
-     it"<note type="footnote" n="665">Proverbs x, 21, 22.</note>. It is therefore known
+     it"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. It is therefore known
     beforehand that to me too you bring freedom from sorrow through your God-loving questions,
     inasmuch as you cause me to enjoy the pleasure of spiritual thoughts. Accordingly I will readily
-    try to give an elucidation of the rest<note type="footnote" n="666">See p. 274,
-     n. 2.</note> of your questions also. You are pleased to ask me what our Lord <persName>Jesus Christ</persName>
+    try to give an elucidation of the rest<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> of your questions also. You are pleased to ask me what our Lord <persName>Jesus Christ</persName>
     wishes to make known to us by that parable which <persName>Luke</persName> the Evangelist recorded as follows: "Who
     among you shall have a friend, and he shall go unto him at midnight and say to him, 'My friend,
     lend me three loaves, for a friend hath come to me from a journey, and I have not wherewith to
     set before him', and he from within shall answer and say, 'Trouble me not. Lo! the door is shut,
     and my children with myself are in bed. I cannot rise and give to thee'? I say unto you that, if
     he will not rise and give to him because he is his friend, because of his importunity he will
-    rise and give him as much as he needeth". For<note type="footnote" n="667">This
-     passage down to the citation is published in Greek in Mai, Class. Auct., X, 431, under the
-     heading <foreign xml:lang="grc">Σ. εἰς τὸ κατά Λουκᾶν</foreign>.</note>, us to find the reason
+    rise and give him as much as he needeth". For<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, us to find the reason
     of this parable from outside is foolish and senseless, <pb n="247"/> since our Saviour himself
     plainly added by his own words and declared that he brought this forward to convince us that we
-    ought to pray and make requests without ceasing and at all times, readily<note type="footnote"
-     n="668">Gr. <foreign xml:lang="grc">συνεχῶς</foreign>.</note> and without ever
-    growing slack or weak from the constant habit<note type="footnote" n="669">Gr.
-     om.</note>: for he added, "I also say unto you, Ask, and it shall be given unto you. Seek, and
+    ought to pray and make requests without ceasing and at all times, readily<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and without ever
+    growing slack or weak from the constant habit<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>: for he added, "I also say unto you, Ask, and it shall be given unto you. Seek, and
     ye shall find, knock, and it shall be opened unto you. For everyone that asketh receiveth; and
-    he that seeketh findeth; and to him that knocketh it shall be opened unto him"<note
-     type="footnote" n="670">Luke 11:5-10.</note>. In what precedes he delivered to
-    the disciples the form of that divine prayer which begins, "Our Father which art in heaven"<note
-       type="footnote" n="671">Luke 11:2.</note>; and so he added to it the parable
+    he that seeketh findeth; and to him that knocketh it shall be opened unto him"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>. In what precedes he delivered to
+    the disciples the form of that divine prayer which begins, "Our Father which art in heaven"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>; and so he added to it the parable
     given above, so that on all sides the object'is clear. But, since you have thought to yourself
-    that there is some spiritual, sublime, lofty allegory<note type="footnote" n="672"><foreign
-      xml:lang="grc">θεωρία</foreign>.</note> contained in the words of the parable, and ask what
+    that there is some spiritual, sublime, lofty allegory<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> contained in the words of the parable, and ask what
     those three loaves are, we ourselves also find it quite impossible not to be uplifted with your
     instruction-loving and inquiring mind, and to state the partial result which we have reached;
-    for assuredly we must not force the parables into an allegory<note type="footnote" n="673"
-    ><foreign xml:lang="grc">θεωρία</foreign>.</note> in every point. These<note
-     type="footnote" n="674">This passage to the end of the paragraph is in Mai, p.
-     430, 456 (cf. Corderius, Cat. in Luc., p. 321). Here the sentences are in a different order,
-     and are sometimes shortened.</note> three loaves I consider to be faith in <pb n="248"/> the
+    for assuredly we must not force the parables into an allegory<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> in every point. These<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> three loaves I consider to be faith in <pb n="248"/> the
     Father and in the Son and the Holy Spirit; to which it is reasonable to suppose that our Lord,
     the ' one of the Trinity ' is urging all men through these words; because indeed, as the apostle
-    said, he ' wisheth all men to be saved, and to come to the knowledge of the truth'<note
-     type="footnote" n="675">1 Timothy ii, 4. What follows is in the Gr. put into
-     <persName>Christ</persName>'s mouth.</note>. Since therefore some have wasted all their life in negligence, and
+    said, he ' wisheth all men to be saved, and to come to the knowledge of the truth'<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>. Since therefore some have wasted all their life in negligence, and
     taken no account of the faith, and at last towards the end of life come to a perception of their
     sins, and rush to the faith, the merciful one says this: "Even men of this kind, who come and
     knock at my door at an untimely hour of night, I will hear, not for the sake of justice, but
-    because of their importunity<note type="footnote" n="676">Gr. ins. <foreign
-      xml:lang="grc">ἀναίδειαν δὲ ἐνταῦθα τὴν ὑπομονὴν φησὶν κ. προσεδρείαν</foreign>.</note>, and I
+    because of their importunity<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>, and I
     will hand to them the loaves of faith, which is the confession of the Holy Trinity". The friend
-    therefore, the master of the house, is the God and Saviour <persName>Jesus</persName><note type="footnote" n="677"
-    >Gr. ins. <foreign xml:lang="grc">ὁ Χριστός</foreign>.</note>, who loves every
+    therefore, the master of the house, is the God and Saviour <persName>Jesus</persName>
+                  <ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/>, who loves every
     man, even those who have not yet believed on him, and thirsts for their salvation. But he who
     asks for the three loaves in the middle of the night is he who comes to the faith late. But the
     friend who came from a journey and was received by him we should afterwards rightly understand
     as the angel or angels who come at the end of life to take us and <pb n="249"/> conduct us on
     the last journey; for they themselves also love us, and make our salvation a subject of
     rejoicing, according to the testimony of our Lord which says, "Joy ariseth before the angels of
-    God over a sinner who repenteth"<note type="footnote" n="678">Luke xv,
-     10.</note>. But the children who are resting in the bed are those who have been brought up as
+    God over a sinner who repenteth"<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/>. But the children who are resting in the bed are those who have been brought up as
     children, and have believed the gospel with a simple heart, and have been judged worthy to rest
     with our Lord. For the lying on the bed also is a sign of rest, as our Lord himself again says
     in the Gospel of <persName>Matthew</persName>: "Many shall come from the east and from the west, and shall recline
-    with <persName>Abraham</persName> and <persName>Isaac</persName> and <persName>Jacob</persName> in the kingdom of heaven"<note type="footnote" n="679"
-    >Matthew viii, 11. The Gr. adds: <foreign xml:lang="grc">Τάχα δὲ κ. προφηρεία
-      ἐστὶ περὶ τῆς συντλείας, ὅτε διὰ τὸ πληθυνθῆναι τὴν ἀνομίαν ψυγείσης τῆς ἀγάπης τῶν πολλῶν ἡ
-      θύρα κέκλεισται, τά δὲ παιδία μετὰ τοῦ Χ. ἐστίν· ὅτε οὐ τοσοῦτον διὰ τὸ εἶναι φίλος λαμβάνει
-      τις ἄρτον, ὅσον διὰ τὴν τοῦ αἰτεῖν τρεῖς ἄρτους ἀναίδειαν</foreign>.</note>.</ab>
-   <ab>The words spoken by our Saviour to the Jews, "In order that upon you may come all the blood,
+    with <persName>Abraham</persName> and <persName>Isaac</persName> and <persName>Jacob</persName> in the kingdom of heaven"<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/>.</ab>
+               <ab xml:id="section-69.2" n="2">The words spoken by our Saviour to the Jews, "In order that upon you may come all the blood,
     of righteous men that has been shed upon the earth, from the blood of <persName>Abel</persName> the righteous to the
-    blood of <persName>Zacharias</persName><note type="footnote" n="680">(E) ins. 'son of <placeName>Barachias</placeName>'.</note> whom 
-      ye <pb n="250"/> slew between the temple and the altar"<note type="footnote"
-     n="681">Matthew xxiii, 51.</note>, have been variously understood by those who
+    blood of <persName>Zacharias</persName>
+                  <ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> whom 
+      ye <pb n="250"/> slew between the temple and the altar"<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/>, have been variously understood by those who
     have interpreted, because concerning this matter nothing is plainly stated by the God-inspired
     Scripture. But, since our Saviour's purpose requires that he should unite and comprise in the
     saying all the blood of righteous men that was unjustly shed, from <persName>Abel</persName> down to the day on which
     he himself said these things to the Jews, and lay the responsibility for this upon them and upon
-    their ancestors, it<note type="footnote" n="682">This passage to 'them' (p. 252,
-     1. 2) is in Mai, p. 432.</note> is a right and reasonable thing, as it seems to me, to
-    understand that he referred to <persName>Zacharias</persName> the priest, who begot for us the holy<note
-     type="footnote" n="683"> (AG) 'Theologian'; Gr. <foreign xml:lang="grc">θεσπέσιον</foreign>.</note> <persName>John</persName> the Forerunner and Baptist, whom a tradition not contained
+    their ancestors, it<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> is a right and reasonable thing, as it seems to me, to
+    understand that he referred to <persName>Zacharias</persName> the priest, who begot for us the holy<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/>
+                  <persName>John</persName> the Forerunner and Baptist, whom a tradition not contained
     in Scripture relates that the Jews slew between the temple and <pb n="251"/> the altar, because
-    he plainly prophesied or rather<note type="footnote" n="684"><foreign
-      xml:lang="grc">μᾶλλον</foreign>.</note> showed the God-bearer to be a virgin<note
-     type="footnote" n="685"> (AG) 'Virgin to be the God-bearer'.</note>, and him
+    he plainly prophesied or rather<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> showed the God-bearer to be a virgin<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/>, and him
     that is born of her, the great God and Saviour <persName>Jesus Christ</persName>, like some King and chief and Lord
     over their people, and did not remove the holy Virgin herself after the incomprehensible
     conception by the Holy Spirit from the virgins' place in the temple, between the temple and the
     altar, as one that was married, but knew her to be still a virgin, and allowed her to stand in
-    the same<note type="footnote" n="686">A. v, (AG) ins. 'time and'; Gr. om.</note> accustomed 
+    the same<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/> accustomed 
       place as usual. For this reason (they say) those who heard of it fell into a
-    rage and took weapons in their hands against him, fearing the king who was expected from his <pb
-     n="252"/> prophecy, who was to exercise sway over them and lay the yoke of bondage upon them.
+    rage and took weapons in their hands against him, fearing the king who was expected from his <pb n="252"/> prophecy, who was to exercise sway over them and lay the yoke of bondage upon them.
       And these things <persName ref="http://syriaca.org/person/512">Gregory</persName> the wise in divine things, the brother of Basil the great, and bishop
     of <placeName>Nyssa</placeName>, in the sermon on the Nativity of our Saviour, states thus: "But, if we are not
     straying a long way from the subject, it would perhaps not be inopportune to adduce <persName>Zacharias</persName>
     also who was slain between the temple and the altar to testify to the undefiled mother. This
     <persName>Zacharias</persName> was a priest, but not a priest only, but possessing also the gift of prophecy, and the
-    power of prophecy is proclaimed in the book of the gospel as inevitable<note type="footnote"
-     n="687"> (E) 'unblamed'; Greg. (ed.) <foreign xml:lang="grc">ἀνάγραπτος</foreign>;(l. <foreign xml:lang="grc">ἀναγκαῖος</foreign>? Luke, i, 67?).</note>,
+    power of prophecy is proclaimed in the book of the gospel as inevitable<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/>,
     in that the divine grace makes a way for men beforehand, that they may not think the birth from
     a virgin incredible, and, training the assent of those who did not believe beforehand by small
-    miracles, a child <pb n="253"/> is born to her that is barren and past age<note type="footnote"
-     n="688">The grammar is confused in both versions and in the text of Greg.</note>. This 
-      is the beginning of the miracle that is performed in the Virgin<note
-     type="footnote" n="689">Greg. <foreign xml:lang="grc">κατὰ τὴν
-      παρθενίαν</foreign>.</note>. For, as Elizabeth does not become a mother by the power of
+    miracles, a child <pb n="253"/> is born to her that is barren and past age<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/>. This 
+      is the beginning of the miracle that is performed in the Virgin<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/>. For, as Elizabeth does not become a mother by the power of
     nature, inasmuch as she had grown old in the 
-    world<note type="footnote" n="690">(A) 'her life had grown old'.</note> without 
+    world<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> without 
       bearing, but the boy's birth is referred to the
     divine will, so also the incredibility of the virgin birth-throes obtains belief by reference to
     the deity. Since therefore the son born of the barren woman, who at the voice of her that had
@@ -292,48 +263,42 @@
     controlled by this nature, so that it is in his power to make a new form of birth which will not
     cause her who has become a mother to cease from being a virgin. Therefore he did not exclude her
     in the temple from the ranks of the virgins; and this place was a space between the temple and
-    the altar. Since therefore they heard that the King of creation was coming forth<note
-     type="footnote" n="691">Greg. <foreign xml:lang="grc">προελθεῖν</foreign>.</note> by dispensation to human birth, in fear of being under a king's
+    the altar. Since therefore they heard that the King of creation was coming forth<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/> by dispensation to human birth, in fear of being under a king's
     rule they slew the man who testified these things <pb n="255"/> concerning the birth,
-     sacrificing<note type="footnote" n="692">Greg, (ed.) ἱ<foreign xml:lang="grc">ερουργήσαντα</foreign>(l. <foreign xml:lang="grc">ἱερουργήσαντες</foreign>).</note> the
-    priest at the very altar"<note type="footnote" n="693">P. G., XLVI,
-    1136.</note>. But of the <persName>Zacharias</persName> who was one of the twelve prophets we cannot reasonably
+     sacrificing<ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/> the
+    priest at the very altar"<ptr type="noteAnchor" xml:id="a30" target="#n30" n="30"/>. But of the <persName>Zacharias</persName> who was one of the twelve prophets we cannot reasonably
     understand the passage quoted, since it is not related that he was killed, but he departed from
     life by the ordinary end of human life. Wherefore also in the times of the pious king <persName>Theodosius</persName>
     the grandson of the elder <persName>Theodosius</persName> his holy body was found by revelation in the territory of
     <placeName>Eleutheropolis</placeName>, when it had not been in the least corrupted but was found as if it had been
     buried yesterday, at a place at which an oratory is now to be seen, and a temple which was
     consecrated to God in his name; and it is known and honoured by all who pass by that way. This
-    is related by a certain <persName>Sozomen</persName> who wrote ecclesiastical histories<note type="footnote" n="694"
-    >ix, 17.</note>. Some have supposed that in the above-quoted passage our Saviour
+    is related by a certain <persName>Sozomen</persName> who wrote ecclesiastical histories<ptr type="noteAnchor" xml:id="a31" target="#n31" n="31"/>. Some have supposed that in the above-quoted passage our Saviour
     referred to <persName>Zacharias</persName> the son of <persName>Jehoiada</persName> who was put to death by <persName>Joash</persName>, king of the Jews. But
     this explanation is futile, and is refuted by the facts themselves. For it is not the case that
-    the foul murder of prophets and priests, the murder which it is the intention of the <pb n="256"
-    /> evangelic saying of our Saviour to set forth, was perpetrated down to his time and then
+    the foul murder of prophets and priests, the murder which it is the intention of the <pb n="256"/> evangelic saying of our Saviour to set forth, was perpetrated down to his time and then
     ended: for after <persName>Joash</persName> other kings of the Jews also reigned who turned aside to idolatry, and,
     as is natural, were ill-disposed towards those who pleased God; among whom <persName>Manasseh</persName> is said to
     have put <persName ref="http://syriaca.org/person/2496">Isaiah</persName> the great among prophets to death with a saw. But besides these things we should
     know this also, that the man who was put do death by <persName>Joash</persName> was called <persName>Azarias</persName> and not <persName>Zacharias</persName>,
     though in certain copies some men have changed the name, and by a slight change have written
-    '<persName>Azarias</persName>' as '<persName>Zacharias</persName>'<note type="footnote" n="695">2 Chronicles xxiv, 20.</note>.
+    '<persName>Azarias</persName>' as '<persName>Zacharias</persName>'<ptr type="noteAnchor" xml:id="a32" target="#n32" n="32"/>.
     Accordingly for all these reasons it seems to be a just conclusion that we must consequently
     understand our Saviour's saying of the father of <persName>John</persName> the Baptist, as the holy <persName ref="http://syriaca.org/person/512">Gregory</persName> said.</ab>
-   <ab>Of the passage written by the wise <persName>Paul</persName> in the first epistle to the Corinthians, "He that
-    speaketh with tongues edifieth himself, but he that prophesieth edifieth the church<note
-     type="footnote" n="696">1 Corinthians xiv, 4.</note>", this is the elucidation. In the
-    times in which the apostles were "propagating the saving preaching of the gospel in the <pb
-     n="257"/> world, many of those who believed worked signs and prodigies, in order to bring
+               <ab xml:id="section-69.3" n="3">Of the passage written by the wise <persName>Paul</persName> in the first epistle to the Corinthians, "He that
+    speaketh with tongues edifieth himself, but he that prophesieth edifieth the church<ptr type="noteAnchor" xml:id="a33" target="#n33" n="33"/>", this is the elucidation. In the
+    times in which the apostles were "propagating the saving preaching of the gospel in the <pb n="257"/> world, many of those who believed worked signs and prodigies, in order to bring
     unbelievers to accept the truth. For it is for this cause that miracles are numerous among
     unbelievers, and not among those who have already believed, according to the saying of the same
-     <persName>Paul</persName><note type="footnote" n="697">1 Corinthians xiv, 22.</note>. For this very same
+     <persName>Paul</persName>
+                  <ptr type="noteAnchor" xml:id="a34" target="#n34" n="34"/>. For this very same
     reason the gifts of the Spirit were given with greater liberality, and more openly, to these who
     were being brought to the faith. And those who were baptized often spoke with tongues
     immediately, and some were thought worthy to receive prophetic inspiration, while certain others
     even enjoyed the possession of both, as is written in the book of the Acts about some men who
     were baptized by <persName>Paul</persName> at <placeName>Ephesus</placeName>, as follows: "But, when they had heard it, <pb n="258"/> they
     were baptized in the name of the Lord <persName>Jesus</persName>. And, when <persName>Paul</persName> had laid his hand upon them, the
-    Holy Spirit came upon them, and they spake with tongues and prophesied"<note type="footnote"
-     n="698">Acts XIX, 5, 6.</note>. This grace therefore flourished among the
+    Holy Spirit came upon them, and they spake with tongues and prophesied"<ptr type="noteAnchor" xml:id="a35" target="#n35" n="35"/>. This grace therefore flourished among the
     Corinthians also at that time, and some used to speak with tongues, while others were thought
     worthy to prophesy. And the form of prophecy was such that it was made known not only by
     foretelling the future but also by the commingling of words of instruction which corrected
@@ -346,50 +311,41 @@
     only, but does not benefit the soul of the hearers by reforming morals: but he who prophesies
     and weaves a web of moral teaching, and reproves secret things of the heart, and purifies the
     souls of the hearers from shameful passions, edifies the church, and acquires the gift of
-    prophesy or of teaching for others rather<note type="footnote" n="699"><foreign
-      xml:lang="grc">μᾶλλον</foreign>.</note> than for himself".</ab>
-   <ab>The meaning of <persName>Job</persName>'s saying, "May the blessing of him that hath perished come upon me"<note
-     type="footnote" n="700"><persName>Job</persName>, xxix, 13.</note> is plain to those who read with
+    prophesy or of teaching for others rather<ptr type="noteAnchor" xml:id="a36" target="#n36" n="36"/> than for himself".</ab>
+               <ab xml:id="section-69.4" n="4">The meaning of <persName>Job</persName>'s saying, "May the blessing of him that hath perished come upon me"<ptr type="noteAnchor" xml:id="a37" target="#n37" n="37"/> is plain to those who read with
     intelligence and not carelessly from the fact that it follows the words which precede, and from
      <pb n="260"/> the words which next follow. This is what he says: "Often have I seen a man
     suffering extreme tortures, and just on the point of perishing, as perhaps when enemies were
-    upon him, or violent men, and have rescued him from distress<note type="footnote" n="701"
-    ><foreign xml:lang="grc">ἀνάγκη</foreign>.</note> and saved him; and such a one
+    upon him, or violent men, and have rescued him from distress<ptr type="noteAnchor" xml:id="a38" target="#n38" n="38"/> and saved him; and such a one
     has blessed me, because against all hope he had been delivered from the destruction that was
-    impending over him<note type="footnote" n="702">(E) 'hope had been found for
-     him who was without hope, and through the same he had been saved'.</note>. May that blessing
-    therefore come upon me, and may God bring it to effect"<note type="footnote" n="703"
-    >H ins. 'And this applies also to those who are sent and go down into the
-     world'.</note>. That this is so the words which follow will prove as I said before. What in
+    impending over him<ptr type="noteAnchor" xml:id="a39" target="#n39" n="39"/>. May that blessing
+    therefore come upon me, and may God bring it to effect"<ptr type="noteAnchor" xml:id="a40" target="#n40" n="40"/>. That this is so the words which follow will prove as I said before. What in
     fact does he say? "For I delivered the poor from the hand of the powerful, and I helped the
     orphan who had no helper. May the blessing of him that hath perished come upon me; and the mouth
-     <pb n="261"/> of the widow hath blessed me"<note type="footnote" n="704"><persName>Job</persName>,
-     xxix, 12, 13.</note>. But one may also understand this in a higher sense as a parable. For our
+     <pb n="261"/> of the widow hath blessed me"<ptr type="noteAnchor" xml:id="a41" target="#n41" n="41"/>. But one may also understand this in a higher sense as a parable. For our
     Lord also says in the gospels about those who mortify their soul to the world, and give up their
-    body to the arena<note type="footnote" n="705"><foreign xml:lang="grc">στάδιον</foreign>.</note> of martyrdom, or to labours of asceticism, and are thereby thought
+    body to the arena<ptr type="noteAnchor" xml:id="a42" target="#n42" n="42"/> of martyrdom, or to labours of asceticism, and are thereby thought
     to be destroying and slaying their soul, because they are deprived of worldly pleasure: "He that
-    destroyeth his soul for my sake shall find it"<note type="footnote" n="706">Matthew x, 39; Luke, ix, 34.</note>. The prayer and blessing therefore of a man who has thus
+    destroyeth his soul for my sake shall find it"<ptr type="noteAnchor" xml:id="a43" target="#n43" n="43"/>. The prayer and blessing therefore of a man who has thus
     perished according to our Saviour's saying and finds his soul is a great thing: and any
     right-minded man will pray that this may come upon him, and will wisely say the words, "May the
     blessing of him that hath perished come upon me".</ab>
-   <ab>As to what is written at the end of the book of <persName>Job</persName>, that he took an Arabian<note
-     type="footnote" n="707"> (AH) '.'Arbakitha'; so below.</note> wife, it is
+               <ab xml:id="section-69.5" n="5">As to what is written at the end of the book of <persName>Job</persName>, that he took an Arabian<ptr type="noteAnchor" xml:id="a44" target="#n44" n="44"/> wife, it is
     unnecessary for us to inquire much who this is, <pb n="262"/> whether this is another wife by
     whom he had other children after the calamity, or the former one, who under the magnitude of the
     afflictions that came upon him gave way and stumbled, and advised him to utter some blasphemous
     speech and depart from his pains. However it is reasonable for us to understand that the wife by
     whom the children after the calamity were born was some other one different from her. For it is
     as if adding something new that the writer uses the words: "Having taken an Arabian wife he
-    begets a son"<note type="footnote" n="708">Job, XLII, 17c.</note>. For it would
+    begets a son"<ptr type="noteAnchor" xml:id="a45" target="#n45" n="45"/>. For it would
     have been far from just that she should share in the good things, who shrank in the time of the
-    struggle, and tried to bring the combatant<note type="footnote" n="709"><foreign xml:lang="grc">ἀθλητής</foreign>.</note> down from the highest summit of endurance. <pb n="263"/>
-   </ab>
-   <ab>The words that were written by the writer in the book, and these also about <persName>Job</persName>, of whom it is
-    written that he also 'shall again rise with those whom the Lord raiseth'<note type="footnote"
-     n="710">Job 42:17a.</note>, we must suppose to have been composed with this meaning. In
+    struggle, and tried to bring the combatant<ptr type="noteAnchor" xml:id="a46" target="#n46" n="46"/> down from the highest summit of endurance. <pb n="263"/>
+               </ab>
+               <ab xml:id="section-69.6" n="6">The words that were written by the writer in the book, and these also about <persName>Job</persName>, of whom it is
+    written that he also 'shall again rise with those whom the Lord raiseth'<ptr type="noteAnchor" xml:id="a47" target="#n47" n="47"/>, we must suppose to have been composed with this meaning. In
     consequence of so great a trial he had in a sense gone down to Sheol and final destruction, so
     that even his name should thenceforth be extinguished, as he himself said when he was being
-    tormented by the pains<note type="footnote" n="711">Job 19:14.</note>, and
+    tormented by the pains<ptr type="noteAnchor" xml:id="a48" target="#n48" n="48"/>, and
     suddenly he arose as from the dead, and put off the unsightliness of the sores, and he was
     comely in body, as in the bloom of youth, and everything ended for him in a change to the best
     fortune. Therefore, lest any think that the prize of virtue ends with these things, and lest we
@@ -400,26 +356,25 @@
     are expected by us all. For he shall rise with those whom the Lord raiseth, viz. those who have
     conducted themselves after the same pattern, of whom <persName>Paul</persName> also in writing to the Hebrews says
     that all those who have borne testimony through faith 'did not receive the promises, God having
-    provided some better thing for us, that they might not be made perfect without us'<note
-     type="footnote" n="712">Hebrews XI, 39, 40.</note>. By the words which he used
+    provided some better thing for us, that they might not be made perfect without us'<ptr type="noteAnchor" xml:id="a49" target="#n49" n="49"/>. By the words which he used
     (and it is written, "He shall <pb n="265"/> again rise with those whom the Lord raiseth") the
     writer is thought to be explaining this also, that he endured such pains, not because he looked
     to the things that were given him in this.world, but to the hope of the great and wonderful
     resurrection, concerning which also he said, "I will endure for thee until I shall again
-     be"<note type="footnote" n="713">Job 14:14.</note>; and again, "For I know
+     be"<ptr type="noteAnchor" xml:id="a50" target="#n50" n="50"/>; and again, "For I know
     that he ever floweth who shall release me upon the earth. He shall raise my skin which endureth
-    these things"<note type="footnote" n="714">Job 19:25, 26.</note>. The words
+    these things"<ptr type="noteAnchor" xml:id="a51" target="#n51" n="51"/>. The words
     which are before us for the purpose of interpretation were used by the author with reference to
     the general resurrection which is expected by everyone (and the words are "He shall again rise
     with those whom the Lord raiseth"), and not, as your religiousness has supposed, to that by
     which some of the saints rose, <pb n="266"/> when our Lord took the saving Cross upon him for
-    our sakes, and the Good Shepherd laid down his soul for the sheep. For this the holy<note
-     type="footnote" n="715">(A) 'Theologian'.</note> <persName>Matthew</persName> the Evangelist
+    our sakes, and the Good Shepherd laid down his soul for the sheep. For this the holy<ptr type="noteAnchor" xml:id="a52" target="#n52" n="52"/>
+                  <persName>Matthew</persName> the Evangelist
     recorded in these words: "But <persName>Jesus</persName>, when he had cried with a loud voice, gave up the ghost. And
     lo! the veil of the temple was rent in two, from the top to the bottom, and the earth quaked,
     and the rocks were rent, and the graves were opened, and many bodies of the saints who slept
     arose, and came out from the graves, and after his resurrection went into the holy city, and
-    appeared to many"<note type="footnote" n="716">Matthew xxvii, 50-53.</note>.
+    appeared to many"<ptr type="noteAnchor" xml:id="a53" target="#n53" n="53"/>.
     Since then the Evangelist stated indefinitely that many bodies of the saints who had fallen
     asleep rose, it is unnecessary for us to inquire who these were, and if <persName>Job</persName> was among them. For
     the reason why he said 'many', and not 'all the bodies of the saints' is because the
@@ -431,18 +386,18 @@
     were prophets and some of those who lived after the same manner as they, who were well-known
     from the Holy Scriptures among the inhabitants of <placeName>Jerusalem</placeName>. This is stated also by the God-clad
       <persName ref="http://syriaca.org/person/544">Ignatius</persName>, who adorned the throne of the Antiochenes, immediately after the apostolic
-     administration<note type="footnote" n="717">(A) 'coming'.</note>, and the
+     administration<ptr type="noteAnchor" xml:id="a54" target="#n54" n="54"/>, and the
     first see of the chief of the apostles <persName>Peter</persName>, and was perfected with a crown of martyrdom. In
-    writing-to those at <pb n="268"/> <placeName>Magnesia</placeName> he wrote as follows about our Saviour <persName>Christ</persName>: "How
+    writing-to those at <pb n="268"/>
+                  <placeName>Magnesia</placeName> he wrote as follows about our Saviour <persName>Christ</persName>: "How
     shall we be able to live without him? whom the prophets also, being his disciples in the spirit,
     expected as a teacher; and for this reason he whom they rightly awaited when he came raised them
-    from the dead"<note type="footnote" n="718">Ad Magn., 9.</note>. But that we
+    from the dead"<ptr type="noteAnchor" xml:id="a55" target="#n55" n="55"/>. But that we
     should think that those who rose then, at the time of the saving Cross, remained to this day the
     words of the gospel do not permit; for they cry plainly, "They went into the holy city and
     appeared to many". The word 'appeared' plainly denotes a temporary appearance, for the purpose
-    of confirming, as we<note type="footnote" n="719">(E)'they'.</note> said, the power of our
-    Saviour, who broke the gates of bronze, and the bars of iron<note type="footnote" n="720"
-    >Psalm cvi, 16.</note> from which there is no escape, of the places <pb n="269"/>
+    of confirming, as we<ptr type="noteAnchor" xml:id="a56" target="#n56" n="56"/> said, the power of our
+    Saviour, who broke the gates of bronze, and the bars of iron<ptr type="noteAnchor" xml:id="a57" target="#n57" n="57"/> from which there is no escape, of the places <pb n="269"/>
     beneath the earth. After therefore those who rose had shown themselves at that time, they again
     laid their bodies aside and departed to their places, awaiting the general resurrection which is
     expected by everyone. That this is so, the holy <persName ref="http://syriaca.org/person/573">John</persName> bishop of <placeName>Constantinople</placeName> also testifies in
@@ -453,28 +408,23 @@
     again was alien to the purpose of one who is showing that death is finally destroyed. For it is
     for this reason also that he said that it is the last thing to be destroyed, in order that you
     may no longer fear that it will rise. For, when evil is <pb n="270"/> done away, much more shall
-    death be annihilated"<note type="footnote" n="721">In Ep. I ad Corinthians Hom. XXXIX,
-     30 (ed. Field).</note>. And in the fifteenth note which follows, when speaking about saving
-    baptism, and explaining why a man who is about to be baptized, when he repeats<note
-     type="footnote" n="722"> (E) 'learns'.</note> the baptismal confession, is
+    death be annihilated"<ptr type="noteAnchor" xml:id="a58" target="#n58" n="58"/>. And in the fifteenth note which follows, when speaking about saving
+    baptism, and explaining why a man who is about to be baptized, when he repeats<ptr type="noteAnchor" xml:id="a59" target="#n59" n="59"/> the baptismal confession, is
     baptized into the remission of sins and the resurrection of the dead, and eternal life, he says
     this: "For, since sin brought in death, the root being dried up, we must no longer dispute in
     any way about the: destruction of the fruit. Therefore after first saying 'the remission of
-    sin', he then confesses<note type="footnote" n="723">Jo. Chrys. <foreign
-      xml:lang="grc">ὁμολογεῖς</foreign> (v. l. <foreign xml:lang="grc">ὁμολογεῖ</foreign>).</note>
+    sin', he then confesses<ptr type="noteAnchor" xml:id="a60" target="#n60" n="60"/>
     also the resurrection of the dead, being led from this to that also. And afterwards, since the
     name 'resurrection' does not suffice to set forth everything (for many after they had risen
     departed again,' as <pb n="271"/> those in the Old Testament, as Lazarus, as those at the time
-    of the Cross) you are bidden<note type="footnote" n="724">A., v. (E) 'he bids';
-     Jo. Chrys. <foreign xml:lang="grc">κελεύει</foreign>.</note> to say, 'and in eternal life',
-    that none may any longer fear death after that resurrection"<note type="footnote" n="725"
-    >Op. cit., XL, 4.</note>.</ab>
-   <ab>We have now discharged, as you see, all the God-loving debt of your, esteemed questions,
+    of the Cross) you are bidden<ptr type="noteAnchor" xml:id="a61" target="#n61" n="61"/> to say, 'and in eternal life',
+    that none may any longer fear death after that resurrection"<ptr type="noteAnchor" xml:id="a62" target="#n62" n="62"/>.</ab>
+               <ab xml:id="section-69.7" n="7">We have now discharged, as you see, all the God-loving debt of your, esteemed questions,
     according to our feebleness, and according to the small measure of knowledge which has come to
     us; and we pray that there may fall to you the glorious part of <persName>Mary</persName>, who never tired of bending
     her instruction-loving ear to the saving teaching of <persName>Jesus</persName>, and upon whom that testimony was
     given which said, "For <persName>Mary</persName> hath chosen for herself the good part, which shall not be taken from
-     her"<note type="footnote" n="726">Luke x, 42.</note>. But, whereas in the
+     her"<ptr type="noteAnchor" xml:id="a63" target="#n63" n="63"/>. But, whereas in the
       previous letter to us you stated how your religious brother <persName ref="http://syriaca.org/person/2661">Innocent</persName> and the sisters stand in
     the faith, and after writing this about them, as if you had done something contrary to the
     profession of philosophy, you then added that you take no "thought for them, know clearly that
@@ -483,20 +433,18 @@
     your power, and give assistance with counsels and <pb n="272"/> prayers. For in these things our
     duty consists; and to this also the apostolic saying extends, "If any man taketh no thought for
     his own and especially those of the house, he denieth the faith, and is worse than an
-     unbeliever"<note type="footnote" n="727">1 Timothy v, 8.</note>. And that we
+     unbeliever"<ptr type="noteAnchor" xml:id="a64" target="#n64" n="64"/>. And that we
     should take thought for their worldly opulence, or for anything else that is pleasant, is the
     part of those who are not philosophers. This distinction therefore I too made, and asked the
     love of God that is in you to write to me about them; and you have done well in telling
     everything both wisely and in accordance with truth; and it is proper that the distinction in
     this point also should not escape you. Upon another matter you have asked me questions of this
-    kind.<note type="footnote" n="728"></note> have heard that <persName ref="http://syriaca.org/person/2496">Isaiah</persName><note
-     type="footnote" n="728">Select Letters of Severus, pp. 232, 473; P. G., LXXXVI,
-     45.</note> the unlawful, like <persName>Dathan</persName> and <persName>Abiram</persName>, has risen against the laws of the priesthood,
+    kind.<ptr type="noteAnchor" xml:id="a65" target="#n65" n="65"/> have heard that <persName ref="http://syriaca.org/person/2496">Isaiah</persName>
+                  <ptr type="noteAnchor" xml:id="a66" target="#n66" n="66"/> the unlawful, like <persName>Dathan</persName> and <persName>Abiram</persName>, has risen against the laws of the priesthood,
     and has trampled upon everything like a hog, with foul, disorderly, uncanonical feet; and that,
     having gone to <placeName>Pamphylia</placeName>, he has thought fit to whisper lies about me, and to say that in what I
-    wrote about the incorruptibility of the body of God and our Saviour <persName>Jesus Christ</persName><note
-     type="footnote" n="729">In the treatise against <persName>Julian</persName> of <placeName>Halicarnassus</placeName> (Add.
-     17200; Vat. Syr. 140, 255).</note> I proclaimed the faith, and said that the body was corrupted
+    wrote about the incorruptibility of the body of God and our Saviour <persName>Jesus Christ</persName>
+                  <ptr type="noteAnchor" xml:id="a67" target="#n67" n="67"/> I proclaimed the faith, and said that the body was corrupted
     and dissolved during the three days' burial, and certain similar blasphemies which are not
     plausible, which wound the ears, and disturb the souls, of those who listen without
     intelligence: and it <pb n="273"/> is therefore in my mind to send a man there carrying all that
@@ -511,10 +459,114 @@
     confidence that you have towards me, who am unworthy and fall far short of this. But I pray that
     for this perfect love you may receive rewards both in this world, and in the future and endless
     life.</ab>
-            <trailer resp="#compiler">The end of the letter to <persName ref="http://syriaca.org/person/2597">Anastasia</persName> the deaconess<note type="footnote"
-               n="730">A letter to <persName ref="http://syriaca.org/person/2597">Anastasia</persName> which is probably this exists also in Coptic in
-     Vat. Copt. 11 (Assem., B. O., I, 618).</note>. <pb n="274"/></trailer>
-  </div>
+               <trailer resp="#compiler">The end of the letter to <persName ref="http://syriaca.org/person/2597">Anastasia</persName> the deaconess<ptr type="noteAnchor" xml:id="a68" target="#n68" n="68"/>. <pb n="274"/>
+               </trailer>
+            </div>
+         </div>
+         <noteGrp>
+            <note xml:id="n1" target="#a1" n="1">Ep. v, 1 after exile (see
+                  text, p. 249). A so-called life of <persName ref="http://syriaca.org/person/2597">Anastasia</persName> (there called 'patrician') exists in Add. 14649
+     (f. 99v), but is historically worthless. This letter was written after the work against <persName>Julian</persName>
+     of <placeName>Halicarnassus</placeName> (p. 272), but the allusion to <persName ref="http://syriaca.org/person/2496">Isaiah</persName> (ibid.) forbids a late date.</note>
+            <note xml:id="n2" target="#a2" n="2">Proverbs x, 21, 22.</note>
+            <note xml:id="n3" target="#a3" n="3">See p. 274,
+     n. 2.</note>
+            <note xml:id="n4" target="#a4" n="4">This
+     passage down to the citation is published in Greek in Mai, Class. Auct., X, 431, under the
+     heading <foreign xml:lang="grc">Σ. εἰς τὸ κατά Λουκᾶν</foreign>.</note>
+            <note xml:id="n5" target="#a5" n="5">Gr. <foreign xml:lang="grc">συνεχῶς</foreign>.</note>
+            <note xml:id="n6" target="#a6" n="6">Gr.
+     om.</note>
+            <note xml:id="n7" target="#a7" n="7">Luke 11:5-10.</note>
+            <note xml:id="n8" target="#a8" n="8">Luke 11:2.</note>
+            <note xml:id="n9" target="#a9" n="9">
+               <foreign xml:lang="grc">θεωρία</foreign>.</note>
+            <note xml:id="n10" target="#a10" n="10">
+               <foreign xml:lang="grc">θεωρία</foreign>.</note>
+            <note xml:id="n11" target="#a11" n="11">This passage to the end of the paragraph is in Mai, p.
+     430, 456 (cf. Corderius, Cat. in Luc., p. 321). Here the sentences are in a different order,
+     and are sometimes shortened.</note>
+            <note xml:id="n12" target="#a12" n="12">1 Timothy ii, 4. What follows is in the Gr. put into
+     <persName>Christ</persName>'s mouth.</note>
+            <note xml:id="n13" target="#a13" n="13">Gr. ins. <foreign xml:lang="grc">ἀναίδειαν δὲ ἐνταῦθα τὴν ὑπομονὴν φησὶν κ. προσεδρείαν</foreign>.</note>
+            <note xml:id="n14" target="#a14" n="14">Gr. ins. <foreign xml:lang="grc">ὁ Χριστός</foreign>.</note>
+            <note xml:id="n15" target="#a15" n="15">Luke xv,
+     10.</note>
+            <note xml:id="n16" target="#a16" n="16">Matthew viii, 11. The Gr. adds: <foreign xml:lang="grc">Τάχα δὲ κ. προφηρεία
+      ἐστὶ περὶ τῆς συντλείας, ὅτε διὰ τὸ πληθυνθῆναι τὴν ἀνομίαν ψυγείσης τῆς ἀγάπης τῶν πολλῶν ἡ
+      θύρα κέκλεισται, τά δὲ παιδία μετὰ τοῦ Χ. ἐστίν· ὅτε οὐ τοσοῦτον διὰ τὸ εἶναι φίλος λαμβάνει
+      τις ἄρτον, ὅσον διὰ τὴν τοῦ αἰτεῖν τρεῖς ἄρτους ἀναίδειαν</foreign>.</note>
+            <note xml:id="n17" target="#a17" n="17">(E) ins. 'son of <placeName>Barachias</placeName>'.</note>
+            <note xml:id="n18" target="#a18" n="18">Matthew xxiii, 51.</note>
+            <note xml:id="n19" target="#a19" n="19">This passage to 'them' (p. 252,
+     1. 2) is in Mai, p. 432.</note>
+            <note xml:id="n20" target="#a20" n="20"> (AG) 'Theologian'; Gr. <foreign xml:lang="grc">θεσπέσιον</foreign>.</note>
+            <note xml:id="n21" target="#a21" n="21">
+               <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+            <note xml:id="n22" target="#a22" n="22"> (AG) 'Virgin to be the God-bearer'.</note>
+            <note xml:id="n23" target="#a23" n="23">A. v, (AG) ins. 'time and'; Gr. om.</note>
+            <note xml:id="n24" target="#a24" n="24"> (E) 'unblamed'; Greg. (ed.) <foreign xml:lang="grc">ἀνάγραπτος</foreign>;(l. <foreign xml:lang="grc">ἀναγκαῖος</foreign>? Luke, i, 67?).</note>
+            <note xml:id="n25" target="#a25" n="25">The grammar is confused in both versions and in the text of Greg.</note>
+            <note xml:id="n26" target="#a26" n="26">Greg. <foreign xml:lang="grc">κατὰ τὴν
+      παρθενίαν</foreign>.</note>
+            <note xml:id="n27" target="#a27" n="27">(A) 'her life had grown old'.</note>
+            <note xml:id="n28" target="#a28" n="28">Greg. <foreign xml:lang="grc">προελθεῖν</foreign>.</note>
+            <note xml:id="n29" target="#a29" n="29">Greg, (ed.) ἱ<foreign xml:lang="grc">ερουργήσαντα</foreign>(l. <foreign xml:lang="grc">ἱερουργήσαντες</foreign>).</note>
+            <note xml:id="n30" target="#a30" n="30">P. G., XLVI,
+    1136.</note>
+            <note xml:id="n31" target="#a31" n="31">ix, 17.</note>
+            <note xml:id="n32" target="#a32" n="32">2 Chronicles xxiv, 20.</note>
+            <note xml:id="n33" target="#a33" n="33">1 Corinthians xiv, 4.</note>
+            <note xml:id="n34" target="#a34" n="34">1 Corinthians xiv, 22.</note>
+            <note xml:id="n35" target="#a35" n="35">Acts XIX, 5, 6.</note>
+            <note xml:id="n36" target="#a36" n="36">
+               <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+            <note xml:id="n37" target="#a37" n="37">
+               <persName>Job</persName>, xxix, 13.</note>
+            <note xml:id="n38" target="#a38" n="38">
+               <foreign xml:lang="grc">ἀνάγκη</foreign>.</note>
+            <note xml:id="n39" target="#a39" n="39">(E) 'hope had been found for
+     him who was without hope, and through the same he had been saved'.</note>
+            <note xml:id="n40" target="#a40" n="40">H ins. 'And this applies also to those who are sent and go down into the
+     world'.</note>
+            <note xml:id="n41" target="#a41" n="41">
+               <persName>Job</persName>,
+     xxix, 12, 13.</note>
+            <note xml:id="n42" target="#a42" n="42">
+               <foreign xml:lang="grc">στάδιον</foreign>.</note>
+            <note xml:id="n43" target="#a43" n="43">Matthew x, 39; Luke, ix, 34.</note>
+            <note xml:id="n44" target="#a44" n="44"> (AH) '.'Arbakitha'; so below.</note>
+            <note xml:id="n45" target="#a45" n="45">Job, XLII, 17c.</note>
+            <note xml:id="n46" target="#a46" n="46">
+               <foreign xml:lang="grc">ἀθλητής</foreign>.</note>
+            <note xml:id="n47" target="#a47" n="47">Job 42:17a.</note>
+            <note xml:id="n48" target="#a48" n="48">Job 19:14.</note>
+            <note xml:id="n49" target="#a49" n="49">Hebrews XI, 39, 40.</note>
+            <note xml:id="n50" target="#a50" n="50">Job 14:14.</note>
+            <note xml:id="n51" target="#a51" n="51">Job 19:25, 26.</note>
+            <note xml:id="n52" target="#a52" n="52">(A) 'Theologian'.</note>
+            <note xml:id="n53" target="#a53" n="53">Matthew xxvii, 50-53.</note>
+            <note xml:id="n54" target="#a54" n="54">(A) 'coming'.</note>
+            <note xml:id="n55" target="#a55" n="55">Ad Magn., 9.</note>
+            <note xml:id="n56" target="#a56" n="56">(E)'they'.</note>
+            <note xml:id="n57" target="#a57" n="57">Psalm cvi, 16.</note>
+            <note xml:id="n58" target="#a58" n="58">In Ep. I ad Corinthians Hom. XXXIX,
+     30 (ed. Field).</note>
+            <note xml:id="n59" target="#a59" n="59"> (E) 'learns'.</note>
+            <note xml:id="n60" target="#a60" n="60">Jo. Chrys. <foreign xml:lang="grc">ὁμολογεῖς</foreign> (v. l. <foreign xml:lang="grc">ὁμολογεῖ</foreign>).</note>
+            <note xml:id="n61" target="#a61" n="61">A., v. (E) 'he bids';
+     Jo. Chrys. <foreign xml:lang="grc">κελεύει</foreign>.</note>
+            <note xml:id="n62" target="#a62" n="62">Op. cit., XL, 4.</note>
+            <note xml:id="n63" target="#a63" n="63">Luke x, 42.</note>
+            <note xml:id="n64" target="#a64" n="64">1 Timothy v, 8.</note>
+            <note xml:id="n65" target="#a65" n="65"/>
+            <note xml:id="n66" target="#a66" n="66">Select Letters of Severus, pp. 232, 473; P. G., LXXXVI,
+     45.</note>
+            <note xml:id="n67" target="#a67" n="67">In the treatise against <persName>Julian</persName> of <placeName>Halicarnassus</placeName> (Add.
+     17200; Vat. Syr. 140, 255).</note>
+            <note xml:id="n68" target="#a68" n="68">A letter to <persName ref="http://syriaca.org/person/2597">Anastasia</persName> which is probably this exists also in Coptic in
+     Vat. Copt. 11 (Assem., B. O., I, 618).</note>
+         </noteGrp>
       </body>
    </text>
 </TEI>

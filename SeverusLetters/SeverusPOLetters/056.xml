@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">334 [162]-338 [166]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">334 [162]-338 [166]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,16 +131,18 @@
    <text>
       <body>
          <div type="work" xml:id="work-56" n="56">
+        <div type="section" xml:id="section-56">
             <head type="main" resp="#compiler">Of Mar <persName ref="http://syriaca.org/person/51">Severus</persName> to <persName ref="http://syriaca.org/person/2620">Caesaria</persName> the Hypatissa, by Way of Defence
                For His Own Fear and Timidity, and That to Fear When It Has Happened That Trials Beset Us Works
                A Reward and Is a Mark of Love of God. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0517" notAfter="0521">519(?)</date>
             </dateline>
-            <ab><persName>David</persName> that king and lover of God and prophet, who was more humble than all men, when <persName>Saul</persName> had
+            <ab xml:id="section-56.1" n="1">
+            <persName>David</persName> that king and lover of God and prophet, who was more humble than all men, when <persName>Saul</persName> had
                twice armed himself against him, with many <pb n="163"/> thousands of armed men and warlike
                soldiers, and, after being in a way caught, he not only escaped in a marvellous manner from the
-               danger<note type="footnote" n="444"><foreign xml:lang="grc">κίνδυνος</foreign>.</note> which surrounded him, but even captured with his hands the man who
+               danger<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> which surrounded him, but even captured with his hands the man who
                had armed himself against him, and he had it in his power to kill him, mercifully spared him
                twice, that enemy and murderer who was so ferociously set against him. And yet, [after] he had
                received such an experience of God's support and protection, hear what kind of things he
@@ -149,53 +151,71 @@
                escape to the land of aliens, and <persName>Saul</persName> cease searching for me through the whole border of
                <placeName>Israel</placeName>, and I escape from his [hand]'. And <persName>David</persName> arose and the 600 men who were with him; and he
                went to <persName>Achish</persName> son of <persName>Maacah</persName>, [King of <placeName>Gath</placeName>]; and <persName>David</persName> settled with <persName>Achish</persName> in <placeName>Gath</placeName> he and his
-               men"<note type="footnote" n="445">1 Samuel XXVII, 1-3.</note>. Where therefore
+               men"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. Where therefore
                was then <persName ref="http://syriaca.org/person/2620">Caesaria</persName> the strongest of all persons in faith, in order that she might have said to
-               <persName>David</persName> also who was [meditating] and doing such things, "Whither flee you, O prophet? Rather<note
-                  type="footnote" n="446"><foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+               <persName>David</persName> also who was [meditating] and doing such things, "Whither flee you, O prophet? Rather<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>
                <pb n="164"/> you are forgetting God's [high and] constant right hand, which saved you and
                delivered that adversary and foeman into your hands, faithless thoughts have gained control of
                you"; and, "The land of the mightiness of that Exalted one is more worthy of confidence for your
                protection than that of <persName>Achish</persName> the barbarian. It seems to me that the words escape your memory
-               which you yourself <damage><supplied resp="#ebrooks">...</supplied></damage> sing by the Holy Spirit, which, I believe, run:
+               which you yourself <damage>
+              <supplied resp="#ebrooks">...</supplied>
+            </damage> sing by the Holy Spirit, which, I believe, run:
                'Many are the tribulations of the righteous, and the Lord will deliver them out of them all. The
                Lord preserveth all their bones, and not one of them shall be broken'; and again, 'The Lord will
-               deliver the souls of his own bondmen'<note type="footnote" n="447">Psalm  33:20, 21, 23.</note>"? 
+               deliver the souls of his own bondmen'<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>"? 
                In answer to these things <persName>David</persName> would say, "Listen, my daughter, and
-               incline thine ear'<note type="footnote" n="448">Psalm 44:11.</note>. I know the purport of the
+               incline thine ear'<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>. I know the purport of the
                spiritual songs that were sung by me better than you: but I also know the God of all, who beyond
-               all hope snatches his own peculiar bondmen out of all dangers<note type="footnote" n="449"
-                 ><foreign xml:lang="grc">κίνδυνοι</foreign>.</note>, and again, exercising them,
+               all hope snatches his own peculiar bondmen out of all dangers<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>, and again, exercising them,
                also leaves them to adopt plans derived from human thoughts, and weapons drawn from nature, in
                order that they may also flee and choose to suffer everything, and not betray God, and do aught
                that distresses him. If we trusted to his help and were incapable of falling, not weakening in
                <pb n="165"/> anything of ourselves or contributing anything, the virtue would be without
-               reward; or rather<note type="footnote" n="450"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> there would be no room at all to perform anything whatever, or to
+               reward; or rather<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> there would be no room at all to perform anything whatever, or to
                show any kind of success".</ab>
-            <ab>For this reason therefore <persName>Moses</persName> the great was afraid of the king of <placeName>Egypt</placeName> and fled, and became
+            <ab xml:id="section-56.2" n="2">For this reason therefore <persName>Moses</persName> the great was afraid of the king of <placeName>Egypt</placeName> and fled, and became
                a sojourner in the land of <placeName>Midian</placeName> for 40 years, and again he returned to <placeName>Egypt</placeName>, and transfers
                the fear to the king, and he chastised that obstinate and disobedient man with plagues by means
                of the marvellous signs. [And the one] was the effect of the virtue of <persName>Moses</persName>, that is [the
                affair] of the flight by which he fled, in order to bring just help to his countrymen who were
                being oppressed, while the other was the effect of the mightiness of God, the display of the
                great wonders.</ab>
-            <ab>And <persName>Elijah</persName> the prophet, fearing the threat of <persName>Jezebel</persName>, the wife of that prodigal<note
-               type="footnote" n="451"><foreign xml:lang="grc">ἄσωτος</foreign>.</note> and
+            <ab xml:id="section-56.3" n="3">And <persName>Elijah</persName> the prophet, fearing the threat of <persName>Jezebel</persName>, the wife of that prodigal<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> and
                impious man, was a fugitive, he who bound the clouds for three years and six months, and dried
                up the land with drought, and again by a word brought down rain. But <persName>Paul</persName> also, the great in
-               signs and wonders, was let down from the wall in a basket<note type="footnote" n="452"
-                 ><foreign xml:lang="grc">σπυρίδα</foreign>.</note> by the disciples in <placeName>Damascus</placeName>
+               signs and wonders, was let down from the wall in a basket<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> by the disciples in <placeName>Damascus</placeName>
                <pb n="166"/> and fled, when the Jews wanted to kill him; and those who took pleasure in
                hearing his teaching did not say, "Let the teacher stay with us that we may hear his very
                pleasant exposition, by means of which he causes the venomous reptiles to flee like a stag" (I
                mean the demons and evil spirits that are envious and hostile against the salvation of men). <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">After other things.</emph>)</supplied> And the
                Lord also, the Giver of powers, not being a teacher of timidity, said, "When they persecute you
-               in this city, flee ye to another"<note type="footnote" n="453">Matthew X,
-                  23.</note>, wishing us not to trust in our own strength, but rather<note type="footnote"
-                     n="454"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> be anxious about such
+               in this city, flee ye to another"<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>, wishing us not to trust in our own strength, but rather<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> be anxious about such
                things, and, when at his permission conditions of trial beset us, then indeed we must fight
                bravely.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">κίνδυνος</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">1 Samuel XXVII, 1-3.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">Psalm  33:20, 21, 23.</note>
+        <note xml:id="n5" target="#a5" n="5">Psalm 44:11.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">κίνδυνοι</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">
+          <foreign xml:lang="grc">ἄσωτος</foreign>.</note>
+        <note xml:id="n9" target="#a9" n="9">
+          <foreign xml:lang="grc">σπυρίδα</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">Matthew X,
+                  23.</note>
+        <note xml:id="n11" target="#a11" n="11">
+          <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

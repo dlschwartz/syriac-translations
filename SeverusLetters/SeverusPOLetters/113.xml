@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">277 [447]-278 [448]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">277 [447]-278 [448]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,20 +157,19 @@
    <text>
       <body>
          <div type="work" xml:id="work-113" n="113">
-            <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/3788">Zacharias</persName><note
-               type="footnote" n="1155">This may be either the biographer of <persName ref="http://syriaca.org/person/51">Severus</persName> or Z. of
-               Pelusium (Select Letters of Severus, IV., 1).</note>. </head>
+        <div type="section" xml:id="section-113">
+            <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/3788">Zacharias</persName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab> God said to <persName>Moses</persName>, "Choose thee seventy old men and I will take of thy spirit and lay it upon
-               them"<note type="footnote" n="1156">Numbers xi, 16, 17.</note>. And the God of all
+            <ab xml:id="section-113.1" n="1"> God said to <persName>Moses</persName>, "Choose thee seventy old men and I will take of thy spirit and lay it upon
+               them"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. And the God of all
                said and did these things by way of giving instruction and teaching in the direction of humility
                (for the gifts of the Spirit are not scanty or defective), and it was not because he took away
                some of the spirit that was upon <persName>Moses</persName> that he filled others with this. For the whole of it was
                both with the recipients and with him, just as one may also see in the nature of fire. When a
-               man has lighted several <pb n="448"/> torches from one torch<note type="footnote"
-                 ><foreign xml:lang="grc">λαμπάδα</foreign>.</note>, he has not diminished the
+               man has lighted several <pb n="448"/> torches from one torch<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, he has not diminished the
                one, and yet has from it caused many to be in equal honour. For the grace that was upon <persName>Moses</persName>
                appeared as it were to be darkened by the fact that the seventy shared in the same honour and
                prophesied in the Spirit. But this type was fulfilled by the future; for, when after the coming
@@ -177,6 +177,14 @@
                darkened, and the fire of the torch of the law, when brought near to the gospel, is extinguished
                by the all-brilliant rays of the Sun of righteousness.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">This may be either the biographer of <persName ref="http://syriaca.org/person/51">Severus</persName> or Z. of
+               Pelusium (Select Letters of Severus, IV., 1).</note>
+        <note xml:id="n2" target="#a2" n="2">Numbers xi, 16, 17.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">λαμπάδα</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">246 [416]-252 [422]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">246 [416]-252 [422]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,30 +157,27 @@
    <text>
       <body>
          <div type="work" xml:id="work-101" n="101">
+        <div type="section" xml:id="section-101">
             <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2620">Caesaria</persName> the Hypatissa.</head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab> But the Lord, when after the Resurrection he breathed upon the disciples <pb n="417"/> and
-               said, "Receive the Holy Spirit"<note type="footnote" n="1085">John xx.
-                  22.</note>, (since you ask this question also besides), gave them a beginning only of the gifts
+            <ab xml:id="section-101.1" n="1"> But the Lord, when after the Resurrection he breathed upon the disciples <pb n="417"/> and
+               said, "Receive the Holy Spirit"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, (since you ask this question also besides), gave them a beginning only of the gifts
                of the Spirit, and, as one may say, one kind among the many gifts of the Spirit which <persName>Paul</persName>
-               enumerated in writing to the Corinthians<note type="footnote" n="1086">1 Corinthians
-                  xii, 7-10.</note>, I mean that of binding and loosing men's sins. This was signified by the
+               enumerated in writing to the Corinthians<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, I mean that of binding and loosing men's sins. This was signified by the
                addition, in that that Giver of the gifts of the Spirit said, "If ye forgive any men's sins they
-               shall be forgiven to-them; and if ye bind any men's sins they shall be bound"<note
-                  type="footnote" n="1087">John xx, 23.</note>. And by means of the breathing he
+               shall be forgiven to-them; and if ye bind any men's sins they shall be bound"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. And by means of the breathing he
                taught them in very mysterious fashion that he is himself the Creator of <persName>Adam</persName>, whom he formed
                out of earth and into whose face he breathed the Spirit of life, and that he made man 'a living
-               soul' as it is written<note type="footnote" n="1088">Genesis ii, 7.</note>, shining
+               soul' as it is written<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, shining
                in the spiritual image and the beauty that flashes from it, and sharing in the divine likeness.
                And by breathing into the disciples he majestically shows that the Holy Spirit himself is of his
-               essence<note type="footnote" n="1089"><foreign xml:lang="grc">οὐσία</foreign>.</note> and not alien.</ab>
-            <ab>And in addition to that you ask this other question, how then we are able to explain how it is
+               essence<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and not alien.</ab>
+            <ab xml:id="section-101.2" n="2">And in addition to that you ask this other question, how then we are able to explain how it is
                that our Lord <persName>Christ</persName> does not speak falsely who says, "As <persName>Jonah</persName> was three days and three nights
                in the fish's belly, so shall the Son of man be three days and three nights in the heart of the
-               <pb n="418"/> earth<note type="footnote" n="1090">Ms. om.</note>"<note
-                  type="footnote" n="1091">Matthew XII, 40.</note>. Some say that we are to reckon
+               <pb n="418"/> earth<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>. Some say that we are to reckon
                the time from the very evening of the 5th day of the week when our Saviour supped with the
                disciples, and instituted the new Passover, causing the old to cease, since it was from that
                time that our Lord was virtually sacrificed of his own accord on our behalf, and went down into
@@ -188,15 +186,13 @@
                9th and the light from the 9th hour till sunset as the 2nd day and night, so that
                consequentially the following night and the sabbath-day make up the whole of the 3rd day and
                night, and in this way it is to be believed that our Lord rose after three days and nights. But
-               others<note type="footnote" n="1092"><persName>Dionysius</persName> of <placeName>Alexandria</placeName>; see Conybeare in
-                  Journ. Theol. Stud., XV, 440.</note> have appeared to give another elucidation upon the
-               question<note type="footnote" n="1093"><foreign xml:lang="grc">θεωρία</foreign>.</note> before us, which is subtle and very accurate. They said that
+               others<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> have appeared to give another elucidation upon the
+               question<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> before us, which is subtle and very accurate. They said that
                according to the custom and tradition contained in Scripture every day with the night preceding
-               it are<note type="footnote" n="1094">Sic Syr.</note> combined into one entity.
+               it are<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> combined into one entity.
                Thus in Exodus, when <persName>Moses</persName> was giving orders about the Passover and about the feast of
                unleavened bread, he said, "When the 14th day of the 1st month beginneth, ye <pb n="419"/> shall
-               eat unleavened bread from the evening"<note type="footnote" n="1095">Exodus XII,
-                  18.</note>, and he counted the beginning of the following day from the preceding evening: and
+               eat unleavened bread from the evening"<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>, and he counted the beginning of the following day from the preceding evening: and
                the cessation of the sabbath he instituted the same way, so that they were to cease from work on
                the preceding night and the following day; and the Jews are known to observe this down to this
                day, and to honour not the night after the sabbath but the night before the sabbath by cessation
@@ -211,15 +207,12 @@
                arrival. <pb n="420"/> And therefore, they say, we should on this principle regard the period of
                the three days' burial, and the descent of our God and Saviour who became incarnate into Sheol,
                as beginning from the time when he truly entered the heart of the earth; and that he did after
-               he gave up his spirit, saying, "My Father, into thy hands I commit my spirit"<note
-                  type="footnote" n="1096">Luke xxiii, 46.</note>, and then his spirit departed,
+               he gave up his spirit, saying, "My Father, into thy hands I commit my spirit"<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>, and then his spirit departed,
                and thus, though he was united in a perfect union, the soul and the body were separated from one
                another, and through the burial of the body he does away corruption in graves, and through the
                soul he is seen in the lower parts' of the earth, and he released those who were bound in
                graves. Then it was therefore that he entered the heart of the earth, when 'he went down', as
-               <persName>Paul</persName> says, 'to the lower parts of the earth'<note type="footnote" n="1097">Ephesians
-                  iv, 9.</note>, that is to the lowest limits and to the gloomy crowns (?)<note type="footnote"
-                     n="1098">This word is probably corrupt.</note> in the earth; From the departure
+               <persName>Paul</persName> says, 'to the lower parts of the earth'<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>, that is to the lowest limits and to the gloomy crowns (?)<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/> in the earth; From the departure
                of the spirit therefore the three day-and-nights are to be counted; and the departure took place
                at the 9th hour of the preparation, when three hours of the day remained. Since therefore the
                preparation is according to the custom handed down in Scripture united with the preceding night,
@@ -237,27 +230,53 @@
                of the week as regards the first portion, and the sabbath entirely through all the #twenty-four#
                hours, keeping the day of the Jews' feast in mourning, that thereby also he might fulfil the
                prophecy spoken through the prophet Amos, which threatens the Jews and says, "I will turn your
-               feasts into mourning, and all your songs into wailing"<note type="footnote" n="1099"
-                 >Amos, viii, 10.</note>. But those men say also that the three hours' darkness
+               feasts into mourning, and all your songs into wailing"<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/>. But those men say also that the three hours' darkness
                which took place is reckoned to be a night, and this is forced; for this darkness is not a
                night, <pb n="422"/> but an affliction of day; and they say that they are prevented from holding
                anything of the kind by the prophecy of Zechariah also, who prophesies about that day as
                follows: "On that day there shall be no light, and cold and frost shall be one day, and that day
                shall be known to the Lord, neither day nor night, and towards evening there shall be
-               light"<note type="footnote" n="1100">Zech. xiv, 6, 7.</note>. See! the prophet
+               light"<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/>. See! the prophet
                plainly says, "On that day there shall be no light", and, having first plainly named the
                darkness, he prevented such an affliction and the light which rose afterwards from being
                reckoned a night and a day by saying "neither day nor night"; and this he says plainly, in order
                that no one may reckon this a day and a night. As to the statement, "Cold and frost shall be one
                day", it is not unreasonable for us to understand it to mean that there was actually sensible
                cold and frost on that day; and supra-sensually that, because at a certain time fiery fervour
-               had grown cold among the Jews, the grace of the Holy Spirit ceased to work among them<note
-                  type="footnote" n="1101">Ms. om.</note>. This also besides we should know, that
+               had grown cold among the Jews, the grace of the Holy Spirit ceased to work among them<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/>. This also besides we should know, that
                our Lord in the gospels sometimes said that he was destined to rise on the 3rd day, and
                sometimes that he would rise after three days, the expression signifying that even the beginning
                of the 3rd day is reckoned a whole day. <pb n="423"/>
             </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">John xx.
+                  22.</note>
+        <note xml:id="n2" target="#a2" n="2">1 Corinthians
+                  xii, 7-10.</note>
+        <note xml:id="n3" target="#a3" n="3">John xx, 23.</note>
+        <note xml:id="n4" target="#a4" n="4">Genesis ii, 7.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">Ms. om.</note>
+        <note xml:id="n7" target="#a7" n="7">Matthew XII, 40.</note>
+        <note xml:id="n8" target="#a8" n="8">
+          <persName>Dionysius</persName> of <placeName>Alexandria</placeName>; see Conybeare in
+                  Journ. Theol. Stud., XV, 440.</note>
+        <note xml:id="n9" target="#a9" n="9">
+          <foreign xml:lang="grc">θεωρία</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">Sic Syr.</note>
+        <note xml:id="n11" target="#a11" n="11">Exodus XII,
+                  18.</note>
+        <note xml:id="n12" target="#a12" n="12">Luke xxiii, 46.</note>
+        <note xml:id="n13" target="#a13" n="13">Ephesians
+                  iv, 9.</note>
+        <note xml:id="n14" target="#a14" n="14">This word is probably corrupt.</note>
+        <note xml:id="n15" target="#a15" n="15">Amos, viii, 10.</note>
+        <note xml:id="n16" target="#a16" n="16">Zech. xiv, 6, 7.</note>
+        <note xml:id="n17" target="#a17" n="17">Ms. om.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

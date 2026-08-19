@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">262 [90]-263 [91]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">262 [90]-263 [91]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,8 +131,9 @@
    <text>
       <body>
          <div type="work" xml:id="work-30" n="30">
-            <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to the Presbyter <persName ref="http://syriaca.org/person/2433">Victor</persName><note type="footnote" n="219">S .L., 
-               p. 154, 474. These references make it probable that the letters to <persName ref="http://syriaca.org/person/2433">Victor</persName> were written soon after episcopacy. See also below, p. 103, 106.</note>, 
+        <div type="section" xml:id="section-30">
+            <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to the Presbyter <persName ref="http://syriaca.org/person/2433">Victor</persName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, 
                Because Someone When Reading With the Same <persName ref="http://syriaca.org/person/2433">Victor</persName> in the Book of the Same
                Patriarch Said to Him That It Is Not Proper to Say That the Bread Which Is Consecrated Upon The
                Holy Altars, Which Is the Body of Emmanuel, Is Impassible and Immortal, and Is a Giver Of
@@ -145,7 +146,7 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab>For the bread that is consecrated on the holy tables and mystically transmuted is itself truly
+            <ab xml:id="section-30.1" n="1">For the bread that is consecrated on the holy tables and mystically transmuted is itself truly
                the body, the body of him in whose name it was in <pb n="91"/> fact transmuted, that is of him
                who voluntarily died and rose for our sakes. But, if it is the body of him who rose, it is plain
                that it is impassible and immortal. If we do not look at the bread that is mystically
@@ -161,6 +162,11 @@
                eyes of their senses themselves, and they have seen bloodstained flesh being broken, not the
                bread that is laid upon the altar.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">S .L., 
+               p. 154, 474. These references make it probable that the letters to <persName ref="http://syriaca.org/person/2433">Victor</persName> were written soon after episcopacy. See also below, p. 103, 106.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

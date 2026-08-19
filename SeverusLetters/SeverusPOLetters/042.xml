@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -113,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -132,20 +131,22 @@
    <text>
       <body>
          <div type="work" xml:id="work-42" n="42">
+        <div type="section" xml:id="section-42">
             <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2769">Theophanes</persName> the
                Scholastic. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0516" notAfter="0517">516-7</date>
             </dateline>
-            <ab>For that to be devoid of dispensation is a subversal of every action is testified
+            <ab xml:id="section-42.1" n="1">For that to be devoid of dispensation is a subversal of every action is testified
                also by the text of Proverbs which says thus: "They that have not dispensation fall
-               like leaves"<note type="footnote" n="375">Proverbs XI, 14.</note>.</ab>
-            <ab>
-               <supplied reason="ellipsis" resp="#compiler"><emph rend="ital">Of the same, from the
-                     same letter.</emph></supplied>
+               like leaves"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</ab>
+            <ab xml:id="section-42.2" n="2">
+               <supplied reason="ellipsis" resp="#compiler">
+              <emph rend="ital">Of the same, from the
+                     same letter.</emph>
+            </supplied>
             </ab>
-            <ab>We see that the champion<note type="footnote" n="376"><foreign
-                     xml:lang="grc">ἀγωνιστής</foreign>.</note> of the truth also, the man of
+            <ab xml:id="section-42.3" n="3">We see that the champion<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> of the truth also, the man of
                blessed and very beloved memory, <persName>Timothy</persName> archbishop of <placeName>Alexandria</placeName>, walks in the same
                paths, and through the Encyclical letter communicated with <persName>Paul</persName> of <placeName>Ephesus</placeName> and <persName>Peter</persName>
                of <placeName>Antioch</placeName>, and <persName>Anastasius</persName> of <placeName>Jerusalem</placeName>, and, to put it simply, with all who signed
@@ -154,12 +155,19 @@
                foundations, and to show that it had been unanimously condemned, and to free the
                right confession from every evil species of heresy, and from the mist that arises
                therefrom. For all those, inasmuch as they were like Moses faithful servants in all
-               God's house<note type="footnote" n="377">Hebrews iii, 5. Marg. "For
-                  all who like <persName>Moses</persName> are faithful in all God's house: but he means one to understand
-                  the church".</note>, were instructed in the sacred text of Proverbs which wisely
-               teaches and says, "He that dispenseth not his house aright inheriteth winds"<note
-                  type="footnote" n="378">Proverbs xi, 29.</note>.</ab>
+               God's house<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, were instructed in the sacred text of Proverbs which wisely
+               teaches and says, "He that dispenseth not his house aright inheriteth winds"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Proverbs XI, 14.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">ἀγωνιστής</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">Hebrews iii, 5. Marg. "For
+                  all who like <persName>Moses</persName> are faithful in all God's house: but he means one to understand
+                  the church".</note>
+        <note xml:id="n4" target="#a4" n="4">Proverbs xi, 29.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

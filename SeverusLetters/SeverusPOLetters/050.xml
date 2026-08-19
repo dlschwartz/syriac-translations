@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">325 [151]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">325 [151]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,15 +131,17 @@
    <text>
       <body>
          <div type="work" xml:id="work-50" n="50">
+        <div type="section" xml:id="section-50">
             <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2432">Dioscorus</persName> Bishop of <placeName>Alexandria</placeName>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0516" notAfter="0517">516-7</date>
             </dateline>
-            <ab>But neither can I consent to the proposals that come from your religiousness, nor is it
+            <ab xml:id="section-50.1" n="1">But neither can I consent to the proposals that come from your religiousness, nor is it
                reasonable for me to form a judgment upon the things written by the other party as if something
                certain were in question, even if it were an angel who says these things: for can I ratify words
                without witnesses and without verification while we are at a distance?</ab>
          </div>
+      </div>
       </body>
    </text>
 </TEI>

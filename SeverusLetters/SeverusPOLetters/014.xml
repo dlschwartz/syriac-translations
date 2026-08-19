@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -75,7 +77,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">208 [36]-210 [38]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">208 [36]-210 [38]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,12 +105,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -125,24 +130,22 @@
    <text>
       <body>
          <div type="work" xml:id="work-14" n="14">
+        <div type="section" xml:id="section-14">
             <head type="main" resp="#compiler">Of the Same From the Solution or Defence in Answer to the 15th
-               Question of Those That Were Sent to Him by <persName ref="http://syriaca.org/person/2770">Thomas</persName> His Syncellus<note type="footnote" n="91"
-                 >Perh. the presbyter of Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 37, 166, 182, 383; see ep.
-                  17.</note>. </head>
+               Question of Those That Were Sent to Him by <persName ref="http://syriaca.org/person/2770">Thomas</persName> His Syncellus<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab>We therefore judge that which was desired by those who assembled at <placeName>Chalcedon</placeName> against the
+            <ab xml:id="section-14.1" n="1">We therefore judge that which was desired by those who assembled at <placeName>Chalcedon</placeName> against the
                truth, to banish the confession that <persName>Christ</persName> is to be recognised as from two natures, and to
                introduce instead the confession that he is to be recognised as in two natures, as the company
                of <persName>Nestorius</persName> desire, to be abominable and also impious, and we will never propound the same
-               teaching (?) as those who, in order to open the gates to the doctrines of <persName>Nestorius</persName>, .....<note type="footnote" n="92">Some words have fallen
-                     out.</note> so we also require the opposite, that the one be openly proclaimed, and the other
+               teaching (?) as those who, in order to open the gates to the doctrines of <persName>Nestorius</persName>, .....<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> so we also require the opposite, that the one be openly proclaimed, and the other
                completely suppressed and banished in accordance <pb n="37"/> with the laws of the holy church.
                For let the means of remedy be introduced by the same similar drugs as those by which it was
                desired to produce the sickness; and let us not neglect things that are so manifest, and go
                about and pick out, or search as among reeds, and seek if anywhere in the writings of the holy
-               fathers of the orthodox<note type="footnote" n="93"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note> we occasionally find 'difference' or 'in two' or 'from two'
+               fathers of the orthodox<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> we occasionally find 'difference' or 'in two' or 'from two'
                indiscriminately and incautiously stated. Indeed in the 11th book of the interpretative
                narrative of the Gospel of <persName>John</persName> the holy <persName ref="http://syriaca.org/person/430">Cyril</persName> used the expression 'in two' of the separate
                hypostases as follows: "Everywhere and under all circumstances there will follow and coincide
@@ -150,11 +153,21 @@
                indeed the converse also is true. But, if the statement is true and is unhesitatingly received,
                that the Father is understood together with and enters together with the Son, and the Son also
                with the Father, and the knowledge of each of them runs in the two, how can the Son be a
-               creature, as. some impious men say?"<note type="footnote" n="94">In Jo. Ev., ed.
-                  Pusey, III, p. 13, 14.</note>; even as no one says that the name and fact of division and union
+               creature, as. some impious men say?"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>; even as no one says that the name and fact of division and union
                are the same, as they themselves indeed suppressed the one and stated the other. <pb n="38"/>
             </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Perh. the presbyter of Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 37, 166, 182, 383; see ep.
+                  17.</note>
+        <note xml:id="n2" target="#a2" n="2">Some words have fallen
+                     out.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">In Jo. Ev., ed.
+                  Pusey, III, p. 13, 14.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

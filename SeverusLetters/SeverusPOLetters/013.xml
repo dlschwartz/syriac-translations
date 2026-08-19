@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -75,7 +77,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">207 [35]-208 [36]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">207 [35]-208 [36]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,12 +105,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -125,21 +130,27 @@
    <text>
       <body>
          <div type="work" xml:id="work-13" n="13">
-            <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2546">Estorechius</persName> (?)<note
-               type="footnote" n="89"><persName ref="http://syriaca.org/person/2546">Entrechius</persName> is meant (Select Letters of Severus, 1, 13;
-               vi, 1; p. 407, 408).</note> Bishop of Anazarba, About the Disputation That Took Place in The
+        <div type="section" xml:id="section-13">
+            <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2546">Estorechius</persName> (?)<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Bishop of Anazarba, About the Disputation That Took Place in The
                Royal City, From Those Before Episcopacy, When He Was Speaking Against Macedonius Bishop Of
                Constantinople. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0508" notAfter="0511">508-11</date>
             </dateline>
-            <ab>But know that the great Basil did not call <persName>Christ</persName> a God-clad man (far <pb n="36"/> be it!),
+            <ab xml:id="section-13.1" n="1">But know that the great Basil did not call <persName>Christ</persName> a God-clad man (far <pb n="36"/> be it!),
                but called <persName>Christ</persName>'s flesh God-clad flesh. But the same immediately afterwards termed the same
-               flesh <persName>Christ</persName>-clad<note type="footnote" n="90">Ep. 261, 2. Migne's text has
-                  <foreign xml:lang="grc">θεοφόρος</foreign> in both places, with <foreign xml:lang="grc">χριστοφόρος</foreign> as a variant in the second.</note>. But if the expression 'God-clad'
+               flesh <persName>Christ</persName>-clad<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. But if the expression 'God-clad'
                and '<persName>Christ</persName>-clad' is the same, the conclusion is that <persName>Christ</persName> the Word who became incarnate and
                was humanized for our sakes is true God, not a God-clad man.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <persName ref="http://syriaca.org/person/2546">Entrechius</persName> is meant (Select Letters of Severus, 1, 13;
+               vi, 1; p. 407, 408).</note>
+        <note xml:id="n2" target="#a2" n="2">Ep. 261, 2. Migne's text has
+                  <foreign xml:lang="grc">θεοφόρος</foreign> in both places, with <foreign xml:lang="grc">χριστοφόρος</foreign> as a variant in the second.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

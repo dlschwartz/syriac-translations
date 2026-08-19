@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -136,8 +135,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -155,46 +154,80 @@
    <text>
       <body>
          <div type="work" xml:id="work-89" n="89">
+        <div type="section" xml:id="section-89">
             <head type="main" resp="#compiler">Of Mar <persName ref="http://syriaca.org/person/51">Severus</persName> to <persName ref="http://syriaca.org/person/2594">Ammonius</persName> the Scholastic of <placeName ref="http://syriaca.org/place/40">Bostra</placeName>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab> For <persName>Paul</persName> says, " [Those who sinned without the law] shall also perish without the
-               law; [and] those who sinned in the law shall also be judged in the law."<note
-                  type="footnote" n="880">Romans 2:12.</note><damage><supplied
-                     resp="#ebrooks">.......</supplied></damage>every created thing<damage><supplied resp="#ebrooks">.......</supplied></damage>good and evil who are creatures and a rational soul<damage><supplied resp="#ebrooks">....................</supplied></damage> 'shall stand before the judgment-seat of
-                  Christ'<note type="footnote" n="881">Romans 14:10.</note><damage><supplied
-                     resp="#ebrooks">..............</supplied></damage> [shall give account]<note
-                  type="footnote" n="882">This is the sense required.</note> for all
-               the contempt and<damage><supplied resp="#ebrooks"
-                  >................</supplied></damage> renounced the recognition of
-                     God<damage><supplied resp="#ebrooks">....................</supplied></damage>
-               and that they kept the natural law and in piety<damage><supplied resp="#ebrooks"
-                     >...............</supplied></damage> lived <damage><supplied resp="#ebrooks"
-                     >...</supplied></damage> according to the law from among those
-                     who<damage><supplied resp="#ebrooks"
-               >..............</supplied></damage>according to the law<damage><supplied resp="#ebrooks">.......................</supplied></damage>
-               <pb n="325"/> and those who<damage><supplied resp="#ebrooks"
-                  >.....</supplied></damage>the gospel-commandments<damage><supplied resp="#ebrooks">............</supplied></damage> from among those who<damage><supplied resp="#ebrooks">...........................</supplied></damage> For neither did he leave himself without
-                  witness<damage><supplied resp="#ebrooks">..........</supplied></damage> made men perfect towards righteousness,
-               since [he permitted <damage><supplied resp="#ebrooks"
-                        >....</supplied></damage>] all men in freedom of will to walk as
-               pleased them, but he<damage><supplied resp="#ebrooks"
-                        >................</supplied></damage> that, being rational, they should
+            <ab xml:id="section-89.1" n="1"> For <persName>Paul</persName> says, " [Those who sinned without the law] shall also perish without the
+               law; [and] those who sinned in the law shall also be judged in the law."<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+            <damage>
+              <supplied resp="#ebrooks">.......</supplied>
+            </damage>every created thing<damage>
+              <supplied resp="#ebrooks">.......</supplied>
+            </damage>good and evil who are creatures and a rational soul<damage>
+              <supplied resp="#ebrooks">....................</supplied>
+            </damage> 'shall stand before the judgment-seat of
+                  Christ'<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
+            <damage>
+              <supplied resp="#ebrooks">..............</supplied>
+            </damage> [shall give account]<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> for all
+               the contempt and<damage>
+              <supplied resp="#ebrooks">................</supplied>
+            </damage> renounced the recognition of
+                     God<damage>
+              <supplied resp="#ebrooks">....................</supplied>
+            </damage>
+               and that they kept the natural law and in piety<damage>
+              <supplied resp="#ebrooks">...............</supplied>
+            </damage> lived <damage>
+              <supplied resp="#ebrooks">...</supplied>
+            </damage> according to the law from among those
+                     who<damage>
+              <supplied resp="#ebrooks">..............</supplied>
+            </damage>according to the law<damage>
+              <supplied resp="#ebrooks">.......................</supplied>
+            </damage>
+               <pb n="325"/> and those who<damage>
+              <supplied resp="#ebrooks">.....</supplied>
+            </damage>the gospel-commandments<damage>
+              <supplied resp="#ebrooks">............</supplied>
+            </damage> from among those who<damage>
+              <supplied resp="#ebrooks">...........................</supplied>
+            </damage> For neither did he leave himself without
+                  witness<damage>
+              <supplied resp="#ebrooks">..........</supplied>
+            </damage> made men perfect towards righteousness,
+               since [he permitted <damage>
+              <supplied resp="#ebrooks">....</supplied>
+            </damage>] all men in freedom of will to walk as
+               pleased them, but he<damage>
+              <supplied resp="#ebrooks">................</supplied>
+            </damage> that, being rational, they should
                understand [the words that <persName>Paul</persName>] and <persName>Barnabas</persName> [said] to those who wished to sacrifice
-               to them as gods: "<damage><supplied resp="#ebrooks"
-                        >...</supplied></damage> turn [from these vain things] to the [living]
+               to them as gods: "<damage>
+              <supplied resp="#ebrooks">...</supplied>
+            </damage> turn [from these vain things] to the [living]
                God who made heaven and earth [and] the seas [and all that is in them, who in] past
                [generations] permitted all nations to go [their own] ways; and that without [leaving
                himself] without witness, in that he did good, since from heaven [itself] he gave
                them [rains and] fruitful [seasons], filling their own [hearts] with food and
-                  gladness"<note type="footnote" n="883">Acts xiv, 15.17.</note><damage><supplied resp="#ebrooks"
-                        >...............................</supplied></damage>
+                  gladness"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>
+            <damage>
+              <supplied resp="#ebrooks">...............................</supplied>
+            </damage>
                <pb n="326"/> performed unlawful deeds, and from lack of perception did not know
-               their own Maker, shall be bereft of this grace<note type="footnote" n="884"
-                 >A Greek extract from a letter to A. the scholastic is published in
-                  S. V. N. G., I, ii, 177.</note>.</ab>
+               their own Maker, shall be bereft of this grace<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Romans 2:12.</note>
+        <note xml:id="n2" target="#a2" n="2">Romans 14:10.</note>
+        <note xml:id="n3" target="#a3" n="3">This is the sense required.</note>
+        <note xml:id="n4" target="#a4" n="4">Acts xiv, 15.17.</note>
+        <note xml:id="n5" target="#a5" n="5">A Greek extract from a letter to A. the scholastic is published in
+                  S. V. N. G., I, ii, 177.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

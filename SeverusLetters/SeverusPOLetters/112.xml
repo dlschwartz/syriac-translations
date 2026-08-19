@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">276 [446]-277 [447]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">276 [446]-277 [447]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,16 +157,23 @@
    <text>
       <body>
          <div type="work" xml:id="work-112" n="112">
+        <div type="section" xml:id="section-112">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2775">Uranius</persName>. </head>
-            <ab>Therefore in the Old Testament<note type="footnote"><foreign xml:lang="grc">διαθήκη</foreign>.</note> also, when the high-priest was anointed, and at his anointing the
+            <ab xml:id="section-112.1" n="1">Therefore in the Old Testament<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> also, when the high-priest was anointed, and at his anointing the
                sacrifice of the ram of perfection was offered, the <pb n="447"/> thumb of his right hand, and
                the great toe of his right foot, and the lobe of his right ear were anointed with the blood of
-               the victim which was sacrificed<note type="footnote" n="1154">Exodus xxix, 22.
-                  26.</note>, the type signifying this, that, if he set himself to perform right actions, and if
+               the victim which was sacrificed<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, the type signifying this, that, if he set himself to perform right actions, and if
                he make great progress in them (for the hand is the emblem of deeds and of actions, and the foot
                of effort and of advance towards the things that are in front), he will have his ears fall of
                divine announcements and revelations.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">διαθήκη</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Exodus xxix, 22.
+                  26.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

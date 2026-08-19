@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">120 [290]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">120 [290]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,8 +157,8 @@
    <text>
       <body>
          <div type="work" xml:id="work-74" n="74">
-            <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2433">Victor</persName> the Presbyter<note
-               type="footnote" n="773">See ep. 30.</note>, the Beginning of Which Is, "With
+        <div type="section" xml:id="section-74">
+            <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2433">Victor</persName> the Presbyter<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, the Beginning of Which Is, "With
                great pleasure I received the letter of your God-loving wisdom". </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0521">
@@ -165,13 +166,17 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab> And these things are obvious in accordance with the primary and as one might say the
+            <ab xml:id="section-74.1" n="1"> And these things are obvious in accordance with the primary and as one might say the
                superficial sense, for it was not even my intention to touch upon the deep meaning of the
                expression: but now the very expressions which precede in <persName>Job</persName>'s speech appear to me to lead the
                man who examines them up to a higher understanding, and to show very clearly that we must
                understand the saying as referring to the Spirit of truth who proceeds from the Father, and is
                himself Life and God, who is everlastingly with the Father and the Son.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">See ep. 30.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

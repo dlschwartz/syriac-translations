@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">295 [123]-305 [133]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">295 [123]-305 [133]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,17 +131,17 @@
    <text>
       <body>
          <div type="work" xml:id="work-39" n="39">
+        <div type="section" xml:id="section-39">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter That Was Written to The
                <persName ref="http://syriaca.org/person/3786">Presbyters</persName> at Alexandria. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0516" notAfter="0518">516-8</date>
             </dateline>
-            <ab>When I took in my hands the letter that has now been addressed to me by your holinesses, I
+            <ab xml:id="section-39.1" n="1">When I took in my hands the letter that has now been addressed to me by your holinesses, I
                began to read it with such pleasure as if a son were seeing his father's face after the lapse of
                a long time. But after reading it I knew you better from the contents; for I found the letter to
                be in reality wholly occupied with fatherly reproofs; for it is often a habit of fathers also to
-               apply unfounded <pb n="124"/> reproofs to sons in order to make them more<note type="footnote"
-                  n="333"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> industrious and vigilant; but, when
+               apply unfounded <pb n="124"/> reproofs to sons in order to make them more<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> industrious and vigilant; but, when
                they see them making a wise defence to the accusation and dissipating the reproofs, then they
                exchange the desire of fault-finding for the desire of natural affection, and are filled with
                tears and exult from joy, and submit to a defeat that they have made an object of much prayer,
@@ -149,71 +149,59 @@
                defence, and judge upright judgment, and test the matter carefully as in the scales of a
                balance. You say in the letter that we departed from the strict rule in making union with the
                <persName>Isaurians</persName>, because <persName ref="http://syriaca.org/person/44">Philoxenus</persName>, when he wrote to them in the course of the controversy, testified
-               that there is nothing wanting in the edict<note type="footnote" n="334"><foreign
-                  xml:lang="grc">ἤδικτον</foreign>, i. c. the Henotikon, and so wherever 'edict' occurs in the
-                  translation.</note>, and said that he was in communion with the prelate of <placeName>Alexandria</placeName><note
-                     type="footnote" n="335">Cf. Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 20.</note>, and did
+               that there is nothing wanting in the edict<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, and said that he was in communion with the prelate of <placeName>Alexandria</placeName>
+            <ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, and did
                not omit the names of the heretics. Tell me what blame this casts upon the <persName>Isaurians</persName>, since they
                are shown to have summoned <persName ref="http://syriaca.org/person/44">Philoxenus</persName> by letter to the high standard of their profession, and,
                when he would not at that time rise to their height and range himself on the side of strictness,
                together with the others to have left those who were in communion with <pb n="125"/> <persName>Flavian</persName> who
                previously held the see of <placeName>Antioch</placeName>, and united with us only, and exposed in writing the
                imperfection of the edict, and professed that they would not otherwise enter into communion with
-               the chief of the <persName>Alexandrines</persName> until he first made a defence to the orthodox<note type="footnote"
-                  n="336"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note> in common and
+               the chief of the <persName>Alexandrines</persName> until he first made a defence to the orthodox<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> in common and
                removed from the midst the scandals which separate us from him. How then do you find fault with
                them as if they had neglected these things, things which they were in fact careful to put in
                writing? If to write to <persName ref="http://syriaca.org/person/44">Philoxenus</persName> and summon him to the perfect standard is a cause of blame in
                them, it is time for us to blame some of you also who in the royal city urged us to go [to]
                <persName ref="http://syriaca.org/person/44">Philoxenus</persName> and examine him, and to bring serious accusations against the [holy] <persName>Cyril</persName> because he
-               wrote to <persName>Acacius</persName> the prelate of <persName>Berrhoea</persName>, when he advised him to disavow the 12 chapters<note
-                  type="footnote" n="337"><foreign xml:lang="grc">κεφάλαια</foreign>.</note> and
+               wrote to <persName>Acacius</persName> the prelate of <persName>Berrhoea</persName>, when he advised him to disavow the 12 chapters<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and
                the other works against <persName>Nestorius</persName>. But it is not receiving a letter from men who are involved in
                heresies, or otherwise not of a perfect mind, which subjects us to blame, but adhering to the
                things written by [them], and not walking in a contrary direction. I am much <pb n="126"/>
                astonished at that part of your [letter in which after] saying that the edict is imperfect you
-               write lower down, "We, [when] in the chapters<note type="footnote" n="338"><foreign xml:lang="grc">κεφάλαια</foreign>.</note> which we presented to the prelate of the
+               write lower down, "We, [when] in the chapters<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> which we presented to the prelate of the
                men of <placeName>Jerusalem</placeName> we said that the edict contains a [right] profession of faith, said so as a
                concession, not as the truth". How then is it imperfect, if in truth it does not contain a right
                profession, and does not remove the scandals from the midst? That which is imperfect contains at
                any rate some part [agreeing with] that which is perfect, so that [that] which is wanting for
                perfection may be restored: but that [which] contains nothing sound [even] in part is not
-               imperfect but entirely [false]<note type="footnote" n="339">This is the sense
-                  required.</note> and is the same as that which does not exist. [But] how is it that you, when
+               imperfect but entirely [false]<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> and is the same as that which does not exist. [But] how is it that you, when
                writing to father <persName ref="http://syriaca.org/person/2442">Stephen</persName> the <persName>Isaurian</persName> of religious memory, imitated what was [formerly] said as
                a concession, and said, "The edict contains a right profession of faith"? Or how is it that the
-               God-loving fathers in <placeName>Egypt</placeName> reject the written testament<note type="footnote" n="340"
-                 ><foreign xml:lang="grc">διαθηκη</foreign>.</note> of defence which remained
+               God-loving fathers in <placeName>Egypt</placeName> reject the written testament<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> of defence which remained
                with them as they say from father <persName>John</persName> the archimandrite and bishop who is among the saints,
-               [which] is composed of the actual bare words of the edict? Or rather<note type="footnote"
-                  n="341"><foreign xml:lang="grc">μᾶλλον</foreign>.</note>, to <pb n="127"/> cite the very words
+               [which] is composed of the actual bare words of the edict? Or rather<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>, to <pb n="127"/> cite the very words
                themselves, let someone proceed to say what heresy it introduces when it is said, "For we say
                that both the miracles and the passions, which he underwent voluntarily in the flesh, belong to
                one only Son of God", and again, "Because the true and sinless Incarnation from the God-bearer
                did not bring about an addition of a Lord; for the Trinity remained a Trinity even when one of
-               the Trinity, God the Word, became incarnate"<note type="footnote" n="342">Evagr., iii, 14.</note>. But perhaps you will say that the words are rightly expressed and
+               the Trinity, God the Word, became incarnate"<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>. But perhaps you will say that the words are rightly expressed and
                free from blame, but are not sufficient to demolish the scandals; for, inasmuch as they are
                ambiguously expressed, even those also who call the one <persName>Christ</persName> two natures profess them, since
-               [they confess] the form<note type="footnote" n="343"><foreign xml:lang="grc">σχῆμα</foreign>.</note> which they call the Son who became incarnate to be one and the same
+               [they confess] the form<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> which they call the Son who became incarnate to be one and the same
                in identity of honour, in identity of name in that he is of the same [essence], in authority, as
                we ourselves elsewhere stated, when convicting the edict of ambiguity; but we ought not to open
                a door to impiety by ambiguity in what we write, according to the words of  the
                Theologian, "For this is a common sandal which is put on both feet; this is an image which looks
-               at everyone who passes; a sifting which [sifts out] everything"<note type="footnote" n="344"
-                 >I cannot find the source of this citation.</note>. But this argument is then
-               [sound]<note type="footnote" n="345">This is the sense required.</note>
+               at everyone who passes; a sifting which [sifts out] everything"<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>. But this argument is then
+               [sound]<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>
                <pb n="128"/> when the ambiguity is introduced [and the] truth condemned, [for accuracy] is then
                expelled and banished, [like that which] was done by the synod which the holy [Athanasius]
-               termed 'an assembly of Caiaphas'<note type="footnote" n="346">The synod must be
-                  either that of <placeName>Nice</placeName> (p. 134) or that of <placeName>Constantinople</placeName> in 360 (p. 130), and the author can
-                  hardly be other than <persName>Athanasius</persName>; but I cannot find the passage, unless it be De Syn.,
-                  20.</note>, [when it introduced] the expression 'like' and removed [that of] co-essentiality,
-               in order that the <persName>Arians</persName> might understand the word 'like' to mean 'resembling'<damage><supplied resp="#ebrooks">...</supplied></damage> and the orthodox<note type="footnote" n="347"><foreign
-                     xml:lang="grc">ὀρθόδοξοι</foreign>.</note> 'that which is of the same essence'<note
-                        type="footnote" n="348"><foreign xml:lang="grc">οὐσία</foreign>.</note> and
+               termed 'an assembly of Caiaphas'<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/>, [when it introduced] the expression 'like' and removed [that of] co-essentiality,
+               in order that the <persName>Arians</persName> might understand the word 'like' to mean 'resembling'<damage>
+              <supplied resp="#ebrooks">...</supplied>
+            </damage> and the orthodox<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> 'that which is of the same essence'<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> and
                'that which does not vary in anything'. But, if, when it pronounced that [the Son] is like the
-               Father, it had added, 'that is identical [in] essence<note type="footnote" n="348"
-                 ><foreign xml:lang="grc">οὐσία</foreign>.</note> with the Father', it would by
+               Father, it had added, 'that is identical [in] essence<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> with the Father', it would by
                the addition have limited the expression of likeness which is [common] to both and eradicated
                the error arising from the ambiguity. So also a man who accepts the right confession of the
                edict, if it is enough for him, and he does not add the exact words which remove the heresy,
@@ -221,22 +209,19 @@
                sentences of the holy  in that he is doing detriment to the truth. But, if besides the
                edict he both confesses one incarnate nature of God the Word and anathematizes those who speak
                of two natures after the union, and the operations and properties of these, and all the impiety
-               that was <pb n="129"/> confirmed at <placeName>Chalcedon</placeName>, he has removed the danger<note type="footnote"
-                  n="349"><foreign xml:lang="grc">κίνδυνος</foreign>.</note> that is expected
+               that was <pb n="129"/> confirmed at <placeName>Chalcedon</placeName>, he has removed the danger<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/> that is expected
                from the ambiguity, and has bound the understanding of both parties under the yoke of
                exactitude, and has also followed the law of  the Theologian who in the 3rd letter to
                <persName>Cledonius</persName> wrote thus: "Since therefore the same expressions when rightly understood are
                consistent with religion, but when badly interpreted contain foul impiety, what wonder is it if
                we accepted the words of <persName>Vitalis</persName> also in a more religious sense, for so our object urges, while
-               others are furious against the sense of the things written?"<note type="footnote" n="350"
-                 >Ep. 103 (P. G., XXXVII, 199).</note> Let us therefore acquiesce in the
+               others are furious against the sense of the things written?"<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> Let us therefore acquiesce in the
                spiritual distinctions of  the Theologian, and shun ambiguity only when it stands alone,
                and by the double meaning inflicts injury on the truth; but, when it is made subservient to
                accuracy by the addition of more perfect statements, let us accept it. This same teaching is
                given by <persName ref="http://syriaca.org/person/376">Basil</persName> also who has the same spirit as  in the epistle which he wrote to <persName>Maximus</persName>
                the philosopher, the words being as follows: "But for my part I must call what is yours
-               mine<note type="footnote" n="351">Bas. <foreign xml:lang="grc">ἐγώ δὲ εἰ χρή
-                  τοὐμόν ἴδιον εἰπεῖν</foreign>.</note>. As to the term 'like in essence', if it has added
+               mine<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/>. As to the term 'like in essence', if it has added
                'without variation', I accept the expression, as <pb n="130"/> coming to the same thing as
                co-essentiality, that is, according to the sound meaning of the expression 'co-essentiality',
                which those at <placeName>Nicaea</placeName> also understood, when they called the Only one 'Light of Light', 'true God
@@ -244,55 +229,108 @@
                But it is never possible for us to imagine any difference between light and light, or between
                truth and truth, or between the essence of the Only one and that of the Father. If anyone
                therefore takes it as I have said, I accept the expression. But, if anyone severs 'without
-               variation' from 'like', as those at <placeName>Constantinople</placeName><note type="footnote" n="352">In 360: see p. 128, n. 1.</note> did, I am suspicious of the phrase, as diminishing the glory
+               variation' from 'like', as those at <placeName>Constantinople</placeName>
+            <ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/> did, I am suspicious of the phrase, as diminishing the glory
                of the Only one. For even in the case of things that resemble in a few points also, and are very
-               much inferior to the originals, we are accustomed often to use the expression 'like'"<note
-                  type="footnote" n="353">Ep. 9, 3 (P. G., XXXII, 269).</note>. In accordance
+               much inferior to the originals, we are accustomed often to use the expression 'like'"<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/>. In accordance
                therefore with these enactments of the fathers, since a mention of the edict was once inserted
                in the defence of the <persName>Isaurians</persName>, we have accepted it, because the whole evil-doing that is
                contrived by the ambiguity was removed by the very fact that the things that are lacking were
                added, <pb n="131"/> and a clear defence was made to us that exposed the imperfection of the
-               edict. These things I was desirous to write, not out of self-seeking<note type="footnote"
-                  n="354">Representing <foreign xml:lang="grc">φιλοτιμία</foreign>.</note>, but because I have
+               edict. These things I was desirous to write, not out of self-seeking<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/>, but because I have
                inserted in the letter a portion of what has often been addressed by me in laborious arguments
                to many who maintained that the edict sufficed for a defence. It is not as one might think
                because we cling to the memory of the edict that we are compelled to employ words of this kind,
                nor because we wish to oppose you; but, since by reason of our sins 'we have been made a
-               spectacle to the world, and to angels and to men', as the wise <persName>Paul</persName> says<note type="footnote"
-                  n="355">1 Corinthians iv, 9.</note>, and we are henceforth set under the eyes of
+               spectacle to the world, and to angels and to men', as the wise <persName>Paul</persName> says<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/>, and we are henceforth set under the eyes of
                everyone, we must speak the words of truth to everyone alike, and guard ourselves beforehand
                against causes of blame even from all quarters, and use the examples and God-inspired teachings
                of the holy fathers to guide us in what is right, and not love laughter and show ourselves
                betrayers of lawful accuracy, nor yet incur blame for lack of learning and spring beyond the
                bounds of the wrestling-space, but wisely consider the saying of <persName>Koheleth</persName>, "There is a righteous
-               man who perisheth in his righteousness"<note type="footnote" n="356">Ecclesiastes vii,
-                  13.</note>. Even now we are ready, and that since the holy <pb n="132"/> <persName>John</persName> the presbyter and
-               archimandrite <damage><supplied resp="#ebrooks">.....</supplied></damage> wrote to us, to proceed to <placeName>Egypt</placeName>, only provided
+               man who perisheth in his righteousness"<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/>. Even now we are ready, and that since the holy <pb n="132"/> <persName>John</persName> the presbyter and
+               archimandrite <damage>
+              <supplied resp="#ebrooks">.....</supplied>
+            </damage> wrote to us, to proceed to <placeName>Egypt</placeName>, only provided
                that he will choose for us a quiet spot suited for our purpose, so that we may not be annoyed by
                turbulent men, nor yet suffer injury from our opponents. For through your saintly prayers those
-               orthodox<note type="footnote" n="357"><foreign xml:lang="grc">ὀρθόδοξος</foreign>.</note> in <placeName>Isauria</placeName>, forming a determination worthy of their previous
-               life, and being the first to incur danger<note type="footnote" n="358">The word
-                  <foreign xml:lang="grc">κινδυνεῦσαι</foreign> is here preserved.</note> on behalf of the
-               common hope, have lawfully instituted an orthodox archbishop<note type="footnote" n="359"
-                 >As <persName>Solon</persName> was appointed before <persName ref="http://syriaca.org/person/51">Severus</persName> became bishop (Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName> I.2), 
-                  this must be his successor, probably <persName ref="http://syriaca.org/person/2442">Stephen</persName> (id., p. 166), who, as no bishop of <placeName>Seleucia</placeName>
-                  occurs among the exiles (Mien., p. 266), may have conformed on <persName>Justin</persName>'s accession. <persName>Solon</persName> seems
-                  to have been alive in 516 (Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName> I.22).</note>: and now both the man
+               orthodox<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> in <placeName>Isauria</placeName>, forming a determination worthy of their previous
+               life, and being the first to incur danger<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> on behalf of the
+               common hope, have lawfully instituted an orthodox archbishop<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/>: and now both the man
                himself who has been instituted [and some of] the God-loving bishops who performed his
                institution, men who were indeed known to our meanness in the royal city, have written us
                letters that are very excellent and full of propitious hopes, which we will also read to you our
-               fathers, [when] we deliberate [upon] what is beneficial. For you [will see]<note type="footnote"
-                  n="360">This is the sense required.</note> from what has been [said] that we
-               should not [reject]<note type="footnote" n="360">This is the sense
-                  required.</note> so much good, and accept the contrary, or rather<note type="footnote" n="361"
-                    ><foreign xml:lang="grc">μᾶλλον</foreign>.</note> simple [words]. And this I
-               [heartily]<note type="footnote" n="360">This is the sense required.</note> wish [your]
+               fathers, [when] we deliberate [upon] what is beneficial. For you [will see]<ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/> from what has been [said] that we
+               should not [reject]<ptr type="noteAnchor" xml:id="a30" target="#n30" n="30"/> so much good, and accept the contrary, or rather<ptr type="noteAnchor" xml:id="a31" target="#n31" n="31"/> simple [words]. And this I
+               [heartily]<ptr type="noteAnchor" xml:id="a32" target="#n32" n="32"/> wish [your]
                sanctities to believe, that I would have chosen to be burned with fire, [in order] that what is
                <pb n="133"/> gratifying to you may be done, and especially where with the gratification there
                is combined lawfulness and reasonableness. But these things, [if] God pleases, we will
-               [consider]<note type="footnote" n="362">This is the sense required.</note> at
+               [consider]<ptr type="noteAnchor" xml:id="a33" target="#n33" n="33"/> at
                length together when we meet.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">ἤδικτον</foreign>, i. c. the Henotikon, and so wherever 'edict' occurs in the
+                  translation.</note>
+        <note xml:id="n3" target="#a3" n="3">Cf. Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 20.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">κεφάλαια</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">κεφάλαια</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">This is the sense
+                  required.</note>
+        <note xml:id="n8" target="#a8" n="8">
+          <foreign xml:lang="grc">διαθηκη</foreign>.</note>
+        <note xml:id="n9" target="#a9" n="9">
+          <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">Evagr., iii, 14.</note>
+        <note xml:id="n11" target="#a11" n="11">
+          <foreign xml:lang="grc">σχῆμα</foreign>.</note>
+        <note xml:id="n12" target="#a12" n="12">I cannot find the source of this citation.</note>
+        <note xml:id="n13" target="#a13" n="13">This is the sense required.</note>
+        <note xml:id="n14" target="#a14" n="14">The synod must be
+                  either that of <placeName>Nice</placeName> (p. 134) or that of <placeName>Constantinople</placeName> in 360 (p. 130), and the author can
+                  hardly be other than <persName>Athanasius</persName>; but I cannot find the passage, unless it be De Syn.,
+                  20.</note>
+        <note xml:id="n15" target="#a15" n="15">
+          <foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+        <note xml:id="n16" target="#a16" n="16">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n17" target="#a17" n="17">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n18" target="#a18" n="18">
+          <foreign xml:lang="grc">κίνδυνος</foreign>.</note>
+        <note xml:id="n19" target="#a19" n="19">Ep. 103 (P. G., XXXVII, 199).</note>
+        <note xml:id="n20" target="#a20" n="20">Bas. <foreign xml:lang="grc">ἐγώ δὲ εἰ χρή
+                  τοὐμόν ἴδιον εἰπεῖν</foreign>.</note>
+        <note xml:id="n21" target="#a21" n="21">In 360: see p. 128, n. 1.</note>
+        <note xml:id="n22" target="#a22" n="22">Ep. 9, 3 (P. G., XXXII, 269).</note>
+        <note xml:id="n23" target="#a23" n="23">Representing <foreign xml:lang="grc">φιλοτιμία</foreign>.</note>
+        <note xml:id="n24" target="#a24" n="24">1 Corinthians iv, 9.</note>
+        <note xml:id="n25" target="#a25" n="25">Ecclesiastes vii,
+                  13.</note>
+        <note xml:id="n26" target="#a26" n="26">
+          <foreign xml:lang="grc">ὀρθόδοξος</foreign>.</note>
+        <note xml:id="n27" target="#a27" n="27">The word
+                  <foreign xml:lang="grc">κινδυνεῦσαι</foreign> is here preserved.</note>
+        <note xml:id="n28" target="#a28" n="28">As <persName>Solon</persName> was appointed before <persName ref="http://syriaca.org/person/51">Severus</persName> became bishop (Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName> I.2), 
+                  this must be his successor, probably <persName ref="http://syriaca.org/person/2442">Stephen</persName> (id., p. 166), who, as no bishop of <placeName>Seleucia</placeName>
+                  occurs among the exiles (Mien., p. 266), may have conformed on <persName>Justin</persName>'s accession. <persName>Solon</persName> seems
+                  to have been alive in 516 (Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName> I.22).</note>
+        <note xml:id="n29" target="#a29" n="29">This is the sense required.</note>
+        <note xml:id="n30" target="#a30" n="30">This is the sense
+                  required.</note>
+        <note xml:id="n31" target="#a31" n="31">
+          <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+        <note xml:id="n32" target="#a32" n="32">This is the sense required.</note>
+        <note xml:id="n33" target="#a33" n="33">This is the sense required.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

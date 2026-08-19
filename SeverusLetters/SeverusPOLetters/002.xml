@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -75,7 +77,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">186 [14]-194 [22]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">186 [14]-194 [22]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,12 +105,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -125,12 +130,13 @@
    <text>
       <body>
          <div type="work" xml:id="work-2" n="2">
+        <div type="section" xml:id="section-2">
             <head type="main" resp="#compiler">Of the Same the Second Letter To the Same <persName ref="http://syriaca.org/person/56">Oecumenius</persName> the Count
                Upon the Same Matter, and It Is Among Those Written During Episcopacy. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab>I wonder how it is that your God-loving magnificence has picked <pb n="15"/> up again from the
+            <ab xml:id="section-2.1" n="1">I wonder how it is that your God-loving magnificence has picked <pb n="15"/> up again from the
                beginning the contention that had been put to silence. While confessing Emmanuel to be of two
                natures, to suppose the elements of which he consists to be generalities covering many
                hypostases (this is what is meant by the property of a generality) is a thing that is very
@@ -139,20 +145,16 @@
                account; for there would be the whole of humanity and of course the Godhead also, even before
                the Humanization of the Word. And these matters would need further conversation by word of
                mouth, not written words in a letter, which are subject to considerations of brevity, and bring
-               danger<note type="footnote" n="32"><foreign xml:lang="grc">κίνδυνος</foreign>.</note> to the writer, wherever any unusual name or unelaborated phrase is
+               danger<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> to the writer, wherever any unusual name or unelaborated phrase is
                inserted in the document. You know what words that lead to rocks you have used in your recent
                composition, and, though admitting that you do this as a concession, you have still done it. But
                to us, who by ordinance from above and mercy have attained to this priestly office, it does not
                bring honour to take such ill expressions in our mouth and consign them to writing: for it is
                written, <pb n="16"/> "The lips of a priest will guard knowledge, and they will ask law from his
-               mouth"<note type="footnote" n="33">Malachi ii, 7.</note>. Wherefore <persName>Paul</persName> also, who
-               was taken up to the third heaven, and heard ineffable words<note type="footnote" n="34">2 Corinthians
-                  xii, 2-4.</note>, knowing the difficulty of words of this kind, urged the believers to make
-               earnest and constant prayer that speech might be granted him with eloquence<note type="footnote"
-                  n="35">Ephesians vi, 19.</note>. Since then these things are so, and we decline to
-               employ a multitude of words, which as a rule do not escape sin<note type="footnote" n="36"
-                 >This perhaps represents <foreign xml:lang="grc">ἀμαρτεῖν</foreign> (to err):
-                  see p. 77, n. 3.</note>, I will use shortness of speech to your wisdom and knowledge, and ask
+               mouth"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. Wherefore <persName>Paul</persName> also, who
+               was taken up to the third heaven, and heard ineffable words<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, knowing the difficulty of words of this kind, urged the believers to make
+               earnest and constant prayer that speech might be granted him with eloquence<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. Since then these things are so, and we decline to
+               employ a multitude of words, which as a rule do not escape sin<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, I will use shortness of speech to your wisdom and knowledge, and ask
                you a very easy question. Do you call the flesh possessing an intelligent soul, which God the
                Word voluntarily united to himself hypostatically without any change, a specimen or a
                generality, that is one soul-possessing hypostasis, or the whole human generality? It is
@@ -160,22 +162,17 @@
                Accordingly we say that from it and the hypostasis of God the Word the ineffable union was made:
                for the whole of the Godhead and the whole of humanity in general were not joined in a natural
                union, but special hypostases. And the holy and wise <persName ref="http://syriaca.org/person/430">Cyril</persName> plainly witnesses to us in that in
-               <pb n="17"/> the third chapter<note type="footnote" n="37"><foreign
-                  xml:lang="grc">κεφάλαιον</foreign>.</note> or anathema he spoke thus: "Whoever divides the one
+               <pb n="17"/> the third chapter<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> or anathema he spoke thus: "Whoever divides the one
                <persName>Christ</persName> into hypostases after the union, associating them in association of honour or of
-               authority only, and not rather in junction of natural union, let him be anathema"<note
-                  type="footnote" n="38">Mansi, IV, 1081.</note>. And again in the Scholia the
-               same says: "Hence we shall learn that the hypostases have remained without confusion"<note
-                  type="footnote" n="39">Schol. de Inc. Unig., 11 (ed. Pusey, VI, p.
-                  520).</note>. Accordingly the natural union was not of generalities, but of hypostases of which
+               authority only, and not rather in junction of natural union, let him be anathema"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>. And again in the Scholia the
+               same says: "Hence we shall learn that the hypostases have remained without confusion"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>. Accordingly the natural union was not of generalities, but of hypostases of which
                Emmanuel was composed. And do not think that hypostases in all cases have a distinct person
                assigned to them, so that we should be thought, like the impious Nestorius, to speak of a union
                of persons, and to run counter to the God-inspired words of the holy <persName ref="http://syriaca.org/person/430">Cyril</persName>, who in the second
-               letter to the same Nestorius speaks thus: "But that it should be so<note type="footnote" n="40"
-                 >Gr. <foreign xml:lang="grc">εἰς τὸ οὕτως ἔχειν</foreign>.</note> will in no way
+               letter to the same Nestorius speaks thus: "But that it should be so<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> will in no way
                help the right principle of faith, even if some men spread about a union of persons. For the
                Scripture did not say that God the Word united to himself the person of a man, but that he
-               became flesh"<note type="footnote" n="41">Cyr., ed. Pusey, VI, p. 8.</note>.
+               became flesh"<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>.
                When hypostases subsist by individual subsistence, as for instance, those of <persName>Peter</persName> and of <persName>Paul</persName>,
                whom the authority of the apostleship united, then there will be a union of persons and a
                brotherly association, not a natural junction <pb n="18"/> of one hypostasis made up out of two
@@ -183,72 +180,110 @@
                Nestorius are convicted of saying with regard to the divine Humanization also. They first make
                the babe exist by himself separately, so that a distinct person is even assigned to him, and
                then by attaching God the Word to him impiously introduce a union of persons into the faith.
-               This <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian<note type="footnote" n="42"><foreign xml:lang="grc">Θεολόγος</foreign>.</note> also rejected by saying in the great letter to Cledonius: "Whoever
+               This <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> also rejected by saying in the great letter to Cledonius: "Whoever
                says that the man was formed, and God afterwards crept in is condemned: for this is not a birth
-               of God, but an escape from birth"<note type="footnote" n="43">Ep. 101 (P. G.,
-                  XXXVII, 177).</note>. But, when hypostases do not subsist in individual subsistence, as also in
+               of God, but an escape from birth"<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>. But, when hypostases do not subsist in individual subsistence, as also in
                the case of the man among us, I mean him who is composed of soul and body, but are without
                confusion recognised in union and composition, being distinguished by the intellect only and
                displaying one hypostasis made out of two, such a union none will be so uninstructed as to call
-               one of persons. Though the hypostasis of God the Word existed before, or rather<note
-                  type="footnote" n="44">
-                  <foreign xml:lang="grc">μᾶλλον</foreign>.</note> was before all ages and times, being eternally
+               one of persons. Though the hypostasis of God the Word existed before, or rather<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/> was before all ages and times, being eternally
                with God both the Father and the Holy Spirit, yet still the flesh possessing an intelligent soul
                which he united to him did not exist <pb n="19"/> before the union with him, nor was a distinct
-               person assigned to it<note type="footnote" n="45">This must be the meaning,
-                  though the grammar is awkward. Cf. p. 17, 1. 6 (text).</note>. And the great <persName>Athanasius</persName> bears
+               person assigned to it<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/>. And the great <persName>Athanasius</persName> bears
                witness, who in the letter to <persName>Jovinian</persName> the king says: "As soon as there is flesh, there is at
-               once flesh of God the Word; and, as soon as there is soul-possessing and rational flesh<note
-                  type="footnote" n="46">Omitted in the printed Greek text.</note>, there is at
-               once soul-possessing rational flesh of God the Word<note type="footnote" n="46">Omitted in the printed Greek text.</note>: for in him also it acquired subsistence"<note
-                     type="footnote" n="47">P. G., XXVIII, 531 (not in the genuine letter to
-                  Jovian).</note>. And the holy <persName ref="http://syriaca.org/person/430">Cyril</persName> also testifies, addressing the impious <persName>Diodorus</persName> as follows:
+               once flesh of God the Word; and, as soon as there is soul-possessing and rational flesh<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/>, there is at
+               once soul-possessing rational flesh of God the Word<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/>: for in him also it acquired subsistence"<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/>. And the holy <persName ref="http://syriaca.org/person/430">Cyril</persName> also testifies, addressing the impious <persName>Diodorus</persName> as follows:
                "My excellent man, I say that you are shooting forth unlearned words much affected with what is
                abhorrent. For the holy body was from <persName>Mary</persName>, but still at the very beginning of its concretion or
                subsistence in the womb it was made holy, as the body of <persName>Christ</persName>, and no one can see any time at
-               which it was not his, but rather simple as you say and the same as this flesh of other men"<note
-                  type="footnote" n="48">Contr. Diod., fr. 15 (Cyr., in Jo. Ev., ed. Pusey, III, p. 498).</note>.
+               which it was not his, but rather simple as you say and the same as this flesh of other men"<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/>.
                Following these God-inspired words of the holy fathers, and confessing our Lord <persName>Jesus Christ</persName> to
                be of two natures, regard the distinct hypostases themselves of which Emmanuel was composed, and
-               the natural junction of these, and do not go up to generalities and essences<note
-                  type="footnote" n="49"><foreign xml:lang="grc">οὐσίας</foreign></note>, of the whole of the
+               the natural junction of these, and do not go up to generalities and essences<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/>, of the whole of the
                Godhead and humanity in <pb n="20"/> general: for it is manifest that the whole of the Godhead
                is seen in the Trinity, and humanity in general draws the mind to the whole human race. How
                therefore is it anything but ridiculous and impious for us to say that the Trinity was united in
                hypostasis to the race of mankind, when the holy Scriptures say more plainly than a trumpet,
-               "The Word became flesh and dwelt in us"<note type="footnote" n="50">John 1,
-                  14.</note>, that is that one of the three hypostases who was rationally and hypostatically
+               "The Word became flesh and dwelt in us"<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/>, that is that one of the three hypostases who was rationally and hypostatically
                united to soul-possessing flesh? But neither do we deny, as we have also written in other
                letters on different occasions, that we often find men designating hypostases by the name of
-               essence<note type="footnote" n="51"><foreign xml:lang="grc">οὐσία</foreign>.</note>. Hence <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian named hypostatic union union in
-               essence<note type="footnote" n="51"><foreign xml:lang="grc">οὐσία</foreign>.</note> in the letter to <persName>Cledonius</persName> which we have just mentioned, speaking
+               essence<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/>. Hence <persName ref="http://syriaca.org/person/511">Gregory</persName> the Theologian named hypostatic union union in
+               essence<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/> in the letter to <persName>Cledonius</persName> which we have just mentioned, speaking
                thus: "Whoever says that he worked by grace as in a prophet, but not that he was united and
                fashioned together with him in essence, may he be bereft of the excellent operation, or rather
-               may he be full of the contrary"<note type="footnote" n="52">Ep. 101 (P. G.,
-                  XXXVII, 180).</note>. And the wise <persName ref="http://syriaca.org/person/430">Cyril</persName> in the second letter to <persName>Succensus</persName> calls the manhood
-               which was hypostatically united to God the Word essence<note type="footnote" n="51"
-                 ><foreign xml:lang="grc">οὐσία</foreign>.</note>, saying: "For, if after saying
+               may he be full of the contrary"<ptr type="noteAnchor" xml:id="a23" target="#n23" n="23"/>. And the wise <persName ref="http://syriaca.org/person/430">Cyril</persName> in the second letter to <persName>Succensus</persName> calls the manhood
+               which was hypostatically united to God the Word essence<ptr type="noteAnchor" xml:id="a24" target="#n24" n="24"/>, saying: "For, if after saying
                'one nature <pb n="21"/> of the Word' we had stopped and not added 'incarnate', but set the
                dispensation as it were outside, they would perhaps in a way have a plausible argument when they
                pretend to ask, 'Where is the perfection in manhood? or how was the essence after our model made
                up?' But, since the perfection in manhood and the characteristic of our essence has been
                introduced by the fact that we said 'incarnate', let them be silent, since they have leaned upon
-               the staff of a reed"<note type="footnote" n="53">Ep. 46, 3 (P. G., LXXVII,
-                  244).</note>. But saying that Emmanuel, is from two essences<note type="footnote" n="54"
-                    ><foreign xml:lang="grc">οὐσίας</foreign>.</note> also, as we confess him to be
-               from two natures, even if one understand the essences<note type="footnote" n="54"
-                 ><foreign xml:lang="grc">οὐσίας</foreign>.</note> as hypostases, we avoid, as a
+               the staff of a reed"<ptr type="noteAnchor" xml:id="a25" target="#n25" n="25"/>. But saying that Emmanuel, is from two essences<ptr type="noteAnchor" xml:id="a26" target="#n26" n="26"/> also, as we confess him to be
+               from two natures, even if one understand the essences<ptr type="noteAnchor" xml:id="a27" target="#n27" n="27"/> as hypostases, we avoid, as a
                thing that is unscientific, and has not been stated in so many words by any of the God-clad
                fathers: for in such matters we must avoid novelty, even if it has some religiousness about it,
                and with the psalmist-prophet be preserved in the tent of caution, and be hidden by grace from
-               on high, even from the contention of tongues<note type="footnote" n="55">Ps,
-                  XXX, 21.</note>. These things we have written in epistolary style, though we are in the midst
+               on high, even from the contention of tongues<ptr type="noteAnchor" xml:id="a28" target="#n28" n="28"/>. These things we have written in epistolary style, though we are in the midst
                of many troubles, and of many tens of thousands of kinds of cares. But it rests with your
                truth-loving and God-loving soul to inform us by letter if you have given up the doubts, and if
                what we have written appeared <pb n="22"/> to have been well stated, Know that the religious
-               deacon <persName ref="http://syriaca.org/person/2601">Anatolius</persName><note type="footnote" n="56">Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p.
-                  38(?).</note> has abandoned this opinion, and, though late, has thanked us. </ab>
+               deacon <persName ref="http://syriaca.org/person/2601">Anatolius</persName>
+            <ptr type="noteAnchor" xml:id="a29" target="#n29" n="29"/> has abandoned this opinion, and, though late, has thanked us. </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">κίνδυνος</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Malachi ii, 7.</note>
+        <note xml:id="n3" target="#a3" n="3">2 Corinthians
+                  xii, 2-4.</note>
+        <note xml:id="n4" target="#a4" n="4">Ephesians vi, 19.</note>
+        <note xml:id="n5" target="#a5" n="5">This perhaps represents <foreign xml:lang="grc">ἀμαρτεῖν</foreign> (to err):
+                  see p. 77, n. 3.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">κεφάλαιον</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">Mansi, IV, 1081.</note>
+        <note xml:id="n8" target="#a8" n="8">Schol. de Inc. Unig., 11 (ed. Pusey, VI, p.
+                  520).</note>
+        <note xml:id="n9" target="#a9" n="9">Gr. <foreign xml:lang="grc">εἰς τὸ οὕτως ἔχειν</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">Cyr., ed. Pusey, VI, p. 8.</note>
+        <note xml:id="n11" target="#a11" n="11">
+          <foreign xml:lang="grc">Θεολόγος</foreign>.</note>
+        <note xml:id="n12" target="#a12" n="12">Ep. 101 (P. G.,
+                  XXXVII, 177).</note>
+        <note xml:id="n13" target="#a13" n="13">
+                  <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+        <note xml:id="n14" target="#a14" n="14">This must be the meaning,
+                  though the grammar is awkward. Cf. p. 17, 1. 6 (text).</note>
+        <note xml:id="n15" target="#a15" n="15">Omitted in the printed Greek text.</note>
+        <note xml:id="n16" target="#a16" n="16">Omitted in the printed Greek text.</note>
+        <note xml:id="n17" target="#a17" n="17">P. G., XXVIII, 531 (not in the genuine letter to
+                  Jovian).</note>
+        <note xml:id="n18" target="#a18" n="18">Contr. Diod., fr. 15 (Cyr., in Jo. Ev., ed. Pusey, III, p. 498).</note>
+        <note xml:id="n19" target="#a19" n="19">
+          <foreign xml:lang="grc">οὐσίας</foreign>
+        </note>
+        <note xml:id="n20" target="#a20" n="20">John 1,
+                  14.</note>
+        <note xml:id="n21" target="#a21" n="21">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n22" target="#a22" n="22">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n23" target="#a23" n="23">Ep. 101 (P. G.,
+                  XXXVII, 180).</note>
+        <note xml:id="n24" target="#a24" n="24">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n25" target="#a25" n="25">Ep. 46, 3 (P. G., LXXVII,
+                  244).</note>
+        <note xml:id="n26" target="#a26" n="26">
+          <foreign xml:lang="grc">οὐσίας</foreign>.</note>
+        <note xml:id="n27" target="#a27" n="27">
+          <foreign xml:lang="grc">οὐσίας</foreign>.</note>
+        <note xml:id="n28" target="#a28" n="28">Ps,
+                  XXX, 21.</note>
+        <note xml:id="n29" target="#a29" n="29">Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p.
+                  38(?).</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

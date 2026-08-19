@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">281 [461]-284 [454]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">281 [461]-284 [454]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -158,72 +159,96 @@
    <text>
       <body>
          <div type="work" xml:id="work-116" n="116">
+        <div type="section" xml:id="section-116">
             <head type="main" resp="#compiler">CXVI. (Xxvii) of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName> From the Treatise Against
-               the <persName>Codicils</persName><note type="footnote"><foreign xml:lang="grc">κωδικίλλοι</foreign>.</note> Of <persName>Alexander</persName>; After Its Two Parts (?). (XXVII) (To <persName ref="http://syriaca.org/person/2427">John</persName>,
-               <persName ref="http://syriaca.org/person/2765">Theodore</persName>, and <persName ref="http://syriaca.org/person/2428">John</persName>)<note type="footnote" n="1165">This extract escaped my
-                  notice till after the appearance of fasc. 1; see ep. 27</note>.</head>
+               the <persName>Codicils</persName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Of <persName>Alexander</persName>; After Its Two Parts (?). (XXVII) (To <persName ref="http://syriaca.org/person/2427">John</persName>,
+               <persName ref="http://syriaca.org/person/2765">Theodore</persName>, and <persName ref="http://syriaca.org/person/2428">John</persName>)<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab>But he<note type="footnote" n="1166">Possibly this is <persName ref="http://syriaca.org/person/51">Severus</persName> not <persName>Alexander</persName>, and
-               the sentence the work of the compiler.</note> says concerning what is written in Matthew, "Many
-               bodies of the saints who slept arose"<note type="footnote" n="1167">Matthew 27:52.</note>: "For, if 'many', it is plain that all did not; and, if
+            <ab xml:id="section-116.1" n="1">But he<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> says concerning what is written in Matthew, "Many
+               bodies of the saints who slept arose"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>: "For, if 'many', it is plain that all did not; and, if
                'saints', it is beyond controversy that those of wicked men and. men who died in sins did not
                also rise".</ab>
-            <ab><supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And a little farther on.</emph>)</supplied>
-               For this also is the reason for which he said that they 'appeared to many'<note type="footnote"
-                 >Matthew 27:53.</note>, to show the object for which they rose, and through a thing
+            <ab xml:id="section-116.2" n="2">
+            <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And a little farther on.</emph>)</supplied>
+               For this also is the reason for which he said that they 'appeared to many'<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, to show the object for which they rose, and through a thing
                that is manifest to make known something that is not manifest, whom <persName>Christ</persName>'s descent into Sheol
                benefited, viz. the saints who had already purified their soul. For, when he went thither, he
                made proclamation to the spirits in prison also who had aforetime been disobedient according to
-               the statement of the apostle <persName>Peter</persName><note type="footnote" n="1168">1 Peter 3:19,
-                  20.</note>. And to all alike he appeared, having broken gates of bronze and shattered
-               bars<note type="footnote"><foreign xml:lang="grc">μοχλοί</foreign>.</note> of
-               iron as it is written<note type="footnote" n="1169">Psalm cvi, 16.</note>. But all
+               the statement of the apostle <persName>Peter</persName>
+            <ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>. And to all alike he appeared, having broken gates of bronze and shattered
+               bars<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> of
+               iron as it is written<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>. But all
                did not know him, nor benefit by his appearance, but those <pb n="452"/> only who lived
                uprightly, who also, if he had appeared to them while they were still living the life in the
-               flesh would certainly<note type="footnote"><foreign xml:lang="grc">πάντως</foreign>.</note> have believed on him.</ab>
-            <ab>
+               flesh would certainly<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> have believed on him.</ab>
+            <ab xml:id="section-116.3" n="3">
                <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And lower down.</emph>)</supplied> But that
                all did not rise at that time with <persName>Christ</persName>, nor all who had died benefit by his descent into
                Sheol, although he himself appeared and made proclamation to all alike, but those who had
                already purified their soul as we have said, and therefore knew him and believed, <persName ref="http://syriaca.org/person/511">Gregory</persName> the
                Theologian in the sermon on the Passover handed down, after expanding the question as is proper
-               in what he added, writing thus<note type="footnote" n="1170">This extract and
-                  the 2nd from <persName ref="http://syriaca.org/person/544">Ignatius</persName> are edited in Gr. with heading <foreign xml:lang="grc">Σευήρου</foreign>
-                  in Cramer, Cat. in, Epp. Cath., p. 67 (Lightfoot Apost. Fathers, II, i, 178); but what precedes
-                  and follows, though similar to our text, differs widely from it.</note>: "If he go down to
-               Sheol go down with him. Know the mysteries there, what is the economy of the double descent<note
-                  type="footnote" n="1171">Marg. " He calls 'the double descent' to earth in the
-                  Incarnation, and to Sheol through the soul".</note>, what the principle. Does he simply save
-               all by appearing, or there also those who believe<note type="footnote" n="1172">Or. xiv, 24.</note>?" And <persName ref="http://syriaca.org/person/544">Ignatius</persName> the truly God-clad and martyr, who, or some other man<note
-                     type="footnote" n="1173">I cannot render this otherwise (see Lightfoot, p.
-                     192).</note>, saw ineffable mysteries, so that he was even careful to say of himself, and this
+               in what he added, writing thus<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>: "If he go down to
+               Sheol go down with him. Know the mysteries there, what is the economy of the double descent<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>, what the principle. Does he simply save
+               all by appearing, or there also those who believe<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>?" And <persName ref="http://syriaca.org/person/544">Ignatius</persName> the truly God-clad and martyr, who, or some other man<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>, saw ineffable mysteries, so that he was even careful to say of himself, and this
                with humble mind, "For I also in that I am hound and am able to understand <pb n="453"/> the
                heavenly things and the angelic locations, and the princely companies, visible and again
-               invisible, am not thereby a disciple"<note type="footnote" n="1174">Ad Trall.,
-                  v.</note>, in writing to those at <placeName>Magnesia</placeName> said thus: "For the divine prophets lived in <persName>Jesus
+               invisible, am not thereby a disciple"<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/>, in writing to those at <placeName>Magnesia</placeName> said thus: "For the divine prophets lived in <persName>Jesus
                Christ</persName>; therefore also they were persecuted, being inspired by his grace in order that the
                incredulous might be persuaded that there is one God who revealed himself through <persName>Jesus Christ</persName>
                his Son"; and a little further on: "How shall we able to live without him? whom the prophets
                also, being his disciples in the spirit, expected as a teacher, and therefore he whom they
-               rightly awaited, when he came, raised them from the place of the dead"<note type="footnote"
-                  n="1175">Ad Magn., viii, ix.</note>. You see that those who like the prophets lived in <persName>Jesus
+               rightly awaited, when he came, raised them from the place of the dead"<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/>. You see that those who like the prophets lived in <persName>Jesus
                Christ</persName>, that is in justice and saintly deeds, benefited by our Saviour's descent into Sheol;
                many of whose bodies arose, and appeared for the confirmation only of the power of him who went
                down into the lower parts of the earth as I said, not to give the recompense of the resurrection
                that is promised to all together, on the day of the righteous recompensing.</ab>
-            <ab><supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And lower down.</emph>)</supplied> "For to
+            <ab xml:id="section-116.4" n="4">
+            <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And lower down.</emph>)</supplied> "For to
                this end it was preached to the dead also, that <pb n="454"/> they may be judged in the flesh as
-               men, but live in God in the spirit"<note type="footnote" n="1176">1 Peter IV,
-                  6.</note>. For it was not to the just, but chiefly to sinners and those sunk in transgression
+               men, but live in God in the spirit"<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/>. For it was not to the just, but chiefly to sinners and those sunk in transgression
                that the gospel was proclaimed, that they might judge themselves, humanly publishing a sentence
                against themselves and judging the flesh, and bringing their soul into subjection by works of
                repentance and urging it to escape from the divine judgment, since there is also fear of falling
-               into the hands of the living God<note type="footnote" n="1177">Hebrews x,
-                  31.</note>, in order that they might be judged in the flesh as men (that is, that a man in
+               into the hands of the living God<ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/>, in order that they might be judged in the flesh as men (that is, that a man in
                mercy on his soul might judge himself), but live in God in the spirit.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">κωδικίλλοι</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">This extract escaped my
+                  notice till after the appearance of fasc. 1; see ep. 27</note>
+        <note xml:id="n3" target="#a3" n="3">Possibly this is <persName ref="http://syriaca.org/person/51">Severus</persName> not <persName>Alexander</persName>, and
+               the sentence the work of the compiler.</note>
+        <note xml:id="n4" target="#a4" n="4">Matthew 27:52.</note>
+        <note xml:id="n5" target="#a5" n="5">Matthew 27:53.</note>
+        <note xml:id="n6" target="#a6" n="6">1 Peter 3:19,
+                  20.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">μοχλοί</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">Psalm cvi, 16.</note>
+        <note xml:id="n9" target="#a9" n="9">
+          <foreign xml:lang="grc">πάντως</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">This extract and
+                  the 2nd from <persName ref="http://syriaca.org/person/544">Ignatius</persName> are edited in Gr. with heading <foreign xml:lang="grc">Σευήρου</foreign>
+                  in Cramer, Cat. in, Epp. Cath., p. 67 (Lightfoot Apost. Fathers, II, i, 178); but what precedes
+                  and follows, though similar to our text, differs widely from it.</note>
+        <note xml:id="n11" target="#a11" n="11">Marg. " He calls 'the double descent' to earth in the
+                  Incarnation, and to Sheol through the soul".</note>
+        <note xml:id="n12" target="#a12" n="12">Or. xiv, 24.</note>
+        <note xml:id="n13" target="#a13" n="13">I cannot render this otherwise (see Lightfoot, p.
+                     192).</note>
+        <note xml:id="n14" target="#a14" n="14">Ad Trall.,
+                  v.</note>
+        <note xml:id="n15" target="#a15" n="15">Ad Magn., viii, ix.</note>
+        <note xml:id="n16" target="#a16" n="16">1 Peter IV,
+                  6.</note>
+        <note xml:id="n17" target="#a17" n="17">Hebrews x,
+                  31.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

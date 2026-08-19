@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -113,15 +112,15 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <persName ref="http://syriaca.org/person/"/>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -132,9 +131,10 @@
    <text>
       <body>
          <div type="work" xml:id="work-23" n="23">
+        <div type="section" xml:id="section-23">
             <head type="main" resp="#compiler">Again of the Same, From the Letter to the Presbyters and
                Archimandrites, <persName ref="http://syriaca.org/person/2689">Jonathan</persName> and <persName ref="http://syriaca.org/person/2709">Samuel</persName> and <persName ref="http://syriaca.org/person/2670">John</persName>, Who Were Standing <pb n="45"/> On Pillars, and All
-               The Rest of the Orthodox<note type="footnote" n="107"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note> Who Assembled in the Church of the City of an Bar, and in The
+               The Rest of the Orthodox<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Who Assembled in the Church of the City of an Bar, and in The
                Church of Hirtha Dnu’Man. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">
@@ -142,10 +142,9 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab>For he said, "Go make disciples of all nations, baptizing them in the name of the Father and
-               the Son, and the Holy Spirit"<note type="footnote" n="108">Matthew xxviii,
-                  19.</note>; so that there is aHoly Trinity, divided and distinct in hypostases, but not divided
-               in one essence<note type="footnote" n="109"><foreign xml:lang="grc">οὐσία</foreign>.</note> and Godhead, and kingship and glory and eternity and the other
+            <ab xml:id="section-23.1" n="1">For he said, "Go make disciples of all nations, baptizing them in the name of the Father and
+               the Son, and the Holy Spirit"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>; so that there is aHoly Trinity, divided and distinct in hypostases, but not divided
+               in one essence<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and Godhead, and kingship and glory and eternity and the other
                attributes which God has by nature. For the Father has one thing hypostatically, fatherhood, and
                the fact that he is unbegotten; and the Son again has one thing hypostatically, sonship, and the
                fact that he was begotten by the Father; and the Holy Spirit again has one thing, the fact that
@@ -153,7 +152,7 @@
                these things distinctness of person belongs to each one of them, that is, is marked out and
                defined for the hypostases, but all the other attributes are, as I have said, common, equal in
                honour and undivided, and such as show that we for our part have believed in one God, and in one
-               <pb n="46"/> essence<note type="footnote" n="109"><foreign xml:lang="grc">οὐσία</foreign>.</note>, and he exists and is made known in three hypostases. For the Son was
+               <pb n="46"/> essence<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, and he exists and is made known in three hypostases. For the Son was
                begotten by the Father, and the Spirit proceeds from the Father, although eternally and without
                time, and their ascent is to him, as to a root and source, and from him they are, though they
                are not after him. And for this reason, while we confess three hypostases, we do not believe in
@@ -162,8 +161,21 @@
                generation of the Son is, or what the procession of the Holy Spirit is; for these things are
                known only by the Father who begot and the Son who was begotten, and the Holy Spirit who
                proceeds from the Father: but he requires us to know 'through these things that we are to
-               confess one essence<note type="footnote" n="110"><foreign xml:lang="grc">οὐσία</foreign>.</note> and Godhead, made known in three distinct hypostases.</ab>
+               confess one essence<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and Godhead, made known in three distinct hypostases.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Matthew xxviii,
+                  19.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

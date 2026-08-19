@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">264 [434]-272 [442]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">264 [434]-272 [442]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,16 +157,17 @@
    <text>
       <body>
          <div type="work" xml:id="work-108" n="108">
+        <div type="section" xml:id="section-108">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName> Patriarch of <placeName>Antioch</placeName>, From the 27th Letter
                Of the 9th Book After Exile Which Was Addressed to <persName ref="http://syriaca.org/person/57">Thomas</persName> Bishop of <placeName>Germanicea</placeName>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab> "Thus saith the Lord: 'I found a hot one in the wilderness with the slain of the sword. Go
+            <ab xml:id="section-108.1" n="1"> "Thus saith the Lord: 'I found a hot one in the wilderness with the slain of the sword. Go
                and destroy not <placeName>Israel</placeName>. The Lord shall be revealed upon him afar off. With perfect love I loved
                thee; therefore I drew thee with mercy. Again I will build thee and thou shalt be built, virgin
-               <placeName>Jerusalem</placeName>'"<note type="footnote" n="1131">1131. 3. Jeremiah xxxviii, 2-4.</note>.
-               Certain men with experience of war say that generals<note type="footnote"><foreign xml:lang="grc">στρατηγός</foreign>.</note> of <pb n="435"/> armies have a custom of
+               <placeName>Jerusalem</placeName>'"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.
+               Certain men with experience of war say that generals<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> of <pb n="435"/> armies have a custom of
                bringing besides the armed forces physicians also, and, after the hosts engage with one another
                and the battle is joined, and the opposite side is defeated, they send the physicians to search
                among the fallen, and examine carefully lest there be found a man among them who is warm and has
@@ -181,15 +183,16 @@
                therefore I also am in this manner lifted up, and am constrained to take courage and speak a few
                words about the communications that have been addressed to me by your eloquent wisdom.</ab>
             <pb n="436"/>
-            <ab><supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And after other things.</emph>)</supplied></ab>
-            <ab>But that our Lord <persName>Jesus Christ</persName> our God was pierced in the side with a lance by that
-               soldier<note type="footnote" resp="#compiler"><foreign xml:lang="grc">στρατιώτης</foreign>.</note> after he gave up the ghost, and blood and water came forth from
+            <ab xml:id="section-108.2" n="2">
+            <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">And after other things.</emph>)</supplied>
+          </ab>
+            <ab xml:id="section-108.3" n="3">But that our Lord <persName>Jesus Christ</persName> our God was pierced in the side with a lance by that
+               soldier<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> after he gave up the ghost, and blood and water came forth from
                it in a miraculous manner, the divine <persName>John</persName> the Evangelist recorded, and no one else wrote about
                this. But certain persons have clearly falsified the Gospel of Matthew and inserted this same
                passage, when the contrary is the fact, in order to show that it was while he was alive that the
-               soldier<note type="footnote" resp="#compiler"><foreign xml:lang="grc">στρατιώτης</foreign>.</note> pierced his side with the spear, and afterwards he gave up the
-               ghost<note type="footnote" n="1132">Matthew xxvii, 49. See Tischendorf ad loc.,
-                  where this passage of <persName>Severus</persName> is cited from Assemani, Bibl. Or., II, 81.</note>. This question was
+               soldier<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> pierced his side with the spear, and afterwards he gave up the
+               ghost<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>. This question was
                examined with great carefulness when my meanness was in the royal city, at the time when the
                affair of <persName>Macedonius</persName> was being examined, who became archbishop of that city, and there was
                produced the Gospel of Matthew, which was written in large letters, and was preserved with great
@@ -197,15 +200,12 @@
                memory in a city of the island of <placeName>Cyprus</placeName> buried with the holy <persName>Barnabas</persName>, who went about with <persName>Paul</persName>
                and spread the divine preaching; and, when the Gospel of Matthew was opened, it was found to be
                free from the falsification contained in this addition, <pb n="437"/> of the story of the
-               soldier<note type="footnote" resp="#compiler"><foreign xml:lang="grc">στρατιώτης</foreign>.</note> and the spear. I do not know how and for what reason the holy
+               soldier<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> and the spear. I do not know how and for what reason the holy
                <persName>John</persName> who became bishop of the same royal city, and the admirable <persName>Cyril</persName>, bishop of <placeName>Alexandria</placeName>,
                did not test this question, and allowed the two passages to stand, in the two evangelists,
-               neglecting the evidence to the contrary;<note type="footnote" n="1133">The
-                  passage is not in the extant fragments of <persName>Cyril</persName>'s commentary on <persName>Matthew</persName> For Jo. Chrys. see
-                  below.</note> but perhaps in order that this also might be known, that, while they speak and
+               neglecting the evidence to the contrary;<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> but perhaps in order that this also might be known, that, while they speak and
                write everything under the operation of the Holy Spirit, and while these men are higher than we
-               (for we are men who creep along the earth), as the heaven is higher than the earth<note
-                  type="footnote" n="1134">The sentence is not completed.</note>, and that they
+               (for we are men who creep along the earth), as the heaven is higher than the earth<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>, and that they
                themselves also might be known to be men, and to leave omniscience to God only, and that there
                is something in affairs which cannot be expressed, the complete revelation of which is not made
                known. Thus <persName>Samuel</persName> also, who as one may say saw with the eye of prophecy everything that was
@@ -213,25 +213,20 @@
                God by means of these things was instructing his bondmen, and teaching them to pay regard to
                humility. Wherefore also the divine Scripture is written thus: "And <persName>Samuel</persName> asked in the Lord and
                said, 'Cometh that man hither?' And the Lord said, ' Lo! he is hidden among the vessels'. And
-               <pb n="438"/> he ran and took him thence"<note type="footnote" n="1135">1 Samuel
-                  x, 22, 23.</note>. And at the time when the Shilumite woman's son died, and she had come to
+               <pb n="438"/> he ran and took him thence"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>. And at the time when the Shilumite woman's son died, and she had come to
                <persName>Elisha</persName> in great distress, as a mother who had been deprived of her beloved son, and, when she
                had just fallen at the feet of the prophet of God, and <persName>Gehazi</persName> tried to prevent her, the bondman
                of God, being moved by love and sorrow, said to <persName>Gehazi</persName>, "Let her alone, because her soul is
-               bitter in her, and the Lord hid it from me and showed it not to me"<note type="footnote"
-                  n="1136">2 Kings iv, 27.</note>. Accordingly you should know that <persName>Eusebius</persName> of
+               bitter in her, and the Lord hid it from me and showed it not to me"<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>. Accordingly you should know that <persName>Eusebius</persName> of
                <placeName>Caesarea</placeName> also who is called '<persName>Pamphili</persName>', who wrote the canons of the gospel, and imitated those
                who wrote on this subject before him, and had more complete knowledge of this question than the
                others, in the 10th canon, in which he recorded the places peculiar to one of the evangelists,
-               inserted this passage also about the soldier<note type="footnote" resp="#compiler"><foreign
-                  xml:lang="grc">στρατιώτης</foreign>.</note> and the lance, saying that <persName>John</persName> alone recorded
-               it<note type="footnote" n="1137"><foreign xml:lang="ln">Novum Testamentam</foreign>, ed. Lloyd and Sanday, p.
-                  xx; P. G,, XXII, 1292.</note>. And we also agree with this careful accuracy, not that we
+               inserted this passage also about the soldier<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> and the lance, saying that <persName>John</persName> alone recorded
+               it<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>. And we also agree with this careful accuracy, not that we
                contend against our fathers (far be it!), but that we place the evangelists at a greater height
                than them, and assign to the evangelists only the intention which properly belongs to them, in
                order that in everything <persName>Jesus</persName>, who is God, who spoke in the <pb n="439"/> evangelists, may be
-               glorified, 'in whom are all the treasures of wisdom and knowledge hidden'<note type="footnote"
-                  n="1138">Colossians ii, 3.</note>, according to the saying of <persName>Paul</persName>. But for the rest
+               glorified, 'in whom are all the treasures of wisdom and knowledge hidden'<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>, according to the saying of <persName>Paul</persName>. But for the rest
                we find that the holy <persName>John</persName> himself also, the bishop of <placeName>Constantinople</placeName>, in the commentary on the
                same <persName>Matthew</persName> the Evangelist with regard to this same addition which we are now discussing,
                himself also said things that fit the truth; for he expressed himself thus: "'But another came
@@ -239,19 +234,15 @@
                could be lawless like them? And who could be more savage than these same men, who showed their
                madness to such an extent, that they attacked a dead body. But do you mark how their madness was
                brought about for our salvation. For after the wound the fountain of life welled forth for
-               us"<note type="footnote" n="1139">In Matthew Hom. LXXXVIII, 1 (ed. Par. 2a, VII,
-                  932).</note>. But these are the words of a man who follows the footsteps of the narrative of
+               us"<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/>. But these are the words of a man who follows the footsteps of the narrative of
                <persName>John</persName> the Evangelist and nothing else; for he called the body 'dead'; because it was after he
-               gave up the ghost that the soldier<note type="footnote"><foreign xml:lang="grc">στρατιώτης</foreign>.</note> pierced him, and gave occasion for the fountain of our salvation
+               gave up the ghost that the soldier<ptr type="noteAnchor" xml:id="a15" target="#n15" n="15"/> pierced him, and gave occasion for the fountain of our salvation
                to well forth thence, as the doctor <persName>John</persName> the bishop said. But this addition to the narrative of
                <persName>Matthew</persName> the Evangelist has never been inserted by any of the earlier <pb n="440"/> commentators
-               who wrote, not by Origen, who examined such questions minutely, though he sinned<note
-                  type="footnote" n="1140">Perh. <foreign xml:lang="grc">ἥμαρτε</foreign>
-                  ('erred'); see p. 77, n. 3.</note> in matters that are necessary for the truth of the faith of
+               who wrote, not by Origen, who examined such questions minutely, though he sinned<ptr type="noteAnchor" xml:id="a16" target="#n16" n="16"/> in matters that are necessary for the truth of the faith of
                the church, nor by <persName>Didymus</persName>, nor by any other man who has written on this subject. But
-               <persName>Eusebius</persName><note type="footnote" n="1141">This passage to 'letter' (p. 441,1.12)
-                  is published in Greek in Cramer, Cat. in Luc. et Jo., p. 389 (cf. Corderius, Cat. in Jo., p.
-                  436; P. G., XXII, 1009).</note> of <placeName>Caesarea</placeName>, who is called '<persName>Pamphili</persName>', whom we mentioned a
+               <persName>Eusebius</persName>
+            <ptr type="noteAnchor" xml:id="a17" target="#n17" n="17"/> of <placeName>Caesarea</placeName>, who is called '<persName>Pamphili</persName>', whom we mentioned a
                little above, when writing to a man called <persName>Marinus</persName> about questions concerning the passions of
                our Saviour and about his Resurrection, showed us nothing whatever about the said addition, as
                being unknown and having no place in the books of the gospel. But in the same letters to
@@ -261,10 +252,7 @@
                was crucified, but the divine <persName>John</persName> (he said) wrote that it was at the 6th hour that Pilate sat
                upon his judgment-seat at the place called 'the pavement', and judged <persName>Christ</persName>. And therefore
                <persName>Eusebius</persName> said that this is an error of a scribe, who was inattentive when writing <pb n="441"/>
-               the Gospel<note type="footnote"><foreign xml:lang="grc">παραγοραθὲν</foreign> (conj. 
-                  Cr. <foreign xml:lang="grc">παραγραφθὲν</foreign>, 
-                  P. G., <foreign xml:lang="grc">παροραθὲν</foreign>) <foreign xml:lang="grc">παρὰ τῶν ἐξ ἀρχῆς ἀπογραψαμένων τὰ
-                        Εὐαγγέλια</foreign>.</note>. For it is the letter gamal that denotes 3 hours, while the letter
+               the Gospel<ptr type="noteAnchor" xml:id="a18" target="#n18" n="18"/>. For it is the letter gamal that denotes 3 hours, while the letter
                which is called in Greek episemon denotes the number of 6 hours, and these letters are like one
                another in Greek, and, the scribe wishing to write '3' quickly, and having turned the letter a
                little backwards, it was thereby found to be '6', because, since the letter had been turned
@@ -272,9 +260,7 @@
                evangelists <persName>Matthew</persName>, <persName>Mark</persName>, and <persName>Luke</persName> stated alike as with one mouth that from the 6th hour to the
                9th there was darkness over all the land, it is plain that our Lord and God <persName>Jesus Christ</persName> was
                crucified before the 6th hour, at which the darkness took place, that is from the 3rd hour,
-               as<note type="footnote" n="1142">Some words have perh. fallen out; Gr. <foreign
-                  xml:lang="grc">Μάρκος ἱστόρησε· κ. τοῦ Ἰωάννοι τὸν ὅμοιον τρόπον τὴν ὥραν τρίτην εἶναι
-                  ἐπισημανομένου</foreign>.</note> the blessed <persName>John</persName> himself wrote. Similarly we say that it is
+               as<ptr type="noteAnchor" xml:id="a19" target="#n19" n="19"/> the blessed <persName>John</persName> himself wrote. Similarly we say that it is
                the 3rd hour, because those who wrote before, as we have said, changed the letter. We must
                insert also in this our letter upon this matter a part of what <persName>Eusebius</persName> himself stated at
                length; and his words are as follows: "We agree not with any chance man, but with the evangelist
@@ -283,20 +269,66 @@
                letter which represents '3' was '6', on account of the likeness of the two letters [of that
                which denotes '3' and that which denotes '6'. If the refore it is stated by <persName>John</persName> that it was the
                preparation of the day of unlevened bread, and it was about the 6th hour, and Pilate said to the
-               Jews "Behold! your king"<note type="footnote" n="1143">John xix, 14.</note>, and
+               Jews "Behold! your king"<ptr type="noteAnchor" xml:id="a20" target="#n20" n="20"/>, and
                so on, let there be read instead of '6th' '3rd', since the beginning of his trial took place at
                that time, and in the middle of the hour or after it had been completed they crucified him, so
-               that the result is that they judged and crucified him at the same hour"<note type="footnote"
-                  n="1144">Not known ecc. from <persName>Severus</persName></note>; If you look for and find the volume
+               that the result is that they judged and crucified him at the same hour"<ptr type="noteAnchor" xml:id="a21" target="#n21" n="21"/>; If you look for and find the volume
                addressed to <persName>Marinus</persName> about the interpretation of these things, you will find the accuracy of the
                writer as regards these matters. For our part we do not wish to write much on these subjects in
                this our letter. May the industry of your holiness be preserved for us meditating on these
                things and occupied with these things in priestly fashion, and rousing up the gloom of our
-               silence and urging it to speak<note type="footnote" n="1145">A Greek extract
-                  from a letter to Th. of <placeName>Germanicea</placeName> is published in Cramer, Cat. in Epp. Cath., p. 159.</note>.
+               silence and urging it to speak<ptr type="noteAnchor" xml:id="a22" target="#n22" n="22"/>.
                <pb n="443"/>
             </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">1131. 3. Jeremiah xxxviii, 2-4.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">στρατηγός</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">στρατιώτης</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">στρατιώτης</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">Matthew xxvii, 49. See Tischendorf ad loc.,
+                  where this passage of <persName>Severus</persName> is cited from Assemani, Bibl. Or., II, 81.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">στρατιώτης</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">The
+                  passage is not in the extant fragments of <persName>Cyril</persName>'s commentary on <persName>Matthew</persName> For Jo. Chrys. see
+                  below.</note>
+        <note xml:id="n8" target="#a8" n="8">The sentence is not completed.</note>
+        <note xml:id="n9" target="#a9" n="9">1 Samuel
+                  x, 22, 23.</note>
+        <note xml:id="n10" target="#a10" n="10">2 Kings iv, 27.</note>
+        <note xml:id="n11" target="#a11" n="11">
+          <foreign xml:lang="grc">στρατιώτης</foreign>.</note>
+        <note xml:id="n12" target="#a12" n="12">
+          <foreign xml:lang="ln">Novum Testamentam</foreign>, ed. Lloyd and Sanday, p.
+                  xx; P. G,, XXII, 1292.</note>
+        <note xml:id="n13" target="#a13" n="13">Colossians ii, 3.</note>
+        <note xml:id="n14" target="#a14" n="14">In Matthew Hom. LXXXVIII, 1 (ed. Par. 2a, VII,
+                  932).</note>
+        <note xml:id="n15" target="#a15" n="15">
+          <foreign xml:lang="grc">στρατιώτης</foreign>.</note>
+        <note xml:id="n16" target="#a16" n="16">Perh. <foreign xml:lang="grc">ἥμαρτε</foreign>
+                  ('erred'); see p. 77, n. 3.</note>
+        <note xml:id="n17" target="#a17" n="17">This passage to 'letter' (p. 441,1.12)
+                  is published in Greek in Cramer, Cat. in Luc. et Jo., p. 389 (cf. Corderius, Cat. in Jo., p.
+                  436; P. G., XXII, 1009).</note>
+        <note xml:id="n18" target="#a18" n="18">
+          <foreign xml:lang="grc">παραγοραθὲν</foreign> (conj. 
+                  Cr. <foreign xml:lang="grc">παραγραφθὲν</foreign>, 
+                  P. G., <foreign xml:lang="grc">παροραθὲν</foreign>) <foreign xml:lang="grc">παρὰ τῶν ἐξ ἀρχῆς ἀπογραψαμένων τὰ
+                        Εὐαγγέλια</foreign>.</note>
+        <note xml:id="n19" target="#a19" n="19">Some words have perh. fallen out; Gr. <foreign xml:lang="grc">Μάρκος ἱστόρησε· κ. τοῦ Ἰωάννοι τὸν ὅμοιον τρόπον τὴν ὥραν τρίτην εἶναι
+                  ἐπισημανομένου</foreign>.</note>
+        <note xml:id="n20" target="#a20" n="20">John xix, 14.</note>
+        <note xml:id="n21" target="#a21" n="21">Not known ecc. from <persName>Severus</persName>
+        </note>
+        <note xml:id="n22" target="#a22" n="22">A Greek extract
+                  from a letter to Th. of <placeName>Germanicea</placeName> is published in Cramer, Cat. in Epp. Cath., p. 159.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

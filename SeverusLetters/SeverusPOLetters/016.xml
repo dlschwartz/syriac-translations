@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -75,7 +77,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">211 [39]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">211 [39]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,12 +105,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -125,17 +130,19 @@
    <text>
       <body>
          <div type="work" xml:id="work-16" n="16">
+        <div type="section" xml:id="section-16">
             <head type="main" resp="#compiler">Of <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2770">Thomas</persName> the Syncellus. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab>Since therefore these things have thus been made clear, it has already been recognised that it
+            <ab xml:id="section-16.1" n="1">Since therefore these things have thus been made clear, it has already been recognised that it
                is alien to those who confess a hypostatic union to call the hypostases, that is the natures
                which in an ineffable manner coalesced in one, from which Emmanuel is, persons, and therefore to
                think and say that the union is from two persons. To say this belongs to those who confess a
                falsely-named union, who make the man and God exist apart in individual existence, and devise
                for themselves a conjunction founded upon authority and identity of name. </ab>
          </div>
+      </div>
       </body>
    </text>
 </TEI>

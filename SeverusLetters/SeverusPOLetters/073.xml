@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">118 [288]-119 [289]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">118 [288]-119 [289]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,9 +157,10 @@
    <text>
       <body>
          <div type="work" xml:id="work-73" n="73">
+        <div type="section" xml:id="section-73">
             <head type="main" resp="#compiler">Of the Same, as to What Is the Meaning of the Saying That
                Those Who Have Received the Heavenly Seed Will Produce Fruit a Hundredfold and Sixtyfold and
-               Thirtyfold<note type="footnote" n="768">Matthew 13:23.</note>, from The
+               Thirtyfold<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, from The
                Letter to <persName ref="http://syriaca.org/person/2639">Dorotheus</persName> the Count. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">
@@ -166,8 +168,8 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab> Those therefore who love the Lord as it is written with all their heart and with all their
-               soul<note type="footnote" n="769">Matthew 22:37.</note>, and observe the
+            <ab xml:id="section-73.1" n="1"> Those therefore who love the Lord as it is written with all their heart and with all their
+               soul<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, and observe the
                commandments that were given <pb n="289"/> by him, and follow him as far as men can rise to the
                height, are said to produce fruits to the number of a hundred; and to the number of sixty those
                who hold a middle place; and after the same fashion those who produce thirtyfold also, who are
@@ -175,16 +177,23 @@
                all were with equal honour termed 'good soil', yet all had not the same capacity. Accordingly
                therefore among the crowns that are provided in the future blessed life they will receive abodes
                and honours on different scales, those which our Lord signified when he said in the gospel,
-               "Many are the abodes in my Father's house"<note type="footnote" n="770">John
-                  xiv, 2.</note>. And, when as in a parable he was about to go on a journey, he distributed
+               "Many are the abodes in my Father's house"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. And, when as in a parable he was about to go on a journey, he distributed
                talents among his bondmen to use, for it is plainly written thus: "To one he gave five talents,
                to another two, and to another one, to each of them according to his own capacity, and
-               immediately started on his journey"<note type="footnote" n="771">Matthew xxv, 15.</note>. Words
+               immediately started on his journey"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. Words
                agreeing with these were spoken by <persName>Paul</persName> also in writing to the Corinthians, "Every man shall
-               receive his own reward, according to his own labour"<note type="footnote" n="772"
-                 >1 Corinthians iii, 8.</note>. <pb n="290"/>
+               receive his own reward, according to his own labour"<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>. <pb n="290"/>
             </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Matthew 13:23.</note>
+        <note xml:id="n2" target="#a2" n="2">Matthew 22:37.</note>
+        <note xml:id="n3" target="#a3" n="3">John
+                  xiv, 2.</note>
+        <note xml:id="n4" target="#a4" n="4">Matthew xxv, 15.</note>
+        <note xml:id="n5" target="#a5" n="5">1 Corinthians iii, 8.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -75,7 +77,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">200 [28]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">200 [28]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,12 +105,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -125,6 +130,7 @@
    <text>
       <body>
          <div type="work" xml:id="work-9" n="9">
+        <div type="section" xml:id="section-9">
             <head type="main" resp="#compiler">Of Our Father <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2702">Maron</persName>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">
@@ -132,13 +138,17 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab>But the power of the unconfused and initial union preserved those that were united beyond the
+            <ab xml:id="section-9.1" n="1">But the power of the unconfused and initial union preserved those that were united beyond the
                reach of disturbance, and caused the two of them to exist in one hypostasis and one person, and
-               one incarnate nature of the Word.<note type="footnote" n="73">Greek extracts
-                  from letters to <persName ref="http://syriaca.org/person/2702">Maron</persName> are published in Cramer, Cat. in Act. Apost., p. 223, and S. V. N. G., I,
-                  II, 186.</note>
+               one incarnate nature of the Word.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
             </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Greek extracts
+                  from letters to <persName ref="http://syriaca.org/person/2702">Maron</persName> are published in Cramer, Cat. in Act. Apost., p. 223, and S. V. N. G., I,
+                  II, 186.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">322 [150]-323 [151]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">322 [150]-323 [151]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,26 +131,33 @@
    <text>
       <body>
          <div type="work" xml:id="work-47" n="47">
+        <div type="section" xml:id="section-47">
             <head type="main" resp="#compiler">Of the Same From Another Letter to the Same <persName>Hippocrates</persName>, the
                Beginning of Which Is, "That which brings your wisdom". </head>
             <dateline resp="#ebrooks">
                <date notBefore="0516" notAfter="0517">516-7</date>
             </dateline>
-            <ab>But this you may keep firmly and fixedly in your mind, that no one shall be our
+            <ab xml:id="section-47.1" n="1">But this you may keep firmly and fixedly in your mind, that no one shall be our
                fellow-communicant, nor will we consent to greet by letter any man who at the same time receives
                the wicked synod at <placeName>Chalcedon</placeName> contrary to the law, and does not anathematize the Tome of <persName>Leo</persName>.
-               But, if any concession is necessary<note type="footnote" n="418"><foreign
-                  xml:lang="grc">ἀνάγκη</foreign>.</note>, I will stand within the ordinances of the holy
-               <persName>Timothy</persName><note type="footnote" n="419">See p. 105.</note>, considering the
+               But, if any concession is necessary<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, I will stand within the ordinances of the holy
+               <persName>Timothy</persName>
+            <ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, considering the
                general benefit of a union of the holy churches, and demanding an open anathema of the things
                done at <placeName>Chalcedon</placeName> against the orthodox faith, and of the wicked Tome of <persName>Leo</persName>, and of those who
                speak of two natures after the union, and the operations of these and their properties. But, if
                these things are upset, no argument nor inducement shall persuade me to assent to the
                wickedness. For I say like <persName>Paul</persName>, "It is better for me to die, than that anyone should make my
                boasting vain: for, if I so preach, I have no <pb n="151"/> cause of boasting; for necessity is
-               laid upon me, and woe to me unless I so preach, since so I have received"<note type="footnote"
-                  n="420">1 Corinthians ix, 15, 16.</note>.</ab>
+               laid upon me, and woe to me unless I so preach, since so I have received"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">ἀνάγκη</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">See p. 105.</note>
+        <note xml:id="n3" target="#a3" n="3">1 Corinthians ix, 15, 16.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

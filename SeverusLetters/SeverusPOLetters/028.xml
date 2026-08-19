@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">259 [87]-260 [88]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">259 [87]-260 [88]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,15 +112,15 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <persName ref="http://syriaca.org/person/"/>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -131,13 +131,14 @@
    <text>
       <body>
          <div type="work" xml:id="work-28" n="28">
+        <div type="section" xml:id="section-28">
             <head type="main" resp="#compiler">Of the Same From the 7th Letter of the 1st Book of Those
                Before Episcopacy, in Which Is Contained a Principle According to Which Those Who Say That God
                Exists in Human Form Are Approved in Their Action (?). </head>
             <dateline resp="#ebrooks">
                <date notBefore="0490" notAfter="0512">490-512</date>
             </dateline>
-            <ab>But, if we in some place hear Scripture say 'the Lord's eyes', we understand God's activity,
+            <ab xml:id="section-28.1" n="1">But, if we in some place hear Scripture say 'the Lord's eyes', we understand God's activity,
                which is signified through the term 'eyes'. And, when again we hear of ears, we understand the
                propensity and inclination that he has toward us, and that he has the attribute of mercifulness,
                and that <pb n="88"/> he brings our service to completion; for Scripture speaks to our weakness
@@ -146,6 +147,7 @@
                since we are Christians, we must understand the divine Scriptures spiritually, not according to
                the letter.</ab>
          </div>
+      </div>
       </body>
    </text>
 </TEI>

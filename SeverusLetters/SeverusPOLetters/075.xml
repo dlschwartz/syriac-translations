@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">120 [290]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">120 [290]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,6 +157,7 @@
    <text>
       <body>
          <div type="work" xml:id="work-75" n="75">
+        <div type="section" xml:id="section-75">
             <head type="main" resp="#compiler">To <persName ref="http://syriaca.org/person/2433">Victor</persName> the Presbyter. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0521">
@@ -163,9 +165,10 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab> A great and stern rebuke given in its time as the saying is should not be called presumption
+            <ab xml:id="section-75.1" n="1"> A great and stern rebuke given in its time as the saying is should not be called presumption
                as some think, but gentleness.</ab>
          </div>
+      </div>
       </body>
    </text>
 </TEI>

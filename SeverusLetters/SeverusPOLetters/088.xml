@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">150 [320]-153 [323]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">150 [320]-153 [323]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,27 +157,24 @@
    <text>
       <body>
          <div type="work" xml:id="work-88" n="88">
+        <div type="section" xml:id="section-88">
             <head type="main" resp="#compiler">Of the Same From the 69th Letter of the 4th Book of Those
-               Apter Banishment, Which Was Addressed to <persName ref="http://syriaca.org/person/2751">Sergius</persName> Bishop of <placeName ref="http://syriaca.org/place/2660">Cyrrhus</placeName><note type="footnote" n="871"
-                 >Select Letters of Severus, v, 15, p. 121, 198; Mansi, VIII, 817; Mich., p.
-                  267.</note>. </head>
+               Apter Banishment, Which Was Addressed to <persName ref="http://syriaca.org/person/2751">Sergius</persName> Bishop of <placeName ref="http://syriaca.org/place/2660">Cyrrhus</placeName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab> But, since your saintliness asked with regard to <persName>Enoch</persName> and <persName>Elijah</persName>, of whom one was translated
-               that he should not see death, as the apostle said<note type="footnote" n="872">Hebrews XI, 5.</note>, <pb n="321"/> while the other was caught up towards heaven, if they will
+            <ab xml:id="section-88.1" n="1"> But, since your saintliness asked with regard to <persName>Enoch</persName> and <persName>Elijah</persName>, of whom one was translated
+               that he should not see death, as the apostle said<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, <pb n="321"/> while the other was caught up towards heaven, if they will
                undergo the common death, it is incumbent upon us to state, in proportion to the small capacity
                which we possess, the things that have reached our comprehension from the teaching of the
                fathers. It is believed therefore according to the testimonies of the divine words that <persName>Enoch</persName>
-               was translated, and <persName>Elijah</persName> was caught up towards heaven, and was carried by the air<note
-                  type="footnote" n="873"><foreign xml:lang="grc">ἀήρ</foreign>.</note>, and that
-               they are alive, and that they are in such places as God knows, and that he<note type="footnote"
-                  n="874">A. v. (M) 'Who'.</note> bestowed upon them such a marvellous
+               was translated, and <persName>Elijah</persName> was caught up towards heaven, and was carried by the air<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, and that
+               they are alive, and that they are in such places as God knows, and that he<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> bestowed upon them such a marvellous
                translation hence, and that they are in a mortal body, having not yet received the blessing of
                immortality. For let us agree with <persName>Paul</persName> who says generally of all the holy men who pleased God,
                "And all these to whom testimony was borne through faith received not the promises, God having
-               foreseen , some better thing for our sakes. that they might not be perfected without us"<note
-                  type="footnote" n="875">Hebrews XI, 39, 40.</note>. And it is manifest that
+               foreseen , some better thing for our sakes. that they might not be perfected without us"<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>. And it is manifest that
                perfection <pb n="322"/> is nothing else except a state of immortality and glory, and
                impassibility, that does not grow old, in the kingdom of heaven. That this is so is confirmed by
                <persName ref="http://syriaca.org/person/573">John</persName> also the wise in the Spirit, who became bishop of <placeName>Constantinople</placeName>, in the 22nd homily of the
@@ -185,13 +183,11 @@
                he nor. <persName>Elijah</persName>, and, if they are still living, how they are living, and in what form. But it is
                superfluous for us to inquire into these things. For that the one was translated and the other
                was taken up the Scriptures stated; but where they exist or how they exist they did not go on to
-               say; for they do not say anything beyond what is necessary"<note type="footnote" n="876"
-                 >In Ep. ad Heb. Hom, xxii, 8 (ed. Field).</note>. And the same doctor delivered
-               an expository discourse in <placeName>Constantinople</placeName> in the church of <persName>Marth Anastasia</persName><note type="footnote"
-                  n="877">In the Greek title it is called the church of <persName>S. Thomas</persName>, and the
-                  biblical citation and the mention of the martyrs are absent.</note> about the saying of the
+               say; for they do not say anything beyond what is necessary"<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>. And the same doctor delivered
+               an expository discourse in <placeName>Constantinople</placeName> in the church of <persName>Marth Anastasia</persName>
+            <ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> about the saying of the
                apostle who says, "Henceforth, my brethren, be strong in our Lord and in the power of his
-               might"<note type="footnote" n="878">Ephesians vi, 10.</note>, and, it being the day
+               might"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>, and, it being the day
                of the actual commemoration of the martyrs, and the king <pb n="323"/> having come to the
                martyrs' chapel and withdrawn before the sermon, he delivered a discourse after the king's
                departure, of which the beginning is: "Blessed is God for the greatness of the power of the
@@ -204,10 +200,24 @@
                might not see death; and he was not found, because God translated him'. For he translated him
                and did not allow him to die. He did not yet make him immortal, in order that he might not do
                away the fear, but he remains without dying. And he is not immortal; but he gave continuance of
-               life in the mortal body, opening up, as I said, obscurely the hope of the resurrection"<note
-                  type="footnote" n="879">Ed. Par. 2a, XII, 474, 477.</note>. <pb n="324"/>
+               life in the mortal body, opening up, as I said, obscurely the hope of the resurrection"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>. <pb n="324"/>
             </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Select Letters of Severus, v, 15, p. 121, 198; Mansi, VIII, 817; Mich., p.
+                  267.</note>
+        <note xml:id="n2" target="#a2" n="2">Hebrews XI, 5.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">ἀήρ</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">A. v. (M) 'Who'.</note>
+        <note xml:id="n5" target="#a5" n="5">Hebrews XI, 39, 40.</note>
+        <note xml:id="n6" target="#a6" n="6">In Ep. ad Heb. Hom, xxii, 8 (ed. Field).</note>
+        <note xml:id="n7" target="#a7" n="7">In the Greek title it is called the church of <persName>S. Thomas</persName>, and the
+                  biblical citation and the mention of the martyrs are absent.</note>
+        <note xml:id="n8" target="#a8" n="8">Ephesians vi, 10.</note>
+        <note xml:id="n9" target="#a9" n="9">Ed. Par. 2a, XII, 474, 477.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

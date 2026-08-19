@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -75,7 +77,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">207 [35]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">207 [35]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,12 +105,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -125,21 +130,30 @@
    <text>
       <body>
          <div type="work" xml:id="work-12" n="12">
+        <div type="section" xml:id="section-12">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2567">Eleusinius</persName>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab>But perhaps someone will say that, when the wise <persName ref="http://syriaca.org/person/376">Basil</persName> said, "Grace arising from the
-               dispensation"<note type="footnote" n="85">I cannot find the source of this
-                  citation.</note>, he referred to the coming in the flesh. But let us know clearly that the Word
-               of God, even before he rose upon us in fleshly form, constantly controlled<note type="footnote"
-                  n="86">Or 'dispensed'.</note> our life and our salvation; for 'in him we live
-               and move and exist'<note type="footnote" n="87">Acts xvii, 28.</note>: for the
+            <ab xml:id="section-12.1" n="1">But perhaps someone will say that, when the wise <persName ref="http://syriaca.org/person/376">Basil</persName> said, "Grace arising from the
+               dispensation"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, he referred to the coming in the flesh. But let us know clearly that the Word
+               of God, even before he rose upon us in fleshly form, constantly controlled<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> our life and our salvation; for 'in him we live
+               and move and exist'<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>: for the
                name 'dispensation' is not applied to the grace of the Humanization among us only. And <persName ref="http://syriaca.org/person/511">Gregory</persName>
-               the Theologian<note type="footnote" n="88"><foreign xml:lang="grc">Θεολόγος</foreign>.</note> is a witness of this when he says, "The other appellations
-               etc."<note type="footnote" n="85">I cannot find the source of this
-                  citation.</note>.</ab>
+               the Theologian<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> is a witness of this when he says, "The other appellations
+               etc."<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">I cannot find the source of this
+                  citation.</note>
+        <note xml:id="n2" target="#a2" n="2">Or 'dispensed'.</note>
+        <note xml:id="n3" target="#a3" n="3">Acts xvii, 28.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">Θεολόγος</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">I cannot find the source of this
+                  citation.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

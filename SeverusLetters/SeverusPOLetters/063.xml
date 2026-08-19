@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">4 [174]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">4 [174]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,15 +157,13 @@
    <text>
       <body>
          <div type="work" xml:id="work-63" n="63">
-            <head type="main" resp="#compiler">Of the Holy<note type="footnote" n="472" resp="#compiler">Marginalia: 'He is a heretic, and not holy'. The extract comes from the work of John of Dara
-               De resurrectione corporum.</note> Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2620">Caesaria</persName><note type="footnote"
-                  n="473">See ep. 53.</note>.</head>
+        <div type="section" xml:id="section-63">
+            <head type="main" resp="#compiler">Of the Holy<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2620">Caesaria</persName>
+            <ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0533">519-33</date>
             </dateline>
-            <ab> When<note type="footnote" n="474">A similar passage of <persName ref="http://syriaca.org/person/51">Severus</persName> is published in
-               Gr. in Mai, Class. Auct., X, 456; but this differs considerably from our text and appears to
-               come from a commentary on S. Luke.</note> therefore <persName>Adam</persName> was stripped of the blessedness of
+            <ab xml:id="section-63.1" n="1"> When<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> therefore <persName>Adam</persName> was stripped of the blessedness of
                immortality, and was thereafter destined to be cast into the earth by means of death, then only
                there was introduced, as being necessary, the process of the generation of children, which
                preserves a succession to our race by means of the intercourse of copulation, and by means of
@@ -174,6 +173,15 @@
                may learn that it was from a high and heavenly position that we flowed down to this lowly
                state.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Marginalia: 'He is a heretic, and not holy'. The extract comes from the work of John of Dara
+               De resurrectione corporum.</note>
+        <note xml:id="n2" target="#a2" n="2">See ep. 53.</note>
+        <note xml:id="n3" target="#a3" n="3">A similar passage of <persName ref="http://syriaca.org/person/51">Severus</persName> is published in
+               Gr. in Mai, Class. Auct., X, 456; but this differs considerably from our text and appears to
+               come from a commentary on S. Luke.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

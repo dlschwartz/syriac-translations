@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">121 [291]-122 [291]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">121 [291]-122 [291]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,26 +157,25 @@
    <text>
       <body>
          <div type="work" xml:id="work-76" n="76">
+        <div type="section" xml:id="section-76">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2656">Georgia</persName> the
-               Patrician and to Her Daughter<note type="footnote" n="774"><persName ref="http://syriaca.org/person/2656">Georgia</persName> not being a
-                  common name, this addressee should probably be identified with the G. of S.L., x, 8; but, as
-                  she was then unmarried, the present letter must have been written much later.</note>. </head>
+               Patrician and to Her Daughter<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0532" notAfter="0538">
                   532-38(?)
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab> Your modesty's highness asked me some time ago why towards the end of the proverbs of <persName>Solomon</persName>
+            <ab xml:id="section-76.1" n="1"> Your modesty's highness asked me some time ago why towards the end of the proverbs of <persName>Solomon</persName>
                we find this heading placed among them, as it were between two lines: "These are the
                indiscriminate admonitions or proverbs of <persName>Solomon</persName>, which the friends of <persName>Hezekiah</persName> king of <persName>Judah</persName>
-               set down or arranged"<note type="footnote" n="775">Proverbs xxv, 1.</note>; and it
+               set down or arranged"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>; and it
                seems to me that the sentence bears some such meaning as this; that the proverbs contained in
                the book down to this heading are those which were discriminately arranged as one may say in one
                corpus and volume, that is which were set down in order and collected, <persName>Solomon</persName> having so
                arranged them; but many others also which were spoken by him as in short utterances were in a
                scattered way current. And the book of Kingdoms also states this, that <persName>Solomon</persName> spoke 3000
-               proverbs or parables<note type="footnote" n="776">1 Kings iii, 32.</note>, from
+               proverbs or parables<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, from
                those therefore that were set down in a scattered way, confusedly <pb n="292"/> and
                indiscriminately, not as in a series and collection, <persName>Hezekiah</persName>'s friends chose these, brought
                them into one order and collection, and added them to the book itself. You certainly do not
@@ -184,6 +184,15 @@
                dispose these indiscriminate and confused proverbs in some order, put them together as in one
                corpus, and presented them as a rational present to the king.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <persName ref="http://syriaca.org/person/2656">Georgia</persName> not being a
+                  common name, this addressee should probably be identified with the G. of S.L., x, 8; but, as
+                  she was then unmarried, the present letter must have been written much later.</note>
+        <note xml:id="n2" target="#a2" n="2">Proverbs xxv, 1.</note>
+        <note xml:id="n3" target="#a3" n="3">1 Kings iii, 32.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">127 [297]-128 [298]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">127 [297]-128 [298]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,33 +157,42 @@
    <text>
       <body>
          <div type="work" xml:id="work-80" n="80">
+        <div type="section" xml:id="section-80">
             <head type="main" resp="#compiler">Of the Same Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2595">Ammonius</persName> the
-               Presbyter of <placeName>Alexandria</placeName><note type="footnote" n="791">Ep. 38.</note>. </head>
+               Presbyter of <placeName>Alexandria</placeName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0515" notAfter="0518">515-8</date>
             </dateline>
-            <ab> That which you say is staled by <persName>Koheleth</persName>, "There is nothing new under the sun; whosoever
+            <ab xml:id="section-80.1" n="1"> That which you say is staled by <persName>Koheleth</persName>, "There is nothing new under the sun; whosoever
                shall speak and say 'Lo! this is new'; whatever happened is already", and, "All things that are
-               to be lo! they have been already"<note type="footnote" n="792">Ecclesiastes I, 9, 10;
-                  iii, 15.</note>, does not apply to everything, but only to those things that belong to the
+               to be lo! they have been already"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, does not apply to everything, but only to those things that belong to the
                weekly circle, and to this limited and temporal life, which revolves upon itself by means of
                nights and days, and blooms and withers by means of birth and death, and to the distraction and
                vanity to which <persName>Adam</persName> was condemned after the disobedience, and the fall from the immaterial and
                blessed life in <placeName>Paradise</placeName>.</ab>
-            <ab>But all things that occurred in <persName>Christ</persName> and after <persName>Christ</persName> are the appointed time<note
-               type="footnote" n="793"><foreign xml:lang="grc">προθεσμία</foreign>.</note> or
+            <ab xml:id="section-80.2" n="2">But all things that occurred in <persName>Christ</persName> and after <persName>Christ</persName> are the appointed time<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> or
                beginnings of that eighth day, and of that new life without evening and without end. Therefore
                also the torments that are applied to those who come afterwards are terrible and beyond
                conception, and such as the <pb n="298"/> previous time did not display. What also shall we in
                fact say, when our Saviour himself cries in the gospel about the things that shall happen in the
                last times, "For there shall be then great tribulation, such as hath not been from the beginning
-               of the world unto now, and shall not be"<note type="footnote" n="794">Matthew
-                  xxiv, 21.</note>? Or what solution shall we devise in consideration of the plagues beyond
+               of the world unto now, and shall not be"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>? Or what solution shall we devise in consideration of the plagues beyond
                conception which <placeName>John</placeName> the son of thunder named, when he had mysteries revealed to him in the
                wonderful revelation? Shall we say that these things also fall under the words of <persName>Koheleth</persName>? But
                how is it not unreasonable, and a thing that plainly contends against the truth, and against the
                sacred Scriptures?</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Ep. 38.</note>
+        <note xml:id="n2" target="#a2" n="2">Ecclesiastes I, 9, 10;
+                  iii, 15.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">προθεσμία</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">Matthew
+                  xxiv, 21.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">131 [301]-132 [302]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">131 [301]-132 [302]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,20 +157,26 @@
    <text>
       <body>
          <div type="work" xml:id="work-82" n="82">
+        <div type="section" xml:id="section-82">
             <head type="main" resp="#compiler">Of the Same From the 11th Letter of the 1st Book of Those
                Written After Banishment, Which Was Addressed to <persName ref="http://syriaca.org/person/2746">Scholasticus</persName>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab> "Hungry men he filled with good things and rich men he sent empty away"<note type="footnote"
-               n="806">Luke I, 53.</note>. For the Jews, who thought that they were rich in the riches of the
+            <ab xml:id="section-82.1" n="1"> "Hungry men he filled with good things and rich men he sent empty away"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. For the Jews, who thought that they were rich in the riches of the
                divine Scriptures, became empty of these, and the nations who were hungry with the hunger of the
-               word of God, as the prophet <persName>Amos</persName> said<note type="footnote" n="807">Amos, viii,
-                  12 (?).</note>, <pb n="302"/> were filled. This our Lord himself also foretold to the proud
+               word of God, as the prophet <persName>Amos</persName> said<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, <pb n="302"/> were filled. This our Lord himself also foretold to the proud
                Pharisees, who were to fall completely away from the principles of the divine Scriptures; "The
                kingdom of God shall be taken from you, and shall be given to a people that shall bring forth
-               its fruits"<note type="footnote" n="808">Matthew xxi, 43.</note>.</ab>
+               its fruits"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Luke I, 53.</note>
+        <note xml:id="n2" target="#a2" n="2">Amos, viii,
+                  12 (?).</note>
+        <note xml:id="n3" target="#a3" n="3">Matthew xxi, 43.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

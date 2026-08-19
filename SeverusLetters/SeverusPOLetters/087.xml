@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">148 [318]-150 [320]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">148 [318]-150 [320]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,55 +157,71 @@
    <text>
       <body>
          <div type="work" xml:id="work-87" n="87">
+        <div type="section" xml:id="section-87">
             <head type="main" resp="#compiler">Of the Same on Our Lord’s Saying, “ I Will Not Drink With You
                Henceforth of This Product of the Vine Till the Day on Which I Shall Drink It Anew With You In
-               My Father’s Kingdom"<note type="footnote" n="862">Matthew XXVI, 20.</note>, From
-               the 60th Letter<note type="footnote" n="863">The ref. to the book and series
-                  seems to have fallen out.</note>, Which Was Addressed to <persName>Leontius</persName> the Presbyter<note
-                     type="footnote" n="864">Probably the Leont. of Select Letters of Severus, I, 5.
-                     The extract down to 'says' (p. 319, 1. 10) is published in Greek in Cramer, Cat. in Luc. et
-                     Jo., p. 155, where it begins: <foreign xml:lang="grc">πρὸς ταῦτα ἀποκρίνεται Σ. ὁ ἐπισκ. Αντ.
-                        πρὸς Λ. πρεσβ. γράφων οὕτω. Τοῦτο διπλῆν τὴν ἀπόδοσιν ἔχει κ. τὴν ἐξήγησιν. Ὡ μὲν γ. ἁγιώτατος
-                        τῆς ΚΠ. ἐπισκ. Ι</foreign>. <!-- CHECK TRANSCRIPTION --> From 'the new' (p. 319, 1. 1)' to the same
-                     point it is also in Mai. Class. Auct., x, 437 in a shorter and transposed form.</note>. </head>
+               My Father’s Kingdom"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, From
+               the 60th Letter<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, Which Was Addressed to <persName>Leontius</persName> the Presbyter<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0514" notAfter="0518">514-8</date>
             </dateline>
-            <ab> But the words spoken by our Saviour to the disciples at the institution of the new and divine
+            <ab xml:id="section-87.1" n="1"> But the words spoken by our Saviour to the disciples at the institution of the new and divine
                mystery, "I will not drink henceforth of this product of the vine till the day on which I shall
                drink it with you new in my Father's kingdom" are explained and interpreted in two ways. <persName ref="http://syriaca.org/person/573">John</persName>
                bishop of <pb n="319"/> <placeName>Constantinople</placeName> says that the new drinking of the cup is that occasion on
                which he drank with his disciples after the 
-               Resurrection<note type="footnote">Gr. adds <foreign xml:lang="grc">ἐκ νεκρῶν</foreign>.</note>, thereby confirming the
-               nature<note type="footnote">Gr. <foreign xml:lang="grc">ναόν</foreign>.</note>
-               of the body which rose, and eradicating the profane notion of phantasy<note type="footnote"
-                 >Gr. <foreign xml:lang="grc">φιλοδοξίας</foreign>.</note>; for the holy <persName>Peter</persName> is
-               related in the Acts<note type="footnote"><foreign xml:lang="grc">πρᾶξις</foreign>.</note> of the Apostles to have said to <persName>Cornelius</persName>, "Us who ate and drank
-               with him after he rose from the dead"<note type="footnote" n="865">Acts x, 41;
-                  Jo. Chrys., In Matthew Horn. LXXXII, 2. (ed. Par. 2a, VII, 884).</note>. But <persName ref="http://syriaca.org/person/511">Gregory</persName> the
+               Resurrection<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, thereby confirming the
+               nature<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>
+               of the body which rose, and eradicating the profane notion of phantasy<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>; for the holy <persName>Peter</persName> is
+               related in the Acts<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> of the Apostles to have said to <persName>Cornelius</persName>, "Us who ate and drank
+               with him after he rose from the dead"<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>. But <persName ref="http://syriaca.org/person/511">Gregory</persName> the
                Theologian in the homily on the Passover says that the new drinking of the cup is the revelation
                of the divine conceptions that shall take place and is expected in the kingdom of the
-               heavens<note type="footnote">Gr. <foreign xml:lang="grc">τὴν ἐν τῇ μελλούσῃ κ.
-                  προσδοκωμένῃ βασιλείᾳ τῶν οὐρανῶν τῶν θείων νοημάτων ἑπηγγελμένων (<foreign xml:lang="en">l</foreign>. ἐπηγγελμένων) ἡμῖν ἀποκάλυψιν</foreign>.</note>, when mirrors and riddles are
-               done away, and the sight face to face is revealed, as the divine apostle says<note
-                  type="footnote" n="866">1 Corinthians XIII, 12.</note>. But it is fitting that I
+               heavens<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>, when mirrors and riddles are
+               done away, and the sight face to face is revealed, as the divine apostle says<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/>. But it is fitting that I
                should quote to you these words of the doctor, the contents of which are as follows: "We shall
-               receive the Passover, but now symbolically<note type="footnote" n="867">By
-                  omitting <foreign xml:lang="grc">ἔτι</foreign> the translator has lost the point of the
-                  sentence.</note>, and a Passover that is more plainly revealed than the old one (for I am bold
+               receive the Passover, but now symbolically<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>, and a Passover that is more plainly revealed than the old one (for I am bold
                enough to say that the legal Passover was an obscurer symbol of a symbol); but a little later
                <pb n="320"/> one thatis more perfect and purer, when the Word shall drink it new with us in
                the Father's kingdom, revealing to us and teaching us things that he has now shown ohscurely;
                for that which is now made to appear is always new. But, what the drinking and enjoyment is, it
                is ours to learn, but his to teach, and to show the matter to his disciples. For even the
-               teaching is the food of him who teaches"<note type="footnote" n="868">Or. XLV,
-                  23. The last sentence runs: <foreign xml:lang="grc">Τροφὴ γοῦν ἐστὶν ἡ δίδαξις κ. τοῦ
-                     τρέφοντος</foreign>.</note>. And very well did the Theologian give expression to these words;
+               teaching is the food of him who teaches"<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>. And very well did the Theologian give expression to these words;
                for our Lord also reckons our profit his own food and drink; for thus also he says in the
-               gospel, "My food is to do my Father's will"<note type="footnote" n="869">John 4:34.</note>; and 
+               gospel, "My food is to do my Father's will"<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>; and 
                again, when he was about to speak to the men from <placeName>Samaria</placeName>, he said to the
-               disciples, "I have food to eat, which ye know not"<note type="footnote" n="870">John 4:32.</note>. </ab>
+               disciples, "I have food to eat, which ye know not"<ptr type="noteAnchor" xml:id="a14" target="#n14" n="14"/>. </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Matthew XXVI, 20.</note>
+        <note xml:id="n2" target="#a2" n="2">The ref. to the book and series
+                  seems to have fallen out.</note>
+        <note xml:id="n3" target="#a3" n="3">Probably the Leont. of Select Letters of Severus, I, 5.
+                     The extract down to 'says' (p. 319, 1. 10) is published in Greek in Cramer, Cat. in Luc. et
+                     Jo., p. 155, where it begins: <foreign xml:lang="grc">πρὸς ταῦτα ἀποκρίνεται Σ. ὁ ἐπισκ. Αντ.
+                        πρὸς Λ. πρεσβ. γράφων οὕτω. Τοῦτο διπλῆν τὴν ἀπόδοσιν ἔχει κ. τὴν ἐξήγησιν. Ὡ μὲν γ. ἁγιώτατος
+                        τῆς ΚΠ. ἐπισκ. Ι</foreign>. <!-- CHECK TRANSCRIPTION --> From 'the new' (p. 319, 1. 1)' to the same
+                     point it is also in Mai. Class. Auct., x, 437 in a shorter and transposed form.</note>
+        <note xml:id="n4" target="#a4" n="4">Gr. adds <foreign xml:lang="grc">ἐκ νεκρῶν</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">Gr. <foreign xml:lang="grc">ναόν</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">Gr. <foreign xml:lang="grc">φιλοδοξίας</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">πρᾶξις</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">Acts x, 41;
+                  Jo. Chrys., In Matthew Horn. LXXXII, 2. (ed. Par. 2a, VII, 884).</note>
+        <note xml:id="n9" target="#a9" n="9">Gr. <foreign xml:lang="grc">τὴν ἐν τῇ μελλούσῃ κ.
+                  προσδοκωμένῃ βασιλείᾳ τῶν οὐρανῶν τῶν θείων νοημάτων ἑπηγγελμένων (<foreign xml:lang="en">l</foreign>. ἐπηγγελμένων) ἡμῖν ἀποκάλυψιν</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">1 Corinthians XIII, 12.</note>
+        <note xml:id="n11" target="#a11" n="11">By
+                  omitting <foreign xml:lang="grc">ἔτι</foreign> the translator has lost the point of the
+                  sentence.</note>
+        <note xml:id="n12" target="#a12" n="12">Or. XLV,
+                  23. The last sentence runs: <foreign xml:lang="grc">Τροφὴ γοῦν ἐστὶν ἡ δίδαξις κ. τοῦ
+                     τρέφοντος</foreign>.</note>
+        <note xml:id="n13" target="#a13" n="13">John 4:34.</note>
+        <note xml:id="n14" target="#a14" n="14">John 4:32.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

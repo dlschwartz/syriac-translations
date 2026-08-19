@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">266 [94]-267 [95]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">266 [94]-267 [95]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,15 +112,15 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <persName ref="http://syriaca.org/person/"/>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -131,29 +131,43 @@
    <text>
       <body>
          <div type="work" xml:id="work-32" n="32">
-            <head type="main" resp="#compiler">Of the Same From the Letter to the Orthodox<note
-               type="footnote" n="232"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+        <div type="section" xml:id="section-32">
+            <head type="main" resp="#compiler">Of the Same From the Letter to the Orthodox<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
                Brothers in the City of <placeName ref="http://syriaca.org/place/195">Tyre</placeName>, Which Is Sur. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab>Since you have thought fit to ask me for what reason <persName ref="http://syriaca.org/person/482">Eutyches</persName> is anathematized, the man of ill
-               name<note type="footnote" n="233">This represents <foreign xml:lang="grc">δυσώνυμος</foreign> and perh. means 
-                  that he was falsely named <persName ref="http://syriaca.org/person/482">Eutyches</persName> (fortunate).</note>
+            <ab xml:id="section-32.1" n="1">Since you have thought fit to ask me for what reason <persName ref="http://syriaca.org/person/482">Eutyches</persName> is anathematized, the man of ill
+               name<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
                and impious, and how it is that he was received by <persName ref="http://syriaca.org/person/2432">Dioscorus</persName> of saintly memory, we say in a few
-               words that he was <pb n="95"/> received on presenting a document<note type="footnote" n="234"
-                 ><foreign xml:lang="grc">λίβελλον</foreign>.</note> which contained a right
+               words that he was <pb n="95"/> received on presenting a document<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> which contained a right
                confession of faith and anathematized <persName>Mani</persName> and <persName>Valentine</persName>, and <persName>Apollinaris</persName>, and those who say
                that the flesh of our Lord and God Jesus Christ came down from heaven; to which he further added
                the words that follow (though those who assembled at <placeName>Chalcedon</placeName> interrupted the reading, when the
-               things that were written at <placeName>Ephesus</placeName> in the transactions<note type="footnote" n="235"
-                 ><foreign xml:lang="grc">πρᾶξις</foreign>.</note> concerning him were put in),
-               that the things which they wished to impute to him were slanders<note type="footnote" n="236"
-                 >Mansi, VI, 633, 639-643.</note>. But the man of ill name seems again to have
-               'returned to his vomit'<note type="footnote" n="237">2 Peter ii, 22.</note>. And
-               that<damage><supplied resp="#ebrooks">.....</supplied></damage><note type="footnote" n="238">Here the ms.
-                  breaks off.</note></ab>
+               things that were written at <placeName>Ephesus</placeName> in the transactions<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> concerning him were put in),
+               that the things which they wished to impute to him were slanders<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>. But the man of ill name seems again to have
+               'returned to his vomit'<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>. And
+               that<damage>
+              <supplied resp="#ebrooks">.....</supplied>
+            </damage>
+            <ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>
+          </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">This represents <foreign xml:lang="grc">δυσώνυμος</foreign> and perh. means 
+                  that he was falsely named <persName ref="http://syriaca.org/person/482">Eutyches</persName> (fortunate).</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">λίβελλον</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">πρᾶξις</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">Mansi, VI, 633, 639-643.</note>
+        <note xml:id="n6" target="#a6" n="6">2 Peter ii, 22.</note>
+        <note xml:id="n7" target="#a7" n="7">Here the ms.
+                  breaks off.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

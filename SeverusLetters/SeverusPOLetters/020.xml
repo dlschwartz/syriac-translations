@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -75,7 +77,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">212 [40]-213 [41]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">212 [40]-213 [41]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,12 +105,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -125,12 +130,17 @@
    <text>
       <body>
          <div type="work" xml:id="work-20" n="20">
+        <div type="section" xml:id="section-20">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2665">Isidore</persName> The
                Count.</head>
-            <ab>On this point we find that the accurate doctors celebrate the Trinity in one essence<note
-               type="footnote" n="96"><foreign xml:lang="grc">οὐσία</foreign>.</note> which is
+            <ab xml:id="section-20.1" n="1">On this point we find that the accurate doctors celebrate the Trinity in one essence<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> which is
                the Godhead, but consequentially confess that this consists of three hypostases. </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

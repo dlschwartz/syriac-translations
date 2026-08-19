@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -113,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
          <correspDesc>
             <correspAction type="sent">
@@ -132,6 +131,7 @@
    <text>
       <body>
          <div type="work" xml:id="work-4" n="4">
+        <div type="section" xml:id="section-4">
             <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2755">Simus</persName> the Scriniarius,
                Which Begins, "Unless I had some great affection for your illustriousness". </head>
             <dateline resp="#ebrooks">
@@ -140,23 +140,27 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <note resp="#compiler">[After first citing the passage of Basil which says,
-               "'Unbegotten' is a characteristic of a form of being, not of essence<note
-                  type="footnote" n="59">
-                  <foreign xml:lang="grc">οὐσία</foreign>.</note> "<note type="footnote" n="60"
-                 >P. G,, XXIX, 680.</note>, he speaks as <pb n="23"/> follows]<note
-                  type="footnote" n="61">I place this and the two following letters
-                  during episcopacy, because they deal with the definition of 'essence', which is
-                  also discussed in ep. 2. Epp. 7-9 naturally go with ep. 6.</note>.</note>
-            <ab>But, if we interpret the saying rightly from the clear teachings of the saints and of
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
+            <ab xml:id="section-4.1" n="1">But, if we interpret the saying rightly from the clear teachings of the saints and of
                the other fathers, the meaning becomes plain, and there is nothing contradictory or
                dime alt in it: for 'being' here expresses the distinct hypostasis of the Father. For
-               the fathers said that the Holy Trinity exists both in one essence<note
-                  type="footnote" n="62">
-                  <foreign xml:lang="grc">οὐσία</foreign>.</note>, and in the being of each, that
+               the fathers said that the Holy Trinity exists both in one essence<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, and in the being of each, that
                is, three hypostases, existing severally, of the Father, the Son, and the Holy
                Spirit.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">[After first citing the passage of Basil which says,
+               "'Unbegotten' is a characteristic of a form of being, not of essence<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> "<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, he speaks as <pb n="23"/> follows]<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>.</note>
+        <note xml:id="n2" target="#a2" n="2">
+                  <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">P. G,, XXIX, 680.</note>
+        <note xml:id="n4" target="#a4" n="4">I place this and the two following letters
+                  during episcopacy, because they deal with the definition of 'essence', which is
+                  also discussed in ep. 2. Epp. 7-9 naturally go with ep. 6.</note>
+        <note xml:id="n5" target="#a5" n="5">
+                  <foreign xml:lang="grc">οὐσία</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

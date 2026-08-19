@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">255 [425]-256 [426]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">255 [425]-256 [426]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,12 +157,12 @@
    <text>
       <body>
          <div type="work" xml:id="work-104" n="104">
+        <div type="section" xml:id="section-104">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2620">Caesaria</persName>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab> But <persName>Luke</persName> related that he even communicated in the holy body and in our Lord's cup<note
-               type="footnote" n="1111">Luke XXII, 14-21.</note>, whence also the devil gained
+            <ab xml:id="section-104.1" n="1"> But <persName>Luke</persName> related that he even communicated in the holy body and in our Lord's cup<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, whence also the devil gained
                complete mastery over him, inasmuch as he had presumed to communicate in the mysterious
                spiritual food when he was unworthy and had a heart such as his. This we say, not <pb n="426"/>
                because that savage fiend in the case of men of this character treats the power of the mystery,
@@ -169,6 +170,10 @@
                anyone presumes to receive the holy communion when secretly involved in impieties that are
                great, and especially in such as relate to God.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Luke XXII, 14-21.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

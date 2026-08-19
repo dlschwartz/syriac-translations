@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">339 [167]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">339 [167]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,14 +131,20 @@
    <text>
       <body>
          <div type="work" xml:id="work-58" n="58">
-            <head type="main" resp="#compiler">To <persName ref="http://syriaca.org/person/2719">Zenobius</persName><note type="footnote" n="456">S.
-               L., p. 474.</note>. </head>
+        <div type="section" xml:id="section-58">
+            <head type="main" resp="#compiler">To <persName ref="http://syriaca.org/person/2719">Zenobius</persName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab>But he who is lacking in wisdom and virtue is under blame; and he who is under blame is under
+            <ab xml:id="section-58.1" n="1">But he who is lacking in wisdom and virtue is under blame; and he who is under blame is under
                sin.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">S.
+               L., p. 474.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

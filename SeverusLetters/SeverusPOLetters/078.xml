@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">124 [294]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">124 [294]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,25 +157,32 @@
    <text>
       <body>
          <div type="work" xml:id="work-78" n="78">
+        <div type="section" xml:id="section-78">
             <head type="main" resp="#compiler">Or the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName>, From the 55th Letter of the 2nd Book
-               of Those Written During Episcopacy, Which Was Addressed to <persName ref="http://syriaca.org/person/2628">Conon</persName> the Silentiary<note
-                  type="footnote" n="780">Select Letters of Severus, x, 4; id., p. 409.<!-- DLS NEED TO FIGURE OUT THIS REFERENCE AND ADD LINK--></note>. </head>
+               of Those Written During Episcopacy, Which Was Addressed to <persName ref="http://syriaca.org/person/2628">Conon</persName> the Silentiary<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab> The reason for which we are said to have become heirs of the curse and of condemnation and of
+            <ab xml:id="section-78.1" n="1"> The reason for which we are said to have become heirs of the curse and of condemnation and of
                death is not that the sin and condemnation and death passed to us, as if these fell to our
                nature by lot, for man's nature was from the beginning free from all these things, but that the
                method by which intercourse takes place derived its origin from sin, as I have said, a method
                which cut away the blessing of immortality, so that the race of men is preserved from
-               dissolution by the procreation of children<note type="footnote" n="781">Cf. ep.
-                  63 and p. 215 ff.</note>. We therefore were in consequence born mortal from a mortal father.
+               dissolution by the procreation of children<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. We therefore were in consequence born mortal from a mortal father.
                These things are defined both by the holy <persName>John</persName> in the Commentary on the Epistle to the
-               Romans<note type="footnote" n="782">In Ep. ad Romans Hom. XI, 2 (ed. Field)
-                  (?).</note>, and by the holy Cyril in the letter to Succensus<note type="footnote" n="783"
-                    >Ep 45 (P. G., LXXVII, 233).</note>. <pb n="295"/>
+               Romans<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, and by the holy Cyril in the letter to Succensus<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. <pb n="295"/>
             </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Select Letters of Severus, x, 4; id., p. 409.<!-- DLS NEED TO FIGURE OUT THIS REFERENCE AND ADD LINK-->
+        </note>
+        <note xml:id="n2" target="#a2" n="2">Cf. ep.
+                  63 and p. 215 ff.</note>
+        <note xml:id="n3" target="#a3" n="3">In Ep. ad Romans Hom. XI, 2 (ed. Field)
+                  (?).</note>
+        <note xml:id="n4" target="#a4" n="4">Ep 45 (P. G., LXXVII, 233).</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">309 [137]-310 [138]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">309 [137]-310 [138]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,15 +112,15 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <persName ref="http://syriaca.org/person/"/>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -131,17 +131,22 @@
    <text>
       <body>
          <div type="work" xml:id="work-43" n="43">
+        <div type="section" xml:id="section-43">
             <dateline resp="#ebrooks">
                <date notBefore="0516" notAfter="0517">516-7</date>
             </dateline>
-            <ab>For in matters in which we have patristic examples we are not to blame, as the holy <persName ref="http://syriaca.org/person/51">Severus</persName>
-               teaches in the letter to <persName ref="http://syriaca.org/person/2769">Theophanes</persName> cited above<note type="footnote" n="379">There is no 
-                  previous citation of the letter in this document (a defence of the deposition of the patriarch <persName>Paul</persName> of <placeName>Antioch</placeName>).</note>.</ab>
-            <ab>But he who does a thing which was done by the fathers, he acts canonically and lawfully, as
-               the holy <persName ref="http://syriaca.org/person/51">Severus</persName> also teaches, in the letter to <persName ref="http://syriaca.org/person/2769">Theophanes</persName> cited above<note type="footnote"
-                  n="379">There is no previous citation of the letter in this document (a defence of the
-                  deposition of the patriarch <persName>Paul</persName> of <placeName>Antioch</placeName>).</note>.</ab>
+            <ab xml:id="section-43.1" n="1">For in matters in which we have patristic examples we are not to blame, as the holy <persName ref="http://syriaca.org/person/51">Severus</persName>
+               teaches in the letter to <persName ref="http://syriaca.org/person/2769">Theophanes</persName> cited above<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</ab>
+            <ab xml:id="section-43.2" n="2">But he who does a thing which was done by the fathers, he acts canonically and lawfully, as
+               the holy <persName ref="http://syriaca.org/person/51">Severus</persName> also teaches, in the letter to <persName ref="http://syriaca.org/person/2769">Theophanes</persName> cited above<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">There is no 
+                  previous citation of the letter in this document (a defence of the deposition of the patriarch <persName>Paul</persName> of <placeName>Antioch</placeName>).</note>
+        <note xml:id="n2" target="#a2" n="2">There is no previous citation of the letter in this document (a defence of the
+                  deposition of the patriarch <persName>Paul</persName> of <placeName>Antioch</placeName>).</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

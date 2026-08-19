@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">339 [167]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">339 [167]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,14 +131,18 @@
    <text>
       <body>
          <div type="work" xml:id="work-59" n="59">
-            <head type="main" resp="#compiler">From the Letter to <placeName>Andrew</placeName> the Presbyter<note type="footnote"
-               n="457">Select Letters I.60; see note on text.</note>. </head>
+        <div type="section" xml:id="section-59">
+            <head type="main" resp="#compiler">From the Letter to <placeName>Andrew</placeName> the Presbyter<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0533">519-33</date>
             </dateline>
-            <ab>For the mind that is burdened by the dull weight of demons does not receive the spiritual
+            <ab xml:id="section-59.1" n="1">For the mind that is burdened by the dull weight of demons does not receive the spiritual
                first word.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Select Letters I.60; see note on text.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

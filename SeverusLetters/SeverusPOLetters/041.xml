@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">306 [134]-308 [136]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">306 [134]-308 [136]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,49 +131,68 @@
    <text>
       <body>
          <div type="work" xml:id="work-41" n="41">
-            <head type="main" resp="#compiler">From the Letter to <persName ref="http://syriaca.org/person/2460">Musonius</persName> Bishop of <placeName ref="http://syriaca.org/place/2686">Meloe</placeName> in <placeName>Isauria</placeName><note
-               type="footnote" n="364">Select Letters of Severus, i, 3, 4, -2-2, 23. It is
-               clear that this letter was written before the last 3 of these.</note>, The Beginning of Which
-               is, "When I came to the high-priestly throne<note type="footnote" n="365"><foreign xml:lang="grc">θρόνος</foreign>.</note>". </head>
+        <div type="section" xml:id="section-41">
+            <head type="main" resp="#compiler">From the Letter to <persName ref="http://syriaca.org/person/2460">Musonius</persName> Bishop of <placeName ref="http://syriaca.org/place/2686">Meloe</placeName> in <placeName>Isauria</placeName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, The Beginning of Which
+               is, "When I came to the high-priestly throne<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>". </head>
             <dateline resp="#ebrooks">
                <date notBefore="0516" notAfter="0517">516-7</date>
             </dateline>
-            <ab>And know this, that, where general unions were concerned, the fathers did not wish to inquire
+            <ab xml:id="section-41.1" n="1">And know this, that, where general unions were concerned, the fathers did not wish to inquire
                into the observance of the strict rule with regard to names. Many of the #three hundred and
                eighteen# who assembled at <placeName>Nicaea</placeName>, as ecclesiastical histories relate, were present at the synod
-               at <placeName>Ariminus</placeName> [sic] and at <placeName>Sardica</placeName><note type="footnote" n="366">The synod of
-                  <placeName>Philippopolis</placeName> is meant.</note>; and still, though the doctrines there laid down<note
-                     type="footnote" n="367">The word <foreign xml:lang="grc">δογματισθῆναι</foreign> is here preserved.</note> were not approved, no one contended about
-               names. And in the same way at <placeName>Nicaea</placeName><note type="footnote" n="368"><placeName>Nice</placeName> is meant,
-                  and <persName ref="http://syriaca.org/person/51">Severus</persName> intends to say that the synod of <placeName>Nice</placeName> was rejected.</note> in <placeName>Thrace</placeName> also the synod of
+               at <placeName>Ariminus</placeName> [sic] and at <placeName>Sardica</placeName>
+            <ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>; and still, though the doctrines there laid down<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> were not approved, no one contended about
+               names. And in the same way at <placeName>Nicaea</placeName>
+            <ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> in <placeName>Thrace</placeName> also the synod of
                bishops which pronounced that the Father is like the Son, not co-essential, was rightly
                rejected; and yet there was no question about names at that time. It is a long matter to recount
-               the other rejected synods, that at <placeName>Sirmium</placeName>, that at <placeName>Lampsacus</placeName>, that at <placeName>Rome</placeName>, that at <placeName>Zelo</placeName><note
-                  type="footnote" n="369">Zela is meant.</note>, that at your <persName>Seleucia</persName>, all of
+               the other rejected synods, that at <placeName>Sirmium</placeName>, that at <placeName>Lampsacus</placeName>, that at <placeName>Rome</placeName>, that at <placeName>Zelo</placeName>
+            <ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>, that at your <persName>Seleucia</persName>, all of
                which the synod of the 150 caused to be passed over in silence as if it had <pb n="135"/>
                forgotten them, not introducing among us any vain talk or superfluous inquiry about names, but
-               only asserting the divinity<note type="footnote" n="370">The word <foreign
-                  xml:lang="grc">θεολογῆσαι</foreign> is here preserved.</note> of the Holy Spirit together with
+               only asserting the divinity<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> of the Holy Spirit together with
                the Father and the Son, and explaining the intention of the #three hundred and eighteen#. And,
-               when the holy <persName>Cyril</persName> with the holy synod at <placeName>Ephesus</placeName> accomplished the deprivation<note
-                  type="footnote" n="371"><foreign xml:lang="grc">καθαίρεσις</foreign>.</note> of
-               the evil Nestorius, the bishops of the East, though they contended for his rejected tenets<note
-                  type="footnote" n="3"><foreign xml:lang="grc">δόγματα</foreign>.</note>,
-               afterwards agreed to the deprivation<note type="footnote" n="371"><foreign
-                  xml:lang="grc">καθαίρεσις</foreign>.</note> of that wolf and the rejections of the hateful
-               tenets<note type="footnote" n="372"><foreign xml:lang="grc">δόγματα</foreign>.</note>; and there was never any discussion about names, although how many
+               when the holy <persName>Cyril</persName> with the holy synod at <placeName>Ephesus</placeName> accomplished the deprivation<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> of
+               the evil Nestorius, the bishops of the East, though they contended for his rejected tenets<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>,
+               afterwards agreed to the deprivation<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> of that wolf and the rejections of the hateful
+               tenets<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>; and there was never any discussion about names, although how many
                do you think had died in the meanwhile, who contended for the wickedness of <persName>Nestorius</persName>? For these
                things, as I have said, general unions have no room; but they remained without examination;
                since many are in fact passed over at councils, although they have often been involved in
                impious opinions. Since then at the present time some common agreement among the churches is
                hoped for, do not lower your mind to untimely hair-splitting. As there is a time to speak and a
-               time to be silent<note type="footnote" n="373">Ecclesiastes iii, 7.</note>, so there
+               time to be silent<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>, so there
                is a time both to inquire into a matter of this kind and not to inquire. Bear these things in
                mind and be rightly disposed, <pb n="136"/> and have no regard to men who cleave to division,
                and find fault with everything in the same way, whom the sacred Scripture calls backbiters and
-               enemies of the common peace, and <persName>Christ</persName> the God of peace<note type="footnote" n="374"
-                 >Romans I, 30.</note>.</ab>
+               enemies of the common peace, and <persName>Christ</persName> the God of peace<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Select Letters of Severus, i, 3, 4, -2-2, 23. It is
+               clear that this letter was written before the last 3 of these.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">θρόνος</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">The synod of
+                  <placeName>Philippopolis</placeName> is meant.</note>
+        <note xml:id="n4" target="#a4" n="4">The word <foreign xml:lang="grc">δογματισθῆναι</foreign> is here preserved.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <placeName>Nice</placeName> is meant,
+                  and <persName ref="http://syriaca.org/person/51">Severus</persName> intends to say that the synod of <placeName>Nice</placeName> was rejected.</note>
+        <note xml:id="n6" target="#a6" n="6">Zela is meant.</note>
+        <note xml:id="n7" target="#a7" n="7">The word <foreign xml:lang="grc">θεολογῆσαι</foreign> is here preserved.</note>
+        <note xml:id="n8" target="#a8" n="8">
+          <foreign xml:lang="grc">καθαίρεσις</foreign>.</note>
+        <note xml:id="n9" target="#a9" n="9">
+          <foreign xml:lang="grc">δόγματα</foreign>.</note>
+        <note xml:id="n10" target="#a10" n="10">
+          <foreign xml:lang="grc">καθαίρεσις</foreign>.</note>
+        <note xml:id="n11" target="#a11" n="11">
+          <foreign xml:lang="grc">δόγματα</foreign>.</note>
+        <note xml:id="n12" target="#a12" n="12">Ecclesiastes iii, 7.</note>
+        <note xml:id="n13" target="#a13" n="13">Romans I, 30.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

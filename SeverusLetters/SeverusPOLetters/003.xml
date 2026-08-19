@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -102,12 +104,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -125,18 +129,23 @@
    <text>
       <body>
          <div type="work" xml:id="work-3" n="3">
+        <div type="section" xml:id="section-3">
             <head type="main" resp="#compiler">Of the Same From the 5th Letter to <persName ref="http://syriaca.org/person/56">Oecumenius</persName>, Which Begins,
-               "When I read the letter addressed to the God-loving Peter the presbyter<note type="footnote"
-                  n="57">Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 11; perhaps <persName ref="http://syriaca.org/person/51">Severus</persName>' brother (id., p. 150).</note>". </head>
+               "When I read the letter addressed to the God-loving Peter the presbyter<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>". </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab>It is not confessing the particularity of the natures from which Emmanuel comes that we avoid,
+            <ab xml:id="section-3.1" n="1">It is not confessing the particularity of the natures from which Emmanuel comes that we avoid,
                so long as we maintain the unity without confusion (the particularity is that which is expressed
                in natural characteristics), but distributing and dividing the properties to each of the 
-               natures<note type="footnote" n="58">A Greek fragment of a letter to <persName ref="http://syriaca.org/person/56">Oecumenius</persName> is
-                  preserved in Mansi, X, 1116.</note>.</ab>
+               natures<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Select Letters of <persName ref="http://syriaca.org/person/51">Severus</persName>, p. 11; perhaps <persName ref="http://syriaca.org/person/51">Severus</persName>' brother (id., p. 150).</note>
+        <note xml:id="n2" target="#a2" n="2">A Greek fragment of a letter to <persName ref="http://syriaca.org/person/56">Oecumenius</persName> is
+                  preserved in Mansi, X, 1116.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

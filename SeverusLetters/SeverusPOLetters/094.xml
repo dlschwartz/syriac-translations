@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">178 [348]-179 [349]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">178 [348]-179 [349]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,6 +157,7 @@
    <text>
       <body>
          <div type="work" xml:id="work-94" n="94">
+        <div type="section" xml:id="section-94">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2606">Archelaus</persName>, Where He
                Adduces Testimonies From the Doctors. </head>
             <dateline resp="#ebrooks">
@@ -164,10 +166,8 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab> For the holy <persName ref="http://syriaca.org/person/376">Basil</persName> the wise in divine things in the homily on the Faith says thus: "For as to
-               angels' tongues, whatever they are, to know what they are is not within our compass"<note
-                  type="footnote" n="931">Hom. XV, 1 (P. G., XXXI, 465). The Greek however is:
-                  <foreign xml:lang="grc">οὐδε γὰρ αἱ τῶν ἀγγέλων γλῶσσαι αἵτινες ποτέ εἰσιν<damage><supplied>...</supplied></damage> πολλοστοῦ μέρους ἐφίκεσθαι δυνήσονται</foreign>.</note>. But the holy <persName>Johannes</persName> also
+            <ab xml:id="section-94.1" n="1"> For the holy <persName ref="http://syriaca.org/person/376">Basil</persName> the wise in divine things in the homily on the Faith says thus: "For as to
+               angels' tongues, whatever they are, to know what they are is not within our compass"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. But the holy <persName>Johannes</persName> also
                the great in spiritual wéath taught in accord with this in the commentary on the Epistle to the
                <persName>Corinthians</persName>: "But he here says ' angels' tongues', not that he clothes angels in a body, but
                what he says is of this kind: ' even if I so speak as it is the law for angels to speak to one
@@ -176,10 +176,17 @@
                does not say this as assigning knees and bones to angels (away with the thought!), but he wishes
                to signify the intense worship through the form that it takes among us. So here also he uses the
                term 'tongue', not as <pb n="349"/> signifying an organ of flesh, but because he wished to
-               signify their own intercourse with one another by the method known among us"<note
-                  type="footnote" n="932">In Ep. 1 ad Corinthians Hom. xxxii, 10 (ed.
-                  Field).</note>.</ab>
+               signify their own intercourse with one another by the method known among us"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Hom. XV, 1 (P. G., XXXI, 465). The Greek however is:
+                  <foreign xml:lang="grc">οὐδε γὰρ αἱ τῶν ἀγγέλων γλῶσσαι αἵτινες ποτέ εἰσιν<damage>
+              <supplied>...</supplied>
+            </damage> πολλοστοῦ μέρους ἐφίκεσθαι δυνήσονται</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">In Ep. 1 ad Corinthians Hom. xxxii, 10 (ed.
+                  Field).</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

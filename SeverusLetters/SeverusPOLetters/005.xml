@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -75,7 +77,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">195 [23]-196 [24]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">195 [23]-196 [24]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,12 +105,14 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -125,6 +130,7 @@
    <text>
       <body>
          <div type="work" xml:id="work-5" n="5">
+        <div type="section" xml:id="section-5">
             <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2585">Eusebius</persName> the
                Scholastic, Which Begins, " Since you have raised objection against me through your letter". </head>
             <dateline resp="#ebrooks">
@@ -133,17 +139,23 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab>But now also we will come to what is required, and, we will again say, that 'essence'<note
-               type="footnote" n="62"><foreign xml:lang="grc">οὐσία</foreign>.</note>
+            <ab xml:id="section-5.1" n="1">But now also we will come to what is required, and, we will again say, that 'essence'<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
                signifies a generality, and 'hypostasis' a particularity, but 'being' and 'nature' introduce
                sometimes a general signification, sometimes a partial or particular one. This is stated on
                account of the varying use that is found in the holy fathers: for you knew both that
-               'essence'<note type="footnote" n="62"></note> is sometimes employed in the
+               'essence'<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> is sometimes employed in the
                particular signification of 'hypostasis ', and occasionally also <pb n="24"/> 'hypostasis' is
-               found employed in place of 'essence'<note type="footnote" n="63"><foreign
-                  xml:lang="grc">οὐσία</foreign>.</note>. For this reason we decline to use such a signification
+               found employed in place of 'essence'<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. For this reason we decline to use such a signification
                as being unscientific.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2"/>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">οὐσία</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

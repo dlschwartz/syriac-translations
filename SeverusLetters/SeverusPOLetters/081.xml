@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">128 [298]-131 [301]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">128 [298]-131 [301]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,58 +157,74 @@
    <text>
       <body>
          <div type="work" xml:id="work-81" n="81">
-            <head type="main" resp="#compiler">Of the Same to <persName ref="http://syriaca.org/person/2681">John</persName> of Bostra<note type="footnote" n="795"
-              >Select Letters of Severus, viii, 4.</note>, Explaining Why, When the Gospels
+        <div type="section" xml:id="section-81">
+            <head type="main" resp="#compiler">Of the Same to <persName ref="http://syriaca.org/person/2681">John</persName> of Bostra<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, Explaining Why, When the Gospels
                and the Other Divine Scriptures Say That <persName>Christ</persName> Dawned Upon Us in the Last Day, We See That Many
                Revolutions of Years Have Passed Since That Time. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab>If Jews and heathens accepted the words of the apostles, we should have said what <persName>Peter</persName> says
+            <ab xml:id="section-81.1" n="1">If Jews and heathens accepted the words of the apostles, we should have said what <persName>Peter</persName> says
                in the second epistle: "One day with the Lord is as a <pb n="299"/> thousand years, and a
                thousand years as one day. The Lord delayeth not from his promise, as some reckon delay; but he
                is long-suffering toward us not wishing that any should perish, but that all men should come to
                repentance, but the day of the Lord will come as a thief, wherein the heavens shall pass away
-               with a cry, the elements shall be burnt and dissolved"<note type="footnote" n="796"
-                 >2 Peter iii, 8-10.</note>. But, since those men are under no obligation<note
-                     type="footnote" n="797"><foreign xml:lang="grc">ἀνάγκη</foreign></note> to bow
-               to the writings of the New Testament<note type="footnote" n="798"><foreign
-                  xml:lang="grc">διαθήκη</foreign></note>, but from this source yet more increase their
+               with a cry, the elements shall be burnt and dissolved"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. But, since those men are under no obligation<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> to bow
+               to the writings of the New Testament<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, but from this source yet more increase their
                unbelief, we will produce a demonstration for them from the prophetic words. <persName>Daniel</persName> the seer of
                those divine visions hard of interpretation, when he was explaining <persName>Nebuchadnezzar</persName>'s dream, and
                was revealing the heterogeneousness of the image that appeared to him in the dream, which was
                composed of gold and silver and bronze and iron and earthenware, and by the diversity of the
-               materials<note type="footnote" n="799"><foreign xml:lang="grc">ὕλας</foreign></note> signified the various kingdoms, said of <persName>Christ</persName>'s kingdom as follows:
+               materials<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> signified the various kingdoms, said of <persName>Christ</persName>'s kingdom as follows:
                "And in the days of those kings the God of heaven shall set up a kingdom which shall not be
                destroyed for ever; and his kingdom shall not pass to another people. It shall break in pieces
-               and scatter all the kingdoms and itself shall stand for ever"<note type="footnote" n="800"
-                 >Daniel ii, 44.</note>. Those therefore who proclaimed <pb n="300"/> the gospel
+               and scatter all the kingdoms and itself shall stand for ever"<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>. Those therefore who proclaimed <pb n="300"/> the gospel
                applied the term 'last days' to the days of <persName>Christ</persName>'s kingdom and the evangelic life.</ab>
-            <ab><persName>John</persName> the Evangelist also when he said in his epistle, "Children, it is the last season"<note
-               type="footnote" n="801">1 John ii, 18.</note>, did not speak falsely. For it is
-               in fact the custom to apply the term 'seasons'<note type="footnote" n="802">Or
-                  'hours'. The double meaning cannot be preserved.</note> not only to those of the days, but also
+            <ab xml:id="section-81.2" n="2">
+            <persName>John</persName> the Evangelist also when he said in his epistle, "Children, it is the last season"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>, did not speak falsely. For it is
+               in fact the custom to apply the term 'seasons'<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> not only to those of the days, but also
                to those of the whole year: for the whole course of the year is divided into the spring season,
                the summer season, the autumn season, and the winter season; and the winter was in truth that of
                godlessness, which covered the whole world, in which there was all spiritual barrenness, and
                coldness as regards the fervour of the divine Spirit, and the whole earth was completely devoid
-               of the gifts from heaven, when <persName>Christ</persName> 'the Sun of righteousness'<note type="footnote" n="803"
-                 >Mai., iv, 2. 4. Cf. ep. 79.</note> by his coming in the flesh dawned upon
+               of the gifts from heaven, when <persName>Christ</persName> 'the Sun of righteousness'<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> by his coming in the flesh dawned upon
                us.</ab>
-            <ab>And, to put it in another way, since 5000 years and more had passed since the world came into
+            <ab xml:id="section-81.3" n="3">And, to put it in another way, since 5000 years and more had passed since the world came into
                being, as the writings of <persName>Moses</persName> have handed down to us, and from <persName>Christ</persName>'s coming there has not
-               yet been completed as much as 600 or 700 or 1000 years<note type="footnote">Cf.
-                  ep. 79.</note> (let us concede this), how can it appear unreasonable to apply the term ' last'
+               yet been completed as much as 600 or 700 or 1000 years<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> (let us concede this), how can it appear unreasonable to apply the term ' last'
                to the days of the 600 years or may be 1000, <pb n="301"/> 'when compared with those of the
                5000? <persName>Johannes</persName> also in the 34th homily of the Commentary on the Gospel of <persName>John</persName> uses these words,
                which agree with the above sentiments: "For whence do you know, O man, that the end is not near
-               and that the things mentioned will occur after a short time<note type="footnote" n="804">The
-                  translator has misunderstood the Greek, where <foreign xml:lang="grc">οὐ</foreign> covers both
-                  clauses.</note>? For, as we do not say that the last day is the end of the year, but also the
+               and that the things mentioned will occur after a short time<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>? For, as we do not say that the last day is the end of the year, but also the
                last month, although it contains 30 days, so also, even if I call 400 years the end of so large
-               a number of years, I shall not be wrong"<note type="footnote" n="805">In Joh.
-                  Hom.XXXIV, 3 (ed. Par. 2a, VIII, 230).</note>.</ab>
+               a number of years, I shall not be wrong"<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Select Letters of Severus, viii, 4.</note>
+        <note xml:id="n2" target="#a2" n="2">2 Peter iii, 8-10.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">ἀνάγκη</foreign>
+        </note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">διαθήκη</foreign>
+        </note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">ὕλας</foreign>
+        </note>
+        <note xml:id="n6" target="#a6" n="6">Daniel ii, 44.</note>
+        <note xml:id="n7" target="#a7" n="7">1 John ii, 18.</note>
+        <note xml:id="n8" target="#a8" n="8">Or
+                  'hours'. The double meaning cannot be preserved.</note>
+        <note xml:id="n9" target="#a9" n="9">Mai., iv, 2. 4. Cf. ep. 79.</note>
+        <note xml:id="n10" target="#a10" n="10">Cf.
+                  ep. 79.</note>
+        <note xml:id="n11" target="#a11" n="11">The
+                  translator has misunderstood the Greek, where <foreign xml:lang="grc">οὐ</foreign> covers both
+                  clauses.</note>
+        <note xml:id="n12" target="#a12" n="12">In Joh.
+                  Hom.XXXIV, 3 (ed. Par. 2a, VIII, 230).</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

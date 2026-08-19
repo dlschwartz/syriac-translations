@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">253 [423]-255 [425]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">253 [423]-255 [425]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,11 +157,35 @@
    <text>
       <body>
          <div type="work" xml:id="work-103" n="103">
+        <div type="section" xml:id="section-103">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2620">Caesaria</persName>. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab> For<note type="footnote" n="1103">This extract is published in Greek in Mai,
+            <ab xml:id="section-103.1" n="1"> For<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, since they had a mind in
+               contact with earthly things, they said, <pb n="424"/> "Is not this the carpenter's son? Is not
+               his mother called <persName>Mary</persName>?"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>;
+               and again, "Thou art a Samaritan and hast a demon"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>; and, "For good deeds we stone thee not, but for blasphemy, that, being
+               a man, thou makest thyself God"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. Since therefore it was because they stumbled at the dispensation in the flesh<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> that they said these things, all the blasphemies that they uttered
+               against the Son of man, our Saviour said that they should be forgiven to them; for they have as
+               a defence ignorance of the mystery and the condescension as man<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>. "Therefore it shall be forgiven to men and not to
+               you", as if he were saying, "I give forgiveness as to men who have not known the depth of the
+               dispensation". But the things which they said in blasphemy against the divine signs and mighty
+               works which he did and performed by the Spirit that was in him and of his nature (as he said, "I
+               by the Spirit of God cast out the demons"<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>), 
+               "In Beelzebub<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/>" (as they say) "he casts out the
+               demons"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>, these things (he says) as
+               things which are concerned with blasphemy against the Holy Spirit and have from the acts <pb n="425"/> themselves the quality of God-befittingness<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> and have no room for defence <persName>Christ</persName> said should not be
+               forgiven<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/>. But this blasphemy against the Son of man
+               shall be forgiven, and it is smaller than the blasphemy against the Holy Spirit, down to the
+               time of the Cross, we must understand, because down to that time <persName>Christ</persName> obscured the greatness
+               of his Godhead by means of the words and actions of the dispensation; but after the Cross and
+               the Resurrection<ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/> he did so no longer; since the dispensation had once for all
+               received an end<ptr type="noteAnchor" xml:id="a13" target="#n13" n="13"/>.</ab>
+         </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">This extract is published in Greek in Mai,
                Class. Auct., X, 433, under the heading <foreign xml:lang="grc">Σ. εἰς τὸ κατά
                   Λουκᾶν</foreign>, where it is shortened and the following precedes: <foreign xml:lang="grc">ἳνα
                      δὲ περιελόντες τὸ μῆκος τοῦ λόγου διὰ βραχέως τὸ πᾶω εἴπομεν, ὁ τῶν Ἰοθδαίων παράνομος δῆμος
@@ -169,40 +194,28 @@
                      Σωτ. ἐπανθρωπήσεως τυφλώττοντες· κ. ὡς ἐν σκότῳ περιπατοῦντες προσέπταιον, κ. γέγονεν αὐτοῖς ὁ
                      λίθος ὁ ἀκρογωνιαῖος κ. ἐκλεκτός κ. ἔντιμος πέτρα σκανδάλου κ. λίθος προσκόμματος, κ. οὐδαμῶς
                      ἐπενόουν αὐτοῦ τὴν προαιώνιον ὕπαρξιν, κ. τὴν ἐκ Πν. ἀσώματον γέννησιν, κ. τὸ πρὸς τὸν
-                     γεγεννηκότα ἴσον, κ. κατὰ πᾶω ὁτιοῦν ἀπαράλλακτον</foreign>.</note>, since they had a mind in
-               contact with earthly things, they said, <pb n="424"/> "Is not this the carpenter's son? Is not
-               his mother called <persName>Mary</persName>?"<note type="footnote" n="1104">Matthew 13:55.</note>;
-               and again, "Thou art a Samaritan and hast a demon"<note type="footnote" n="1105">John 8:48.</note>; and, "For good deeds we stone thee not, but for blasphemy, that, being
-               a man, thou makest thyself God"<note type="footnote" n="1106">John 10:33.</note>. Since therefore it was because they stumbled at the dispensation in the flesh<note
-                     type="footnote">Gr. ins. <foreign xml:lang="grc">καθάπερ
-                        εἷπον</foreign>.</note> that they said these things, all the blasphemies that they uttered
-               against the Son of man, our Saviour said that they should be forgiven to them; for they have as
-               a defence ignorance of the mystery and the condescension as man<note type="footnote"
-                 >Gr. <foreign xml:lang="grc">τῆς ἀγνοίας τοῦ μυστ. τὸ κατὰ ἄνθρωπον τοῦ Ἐμμ.
-                     χθαμαλόν κ. ὐποβεβηκος</foreign>.</note>. "Therefore it shall be forgiven to men and not to
-               you", as if he were saying, "I give forgiveness as to men who have not known the depth of the
-               dispensation". But the things which they said in blasphemy against the divine signs and mighty
-               works which he did and performed by the Spirit that was in him and of his nature (as he said, "I
-               by the Spirit of God cast out the demons"<note type="footnote">Matthew 12:28.</note>), 
-               "In Beelzebub<note type="footnote">Gr. ins. <foreign
-                     xml:lang="grc">ἄρχ. τῶν δαιμονίων</foreign>.</note>" (as they say) "he casts out the
-               demons"<note type="footnote">Matthew 12:24.</note>, these things (he says) as
-               things which are concerned with blasphemy against the Holy Spirit and have from the acts <pb
-                  n="425"/> themselves the quality of God-befittingness<note type="footnote" n="1107"
-                    >This is clearly wrong; but the Greek is the same. The words should perh.
-                     follow the 1st parenthesis</note> and have no room for defence <persName>Christ</persName> said should not be
-               forgiven<note type="footnote" n="1108">Gr. ins. <foreign xml:lang="grc">μήτε ἐν
-                  τῷ νῦν αἰῶνι μήτε ἐν τῷ μἐλλοντι</foreign>.</note>. But this blasphemy against the Son of man
-               shall be forgiven, and it is smaller than the blasphemy against the Holy Spirit, down to the
-               time of the Cross, we must understand, because down to that time <persName>Christ</persName> obscured the greatness
-               of his Godhead by means of the words and actions of the dispensation; but after the Cross and
-               the Resurrection<note type="footnote" n="1109">Gr. ins. <foreign xml:lang="grc">ἐκ νεκρῶν</foreign>.</note> he did so no longer; since the dispensation had once for all
-               received an end<note type="footnote" n="1110">Gr. adds <foreign xml:lang="grc">καθὰ φησὶν ὁ ἀποστ., εἰ δὲ κ. ἐγνώκαμεν κατὰ σάρκα Χ., ἀλλὰ νῦν οὐκέτι γινώσκομεν· κ. ὁ εἰς
+                     γεγεννηκότα ἴσον, κ. κατὰ πᾶω ὁτιοῦν ἀπαράλλακτον</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">Matthew 13:55.</note>
+        <note xml:id="n3" target="#a3" n="3">John 8:48.</note>
+        <note xml:id="n4" target="#a4" n="4">John 10:33.</note>
+        <note xml:id="n5" target="#a5" n="5">Gr. ins. <foreign xml:lang="grc">καθάπερ
+                        εἷπον</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">Gr. <foreign xml:lang="grc">τῆς ἀγνοίας τοῦ μυστ. τὸ κατὰ ἄνθρωπον τοῦ Ἐμμ.
+                     χθαμαλόν κ. ὐποβεβηκος</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">Matthew 12:28.</note>
+        <note xml:id="n8" target="#a8" n="8">Gr. ins. <foreign xml:lang="grc">ἄρχ. τῶν δαιμονίων</foreign>.</note>
+        <note xml:id="n9" target="#a9" n="9">Matthew 12:24.</note>
+        <note xml:id="n10" target="#a10" n="10">This is clearly wrong; but the Greek is the same. The words should perh.
+                     follow the 1st parenthesis</note>
+        <note xml:id="n11" target="#a11" n="11">Gr. ins. <foreign xml:lang="grc">μήτε ἐν
+                  τῷ νῦν αἰῶνι μήτε ἐν τῷ μἐλλοντι</foreign>.</note>
+        <note xml:id="n12" target="#a12" n="12">Gr. ins. <foreign xml:lang="grc">ἐκ νεκρῶν</foreign>.</note>
+        <note xml:id="n13" target="#a13" n="13">Gr. adds <foreign xml:lang="grc">καθὰ φησὶν ὁ ἀποστ., εἰ δὲ κ. ἐγνώκαμεν κατὰ σάρκα Χ., ἀλλὰ νῦν οὐκέτι γινώσκομεν· κ. ὁ εἰς
                   αὐτὸν βλασφημῶν ὤσπερ εἰς τὸ Πν. παροινῶν ὡς ἀσύγγνωστα ἁμαρτάνων ἄφεσιν οὐδεμίαν ἔχει τοῦ
                   ἁμαρτήματος. ταῦτα δὲ φαμὲν εἴ γέ τις τῇ βλασφημίᾳ μέχρι τοῦ τῆς ζῶης ταύτης ἡμερῶν
                   ἐνδαψιλευομένων αὐτῷ, πρόδηλον ὡς ἡ μετάνοια χρείττων ἐστὶν πάντος ἁμαρτήματος ἄφεσιν δηλαδὴ
-                  τοῖς μεταωοοῦσι παρέχουσα</foreign>.</note>.</ab>
-         </div>
+                  τοῖς μεταωοοῦσι παρέχουσα</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

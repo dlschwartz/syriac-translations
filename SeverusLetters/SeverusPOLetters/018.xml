@@ -35,8 +35,10 @@
             <distributor>
                <placeName>Center of Digital Humanities Research, College Station, TX, USA</placeName>
             </distributor>
-            <authority/><!-- FILL IN AFTER DECIDING ON NAME -->
-            <idno/><!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
+            <authority/>
+        <!-- FILL IN AFTER DECIDING ON NAME -->
+            <idno/>
+        <!-- FILL IN AFTER DECIDING ON URI/URL FORMAT -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/">
                   <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
@@ -75,7 +77,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">212 [40]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">212 [40]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -102,19 +105,21 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p/><!-- FILL IN -->
+            <p/>
+        <!-- FILL IN -->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"/><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <persName ref="http://syriaca.org/person/"/>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -125,6 +130,7 @@
    <text>
       <body>
          <div type="work" xml:id="work-18" n="18">
+        <div type="section" xml:id="section-18">
             <head type="main" resp="#compiler">Of the Same From the Letter to the <persName>Monks</persName> at <placeName>Tufa</placeName>, Which
                Begins, "When I read the letter of your love of God". </head>
             <dateline resp="#ebrooks">
@@ -133,7 +139,7 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab>For we must confess the one our Lord <persName>Jesus Christ</persName>, out of two natures the Godhead and the
+            <ab xml:id="section-18.1" n="1">For we must confess the one our Lord <persName>Jesus Christ</persName>, out of two natures the Godhead and the
                manhood, to be one and the same invariably and unconfusedly God and man, since not being again
                divided after the union; for duality is a dissolver of unity, although it is obscured by
                countless devices. For he who has been united is fixedly one, and does not become again two. For
@@ -141,6 +147,7 @@
                <pb n="41"/>
             </ab>
          </div>
+      </div>
       </body>
    </text>
 </TEI>

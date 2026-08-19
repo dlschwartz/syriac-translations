@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">69 [239]-71 [241]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">69 [239]-71 [241]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,33 +157,40 @@
    <text>
       <body>
          <div type="work" xml:id="work-67" n="67">
+        <div type="section" xml:id="section-67">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2647">Eupraxius</persName> the
                Chamberlain. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0508" notAfter="0511">508-11</date>
             </dateline>
-            <ab> First he says, "I am he who formed light", and then he added, "and made darkness;"<note
-               type="footnote" n="643">Isaiah XLV, 7.</note> meaning this; that, because he
+            <ab xml:id="section-67.1" n="1"> First he says, "I am he who formed light", and then he added, "and made darkness;"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> meaning this; that, because he
                formed light, he himself <pb n="240"/> made darkness. If light had not existed first, darkness
                would not have been brought into being, from the shield of the heavenly body. When light was
                formed, and heaven was stretched like a roof over the earth, the space between became of
-               necessity<note type="footnote" n="644"><foreign xml:lang="grc">ἀνάγκη</foreign>.</note> not light, and so darkness was accidentally brought into being, not
+               necessity<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> not light, and so darkness was accidentally brought into being, not
                having existed before; and for this reason the maker of all had need to say, in order to
-               illuminate the darkness that was in the world, "Let there be light"<note type="footnote" n="645">Genesis I, 3.</note>. All darkness is brought about by reason of shadowing bodies; because, if
+               illuminate the darkness that was in the world, "Let there be light"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. All darkness is brought about by reason of shadowing bodies; because, if
                bodies did not exist in the way of the light, darkness would not result. The words are moreover
                spoken in order to do away with the falsely-named gods, and that we may know that he is the
                Creator of night and of day, and not, as the deceivers say, that the Creator of light is one and
                the creator of darkness again another. </ab>
-            <ab>But the phrase "maketh peace and createth evil" makes its interpretation clear from the very
+            <ab xml:id="section-67.2" n="2">But the phrase "maketh peace and createth evil" makes its interpretation clear from the very
                understanding of the composition of the words: for he meant, 'Let everyone know that I am he who
                makes peace and creates evil'. What evil? That which stands in active opposition to peace, that
                is wars, and devastations of cities, which are justly brought upon us on account of our sins:
                just as, when the sons of <placeName>Israel</placeName> sat in peace <pb n="241"/> and plenty, and afterwards left the
                Lord and turned aside to idolatry, God delivered them into the hand of the Moabites, and at
                times to the sons of <persName>Ammon</persName>, and to the rest of the nations: and this <persName>Micah</persName> declares when he
-               says, "Evils came down from the Lord upon <placeName>Jerusalem</placeName>, noise of chariots and horsemen"<note
-                  type="footnote" n="646">Micah 1:12, 13.</note>.</ab>
+               says, "Evils came down from the Lord upon <placeName>Jerusalem</placeName>, noise of chariots and horsemen"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Isaiah XLV, 7.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">ἀνάγκη</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">Genesis I, 3.</note>
+        <note xml:id="n4" target="#a4" n="4">Micah 1:12, 13.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

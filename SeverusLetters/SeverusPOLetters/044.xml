@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">310 [138]-312 [140]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">310 [138]-312 [140]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,40 +131,37 @@
    <text>
       <body>
          <div type="work" xml:id="work-44" n="44">
+        <div type="section" xml:id="section-44">
             <head type="main" resp="#compiler">Of the Same From the Letter to <persName ref="http://syriaca.org/person/2776">Urban</persName> the Grammarian, Which
                Begins, "When I read the letter of your learning". </head>
             <dateline resp="#ebrooks">
                <date notBefore="0516" notAfter="0517">516-7</date>
             </dateline>
-            <ab>In dealing with abstentions with regard to names preserved in the sacred tablets we must in
+            <ab xml:id="section-44.1" n="1">In dealing with abstentions with regard to names preserved in the sacred tablets we must in
                fitness duly compare the things of which the sacred Scripture said that, when they fall into
                water that is contained in small vessels, they pollute it, but, when into pools or wells or
                cisterns containing many streams, they cause no stain or pollution. For the law of the divine
                Spirit said thus: "And every drink that ye shall drink in any vessel shall be polluted; and
                everything on which anything from a dead body falls is polluted. However fountains of water and
-               pools and cisterns of water shall be pure"<note type="footnote" n="380">Leviticus xi,
-                  25, 26.</note>. This principle then ought to be observed in the present case also. If a man
+               pools and cisterns of water shall be pure"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. This principle then ought to be observed in the present case also. If a man
                separates from many on the ground that they are infected with heresy, or that they communicate
                with those who are infected, let him with all his power maintain abstention from the dead body,
                and not mention even the name of those who are under suspicion and not genuine, lest it fall and
                pollute the <pb n="139"/> purity of the communion. But, if the holding of the orthodox faith,
-               and an anathema of every heresy reigns in the churches, and whole countries and provinces<note
-                  type="footnote" n="381"><foreign xml:lang="grc">ὑπαρχίας</foreign> (for
-                  <foreign xml:lang="grc">ἐπαρχίας</foreign>).</note>, and populous churches, confess one
+               and an anathema of every heresy reigns in the churches, and whole countries and provinces<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, and populous churches, confess one
                uncorrupted confession, then names which are thought to pollute are inundated by the multitude
                of streams. It is good that no particle of a dead body should be introduced even into a large
-               quantity of water; but if perchance<note type="footnote" n="382"><foreign xml:lang="grc">ἆρα</foreign>.</note> it in fact happen to be introduced, it is cleansed by the quantity of
-               streams, and swamped by the quantity of cleansing<note type="footnote" n="383">Cf. Select Letters of Severus, p. 289.</note>. We find that in fact the holy fathers also who
+               quantity of water; but if perchance<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> it in fact happen to be introduced, it is cleansed by the quantity of
+               streams, and swamped by the quantity of cleansing<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. We find that in fact the holy fathers also who
                were in former times upholders of the right word managed these things in this way. Show us from
                the compositions of the doctors of the church that, after so large a number had found fault with
                the faith of the 318 at <placeName>Ariminus</placeName> [sic], any question was raised about the names of those who had
                died. And, not to make the letter tedious by using many words, let us pass on in mind to times
                that are near and not far removed. We find that the holy <persName>Timothy</persName>, he who underwent long
-               exiles<note type="footnote" n="384"><foreign xml:lang="grc">ἐξορίας</foreign>.</note>, united with everyone in the Encyclical, and communicated with <persName>Paul</persName>
+               exiles<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, united with everyone in the Encyclical, and communicated with <persName>Paul</persName>
                bishop of the city of the <placeName>Ephesians</placeName>, and <persName>Peter</persName> who had become prelate of <pb n="140"/> this
                great Christ-loving city of <placeName>Antioch</placeName>, while names under suspicion were preserved in the sacred
-               tablets; and the holy <persName>Cyril</persName>, when he united with the Easterns after the deprivation<note
-                  type="footnote" n="385"><foreign xml:lang="grc">καθαίρεσις</foreign>.</note> of
+               tablets; and the holy <persName>Cyril</persName>, when he united with the Easterns after the deprivation<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> of
                <persName>Nestorius</persName>, when many bishops had died, and had departed under the stain of the Nestorian heresy,
                made no inquiry about names. If therefore those who set great store by strictness in respect of
                such names say that the oblation is not pure, let them know that their strictness also draws its
@@ -174,11 +171,27 @@
                proclaim, "You shall not approach me because I am pure". And this we say superfluously, that
                some of the bishops in the cities of the Easterns set even this also straight, and ceased to
                mention all such names: for others found it impossible to set this same thing straight; and it
-               was not right for such a reason for them to enter on wrangles<note type="footnote" n="386"
-                 ><foreign xml:lang="grc">ζυγομάχας</foreign>.</note>, and set themselves in
+               was not right for such a reason for them to enter on wrangles<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>, and set themselves in
                array against the enthusiasm of the people of the cities, in order that they might suffer
                shipwreck in the most essential things. </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Leviticus xi,
+                  25, 26.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">ὑπαρχίας</foreign> (for
+                  <foreign xml:lang="grc">ἐπαρχίας</foreign>).</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">ἆρα</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">Cf. Select Letters of Severus, p. 289.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">ἐξορίας</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">
+          <foreign xml:lang="grc">καθαίρεσις</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">ζυγομάχας</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

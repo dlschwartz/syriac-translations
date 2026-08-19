@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">68 [238]-69 [239]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">68 [238]-69 [239]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,24 +157,32 @@
    <text>
       <body>
        <div type="work" xml:id="work-66" n="66">
+        <div type="section" xml:id="section-66">
           <head type="main" resp="#compiler">Of the Holy Severus From the Letter to <persName ref="http://syriaca.org/person/2647">Eupraxius</persName>.</head>
         <dateline resp="#ebrooks">
          <date notBefore="0508" notAfter="0511">508-11</date>
         </dateline>
-        <ab> For not only the manifestations of wrath that arise from wars, but also the chastisements of
+        <ab xml:id="section-66.1" n="1"> For not only the manifestations of wrath that arise from wars, but also the chastisements of
          many kinds which are brought to pass from heaven for our correction it is the habit of Scripture
          to call evils. For the prophet <pb n="239"/> Amos said, "Is there evil in a city which the Lord
          hath not done?" And, explaining what an evil of this kind is, which is brought to pass by God in
          order to benefit, he said as his mouthpiece: " 'I smote you with heat and with jaundice, ye
          increased your gardens: your vines and your olives and your figs the caterpillar ate, and even
-         so ye turned not to me', saith the Lord"<note type="footnote" n="641">Amos, iii,
-          6; iv, 9.</note>.</ab>
-        <ab><supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">A little farther on.</emph>)</supplied>Of
+         so ye turned not to me', saith the Lord"<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</ab>
+        <ab xml:id="section-66.2" n="2">
+            <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">A little farther on.</emph>)</supplied>Of
          these chastisements and calamities therefore God is the maker, for our reproof and the
          repression of our sins. Indeed we also call the things that are brought upon us by way of
          chastisement evils: and the holy prophet also speaks and composed according to our custom, or
-         rather<note type="footnote" n="642"><foreign xml:lang="grc">μᾶλλον</foreign>.</note> the Lord himself who spoke in him.</ab>
+         rather<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the Lord himself who spoke in him.</ab>
        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Amos, iii,
+          6; iv, 9.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">μᾶλλον</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

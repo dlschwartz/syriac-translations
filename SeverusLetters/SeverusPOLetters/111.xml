@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">274 [444]-276 [446]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">274 [444]-276 [446]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,8 +157,9 @@
    <text>
       <body>
          <div type="work" xml:id="work-111" n="111">
+        <div type="section" xml:id="section-111">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName> From the Letter to <persName ref="http://syriaca.org/person/2755">Simus</persName> the
-               Scriniarius<note type="footnote" n="1150">Ep. 4.</note>, Showing That the
+               Scriniarius<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, Showing That the
                Divine Inflation in Adam Is the Holy Spirit, and the Power Which Makes the Soul of Man. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">
@@ -165,15 +167,14 @@
                   <precision match="@notAfter @notBefore" precision="unknown"/>
                </date>
             </dateline>
-            <ab> For against that contention we must vigorously make answer, that in <pb n="445"/> the
+            <ab xml:id="section-111.1" n="1"> For against that contention we must vigorously make answer, that in <pb n="445"/> the
                composition or fashioning of man the rational soul of man is not created before the body, nor is
                the body formed before the soul. Why do you drag the teaching of the holy fathers which says
                that the divine inspiration is the Holy Spirit, an active and operative force, and is the power
                which makes the soul of man, to an abominable objection by saying this, that they who say this
                absolutely and by all means clearly hold that the body is created first, and after the formation
                is complete receives a soul, in that the Holy Scripture says, "And God created man dust from the
-               earth, and breathed into his face the breath of life"<note type="footnote" n="1151"
-                 >Genesis II, 7.</note>, as if the formation comes first, and the animation follows
+               earth, and breathed into his face the breath of life"<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, as if the formation comes first, and the animation follows
                afterwards, in the second place, according to the narrative of Scripture? But we shall not
                arrive at this cold supposition, if we receive in our mind that God creates, not like some
                feeble man. <supplied reason="ellipsis" resp="#compiler">(<emph rend="ital">A little farther
@@ -183,17 +184,23 @@
                inflation, and again that we are to <pb n="446"/> understand that, man having been created and
                possessing a soul, the inflation inserted only spiritual gifts and patterns of divine
                association.</ab>
-            <ab>And the holy <persName ref="http://syriaca.org/person/376">Basil</persName> in what he wrote about the Holy Spirit taught as follows: "For, when <persName>Adam</persName>
+            <ab xml:id="section-111.2" n="2">And the holy <persName ref="http://syriaca.org/person/376">Basil</persName> in what he wrote about the Holy Spirit taught as follows: "For, when <persName>Adam</persName>
                had lost the grace derived from the divine inflation, <persName>Christ</persName> gave it back again, when he
-               breathed into the face of his disciples and said, 'Receive the Holy Spirit'"<note
-                  type="footnote" n="1152">De Spir. Sancto, xxxix (P. G., XXXII, 139), a loose
-                  citation. I cannot find the citation which follows.</note>. And again he said, "When he
+               breathed into the face of his disciples and said, 'Receive the Holy Spirit'"<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. And again he said, "When he
                breathed in intellect, he is not another diifering from him who breathed at the beginning, but
                the same through whom he gave the inflation, then giving it with the soul, but now giving the
                soul". So much we have written as an abundant elucidation of the words, "Let us make man in our
-               image"<note type="footnote" n="1153">Genesis I, 26.</note>, and of the words,
+               image"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, and of the words,
                "breathed into his face the breath of life".</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Ep. 4.</note>
+        <note xml:id="n2" target="#a2" n="2">Genesis II, 7.</note>
+        <note xml:id="n3" target="#a3" n="3">De Spir. Sancto, xxxix (P. G., XXXII, 139), a loose
+                  citation. I cannot find the citation which follows.</note>
+        <note xml:id="n4" target="#a4" n="4">Genesis I, 26.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

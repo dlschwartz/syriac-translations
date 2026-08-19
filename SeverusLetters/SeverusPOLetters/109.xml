@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-            <biblScope unit="page">273 [443]</biblScope><!-- FILL IN CORRECT PAGES -->
+            <biblScope unit="page">273 [443]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,21 +157,29 @@
    <text>
       <body>
          <div type="work" xml:id="work-109" n="109">
+        <div type="section" xml:id="section-109">
             <head type="main" resp="#compiler">Of the Same Holy <persName ref="http://syriaca.org/person/51">Severus</persName> From the 250th Letter of the Ist Book
-               Before Episcopacy, Which Was Addressed to <persName ref="http://syriaca.org/person/2768">Theognostus</persName>.<note type="footnote" n="1146"
-                 >From the work of <persName>Peter</persName> against <persName>Damian</persName>.</note>
+               Before Episcopacy, Which Was Addressed to <persName ref="http://syriaca.org/person/2768">Theognostus</persName>.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
             </head>
             <dateline resp="#ebrooks">
                <date notBefore="0508" notAfter="0512">508-12</date>
             </dateline>
-            <ab> But now it is time for us to come to the other question. You say "What is meant to be
+            <ab xml:id="section-109.1" n="1"> But now it is time for us to come to the other question. You say "What is meant to be
                signified by the phrase used by <persName>Isaiah</persName> the prophet about our Lord, that he was sent 'to proclaim
-               the acceptable year of the Lord'<note type="footnote" n="1147">Isaiah LXI, 1,
-                  2.</note>?" But this I say <damage><supplied resp="#ebrooks">..........</supplied></damage><note type="footnote" n="1148"
-                    >Here the fragment breaks off through the loss of a leaf or more in the
-                     ms.</note>
+               the acceptable year of the Lord'<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>?" But this I say <damage>
+              <supplied resp="#ebrooks">..........</supplied>
+            </damage>
+            <ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>
             </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">From the work of <persName>Peter</persName> against <persName>Damian</persName>.</note>
+        <note xml:id="n2" target="#a2" n="2">Isaiah LXI, 1,
+                  2.</note>
+        <note xml:id="n3" target="#a3" n="3">Here the fragment breaks off through the loss of a leaf or more in the
+                     ms.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

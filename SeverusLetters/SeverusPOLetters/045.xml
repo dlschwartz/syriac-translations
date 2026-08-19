@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">313 [141]-315 [143]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">313 [141]-315 [143]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,55 +131,73 @@
    <text>
       <body>
          <div type="work" xml:id="work-45" n="45">
-            <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2551">Soteric</persName><note
-               type="footnote" n="387"><persName ref="http://syriaca.org/person/2551">Soteric</persName> is meant: see Select Letters of Severus, p. 61,
-               291, 387, 407; Evagr., iii, 44; Cyr. Scyth., Vit. Sab., 56; Theoph., A. M. 6003.</note> Bishop
+        <div type="section" xml:id="section-45">
+            <head type="main" resp="#compiler">Of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, From the Letter to <persName ref="http://syriaca.org/person/2551">Soteric</persName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Bishop
                Of <placeName ref="http://syriaca.org/place/2637">Caesarea</placeName> in <placeName>Cappadocia</placeName>, Which Begins, "The God-loving bishop of the city of the <placeName>Nyssenes</placeName>". </head>
             <dateline resp="#ebrooks">
                <date when="0516">516</date>
             </dateline>
-            <ab>They are not acting rightly who think that our oblation is not pure on account of the names of
-               those who have already died, and who have fallen into heretical tenets<note type="footnote"
-                  n="388"><foreign xml:lang="grc">δόγματα</foreign>.</note>, and have not been removed from the
-               sacred tablets; because in fact such matters did not affect the oblation of orthodoxy<note
-                  type="footnote" n="389"><foreign xml:lang="grc">ὀρθοδοξία</foreign>.</note> of
+            <ab xml:id="section-45.1" n="1">They are not acting rightly who think that our oblation is not pure on account of the names of
+               those who have already died, and who have fallen into heretical tenets<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, and have not been removed from the
+               sacred tablets; because in fact such matters did not affect the oblation of orthodoxy<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> of
                the holy fathers also. Though <persName ref="http://syriaca.org/person/480">Eusebius</persName> Pamphili contended for the disease of <persName>Arius</persName>, both in
                speech and in act, the members of the church of <placeName ref="http://syriaca.org/place/2637">Caesarea</placeName> mentioned his name, until the holy
                <persName>Cyril</persName> passed by, when he was hastening to the city of the Ephesians, and had this name removed.
                What shall we then say? That throughout the time during which the name of <persName ref="http://syriaca.org/person/480">Eusebius</persName> stood in the
-               sacred tablets it perturbed the oblation of men who held right opinions<note type="footnote"
-                  n="388"><foreign xml:lang="grc">δόγματα</foreign>.</note>? What? When again the same holy <persName>Cyril</persName>
+               sacred tablets it perturbed the oblation of men who held right opinions<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>? What? When again the same holy <persName>Cyril</persName>
                of saintly memory wrote to the holy <pb n="142"/> <persName>Proclus</persName> bishop of <placeName>Constantinople</placeName> at that time
                to spare the name of <persName>Theodore</persName> of <placeName>Mopsuestia</placeName>, who was the putrid source of the hateful and putrid
-               tenets<note type="footnote" n="390"><foreign xml:lang="grc">δόγματα</foreign>.</note> of
-               <persName>Nestorius</persName>, in order not to give an opportunity to those who wished to disturb the church<note
-                  type="footnote" n="391">Ep. 72 (P. G., LXXVII, 345).</note>, shall we think
+               tenets<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of
+               <persName>Nestorius</persName>, in order not to give an opportunity to those who wished to disturb the church<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>, shall we think
                that thereby some pollution and stain of heresy was inflicted on the oblation of the
-               orthodox<note type="footnote" n="392"><foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>? By no means. If we search into this, there is no time at which
+               orthodox<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>? By no means. If we search into this, there is no time at which
                we shall see the church to be pure. If is already well-known that such things have not and never
                will cause any injury to the whole fulness of the body of Christ. In fact in Leviticus we find
                something like this written, where it is dealing with the pollution that is caused to anything
                by a dead body, as follows: "And all food that ye shall eat on which water shall come, and there
                fall upon it any of these dead things, it is pollution; and every drink that ye shall drink in
-               any vessel is polluted. However of<note type="footnote" n="393">Thus
-                  meaninglessly has the translator rendered the genitive after <foreign xml:lang="grc">πλήν</foreign>.</note> springs of water and of pools and of cisterns of water they shall be
-               pure"<note type="footnote" n="394">Leviticus xi, 24-26.</note>. What then is it that
+               any vessel is polluted. However of<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> springs of water and of pools and of cisterns of water they shall be
+               pure"<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/>. What then is it that
                is made known to us by this? That, when certain men are by themselves, in a church for instance
                or in one <pb n="143"/> city, or in monasteries perhaps make mention of the names of those who
                are under suspicion and of dead men, like the similarly small amount of water contained in a
                vessel they are polluted by the mention, as if something dead were falling; but, when churches
-               of many provinces<note type="footnote" n="395"><foreign xml:lang="grc">ὑπαρχίας</foreign>(for <foreign xml:lang="grc">ἐπαρχίας</foreign>).</note> and of dioceses
+               of many provinces<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> and of dioceses
                are held in one bond of faith, and resemble fair fountains and pools and cisterns of water, the
                dead thing which has the property of polluting if it fall cannot injure; for it is swamped by
                the flow, and by the abundance of many streams. I have said these things in order to show from
                the God-inspired Scripture, and from the bishops, the pastors, the upholders of right reason,
-               that in such matters observance of every point is endless, and that mention of this kind<note
-                  type="footnote" n="396">This is the sense required.</note> does no injury to
+               that in such matters observance of every point is endless, and that mention of this kind<ptr type="noteAnchor" xml:id="a11" target="#n11" n="11"/> does no injury to
                the fair body of the church. But your sanctity should know that we have by a letter made the
-               above project known to the saintly <persName>Dioscorus</persName> also, bishop of <placeName>Alexandria</placeName><note type="footnote"
-                  n="397">Preserved in Select Letters of Severus, iv, 3. The date is therefore
-                  516.</note>, since we considered his assent also most necessary. </ab>
+               above project known to the saintly <persName>Dioscorus</persName> also, bishop of <placeName>Alexandria</placeName>
+            <ptr type="noteAnchor" xml:id="a12" target="#n12" n="12"/>, since we considered his assent also most necessary. </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <persName ref="http://syriaca.org/person/2551">Soteric</persName> is meant: see Select Letters of Severus, p. 61,
+               291, 387, 407; Evagr., iii, 44; Cyr. Scyth., Vit. Sab., 56; Theoph., A. M. 6003.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <foreign xml:lang="grc">δόγματα</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">ὀρθοδοξία</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">δόγματα</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">
+          <foreign xml:lang="grc">δόγματα</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">Ep. 72 (P. G., LXXVII, 345).</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">ὀρθόδοξοι</foreign>.</note>
+        <note xml:id="n8" target="#a8" n="8">Thus
+                  meaninglessly has the translator rendered the genitive after <foreign xml:lang="grc">πλήν</foreign>.</note>
+        <note xml:id="n9" target="#a9" n="9">Leviticus xi, 24-26.</note>
+        <note xml:id="n10" target="#a10" n="10">
+          <foreign xml:lang="grc">ὑπαρχίας</foreign>(for <foreign xml:lang="grc">ἐπαρχίας</foreign>).</note>
+        <note xml:id="n11" target="#a11" n="11">This is the sense required.</note>
+        <note xml:id="n12" target="#a12" n="12">Preserved in Select Letters of Severus, iv, 3. The date is therefore
+                  516.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

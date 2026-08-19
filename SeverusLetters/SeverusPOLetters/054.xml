@@ -68,8 +68,7 @@
                         <surname>Brooks</surname>
                      </persName>
                   </editor>
-                  <title xml:lang="en" level="m"> A Collection of Letters of <persName
-                        ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
+                  <title xml:lang="en" level="m"> A Collection of Letters of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> , from
                      Numerous Syriac Manuscripts </title>
                   <idno type="URI">http://syriaca.org/bibl/677</idno>
                   <imprint>
@@ -79,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">332 [160]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">332 [160]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -112,8 +112,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -131,23 +131,35 @@
    <text>
       <body>
          <div type="work" xml:id="work-54" n="54">
+        <div type="section" xml:id="section-54">
             <head type="main" resp="#compiler">From the Letter of the Holy <persName ref="http://syriaca.org/person/51">Severus</persName>, Patriarch of Antioch, To
                <persName ref="http://syriaca.org/person/2620">Caesaria</persName> the Hypatissa, the Beginning of Which is "The words that were addressed to me by your
                God-loving highness". </head>
             <dateline resp="#ebrooks">
                <date notBefore="0519" notAfter="0538">519-38</date>
             </dateline>
-            <ab>[The order of service of me, <persName ref="http://syriaca.org/person/51">Severus</persName>, in Palestine and in Antioch they continue to sing even
+            <ab xml:id="section-54.1" n="1">[The order of service of me, <persName ref="http://syriaca.org/person/51">Severus</persName>, in Palestine and in Antioch they continue to sing even
                down to this day.</ab>
-            <ab>The office<note type="footnote" n="437"><foreign xml:lang="grc">ἀκολουθία</foreign>.</note>.</ab>
-            <ab>The service of night and evening]<note type="footnote" n="438">The fragment
-               down to this point can hardly belong to a letter of <persName ref="http://syriaca.org/person/51">Severus</persName>, and is probably a gloss.</note>. But
+            <ab xml:id="section-54.2" n="2">The office<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</ab>
+            <ab xml:id="section-54.3" n="3">The service of night and evening]<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. But
                I wish your God-loving highness to know that the order of- hymns and odes has been preserved in
                one form among the Egyptians, in another among the Palestinians and Phoenicians, and in another
                among the Syrians, according to the custom that has been handed down from the beginning in each
-               of the regions<damage><supplied resp="#ebrooks">.....</supplied></damage><note type="footnote" n="439"><foreign xml:lang="grc">κλίμα</foreign>.Here the ms. breaks off.</note>
+               of the regions<damage>
+              <supplied resp="#ebrooks">.....</supplied>
+            </damage>
+            <ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>
             </ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">
+          <foreign xml:lang="grc">ἀκολουθία</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2">The fragment
+               down to this point can hardly belong to a letter of <persName ref="http://syriaca.org/person/51">Severus</persName>, and is probably a gloss.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">κλίμα</foreign>.Here the ms. breaks off.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

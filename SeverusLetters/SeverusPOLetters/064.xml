@@ -104,7 +104,8 @@
                      <date>1920</date>
                   </imprint>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">5 [175]-6 [176]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">5 [175]-6 [176]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -137,8 +138,8 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
@@ -156,19 +157,19 @@
    <text>
       <body>
          <div type="work" xml:id="work-64" n="64">
+        <div type="section" xml:id="section-64">
             <head type="letter" resp="#compiler">And Let the God-Glad <persName ref="http://syriaca.org/person/51">Severus</persName> Also Bear Witness, He Who In
-               All Such Matters Has More Knowledge Than Many Men. In the Letter to <persName ref="http://syriaca.org/person/56">Oecumenius</persName><note
-                  type="footnote" n="476">See ep. 1.</note> Of Which the Beginning Is, "Neither
+               All Such Matters Has More Knowledge Than Many Men. In the Letter to <persName ref="http://syriaca.org/person/56">Oecumenius</persName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> Of Which the Beginning Is, "Neither
                did I forget when I was writing the letter", In Speaking on This Subject He Uses the Following
-               Words.<note type="footnote" n="475">From the work of <persName>Peter</persName> against
-                  Damian.</note></head>
+               Words.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>
+          </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0518">513-8</date>
             </dateline>
-            <ab> For those therefore who wish to learn the purport of what has been written by me in brief and
+            <ab xml:id="section-64.1" n="1"> For those therefore who wish to learn the purport of what has been written by me in brief and
                in few words it was right that these things should be put forward: but to those who desire to
-               know the reasons and the argument<note type="footnote" n="477"><foreign
-                  xml:lang="grc">θεωρία</foreign>.</note> contained in this composition let the whole letter be
+               know the reasons and the argument<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> contained in this composition let the whole letter be
                given. But it is certain that even a man who has received summaries of what has been said will
                need the whole: for a summary is an epitome of many words; therefore he must first know those
                many words in order to know of what things it is an epitome. Otherwise the result will be that
@@ -176,14 +177,22 @@
                with tongues only, whom <persName>Paul</persName> reproves, saying, "For, if I prayed <pb n="176"/> in a tongue, my
                spirit prayeth, but my understanding is unfruitful": and afterwards he adds what he thinks
                right, saying, "I will pray with my spirit, but I will pray also with my understanding. I will
-               sing with my spirit, but I will sing also with my understanding"<note type="footnote" n="478"
-                 >1 Corinthians xiv, 14, 15.</note>. And I therefore, making a slight change, say: It is
+               sing with my spirit, but I will sing also with my understanding"<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. And I therefore, making a slight change, say: It is
                right to argue with words; but it is right to argue also with the understanding. I do not know
                if any of the God-clad fathers pronounced it right for us to speak in brief when giving
                teaching; for in these matters it is a welcome thing if even by expending the whole power of
                speech that is in us we utter a small portion and that in obscure form of what the intellect has
                gathered.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">See ep. 1.</note>
+        <note xml:id="n2" target="#a2" n="2">From the work of <persName>Peter</persName> against
+                  Damian.</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <foreign xml:lang="grc">θεωρία</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4">1 Corinthians xiv, 14, 15.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>

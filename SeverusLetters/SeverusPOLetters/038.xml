@@ -78,7 +78,8 @@
                   </imprint>
                   <extent>2 fasc</extent>
                   <biblScope unit="fasc">I</biblScope>
-                  <biblScope unit="page">294 [122]-295 [123]</biblScope><!-- FILL IN CORRECT PAGES -->
+                  <biblScope unit="page">294 [122]-295 [123]</biblScope>
+            <!-- FILL IN CORRECT PAGES -->
                </monogr>
                <series>
                   <editor ref="http://syriaca.org/person/509">
@@ -111,15 +112,15 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <origDate type="composition"
-            /><!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
+            <origDate type="composition"/>
+        <!-- FILL IN. La Route Royale dates are probably preferable to Brooks' dates. -->
          </creation>
       <correspDesc>
          <correspAction type="sent">
             <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
          </correspAction>
          <correspAction type="received">
-            <persName ref="http://syriaca.org/person/"></persName>
+            <persName ref="http://syriaca.org/person/"/>
          </correspAction>
       </correspDesc>
       </profileDesc>
@@ -130,26 +131,24 @@
    <text>
       <body>
          <div type="work" xml:id="work-38" n="38">
+        <div type="section" xml:id="section-38">
             <head type="main" resp="#compiler">Of the Holy Mar <persName ref="http://syriaca.org/person/51">Severus</persName> the Patriarch From the Letter to <persName ref="http://syriaca.org/person/2733">Peter</persName>
-               And <persName ref="http://syriaca.org/person/2595">Ammonius</persName><note type="footnote" n="326">Presb. of <placeName>Alexandria</placeName>, addressed also
-                  in Select Letters of , iv, 2 on the same subject, from which I infer the date.</note>
+               And <persName ref="http://syriaca.org/person/2595">Ammonius</persName>
+            <ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>
                And <persName ref="http://syriaca.org/person/2727">Olympiodorus</persName>, About the Naming of <persName ref="http://syriaca.org/person/680">Peter</persName> Bishop of <placeName>Alexandria</placeName>; Which Is the 10th of the 1st
                Book of the Letters Written During Tenure of the See. </head>
             <dateline resp="#ebrooks">
                <date notBefore="0513" notAfter="0516">513-6</date>
             </dateline>
-            <ab>For we may learn from the facts themselves, that we, the few in number and small, by God's
+            <ab xml:id="section-38.1" n="1">For we may learn from the facts themselves, that we, the few in number and small, by God's
                help completely checked the synod of <persName>Chalcedon</persName> that was already acting as absolute shepherd of
                the churches, we who as in <persName ref="http://syriaca.org/person/1091">Isaiah</persName>'s prophecy were left like a bunch after the olives have been
                gathered, 'two or three on the high ends of the branches, or four or five, who were from this
-               bunch of olives'<note type="footnote" n="327"><persName ref="http://syriaca.org/person/1091">Isaiah</persName> xvii, 6 (differing widely from
-                  LXX).</note>, <persName ref="http://syriaca.org/person/680">Peter</persName> who was from the country of the Iberians, but was a citizen of <placeName>Jerusalem</placeName>
-               the city above, and <persName>Theodosius</persName><note type="footnote" n="328"><persName ref="http://syriaca.org/person/2715">Theodore</persName> is meant (Zach. Rh., vi, 1,
-                  2; Vit. Monoph. (ed. Brooks), p. 3; P. O., II, 73).</note> who adorned the throne<note
-                     type="footnote" n="329"><foreign xml:lang="grc">θρόνος</foreign>.</note> of
-               Antinou<note type="footnote" n="330">Misrendering of <foreign xml:lang="grc">τῆς Ἀντινόου</foreign>.</note>, and <persName ref="http://syriaca.org/person/1091">Isaiah</persName><note type="footnote" n="331">Zach.
-                     Rh., vi, 3; Vit. Monoph., p. 3-16.</note> the very famous, the statue<note type="footnote"
-                        n="332"><foreign xml:lang="grc">ἀνδριάντα</foreign>.</note> of philosophy and
+               bunch of olives'<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, <persName ref="http://syriaca.org/person/680">Peter</persName> who was from the country of the Iberians, but was a citizen of <placeName>Jerusalem</placeName>
+               the city above, and <persName>Theodosius</persName>
+            <ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> who adorned the throne<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> of
+               Antinou<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, and <persName ref="http://syriaca.org/person/1091">Isaiah</persName>
+            <ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> the very famous, the statue<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> of philosophy and
                of life in God, like a column and pattern; men who even in this world reaped the honour due to
                their labours, prophesyings and gifts of healings, <pb n="123"/> and were illustrious in other
                spiritual excellencies, whose spirits also, I am convinced, are offering prayers on our behalf,
@@ -160,6 +159,24 @@
                God-clad fathers: whom let us also follow, though we are small, men, whose judgment is a subject
                of prayer.</ab>
          </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1">Presb. of <placeName>Alexandria</placeName>, addressed also
+                  in Select Letters of , iv, 2 on the same subject, from which I infer the date.</note>
+        <note xml:id="n2" target="#a2" n="2">
+          <persName ref="http://syriaca.org/person/1091">Isaiah</persName> xvii, 6 (differing widely from
+                  LXX).</note>
+        <note xml:id="n3" target="#a3" n="3">
+          <persName ref="http://syriaca.org/person/2715">Theodore</persName> is meant (Zach. Rh., vi, 1,
+                  2; Vit. Monoph. (ed. Brooks), p. 3; P. O., II, 73).</note>
+        <note xml:id="n4" target="#a4" n="4">
+          <foreign xml:lang="grc">θρόνος</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5">Misrendering of <foreign xml:lang="grc">τῆς Ἀντινόου</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6">Zach.
+                     Rh., vi, 3; Vit. Monoph., p. 3-16.</note>
+        <note xml:id="n7" target="#a7" n="7">
+          <foreign xml:lang="grc">ἀνδριάντα</foreign>.</note>
+      </noteGrp>
       </body>
    </text>
 </TEI>
