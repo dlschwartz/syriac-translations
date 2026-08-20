@@ -26,13 +26,14 @@
    </teiHeader>
    <text>
       <body>
+         <div type="work" xml:id="work-1" n="1">
          <head>Hymn 1</head>
-         <div type="response">
+         <div type="preface" xml:id="preface" n="0">
             <ab>Response: To Thee be praise from Thy flock in the day of Thy Epiphany!</ab>
          </div>
          <div type="section" n="1">
             <ab>The heavens He has renewed, for that fools worshipped all the luminaries:—He has
-               renewed the earth, for that in <persName>Adam</persName> it was wasted.<ptr type="noteAnchor" target="#n1"/>—That which He fashioned has
+               renewed the earth, for that in <persName>Adam</persName> it was wasted.<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>—That which He fashioned has
                become new by His spittle:—and the All-Sufficing has restored bodies with souls.</ab>
          </div>
          <div type="section" n="2">
@@ -130,9 +131,9 @@
                the Father is stronger than thunder,—as it utters the word, <quote>This is My Beloved</quote>;—the
                Watchers brought the tidings, the children acclaimed Him in their Hosannas.</ab>
          </div>
+         </div>
          <noteGrp>
-            <!-- Please add footnote numbers. -->
-            <note xml:id="n">See p. 177.</note>
+            <note xml:id="n1" target="#a1" n="1">See p. 177.</note>
          </noteGrp>
       </body>
    </text>

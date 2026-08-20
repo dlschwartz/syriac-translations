@@ -26,8 +26,9 @@
    </teiHeader>
    <text>
       <body>
+         <div type="work" xml:id="work-7" n="7">
          <head>Hymn 7</head>
-         <div type="response">
+         <div type="preface" xml:id="preface" n="0">
             <ab>Response: Blessed is He Who atoned your sins, that ye might receive His Body
                worthily!</ab>
          </div>
@@ -65,7 +66,7 @@
          <div type="section" n="7">
             <ab>To the sons of Lot <persName>Moses</persName> said,—<quote>Give us water for money,—let us only pass by through
                your border.</quote>—They refused the way, and the temporal water.—Lo! the living water
-               freely<ptr type="noteAnchor" target="#n1"/> given,—and the path that leads to <placeName>Eden</placeName>!</ab>
+               freely<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> given,—and the path that leads to <placeName>Eden</placeName>!</ab>
          </div>
          <div type="section" n="8">
             <ab>From the water <persName>Gideon</persName> chose for himself—the men who were victorious in the
@@ -93,7 +94,7 @@
                been clad in newness.</ab>
          </div>
          <div type="section" n="13">
-            <ab>In <placeName>Siloam</placeName>,<ptr type="noteAnchor" target="#n2"/> the blessed stream—the priests anointed <persName>Solomon</persName>.—His youth was had in
+            <ab>In <placeName>Siloam</placeName>,<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the blessed stream—the priests anointed <persName>Solomon</persName>.—His youth was had in
                honour;—his old age was despised.—Through the pure waters ye have been clad—in the
                purity of Heaven.</ab>
          </div>
@@ -173,8 +174,8 @@
                the death of him that dieth,—I have no pleasure, but in his life.</quote>—Thou hast sworn
                and I have adjured:—O Thou Who hast sworn, pardon him who has adjured!</ab>
          </div>
+         </div>
          <noteGrp>
-            <!-- Please add footnote numbers. -->
             <note xml:id="n1" target="#a1" n="1">Rev. xxi. 6, xxii. 17.</note>
             <note xml:id="n2" target="#a2" n="2">So in Peshitto, 1 Kin. i. 38; but Gihon in the Hebrew.</note>
          </noteGrp>

@@ -26,13 +26,14 @@
    </teiHeader>
    <text>
       <body>
+         <div type="work" xml:id="work-2" n="2">
          <head>Hymn 2</head>
-         <div type="response">
+         <div type="preface" xml:id="preface" n="0">
             <ab>Response: To Thee be praise Who in this feast makest all to exult!</ab>
          </div>
          <div type="section" n="1">
-            <ab>In the time of the King whom they called by the name <persName>Semha</persName><ptr type="noteAnchor" target="#n1"/>—our Lord was
-               manifested among the Hebrews.—Thus <persName>Semha</persName> and <persName>Denha</persName><ptr type="noteAnchor" target="#n2"/> reigned together,—the King on
+            <ab>In the time of the King whom they called by the name <persName>Semha</persName><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>—our Lord was
+               manifested among the Hebrews.—Thus <persName>Semha</persName> and <persName>Denha</persName><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> reigned together,—the King on
                earth and the Son on high—blessed be His power!</ab>
          </div>
          <div type="section" n="2">
@@ -95,7 +96,7 @@
                brings forth the root.—She saw <persName>Mary</persName> an unwatered soil—whose fruit that she yielded is
                a mighty sea; to Him be exultation!</ab>
          </div>
-         <div type="response">
+         <div type="preface" xml:id="preface" n="0">
             <ab>Response: To Thee be glory, Son of the Lord of all, Who givest life to all!</ab>
          </div>
          <div type="section" n="14">
@@ -148,7 +149,7 @@
                the soul—that is the salt of the Body, and Faith—the salt of the soul whereby it is
                preserved; blessed be Thy preservation!</ab>
          </div>
-         <div type="response">
+         <div type="preface" xml:id="preface" n="0">
             <ab>Response: Glory to Thy Epiphany, O God and Man!</ab>
          </div>
          <div type="section" n="24">
@@ -213,8 +214,8 @@
                height and the depth that have been reconciled in Him! Blessed be He and His
                Father!</ab>
          </div>
+         </div>
          <noteGrp>
-            <!-- Please add footnote numbers. -->
             <note xml:id="n1" target="#a1" n="1">Equivalent to Augustus.</note>
             <note xml:id="n2" target="#a2" n="2">i.e., Dayspring.</note>
          </noteGrp>
