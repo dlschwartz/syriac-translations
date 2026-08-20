@@ -34,11 +34,11 @@
    </teiHeader>
    <text>
       <body>
-         <head type="title">Ethikon</head>
-         <pb n="85"/>
-         <div type="chapter" n="4.15">
-            <head>Book IV, Chapter XV</head>
-            <head>On the Love of God</head>
+         <div type="work" xml:id="work">
+         <head type="main">Ethikon</head>
+         <div type="section" n="4.15">
+            <head type="main">Book IV, Chapter XV</head>
+            <head type="sub">On the Love of God</head>
             <div type="section" n="1">
                <head>Section the First</head>
                <head>Sayings of the Fathers concerning the Love unto God</head>
@@ -1221,6 +1221,7 @@
                   shall be had in honour.[#n133-2] And from these things it appears, that play and
                   dance are tokens of want of honour and of voluptuousness.</ab>
             </div>
+         </div>
          </div>
          <noteGrp>
             <note xml:id="n85-1" target="#a85-1" n="85-1">Is. 1,3.</note>
