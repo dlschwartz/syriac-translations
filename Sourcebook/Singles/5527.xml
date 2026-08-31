@@ -46,10 +46,10 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc status="draft">
-      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-08-27">Upload initial AI-assisted encoding of transcription.</change>
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-08-30">Corrected initial AI-assisted encoding of transcription.</change>
     </revisionDesc>
   </teiHeader>
-  <text>
+ <text>
   <body>
     <div type="work">
       <head>Didascalia</head>
@@ -385,8 +385,7 @@
     </div>
     <noteGrp>
       <!-- DUPLICATE note body, printed p. 77, marg. 8 (second of two copies in the transcript): Prov. vi. 6, 8 -->
-      <!-- UNANCHORED note body, printed p. 38, n. 1: S. om. God. -->
-    <!-- UNANCHORED note body, printed p. 9, marg. 6: p. 9, marg. 6 Prov. ix. 13-18 --><note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 1, marg. 1</orig></choice> f. 1b</note>
+    <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 1, marg. 1</orig></choice> f. 1b</note>
       <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 1, marg. 2</orig></choice> f. 2a</note>
       <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 2, marg. 1</orig></choice> Apostolical Constitutions Book I.</note>
       <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 2, marg. 2</orig></choice> Ap. Con. Bk. I. ch. i.</note>
@@ -572,7 +571,7 @@
       <note xml:id="n184" target="#a184" n="184"><choice><reg/><orig>p. 38, marg. 1</orig></choice> 2 Chron. xxxiii. 11</note>
       <note xml:id="n185" target="#a185" n="185"><choice><reg/><orig>p. 38, marg. 2</orig></choice> 2 Chron. xxxiii. 12</note>
       <note xml:id="n186" target="#a186" n="186"><choice><reg/><orig>p. 38, marg. 3</orig></choice> f. 25b</note>
-      <note xml:id="n187" target="#a187" n="187"><choice><reg/><orig>unnumbered</orig></choice> <!-- WARNING: this anchor lost its note in a repair --></note>
+      <note xml:id="n187" target="#a187" n="187"><choice><reg/><orig>p. 38, n. 1</orig></choice> S. om. God.</note>
       <note xml:id="n188" target="#a188" n="188"><choice><reg/><orig>p. 39, marg. 1</orig></choice> f. 26a</note>
       <note xml:id="n189" target="#a189" n="189"><choice><reg/><orig>p. 39, marg. 2</orig></choice> Ap. Con. II. xxiii.</note>
       <note xml:id="n190" target="#a190" n="190"><choice><reg/><orig>p. 39, marg. 3</orig></choice> Ap. Con. II. xxiv.</note>
