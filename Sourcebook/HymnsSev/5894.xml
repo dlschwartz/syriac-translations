@@ -53,10 +53,31 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="201">
+        <pb n="253"/>
+        <head>201 — i — VI. — <quote>My soul hath gone out after thee</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Blessed <persName>Honorius</persName> the King, the Son of <persName>Theodosius</persName> the Elder.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">With <persName>David</persName> the divine king the religious <persName>Honorius</persName> said, <quote>My soul hath gone out after thee and thy right hand hath helped me, Lord</quote>; and, [since he thirsted<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> to be admitted to inherit the kingdom of heaven, therefore the pride of the temporal kingdom was reckoned as nothing before him, but he longed for the <pb n="254"/> life of the saints who are on mountains and in caves<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>; and he humbled and trained his flesh by means of fasts; and under the purple and the royal robe he wore a garment made of hair, [while he practised<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> chastity and justice, and said<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> again like the great prophet <persName>David</persName>, <quote>I am solitary or alone until I pass away</quote><ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> : who also [after he has<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> taken his journey is with <persName>Christ</persName> our God, who greatly glorifies all those who love him.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 253, n. 4</orig></choice> Ps. lxiii, 9.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 253, n. 5</orig></choice> Corr. <quote>thirsting</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 254, n. 1</orig></choice> Heb. xi, 37, 38 <quote>Others went about..... in the desert; and in caves and in holes of the earth</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 254, n. 2</orig></choice> Corr. <quote>practising</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 254, n. 3</orig></choice> Corr. <quote>saying</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 254, n. 4</orig></choice> Ps. cxl, 10 (not quoted).</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 254, n. 5</orig></choice> Corr. <quote>having</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

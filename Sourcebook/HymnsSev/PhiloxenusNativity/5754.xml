@@ -54,10 +54,23 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="8">
+        <pb n="51"/>
+        <head>8 — viii — VIII. — <quote>The kings of <placeName>Tharshish</placeName> and of the isles shall bring presents to him</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">The birth of <persName>Emmanuel</persName> in the flesh from the Virgin <persName>Mary</persName> was not preceded by the exercise of copulation, but<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> only by the descent of the Holy Spirit; and this God-befitting miracle is confirmed by the closed seal of virginity which is preserved even after the birth. But, before you look at and regard the mother's womb, and call him a babe who is borne and enclosed in his mother's arms, the Magi draw near, and bid and urge you to look at the star, and consider in your heart God the Word who descended and came from heaven, and to confess the same to be earthly and heavenly: whom also let us bless and worship and praise as God the Saviour of all and the merciful.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 51, n. 1</orig></choice> Ps. lxxii, 10.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 51, n. 2</orig></choice> Matth. i, 20.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

@@ -62,10 +62,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="133">
+        <pb n="173"/>
+        <head>133 — i — VIII. — <quote>The power that is in his works he hath shown unto his people</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Holy <persName>John</persName> the Evangelist, and on the Holy <persName>Thomas</persName> the Apostle.</ab>
+        </div>
+        <div type="section">
+          <ab n="2"><persName>John</persName><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the Theologian by resting on the breast of the Wisdom and Word who became incarnate sucked and drew in a stream of theology (<foreign xml:lang="grc">θεολογία</foreign>) in copious flow. But <persName>Thomas</persName> by touching and grasping with his hands the side of Life, from which he [poured forth cleansing blood<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and quickening water for us in abundance, confirmed our right faith, in that he confessed him who suffered and died on our behalf in the flesh to be Lord and <pb n="174"/> God; who was willingly sacrificed and is slain and a physician; who was alive among the dead, who was free<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> in the dark and gloomy chambers of <placeName>Sheol</placeName> : whom also let us beseech and entreat to bestow upon all of us his great mercy and forgiveness of our offences by the prayers of his saints.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 173, n. 2</orig></choice> Ps. cxi, 6.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 173, n. 3</orig></choice> John xiii, 23 (not quoted).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 173, n. 4</orig></choice> Corr. <quote>made blood of cleansing to spring forth</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 174, n. 1</orig></choice> Ps. lxxxviii, 6 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

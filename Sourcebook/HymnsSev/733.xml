@@ -61,10 +61,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="152">
+        <pb n="198"/>
+        <head>152 — i — VI. — <quote>He exalteth a horn for his people, glory for all his righteous ones</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Holy Persian Martyrs.</ab>
+        </div>
+        <div type="section">
+          <ab n="2"><persName>Christ</persName>, even God, who called and brought things that were<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> not as things<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> that were<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, and gave a sure expectation of the resurrection to men who had no hope, who cut off hope for <placeName>Babylon</placeName> the voluptuous city through the holy prophets or through <persName>Jeremiah</persName> and said, <quote>We <pb n="199"/> healed <placeName>Babylon</placeName> and she was not healed; and so we left her</quote><ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, has shown us holy combatants (<foreign xml:lang="grc">ἀθληταί</foreign>), martyrs from the country of <placeName>Persia</placeName>; men who for the sake of the hope of the future blissful life reckoned the bitter death by tortures which they endured pleasant and sweet : by whose prayers we beg have pity and mercy upon us.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 198, n. 2</orig></choice> Ps. cxlviii, 14.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 198, n. 3</orig></choice> Corr. <quote>are</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 198, n. 4</orig></choice> Rom. iv, 16-18 <quote>And the promise shall be sure..... of peoples</quote> (verbal diff.).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 198, n. 3</orig></choice> Corr. <quote>are</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 199, n. 1</orig></choice> Jer. li, 6-9 LXX <quote>Flee from within <placeName>Babylon</placeName>, and rescue each man his soul. Be not smitten in her sins : because it is the time of her requital from the Lord. According to her deeds shall he requite her. A cup of gold is <placeName>Babylon</placeName> in the hand of the Lord, that maketh the whole earth drunk with her wine; all peoples have drunk and have suddenly been made to reel : <placeName>Babylon</placeName> hath fallen and been spoiled. Wail for her: take drugs for her pains; perhaps she will be healed. We healed <placeName>Babylon</placeName> and she was not healed : let us leave her and go each man to his land, because his (sic) judgment hath drawn nigh to heaven and been exalted to the clouds</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

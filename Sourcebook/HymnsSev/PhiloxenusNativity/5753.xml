@@ -54,10 +54,24 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="7">
+        <pb n="50"/>
+        <head>7 — vii — IV. — <quote>God hath spoken in his Holy One</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1"><persName>Isaiah</persName>, when he learned beforehand the mystery of the seedless birth from the God-bearer <persName>Mary</persName>, fell into astonishment and great wonder, and cried with a loud voice and said, <quote>Behold! a virgin shall conceive and bear</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>: and, when he had considered him that was born and known that he is the eternal Son of the Father, and that the same became incarnate without variation as a babe in his mercy, the child that is born to us now and not to him, proclaimed and said in prophecy, <quote>A child hath been born unto us, a son hath also been given unto us</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, whom also his very name showed to be a messenger of a great purpose and a wonderful counsellor and mighty God. How then is she not the God-bearer, who bare the mighty God, ye unbelievers, uninstructed, and foolish? whom also acknowledge with us, worshipping and saying, <quote>Praise to thee!</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 50, n. 3</orig></choice> Ps. lx, 8 LXX; cviii, 8 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 50, n. 4</orig></choice> Is. vii, 14.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 50, n. 5</orig></choice> Ibid. ix, 6.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

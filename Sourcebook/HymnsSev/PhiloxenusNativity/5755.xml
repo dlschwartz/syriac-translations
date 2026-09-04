@@ -54,10 +54,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="9">
+        <pb n="51"/>
+        <head>9 — ix — IV. — <quote>To thee have I lifted up mine eyes, the dweller in the heavens</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">In the wish to see with the eyes of my mind the depth of the mystery of the Humanization, I both stretch my intellect and apply it to all sides; and, being little enlightened, I restrain my sight and pass from speculation (<foreign xml:lang="grc">θεωρία</foreign>), since I am overcome by the incomprehensible light of the miracles. He who in the beginning is the Word of God and the Father without ceasing to be God was wholly contained without being confined in <pb n="52"/> the womb of <persName>Mary</persName> the Virgin the God-bearer. Not by stirring up hosts of heavenly beings did he this, but silently and in a manner inexpressible; and, having been hypostatically united to holy flesh with an intelligent soul, he became perfect man without variation. Of this <persName>David</persName> sang beforehand when he prophesied and cried, <quote>He shall come down like rain upon a fleece</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. This <persName>John</persName> also was inspired moreover to write in his Gospel-teaching when he proclaimed and said, <quote>The Word became flesh and dwelt among us</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. This <persName>Gabriel</persName> announced to the Virgin when he said, <quote>Hail to thee, thou that art highly favoured! The Lord is with thee, blessed among women</quote><ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. Him let us also praise and confess, inasmuch as he is the Saviour of our race, <persName>Christ</persName>, God over all.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 51, n. 3</orig></choice> Ps. cxxii, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 52, n. 1</orig></choice> Ps. lxxii, 6.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 52, n. 2</orig></choice> John i, 14.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 52, n. 3</orig></choice> Luke i, 28.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

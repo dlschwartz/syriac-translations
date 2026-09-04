@@ -54,10 +54,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="23">
+        <pb n="64"/>
+        <head>23 — ix — IV. — <quote>Sprinkle me with hyssop, and I shall be cleansed</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1"><persName>Christ</persName>, even God, who by means of the water of the river <placeName>Jordan</placeName> didst cleanse the whole world, and through the great <persName>Paul</persName> saidst, <quote>Old things have passed away, and lo! everything hath become new</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, in thy mercy make my <pb n="65"/> soul to repent which after the divine laver has been made red<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> like scarlet by the foul<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> stain of sin; and through the streams of water which my eyes<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> pour out<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> before thee in thy great graciousness purify and cleanse me<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>; and make me whiter than snow, and have mercy upon us.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 64, n. 4</orig></choice> Ps. li, 9.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 64, n. 5</orig></choice> II Cor. v, 17, 18 (verbal diff.).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 65, n. 1</orig></choice> Is. i, 18.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 65, n. 2</orig></choice> Corr. <quote>bloody</quote>: <foreign xml:lang="grc">αἱματώδει</foreign> (text, p. 64, note 6) no doubt belongs here.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 65, n. 3</orig></choice> Ps. cxviii, 136 LXX <quote>Mine eyes have let fall streams of water, because I have not kept thy law.</quote></note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 65, n. 4</orig></choice> Corr. <quote>let fall</quote>.</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 65, n. 5</orig></choice> Ps. li. 7 <quote>Sprinkle upon me with hyssop, and I shall be cleansed: purge me and I shall be whiter than snow.</quote></note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

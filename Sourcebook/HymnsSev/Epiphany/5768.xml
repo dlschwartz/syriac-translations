@@ -54,10 +54,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="21">
+        <pb n="62"/>
+        <head>21 — vii — III. — <quote>Bless God, ye peoples</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">When the only Word<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> <pb n="63"/> was born in flesh of the God-bearer, an<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> angel said to the shepherds, <quote>There hath been born to you this day a Saviour, who is <persName>Christ</persName> the Lord, in the city of <persName>David</persName></quote><ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. If therefore he who is by nature a Saviour came by his grace to the baptism of <persName>John</persName> in the river <placeName>Jordan</placeName>, he did not come to receive any addition, but that he might himself tinge and purify the water by his baptism, and make it a source of life and salvation to them<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> that are baptized: concerning whom <persName>Isaiah</persName> also before proclaimed, crying, <quote>Ye shall all draw water with great joy from fountains of salvation, praising the greatness of his mercy and grace</quote><ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 62, n. 11</orig></choice> Ps. lxvi, 8.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 62, n. 12</orig></choice> Corr. <quote><persName>Christ</persName></quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 63, n. 1</orig></choice> Corr. <quote>the Virgin, an</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 63, n. 2</orig></choice> Luke ii, 10-12. <quote>Lo! I declare..... the world. There is born..... in a manger.</quote></note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 63, n. 3</orig></choice> Corr. <quote>us</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 63, n. 4</orig></choice> Is. xii, 2, 3 <quote>Lo! I trust..... from a fountain of salvation.</quote></note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

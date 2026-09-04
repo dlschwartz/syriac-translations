@@ -54,10 +54,23 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="18">
+        <pb n="60"/>
+        <head>18 — iv — VII. — <quote>Therefore shall the peoples give thanks unto thee for ever and ever</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">In proof that it is for our cleansing only and not from need that <persName>Jesus</persName>, who is God and the Word, <persName>our Saviour</persName>, is baptized, let us listen to the voice of <persName>John</persName> and hear it crying to him and saying, <quote>I need to be baptized and cleansed by thee, and hast thou, Lord, come to me?</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>; and, when we see his exinanition for our sake, let us not forget and think it to be a diminution of his Godhead: how could he who is able to cleanse the <persName>Baptist</persName> himself be himself reckoned among the rest of those that are cleansed? Wherefore let <pb n="61"/> us all praise his unmeasured condescension toward us; and let us say, <quote>Lord of all, great in mercy, praise to thee!</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 60, n. 2</orig></choice> Ps. xlv, 18.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 60, n. 3</orig></choice> Matth. iii, 13, 14 <quote><persName>Jesus</persName> came..... by him; but he was for preventing it..... <quote>to me</quote></quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

@@ -57,10 +57,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="357">
+        <pb n="378"/>
+        <head>357 — i — II. — <quote>Thou God save thy bondman who hopeth in thee</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Another When the Dead Person Is Laid in the Grave; Which Is, as Some Think, the Composition of <persName>John Son of <persName>Aphthonia</persName></persName>.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">Open in thy clemency the gates<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> of righteousness for thy bondman, <pb n="379"/> <persName>Christ</persName>; and bestow upon him the mansions<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> of everlasting rest, in order that, seeing the splendour of the saints, he may say in joy, <quote>Thou hast shown<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and made known to me the ways of life, Lord; satisfy me and fill me with spiritual pleasure<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> with thy countenance</quote>.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 378, n. 7</orig></choice> Ps. lxxxvi, 2.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 378, n. 8</orig></choice> Id. cxvii, 19, xxvii, 4. c, 4 (not quoted).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 379, n. 1</orig></choice> Corr. <quote>tabernacles</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 379, n. 2</orig></choice> Ps. xvi, 11 (not quoted).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 379, n. 3</orig></choice> Corr. <quote>joy</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

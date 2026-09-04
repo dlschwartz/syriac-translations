@@ -54,10 +54,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="11">
+        <pb n="53"/>
+        <head>11 — xi — VII. — <quote>We will hear what the Lord our God shall speak</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">That the conception in the womb of <persName>Mary</persName> the Virgin the God-bearer was without the seed of a man the angel <persName>Gabriel</persName> bore witness, who was re<pb n="54"/>vealed to <persName>Joseph</persName> in the vision of a dream and said, <quote>For he which hath been born in her is of the Holy Spirit</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>: and that he was the Word and the only Son of God, who became incarnate and was born of her without variation he further added by saying to him, <quote>And she shall bear a son, and they shall call his name <persName>Emmanuel</persName>, which interpreted means <quote>God is with us</quote></quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>: and again as to the same being called <persName>Jesus</persName> he made explanation and said, <quote>For he shall save his people from their sins</quote><ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. Accordingly we are with him; and he saves us and grants forgiveness for sins. Acknowledging him therefore to be God who became truly man, let us all offer praise to his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 53, n. 3</orig></choice> Ps. lxxxv, 9.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 54, n. 1</orig></choice> Matth. i, 20 (not quoted).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 54, n. 2</orig></choice> Ibid. 23 (not quoted).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 54, n. 3</orig></choice> Ibid. 21 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

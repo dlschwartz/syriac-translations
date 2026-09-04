@@ -54,10 +54,24 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="24">
+        <pb n="65"/>
+        <head>24 — x — III. — <quote>In thy light shall we see light<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/></quote>.</head>
+        <div type="section">
+          <ab n="1">With the hidden eyes of the mind I seem to see the river <placeName>Jordan</placeName> being lifted upwards with its waves in floods not of water but of light, and pouring the true knowledge of the Holy Trinity richly into our souls, and showing the Son and Word of God, who became incarnate and became man truly without variation from a mother, standing in the water to be baptized, and making the water itself a source of life, inasmuch as he is himself by nature a fountain of life; and showing the Father, as he cries from above, by<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> saying, <quote>Thou art my beloved Son</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, bestowing the beginning of adoption on us ourselves and not on <persName>Christ</persName> (for he who <pb n="66"/> is himself alone a Son by nature needed not to became a son); and showing the Holy Spirit flying like a dove and coming from on high, and perfecting for us by his grace the gift of the laver of regeneration. For all things which he has in his essence as God <persName>Christ</persName> received himself for us by dispensation, out of his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 65, n. 6</orig></choice> Ps. xxxvi, 10.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 65, n. 7</orig></choice> Corr. <quote>by the words</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 65, n. 8</orig></choice> Matth. iii, 17, Mark i, 11, Luke iii, 22 (none quoted): also erroneous ref. to John.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

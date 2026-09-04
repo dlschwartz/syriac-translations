@@ -51,10 +51,31 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="1">
+        <pb n="45"/>
+        <head>1 — i — I. — <quote>The power that is in his works he hath shown unto his people</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">The Hymns of the Holy and Blessed <persName>Severus</persName>, Patriarch of <placeName>Antioch</placeName>, and of Other Holy Men</ab>
+          <ab n="2">The First Section on the Nativity of <persName>Christ</persName> Who Is God.<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/></ab>
+        </div>
+        <div type="section">
+          <ab n="3">When<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> the new covenant (<foreign xml:lang="grc">διαθήκη</foreign>) was about to begin, it was preceded by wonders which signified the joy that was to happen to the world. For by a miracle the affliction<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> of barrenness was removed, and trembling age was made young, and a plant sprang up from an unfruitful field; in order that this<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> might be believed by all men, that a virgin <pb n="46"/> also should conceive and bear without seed God the Word, who was to become incarnate from her, and to become a babe for our salvation in the greatness of his mercy<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> and of his grace toward us.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 45, n. 2</orig></choice> Ps. cxi, 6.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 45, n. 1</orig></choice> Marg. <quote>This some say is the work of <persName>John</persName> son of <persName>Aphthonia</persName>, but others say of <persName>Philoxenus</persName></quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 45, n. 3</orig></choice> Marg. <quote>The passage is in Jeremiah.</quote></note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 45, n. 4</orig></choice> Luke i, 6, 7.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 45, n. 5</orig></choice> Corr. <quote>it</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 46, n. 1</orig></choice> Corr. <quote>who hath greatness of mercy</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

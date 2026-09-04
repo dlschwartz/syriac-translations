@@ -53,10 +53,31 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="102">
+        <pb n="140"/>
+        <head>102 — i — V. — <quote>In the midst of the church will I praise thee</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Hymns at Mid-Pentecost.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">When<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the festival was at its midst, the mediator of God and men, <persName>Jesus</persName> who is God, when standing at that time in the midst of the Jews, showed plainly that he is God of God<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> by nature, even after he had emptied himself [and by dispensation become truly<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> man; and as a partner and sharer of the essence (<foreign xml:lang="grc">οὐσία</foreign>) of his<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> invisible Father he<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> says, <quote>I know him, because I am from him</quote>, and he immediately added further as a mere man and said, <quote>for he also sent me</quote>. Therefore let us praise him who through the mediation of his mercifulness has joined us to his Godhead<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>, according to the riches of his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 140, n. 1</orig></choice> Ps. xxii, 23.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 140, n. 2</orig></choice> John vii, 14.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 140, n. 3</orig></choice> Ibid. 28-30.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 140, n. 4</orig></choice> Corr. <quote>when he had by way of dispensation and in truth become</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 140, n. 5</orig></choice> Corr. <quote>the</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 140, n. 6</orig></choice> Corr. <quote>the same</quote>.</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 140, n. 7</orig></choice> Corr. <quote>essence</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

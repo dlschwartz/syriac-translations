@@ -62,10 +62,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="65">
+        <pb n="108"/>
+        <head>65 — i — V. <quote>This is the change of the right hand of the Most <pb n="109"/> High</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Robber.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">The robber by passing many nights without sleep made spoil of all things that moth and rust corrupted; and by means of them he kindled more fiercely for himself the flame of the fire of hell that is not quenched : but, when he was about to sleep the last sleep, that is to undergo death, and was fastened and hanging on the tree, having in the very passion of the cross marvellously recognised God who had become incarnate and was being crucified with him and like him, he believed on him without hesitation; and then by his tongue he broke into the kingdom by crying and saying to him, <quote>Remember me, my Lord, when thou comest in thy kingdom</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>; and like a violent man he by means of a few words of faith took it by force<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, in accordance with thy true<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> saying, <persName>Christ</persName>, God : to which admit us also by thy grace, as thou art good and merciful.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 109, n. 1</orig></choice> Ps. lxxvii, 11 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 109, n. 2</orig></choice> Luke xxiii, 39-43 (verbal diff.).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 109, n. 3</orig></choice> Matth. xi, 12, 13 (verbal diff.).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 109, n. 4</orig></choice> Corr. <quote>unerring</quote> (representing <foreign xml:lang="grc">ἀψευδής</foreign>).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

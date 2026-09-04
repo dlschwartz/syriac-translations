@@ -53,10 +53,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="262">
+        <pb n="298"/>
+        <head>262 — i — II. — <quote>God hath spoken in his Holy one</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On <persName>Vitalian</persName> the Tyrant, and on the Victory of the Christ-loving <persName>Anastasius</persName> the King.</ab>
+        </div>
+        <div type="section">
+          <ab n="2"><quote><quote>The impious have no rejoicing or peace</quote>, saith the Lord</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, let us cry with <persName>Isaiah</persName> the great among prophets; because there is hope for the religious man. For lo! God the Word who [became incarnate<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> has loved and raised and helped his inheri<pb n="299"/>tance, and has put to shame the erring man-worshippers by bestowing upon us gentle rains and moisture, and has cast down and destroyed the rebel tyrants, according to the riches of his great mercy: whom also we praise, saying in thanksgiving, <quote>The Lord who crusheth wars and maketh them to cease, the Lord is his name</quote><ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 298, n. 5</orig></choice> Ps. lx, 8 LXX, cviii, 8 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 298, n. 6</orig></choice> Is. lvii, 19-21 LXX <quote><quote>Peace, peace to them that are far and to them that are near</quote>, saith the Lord, <quote>and I will heal them. But the unjust shall be disturbed thus. The impious have no rejoicing</quote>, saith the Lord God</quote></note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 298, n. 7</orig></choice> Corr. <quote>was crucified</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 299, n. 1</orig></choice> Ex. xv, 2-4 LXX <quote>This is my God, I will praise him; my father's God, I will exalt him, the Lord who breaketh wars, the Lord is his name; the chariots of <persName>Pharaoh</persName> hath he cast into the sea</quote>.</note>
+      </noteGrp>
     </body>
   </text>
+  
 </TEI>

@@ -61,10 +61,30 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="151">
+        <pb n="197"/>
+        <head>151 — i — VIII. — <quote><placeName>Aethiopia</placeName> shall yield herself to God</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Holy Egyptian Martyrs.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">Whence comes it that <placeName>Egypt</placeName>, which used to vomit forth<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the filthinesses of idol-worship like fountains, and used to say that she herself was wiser than every city and country, and in madness committed folly and changed<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> the glory of the incorruptible God into the likeness of a dumb image of a corruptible man, and of a bird and of four-footed<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> beasts and reptiles, has become a paradise abounding in the beauties of [the worship of God<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, and with the blossoms and flowers of martyrs, as with the doctrines of the orthodox faith, enlightens and crowns even cities that are removed beyond the borders, and <pb n="198"/> <persName>Nilus</persName>, <persName>Psom</persName>, <persName>Paor</persName>, and <persName>Jeremias</persName>, and those who were martyred and crowned with them have shown themselves true ambassadors for us who dwell in <placeName>Syria</placeName>? This<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> is thy change who art the only <persName>Christ</persName>, <quote>the change of the right hand of God and the Father Most High</quote>, <persName>David</persName> also sings with us, praise to thee!</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 197, n. 1</orig></choice> Ps. lxviii, 32.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 197, n. 2</orig></choice> Corr. <quote>with</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 197, n. 3</orig></choice> Rom. i, 20-25 <quote>For the secret things..... of the incorruptible God into the likeness of a bird..... Amen!</quote> (verbal diff.).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 197, n. 4</orig></choice> Corr. <quote>quadrupeds</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 197, n. 5</orig></choice> Corr. representing <foreign xml:lang="grc">εὐσεβείας</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 198, n. 1</orig></choice> Ps. lxxxvii, 11 LXX <quote>And I said, <quote>Now have I begun. This is the change of the right hand of the Most High</quote></quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

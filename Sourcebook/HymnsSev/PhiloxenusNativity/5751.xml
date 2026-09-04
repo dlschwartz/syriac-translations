@@ -54,10 +54,24 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="5">
+        <pb n="48"/>
+        <head>5 — v — VIII. — <quote>The Lord shall feed me and I shall want nothing</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">The Shepherd of the heavenly spiritual hosts and Maker of all creation, suprasensual and perceived by the senses, having become incarnate without variation of the Holy Spirit and of the God-bearer <persName>Mary</persName> and <pb n="49"/> become man, was born as a little child in <placeName>Bethlehem</placeName> of <placeName>Judah</placeName>, which means <quote>house of bread</quote>: and the shepherds, having been enlightened as to this by the divine glory, which shone from heaven, and having seen the army of angels and the company of spiritual beings, and heard them chanting and singing a hymn of praise, searched<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and sought eagerly and said to one another, <quote>Let us go and make our way to <placeName>Bethlehem</placeName></quote>; and, as in a figure, they by this foreshadowed the shepherds and priests of the church, who set themselves constantly to seek the heavenly bread, and <quote>the Lamb of God which taketh away the sin of the world</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and is mysteriously sacrificed upon his altar every day according to the riches of his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 48, n. 4</orig></choice> Ps. xxiii, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 49, n. 1</orig></choice> Luke ii, 8-15.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 49, n. 2</orig></choice> John i, 29.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

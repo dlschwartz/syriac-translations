@@ -53,10 +53,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="347">
+        <pb n="368"/>
+        <head>This is a civic hymn, and it is not known by whom it was composed, nor was it found in the Greek.</head>
+        <head>347 — i — VI. — <quote>Thou hast loved righteousness and hated iniquity</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Another on a Bishop.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">Having been from the earliest age chosen and set apart to God, like <pb n="369"/> the chosen and great among prophets <persName>Samuel</persName> thou didst set thyself apart and offer thyself as a rational oblation and sacrifice to <persName>Christ</persName>. Therefore he suprasensually decorated and adorned thee with the robe of the priesthood; and he exalted thee to the admired seat of the spiritual elders<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>: but he has removed thee and placed thee instead among the companies of the heavenly utterers of praise. From above therefore behold and visit us, O! sacred one; and tend this thy flock and deliver it from the evil one and the suprasensual wolves, our saintly father.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 368, n. 7</orig></choice> Ps. xlv, 8.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 369, n. 1</orig></choice> Ps. cvii, 32 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

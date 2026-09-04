@@ -54,10 +54,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="16">
+        <pb n="58"/>
+        <head>16 — ii — VIII. — <quote>Let the rivers clap hands together</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">A great wonder! he who by his inexplicable birth in flesh from the holy God-bearer, the Virgin, blessed our entry into the world went down into the river <placeName>Jordan</placeName> to <persName>John</persName>, inasmuch as he wished by his baptism to open before<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> us an ascent leading up to heaven, and to lay in advance a sure foundation for the gift of adoption, and to bring the Holy Spirit upon flesh, and to crush<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> the head of <pb n="59"/> the evil one, the suprasensual serpent, upon the waters; whom also he once through <persName>Pharaoh</persName><ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and his chariots figuratively drowned in the depths of the <placeName>Red Sea</placeName>. Him let us praise and confess, saying with joy, <quote>Lord God of the old covenant (<foreign xml:lang="grc">διαθήκη</foreign>) and of the new, be gracious and merciful to us</quote>.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 58, n. 4</orig></choice> Ps. xcviii, 8.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 58, n. 5</orig></choice> Corr. <quote>to</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 58, n. 6</orig></choice> Ps. lxxiv, 13, 14 LXX <quote>Thou crushedst the heads of the serpents upon the water. Thou crushedst the heads of <persName>Leviathan</persName> and gavest him as food to the Ethiopian peoples.</quote></note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 59, n. 1</orig></choice> Ps. cxxxv, 15 <quote>To him who overthrew <persName>Pharaoh</persName> and all his host in the <placeName>Sea of Rushes</placeName>, for his mercy is for ever.</quote></note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

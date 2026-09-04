@@ -54,10 +54,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="10">
+        <pb n="52"/>
+        <head>10 — x — VI. — <quote>When the Lord turned again the captivity of <placeName>Zion</placeName></quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">That God the Word in a manner inexpressible as he willed it <quote>bowed the heavens and came down</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> to us, and of the Holy Spirit and of the very essence (<foreign xml:lang="grc">οὐσία</foreign>) of the most blessed Virgin without variation and without all sin became incarnate and became perfectly man by his grace let us all <pb n="53"/> confess like <persName>Paul</persName> the teacher of mysteries, who wrote in his teaching and said to the peoples, <quote>But, when the fulness of time was come, God sent his Son and he was born of a woman</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. For the conception and the true birth with the swaddling-clothes bear witness to the truth of the Incarnation; while to the descent without a body from on high witness<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> is borne by the star which appeared to the Magi; and that he is God the frankincense also that is offered to him as to a god proclaims; while the gold that was offered him which was placed before his feet as a king bears witness to his power over all; and the saving Passion which he endured on our behalf in the flesh and the annihilation of corruption by the life-giving burial were prefigured by the sweet smell of myrrh. In virtue of them all therefore let us bless and worship him who even in his very exinanition is shown to be full, asking of him forgiveness of sins and his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 52, n. 4</orig></choice> Ps. cxxv, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 52, n. 5</orig></choice> Ps. xviii, 10.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 53, n. 1</orig></choice> Gal. iv, 4.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 53, n. 2</orig></choice> Matth. ii, 2, 11.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

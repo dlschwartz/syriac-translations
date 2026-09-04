@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="2">
+        <pb n="46"/>
+        <head>2 — ii — VII. — <quote>Who shall declare the Lord's wonders?</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/></head>
+        <div type="section">
+          <ab n="1">What mind or speech or hearing is there that is equal to the ineffable sea of mercifulness? The Only one, who before all the ages was born in divine fashion and without a body from the Only one, the Word of the Father, he was born alone from a mother alone in flesh and in bodily fashion: who by his birth did not destroy<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> this mother's virginity and so showed her to be the God-bearer, since neither was he himself changed when he willed it and became man. <quote>O the depth of the riches and of the wisdom of God!</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> The womb of a woman which was condemned to bear children in pains<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, this became a spring of immortality; which conceived and bore <persName>Emmanuel</persName> without seed, and by its incorruptible delivery loosened the bond<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of our <pb n="47"/> race: whom let us all praise, and let us say, <quote>Incomprehensible Lord of all, praise to thee!</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 46, n. 2</orig></choice> Ps. cvi, 2.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 46, n. 3</orig></choice> Corr. <quote>but, when he was born, did not destroy her</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 46, n. 4</orig></choice> Rom. xi, 33.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 46, n. 5</orig></choice> Gen. iii, 16. <quote>And the Lord said to the woman, <quote>I will increase thy sorrows and thy conceptions, and in sorrows thou shalt bear children</quote>.</quote></note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 46, n. 6</orig></choice> The play on <foreign xml:lang="syc"><!-- Syriac word: not transcribed --></foreign> and <foreign xml:lang="syc"><!-- Syriac word: not transcribed --></foreign> cannot be preserved.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

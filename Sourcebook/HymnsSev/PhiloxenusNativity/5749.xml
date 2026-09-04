@@ -54,10 +54,23 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="3">
+        <pb n="47"/>
+        <head>3 — iii — VI. — <quote>Let the redeemed of the Lord say</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">O! the wonderful and divine pangs of the God-bearer and Virgin <persName>Mary</persName>, through which conception and virginity were brought together, and the couch of copulation did not precede the marvellous birth, nor yet did the birth break the stamps and seals of virginity. He who was born of the Father in a divine manner and without passion, the same was also born of the Virgin in a fleshly manner without passion, being one out of two, Godhead and manhood. Him the Magi<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> also worship; and by means of offerings they silently proclaimed him to be God: for they offered him frankincense as a god; and gold as a king; and myrrh, which is a symbol of the life-giving mortality which on our behalf he took upon him and endured of his own will, who is the only merciful one.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 47, n. 1</orig></choice> Ps. cvii, 2.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 47, n. 2</orig></choice> Matth. ii, 10-12.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

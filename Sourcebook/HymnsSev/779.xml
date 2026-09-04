@@ -61,10 +61,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="231">
+        <pb n="274"/>
+        <head>On the Holy Martyrs.</head>
+        <div type="section">
+          <ab n="1">231 — i. — In honour of the commemoration of the combatants (<foreign xml:lang="grc">ἀθληταί</foreign>) of godliness<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> we receive the life-giving body and blood of God the Word who became incarnate, for whose sake they readily poured out the blood of their<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> necks, showing that it was on behalf of a great matter that they endured great contests and tortures; and of the hope of the glory which [they look<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> to receive amid the splendours and mansions of the saints this<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> holy mystery is the firstfruits and opening<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> pleasure : with whom let us praise <persName>Christ</persName>, saying, <quote>Halleluyah!</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 274, n. 3</orig></choice> Corr. representing <foreign xml:lang="grc">εὐσεβείας</foreign>.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 274, n. 4</orig></choice> Corr. <quote>their own</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 274, n. 5</orig></choice> Corr. <quote>is prepared for them</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 274, n. 6</orig></choice> Corr. <quote>the present</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 274, n. 7</orig></choice> Corr. <quote>beginning</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

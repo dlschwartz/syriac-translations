@@ -57,10 +57,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="359">
+        <pb n="381"/>
+        <head>359 — i — VI. — <quote>Turn, Lord, and rescue my soul</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Another of the Holy <persName>Severus</persName> upon a Woman Who Turned from the Heresy of <persName>Arius</persName> and Came to the Church of the Christians and Was Enrolled in the Monastery of the Romans,</ab>
+        </div>
+        <div type="section">
+          <ab n="2">Father<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> of mercy who didst change the robe of the prodigal (<foreign xml:lang="grc">ἄσωτος</foreign>) son who turned <pb n="382"/> and came to thee, that is didst metaphorically glorify and adorn him with the grace of adoption by means of the ring, and by the shoes or the new shoeing, for an earnest of the life that is made known in the newness of the Spirit<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, enroll therefore this thy bondmaid also in the flock according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 381, n. 7</orig></choice> Ps. vi, 5.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 381, n. 8</orig></choice> Corr. <quote>Thou</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 382, n. 1</orig></choice> Rom. vii, 6 (verbal diff.).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

@@ -62,10 +62,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="146">
+        <pb n="191"/>
+        <head>146 — i — IV. — <quote>He shall abide for ever before God</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Holy Martyr <persName>Menas</persName>.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">The brave <pb n="192"/> and valiant martyr of <persName>Christ</persName> <persName>Menas</persName> by turning the arms of his fleshly service into [the armour of the Spirit destroys the foul fiends and overturns<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> together with them every high thing that is exalted against the knowledge of God<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. Therefore he filled all <placeName>Egypt</placeName> with the great light of the knowledge of God, doing and performing tens of thousands of miracles and wonderful works of healing at [all times<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, and bringing all men to thee, <persName>Christ</persName>, God : by whose prayers bestow upon us also, merciful one, the grace of his effective cures according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 191, n. 9</orig></choice> Ps. lxi, 8 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 192, n. 1</orig></choice> Corr. <quote>spiritual (arms) overturns the fiends and</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 192, n. 2</orig></choice> II Cor. x, 3-6 (verbal diff.).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 192, n. 3</orig></choice> Corr. <quote>every hour</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

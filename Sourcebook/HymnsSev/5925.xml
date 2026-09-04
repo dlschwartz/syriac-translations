@@ -53,10 +53,24 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="232">
+        <pb n="275"/>
+        <head>At the Commemoration of Bishops.</head>
+        <div type="section">
+          <ab n="1">232 — i. — <persName>Christ</persName> the great high-priest, who passed in the body into heaven, the Lamb of God and Word of the Father, in honour of the holy commemoration of his ministers<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> and wise doctors has invited and called us to this holy spiritual divine meal, having set himself before us for reception; glorifying all those who glorify<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> him and have duly consecrated him as a sacrifice by means of the sharp sword of doctrine which rightly cleaves the word of truth : whom let us all also glorify, receiving this oblation<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> with faith and fear and saying, <quote>Halleluyah!</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 275, n. 1</orig></choice> Corr. <quote>the ministers of the Lord, the</quote>.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 275, n. 2</orig></choice> Corr. <quote>have glorified</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 275, n. 3</orig></choice> Corr. <quote>oblations</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

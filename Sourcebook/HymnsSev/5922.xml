@@ -53,10 +53,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="227">
+        <pb n="269"/>
+        <head>The First on the Nativity.</head>
+        <div type="preface">
+          <ab n="1">Again Other Prosphoric or Oblational Hymns Repeated When the Mysteries Are Being Received.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">227 — i. — Ye who are about to receive the all-holy body and quickening blood of God the Word who became incarnate, remove and banish from you every corrupt thought; and, opening the suprasensual gates of your<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> understanding<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, use the expression of the divine Psalmist and say with the angelic hosts, <quote>Lift up the gates, rulers among you; and be lifted up, gates <pb n="270"/> that are from everlasting, and the King of Glory shall come in</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. For he<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> who quickened us in glory and raised us with him and made us to sit with him in heaven, he is set before us for the purpose of participation : whom let us all praise with fear, saying, <quote>Thrice-holy, praise to thee!</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 269, n. 1</orig></choice> Eph. iv, 20-25.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 269, n. 2</orig></choice> Corr. <quote>the thoughts</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 270, n. 1</orig></choice> Ps. xxiv, 7, 9 (not quoted).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 270, n. 2</orig></choice> Eph. ii, 4-6</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

@@ -53,10 +53,33 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-4">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="202">
+        <pb n="254"/>
+        <head>202 — i — VI. — <quote>Blessed is the man that feareth the Lord</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On <persName>Gratian</persName> the King, the Son of <persName>Valentinian</persName> the Elder.</ab>
+        </div>
+        <div type="section">
+          <ab n="2"><persName>David</persName> the divine prophet and king bore testimony to <persName>Solomon</persName> his son at the hour [at which he was<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> departing from the life of time and said to him, <quote>Know<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> the God of thy fathers, and [perform bondservice<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> to him : for if thou seek him, he will be found of thee; and, if thou leave him, he will leave thee <pb n="255"/> utterly</quote>. Which things the believing and God-fearing<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> king <persName>Gratian</persName> wrote upon the suprasensual tablets of his<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> heart, and, having with<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> the kingdom inherited<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> the orthodox faith of his father, dissolved and annihilated the madness of <persName>Valens</persName> by summoning the orthodox high-priests from exile (<foreign xml:lang="grc">ἐξορία</foreign>) and restoring<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> them to their churches. By their prayers, Lord of all, bestow both upon him by thy grace and upon us who praise thee the eternal and blissful mansions in thy kingdom, according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 254, n. 6</orig></choice> Ps. cxii, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 254, n. 7</orig></choice> Corr. <quote>when</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 254, n. 8</orig></choice> III Reg. ii, 3, 4 (not quoted).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 254, n. 9</orig></choice> Corr. <quote>make thyself a bondman</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 255, n. 1</orig></choice> Corr. <quote>religious</quote> (representing <foreign xml:lang="grc">εὐσεβής</foreign>).</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 255, n. 2</orig></choice> Corr. <quote>the</quote>.</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 255, n. 3</orig></choice> Corr. <quote>in</quote>.</note>
+        <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 255, n. 4</orig></choice> Corr. <quote>received</quote>.</note>
+        <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 255, n. 5</orig></choice> Corr. <quote>back</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>
