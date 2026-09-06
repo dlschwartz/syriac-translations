@@ -54,10 +54,22 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="243">
+        <pb n="280"/>
+        <head>Another.</head>
+        <div type="section">
+          <ab n="1">243 — ix. Lift up<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> the doors, rulers among you; and be lifted up, ye doors that are from everlasting; in order that the great King of glory may come in. Halleluyah!</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 280, n. 1</orig></choice> Ps. xxiv, 7, 9 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

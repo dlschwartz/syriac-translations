@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="96">
+        <pb n="135"/>
+        <head>96. — v — VI. — <quote>Tell forth his salvation from day to day</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Ye that have been clad in the garment of salvation and the raiment of spiritual gladness by holy baptism, and have been adorned like<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> a bride with the decoration and adornment of the Holy Spirit, keep the suprasensual beauty of comeliness<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> that ye have received, and the Lord will cause righteousness<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> <pb n="136"/> to sprout forth in you in a manner to be desired like<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> a bud or flower which springs from the earth, according to his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 135, n. 5</orig></choice> Ps. xcvi, 2.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 135, n. 6</orig></choice> Corr. <quote>as</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 135, n. 7</orig></choice> Corr. representing <foreign xml:lang="grc">εὐπρεπείας</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 135, n. 8</orig></choice> Is. lxi, 10, 11.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 136, n. 1</orig></choice> Corr. <quote>as</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

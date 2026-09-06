@@ -59,10 +59,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="192">
+        <pb n="242"/>
+        <head>Another on the same, by the same <persName>John</persName>.</head>
+        <head>192 — ii — II. — <quote>Know that the Lord hath by a miracle set apart <pb n="243"/> for himself one that is chosen</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. <quote>Come, hear, and I will tell you</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</head>
+        <div type="section">
+          <ab n="1">The virtues and glories of the saintly <persName>Severus</persName> the high-priest what language can praise? Or who is there who is sufficient to [narrate as they deserve his contests in which he strove for the sake of the truth? who, as soon as he came and was made manifest on<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> the sacred and apostolic seat, by means of sound words or with heavenly pasture fed the rational sheep of <persName>Christ</persName>'s flock; and again, moving hand also as well as tongue, by the arrow-shots made with ink and pen with which he fought exposed and defeated and destroyed all heresies; and, while he was hidden in unknown countries [from his persecutors<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, by means of his God-inspired writings filled all the world with [orthodox doctrines : by whose<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> prayers, Lord of all, gather together the scattered<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> limbs of the church and bring them into one unity, and deliver<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> us in thy mercy, as thou art merciful.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 243, n. 1</orig></choice> Ps. iv, 4.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 243, n. 2</orig></choice> Id. lxvi, 16.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 243, n. 3</orig></choice> Corr. <quote>will worthily narrate his contests on behalf of religion (representing <foreign xml:lang="grc">εὐσέβεια</foreign>); who, when he came to</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 243, n. 4</orig></choice> Corr. <quote>in the persecution</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 243, n. 5</orig></choice> Corr. <quote>teachings of right dogmas (<foreign xml:lang="grc">δόγματα</foreign>). By his</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 243, n. 6</orig></choice> Corr. <quote>divided</quote>.</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 243, n. 7</orig></choice> Corr. <quote>save</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

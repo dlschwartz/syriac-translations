@@ -63,10 +63,30 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="143">
+        <pb n="189"/>
+        <head>143 — i — VIII. — <quote>A trustworthy witness in heaven</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Holy Martyrs <persName>Sergius</persName> and <persName>Bacchus</persName>.</ab>
+        </div>
+        <div type="section">
+          <ab n="2"><persName>Sergius</persName> and <persName>Bacchus</persName> the soldiers, when they together performed the spiritual service of godliness<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, and were ordered [by the grievous tyrant who judged them to clothe themselves in women's tunics<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> for an insult, did not in any way put off the invincible armour of the Holy Spirit; but, when they had [bravely endured the conflict of martyrdom<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, were admitted to receive crowns of victory : by whose<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> prayers, Lord of all, mortify and do away from<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> us every enervating pleasure, according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 189, n. 1</orig></choice> Ps. lxxxix, 38.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 189, n. 2</orig></choice> Corr. representing <foreign xml:lang="grc">εὐσεβείας</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 189, n. 3</orig></choice> Corr. <quote>to clothe themselves in the women's tunics of the evil governor</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 189, n. 4</orig></choice> Corr. <quote>heroically contended</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 189, n. 5</orig></choice> Corr. <quote>their</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 189, n. 6</orig></choice> Corr. <quote>in</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

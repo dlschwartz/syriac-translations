@@ -54,10 +54,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="264">
+        <pb n="300"/>
+        <head>Another about the war that was waged in <placeName>Cappadocia</placeName> by the Huns.</head>
+        <head>264 — iii — V. — <quote>Let thy mercy speedily go before me</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Lord, by reason of our lawlessnesses lo! the ropes<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> of <placeName>Sheol</placeName> and the snares of death surround<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> us. Accordingly with the holy prophet <persName>David</persName> we cry and say to thee, <quote>Our God is a refuge and strength and our helper in the troubles that have prevailed and have found us exceedingly</quote><ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. Therefore<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, my Lord, forget not thy covenant (<foreign xml:lang="grc">διαθήκη</foreign>), nor remove the great mercy of thy kindness from us; and let not the hostile and Assyrian peoples enter<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> into thine inheritance; but exalt thy horn<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> for the sake of thy holy name; and do to us and deal with us according as thou alone art good and merciful.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 300, n. 1</orig></choice> Ps. lxxix, 8, neither P nor LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 300, n. 2</orig></choice> Id. xviii, 6 (not quoted).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 300, n. 3</orig></choice> Corr. <quote>have surrounded</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 300, n. 4</orig></choice> Ps. xlvi, 2 (not quoted).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 300, n. 5</orig></choice> Dan. iii, 34, 35 Theod. <quote>Abandon us not therefore for thy name's sake, and annul not thy covenant; and remove not thy mercy from us for the sake of <persName>Abraham</persName> thy friend, and for the sake of <persName>Isaac</persName> thy bondman, and <persName>Israel</persName> the holy one</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 300, n. 6</orig></choice> Ps. lxxix, 1 (not quoted).</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 300, n. 7</orig></choice> Id. lxxxix, 18, Sir. xlvii, 5, 11 (neither quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

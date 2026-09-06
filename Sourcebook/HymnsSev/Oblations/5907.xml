@@ -58,10 +58,24 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="212">
+        <pb n="263"/>
+        <head>Again another on the Resurrection, by the holy <persName>Severus</persName>.</head>
+        <head>212 — ii.</head>
+        <div type="section">
+          <ab n="1"><persName>Christ</persName> the Lord, the only Word, has risen from the grave; [and he says<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>, <quote>Be of good cheer, I have overcome death and made spoil of <placeName>Sheol</placeName></quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. <persName>Christ</persName>, God, the King of the ages, has risen.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 263, n. 1</orig></choice> Corr. <quote>saying</quote>.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 263, n. 2</orig></choice> John xvi, 33 <quote>But these things..... have overcome the world</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

@@ -58,10 +58,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="210">
+        <pb n="261"/>
+        <head>Another of <persName>John</persName>.</head>
+        <head>210 — vi — I. — <quote>Lord God of my salvation</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Thou hast filled thy holy church, O! God, with angelic and seemly orderliness<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. Myriads of myriads of holy angels minister to thy<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> honour, and a thousand thousand <pb n="262"/> spiritual archangels stand before thee in fear, and thou hast been pleased to be praised by men with mysterious utterances. Holy! holy! holy! praise to thee!</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 261, n. 5</orig></choice> Ps. lxxxviii, 2.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 261, n. 6</orig></choice> Corr. <quote>good order</quote> representing <foreign xml:lang="grc">εὐταξία</foreign>).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 261, n. 7</orig></choice> Corr. <quote>thee</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

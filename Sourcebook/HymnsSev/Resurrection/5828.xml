@@ -54,10 +54,31 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="75">
+        <pb n="118"/>
+        <head>75 — i — VI. <quote>He established the world that it should not move</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. <quote>He wrought salvation in the midst of the earth</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</head>
+        <div type="preface">
+          <ab n="1">Again Hymns on the Resurrection or Holy Sunday.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">Thy life-giving Passion, even before the quickening Resurrection, forebetokened the [rising of the dead<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> : for the graves were opened by a miracle, and many bodies<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> <pb n="119"/> of the saints that slept were quickened and rose; who, having gone into the holy city of <placeName>Jerusalem</placeName>, showed themselves to many and were recognised by them; signifying that the fact that thou didst descend and [shine in the gloomy and dark depths<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of the earth, and didst dissolve and cut asunder the bonds of Sheol worked<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> perception in the dead who were laid within the graves, and cast in advance the blessed seed of the [rising of the dead<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>, which is promised to us and for which we hope. Lord of all, praise to thee!</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 118, n. 6</orig></choice> Ps. xciii, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 118, n. 7</orig></choice> Id. lxxiv, 12 LXX.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 118, n. 8</orig></choice> Corr. <quote>resurrection</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 118, n. 9</orig></choice> Matth. xxvii, 51, 52.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 119, n. 1</orig></choice> Corr. <quote>appear in the lower parts</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 119, n. 2</orig></choice> Marg. <foreign xml:lang="grc">ἐποίησεν</foreign>.</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 119, n. 3</orig></choice> Corr. <quote>resurrection</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

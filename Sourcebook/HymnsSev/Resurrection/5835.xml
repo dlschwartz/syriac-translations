@@ -54,10 +54,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="82">
+        <pb n="123"/>
+        <head>82 — viii — II. — <quote>Come let us praise the Lord</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">All ye that desire to attain to the good hope of the resurrection and of the new life, arise <pb n="124"/> and make haste [to go<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> at once to the life-giving grave. Run with<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> <persName>Mary</persName> and with the other women who accompany<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> her in faith. Beholding<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> with the eyes of the mind the angels that have come down<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> from heaven, offer praise to God who has risen from the grave, asking him for forgiveness of your sins and his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 123, n. 8</orig></choice> Ps. xcv, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 124, n. 1</orig></choice> Corr. <quote>hasten</quote> (perh. to cover <quote>at once</quote> also).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 124, n. 2</orig></choice> Luke xxiv, 1-5 <quote>But on the first day..... dark, the women came..... one that is alive among the dead ?..... risen</quote> (verbal diff.).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 124, n. 3</orig></choice> Corr. <quote>are with</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 124, n. 4</orig></choice> Marg. <foreign xml:lang="grc">ἐννοήσατε</foreign>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 124, n. 5</orig></choice> Unintelligible corr.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

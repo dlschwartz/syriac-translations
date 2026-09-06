@@ -54,10 +54,30 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="51">
+        <pb n="94"/>
+        <head>51 — i — III. — <quote>Understand, ye foolish among the people</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Again Hymns on the Reception of our <persName>Saviour Jesus Christ</persName>.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">Come ye now, children of disobedience, bend and incline your ears to the voice of the theology sung by<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the little children<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, and perceive carefully how they <pb n="95"/> cried out and praised<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> him that was riding upon a vile colt, the foal of an ass, as if he were mounted on a chariot of cherubim, saying<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, <quote>Hosanna in the heights! Blessed [art thou that hast come in humility and shalt come<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> again in glory.</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 94, n. 3</orig></choice> Ps. xciv, 8.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 94, n. 4</orig></choice> Corr. <quote>of</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 94, n. 5</orig></choice> Matth. xxi, 15.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 95, n. 1</orig></choice> Corr. <quote>praising</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 95, n. 2</orig></choice> Corr. <quote>they cried</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 95, n. 3</orig></choice> Corr. <quote>is he that hath come and cometh</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

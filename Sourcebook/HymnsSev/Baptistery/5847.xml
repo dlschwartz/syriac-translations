@@ -54,10 +54,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="91">
+        <pb n="131"/>
+        <head>91 — ii — IV. — <quote>All ye bondmen of God</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Come speedily, ye peoples, let us go to the spiritual <placeName>Jordan</placeName> or the temple of the baptistery in order to honour the God-befitting mystery of the holy Resurrection, and let us all in it <pb n="132"/> worship the life-giving death of God who became incarnate and suffered on our behalf in the flesh; which also caused a fountain of life and of resurrection to spring forth for us. For all of us who have been admitted to be baptized in <persName>Christ</persName> have been baptized in his death<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, having [been planted together with him in<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> the likeness of his death and of his Resurrection, as the God-inspired <persName>Paul</persName> bears witness. And accordingly let us with faith say to him who through<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> water and the Spirit and blood renewed afresh our race which had grown old in sin and made and rendered us the children of the flesh children of light, <quote>Praise to thee!</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 131, n. 6</orig></choice> Ps. cxxxiii, 1, neither P nor LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 132, n. 1</orig></choice> Rom. vi, 3-9 (cited as I Cor.) <quote>Or know ye not.......... no more, and sin hath no power in him</quote> (verbal diff.).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 132, n. 2</orig></choice> Corr. <quote>shared with him in being planted into</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 132, n. 3</orig></choice> I John v, 6, 8 (verbal diff.).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

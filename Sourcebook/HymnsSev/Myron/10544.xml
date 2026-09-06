@@ -55,10 +55,23 @@
             </p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc status="draft">
+         <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <div/>
+         <div type="work" n="62">
+            <pb n="106"/>
+            <head>This hymn is not in Greek; and on that account it is thought to be the composition of Mar <persName>Paul</persName>, who translated the hymns of the holy Mar <persName>Severus</persName> from Greek into Syriac.</head>
+            <head>62 — ii — I. — <quote>Thou hast exalted one chosen from the people</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+            <div type="section">
+               <ab n="1"><persName>Moses</persName>, who spake to God face to face, never officiated at a great mystery such as this : <persName>Aaron</persName>, the priest of the law, at no time offered immortal oblations : the oil which once sprang from the rock was not able to remit the sins of the people. With greater things than these hast thou been entrusted, O! hallowed father, with a pot of divine ointment (<foreign xml:lang="grc">μύρον</foreign>), by means of which hallow and sanctify the souls of us all.</ab>
+            </div>
+         </div>
+         <noteGrp>
+            <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 106, n. 1</orig></choice> Ps. lxxxix, 20.</note>
+         </noteGrp>
       </body>
    </text>
 </TEI>

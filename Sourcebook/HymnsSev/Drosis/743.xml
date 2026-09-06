@@ -63,10 +63,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="162">
+        <pb n="210"/>
+        <head>Another.</head>
+        <head>162 — ii — IV. — <quote>Come, hear, and I will tell you</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">The equality of honour in the divine calling, in which there is no male nor<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> female (for we are all one in <persName>Christ</persName>)<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> was clearly shown by the arena (<foreign xml:lang="grc">στάδιον</foreign>) of martyrdom into which the valiant martyr <persName>Drosis</persName> readily leapt down through<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> the <pb n="211"/> fervour of the Spirit, having spurned<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> and trampled upon her beauty and her youth, preserved the purity of her virginity, and [made the kingdom of heaven a compensation<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> for the temporal kingdom and received it : by whose prayers confirm us also, Lord of all, to the hope of the good things that shall be, as being merciful.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 210, n. 5</orig></choice> Ps. lxvi, 16.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 210, n. 6</orig></choice> Corr. <quote>and</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 210, n. 7</orig></choice> Gal. iii, 26-29 <quote>For all ye..... according to the promises</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 210, n. 8</orig></choice> Corr. <quote>in</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 211, n. 1</orig></choice> Corr. <quote>despised</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 211, n. 2</orig></choice> Corr. <quote>taken that of heaven in exchange</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="77">
+        <pb n="120"/>
+        <head>77 — iii — VI. — <quote>The Lord hath reigned and hath clad himself in splendour</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">He<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> who alone hath immortality and dwelleth in light that cannot be approached underwent<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> death by the cross in the flesh [for our salvation<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>; and, having shone in the dark chambers of <placeName>Sheol</placeName>, he rose from among the dead. Therefore angels, resplendent in shining raiment, appear in glory by the side of the life-giving and saving tomb. And let us therefore by means of works of light offer<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> gifts of praise to his Resurrection and to his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 120, n. 2</orig></choice> Ps. xciii, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 120, n. 3</orig></choice> I Tim. vi, 13-16 <quote>I adjure you..... before <persName>Pilate</persName>..... in light that cannot be approached, and whom no one among men hath seen</quote> (verbal diff.).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 120, n. 4</orig></choice> Corr. <quote>having undergone</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 120, n. 5</orig></choice> Corr. <quote>on our behalf</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 120, n. 6</orig></choice> Corr. <quote>approach</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

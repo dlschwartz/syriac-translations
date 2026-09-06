@@ -54,10 +54,30 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="246">
+        <pb n="282"/>
+        <head>Another on the spirits that were at <placeName>Alexandria</placeName><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <head>246 — iii — III. — <quote>Because by thy wrath we have perished and by thy anger we have been confounded</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</head>
+        <div type="section">
+          <ab n="1">Lord, from the ends of the earth<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> <pb n="283"/> we hear of signs and dreadful reports, and that men of our kin or [of the same race with us<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> are being chastised; and, when we consider the greatness of our iniquity and the mighty multitude of our sins, we entreat<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> thee, be not roused to requite us and to demand our<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> impieties at our hands, but, my Lord, assuage thy anger; and have pity and mercy on the creation of thy hands, because thou art gentle and thy mercy is great and has not failed, nor<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> has the riches of [the clemency of thy grace passed away<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> and fallen short, merciful one.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 282, n. 5</orig></choice> Cf. <persName>Severus</persName>, Hom. 53 (summer 514).</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 282, n. 6</orig></choice> Ps. xc, 7.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 282, n. 7</orig></choice> Is. xxiv, 16-20 LXX <quote>Lord God of <placeName>Israel</placeName>, from the wings of the earth we have heard of signs. There is hope for the impious and they say, <quote>Woe to them that are exalted; them that are exalted against the law!</quote> Fear and a pit and a snare shall be upon you who dwell upon the earth; and it shall be that he who fleeth from the fear shall fall into the pit; and he who shall come out from the pit shall be caught by the snare; because windows have been opened from heaven, and the foundations of the earth shall be shaken. The earth shall be confounded and the earth shall hesitate with hesitation. The earth shall incline and totter and shake like a hut, like a man who is drunk and overcome with wine; and it shall not be able to stand</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 283, n. 1</orig></choice> Corr. <quote>sharers of our race</quote> (?).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 283, n. 2</orig></choice> Corr. <quote>beg of</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 283, n. 3</orig></choice> Corr. <quote>against our</quote>.</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 283, n. 4</orig></choice> Lam. iii, 22, neither P nor LXX, <quote>The Lord's mercy hath not vanished nor his clemency perished</quote>.</note>
+        <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 283, n. 5</orig></choice> Corr. <quote>thy mercy perished</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

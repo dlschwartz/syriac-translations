@@ -63,10 +63,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="144">
+        <pb n="190"/>
+        <head>Another on the holy <persName>Sergius</persName>.</head>
+        <head>144 — ii — VI. — <quote>I have been turned to misery by a thorn fastening in me</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">He who is pricked in his soul by the sting of sin immediately cries saying, as it is written, <quote>I have been turned to misery by a suprasensual thorn fastening in me</quote>. But, when <persName>Sergius</persName>, glorious in victory, the martyr of <persName>Christ</persName>, was running the course of [the gospel<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, he walked on sharp iron nails, saying with the Psalmist <persName>David</persName>, <quote>With these will I pursue them that pursue me and will not turn away from them till they perish</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. For so run I, not<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> at random, and by running on this road I shall attain to the kingdom of heaven; to which <persName>Bacchus</persName>, who was joined with me in the contest, has already bravely [run : through<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> whose prayers we beg thee, direct our steps also toward the crown of thy upward calling, merciful Lord.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 190, n. 1</orig></choice> Ps. xxxii, 4.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 190, n. 2</orig></choice> Corr. <quote>religion</quote> (representing <foreign xml:lang="grc">εὐσεβείας</foreign>).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 190, n. 3</orig></choice> Id. xviii, 38 (not quoted).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 190, n. 4</orig></choice> I Cor. ix, 25, 26 (verbal diff.).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 190, n. 5</orig></choice> Corr. <quote>received : by</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

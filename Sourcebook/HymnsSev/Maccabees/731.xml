@@ -63,10 +63,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="150">
+        <pb n="196"/>
+        <head>Another.</head>
+        <head>150 — ii — VII. — <quote>My soul hath desired thy salvation and I have hoped for thy word</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">When I turn the suprasensual eye of my mind all round, and, while contemplating the<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> weakness that arises from nature on all sides, I see also the mother aged in time of life and her seven sons of boyish age, and <persName>Eleazar</persName> their old teacher, I see thee, <persName>Christ</persName>, in the midst of these, who art the firstfruits of the new future life and of the resurrection, bestowing upon them the one sure hope and strength and perfect readiness, and victory, and the power to receive a crown of martyrdom. Wherefore I beg<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> thee, Lord, by their prayers heal my soul also, which is feeble and relaxed through the sins that I have committed, and strengthen it to perform thy life-<pb n="197"/>giving commandments and have pity and mercy upon me, according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 196, n. 2</orig></choice> Ps. cxviii, 81.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 196, n. 3</orig></choice> Corr. <quote>in the</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 196, n. 4</orig></choice> Corr. <quote>entreat</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

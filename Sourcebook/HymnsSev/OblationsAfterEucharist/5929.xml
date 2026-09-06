@@ -54,10 +54,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="235">
+        <pb n="278"/>
+        <head>The first on the Resurrection.</head>
+        <div type="preface">
+          <ab n="1">Again Other Short Oblational Hymns That Are Sung after the Reception of the Mysteries : and They Are Those That Are Sung in the Churches of the Cities, Having Been Drawn up by Certain Ancient Industrious Men and Poets (<foreign xml:lang="grc">ποιηταί</foreign>).</ab>
+        </div>
+        <div type="section">
+          <ab n="2">235 — i. — In keeping the feast of thy Resurrection from among the dead, <persName>Christ</persName>, God, we have been filled<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> with joy and spiritual gladness, Halleluyah!</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 278, n. 1</orig></choice> Ps. cxxxv, 1 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

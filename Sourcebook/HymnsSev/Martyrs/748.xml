@@ -62,10 +62,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="167">
+        <pb n="214"/>
+        <head>Another.</head>
+        <head>167 — iii — II. — <quote>Praise the Lord, ye righteous</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">The valiant <pb n="215"/> martyrs and soldiers of <persName>Christ</persName>, when they were being distressed by tortures and divers<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> inflictions, through the very facts themselves [cried to the unbelieving<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> tyrants with <persName>Paul</persName> the holy apostle, <quote>Just as much as this our outer man is destroyed, so much the inner man is renewed<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>; being about at last in the joy and delight of the resurrection to be clad in a shining body with glory, glistening with rays of light without corruption</quote> : [through whose<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> entreaties bring all of us also in thy mercy back to thy fear, Lord God, and prepare us for attaining to the future life as thou art merciful.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 214, n. 7</orig></choice> Ps. xxxiii, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 215, n. 1</orig></choice> Corr. representing <foreign xml:lang="grc">ποικίλος</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 215, n. 2</orig></choice> Corr. <quote>cry to the unbelievers</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 215, n. 3</orig></choice> II Cor. iv, 14-18 <quote>And we know..... for your sake. Since grace aboundeth through many, let confession abound..... that are not seen. For things that are seen are for a time, but those that are not seen are for ever</quote> (verbal diff.).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 215, n. 4</orig></choice> Corr. <quote>by their</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

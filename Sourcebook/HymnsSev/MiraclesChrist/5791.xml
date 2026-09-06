@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="42">
+        <pb n="84"/>
+        <head>On the harlot.</head>
+        <head>42 — viii — V. — <quote>I said I will confess my transgression to the Lord</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">The<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> evil and abominable love which the harlot had exchanged and divided with many lovers, enticing them to destruction, she instead after the manner of a merchant and in approved fashion gathered all together in repentance and poured out upon <persName>Jesus</persName> the Saviour of all whom she had loved; and she desired and yearned for the undying and passionless beauty, from which [she gained<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> purification for herself; and, mingling love with fear, inasmuch as she feared greatly, she wetted the feet of <persName>the Saviour of us all</persName> with her tears: and, inasmuch as she loved, she kissed these; and she was admitted to receive <pb n="85"/> from him forgiveness of sins. Therefore bestow upon us also such penitence and the forgiveness that comes from it, thou that art merciful and rich in grace<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 84, n. 2</orig></choice> Ps. xxxii, 5.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 84, n. 3</orig></choice> Luke vii, 36-38.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 84, n. 4</orig></choice> Corr. <quote>there happened</quote> (?).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 85, n. 1</orig></choice> Corr. <quote>mercy</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

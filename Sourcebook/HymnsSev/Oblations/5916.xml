@@ -58,10 +58,23 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="221">
+        <pb n="266"/>
+        <head>Another by <persName>John</persName> son of <persName>Aphthonia</persName>.</head>
+        <head>221 — xi.</head>
+        <div type="section">
+          <ab n="1">The Lord's body and the all-holy blood of the Son is set before us believers : let us eagerly hasten to partake; and, praising <persName>Christ</persName>, God the Word, let us say, <quote>Holy art thou, holy art thou, holy art thou, Bread of life, who art eaten by us<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. Halleluyah!</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 266, n. 3</orig></choice> John vi 55-58 <quote>For my body..... eateth of this bread liveth for ever</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

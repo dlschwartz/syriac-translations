@@ -54,10 +54,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="80">
+        <pb n="122"/>
+        <head>80 — vi — IV. — <quote>So longeth my soul after thee, O! God</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">In like manner as the hart from thirst longeth and yearneth to come to<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the fountain of water, so also my soul longeth for the rapid course of the days which brings to me the recurrence of Sunday : for, when from it I taste of the living water of the knowledge of the Cross and of the Resurrection, as of a fountain with pleasant waves, I [strip off<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> like a garment the old age of sins, and clothe myself in the comely youth of the new works of justice or of righteousness, <pb n="123"/> and prepare myself for the life to come : to which grant me to attain, God who becamest incarnate without variation and wast crucified [on our behalf<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and madest thyself a leader and chief for us of a new and blessed life, as thou art merciful.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 122, n. 5</orig></choice> Ps. xlii, 2 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 122, n. 6</orig></choice> Corr. <quote>for</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 122, n. 7</orig></choice> Corr. <quote>put away</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 123, n. 1</orig></choice> Corr. <quote>for us</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

@@ -63,10 +63,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="123">
+        <pb n="163"/>
+        <head>123 — i — V. — <quote>Serve the Lord in fear</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Again Hymns on the Holy <persName>John the Baptist</persName>.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">All ye who wish to honour the memory of <persName>John</persName> with faith, bring forth<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the good fruits that are meet for repentance : for he that is the greatest<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and most exalted among those born of women is greater than praises in words. He passed the measure and standard [of the holy prophets<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>; for he did not prophesy of <persName>Emmanuel</persName> but pointed him out. He foreran the birth of <persName>our Saviour</persName> from the holy Virgin; and moreover he was a mediator between the old covenant (<foreign xml:lang="grc">διαθήκη</foreign>) and the <pb n="164"/> new. As an apostle he preached the Gospel; as a chosen martyr he bowed his head and it was cut off; with his<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> right hand he began the holy mysteries that were celebrated in <placeName>Jordan</placeName> : whom let us beg and entreat to pray on behalf of our souls.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 163, n. 2</orig></choice> Ps. ii, 11.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 163, n. 3</orig></choice> Matth. iii, 7-9 (verbal diff.).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 163, n. 4</orig></choice> Id. xi, 7-11 (verbal diff.). Ref. also to Luke vii, 24-28.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 163, n. 5</orig></choice> Corr. <quote>prophetic</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 164, n. 1</orig></choice> Corr. <quote>the</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

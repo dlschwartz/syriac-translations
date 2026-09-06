@@ -54,10 +54,22 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="240">
+        <pb n="279"/>
+        <head>Another.</head>
+        <div type="section">
+          <ab n="1">240 — vi. — Open<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> my mouth and fill it with thanksgiving to thee, Lord; and let my tongue sing praise to thee; because thou art my glory and hope, and have mercy upon me.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 279, n. 2</orig></choice> Id. li, 16, 17 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

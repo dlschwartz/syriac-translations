@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="248">
+        <pb n="284"/>
+        <head>Another of prayers to all the saints concerning the same wrath.</head>
+        <head>248 — v — VI. — <quote>Praise the Lord, ye righteous</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Martyrs of <persName>Christ</persName> our God, who by your<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> blood shed in the combat of godliness have washed<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> your<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> hands in purity, and compass the holy suprasensual altar in heaven, pray on our behalf, we beg you, with the holy God-bearer and the <pb n="285"/> apostles and prophets, that the souls of us all may be rescued from the bitter wrath that is laid upon us.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 284, n. 7</orig></choice> Ps. xxviii, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 284, n. 8</orig></choice> Corr. <quote>the</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 284, n. 9</orig></choice> Ps. xxvi, 6 (not quoted).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 284, n. 8</orig></choice> Corr. <quote>the</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

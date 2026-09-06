@@ -58,10 +58,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="222">
+        <pb n="266"/>
+        <head>Another, by the same <persName>John</persName>.</head>
+        <head>222 — xii.</head>
+        <div type="section">
+          <ab n="1">The precious body is [made ready<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> before us; and the all-holy and divine blood is offered. Lo! the holy cherubim and seraphim <pb n="267"/> stand and offer<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> praise and say, <quote>Holy art thou, holy art thou, holy art thou, merciful one, who [gavest to believers thy<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> holy mysteries. Halleluyah!</quote></ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 266, n. 4</orig></choice> Corr. <quote>set</quote>.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 267, n. 1</orig></choice> Corr. <quote>sing a song of</quote></note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 267, n. 2</orig></choice> Corr. <quote>bestowedst upon believers the</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

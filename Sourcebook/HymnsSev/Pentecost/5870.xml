@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="111">
+        <pb n="150"/>
+        <head>111 — iii — I. — <quote>Because great is the glory of the Lord</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Who will not say that the depth of theology (<foreign xml:lang="grc">θεολογία</foreign>) is an infinite<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> abyss? I think in my mind on the Father, and I am filled with light, and I consider myself to have everything. I go on to ponder upon the Son, nor am I thereby straitened in mind; but I am again enlightened with another light that is full and of equal honour. But, when further in addition to these I receive in myself [thoughts concerning<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> the Holy Spirit also, I find in three perfect and unconfused hypostases one light of the Godhead. And the [indivisible union<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> of this is shown by the miracle also that was wrought, which gathered the divided tongues into one, and made the divine apostles to use them all as if they were one : by whose [prayers we beg<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, my Lord, bestow upon us also the union and concord of the Holy Spirit, and the bond of right faith; and keep us and be merciful to us, according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 150, n. 1</orig></choice> Ps. cxxxvii, 5 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 150, n. 2</orig></choice> Corr. <quote>great</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 150, n. 3</orig></choice> Corr. <quote>consideration of</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 150, n. 4</orig></choice> Corr. <quote>indivisibility</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 150, n. 5</orig></choice> Corr. <quote>entreaty we entreat</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

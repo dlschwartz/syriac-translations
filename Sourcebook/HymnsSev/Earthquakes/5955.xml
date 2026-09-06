@@ -54,10 +54,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="259">
+        <pb n="296"/>
+        <head>Another of the same kind.</head>
+        <head>259 — iv — III. — <quote>Thou hast laid anguish upon our loins</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">The rods of many death-fraught plagues hast thou raised above our head, Lord; and after showing that we deserve them all thou hast out of mercifulness restrained them all when they were already about to come upon us. Grant us, our <persName>Saviour</persName>, [truly to repent and perfectly to hate and turn away our<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> face from sin<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, in order that we may not by despising the riches<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> of thy kindness and thy longsuffering, my Lord, pour out and empty upon ourselves the dregs of the suprasensual cup of wrath that is threatening; for thou [willest that we should all be delivered<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> in all things, merciful one.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 296, n. 1</orig></choice> Ps. lxvi, 11, neither P nor LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 296, n. 2</orig></choice> Corr. <quote>true repentance and perfect turning away of the</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 296, n. 3</orig></choice> Unintelligible corr.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 296, n. 4</orig></choice> Rom. ii, 4, 5.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 296, n. 5</orig></choice> Corr. <quote>desirest us to be saved</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

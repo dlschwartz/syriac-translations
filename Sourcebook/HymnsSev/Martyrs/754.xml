@@ -62,10 +62,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="173">
+        <pb n="221"/>
+        <head>Another.</head>
+        <head>173 — ix — V. — <quote>Thou commandedst that they should observe thy commandments carefully</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. <quote>That they should not be as their fathers</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</head>
+        <div type="section">
+          <ab n="1">Thou gavest a law to thy disciples, <persName>Christ</persName>, God, by saying, <quote>Love surpassing<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> this hath no man, that a man lay down his soul for his friends</quote><ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> : a thing which thou also didst accomplish for us. And the martyrs, having heard this and written and engraved it upon the secret tablets of their heart, promptly and readily accepted and endured [death for thy sake<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> who lovedst us; and they received a crown of righteousness, and so became resplendent in glory; by whose [prayers, I pray thee, have mercy upon<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> us.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 221, n. 2</orig></choice> Ps. cxviii, 4.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 221, n. 3</orig></choice> Id. lxxviii, 8 LXX.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 221, n. 4</orig></choice> Corr. <quote>greater than</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 221, n. 5</orig></choice> John xv, 11-15 <quote>These things..... may be completed. And this is... for his friend. Ye..... I have declared to you</quote> (verbal diff.).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 221, n. 6</orig></choice> Corr. representing <foreign xml:lang="grc">τὸν ὑπέρ σου θάνατον</foreign> or words to that effect.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 221, n. 7</orig></choice> Corr. <quote>entreaties, we entreat, save</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

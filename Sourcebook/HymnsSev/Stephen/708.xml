@@ -63,10 +63,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="127">
+        <pb n="166"/>
+        <head>127 — i — VI. — <quote>Thou shall gladden him with joy with thy countenance</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Holy <persName>Stephen</persName>.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">With the first combatant and leader of the lines of the spiritual battle of the holy martyrs, which is heavenly and angelic, <persName>Stephen</persName> the brave<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> <pb n="167"/> and-high souled, as with a [strong wall that cannot be broken through and as with a crown of glory, thou hast surrounded thy<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> churches, <persName>Christ</persName>, God, our benefactor. Wherefore, singing with the prophet <persName>David</persName><ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, we say, <quote>Lord, thou hast crowned us as with the armour of thy favour</quote>; through<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> whose prayers and entreaties we beg bestow upon all of us thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 166, n. 7</orig></choice> Ps. xxi, 7 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 166, n. 8</orig></choice> Corr. representing <foreign xml:lang="grc">εὐθαρσής</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 167, n. 1</orig></choice> Corr. <quote>the</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 167, n. 2</orig></choice> Ps. v, 13 LXX <quote>Because thou shalt bless the righteous. Lord, thou hast crowned us as with the armour of favour.</quote></note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 167, n. 3</orig></choice> Corr. <quote>by</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

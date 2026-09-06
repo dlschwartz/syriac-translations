@@ -62,10 +62,32 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="198">
+        <pb n="249"/>
+        <head>A hymn that was spoken by the patriarch <persName>Severus</persName> when he entered <placeName>Aegae</placeName> to meet <persName>Hypatius</persName> the master of the soldiers (<foreign xml:lang="grc">στρατηλάτης</foreign>), who was going down to the land of the Persians on the 25th of the month of July in the tenth (<foreign xml:lang="grc">δεκάτη</foreign>) indiction (517).</head>
+        <head>198 — i — VII. — <quote>This mountain which thy right hand gained</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Again Hymns on the Church.</ab>
+        </div>
+        <pb n="250"/>
+        <div type="section">
+          <ab n="2">Bless and keep the catholic church, O! Lord; which is depicted or delineated upon<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> thy hands by means of doctrines<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, and has not been established upon the feeble sand<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> of the phantasmal illusion of the error of <persName>Eutyches</persName>, but is founded on the suprasensual head-stone<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of the corner, which is the Word who became incarnate from us without variation and perfectly and truly; who joined and united us men who were separated and removed from the heavenly Father and is not divided or in any way separated into two natures after the inexplicable union; about which church also the prophet <persName>David</persName> sings; <quote>Things that are glorious have been spoken of thee, O! city of God</quote><ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 249, n. 7</orig></choice> Ps. lxxviii, 54, neither P nor LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 250, n. 1</orig></choice> Is. xlix, 14-18 <quote>And <placeName>Zion</placeName>..... forget, I will not forget her. Though these forget, I will not forget thee..... Quickly shall thy sons come. Thy destroyers..... a bride</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 250, n. 2</orig></choice> Corr. <quote>dogmas (<foreign xml:lang="grc">δόγματα</foreign>)</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 250, n. 3</orig></choice> Matth. vii, 26, 27 (verbal diff.); II Cor. iv, 11, 12 (ref. not given and citation appy. out of place).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 250, n. 4</orig></choice> Ps. cxvii, 22 LXX <quote>The stone that the builders rejected, it hath become the head of the corner</quote>; Is. xxviii, 16.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 250, n. 5</orig></choice> Ps. lxxxvii, 3.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

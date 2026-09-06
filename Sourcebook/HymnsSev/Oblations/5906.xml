@@ -58,10 +58,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="211">
+        <pb n="262"/>
+        <head>The first on the Nativity; or, if anyone wishes, he uses it at the Ascension, changing the expression <quote>shone upon us in flesh</quote> and saying in its place, <quote>ascended to heaven and saved us</quote>.</head>
+        <head>211 — i.</head>
+        <div type="preface">
+          <ab n="1">Again Other Hymns Relating to the Mysteries Which Are Called Prosphoric or Oblational; Which Are Repeated before Reception by the Psaltae Alone. and These Also Are, as Is Thought, the Work of <persName>John</persName> the Archimandrite, the Son of <persName>Aphthonia</persName>.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">To-day the companies of [angels keep<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> the feast and celebration in heaven above. For the whole earth is full<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> at the same time of peace and concord, gladness and great joy. For <persName>Christ</persName> the<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> <persName>Saviour</persName> of all has shone upon us in flesh and saved us<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> and delivered us in his grace.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 262, n. 1</orig></choice> Corr. <quote>the angels is kept</quote>.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 262, n. 2</orig></choice> Unintelligible corr.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 262, n. 3</orig></choice> Corr. <quote>our</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 262, n. 4</orig></choice> Corr. <quote>us all</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

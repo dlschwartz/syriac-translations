@@ -54,10 +54,34 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="103">
+        <pb n="141"/>
+        <head>103 — i — IV. — <quote>Be thou exalted, Lord, in thy might</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Hymns on the Ascension.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">Thou, God, who bowedst<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the heavens and camest down like<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> rain<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> upon a fleece, and becamest incarnate [without variation<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of the Holy Spirit and of the God-bearer the Virgin <persName>Mary</persName>, and didst fulfil the dispensation in the flesh without tumult, didst ascend<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> in glory to heaven with a shout of God-befitting praise and with the voice of a trumpet, being recognised by the bodiless hosts of heavenly beings to be King<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> of Glory, though<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> thou madest no addition at all to the Trinity, and<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> didst remain God, and, being the same, becamest man for our sake, who didst raise and set us together<ptr type="noteAnchor" xml:id="a10" target="#n10" n="10"/> with thee in glory in heaven, praise to thee!</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 141, n. 1</orig></choice> Ps. xxi, 14 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 141, n. 2</orig></choice> Id. xviii, 10.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 141, n. 3</orig></choice> Corr. <quote>as</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 141, n. 4</orig></choice> Id. lxxii, 6.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 141, n. 5</orig></choice> Corr. <quote>in unvarying fashion</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 141, n. 6</orig></choice> Id. xlvii, 6 (cited as xlvi).</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 141, n. 7</orig></choice> Id. xxiv, 9, 10 LXX <quote>Lift up the gates, rulers among you : be ye lifted up, eternal gates : the King of Glory shall come in. <quote>Who is this King of Glory?</quote> The Lord of hosts, he is the King of Glory.</quote></note>
+        <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 141, n. 8</orig></choice> Corr. <quote>and</quote>.</note>
+        <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 141, n. 9</orig></choice> Corr. <quote>who</quote>.</note>
+        <note xml:id="n10" target="#a10" n="10"><choice><reg/><orig>p. 141, n. 10</orig></choice> Eph. ii, 4-6.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

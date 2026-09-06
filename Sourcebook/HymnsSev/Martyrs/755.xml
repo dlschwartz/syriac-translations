@@ -62,10 +62,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="174">
+        <pb n="222"/>
+        <head>Another.</head>
+        <head>174 — x — III. — <quote>For the sake of thy grace, O God</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Thy holy martyrs confirmed thy unerring and life-giving words by [actual deeds. For, though<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> they seemed to some to have lost<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> their soul for thy sake, not only did they find their own, but they present our souls also to thee through knowledge or faith in thee; so that we praise thee, my Lord, looking<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> for the blessed hope and thy glorious appearance from heaven : in which confirm the souls of us all through<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> their prayers, <persName>Saviour</persName> of all and most merciful one.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 222, n. 1</orig></choice> Ps. xxv, 7.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 222, n. 2</orig></choice> Corr. <quote>means of actions. For, while</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 222, n. 3</orig></choice> Matth. x, 37-49 <quote>Whoso loveth..... of me, and everyone who taketh not up..... shall lose it; and whoso hath lost his soul..... find it</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 222, n. 4</orig></choice> Tit. ii, 11-15.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 222, n. 5</orig></choice> Corr. <quote>by</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

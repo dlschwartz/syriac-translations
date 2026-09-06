@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="76">
+        <pb n="119"/>
+        <head>76 — ii — V. — <quote>My soul had almost dwelt in <placeName>Sheol</placeName></quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Since a woman was the cause of sorrow to us at the beginning by persuading our father <persName>Adam</persName> to eat of the fruit of the tree of which [they were forbidden<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> to eat, a woman was the first after<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> the angel to announce<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> thy life-giving Resurrection, <persName>Christ</persName>, God. For thou didst overcome by force and dissolve at <pb n="120"/> all points the curse and the gloomy fate to which our race was doomed; and thou filledst heaven and earth with joy and great gladness, making of us and of the sublime<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> hosts one glorious and spiritual company, in order to praise thee, the only good and merciful one.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 119, n. 4</orig></choice> Ps. xciv, 17 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 119, n. 5</orig></choice> Corr. <quote>was prohibited</quote>; marg. <foreign xml:lang="grc">ἀπηγορευμένον</foreign>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 119, n. 6</orig></choice> John xx, 1-3 <quote>But on the first day..... and to the other disciple..... and that disciple...., together</quote>, 11-13 (verbal diff. in both).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 119, n. 7</orig></choice> Marg. <foreign xml:lang="grc">εὐηγγελίσατο</foreign>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 120, n. 1</orig></choice> Corr. <quote>above</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

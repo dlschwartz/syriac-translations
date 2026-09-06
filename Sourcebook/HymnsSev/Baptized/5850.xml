@@ -54,10 +54,24 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="93">
+        <pb n="134"/>
+        <head>93 — ii — II. — <quote>Blessed are they that are without spot in the way</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Ye that have been admitted to holy baptism have already entered upon and begun the way of righteousness, wherein<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> no lion or any evil, and therefore unclean, beast sets foot or walks, but only you who have been saved and gathered together by the Lord God. In it therefore continue to walk unto the end, offering<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> praise to his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 134, n. 2</orig></choice> Ps. cxviii, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 134, n. 3</orig></choice> Is. xxxv, 9 (not quoted).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 134, n. 4</orig></choice> Corr. <quote>singing</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

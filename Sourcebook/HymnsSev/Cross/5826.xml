@@ -58,10 +58,30 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="74">
+        <pb n="118"/>
+        <head>This hymn also is the work of <persName>John</persName> son of <persName>Aphthonia</persName>.</head>
+        <head>74 — iv — VI. — <quote>Thou hast delivered my soul from troubles</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">When thou hadst broken<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the bars (<foreign xml:lang="grc">μοχλοί</foreign>) of iron<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> with the wood of the venerable Cross, and hadst dissolved Sheol and brought it to naught, <persName>my Saviour</persName>, then thou didst deliver and save me from the gates<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> of death, and didst cause a fountain of life to flow forth from thy all-pure<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> side and gavest it to me, praise to thee!</ab>
+        </div>
+        <div type="trailer">
+          <ab n="2">The hymns on the Cross are ended.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 118, n. 1</orig></choice> Ps. xxxi, 8 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 118, n. 2</orig></choice> Corr. <quote>crushed</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 118, n. 3</orig></choice> Id. cvii, 16.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 118, n. 4</orig></choice> Ps. ix, 14.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 118, n. 5</orig></choice> Corr. <quote>undefiled</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

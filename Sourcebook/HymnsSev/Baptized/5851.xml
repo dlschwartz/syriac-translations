@@ -54,10 +54,25 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="94">
+        <pb n="134"/>
+        <head>94 — iii — IV. — <quote>Because the Lord hath done marvellous things</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">When I look at the children of the laver of regeneration, I turn the glances [of my<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> eyes downward : for an eternal spiritual savour has alighted and sat<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> upon their head, and splendour such as befits the holy hosts on high : which <pb n="135"/> if they keep, they shall dwell in eternal habitations, whence pain and sorrow and sighing have fled away as it is written<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, praising <persName>Christ</persName> for his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 134, n. 5</orig></choice> Ps. xcviii, 1 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 134, n. 6</orig></choice> Corr. <quote>with the</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 134, n. 7</orig></choice> Is. xxxv, 3-10 (verbal diff.).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 135, n. 1</orig></choice> Is. xxxi, 10, li, 11 (neither quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

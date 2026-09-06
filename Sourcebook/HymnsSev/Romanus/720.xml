@@ -63,10 +63,30 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="139">
+        <pb n="184"/>
+        <head>139 — i — V. — <quote>He shall receive a blessing from the Lord</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Holy <persName>Romanus</persName> the Martyr.</ab>
+        </div>
+        <div type="section">
+          <ab n="2"><persName>Isaiah</persName> the great among prophets foretold that at the coming of <persName>Christ</persName> who is God in the flesh tongues that stutter<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> should learn to speak peace. But <persName>Romanus</persName>, the illustrious combatant (<foreign xml:lang="grc">ἀθλητής</foreign>), showed a martyr's tongue when <pb n="185"/> he believed, with which he [freely made confession<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> in the sight of all men, even when it had for this reason been cut out for his sake. Wherefore the tyrant also who cut this out when he judged him was<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> not able to cut out speech; for even without a tongue he spoke. By his prayers, Lord of all, fill [our mouths also which<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> praise thee with a song of praise in thy grace, and our tongue with spiritual joy, [I pray<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> thee.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 184, n. 5</orig></choice> Ps. xxiv, 5.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 184, n. 6</orig></choice> Is. xxxii, 1-6 <quote>Lo! kings shall rule..... and the tongue of the stutterer shall hasten....., nor yet shall they call the vain man..... meditates iniquity</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 185, n. 1</orig></choice> Corr. <quote>gained freedom (<foreign xml:lang="grc">παῤῥησία</foreign>) on <persName>Christ</persName>'s behalf</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 185, n. 2</orig></choice> Corr. <quote>did</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 185, n. 3</orig></choice> Corr. <quote>the mouths of us who</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 185, n. 4</orig></choice> Corr. <quote>we entreat</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

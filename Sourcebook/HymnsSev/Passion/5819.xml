@@ -54,10 +54,24 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="68">
+        <pb n="111"/>
+        <head>68 — iii — VI. — <quote>They spake with their lips and nodded their heads</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">The mad and blasphemous multitude of the Jews, jeering<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> and mocking at thy voluntary cross, said, <quote>If thou art the Son of God, come down now from the cross that we may believe on thee</quote>. But thou, who alone art long-suffering, didst by acts themselves cry out, <quote>I have no contest with you <pb n="112"/> now, O! ye of little understanding. But the time of your wickedness is already accomplished; and I now await the trial of death, in order that after undergoing it in the flesh I may render it dead and inoperative among you. But, when again ye shall have shut up my body also under the stone and gate of the grave, and under seal in security, then ye shall understand and know through my Resurrection from among the dead that, though I could have come down from the cross if I wished, yet nevertheless I remained to raise the race of men through my three days' burial</quote>. Therefore we praise thee, merciful Lord, who didst perform all things with wisdom<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> for our salvation, according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 111, n. 6</orig></choice> Ps. xxii, 8, neither P nor LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 111, n. 7</orig></choice> Matth. xxvii, 39-44 (verbal diff.).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 112, n. 1</orig></choice> Ps. civ, 24 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

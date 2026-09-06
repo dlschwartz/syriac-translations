@@ -55,10 +55,24 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="194">
+        <pb n="245"/>
+        <head>Again another on the same holy <persName>Severus</persName>, composed, as some say, by a certain Alexandrine poet (<foreign xml:lang="grc">ποιητής</foreign>)<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <head>194 — iv — VIII. — <quote>He shall abide for ever before God</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</head>
+        <div type="section">
+          <ab n="1">The great pillar of the church and true teacher of all the world, the wise <persName>Severus</persName>, through the things that he wrote teaches us even after his death, <quote>Stand bravely all of you in the faith; and reject and turn away your face from the error of the disease of the Phantasiasts; and overthrow and demolish also the tower-erection that was built out of the bricks or doctrines of <persName>Nestorius</persName>, the error of the Diphysites; and confess that you know one <persName>Christ</persName>, God the Word who became man without variation, and that the same voluntarily underwent sufferings in the flesh and wrought miracles; and proclaim with the doctors that there is one nature of the Word himself who became incarnate, and that <persName>Emmanuel</persName> was not ignorant of the last day or of anything else in any wise among all things that have come into being</quote>. Let us all cry to him, <quote>Indivisible Lord of all, by our father's prayers have pity and mercy upon us</quote>.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 245, n. 1</orig></choice> The absence of corrections and painted letters shows that no Greek original was known to <persName>James</persName></note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 245, n. 2</orig></choice> Ps. lxi, 8 LXX.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

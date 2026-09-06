@@ -54,10 +54,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="252">
+        <pb n="288"/>
+        <head>Another of the same kind.</head>
+        <head>252 — ii — II. — <quote>The land shall be humbled and all its inhabitants</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">By reason of the dark gloom and heat of our sins the [seasons of rain<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> have already past; and the flower of every herb<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> is like to wither and comes not to<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> harvest. But we for our part do not despair, looking to the abundant and rich fountains of thy mercy : for thou saidst to thy servant <persName>Moses</persName> when he doubted and did not believe that thou wouldst give meat to the people of <placeName>Israel</placeName> in the wilderness to eat, <quote>Lo! thou shall see<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> if my word <pb n="289"/> shall indeed come upon thee and overtake thee or not</quote><ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> : because it is a small thing in thy eyes to do everything and to have mercy upon thy creation, merciful one.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 288, n. 3</orig></choice> Ps. lxxv, 4.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 288, n. 4</orig></choice> Corr. <quote>hours of flood</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 288, n. 5</orig></choice> Ps. xxxvii, 2 (not quoted).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 288, n. 6</orig></choice> Corr. <quote>to (come to)</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 288, n. 7</orig></choice> Corr. <quote>know</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 289, n. 1</orig></choice> Num. xi, 23 LXX <quote>And the Lord said to <persName>Moses</persName> <quote>Shall not the hand of the Lord be sufficient? Lo! thou shall know if my word shall overtake thee</quote></quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

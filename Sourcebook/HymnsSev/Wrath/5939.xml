@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="245">
+        <pb n="282"/>
+        <head>Another of the same kind.</head>
+        <head>245 — ii — VI. — <quote>Remember, Lord, thy mercy and thy graciousnesses that have been from everlasting</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">If thou wilt not be jealous for thy glory, <persName>Christ</persName>, God, and for the great mercy which thou hast poured out upon us in that thou hast [set us free<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> from the bondage of the devil, through thy<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> divine Humanization, we have no means or hope of deliverance; since our sins have filled the cup of wrath and of ruin, so that it is already being poured out upon us. But<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> incline from this to mercifulness, and empty not upon us, my Lord, the threatened dregs of wrath, as thou alone art good and great in mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 282, n. 1</orig></choice> Ps. xxv, 6.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 282, n. 2</orig></choice> Corr. <quote>rescued (us)</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 282, n. 3</orig></choice> Corr. <quote>the</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 282, n. 4</orig></choice> Ps. lxxv, 8 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

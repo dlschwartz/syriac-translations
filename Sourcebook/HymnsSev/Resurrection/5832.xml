@@ -54,10 +54,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="79">
+        <pb n="121"/>
+        <head>79 — v — IV. — <quote>This came from the Lord and it is a marvel in our eyes</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">The gladness<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> of the Holy Sunday enlightens my mind greatly by the contemplation of its mysteries : for that is the eighth of days and at the <pb n="122"/> same time the first; on which I know that thou who in the beginning madest heaven and earth out of nothing, also, being the same, at the end of times becamest incarnate, and sufferedst<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> on the cross for our salvation, and through a God-befitting Resurrection [renewedst the creation of<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> our mortal race, and becamest the beginning<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> of life to us and father of the world to come as one that is merciful. [As thou<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> hast in truth made all things in wisdom, Lord, praise to thee!</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 121, n. 7</orig></choice> Ps. cxvii, 23.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 121, n. 8</orig></choice> Corr. <quote>splendour</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 122, n. 1</orig></choice> Corr. <quote>wast crucified</quote> (perh. to cover <quote>on the cross</quote> also).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 122, n. 2</orig></choice> Corr. <quote>createdst anew</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 122, n. 3</orig></choice> Corr. <quote>head</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 122, n. 4</orig></choice> Above <foreign xml:lang="grc">ὡς</foreign>; corr. <quote>thou who</quote> (above <foreign xml:lang="grc">ὅς</foreign>).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="48">
+        <pb n="91"/>
+        <head>On the man who had a legion in him.</head>
+        <head>48 — xiv — I. — <quote>Thou hast shown thy power among the peoples</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Once, when thou camest as man into the country of the Gadarenes, <persName>Christ</persName>, God, a legion (<foreign xml:lang="grc">λεγεών</foreign>) of rebellious demons among those that were under torments recognised thee as God<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> : wherefore they cried, <quote>What have we to do with thee, <persName>Jesus</persName> of <placeName>Nazareth</placeName>, Son of the living God? Hast thou come before the time in order to torment us?</quote> Having driven these from thy creation, thou sentest them into the herd as they asked; thereby showing that, unless thou hadst permitted it, they would not have dared to assail<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> <pb n="92"/> even the swine. Accordingly [we offer praise to thee for thy incomprehensible judgments<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>, mighty Lord Omnipotent.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 91, n. 2</orig></choice> Ps. lxxvii, 15 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 91, n. 3</orig></choice> Matth. viii, 28-32 <quote>And, when <persName>Jesus</persName>..... <quote>to torment me?</quote>. Now there was above them a great herd feeding; and the demons..... water</quote> (verbal diff.). Reff. also to Mark v, 1-14, Luke viii, 26-33.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 91, n. 4</orig></choice> Corr. <quote>assailed</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 92, n. 1</orig></choice> Corr. <quote>praising thy judgments, we glorify thee, the</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

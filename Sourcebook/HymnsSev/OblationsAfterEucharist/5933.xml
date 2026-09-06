@@ -54,10 +54,22 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="239">
+        <pb n="279"/>
+        <head>Another.</head>
+        <div type="section">
+          <ab n="1">239 — v. — Let my mouth and my thoughts be filled<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> with thy glory, in order that I may bless thy glorious name.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 279, n. 1</orig></choice> Ps. lxxi, 8 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

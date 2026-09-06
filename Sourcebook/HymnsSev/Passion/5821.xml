@@ -54,10 +54,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="70">
+        <pb n="114"/>
+        <head>70 — v — IV. — <quote>Rise, Lord, into thy rest</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Lord<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, who walkest on the wings of the wind, and stretchedst out thine hands on the wood of the venerable Cross, and [hungest extended<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> upon it of thine own will, and by this same type and figure showedst us that thou art the God of all the ends of the earth, who sufferedst on our behalf in the flesh by a voluntary passion, and through<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> faith in thee caughtest the robber as a fish, and thereafter wentest down in thy soul to the lower parts of the earth, having in the air (<foreign xml:lang="grc">ἀήρ</foreign>) above and on the earth beneath and in Sheol overthrown and removed<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> from us the sway of the tyrant death and the strong rule of the evil hosts, and rosest in marvellous fashion from among the dead, and didst ascend and wast lifted up to heaven, praise to thee!</ab>
+        </div>
+        <div type="trailer">
+          <ab n="2">The hymns on our Lord's Passion are ended.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 114, n. 1</orig></choice> Ps. cxxxi, 8.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 114, n. 2</orig></choice> Corr. <quote>Thou</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 114, n. 3</orig></choice> Corr. <quote>wast extended straight</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 114, n. 4</orig></choice> Corr. <quote>by</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 114, n. 5</orig></choice> I Cor. xv, 26, II Tim. i, 10 <quote>And hath now been revealed by the revelation of <persName>Jesus Christ</persName>..... and immortality</quote>, Heb. ii, 14 (verbal diff.).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

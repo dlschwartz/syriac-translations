@@ -54,10 +54,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="263">
+        <pb n="299"/>
+        <head>Another on the incursion of the Huns<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <head>263 — ii — VII. — <quote>For the glory of thy name</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</head>
+        <div type="section">
+          <ab n="1">Reject not by reason of our sins thy holy altar, <persName>Christ</persName>, God; do not cast away and spurn from before thee thy sanctuary; let not the nations come in and defile thy covenant (<foreign xml:lang="grc">διαθήκη</foreign>); as for us let us not perish and be <quote>as in the beginning, when thou wast not a leader to us</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>. Act therefore for the glory of thy name; and turn away<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> thy face from the sins [of thy bondmen<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, and deliver and save the souls of us all, according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 299, n. 2</orig></choice> Marc. ann. 515.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 299, n. 3</orig></choice> Ps. lxxix, 9 LXX.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 299, n. 4</orig></choice> Is. lxiii, 19 LXX <quote>We have become as in the beginning when thou wast not a leader to us, nor was thy name called upon us</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 299, n. 5</orig></choice> Ps. li, 11 (not quoted).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 299, n. 6</orig></choice> Corr. <quote>our</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

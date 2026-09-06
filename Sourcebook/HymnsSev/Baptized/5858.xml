@@ -54,10 +54,30 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="101">
+        <pb n="139"/>
+        <head>When they strip off their garments.</head>
+        <head>101 — x — VII. — <quote>Come hearken and I will tell you all the works of God</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Though you are stripping off the raiment that is outside you, yet put not off from you the hidden raiment within, ye who have been baptized<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>; for, if you continue to be clad in this, a storm (<foreign xml:lang="grc">χειμών</foreign>)<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> of trials shall not in any wise prevail against you. You know what manner of words you have heard; you know what a lamb you have [enjoyed. Beware of<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> the enemy lest he strip and expose you as he did <persName>Adam</persName>, and make you aliens to the blessings of the kingdom, as he made him an alien to the life and the blessings in<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> <placeName>Paradise</placeName>. Wherefore pray with us and cry to <persName>Christ</persName>, <quote>Confirm and keep the souls of us all by the Holy Spirit.</quote></ab>
+        </div>
+        <div type="trailer">
+          <ab n="2">The hymns on baptism are ended.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 139, n. 1</orig></choice> Ps. lxvi, 16.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 139, n. 2</orig></choice> Gal. iii, 26, 27.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 139, n. 3</orig></choice> Corr. <quote>winter</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 139, n. 4</orig></choice> Corr. <quote>participated in. Look to</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 139, n. 5</orig></choice> Corr. <quote>of</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

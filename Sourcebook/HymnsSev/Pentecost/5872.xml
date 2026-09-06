@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="113">
+        <pb n="151"/>
+        <head>113 — v — IV. — <quote>The Lord hath shown his salvation and before the nations hath revealed his righteousness</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">He who once spake though the holy prophets, the Paraclete, the Holy Spirit, has in everything signified and shown to us that he is God equal in essence (<foreign xml:lang="grc">οὐσία</foreign>) and equal in honour to the Father <pb n="152"/> and to the Son. Aforetime through the books [of the law and in the prophecies of the prophets<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> he taught saying as in the person of the Father, <quote>These things saith the Lord</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>; but afterwards through the voices of the Gospel, <quote>In the beginning was the Word, and the Word was with God, and the Word was God</quote><ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>; and through the preaching of the divine apostles he cried, <quote>These things saith the Holy Spirit</quote><ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> : who also in the shape of tongues of fire rested and abode upon them; in order that on every side the equality and kingship and invariability in all things of the Holy Trinity might be made known, and that we might praise the ineffable mercy which has been revealed and has taught us the knowledge of God.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 151, n. 7</orig></choice> Ps. xcviii, 2.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 152, n. 1</orig></choice> Corr. <quote>legal and prophetic</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 152, n. 2</orig></choice> Marg. <quote>in the Old Testament</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 152, n. 3</orig></choice> John i, 1-4 (verbal diff.).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 152, n. 4</orig></choice> Acts xiii, 2 <quote>But, while those were serving the Lord and praying, the Holy Spirit said, <quote>Separate me therefore <persName>Barnabas</persName> (and <persName>Saul</persName>) for the work (to) which I have called them</quote></quote>, xvi, 7 <quote>They tried to go to <placeName>Bithynia</placeName>, and the Spirit of <persName>Jesus</persName> did not allow them</quote>, xxi, 10, 11 <quote>And, while they remained with them many days, a certain man came down from <placeName>Judaea</placeName>, a prophet named <persName>Agabus</persName>; and, having come to us and taken hold of <persName>Paul</persName>'s girdle, binding his own feet and hands he said, <quote>These things saith the Holy Spirit, <quote>The man whose this girdle is the Jews in <placeName>Jerusalem</placeName> shall thus bind</quote></quote></quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

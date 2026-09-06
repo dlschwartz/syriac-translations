@@ -54,10 +54,27 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="81">
+        <pb n="123"/>
+        <head>81 — vii — IV. — <quote>Unto the upright light hath shone in darkness</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1"><persName>Christ</persName>, even God, the Sun of righteousness [after suffering on our behalf in the flesh went down and shone in the chambers<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> of <placeName>Sheol</placeName>, and<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> in this way rode upon the West, whose name is the Lord, as the divine prophet <persName>David</persName> sings<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/>. This <persName>Christ</persName>, who now behold! rides upon the East which is our<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> resurrection in that he was raised from among the dead, come, let us bless and worship : for he<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> is the same who descended and who ascended above the heavens as God, that he might fill all things with his glory.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 123, n. 2</orig></choice> Ps. cxii, 4.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 123, n. 3</orig></choice> Corr. <quote>by appearing in the regions</quote>; marg. <foreign xml:lang="grc">ταμιεῖα</foreign></note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 123, n. 4</orig></choice> Corr. <quote>also</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 123, n. 5</orig></choice> Ps. lxviii, 5 (not quoted).</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 123, n. 6</orig></choice> B <quote>his</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 123, n. 7</orig></choice> Eph. iv, 9, 10 (verbal diff.).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

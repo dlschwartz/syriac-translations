@@ -54,10 +54,31 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="66">
+        <pb n="110"/>
+        <head>66 — i — VI. — <quote>Thou that liftest me up from the gates of death</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">On the Passion of <persName>Christ</persName> Who Is God.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">Though<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> there are many methods of slaying<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>, thou tookest upon thee to suffer death by means of the cross on our behalf in the flesh, <persName>Christ</persName>, God, [and didst declare<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> that thy emptying thyself<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> [thus far brought exaltation to the whole race of men<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/>. For thou saidst to the people of the Jews before the Passion, crying openly, <quote>And I, when I have been lifted up from the earth, will draw all men unto me</quote><ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/>. Merciful and exalted Lord, all praise to thee!</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 110, n. 1</orig></choice> Ps. ix, 14.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 110, n. 2</orig></choice> Corr. <quote>While</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 110, n. 3</orig></choice> Corr. <quote>torture</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 110, n. 4</orig></choice> Corr. <quote>declaring</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 110, n. 5</orig></choice> Philipp. ii, 5-7 <quote>Have in your soul the mind..... thought this not a prize that he should be equal to God, but..... death.</quote></note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 110, n. 6</orig></choice> Corr. <quote>to so great an extent brought about the exaltation of all mankind</quote>.</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 110, n. 7</orig></choice> John xii, 31-33.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

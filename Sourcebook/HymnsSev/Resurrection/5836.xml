@@ -54,10 +54,24 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="83">
+        <pb n="124"/>
+        <head>83 — ix — II. — <quote>To show thy grace in the morning and thy faith by night</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">In<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the night our spirit eagerly arises early to greet thee, <persName>Christ</persName>, God. Thou therefore be among us who early honour thy<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> Resurrection in spiritual fashion with singing choirs and send up voices of thanksgiving to thy glory, and bestow upon all of us the gift of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 124, n. 6</orig></choice> Ps. xcii, 3.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 124, n. 7</orig></choice> Is. xxvi, 9 LXX <quote>In the night my spirit riseth early to greet thee, O! God, because thy commandments are a light upon earth</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 124, n. 8</orig></choice> Corr. <quote>and praise thy</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

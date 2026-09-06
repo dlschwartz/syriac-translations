@@ -54,10 +54,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="32">
+        <pb n="72"/>
+        <head>32 — vii — V. — <quote>All ye bondmen of God</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Let us keep the pure mirror of the holy fast from all stain, in no wise blackening this as if by smoke through the breath that<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> is wont to exhale from divers kinds of food; but let us cleanse and purify it through abstinence and by the performance of all good deeds, in order that by looking in it and seeing our new man <quote>that in God <pb n="73"/> was created in righteousness and in holiness of truth</quote><ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> we may be admitted to approach [with purity and take part in tasting<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> the mystery of the Passover, and to bless and worship <persName>Christ</persName> who is God, who suffered and died on our behalf in the flesh and rose from among the dead, while we praise his goodness and his great<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 72, n. 9</orig></choice> Ps. cxxxiv, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 72, n. 10</orig></choice> Corr. <quote>of</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 73, n. 1</orig></choice> Eph. iv, 24, 25.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 73, n. 2</orig></choice> Corr. <quote>in pure fashion taste</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 73, n. 3</orig></choice> Corr. <quote>unmeasured</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

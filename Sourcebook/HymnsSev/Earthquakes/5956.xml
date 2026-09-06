@@ -54,10 +54,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="260">
+        <pb n="296"/>
+        <head>Another in commemoration of the same terrors.</head>
+        <head>260 — v — VIII. — <quote>Heal the breach thereof because it hath been shaken</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1"><persName>Christ</persName><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> who, when the earth was shaking and trembling, and was <pb n="297"/> drunk with the error of demon-worship and idolatry, by means of thy Cross broughtest it to watchfulness of mind, and by means of the light of the fear<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> of God didst make it wise and enlighten it, having on the day of the commemoration or dedication of thy<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> life-giving Cross<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> chastised us by an earthquake, thou didst mercifully show mercy to us [sinners and turn<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> us to thee. Now also remember thy clemency and thy mercy, Lord; and remove from us the threat of wrath and anger that is threatening and hanging over us, according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 296, n. 6</orig></choice> Ps. lx, 4 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 296, n. 7</orig></choice> Corr. <quote>Thou</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 297, n. 1</orig></choice> Corr. <quote>knowledge</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 297, n. 2</orig></choice> Corr. <quote>the</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 297, n. 3</orig></choice> Corr. <quote>wood</quote>. 14 sept. 513 (Hom. 31).</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 297, n. 4</orig></choice> Corr. <quote>We were sinning and thou turnedst (us)</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

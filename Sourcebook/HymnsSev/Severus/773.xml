@@ -59,10 +59,31 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="193">
+        <pb n="244"/>
+        <head>Another on the same, by the same <persName>John</persName>.</head>
+        <head>193 — iii — IV. — <quote>We have become as they that rejoice</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>. <quote>Come, let us praise the Lord</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>.</head>
+        <div type="section">
+          <ab n="1">When we celebrate the memory of the wise prelate and shepherd and patriarch <persName>Severus</persName>, we truly perform the commemoration of all the God-clad doctors<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/>; for the doctor had them all speaking spiritually in him; and he himself never reckoned<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> anything proclaimed by [him as his own. For this reason<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>, rejecting and repelling from him great praises, he would say, <quote>Whatever<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> I seem to have said that is right, it is the teachings of<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> <persName>Athanasius</persName> and <persName>Basil</persName> and <persName>Gregory</persName> and such men; while the great labours and compositions of the wise <persName>Cyril</persName> were<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/> always the study and meditation of my boyhood</quote>. Through<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> their prayers admit us all, <persName>Christ</persName>, God, under their shelter to offer praise to thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 244, n. 1</orig></choice> Ps. cxxv, 1.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 244, n. 2</orig></choice> Id. xcv, 1.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 244, n. 3</orig></choice> Corr. <quote>fathers</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 244, n. 4</orig></choice> Corr. <quote>ascribed to himself</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 244, n. 5</orig></choice> Corr. <quote>himself. Hence</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 244, n. 6</orig></choice> Corr. <quote>If anything</quote>.</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 244, n. 7</orig></choice> Corr. <quote>and doctrines of</quote>.</note>
+        <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 244, n. 8</orig></choice> Unintelligible corr.</note>
+        <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 244, n. 9</orig></choice> Corr. <quote>By</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

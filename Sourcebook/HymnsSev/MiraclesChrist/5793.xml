@@ -54,10 +54,31 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="44">
+        <pb n="86"/>
+        <head>On the two blind men.</head>
+        <head>44 — x — V. — <quote>Have mercy upon me, Lord, have mercy upon me</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">When <persName>Christ</persName> was passing by a certain place on the way, two blind men<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> followed and came after him, [who cried<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and said, <quote>We pray, Son of <persName>David</persName>, have <pb n="87"/> mercy upon us</quote>. But he suffered the voice of [their prayer to be prolonged<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> until he had completed his journey and entered the house, and, when he found that they continued, and yearned<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/> to see light, he asked them if they believed that he was able to do this; and they [in faith<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> answered him, <quote>Yea, Lord, for we have named<ptr type="noteAnchor" xml:id="a7" target="#n7" n="7"/> thee to be the Son of <persName>David</persName>, confessing the truth of the Incarnation on our behalf; and we [are convinced that thou art Lord of angels and of hosts<ptr type="noteAnchor" xml:id="a8" target="#n8" n="8"/></quote>. And, when they had heard him say to them the words, <quote>According to your faith be it unto you</quote>, their eyes were opened and they saw. And<ptr type="noteAnchor" xml:id="a9" target="#n9" n="9"/> we ourselves pray, Lord, bestow on us the light of the orthodox faith, according to the abundance of thy great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 86, n. 5</orig></choice> Ps. cxxii, 3 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 86, n. 6</orig></choice> Matth. ix, 27-30. <quote>When <persName>Jesus</persName>..... house, these blind men..... opened.</quote></note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 86, n. 7</orig></choice> Corr. <quote>crying</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 87, n. 1</orig></choice> Corr. <quote>And, having prolonged their prayer</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 87, n. 2</orig></choice> Corr. <quote>asked</quote>.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 87, n. 3</orig></choice> Corr. <quote>believingly</quote>.</note>
+        <note xml:id="n7" target="#a7" n="7"><choice><reg/><orig>p. 87, n. 4</orig></choice> Corr. <quote>called</quote>.</note>
+        <note xml:id="n8" target="#a8" n="8"><choice><reg/><orig>p. 87, n. 5</orig></choice> Corr. <quote>know thee to be Lord of hosts also</quote>.</note>
+        <note xml:id="n9" target="#a9" n="9"><choice><reg/><orig>p. 87, n. 6</orig></choice> Corr. <quote>And therefore</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

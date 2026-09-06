@@ -62,10 +62,26 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="172">
+        <pb n="220"/>
+        <head>Another.</head>
+        <head>172 — viii — II. — <quote>He who teacheth man knowledge</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Thou taughtest us through the divine Gospels, <persName>Christ</persName>, God, to pray and say, <quote>Thy will be done on earth also even as in heaven</quote><ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>. But the soldiers and martyrs of godliness<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> by observing and fulfilling thy will in actual deeds, made earth in some sort heaven; seeing that they turned away the face from the body, <pb n="221"/> and made themselves imitators of the bodiless angels and of the spiritual and heavenly hosts : by whose<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> prayers have mercy upon us also and deliver us, merciful Lord of all.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 220, n. 5</orig></choice> Ps. cxiv, 10.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 220, n. 6</orig></choice> Matth. vi, 9-13 <quote>So therefore..... thy name; and thy kingdom come; and thy will be done..... for ever and ever Amen!</quote> (verbal diff.). Ref. also to Luke xi, 2-4.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 220, n. 7</orig></choice> Corr. representing <foreign xml:lang="grc">εὐσεβείας</foreign>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 221, n. 1</orig></choice> Corr. <quote>their</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

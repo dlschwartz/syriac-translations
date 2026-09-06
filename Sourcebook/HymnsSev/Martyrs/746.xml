@@ -62,10 +62,29 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="165">
+        <pb n="213"/>
+        <head>165 — i — VI. — <quote>He shall abide for ever before God</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Again Hymns on All the Holy Martyrs in Common.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">The blessed memory of the martyrs is a rich and heavenly treasure of teachings. For men who while in the body as if they were without bodies stood firm in the contest, and overcame and trampled upon all the kinds of torments that were applied to them, urge men to spurn and disregard<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> all bodily pleasure; and they teach and show that all<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> those who live in the flesh are wholly unable to please God; and that at all seasons it is for all believers a time suited for a contest (as it were) of martyrdom against the savageness of wrath, against seductive and enervating<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> desire, and against every passion that separates from God : from which rescue us, <persName>Christ</persName>, God, who didst strengthen [the martyrs and support them in the combat, who in all things art able to do every thing<ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 213, n. 1</orig></choice> Ps. lxi, 8 LXX.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 213, n. 2</orig></choice> Corr. <quote>despise</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 213, n. 3</orig></choice> Rom. viii, 5-9 <quote>For they..... toward God. It is not subject..... in you</quote> (verbal diff.).</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 213, n. 4</orig></choice> Corr. <quote>making effeminate (?)</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 213, n. 5</orig></choice> Corr. <quote>combat [including <foreign xml:lang="grc">ἀθλῆσαι</foreign>] with the flesh [sic], who canst (do) all in all</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

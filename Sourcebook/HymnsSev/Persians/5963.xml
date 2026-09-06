@@ -54,10 +54,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="265">
+        <pb n="301"/>
+        <head>265 — i — II. — <quote>Blessed are ye of the Lord who made heaven and earth</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="preface">
+          <ab n="1">Another on the War Made by the Persians.</ab>
+        </div>
+        <div type="section">
+          <ab n="2">O! apostles of <persName>Christ</persName> and prophets and holy martyrs, who by words and toils and by labours and by the actual shedding of the blood from your necks contended on behalf of the word of [the right faith<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/>, and yourselves expelled the service of idolatry from all the world, by means of your combat pray and entreat on behalf of all of us<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> who have been saved and delivered from error; and fight and contend in the fight and contest on our behalf; and break<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> the arm and the high horn of those who worship falsely-named gods; and do not leave and abandon us in the hands of our enemies because of the multitude of our sins; but ask for us from our Lord his great mercy.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 301, n. 1</orig></choice> Ps. cxiv, 23.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 301, n. 2</orig></choice> Corr. <quote>religion</quote> (representing <foreign xml:lang="grc">εὐσέβεια</foreign>).</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 301, n. 3</orig></choice> Corr. <quote>those</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 301, n. 4</orig></choice> Ps. x, 15 (not quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

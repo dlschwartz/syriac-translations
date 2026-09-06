@@ -58,10 +58,23 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="217">
+        <pb n="265"/>
+        <head>On the holy fathers, by the same archimandrite.</head>
+        <head>217 — vii.</head>
+        <div type="section">
+          <ab n="1">The commemoration of the saints is kept with expressions of praise, and the memory of their glorious deeds shall be for ever<ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/> to generation and generation, Halleluyah!</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 265, n. 2</orig></choice> Ps. cxiii, 2, cxxxiv, 13 (neither quoted).</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>

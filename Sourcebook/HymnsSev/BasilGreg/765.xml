@@ -63,10 +63,28 @@
               </p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc status="draft">
+      <change resp="http://syriaca.org/person.xml#echrisanthus" when="2026-09-5">Upload initial AI-assisted transcription of text.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div/>
+      <div type="work" n="185">
+        <pb n="234"/>
+        <head>Another on the same, and on <persName>Ignatius</persName> the God-clad.</head>
+        <head>185 — ii — VII. — <quote>Magnify the Lord with me</quote><ptr type="noteAnchor" xml:id="a1" target="#n1" n="1"/>.</head>
+        <div type="section">
+          <ab n="1">Ye who yearn to <pb n="235"/> [become inheritors of<ptr type="noteAnchor" xml:id="a2" target="#n2" n="2"/> the kingdom of heaven, study with diligence and meditate upon the doctrines of the great <persName>Basil</persName>, which teach<ptr type="noteAnchor" xml:id="a3" target="#n3" n="3"/> and show the path and the royal road both of conduct and of knowledge. But, if you desire also to approach the light of theology (<foreign xml:lang="grc">θεολογία</foreign>), read with a specially clear<ptr type="noteAnchor" xml:id="a4" target="#n4" n="4"/> mind <persName>Gregory</persName> the great among doctors and theologian (<foreign xml:lang="grc">θεολόγος</foreign>). But, if you also wish to burn in the spirit and to be outside the body and have the company of high and divine thoughts, fly and be lifted up by the help of the words of the God-clad <persName>Ignatius</persName>; singing to <persName>Christ</persName> with the holy <persName>David</persName> and saying, <quote>God is wonderful among his saints</quote><ptr type="noteAnchor" xml:id="a5" target="#n5" n="5"/>; and, begging of him, cry and say, <quote>Lord, through<ptr type="noteAnchor" xml:id="a6" target="#n6" n="6"/> their prayers have mercy upon us</quote>.</ab>
+        </div>
+      </div>
+      <noteGrp>
+        <note xml:id="n1" target="#a1" n="1"><choice><reg/><orig>p. 234, n. 7</orig></choice> Ps. xxxiv, 4.</note>
+        <note xml:id="n2" target="#a2" n="2"><choice><reg/><orig>p. 235, n. 1</orig></choice> Corr. <quote>be admitted to</quote>.</note>
+        <note xml:id="n3" target="#a3" n="3"><choice><reg/><orig>p. 235, n. 2</orig></choice> Corr. <quote>guide along</quote>.</note>
+        <note xml:id="n4" target="#a4" n="4"><choice><reg/><orig>p. 235, n. 3</orig></choice> Corr. <quote>attentive</quote>.</note>
+        <note xml:id="n5" target="#a5" n="5"><choice><reg/><orig>p. 235, n. 4</orig></choice> Id. lxviii, 36 LXX.</note>
+        <note xml:id="n6" target="#a6" n="6"><choice><reg/><orig>p. 235, n. 5</orig></choice> Corr. <quote>by</quote>.</note>
+      </noteGrp>
     </body>
   </text>
 </TEI>
